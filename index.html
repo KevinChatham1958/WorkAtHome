@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WAH Idea Database</title>
+<meta name="description" content="A searchable database of work-from-home business ideas, sourced from real videos, with honest write-ups and links back to the original creators.">
+<style>
+  :root {
+    --bg: #faf8f3;
+    --surface-1: #f1efe8;
+    --surface-2: #ffffff;
+    --border: #ddd9cc;
+    --text-primary: #2c2c2a;
+    --text-secondary: #5f5e5a;
+    --text-muted: #918e83;
+    --link: #1c5f8a;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    --font-serif: Georgia, "Times New Roman", serif;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+
+  header.site-header {
+    padding: 20px 20px 16px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface-2);
+  }
+  header.site-header .inner {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  header.site-header h1 {
+    font-family: var(--font-serif);
+    font-size: 24px;
+    margin: 0 0 2px;
+  }
+  header.site-header p {
+    margin: 0;
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+
+  .layout {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    gap: 0;
+    border: 1px solid var(--border);
+    border-top: none;
+    background: var(--surface-2);
+    min-height: 70vh;
+  }
+
+  /* Category rail */
+  .rail {
+    width: 190px;
+    flex-shrink: 0;
+    background: var(--surface-1);
+    border-right: 1px solid var(--border);
+    padding: 16px 0;
+  }
+  .rail .rail-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--text-muted);
+    padding: 0 16px 8px;
+  }
+  .rail .cat {
+    padding: 9px 16px;
+    font-size: 13px;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+    color: var(--text-secondary);
+  }
+  .rail .cat:hover { background: rgba(0,0,0,0.03); }
+  .rail .cat.active {
+    background: var(--surface-2);
+    border-left-color: var(--text-primary);
+    color: var(--text-primary);
+    font-weight: 500;
+  }
+  .rail-toggle {
+    display: none;
+  }
+
+  /* Main pane */
+  .main {
+    flex: 1;
+    min-width: 0;
+    padding: 18px 20px 40px;
+  }
+  .search-row {
+    position: sticky;
+    top: 0;
+    background: var(--surface-2);
+    z-index: 5;
+    padding-bottom: 10px;
+    margin-bottom: 4px;
+  }
+  .search-row .box { position: relative; margin-bottom: 6px; }
+  .search-row input {
+    width: 100%;
+    padding: 10px 12px 10px 34px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    font-size: 14px;
+    background: var(--surface-1);
+  }
+  .search-row input:focus { outline: 2px solid #b8863f; outline-offset: -1px; }
+  .search-row .icon {
+    position: absolute; left: 11px; top: 50%; transform: translateY(-50%);
+    font-size: 14px; color: var(--text-muted);
+  }
+  .meta-row { display: flex; justify-content: space-between; font-size: 12px; color: var(--text-muted); flex-wrap: wrap; gap: 4px; }
+  .meta-row a { color: var(--text-muted); text-decoration: underline; margin-left: 4px; cursor: pointer; }
+
+  .intro {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 14px 0 18px;
+    padding-bottom: 14px;
+    border-bottom: 1px dashed var(--border);
+  }
+
+  /* List rows - plain, uniform */
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    padding: 11px 4px;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+  }
+  .row:hover { background: rgba(0,0,0,0.02); }
+  .row .name { font-size: 14.5px; font-weight: 600; }
+  .row .meta { font-size: 12px; color: var(--text-muted); text-align: right; white-space: nowrap; flex-shrink: 0; }
+  .empty { padding: 2rem 4px; color: var(--text-secondary); font-size: 14px; }
+
+  /* Detail card - rich */
+  .back-link { font-size: 13px; color: var(--link); cursor: pointer; display: inline-flex; align-items: center; gap: 4px; margin-bottom: 14px; }
+  .card {
+    border-radius: 12px;
+    padding: 1.4rem 1.4rem 1.2rem 1.7rem;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-left: 5px solid var(--accent, #b8863f);
+    margin-bottom: 12px;
+  }
+  .card .eyebrow { font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 700; color: var(--accent, #b8863f); margin-bottom: 4px; }
+  .card h2 { font-size: 20px; margin: 0 0 10px; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+  .tag { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; background: color-mix(in srgb, var(--accent, #b8863f) 16%, var(--surface-1)); color: var(--accent, #b8863f); }
+  .section { margin-bottom: 16px; padding-bottom: 16px; border-bottom: 3px solid color-mix(in srgb, var(--accent, #b8863f) 28%, transparent); }
+  .section:last-of-type { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .label { font-size: 14px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.3px; color: var(--accent, #b8863f); margin-bottom: 6px; }
+  .body { font-size: 14px; line-height: 1.65; }
+  .lead { font-family: var(--font-serif); font-size: 16.5px; font-style: italic; line-height: 1.55; }
+  .source { margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--border); font-size: 12px; }
+  .source a { color: var(--link); word-break: break-all; }
+
+  .related-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.3px; margin: 16px 0 8px; }
+  .related-row { padding: 9px 12px; border: 1px solid var(--border); border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 500; margin-bottom: 6px; }
+  .related-row:hover { background: var(--surface-1); }
+  .related-row .cat-note { color: var(--text-muted); font-weight: 400; }
+
+  footer { max-width: 960px; margin: 0 auto; padding: 20px; font-size: 12px; color: var(--text-muted); text-align: center; }
+
+  @media (max-width: 720px) {
+    .layout { flex-direction: column; border: none; }
+    .rail {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+      padding: 8px 0;
+      display: none;
+    }
+    .rail.open { display: block; }
+    .rail-toggle {
+      display: block;
+      width: 100%;
+      text-align: left;
+      padding: 10px 16px;
+      font-size: 13px;
+      background: var(--surface-1);
+      border: none;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      color: var(--text-primary);
+    }
+    .main { padding: 14px 14px 30px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <h1>WAH Idea Database</h1>
+    <p>Work-from-home business ideas, pulled from real creator videos, written straight, always linked back to the source.</p>
+  </div>
+</header>
+
+<div class="layout">
+  <button class="rail-toggle" id="railToggle">Categories &#9662;</button>
+  <nav class="rail" id="rail">
+    <div class="rail-label">Categories</div>
+    <div id="catList"></div>
+  </nav>
+
+  <main class="main">
+    <div class="search-row">
+      <div class="box">
+        <span class="icon">&#128269;</span>
+        <input type="text" id="q" placeholder="Search for ideas" autocomplete="off">
+      </div>
+      <div class="meta-row">
+        <span id="count"></span>
+        <span>Popular: <span id="popular"></span></span>
+      </div>
+    </div>
+
+    <div id="pane"></div>
+  </main>
+</div>
+
+<footer>We watch dozens of work-from-home creators so you don't have to. Every entry links back to its original source.</footer>
+
+<script>
+const DATA_URL = 'ideas.json';
+let IDEAS = [];
+let activeCat = 'All ideas';
+let feed = [];
+
+const catListEl = document.getElementById('catList');
+const paneEl = document.getElementById('pane');
+const countEl = document.getElementById('count');
+const popEl = document.getElementById('popular');
+const input = document.getElementById('q');
+const rail = document.getElementById('rail');
+const railToggle = document.getElementById('railToggle');
+
+const POPULAR_SEARCHES = ["dropshipping", "no inventory", "AI tools", "printing", "low startup cost"];
+
+railToggle.addEventListener('click', () => rail.classList.toggle('open'));
+
+async function init() {
+  try {
+    const res = await fetch(DATA_URL);
+    IDEAS = await res.json();
+  } catch (e) {
+    paneEl.innerHTML = '<div class="empty">Could not load the idea database right now. Try refreshing the page.</div>';
+    return;
+  }
+  buildCategoryRail();
+  buildPopularSearches();
+  renderList();
+}
+
+function buildCategoryRail() {
+  const cats = ['All ideas', ...new Set(IDEAS.map(i => i.category))].sort((a, b) => a === 'All ideas' ? -1 : b === 'All ideas' ? 1 : a.localeCompare(b));
+  catListEl.innerHTML = '';
+  cats.forEach(c => {
+    const el = document.createElement('div');
+    el.className = 'cat' + (c === activeCat ? ' active' : '');
+    el.textContent = c;
+    el.dataset.cat = c;
+    el.addEventListener('click', () => {
+      activeCat = c;
+      feed = [];
+      [...catListEl.children].forEach(x => x.classList.toggle('active', x.dataset.cat === c));
+      rail.classList.remove('open');
+      renderList();
+    });
+    catListEl.appendChild(el);
+  });
+}
+
+function buildPopularSearches() {
+  popEl.innerHTML = '';
+  POPULAR_SEARCHES.forEach((term, idx) => {
+    const a = document.createElement('a');
+    a.textContent = term;
+    a.addEventListener('click', () => { input.value = term; renderList(); });
+    popEl.appendChild(a);
+    if (idx < POPULAR_SEARCHES.length - 1) popEl.appendChild(document.createTextNode(','));
+  });
+}
+
+function accentFor(category) {
+  const palette = ["#b8863f", "#6b8e6e", "#4d7ea8", "#a35d5d", "#8a6bab", "#3d8f8a", "#a3763f"];
+  const cats = [...new Set(IDEAS.map(i => i.category))];
+  const idx = cats.indexOf(category);
+  return palette[idx % palette.length] || "#b8863f";
+}
+
+function renderList() {
+  const f = input.value.toLowerCase();
+  const matches = IDEAS.filter(i =>
+    (activeCat === 'All ideas' || i.category === activeCat) &&
+    (!f || i.name.toLowerCase().includes(f) || (i.tags || []).join(' ').toLowerCase().includes(f) || i.what.toLowerCase().includes(f))
+  );
+  countEl.textContent = `${matches.length} idea${matches.length === 1 ? '' : 's'}`;
+  const introHtml = (!f && activeCat === 'All ideas') ? `<div class="intro"><strong>What this is:</strong> We watch dozens of work-from-home creators so you don't have to, then organize what they cover into short, honest write-ups, each linked back to the original video. Search above, pick a category, or just start scrolling.</div>` : '';
+  paneEl.innerHTML = introHtml + (matches.map(i => `
+    <div class="row" data-id="${i.id}">
+      <span class="name">${i.name}</span>
+      <span class="meta">${i.category} &middot; ${i.cost}</span>
+    </div>
+  `).join('') || '<div class="empty">No matches. Try a broader term.</div>');
+  paneEl.querySelectorAll('.row').forEach(row => {
+    row.addEventListener('click', () => {
+      const idea = IDEAS.find(x => x.id === row.dataset.id);
+      feed = [idea];
+      renderFeed();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  });
+}
+
+function pickRelated(current) {
+  const pool = IDEAS.filter(x => x.id !== current.id && !feed.includes(x));
+  const sameCat = pool.filter(x => x.category === current.category);
+  const other = pool.filter(x => x.category !== current.category);
+  sameCat.sort(() => Math.random() - 0.5);
+  other.sort(() => Math.random() - 0.5);
+  return [...sameCat.slice(0, 2), ...other.slice(0, 1)].sort(() => Math.random() - 0.5);
+}
+
+function detailCardHtml(i) {
+  const accent = accentFor(i.category);
+  const related = pickRelated(i);
+  return `
+    <div class="card" style="--accent:${accent}">
+      <div class="eyebrow">${i.category}</div>
+      <h2>${i.name}</h2>
+      <div class="tags">${(i.tags || []).map(t => `<span class="tag">${t}</span>`).join('')}<span class="tag">${i.cost}</span></div>
+      <div class="section"><div class="label">Where this idea came from</div><div class="body">${i.found}</div></div>
+      <div class="section"><div class="label">What is the gig</div><div class="lead">${i.what}</div></div>
+      <div class="section"><div class="label">The pitch</div><div class="body">${i.pitch}</div></div>
+      <div class="section"><div class="label">Best for</div><div class="body">${i.best}</div></div>
+      <div class="section"><div class="label">Our take, the truth</div><div class="body">${i.truth}</div></div>
+      <div class="source">Learn more, our source<br><a href="${i.url}" target="_blank" rel="noopener">${i.url}</a></div>
+    </div>
+    ${related.length ? `
+      <div class="related-label">More ideas like this</div>
+      ${related.map(r => `<div class="related-row" data-id="${r.id}">${r.name} <span class="cat-note">&middot; ${r.category}</span></div>`).join('')}
+    ` : ''}
+  `;
+}
+
+function renderFeed() {
+  paneEl.innerHTML = `<div class="back-link" id="backLink">&larr; Back to search results</div>` + feed.map(detailCardHtml).join('<div style="height:2px"></div>');
+  document.getElementById('backLink').addEventListener('click', () => { feed = []; renderList(); });
+  paneEl.querySelectorAll('.related-row').forEach(el => {
+    el.addEventListener('click', () => {
+      const idea = IDEAS.find(x => x.id === el.dataset.id);
+      feed.push(idea);
+      renderFeed();
+    });
+  });
+}
+
+input.addEventListener('input', () => { feed = []; renderList(); });
+
+init();
+</script>
+
+</body>
+</html>

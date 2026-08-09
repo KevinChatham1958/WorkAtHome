@@ -1,0 +1,794 @@
+[
+  {
+    "id": "fractional-executive-services",
+    "name": "Fractional executive services",
+    "category": "Local & professional services",
+    "tags": [
+      "consulting",
+      "executive",
+      "low startup cost",
+      "experience required"
+    ],
+    "cost": "Low startup cost",
+    "found": "David Heacock",
+    "what": "Offer part-time senior leadership, CFO, COO, or CMO, to businesses that need executive-level guidance but can't afford, or don't need, a full-time hire. You work with several clients at once, each paying a monthly retainer for a set number of hours or specific deliverables.",
+    "pitch": "Package your judgment into a recurring monthly fee, typically $5,000 to $15,000 per client, and take on 4 to 6 clients at once, which can add up to real six-figure annual income without hiring a team or building a product.",
+    "best": "Someone with a genuine, provable track record of running or operating a business, not someone who has only studied the theory of business strategy.",
+    "truth": "Heacock backs this up with his own real hiring experience, he's personally used a fractional CFO in his own businesses, so he's speaking from the buyer's side too, not just the seller's side. That's a real credibility signal. That said, landing the first client still requires real, sometimes slow, relationship-based sales, this isn't a fast-start idea, even if the eventual payoff is strong.",
+    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA"
+  },
+  {
+    "id": "compliance-risk-elimination-services",
+    "name": "Compliance and risk-elimination services",
+    "category": "Local & professional services",
+    "tags": [
+      "consulting",
+      "compliance",
+      "certification needed",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost",
+    "found": "David Heacock",
+    "what": "You become the specialized expert businesses pay to eliminate regulatory risk, things like product compliance certification, HIPAA compliance, OSHA workplace safety, or R&D tax credit paperwork. Done well, this work can save a company millions in fines or lawsuits; done poorly, it can cost them just as much.",
+    "pitch": "Heacock ranks this as his top category because it hits every trait that supports premium pricing at once: the work is recurring, it's genuinely painful for the business to do themselves, it's document-heavy, which plays well with AI-assisted tools, and, most importantly, the customer's name and reputation is on the line if it's done wrong. That combination means businesses will pay well above what the raw hours would suggest.",
+    "best": "Someone with real experience who is willing to specialize deeply in one regulatory area rather than staying a generalist.",
+    "truth": "In the video, Heacock uses a real anecdote to ground the pitch, he mentions paying $33,600 for this kind of service himself, which shows he's speaking from firsthand experience as a buyer. But when he ranks this category as the single best remote business opportunity, that ranking is his own opinion, not an audited industry statistic.",
+    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA"
+  },
+  {
+    "id": "ai-ghostwriting",
+    "name": "AI ghostwriting",
+    "category": "Marketing & content",
+    "tags": [
+      "writing",
+      "AI tools",
+      "beginner friendly",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost",
+    "found": "Mark Tilbury and Iman Gadzhi (covered independently by both)",
+    "what": "You use AI tools like Claude, paired with a research tool, to write LinkedIn posts, email newsletters, and ad copy on behalf of founders and creators who know they should be publishing content but don't have time to write it themselves.",
+    "pitch": "The AI does the heavy lifting, drafting research and a first pass at the writing, while you focus on making it sound like the actual client, not a generic AI voice. Tilbury recommends picking one niche so clients see you as a specialist worth paying more for. Gadzhi covers the same idea independently and rates it a solid, if competitive, option.",
+    "best": "Someone who already writes reasonably well and is comfortable using AI to speed up research and a first draft, without expecting the AI to replace their own judgment and editing.",
+    "truth": "Tilbury is fairly upfront that AI only gets you about 75% of the way there, the research and a rough draft. The remaining 25%, taste, editing, knowing what the client would actually say, is a real editorial skill this doesn't remove. Gadzhi's independent take echoes the same caution: results can go well or badly depending on that missing piece.",
+    "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI"
+  },
+  {
+    "id": "ai-landing-pages-websites",
+    "name": "AI landing pages and websites for local businesses",
+    "category": "Marketing & content",
+    "tags": [
+      "web design",
+      "AI tools",
+      "local business",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost",
+    "found": "Mark Tilbury and Iman Gadzhi (covered independently by both)",
+    "what": "Build high-converting landing pages, single-page sites designed to sell one thing, for course creators, coaches, agencies, or local businesses, using AI website builders like Wix or Hostinger.",
+    "pitch": "AI now handles most of the design work, so the real value you're selling is a page that actually converts visitors into customers, not just one that looks nice. Both creators independently rate this a reasonable, moderate-competition entry point.",
+    "best": "Someone who's comfortable pitching outcomes, more leads, more sales, rather than just design work, since that's what separates this from a commodity service.",
+    "truth": "Gadzhi's independent framing puts it plainly: the mistake most people make is selling pretty pages instead of outcomes. Tilbury's version agrees the AI does most of the visual work, but making a page that actually converts is still a real skill the tool doesn't hand you automatically.",
+    "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI"
+  },
+  {
+    "id": "ai-shopify-dropshipping",
+    "name": "AI-built Shopify store and dropshipping",
+    "category": "E-commerce",
+    "tags": [
+      "dropshipping",
+      "AI tools",
+      "needs ad budget"
+    ],
+    "cost": "Needs ongoing ad budget",
+    "found": "Mark Tilbury and Iman Gadzhi (covered independently by both)",
+    "what": "An AI tool auto-builds a Shopify store, picks a niche, and a sourcing tool like AutoDS finds, prices, and ships the products, so the store runs with very little manual work.",
+    "pitch": "The pitch is speed: a real, live store can be running the same day, with AI handling design, product selection, and fulfillment.",
+    "best": "Someone with real advertising budget to spend and the patience to iterate on ad campaigns, since that's where the actual work and cost live, not the store setup.",
+    "truth": "Worth knowing upfront: Tilbury's segment on this is sponsored by the sourcing tool he's demonstrating, so treat the enthusiasm with a grain of salt. Gadzhi's independent take is more blunt, he describes the core dropshipping problems as unchanged by AI and calls it a race to the bottom on margins. Ongoing ad spend is a real, recurring cost this idea doesn't avoid.",
+    "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI"
+  },
+  {
+    "id": "ai-app-building",
+    "name": "AI app building for businesses or your own product",
+    "category": "AI & automation",
+    "tags": [
+      "app development",
+      "AI tools",
+      "technical comfort needed"
+    ],
+    "cost": "Low startup cost",
+    "found": "Mark Tilbury and Iman Gadzhi (covered independently by both)",
+    "what": "Use no-code AI app builders like Lovable or Emergent to build and sell simple apps to businesses, or launch your own small subscription app, without traditional coding skills.",
+    "pitch": "You describe the app you want in plain language and watch the AI write the code. Both creators demonstrate building something functional in a single sitting.",
+    "best": "Someone comfortable with trial-and-error debugging, since getting from a rough demo to something clients would actually pay for takes real iteration.",
+    "truth": "Tilbury shows a genuinely rough, unpolished first attempt rather than a highlight reel, which is a good transparency signal. Gadzhi's independent take agrees the upside is real but flags that managing client expectations and ongoing bugs is the harder, less glamorous part of this business.",
+    "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI"
+  },
+  {
+    "id": "ai-voice-agent-receptionist",
+    "name": "AI voice agent and receptionist services for local businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "local business",
+      "recurring revenue",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost",
+    "found": "Mark Tilbury and Dan Martell (covered independently by both)",
+    "what": "Build an AI phone receptionist that answers calls, books appointments, and captures leads for local businesses like dentists, salons, or plumbers, then charge a monthly fee to keep it running.",
+    "pitch": "Small businesses miss a large share of incoming calls every day, and most owners don't know AI receptionist tools exist yet. Martell packages this as a productized service with three pricing tiers, a lower-cost DIY option, a core service, and a premium full-service tier, a structure designed to make the middle option feel like the obvious choice.",
+    "best": "Someone comfortable with sales and cold outreach, since both creators agree the real bottleneck is finding the first few clients, not building the tool.",
+    "truth": "Tilbury shows a live demo call so you can hear exactly what the tool sounds like to a customer, a useful transparency touch. Martell's version is framed as his own recommended approach rather than a personally verified case study. Worth knowing: some experienced marketers have noted that as more people enter this exact space, standing out gets harder over time, so early movers likely have an easier time than someone starting today.",
+    "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI"
+  },
+  {
+    "id": "ai-lead-generation",
+    "name": "AI-powered lead generation for businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "sales",
+      "local business",
+      "low startup cost"
+    ],
+    "cost": "Low to moderate startup cost",
+    "found": "Iman Gadzhi",
+    "what": "Use AI tools to find and qualify sales leads for businesses, then sell the qualified prospect list or contact information directly to companies who need new customers.",
+    "pitch": "This is directly tied to revenue for the buyer, a business can immediately see whether the leads you're providing turn into sales, which makes it easier to justify paying for.",
+    "best": "Someone with sales or marketing instincts who's comfortable proving results with real numbers rather than promises.",
+    "truth": "Gadzhi rates this his top tier, calling it a real business need, not hype. Worth knowing: this is a mature, well-established category, meaning there's real competition already in the space, and some practitioners report that certain traditional lead-generation tactics have grown less effective as more operators have entered the market in recent years. A differentiated approach matters more here than in newer AI categories.",
+    "url": "https://www.youtube.com/watch?v=q1g65sjQI-4"
+  },
+  {
+    "id": "ai-automation-agency",
+    "name": "AI automation agency",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "consulting",
+      "local business",
+      "technical comfort needed"
+    ],
+    "cost": "Low to moderate startup cost",
+    "found": "Iman Gadzhi",
+    "what": "Build backend automation systems, beyond just phone calls, things like workflow automation, data syncing, or repetitive task elimination, that replace manual work for businesses.",
+    "pitch": "This is pitched as the higher-ticket version of AI services: rather than one tool doing one job, you're diagnosing a business's operational pain points and building a broader system, which supports charging more per client.",
+    "best": "Someone comfortable with more technical, hands-on implementation work than a simple one-tool service, and who enjoys diagnosing a business's specific bottlenecks.",
+    "truth": "Gadzhi is candid that the real need is genuine and the upside is there, but execution and managing multiple moving systems for a client can get tricky in ways a simpler single-tool service doesn't.",
+    "url": "https://www.youtube.com/watch?v=q1g65sjQI-4"
+  },
+  {
+    "id": "ai-chatbots",
+    "name": "AI chatbots for support and sales",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "local business",
+      "beginner friendly"
+    ],
+    "cost": "Low startup cost",
+    "found": "Iman Gadzhi",
+    "what": "Build support or sales chatbots for businesses to handle repetitive customer questions on their website or messaging channels.",
+    "pitch": "A lower-complexity entry point into AI services compared to voice agents or full automation systems, since chatbot-building tools have become fairly plug-and-play.",
+    "best": "Someone looking for the simplest, fastest entry point into selling AI tools to businesses, even if it means lower differentiation.",
+    "truth": "Gadzhi is fairly blunt here: he considers this overhyped and easy to commoditize, meaning a lot of people offer a very similar product, which puts downward pressure on what you can charge.",
+    "url": "https://www.youtube.com/watch?v=q1g65sjQI-4"
+  },
+  {
+    "id": "amazon-kdp-coloring-books",
+    "name": "Amazon KDP AI-generated coloring books",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "AI tools",
+      "very low startup cost",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Baddie in Business",
+    "what": "You use an AI tool to generate a complete coloring book, illustrations, layout, and cover, then publish it as a physical, print-on-demand book through Amazon's KDP platform, with no inventory to manage yourself.",
+    "pitch": "The appeal here is speed and cost: the presenter walks through building an entire book in one sitting using free AI tools, meaning you can have a real, purchasable physical product live on Amazon the same day, for close to zero upfront cost.",
+    "best": "Someone who wants a very cheap, very fast way to test whether they enjoy print-on-demand publishing, without committing much money or time to find out.",
+    "truth": "The income claims in the video, $500 to $1,000 a month per book, aren't backed up with any account screenshots or sales data, they're stated, not shown. Coloring books are also a fairly crowded category on Amazon, so a lot of the real work is picking a niche or theme that isn't already saturated.",
+    "url": "https://www.youtube.com/watch?v=2TnzXTzJ-N4"
+  },
+  {
+    "id": "amazon-kdp-validation-method",
+    "name": "A validation trick for any Amazon KDP book idea",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "research method",
+      "near-zero cost"
+    ],
+    "cost": "Near-zero cost",
+    "found": "Sean Dollwet",
+    "what": "Before writing any book, check the Amazon Best Sellers Rank (BSR) of similar, already-published books in that topic. A BSR under roughly 80,000 signals there's real, ongoing demand for that kind of book, worth knowing before you invest the time to write one.",
+    "pitch": "This isn't a business on its own, it's a simple, free way to de-risk any print-on-demand book idea, coloring books included, before spending time on it.",
+    "best": "Anyone considering the Amazon KDP coloring book idea, or any similar print-on-demand book concept, who wants a cheap gut-check before committing time.",
+    "truth": "The presenter also promotes a paid AI writing tool alongside this technique, but the validation method itself works fine using just a free Chrome extension and Amazon's own listings.",
+    "url": "https://www.youtube.com/watch?v=vhuo0A7Oy74"
+  },
+  {
+    "id": "commercial-cleaning-business",
+    "name": "Commercial cleaning and janitorial services business",
+    "category": "Local & professional services",
+    "tags": [
+      "service business",
+      "very low startup cost",
+      "needs a team"
+    ],
+    "cost": "Very low startup cost",
+    "found": "David Heacock interviewing John Torres",
+    "what": "You bid for and win commercial cleaning contracts, office buildings, medical buildings, and similar, then hire and train a local cleaning team to actually do the work, using checklists and photo verification so quality stays consistent even though you're not the one cleaning.",
+    "pitch": "The real story here is how little it took to start: John Torres began with just a $300 LLC filing fee after going through a personal bankruptcy, and scaled the business to $2.4 million a year in revenue and roughly $600,000 a year in profit within a few years, largely by winning referral-based portfolio contracts, where one satisfied client's referral led to 10 or 12 additional buildings at once.",
+    "best": "Someone who's comfortable with sales and managing people, even if they never personally clean a building. This is fundamentally a systems-and-people business, not a cleaning business.",
+    "truth": "This is one of the more transparent stories in this database, Torres shares real numbers and includes a real downside, a contractor who stole $55,000 from the business at one point, rather than only showing the highlight reel. The model does depend on hiring and trusting a local team on the ground.",
+    "url": "https://www.youtube.com/watch?v=xEwO__X9FTI"
+  },
+  {
+    "id": "snail-mail-subscription-club",
+    "name": "Snail mail subscription club",
+    "category": "Digital & subscription products",
+    "tags": [
+      "subscription",
+      "creative",
+      "very low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Chris Koerner",
+    "what": "A paid physical-letter subscription, around $10 a month, where a creator writes and mails personal letters, recipes, or art to subscribers each month, no email newsletter, actual physical mail.",
+    "pitch": "One cited example grew to $60,000 in monthly recurring revenue within 7 months, built entirely through organic short-form video, with no pre-existing following required.",
+    "best": "Someone with a genuine creative hook or personality who enjoys the tactile, personal-touch side of a subscription business.",
+    "truth": "The numbers given are specific and credible, 2% churn, the first 1,500 customers coming from a single viral video, which is a good sign. Reliably mailing physical letters at scale, especially internationally, adds real cost and delivery-time considerations most digital subscriptions don't have.",
+    "url": "https://www.youtube.com/watch?v=SUYBggpA3ZU"
+  },
+  {
+    "id": "wall-printer-mural-service",
+    "name": "Wall printer mural service for businesses",
+    "category": "Physical & print products",
+    "tags": [
+      "printing",
+      "equipment needed",
+      "high margin"
+    ],
+    "cost": "$4,000 to $16,000 for equipment",
+    "found": "Chris Koerner",
+    "what": "Own a mobile large-format printer that prints murals and graphics directly onto walls for businesses like restaurants and offices.",
+    "pitch": "The margins here are unusually high, roughly $8 in ink materials for an $800 job, and the presenter frames this as a still-early, undereducated market where few competitors have caught on yet.",
+    "best": "Someone with a print or design background who's comfortable investing in equipment and doing on-site work for local business clients.",
+    "truth": "The cost and margin figures given are specific and checkable, which is a good sign. This does require physically operating the printer on-site at each client's location, so it isn't a fully remote business.",
+    "url": "https://www.youtube.com/watch?v=SUYBggpA3ZU"
+  },
+  {
+    "id": "reselling-liquidation-goods",
+    "name": "Reselling liquidation and returned goods",
+    "category": "E-commerce",
+    "tags": [
+      "reselling",
+      "wholesale",
+      "needs storage"
+    ],
+    "cost": "A few hundred to a few thousand dollars per batch",
+    "found": "Chris Koerner",
+    "what": "Buy liquidation or customer-returned goods in bulk from sites like B-Stock or GovDeals, then resell them individually on Facebook Marketplace or similar for a markup.",
+    "pitch": "A cited example bought refrigerators at $34 each from a liquidation pallet and resold them near retail price, a large, straightforward markup.",
+    "best": "Someone with storage space and the patience to sort, test, and individually resell a batch of mixed-condition goods.",
+    "truth": "The specific per-unit numbers given are believable but anecdotal, not an audited business record. This requires physical local storage and the ability to receive, inspect, and hand off items to buyers in person.",
+    "url": "https://www.youtube.com/watch?v=SUYBggpA3ZU"
+  },
+  {
+    "id": "single-product-niche-ecommerce",
+    "name": "Single-product niche e-commerce",
+    "category": "E-commerce",
+    "tags": [
+      "e-commerce",
+      "SEO",
+      "needs product sourcing"
+    ],
+    "cost": "Varies, product sourcing and inventory cost",
+    "found": "Tim Richard",
+    "what": "Build a brand around one physical product by targeting a high-demand, low-SEO-competition keyword niche, rather than competing in a crowded general category.",
+    "pitch": "Several real examples are cited doing $80,000 to $600,000-plus a month by finding an underserved keyword niche and building the whole store around ranking for it, using tools like Ahrefs to spot the opportunity.",
+    "best": "Someone comfortable with keyword research and content strategy who's also willing to handle physical product sourcing and fulfillment.",
+    "truth": "The presenter explicitly caveats that these figures are estimates from public traffic data, not verified financials, and reminds viewers no results are guaranteed. The keyword-research method is genuinely teachable and useful even if the specific revenue numbers should be taken with caution.",
+    "url": "https://www.youtube.com/watch?v=Z0YOWKKNSU0"
+  },
+  {
+    "id": "print-on-demand-tshirts",
+    "name": "Print-on-demand t-shirt business",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "apparel",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "UpFlip",
+    "what": "A print-on-demand apparel business built around niche-specific t-shirt designs, using a fulfillment partner for printing and shipping so you never hold inventory.",
+    "pitch": "One case study claims over $1 million in revenue in its first year, though only after 10 earlier failed store attempts and a period of significant personal debt from other failed businesses.",
+    "best": "Someone prepared for a real trial-and-error phase, this isn't presented as a first-try success story.",
+    "truth": "The arc shown, many failures followed by success, suggests real survivorship bias in what's highlighted, the failed attempts aren't detailed. Worth weighing that against the low-effort framing implied by a headline like this.",
+    "url": "https://www.youtube.com/watch?v=aHUB5HH-BRk"
+  },
+  {
+    "id": "bookkeeping-payroll-services",
+    "name": "AI-leveraged bookkeeping and payroll services",
+    "category": "Local & professional services",
+    "tags": [
+      "consulting",
+      "AI tools",
+      "recurring revenue",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost, software subscriptions only",
+    "found": "David Heacock",
+    "what": "Document-heavy, recurring back-office services, bookkeeping, medical billing, or payroll, where AI now handles much of the document processing, letting one person serve more clients than before. No accounting license is required, just tool fluency and a chosen niche.",
+    "pitch": "This work is recurring by nature, businesses need it every month, not once, and AI tools have lowered the manual workload significantly compared to a few years ago.",
+    "best": "Someone comfortable learning bookkeeping or payroll software and who wants steady, recurring client relationships over flashier project work.",
+    "truth": "This is a solid, learnable option, though it's more operational than strategic compared to something like fractional executive work. It requires real comfort with financial recordkeeping, not just general business sense.",
+    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA"
+  },
+  {
+    "id": "ai-clipping",
+    "name": "AI clipping for creators",
+    "category": "Marketing & content",
+    "tags": [
+      "content creation",
+      "AI tools",
+      "very low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Mark Tilbury",
+    "what": "Cut creators' long-form videos into short clips using AI editing tools, post them to TikTok and Reels, and get paid per view through marketplaces like Content Rewards.",
+    "pitch": "Big creators have hours of unused footage sitting around, and short clips are the easiest way for them to reach new fans, so they'll pay you for posting clips that gain traction.",
+    "best": "Someone looking for the lowest possible barrier to entry, more as a way to learn content and AI tools than as a long-term income plan.",
+    "truth": "Tilbury is direct about this one: competition is very high, because it's this easy to start, everyone jumps in. Most people quit within a week or two, so simple consistency puts you ahead of most, but the ceiling on income is modest.",
+    "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI"
+  },
+  {
+    "id": "ai-avatars",
+    "name": "AI avatars and virtual influencers",
+    "category": "Content & personal brand",
+    "tags": [
+      "AI tools",
+      "content creation",
+      "needs long-term commitment"
+    ],
+    "cost": "Low startup cost, high time investment",
+    "found": "Mark Tilbury",
+    "what": "Build a photorealistic AI-generated person using tools like Higsfield, then use that character to sell products or build a following as an AI influencer, earning through sponsorships and affiliate income.",
+    "pitch": "AI avatars remove the usual friction of being an influencer, no filming yourself, no bad hair days. Tilbury demonstrates that the avatar generation itself takes only minutes.",
+    "best": "Someone who's genuinely comfortable with a multi-month content and audience-building project, since the avatar is just the starting point.",
+    "truth": "Building the avatar is fast, but Tilbury is upfront that developing a consistent character, engaging content, and an actual audience is a much longer process, likely months, not days. This is closer to a content-creator business than a quick service.",
+    "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI"
+  },
+  {
+    "id": "ai-ugc-content",
+    "name": "AI-assisted UGC content for brands",
+    "category": "Marketing & content",
+    "tags": [
+      "content creation",
+      "AI tools",
+      "on-camera"
+    ],
+    "cost": "Low startup cost",
+    "found": "Iman Gadzhi",
+    "what": "Create authentic-feeling, user-generated-style content for brands using AI tools to speed up production, then get paid per piece or on performance.",
+    "pitch": "Brands increasingly want content that feels like a real customer made it, not a polished ad, and AI tools can speed up producing that at volume.",
+    "best": "Someone comfortable being on camera or producing personality-driven content, since authenticity is the entire value proposition here.",
+    "truth": "Gadzhi notes this genuinely lives or dies on how authentic the content feels, if it reads as generic or AI-generated, it loses its whole purpose. That's a real skill, not just a tool you can turn on.",
+    "url": "https://www.youtube.com/watch?v=q1g65sjQI-4"
+  },
+  {
+    "id": "ai-digital-products",
+    "name": "AI-assisted digital products, ebooks, templates, and courses",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "AI tools",
+      "needs audience"
+    ],
+    "cost": "Low startup cost",
+    "found": "Iman Gadzhi",
+    "what": "Use AI to help create and sell digital products, ebooks, templates, guides, or mini-courses, solving a specific, narrow problem for a specific audience.",
+    "pitch": "Digital products can scale without any per-unit cost once built, and AI substantially speeds up the actual creation process.",
+    "best": "Someone who already has, or is willing to build, an audience or niche to sell into, since a great product with no one to sell it to won't generate income.",
+    "truth": "Worth knowing: the presenter covering this idea discloses he's a co-owner of a platform in this exact space, which is a real conflict of interest worth factoring in when weighing how enthusiastically it's presented.",
+    "url": "https://www.youtube.com/watch?v=q1g65sjQI-4"
+  },
+  {
+    "id": "ai-video-editing",
+    "name": "AI-assisted video editing for creators and brands",
+    "category": "Marketing & content",
+    "tags": [
+      "video editing",
+      "AI tools",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost",
+    "found": "Iman Gadzhi",
+    "what": "Offer video editing services to creators and brands, using AI tools to speed up cuts, captions, and repurposing footage into multiple formats.",
+    "pitch": "AI has significantly lowered the skill floor for competent video editing, making this an accessible service to offer even without a traditional editing background.",
+    "best": "Someone looking for a straightforward, in-demand service with a short learning curve.",
+    "truth": "Because the tools have made this easy to learn, it's also easy to copy, Gadzhi frames it plainly as a race to the bottom on pricing unless you find a way to specialize or work with higher-value clients.",
+    "url": "https://www.youtube.com/watch?v=q1g65sjQI-4"
+  },
+  {
+    "id": "ai-print-on-demand",
+    "name": "AI-designed print-on-demand products",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "AI tools",
+      "very low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Iman Gadzhi",
+    "what": "Use AI to generate designs for shirts, mugs, and posters, then sell them through print-on-demand platforms with no inventory held.",
+    "pitch": "Extremely low barrier to entry: no design skill and no upfront inventory investment required to get a product listed.",
+    "best": "Someone testing the waters of e-commerce with essentially no money at risk, rather than expecting significant income from it.",
+    "truth": "Worth knowing this one is rated at the bottom of the presenter's own list, he calls it brutally competitive with no real moat, closer to a gimmick than a serious business, despite how easy it is to start.",
+    "url": "https://www.youtube.com/watch?v=q1g65sjQI-4"
+  },
+  {
+    "id": "freelance-graphic-design",
+    "name": "Freelance graphic design",
+    "category": "Marketing & content",
+    "tags": [
+      "design",
+      "freelance",
+      "needs skill-building"
+    ],
+    "cost": "Low startup cost, software subscriptions",
+    "found": "DEEPAK BAJAJ",
+    "what": "Offer freelance graphic design services, logos, marketing materials, social graphics, to businesses and individuals through platforms like Fiverr or Upwork.",
+    "pitch": "A well-established, recognizable freelance category with a clear path to finding clients through existing marketplaces.",
+    "best": "Someone with some visual design instinct, or willing to genuinely learn design software rather than relying on AI shortcuts alone.",
+    "truth": "This is a generic overview without specific figures or a personal case study behind it, treat it as a reasonable starting point rather than a proven playbook.",
+    "url": "https://www.youtube.com/watch?v=Kim-esfsBUE"
+  },
+  {
+    "id": "commission-sales-affiliate",
+    "name": "Commission sales and affiliate marketing",
+    "category": "Marketing & content",
+    "tags": [
+      "sales",
+      "affiliate marketing",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost",
+    "found": "DEEPAK BAJAJ",
+    "what": "Sell other companies' products for a commission, through social media, a blog, or direct referrals, using programs like Amazon Associates or similar affiliate networks.",
+    "pitch": "A straightforward, low-barrier way to earn without creating your own product, you're paid for driving a sale, not for building anything from scratch.",
+    "best": "Someone comfortable with direct selling or persuasive communication, since results depend heavily on your own reach and credibility.",
+    "truth": "Presented generically with no specific income figures, this is a well-established model, but success varies enormously based on audience size and niche, results here are far from guaranteed or typical.",
+    "url": "https://www.youtube.com/watch?v=Kim-esfsBUE"
+  },
+  {
+    "id": "productized-consulting-6ps",
+    "name": "A framework for building a productized consulting business",
+    "category": "Marketing & content",
+    "tags": [
+      "consulting",
+      "methodology",
+      "framework"
+    ],
+    "cost": "Low startup cost, time-intensive",
+    "found": "Ali Abdaal",
+    "what": "A 5-phase roadmap for building a solopreneur consulting or service business: identify a marketable skill, validate demand through direct conversations, then build and sell an offer using a structured framework called the '6 Ps', Person, Problem, Promise, Plan, Product, Price.",
+    "pitch": "Rather than guessing what to build, this approach validates demand through 10 to 20 real conversations with potential clients before building anything, aiming for a minimum offer price of around $2,000.",
+    "best": "Anyone considering a consulting or service-based business, regardless of the specific skill, this is a general launch process, not a specific idea.",
+    "truth": "Presented as the creator's own general model and timeline, not a personally verified case study for this exact path. The direct-conversation validation step is a genuinely sound, low-risk practice worth borrowing for almost any service idea.",
+    "url": "https://www.youtube.com/watch?v=XIhc7_Ptrpk"
+  },
+  {
+    "id": "amazon-wholesale-reselling",
+    "name": "Amazon wholesale reselling",
+    "category": "E-commerce",
+    "tags": [
+      "reselling",
+      "Amazon FBA",
+      "needs capital"
+    ],
+    "cost": "$3,000 to $5,000 minimum to start meaningfully",
+    "found": "Daejin Park",
+    "what": "Buy products at wholesale or distributor pricing, then list and sell them on Amazon FBA, earning the difference between your cost and the sale price.",
+    "pitch": "A real, detailed case is presented reaching $12 to $20 million a year in sales, with specific numbers on margins and overhead shared openly.",
+    "best": "Someone with real starting capital and the patience to navigate Amazon's seller policies and account management.",
+    "truth": "One of the more transparent accounts in this database, it includes a real downside, an account freeze from an intellectual-property complaint, rather than only the highlight numbers. This requires meaningful upfront capital and, in most cases, access to U.S. warehousing or fulfillment logistics.",
+    "url": "https://www.youtube.com/watch?v=8QkMRe_-Q6U"
+  },
+  {
+    "id": "multi-channel-youtube-adsense",
+    "name": "Running several small YouTube channels for combined ad income",
+    "category": "Content & personal brand",
+    "tags": [
+      "YouTube",
+      "AdSense",
+      "realistic income"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Cintika tube",
+    "what": "Rather than building one large channel, run several small, niche YouTube channels at once, each earning modest AdSense income, which together add up to a livable income.",
+    "pitch": "This account is unusually transparent, showing real, fluctuating, modest numbers per channel rather than a single hyped success story.",
+    "best": "Someone drawn to content creation who values honesty over hype, and who's comfortable with a modest, steady income rather than betting on one channel going viral.",
+    "truth": "This is one of the most credible, non-hyped accounts in this database precisely because the numbers shown are unglamorous and specific. It's still a content and media business requiring ongoing production, not a passive setup.",
+    "url": "https://www.youtube.com/watch?v=eJqTCBHR0BY"
+  },
+  {
+    "id": "youtube-coaching-niche-experts",
+    "name": "Coaching existing YouTubers on monetization and growth",
+    "category": "Marketing & content",
+    "tags": [
+      "coaching",
+      "YouTube",
+      "needs existing expertise"
+    ],
+    "cost": "Low startup cost, needs your own credibility",
+    "found": "Shane Hummus",
+    "what": "Coach existing YouTubers who already have an audience and expertise on monetization, operations, and hiring, packaged as a paid course plus coaching program.",
+    "pitch": "A case study is presented claiming to have helped scale a client's channel income from $30,000 to $600,000 a month.",
+    "best": "Someone who already has real, demonstrable expertise in a specific area of business or content growth to coach others in.",
+    "truth": "This case study comes from the coach's own paying client, told from a promotional angle, and the figures aren't independently verified. It's a legitimate model, but building a coaching business requires you to already have credibility in a specific niche, which isn't something this idea creates for you.",
+    "url": "https://www.youtube.com/watch?v=Ofh6AVp0k9E"
+  },
+  {
+    "id": "micro-cult-messaging",
+    "name": "A copywriting technique for selling without cold calls",
+    "category": "Marketing & content",
+    "tags": [
+      "copywriting",
+      "marketing skill",
+      "methodology"
+    ],
+    "cost": "No cost, a skill to learn",
+    "found": "Tom Youngs",
+    "what": "A messaging framework for selling high-ticket services through content rather than cold outreach: use language that mirrors a prospect's actual internal thoughts, which naturally repels the wrong-fit leads, addresses common fears, and invites, rather than pressures, the right ones to buy.",
+    "pitch": "Rather than a hard sales pitch, this approach lets well-written content do the selling, so by the time someone reaches out, they're already convinced.",
+    "best": "Anyone selling a service through content marketing who wants to reduce reliance on cold outreach or sales calls, this is a technique to apply, not a business on its own.",
+    "truth": "The presenter is reasonably transparent about his own mistakes along the way rather than presenting only a polished success story, which is a good sign for how much to trust the advice.",
+    "url": "https://www.youtube.com/watch?v=CS9M9w9xIg0"
+  },
+  {
+    "id": "atm-business",
+    "name": "ATM placement business",
+    "category": "Local & professional services",
+    "tags": [
+      "physical business",
+      "needs US presence",
+      "passive income"
+    ],
+    "cost": "About $2,000 or more per machine",
+    "found": "David Heacock",
+    "what": "Buy and place ATM machines in local businesses like nail salons or convenience stores, earning a fee on every transaction, and scale by adding more machines over time.",
+    "pitch": "A real example is cited of someone turning a $2,100 first machine into an $8 million a year company over time.",
+    "best": "Someone based in the U.S. who's comfortable with local relationship-building and doesn't mind managing physical equipment across multiple sites.",
+    "truth": "This relies on a single case study, which may not be typical, and it requires physically placing and maintaining machines in person, so it isn't a remote or location-independent business.",
+    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA"
+  },
+  {
+    "id": "laundromat",
+    "name": "Laundromat ownership",
+    "category": "Local & professional services",
+    "tags": [
+      "physical business",
+      "needs US presence",
+      "needs significant capital"
+    ],
+    "cost": "Often $200,000 or more, real estate and equipment",
+    "found": "David Heacock",
+    "what": "Own and operate a coin- or card-operated laundromat, cited as having a notably high industry success rate compared to many small businesses.",
+    "pitch": "Presented as an unusually resilient business category, with recurring, predictable local demand.",
+    "best": "Someone with substantial capital and interest in owning real estate-backed, physical local businesses.",
+    "truth": "The success-rate statistic given isn't sourced, so treat it as a general claim rather than a verified figure. This requires major upfront capital and hands-on local presence, it's a serious business investment, not a low-cost side project.",
+    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA"
+  },
+  {
+    "id": "equipment-rental-business",
+    "name": "Equipment rental business",
+    "category": "Local & professional services",
+    "tags": [
+      "physical business",
+      "needs US presence",
+      "needs significant capital"
+    ],
+    "cost": "Often $50,000 to $100,000 or more per piece of equipment",
+    "found": "David Heacock",
+    "what": "Buy commercial or industrial equipment, like compressors, and rent it out to businesses that need it temporarily rather than owning it themselves.",
+    "pitch": "Presented as tax-efficient, since equipment can typically be fully depreciated, alongside steady rental income.",
+    "best": "Someone with real capital to deploy and existing relationships or knowledge in a specific trade or industry.",
+    "truth": "Grounded in the presenter's own real business experience with equipment needs, which lends some credibility. This requires meaningful capital and local delivery logistics, not a low-cost entry point.",
+    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA"
+  },
+  {
+    "id": "hvac-trade-service",
+    "name": "HVAC or trade service business",
+    "category": "Local & professional services",
+    "tags": [
+      "skilled trade",
+      "needs US presence",
+      "needs training"
+    ],
+    "cost": "Low to start once trained, scales with team size",
+    "found": "David Heacock",
+    "what": "Learn a trade, HVAC specifically in this example, through trade school or working for an established operator, then start a capital-light local service business.",
+    "pitch": "Framed as genuinely capital-light once you have the skill, since the barrier is training and licensing, not equipment or inventory.",
+    "best": "Someone willing to invest real time learning a hands-on trade from the ground up before starting the business side.",
+    "truth": "Grounded in the presenter's own real HVAC business, which is a credibility positive. This requires physical presence, hands-on trade training, and typically licensing, a genuine skill investment before any income starts.",
+    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA"
+  },
+  {
+    "id": "tow-truck-service",
+    "name": "Emergency tow truck service",
+    "category": "Local & professional services",
+    "tags": [
+      "physical business",
+      "needs US presence",
+      "needs equipment"
+    ],
+    "cost": "Cost of a tow truck, often tens of thousands of dollars",
+    "found": "David Heacock",
+    "what": "Provide towing services, particularly for large commercial trucks, in an underserved local area, with the potential to scale by adding more trucks over time.",
+    "pitch": "Framed as high margin in underserved local markets, with real upside as you add equipment.",
+    "best": "Someone based locally with access to specialized equipment financing and a genuine underserved market to enter.",
+    "truth": "Based on a single local anecdote rather than a broadly verified model, results likely vary a great deal by local market. This requires real equipment investment and physical local presence.",
+    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA"
+  },
+  {
+    "id": "waste-management-business",
+    "name": "Waste management and trash collection",
+    "category": "Local & professional services",
+    "tags": [
+      "physical business",
+      "needs US presence",
+      "needs significant capital"
+    ],
+    "cost": "Very high to compete at meaningful scale",
+    "found": "David Heacock",
+    "what": "A local trash collection service, cited alongside the example of a company that grew from a small local operator into a multi-billion-dollar public company through acquisitions and underserved local niches.",
+    "pitch": "Framed as a durable, essential-service category with real long-term growth potential through acquisition.",
+    "best": "Someone thinking in terms of years, not months, with access to significant capital or financing for growth.",
+    "truth": "The example used is an extreme outlier, a multi-billion-dollar public company, not representative of what a typical entrant should expect. This is a large-scale, capital-intensive undertaking, not an accessible starting point for most people.",
+    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA"
+  },
+  {
+    "id": "tote-rental-business",
+    "name": "Moving tote rental business",
+    "category": "Local & professional services",
+    "tags": [
+      "physical business",
+      "needs US presence",
+      "low startup cost"
+    ],
+    "cost": "About $1,000 to start",
+    "found": "Chris Koerner",
+    "what": "Buy durable plastic moving totes and rent them out to people moving house, often through partnerships with real estate agents, as an alternative to cardboard boxes.",
+    "pitch": "A named, real operator is cited making a modest but steady few thousand dollars a month, with totes paying for themselves after just a few rentals.",
+    "best": "Someone comfortable building local referral relationships, particularly with real estate agents, who can consistently send business your way.",
+    "truth": "The numbers given are modest and specific rather than hyped, which makes them more believable. This requires local, in-person drop-off and pickup logistics, so it isn't location-independent.",
+    "url": "https://www.youtube.com/watch?v=SUYBggpA3ZU"
+  },
+  {
+    "id": "personal-brand-711-4-framework",
+    "name": "The 7-11-4 framework for building audience trust",
+    "category": "Marketing & content",
+    "tags": [
+      "personal brand",
+      "marketing methodology"
+    ],
+    "cost": "No cost, a technique to apply",
+    "found": "Daniel Priestley",
+    "what": "A framework describing how audience trust builds: people generally need around 7 hours, 11 interactions, across 4 different platforms with your content before they feel they genuinely know and trust you, achieved through consistent daily publishing.",
+    "pitch": "This reframes slow audience growth as expected and cumulative, rather than a sign something isn't working, consistency compounds over time.",
+    "best": "Anyone building a personal brand or following as part of a larger business, a supporting technique, not a business idea on its own.",
+    "truth": "Presented as a general framework citing broad platform statistics rather than one specific, personally verified case, treat the exact numbers (7 hours, 11 interactions) as a rule of thumb, not a precise formula.",
+    "url": "https://www.youtube.com/watch?v=sFkR34AMPw8"
+  },
+  {
+    "id": "direct-response-marketing-fundamentals",
+    "name": "Direct response marketing fundamentals",
+    "category": "Marketing & content",
+    "tags": [
+      "copywriting",
+      "marketing skill",
+      "methodology"
+    ],
+    "cost": "Low cost, mostly time",
+    "found": "Sabri Suby",
+    "what": "A skills roadmap for mastering persuasive marketing: study old direct-response print ads for their headlines and hooks, and build a personal 'swipe file' of proven techniques as the foundation for writing better marketing copy.",
+    "pitch": "These are described as time-tested fundamentals, capturing attention and converting that attention, that apply across almost any marketing or copywriting work.",
+    "best": "Anyone doing marketing, copywriting, or content work who wants a stronger foundation, a skill to build, not a business on its own.",
+    "truth": "Presented as the creator's personal methodology rather than tied to selling a specific product in this video, a reasonably trustworthy, low-risk skill to develop regardless of which specific business idea you pursue.",
+    "url": "https://www.youtube.com/watch?v=HsjuAvqs3zU"
+  },
+  {
+    "id": "software-implementation-partner",
+    "name": "Certified software implementation partner",
+    "category": "Local & professional services",
+    "tags": [
+      "consulting",
+      "certification needed",
+      "B2B software"
+    ],
+    "cost": "Low startup cost, often free certification",
+    "found": "David Heacock",
+    "what": "Get certified on a complex B2B software platform, like ServiceTitan, NetSuite, or HubSpot, then get paid by that software company's own customers to set it up, train their team, and make sure it actually gets used.",
+    "pitch": "The software company has already found the customers, your job is making sure the tool actually works for them, which many businesses struggle to do alone.",
+    "best": "Someone willing to commit to deeply learning one specific software platform before expecting to earn from it.",
+    "truth": "A reasonable, learnable model, but it does require a real time investment becoming genuinely expert in one platform before the first client, this isn't a same-week income source.",
+    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA"
+  },
+  {
+    "id": "ai-rapid-app-validation",
+    "name": "A 7-day method for testing app ideas cheaply",
+    "category": "AI & automation",
+    "tags": [
+      "app development",
+      "AI tools",
+      "methodology",
+      "technical comfort needed"
+    ],
+    "cost": "$100 to $500 in ad spend to test",
+    "found": "Brett Malinowski",
+    "what": "A methodology, not a specific app, for taking an app idea to a paying customer within one week, using AI coding tools to build quickly and a small paid-ad budget to test real demand before investing further.",
+    "pitch": "Rather than spending months building before knowing if anyone wants it, this validates demand cheaply and quickly with real ad spend, not guesswork.",
+    "best": "Someone comfortable with hands-on technical troubleshooting, debugging, and ad account management, not just describing what they want built.",
+    "truth": "The presenter shows real failures along the way, broken features, wasted ad spend on bad targeting, rather than a polished highlight reel, which is a good transparency sign. This does require comfort with iterative technical problem-solving beyond basic AI prompting.",
+    "url": "https://www.youtube.com/watch?v=y-eBAr1uRDQ"
+  },
+  {
+    "id": "newsletter-monetization-methodology",
+    "name": "A value-first approach to monetizing a newsletter",
+    "category": "Digital & subscription products",
+    "tags": [
+      "newsletter",
+      "methodology",
+      "email marketing"
+    ],
+    "cost": "Low cost, email platform only",
+    "found": "Mike Swigunski",
+    "what": "A framework for monetizing an email newsletter: treat it primarily as audience-nurturing rather than a constant sales channel, offer a strong incentive to subscribe, grow through partnerships, and monetize through occasional, time-limited promotions rather than continuous selling.",
+    "pitch": "This approach references well-known, credible examples in the newsletter industry to support the framework, rather than a single unverified case.",
+    "best": "Anyone already running, or considering, an email newsletter as part of a business, a methodology to apply, not a standalone idea.",
+    "truth": "A solid, well-established monetization approach rather than a novel trick, results still depend heavily on actually growing a real, engaged subscriber base, which the framework doesn't guarantee.",
+    "url": "https://www.youtube.com/watch?v=9-KvflFNMy4"
+  },
+  {
+    "id": "skill-extraction-offer-framework",
+    "name": "A framework for turning your existing skills into a service offer",
+    "category": "Marketing & content",
+    "tags": [
+      "consulting",
+      "methodology",
+      "framework"
+    ],
+    "cost": "Low cost, mostly time",
+    "found": "Edwina, Voice of AI",
+    "what": "A close variant of the standard offer-building framework: identify a marketable skill you already have, especially from past corporate experience, define who your ideal client is, and validate demand through direct conversations before building or pitching anything.",
+    "pitch": "AI is used at each step to help identify your own marketable skills and refine your messaging, lowering the effort of the initial groundwork.",
+    "best": "Anyone unsure what service to offer who wants a structured way to figure it out from their own existing background, rather than copying someone else's idea.",
+    "truth": "The concrete mechanism here, extract a skill, define a client, validate through conversation, close based on real feedback, is sound and echoes a similar framework covered independently by another creator, which is a reasonable confidence signal for the approach generally.",
+    "url": "https://www.youtube.com/watch?v=c8qqXyyw6r0"
+  },
+  {
+    "id": "ai-tool-prescription-advisory",
+    "name": "A lightweight AI tools advisory service",
+    "category": "Local & professional services",
+    "tags": [
+      "consulting",
+      "AI tools",
+      "low startup cost",
+      "advisory only"
+    ],
+    "cost": "Low startup cost",
+    "found": "Corey Gannon",
+    "what": "A flat-fee, roughly 30-minute audit where you diagnose a small business's biggest time-wasters and recommend, but don't personally implement, existing AI tools to fix them.",
+    "pitch": "Positioned as a lower-skill entry point than actually building or implementing AI systems, since you're only advising, not doing the technical setup yourself, with a typical starting fee around $999 and room to charge more for follow-up work.",
+    "best": "Someone comfortable talking to small business owners about their operations who doesn't want the responsibility of hands-on technical implementation.",
+    "truth": "This is presented as a full course rather than just a pitch for the idea, which is a reasonable transparency signal. It sits close to a broader category of AI-for-local-business services that some experienced operators consider increasingly saturated, worth researching current competition in your specific area before committing.",
+    "url": "https://www.youtube.com/watch?v=dhbcVxYhWaQ"
+  }
+]
