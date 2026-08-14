@@ -256,9 +256,9 @@ a { color: inherit; }
 }
 
 .badge {
-  font-size: 0.72rem;
-  font-weight: 500;
-  padding: 4px 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 6px 14px;
   border-radius: 999px;
   white-space: nowrap;
 }
@@ -283,12 +283,15 @@ a { color: inherit; }
 
 .card-section-label {
   font-family: var(--font-display);
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--text-faint);
-  margin-bottom: 5px;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+@media (max-width: 760px) {
+  .card-section-label { font-size: 1.5rem; }
 }
 
 .card-what {
