@@ -9,26 +9,8 @@ const CATEGORY_COLORS = {
   "Digital & subscription products": "var(--cat-digital)"
 };
 
-// Fixed 13-tag closed list (Situation Tags Addendum). Order matters for display.
-const SITUATION_TAGS = [
-  "Strictly in-home",
-  "Home office, client-facing",
-  "Local travel required",
-  "Requires travel to source or inspect goods",
-  "Phone/sales-based",
-  "E-commerce / fulfillment",
-  "Needs a truck or cargo vehicle",
-  "Needs a dedicated workspace",
-  "Needs inventory storage",
-  "Weekend/event-based schedule",
-  "Requires a license or certification",
-  "Requires hiring or managing others",
-  "Requires equipment/vehicle investment"
-];
-
 // Scoring weights for soft ranking
 const WEIGHT_CATEGORY = 3;
-const WEIGHT_SITUATION_TAG = 2;
 const WEIGHT_SEARCH_NAME = 5;
 const WEIGHT_SEARCH_BODY = 1;
 
@@ -37,7 +19,6 @@ const WEIGHT_SEARCH_BODY = 1;
 let ALL_IDEAS = [];
 let state = {
   category: null,       // single-select or null
-  situationTags: new Set(), // multi-select
   search: ""
 };
 
@@ -48,7 +29,6 @@ fetch('ideas.json')
   .then(data => {
     ALL_IDEAS = data;
     buildCategoryPills();
-    buildSituationPills();
     render();
   })
   .catch(err => {
@@ -76,32 +56,9 @@ function buildCategoryPills() {
   });
 }
 
-function buildSituationPills() {
-  const container = document.getElementById('situation-pills');
-  SITUATION_TAGS.forEach(tag => {
-    const pill = document.createElement('button');
-    pill.className = 'pill';
-    pill.textContent = tag;
-    pill.dataset.value = tag;
-    pill.addEventListener('click', () => {
-      if (state.situationTags.has(tag)) {
-        state.situationTags.delete(tag);
-      } else {
-        state.situationTags.add(tag);
-      }
-      updatePillStates();
-      render();
-    });
-    container.appendChild(pill);
-  });
-}
-
 function updatePillStates() {
   document.querySelectorAll('#category-pills .pill').forEach(p => {
     p.classList.toggle('active', p.dataset.value === state.category);
-  });
-  document.querySelectorAll('#situation-pills .pill').forEach(p => {
-    p.classList.toggle('active', state.situationTags.has(p.dataset.value));
   });
 }
 
@@ -114,7 +71,6 @@ document.getElementById('search-input').addEventListener('input', (e) => {
 
 document.getElementById('browse-all-btn').addEventListener('click', () => {
   state.category = null;
-  state.situationTags.clear();
   state.search = "";
   document.getElementById('search-input').value = "";
   updatePillStates();
@@ -130,13 +86,6 @@ function scoreIdea(idea) {
 
   if (state.category && idea.category === state.category) {
     score += WEIGHT_CATEGORY;
-  }
-
-  if (state.situationTags.size > 0) {
-    const tags = idea.situation_tags || [];
-    for (const tag of state.situationTags) {
-      if (tags.includes(tag)) score += WEIGHT_SITUATION_TAG; // match-any
-    }
   }
 
   if (state.search) {
@@ -169,6 +118,19 @@ function render() {
   });
 }
 
+function toTitleCase(str) {
+  const minorWords = new Set(['a','an','the','and','but','or','nor','for','so','yet','at','by','in','of','on','to','up','as','is','it','vs']);
+  const words = str.split(' ');
+  return words.map((word, i) => {
+    if (word.length === 0) return word;
+    // preserve things like "AI", "$999", "7-Day" acronyms/numbers as-is if already capitalized/numeric
+    if (/^[A-Z0-9$]/.test(word) && word === word.toUpperCase() && /[A-Z]/.test(word)) return word;
+    const lower = word.toLowerCase();
+    if (i !== 0 && i !== words.length - 1 && minorWords.has(lower)) return lower;
+    return lower.charAt(0).toUpperCase() + lower.slice(1);
+  }).join(' ');
+}
+
 function buildCard(idea) {
   const card = document.createElement('article');
   card.className = 'card';
@@ -177,15 +139,18 @@ function buildCard(idea) {
 
   card.innerHTML = `
     <div class="card-head">
-      <h3 class="card-title">${escapeHtml(idea.name)}</h3>
+      <h3 class="card-title">${escapeHtml(toTitleCase(idea.name))}</h3>
     </div>
     <div class="card-badges">
       <span class="badge badge-category">${escapeHtml(idea.category)}</span>
       <span class="badge badge-cost">${escapeHtml(idea.cost)}</span>
     </div>
-    <div class="card-credit">via <span>${escapeHtml(idea.found)}</span></div>
+    <div class="card-source-top">
+      Source: <span class="card-source-creator">${escapeHtml(idea.found)}</span> &mdash; <a href="${escapeAttr(idea.url)}" target="_blank" rel="noopener">${escapeHtml(idea.url)}</a>
+    </div>
 
     <div class="card-section">
+      <div class="card-section-label">What It Is</div>
       <p class="card-what">${escapeHtml(idea.what)}</p>
     </div>
 
@@ -204,10 +169,19 @@ function buildCard(idea) {
       <p class="card-text">${escapeHtml(idea.truth)}</p>
     </div>
 
-    <div class="card-source">
-      Source: <a href="${escapeAttr(idea.url)}" target="_blank" rel="noopener">${escapeHtml(idea.url)}</a>
-    </div>
+    <button class="copy-btn" type="button">Copy this gig</button>
   `;
+
+  card.querySelector('.copy-btn').addEventListener('click', (e) => {
+    const text = `${toTitleCase(idea.name)}\n${idea.category} | ${idea.cost}\nSource: ${idea.found} — ${idea.url}\n\nWhat It Is\n${idea.what}\n\nThe Pitch\n${idea.pitch}\n\nBest For\n${idea.best}\n\nThe Truth\n${idea.truth}\n`;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = e.target;
+      const original = btn.textContent;
+      btn.textContent = 'Copied!';
+      setTimeout(() => { btn.textContent = original; }, 1500);
+    });
+  });
+
   return card;
 }
 

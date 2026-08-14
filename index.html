@@ -7,7 +7,7 @@
 <meta name="description" content="A free, searchable database of work-from-home business ideas sourced from creator videos.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Archivo+Black&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,13 +24,15 @@
 
 <section class="hero">
   <div class="hero-inner">
-    <span class="eyebrow">A growing work-at-home gig database</span>
+    <span class="eyebrow">World's Largest Work-at-Home Database <span class="eyebrow-wink">(soon, probably)</span></span>
     <h1 class="hero-title">Find Your Next<br><span class="hero-accent">Work-at-Home</span> Gig</h1>
-    <p class="hero-sub">Stop guessing. Browse real gigs pulled straight from the creators talking about them, ranked by what actually fits your situation.</p>
+    <p class="hero-sub">Browse gazillions of gigs <span class="hero-wink">(soon)</span> pulled straight from the creators talking about them.</p>
+    <p class="hero-sub hero-sub-secondary">What's the pitch. Who it's best for. What we really think of it. Every gig links back to its source.</p>
     <div class="hero-actions">
-      <a href="#browse" class="btn btn-primary">Match My Situation</a>
+      <a href="#browse" class="btn btn-primary">Choose Your Style</a>
       <a href="#browse" class="btn btn-secondary" id="browse-all-btn">Browse Everything</a>
     </div>
+    <p class="hero-hint">Your gigs will move to the top of the list.</p>
   </div>
 </section>
 
@@ -47,10 +49,6 @@
       <div class="pill-group" id="category-pills"></div>
     </div>
 
-    <div class="filter-row">
-      <span class="filter-label">Your situation</span>
-      <div class="pill-group" id="situation-pills"></div>
-    </div>
   </div>
 
   <div class="grid" id="gig-grid" aria-live="polite"></div>
