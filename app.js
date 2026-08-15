@@ -69,7 +69,7 @@ document.getElementById('search-input').addEventListener('input', (e) => {
   render();
 });
 
-document.getElementById('browse-all-btn').addEventListener('click', () => {
+document.getElementById('browse-all-btn')?.addEventListener('click', () => {
   state.category = null;
   state.search = "";
   document.getElementById('search-input').value = "";
