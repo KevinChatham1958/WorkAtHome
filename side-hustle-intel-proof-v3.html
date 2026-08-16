@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOCKUP — Full page preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --text: #16202e;
+    --muted: #5b6472;
+    --faint: #87909c;
+    --border: #e2e4e8;
+    --accent: #1f3a5f;
+    --accent-bg: #eef2f6;
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #ffffff; color: var(--text); font-family: var(--font-body); }
+
+  .mockup-flag {
+    background: #fff7e6; border-bottom: 1px solid #e8d9a8; color: #6b5410;
+    font-size: 0.82rem; text-align: center; padding: 8px;
+  }
+  .mockup-flag b { font-weight: 700; }
+
+  /* ---- Top bar: header + former eyebrow merged into one bolder-tinted
+     bar, removing the white background gap between them ---- */
+  .site-header {
+    padding: 16px 24px;
+    background: linear-gradient(180deg, #d9e6f3 0%, #cbdcee 100%);
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    box-shadow: 0 1px 3px rgba(22, 32, 46, 0.08);
+  }
+  .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wordmark { font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; color: var(--text); }
+  .wordmark-accent { color: var(--accent); }
+  .site-nav a { color: var(--muted); font-size: 0.9rem; text-decoration: none; }
+
+  /* ---- Hero: title + red claim line beneath it, tight padding ---- */
+  .hero {
+    padding: 44px 24px 40px;
+    text-align: center;
+    background: linear-gradient(180deg, #cbdcee 0%, #d9e6f3 100%);
+    border-bottom: 2px solid var(--accent);
+  }
+  .hero-inner { max-width: 720px; margin: 0 auto; }
+  .hero-title {
+    font-family: 'Archivo Black', 'Arial Black', Impact, sans-serif; font-weight: 400;
+    font-size: clamp(2.4rem, 6vw, 3.8rem); line-height: 1.08; letter-spacing: -0.01em; color: var(--text); margin: 0 0 12px;
+  }
+  .hero-accent { color: var(--accent); }
+  .hero-claim {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #b3261e;
+    margin: 0;
+  }
+
+  /* ---- Filter bar, lightened to match ---- */
+  .filter-bar { max-width: 900px; margin: 0 auto; padding: 24px 24px 0; }
+  .search-input {
+    width: 100%; font-family: inherit; font-size: 0.95rem; padding: 12px 16px;
+    border: 1px solid var(--border); border-radius: 4px; color: var(--text); margin-bottom: 16px;
+  }
+  .search-input:focus { outline: none; border-color: var(--accent); }
+
+  /* ---- Sticky save/export bar ---- */
+  .export-bar { position: sticky; top: 57px; z-index: 20; background: #ffffff; border-bottom: 1px solid var(--border); padding: 10px 24px; }
+  .export-bar-inner { max-width: 900px; margin: 0 auto; display: flex; justify-content: flex-end; align-items: center; gap: 10px; }
+  .export-count { font-size: 0.82rem; color: var(--faint); }
+  .export-btn { font-family: var(--font-body); font-size: 0.85rem; font-weight: 600; color: #ffffff; background: var(--accent); border: none; padding: 9px 16px; border-radius: 4px; cursor: pointer; }
+  .export-btn:disabled { background: var(--border); color: var(--faint); cursor: default; }
+  .export-btn-secondary { background: transparent; color: var(--accent); border: 1px solid var(--border); }
+  .export-btn-secondary.active { background: var(--accent-bg); border-color: var(--accent); }
+
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+  .database-panel {
+    background: #eef1f4;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 24px 24px;
+    margin-top: 8px;
+  }
+  .database-flag {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 0;
+    margin-bottom: 4px;
+  }
+  .live-dot {
+    width: 8px; height: 8px; border-radius: 50%; background: #2e8b57; flex-shrink: 0;
+  }
+  .database-flag span {
+    font-size: 0.78rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted);
+  }
+  .empty-saved-msg { text-align: center; color: var(--faint); font-size: 0.9rem; padding: 40px 0; display: none; }
+  .empty-saved-msg.visible { display: block; }
+
+  .idea-card {
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(22, 32, 46, 0.07);
+    padding: 28px 24px;
+    margin-bottom: 14px;
+    cursor: pointer;
+    position: relative;
+    transition: box-shadow 0.15s, transform 0.15s;
+  }
+  .idea-card:hover { box-shadow: 0 4px 10px rgba(22, 32, 46, 0.1); transform: translateY(-1px); }
+  .idea-card:last-child { margin-bottom: 0; }
+  .idea-card.hidden-by-filter { display: none; }
+
+  .save-row {
+    display: flex; flex-direction: column; align-items: flex-end; gap: 8px;
+    position: absolute; top: 28px; right: 24px;
+  }
+  .save-row label { font-size: 0.82rem; color: var(--muted); display: flex; align-items: center; gap: 6px; cursor: pointer; white-space: nowrap; }
+  .save-row input[type="checkbox"] { width: 16px; height: 16px; accent-color: var(--accent); cursor: pointer; }
+  .copy-btn-top {
+    font-family: var(--font-body); font-size: 0.76rem; font-weight: 600; color: var(--muted);
+    background: transparent; border: 1px solid var(--border); border-radius: 4px;
+    padding: 6px 12px; cursor: pointer; white-space: nowrap;
+  }
+  .copy-btn-top:hover { border-color: var(--accent); color: var(--accent); }
+
+  h2.idea-title { font-family: var(--font-display); font-weight: 700; font-size: 1.7rem; line-height: 1.2; margin: 0 190px 12px 0; }
+  .meta-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
+  .badge { font-size: 0.8rem; font-weight: 600; padding: 5px 12px; border-radius: 4px; background: var(--accent-bg); color: var(--accent); }
+  .badge-cost { background: transparent; border: 1px solid var(--border); color: var(--muted); }
+  .source-line { font-size: 0.85rem; color: var(--faint); margin: 0 0 24px; }
+  .source-line a { color: #1a73e8; text-decoration: none; }
+  .source-line a:hover { text-decoration: underline; }
+
+  section.field { margin-bottom: 22px; }
+  .field-label { font-size: 0.98rem; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+  .field-body { font-size: 0.98rem; line-height: 1.7; color: var(--text); }
+
+  .extra-fields { display: none; }
+  .idea-card.expanded .extra-fields { display: block; }
+  .expand-toggle {
+    font-family: var(--font-body); font-size: 0.98rem; font-weight: 700; color: var(--accent);
+    background: var(--accent-bg); border: 1px solid var(--border); border-radius: 6px;
+    padding: 10px 16px; margin-top: 12px; cursor: pointer; display: flex; align-items: center;
+    justify-content: center; gap: 8px; width: 100%;
+    transition: background 0.12s, border-color 0.12s;
+  }
+  .expand-toggle:hover { background: #e2ecf6; border-color: var(--accent); }
+  .expand-toggle .arrow { transition: transform 0.15s; font-size: 0.85rem; }
+  .idea-card.expanded .expand-toggle .arrow { transform: rotate(180deg); }
+  .idea-card.expanded .expand-toggle .label-collapsed { display: none; }
+  .idea-card:not(.expanded) .expand-toggle .label-expanded { display: none; }
+
+  .copy-btn { font-family: var(--font-body); font-size: 0.85rem; color: var(--muted); background: transparent; border: 1px solid var(--border); padding: 8px 16px; border-radius: 4px; cursor: pointer; }
+
+  .site-footer { border-top: 1px solid var(--border); padding: 24px; text-align: center; color: var(--faint); font-size: 0.82rem; }
+</style>
+</head>
+<body>
+
+<div class="mockup-flag">DESIGN REVIEW COPY — this page reflects proposed changes and is not yet merged into the real site's index.html/styles.css/app.js. Source links are placeholders (#), not real YouTube URLs.</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <span class="wordmark">Side Hustle <span class="wordmark-accent">Intel</span></span>
+    <nav class="site-nav"><a href="#">About</a></nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <h1 class="hero-title">Find Your Next<br><span class="hero-accent">Work-at-Home</span> Gig</h1>
+    <p class="hero-claim">World's Largest Work-at-Home Database</p>
+  </div>
+</section>
+
+<div class="filter-bar">
+  <input type="text" class="search-input" id="search-input" placeholder="Search e.g. Dropshipping, Mark Tilbury, Consulting, David Heacock…" onkeydown="if(event.key==='Enter') applySearch(this.value)">
+</div>
+
+<div class="export-bar">
+  <div class="export-bar-inner">
+    <span class="export-count" id="save-count">0 gigs saved</span>
+    <button class="export-btn export-btn-secondary" id="view-saved-btn" onclick="toggleSavedView()">View Saved Only</button>
+    <button class="export-btn" id="export-btn" disabled onclick="exportSaved()">Download Saved Gigs (.txt)</button>
+  </div>
+</div>
+
+<main>
+  <div class="database-panel">
+    <div class="database-flag"><span class="live-dot"></span><span>Live Database — Updated Continuously</span></div>
+    <p class="empty-saved-msg" id="empty-saved-msg">You haven't saved any gigs yet. Check "Save for Later" on any idea to add it here.</p>
+
+    <div class="idea-card" data-idea="fractional-executive-services" data-category="Local & professional services" data-tags="consulting, executive, low startup cost, experience required" data-situation="Home office, client-facing">
+    <div class="save-row"><label onclick="event.stopPropagation()"><input type="checkbox" class="save-check" onclick="event.stopPropagation(); toggleSave(this)">Save for Later</label><button class="copy-btn-top" onclick="event.stopPropagation()">Copy This Gig to Clipboard</button></div>
+    <h2 class="idea-title">Fractional Executive Services</h2>
+    <div class="meta-row"><span class="badge">Local &amp; professional services</span><span class="badge badge-cost">Low startup cost</span></div>
+    <div class="source-line">Source: David Heacock — <a href="#" onclick="event.stopPropagation()">youtube.com/watch?v=EnSJN9zl-yA</a></div>
+    <section class="field">
+      <div class="field-label">What Is It</div>
+      <div class="field-body">Offer part-time senior leadership, CFO, COO, or CMO, to businesses that need executive-level guidance but can't afford, or don't need, a full-time hire. You work with several clients at once, each paying a monthly retainer for a set number of hours or specific deliverables.</div>
+    </section>
+    <div class="extra-fields">
+      <section class="field"><div class="field-label">The Pitch</div><div class="field-body">Package your judgment into a recurring monthly fee, typically $5,000 to $15,000 per client, and take on 4 to 6 clients at once.</div></section>
+      <section class="field"><div class="field-label">Best For</div><div class="field-body">Someone with a genuine, provable track record of running or operating a business, not someone who has only studied the theory of business strategy.</div></section>
+      <section class="field"><div class="field-label">The Truth</div><div class="field-body">Heacock backs this up with his own real hiring experience. Landing the first client still requires real, sometimes slow, relationship-based sales.</div></section>
+      
+    </div>
+    <button class="expand-toggle" onclick="event.stopPropagation(); this.closest('.idea-card').classList.toggle('expanded')">
+      <span class="label-collapsed">Expand to Read More</span><span class="label-expanded">Collapse to Read Less</span><span class="arrow">&#9662;</span>
+    </button>
+  </div>
+
+  <div class="idea-card" data-idea="ai-ghostwriting" data-category="Marketing & content" data-tags="writing, AI tools, beginner friendly, low startup cost" data-situation="Strictly in-home">
+    <div class="save-row"><label onclick="event.stopPropagation()"><input type="checkbox" class="save-check" onclick="event.stopPropagation(); toggleSave(this)">Save for Later</label><button class="copy-btn-top" onclick="event.stopPropagation()">Copy This Gig to Clipboard</button></div>
+    <h2 class="idea-title">AI Ghostwriting</h2>
+    <div class="meta-row"><span class="badge">Marketing &amp; content</span><span class="badge badge-cost">Low startup cost</span></div>
+    <div class="source-line">Source: Mark Tilbury and Iman Gadzhi — <a href="#" onclick="event.stopPropagation()">youtube.com/watch?v=ytAW1_g2IfI</a></div>
+    <section class="field">
+      <div class="field-label">What Is It</div>
+      <div class="field-body">You use AI tools like Claude, paired with a research tool, to write LinkedIn posts, email newsletters, and ad copy on behalf of founders and creators who know they should be publishing content but don't have time to write it themselves.</div>
+    </section>
+    <div class="extra-fields">
+      <section class="field"><div class="field-label">The Pitch</div><div class="field-body">The AI does the heavy lifting, drafting research and a first pass at the writing, while you focus on making it sound like the actual client, not a generic AI voice.</div></section>
+      <section class="field"><div class="field-label">Best For</div><div class="field-body">Someone who already writes reasonably well and is comfortable using AI to speed up research and a first draft.</div></section>
+      <section class="field"><div class="field-label">The Truth</div><div class="field-body">Tilbury is fairly upfront that AI only gets you about 75% of the way there. The remaining 25% — taste, editing, knowing what the client would actually say — is a real editorial skill this doesn't remove.</div></section>
+      
+    </div>
+    <button class="expand-toggle" onclick="event.stopPropagation(); this.closest('.idea-card').classList.toggle('expanded')">
+      <span class="label-collapsed">Expand to Read More</span><span class="label-expanded">Collapse to Read Less</span><span class="arrow">&#9662;</span>
+    </button>
+  </div>
+
+  <div class="idea-card" data-idea="estate-sale-company" data-category="Local & professional services" data-tags="service business, very low startup cost, local business, estate liquidation" data-situation="Local travel required, Weekend/event-based schedule, Needs inventory storage, Requires hiring or managing others">
+    <div class="save-row"><label onclick="event.stopPropagation()"><input type="checkbox" class="save-check" onclick="event.stopPropagation(); toggleSave(this)">Save for Later</label><button class="copy-btn-top" onclick="event.stopPropagation()">Copy This Gig to Clipboard</button></div>
+    <h2 class="idea-title">Estate Sale Company</h2>
+    <div class="meta-row"><span class="badge">Local &amp; professional services</span><span class="badge badge-cost">Very low startup cost</span></div>
+    <div class="source-line">Source: Chris Koerner on The Koerner Office Podcast (guest: Braden) — <a href="#" onclick="event.stopPropagation()">youtube.com/watch?v=E9baszgY3J8</a></div>
+    <section class="field">
+      <div class="field-label">What Is It</div>
+      <div class="field-body">You contract with homeowners, or their families, to liquidate the entire contents of a house, pricing and selling everything from furniture to collectibles over a weekend sale, then taking a percentage of what sells.</div>
+    </section>
+    <div class="extra-fields">
+      <section class="field"><div class="field-label">The Pitch</div><div class="field-body">Braden started with almost no money, just tape, a price gun, and folding tables, and says he made about $6,000 profit in his very first week.</div></section>
+      <section class="field"><div class="field-label">Best For</div><div class="field-body">Someone comfortable with sales, organizing, and pricing hundreds of small items, who doesn't mind physical, on-site weekend work.</div></section>
+      <section class="field"><div class="field-label">The Truth</div><div class="field-body">This is one of the more detailed, credible accounts in the database. Worth noting this is a single market's experience; a saturated, larger city could look different.</div></section>
+      
+    </div>
+    <button class="expand-toggle" onclick="event.stopPropagation(); this.closest('.idea-card').classList.toggle('expanded')">
+      <span class="label-collapsed">Expand to Read More</span><span class="label-expanded">Collapse to Read Less</span><span class="arrow">&#9662;</span>
+    </button>
+  </div>
+
+  <div class="idea-card" data-idea="ai-shopify-dropshipping" data-category="E-commerce" data-tags="dropshipping, AI tools, needs ad budget" data-situation="Strictly in-home, E-commerce / fulfillment">
+    <div class="save-row"><label onclick="event.stopPropagation()"><input type="checkbox" class="save-check" onclick="event.stopPropagation(); toggleSave(this)">Save for Later</label><button class="copy-btn-top" onclick="event.stopPropagation()">Copy This Gig to Clipboard</button></div>
+    <h2 class="idea-title">AI-Built Shopify Store and Dropshipping</h2>
+    <div class="meta-row"><span class="badge">E-commerce</span><span class="badge badge-cost">Needs ongoing ad budget</span></div>
+    <div class="source-line">Source: Mark Tilbury and Iman Gadzhi — <a href="#" onclick="event.stopPropagation()">youtube.com/watch?v=ytAW1_g2IfI</a></div>
+    <section class="field">
+      <div class="field-label">What Is It</div>
+      <div class="field-body">An AI tool auto-builds a Shopify store, picks a niche, and a sourcing tool like AutoDS finds, prices, and ships the products, so the store runs with very little manual work.</div>
+    </section>
+    <div class="extra-fields">
+      <section class="field"><div class="field-label">The Pitch</div><div class="field-body">The pitch is speed: a real, live store can be running the same day, with AI handling design, product selection, and fulfillment.</div></section>
+      <section class="field"><div class="field-label">Best For</div><div class="field-body">Someone with real advertising budget to spend and the patience to iterate on ad campaigns.</div></section>
+      <section class="field"><div class="field-label">The Truth</div><div class="field-body">Gadzhi's independent take is blunt — he describes the core dropshipping problems as unchanged by AI and calls it a race to the bottom on margins.</div></section>
+      
+    </div>
+    <button class="expand-toggle" onclick="event.stopPropagation(); this.closest('.idea-card').classList.toggle('expanded')">
+      <span class="label-collapsed">Expand to Read More</span><span class="label-expanded">Collapse to Read Less</span><span class="arrow">&#9662;</span>
+    </button>
+  </div>
+
+  <div class="idea-card" data-idea="compliance-risk-elimination-services" data-category="Local & professional services" data-tags="consulting, compliance, certification needed, low startup cost" data-situation="Home office, client-facing">
+    <div class="save-row"><label onclick="event.stopPropagation()"><input type="checkbox" class="save-check" onclick="event.stopPropagation(); toggleSave(this)">Save for Later</label><button class="copy-btn-top" onclick="event.stopPropagation()">Copy This Gig to Clipboard</button></div>
+    <h2 class="idea-title">Compliance and Risk-Elimination Services</h2>
+    <div class="meta-row"><span class="badge">Local &amp; professional services</span><span class="badge badge-cost">Low startup cost</span></div>
+    <div class="source-line">Source: David Heacock — <a href="#" onclick="event.stopPropagation()">youtube.com/watch?v=EnSJN9zl-yA</a></div>
+    <section class="field">
+      <div class="field-label">What Is It</div>
+      <div class="field-body">You become the specialized expert businesses pay to eliminate regulatory risk — product compliance certification, HIPAA compliance, OSHA workplace safety, or R&amp;D tax credit paperwork.</div>
+    </section>
+    <div class="extra-fields">
+      <section class="field"><div class="field-label">The Pitch</div><div class="field-body">Heacock ranks this his top category — the work is recurring, genuinely painful for the business to do themselves, document-heavy, and the customer's reputation is on the line if it's done wrong.</div></section>
+      <section class="field"><div class="field-label">Best For</div><div class="field-body">Someone with real experience who is willing to specialize deeply in one regulatory area rather than staying a generalist.</div></section>
+      <section class="field"><div class="field-label">The Truth</div><div class="field-body">Heacock mentions paying $33,600 for this kind of service himself. When he ranks this the single best remote business opportunity, that's his own opinion, not an audited statistic.</div></section>
+      
+    </div>
+    <button class="expand-toggle" onclick="event.stopPropagation(); this.closest('.idea-card').classList.toggle('expanded')">
+      <span class="label-collapsed">Expand to Read More</span><span class="label-expanded">Collapse to Read Less</span><span class="arrow">&#9662;</span>
+    </button>
+  </div>
+
+  <div class="idea-card" data-idea="ai-voice-agent-receptionist" data-category="Local & professional services" data-tags="AI tools, local business, recurring revenue, low startup cost" data-situation="Home office, client-facing, Phone/sales-based">
+    <div class="save-row"><label onclick="event.stopPropagation()"><input type="checkbox" class="save-check" onclick="event.stopPropagation(); toggleSave(this)">Save for Later</label><button class="copy-btn-top" onclick="event.stopPropagation()">Copy This Gig to Clipboard</button></div>
+    <h2 class="idea-title">AI Voice Agent and Receptionist Services</h2>
+    <div class="meta-row"><span class="badge">Local &amp; professional services</span><span class="badge badge-cost">Low startup cost</span></div>
+    <div class="source-line">Source: Mark Tilbury and Dan Martell — <a href="#" onclick="event.stopPropagation()">youtube.com/watch?v=ytAW1_g2IfI</a></div>
+    <section class="field">
+      <div class="field-label">What Is It</div>
+      <div class="field-body">Build an AI phone receptionist that answers calls, books appointments, and captures leads for local businesses like dentists, salons, or plumbers, then charge a monthly fee to keep it running.</div>
+    </section>
+    <div class="extra-fields">
+      <section class="field"><div class="field-label">The Pitch</div><div class="field-body">Small businesses miss a large share of incoming calls every day, and most owners don't know AI receptionist tools exist yet.</div></section>
+      <section class="field"><div class="field-label">Best For</div><div class="field-body">Someone comfortable with sales and cold outreach, since the real bottleneck is finding the first few clients, not building the tool.</div></section>
+      <section class="field"><div class="field-label">The Truth</div><div class="field-body">Tilbury shows a live demo call so you can hear exactly what the tool sounds like to a customer, a useful transparency touch.</div></section>
+      
+    </div>
+    <button class="expand-toggle" onclick="event.stopPropagation(); this.closest('.idea-card').classList.toggle('expanded')">
+      <span class="label-collapsed">Expand to Read More</span><span class="label-expanded">Collapse to Read Less</span><span class="arrow">&#9662;</span>
+    </button>
+  </div>
+
+  <div class="idea-card" data-idea="wall-printer-mural-service" data-category="Physical & print products" data-tags="printing, equipment needed, high margin" data-situation="Local travel required, Requires equipment/vehicle investment, Needs a truck or cargo vehicle">
+    <div class="save-row"><label onclick="event.stopPropagation()"><input type="checkbox" class="save-check" onclick="event.stopPropagation(); toggleSave(this)">Save for Later</label><button class="copy-btn-top" onclick="event.stopPropagation()">Copy This Gig to Clipboard</button></div>
+    <h2 class="idea-title">Wall Printer Mural Service for Businesses</h2>
+    <div class="meta-row"><span class="badge">Physical &amp; print products</span><span class="badge badge-cost">$4,000 to $16,000 for equipment</span></div>
+    <div class="source-line">Source: Chris Koerner — <a href="#" onclick="event.stopPropagation()">youtube.com/watch?v=SUYBggpA3ZU</a></div>
+    <section class="field">
+      <div class="field-label">What Is It</div>
+      <div class="field-body">Own a mobile large-format printer that prints murals and graphics directly onto walls for businesses like restaurants and offices.</div>
+    </section>
+    <div class="extra-fields">
+      <section class="field"><div class="field-label">The Pitch</div><div class="field-body">The margins here are unusually high, roughly $8 in ink materials for an $800 job, in a still-early, undereducated market.</div></section>
+      <section class="field"><div class="field-label">Best For</div><div class="field-body">Someone with a print or design background who's comfortable investing in equipment and doing on-site work for local business clients.</div></section>
+      <section class="field"><div class="field-label">The Truth</div><div class="field-body">This does require physically operating the printer on-site at each client's location, so it isn't a fully remote business.</div></section>
+      
+    </div>
+    <button class="expand-toggle" onclick="event.stopPropagation(); this.closest('.idea-card').classList.toggle('expanded')">
+      <span class="label-collapsed">Expand to Read More</span><span class="label-expanded">Collapse to Read Less</span><span class="arrow">&#9662;</span>
+    </button>
+  </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  Side Hustle Intel — every idea here is sourced from a real creator video, linked at the bottom of each entry.
+</footer>
+
+<script>
+  const STORAGE_KEY = 'sideHustleIntel_savedGigs_fullPreview';
+  let showingSavedOnly = false;
+
+  function getSaved() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || []; }
+    catch (e) { return []; }
+  }
+  function setSaved(list) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+    updateExportBar();
+  }
+  function toggleSave(checkbox) {
+    const card = checkbox.closest('.idea-card');
+    const id = card.dataset.idea;
+    let saved = getSaved();
+    if (checkbox.checked) { if (!saved.includes(id)) saved.push(id); }
+    else { saved = saved.filter(x => x !== id); }
+    setSaved(saved);
+  }
+  function updateExportBar() {
+    const saved = getSaved();
+    document.getElementById('save-count').textContent = saved.length + (saved.length === 1 ? ' gig saved' : ' gigs saved');
+    document.getElementById('export-btn').disabled = saved.length === 0;
+    applyFilter();
+  }
+  function exportSaved() {
+    const saved = getSaved();
+    const cards = document.querySelectorAll('.idea-card');
+    let output = 'Side Hustle Intel — Saved Gigs\n\n';
+    cards.forEach(card => {
+      if (!saved.includes(card.dataset.idea)) return;
+      const title = card.querySelector('.idea-title').textContent;
+      const url = card.querySelector('.source-line a').href;
+      const whatIsIt = card.querySelector('.field-body').textContent.trim();
+      output += `${title}\n${whatIsIt}\n${url}\n\n`;
+    });
+    const now = new Date();
+    const pad = (n) => String(n).padStart(2, '0');
+    const stamp = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}_${pad(now.getHours())}-${pad(now.getMinutes())}`;
+    const blob = new Blob([output.trim()], { type: 'text/plain' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = `side-hustle-intel-saved-gigs_${stamp}.txt`;
+    link.click();
+    URL.revokeObjectURL(link.href);
+  }
+  function toggleSavedView() {
+    showingSavedOnly = !showingSavedOnly;
+    const btn = document.getElementById('view-saved-btn');
+    btn.classList.toggle('active', showingSavedOnly);
+    btn.textContent = showingSavedOnly ? 'Show All Gigs' : 'View Saved Only';
+    applyFilter();
+  }
+  function applyFilter() {
+    const saved = getSaved();
+    const cards = document.querySelectorAll('.idea-card');
+    let visibleCount = 0;
+    cards.forEach(card => {
+      const isSaved = saved.includes(card.dataset.idea);
+      const shouldHide = showingSavedOnly && !isSaved;
+      card.classList.toggle('hidden-by-filter', shouldHide);
+      if (!shouldHide) visibleCount++;
+    });
+    document.getElementById('empty-saved-msg').classList.toggle('visible', showingSavedOnly && visibleCount === 0);
+  }
+
+  // ---- Search scoring, per the Filtering & Ranking Addendum: soft ranking,
+  // nothing ever hidden by search alone, just re-sorted best-match-first.
+  // Query is split into words and matched independently — "phone work" should
+  // still find "Phone/sales-based" even though that's not a literal phrase
+  // match anywhere. Weights: name=4, tag=3, situation_tag=3, category=2, source=2, body=1 ----
+  function scoreCard(card, query) {
+    if (!query) return 0;
+    const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+    if (words.length === 0) return 0;
+
+    const name = card.querySelector('.idea-title').textContent.toLowerCase();
+    const tagList = (card.dataset.tags || '').toLowerCase().split(',').map(t => t.trim());
+    const situationList = (card.dataset.situation || '').toLowerCase().split(',').map(t => t.trim());
+    const category = (card.dataset.category || '').toLowerCase();
+    const source = card.querySelector('.source-line').textContent.toLowerCase();
+    const bodyText = Array.from(card.querySelectorAll('.field-body')).map(el => el.textContent.toLowerCase()).join(' ');
+
+    let score = 0;
+    words.forEach(word => {
+      if (name.includes(word)) score += 4;
+      if (tagList.some(t => t.includes(word) || word.includes(t))) score += 3;
+      if (situationList.some(s => s.includes(word) || word.includes(s))) score += 3;
+      if (category.includes(word)) score += 2;
+      if (source.includes(word)) score += 2;
+      if (bodyText.includes(word)) score += 1;
+    });
+    return score;
+  }
+
+  function applySearch(query) {
+    const main = document.querySelector('.database-panel');
+    const cards = Array.from(document.querySelectorAll('.idea-card'));
+    const scored = cards.map(card => ({ card, score: scoreCard(card, query.trim()) }));
+
+    // Soft ranking: re-sort by score, but never hide anything — a zero-score
+    // card just sinks to the bottom instead of disappearing.
+    scored.sort((a, b) => b.score - a.score);
+    scored.forEach(({ card }) => main.appendChild(card));
+  }
+
+  document.querySelectorAll('.idea-card').forEach(card => {
+    if (getSaved().includes(card.dataset.idea)) card.querySelector('.save-check').checked = true;
+  });
+  updateExportBar();
+</script>
+
+</body>
+</html>
