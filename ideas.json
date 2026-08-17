@@ -2525,5 +2525,443 @@
       "Strictly in-home",
       "Phone/sales-based"
     ]
+  },
+  {
+    "id": "ai-content-creation-service-higgsfield-createugc",
+    "name": "AI content creation as a service using Claude and Higgsfield or Create UGC",
+    "category": "Marketing & content",
+    "tags": [
+      "AI tools",
+      "UGC ads",
+      "content creation",
+      "e-commerce",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "AutoDS - Build Your Online Income",
+    "what": "Help e-commerce brands and local businesses create short-form product videos, ad variations, and UGC-style content without them ever hiring a creator, using Claude to plan the strategy and script (angles, scenes, voice-over) and an AI video tool, either Higgsfield connected to Claude for more custom control, or Create UGC for a faster, more streamlined workflow, to generate the actual footage.",
+    "pitch": "The presenter frames the sales pitch specifically: don't say \"I make AI videos,\" instead reach out with something like \"I saw your product and had a few quick video ideas that could work well for your TikTok or ads, I can even make you a sample,\" which performs much better than a generic pitch. The offer is packaged into simple tiers, a basic package of one video, a standard package of three, and a premium package of five with captions and basic editing, sellable on Fiverr or through direct outreach to e-commerce brands and local businesses.",
+    "best": "Someone comfortable learning a multi-step AI video pipeline (connecting tools, writing prompts, approving and regenerating scenes) who's willing to do a bit of manual editing to combine AI-generated clips into a polished final video.",
+    "truth": "The presenter discloses this workflow depends on paid tools (Higgsfield and Create UGC both cost money per generation, and regenerating a scene you don't like costs double), and promotes a separate video and free cheat sheet for the full walkthrough. The core sales positioning advice, specific and personalized pitches over generic ones, is sound and doesn't depend on any particular tool.",
+    "url": "https://www.youtube.com/watch?v=EEMQ2kbsqcY",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "shopify-store-creation-service-buildyourstore-autods",
+    "name": "Shopify store creation as a service using Claude, Build Your Store, and AutoDS",
+    "category": "E-commerce",
+    "tags": [
+      "Shopify",
+      "AI tools",
+      "e-commerce",
+      "dropshipping",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "AutoDS - Build Your Online Income",
+    "what": "Build ready-to-launch Shopify stores for dropshippers, local businesses, and beginner e-commerce sellers using buildyourstore.ai to generate the store's technical foundation (theme, pages, product structure, policies), then use Claude as a branding and improvement layer to rewrite the copy, product pages, and FAQ so the store feels custom rather than generic.",
+    "pitch": "The presenter is specific that Claude alone shouldn't be used as the full store builder, since it tends to produce generic layouts and code without the real setup work (themes, shipping policies, product structures) a functioning store needs, whereas buildyourstore.ai handles that foundation in minutes and integrates directly with AutoDS for automatically importing trending, pre-vetted products. The offer can be tailored by customer type, \"a one-product dropshipping store\" for dropshippers, \"a merch store\" for creators, or \"a starter Shopify store\" for total beginners.",
+    "best": "Someone comfortable stacking a few specific tools together (a store-builder platform, Claude for copy, a product-sourcing app) rather than building everything from scratch, and willing to reach out to businesses directly or list the service on Fiverr.",
+    "truth": "The specific tool recommended, buildyourstore.ai, comes bundled with a promotional Shopify deal ($1/month for 3 months) that the presenter's own channel appears to benefit from promoting. The underlying two-layer approach, a purpose-built store tool for the technical foundation plus Claude for the branding layer on top, is a reasonable and independently testable structure regardless of which specific store-builder is used.",
+    "url": "https://www.youtube.com/watch?v=EEMQ2kbsqcY",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "ai-marketing-kits-service-claude",
+    "name": "AI-generated marketing kits as a standalone or bundled service",
+    "category": "Marketing & content",
+    "tags": [
+      "AI tools",
+      "marketing",
+      "branding",
+      "digital products",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "AutoDS - Build Your Online Income",
+    "what": "Use a single detailed Claude prompt to generate a complete marketing kit for a business, ideal-customer research, brand positioning, website copy, social content pillars and scripts, a posting calendar, and image-generation prompts, then package it as a polished deliverable (a Google Doc or PDF) rather than raw AI output.",
+    "pitch": "The presenter positions this as one of the most flexible offers because it can be sold on its own (\"I'll create a complete AI marketing kit for your brand\") or bundled to make other offers, like a Shopify store build or content creation package, feel far more valuable and complete. He demonstrates the output live: a few basic inputs (business name, audience, product, brand tone) produce a full customer-research profile, headline and offer copy, objection-handling FAQ, and a social content strategy with specific hooks and scripts.",
+    "best": "Someone who wants a single, repeatable, high-perceived-value deliverable that doesn't require ongoing execution work, since the kit itself is the product rather than an ongoing service relationship.",
+    "truth": "The demonstration in the video uses a fictional example business, so the specific output quality shown is a live but staged proof of concept rather than a real client result. The underlying prompt-based approach is straightforward enough to test yourself with a free-tier AI tool before committing to selling it as a paid service.",
+    "url": "https://www.youtube.com/watch?v=EEMQ2kbsqcY",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "pet-waste-removal-service",
+    "name": "Pet waste (dog poop) removal service",
+    "category": "Local & professional services",
+    "tags": [
+      "pet services",
+      "route based",
+      "recurring revenue",
+      "very low startup cost"
+    ],
+    "cost": "Very low startup cost (~$500 for basic equipment)",
+    "found": "Austin Zaback",
+    "what": "Offer a recurring weekly service that shows up at a customer's home, cleans up dog waste from the yard, sanitizes the turf, and leaves, using simple tools: a rake, scoop, waste bins, disinfectant, and gloves.",
+    "pitch": "Zaback cites U.S. pet-ownership data (66% of households own a pet, 65 million own at least one dog producing over 20 billion pounds of waste a year) and a real example he watched personally: a scooper who built a 300-customer route, did about 30 jobs a day per employee, and grossed roughly $20,000 a month, over a quarter million a year, charging an average of $69 per customer per month.",
+    "best": "Someone comfortable with genuinely unglamorous, hands-on outdoor work who's building toward a recurring-revenue route rather than one-off jobs.",
+    "truth": "The $20,000/month example is a single real operator Zaback says he personally observed and spoke with, a specific and checkable-in-principle account rather than an anonymous claim, though it's still one data point rather than an industry average. The pet-waste-removal market size and growth figures cited ($537 million market by 2035) are framed as industry projections, not something Zaback personally verified.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Weekend/event-based schedule"
+    ]
+  },
+  {
+    "id": "pressure-washing-business-trash-can-upsell",
+    "name": "Pressure washing business with a trash can cleaning upsell",
+    "category": "Local & professional services",
+    "tags": [
+      "pressure washing",
+      "home services",
+      "recurring revenue",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (~$1,000 for equipment)",
+    "found": "Austin Zaback",
+    "what": "Pressure wash residential driveways, patios, and building exteriors, then add a simple upsell while already on-site: offer to clean the customer's outdoor trash cans for an extra $20 to $30 per can, since the water, cleaning solution, and equipment are already there.",
+    "pitch": "Zaback cites a personal acquaintance, a former financial advisor with no industry background, who started with a trailer, water tank, hose, and surface cleaner, and crossed $100,000 in his best single month four years in. He frames the U.S. pressure washing industry as a $1.2 billion market across 32,000-plus companies with consistent, non-seasonal demand, and notes average residential jobs run $400 to $1,000.",
+    "best": "Someone willing to start with used or basic equipment and build a route, then compound revenue per stop by bundling in the trash-can upsell rather than driving to new jobs for incremental income.",
+    "truth": "The $100,000-month example is a specific person Zaback knows personally, a real but individual result rather than a typical outcome, and it came after four years of operating, not immediately. The trash-can upsell math (an extra $40-60 per stop) is a straightforward, independently testable idea regardless of how the broader pressure-washing business performs.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Needs a truck or cargo vehicle"
+    ]
+  },
+  {
+    "id": "trash-can-rollout-curb-service",
+    "name": "Trash can rollout and curb service",
+    "category": "Local & professional services",
+    "tags": [
+      "home services",
+      "subscription",
+      "recurring revenue",
+      "very low startup cost"
+    ],
+    "cost": "Very low startup cost (no truck or special equipment needed)",
+    "found": "Austin Zaback",
+    "what": "A single-purpose subscription service: roll a homeowner's trash and recycling cans out to the curb on collection day, then bring them back afterward, with no equipment beyond the cans themselves and a reliable weekly schedule.",
+    "pitch": "Zaback profiles a company called Can Monkey, whose founder got the idea watching a neighbor pull into his garage and leave the trash can sitting at the curb, then reasoned other homeowners felt the same way. That company reportedly has over 4,000 active subscriptions across 18 states with 500-plus runners, charging $49.99 a month per property, roughly $200,000 a month in recurring revenue, with a churn rate Zaback says is under 1%.",
+    "best": "Someone looking for the lowest possible equipment barrier to entry, since the entire service requires no truck, tools, or inventory, just a route, a schedule, and consistency, well suited to elderly residents, second-home owners, and short-term rental turnovers as target customers.",
+    "truth": "The company-level figures (4,000 subscriptions, sub-1% churn, $200K/month) are Zaback's account of a conversation with the founder during a business tour, a specific and named source rather than an anonymous claim, though not independently audited by Zaback himself. The core insight, that people will pay recurring fees for genuinely unglamorous, avoidable chores, is the same pattern that shows up across several ideas in this video.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Weekend/event-based schedule"
+    ]
+  },
+  {
+    "id": "junk-removal-service-local",
+    "name": "Junk removal service",
+    "category": "Local & professional services",
+    "tags": [
+      "junk removal",
+      "home services",
+      "local business",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (lower if you already own a truck)",
+    "found": "Austin Zaback",
+    "what": "Show up to a customer's home or property, quote the job on the spot based on volume, load unwanted furniture, appliances, or debris into a truck or trailer, and haul it away, getting paid in cash or card immediately rather than waiting on invoicing.",
+    "pitch": "Zaback frames the U.S. waste collection services industry (projected to surpass $90 billion by 2030) as large enough that small local operators can carve out real income, citing $500 to $1,500 a day in realistic revenue for a single truck and $250 to $300 as a typical job price. He emphasizes that the real growth lever is relationships, real estate agents, property managers, and estate sale companies, since apartment turnover alone runs 40-50% annually and creates a steady pipeline of clearance jobs.",
+    "best": "Someone who already owns or can access a truck or trailer and is comfortable building referral relationships with property managers, agents, and contractors rather than relying purely on one-off individual customers.",
+    "truth": "The per-day and per-job revenue figures are Zaback's own stated ranges rather than a single verified case study, though they're specific and consistent with the kind of pricing publicly discussed across the junk-removal industry. The relationship-based growth strategy (property managers, agents, estate companies) is a concrete, actionable, and independently testable approach regardless of the exact revenue figures.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Needs a truck or cargo vehicle"
+    ]
+  },
+  {
+    "id": "solar-panel-cleaning-service",
+    "name": "Solar panel cleaning service",
+    "category": "Local & professional services",
+    "tags": [
+      "solar",
+      "home services",
+      "recurring revenue",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost ($500-$800 for equipment, no license required in most states)",
+    "found": "Austin Zaback",
+    "what": "Clean the dirt, dust, pollen, and bird droppings that build up on residential and commercial solar panels, restoring lost power output, using a soft-wash or low-pressure hose system, a squeegee, and a water-fed pole, typically sold as a one-to-two-times-a-year recurring package.",
+    "pitch": "Zaback frames the sales pitch around reframing the service: it's not just panel cleaning, it's recovering lost energy output on an investment that may have cost the homeowner $20,000-$30,000, since regular cleaning can boost power production by 10-20% in dirty conditions. He cites the solar panel cleaning industry being valued at $1.22 billion in 2025 and projected to reach $2.57 billion by 2035, with especially strong opportunity in high-solar-adoption states like Arizona, Texas, California, and Florida.",
+    "best": "Someone in a solar-dense region looking for one of the lowest equipment costs and least regulatory friction on this whole list, ideal for someone wanting a simple, low-overhead recurring-revenue service.",
+    "truth": "The industry valuation and growth figures are cited as third-party market research rather than Zaback's own data, and no specific individual operator's income is given for this particular idea, unlike several others in the video, so there's no personal case study to weigh here. The core value proposition (dirty panels underperform, cleaning restores output) is a straightforward, physically verifiable claim independent of any specific revenue projection.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Requires a license or certification"
+    ]
+  },
+  {
+    "id": "window-cleaning-service-residential-commercial",
+    "name": "Window cleaning service for homes and businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "window cleaning",
+      "home services",
+      "recurring revenue",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost (~$500 for basic equipment)",
+    "found": "Austin Zaback",
+    "what": "Clean windows for homes, storefronts, and office buildings, starting with a basic kit (squeegee, mop, bucket, ladder, cleaning solution) and quoting jobs by square footage and number of stories, with the option to sell recurring quarterly packages to homeowners and monthly contracts to commercial clients.",
+    "pitch": "Zaback cites an average residential job of around $550, meaning six jobs in a day already crosses $3,000 in gross revenue, and profiles an Arizona operator who did $392,000 in a year with a small subcontractor team, starting with just $500 in equipment. He specifically highlights commercial accounts (restaurants, retail, offices) as more valuable than residential ones because they prioritize reliability over price shopping and will commit to standing monthly contracts.",
+    "best": "Someone comfortable quoting jobs quickly over the phone once they know their pricing formula, and willing to pursue commercial accounts specifically for the more stable, less price-sensitive recurring revenue they offer over one-off residential jobs.",
+    "truth": "The $392,000/year figure is a specific, named example (an Arizona operator using a subcontractor team) rather than an anonymous claim, though it represents one successful operator, not a typical or guaranteed outcome. The distinction Zaback draws between residential (price-sensitive, one-time) and commercial (reliability-focused, recurring) customers is a genuinely useful and independently testable segmentation for anyone starting this business.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required"
+    ]
+  },
+  {
+    "id": "pool-cleaning-maintenance-service",
+    "name": "Pool cleaning and maintenance service",
+    "category": "Local & professional services",
+    "tags": [
+      "pool service",
+      "home services",
+      "recurring revenue",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost (a few hundred dollars for equipment)",
+    "found": "Austin Zaback",
+    "what": "Provide weekly pool maintenance, skimming the surface, brushing walls, occasionally vacuuming the floor, and adding chemicals as needed, for residential customers who don't want to maintain their own pool or risk it turning green and unusable.",
+    "pitch": "Zaback cites the U.S. pool cleaning and maintenance market at $26.77 billion in 2025, projected to reach nearly $40 billion by 2030, and notes that most residential customers pay $100 to $150 a month for weekly service, a naturally recurring relationship since a neglected pool creates an urgent, visible problem the homeowner wants solved.",
+    "best": "Someone in a warm-climate state (Florida, Texas, California, Arizona, and similar) willing to build a weekly route, since retention in this business is described as strong once a homeowner trusts a reliable cleaner.",
+    "truth": "No specific individual case study or income example is given for this particular idea in the video, unlike several of the others, so the pricing and market-size figures are the only data points to evaluate rather than a personal account. The core mechanic (weekly visits, chemical costs scale with actual accounts rather than being paid upfront) is specific enough to verify independently before committing capital.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Weekend/event-based schedule"
+    ]
+  },
+  {
+    "id": "lawn-care-business-route",
+    "name": "Lawn care and mowing route",
+    "category": "Local & professional services",
+    "tags": [
+      "lawn care",
+      "landscaping",
+      "recurring revenue",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (one mower to start)",
+    "found": "Austin Zaback",
+    "what": "Build a residential lawn mowing and basic yard maintenance route, starting with one mower and expanding customer by customer within a tight geographic area to keep drive time low and route density high.",
+    "pitch": "Zaback cites the U.S. lawn care and landscaping industry at $184 billion in 2025 across 650,000 companies, none of which controls more than 5% of the market, meaning there's no dominant national brand cornering any given neighborhood. He notes the average U.S. household spends about $600 a year on lawn care, and that doing eight to ten lawns a day can generate $400 to $750 in daily revenue solo.",
+    "best": "Someone willing to start small (one mower, one tight route) and treat this as a long, proven, unglamorous path rather than a fast or novel one, since Zaback frames it as one of the least flashy but most consistently reliable ideas on the list.",
+    "truth": "The revenue figures are Zaback's general framework based on typical job counts and pricing rather than one specific named case study, unlike some of the other ideas in this video. The market fragmentation statistic (no company over 5% share) is a real, checkable structural fact about the industry that supports the claim of low competitive barriers, regardless of any individual operator's specific results.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Weekend/event-based schedule"
+    ]
+  },
+  {
+    "id": "mobile-car-detailing-service",
+    "name": "Mobile car detailing service",
+    "category": "Local & professional services",
+    "tags": [
+      "mobile detailing",
+      "automotive",
+      "low startup cost",
+      "high margin"
+    ],
+    "cost": "Low startup cost (no commercial space needed)",
+    "found": "Austin Zaback",
+    "what": "Drive to a customer's home or office and detail their car in their driveway or parking spot, requiring no commercial space, employees, or heavy equipment, just mobility and the tools to wash, wax, and clean a vehicle on-site.",
+    "pitch": "Zaback cites the global car detailing industry projected to surpass $58 billion by 2030 and notes mobile detailers consistently achieve 60-80% gross margins, among the highest of any service business on his list, since the core product being sold is convenience as much as the clean itself. He gives concrete pricing: $50-100 for a basic wash, $200-400 for a wax, buff, or deep clean on a luxury vehicle, meaning three high-end cars in a day could clear roughly $1,000.",
+    "best": "Someone targeting busy professionals, luxury car owners, or multi-vehicle families who will pay a premium specifically to avoid driving somewhere and waiting, rather than competing purely on price with fixed-location car washes.",
+    "truth": "The margin and pricing figures are presented as general industry figures rather than tied to one specific named operator's verified results, unlike some of the other ideas in this video. The core value proposition, that convenience commands a premium price people pay without much resistance, is a straightforward and testable claim independent of the specific dollar figures cited.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Weekend/event-based schedule"
+    ]
+  },
+  {
+    "id": "claude-project-dropshipping-skill-system",
+    "name": "Claude Project skill system for end-to-end dropshipping store building",
+    "category": "E-commerce",
+    "tags": [
+      "AI tools",
+      "dropshipping",
+      "Claude Projects",
+      "e-commerce"
+    ],
+    "cost": "Low startup cost (Claude paid plan required, plus optional starting budget)",
+    "found": "AutoDS - Build Your Online Income",
+    "what": "Load a set of six sequential custom \"skills\" into a Claude Project, find my niche, find my product, build my offer, open my store, improve my store, and market my product, so that typing a single word like \"start\" walks you through a structured, question-driven process from picking a niche based on your own interests and budget through to a built, branded e-commerce store.",
+    "pitch": "The presenter demonstrates the niche-discovery step live: Claude asks what topics or jobs you already know, your starting budget (even $0 works, beyond the Claude subscription), how you'd prefer to make content, and what you want to avoid selling, then uses those answers to guide product research through an integrated winning-products database. He frames the appeal as structure: rather than facing the whole process at once, each skill hands off to the next in a fixed order.",
+    "best": "Someone who wants a fully guided, question-and-answer approach to starting a dropshipping store rather than researching each step (niche, product, store build, marketing) separately themselves.",
+    "truth": "The presenter doesn't show his own specific winning product on camera, citing competitive reasons, so the $5,439-in-7-days headline figure from the video's title isn't demonstrated step-by-step within the video itself. The skill set and product database are distributed via a free cheat sheet that funnels into the presenter's broader AutoDS platform and paid product-sourcing tools, worth knowing since the workflow is built around that ecosystem.",
+    "url": "https://www.youtube.com/watch?v=maeieVgJKEE",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "ai-dropshipping-store-zendrop-smplsocial",
+    "name": "AI-built dropshipping store with auto-loaded products and AI video ads",
+    "category": "E-commerce",
+    "tags": [
+      "dropshipping",
+      "AI tools",
+      "Shopify",
+      "e-commerce",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost ($1/month Shopify promo, free AI store builder)",
+    "found": "Jeremy Ray Holst",
+    "what": "Use a guided \"free AI store builder\" wizard to set up a niche-specific Shopify store in a few clicks (pick a niche, colors, and banner), connect the ZenDrop supplier app so trending, pre-vetted products get automatically loaded onto the store with fulfillment handled on autopilot, then generate product marketing videos using only a screenshot of the product and a text prompt through a tool called smplsocial.io.",
+    "pitch": "The presenter demonstrates the entire build, from a blank page to a live, product-stocked store, in under 10 minutes on camera, emphasizing that no product ever has to be purchased, held, or physically touched to create realistic-looking marketing videos of it in use. The AI video step specifically removes the traditional friction of dropshipping marketing, no need to own the product, film it, or hire an editor, since a single screenshot and prompt produces a finished vertical video.",
+    "best": "A true beginner who wants the fastest possible path to a live, functioning store and is comfortable letting an automated supplier and AI tools handle product selection and content creation rather than doing deep niche research themselves.",
+    "truth": "The video is structured around the presenter's own free store-builder tool and a free course and community (dropshippingstarter.com) that it funnels into, both disclosed but worth factoring in given how central they are to the walkthrough. No revenue or sales results are shown or claimed for this specific store within the video, it demonstrates the build process only, not a proven outcome.",
+    "url": "https://www.youtube.com/watch?v=PSXm_Df2tL0",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "etsy-print-on-demand-full-tutorial",
+    "name": "Etsy print-on-demand business using AI-generated designs",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "Etsy",
+      "AI tools",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost (no inventory, pay only after a sale)",
+    "found": "Wisdom Speaks",
+    "what": "Sell print-on-demand products (t-shirts, mugs, posters) on Etsy by picking an evergreen, versatile product category, researching underserved niches and keywords using a tool like Alura to check search volume against competitor count, generating designs with an AI image tool like Midjourney, mocking them up in Canva, and connecting a print-on-demand supplier (the presenter uses Inkjoy) that only prints and ships once a customer actually buys.",
+    "pitch": "The presenter, who's run print-on-demand since 2022, distills product selection into three criteria: evergreen (proven sellers like t-shirts and mugs that won't die out with a trend), profitable enough to be worth it ($8-10 per sale at a 20-30% margin is the target he uses), and versatile enough to carry designs across many different niches. He walks through a real example using Alura to check a competitor's fishing-t-shirt niche, finding it doing $3,000-4,000 in sales after 6-8 months with a manageable few thousand competing listings, and treats a competitor count under roughly 10,000 as a good opportunity signal.",
+    "best": "Someone willing to do real upfront research (checking search volume and competition before committing to a niche) rather than guessing at designs, and comfortable using AI tools for the actual artwork even without traditional design skills.",
+    "truth": "The presenter doesn't reveal his own specific niche, keywords, or exact numbers, citing competitive reasons, so the profitability framework and the fishing-niche example are demonstrations of the research method rather than his own personal, verified results. The specific tools recommended (Alura, Midjourney, Inkjoy) each cost money, roughly $10/month for the AI image generator plus Alura's own subscription, worth factoring into the very-low-cost framing.",
+    "url": "https://www.youtube.com/watch?v=k-Zmcd_ueGQ",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "amazon-merch-on-demand",
+    "name": "Amazon Merch on Demand (passive t-shirt design uploads)",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "Amazon",
+      "passive income",
+      "beginner friendly"
+    ],
+    "cost": "Free to join (application required)",
+    "found": "Greg Gottfried",
+    "what": "Create t-shirt designs and upload them to Amazon's own built-in Merch on Demand program, which creates the product listing, handles printing, shipping, and customer service entirely on Amazon's side, so the seller's only ongoing task is producing and uploading new designs.",
+    "pitch": "Gottfried, who's run this program for nearly 10 years, explains the real leverage isn't in the small per-sale profit (about $3.18 on a $21.99 shirt) but in Amazon's existing shopper traffic doing the selling, since he's seen individual designs sell 400-700-plus times a month without any of the seller's own marketing. His top tip is checking that a design's exact phrase isn't trademark-protected before uploading, using a free trademark search, since a protected phrase can get a seller in trouble.",
+    "best": "Someone comfortable treating this as a volume game, producing many designs rather than perfecting a few, and who's fine with the program's real barrier: an application to join, which isn't automatic.",
+    "truth": "Gottfried discloses he sells zero physical products himself after 10 years of Amazon experience, everything he recommends is passive-income focused, which shapes which of Amazon's many programs he features. The per-shirt profit margin and per-design sales volume are specific, real figures from his own account, and the requirements (free to join, 18+, must live in an English-speaking country, no need to reside in the U.S.) are concrete and independently verifiable on Amazon's own signup page.",
+    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "amazon-kdp-low-content-books",
+    "name": "Amazon KDP low and medium-content books (word searches, log books, planners)",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "Amazon KDP",
+      "publishing",
+      "beginner friendly"
+    ],
+    "cost": "Free to join, no ongoing fees",
+    "found": "Greg Gottfried",
+    "what": "Publish functional, non-text-heavy books through Amazon Kindle Direct Publishing, word search books, log books, maintenance trackers, and similar niche-specific planners, using template-based design tools rather than writing full-length content, with Amazon handling printing, shipping, and customer service the same way it does for Merch on Demand.",
+    "pitch": "Gottfried is candid that he tried full-length, text-based books and had little success with them, they took too long to create and weren't worth it for him, whereas low and medium-content books let him produce 5 to 10 finished books in a single day using template tools built for word searches, crosswords, and similar formats. Pricing works the same way as Merch on Demand: set a sale price, earn a few dollars in royalties per sale, and rely on Amazon's own traffic and volume rather than personal marketing.",
+    "best": "Someone with no graphic design or writing background who wants a genuinely fast production process, since Gottfried emphasizes you can go from never having made a book to having one finished within a single tutorial session.",
+    "truth": "Gottfried frames this specifically as \"an even easier way\" than typical KDP advice, which usually focuses on longer books, based on his own personal experience of what worked and didn't for him over years of trying different formats. Signup requirements are concrete and checkable (free, 18+, English-speaking country, no application required, unlike Merch on Demand), and no specific revenue figures are given for this particular business model in the video.",
+    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "amazon-associates-youtube-review-videos",
+    "name": "Amazon Associates affiliate income via YouTube review videos",
+    "category": "Marketing & content",
+    "tags": [
+      "affiliate marketing",
+      "Amazon",
+      "YouTube",
+      "content creation"
+    ],
+    "cost": "Free to join, no ongoing fees",
+    "found": "Greg Gottfried",
+    "what": "Join the Amazon Associates program to get a unique tracked link for any Amazon product, then create YouTube videos (talking about or demonstrating products, without necessarily appearing on camera) with those affiliate links in the description, earning a commission on anything a viewer buys on Amazon within 24 hours of clicking through, not just the specific product featured.",
+    "pitch": "Gottfried's single best piece of advice is to make videos about topics people are actively Googling or searching for on YouTube, since that content earns organic views without needing an existing subscriber base or following, and he notes that a large share of commissions actually come from \"secondary sales,\" other items a visitor adds to their cart beyond the one they originally clicked through for.",
+    "best": "Someone comfortable creating video content (camera-on or camera-off, talking about products they already know or own) but who doesn't want to build a large following first, since Gottfried's approach relies on search-driven discovery rather than an audience.",
+    "truth": "Gottfried discloses that videos have worked \"head and shoulders above everything else\" for him personally compared to photos or social posts, a stated preference based on his own experience rather than a universal claim. The 24-hour attribution window and secondary-sales mechanic are concrete, verifiable facts about how the Amazon Associates program actually works, not marketing claims specific to his own results.",
+    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "amazon-influencer-program-product-videos",
+    "name": "Amazon Influencer Program: short product review videos on Amazon listings",
+    "category": "Marketing & content",
+    "tags": [
+      "Amazon",
+      "affiliate marketing",
+      "video",
+      "passive income"
+    ],
+    "cost": "Free to join (requires an active social media account to apply)",
+    "found": "Greg Gottfried",
+    "what": "Record short review or demo videos for products you've already purchased from Amazon, upload them to your Amazon Influencer account, and earn a commission whenever a shopper watches your video directly on that product's Amazon listing page and then buys, without ever needing to post the videos to your own social media.",
+    "pitch": "Gottfried, three months into this specific program at the time of filming, made about $70 in profit his first month simply reviewing products he already owned, then jumped to roughly $1,400 in his second month after switching strategy: using a data tool to check how many other influencer videos already exist for a given product (since Amazon only displays about five per listing) and prioritizing products with little existing video competition over ones already saturated with 100-plus competing videos.",
+    "best": "Someone who already owns a range of Amazon-purchased products and is comfortable recording brief, simple review or demo videos, understanding that visibility (getting into the limited top-five video slots) matters more than production quality.",
+    "truth": "Gottfried is specific that his own $70-to-$1,400 jump came from a single tactical shift (competition-checking before choosing which products to review), a concrete and replicable insight rather than a vague growth claim. The application does require proving an existing active social media account, even though the ongoing work happens entirely on Amazon's platform, a real and sometimes confusing requirement worth knowing upfront.",
+    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "high-ticket-coaching-program-youtube-roadmap",
+    "name": "Building a high-ticket group coaching program from an existing YouTube channel",
+    "category": "Local & professional services",
+    "tags": [
+      "coaching",
+      "YouTube",
+      "high-ticket offer",
+      "roadmap"
+    ],
+    "cost": "Varies (mostly time; low direct cost to start)",
+    "found": "Ed Lawrence",
+    "what": "A roadmap for creators who already have a YouTube channel and audience in a health, wealth, relationship, or serious-hobbyist niche (music, photography, and similar) to build and launch a group coaching program: survey and interview your existing viewers to find their top three problems and the false beliefs stopping them from buying, then build an offer, pricing, and sales page copy directly around what that research reveals rather than guessing.",
+    "pitch": "Lawrence, who says he's generated eight figures from high-ticket programs and helped hundreds of creators with a claimed 90% success rate, illustrates the method with a real pivot: a client's planned generic \"productivity\" program was reshaped, after viewer surveys and calls revealed the audience was mostly high-pressure tech workers, into a program specifically about managing career pressure, which then sold out at over $5,000 per seat. He gives a specific readiness checklist (niche, comment engagement ratio, email list size and open rate, existing sales, and returning-viewer rate) and a concrete pricing tactic: start at a discounted \"founding member\" rate below your long-term target price to make the first launch feel less intimidating.",
+    "best": "An existing content creator with a genuine, engaged audience (even a small one, Lawrence stresses total view count matters less than returning-viewer loyalty) who's willing to do direct audience research before building anything, rather than assuming they already know what their viewers want.",
+    "truth": "Lawrence's headline outcomes (a program hitting $60K in six weeks, another reaching $100K/month in 120 days) are specific client examples he cites but doesn't independently document within the video itself, and he runs a paid tool and coaching offer that this video partly promotes. The core research method, surveys and calls to uncover real audience problems and objections before building an offer, is a general, independently applicable principle that doesn't require his specific program or tools to execute.",
+    "url": "https://www.youtube.com/watch?v=vF5lO5yPGUY",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
   }
 ]
