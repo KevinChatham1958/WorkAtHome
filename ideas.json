@@ -1401,7 +1401,7 @@
     "cost": "Very low startup cost",
     "found": "Cintika tube",
     "what": "Rather than building one large channel, run several small, niche YouTube channels at once, blogging, household tips, YouTuber-focused content, and casual chat videos among them, each earning modest AdSense income that together adds up to a livable income.",
-    "pitch": "The creator shows her real February AdSense breakdown across all eight channels, totaling over \u20ac2,000 for the month. Her four biggest channels each bring in a few hundred euros, while four smaller ones bring in under \u20ac100 each. She's candid that no single channel would support her: \"if I only had one, I wouldn't even reach \u20ac1,000.\"",
+    "pitch": "The creator shows her real February AdSense breakdown across all eight channels, totaling over €2,000 for the month. Her four biggest channels each bring in a few hundred euros, while four smaller ones bring in under €100 each. She's candid that no single channel would support her: \"if I only had one, I wouldn't even reach €1,000.\"",
     "best": "Someone drawn to content creation who values honesty over hype, and who's comfortable with a modest, steady income built from several small sources rather than betting on one channel going viral.",
     "truth": "This is one of the more credible, non-hyped accounts in this database precisely because the numbers shown are unglamorous, specific, and shown on-screen in the actual AdSense dashboard rather than just stated. Worth noting the figures are in euros, not dollars, and that running eight channels simultaneously, even small ones, is still real, ongoing content production, not a passive setup.",
     "url": "https://www.youtube.com/watch?v=eJqTCBHR0BY",
@@ -1525,6 +1525,477 @@
     "best": "Anyone already running, or considering, an email newsletter as part of a business, a methodology to apply, not a standalone idea by itself.",
     "truth": "The \"hundreds of millions in revenue\" figure is a broad, self-reported career claim without account-level detail to verify it, so treat it as a credibility signal rather than an audited number. The underlying approach, curate tightly, lead with value, sell only once trust is established, is a solid, well-established newsletter strategy independent of that headline figure, and results still depend heavily on actually growing a real, engaged subscriber base.",
     "url": "https://www.youtube.com/watch?v=9-KvflFNMy4",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "whitelabel-gohighlevel-saas-reseller",
+    "name": "White-label SaaS reseller for local business niches (GoHighLevel)",
+    "category": "Local & professional services",
+    "tags": [
+      "SaaS",
+      "reselling",
+      "local business",
+      "GoHighLevel",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (~$497/month software fee, plus ad spend)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "You white-label GoHighLevel's all-in-one marketing and CRM software and resell it to local business niches (event rental companies, med spas, gyms, dentists, roofers, and similar), charging a monthly software fee while your own reseller cost stays fixed at $497 a month regardless of how many clients you have.",
+    "pitch": "Koerner reverse-engineers real competitors using GoHighLevel's own public \"SaaSpreneur\" awards page, which shows which resellers have crossed 100, 500, or 1,000+ paying customers, then walks through a five-tool toolkit: the pricing page, the Wayback Machine, the Meta Ads Library, builtwith.com, and LinkedIn, to estimate a competitor's real revenue, ad spend, and team size. He demonstrates the model live by building a \"missed call text back\" tool for a roofing business in a few minutes inside GoHighLevel, showing how a small wedge product can turn into a broader retainer relationship.",
+    "best": "Someone comfortable with sales and marketing research who's willing to pick one underserved local-business niche and specialize in it, rather than trying to serve every industry at once.",
+    "truth": "Koerner discloses upfront that he's a GoHighLevel affiliate and earns a commission if viewers sign up through his link, worth keeping in mind given how enthusiastically the software is framed. All of the specific revenue estimates for the example businesses are his own \"back of a napkin\" math based on public award tiers and pricing pages, not verified financials, a reasonable estimate but not an audited number. The reverse-engineering toolkit itself is genuinely useful and independently verifiable regardless of how accurate any single revenue guess turns out to be.",
+    "url": "https://www.youtube.com/watch?v=VOo3M3ZHUoA",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "portable-sanitation-servicing",
+    "name": "Portable sanitation servicing (porta-potties and construction site rentals)",
+    "category": "Local & professional services",
+    "tags": [
+      "service business",
+      "recurring revenue",
+      "equipment needed",
+      "construction"
+    ],
+    "cost": "Significant upfront equipment cost (units plus servicing truck)",
+    "found": "Johnny & Sergio",
+    "what": "Rent and service portable toilets and sanitation units for active construction sites, which are legally required to have them for the length of a build, as well as weddings, festivals, and outdoor events, charging a recurring monthly or per-visit fee to pump out, restock, and maintain each unit.",
+    "pitch": "Construction contracts alone can run 6 to 18 months and combine a monthly per-unit rental fee with weekly service visits, and the same units can also be booked for single-weekend events, giving two very different customer bases for the same physical asset. The presenters argue this is one of the most recession-proof businesses on their list, since active construction and events don't stop needing sanitation just because almost nobody wants to be the one servicing it.",
+    "best": "Someone willing to do genuinely unglamorous, hands-on labor (or manage a crew that does), and who has the capital to purchase the units as a real upfront equipment cost.",
+    "truth": "The presenters are candid that this is deliberately ranked near the bottom of their list specifically because it's the least glamorous, most labor-intensive business on it, since you or your crew are doing the pump-outs and restocks yourselves. They frame it as a legitimate, demand-backed business rather than a passive one, and don't overstate how easy it is to get started.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Needs a truck or cargo vehicle",
+      "Weekend/event-based schedule"
+    ]
+  },
+  {
+    "id": "small-engine-repair-shop",
+    "name": "Small engine repair shop",
+    "category": "Local & professional services",
+    "tags": [
+      "skilled trade",
+      "repair",
+      "local business",
+      "recurring revenue"
+    ],
+    "cost": "Moderate startup cost (tools, shop space)",
+    "found": "Johnny & Sergio",
+    "what": "Repair small engines, lawnmowers, generators, chainsaws, pressure washers, and line striping machines, for local landscaping crews, contractors, and homeowners, positioning yourself as the reliable shop with fast turnaround rather than a hobbyist who fixes engines occasionally.",
+    "pitch": "The presenters argue this is a skilled trade that almost nobody under 50 is actively pursuing, even though every contractor with small engine equipment eventually needs it fixed and there's no national chain to call. The real opportunity, they say, isn't that nobody fixes engines, it's that almost nobody does it as a real, reliable business with an actual shop and same-day callbacks.",
+    "best": "Someone younger who's willing to learn a genuine skilled trade and is comfortable with a business that gets noticeably slower in winter, since demand is seasonal for outdoor equipment.",
+    "truth": "The presenters are upfront that this is one of the weaker \"build a real business\" plays on their list precisely because the labor takes real time to learn and the seasonality is a real constraint. It's framed as a good cash-flow trade, not an easy path to a scalable company.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "Local travel required"
+    ]
+  },
+  {
+    "id": "fire-extinguisher-inspection-route",
+    "name": "Fire extinguisher testing and inspection route",
+    "category": "Local & professional services",
+    "tags": [
+      "service business",
+      "recurring revenue",
+      "certification needed",
+      "route based"
+    ],
+    "cost": "Low to moderate startup cost",
+    "found": "Johnny & Sergio",
+    "what": "Inspect and tag fire extinguishers for offices, restaurants, warehouses, and apartment buildings on the legally required annual inspection schedule, building up a recurring route of accounts over time.",
+    "pitch": "Every commercial building is legally required to get its extinguishers inspected on a set schedule, and fire marshals actually check for the tag, which means the law itself does the sales pitch for you. Once you're inspecting a building's extinguishers, switching to a new inspector means a customer has to re-explain their whole building to someone new, which the presenters say makes accounts unusually sticky once you land them.",
+    "best": "Someone comfortable with slower, longer commercial sales cycles who's willing to build up a large route of low-ticket accounts over time rather than looking for one big score.",
+    "truth": "The presenters are honest that this sits mid-list specifically because it isn't high-ticket per visit, so building meaningful income requires a genuinely large route and patience with commercial sales cycles. They note it's a fragmented market with no dominant national brand, a real and checkable structural fact about the industry.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Local travel required",
+      "Requires a license or certification"
+    ]
+  },
+  {
+    "id": "commercial-dock-door-equipment-service",
+    "name": "Commercial dock and door equipment service",
+    "category": "Local & professional services",
+    "tags": [
+      "skilled trade",
+      "service business",
+      "recurring revenue",
+      "warehouse"
+    ],
+    "cost": "Moderate to high startup cost (specialized tools, van)",
+    "found": "Johnny & Sergio",
+    "what": "Repair and maintain the dock levelers, roll-up doors, and dock seals that every warehouse and distribution center relies on to load and unload trucks, and sign accounts to quarterly preventive-maintenance contracts.",
+    "pitch": "When a loading bay breaks, a warehouse can't load or unload trucks, so operators will pay premium rates for same-day emergency repair on top of standard preventive-maintenance contracts. The presenters point to the ongoing warehouse and e-commerce boom as a structural tailwind that keeps this market growing every year.",
+    "best": "Someone with real electrical and hydraulic know-how, since this is effectively a skilled trade working with motors, sensors, and safety systems, not a business you can outsource entirely from day one.",
+    "truth": "The presenters rank this in the middle of their list specifically because of the technical skill and safety risk involved, since it's your hands doing the diagnosing and fixing unless you eventually buy your way into an existing operation. They're clear this isn't a laptop business.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Needs a truck or cargo vehicle"
+    ]
+  },
+  {
+    "id": "waste-oil-grease-collection-recycling",
+    "name": "Waste oil and grease collection and recycling route",
+    "category": "Local & professional services",
+    "tags": [
+      "route based",
+      "recurring revenue",
+      "regulatory requirement",
+      "recycling"
+    ],
+    "cost": "High startup cost (vacuum truck, permits)",
+    "found": "Johnny & Sergio",
+    "what": "Collect used motor oil and cooking grease from auto shops, restaurants, and small manufacturers on a recurring pickup schedule, a regulatory requirement for these businesses, then resell the collected oil to re-refiners for a second revenue stream on the same stop.",
+    "pitch": "Businesses that generate used oil or grease can't legally dispose of it themselves, so pickup isn't optional, and once you're the hauler of record for an account, the presenters say customers rarely shop around since nobody wants to risk getting caught non-compliant. The double revenue stream, a pickup fee plus reselling the oil, is what the presenters say sets this apart from most other route-based businesses on their list.",
+    "best": "Someone with access to real startup capital for a vacuum truck and the right hauling permits, and who's comfortable with revenue that partly fluctuates with commodity oil prices.",
+    "truth": "The presenters flag this honestly as one of the heaviest startup-cost items on their list, requiring a specialized vehicle and permits before you can legally operate, and note the resale side of the revenue moves with oil prices rather than staying flat. They frame it as one of the least-known businesses on the list rather than a proven, widely replicated model.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Needs a truck or cargo vehicle",
+      "Requires a license or certification"
+    ]
+  },
+  {
+    "id": "truck-driver-recruiting-placement",
+    "name": "Truck driver recruiting and placement service",
+    "category": "Local & professional services",
+    "tags": [
+      "staffing",
+      "recruiting",
+      "logistics",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost (ad spend only)",
+    "found": "Johnny & Sergio",
+    "what": "Run Facebook ads to find qualified CDL drivers and owner-operators looking for better freight or routes, vet them for a valid license and clean record, then place them with trucking companies for a per-driver placement fee.",
+    "pitch": "Trucking companies lose real money, cited at around $4,000 a month per truck, for every truck sitting empty without a qualified driver, which is why carriers will pay a placement fee of up to $4,000 for every qualified driver who gets hired and stays on. The presenters describe this as one of the purest \"laptop style\" businesses on their list, since you never touch a truck, own a truck, or need labor, inventory, or a lease, just a Facebook ad account.",
+    "best": "Someone comfortable running paid ads and doing consistent outreach, since this is a placement/staffing model rather than a subscription, meaning you're always selling and refilling the pipeline, and a slow month directly hits revenue.",
+    "truth": "The presenters are candid that this ranks mid-list because of that staffing-model instability, not because the underlying opportunity is weak, calling it stressful when the pipeline gets thin. The $4,000-per-truck and per-placement figures come from a source the presenter says they spoke with directly, a specific and checkable-in-principle number, though it's a single secondhand account rather than an audited industry statistic.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "non-emergency-medical-transportation",
+    "name": "Non-emergency medical transportation (NEMT) service",
+    "category": "Local & professional services",
+    "tags": [
+      "healthcare",
+      "recurring revenue",
+      "insurance billing",
+      "logistics"
+    ],
+    "cost": "Low to moderate startup cost",
+    "found": "Johnny & Sergio",
+    "what": "Coordinate rides for patients who need regular transportation to dialysis, chemotherapy, or other medical appointments and can't drive themselves, billing the ride to Medicaid or insurance rather than charging the patient directly, while independent drivers with their own vehicles do the actual driving.",
+    "pitch": "Because rides bill through insurance rather than a rideshare-style flat rate, the presenters say pricing runs meaningfully higher than a service like Uber, and recurring patients, such as someone needing dialysis three times a week for years, create some of the stickiest repeat revenue on their whole list. Once a patient and their case manager trust a driver, the presenters argue they're unlikely to go looking for a new one.",
+    "best": "Someone with patience for paperwork and a willingness to navigate Medicaid and managed-care billing, plus the operational discipline to vet and manage independent drivers as the actual face of the service.",
+    "truth": "The presenters are direct that getting set up to bill Medicaid and insurance is genuinely slow and paperwork-heavy, and that payment itself can take a while to come through, real friction points they don't gloss over. They also flag that driver reliability is the whole product here, since patients are trusting the driver, not the company brand.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Local travel required",
+      "Requires hiring or managing others",
+      "Requires a license or certification"
+    ]
+  },
+  {
+    "id": "foundation-repair-waterproofing-leadgen",
+    "name": "Foundation repair and waterproofing lead generation",
+    "category": "Local & professional services",
+    "tags": [
+      "home services",
+      "lead generation",
+      "partnership model",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Johnny & Sergio",
+    "what": "Partner with licensed foundation repair and waterproofing crews who already own the specialized equipment, hydraulic piers, drainage systems, and handle their marketing, scheduling, and sales conversations in exchange for a cut of every job you bring them, without doing any of the physical repair work yourself.",
+    "pitch": "A cracking foundation or a flooding crawl space pushes homeowners to act fast, with jobs commonly running $5,000 to $15,000, and the presenters note there's no single dominant player controlling more than a small share of the market. Because you're leveraging crews who already own expensive equipment, the presenters say you can start with just a Google Business Profile and some before-and-after photos rather than any real capital.",
+    "best": "Someone comfortable with lead generation and sales who wants to avoid buying equipment or doing physical labor, and who's okay with a business that's mostly one-time transactions per customer rather than recurring.",
+    "truth": "The presenters are upfront that the one thing keeping this from ranking higher on their list is that it's almost entirely one-time work, a homeowner's foundation gets fixed once, and then you're hoping for the next referral or lead, which they acknowledge can get stressful as you try to grow. They frame the urgency and dollar amounts as genuine, not exaggerated, since a worsening foundation is a real, escalating cost to the homeowner.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Local travel required",
+      "Phone/sales-based",
+      "Requires hiring or managing others"
+    ]
+  },
+  {
+    "id": "remote-run-residential-cleaning-business",
+    "name": "Remote-run residential cleaning business",
+    "category": "Local & professional services",
+    "tags": [
+      "home services",
+      "recurring revenue",
+      "beginner friendly",
+      "very low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Johnny & Sergio",
+    "what": "Run a residential house-cleaning business without doing any of the cleaning yourself. Hire independent cleaners who already own their own supplies and vehicles, handle the marketing, scheduling, and customer relationships, and split revenue roughly 50/50 with the cleaner on every job.",
+    "pitch": "The presenters rank this their overall number-one pick because it's a large, fragmented home-services market with no dominant national brand, and roughly one in three one-time cleanings converts into a recurring client, building compounding revenue instead of starting from zero every month. Using a rough example, a $350 first-time deep clean split 50/50 with the cleaner, scaled to around 25 to 30 recurring clients, gets to roughly $10,000 a month in revenue with no employees on payroll and minimal ongoing labor from the owner.",
+    "best": "Someone willing to build the business around recruiting and managing independent cleaners from day one, rather than doing cleanings themselves to save money early on, which the presenters call the single most common way people sabotage this model.",
+    "truth": "The presenters are explicit that this is the business they'd start themselves from zero, and flag a real failure pattern: people who fail at this almost always fail the same way, by getting personally attached to doing the cleaning and building limiting beliefs around recruiting cleaners instead of stepping into an owner role early. They also promote a paid mentorship program at the end with a stated revenue and client guarantee, worth knowing given the number of specific client success figures cited throughout the video.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Requires hiring or managing others",
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "free-ai-website-client-wedge",
+    "name": "Free AI-built websites as a client acquisition wedge",
+    "category": "Marketing & content",
+    "tags": [
+      "web design",
+      "AI tools",
+      "client acquisition",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost (AI subscription only)",
+    "found": "The Calum Johnson Show (guest: Jack Roberts)",
+    "what": "Build a genuinely good website for a local business using AI tools like Claude, give it away completely for free with no strings attached, and use the relationship that builds to become that business's go-to \"AI guy\", then upsell paid recurring services like SEO, chatbots, or lead-capture dashboards.",
+    "pitch": "Roberts argues websites are the easiest way to get a first paying client with AI right now, because AI tools can now produce genuinely polished, conversion-focused sites (he cites having personally sold websites for over $10,000) in well under an hour. He walks through the specific process: research what the best-converting websites in a niche have in common using AI, build a free website using that structure for a business with a weak or outdated site, then open the conversation with what else they need, more leads, a better sign-up rate, which naturally leads into paid, recurring work.",
+    "best": "Someone who's willing to give away real value upfront before asking for anything, and who's comfortable using their existing personal network for a first client. The video cites an internal survey of over 3,000 people in the presenter's community where 80% said their first client came from personal connections, not cold outreach.",
+    "truth": "The specific tactic here is giving the entire first deliverable away for free as a relationship-building wedge rather than charging for it from the start. The $10,000-website and 80%-personal-network figures are the presenter's own self-reported numbers from his own community, not independently audited, and the interview functions partly as a promotion for the Hermes agent tool and the presenter's paid community, worth factoring in given how enthusiastically both are described.",
+    "url": "https://www.youtube.com/watch?v=zRkcslvpFNU",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "youtube-side-income-claude-scripting",
+    "name": "Part-time YouTube channel in your existing expertise, scripted with Claude",
+    "category": "Content & personal brand",
+    "tags": [
+      "YouTube",
+      "content creation",
+      "AI tools",
+      "side income",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost (phone or webcam, AI subscription)",
+    "found": "Shane Hummus",
+    "what": "Start a YouTube channel in a niche built around your existing job, expertise, or life experience, nursing, HVAC, cybersecurity, whatever you already know, while keeping your day job, using Claude to compress scriptwriting into small pockets of spare time like lunch breaks and commutes instead of the hours it used to take.",
+    "pitch": "Hummus frames the whole plan as roughly four hours a week: about an hour once a month brainstorming video ideas with Claude, short lunch-break sessions talking through and polishing scripts, a single batch-recording session, and a short publishing session, arguing that AI collapsed what used to require a researcher, writer, strategist, and marketer into one $20-a-month tool. He backs this with several named case studies from his own community; his brother, a 50-year-old HVAC business owner, reportedly went from zero to over $18,000 in a month within his first month of posting.",
+    "best": "Someone with real existing knowledge or experience in a specific field who's willing to treat this as a slow-burn asset rather than a fast payout, and who has small pockets of otherwise-idle time to work with.",
+    "truth": "The named examples throughout the video are specific and checkable in principle, a decent transparency signal, but they're all self-reported figures from the presenter's own paid community, not independently verified. The video functions as a funnel into a free live training and, ultimately, a paid one-on-one mentorship program described as \"very expensive,\" worth knowing given how much of the video is built around these specific dollar-figure success stories.",
+    "url": "https://www.youtube.com/watch?v=qmostTcgp0E",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "pay-per-lead-agency-model",
+    "name": "Pay-per-lead agency (broker or self-run)",
+    "category": "Marketing & content",
+    "tags": [
+      "lead generation",
+      "paid ads",
+      "agency",
+      "recurring revenue"
+    ],
+    "cost": "Needs ongoing ad budget (or none, if brokering)",
+    "found": "Billy Robinson",
+    "what": "Instead of selling marketing services on a retainer, generate qualified leads through Meta ads and a qualifying quiz funnel in a single niche, like life insurance, business loans, or debt settlement, and sell each lead exclusively to a buyer who wants that kind of prospect, or broker leads between existing suppliers and buyers without touching ad spend yourself.",
+    "pitch": "Robinson argues this beats a traditional retainer agency on two fronts: leads are an easier sell than ongoing \"marketing services\" because virtually every business owner says yes to more leads, and there are two direct levers to grow profit, raising the price per lead or lowering the cost to generate it. He walks through ten specific verticals with rough sale prices and costs to generate (life insurance around $50 to $60 a lead, mortgage leads $100 to $120, legal leads up to $200 to $250), and recommends beginners start with the lower-risk broker model, sourcing leads from existing suppliers and reselling at a fixed markup, before eventually running their own ad campaigns.",
+    "best": "Someone with real comfort running or learning to run Meta ad campaigns, or, for the broker path, someone comfortable with B2B cold outreach and negotiating supplier relationships, since neither path is a passive income stream.",
+    "truth": "Robinson discloses upfront that he's teaching this as a free lead-in to his paid community, and the free version leaves out the detailed funnel templates, scripts, and full campaign structure that are gated behind the paid offer. The specific revenue figures (a $250K+/month agency, 30% average margins) come from his own screenshotted tracking sheet, a more concrete transparency signal than most claims in this space, but still self-reported and not independently audited.",
+    "url": "https://www.youtube.com/watch?v=oAREF2wSHUo",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "ai-digital-products-genspark-etsy",
+    "name": "AI-generated digital products (Etsy-style templates, trackers, planners)",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "AI tools",
+      "Etsy",
+      "print on demand",
+      "passive income"
+    ],
+    "cost": "Low startup cost (AI subscription plus ad testing budget)",
+    "found": "THE ECOM KING",
+    "what": "Use an AI agent (the video uses GenSpark) to research which digital products, planners, trackers, templates, and similar downloadable goods, are already proven sellers on marketplaces like Etsy, generate a polished version yourself, and validate demand with paid ads before fully building the product out.",
+    "pitch": "The presenter distills the pattern from studying paid sales data on top Etsy digital-product sellers into five habits: validate demand with ads before building, target one specific person and moment rather than a broad audience, send traffic straight to a single-product page with the buy button at the top, show real proof like screenshots and numbers instead of vague promises, and use AI for a first draft that a human then edits rather than selling AI output unedited. He walks through the actual process inside GenSpark, from researching best-selling listings to generating product mockup images for the store listing.",
+    "best": "Someone comfortable with iterative testing, running small ad spends to validate an idea before investing real time building it out, rather than someone hoping to build the \"perfect\" product first.",
+    "truth": "The presenter discloses he's promoting his own affiliate link for GenSpark, and the specific case-study sales figures ($22,000, $16,000, $15,000 in 30 days for individual sellers) come from a paid third-party data tool he says he purchased access to, not something a viewer can verify directly. The underlying five-pattern framework, validate before building, niche down hard, one-page funnels, real proof, AI draft plus human edit, is sound and independently checkable advice regardless of the specific dollar figures shown.",
+    "url": "https://www.youtube.com/watch?v=Ps9c5NP3uds",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "ai-workflow-consultant-local-business",
+    "name": "AI workflow consultant for local businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "consulting",
+      "automation",
+      "local business",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost (free AI tools)",
+    "found": "Ben Hawksworth",
+    "what": "Walk into a local business, a plumber, dental practice, or small agency, and ask three simple questions to find one repetitive task worth automating, then rebuild that task using free or low-cost tools like Claude and Zapier so it runs on its own, charging an upfront audit fee plus an ongoing monthly retainer to keep it running.",
+    "pitch": "Hawksworth frames the pitch as a simple three-question framework anyone can use on a cold walk-in or call: what task do you do most and hate most, does it follow the same steps every time, and what does an hour of your time actually cost. He suggests charging roughly £1,000 for the initial audit and £300 to £500 a month to maintain the automation, arguing that businesses aren't really buying AI, they're buying relief from stress.",
+    "best": "Someone comfortable approaching local business owners directly, in person or by phone, and translating a vague complaint about busywork into a specific, sellable automation.",
+    "truth": "The pricing figures given (£1,000 audit, £300-500/month retainer) are the presenter's own suggested starting points, not verified case studies of what businesses have actually paid him. The three-question diagnostic framework itself is straightforward and genuinely reusable regardless of the specific price points.",
+    "url": "https://www.youtube.com/watch?v=wudOmpK-8Fk",
+    "situation_tags": [
+      "Local travel required",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "private-ai-assistant-solo-expert",
+    "name": "Private AI assistant built for a solo expert (consultant, solicitor, advisor)",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "consulting",
+      "Claude Projects",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Ben Hawksworth",
+    "what": "Build a private AI assistant for a solo professional, a consultant, solicitor, or financial advisor, by loading their past proposals, FAQs, and other documents into a Claude Project, then instructing it to answer questions and draft new proposals only in that person's own voice and only from their own material.",
+    "pitch": "Hawksworth demonstrates the entire build in a couple of minutes: start a Claude project, drag in roughly 20 past proposals and FAQs, and give it a single instruction to answer only from the documents provided and ask a clarifying question if the answer isn't there. He suggests charging around £1,500 to build it and £300 a month to maintain it as their workflow grows, framing the value as multiplying the expert's own existing knowledge rather than replacing them.",
+    "best": "Someone comfortable working with solo professionals who already have a body of past work, proposals, FAQs, case files, to draw from, since the tool is only as good as the material it's trained on.",
+    "truth": "The pricing (£1,500 build, £300/month) is the presenter's own suggested figure, not a documented sale. The underlying build process itself, a Claude Project scoped to a specific person's documents with a narrow instruction, is simple enough to verify and replicate directly.",
+    "url": "https://www.youtube.com/watch?v=wudOmpK-8Fk",
+    "situation_tags": [
+      "Strictly in-home",
+      "Home office, client-facing"
+    ]
+  },
+  {
+    "id": "ai-trigger-based-sales-outreach",
+    "name": "AI-personalized, trigger-based sales prospecting service",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "sales",
+      "outreach",
+      "lead generation"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Ben Hawksworth",
+    "what": "Feed Claude a prospect and a specific trigger event, a funding round, a new hire, a relevant post, and have it draft a short, non-pitchy outreach message that references the trigger directly, so a sales team spends less time hunting for leads and writing near-identical cold messages and more time on actual conversations.",
+    "pitch": "Hawksworth's pitch is that this doesn't replace a sales team, it removes the boring research and first-draft-writing work that eats their week, while keeping the human conversation, which he argues is what actually closes deals, intact. He suggests charging around £1,500 to set the system up and £750 a month to keep it running and the CRM organized.",
+    "best": "Someone selling into businesses that already have a sales team or process in place and just need the research and outreach-drafting work taken off their plate, rather than businesses with no sales process at all.",
+    "truth": "The pricing figures (£1,500 setup, £750/month) are the presenter's own suggested starting points, not documented client outcomes. This kind of trigger-based, one-prospect-at-a-time personalization is a specific tactic within the broader AI-powered sales space that shows up across a lot of WAH creator content, and the underlying mechanic, feeding Claude a single prospect and trigger, is simple enough to test yourself before paying for training on it.",
+    "url": "https://www.youtube.com/watch?v=wudOmpK-8Fk",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "ai-content-repurposing-service",
+    "name": "AI content repurposing service for local businesses",
+    "category": "Marketing & content",
+    "tags": [
+      "AI tools",
+      "content creation",
+      "social media",
+      "low startup cost"
+    ],
+    "cost": "Zero to very low startup cost",
+    "found": "Ben Hawksworth",
+    "what": "Take one piece of long-form content a business already has, a podcast episode, webinar, or long video, and use AI to break it into a week or more of social media posts, so a business that made one good piece of content and then let it die gets ongoing distribution from it instead.",
+    "pitch": "Hawksworth flags this as the idea he'd start with if he had zero clients and zero budget, since it needs no upfront tools or cash, just one business that's already creating content and wasting it. He cites one local business he did this for going from posting once every two weeks to multiple times a day, tripling their inbound inquiries in the process, and suggests using that first free or cheap result as the proof needed to land the next paying client.",
+    "best": "Someone with genuinely no starting budget who wants a true zero-cost way to get a first result and testimonial, since the pitch here is explicitly to start by doing this for one business for little or nothing.",
+    "truth": "The \"tripled inbound inquiries\" figure is a single case study from the presenter's own client work, not an independently verified result, though it's specific enough (once every two weeks to multiple times daily) to be a meaningfully checkable claim if you were working with that same business. The zero-budget, first-client-as-proof structure is a genuinely low-risk way to test the idea before committing any money.",
+    "url": "https://www.youtube.com/watch?v=wudOmpK-8Fk",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "ai-internal-knowledge-base-smb",
+    "name": "AI-powered internal knowledge base for small businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "consulting",
+      "operations",
+      "Claude Projects"
+    ],
+    "cost": "Low to moderate startup cost",
+    "found": "Ben Hawksworth",
+    "what": "Load a business's scattered documentation, processes, policies, scripts, and meeting notes, into a Claude Project so the whole team can get instant answers instead of repeatedly interrupting each other or a manager to ask where something is or how something works.",
+    "pitch": "Hawksworth's argument is that most small businesses already have the knowledge they need, it's just scattered across documents, chats, and people's heads, so the sale isn't \"AI,\" it's making onboarding faster and support more consistent. He suggests charging around £2,000 to build the initial system and £400 a month to keep it updated as the business's documentation changes.",
+    "best": "Someone comfortable working with a business's existing internal documents and organizing them, more an information-organization skill than a technical one.",
+    "truth": "The pricing (£2,000 build, £400/month) is the presenter's own suggested figure rather than a documented sale price. The underlying build, loading existing documents into a Claude Project scoped to that business, is simple enough to test on a small scale before committing to a specific price.",
+    "url": "https://www.youtube.com/watch?v=wudOmpK-8Fk",
+    "situation_tags": [
+      "Strictly in-home",
+      "Home office, client-facing"
+    ]
+  },
+  {
+    "id": "ai-landing-pages-framer-local",
+    "name": "AI-built landing pages for local businesses (Framer and Claude)",
+    "category": "Marketing & content",
+    "tags": [
+      "web design",
+      "AI tools",
+      "local business",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Ben Hawksworth",
+    "what": "Build a modern landing page for a local business, a restaurant, gym, dentist, or estate agent with an old or confusing site, by describing the business to an AI website builder (the video uses Framer, alongside Claude and Claude Code), then doing the human work of sharpening the message and call to action.",
+    "pitch": "Hawksworth is explicit that AI removes most of the technical build time, generating a full landing page live in the video, but argues the real value was never the code, it's understanding who the customer is, what the offer is, and what's stopping them from buying, which is still work a person has to do. He suggests charging around £1,500 per page, plus ongoing support to keep it maintained.",
+    "best": "Someone with a decent eye for what makes a page convert, a clear offer, a strong call to action, who's willing to do that judgment work on top of what the AI generates, rather than just shipping the AI's first draft.",
+    "truth": "The £1,500 price point is the presenter's own suggestion rather than a documented sale. This is a similar underlying mechanic to other AI-website-building content in this space, with Framer as the specific tool of choice here, worth trying a couple of AI website builders yourself to see which workflow you prefer before committing to one.",
+    "url": "https://www.youtube.com/watch?v=wudOmpK-8Fk",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "micro-saas-niche-ai-tool",
+    "name": "Build a tiny niche AI tool as a subscription micro-SaaS",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "SaaS",
+      "subscription",
+      "no-code"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Ben Hawksworth",
+    "what": "Instead of trying to build the next big app, use AI coding tools to build one very small tool that solves one specific, annoying problem for one type of professional, Hawksworth's examples include recruiters reformatting CVs or accountants answering the same client questions every week, then charge a small monthly subscription for it.",
+    "pitch": "Hawksworth argues AI has dropped the technical barrier to building software low enough that you don't need to know how to code to get a working prototype, since the AI can write the code and explain the bugs as you go. He frames the real skill as spotting a narrow, annoying problem worth paying $30 to $50 a month to make disappear, arguing that revenue stacks up in a real way once you have enough individual subscribers, even at a low price point.",
+    "best": "Someone who's identified one specific, recurring annoyance for one type of professional through direct experience or conversation, rather than someone guessing at a broad market need.",
+    "truth": "The presenter doesn't cite a specific verified case study of this exact model working at scale within the video, it's presented as a logical extension of what AI coding tools now make possible, not a documented success story. The subscription price points ($30-50/month) are suggested starting points, not demonstrated market-tested prices.",
+    "url": "https://www.youtube.com/watch?v=wudOmpK-8Fk",
     "situation_tags": [
       "Strictly in-home"
     ]
