@@ -1999,5 +1999,138 @@
     "situation_tags": [
       "Strictly in-home"
     ]
+  },
+  {
+    "id": "fde-freelance-ai-implementation-consulting",
+    "name": "Forward Deployed Engineer (FDE): freelance AI implementation consulting",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "consulting",
+      "freelance",
+      "enterprise",
+      "technical comfort needed"
+    ],
+    "cost": "Low startup cost (no major upfront cost, time investment to build the skill)",
+    "found": "Greg Isenberg (guest: Voss)",
+    "what": "Work as an independent \"forward deployed engineer\" (FDE), going on-site or remote with a business to deeply understand their actual workflows, then design and build the specific AI agents and automations that fit their exact processes, rather than selling a generic off-the-shelf AI tool.",
+    "pitch": "Voss frames the opportunity around a shift in where AI's value lives: since every company now has access to roughly the same underlying AI models, the real edge is in how well that intelligence gets applied to a specific business's actual workflows, not the intelligence itself. He lays out a concrete 30-day roadmap to build the skill (build a working agent, harden it with guardrails and error handling, make it measurable, then rehearse pitching it) and a business model built around auditing a client's workflows first, sometimes for free to build trust, then charging for implementation, either a one-time fee or an ongoing monthly rate.",
+    "best": "Someone with real technical comfort who's also a strong communicator, since Voss frames the job as equal parts engineering and the consulting-style skill of extracting how a business actually works from the people doing it.",
+    "truth": "Voss discloses he runs his own company (Verity Agents) doing this work for large enterprise clients, so the roadmap is shaped by what's worked at that scale, not necessarily a solo freelancer's exact experience. He's candid that this is genuinely technical, multi-week work, not a quick weekend project, and recommends doing the first few client audits for free specifically to de-risk trust before charging real money.",
+    "url": "https://www.youtube.com/watch?v=zXysLUTLjw4",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Local travel required"
+    ]
+  },
+  {
+    "id": "low-ticket-digital-course-passive-income",
+    "name": "Low-ticket digital course as a near-passive income stream",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "online courses",
+      "passive income",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Marissa Romero",
+    "what": "Package your existing knowledge into a low-priced digital course ($27 to $197), sold through an automated sales page and email sequence rather than live sales calls, so that once it's built it keeps generating revenue with essentially no ongoing fulfillment work from you.",
+    "pitch": "Romero compares seven income models she's personally used, one-to-one coaching, high-ticket done-for-you services, low- and mid-ticket courses, affiliate marketing, brand deals, and joint ventures, and argues the low-ticket course model is the only one that gave her real passive income: she made $30,000 to $40,000 a month during a 90-day maternity leave without touching the business. Her reasoning is structural: no sales calls, no fulfillment, and it scales without needing more of her time, unlike the high-ticket, done-for-you offers that required a large team and heavy sales-call involvement.",
+    "best": "Someone with real expertise or a track record in something specific who's comfortable creating an automated sales funnel once, rather than someone who prefers ongoing client relationships or high-touch coaching.",
+    "truth": "Romero is candid about the tradeoffs of every model she covers, including admitting she got tempted into building a high-ticket, done-for-you offer that grew her team but not her margins the way she expected, a genuinely balanced account rather than a highlight reel. She promotes her own paid course (the AI Product to Profit Builder) partway through, worth knowing given how much of the video builds toward that pitch.",
+    "url": "https://www.youtube.com/watch?v=P-DC-FlVD7o",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "gohighlevel-ai-setup-real-estate-agents",
+    "name": "GoHighLevel AI setup for real estate agents (Zillow client sourcing)",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "real estate",
+      "GoHighLevel",
+      "lead generation",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost (software subscription)",
+    "found": "Jason Wardrop",
+    "what": "Use Zillow's own agent directory to find real estate agents who are actively selling (filterable by top agent, buyer/seller agent, and area), build each one a free AI-generated website with an embedded AI chatbot trained on their listings and reviews, then convert the free build into a paid $299 to $997 a month retainer for ongoing lead follow-up and social content.",
+    "pitch": "Wardrop, who says he worked with over 15,000 real estate agent clients from 2015 to 2021, walks through the exact mechanics: search Zillow's agent directory for a specific city, filter to top-performing agents since part-time agents likely can't afford the service, then use a single AI prompt to auto-generate a professional website, complete with a chatbot trained specifically on that agent's listings and reviews. The pitch to the agent is built on reciprocity, showing up with a finished, free website rather than asking for anything upfront.",
+    "best": "Someone comfortable with a give-first outreach approach and willing to package one repeatable offer (website plus chatbot plus lead follow-up) that can be resold to agent after agent with minimal customization.",
+    "truth": "Wardrop discloses he earns an affiliate commission from the AI software he's demonstrating and is promoting his own free workshop and course throughout the video. The underlying mechanic, Zillow as a sourcing tool, a free build as a reciprocity hook, is specific and independently testable regardless of which particular software you choose to build with.",
+    "url": "https://www.youtube.com/watch?v=nkR89x5zXBo",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "website-landlord-rank-and-rent-kyle",
+    "name": "Website landlord: rank-and-rent local lead generation sites",
+    "category": "Local & professional services",
+    "tags": [
+      "SEO",
+      "lead generation",
+      "local business",
+      "very low startup cost",
+      "recurring revenue"
+    ],
+    "cost": "Very low startup cost (~$25/month per site in tools)",
+    "found": "Chris Koerner on The Koerner Office Podcast (guest: Kyle)",
+    "what": "Build simple, single-niche, single-city websites (junk removal, gutters, and similar local home-service categories) optimized to rank on the first page of Google, then once the site is generating real calls, rent that lead flow to a local business owner for a flat monthly fee rather than selling the leads individually.",
+    "pitch": "Kyle, who says he built this into a roughly $104,000-a-month business working an hour or two a day, walks through the exact closing tactic: build and rank the site first, let calls go to voicemail until you have proof of demand, then offer a business owner a free week of calls with no contract and no card on file. Because the business owner is already seeing paying customers before any money changes hands, Kyle frames the negotiation as landlord-and-tenant rather than a cold sales pitch, and says he's abandoned pay-per-call and tiered pricing in favor of one flat, non-negotiable monthly rate specifically to avoid clients auditing individual leads.",
+    "best": "Someone comfortable with basic SEO and content work who's willing to pick genuinely underserved local niches and cities (Kyle specifically recommends avoiding highly competitive niches like personal injury law) rather than chasing broad, contested keywords.",
+    "truth": "Kyle is unusually candid about the tradeoffs of his own pricing evolution: he moved away from a pay-per-call model that was probably more profitable specifically because flat-fee billing meant less client hand-holding, a real and specific business decision rather than a marketing claim. This is a pattern that shows up repeatedly across WAH creator content, and it's worth comparing a few different practitioners' specific tactics (niche selection, pricing structure, closing scripts) before picking one approach, since the details vary in specific ways between versions of this pitch.",
+    "url": "https://www.youtube.com/watch?v=xUZYy3hCRUM",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "niche-saas-ai-playbook-isenberg",
+    "name": "Building a niche SaaS product with AI (30-step playbook)",
+    "category": "AI & automation",
+    "tags": [
+      "SaaS",
+      "AI tools",
+      "content marketing",
+      "roadmap"
+    ],
+    "cost": "Varies (mostly time; low direct cost to start)",
+    "found": "Greg Isenberg",
+    "what": "A general roadmap, not a single product idea, for building a cash-flowing SaaS company inside a narrow subniche of a large market (his example: FIRE, financial independence retire early, within the broader finance space), using AI tools to map a target customer's actual day-to-day workflow, find the exact point where money changes hands or time gets wasted, and build a small tool that wedges into that specific gap.",
+    "pitch": "Isenberg's core argument is to avoid building for a broad market where well-funded venture-backed competitors already play, and instead go deep on a specific subniche's workflow: map it step by step (he uses a local roofing company as an example), identify where money changes hands, and spot the repetitive mechanical steps worth automating. The back half of the playbook is about distribution: build an audience with consistent short-form content on one platform, study which posts actually get saves and DMs, and only then start running paid ads on the content that's already proven to convert organically.",
+    "best": "Someone willing to commit to both sides of the work, actually building and shipping a niche software tool and consistently creating content to build an audience around it, since the framework leans heavily on organic-then-paid distribution rather than just building the product.",
+    "truth": "Isenberg discloses his own background as an advisor to companies like TikTok and Reddit and a builder of three venture-backed companies, real, checkable experience, though it also means his frame of reference skews toward higher-stakes company-building rather than a true solo bootstrapped project. This is a general methodology rather than a single concrete idea pitch, useful as a planning framework but requiring the reader to supply their own specific niche and product.",
+    "url": "https://www.youtube.com/watch?v=9T1yWEq5kP0",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "paid-ai-speaking-consulting-linkedin",
+    "name": "Paid AI speaking and consulting sourced entirely through LinkedIn",
+    "category": "Local & professional services",
+    "tags": [
+      "consulting",
+      "public speaking",
+      "LinkedIn",
+      "personal brand",
+      "AI tools"
+    ],
+    "cost": "Very low startup cost (time to build a LinkedIn presence)",
+    "found": "Sandy Lee AI (guest: Shen)",
+    "what": "Build visible expertise in applying AI to a specific field (Shen's background is financial services and fintech) through consistent LinkedIn posting and in-person networking events, then convert the inbound interest that generates into two separate paid income streams: paid speaking engagements and AI consulting or upskilling contracts, all without doing any cold outbound.",
+    "pitch": "Shen describes going from unpaid, entry-level speaking slots to bookings that cover first-class travel and hotel, with some speakers she knows charging $10,000 to $100,000-plus per engagement, and describes her own consulting day rate as roughly $1,600, with some clients paying $20,000 a day for larger upskilling contracts. She's explicit that every one of her deals, including her own startup's first customers, came through inbound LinkedIn messages and networking event relationships rather than any outbound sales process.",
+    "best": "Someone with genuinely deep, specific expertise (not just AI-curious) who's willing to consistently show up in public, on LinkedIn and at industry networking events, over a period of months to years before results compound.",
+    "truth": "Shen is upfront that this took real time to build: her first paid speaking gig came well after a period of doing free events, and building both the consulting and speaking pipelines took roughly two and a half to three years of consistent effort. Her figures are specific and self-reported from her own deals, not third-party verified, but the specific mechanic, deliberately avoiding cold outbound in favor of consistent public content and in-person relationship building, is a clear and independently testable strategy regardless of the exact dollar figures.",
+    "url": "https://www.youtube.com/watch?v=81BBqOVaWsI",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ]
   }
 ]
