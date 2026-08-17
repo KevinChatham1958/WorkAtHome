@@ -2963,5 +2963,159 @@
     "situation_tags": [
       "Strictly in-home"
     ]
+  },
+  {
+    "id": "organic-dropshipping-short-form-video",
+    "name": "Organic (no paid ads) dropshipping via short-form video",
+    "category": "E-commerce",
+    "tags": [
+      "dropshipping",
+      "TikTok",
+      "Instagram Reels",
+      "organic marketing",
+      "very low startup cost"
+    ],
+    "cost": "Very low startup cost (product cost plus website only, no ad spend)",
+    "found": "MoMike Chamberlin",
+    "what": "Find a single simple, visually demonstrable product using a \"burner account\" research method (a fresh Instagram account that only likes and engages with product/ad content until the algorithm feeds you winning products), build a basic Shopify store around it, and grow sales purely through organic short-form video (TikTok, Instagram Reels, YouTube Shorts) with no paid advertising at all.",
+    "pitch": "The presenter documents the process transparently over roughly 18 days, working exactly one hour a day: product research and ordering, building the store (using Claude and Gemini for AI-generated product photos), setting up social accounts, then filming, editing, and posting daily. He gives a concrete account-priming framework: post 4-6 times on a new Instagram account and watch for at least one video to cross 1,000 views, or scrap the account and start fresh with new (not reposted) content; Facebook uses the same rule but over 8-10 posts.",
+    "best": "Someone with genuinely limited daily time who's picked a simple, visually self-explanatory product (an impulse-buy gadget, not something requiring a complex sales pitch) that can be filmed and edited in minutes.",
+    "truth": "The presenter is unusually transparent about the slow, unglamorous middle of the process: two weeks of mostly flat views and only $114.95 in total sales by day 12, before one video eventually broke out. He promotes his own free course and a paid one-on-one program at the end, but the documented numbers themselves are modest and specific rather than inflated, a genuinely honest case study by the standards of this space.",
+    "url": "https://www.youtube.com/watch?v=QNpgTubnuvw",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "vibe-coded-digital-product-own-store",
+    "name": "AI vibe-coded digital products sold through your own branded online shop",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "AI tools",
+      "vibe coding",
+      "e-commerce"
+    ],
+    "cost": "Very low startup cost (AI coding tool plus a domain)",
+    "found": "Make Money with Stacy La",
+    "what": "Research proven-selling digital templates and tools (using public sales-data tools to see exactly how many times a competing product has sold and for how much), \"vibe code\" a functional version using an AI coding platform like Hostinger Horizons, then sell it through your own branded .shop domain online store rather than a crowded third-party marketplace like Etsy.",
+    "pitch": "The presenter shows real, specific examples to justify the approach: a finance-niche budget tracker template that's sold over 20,000 times for more than $400,000, and a life planner niched down specifically for neurodivergent people with ADHD that's sold over 22,000 times for more than $350,000, arguing that competitive niches (finance, health, productivity) are actually good signals of real demand as long as you niche the specific problem down far enough. She argues against selling on marketplaces like Etsy specifically because of listing and transaction fees, competition burying your listing, and the risk of account suspension, versus owning your own store with a .shop domain and full customer data control.",
+    "best": "Someone comfortable using an AI coding tool with detailed, specific prompts (rather than vague requests) to build an actual functional product, not just a static file, and willing to set up their own branded storefront rather than relying on marketplace traffic.",
+    "truth": "The specific $400K and $350K product examples are shown as public sales data from other sellers, not the presenter's own results, and she doesn't demonstrate her own product's sales figures within the video. She recommends Horizons specifically because it integrates with her own store-building workflow and is, by her account, one of the least expensive AI coding platforms, worth noting as a product preference rather than a neutral recommendation.",
+    "url": "https://www.youtube.com/watch?v=ju7zG9bdhv4",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "interactive-ai-digital-products-vibe-coding",
+    "name": "Interactive AI-native digital products built with vibe coding",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "AI tools",
+      "vibe coding",
+      "GoHighLevel"
+    ],
+    "cost": "Low startup cost (requires a CRM/vibe-coding platform subscription)",
+    "found": "Marissa Romero",
+    "what": "Move beyond static digital products (PDFs, Canva templates) to interactive, AI-native tools built through vibe coding inside a platform like GoHighLevel's AI Studio: interactive workbooks that let a buyer voice-dictate answers and get auto-generated results, calculators (revenue, pricing, savings), client-tracking dashboards, bundles of custom marketing assets for a specific niche, and custom GPTs trained on your own expertise that a buyer can consult directly.",
+    "pitch": "The presenter demonstrates building a functional interactive lead-magnet workbook live by talking to the AI tool in plain language, no code, describing toggles, autosave behavior, and design changes and having the tool implement them. She argues the appeal of building within a CRM-integrated tool specifically (versus a disconnected app builder like Lovable) is that the finished product connects directly to a payment processor and customer data, so it's sellable immediately rather than needing a separate integration step.",
+    "best": "Someone already using or willing to adopt a CRM-style platform with a built-in AI app builder, comfortable describing what they want conversationally rather than writing traditional prompts or code.",
+    "truth": "The presenter promotes her own affiliate link and a paid coaching community throughout the video, both disclosed, and several of the specific examples shown (a boxing coach's client tracker, a meal-prep business's marketing-asset bundle) are hers or her husband's own tools rather than independently documented sales. The core shift she's describing, static files versus interactive, buildable-by-talking tools, is a genuine and independently verifiable capability shift regardless of which specific platform is used to build it.",
+    "url": "https://www.youtube.com/watch?v=RxmJ2Pi0zuQ",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "rank-and-rent-ai-search-durability",
+    "name": "Rank-and-rent local SEO in the AI search era",
+    "category": "Local & professional services",
+    "tags": [
+      "SEO",
+      "lead generation",
+      "local business",
+      "AI search"
+    ],
+    "cost": "Very low startup cost (~$25/month per site in tools)",
+    "found": "AI Rabbit Holes with Ryan Doser (guest: Kyle, the website landlord)",
+    "what": "The rank-and-rent local SEO business model, ranking simple niche-and-city websites on Google and renting the resulting lead flow to a local business, examined specifically for whether it survives the shift toward AI-generated search answers (Google's AI Overview, AI Mode, and chatbot-based search from tools like ChatGPT and Claude), plus using AI coding tools to build and publish new rank-and-rent sites in minutes instead of days.",
+    "pitch": "Kyle argues AI has so far only helped the model rather than threatened it, since Google's AI Overview pulls its answers from the same standard search results his sites already rank in, meaning the same 30-year-old ranking fundamentals (clear, locally-specific content and trustworthy backlinks) still determine who gets surfaced, whether by a human scrolling or an AI summarizing. He also notes a practical production shift: content that used to cost him $25 per 500 words and take a freelance writer 10 days now takes seconds with detailed AI prompting, and he's begun building entire rank-and-rent sites in minutes using Claude-based coding tools.",
+    "best": "Someone with some rank-and-rent or local SEO experience wondering whether the underlying model still holds up as AI search grows, rather than a complete beginner (the core how-to mechanics of picking niches, cities, and doing competitor research are the subject of other, more detailed source material).",
+    "truth": "Kyle's central claim, that AI search still defers to traditional ranking signals rather than replacing them, is a reasoned argument based on how these systems currently retrieve information, not an independently audited study, and it's a claim that could shift as AI search products continue to change. This underlying rank-and-rent business model itself shows up repeatedly across WAH creator content from multiple practitioners; this interview's distinct contribution is specifically the AI-search-durability question and the AI-accelerated site-building workflow, not the base mechanics of the model.",
+    "url": "https://www.youtube.com/watch?v=1sSjeklhejY",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "ai-speed-to-lead-agent-sales",
+    "name": "Selling an outbound \"speed to lead\" AI voice agent to service businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "voice agent",
+      "lead generation",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost (requires backend developers or a technical partner)",
+    "found": "Zack Kirk",
+    "what": "Sell service businesses an outbound AI voice agent that automatically calls a new website lead within about 20 seconds of them submitting a contact form, connected directly to the business's CRM, replacing the common failure point where a human employee doesn't call back for 20-40 minutes and the lead moves on to a competitor.",
+    "pitch": "Kirk frames the pitch entirely around a concrete pain point rather than the technology itself: a business paying an employee roughly 5% commission (often $4,000-5,000 a month) to dial leads slowly and inconsistently can instead pay $2,000-3,000 a month for an agent that never misses a lead and never needs training, which he pitches as $24,000-36,000 a year in replaced cost at a 95% profit margin for the seller. His broader business model is to focus entirely on sales himself while delegating all backend agent-building to a trusted team of U.S.-based developers (paid around 20% of revenue), arguing this lets him take on far more clients than someone trying to sell and build everything solo.",
+    "best": "Someone comfortable being purely the sales and client-relationship side of the business, willing to pay developers to handle technical delivery rather than building agents themselves.",
+    "truth": "Kirk's own $85,000-a-month figure is self-reported and tied to his specific delegation model (developers, ad spend, an outreach team), which comes with real ongoing costs (roughly 25% of revenue by his own accounting) that a true beginner wouldn't have from day one. The specific pain-point-first sales framing, cost of a slow human employee versus a fast agent, is a concrete and independently testable pitch angle regardless of team structure.",
+    "url": "https://www.youtube.com/watch?v=Zo_kg8mhzTs",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "ai-quoting-agent-service-businesses",
+    "name": "Selling an internal AI quoting agent to service businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "service business",
+      "automation",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost (requires backend developers or a technical partner)",
+    "found": "Zack Kirk",
+    "what": "Build an internal AI chatbot, not customer-facing, for service businesses that manually calculate custom quotes on every call (Kirk's example is a mobile mechanic), connecting the tool to the business's parts supplier, labor rates, and fee structure so an employee can generate an accurate price in seconds instead of manually looking up parts, margins, and travel costs for every quote.",
+    "pitch": "Kirk cites a specific transformation from one real client: quoting work that took roughly three hours a day dropped to about five minutes after implementing the agent, since employees now just describe the customer's vehicle and issue to the internal tool instead of manually cross-referencing a parts catalog. He recommends pricing this one as a hybrid, a larger $12,000-20,000 upfront setup fee (since the initial buildout is genuinely more development-intensive) plus a $1,000-2,000 monthly retainer to keep pricing and parts data current, and stresses selling it entirely on the wasted time it eliminates rather than listing technical features.",
+    "best": "Someone targeting service businesses that give frequent, complex custom quotes (mechanics, contractors, and similar trades) where the quoting process itself is a clear, provable time sink, rather than businesses with simple, fixed pricing.",
+    "truth": "The three-hours-to-five-minutes figure is a specific claim about one named type of client (a mobile mechanic) that Kirk says he's replicated multiple times, though it's his own account rather than independently verified by the client. The sell-the-pain-not-the-features advice is a general, tool-agnostic sales principle worth applying regardless of the specific AI platform used to build the agent.",
+    "url": "https://www.youtube.com/watch?v=Zo_kg8mhzTs",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "productized-ai-agent-agency-linkedin-content",
+    "name": "Productized AI agent agency built through LinkedIn content instead of cold outreach",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "agency",
+      "LinkedIn",
+      "personal brand",
+      "high-ticket offer"
+    ],
+    "cost": "Very low startup cost (time to build a LinkedIn presence)",
+    "found": "Vendasta (guest: Isabella Bedoya)",
+    "what": "Instead of running an AI agency through cold calls or paid ads, build a personal brand on LinkedIn with a consistent daily content formula (60% pure value/frameworks, 30% personal story, 10% results and proof, always focused on one problem, one solution, one ideal client, one offer), funnel engaged followers into a low-cost multi-day virtual bootcamp that builds trust and answers objections for many people at once, then sell a high-ticket productized AI agent package without individual sales calls.",
+    "pitch": "Bedoya contrasts her early results, 200-300 booked cold-outreach-style sales calls generating only two closed $20,000 deals ($40,000 total for weeks of grinding), against the same offer sold through her bootcamp-and-content system generating $150,000 with comparable effort, and describes reaching $1.2 million total with no ad spend or sales team. Her pricing ladder moves from a low-cost bootcamp or training, to a $199-299 immediate upsell, to a high-ticket build (roughly $5,000-10,000 for a custom agent), to an ongoing monthly maintenance retainer ($500-a few thousand a month), and eventually to a limited \"growth partner\" tier (capped near 10 clients) charging $10,000-20,000 a month plus revenue share for a deeper, long-term partnership.",
+    "best": "Someone willing to consistently create and post content, and share genuinely specific tactical tidbits rather than vague promises, since Bedoya's approach depends on demonstrated expertise building trust before any sales conversation happens.",
+    "truth": "Bedoya's headline figures ($1.2 million total, $180,000 in six weeks from one campaign) are her own self-reported business results, not independently audited, though she cites specific, checkable-in-principle facts alongside them (47,000-plus LinkedIn followers, Forbes features) that at least confirm the underlying content and audience genuinely exist. The core mechanic, using free content and a low-cost group event to do the work of many individual sales calls at once, is a reusable structural idea independent of the specific dollar figures achieved.",
+    "url": "https://www.youtube.com/watch?v=xDXVozOg-Kk",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
   }
 ]
