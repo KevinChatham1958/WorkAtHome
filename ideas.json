@@ -2132,5 +2132,115 @@
       "Home office, client-facing",
       "Phone/sales-based"
     ]
+  },
+  {
+    "id": "hosted-ai-agent-subscription-community",
+    "name": "Productized subscription access to a hosted AI agent, built and marketed in public",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "subscription",
+      "TikTok",
+      "community",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (~$600/month in servers, ~$2,000/month in AI token costs at scale)",
+    "found": "Chris Koerner on The Koerner Office Podcast (guest: Robbie)",
+    "what": "Give an AI agent (built on the open-source OpenClaw tool) a small budget and document its attempts to build its own business on TikTok, then when the audience explicitly asks for their own version, pivot into selling monthly access to a hosted, sandboxed instance of that same AI agent as a productized subscription.",
+    "pitch": "Robbie's agent (\"Ron\") failed at its first idea, freelance SWOT analyses posted on Fiverr with no existing audience to find it, but publicly documenting the failures and pivots on TikTok generated the real business: over 200 comments asking how to get their own version. He validated demand with a $10 refundable pre-order before building anything (600 signups, converting at roughly 40-45% to a $29-a-month recurring membership), reaching about $8,374 in monthly recurring revenue after 13 days, entirely through organic TikTok with no paid ads or cold outreach.",
+    "best": "Someone comfortable being visibly early and imperfect in public, documenting failed attempts alongside wins, and willing to either manage technical infrastructure themselves or work with someone who can safely host other people's AI agent instances.",
+    "truth": "Koerner is candid that this is a very new business model built on infrastructure that's only about 100 days old at the time of the interview, so the durability of demand and the security implications of hosting many people's AI agents at scale are both genuinely untested long-term. The specific revenue figures ($8,374 MRR, roughly 40-45% pre-order conversion) are self-reported from just 13 days of operation, a real early number but a very short track record.",
+    "url": "https://www.youtube.com/watch?v=l0Vqm0ZIySc",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "ai-ugc-ad-remixing-service",
+    "name": "AI UGC ad remixing service using viral outlier detection",
+    "category": "Marketing & content",
+    "tags": [
+      "AI tools",
+      "UGC ads",
+      "e-commerce",
+      "advertising",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost (a few dollars per ad in AI credits)",
+    "found": "Massimo Seq",
+    "what": "Find already-viral UGC ad creatives (using an outlier-detection tool that filters TikTok or Meta ads by view count and engagement), reverse-engineer the winning ad's script, visual style, and pacing, then use AI-generated characters and Claude-based editing to remix that same proven structure for a client's own product.",
+    "pitch": "Massimo walks through the full pipeline: find an outlier ad performing well above an account's average, auto-analyze it into a scene-by-scene script breakdown, swap in a new product's details, generate a matching AI character (with adjustable ethnicity, wardrobe, and features), then hand the raw clips to Claude to auto-edit into a finished ad. He breaks down the cost transparently: about $2 to produce one full ad, or roughly $24 to generate 50 ad variations by reusing the same script body with different hooks.",
+    "best": "Someone comfortable working through a genuinely technical multi-tool pipeline (ad research, AI character generation, AI video generation, Claude-based editing) who's targeting e-commerce brands that need constant fresh ad creative.",
+    "truth": "Massimo promotes his own paid tool and Skool community throughout the video as the system that ties all these steps together, worth knowing since the specific workflow shown depends on that tool rather than being fully replicable with free alternatives alone. The underlying method, finding validated winning ads and reverse-engineering their structure rather than guessing at what converts, is a sound and independently applicable principle regardless of which specific tools you use to execute it.",
+    "url": "https://www.youtube.com/watch?v=ek-vqW_TPd8",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "saas-zero-to-1000-users-discovery-first",
+    "name": "SaaS discovery-call-first roadmap: zero to 1,000 paying users",
+    "category": "AI & automation",
+    "tags": [
+      "SaaS",
+      "roadmap",
+      "customer discovery",
+      "LinkedIn",
+      "cold outreach"
+    ],
+    "cost": "Varies (mostly time; low direct cost to start)",
+    "found": "Adam Robinson",
+    "what": "A general roadmap, not a single product idea, for validating and launching a SaaS product: commit to at least 50 discovery calls before writing any code, only accept real prepayment as validation (not verbal interest), build the smallest possible manual version of the product first, then grow using what Robinson calls the \"magic triangle\" of LinkedIn content, targeted cold outreach, and retargeting ads working together.",
+    "pitch": "Robinson, who's built three software companies to a combined $35 million in ARR, is specific about the mechanics at each stage: ask prospects six exact questions on discovery calls (including \"I'm thinking of charging X per month, would you pay that price?\"), do everything manually before automating (his company RB2B sent leads via spreadsheet email for five months before building a website), and look for three concrete product-market-fit signals, weekly referrals, customers who'd be upset to lose it, and organic growth with zero marketing, before investing in scale.",
+    "best": "Someone willing to do real, unscalable manual outreach and service delivery early on rather than jumping straight to automation, and comfortable posting consistently and personally on LinkedIn as part of the growth strategy.",
+    "truth": "Robinson discloses he built and is promoting his own product, RB2B (a website-visitor identification tool), as part of the outreach and retargeting strategy he describes, worth knowing since parts of the roadmap are shaped around that tool's specific use case. The discovery-call questions, manual-first building philosophy, and specific product-market-fit signals are general, independently useful advice regardless of which tools you choose to execute the growth engine with.",
+    "url": "https://www.youtube.com/watch?v=r47Q4Cfit5s",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "solo-dev-micro-saas-while-employed",
+    "name": "Solo developer's guide to building a micro-SaaS while working a 9-to-5",
+    "category": "AI & automation",
+    "tags": [
+      "SaaS",
+      "software engineering",
+      "side income",
+      "roadmap"
+    ],
+    "cost": "Very low startup cost (hosting and tools only)",
+    "found": "Your Average Tech Bro",
+    "what": "A roadmap specifically aimed at software engineers who already have a day job: build small consumer or B2B apps on the side, expect the first several attempts to make little or no money, and treat idea generation, building, and marketing as three separate skills to develop in sequence rather than all at once.",
+    "pitch": "The presenter, who built 14 different apps over five to six years before one made meaningful money (his current app, a meeting-recorder tool, makes roughly $7,000 to $8,000 a month), is candid that most early attempts will underperform and that this is expected, not a sign to quit. His specific tactical advice for finding ideas: deliberately rebuild an app you already personally use and pay for with a small twist, since copying a validated idea is a legitimate way to make your first few hundred dollars, and treat any niche with existing competitors as a green flag (proof of real paying demand) rather than a reason to avoid it.",
+    "best": "Someone with real software engineering skills who's willing to accept that the first several apps they build probably won't make significant money, and who's building specifically around evenings and weekends rather than trying to go all-in immediately.",
+    "truth": "The presenter is unusually transparent about his own numbers, showing live revenue dashboards for a past app that peaked around $1,900 a month in revenue and now sits at $650 a month in largely untouched, ongoing revenue, real figures rather than vague claims. He notes he quit his own full-time job in October 2025 to go all-in, so his current framing is shaped by someone recently past the exact stage this video is aimed at, not someone speaking from years of hindsight.",
+    "url": "https://www.youtube.com/watch?v=5bs2VGWeA-4",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "openclaw-skills-marketplace-micro-saas",
+    "name": "Publishing \"skills\" to the OpenClaw/ClawHub marketplace as a micro-SaaS",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "SaaS",
+      "OpenClaw",
+      "marketplace",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (roughly $20-50/month for hosting and a VPS)",
+    "found": "Liam Ottley",
+    "what": "Build and publish a \"skill\", a small instruction file or connected backend service, to ClawHub, the marketplace for the open-source AI agent tool OpenClaw, so that anyone using OpenClaw can add your skill to their own AI assistant, with the marketplace itself handling distribution the way an app store does.",
+    "pitch": "Ottley breaks the opportunity into five tiers by defensibility and revenue potential: plain-text \"expertise in a file\" skills (sell for $10-50 once, but easily copied), utility skills that wrap a small script needing ongoing maintenance ($5-15/month, since you're paid to keep it working as things break), API-integration skills that teach the AI to talk to tools like HubSpot ($20-100 one-time or recurring), backend service skills where your own server does real work behind a thin skill file (real SaaS economics, cited example of 100 users at $19/month against $20-50/month in hosting costs), and proprietary-data skills backed by information nobody else has, which he frames as the most defensible long-term category.",
+    "best": "Someone comfortable at least experimenting with basic server setup and API concepts for the higher tiers, though the plain-text \"expertise in a file\" tier requires no coding at all and is a reasonable entry point.",
+    "truth": "Ottley discloses he's promoting a specific hosting provider (with his own discount code) and his own paid community for further security guidance, both disclosed rather than hidden. He's candid that the lowest tier (plain-text skills) has essentially no moat since buyers can read and copy your instructions directly, and this is a genuinely new, unproven marketplace (OpenClaw itself is described as only weeks old at the time of the video), so the long-term durability of demand and the marketplace's own rules around monetization are both still unsettled.",
+    "url": "https://www.youtube.com/watch?v=KAufsCas_F4",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
   }
 ]
