@@ -31,19 +31,30 @@
 
 <main id="browse" class="browse">
 
-  <div class="filter-bar">
-    <div class="filter-row filter-row-search">
-      <input type="text" id="search-input" class="search-input" placeholder="Search gigs, tools, creators…" autocomplete="off">
+  <div class="toolbar">
+    <div class="search-row">
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+        <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <input type="text" id="search-input" class="search-input" placeholder="Search e.g. Mark Tilbury, Dropshipping, Consulting…" autocomplete="off">
     </div>
 
-    <div class="filter-row">
-      <span class="filter-label">Category</span>
-      <div class="pill-group" id="category-pills"></div>
+    <div class="saved-row">
+      <span id="saved-count" class="saved-count">0 gigs saved</span>
+      <label class="saved-toggle">
+        <input type="checkbox" id="saved-only-toggle">
+        <span>View Saved Only</span>
+      </label>
+      <button type="button" id="download-saved-btn" class="download-btn">Download Saved Gigs (.txt)</button>
     </div>
-
   </div>
 
+  <div class="db-status">Live Database — Updated Continuously</div>
+
   <div class="grid" id="gig-grid" aria-live="polite"></div>
+
+  <p id="empty-state" class="empty-state" hidden>You haven't saved any gigs yet. Check "Save for Later" on any idea to add it here.</p>
 
 </main>
 
