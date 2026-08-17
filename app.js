@@ -6,21 +6,28 @@ const CATEGORY_COLORS = {
   "E-commerce": "var(--cat-ecom)",
   "Marketing & content": "var(--cat-marketing)",
   "Physical & print products": "var(--cat-physical)",
-  "Digital & subscription products": "var(--cat-digital)"
+  "Digital & subscription products": "var(--cat-digital)",
+  "Content & personal brand": "var(--cat-marketing)"
 };
 
-// Scoring weights for soft ranking
-const WEIGHT_CATEGORY = 3;
-const WEIGHT_SEARCH_NAME = 5;
-const WEIGHT_SEARCH_BODY = 1;
+// Soft-ranking scorer weights (per project standard):
+// name match = 4, tag match = 3, category/source match = 2, body text match = 1
+const WEIGHT_NAME = 4;
+const WEIGHT_TAG = 3;
+const WEIGHT_CATEGORY_OR_SOURCE = 2;
+const WEIGHT_BODY = 1;
+
+const SAVED_KEY = 'shi_saved_gigs';
 
 // ---------- State ----------
 
 let ALL_IDEAS = [];
 let state = {
-  category: null,       // single-select or null
-  search: ""
+  search: "",
+  savedOnly: false
 };
+let savedIds = new Set(loadSaved());
+let expandedIds = new Set();
 
 // ---------- Load data ----------
 
@@ -28,7 +35,6 @@ fetch('ideas.json')
   .then(r => r.json())
   .then(data => {
     ALL_IDEAS = data;
-    buildCategoryPills();
     render();
   })
   .catch(err => {
@@ -37,71 +43,94 @@ fetch('ideas.json')
     console.error(err);
   });
 
-// ---------- Build filter pills ----------
+// ---------- Saved gigs (localStorage) ----------
 
-function buildCategoryPills() {
-  const container = document.getElementById('category-pills');
-  const categories = [...new Set(ALL_IDEAS.map(i => i.category))].sort();
-  categories.forEach(cat => {
-    const pill = document.createElement('button');
-    pill.className = 'pill';
-    pill.textContent = cat;
-    pill.dataset.value = cat;
-    pill.addEventListener('click', () => {
-      state.category = state.category === cat ? null : cat;
-      updatePillStates();
-      render();
-    });
-    container.appendChild(pill);
-  });
+function loadSaved() {
+  try {
+    const raw = localStorage.getItem(SAVED_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch (e) {
+    return [];
+  }
 }
 
-function updatePillStates() {
-  document.querySelectorAll('#category-pills .pill').forEach(p => {
-    p.classList.toggle('active', p.dataset.value === state.category);
-  });
+function persistSaved() {
+  try {
+    localStorage.setItem(SAVED_KEY, JSON.stringify([...savedIds]));
+  } catch (e) {
+    console.error('Could not persist saved gigs', e);
+  }
 }
 
-// ---------- Search ----------
+function toggleSaved(id) {
+  if (savedIds.has(id)) {
+    savedIds.delete(id);
+  } else {
+    savedIds.add(id);
+  }
+  persistSaved();
+  updateSavedUI();
+}
+
+function updateSavedUI() {
+  const countEl = document.getElementById('saved-count');
+  countEl.textContent = `${savedIds.size} gig${savedIds.size === 1 ? '' : 's'} saved`;
+  document.getElementById('download-saved-btn').disabled = savedIds.size === 0;
+}
+
+// ---------- Search input ----------
 
 document.getElementById('search-input').addEventListener('input', (e) => {
   state.search = e.target.value.trim().toLowerCase();
   render();
 });
 
-document.getElementById('browse-all-btn')?.addEventListener('click', () => {
-  state.category = null;
-  state.search = "";
-  document.getElementById('search-input').value = "";
-  updatePillStates();
+document.getElementById('saved-only-toggle').addEventListener('change', (e) => {
+  state.savedOnly = e.target.checked;
   render();
 });
 
-// ---------- Soft-ranking scorer ----------
-// Nothing is ever excluded. Every idea gets a score; the list re-sorts, best match first.
-// A visitor's selections never hide anything, they just move things up or down the scroll.
+document.getElementById('download-saved-btn').addEventListener('click', downloadSavedGigs);
 
-function scoreIdea(idea) {
+// ---------- Soft-ranking scorer ----------
+// Nothing is ever excluded from search. Every idea gets a score against each
+// search word; the list re-sorts, best match first. A visitor's search never
+// hides anything — it just moves things up or down the scroll.
+
+function scoreIdea(idea, words) {
+  if (words.length === 0) return 0;
+
+  const nameL = idea.name.toLowerCase();
+  const categoryL = idea.category.toLowerCase();
+  const sourceL = (idea.found || '').toLowerCase();
+  const tagsL = (idea.tags || []).map(t => t.toLowerCase());
+  const situationTagsL = (idea.situation_tags || []).map(t => t.toLowerCase());
+  const bodyL = [idea.what, idea.pitch, idea.best, idea.truth].join(' ').toLowerCase();
+
   let score = 0;
 
-  if (state.category && idea.category === state.category) {
-    score += WEIGHT_CATEGORY;
-  }
-
-  if (state.search) {
-    const nameHit = idea.name.toLowerCase().includes(state.search);
-    if (nameHit) score += WEIGHT_SEARCH_NAME;
-
-    const bodyFields = [idea.what, idea.pitch, idea.found, idea.tags?.join(' ')].join(' ').toLowerCase();
-    if (bodyFields.includes(state.search)) score += WEIGHT_SEARCH_BODY;
-  }
+  words.forEach(word => {
+    if (nameL.includes(word)) score += WEIGHT_NAME;
+    if (tagsL.some(t => t.includes(word)) || situationTagsL.some(t => t.includes(word))) score += WEIGHT_TAG;
+    if (categoryL.includes(word) || sourceL.includes(word)) score += WEIGHT_CATEGORY_OR_SOURCE;
+    if (bodyL.includes(word)) score += WEIGHT_BODY;
+  });
 
   return score;
 }
 
 function getRankedIdeas() {
-  return [...ALL_IDEAS]
-    .map(idea => ({ idea, score: scoreIdea(idea) }))
+  let pool = ALL_IDEAS;
+  if (state.savedOnly) {
+    pool = pool.filter(idea => savedIds.has(idea.id));
+  }
+
+  const words = state.search.length > 0 ? state.search.split(/\s+/).filter(Boolean) : [];
+
+  if (words.length === 0) return pool;
+
+  return [...pool]
+    .map(idea => ({ idea, score: scoreIdea(idea, words) }))
     .sort((a, b) => b.score - a.score)
     .map(x => x.idea);
 }
@@ -110,7 +139,17 @@ function getRankedIdeas() {
 
 function render() {
   const grid = document.getElementById('gig-grid');
+  const emptyState = document.getElementById('empty-state');
   const ranked = getRankedIdeas();
+
+  updateSavedUI();
+
+  if (state.savedOnly && ranked.length === 0) {
+    grid.innerHTML = '';
+    emptyState.hidden = false;
+    return;
+  }
+  emptyState.hidden = true;
 
   grid.innerHTML = '';
   ranked.forEach(idea => {
@@ -123,7 +162,6 @@ function toTitleCase(str) {
   const words = str.split(' ');
   return words.map((word, i) => {
     if (word.length === 0) return word;
-    // preserve things like "AI", "$999", "7-Day" acronyms/numbers as-is if already capitalized/numeric
     if (/^[A-Z0-9$]/.test(word) && word === word.toUpperCase() && /[A-Z]/.test(word)) return word;
     const lower = word.toLowerCase();
     if (i !== 0 && i !== words.length - 1 && minorWords.has(lower)) return lower;
@@ -136,6 +174,10 @@ function buildCard(idea) {
   card.className = 'card';
   const catColor = CATEGORY_COLORS[idea.category] || 'var(--accent)';
   card.style.setProperty('--cat-color', catColor);
+
+  const isExpanded = expandedIds.has(idea.id);
+  const isSaved = savedIds.has(idea.id);
+  if (isExpanded) card.classList.add('expanded');
 
   card.innerHTML = `
     <div class="card-head">
@@ -154,26 +196,55 @@ function buildCard(idea) {
       <p class="card-what">${escapeHtml(idea.what)}</p>
     </div>
 
-    <div class="card-section">
-      <div class="card-section-label">The Pitch</div>
-      <p class="card-text">${escapeHtml(idea.pitch)}</p>
+    <div class="card-more" ${isExpanded ? '' : 'hidden'}>
+      <div class="card-section">
+        <div class="card-section-label">The Pitch</div>
+        <p class="card-text">${escapeHtml(idea.pitch)}</p>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-label">Best For</div>
+        <p class="card-text">${escapeHtml(idea.best)}</p>
+      </div>
+
+      <div class="card-section">
+        <div class="card-section-label">The Truth</div>
+        <p class="card-text">${escapeHtml(idea.truth)}</p>
+      </div>
     </div>
 
-    <div class="card-section">
-      <div class="card-section-label">Best For</div>
-      <p class="card-text">${escapeHtml(idea.best)}</p>
-    </div>
+    <button class="expand-toggle" type="button" aria-expanded="${isExpanded}">
+      <span class="toggle-label">${isExpanded ? 'Collapse to Read Less' : 'Expand to Read More'}</span>
+      <span class="chevron">&#9662;</span>
+    </button>
 
-    <div class="card-section">
-      <div class="card-section-label">The Truth</div>
-      <p class="card-text">${escapeHtml(idea.truth)}</p>
+    <div class="card-actions">
+      <label class="save-toggle ${isSaved ? 'saved' : ''}">
+        <input type="checkbox" class="save-checkbox" ${isSaved ? 'checked' : ''}>
+        <span>Save for Later</span>
+      </label>
+      <button class="copy-btn" type="button">Copy This Gig to Clipboard</button>
     </div>
-
-    <button class="copy-btn" type="button">Copy this gig</button>
   `;
 
+  card.querySelector('.expand-toggle').addEventListener('click', () => {
+    if (expandedIds.has(idea.id)) {
+      expandedIds.delete(idea.id);
+    } else {
+      expandedIds.add(idea.id);
+    }
+    render();
+  });
+
+  card.querySelector('.save-checkbox').addEventListener('change', () => {
+    toggleSaved(idea.id);
+    const label = card.querySelector('.save-toggle');
+    label.classList.toggle('saved', savedIds.has(idea.id));
+    if (state.savedOnly) render();
+  });
+
   card.querySelector('.copy-btn').addEventListener('click', (e) => {
-    const text = `${toTitleCase(idea.name)}\n${idea.category} | ${idea.cost}\nSource: ${idea.found} — ${idea.url}\n\nWhat It Is\n${idea.what}\n\nThe Pitch\n${idea.pitch}\n\nBest For\n${idea.best}\n\nThe Truth\n${idea.truth}\n`;
+    const text = formatGigText(idea);
     navigator.clipboard.writeText(text).then(() => {
       const btn = e.target;
       const original = btn.textContent;
@@ -183,6 +254,30 @@ function buildCard(idea) {
   });
 
   return card;
+}
+
+function formatGigText(idea) {
+  return `${toTitleCase(idea.name)}\n${idea.category} | ${idea.cost}\nSource: ${idea.found} — ${idea.url}\n\nWhat It Is\n${idea.what}\n\nThe Pitch\n${idea.pitch}\n\nBest For\n${idea.best}\n\nThe Truth\n${idea.truth}\n`;
+}
+
+function downloadSavedGigs() {
+  if (savedIds.size === 0) return;
+
+  const saved = ALL_IDEAS.filter(idea => savedIds.has(idea.id));
+  const body = saved.map(formatGigText).join('\n' + '-'.repeat(40) + '\n\n');
+  const header = `Side Hustle Intel — Saved Gigs\nExported ${new Date().toLocaleString()}\n\n${'='.repeat(40)}\n\n`;
+
+  const blob = new Blob([header + body], { type: 'text/plain;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+
+  const ts = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
+  a.href = url;
+  a.download = `side-hustle-intel-saved-gigs-${ts}.txt`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
 }
 
 function escapeHtml(str) {
