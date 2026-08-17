@@ -2242,5 +2242,178 @@
     "situation_tags": [
       "Strictly in-home"
     ]
+  },
+  {
+    "id": "ai-micro-tools-lovable-stan-store",
+    "name": "AI micro-tools built with Lovable, sold as $7-$20 digital products",
+    "category": "Digital & subscription products",
+    "tags": [
+      "AI tools",
+      "digital products",
+      "Lovable",
+      "Stan Store",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Arlan Hamilton",
+    "what": "Use ChatGPT to brainstorm small, specific AI tools ($7 to $20 price point) that solve one narrow problem for a niche audience, get ChatGPT to write the build prompt, then use the AI app builder Lovable to actually build the working tool and sell it as a digital product through a simple storefront like Stan Store.",
+    "pitch": "Hamilton demonstrates the full pipeline live: she prompts ChatGPT with a specific client's situation (a daycare owner in Texas), gets a list of tool ideas (a daily child summary generator, an incident report assistant, a lesson planner generator), picks one, has ChatGPT write the exact build prompt, then pastes that into Lovable to generate the working tool in minutes. She sells finished tools like this through Stan Store with a low-price entry point ($17, discounted from $39) plus an order-bump upsell to a higher-priced companion tool.",
+    "best": "Someone comfortable brainstorming and iterating with ChatGPT who wants a fully passive, low-price digital product rather than an ongoing client service.",
+    "truth": "Hamilton discloses she has her own paid \"operating system\" prompt packs and a paid membership tier, and the specific prompts she uses in the demo aren't shown in full detail, only the process. The core mechanic, ChatGPT for ideation and prompt-writing, Lovable for the actual build, is genuinely replicable without her specific paid materials.",
+    "url": "https://www.youtube.com/watch?v=JHWFNg7ghKE",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "ai-done-for-you-content-professionals",
+    "name": "AI-written done-for-you content service for busy professionals",
+    "category": "Marketing & content",
+    "tags": [
+      "AI tools",
+      "writing",
+      "content creation",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Arlan Hamilton",
+    "what": "Use ChatGPT or Claude to write newsletters, blog posts, LinkedIn posts, and social captions on behalf of busy professionals, like doctors, plumbers, or founders, who know they should be publishing content but don't have the time, then hand them the finished, ready-to-post material.",
+    "pitch": "Hamilton frames the pitch around convenience rather than the writing itself: professionals will pay for speed and ease, having someone hand them scripts and posts ready to use rather than having to write anything themselves. The pitch to a client is built around not making them do any of the work, not requesting information they'd need time to gather.",
+    "best": "Someone comfortable picking a specific professional niche (rather than writing generically for anyone) and willing to do the outreach to land a first few clients.",
+    "truth": "This is a fairly general pitch without a specific pricing example, client acquisition story, or verified case study in the video, more of a suggested direction than a tested playbook. The underlying mechanic, using AI to draft content a professional would otherwise pay a ghostwriter for, is straightforward enough to test cheaply before committing to it as a primary offer.",
+    "url": "https://www.youtube.com/watch?v=JHWFNg7ghKE",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "ai-video-clip-service-opus-clip",
+    "name": "Short-form video clipping service using Opus Clip",
+    "category": "Marketing & content",
+    "tags": [
+      "AI tools",
+      "video editing",
+      "content repurposing",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost (Opus Clip subscription)",
+    "found": "Arlan Hamilton",
+    "what": "Take a creator's or business's existing long-form video content and use the AI tool Opus Clip to automatically generate 10 to 20 short vertical clips for TikTok, Instagram Reels, and YouTube Shorts, then lightly edit and caption the best ones before delivering them to the client.",
+    "pitch": "Hamilton frames the pricing specifically around undercutting manual editors: professional editors who clip content by hand typically charge $50 to $80 per clip, so charging $10 to $20 per clip, or a flat bundle like $300 a month for around 30 clips across four videos, still feels like a bargain to the client while paying you roughly $100 an hour for the actual editing time involved. The differentiator she stresses is not just running the AI tool and handing over raw output, but going back into Opus Clip's editing tools to adjust captions and trim clips so they're genuinely polished before delivery.",
+    "best": "Someone with an eye for what makes a short clip watchable who's willing to do a bit of manual polish on top of the AI-generated output, rather than just delivering the raw automated clips.",
+    "truth": "Hamilton pays someone else to do a version of this for her own content, which is a real, if secondhand, validation that people pay for this service. The specific dollar figures ($10-20/clip, $300/month bundle, roughly $100/hour in time) are her own suggested pricing framework, not a documented case study of someone else successfully charging these rates.",
+    "url": "https://www.youtube.com/watch?v=JHWFNg7ghKE",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "custom-gpts-niche-membership-addon",
+    "name": "Custom GPTs for specific professional niches",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "custom GPT",
+      "niche",
+      "subscription"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Arlan Hamilton",
+    "what": "Build a custom GPT inside ChatGPT scoped to a specific professional niche, real estate agents, coaches, consultants, or HR teams, then sell access to it on its own for $29 to $99 or more, or bundle it into an existing paid membership as a premium perk.",
+    "pitch": "Hamilton frames the appeal as low-effort packaging of something that already feels valuable: a custom GPT can be positioned as a $1,000 value included inside a $100-a-month membership, which strengthens the overall offer without requiring separate marketing or sales effort for the tool itself. She teaches the actual build process, a roughly 30 to 40 minute process by her account, inside her own paid community.",
+    "best": "Someone who already has (or is building) a niche community or membership and wants a low-effort way to add a tangible AI tool as a differentiator, rather than someone looking to sell a custom GPT as a completely standalone product from scratch.",
+    "truth": "The pricing figures ($29-99 standalone, $1,000 \"value\" bundled into a $100/month membership) are Hamilton's own suggested framing rather than documented sales figures. The core technical claim, that building a custom GPT is a straightforward, learnable process, is reasonable and independently verifiable without her specific paid course.",
+    "url": "https://www.youtube.com/watch?v=JHWFNg7ghKE",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "cold-email-ai-automation-agency-client-acquisition",
+    "name": "Cold email client acquisition system for AI automation agencies",
+    "category": "Local & professional services",
+    "tags": [
+      "cold email",
+      "AI tools",
+      "client acquisition",
+      "agency"
+    ],
+    "cost": "Low startup cost (email infrastructure and tools)",
+    "found": "Nate Herk | AI Automation (guest: Sav)",
+    "what": "A specific cold-email client acquisition framework for an AI automation or lead-gen agency: build initial case studies through free work for friends and family, then cold email cold prospects with a completely free, no-contract \"zero-risk\" offer, using niche-specific lead databases instead of broad tools like Apollo, and multi-domain email infrastructure to protect deliverability.",
+    "pitch": "Sav, a full-time college student with no prior sales background, says he generated over $500,000 in sales opportunities in six months using this system. His core tactic is offering to build a working demo of the exact thing a prospect needs for free with no contract, which removes the biggest trust barrier for a young or unproven operator, then only asks for permission to reference that company when reaching out to similar prospects. On the technical side, he recommends targeting niche-specific email databases matched to a vertical rather than general-purpose tools, and spreading sending volume across multiple domains and inboxes to keep deliverability high, watching for a 2% to 5% reply rate as the benchmark for healthy infrastructure and offer-market fit.",
+    "best": "Someone willing to do free work upfront to build initial case studies and comfortable with the technical setup of cold email infrastructure (multiple domains, inboxes, deliverability monitoring), rather than someone looking for a purely hands-off client acquisition method.",
+    "truth": "Sav's $500,000 figure is sales opportunities generated, not necessarily closed revenue, and it's self-reported without third-party verification, though the specific tactical details (niche databases over generic tools, multi-domain infrastructure, the free-build trust-building offer) are concrete and independently testable regardless of the headline number. This is presented as a genuine case study interview rather than a course sales pitch, though the host does run his own AI automation education business.",
+    "url": "https://www.youtube.com/watch?v=XB2xmX3USUI",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "outcome-based-ai-strategy-consulting-reframe",
+    "name": "Reframing an existing service as an outcome-based, AI-powered offer",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "consulting",
+      "repositioning",
+      "premium pricing"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Arlan Hamilton",
+    "what": "Take a service you already offer or have expertise in, marketing, HR, operations, finance, coaching, and repackage the pitch around a specific, AI-accelerated outcome and timeline rather than a vague description of what you do, then charge a premium project or retainer fee for the AI-enhanced version.",
+    "pitch": "Hamilton's example: instead of saying \"I help small businesses with marketing,\" you'd say \"I'll build your 90-day AI-powered marketing engine in 14 days,\" using AI to actually generate the campaign ideas, emails, landing page copy, and competitor analysis behind that offer, and charging $1,000 to $5,000 per project. For higher-ticket \"AI-enhanced strategy\" work aimed at small businesses trying to scale (her example: a business going from $25,000 to $40,000 a month), she cites a client in her own community, Liz, who went from $15,000 to $40,000 a month over eight months with this kind of support, and suggests $3,000 to $10,000 project fees or $2,000-a-month retainers for that tier.",
+    "best": "Someone with genuine prior expertise in a specific function (not someone starting from zero) who's comfortable repositioning their existing offer language around outcomes rather than learning an entirely new skill.",
+    "truth": "The Liz case study is specific (a named person, specific before/after numbers, an eight-month timeframe) but comes from Hamilton's own paid community, not an independently verified source. The core reframing technique, outcome-and-timeline language instead of a vague service description, is a general copywriting principle that doesn't depend on any of Hamilton's specific tools or programs to apply.",
+    "url": "https://www.youtube.com/watch?v=_iMh50ZZaiI",
+    "situation_tags": [
+      "Strictly in-home",
+      "Home office, client-facing"
+    ]
+  },
+  {
+    "id": "gohighlevel-agency-government-contracts",
+    "name": "GoHighLevel digital marketing agency targeting government contracts",
+    "category": "Local & professional services",
+    "tags": [
+      "GoHighLevel",
+      "government contracts",
+      "digital marketing",
+      "agency"
+    ],
+    "cost": "Low startup cost (GoHighLevel subscription starts at $97/month)",
+    "found": "Whitney Bonds",
+    "what": "Build a digital marketing agency on the GoHighLevel platform starting with local small-business clients to build real, provable results, then use those results to register as a government contractor and bid on federal, state, and county marketing contracts, which Bonds says routinely pay far more than equivalent private-sector work with much less competition.",
+    "pitch": "Bonds cites a specific example from a fellow marketer, Tim: a $25,000-a-month, $300,000-a-year government digital marketing contract that only had two competing bidders, for essentially the same dashboard-reporting service Bonds sells local clients for $500 a month. Her core argument for why government contracts are less competitive is structural: government agencies have to spend their allocated marketing budgets by the end of the fiscal year or lose them, so there's real pressure to find and pay a vendor, and once a budget is posted, there's no cold-calling or price negotiation involved, you either bid or you don't.",
+    "best": "Someone willing to start with the unglamorous work of landing and delivering for local clients first, to build a real track record, before attempting the more involved process of registering as and winning business as a government contractor.",
+    "truth": "This is explicitly a documented-in-progress journey, not a completed case study: Bonds discloses she's only a couple of months into running her own agency and is currently being walked through government-contractor registration by Tim and his team, she has not personally landed a government contract at the time of this video. The video also funnels into a paid workshop with her coach and a waitlist for a future interview with Tim, worth knowing given how much of the pitch rests on Tim's specific $300,000 contract story rather than Bonds' own verified results.",
+    "url": "https://www.youtube.com/watch?v=1E6nNro6KKY",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "openclaw-setup-service-local-businesses",
+    "name": "OpenClaw setup and automation service for local businesses",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "OpenClaw",
+      "local business",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Journey With The Hintons",
+    "what": "Offer a done-for-you setup service that installs and configures the AI agent tool OpenClaw for local businesses or individuals who are interested in it but don't know where to start, connecting it to a messaging app like Telegram and setting up a handful of basic automations.",
+    "pitch": "The presenter frames this as one of several money-making angles inside a broader OpenClaw walkthrough: once you've learned the setup process yourself (connecting a hosting provider, pairing a Telegram bot, configuring scheduled \"cron job\" tasks like a daily briefing), you can charge $150 to $200 for a basic setup, or more for a more advanced configuration with custom automations.",
+    "best": "Someone who's comfortable working through the technical setup steps themselves first (hosting, bot creation, API connections) and can walk a non-technical client through the same process patiently.",
+    "truth": "The $150-$200 pricing is the presenter's own suggested starting point, not a documented sale or client case study. This is a genuinely new tool and setup process (OpenClaw is described as having exploded in popularity only in the weeks before this video), so demand for a setup service specifically is more of a reasonable early bet than a proven business at the time of filming.",
+    "url": "https://www.youtube.com/watch?v=km7PyVKOSsk",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
   }
 ]
