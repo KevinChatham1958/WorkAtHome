@@ -2415,5 +2415,115 @@
       "Strictly in-home",
       "Phone/sales-based"
     ]
+  },
+  {
+    "id": "faceless-tiktok-shop-seller-affiliate-army",
+    "name": "Faceless TikTok Shop seller business using print-on-demand and an affiliate army",
+    "category": "E-commerce",
+    "tags": [
+      "TikTok Shop",
+      "print on demand",
+      "e-commerce",
+      "faceless"
+    ],
+    "cost": "Low startup cost (Printify Premium ~$30/month)",
+    "found": "Jon Reiter",
+    "what": "Become a TikTok Shop seller (rather than an affiliate) using print-on-demand fulfillment through Printify so there's no upfront inventory, then instead of creating your own content, recruit and pay a team of TikTok Shop affiliates to film and post promotional videos for a commission.",
+    "pitch": "Reiter's core argument is structural: TikTok Shop affiliates typically keep only 10-30% commission and never own the underlying store or brand, while sellers keep 50-70% of profit and own an asset they could eventually sell. He walks through the specific mechanics: connect a TikTok Shop to Printify for on-demand fulfillment, filter products through what he calls the \"mandatory three\" (immediate visual wow factor, solves an urgent problem, easy to film), then use a tool like Kalodata to find affiliates already driving sales for similar trending products and poach them with a higher commission rate (which he calls \"affiliate sniping\"), optionally supplementing with AI-generated product videos from a single product photo.",
+    "best": "Someone comfortable managing and motivating a team of outside content creators (affiliates) rather than producing content themselves, and willing to test multiple print-on-demand product ideas before finding ones that sell.",
+    "truth": "Reiter is direct that the headline $201,509/month and $273,000/month figures are not representative of a realistic start, and gives a more grounded estimate instead: roughly $5,000 in sales in the first 30 days, $15,000-$20,000 a month by 90-110 days with consistent effort. The specific student examples cited (Joe, April White, Cooper) are from his own paid coaching program (\"inner circle\"), which the video promotes throughout, so they're not independently verified case studies.",
+    "url": "https://www.youtube.com/watch?v=8Oo2grpskhA",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "digital-product-full-roadmap-thrivecart",
+    "name": "Full roadmap for building and selling your first digital product",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "AI tools",
+      "roadmap",
+      "Claude"
+    ],
+    "cost": "Very low startup cost",
+    "found": "ThriveCart",
+    "what": "A complete, sequenced roadmap for launching a first digital product (a template, course, workbook, or toolkit): a structured exercise to pick one specific product for one specific person, using Claude to build the actual content and curriculum, PicMonkey for visual design and packaging, and ThriveCart to handle checkout and delivery, ending with specific guidance on pricing and finding first buyers.",
+    "pitch": "The presenter, who says they've made over $3 million from digital products, frames the whole appeal around removing decision paralysis: rather than facing the build, price, checkout, and launch all at once, the video sequences them into one decision at a time. The pricing guidance is specific and concrete: start under $50 for a first product (as low as $7 for a simple ebook, around $27 as a common sweet spot), and consider a graduated pricing structure where the first 25 buyers pay less than the next 50, both to reward early buyers and build momentum.",
+    "best": "A true beginner who hasn't shipped a digital product before and wants a specific, ordered sequence to follow rather than a general overview, particularly useful for someone who already has some specific expertise or experience others would pay to learn.",
+    "truth": "This is presented as a free course by ThriveCart, a checkout and delivery platform, so the entire pipeline (including the checkout and delivery lesson) is naturally built around promoting ThriveCart's own product, worth knowing even though the broader idea-to-launch sequence doesn't strictly require that specific tool. The $3 million claim is the presenter's own background and isn't demonstrated step-by-step within this video, which focuses on the process rather than proving the presenter's own numbers.",
+    "url": "https://www.youtube.com/watch?v=OJkTbvXZYPc",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "gohighlevel-ai-upgrade-local-business-maps",
+    "name": "GoHighLevel AI upgrade for local businesses (Google Maps sourcing)",
+    "category": "Local & professional services",
+    "tags": [
+      "GoHighLevel",
+      "AI tools",
+      "local business",
+      "lead generation",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost (software subscription)",
+    "found": "Jason Wardrop",
+    "what": "Use an AI prospecting tool synced to Google Maps to find local businesses (plumbers, electricians, and similar trades) that don't have a website, build each one a free demo website automatically, then upsell a $300 to $1,500 a month \"AI upgrade\" package that adds a chat widget, voice AI receptionist, missed-call text-back, review automation, and a unified inbox, all set up through a white-labeled GoHighLevel account in under 20 seconds.",
+    "pitch": "Wardrop cites research that roughly 28-31% of small local businesses still don't have a website, and frames the free-website offer as a foot-in-the-door tactic rather than the actual product: once a business owner says yes to the free site, the AI upgrade package (which he prices at a combined $2,800/month \"total value\") is the real recurring offer. He provides an exact cold-call and text-message script for reaching business owners once their contact info and a working demo site are already in hand.",
+    "best": "Someone comfortable doing outbound phone and text outreach to local business owners, and who wants a fully templated, software-driven offer rather than building anything custom from scratch.",
+    "truth": "Wardrop discloses this is built around his own white-labeled software product and free workshop funnel, and the $2,800/month \"total value\" figure is his own bundled pricing framework rather than a documented amount any single client has actually paid. The underlying mechanic, Google Maps prospecting for businesses without websites plus a free-site-then-upsell sequence, is specific and independently testable regardless of which particular software is used to execute it.",
+    "url": "https://www.youtube.com/watch?v=PBS73aETisw",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "chatgpt-skill-discovery-freelance-roadmap",
+    "name": "ChatGPT-guided freelance skill discovery and client acquisition roadmap",
+    "category": "Local & professional services",
+    "tags": [
+      "ChatGPT",
+      "freelancing",
+      "roadmap",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost (free ChatGPT tier works)",
+    "found": "ENERGI",
+    "what": "A structured sequence of ChatGPT prompts that takes someone with no clear freelance skill from personal interests and constraints (what you enjoy, how many hours you can commit, what you refuse to do) to a specific freelance offer, a prioritized 80/20 sub-skill learning plan, a personalized curriculum of videos and articles to learn it, and finally a three-channel test plan for finding first clients.",
+    "pitch": "The presenter, who built a six-figure freelance writing business without a college degree, walks through the exact prompts in sequence: first asking ChatGPT for five freelance skill options based on your specific interests and constraints (explicitly telling it to push back rather than accept the first suggestions), then asking it to map the minimum 20% of sub-skills that produce 80% of the paid results, then generating a learning curriculum around a stated weekly time budget, and finally asking for three distinct ways to find clients (in her case, Upwork, cold email, and social media) so a beginner can test which approach actually fits them.",
+    "best": "A complete beginner with no existing portfolio or clear niche who wants a structured way to turn general interests into a specific, learnable, sellable skill rather than guessing.",
+    "truth": "This is a general framework rather than a single business idea, and the presenter's own six-figure outcome isn't demonstrated step-by-step within the video, it's cited as background credibility. The core value of the method, using AI to convert vague interests into a specific, prioritized skill and learning plan, doesn't depend on any paid tool or program and is fully testable with ChatGPT's free tier.",
+    "url": "https://www.youtube.com/watch?v=oqhXJJh_mIE",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "ai-social-posting-service-dormant-profiles",
+    "name": "AI-managed social media posting subscription for businesses with dormant profiles",
+    "category": "Marketing & content",
+    "tags": [
+      "AI tools",
+      "social media",
+      "local business",
+      "GoHighLevel",
+      "recurring revenue"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Nick Ponte",
+    "what": "Target local businesses with a specific, identifiable gap: a social media profile with an established following (roughly 500 to 1,000 followers) that hasn't posted in six months to a year, meaning the business has already proven it values social content but has since let it lapse, then offer to take over posting for a monthly subscription, using GoHighLevel's AI social planner to generate content quickly.",
+    "pitch": "Ponte's foot-in-the-door tactic is to generate two weeks of content for free upfront using AI (a roughly 10-minute process, by his account) before asking for any payment, which he says removes the biggest barrier for someone with no portfolio or testimonials yet. He cites a specific community member's result, landing a first client at $150 a month for two posts a week, and frames the broader pricing range as $150 up to $2,000 a month depending on scope and whether it's added to an existing client relationship or sold as a new one.",
+    "best": "Someone willing to do the specific lead-qualification legwork (finding profiles with an established but lapsed following, not just any inactive account) and comfortable using AI content tools to produce a real, useful free sample before asking for payment.",
+    "truth": "Ponte discloses his own $123,000 in monthly revenue is separate from his coaching, software, and community businesses, a specific and checkable-in-principle claim, though it's self-reported from his own bookkeeping software rather than independently audited. The cited $150/month student testimonial is from his own paid community and described by Ponte himself as \"a very, very basic level testimonial,\" a caveat worth keeping in the summary rather than treating the figure as typical.",
+    "url": "https://www.youtube.com/watch?v=u8Xrxluoyis",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
   }
 ]
