@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Side Hustle Intel</title>
+<meta name="description" content="What Side Hustle Intel is, how entries are sourced and assessed, and how to send feedback.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<style>
+  /* ---------- About-page-specific styles ---------- */
+  /* Reuses tokens (--bg, --accent, --border, --text-*, --font-*) already defined in styles.css */
+
+  .about-main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+  }
+
+  .about-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(1.9rem, 4vw, 2.6rem);
+    letter-spacing: -0.01em;
+    margin: 0 0 28px;
+    color: var(--text-primary);
+  }
+
+  .about-section {
+    margin-bottom: 40px;
+  }
+
+  .about-section p {
+    font-size: 1.02rem;
+    color: var(--text-primary);
+    margin: 0 0 16px;
+  }
+
+  .about-section p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Beta note — visually separate so it's easy to remove after the beta phase */
+  .beta-note {
+    border: 1px solid var(--border-strong);
+    background: var(--accent-bg);
+    border-radius: 6px;
+    padding: 20px 22px;
+    margin-bottom: 40px;
+  }
+  .beta-note-label {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 8px;
+  }
+  .beta-note p {
+    font-size: 0.96rem;
+    color: var(--text-primary);
+    margin: 0 0 10px;
+  }
+  .beta-note p:last-child {
+    margin-bottom: 0;
+  }
+
+  .section-label {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: var(--text-primary);
+    margin: 0 0 16px;
+  }
+
+  /* Feedback form */
+  .feedback-form {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg-card);
+    padding: 28px;
+  }
+
+  .form-field {
+    margin-bottom: 20px;
+  }
+  .form-field:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .form-field label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+  }
+
+  .form-field .field-hint {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 400;
+    color: var(--text-muted);
+    margin-top: 2px;
+  }
+
+  .form-field input[type="text"],
+  .form-field input[type="email"],
+  .form-field textarea {
+    width: 100%;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    border: 1px solid var(--border-strong);
+    border-radius: 5px;
+    padding: 10px 12px;
+    background: #fff;
+  }
+  .form-field input:focus-visible,
+  .form-field textarea:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+  }
+
+  .form-field textarea {
+    resize: vertical;
+    min-height: 72px;
+  }
+
+  .radio-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .radio-option {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.92rem;
+    font-weight: 400;
+    color: var(--text-primary);
+  }
+  .radio-option input {
+    accent-color: var(--accent);
+  }
+
+  .submit-btn {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #fff;
+    background: var(--accent);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 22px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .submit-btn:hover {
+    background: var(--accent-dim);
+  }
+
+  .contact-line {
+    font-size: 1.02rem;
+    color: var(--text-primary);
+  }
+  .contact-line a {
+    color: var(--link);
+    text-decoration: underline;
+  }
+
+  @media (max-width: 600px) {
+    .about-main { padding: 40px 18px 60px; }
+    .radio-row { gap: 14px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="wordmark-link">
+      <img src="assets/logo-horizontal.png" alt="Side Hustle Intel" class="wordmark-logo">
+    </a>
+    <nav class="site-nav">
+      <a href="index.html">Browse</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="about-main">
+  <h1 class="about-title">About Side Hustle Intel</h1>
+
+  <!--
+    BETA NOTE: this block is intentionally separate from the permanent About copy below.
+    Remove this entire <div class="beta-note">...</div> block once the beta phase ends —
+    nothing else on the page depends on it.
+  -->
+  <div class="beta-note">
+    <span class="beta-note-label">A note for beta testers</span>
+    <p>Thanks for trying Side Hustle Intel early. Pick one idea in your field, or one you're just curious about, and read the full entry. Then use the form near the bottom of this page to tell us whether it felt honest — and flag anything that felt broken, confusing, or missing.</p>
+  </div>
+
+  <div class="about-section">
+    <p>Side Hustle Intel is a free, searchable database of work-from-home business ideas.</p>
+    <p>Every entry comes from a real YouTube video — a creator walking through a specific gig, side hustle, or business model. We watch those videos, pull out the idea, and write it up in plain language: what the gig actually is, why the creator thinks it's worth doing, who it's realistically a fit for, and our own honest take — including anything that seems unverified, self-promotional, or worth a second look before you commit time or money.</p>
+    <p>We don't rank ideas or attach scores. We don't cherry-pick winners. If a creator pitched it and it isn't an outright scam or an employment listing in disguise, it's here — plain-language write-up and all — for you to judge for yourself. Every entry links back to the original video, so you can watch the full source and decide independently.</p>
+    <p>The database is growing steadily as we work through a backlog of creator videos, batch by batch.</p>
+  </div>
+
+  <div class="about-section">
+    <h2 class="section-label">Send feedback</h2>
+    <!--
+      FORM ACTION PLACEHOLDER: this posts to Formspree, a free form-handling service
+      that requires no backend of your own. Before this goes live:
+      1. Create a free account at formspree.io
+      2. Create a new form, and copy the form endpoint it gives you
+         (looks like https://formspree.io/f/xxxxxxxx)
+      3. Replace the placeholder action URL below with that real endpoint
+    -->
+    <form class="feedback-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST">
+      <input type="hidden" name="_subject" value="Side Hustle Intel — beta feedback">
+
+      <div class="form-field">
+        <label for="fb-email">Your email</label>
+        <input type="email" id="fb-email" name="email" required>
+      </div>
+
+      <div class="form-field">
+        <label for="fb-gig">Which gig did you look at?</label>
+        <input type="text" id="fb-gig" name="gig_name" placeholder="e.g. Fractional executive services">
+      </div>
+
+      <div class="form-field">
+        <label>Did the write-up feel honest?</label>
+        <div class="radio-row">
+          <label class="radio-option"><input type="radio" name="felt_honest" value="Yes" required> Yes</label>
+          <label class="radio-option"><input type="radio" name="felt_honest" value="Somewhat"> Somewhat</label>
+          <label class="radio-option"><input type="radio" name="felt_honest" value="No"> No</label>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label for="fb-why">What made you answer that way?</label>
+        <textarea id="fb-why" name="why"></textarea>
+      </div>
+
+      <div class="form-field">
+        <label for="fb-broken">Anything confusing, broken, or missing?
+          <span class="field-hint">Optional</span>
+        </label>
+        <textarea id="fb-broken" name="issues"></textarea>
+      </div>
+
+      <div class="form-field">
+        <label for="fb-other">Anything else?
+          <span class="field-hint">Optional</span>
+        </label>
+        <textarea id="fb-other" name="other"></textarea>
+      </div>
+
+      <button type="submit" class="submit-btn">Send feedback</button>
+    </form>
+  </div>
+
+  <div class="about-section">
+    <h2 class="section-label">Contact</h2>
+    <p class="contact-line">Email <a href="mailto:kevin@SideHustleIntel.org">kevin@SideHustleIntel.org</a></p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>Side Hustle Intel — every idea here is sourced from a real creator video, linked at the bottom of each entry.</span>
+  </div>
+</footer>
+
+</body>
+</html>
