@@ -19,6 +19,16 @@ const WEIGHT_BODY = 1;
 
 const SAVED_KEY = 'shi_saved_gigs';
 
+// ---------- Icons (inline SVG, standard/recognizable shapes, matches search-icon styling) ----------
+
+const CHEVRON_SVG = `<svg width="13" height="13" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M6 9L12 15L18 9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+
+const BOOKMARK_OUTLINE_SVG = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M6 3.5C6 2.95 6.45 2.5 7 2.5H17C17.55 2.5 18 2.95 18 3.5V21L12 17L6 21V3.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>`;
+
+const BOOKMARK_FILLED_SVG = `<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M6 3.5C6 2.95 6.45 2.5 7 2.5H17C17.55 2.5 18 2.95 18 3.5V21L12 17L6 21V3.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>`;
+
+const COPY_SVG = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 8V5.5C16 4.7 15.3 4 14.5 4H5.5C4.7 4 4 4.7 4 5.5V14.5C4 15.3 4.7 16 5.5 16H8" stroke="currentColor" stroke-width="2"/></svg>`;
+
 // ---------- State ----------
 
 let ALL_IDEAS = [];
@@ -214,16 +224,17 @@ function buildCard(idea) {
     </div>
 
     <button class="expand-toggle" type="button" aria-expanded="${isExpanded}">
-      <span class="toggle-label">${isExpanded ? 'Collapse to Read Less' : 'Expand to Read More'}</span>
-      <span class="chevron">&#9662;</span>
+      <span class="toggle-label">${isExpanded ? 'Read Less' : 'Read More'}</span>
+      <span class="chevron">${CHEVRON_SVG}</span>
     </button>
 
     <div class="card-actions">
       <label class="save-toggle ${isSaved ? 'saved' : ''}">
         <input type="checkbox" class="save-checkbox" ${isSaved ? 'checked' : ''}>
+        <span class="bookmark-icon">${isSaved ? BOOKMARK_FILLED_SVG : BOOKMARK_OUTLINE_SVG}</span>
         <span>Save for Later</span>
       </label>
-      <button class="copy-btn" type="button">Copy This Gig to Clipboard</button>
+      <button class="copy-btn" type="button">${COPY_SVG} Copy This Gig to Clipboard</button>
     </div>
   `;
 
@@ -239,17 +250,19 @@ function buildCard(idea) {
   card.querySelector('.save-checkbox').addEventListener('change', () => {
     toggleSaved(idea.id);
     const label = card.querySelector('.save-toggle');
-    label.classList.toggle('saved', savedIds.has(idea.id));
+    const nowSaved = savedIds.has(idea.id);
+    label.classList.toggle('saved', nowSaved);
+    label.querySelector('.bookmark-icon').innerHTML = nowSaved ? BOOKMARK_FILLED_SVG : BOOKMARK_OUTLINE_SVG;
     if (state.savedOnly) render();
   });
 
   card.querySelector('.copy-btn').addEventListener('click', (e) => {
     const text = formatGigText(idea);
+    const btn = e.currentTarget;
     navigator.clipboard.writeText(text).then(() => {
-      const btn = e.target;
-      const original = btn.textContent;
-      btn.textContent = 'Copied!';
-      setTimeout(() => { btn.textContent = original; }, 1500);
+      const original = btn.innerHTML;
+      btn.innerHTML = 'Copied!';
+      setTimeout(() => { btn.innerHTML = original; }, 1500);
     });
   });
 
