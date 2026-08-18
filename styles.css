@@ -184,11 +184,13 @@ a { color: inherit; }
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 14px;
+  column-gap: 8px;
+  row-gap: 22px;
+  margin-bottom: 16px;
 }
 
 .quick-search-btn {
+  position: relative;
   background: var(--accent-bg);
   border: 1px solid var(--border);
   color: var(--accent);
@@ -200,15 +202,84 @@ a { color: inherit; }
   cursor: pointer;
   transition: all 0.15s;
 }
-.quick-search-btn:hover {
+.quick-search-btn:hover:not(:disabled):not(.selected) {
   border-color: var(--accent);
   background: #fff;
 }
-.quick-search-btn.active {
+.quick-search-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.quick-search-btn.selected {
   background: var(--accent);
   color: #fff;
   border-color: var(--accent);
 }
+.quick-search-btn.selected:hover:not(:disabled) {
+  background: var(--accent-dim);
+  border-color: var(--accent-dim);
+}
+
+.quick-search-light {
+  position: absolute;
+  top: -9px;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #dc2626;
+  transform: translateX(-50%) scale(0);
+  opacity: 0;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  box-shadow: 0 0 0 2px var(--bg);
+}
+.quick-search-btn.selected .quick-search-light {
+  transform: translateX(-50%) scale(1);
+  opacity: 1;
+}
+
+.quick-search-action-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.run-search-btn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 9px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s;
+}
+.run-search-btn:hover:not(:disabled) { background: var(--accent-dim); }
+.run-search-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.search-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 48px 0;
+  color: var(--text-muted);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+.search-loading[hidden] { display: none; }
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
 
 .clear-search-btn {
   background: transparent;

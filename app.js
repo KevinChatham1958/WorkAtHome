@@ -90,39 +90,82 @@ function updateSavedUI() {
 
 // ---------- Search input ----------
 
+let selectedQuickTags = new Set();
+
 document.getElementById('search-input').addEventListener('input', (e) => {
   state.search = e.target.value.trim().toLowerCase();
-  updateQuickSearchUI();
+  // Typing directly supersedes any pending (not-yet-searched) quick-select choices,
+  // so the pills never silently disagree with what's actually in the box.
+  resetQuickSearchSelections();
   render();
 });
 
 document.querySelectorAll('.quick-search-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     const query = btn.dataset.query;
-    const input = document.getElementById('search-input');
-    input.value = query;
-    state.search = query.toLowerCase();
-    updateQuickSearchUI();
-    render();
-    document.getElementById('gig-grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (selectedQuickTags.has(query)) {
+      selectedQuickTags.delete(query);
+      btn.classList.remove('selected');
+    } else {
+      selectedQuickTags.add(query);
+      btn.classList.add('selected');
+    }
+    document.getElementById('run-quick-search-btn').disabled = selectedQuickTags.size === 0;
   });
+});
+
+document.getElementById('run-quick-search-btn').addEventListener('click', () => {
+  if (selectedQuickTags.size === 0) return;
+
+  const query = [...selectedQuickTags].join(' ');
+  const input = document.getElementById('search-input');
+  const loadingEl = document.getElementById('search-loading');
+  const grid = document.getElementById('gig-grid');
+  const emptyState = document.getElementById('empty-state');
+
+  input.value = query;
+
+  // Brief, deliberate pause so the action is easy to follow — the sort itself
+  // is instant, but an instant reorder with no transition is hard to read.
+  loadingEl.hidden = false;
+  grid.hidden = true;
+  emptyState.hidden = true;
+  setControlsDisabled(true);
+
+  setTimeout(() => {
+    state.search = query.toLowerCase();
+    loadingEl.hidden = true;
+    grid.hidden = false;
+    setControlsDisabled(false);
+    render();
+    updateQuickSearchUI();
+    grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 2200);
 });
 
 document.getElementById('clear-search-btn').addEventListener('click', () => {
   const input = document.getElementById('search-input');
   input.value = '';
   state.search = '';
+  resetQuickSearchSelections();
   updateQuickSearchUI();
   render();
 });
 
+function resetQuickSearchSelections() {
+  selectedQuickTags.clear();
+  document.querySelectorAll('.quick-search-btn').forEach(btn => btn.classList.remove('selected'));
+  document.getElementById('run-quick-search-btn').disabled = true;
+}
+
+function setControlsDisabled(disabled) {
+  document.getElementById('run-quick-search-btn').disabled = disabled || selectedQuickTags.size === 0;
+  document.querySelectorAll('.quick-search-btn').forEach(btn => { btn.disabled = disabled; });
+}
+
 function updateQuickSearchUI() {
   const clearBtn = document.getElementById('clear-search-btn');
   clearBtn.hidden = state.search.length === 0;
-
-  document.querySelectorAll('.quick-search-btn').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.query.toLowerCase() === state.search);
-  });
 }
 
 document.getElementById('saved-only-toggle').addEventListener('change', (e) => {

@@ -46,14 +46,44 @@
     </div>
 
     <div class="quick-search-row">
-      <button type="button" class="quick-search-btn" data-query="strictly">Strictly In-Home</button>
-      <button type="button" class="quick-search-btn" data-query="travel">Local Travel Required</button>
-      <button type="button" class="quick-search-btn" data-query="ai tools">AI Tools</button>
-      <button type="button" class="quick-search-btn" data-query="low startup cost">Low Startup Cost</button>
-      <button type="button" class="quick-search-btn" data-query="recurring revenue">Recurring Revenue</button>
-      <button type="button" class="quick-search-btn" data-query="phone">Phone / Sales-Based</button>
-      <button type="button" class="quick-search-btn" data-query="print on demand">Print on Demand</button>
+      <button type="button" class="quick-search-btn" data-query="strictly">
+        <span class="quick-search-light" aria-hidden="true"></span>
+        Strictly In-Home
+      </button>
+      <button type="button" class="quick-search-btn" data-query="travel">
+        <span class="quick-search-light" aria-hidden="true"></span>
+        Local Travel Required
+      </button>
+      <button type="button" class="quick-search-btn" data-query="ai tools">
+        <span class="quick-search-light" aria-hidden="true"></span>
+        AI Tools
+      </button>
+      <button type="button" class="quick-search-btn" data-query="low startup cost">
+        <span class="quick-search-light" aria-hidden="true"></span>
+        Low Startup Cost
+      </button>
+      <button type="button" class="quick-search-btn" data-query="recurring revenue">
+        <span class="quick-search-light" aria-hidden="true"></span>
+        Recurring Revenue
+      </button>
+      <button type="button" class="quick-search-btn" data-query="phone">
+        <span class="quick-search-light" aria-hidden="true"></span>
+        Phone / Sales-Based
+      </button>
+      <button type="button" class="quick-search-btn" data-query="print on demand">
+        <span class="quick-search-light" aria-hidden="true"></span>
+        Print on Demand
+      </button>
+    </div>
+
+    <div class="quick-search-action-row">
+      <button type="button" id="run-quick-search-btn" class="run-search-btn" disabled>Search Selected</button>
       <button type="button" id="clear-search-btn" class="clear-search-btn" hidden>Clear search ✕</button>
+    </div>
+
+    <div id="search-loading" class="search-loading" hidden aria-live="polite">
+      <span class="spinner" aria-hidden="true"></span>
+      Sorting gigs by your selections…
     </div>
 
     <div class="saved-row">
