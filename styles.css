@@ -180,6 +180,48 @@ a { color: inherit; }
   box-shadow: 0 0 0 3px var(--accent-bg);
 }
 
+.quick-search-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.quick-search-btn {
+  background: var(--accent-bg);
+  border: 1px solid var(--border);
+  color: var(--accent);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.quick-search-btn:hover {
+  border-color: var(--accent);
+  background: #fff;
+}
+.quick-search-btn.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.clear-search-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-faint);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  cursor: pointer;
+  padding: 6px 4px;
+  transition: color 0.15s;
+}
+.clear-search-btn:hover { color: var(--accent); }
+
 .saved-row {
   display: flex;
   align-items: center;

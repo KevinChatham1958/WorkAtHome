@@ -92,8 +92,38 @@ function updateSavedUI() {
 
 document.getElementById('search-input').addEventListener('input', (e) => {
   state.search = e.target.value.trim().toLowerCase();
+  updateQuickSearchUI();
   render();
 });
+
+document.querySelectorAll('.quick-search-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const query = btn.dataset.query;
+    const input = document.getElementById('search-input');
+    input.value = query;
+    state.search = query.toLowerCase();
+    updateQuickSearchUI();
+    render();
+    document.getElementById('gig-grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+});
+
+document.getElementById('clear-search-btn').addEventListener('click', () => {
+  const input = document.getElementById('search-input');
+  input.value = '';
+  state.search = '';
+  updateQuickSearchUI();
+  render();
+});
+
+function updateQuickSearchUI() {
+  const clearBtn = document.getElementById('clear-search-btn');
+  clearBtn.hidden = state.search.length === 0;
+
+  document.querySelectorAll('.quick-search-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.query.toLowerCase() === state.search);
+  });
+}
 
 document.getElementById('saved-only-toggle').addEventListener('change', (e) => {
   state.savedOnly = e.target.checked;
