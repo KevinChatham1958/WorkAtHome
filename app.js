@@ -399,3 +399,19 @@ function escapeHtml(str) {
 function escapeAttr(str) {
   return (str || '').replace(/"/g, '&quot;');
 }
+
+// ---------- Back to search ----------
+
+const backToSearchBtn = document.getElementById('back-to-search-btn');
+
+window.addEventListener('scroll', () => {
+  backToSearchBtn.hidden = window.scrollY < 500;
+}, { passive: true });
+
+backToSearchBtn.addEventListener('click', () => {
+  const searchInput = document.getElementById('search-input');
+  searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  // Give the smooth scroll a moment to land before focusing, so the page
+  // doesn't jump again as the keyboard/focus ring appears mid-scroll.
+  setTimeout(() => searchInput.focus(), 400);
+});
