@@ -97,6 +97,8 @@ document.getElementById('search-input').addEventListener('input', (e) => {
   // Typing directly supersedes any pending (not-yet-searched) quick-select choices,
   // so the pills never silently disagree with what's actually in the box.
   resetQuickSearchSelections();
+  updateRunButtonState();
+  updateQuickSearchUI();
   render();
 });
 
@@ -112,20 +114,27 @@ document.querySelectorAll('.quick-search-btn').forEach(btn => {
       btn.classList.add('selected');
       btn.setAttribute('aria-pressed', 'true');
     }
-    document.getElementById('run-quick-search-btn').disabled = selectedQuickTags.size === 0;
+    updateRunButtonState();
   });
 });
 
 document.getElementById('run-quick-search-btn').addEventListener('click', () => {
-  if (selectedQuickTags.size === 0) return;
-
-  const query = [...selectedQuickTags].join(' ');
   const input = document.getElementById('search-input');
   const loadingEl = document.getElementById('search-loading');
   const grid = document.getElementById('gig-grid');
   const emptyState = document.getElementById('empty-state');
 
-  input.value = query;
+  // Toggle selections take priority if any are on; otherwise confirm whatever
+  // is currently typed in the box. Either way, this button always means
+  // "run the currently active query," typed or toggled.
+  let query;
+  if (selectedQuickTags.size > 0) {
+    query = [...selectedQuickTags].join(' ');
+    input.value = query;
+  } else {
+    query = input.value.trim();
+  }
+  if (!query) return;
 
   // Brief, deliberate pause so the action is easy to follow — the sort itself
   // is instant, but an instant reorder with no transition is hard to read.
@@ -150,6 +159,7 @@ document.getElementById('clear-search-btn').addEventListener('click', () => {
   input.value = '';
   state.search = '';
   resetQuickSearchSelections();
+  updateRunButtonState();
   updateQuickSearchUI();
   render();
 });
@@ -160,11 +170,19 @@ function resetQuickSearchSelections() {
     btn.classList.remove('selected');
     btn.setAttribute('aria-pressed', 'false');
   });
-  document.getElementById('run-quick-search-btn').disabled = true;
+}
+
+function updateRunButtonState() {
+  const hasTypedText = document.getElementById('search-input').value.trim().length > 0;
+  document.getElementById('run-quick-search-btn').disabled = selectedQuickTags.size === 0 && !hasTypedText;
 }
 
 function setControlsDisabled(disabled) {
-  document.getElementById('run-quick-search-btn').disabled = disabled || selectedQuickTags.size === 0;
+  if (disabled) {
+    document.getElementById('run-quick-search-btn').disabled = true;
+  } else {
+    updateRunButtonState();
+  }
   document.querySelectorAll('.quick-search-btn').forEach(btn => { btn.disabled = disabled; });
 }
 
@@ -302,7 +320,7 @@ function buildCard(idea) {
     </div>
 
     <button class="expand-toggle" type="button" aria-expanded="${isExpanded}">
-      <span class="toggle-label">${isExpanded ? 'Read Less' : 'Read More'}</span>
+      <span class="toggle-label">${isExpanded ? 'Click to Collapse' : 'Click to See Full Gig'}</span>
       <span class="chevron">${CHEVRON_SVG}</span>
     </button>
 

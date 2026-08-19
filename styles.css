@@ -94,7 +94,7 @@ a { color: inherit; }
 
 .hero-logo {
   display: block;
-  width: min(78%, 340px);
+  width: min(92%, 480px);
   height: auto;
   margin: 0 auto 22px;
 }
@@ -178,6 +178,16 @@ a { color: inherit; }
 .search-input:focus {
   border-color: var(--accent);
   box-shadow: 0 0 0 3px var(--accent-bg);
+}
+
+.quick-search-heading {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 0 0 10px;
 }
 
 .quick-search-row {
