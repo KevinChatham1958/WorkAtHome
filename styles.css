@@ -129,13 +129,10 @@ a { color: inherit; }
 .browse { max-width: 1200px; margin: 0 auto; padding: 0 24px 80px; }
 
 .toolbar {
-  position: sticky;
-  top: 65px;
   background: var(--bg);
   padding: 28px 0 16px;
   border-bottom: 1px solid var(--border);
   margin-bottom: 12px;
-  z-index: 40;
 }
 
 .search-instruction {
