@@ -184,57 +184,63 @@ a { color: inherit; }
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  column-gap: 8px;
-  row-gap: 22px;
+  gap: 10px;
   margin-bottom: 16px;
 }
 
 .quick-search-btn {
-  position: relative;
-  background: var(--accent-bg);
-  border: 1px solid var(--border);
-  color: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-card);
+  border: 1.5px solid var(--border-strong);
+  color: var(--text-muted);
   font-family: var(--font-body);
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   font-weight: 600;
-  padding: 6px 14px;
-  border-radius: 20px;
+  padding: 7px 16px 7px 10px;
+  border-radius: 24px;
   cursor: pointer;
   transition: all 0.15s;
 }
 .quick-search-btn:hover:not(:disabled):not(.selected) {
   border-color: var(--accent);
-  background: #fff;
+  color: var(--accent);
 }
 .quick-search-btn:disabled { opacity: 0.5; cursor: not-allowed; }
 
 .quick-search-btn.selected {
-  background: var(--accent);
-  color: #fff;
-  border-color: var(--accent);
+  background: #f0fdf4;
+  border-color: #16a34a;
+  color: #15803d;
 }
 .quick-search-btn.selected:hover:not(:disabled) {
-  background: var(--accent-dim);
-  border-color: var(--accent-dim);
+  border-color: #15803d;
 }
 
-.quick-search-light {
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 32px;
+  height: 18px;
+  background: #cbd2d9;
+  border-radius: 20px;
+  flex-shrink: 0;
+  transition: background 0.2s ease;
+}
+.toggle-thumb {
   position: absolute;
-  top: -9px;
-  left: 50%;
-  width: 8px;
-  height: 8px;
+  top: 2px;
+  left: 2px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
   border-radius: 50%;
-  background: #dc2626;
-  transform: translateX(-50%) scale(0);
-  opacity: 0;
-  transition: transform 0.15s ease, opacity 0.15s ease;
-  box-shadow: 0 0 0 2px var(--bg);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease;
 }
-.quick-search-btn.selected .quick-search-light {
-  transform: translateX(-50%) scale(1);
-  opacity: 1;
-}
+.quick-search-btn.selected .toggle-switch { background: #16a34a; }
+.quick-search-btn.selected .toggle-thumb { transform: translateX(14px); }
 
 .quick-search-action-row {
   display: flex;

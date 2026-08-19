@@ -106,9 +106,11 @@ document.querySelectorAll('.quick-search-btn').forEach(btn => {
     if (selectedQuickTags.has(query)) {
       selectedQuickTags.delete(query);
       btn.classList.remove('selected');
+      btn.setAttribute('aria-pressed', 'false');
     } else {
       selectedQuickTags.add(query);
       btn.classList.add('selected');
+      btn.setAttribute('aria-pressed', 'true');
     }
     document.getElementById('run-quick-search-btn').disabled = selectedQuickTags.size === 0;
   });
@@ -154,7 +156,10 @@ document.getElementById('clear-search-btn').addEventListener('click', () => {
 
 function resetQuickSearchSelections() {
   selectedQuickTags.clear();
-  document.querySelectorAll('.quick-search-btn').forEach(btn => btn.classList.remove('selected'));
+  document.querySelectorAll('.quick-search-btn').forEach(btn => {
+    btn.classList.remove('selected');
+    btn.setAttribute('aria-pressed', 'false');
+  });
   document.getElementById('run-quick-search-btn').disabled = true;
 }
 
