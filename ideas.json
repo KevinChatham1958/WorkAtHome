@@ -723,29 +723,6 @@
     ]
   },
   {
-    "id": "laundromat-ownership",
-    "name": "Buying and running a laundromat",
-    "category": "Local & professional services",
-    "tags": [
-      "asset ownership",
-      "local business",
-      "equipment needed",
-      "recurring revenue"
-    ],
-    "cost": "$27,000+ down payment (financed purchase)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Buy an existing, established laundromat from a retiring owner, often financed with a down payment plus seller-financed remainder, rather than building one from scratch, and collect ongoing per-wash and per-dry revenue from a physical location people return to weekly.",
-    "pitch": "The video credits The Millionaire Next Door's observation that most real millionaires own \"boring\" businesses like this, and walks through a purchase structure: a laundromat priced around $198,000, funded with a $27,000 down payment plus seller financing over 7 years, generating modest but immediate monthly cash flow that grows as small changes (price increases, a monthly pass) are made.",
-    "best": "Someone with a modest amount of savings or access to a small line of credit who's comfortable with a seller-financed purchase and hands-on, if minimal, ongoing management.",
-    "truth": "The specific narrative here (a person named \"Harry\" going from a security-guard salary to a laundromat empire) reads as an illustrative composite rather than a verified, named individual, so treat the exact dollar figures as representative, not audited. The underlying economics, laundromats as a recurring, habit-driven local cash-flow business, are a well-documented small-business category independent of this particular story, and the purchase-financing structure described is a standard, real way small businesses like this actually change hands.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Requires hiring or managing others"
-    ]
-  },
-  {
     "id": "vending-machine-route",
     "name": "Building a vending machine route",
     "category": "Local & professional services",
@@ -765,50 +742,6 @@
     "situation_tags": [
       "Local travel required",
       "Requires equipment/vehicle investment"
-    ]
-  },
-  {
-    "id": "self-storage-facility",
-    "name": "Owning a self-storage facility",
-    "category": "Local & professional services",
-    "tags": [
-      "asset ownership",
-      "real estate",
-      "high capital",
-      "recurring revenue"
-    ],
-    "cost": "$1.5 million or more for a new facility (or a lower-cost partnership structure)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Own or co-own a self-storage facility where tenants rent units, pay automatically online, and rarely move out quickly once they've stored belongings, generating steady recurring rent with minimal day-to-day labor once systems are in place.",
-    "pitch": "The video frames this as the highest-ceiling but highest-barrier option of the group, citing average tenant retention of over 14 months per unit and pointing out that a small operator can enter through a partnership (contributing capital or operational work in exchange for a share) rather than needing the full facility cost upfront.",
-    "best": "Someone with either meaningful capital to invest or a genuine partnership opportunity with a landowner or contractor, plus the patience for a longer-term, higher-effort setup phase.",
-    "truth": "The partnership structure described (one party contributing land/construction, the other contributing operations and capital) is a plausible and common real-world arrangement, but as with the other ideas in this video, no verified individual or business name is given, so treat the specific percentages and dollar figures as illustrative rather than an audited case.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Requires equipment/vehicle investment",
-      "Requires hiring or managing others"
-    ]
-  },
-  {
-    "id": "local-car-wash-ownership",
-    "name": "Owning a small local car wash",
-    "category": "Local & professional services",
-    "tags": [
-      "asset ownership",
-      "local business",
-      "equipment needed"
-    ],
-    "cost": "$300,000+ (existing facility purchase)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Own a simple, self-serve or basic-tunnel car wash, not a large branded highway car wash chain, where customers pay a small amount per visit and the underlying land itself can also become a valuable asset over time.",
-    "pitch": "The video cites a real sale listing referenced in the source material: a small four-bay wash listed at $316,000 with claimed annual net income around $73,000, and frames the appeal as low complexity: equipment is purchased once, and after that, volume drives the income.",
-    "best": "Someone with access to meaningful capital (or financing) for a facility purchase, who's comfortable with a straightforward, low-touch local service business.",
-    "truth": "The sale listing figures are presented as an example the narrator found while researching, not as a verified purchase, so the net income claim should be treated as a seller's claim rather than an audited number, a caution that applies to evaluating any real car wash listing, not just this one.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Requires hiring or managing others"
     ]
   },
   {
@@ -1237,27 +1170,6 @@
     ]
   },
   {
-    "id": "laundromat",
-    "name": "Laundromat ownership",
-    "category": "Local & professional services",
-    "tags": [
-      "physical business",
-      "needs US presence",
-      "needs significant capital"
-    ],
-    "cost": "Often $200,000 or more, real estate and equipment",
-    "found": "David Heacock",
-    "what": "Own and operate a coin- or card-operated laundromat, cited as having a notably high industry success rate compared to many small businesses.",
-    "pitch": "Presented as an unusually resilient business category, with recurring, predictable local demand.",
-    "best": "Someone with substantial capital and interest in owning real estate-backed, physical local businesses.",
-    "truth": "The success-rate statistic given isn't sourced, so treat it as a general claim rather than a verified figure. This requires major upfront capital and hands-on local presence, it's a serious business investment, not a low-cost side project.",
-    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ]
-  },
-  {
     "id": "equipment-rental-business",
     "name": "Equipment rental business",
     "category": "Local & professional services",
@@ -1401,7 +1313,7 @@
     "cost": "Very low startup cost",
     "found": "Cintika tube",
     "what": "Rather than building one large channel, run several small, niche YouTube channels at once, blogging, household tips, YouTuber-focused content, and casual chat videos among them, each earning modest AdSense income that together adds up to a livable income.",
-    "pitch": "The creator shows her real February AdSense breakdown across all eight channels, totaling over €2,000 for the month. Her four biggest channels each bring in a few hundred euros, while four smaller ones bring in under €100 each. She's candid that no single channel would support her: \"if I only had one, I wouldn't even reach €1,000.\"",
+    "pitch": "The creator shows her real February AdSense breakdown across all eight channels, totaling over \u20ac2,000 for the month. Her four biggest channels each bring in a few hundred euros, while four smaller ones bring in under \u20ac100 each. She's candid that no single channel would support her: \"if I only had one, I wouldn't even reach \u20ac1,000.\"",
     "best": "Someone drawn to content creation who values honesty over hype, and who's comfortable with a modest, steady income built from several small sources rather than betting on one channel going viral.",
     "truth": "This is one of the more credible, non-hyped accounts in this database precisely because the numbers shown are unglamorous, specific, and shown on-screen in the actual AdSense dashboard rather than just stated. Worth noting the figures are in euros, not dollars, and that running eight channels simultaneously, even small ones, is still real, ongoing content production, not a passive setup.",
     "url": "https://www.youtube.com/watch?v=eJqTCBHR0BY",
@@ -1861,9 +1773,9 @@
     "cost": "Very low startup cost (free AI tools)",
     "found": "Ben Hawksworth",
     "what": "Walk into a local business, a plumber, dental practice, or small agency, and ask three simple questions to find one repetitive task worth automating, then rebuild that task using free or low-cost tools like Claude and Zapier so it runs on its own, charging an upfront audit fee plus an ongoing monthly retainer to keep it running.",
-    "pitch": "Hawksworth frames the pitch as a simple three-question framework anyone can use on a cold walk-in or call: what task do you do most and hate most, does it follow the same steps every time, and what does an hour of your time actually cost. He suggests charging roughly £1,000 for the initial audit and £300 to £500 a month to maintain the automation, arguing that businesses aren't really buying AI, they're buying relief from stress.",
+    "pitch": "Hawksworth frames the pitch as a simple three-question framework anyone can use on a cold walk-in or call: what task do you do most and hate most, does it follow the same steps every time, and what does an hour of your time actually cost. He suggests charging roughly \u00a31,000 for the initial audit and \u00a3300 to \u00a3500 a month to maintain the automation, arguing that businesses aren't really buying AI, they're buying relief from stress.",
     "best": "Someone comfortable approaching local business owners directly, in person or by phone, and translating a vague complaint about busywork into a specific, sellable automation.",
-    "truth": "The pricing figures given (£1,000 audit, £300-500/month retainer) are the presenter's own suggested starting points, not verified case studies of what businesses have actually paid him. The three-question diagnostic framework itself is straightforward and genuinely reusable regardless of the specific price points.",
+    "truth": "The pricing figures given (\u00a31,000 audit, \u00a3300-500/month retainer) are the presenter's own suggested starting points, not verified case studies of what businesses have actually paid him. The three-question diagnostic framework itself is straightforward and genuinely reusable regardless of the specific price points.",
     "url": "https://www.youtube.com/watch?v=wudOmpK-8Fk",
     "situation_tags": [
       "Local travel required",
@@ -1883,9 +1795,9 @@
     "cost": "Very low startup cost",
     "found": "Ben Hawksworth",
     "what": "Build a private AI assistant for a solo professional, a consultant, solicitor, or financial advisor, by loading their past proposals, FAQs, and other documents into a Claude Project, then instructing it to answer questions and draft new proposals only in that person's own voice and only from their own material.",
-    "pitch": "Hawksworth demonstrates the entire build in a couple of minutes: start a Claude project, drag in roughly 20 past proposals and FAQs, and give it a single instruction to answer only from the documents provided and ask a clarifying question if the answer isn't there. He suggests charging around £1,500 to build it and £300 a month to maintain it as their workflow grows, framing the value as multiplying the expert's own existing knowledge rather than replacing them.",
+    "pitch": "Hawksworth demonstrates the entire build in a couple of minutes: start a Claude project, drag in roughly 20 past proposals and FAQs, and give it a single instruction to answer only from the documents provided and ask a clarifying question if the answer isn't there. He suggests charging around \u00a31,500 to build it and \u00a3300 a month to maintain it as their workflow grows, framing the value as multiplying the expert's own existing knowledge rather than replacing them.",
     "best": "Someone comfortable working with solo professionals who already have a body of past work, proposals, FAQs, case files, to draw from, since the tool is only as good as the material it's trained on.",
-    "truth": "The pricing (£1,500 build, £300/month) is the presenter's own suggested figure, not a documented sale. The underlying build process itself, a Claude Project scoped to a specific person's documents with a narrow instruction, is simple enough to verify and replicate directly.",
+    "truth": "The pricing (\u00a31,500 build, \u00a3300/month) is the presenter's own suggested figure, not a documented sale. The underlying build process itself, a Claude Project scoped to a specific person's documents with a narrow instruction, is simple enough to verify and replicate directly.",
     "url": "https://www.youtube.com/watch?v=wudOmpK-8Fk",
     "situation_tags": [
       "Strictly in-home",
@@ -1905,9 +1817,9 @@
     "cost": "Very low startup cost",
     "found": "Ben Hawksworth",
     "what": "Feed Claude a prospect and a specific trigger event, a funding round, a new hire, a relevant post, and have it draft a short, non-pitchy outreach message that references the trigger directly, so a sales team spends less time hunting for leads and writing near-identical cold messages and more time on actual conversations.",
-    "pitch": "Hawksworth's pitch is that this doesn't replace a sales team, it removes the boring research and first-draft-writing work that eats their week, while keeping the human conversation, which he argues is what actually closes deals, intact. He suggests charging around £1,500 to set the system up and £750 a month to keep it running and the CRM organized.",
+    "pitch": "Hawksworth's pitch is that this doesn't replace a sales team, it removes the boring research and first-draft-writing work that eats their week, while keeping the human conversation, which he argues is what actually closes deals, intact. He suggests charging around \u00a31,500 to set the system up and \u00a3750 a month to keep it running and the CRM organized.",
     "best": "Someone selling into businesses that already have a sales team or process in place and just need the research and outreach-drafting work taken off their plate, rather than businesses with no sales process at all.",
-    "truth": "The pricing figures (£1,500 setup, £750/month) are the presenter's own suggested starting points, not documented client outcomes. This kind of trigger-based, one-prospect-at-a-time personalization is a specific tactic within the broader AI-powered sales space that shows up across a lot of WAH creator content, and the underlying mechanic, feeding Claude a single prospect and trigger, is simple enough to test yourself before paying for training on it.",
+    "truth": "The pricing figures (\u00a31,500 setup, \u00a3750/month) are the presenter's own suggested starting points, not documented client outcomes. This kind of trigger-based, one-prospect-at-a-time personalization is a specific tactic within the broader AI-powered sales space that shows up across a lot of WAH creator content, and the underlying mechanic, feeding Claude a single prospect and trigger, is simple enough to test yourself before paying for training on it.",
     "url": "https://www.youtube.com/watch?v=wudOmpK-8Fk",
     "situation_tags": [
       "Strictly in-home",
@@ -1948,9 +1860,9 @@
     "cost": "Low to moderate startup cost",
     "found": "Ben Hawksworth",
     "what": "Load a business's scattered documentation, processes, policies, scripts, and meeting notes, into a Claude Project so the whole team can get instant answers instead of repeatedly interrupting each other or a manager to ask where something is or how something works.",
-    "pitch": "Hawksworth's argument is that most small businesses already have the knowledge they need, it's just scattered across documents, chats, and people's heads, so the sale isn't \"AI,\" it's making onboarding faster and support more consistent. He suggests charging around £2,000 to build the initial system and £400 a month to keep it updated as the business's documentation changes.",
+    "pitch": "Hawksworth's argument is that most small businesses already have the knowledge they need, it's just scattered across documents, chats, and people's heads, so the sale isn't \"AI,\" it's making onboarding faster and support more consistent. He suggests charging around \u00a32,000 to build the initial system and \u00a3400 a month to keep it updated as the business's documentation changes.",
     "best": "Someone comfortable working with a business's existing internal documents and organizing them, more an information-organization skill than a technical one.",
-    "truth": "The pricing (£2,000 build, £400/month) is the presenter's own suggested figure rather than a documented sale price. The underlying build, loading existing documents into a Claude Project scoped to that business, is simple enough to test on a small scale before committing to a specific price.",
+    "truth": "The pricing (\u00a32,000 build, \u00a3400/month) is the presenter's own suggested figure rather than a documented sale price. The underlying build, loading existing documents into a Claude Project scoped to that business, is simple enough to test on a small scale before committing to a specific price.",
     "url": "https://www.youtube.com/watch?v=wudOmpK-8Fk",
     "situation_tags": [
       "Strictly in-home",
@@ -1970,9 +1882,9 @@
     "cost": "Very low startup cost",
     "found": "Ben Hawksworth",
     "what": "Build a modern landing page for a local business, a restaurant, gym, dentist, or estate agent with an old or confusing site, by describing the business to an AI website builder (the video uses Framer, alongside Claude and Claude Code), then doing the human work of sharpening the message and call to action.",
-    "pitch": "Hawksworth is explicit that AI removes most of the technical build time, generating a full landing page live in the video, but argues the real value was never the code, it's understanding who the customer is, what the offer is, and what's stopping them from buying, which is still work a person has to do. He suggests charging around £1,500 per page, plus ongoing support to keep it maintained.",
+    "pitch": "Hawksworth is explicit that AI removes most of the technical build time, generating a full landing page live in the video, but argues the real value was never the code, it's understanding who the customer is, what the offer is, and what's stopping them from buying, which is still work a person has to do. He suggests charging around \u00a31,500 per page, plus ongoing support to keep it maintained.",
     "best": "Someone with a decent eye for what makes a page convert, a clear offer, a strong call to action, who's willing to do that judgment work on top of what the AI generates, rather than just shipping the AI's first draft.",
-    "truth": "The £1,500 price point is the presenter's own suggestion rather than a documented sale. This is a similar underlying mechanic to other AI-website-building content in this space, with Framer as the specific tool of choice here, worth trying a couple of AI website builders yourself to see which workflow you prefer before committing to one.",
+    "truth": "The \u00a31,500 price point is the presenter's own suggestion rather than a documented sale. This is a similar underlying mechanic to other AI-website-building content in this space, with Framer as the specific tool of choice here, worth trying a couple of AI website builders yourself to see which workflow you prefer before committing to one.",
     "url": "https://www.youtube.com/watch?v=wudOmpK-8Fk",
     "situation_tags": [
       "Strictly in-home",
