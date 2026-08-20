@@ -84,7 +84,7 @@ a { color: inherit; }
 
 /* ---------- Hero ---------- */
 .hero {
-  padding: 80px 24px 56px;
+  padding: 28px 24px 20px;
   text-align: center;
   background: var(--bg-card);
   border-bottom: 1px solid var(--border);
@@ -94,9 +94,9 @@ a { color: inherit; }
 
 .hero-logo {
   display: block;
-  width: min(92%, 480px);
+  width: min(55%, 260px);
   height: auto;
-  margin: 0 auto 22px;
+  margin: 0 auto 12px;
 }
 
 .eyebrow {
@@ -111,7 +111,7 @@ a { color: inherit; }
   text-transform: uppercase;
   padding: 7px 16px;
   border-radius: 4px;
-  margin-bottom: 26px;
+  margin-bottom: 14px;
 }
 
 .hero-title {
@@ -121,7 +121,7 @@ a { color: inherit; }
   line-height: 1.08;
   letter-spacing: -0.01em;
   color: var(--text-primary);
-  margin: 0 0 18px;
+  margin: 0;
 }
 .hero-accent { color: var(--accent); }
 
@@ -131,8 +131,6 @@ a { color: inherit; }
 .toolbar {
   background: var(--bg);
   padding: 28px 0 16px;
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 12px;
 }
 
 .search-instruction {
@@ -253,7 +251,7 @@ a { color: inherit; }
   display: flex;
   align-items: center;
   gap: 14px;
-  margin-bottom: 14px;
+  margin-bottom: 4px;
 }
 
 .run-search-btn {
@@ -315,7 +313,7 @@ a { color: inherit; }
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
-  padding: 14px 0;
+  padding: 4px 0 14px;
   border-bottom: 1px solid var(--border);
   margin-bottom: 12px;
 }
