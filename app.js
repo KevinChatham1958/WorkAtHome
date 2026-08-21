@@ -11,7 +11,7 @@ const CATEGORY_COLORS = {
 };
 
 // Soft-ranking scorer weights (per project standard):
-// name match = 4, tag match = 3, category/source match = 2, body text match = 1
+// name match = 4, tag/search-term match = 3, category/source match = 2, body text match = 1
 const WEIGHT_NAME = 4;
 const WEIGHT_TAG = 3;
 const WEIGHT_CATEGORY_OR_SOURCE = 2;
@@ -89,106 +89,76 @@ function updateSavedUI() {
 }
 
 // ---------- Search input ----------
+// Deliberately NOT live-as-you-type. Typing alone does nothing to the
+// results — the search only runs when the visitor explicitly asks for it
+// (Search button or Enter), at which point a brief spinner confirms the
+// action happened, then the grid reorders. This is a single, predictable
+// behavior regardless of which control triggers it, and the spinner doubles
+// as feedback for the "nothing changed" case (e.g. a zero-match query),
+// which previously looked identical to the search not working at all.
 
-let selectedQuickTags = new Set();
+const SEARCH_SPINNER_MS = 500;
 
-document.getElementById('search-input').addEventListener('input', (e) => {
-  state.search = e.target.value.trim().toLowerCase();
-  // Typing directly supersedes any pending (not-yet-searched) quick-select choices,
-  // so the pills never silently disagree with what's actually in the box.
-  resetQuickSearchSelections();
-  updateRunButtonState();
-  updateQuickSearchUI();
-  render();
+const searchInputEl = document.getElementById('search-input');
+const clearSearchBtn = document.getElementById('clear-search-btn');
+const searchSubmitBtn = document.getElementById('search-submit-btn');
+const searchLoadingEl = document.getElementById('search-loading');
+const gigGridEl = document.getElementById('gig-grid');
+
+searchInputEl.addEventListener('input', (e) => {
+  // Typing only toggles the clear (×) button — it does not trigger a search.
+  clearSearchBtn.hidden = e.target.value.trim().length === 0;
 });
 
-document.querySelectorAll('.quick-search-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const query = btn.dataset.query;
-    if (selectedQuickTags.has(query)) {
-      selectedQuickTags.delete(query);
-      btn.classList.remove('selected');
-      btn.setAttribute('aria-pressed', 'false');
-    } else {
-      selectedQuickTags.add(query);
-      btn.classList.add('selected');
-      btn.setAttribute('aria-pressed', 'true');
-    }
-    updateRunButtonState();
-  });
-});
-
-document.getElementById('run-quick-search-btn').addEventListener('click', () => {
-  const input = document.getElementById('search-input');
-  const loadingEl = document.getElementById('search-loading');
-  const grid = document.getElementById('gig-grid');
-  const emptyState = document.getElementById('empty-state');
-
-  // Toggle selections take priority if any are on; otherwise confirm whatever
-  // is currently typed in the box. Either way, this button always means
-  // "run the currently active query," typed or toggled.
-  let query;
-  if (selectedQuickTags.size > 0) {
-    query = [...selectedQuickTags].join(' ');
-    input.value = query;
-  } else {
-    query = input.value.trim();
+searchInputEl.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    e.preventDefault();
+    runSearch(searchInputEl.value);
+    searchInputEl.blur(); // dismiss mobile keyboard so results are visible
   }
-  if (!query) return;
+});
 
-  // Brief, deliberate pause so the action is easy to follow — the sort itself
-  // is instant, but an instant reorder with no transition is hard to read.
-  loadingEl.hidden = false;
-  grid.hidden = true;
-  emptyState.hidden = true;
-  setControlsDisabled(true);
+searchSubmitBtn.addEventListener('click', () => {
+  runSearch(searchInputEl.value);
+});
+
+clearSearchBtn.addEventListener('click', () => {
+  searchInputEl.value = '';
+  clearSearchBtn.hidden = true;
+  // Clearing is an undo, not a search — snaps back instantly, no spinner.
+  state.search = '';
+  render();
+  searchInputEl.focus();
+});
+
+function runSearch(rawValue) {
+  const query = rawValue.trim().toLowerCase();
+
+  searchLoadingEl.hidden = false;
+  gigGridEl.hidden = true;
+  searchSubmitBtn.disabled = true;
 
   setTimeout(() => {
-    state.search = query.toLowerCase();
-    loadingEl.hidden = true;
-    grid.hidden = false;
-    setControlsDisabled(false);
+    state.search = query;
+    searchLoadingEl.hidden = true;
+    gigGridEl.hidden = false;
+    searchSubmitBtn.disabled = false;
     render();
-    updateQuickSearchUI();
-    grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, 2200);
-});
-
-document.getElementById('clear-search-btn').addEventListener('click', () => {
-  const input = document.getElementById('search-input');
-  input.value = '';
-  state.search = '';
-  resetQuickSearchSelections();
-  updateRunButtonState();
-  updateQuickSearchUI();
-  render();
-});
-
-function resetQuickSearchSelections() {
-  selectedQuickTags.clear();
-  document.querySelectorAll('.quick-search-btn').forEach(btn => {
-    btn.classList.remove('selected');
-    btn.setAttribute('aria-pressed', 'false');
-  });
+    gigGridEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, SEARCH_SPINNER_MS);
 }
 
-function updateRunButtonState() {
-  const hasTypedText = document.getElementById('search-input').value.trim().length > 0;
-  document.getElementById('run-quick-search-btn').disabled = selectedQuickTags.size === 0 && !hasTypedText;
-}
-
-function setControlsDisabled(disabled) {
-  if (disabled) {
-    document.getElementById('run-quick-search-btn').disabled = true;
-  } else {
-    updateRunButtonState();
+function updateSearchFeedback(topScore) {
+  const el = document.getElementById('search-feedback');
+  if (state.search.length === 0) {
+    el.hidden = true;
+    el.textContent = '';
+    return;
   }
-  document.querySelectorAll('.quick-search-btn').forEach(btn => { btn.disabled = disabled; });
-}
-
-function updateQuickSearchUI() {
-  const clearBtn = document.getElementById('clear-search-btn');
-  clearBtn.hidden = state.search.length === 0;
+  el.hidden = false;
+  el.textContent = topScore > 0
+    ? `Showing results for "${state.search}"`
+    : `No exact matches for "${state.search}" — showing everything, best guesses first`;
 }
 
 document.getElementById('saved-only-toggle').addEventListener('change', (e) => {
@@ -202,24 +172,70 @@ document.getElementById('download-saved-btn').addEventListener('click', download
 // Nothing is ever excluded from search. Every idea gets a score against each
 // search word; the list re-sorts, best match first. A visitor's search never
 // hides anything — it just moves things up or down the scroll.
+//
+// Matching is word-based rather than raw substring, with a light stem/prefix
+// check, so a search word doesn't have to appear letter-for-letter in the
+// data to count as a match — e.g. typing "pets" matches an entry that only
+// says "pet," and "consult" matches "consulting." This is general-purpose
+// normalization, not a hand-maintained list of synonyms, since there's no
+// way to anticipate every word form a visitor might type.
+
+function tokenize(str) {
+  return (str || '').toLowerCase().split(/[^a-z0-9]+/).filter(Boolean);
+}
+
+function stem(word) {
+  if (word.length > 4 && word.endsWith('ies')) return word.slice(0, -3) + 'y';
+  if (word.length > 4 && word.endsWith('es')) return word.slice(0, -2);
+  if (word.length > 3 && word.endsWith('s') && !word.endsWith('ss')) return word.slice(0, -1);
+  return word;
+}
+
+function sharedPrefixLength(a, b) {
+  const len = Math.min(a.length, b.length);
+  let i = 0;
+  while (i < len && a[i] === b[i]) i++;
+  return i;
+}
+
+function wordMatchesToken(word, token) {
+  if (token === word) return true;
+  if (stem(token) === stem(word)) return true;
+  if (token.length >= 3 && word.length >= 3 && (token.startsWith(word) || word.startsWith(token))) return true;
+  // Catches longer words that diverge only in suffix (e.g. "dropshippers" /
+  // "dropshipping") without needing a full stemmer: if most of the shorter
+  // word's letters line up from the start, treat it as the same word.
+  const shorter = Math.min(word.length, token.length);
+  if (shorter >= 5 && sharedPrefixLength(word, token) >= Math.ceil(shorter * 0.75)) return true;
+  return false;
+}
+
+function fieldMatches(tokens, word) {
+  return tokens.some(token => wordMatchesToken(word, token));
+}
 
 function scoreIdea(idea, words) {
   if (words.length === 0) return 0;
 
-  const nameL = idea.name.toLowerCase();
-  const categoryL = idea.category.toLowerCase();
-  const sourceL = (idea.found || '').toLowerCase();
-  const tagsL = (idea.tags || []).map(t => t.toLowerCase());
-  const situationTagsL = (idea.situation_tags || []).map(t => t.toLowerCase());
-  const bodyL = [idea.what, idea.pitch, idea.best, idea.truth].join(' ').toLowerCase();
+  const nameTokens = tokenize(idea.name);
+  const categoryTokens = tokenize(idea.category);
+  const sourceTokens = tokenize(idea.found || '');
+  const tagTokens = (idea.tags || []).flatMap(tokenize);
+  const situationTagTokens = (idea.situation_tags || []).flatMap(tokenize);
+  // search_terms is an optional field (added going forward during
+  // extraction): plain-language words/synonyms a visitor might type that
+  // don't appear verbatim elsewhere in the entry. Safe no-op for any entry
+  // that doesn't have it yet.
+  const searchTermTokens = (idea.search_terms || []).flatMap(tokenize);
+  const bodyTokens = tokenize([idea.what, idea.pitch, idea.best, idea.truth].join(' '));
 
   let score = 0;
 
   words.forEach(word => {
-    if (nameL.includes(word)) score += WEIGHT_NAME;
-    if (tagsL.some(t => t.includes(word)) || situationTagsL.some(t => t.includes(word))) score += WEIGHT_TAG;
-    if (categoryL.includes(word) || sourceL.includes(word)) score += WEIGHT_CATEGORY_OR_SOURCE;
-    if (bodyL.includes(word)) score += WEIGHT_BODY;
+    if (fieldMatches(nameTokens, word)) score += WEIGHT_NAME;
+    if (fieldMatches(tagTokens, word) || fieldMatches(situationTagTokens, word) || fieldMatches(searchTermTokens, word)) score += WEIGHT_TAG;
+    if (fieldMatches(categoryTokens, word) || fieldMatches(sourceTokens, word)) score += WEIGHT_CATEGORY_OR_SOURCE;
+    if (fieldMatches(bodyTokens, word)) score += WEIGHT_BODY;
   });
 
   return score;
@@ -233,12 +249,18 @@ function getRankedIdeas() {
 
   const words = state.search.length > 0 ? state.search.split(/\s+/).filter(Boolean) : [];
 
-  if (words.length === 0) return pool;
+  if (words.length === 0) {
+    updateSearchFeedback(0);
+    return pool;
+  }
 
-  return [...pool]
+  const scored = pool
     .map(idea => ({ idea, score: scoreIdea(idea, words) }))
-    .sort((a, b) => b.score - a.score)
-    .map(x => x.idea);
+    .sort((a, b) => b.score - a.score);
+
+  updateSearchFeedback(scored.length > 0 ? scored[0].score : 0);
+
+  return scored.map(x => x.idea);
 }
 
 // ---------- Render ----------

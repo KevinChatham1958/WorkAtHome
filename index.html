@@ -38,53 +38,26 @@
   <div class="toolbar">
     <p class="search-instruction">Search by keyword, category, or creator — or just start scrolling</p>
     <div class="search-row">
-      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
-        <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-      </svg>
-      <input type="text" id="search-input" class="search-input" placeholder="Search e.g. Mark Tilbury, Dropshipping, Consulting…" autocomplete="off">
+      <div class="search-field">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+          <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input type="text" id="search-input" class="search-input" placeholder="e.g. dropshipping, pet care, Mark Tilbury…" autocomplete="off">
+        <button type="button" id="clear-search-btn" class="clear-search-btn" hidden aria-label="Clear search">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+      <button type="button" id="search-submit-btn" class="search-submit-btn" aria-label="Search">Search</button>
     </div>
 
-    <p class="quick-search-heading">Suggested Category Filters — flip on any that fit, then search</p>
-    <div class="quick-search-row">
-      <button type="button" class="quick-search-btn" data-query="strictly" aria-pressed="false">
-        <span class="toggle-switch" aria-hidden="true"><span class="toggle-thumb"></span></span>
-        <span class="quick-search-label">Strictly In-Home</span>
-      </button>
-      <button type="button" class="quick-search-btn" data-query="travel" aria-pressed="false">
-        <span class="toggle-switch" aria-hidden="true"><span class="toggle-thumb"></span></span>
-        <span class="quick-search-label">Local Travel Required</span>
-      </button>
-      <button type="button" class="quick-search-btn" data-query="ai tools" aria-pressed="false">
-        <span class="toggle-switch" aria-hidden="true"><span class="toggle-thumb"></span></span>
-        <span class="quick-search-label">AI Tools</span>
-      </button>
-      <button type="button" class="quick-search-btn" data-query="low startup cost" aria-pressed="false">
-        <span class="toggle-switch" aria-hidden="true"><span class="toggle-thumb"></span></span>
-        <span class="quick-search-label">Low Startup Cost</span>
-      </button>
-      <button type="button" class="quick-search-btn" data-query="recurring revenue" aria-pressed="false">
-        <span class="toggle-switch" aria-hidden="true"><span class="toggle-thumb"></span></span>
-        <span class="quick-search-label">Recurring Revenue</span>
-      </button>
-      <button type="button" class="quick-search-btn" data-query="phone" aria-pressed="false">
-        <span class="toggle-switch" aria-hidden="true"><span class="toggle-thumb"></span></span>
-        <span class="quick-search-label">Phone / Sales-Based</span>
-      </button>
-      <button type="button" class="quick-search-btn" data-query="print on demand" aria-pressed="false">
-        <span class="toggle-switch" aria-hidden="true"><span class="toggle-thumb"></span></span>
-        <span class="quick-search-label">Print on Demand</span>
-      </button>
-    </div>
-
-    <div class="quick-search-action-row">
-      <button type="button" id="run-quick-search-btn" class="run-search-btn" disabled>Search Selected</button>
-      <button type="button" id="clear-search-btn" class="clear-search-btn" hidden>Clear search ✕</button>
-    </div>
+    <p id="search-feedback" class="search-feedback" hidden aria-live="polite"></p>
 
     <div id="search-loading" class="search-loading" hidden aria-live="polite">
       <span class="spinner" aria-hidden="true"></span>
-      Sorting gigs by your selections…
+      Searching…
     </div>
   </div>
 
