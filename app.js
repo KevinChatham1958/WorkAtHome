@@ -97,7 +97,7 @@ function updateSavedUI() {
 // as feedback for the "nothing changed" case (e.g. a zero-match query),
 // which previously looked identical to the search not working at all.
 
-const SEARCH_SPINNER_MS = 500;
+const SEARCH_SPINNER_MS = 3500;
 
 const searchInputEl = document.getElementById('search-input');
 const clearSearchBtn = document.getElementById('clear-search-btn');
@@ -144,7 +144,6 @@ function runSearch(rawValue) {
     gigGridEl.hidden = false;
     searchSubmitBtn.disabled = false;
     render();
-    gigGridEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }, SEARCH_SPINNER_MS);
 }
 
