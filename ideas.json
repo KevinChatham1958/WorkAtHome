@@ -1837,6 +1837,24 @@
     "url": "https://www.youtube.com/watch?v=dsBd4LrpHag"
   },
   {
+    "id": "vibe-coding-process-to-profit-framework",
+    "name": "Turning a repeated manual process into a same-day AI tool",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "roadmap",
+      "software",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (AI subscription)",
+    "found": "Marcus Gamble",
+    "what": "A framework for deciding what to actually build with AI coding tools like Claude or Lovable: rather than picking a business idea you find personally interesting, identify a specific process people already do manually and repeatedly (writing a press release, humanizing AI text, filling out a form), then build the smallest possible tool, ideally one input, one output, one screen, that automates just one step of that process, validated before building against three signals: real search demand, evidence people already pay to solve it, and public complaints about existing solutions.",
+    "pitch": "The core discipline demonstrated live in the video is speed and restraint: rather than planning for weeks, the presenter picks an idea, validates it against the three-signal checklist in minutes using a keyword tool, then builds a working (if visually rough) prototype in under an hour using Claude and Lovable, deliberately resisting the urge to add more features. The specific example built on camera, an AI-writing humanizer tool, went from concept to a downloadable desktop app within the session, illustrating the \"ugly and working\" first pass discipline over polishing something that never ships.",
+    "best": "Someone comfortable directing AI coding tools through iterative, specific feedback (rather than one perfect prompt) who wants a repeatable method for deciding what's worth building, rather than a single business idea to copy.",
+    "truth": "The specific numeric criteria for validation (does it show up in search, is someone already paying for it, are people complaining about current options) are genuinely concrete and checkable, a real strength of this framework over vaguer \"find a good idea\" advice. The video is a long promotional session for the presenter's own paid workshop and existing tool ecosystem (Cliptor, AI Profit Scoop Elite, and others), a financial incentive worth knowing, though the underlying validate-then-build-small methodology doesn't require any of those specific products to apply.",
+    "url": "https://www.youtube.com/watch?v=wRcRkSK7Yao"
+  },
+  {
     "id": "ai-dropshipping-store-buildyourstore-autods-tilbury",
     "name": "A live, budget-constrained test of an AI-built dropshipping store",
     "category": "E-commerce",
@@ -2277,6 +2295,23 @@
     "best": "Someone already comfortable with GoHighLevel or willing to learn it, targeting local businesses or coaches who already post content but let engagement and calls fall through the cracks.",
     "truth": "The presenter shows a real (if unverified) revenue screenshot on screen, over $140,000 a month in recurring revenue from 40 clients, a stronger transparency habit than most in this category. Worth knowing as a genuinely interesting meta-detail: the presenter discloses partway through that an AI-generated clone of himself, not the real person live, is delivering the training, itself a demonstration of the kind of AI leverage being pitched. This shares the same underlying platform and general local-business AI service space as other GoHighLevel and voice-agent entries already in this database; the specific contribution here is the three-piece bundling strategy and the comment-automation piece, not phone-answering AI on its own.",
     "url": "https://www.youtube.com/watch?v=NeWeUJ87s9E"
+  },
+  {
+    "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
+    "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
+    "category": "Content & personal brand",
+    "tags": [
+      "affiliate marketing",
+      "AI tools",
+      "content creation"
+    ],
+    "cost": "Low startup cost (AI avatar and video-generation tool subscriptions)",
+    "found": "AI avatar affiliate marketing creator",
+    "what": "The same general AI-avatar-plus-Amazon-Associates affiliate model as elsewhere in this database, but built around a specific research technique: copy a product's real Amazon customer reviews into Claude and have it extract the audience's specific emotional pain points and desired outcomes in their own words, then use those exact phrases to both design the AI avatar's persona and write video scripts that open with a pain point pulled directly from real buyers.",
+    "pitch": "The presenter reports a single avatar generating over $21,000 in commissions in one month against roughly $68,000 in tracked sales, and details the underlying commission structure: a flat monthly retainer for consistent posting (his own was $2,000), plus per-sale bonuses that pay significantly more (up to 200% of the product price in his example) for sales tracked through a link in the video's bio versus the flat 3% baseline Amazon Associates itself pays, since the brand is compensating for sales it can't directly attribute to the creator. Scaling is described as hiring multiple virtual assistants, each managing one avatar's video production from provided scripts.",
+    "best": "Someone comfortable with a research-heavy setup process (reading through real customer reviews rather than skipping straight to content creation) and willing to build toward a small outsourced team rather than doing all production personally.",
+    "truth": "This needs the same direct caution as the closely related entry elsewhere in this database: the specific character built in this walkthrough is explicitly positioned as a longtime herbal healer with personal expertise, selling a health supplement, a fabricated authority claim used to sell a health product without disclosing the persona is synthetic. This is a real, serious concern independent of whether the underlying affiliate-marketing mechanic is legitimate, and is worth thinking through carefully before using this specific technique, particularly for health-adjacent products. The $21,000 figure is shown via an on-screen dashboard walkthrough with itemized math, a stronger transparency signal than a stated claim alone, though it remains a personal, unaudited account. The video promotes the presenter's own paid creator community as the path to the higher brand-direct commission rates described.",
+    "url": "https://www.youtube.com/watch?v=FMZYdsaLeqo"
   },
   {
     "id": "ai-voice-agent-receptionist",
@@ -3967,23 +4002,6 @@
     "url": "https://www.youtube.com/watch?v=__vdpHSapGo"
   },
   {
-    "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
-    "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
-    "category": "Content & personal brand",
-    "tags": [
-      "affiliate marketing",
-      "AI tools",
-      "content creation"
-    ],
-    "cost": "Low startup cost (AI avatar and video-generation tool subscriptions)",
-    "found": "AI avatar affiliate marketing creator",
-    "what": "The same general AI-avatar-plus-Amazon-Associates affiliate model as elsewhere in this database, but built around a specific research technique: copy a product's real Amazon customer reviews into Claude and have it extract the audience's specific emotional pain points and desired outcomes in their own words, then use those exact phrases to both design the AI avatar's persona and write video scripts that open with a pain point pulled directly from real buyers.",
-    "pitch": "The presenter reports a single avatar generating over $21,000 in commissions in one month against roughly $68,000 in tracked sales, and details the underlying commission structure: a flat monthly retainer for consistent posting (his own was $2,000), plus per-sale bonuses that pay significantly more (up to 200% of the product price in his example) for sales tracked through a link in the video's bio versus the flat 3% baseline Amazon Associates itself pays, since the brand is compensating for sales it can't directly attribute to the creator. Scaling is described as hiring multiple virtual assistants, each managing one avatar's video production from provided scripts.",
-    "best": "Someone comfortable with a research-heavy setup process (reading through real customer reviews rather than skipping straight to content creation) and willing to build toward a small outsourced team rather than doing all production personally.",
-    "truth": "This needs the same direct caution as the closely related entry elsewhere in this database: the specific character built in this walkthrough is explicitly positioned as a longtime herbal healer with personal expertise, selling a health supplement, a fabricated authority claim used to sell a health product without disclosing the persona is synthetic. This is a real, serious concern independent of whether the underlying affiliate-marketing mechanic is legitimate, and is worth thinking through carefully before using this specific technique, particularly for health-adjacent products. The $21,000 figure is shown via an on-screen dashboard walkthrough with itemized math, a stronger transparency signal than a stated claim alone, though it remains a personal, unaudited account. The video promotes the presenter's own paid creator community as the path to the higher brand-direct commission rates described.",
-    "url": "https://www.youtube.com/watch?v=FMZYdsaLeqo"
-  },
-  {
     "id": "amazon-kdp-ebooks-claude-workflow",
     "name": "Amazon KDP ebooks written with Claude, leveraging Amazon's built-in traffic",
     "category": "Digital & subscription products",
@@ -4001,5 +4019,112 @@
     "best": "Someone willing to do real topic and demand research before writing (rather than writing about a personal passion) and comfortable editing and improving AI-generated drafts section by section rather than publishing a single, unedited AI pass.",
     "truth": "The presenter is direct about a real risk worth taking seriously: a well-written book on a topic nobody is searching for will still sell zero copies, and a topic in demand paired with generic, unedited AI output tends to get poor reviews and sink in Amazon's rankings, so the topic-research step matters as much as the writing itself. The video also promotes the presenter's own paid AI writing tool and mentorship program, a financial incentive worth knowing, though the underlying \"research demand first, edit AI drafts section by section\" workflow doesn't require those specific products to apply.",
     "url": "https://www.youtube.com/watch?v=sQQN53qx-VI"
+  },
+  {
+    "id": "manis-plr-content-to-interactive-tool-conversion",
+    "name": "Converting existing PLR content and courses into interactive AI tools",
+    "category": "Digital & subscription products",
+    "tags": [
+      "AI tools",
+      "PLR",
+      "digital products",
+      "software"
+    ],
+    "cost": "Low startup cost (AI subscriptions)",
+    "found": "Marcus Gamble",
+    "what": "For anyone who already owns PLR (private label rights) content, an existing course, or old webinar recordings, use an AI agent capable of processing a whole folder of files at once (the video uses Manis specifically) to restructure that static material into an interactive tool rather than another static ebook or course, then use keyword research tools to identify which specific features or prompts within that tool are worth building first, based on real, checkable search demand.",
+    "pitch": "The core argument is that AI has made static content (another ebook, another PDF, another prompt list) essentially free to produce, which means it's no longer valuable on its own; the differentiation now comes from turning that same underlying information into something a customer can actually use repeatedly, illustrated with a real example of converting a webinar recording into a segmented, searchable training tool, and a from-scratch build of an HTML reference tool where each specific feature (a glossary entry, a specific tag lookup) was chosen because keyword research showed real people searching for exactly that term.",
+    "best": "Someone who already owns rights to existing content (PLR, an old course, past webinars) and wants a way to make it worth more, rather than someone starting completely from scratch.",
+    "truth": "This is the same presenter as another general AI-tool-building entry in this database; the distinguishing contribution here specifically is starting from existing owned content rather than a brand-new idea, and using keyword search volume to decide which specific sub-features to build first. The video is a long promotional session for the presenter's own paid course and product ecosystem, a financial incentive worth knowing, though the underlying content-to-tool conversion technique doesn't require those specific products.",
+    "url": "https://www.youtube.com/watch?v=AyaAQguyKVQ"
+  },
+  {
+    "id": "ghl-review-automation-low-tech-relationship-selling",
+    "name": "Low-tech, relationship-first Google review automation for local businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "GoHighLevel",
+      "local business",
+      "sales",
+      "recurring revenue"
+    ],
+    "cost": "Very low startup cost (GoHighLevel subscription)",
+    "found": "Kevin Patrick",
+    "what": "A simple, single-offer GoHighLevel service (mainly automated Google review requests and reputation management, occasionally paired with website fixes) sold to local home-service businesses through deliberately low-tech, personal outreach: brief cold calls fit into small pockets of a full-time work day, a follow-up Loom screen-recording sent by text and Facebook Messenger showing specific, personalized fixes for that business's Google profile, and physical mail (printed Google review cards, a box of brownies after a client signs up).",
+    "pitch": "The presenter built this to $20,000 a month in recurring revenue while working a full-time teaching job, using roughly one to two hours of actual prospecting a week, mostly cold calls squeezed into a car during school drop-off and pickup windows. He's candid that he still doesn't know GoHighLevel's more advanced features well, relying on a paid support service for anything technical, and that his real edge is treating every call like a genuine conversation between two homeowners and neighbors rather than a sales pitch, including deliberately mentioning his own kids, local landmarks, and other local businesses he's worked with to build quick trust.",
+    "best": "Someone with very limited available hours (a side hustle around a full-time job or family responsibilities) who's comfortable with brief, personal phone conversations and physical follow-up (mailing cards, remembering personal details) rather than a highly automated or technical approach.",
+    "truth": "The specific numbers given (roughly 40 clients this year, 10 cold calls a week producing 2-4 good conversations and 1-3 new clients a month) are concrete and specific to a real, ongoing part-time business, a good transparency signal. This uses the same GoHighLevel platform as other entries in this database; the distinguishing element here isn't the technology but the deliberately low-tech, high-personal-touch sales approach and the very limited weekly time commitment.",
+    "url": "https://www.youtube.com/watch?v=TjELwAwigXc"
+  },
+  {
+    "id": "ghl-stone-systems-vsl-cold-outreach-sales-system",
+    "name": "A $500K/month GoHighLevel website agency's cold-outreach and pre-call video sales system",
+    "category": "Local & professional services",
+    "tags": [
+      "GoHighLevel",
+      "local business",
+      "sales",
+      "recurring revenue",
+      "web design"
+    ],
+    "cost": "Very low startup cost (GoHighLevel subscription)",
+    "found": "Kai Stone and Michael, Stone Systems",
+    "what": "A detailed account, from both co-founders, of building a contractor-focused GoHighLevel website and automation agency from zero to over $500,000 a month in recurring revenue, centered on a single simple offer (a $297/month website with instant lead text-back and Google review automation, no upfront fee) and two specific, teachable sales techniques: a cold-call icebreaker that references a fabricated mutual referral to get past the first ten seconds of a call, and a short pre-recorded video (a VSL) sent before every sales call that walks through a real client's results, with the salesperson deliberately stepping away from the camera while the prospect watches so they absorb the pitch without feeling sold to.",
+    "pitch": "Both founders describe a specific, high-volume cold-calling phase early on (one describes 400-700 dials a day, a roughly 20% show rate, and a 10% close rate at that volume) before scaling into paid ads, and both independently emphasize the same core philosophy: keep the price low ($297/month, never over $800 as a beginner) so it's an easy yes, master a single simple offer before adding upsells, and treat the first 10-15 clients as building your own sales and service skills rather than optimizing prematurely. Specific unit economics are given: at 1,300 clients, monthly churn runs 8-12%, and upsells (a one-time $500 Google Maps optimization, $500/month SEO or local ads) were only introduced after crossing $100,000 a month.",
+    "best": "Someone willing to commit to a genuinely high volume of cold outreach early on and keep the initial offer deliberately simple and low-priced rather than trying to charge premium rates as a beginner.",
+    "truth": "This needs a direct, upfront caution: the cold-call script described involves inventing a nonexistent mutual referral (a fictional person who supposedly recommended the business) to get a prospect to stay on the line, a deliberate fabrication both founders openly acknowledge and defend as a minor, harmless untruth in service of a legitimate outcome. Readers should weigh that directly rather than adopt the script uncritically. Separately, the two founders' accounts (given in separate interviews) describe the same company from each partner's side, not two independent discoveries of this approach; specific figures throughout (revenue, churn, close rates) are the founders' own account without independent verification, though the level of specific detail, including openly discussed early failures and low periods, is a stronger transparency signal than most success-story content.",
+    "url": "https://www.youtube.com/watch?v=mwMQLJ5GoRM"
+  },
+  {
+    "id": "multi-channel-book-reselling-business",
+    "name": "Multi-channel used book reselling (Amazon FBA, eBay, and buyback companies)",
+    "category": "E-commerce",
+    "tags": [
+      "reselling",
+      "books",
+      "e-commerce"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Josh, book reselling YouTube creator",
+    "what": "A full-time book reselling business built around sourcing books cheaply (thrift stores, including donation overflow they can no longer accept) and routing each one to whichever of several channels pays best for that specific title: Amazon FBA for fast-selling books (Amazon handles storage, shipping, and customer service), eBay for slower-selling or unique books with real photos and manual research, and a ranked list of buyback companies (ThriftBooks, Pango, World of Books, BooksRun) plus two local used bookstores for everything else, using a barcode-scanning app that checks live pricing and sales-rank data to make the routing decision in real time.",
+    "pitch": "The presenter, who does over $100,000 a year in combined Amazon and eBay sales alone, walks through the actual software stack that makes this work at volume: a Bluetooth finger-scanner paired with an app that instantly shows a book's Amazon sales rank and payout across every buyback company side by side, an AI-assisted eBay batch-listing tool that fills in item details automatically from photos, and a local file-transfer app to move photos from phone to computer quickly. A concrete batch shown in the video, 63 books photographed and listed on eBay in about 20 minutes using the batch tool, produced over $1,300 in listed value.",
+    "best": "Someone with storage space and patience for a genuinely physical, logistics-heavy business (sorting, photographing, shipping) who wants multiple sales channels rather than relying on just one platform.",
+    "truth": "The revenue figures and the live demonstration of the actual software and workflow are concrete and specific rather than vague claims, a good transparency signal, and the presenter is candid about the real physical labor involved (a garage full of totes, a full trailer of books to sort). The specific payout amounts per book shown are illustrative of one point in time and will vary by title and market conditions; the presenter recommends several paid tools (Robo Scout, GoToLister or RoboLister, List Easier) with referral links, worth knowing as those recommendations carry a financial interest separate from the underlying reselling strategy.",
+    "url": "https://www.youtube.com/watch?v=elRbRNJcZ38"
+  },
+  {
+    "id": "amazon-kdp-medium-content-validation-system",
+    "name": "A data-driven validation system for medium and high-content Amazon KDP books",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Amazon KDP",
+      "publishing",
+      "AI tools"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Amazon KDP publishing coach",
+    "what": "A specific numeric framework for validating a book topic on Amazon before writing it, aimed at medium-content (5,000-10,000 words) and high-content (up to 30,000 words) books rather than the heavily saturated low-content category (coloring and activity books): search a specific topic on Amazon, then count \"winning books\" (250 reviews or fewer with a bestseller rank under 30,000, proving low-review books can still sell well), \"dead books\" (30-plus reviews but a bestseller rank over 150,000, proving the topic isn't selling), and \"authority figures\" (500-plus reviews, proving how hard the topic would be to compete in), looking for a topic with several winning books, few dead books, and few authority figures.",
+    "pitch": "The presenter frames the strategy as a deliberate \"blue ocean\" move: low-content books are extremely saturated because AI has made them trivially easy to mass-produce, while medium and high-content books (cookbooks, workbooks, story collections, beginner guides on a narrow topic) still have real demand with meaningfully less competition, and can be built efficiently using a specific AI research process, feeding a competitor's actual table of contents and customer reviews into an AI model to generate an outline that fills gaps the competition missed, rather than starting from a blank page.",
+    "best": "Someone willing to do genuine upfront research (the presenter recommends spending a full week or more just collecting candidate topics before validating any of them) rather than picking a topic based on personal interest or a quick guess.",
+    "truth": "The specific numeric thresholds (250 reviews/30,000 rank for a winning book, 150,000 rank for a dead book, 500 reviews for an authority figure) are concrete, checkable criteria that go well beyond vague \"look for demand\" advice, a genuine strength of this particular framework. The video funnels toward the presenter's own paid one-on-one mentorship program throughout, a financial incentive worth knowing, though the validation system and research process themselves don't require that specific program to apply.",
+    "url": "https://www.youtube.com/watch?v=elRbRNJcZ38"
+  },
+  {
+    "id": "three-pillars-tagline-offer-differentiation-framework",
+    "name": "The \"three pillars and tagline\" framework for differentiating a commodity offer",
+    "category": "Marketing & content",
+    "tags": [
+      "consulting",
+      "offer creation",
+      "sales",
+      "coaching"
+    ],
+    "cost": "Very low startup cost",
+    "found": "AI digital products YouTube creator",
+    "what": "A specific offer-positioning method for any service that has many direct competitors (fitness coaching, social media management, consulting): use AI to help identify which of three broad human motivations (health, wealth, or relationships) an offer falls under, then construct three \"pillars\", framed as what most competitors do versus what you do differently, that justify a higher price than commodity competitors, plus a short, curiosity-driving tagline built from those pillars for use in bios and marketing.",
+    "pitch": "The core argument is that price follows differentiation, not the reverse: a generic fitness offer (a diet plan, a workout plan, accountability) competes purely on price, while reframing the same service around a specific promise (\"how to eat whatever you want without sabotaging your results\") creates enough perceived uniqueness to charge meaningfully more. A worked example ties this to funnel economics: at a $27 price point, reaching $30,000 a month requires over 1,100 sales, while the same revenue at $1,497 requires only 20, illustrating why raising perceived value through positioning (rather than just lowering price to compete) is presented as the higher-leverage move.",
+    "best": "Someone already offering a service in a crowded, commodity-feeling market (coaching, social media management, consulting) who's struggling to justify charging more than direct competitors.",
+    "truth": "Worth flagging directly: this presenter's stated \"$141 million in sales\" credibility claim is delivered under at least two different names within the same video (referred to at different points as both a female and male name), a strong signal this is a templated, reused script rather than one person's independently verified track record, consistent with the identical claim seen attributed to multiple different named presenters in other videos processed in this database. The underlying three-pillars positioning framework itself is a genuinely reusable, teachable technique independent of that credibility claim, but the specific dollar figures and personal backstory throughout this video should be treated with real skepticism.",
+    "url": "https://www.youtube.com/watch?v=Ps_r_16Kczk"
   }
 ]
