@@ -2100,6 +2100,26 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
+    "id": "amazon-kdp-validation-method",
+    "name": "A validation trick for any Amazon KDP book idea",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "research method",
+      "near-zero cost"
+    ],
+    "cost": "Near-zero cost",
+    "found": "Sean Dollwet",
+    "what": "Before writing any book, check the Amazon Best Sellers Rank (BSR) of similar, already-published books in that topic. A BSR under roughly 80,000 signals there's real, ongoing demand for that kind of book, worth knowing before you invest the time to write one.",
+    "pitch": "This isn't a business on its own, it's a simple, free way to de-risk any print-on-demand book idea, coloring books included, before spending time on it.",
+    "best": "Anyone considering the Amazon KDP coloring book idea, or any similar print-on-demand book concept, who wants a cheap gut-check before committing time.",
+    "truth": "The presenter also promotes a paid AI writing tool alongside this technique, but the validation method itself works fine using just a free Chrome extension and Amazon's own listings.",
+    "url": "https://www.youtube.com/watch?v=vhuo0A7Oy74",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "youtube-coaching-niche-experts",
     "name": "Coaching existing YouTubers on monetization and growth",
     "category": "Marketing & content",
@@ -2197,6 +2217,28 @@
     "url": "https://www.youtube.com/watch?v=1sSjeklhejY",
     "situation_tags": [
       "Strictly in-home"
+    ]
+  },
+  {
+    "id": "high-ticket-ai-agency-local-service-bundle",
+    "name": "High-ticket recurring AI agency bundle for one local-service niche, instead of one-off AI websites",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "consulting",
+      "local business",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost (fulfillment outsourced to a developer team for a revenue share)",
+    "found": "AI agency YouTube creator",
+    "what": "Running a specialized AI agency that sells a bundle of five recurring AI systems to a small number of high-ticket local service businesses in one committed industry niche, rather than selling cheap one-off AI websites to many small clients.",
+    "pitch": "The presenter argues the AI-website business model breaks down because it's low-ticket, non-recurring, and rapidly commoditized by free tools, and instead recommends committing to a single high-value local-service niche such as roofing, HVAC, solar, or med spas for a minimum of 3-6 months. He sells a bundle of five recurring AI systems addressing specific revenue leaks, including a missed-call voice receptionist, a speed-to-lead follow-up agent, dead-lead reactivation, an internal knowledge assistant, and an AI quoting agent, quantifying each business's dollar losses during the sales call using a framework he calls identify, quantify, prioritize, selling one system at a time starting with the costliest leak, then expanding into the rest with the same client over time.",
+    "best": "Someone more interested in sales and client relationship management than hands-on technical building, since the presenter explicitly delegates all development work, and comfortable running a structured, numbers-driven sales conversation.",
+    "truth": "The presenter's own numbers, including per-system pricing of $8,000 to $15,000 upfront plus $2,000 to $5,000 a month, and having helped clients scale to $10,000 to $30,000 a month, are self-reported without account or client verification shown on screen. The core critique of the low-ticket AI-website model, crowded, one-time payment, no recurring relationship, is a reasonable, internally consistent business argument independent of whether his specific numbers are exact. The video ends promoting the presenter's own paid one-on-one mentorship program.",
+    "url": "https://www.youtube.com/watch?v=zmq12ZQSGzA",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
     ]
   },
   {
@@ -2396,6 +2438,27 @@
     "best": "Someone comfortable with basic administrative tasks and organized enough to juggle several small recurring clients, who's willing to actively pitch personal networks and small business owners rather than waiting for job board postings.",
     "truth": "The tiered recurring-package structure and the specific example given (a real dollar figure tied to a real number of hours) is concrete and checkable math, a good sign, though it's one student's account rather than an audited result. The presenter is upfront that generic entry-level data entry postings on marketplaces like Upwork tend to pay poorly, and recommends the VA positioning specifically as the way around that, a reasonably candid acknowledgment of the entry-level market's real limits. The video promotes the presenter's own paid 90-day accelerator program, a financial incentive worth knowing, though the core positioning and pricing strategy doesn't require it to apply.",
     "url": "https://www.youtube.com/watch?v=k8UDq1cuANM"
+  },
+  {
+    "id": "kdp-judgment-first-nonfiction-framework",
+    "name": "A judgment-first Amazon KDP nonfiction publishing framework for an AI-saturated market",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Amazon KDP",
+      "nonfiction publishing",
+      "AI tools",
+      "portfolio strategy"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Accelerated Publishing",
+    "what": "A strategic framework for Amazon KDP nonfiction publishing in an AI-saturated market, combining higher nonfiction pricing with a multi-book portfolio approach rather than betting on one title.",
+    "pitch": "The presenter, with 12 years in KDP publishing, argues that because AI now lets anyone produce an average book quickly, the real opportunity has shifted from execution to judgment: picking the right niche and buyer, refusing to let AI make every creative decision, and treating a book's cover, title, and positioning as the primary sales lever since Amazon shoppers can't browse a book's interior before buying the way they could in a physical bookstore. He also covers Amazon's AI-disclosure questionnaire during KDP publishing and states that disclosing AI use honestly hasn't hurt his own sales.",
+    "best": "Someone willing to treat this as a real ongoing publishing business with multiple books and portfolio thinking rather than a single quick project, and comfortable pricing nonfiction higher rather than competing purely on price.",
+    "truth": "The presenter's core numbers, including $1.2 million in personal book sales and students earning $5,000 to $10,000 a month, are self-reported without account verification shown on screen. He is explicit that a typical individual book in his own portfolio earns closer to $800 to $1,000 a month, with a small fraction of a multi-book portfolio responsible for most of the income, a more grounded and specific framing than a single flashy headline number. The video promotes the presenter's own paid masterclass, mentorship, and done-for-you publishing programs throughout.",
+    "url": "https://www.youtube.com/watch?v=HeBOQ4cxWNc",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
   },
   {
     "id": "saas-zero-to-1000-users-discovery-first",
@@ -2838,6 +2901,27 @@
     ]
   },
   {
+    "id": "no-code-ai-mobile-app-app-store",
+    "name": "Native mobile app built end-to-end with a no-code AI app builder, published to the App Store",
+    "category": "AI & automation",
+    "tags": [
+      "app development",
+      "AI tools",
+      "no-code",
+      "mobile app"
+    ],
+    "cost": "Low to moderate startup cost (AI app-builder subscription plus a $99/year Apple developer account)",
+    "found": "Christian Peverelli",
+    "what": "Building a native iOS mobile app from scratch using a no-code AI app-building tool, describing the desired app in plain language and iterating through each build phase, then publishing it through Apple's App Store submission and TestFlight beta process.",
+    "pitch": "The presenter walks through cloning the core concept of a well-known app as a demonstration case, feeding a chain of specific prompts one at a time into a no-code AI app-building tool: design and navigation first, then a key feature, then a backend database for data persistence. He also covers deploying a companion legal and landing page and the real mechanics of Apple's App Store submission process, including the developer fee, TestFlight beta testing, and the review wait time.",
+    "best": "Someone comfortable directing an AI tool through an iterative build process and willing to navigate Apple's actual app-submission requirements, not just build a prototype and stop there.",
+    "truth": "This video's tool recommendation is a paid sponsorship, which the presenter discloses directly, so the specific platform choice should be weighed with that in mind, though he does explain his reasoning, native hardware access like the camera, for picking it over alternatives. The example app is a demo and practice clone, not the presenter's own live revenue-generating business, so no income figures are given or implied for this specific build.",
+    "url": "https://www.youtube.com/watch?v=MiUs5KSrq3c",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "multi-channel-youtube-adsense",
     "name": "Running several small YouTube channels for combined ad income",
     "category": "Marketing & content",
@@ -3174,6 +3258,26 @@
     "url": "https://www.youtube.com/watch?v=y5ks4FhoGfQ"
   },
   {
+    "id": "solo-ai-coded-app-validated-idea",
+    "name": "Solo AI-coded app built from a validated existing idea, not an original concept",
+    "category": "AI & automation",
+    "tags": [
+      "app development",
+      "AI tools",
+      "solo founder"
+    ],
+    "cost": "Low startup cost (mainly time; some paid AI/dev tools optional)",
+    "found": "Erik Cupsa",
+    "what": "Building and launching a solo AI-coded mobile or web app, monetized via subscription, based on cloning and validating an existing proven app idea rather than inventing an original one.",
+    "pitch": "The presenter argues originality doesn't matter anymore since AI has made building fast and cheap, and recommends sourcing already-validated ideas from Y Combinator's public request-for-startups list or a tool that shows existing apps and their revenue, rather than inventing from scratch. He recommends learning core JavaScript fundamentals rather than relying purely on no-code tools, then using an AI coding assistant to build, deploying on standard hosting, and driving initial users through UGC-style short-form video content, modeling viral formats and swapping in your own app's call-to-action, before boosting proven winners with paid ads.",
+    "best": "Someone willing to learn basic coding fundamentals rather than prompting AI blindly, and willing to treat post-launch marketing and distribution as equally important as the build itself.",
+    "truth": "The presenter shows on-screen numbers claiming $1,400 in monthly recurring revenue and $16,500 lifetime revenue for his own app, a modest, specific, and more credible figure than some larger income claims in this database. The video includes a paid sponsorship segment for an unrelated programming language, worth noting as a paid inclusion rather than an organic recommendation.",
+    "url": "https://www.youtube.com/watch?v=KKWS0bSiCT4",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "etsy-notion-spreadsheet-templates",
     "name": "Notion and spreadsheet template shops on Etsy",
     "category": "Digital & subscription products",
@@ -3352,6 +3456,27 @@
     "situation_tags": [
       "Home office, client-facing",
       "Local travel required"
+    ]
+  },
+  {
+    "id": "etsy-google-sheets-templates-claude-recreation",
+    "name": "Recreating proven best-selling Etsy Google Sheets templates using Claude",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "Google Sheets",
+      "AI tools",
+      "digital downloads"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Hannah Gardner",
+    "what": "Researching already-proven, best-selling Etsy digital download products, particularly Google Sheets-based templates like book trackers, budget trackers, and wedding planners, using a paid research tool, then recreating a competing version of each using Claude with a carefully engineered prompt.",
+    "pitch": "A guest presenter, described as a Claude specialist, demonstrates the process live: filter a paid research tool for higher-priced, recently listed, high-cart-count digital Google Sheets products, track the top candidates in a saved collection, sort by estimated monthly revenue to prioritize which to build first, then feed a detailed engineered prompt plus the original listing's screenshots into Claude to generate a matching multi-tab spreadsheet product, refining the build plan before Claude executes to avoid wasted iteration.",
+    "best": "Someone comfortable using Claude's more advanced building mode, not just chat, and willing to add real creative polish on top of what the AI generates first, since raw AI output is described as needing a human pass to feel distinct.",
+    "truth": "The estimated revenue figures shown throughout, including a wedding-planner spreadsheet cited around $200 a day, come from the same third-party Etsy research tool used elsewhere in this database, an estimate from visible signals, not confirmed sales data. The guest presenter says the underlying prompt took him a full night of iteration to perfect, worth knowing since a first attempt with a simple, undialed prompt is described as producing sloppy results.",
+    "url": "https://www.youtube.com/watch?v=MUFyMS4QJlw",
+    "situation_tags": [
+      "Strictly in-home"
     ]
   },
   {
@@ -4383,21 +4508,22 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
-    "id": "amazon-kdp-validation-method",
-    "name": "A validation trick for any Amazon KDP book idea",
-    "category": "Physical & print products",
+    "id": "kdp-five-validated-ebook-niches",
+    "name": "5 validated Amazon KDP ebook niches (sports trivia, bill trackers, K-pop coloring books, anti-inflammatory cookbooks, financial literacy for young adults)",
+    "category": "Digital & subscription products",
     "tags": [
+      "Amazon KDP",
+      "ebooks",
       "print on demand",
-      "research method",
-      "near-zero cost"
+      "niche research"
     ],
-    "cost": "Near-zero cost",
+    "cost": "Very low startup cost",
     "found": "Sean Dollwet",
-    "what": "Before writing any book, check the Amazon Best Sellers Rank (BSR) of similar, already-published books in that topic. A BSR under roughly 80,000 signals there's real, ongoing demand for that kind of book, worth knowing before you invest the time to write one.",
-    "pitch": "This isn't a business on its own, it's a simple, free way to de-risk any print-on-demand book idea, coloring books included, before spending time on it.",
-    "best": "Anyone considering the Amazon KDP coloring book idea, or any similar print-on-demand book concept, who wants a cheap gut-check before committing time.",
-    "truth": "The presenter also promotes a paid AI writing tool alongside this technique, but the validation method itself works fine using just a free Chrome extension and Amazon's own listings.",
-    "url": "https://www.youtube.com/watch?v=vhuo0A7Oy74",
+    "what": "Five specific, already-validated Amazon KDP book niches, each identified using Amazon's Best Sellers Rank as a live demand signal rather than guessing at a topic.",
+    "pitch": "The presenter's core validation method, using Amazon's Best Sellers Rank as a live demand signal, is applied across five real example books currently earning $500 to over $4,000 a month each. He walks through why each niche has durable demand, what specific angle differentiates a winning book from a generic one in that niche, such as targeting a bill tracker specifically for couples instead of a generic tracker, and where trademark risk applies, such as avoiding terms like World Cup or real K-pop artist likenesses in titles and covers to avoid account-termination risk.",
+    "best": "Someone willing to research a specific niche and angle rather than copying an existing book's exact format, and for the more content-heavy niches, someone with relevant subject knowledge or design skill, or willing to hire it out.",
+    "truth": "The presenter discloses using a paid research tool throughout but is explicit a free method, checking Best Sellers Rank directly on each book's product page or using a free Chrome extension, works just as well. The specific per-book daily-earnings figures shown are pulled from the same third-party estimation tool used elsewhere in this database, not confirmed royalty statements. The video closes promoting the presenter's own free coaching consultation call.",
+    "url": "https://www.youtube.com/watch?v=BE6Ygtc8Sk0",
     "situation_tags": [
       "Strictly in-home"
     ]
