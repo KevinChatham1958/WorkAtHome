@@ -1894,6 +1894,27 @@
     ]
   },
   {
+    "id": "ai-coloring-book-pdfs-payhip",
+    "name": "AI-generated animal coloring book PDFs sold via Payhip",
+    "category": "Digital & subscription products",
+    "tags": [
+      "coloring books",
+      "AI tools",
+      "digital downloads",
+      "PDF"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Frank Garrett",
+    "what": "Creating simple AI-generated animal coloring book PDFs, using Claude for the book plan and prompts, an AI image tool for the illustrations, and Canva for layout, sold as an instant digital download via Payhip.",
+    "pitch": "The presenter shows a real earnings screenshot and walks through a four-step system: have Claude generate a full book plan, cover concept plus black-and-white and colored prompts for every page, in one prompt, generate matching images in a free AI image tool using a top-selling Etsy listing's cover as visual inspiration rather than a copy, assemble the pages in Canva with white space left for coloring, then publish as a digital product on Payhip, which handles delivery and payment automatically. Also demonstrates making a short slideshow-style preview video alternating black-and-white and colored versions of each page to boost buyer confidence.",
+    "best": "Someone comfortable treating this as an ongoing catalog business, multiple books, multiple niches, rather than a one-off project, since consistency across many books is what compounds results.",
+    "truth": "The single-day earnings figure is shown via a self-reported dashboard screenshot, not independently verified, and no broader monthly or annual context is given for how typical that day was. The presenter is candid that AI-generated content draws criticism from some viewers and addresses it directly rather than hiding from it. A paid mentorship is promoted at the end.",
+    "url": "https://www.youtube.com/watch?v=IeF2k8WktB8",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "amazon-associates-youtube-review-videos",
     "name": "Amazon Associates affiliate income via YouTube review videos",
     "category": "Marketing & content",
@@ -2281,6 +2302,27 @@
     "best": "Someone comfortable being on camera for quick reaction-style commentary and willing to post multiple times a day, since the model depends on volume and finding already-proven viral source material rather than one polished video at a time.",
     "truth": "This entry is unusually well-sourced on its own limits: one of the presenters shows their own actual, real Facebook monetization earnings live on screen, a modest $4.68 total for the year from a largely inactive page, a genuinely transparent contrast to the $35,000-a-month claim, which is attributed secondhand to another creator's video and not independently verified. The presenters also flag a real platform risk: reposting content and talking about exactly how much money a platform's payout program earns has reportedly gotten some creators' accounts restricted or banned, worth knowing before building a strategy entirely around one platform's creator-payment program.",
     "url": "https://www.youtube.com/watch?v=wUf28jznTt4"
+  },
+  {
+    "id": "ai-ebooks-google-play-books",
+    "name": "AI-written ebooks self-published through Google Play Books",
+    "category": "Digital & subscription products",
+    "tags": [
+      "ebooks",
+      "Google Play Books",
+      "AI tools",
+      "self-publishing"
+    ],
+    "cost": "Very low startup cost",
+    "found": "AI Mastery",
+    "what": "Self-publishing AI-written ebooks through Google Play Books' partner program, using ChatGPT to research a trending topic and write the full book, then promoting the listing with an AI-generated SEO blog post.",
+    "pitch": "The presenter argues Google Play Books is a less-saturated alternative to Amazon KDP with a large built-in audience, and walks through the mechanics: register as a self-published author, find a trending topic via Google Trends, use a pre-built ChatGPT tool to generate a full outline and chapter-by-chapter content, add a disclosure that the book was AI-created, design a cover with ChatGPT, publish, keeping 70% of revenue per the presenter, then generate a promotional blog post via an SEO-writing tool and post it to a free platform linking back to the book.",
+    "best": "Someone willing to test a less-common publishing platform outside the more crowded Amazon KDP space, and comfortable with the extra promotional step of writing and posting a supporting blog article.",
+    "truth": "The video's own headline claim, $960 a day from 20 minutes of work, is never substantiated anywhere in the video itself, no earnings screenshot, no account view, no sales data of any kind is shown, a notably weaker evidence standard than most other entries in this database and worth treating with real skepticism. The underlying mechanics described, Google Play Books self-publishing and AI-assisted writing, are real and verifiable independent of that headline number.",
+    "url": "https://www.youtube.com/watch?v=cxhsRESxWJQ",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
   },
   {
     "id": "rank-and-rent-ai-search-durability",
@@ -3481,6 +3523,27 @@
     ]
   },
   {
+    "id": "seo-discoverable-pdf-guides-google-search",
+    "name": "SEO-discoverable PDF guides found through Google search rather than social media",
+    "category": "Digital & subscription products",
+    "tags": [
+      "PDF",
+      "SEO",
+      "AI tools",
+      "digital downloads"
+    ],
+    "cost": "Very low startup cost (free tools throughout, per the presenter)",
+    "found": "Frank Garrett",
+    "what": "Writing a narrow-topic PDF guide with ChatGPT, formatting it as a real product in Google Docs, listing it on a free storefront, then building a simple, genuinely useful web page around the same topic and submitting it to Google Search Console so it can be found organically through search rather than social media.",
+    "pitch": "The presenter walks through the full system live: use Google's autocomplete and People Also Ask results as free market research to find a narrow, already-searched-for problem, write the book with ChatGPT one chapter at a time using a detailed prompt (a named reader, their specific problem, and a no-fluff rule) rather than asking for the whole book at once, personally edit and fact-check the AI draft, format it properly in Google Docs before exporting to PDF, write a store page that names the exact problem, then build a free Google Sites page with real, useful content on the same topic and submit it for indexing in Google Search Console.",
+    "best": "Someone willing to treat this as a genuinely long-term, compounding project rather than expecting fast results, and comfortable doing real editing and fact-checking on AI-drafted content rather than publishing it as-is.",
+    "truth": "This is one of the more transparent videos in this database on setting realistic expectations: the presenter says outright this is not fast money, shares that his own first book sold only three copies, and is explicit that indexing and ranking are not instant or guaranteed. The headline revenue figure is shown via a self-reported dashboard screenshot without independent verification, and it's not clear whether that figure reflects the same slow, compounding process otherwise described or a separate result. A paid program is promoted at the end.",
+    "url": "https://www.youtube.com/watch?v=9hGYYCIS9vQ",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "ai-search-answer-engine-visibility-review-optimization",
     "name": "AI search answer-engine visibility service for local businesses",
     "category": "Local & professional services",
@@ -3624,6 +3687,28 @@
     "best": "Someone who already has, or is building, real credibility or expertise in a specific coaching niche and needs a repeatable way to communicate what makes their approach different, rather than someone looking for the underlying coaching topic itself.",
     "truth": "The specific sales-call structure and DM scripting are concrete and immediately usable regardless of niche, a genuinely practical, tool-agnostic contribution. Worth knowing directly: this presenter's stated \"$141 million in career sales\" credibility claim is worded almost identically to the same claim made by a different named presenter (\"Aaron Chister\") in another video processed in this same batch, which reads as a templated script shared across multiple videos rather than two individuals' independently verified track records, a real reason for caution about the presenter's personal credibility specifically, separate from whether the positioning and sales-script techniques themselves are sound. The video closes by promoting the presenter's own paid coaching links.",
     "url": "https://www.youtube.com/watch?v=SbGxottOBFg"
+  },
+  {
+    "id": "wholesale-3d-printed-toy-company",
+    "name": "Wholesale 3D-printed toy company using printers you already own",
+    "category": "E-commerce",
+    "tags": [
+      "3D printing",
+      "manufacturing",
+      "Shopify",
+      "toys"
+    ],
+    "cost": "Requires owning 3D printer(s); per-unit material/machine cost around $1.25 in the presenter's example",
+    "found": "How Much (Idan)",
+    "what": "Starting a wholesale 3D-printed toy company using 3D printers you already own, researching a popular toy design, setting up a Shopify store, and either holding light inventory or printing to order.",
+    "pitch": "The presenter got the idea after noticing unlicensed 3D-printed toys being sold at a park and realizing there's already a market willing to pay for printed novelty items. He walks through the full same-day setup live: naming and buying a domain with Claude's help, setting up Shopify and Shopify Payments, calculating true per-unit cost including material, machine depreciation, and electricity, printing a sample at home, and using AI to generate consistent product photos in multiple colors from a single photograph.",
+    "best": "Someone who already owns one or more 3D printers, or is willing to buy one, and wants to turn otherwise idle machine time into inventory, comfortable with print-on-demand-style fulfillment timelines.",
+    "truth": "The presenter is upfront this is the first video in a planned series and doesn't yet show any actual sales results, just the setup process, so there's no revenue data to evaluate yet. He also flags a real legal consideration worth taking seriously: trademarked character designs are common in this space and need to be avoided, a caution that applies to anyone considering this idea.",
+    "url": "https://www.youtube.com/watch?v=oH7WTH1svrk",
+    "situation_tags": [
+      "Requires equipment/vehicle investment",
+      "Needs a dedicated workspace"
+    ]
   },
   {
     "id": "ai-print-on-demand",
@@ -4854,6 +4939,27 @@
     "url": "https://www.cnbc.com/2025/11/30/bay-area-kids-rentals-silicon-valley-parents-built-lucrative-side-hustle.html"
   },
   {
+    "id": "ai-etsy-niche-gap-research-claude-chrome",
+    "name": "AI-driven Etsy niche-gap research using Claude for Chrome",
+    "category": "Physical & print products",
+    "tags": [
+      "Etsy",
+      "print on demand",
+      "AI tools",
+      "market research"
+    ],
+    "cost": "Very low startup cost (Claude for Chrome, free Printify account)",
+    "found": "Teanna Scott",
+    "what": "Using the Claude for Chrome browser extension to automatically research an Etsy niche, crawling listings, cross-referencing Google search demand, mining customer reviews for complaints, and identifying design or product gaps competitors haven't filled, then generating AI image-design prompts based on that research.",
+    "pitch": "The presenter, a 4-year Etsy print-on-demand seller, argues most sellers simply copy whatever's already trending, which puts you permanently a step behind. Instead, a detailed two-part Claude for Chrome prompt has Claude autonomously browse Etsy and cross-reference Google search demand to find topics people are searching for that don't yet have good Etsy listings, mine reviews on existing top sellers for complaints and unmet requests, score the resulting opportunities, then generate several ready-to-use image-generation prompts for the best opportunity, which she runs through an AI design tool and fulfills via Printify.",
+    "best": "Someone with some existing Etsy print-on-demand experience who wants a more systematic way to find genuine market gaps, comfortable directing an AI browser agent through a fairly detailed, customized prompt.",
+    "truth": "This is a first-time-trying-it demonstration rather than a proven, repeated result; the presenter is candid this is a hack she's actively still exploring and plans to refine further in a future video, so there's no track record yet showing the specific product found in this video actually sold well. The underlying research method, cross-referencing marketplace trends against real search demand and review complaints, is a sound, verifiable research practice independent of whether this specific example becomes a bestseller.",
+    "url": "https://www.youtube.com/watch?v=CbilfDJi9D4",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "free-ai-website-client-wedge",
     "name": "Free AI-built websites as a client acquisition wedge",
     "category": "Marketing & content",
@@ -5145,6 +5251,27 @@
     "situation_tags": [
       "Strictly in-home",
       "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "claude-free-micro-tools-lead-magnets",
+    "name": "Free micro-tools built with Claude as lead magnets for a paid offer",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "lead generation",
+      "SaaS",
+      "marketing"
+    ],
+    "cost": "Very low startup cost (Claude account)",
+    "found": "affiliatemarketingdude (Marcus)",
+    "what": "Building small, single-purpose free web tools, a calculator, converter, or evaluator solving one specific problem, with Claude, using the free tool as a lead magnet that funnels users toward a related paid product, affiliate offer, or service.",
+    "pitch": "The presenter lays out a repeatable four-part framework: find a mass need people already search for, not just a cool idea, build a free tool that solves that need in under 60 seconds with no login required, deliberately leave a gap the free version doesn't fully close as the upsell, then generate traffic via a newsworthy angle, a real number, a rip-off-exposed story, a contrarian result, that press outlets and directories will pick up organically. Walks through several of his own real tools, a domain-appraisal tool and a car-price dealer-fee calculator, as working examples of the pattern.",
+    "best": "Someone comfortable identifying a real underlying business or affiliate offer to attach a free tool to, since the tool itself isn't the business, the angle and the paid offer behind it are.",
+    "truth": "The presenter opens with an unusually direct disclaimer that most people watching videos like this make nothing, and explicitly warns that just-clone-an-app advice found elsewhere can create real legal exposure, a notably candid framing compared to many similar videos. No personal revenue figures are given for this exact framework; the presenter's own examples are shown as demonstrations of the method, not accompanied by account-level income screenshots.",
+    "url": "https://www.youtube.com/watch?v=Vo8pcO7DhKI",
+    "situation_tags": [
+      "Strictly in-home"
     ]
   },
   {
