@@ -840,6 +840,27 @@
     ]
   },
   {
+    "id": "claude-etsy-worksheet-bundles",
+    "name": "Claude-generated Etsy digital worksheet bundles",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "AI tools",
+      "digital downloads",
+      "worksheets"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Joshua Mayo",
+    "what": "Using Claude to generate downloadable PDF worksheet bundles around a specific problem or interest, refined for formatting in Canva, then sold as an instant digital download on Etsy.",
+    "pitch": "The presenter shows real Etsy examples of worksheet bundles earning $200 to over $1,100 a month, some accumulating over $80,000 across several years, then demonstrates the process live: pasting a reusable prompt template into Claude, specifying only the topic and page count, letting Claude generate the full worksheet content, then spending about 30 minutes in Canva fixing formatting issues before exporting as a final PDF for the Etsy listing.",
+    "best": "Someone comfortable doing a final polish pass in Canva rather than expecting a publish-ready product straight out of Claude, and willing to test multiple worksheet topics quickly to see what sells.",
+    "truth": "The presenter is upfront that Claude's first draft needs real fixing, formatting issues, before it's sellable, a more honest framing than some AI-content pitches that imply zero manual work. The specific per-listing revenue figures shown come directly from each listing's own public Etsy sales-count display, a more verifiable source than some third-party estimation tools used elsewhere in this database. A sponsored VPN segment appears partway through, unrelated to the core worksheet-selling content.",
+    "url": "https://www.youtube.com/watch?v=wz9CmUZ4jRg",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "video-editing-brand-influencer-campaigns",
     "name": "Video editing for brand and influencer campaigns",
     "category": "Marketing & content",
@@ -1124,6 +1145,27 @@
     "situation_tags": [
       "Strictly in-home",
       "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "claude-ai-printable-wall-art",
+    "name": "AI-generated printable wall art on Etsy",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "AI tools",
+      "wall art",
+      "digital downloads"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Joshua Mayo",
+    "what": "Creating AI-generated printable wall art sold as digital PNG or PDF downloads on Etsy, where the customer prints and frames the artwork themselves, using Claude to analyze a bestselling listing's images and generate prompts for an AI image tool to create an inspired-but-different set of designs.",
+    "pitch": "The presenter shows real examples earning $145 to over $4,000 a month from printable wall art bundles, one shop having made about $600,000 total. He demonstrates screenshotting a top-selling listing, having Claude analyze it and generate several unique, not copied, image prompts, feeding those into an AI image tool, then using a custom cropping tool Claude builds on request to instantly generate all the different print-size dimensions customers expect, cutting what would normally take weeks of manual resizing down to seconds.",
+    "best": "Someone comfortable directing AI tools iteratively to get a genuinely distinct result rather than a close copy, and willing to build out a full size range for every listing, since top sellers all offer multiple dimensions.",
+    "truth": "The presenter is explicit he doesn't want to just copy an existing listing and iterates the AI prompts specifically to make the result look different, worth noting as a good practice signal, though the underlying method, studying a competitor's exact images as the starting reference, sits closer to the line than pure independent design and is worth being thoughtful about. The specific revenue figures shown come from each listing's own public Etsy sales data.",
+    "url": "https://www.youtube.com/watch?v=wz9CmUZ4jRg",
+    "situation_tags": [
+      "Strictly in-home"
     ]
   },
   {
@@ -1482,6 +1524,27 @@
       "Local travel required",
       "Requires hiring or managing others",
       "Requires a license or certification"
+    ]
+  },
+  {
+    "id": "claude-faceless-youtube-channel",
+    "name": "Faceless YouTube channel using Claude for scripts and AI tools for visuals",
+    "category": "Content & personal brand",
+    "tags": [
+      "YouTube",
+      "faceless",
+      "AI tools",
+      "content creation"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Joshua Mayo",
+    "what": "Building a faceless YouTube channel using Claude to generate video ideas and full scripts, and a separate AI visual tool to generate the accompanying images or animated clips, paired with either a real recorded voiceover or an AI voiceover tool.",
+    "pitch": "The presenter shows several real examples of faceless channels, scary-story, kids-storytelling, and historical mini-documentary styles, getting over a million views using primarily still AI-generated images, noting that YouTube requires creators to disclose altered or synthetic content when AI is used and that several successful channels are already doing exactly that. Demonstrated workflow: ask Claude for video ideas, have it write a full script with iterative edits, generate matching visuals in an AI video or image tool from parts of that script, and record either your own voice or an AI voiceover on top.",
+    "best": "Someone comfortable with a consistent weekly production workflow and, per the presenter's own recommendation, willing to record a real human voiceover rather than relying entirely on an AI voice, since that's framed as what YouTube's algorithm favors.",
+    "truth": "The presenter doesn't provide his own channel's revenue figures for this specific method, instead pointing to third-party example channels, view counts only, no revenue shown, as proof the format works, so the income potential here is illustrated rather than personally demonstrated. The AI-content-disclosure point, several example channels correctly labeling their videos as synthetic content, is a good, verifiable transparency signal worth noting.",
+    "url": "https://www.youtube.com/watch?v=wz9CmUZ4jRg",
+    "situation_tags": [
+      "Strictly in-home"
     ]
   },
   {
@@ -1941,6 +2004,27 @@
     ]
   },
   {
+    "id": "claude-connected-spreadsheet-templates",
+    "name": "Claude-connected spreadsheet templates for Etsy",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "spreadsheets",
+      "AI tools",
+      "digital downloads"
+    ],
+    "cost": "Low to moderate startup cost (mainly a technical setup process)",
+    "found": "Joshua Mayo",
+    "what": "Building sellable spreadsheet templates, such as budget trackers, content planners, and wedding planners, by connecting Claude directly to Google Sheets via a technical setup process, then having Claude build the full spreadsheet with formulas and structure, sold as a one-time-build, infinitely-resellable digital download on Etsy.",
+    "pitch": "The presenter shows real Etsy examples of simple spreadsheet templates earning $400 to over $16,000 a month, some priced as low as $1 but selling in very high volume, then walks through the technical setup: installing a Google Workspace command-line tool via Claude's own guided instructions, creating OAuth credentials in a Google Cloud project, and connecting Claude directly to Google Sheets so it can build out a functional spreadsheet with formulas rather than just static text.",
+    "best": "Someone willing to follow a genuinely technical one-time setup process that the presenter is upfront is more involved than the other ideas in this video, in exchange for being able to build spreadsheet products going forward.",
+    "truth": "The presenter is candid that the setup is technical and some viewers may hit snags, a more honest framing than presenting this as a simple no-friction process. The specific revenue figures shown come from each listing's own public Etsy sales-count display, a directly verifiable source rather than a third-party estimation tool.",
+    "url": "https://www.youtube.com/watch?v=wz9CmUZ4jRg",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "vibe-coding-process-to-profit-framework",
     "name": "Turning a repeated manual process into a same-day AI tool",
     "category": "AI & automation",
@@ -2217,28 +2301,6 @@
     "url": "https://www.youtube.com/watch?v=1sSjeklhejY",
     "situation_tags": [
       "Strictly in-home"
-    ]
-  },
-  {
-    "id": "high-ticket-ai-agency-local-service-bundle",
-    "name": "High-ticket recurring AI agency bundle for one local-service niche, instead of one-off AI websites",
-    "category": "AI & automation",
-    "tags": [
-      "AI tools",
-      "consulting",
-      "local business",
-      "recurring revenue"
-    ],
-    "cost": "Low startup cost (fulfillment outsourced to a developer team for a revenue share)",
-    "found": "Angelo Turri",
-    "what": "Running a specialized AI agency that sells a bundle of five recurring AI systems to a small number of high-ticket local service businesses in one committed industry niche, rather than selling cheap one-off AI websites to many small clients.",
-    "pitch": "The presenter argues the AI-website business model breaks down because it's low-ticket, non-recurring, and rapidly commoditized by free tools, and instead recommends committing to a single high-value local-service niche such as roofing, HVAC, solar, or med spas for a minimum of 3-6 months. He sells a bundle of five recurring AI systems addressing specific revenue leaks, including a missed-call voice receptionist, a speed-to-lead follow-up agent, dead-lead reactivation, an internal knowledge assistant, and an AI quoting agent, quantifying each business's dollar losses during the sales call using a framework he calls identify, quantify, prioritize, selling one system at a time starting with the costliest leak, then expanding into the rest with the same client over time.",
-    "best": "Someone more interested in sales and client relationship management than hands-on technical building, since the presenter explicitly delegates all development work, and comfortable running a structured, numbers-driven sales conversation.",
-    "truth": "The presenter's own numbers, including per-system pricing of $8,000 to $15,000 upfront plus $2,000 to $5,000 a month, and having helped clients scale to $10,000 to $30,000 a month, are self-reported without account or client verification shown on screen. The core critique of the low-ticket AI-website model, crowded, one-time payment, no recurring relationship, is a reasonable, internally consistent business argument independent of whether his specific numbers are exact. The video ends promoting the presenter's own paid one-on-one mentorship program.",
-    "url": "https://www.youtube.com/watch?v=zmq12ZQSGzA",
-    "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based"
     ]
   },
   {
@@ -2522,6 +2584,27 @@
     "url": "https://www.youtube.com/watch?v=MBFf90_Bh34"
   },
   {
+    "id": "etsy-png-shop-ai-clip-art-pdfs",
+    "name": "Etsy \"PNG shop\" selling AI-generated clip art and wall art as PDF downloads",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "AI tools",
+      "clip art",
+      "digital downloads"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Alex",
+    "what": "Running an Etsy shop selling cheap AI-generated clip art and printable wall art delivered as a PDF containing a Google Drive download link, built by pulling already-trending design ideas from a trend-research tool and using Claude for the listing copy.",
+    "pitch": "The presenter shows a real large Etsy shop selling exactly this model as proof of concept, then walks through his own workflow: using a paid trend-research tool to find already-trending design niches, cross-checked against Google Trends for legitimacy, generating matching AI art in an image tool, exporting multiple variations, uploading files to a shared Google Drive folder, building a simple PDF delivery card containing that Drive link, and using Claude only to write SEO-optimized Etsy titles, descriptions, and tags. States this is a volume-and-consistency business, not a one-hit-listing business, and that he is not selling a course.",
+    "best": "Someone comfortable posting a high volume of low-priced listings consistently rather than expecting one or two designs to carry the business.",
+    "truth": "The presenter explicitly discloses AI use in his own Etsy listings, as required by Etsy's policy, and states buyers don't seem to mind, a genuinely transparent practice worth noting positively. He states he isn't selling anything in this video, a mild credibility signal, though the specific weekly revenue figures shown are self-reported screenshots, not independently verified. Two paid tools are referenced with affiliate-style links in the description.",
+    "url": "https://www.youtube.com/watch?v=pLoswerx89s",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "productized-consulting-6ps",
     "name": "A framework for building a productized consulting business",
     "category": "Marketing & content",
@@ -2579,6 +2662,28 @@
     "situation_tags": [
       "Phone/sales-based",
       "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "high-ticket-ai-agency-local-service-bundle",
+    "name": "High-ticket recurring AI agency bundle for one local-service niche, instead of one-off AI websites",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "consulting",
+      "local business",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost (fulfillment outsourced to a developer team for a revenue share)",
+    "found": "Angelo Turri",
+    "what": "Running a specialized AI agency that sells a bundle of five recurring AI systems to a small number of high-ticket local service businesses in one committed industry niche, rather than selling cheap one-off AI websites to many small clients.",
+    "pitch": "The presenter argues the AI-website business model breaks down because it's low-ticket, non-recurring, and rapidly commoditized by free tools, and instead recommends committing to a single high-value local-service niche such as roofing, HVAC, solar, or med spas for a minimum of 3-6 months. He sells a bundle of five recurring AI systems addressing specific revenue leaks, including a missed-call voice receptionist, a speed-to-lead follow-up agent, dead-lead reactivation, an internal knowledge assistant, and an AI quoting agent, quantifying each business's dollar losses during the sales call using a framework he calls identify, quantify, prioritize, selling one system at a time starting with the costliest leak, then expanding into the rest with the same client over time.",
+    "best": "Someone more interested in sales and client relationship management than hands-on technical building, since the presenter explicitly delegates all development work, and comfortable running a structured, numbers-driven sales conversation.",
+    "truth": "The presenter's own numbers, including per-system pricing of $8,000 to $15,000 upfront plus $2,000 to $5,000 a month, and having helped clients scale to $10,000 to $30,000 a month, are self-reported without account or client verification shown on screen. The core critique of the low-ticket AI-website model, crowded, one-time payment, no recurring relationship, is a reasonable, internally consistent business argument independent of whether his specific numbers are exact. The video ends promoting the presenter's own paid one-on-one mentorship program.",
+    "url": "https://www.youtube.com/watch?v=zmq12ZQSGzA",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
     ]
   },
   {
@@ -3606,6 +3711,28 @@
     ]
   },
   {
+    "id": "local-seo-microsite-rank-rent-ai-blueprint",
+    "name": "Local SEO microsite / rank-and-rent network using an AI coding blueprint",
+    "category": "Marketing & content",
+    "tags": [
+      "local SEO",
+      "rank and rent",
+      "AI tools",
+      "lead generation"
+    ],
+    "cost": "Very low startup cost (roughly $10 in domain cost plus ~$2/month hosting per site; AI coding tool subscription optional)",
+    "found": "Jesse Cunningham",
+    "what": "Building a network of dozens of small, single-service-page local-SEO microsites targeting narrow, low-competition service-plus-location combinations in the suburbs around a city, then routing calls through an AI phone agent and monetizing via revenue-share or flat-fee lead sales to local service businesses.",
+    "pitch": "The presenter runs a paid community providing a reusable site blueprint that's fed directly to an AI coding tool to auto-generate a full 40 to 50 page exact-match-domain website with almost no manual work. Core strategy: pick underserved suburb-level niches, avoiding city-center searches with a Google map pack which signal too much competition, register a cheap exact-match domain, let the site rank organically over 3 to 6 months without connecting it to Google Search Console, wire an AI voice agent to answer the phone 24/7, then monetize via revenue share, flat per-lead fees, or selling a bundle of built sites to a business owner outright.",
+    "best": "Someone patient enough to wait months for organic ranking rather than needing fast income, and willing to build and manage a network of many small sites rather than one polished website.",
+    "truth": "The presenter's own numbers, six figures a month, sites costing under $10 to build, $150 or more per qualified lead, are self-reported without account verification shown on screen. Worth noting: in a companion live-build video, the AI-generated site included fabricated customer testimonials and a false licensing claim that the presenter himself flagged as mistakes needing correction before real use, a useful reminder that AI-generated site copy needs a real editing pass, especially anything implying licensing or certifications the business doesn't actually hold. The video ends promoting the presenter's own paid community with a 7-day trial.",
+    "url": "https://www.youtube.com/watch?v=KaJnoYdJo7U",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
     "id": "transformation-system-personal-touch-price-ladder",
     "name": "Transformation over information: turning a digital product into a fill-in-the-blank system",
     "category": "Digital & subscription products",
@@ -3704,6 +3831,27 @@
     "best": "Someone with storage space and patience for a genuinely physical, logistics-heavy business (sorting, photographing, shipping) who wants multiple sales channels rather than relying on just one platform.",
     "truth": "The revenue figures and the live demonstration of the actual software and workflow are concrete and specific rather than vague claims, a good transparency signal, and the presenter is candid about the real physical labor involved (a garage full of totes, a full trailer of books to sort). The specific payout amounts per book shown are illustrative of one point in time and will vary by title and market conditions; the presenter recommends several paid tools (Robo Scout, GoToLister or RoboLister, List Easier) with referral links, worth knowing as those recommendations carry a financial interest separate from the underlying reselling strategy.",
     "url": "https://www.youtube.com/watch?v=elRbRNJcZ38"
+  },
+  {
+    "id": "claude-design-print-on-demand-storefront",
+    "name": "Semi-automated print-on-demand apparel using Claude Design and an AI storefront builder",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "AI tools",
+      "apparel",
+      "e-commerce"
+    ],
+    "cost": "Low startup cost (AI tool subscriptions; free Printful/Etsy accounts)",
+    "found": "Joshua Mayo",
+    "what": "A semi-automated print-on-demand apparel business built around simple, repeatable text-based t-shirt designs, using Claude Design to build a custom bulk-design-generator tool, an AI website builder for a standalone storefront, and Printful for automated fulfillment.",
+    "pitch": "The presenter argues simple text-based shirt stores succeed through volume, hundreds or thousands of listings, rather than one viral design, and shows how Claude's design mode can build a working custom software tool, not just generate individual images, that bulk-produces dozens of on-brand shirt designs from a template phrase across many niches at once. Also demonstrates using an AI website builder to build a complete, functional e-commerce storefront from a single prompt, connecting Printful for automated fulfillment to both that storefront and an Etsy shop simultaneously, and using Claude to reverse-engineer SEO-optimized titles and tags from already-successful competitor listings.",
+    "best": "Someone willing to build and maintain a large volume of simple listings rather than expecting a few designs to succeed, and comfortable stitching together several different tools into one connected workflow.",
+    "truth": "The presenter is explicit this is not a get-rich-quick scheme and still requires consistency, good design taste, and patience, a more grounded framing than some AI-business pitches. No personal revenue figures are given for the presenter's own store using this specific method; the examples of successful stores shown are third-party Etsy listings, not the presenter's own results.",
+    "url": "https://www.youtube.com/watch?v=bW8K4G1uvnA",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
   },
   {
     "id": "openclaw-setup-service-local-businesses",
@@ -4344,6 +4492,27 @@
     "best": "Someone with genuine comfort directing an AI coding tool through a multi-step build process, who's willing to do cold outreach to local businesses rather than waiting for inbound interest.",
     "truth": "The live demonstration format, with a visible timer and a real (if unnamed) business's actual site used as the starting point, is a stronger transparency signal than a purely hypothetical pitch, though the video never shows an actual completed sale, so the \"$5,000 in two hours\" framing is the presenter's opinion of the finished site's fair value, not a verified transaction. The give-it-away-free-then-charge-recurring strategy for winning local-business clients is a general approach that shows up in more than one form across WAH creator content, worth knowing if you're comparing several similar-sounding pitches. The video also promotes the presenter's own paid course community throughout, a financial incentive separate from whether the underlying technique works.",
     "url": "https://www.youtube.com/watch?v=RoJqgIAPBJQ"
+  },
+  {
+    "id": "clickbank-free-traffic-pinterest-bridge-pages",
+    "name": "Free-traffic ClickBank affiliate marketing via bulk Pinterest pins",
+    "category": "Marketing & content",
+    "tags": [
+      "affiliate marketing",
+      "ClickBank",
+      "Pinterest",
+      "AI tools"
+    ],
+    "cost": "Very low startup cost (free tools throughout, per the presenter)",
+    "found": "Real Money Strategies",
+    "what": "Promoting existing ClickBank affiliate offers using entirely free tools and free traffic, by bulk-generating dozens of Pinterest pins with Claude and Canva, linking each pin to an AI-built bridge page rather than the affiliate link directly.",
+    "pitch": "The presenter demonstrates the full free workflow live: pick a proven, high-converting ClickBank offer, verify real demand using free keyword and ad-audience data, use a pre-made Claude prompt to bulk-generate pin copy and matching AI-image prompts, use Canva's bulk-creation tool to mass-produce dozens of pins from that data, generate the pin images for free in Google Gemini, and build a simple branded bridge page using another Claude prompt, hosted for free via Netlify, rather than linking to the affiliate offer directly, since Pinterest has removed some pins that link straight to an affiliate URL.",
+    "best": "Someone willing to do a real, if largely free, technical setup and comfortable with a sales cycle where commissions can take days or weeks to land, since much of the buying happens through the vendor's own follow-up email sequence.",
+    "truth": "The presenter discloses on-pin that AI-generated images are used, matching Pinterest's own content-labeling requirements, a good transparency signal. The specific conversion-rate and demand figures cited are pulled from the vendor's own affiliate marketing materials and third-party ad-audience tools, not independently verified by the presenter. No personal income figures are given for this specific method; the video demonstrates mechanics rather than reporting the presenter's own results.",
+    "url": "https://www.youtube.com/watch?v=E54nTPgzqpk",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
   },
   {
     "id": "ebay-reselling-retirees-sellthrough-system",
