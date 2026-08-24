@@ -337,6 +337,10 @@ a { color: inherit; }
 .card:hover { box-shadow: 0 4px 14px rgba(22, 32, 46, 0.08); }
 
 .card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
   margin-bottom: 8px;
 }
 
@@ -348,6 +352,8 @@ a { color: inherit; }
   letter-spacing: -0.01em;
   margin: 0;
   color: var(--text-primary);
+  flex: 1 1 auto;
+  min-width: 0;
 }
 @media (max-width: 760px) {
   .card-title { font-size: 1.15rem; }
@@ -448,46 +454,46 @@ a { color: inherit; }
 }
 .card.expanded .expand-toggle .chevron { transform: rotate(180deg); }
 
-/* ---------- Action row: save + copy ---------- */
+/* ---------- Action icons: save + copy (top-right of card) ---------- */
 .card-actions {
-  margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px solid var(--border);
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
 }
 
 .save-toggle {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
-  font-size: 0.9rem;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
   color: var(--text-muted);
   cursor: pointer;
   user-select: none;
+  transition: all 0.15s;
 }
-.save-toggle input { accent-color: var(--accent); cursor: pointer; width: 16px; height: 16px; }
-.save-toggle.saved { color: var(--accent); font-weight: 600; }
-.save-toggle .bookmark-icon { flex-shrink: 0; }
+.save-toggle:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+.save-toggle.saved { color: var(--accent); border-color: var(--accent); background: var(--accent-bg); }
+.save-toggle .bookmark-icon { display: flex; }
 
 .copy-btn {
-  width: fit-content;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
   background: transparent;
-  border: none;
-  color: var(--text-faint);
-  font-family: var(--font-body);
-  font-size: 0.82rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  color: var(--text-muted);
   cursor: pointer;
-  text-align: left;
   padding: 0;
-  transition: color 0.15s;
+  transition: all 0.15s;
 }
-.copy-btn svg { flex-shrink: 0; }
-.copy-btn:hover { color: var(--accent); }
+.copy-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
 
 /* ---------- Footer ---------- */
 .site-footer {
