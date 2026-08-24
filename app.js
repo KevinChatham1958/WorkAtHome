@@ -312,11 +312,12 @@ function buildCard(idea) {
     <div class="card-head">
       <h3 class="card-title">${escapeHtml(toTitleCase(idea.name))}</h3>
       <div class="card-actions">
-        <label class="save-toggle ${isSaved ? 'saved' : ''}" title="Save for later" aria-label="Save for later">
-          <input type="checkbox" class="save-checkbox" ${isSaved ? 'checked' : ''} hidden>
+        <label class="save-toggle ${isSaved ? 'saved' : ''}">
+          <input type="checkbox" class="save-checkbox" ${isSaved ? 'checked' : ''}>
           <span class="bookmark-icon">${isSaved ? BOOKMARK_FILLED_SVG : BOOKMARK_OUTLINE_SVG}</span>
+          <span>Save for Later</span>
         </label>
-        <button class="copy-btn" type="button" title="Copy this gig to clipboard" aria-label="Copy this gig to clipboard">${COPY_SVG}</button>
+        <button class="copy-btn" type="button">${COPY_SVG}<span>Copy This Gig to Clipboard</span></button>
       </div>
     </div>
     <div class="card-badges">
@@ -376,12 +377,11 @@ function buildCard(idea) {
   card.querySelector('.copy-btn').addEventListener('click', (e) => {
     const text = formatGigText(idea);
     const btn = e.currentTarget;
+    const label = btn.querySelector('span');
     navigator.clipboard.writeText(text).then(() => {
-      const original = btn.innerHTML;
-      const originalTitle = btn.title;
-      btn.innerHTML = CHECK_SVG;
-      btn.title = 'Copied!';
-      setTimeout(() => { btn.innerHTML = original; btn.title = originalTitle; }, 1500);
+      const original = label.textContent;
+      label.textContent = 'Copied!';
+      setTimeout(() => { label.textContent = original; }, 1500);
     });
   });
 
