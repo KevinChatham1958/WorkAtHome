@@ -29,6 +29,8 @@ const BOOKMARK_FILLED_SVG = `<svg width="15" height="15" viewBox="0 0 24 24" fil
 
 const COPY_SVG = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M16 8V5.5C16 4.7 15.3 4 14.5 4H5.5C4.7 4 4 4.7 4 5.5V14.5C4 15.3 4.7 16 5.5 16H8" stroke="currentColor" stroke-width="2"/></svg>`;
 
+const CHECK_SVG = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M5 13L10 18L19 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+
 // ---------- State ----------
 
 let ALL_IDEAS = [];
@@ -309,6 +311,13 @@ function buildCard(idea) {
   card.innerHTML = `
     <div class="card-head">
       <h3 class="card-title">${escapeHtml(toTitleCase(idea.name))}</h3>
+      <div class="card-actions">
+        <label class="save-toggle ${isSaved ? 'saved' : ''}" title="Save for later" aria-label="Save for later">
+          <input type="checkbox" class="save-checkbox" ${isSaved ? 'checked' : ''} hidden>
+          <span class="bookmark-icon">${isSaved ? BOOKMARK_FILLED_SVG : BOOKMARK_OUTLINE_SVG}</span>
+        </label>
+        <button class="copy-btn" type="button" title="Copy this gig to clipboard" aria-label="Copy this gig to clipboard">${COPY_SVG}</button>
+      </div>
     </div>
     <div class="card-badges">
       <span class="badge badge-category">${escapeHtml(idea.category)}</span>
@@ -344,15 +353,6 @@ function buildCard(idea) {
       <span class="toggle-label">${isExpanded ? 'Click to Collapse' : 'Click to See Full Gig'}</span>
       <span class="chevron">${CHEVRON_SVG}</span>
     </button>
-
-    <div class="card-actions">
-      <label class="save-toggle ${isSaved ? 'saved' : ''}">
-        <input type="checkbox" class="save-checkbox" ${isSaved ? 'checked' : ''}>
-        <span class="bookmark-icon">${isSaved ? BOOKMARK_FILLED_SVG : BOOKMARK_OUTLINE_SVG}</span>
-        <span>Save for Later</span>
-      </label>
-      <button class="copy-btn" type="button">${COPY_SVG} Copy This Gig to Clipboard</button>
-    </div>
   `;
 
   card.querySelector('.expand-toggle').addEventListener('click', () => {
@@ -378,8 +378,10 @@ function buildCard(idea) {
     const btn = e.currentTarget;
     navigator.clipboard.writeText(text).then(() => {
       const original = btn.innerHTML;
-      btn.innerHTML = 'Copied!';
-      setTimeout(() => { btn.innerHTML = original; }, 1500);
+      const originalTitle = btn.title;
+      btn.innerHTML = CHECK_SVG;
+      btn.title = 'Copied!';
+      setTimeout(() => { btn.innerHTML = original; btn.title = originalTitle; }, 1500);
     });
   });
 
