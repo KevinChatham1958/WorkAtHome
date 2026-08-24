@@ -14,59 +14,28 @@
 </head>
 <body>
 
-<header class="site-header">
-  <div class="header-inner">
+<header class="hero">
+  <a href="about.html" class="about-link">About</a>
+  <div class="hero-inner">
     <a href="index.html" class="wordmark-link">
-      <img src="assets/logo-horizontal.png" alt="Side Hustle Intel" class="wordmark-logo">
+      <img src="assets/hero-logo.png" alt="Side Hustle Intel" class="hero-logo">
     </a>
-    <nav class="site-nav">
-      <a href="about.html">About</a>
-    </nav>
+    <h1 class="hero-title">Find Your Next<br><span class="hero-accent">Work-at-Home</span> Gig</h1>
+    <span class="eyebrow">World's Largest Searchable Work-at-Home Database</span>
   </div>
 </header>
 
-<section class="hero">
-  <div class="hero-inner">
-    <img src="assets/hero-logo.png" alt="Side Hustle Intel" class="hero-logo">
-    <span class="eyebrow">World's Largest Searchable Work-at-Home Database</span>
-    <h1 class="hero-title">Find Your Next<br><span class="hero-accent">Work-at-Home</span> Gig</h1>
-  </div>
-</section>
-
 <main id="browse" class="browse">
 
-  <div class="toolbar">
+  <div class="controls-row">
+    <div class="saved-group">
+      <span id="saved-count" class="saved-count">0 gigs saved</span>
+      <label class="saved-toggle">
+        <input type="checkbox" id="saved-only-toggle">
+        <span>View Saved Only</span>
+      </label>
+    </div>
     <p class="search-instruction">Search by keyword, category, or creator — or just start scrolling</p>
-    <div class="search-row">
-      <div class="search-field">
-        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
-          <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-        </svg>
-        <input type="text" id="search-input" class="search-input" placeholder="e.g. dropshipping, pet care, Mark Tilbury…" autocomplete="off">
-        <button type="button" id="clear-search-btn" class="clear-search-btn" hidden aria-label="Clear search">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
-          </svg>
-        </button>
-      </div>
-      <button type="button" id="search-submit-btn" class="search-submit-btn" aria-label="Search">Search</button>
-    </div>
-
-    <p id="search-feedback" class="search-feedback" hidden aria-live="polite"></p>
-
-    <div id="search-loading" class="search-loading" hidden aria-live="polite">
-      <span class="spinner" aria-hidden="true"></span>
-      Searching…
-    </div>
-  </div>
-
-  <div class="saved-row">
-    <span id="saved-count" class="saved-count">0 gigs saved</span>
-    <label class="saved-toggle">
-      <input type="checkbox" id="saved-only-toggle">
-      <span>View Saved Only</span>
-    </label>
     <button type="button" id="download-saved-btn" class="download-btn">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path d="M12 3V15M12 15L7 10M12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -74,6 +43,29 @@
       </svg>
       Download Saved Gigs (.txt)
     </button>
+  </div>
+
+  <div class="search-row">
+    <div class="search-field">
+      <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+        <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <input type="text" id="search-input" class="search-input" placeholder="e.g. dropshipping, pet care, Mark Tilbury…" autocomplete="off">
+      <button type="button" id="clear-search-btn" class="clear-search-btn" hidden aria-label="Clear search">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <button type="button" id="search-submit-btn" class="search-submit-btn" aria-label="Search">Search</button>
+  </div>
+
+  <p id="search-feedback" class="search-feedback" hidden aria-live="polite"></p>
+
+  <div id="search-loading" class="search-loading" hidden aria-live="polite">
+    <span class="spinner" aria-hidden="true"></span>
+    Searching…
   </div>
 
   <div class="db-status">Live Database — Updated Continuously</div>
