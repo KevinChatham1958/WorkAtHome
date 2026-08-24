@@ -454,46 +454,50 @@ a { color: inherit; }
 }
 .card.expanded .expand-toggle .chevron { transform: rotate(180deg); }
 
-/* ---------- Action icons: save + copy (top-right of card) ---------- */
+/* ---------- Action row: save + copy (top-right of card) ---------- */
 .card-actions {
   display: flex;
-  align-items: center;
-  gap: 6px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
   flex-shrink: 0;
+}
+@media (max-width: 640px) {
+  .card-head { flex-direction: column; align-items: flex-start; }
+  .card-actions { align-items: flex-start; }
 }
 
 .save-toggle {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  border: 1px solid var(--border-strong);
-  border-radius: 8px;
+  gap: 8px;
+  font-size: 0.9rem;
   color: var(--text-muted);
   cursor: pointer;
   user-select: none;
-  transition: all 0.15s;
+  white-space: nowrap;
 }
-.save-toggle:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
-.save-toggle.saved { color: var(--accent); border-color: var(--accent); background: var(--accent-bg); }
-.save-toggle .bookmark-icon { display: flex; }
+.save-toggle input { accent-color: var(--accent); cursor: pointer; width: 16px; height: 16px; }
+.save-toggle.saved { color: var(--accent); font-weight: 600; }
+.save-toggle .bookmark-icon { flex-shrink: 0; }
 
 .copy-btn {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
+  gap: 6px;
   background: transparent;
-  border: 1px solid var(--border-strong);
-  border-radius: 8px;
-  color: var(--text-muted);
+  border: none;
+  color: var(--text-faint);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
   cursor: pointer;
+  text-align: left;
   padding: 0;
-  transition: all 0.15s;
+  white-space: nowrap;
+  transition: color 0.15s;
 }
-.copy-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+.copy-btn svg { flex-shrink: 0; }
+.copy-btn:hover { color: var(--accent); }
 
 /* ---------- Footer ---------- */
 .site-footer {
