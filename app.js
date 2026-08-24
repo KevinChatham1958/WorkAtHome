@@ -312,12 +312,12 @@ function buildCard(idea) {
     <div class="card-head">
       <h3 class="card-title">${escapeHtml(toTitleCase(idea.name))}</h3>
       <div class="card-actions">
+        <button class="copy-btn" type="button">${COPY_SVG}<span>Copy This Entire Gig to Clipboard</span></button>
         <label class="save-toggle ${isSaved ? 'saved' : ''}">
           <input type="checkbox" class="save-checkbox" ${isSaved ? 'checked' : ''}>
           <span class="bookmark-icon">${isSaved ? BOOKMARK_FILLED_SVG : BOOKMARK_OUTLINE_SVG}</span>
           <span>Save for Later</span>
         </label>
-        <button class="copy-btn" type="button">${COPY_SVG}<span>Copy This Gig to Clipboard</span></button>
       </div>
     </div>
     <div class="card-badges">
