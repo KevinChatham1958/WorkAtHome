@@ -1805,6 +1805,27 @@
     ]
   },
   {
+    "id": "google-search-ads-pdf-products",
+    "name": "Google Search Ads for narrow, problem-specific PDF products",
+    "category": "Marketing & content",
+    "tags": [
+      "Google Ads",
+      "PDF",
+      "digital products",
+      "paid traffic"
+    ],
+    "cost": "Low to moderate startup cost (ad spend)",
+    "found": "Brandon Belcher",
+    "what": "Selling narrow, problem-specific PDF products, such as a guide for parents dealing with a specific sleep issue, by targeting people already typing that exact problem into Google, using Google Search Ads rather than social media ads.",
+    "pitch": "The presenter, with 17 years selling digital products, argues Google Search Ads target the most purchase-ready traffic possible, since someone typing a specific, painful search query at any hour is actively looking for a solution right now, unlike social media traffic which has to be interrupted mid-scroll. Recommends picking a highly specific long-tail keyword problem, using the Google Keyword Tool to confirm real search volume, and using AI to draft and self-rate multiple ad headline and description options before choosing the highest-rated ones.",
+    "best": "Someone comfortable identifying a narrow, specific, painful problem within a broad niche rather than a generic topic, and willing to actively manage a paid ad account rather than relying purely on organic traffic.",
+    "truth": "The specific example math given, 100 clicks a day, 5 sales at $30 each, is presented as an illustrative scenario rather than the presenter's own verified campaign data. The core strategic argument, that search-intent traffic converts differently than social interruption-based traffic, is a well-established digital marketing principle independent of the specific numbers used to illustrate it.",
+    "url": "https://www.youtube.com/watch?v=_z6r6p-Od80",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "reselling-liquidation-goods",
     "name": "Reselling liquidation and returned goods",
     "category": "E-commerce",
@@ -2962,6 +2983,27 @@
     ]
   },
   {
+    "id": "low-ticket-pdf-trend-research-solo-ads",
+    "name": "Low-ticket PDF selling using trend research and solo ads",
+    "category": "Marketing & content",
+    "tags": [
+      "PDF",
+      "digital products",
+      "solo ads",
+      "trend research"
+    ],
+    "cost": "Low startup cost",
+    "found": "Brandon Belcher",
+    "what": "Selling low-ticket PDF products, $7-47, by researching in-demand topics through Google autocomplete, Google Trends, and Pinterest Trends, then driving traffic through a mix of small-budget social ads, solo ads, and a niche-focused Instagram content account.",
+    "pitch": "The presenter argues most beginners over-focus on high-ticket courses, when consistent daily low-ticket sales compound faster and require less trust to close. Recommends choosing health, wealth, or relationship niches specifically, using Google's autocomplete suggestions and Google and Pinterest Trends to find exactly what people are already searching for, then testing traffic through inexpensive social ads, solo ads, a flat fee to have an established list-owner in the same niche email their list on your behalf, or a niche Instagram account posting consistent content until the algorithm picks it up organically. Recommends pricing between $7 and $47 and testing a single PDF for about two weeks before concluding it isn't working.",
+    "best": "Someone comfortable running frequent, low-cost tests across multiple traffic sources rather than betting everything on one channel, and willing to manage ad spend directly on an ongoing basis.",
+    "truth": "The presenter's self-reported $741,000 total is shown via an on-screen dashboard screenshot, not independently verified. He mentions a service selling pre-made, done-for-you PDF products with sales pages already built as an option for those who don't want to create their own PDF, similar to the private-label-rights model mentioned elsewhere in this database, a legitimate but not fully original-content path. The presenter also promotes a paid PDF-generation tool throughout the video.",
+    "url": "https://www.youtube.com/watch?v=6Ter9q3NsfE",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "ai-rapid-app-validation",
     "name": "A 7-day method for testing app ideas cheaply",
     "category": "AI & automation",
@@ -3018,6 +3060,28 @@
     "best": "Someone who already has, or is building, a coaching or consulting offer and wants a book specifically as a lead-generation tool, rather than someone who just wants to write a book for its own sake.",
     "truth": "The specific Claude techniques described (loading a project with raw material, iterating on writing-style samples before drafting, asking Claude to review and self-critique its own chapters against the original brief) are genuinely practical, tool-agnostic advice that would help any long-form AI writing project, not just books. Worth knowing upfront: the presenter runs a paid program (a book called *The Author Operating System* plus an AI prompt pack) that this video funnels toward, and the specific 2%-conversion figure is stated as a rule of thumb without a cited source, so it's worth treating as a general industry expectation rather than an audited statistic.",
     "url": "https://www.youtube.com/watch?v=7bgNTe4Pqso"
+  },
+  {
+    "id": "free-ai-workshops-high-ticket-consulting",
+    "name": "Free AI workshops as a lead-in to high-ticket consulting",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "consulting",
+      "workshops",
+      "coaching"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Brooke Wright",
+    "what": "Building an AI consulting or coaching business by teaching free live workshops to industry peers and local businesses on how to use AI in their specific field, using the workshops to build authority and an email list before selling higher-priced consulting.",
+    "pitch": "The presenter, a former corporate admin with no technical background, argues selling a course, membership, or agency service first requires an audience most beginners don't have, whereas free workshops work at any audience size since attendees are the payoff, not scale. She walks through the full system: identify a one-sentence niche, use Claude to develop a workshop from a voice-noted brain dump of your own expertise, use Claude Code to build a branded signup landing page connected to email tools, recruit attendees through personal outreach and local business or chamber groups, run the workshop giving one to three clear takeaways, and close by offering one clear next step rather than multiple options.",
+    "best": "Someone with real industry or professional experience willing to teach it to others, comfortable with in-person or live-online hustle rather than paid ads, since the presenter ran no ads at all.",
+    "truth": "The presenter discloses she had a financially supporting spouse during her early growth period, a meaningful advantage not available to everyone attempting this. She's candid that early consulting rates were unprofitable, $280 then $400 for 90 minutes, before being advised to raise them to $1,200, and that her first workshop had only two attendees, an honest low-starting-point example rather than a highlight reel. She runs a paid membership community mentioned throughout the video.",
+    "url": "https://www.youtube.com/watch?v=NB7T32OxfrM",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
   },
   {
     "id": "tote-rental-business",
@@ -3734,6 +3798,27 @@
     ]
   },
   {
+    "id": "offer-design-advertorial-marketing-framework",
+    "name": "Offer design and \"advertorial\" marketing framework",
+    "category": "Marketing & content",
+    "tags": [
+      "offer design",
+      "advertorial",
+      "Meta Ads",
+      "marketing strategy"
+    ],
+    "cost": "Low to moderate startup cost (ad spend)",
+    "found": "Gregory",
+    "what": "A three-part framework for designing and marketing a sellable offer, built around targeting a genuinely desperate buyer, removing as much friction as possible from the path to a result, and driving traffic using content styled to look like an independent educational article rather than a direct advertisement.",
+    "pitch": "The presenter argues a successful offer needs three things: a starving crowd, a buyer who urgently needs the solution rather than a casually interested one, a push-button experience where the buyer does as little work as possible to get their result, and delivering what the buyer actually needs behind what they said they wanted. He walks through his advertising method: rather than a direct video ad linking straight to a sales page, build a static image ad linking to an article-styled landing page, an advertorial, that reads like independent educational content, for example a top-5-ways-to-do-X list with the presenter's own offer positioned as the number one recommendation, building trust before ever mentioning a purchase. Also covers a Meta Ads scaling approach based on tracking cost-per-acquired-customer against total offer value, aiming for roughly a 3x return before increasing spend.",
+    "best": "Someone with an existing offer to market who's comfortable managing paid ad campaigns directly and creating content-styled ad pages, rather than someone looking for a beginner-friendly, ad-free starting point.",
+    "truth": "The presenter doesn't disclose whether these advertorial pages are labeled as advertising or sponsored content anywhere in the description given, worth knowing since content deliberately designed to not look like an ad raises a real transparency question for anyone building one, independent of whether the underlying tactic, native-style advertising, is a common and generally legal marketing format. Revenue figures mentioned, $57k in a single day across his portfolio, are self-reported without account verification shown on screen.",
+    "url": "https://www.youtube.com/watch?v=3-RNNH27CWM",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "etsy-google-sheets-templates-claude-recreation",
     "name": "Recreating proven best-selling Etsy Google Sheets templates using Claude",
     "category": "Digital & subscription products",
@@ -4008,6 +4093,27 @@
     ]
   },
   {
+    "id": "tiktok-shop-traffic-kdp-books",
+    "name": "Driving TikTok Shop traffic to Amazon KDP books instead of relying on reviews or ads",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Amazon KDP",
+      "TikTok Shop",
+      "publishing",
+      "marketing"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Jonathan Nilsen",
+    "what": "Driving external traffic from TikTok Shop to Amazon KDP book listings, rather than relying on Amazon's own reviews or paid ads, to rank books organically through outside viral traffic instead of gaming Amazon's review system.",
+    "pitch": "The presenter argues the older KDP playbook, stacking reviews quickly then relying on Amazon ads, is breaking down on three fronts: Amazon is actively cracking down on review manipulation, AI has commoditized book quality so a well-made book is no longer a real differentiator, and Amazon ad costs keep climbing as more AI-assisted publishers compete for the same keywords. His fix: build a following on TikTok, faceless content is fine to start, promoting a specific book, let viral TikTok traffic drive organic Amazon rank and reviews without needing to manipulate anything, and use TikTok Shop's direct-purchase feature as a second, independent sales channel.",
+    "best": "Someone willing to build a TikTok content presence around their book, even faceless, rather than relying purely on Amazon's internal ecosystem, and comfortable treating this as a genuinely early, narrowing window rather than a permanent strategy.",
+    "truth": "The presenter cites his own TikTok Shop sales, $350k in 2025, $300k so far this year, and runs a paid coaching program teaching this exact strategy, so there's a clear incentive to frame the opportunity as urgent and time-limited. The underlying diagnosis, that Amazon's review-manipulation crackdown and AI-driven quality commoditization are real trends, is a reasonable read of the current KDP landscape independent of the specific program being sold.",
+    "url": "https://www.youtube.com/watch?v=PThbzpRjqRs",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "ai-built-shopify-store-claude",
     "name": "AI-built Shopify store using Claude",
     "category": "E-commerce",
@@ -4146,6 +4252,27 @@
     "best": "Someone who wants a very low-cost, low-technical-skill way to test a print-on-demand product idea, particularly if they enjoy writing prompts, journaling formats, or simple layout work in Canva.",
     "truth": "This is conceptually close to the already-published Amazon KDP coloring book entry, same low-content, AI-assisted, print-on-demand pattern, just applied to guided journals instead of coloring books. The $35,955/month figure in the title refers to an existing product she found and used as inspiration, not verified earnings from her own recreation of it, so it should be read as a market-demand signal, not a personal income claim.",
     "url": "https://www.youtube.com/watch?v=ll1m-oOQfqY",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "one-day-ai-digital-product-launch",
+    "name": "One-day AI digital product launch using free tools and a simple storefront",
+    "category": "Digital & subscription products",
+    "tags": [
+      "AI tools",
+      "digital products",
+      "Canva",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Kathryne LaBella",
+    "what": "Creating and launching a single, specific digital product, a guide, workbook, template, or planner, in one day using AI to draft the content and Canva to design it, then selling it through a simple creator storefront and free short-form content rather than paid ads.",
+    "pitch": "The presenter, a mother of three, walks through a literal 6-hour launch plan: pick a narrow niche and specific audience, ask AI for 20 simple product ideas that solve one problem for that audience, generate a first draft with AI, explicitly warning against copy-pasting AI output without adding personal voice, design it in Canva using AI redesign prompts, set up a storefront, write sales copy answering who it's for, what problem it solves, what's included, and why buy today, then launch with five pieces of short-form content covering the problem, the solution, a tutorial, a personal story, and the offer. Also mentions PLR, private label rights, products as an optional shortcut instead of creating from scratch.",
+    "best": "Someone comfortable posting short-form content consistently after launch, two to three times daily for 30 days recommended, as the primary traffic source, rather than someone wanting to rely on paid ads from day one.",
+    "truth": "The presenter's self-reported $400,000-plus total figure is not shown with account verification on screen. The PLR shortcut mentioned, buying a pre-made rebrandable template rather than creating original content, is a mainstream, legitimate digital-product practice distinct from resell-rights schemes, though it does mean the product in that path isn't originally created by the seller, worth knowing if originality matters to a given reader.",
+    "url": "https://www.youtube.com/watch?v=w47bdldbh30",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -4771,6 +4898,28 @@
     "best": "Someone with no graphic design background who's willing to create many design variations, post consistently, and let real sales data (not personal taste) decide which designs to keep making.",
     "truth": "The Emily Odio-Sutton case study is independently reported by CNBC Make It, which reviewed her actual sales documents, a real, checkable source rather than a secondhand claim, though her original business sold t-shirts and candles, not hats, this video applies her general framework to a new product category rather than repeating her exact results. Worth knowing: the presenter uses, and links to, a specific print-on-demand platform (Gelato) with a referral incentive, though the underlying niche-selection and design-testing framework doesn't require that specific platform to apply.",
     "url": "https://www.youtube.com/watch?v=ylvFxzIQnkA"
+  },
+  {
+    "id": "gohighlevel-website-receptionist-review-bundle",
+    "name": "AI website, receptionist, and review-automation bundle for local businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "local business",
+      "GoHighLevel",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost (no-code platform subscription)",
+    "found": "Quinn Nolan",
+    "what": "Finding local businesses with outdated or broken websites via Google Maps, rebuilding their site using an AI website builder often cloned from a competitor's layout, then bundling in an AI voice receptionist, automated review requests, and follow-up messaging, sold as one package starting around $99-300 a month.",
+    "pitch": "The presenter walks through the process live: search Google Maps for a business with a good rating but few reviews, find a top-performing competitor in the same market, take screenshots of that competitor's site and have an AI website-building platform clone the layout for the new client, then add an AI voice receptionist trained on the business, an automated review-request workflow triggered after each completed appointment, and follow-up text and email sequences for new leads, all built inside one no-code software platform. Cites public competitors like ServiceTitan, reported at hundreds of millions in annual revenue, as evidence this bundle of services is a real, provenly monetizable category.",
+    "best": "Someone comfortable with basic no-code platform setup and local outreach, willing to start at a modest price and raise it with experience.",
+    "truth": "The presenter has a financial incentive tied to sign-ups for the specific software platform used throughout, a referral link is mentioned repeatedly. The core claim that established, similar companies exist at real scale is independently verifiable since ServiceTitan is a public company, which supports the category's legitimacy even though the presenter's own results aren't shown with account verification.",
+    "url": "https://www.youtube.com/watch?v=g-vdeT4s7OE",
+    "situation_tags": [
+      "Phone/sales-based",
+      "Home office, client-facing"
+    ]
   },
   {
     "id": "claude-code-local-business-website-agency",
