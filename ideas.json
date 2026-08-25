@@ -1354,6 +1354,27 @@
     ]
   },
   {
+    "id": "domain-investing-lead-gen-microsites",
+    "name": "Domain investing and instant lead-gen microsites for underserved local searches",
+    "category": "Marketing & content",
+    "tags": [
+      "domain investing",
+      "local SEO",
+      "lead generation",
+      "microsites"
+    ],
+    "cost": "Very low startup cost (roughly $10 per domain)",
+    "found": "Chris Koerner (guest on Marketing Against the Grain)",
+    "what": "Speculatively buying inexpensive, often-overlooked domain names, either to build instant, AI-generated lead-generation microsites for underserved local-service search terms, or to hold and resell premium address-based domains to developers and businesses.",
+    "pitch": "The guest argues .com domains are still wildly underpriced relative to their potential value. He demonstrates the method with a pressure-washing example: search a service-plus-city combination, and if there's real search volume but only one or two competitors rather than a crowded market with paid ads and a map pack, buy a cheap exact-match domain, use AI tools to quickly build a generic lead-gen site, then wait. Once inbound leads start arriving, give the first few away free to a real local business to build trust, then start charging per lead once traffic proves out. A parallel version: use AI to generate lists of the most common street names and building-address numbers in a market, buy the matching domains in bulk for a few dollars each, and hold them to resell later to real estate developers or property buyers who want that exact address online.",
+    "best": "Someone comfortable with a low-cost, patience-based numbers game, many cheap domains, most going nowhere, a few paying off, rather than someone wanting a single fast-moving business.",
+    "truth": "This is a live, off-the-cuff brainstorm between two marketing hosts and a serial entrepreneur guest, not a personally tested case study with real revenue numbers from either idea, so treat the specific dollar figures as illustrative reasoning rather than demonstrated results. The core logic, buying long-established, still-undervalued domain inventory, is presented as a real and repeatable opportunity independent of the specific example given.",
+    "url": "https://www.youtube.com/watch?v=FahMd3qDblE",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "local-lead-gen-site-rental",
     "name": "Local lead generation website rental business",
     "category": "Local & professional services",
@@ -1623,6 +1644,26 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
+    "id": "amazon-kdp-validation-method",
+    "name": "A validation trick for any Amazon KDP book idea",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "research method",
+      "near-zero cost"
+    ],
+    "cost": "Near-zero cost",
+    "found": "Sean Dollwet",
+    "what": "Before writing any book, check the Amazon Best Sellers Rank (BSR) of similar, already-published books in that topic. A BSR under roughly 80,000 signals there's real, ongoing demand for that kind of book, worth knowing before you invest the time to write one.",
+    "pitch": "This isn't a business on its own, it's a simple, free way to de-risk any print-on-demand book idea, coloring books included, before spending time on it.",
+    "best": "Anyone considering the Amazon KDP coloring book idea, or any similar print-on-demand book concept, who wants a cheap gut-check before committing time.",
+    "truth": "The presenter also promotes a paid AI writing tool alongside this technique, but the validation method itself works fine using just a free Chrome extension and Amazon's own listings.",
+    "url": "https://www.youtube.com/watch?v=vhuo0A7Oy74",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-competitor-script-harvest",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (competitor-script research method)",
     "category": "Content & personal brand",
@@ -1783,6 +1824,28 @@
       "Needs inventory storage",
       "Requires travel to source or inspect goods",
       "Needs a truck or cargo vehicle"
+    ]
+  },
+  {
+    "id": "ai-voice-agents-chris-koerner",
+    "name": "AI voice agents for small local businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "voice agents",
+      "local business",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost",
+    "found": "Chris Koerner (guest on Marketing Against the Grain)",
+    "what": "Building and installing AI voice agents for small local businesses, plumbers, landscapers, restaurants, that handle inbound appointment booking and outbound confirmation calls, sold as a monthly service.",
+    "pitch": "The guest argues voice AI has crossed a real threshold in the last couple of years, from noticeably laggy and awkward to fast and natural, making it a genuinely usable tool now rather than a future promise. He recommends charging $200 to $500 a month per small business client, using existing plug-and-play platforms rather than building from scratch, and closing the sale by calculating the exact dollar value of missed calls for that specific business, missed calls per day, times close rate, times average job size, before mentioning price.",
+    "best": "Someone comfortable with basic sales conversations with small business owners, since the actual technical setup is accessible via existing no-code platforms rather than requiring deep technical skill.",
+    "truth": "This is real-time podcast brainstorming, not a personally run case study from either host. The guest cites that he personally knows several people charging in this range, but no account or client verification is shown. The core argument, that AI voice agents have recently become genuinely usable and that missed-call recovery is easy to justify with simple math, is a reasonable and internally consistent argument.",
+    "url": "https://www.youtube.com/watch?v=FahMd3qDblE",
+    "situation_tags": [
+      "Phone/sales-based",
+      "Home office, client-facing"
     ]
   },
   {
@@ -2046,6 +2109,27 @@
     ]
   },
   {
+    "id": "claude-pressure-testing-prompting-method",
+    "name": "A Claude prompting method for pressure-testing and narrowing business ideas",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "prompting",
+      "idea validation",
+      "roadmap"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Just Teachin Stuff",
+    "what": "A specific two-step prompting method for using Claude to find a business idea: first ask it for realistic, ranked ideas given exact starting constraints, then follow up with a second prompt explicitly asking Claude to argue against the top idea and give the strongest case it's actually a bad choice, before finally asking for narrower, more specific niches within the chosen category.",
+    "pitch": "The presenter argues most people ask AI one question, get one confident-sounding answer, and build a business on it without ever pressure-testing it, which is how people waste months on a flawed idea. He demonstrates asking Claude to rank ideas by speed to first dollar and repeatability starting from zero, then explicitly instructing it not to soften a follow-up critique, which surfaces real structural risks, no built-in distribution, market saturation, a 30 to 90 day period of near-zero income, that the first, more agreeable answer didn't mention.",
+    "best": "Someone comfortable using AI as a genuine sparring partner rather than a source of validation, willing to sit with an idea's real downsides before committing time to it.",
+    "truth": "The presenter runs a paid community and mentions it during the video, so there's a commercial incentive behind the demonstration, though the specific prompting technique shown, asking for a rebuttal, not just an idea, is a genuinely useful and independently verifiable practice regardless of that incentive.",
+    "url": "https://www.youtube.com/watch?v=wnzBbsmsQNk",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "vibe-coding-process-to-profit-framework",
     "name": "Turning a repeated manual process into a same-day AI tool",
     "category": "AI & automation",
@@ -2205,21 +2289,22 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
-    "id": "amazon-kdp-validation-method",
-    "name": "A validation trick for any Amazon KDP book idea",
-    "category": "Physical & print products",
+    "id": "kdp-five-validated-ebook-niches",
+    "name": "5 validated Amazon KDP ebook niches (sports trivia, bill trackers, K-pop coloring books, anti-inflammatory cookbooks, financial literacy for young adults)",
+    "category": "Digital & subscription products",
     "tags": [
+      "Amazon KDP",
+      "ebooks",
       "print on demand",
-      "research method",
-      "near-zero cost"
+      "niche research"
     ],
-    "cost": "Near-zero cost",
+    "cost": "Very low startup cost",
     "found": "Sean Dollwet",
-    "what": "Before writing any book, check the Amazon Best Sellers Rank (BSR) of similar, already-published books in that topic. A BSR under roughly 80,000 signals there's real, ongoing demand for that kind of book, worth knowing before you invest the time to write one.",
-    "pitch": "This isn't a business on its own, it's a simple, free way to de-risk any print-on-demand book idea, coloring books included, before spending time on it.",
-    "best": "Anyone considering the Amazon KDP coloring book idea, or any similar print-on-demand book concept, who wants a cheap gut-check before committing time.",
-    "truth": "The presenter also promotes a paid AI writing tool alongside this technique, but the validation method itself works fine using just a free Chrome extension and Amazon's own listings.",
-    "url": "https://www.youtube.com/watch?v=vhuo0A7Oy74",
+    "what": "Five specific, already-validated Amazon KDP book niches, each identified using Amazon's Best Sellers Rank as a live demand signal rather than guessing at a topic.",
+    "pitch": "The presenter's core validation method, using Amazon's Best Sellers Rank as a live demand signal, is applied across five real example books currently earning $500 to over $4,000 a month each. He walks through why each niche has durable demand, what specific angle differentiates a winning book from a generic one in that niche, such as targeting a bill tracker specifically for couples instead of a generic tracker, and where trademark risk applies, such as avoiding terms like World Cup or real K-pop artist likenesses in titles and covers to avoid account-termination risk.",
+    "best": "Someone willing to research a specific niche and angle rather than copying an existing book's exact format, and for the more content-heavy niches, someone with relevant subject knowledge or design skill, or willing to hire it out.",
+    "truth": "The presenter discloses using a paid research tool throughout but is explicit a free method, checking Best Sellers Rank directly on each book's product page or using a free Chrome extension, works just as well. The specific per-book daily-earnings figures shown are pulled from the same third-party estimation tool used elsewhere in this database, not confirmed royalty statements. The video closes promoting the presenter's own free coaching consultation call.",
+    "url": "https://www.youtube.com/watch?v=BE6Ygtc8Sk0",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -2954,6 +3039,28 @@
       "Local travel required",
       "Needs a truck or cargo vehicle",
       "Needs inventory storage"
+    ]
+  },
+  {
+    "id": "paid-ai-business-audits-chris-koerner",
+    "name": "Paid AI business audits for people in your existing network",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "consulting",
+      "business audit",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Chris Koerner (guest on Marketing Against the Grain)",
+    "what": "Offering paid AI audits to small business owners in your existing personal network, recording an informal voice-memo conversation about their business pain points, then feeding that recording into an AI chat tool to generate a diagnostic report, which is sold as a standalone PDF and used as a foot-in-the-door for higher-ticket AI implementation work afterward.",
+    "pitch": "The guest argues this doesn't require any AI or business expertise to start, just access to business owners you already know, since roughly 1 in 10 adults owns a business, most people's existing network already includes several. He walks through the exact process: record a casual conversation about a friend's business problems on a phone's voice memo app, upload it to an AI chat tool asking it to identify opportunities for AI to help, then sell the resulting 5 to 20 page report for hundreds to low thousands of dollars, using it as the opening move toward selling actual implementation work afterward.",
+    "best": "Someone with an existing personal or professional network that includes small business owners, willing to have informal conversations before formal sales pitches.",
+    "truth": "This is presented live in a podcast brainstorm, and while the guest says he knows people doing this actively, no client results or account verification are shown. The core mechanic, using a casual recorded conversation as raw material for an AI-generated business diagnostic, is a genuinely low-cost, low-skill way to create a sellable first deliverable, though the leap from a report to being paid for implementation work assumes real follow-through skill the video doesn't cover in depth.",
+    "url": "https://www.youtube.com/watch?v=FahMd3qDblE",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
     ]
   },
   {
@@ -3835,6 +3942,28 @@
     "url": "https://www.youtube.com/watch?v=rtp1nZrhroA"
   },
   {
+    "id": "free-lead-magnet-websites-whitelabel-upsells",
+    "name": "Free lead-magnet websites for local businesses, monetized via white-label platform subscription and AI upsells",
+    "category": "Local & professional services",
+    "tags": [
+      "local business",
+      "white label",
+      "AI tools",
+      "recurring revenue"
+    ],
+    "cost": "Very low startup cost (white-label software subscription)",
+    "found": "John Whitford",
+    "what": "Finding local businesses with no website or a poor one via Google Maps, building and giving them a free website as a foot-in-the-door gift, then charging a low monthly fee for hosting it on a white-label all-in-one software platform, and upselling additional AI features over time.",
+    "pitch": "The presenter walks through the full funnel live: search Google Maps for a specific business type and city, skip the already-top-ranked results and look instead for a solid business with no website or a thin one, build them a free website hosted on a white-label software platform combining hosting, a CRM, and AI tools in one, then once they're using it, upsell a chat widget, roughly $50 to $300 a month, a speed-to-lead automated follow-up workflow that texts and emails new leads within seconds of a missed call, roughly $200 to $500 a month, and an AI voice receptionist trained on that specific business, $500 to $1,000 a month, stacking a single client to several hundred dollars a month in recurring revenue.",
+    "best": "Someone comfortable with local outreach and willing to give away the first deliverable for free to build trust before charging for anything, rather than pitching a paid product cold.",
+    "truth": "The presenter discloses over 2,500 paying software customers and personal financial independence from this business, but individual client revenue figures shown are explicitly framed as illustrative, conservative estimates rather than guaranteed or typical results. The presenter has a financial incentive to promote sign-ups for the specific software platform used throughout the video.",
+    "url": "https://www.youtube.com/watch?v=YFf3jRZ0bho",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ]
+  },
+  {
     "id": "remote-run-residential-cleaning-business",
     "name": "Remote-run residential cleaning business",
     "category": "Local & professional services",
@@ -3958,6 +4087,27 @@
     "situation_tags": [
       "Strictly in-home",
       "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "custom-ai-pet-portraits-etsy",
+    "name": "Custom AI pet portraits sold on Etsy",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "AI tools",
+      "pet portraits",
+      "personalized products"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Just Teachin Stuff",
+    "what": "Creating personalized, custom AI-generated pet portraits, in a specific illustration style such as minimalist line art, from a customer's own photo, sold as a made-to-order digital product on Etsy.",
+    "pitch": "The presenter walks through the reasoning live: personalized products avoid the saturation of generic AI-template shops since each one is made to order from a real photo. He identifies the typical buyer as someone buying a gift for a pet-obsessed friend or family member rather than pet owners buying for themselves, and demonstrates the actual creation process, uploading a customer's dog photo to an AI tool along with a style reference image, generating a finished portrait in under a minute, then using Claude to write the full Etsy listing from the finished image.",
+    "best": "Someone willing to do light per-order customization work for each sale, uploading a customer's specific photo, rather than a fully passive, pre-made product.",
+    "truth": "The specific pricing given, $18 to $28 per portrait, and market-size figures cited are stated without a named source in the video, so should be treated as illustrative rather than independently verified. The core creation process is demonstrated live and is genuinely as fast as claimed.",
+    "url": "https://www.youtube.com/watch?v=wnzBbsmsQNk",
+    "situation_tags": [
+      "Strictly in-home"
     ]
   },
   {
@@ -4143,6 +4293,27 @@
     "url": "https://www.youtube.com/watch?v=AyaAQguyKVQ"
   },
   {
+    "id": "choosing-digital-product-format",
+    "name": "Choosing between video course, PDF bundle, or audio file digital product formats",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "video courses",
+      "PDF bundles",
+      "strategy"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Maria Wendt",
+    "what": "A framework for choosing between the three digital product formats that reliably sell well, video courses, PDF bundles, and audio files, each with different rules for what makes them succeed.",
+    "pitch": "The presenter, who says she's made $14 million primarily from video courses, argues video courses are both the easiest to create, filmed on a webcam, no editor needed, and the easiest to sell, but only when kept hyper-specific and short, fewer videos that fully deliver the promised result outperform bloated, comprehensive-feeling ones. PDF bundles work by the opposite logic: they need to feel substantial, 100-plus pages or many templates, to justify their price, since perceived value comes from volume rather than brevity. Audio files are flagged as the hardest to create and sell, requiring a genuinely audio-only reason to exist.",
+    "best": "Someone deciding what format to build their first digital product in, particularly beginners, for whom the presenter directly recommends starting with a hyper-specific video course.",
+    "truth": "The specific dollar figures cited, a student's roughly $40,000 gardening-guide launch, the presenter's own $14 million in course sales, are self-reported without account verification shown on screen. The format-specific advice itself is presented as a consistent pattern across the presenter's own students, not a one-off claim.",
+    "url": "https://www.youtube.com/watch?v=pS87Q5HPI4U",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "interactive-ai-digital-products-vibe-coding",
     "name": "Interactive AI-native digital products built with vibe coding",
     "category": "Digital & subscription products",
@@ -4219,6 +4390,27 @@
     "best": "Someone comfortable with trial-and-error debugging, since getting from a rough demo to something clients would actually pay for takes real iteration.",
     "truth": "Tilbury shows a genuinely rough, unpolished first attempt rather than a highlight reel, which is a good transparency signal. Gadzhi's independent take agrees the upside is real but flags that managing client expectations and ongoing bugs is the harder, less glamorous part of this business.",
     "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "digitizing-underserved-b2b-niches",
+    "name": "Digitizing underserved, non-tech B2B niche industries",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "B2B",
+      "niche industries",
+      "software"
+    ],
+    "cost": "Low startup cost",
+    "found": "Marketing Against the Grain",
+    "what": "Building simple, modern AI-powered software for old, non-digitized B2B service industries, such as property inspectors and surveyors, that are still relying on outdated, expensive legacy software, replacing manual paperwork with an AI voice-to-report tool.",
+    "pitch": "The host describes researching an inspection-industry vendor charging thousands of euros a year for outdated, difficult-to-use software in an industry doing tens of millions in revenue, and argues that in a day or two, a modern AI tool, a voice agent to capture notes and photos transcribed directly into the required report format, could replace that entire workflow. The broader strategy: look for niche B2B sectors that have never really adopted modern software and still generate significant revenue, since those businesses tend to be underserved both by better tools and by any real marketing.",
+    "best": "Someone willing to research a genuinely obscure, unglamorous B2B niche in depth before building anything, rather than someone looking for a well-known, already-crowded market.",
+    "truth": "This is a spontaneous idea shared live on a podcast, not something the presenter has personally built or sold yet. No specific revenue example or working product is shown, so treat it as a promising direction to research rather than a proven business.",
+    "url": "https://www.youtube.com/watch?v=FahMd3qDblE",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -4482,6 +4674,27 @@
     "best": "Someone already comfortable with GoHighLevel or willing to learn it, targeting local businesses or coaches who already post content but let engagement and calls fall through the cracks.",
     "truth": "The presenter shows a real (if unverified) revenue screenshot on screen, over $140,000 a month in recurring revenue from 40 clients, a stronger transparency habit than most in this category. Worth knowing as a genuinely interesting meta-detail: the presenter discloses partway through that an AI-generated clone of himself, not the real person live, is delivering the training, itself a demonstration of the kind of AI leverage being pitched. This shares the same underlying platform and general local-business AI service space as other GoHighLevel and voice-agent entries already in this database; the specific contribution here is the three-piece bundling strategy and the comment-automation piece, not phone-answering AI on its own.",
     "url": "https://www.youtube.com/watch?v=NeWeUJ87s9E"
+  },
+  {
+    "id": "intimacy-marketing-high-ticket-courses",
+    "name": "\"Intimacy marketing\" via live events for selling high-ticket courses",
+    "category": "Marketing & content",
+    "tags": [
+      "marketing",
+      "high ticket",
+      "webinars",
+      "email marketing"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Olly Richards - Business",
+    "what": "A marketing framework for selling high-ticket online courses or coaching, built around replacing direct, constant sales emails with free or low-cost live events designed to build a real sense of connection with an audience before ever pitching the main product.",
+    "pitch": "The presenter argues that email fatigue and AI-generated content have made direct, frequent sales pitches far less effective, and recommends a hub-and-spoke promotional calendar where live, interactive events, free or low-cost, sit around a central high-ticket product, each one designed to create a sense of closeness with the audience before a sale is ever made. The actual sale then happens either live during the event or in a follow-up email to attendees afterward.",
+    "best": "Someone who already has an audience and an existing course or coaching offer, looking to improve conversion rather than someone starting from zero.",
+    "truth": "The presenter is explicit that this approach is not passive and requires ongoing live engagement, a notably honest departure from passive-income framing common elsewhere in this space. No specific before-and-after revenue figures are given for this exact framework; the argument is presented as reasoning and pattern-observation, not a single case study.",
+    "url": "https://www.youtube.com/watch?v=88sn1MDS3og",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
   },
   {
     "id": "three-c-model-scalable-expertise-business",
@@ -4762,22 +4975,22 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
-    "id": "kdp-five-validated-ebook-niches",
-    "name": "5 validated Amazon KDP ebook niches (sports trivia, bill trackers, K-pop coloring books, anti-inflammatory cookbooks, financial literacy for young adults)",
+    "id": "claude-coauthor-kdp-ebook-workflow",
+    "name": "Claude and co-author.ai step-by-step first KDP ebook workflow",
     "category": "Digital & subscription products",
     "tags": [
       "Amazon KDP",
+      "AI tools",
       "ebooks",
-      "print on demand",
-      "niche research"
+      "beginner friendly"
     ],
     "cost": "Very low startup cost",
     "found": "Sean Dollwet",
-    "what": "Five specific, already-validated Amazon KDP book niches, each identified using Amazon's Best Sellers Rank as a live demand signal rather than guessing at a topic.",
-    "pitch": "The presenter's core validation method, using Amazon's Best Sellers Rank as a live demand signal, is applied across five real example books currently earning $500 to over $4,000 a month each. He walks through why each niche has durable demand, what specific angle differentiates a winning book from a generic one in that niche, such as targeting a bill tracker specifically for couples instead of a generic tracker, and where trademark risk applies, such as avoiding terms like World Cup or real K-pop artist likenesses in titles and covers to avoid account-termination risk.",
-    "best": "Someone willing to research a specific niche and angle rather than copying an existing book's exact format, and for the more content-heavy niches, someone with relevant subject knowledge or design skill, or willing to hire it out.",
-    "truth": "The presenter discloses using a paid research tool throughout but is explicit a free method, checking Best Sellers Rank directly on each book's product page or using a free Chrome extension, works just as well. The specific per-book daily-earnings figures shown are pulled from the same third-party estimation tool used elsewhere in this database, not confirmed royalty statements. The video closes promoting the presenter's own free coaching consultation call.",
-    "url": "https://www.youtube.com/watch?v=BE6Ygtc8Sk0",
+    "what": "A step-by-step method for writing and publishing a first Amazon KDP ebook using Claude to generate a chapter-by-chapter outline and draft, and a free Chrome plugin to check whether similar books are already selling on Amazon before committing to a topic.",
+    "pitch": "The presenter frames the entire business as three steps: find something people already buy, create a simpler version, and put it where buyers already are. He demonstrates asking Claude for a list of profitable ebook ideas, checking each one's real sales data on Amazon via a free Chrome plugin that estimates a book's daily royalties from its public Best Sellers Rank, then having Claude generate a chapter outline before writing one section at a time rather than the whole book at once, since shorter, one-section-at-a-time requests produce less repetitive, higher-quality writing.",
+    "best": "A total beginner willing to follow a specific, structured process step by step, aiming for a first sale rather than a big result out of the gate.",
+    "truth": "The presenter discloses he made $2.3 million with this exact business model before AI tools existed, so Claude speeds up the process rather than being the reason it works. He also discloses selling a prior KDP portfolio for $820,000, and cites student results, $40 in a first day, $161,000 in a first year from 10 books, explicitly labeled as atypical, not typical results. A paid mentorship program is promoted at the end.",
+    "url": "https://www.youtube.com/watch?v=JrFZ_ky7AzE",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -5141,6 +5354,27 @@
     "situation_tags": [
       "Strictly in-home",
       "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "subscription-ai-website-tools-local-business",
+    "name": "Subscription-based custom AI website tools for local businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "web design",
+      "local business",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost (AI coding tool subscription)",
+    "found": "Vendasta",
+    "what": "Building custom, AI-generated tools and dashboards into local business websites, such as ROI-tracking analytics, AI-powered booking systems, or before-and-after photo visualizers, sold as an ongoing monthly subscription with no contract, rather than a one-time website sale.",
+    "pitch": "The presenter, a web agency owner, walks through several real client examples: a car-detailing site with a custom value-from-your-website dashboard calculating estimated revenue from bookings, a bridal shop with a custom booking and CRM system replacing a broken WordPress plugin, and a live, on-camera rebuild of a cookie business's homepage from a single set of Claude Code prompts, roughly 150 iterations, built around what would actually drive revenue for that specific business, not just visual design. Pricing is public and structured as a simple monthly fee, $250 to $450 depending on client, with no upfront cost and cancel-anytime terms.",
+    "best": "Someone with real web design or AI-coding ability willing to build custom, business-specific tools per client rather than reusing one templated product, and comfortable with a no-contract model that trades short-term security for long-term retention.",
+    "truth": "The specific conversion and churn figures cited, over 90% conversion, under 2% monthly churn, and the claim of doubled revenue this year, are self-reported by the guest without account verification shown on screen. The demonstrated live build, from a URL and plain-language instructions to a finished custom homepage in one sitting, is shown directly and is a real, verifiable capability of the AI coding tool used.",
+    "url": "https://www.youtube.com/watch?v=aYx8t2vWR8s",
+    "situation_tags": [
+      "Home office, client-facing"
     ]
   },
   {
