@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/solajveu/public_html/
+    - export DEPLOYPATH=/home/solajveu/sidehustleintel.org/
     - /bin/cp -R * $DEPLOYPATH
