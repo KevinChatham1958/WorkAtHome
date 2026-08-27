@@ -331,7 +331,7 @@ a { color: inherit; }
   justify-content: space-between;
   align-items: flex-start;
   gap: 12px;
-  margin-bottom: 4px;
+  margin-bottom: 0;
 }
 
 .card-title {
@@ -352,7 +352,7 @@ a { color: inherit; }
 .card-meta {
   font-size: 0.9rem;
   color: var(--text-muted);
-  margin: 8px 0 10px;
+  margin: 2px 0 10px;
 }
 
 .card-section {
