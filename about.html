@@ -79,6 +79,25 @@
     margin: 0 0 16px;
   }
 
+  /* FAQ */
+  .faq-item {
+    margin-bottom: 22px;
+  }
+  .faq-item:last-child {
+    margin-bottom: 0;
+  }
+  .faq-question {
+    font-size: 1.02rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 6px;
+  }
+  .faq-answer {
+    font-size: 1.02rem;
+    color: var(--text-primary);
+    margin: 0;
+  }
+
   /* Feedback form */
   .feedback-form {
     border: 1px solid var(--border);
@@ -209,14 +228,59 @@
   </div>
 
   <div class="about-section">
-    <p>Side Hustle Intel is a free, searchable database of work-from-home business ideas.</p>
-    <p>Every entry comes from a real YouTube video — a creator walking through a specific gig, side hustle, or business model. We watch those videos, pull out the idea, and write it up in plain language: what the gig actually is, why the creator thinks it's worth doing, who it's realistically a fit for, and our own honest take — including anything that seems unverified, self-promotional, or worth a second look before you commit time or money.</p>
-    <p>We don't rank ideas or attach scores. We don't cherry-pick winners. If a creator pitched it and it isn't an outright scam or an employment listing in disguise, it's here — plain-language write-up and all — for you to judge for yourself. Every entry links back to the original video, so you can watch the full source and decide independently.</p>
-    <p>The database is growing steadily as we work through a backlog of creator videos, batch by batch.</p>
+    <p>A free, searchable database of thousands (soon to be) of work-at-home gigs.</p>
+    <p>Hundreds of gurus are putting out WAH videos every week.</p>
+    <p>We describe each gig using 4 categories: <strong>WHAT IT IS</strong>, <strong>THE PITCH</strong>, <strong>BEST FOR</strong>, and <strong>THE TRUTH</strong>.</p>
+    <p>Easy-to-scan so you can explore a lot of ideas without spending hours watching videos.</p>
   </div>
 
   <div class="about-section">
-    <h2 class="section-label">Send feedback</h2>
+    <h2 class="section-label">FAQ</h2>
+
+    <div class="faq-item">
+      <p class="faq-question">Why a Work-at-Home database?</p>
+      <p class="faq-answer">Hundreds of "gurus" put out WAH gig videos. Thousands of ideas — way too much to watch.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-question">How many gigs are in the database?</p>
+      <p class="faq-answer">Soon to be thousands. Updated weekly.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-question">What does this database do?</p>
+      <p class="faq-answer">Turns WAH videos into searchable, easy-to-scan explanations of the gig, the pitch, and who it's best for.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-question">Can I watch the original video?</p>
+      <p class="faq-answer">Yes. We include the original source URL whenever possible.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-question">Are you rating the gurus or their gigs?</p>
+      <p class="faq-answer">Nope — we're not Consumer Reports. Just our quick take on the idea so you can decide.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-question">What about all those "I made $30,000 my first month" claims?</p>
+      <p class="faq-answer">We don't try to verify income claims. We give you a quick way to search the idea and spot the BS.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-question">Is the database free?</p>
+      <p class="faq-answer">Yes. Free.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-question">Can I search the database?</p>
+      <p class="faq-answer">Yep. There's a robust search feature.</p>
+    </div>
+  </div>
+
+  <div class="about-section">
+    <h2 class="section-label">Help Us Make It Better</h2>
+    <p>Spot a problem? Have an idea for a feature? Missing a gig we should know about? Tell us in the feedback box below or send an email to <a href="mailto:kevin@corriganassociates.com">kevin@corriganassociates.com</a>.</p>
     <!--
       FORM ACTION PLACEHOLDER: this posts to Formspree, a free form-handling service
       that requires no backend of your own. Before this goes live:
@@ -226,7 +290,7 @@
       3. Replace the placeholder action URL below with that real endpoint
     -->
     <form class="feedback-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_FORM_ID" method="POST">
-      <input type="hidden" name="_subject" value="Side Hustle Intel — beta feedback">
+      <input type="hidden" name="_subject" value="Side Hustle Intel — feedback">
 
       <div class="form-field">
         <label for="fb-email">Your email</label>
@@ -234,7 +298,9 @@
       </div>
 
       <div class="form-field">
-        <label for="fb-gig">Which gig did you look at?</label>
+        <label for="fb-gig">Which gig did you look at?
+          <span class="field-hint">Optional</span>
+        </label>
         <input type="text" id="fb-gig" name="gig_name" placeholder="e.g. Fractional executive services">
       </div>
 
@@ -248,7 +314,9 @@
       </div>
 
       <div class="form-field">
-        <label for="fb-why">What made you answer that way?</label>
+        <label for="fb-why">What made you answer that way?
+          <span class="field-hint">Optional</span>
+        </label>
         <textarea id="fb-why" name="why"></textarea>
       </div>
 
@@ -268,11 +336,6 @@
 
       <button type="submit" class="submit-btn">Send feedback</button>
     </form>
-  </div>
-
-  <div class="about-section">
-    <h2 class="section-label">Contact</h2>
-    <p class="contact-line">Email <a href="mailto:kevin@corriganassociates.com">kevin@corriganassociates.com</a></p>
   </div>
 </main>
 
