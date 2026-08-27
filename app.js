@@ -301,12 +301,8 @@ function toTitleCase(str) {
 function buildCard(idea) {
   const card = document.createElement('article');
   card.className = 'card';
-  const catColor = CATEGORY_COLORS[idea.category] || 'var(--accent)';
-  card.style.setProperty('--cat-color', catColor);
 
-  const isExpanded = expandedIds.has(idea.id);
   const isSaved = savedIds.has(idea.id);
-  if (isExpanded) card.classList.add('expanded');
 
   card.innerHTML = `
     <div class="card-head">
@@ -320,50 +316,33 @@ function buildCard(idea) {
         </label>
       </div>
     </div>
-    <div class="card-badges">
-      <span class="badge badge-category">${escapeHtml(idea.category)}</span>
-      <span class="badge badge-cost">${escapeHtml(idea.cost)}</span>
-    </div>
-    <div class="card-source-top">
-      Source: <span class="card-source-creator">${escapeHtml(idea.found)}</span> &mdash; <a href="${escapeAttr(idea.url)}" target="_blank" rel="noopener">${escapeHtml(idea.url)}</a>
+    <p class="card-meta">${escapeHtml(idea.category)} &middot; ${escapeHtml(idea.cost)}</p>
+
+    <div class="card-section">
+      <div class="card-section-label">Source</div>
+      <p class="card-text">${escapeHtml(idea.found)} &mdash; <a href="${escapeAttr(idea.url)}" target="_blank" rel="noopener">${escapeHtml(idea.url)}</a></p>
     </div>
 
     <div class="card-section">
       <div class="card-section-label">What It Is</div>
-      <p class="card-what">${escapeHtml(idea.what)}</p>
+      <p class="card-text">${escapeHtml(idea.what)}</p>
     </div>
 
-    <div class="card-more" ${isExpanded ? '' : 'hidden'}>
-      <div class="card-section">
-        <div class="card-section-label">The Pitch</div>
-        <p class="card-text">${escapeHtml(idea.pitch)}</p>
-      </div>
-
-      <div class="card-section">
-        <div class="card-section-label">Best For</div>
-        <p class="card-text">${escapeHtml(idea.best)}</p>
-      </div>
-
-      <div class="card-section">
-        <div class="card-section-label">The Truth</div>
-        <p class="card-text">${escapeHtml(idea.truth)}</p>
-      </div>
+    <div class="card-section">
+      <div class="card-section-label">The Pitch</div>
+      <p class="card-text">${escapeHtml(idea.pitch)}</p>
     </div>
 
-    <button class="expand-toggle" type="button" aria-expanded="${isExpanded}">
-      <span class="toggle-label">${isExpanded ? 'Click to Collapse' : 'Click to See Full Gig'}</span>
-      <span class="chevron">${CHEVRON_SVG}</span>
-    </button>
+    <div class="card-section">
+      <div class="card-section-label">Best For</div>
+      <p class="card-text">${escapeHtml(idea.best)}</p>
+    </div>
+
+    <div class="card-section">
+      <div class="card-section-label">The Truth</div>
+      <p class="card-text">${escapeHtml(idea.truth)}</p>
+    </div>
   `;
-
-  card.querySelector('.expand-toggle').addEventListener('click', () => {
-    if (expandedIds.has(idea.id)) {
-      expandedIds.delete(idea.id);
-    } else {
-      expandedIds.add(idea.id);
-    }
-    render();
-  });
 
   card.querySelector('.save-checkbox').addEventListener('change', () => {
     toggleSaved(idea.id);
