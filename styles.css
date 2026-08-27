@@ -552,3 +552,40 @@ input:focus-visible {
     font-size: 0.82rem;
   }
 }
+
+/* ---------- Secondary-page header (About page) ---------- */
+/* Previously undefined — logo rendered at native 1782x169px with no constraint. */
+.site-header {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  padding: 16px 24px;
+}
+.header-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.wordmark-logo {
+  display: block;
+  height: auto;
+  width: min(30%, 220px);
+}
+.site-nav {
+  display: flex;
+  gap: 20px;
+}
+.site-nav a {
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.site-nav a:hover { color: var(--accent); }
+
+@media (max-width: 480px) {
+  .wordmark-logo { width: min(45%, 160px); }
+  .site-nav a { font-size: 0.88rem; }
+}
