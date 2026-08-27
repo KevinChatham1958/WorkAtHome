@@ -1,0 +1,15 @@
+name: Deploy to cPanel
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger cPanel Git Deployment
+        run: |
+          curl -H "Authorization: cpanel ${{ secrets.CPANEL_USER }}:${{ secrets.CPANEL_TOKEN }}" \
+          "${{ secrets.CPANEL_URL }}/execute/VersionControl/update?repository_root=/home/solajveu/repositories/sidehustleintel&deploy=1"
