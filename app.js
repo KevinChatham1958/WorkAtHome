@@ -47,6 +47,7 @@ fetch('ideas.json')
   .then(r => r.json())
   .then(data => {
     ALL_IDEAS = data;
+    updateDbStats(data);
     render();
   })
   .catch(err => {
@@ -54,6 +55,21 @@ fetch('ideas.json')
       '<p style="color: var(--text-muted)">Couldn\'t load the gig database right now. Try refreshing.</p>';
     console.error(err);
   });
+
+// Fills in the live gig/producer counts in the tool-section's db-links-row.
+// Computed from the same data the grid renders from, so it can never drift
+// out of sync with what's actually searchable on the page.
+function updateDbStats(data) {
+  const gigCountEl = document.getElementById('gig-count');
+  const producerCountEl = document.getElementById('producer-count');
+  if (gigCountEl) {
+    gigCountEl.textContent = data.length.toLocaleString();
+  }
+  if (producerCountEl) {
+    const producers = new Set(data.map(idea => idea.found).filter(Boolean));
+    producerCountEl.textContent = producers.size.toLocaleString();
+  }
+}
 
 // ---------- Saved gigs (localStorage) ----------
 
