@@ -1,5 +1,27 @@
 [
   {
+    "id": "pet-waste-removal-service",
+    "name": "Pet waste (dog poop) removal service",
+    "category": "Local & professional services",
+    "tags": [
+      "pet services",
+      "route based",
+      "recurring revenue",
+      "very low startup cost"
+    ],
+    "cost": "Very low startup cost (~$500 for basic equipment)",
+    "found": "Austin Zaback",
+    "what": "Offer a recurring weekly service that shows up at a customer's home, cleans up dog waste from the yard, sanitizes the turf, and leaves, using simple tools: a rake, scoop, waste bins, disinfectant, and gloves.",
+    "pitch": "Zaback cites U.S. pet-ownership data (66% of households own a pet, 65 million own at least one dog producing over 20 billion pounds of waste a year) and a real example he watched personally: a scooper who built a 300-customer route, did about 30 jobs a day per employee, and grossed roughly $20,000 a month, over a quarter million a year, charging an average of $69 per customer per month.",
+    "best": "Someone comfortable with genuinely unglamorous, hands-on outdoor work who's building toward a recurring-revenue route rather than one-off jobs.",
+    "truth": "The $20,000/month example is a single real operator Zaback says he personally observed and spoke with, a specific and checkable-in-principle account rather than an anonymous claim, though it's still one data point rather than an industry average. The pet-waste-removal market size and growth figures cited ($537 million market by 2035) are framed as industry projections, not something Zaback personally verified.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Weekend/event-based schedule"
+    ]
+  },
+  {
     "id": "ai-clipping",
     "name": "AI clipping for creators",
     "category": "Marketing & content",
@@ -20,25 +42,26 @@
     ]
   },
   {
-    "id": "pet-waste-removal-service",
-    "name": "Pet waste (dog poop) removal service",
+    "id": "pressure-washing-business-trash-can-upsell",
+    "name": "Pressure washing business with a trash can cleaning upsell",
     "category": "Local & professional services",
     "tags": [
-      "pet services",
-      "route based",
+      "pressure washing",
+      "home services",
       "recurring revenue",
-      "very low startup cost"
+      "low startup cost"
     ],
-    "cost": "Very low startup cost (~$500 for basic equipment)",
+    "cost": "Low startup cost (~$1,000 for equipment)",
     "found": "Austin Zaback",
-    "what": "Offer a recurring weekly service that shows up at a customer's home, cleans up dog waste from the yard, sanitizes the turf, and leaves, using simple tools: a rake, scoop, waste bins, disinfectant, and gloves.",
-    "pitch": "Zaback cites U.S. pet-ownership data (66% of households own a pet, 65 million own at least one dog producing over 20 billion pounds of waste a year) and a real example he watched personally: a scooper who built a 300-customer route, did about 30 jobs a day per employee, and grossed roughly $20,000 a month, over a quarter million a year, charging an average of $69 per customer per month.",
-    "best": "Someone comfortable with genuinely unglamorous, hands-on outdoor work who's building toward a recurring-revenue route rather than one-off jobs.",
-    "truth": "The $20,000/month example is a single real operator Zaback says he personally observed and spoke with, a specific and checkable-in-principle account rather than an anonymous claim, though it's still one data point rather than an industry average. The pet-waste-removal market size and growth figures cited ($537 million market by 2035) are framed as industry projections, not something Zaback personally verified.",
+    "what": "Pressure wash residential driveways, patios, and building exteriors, then add a simple upsell while already on-site: offer to clean the customer's outdoor trash cans for an extra $20 to $30 per can, since the water, cleaning solution, and equipment are already there.",
+    "pitch": "Zaback cites a personal acquaintance, a former financial advisor with no industry background, who started with a trailer, water tank, hose, and surface cleaner, and crossed $100,000 in his best single month four years in. He frames the U.S. pressure washing industry as a $1.2 billion market across 32,000-plus companies with consistent, non-seasonal demand, and notes average residential jobs run $400 to $1,000.",
+    "best": "Someone willing to start with used or basic equipment and build a route, then compound revenue per stop by bundling in the trash-can upsell rather than driving to new jobs for incremental income.",
+    "truth": "The $100,000-month example is a specific person Zaback knows personally, a real but individual result rather than a typical outcome, and it came after four years of operating, not immediately. The trash-can upsell math (an extra $40-60 per stop) is a straightforward, independently testable idea regardless of how the broader pressure-washing business performs.",
     "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
     "situation_tags": [
       "Local travel required",
-      "Weekend/event-based schedule"
+      "Requires equipment/vehicle investment",
+      "Needs a truck or cargo vehicle"
     ]
   },
   {
@@ -62,24 +85,25 @@
     ]
   },
   {
-    "id": "fractional-executive-services",
-    "name": "Fractional executive services",
+    "id": "trash-can-rollout-curb-service",
+    "name": "Trash can rollout and curb service",
     "category": "Local & professional services",
     "tags": [
-      "consulting",
-      "executive",
-      "low startup cost",
-      "experience required"
+      "home services",
+      "subscription",
+      "recurring revenue",
+      "very low startup cost"
     ],
-    "cost": "Low startup cost",
-    "found": "David Heacock",
-    "what": "Offer part-time senior leadership, CFO, COO, or CMO, to businesses that need executive-level guidance but can't afford, or don't need, a full-time hire. You work with several clients at once, each paying a monthly retainer for a set number of hours or specific deliverables.",
-    "pitch": "Package your judgment into a recurring monthly fee, typically $5,000 to $15,000 per client, and take on 4 to 6 clients at once, which can add up to real six-figure annual income without hiring a team or building a product.",
-    "best": "Someone with a genuine, provable track record of running or operating a business, not someone who has only studied the theory of business strategy.",
-    "truth": "Heacock backs this up with his own real hiring experience, he's personally used a fractional CFO in his own businesses, so he's speaking from the buyer's side too, not just the seller's side. That's a real credibility signal. That said, landing the first client still requires real, sometimes slow, relationship-based sales, this isn't a fast-start idea, even if the eventual payoff is strong.",
-    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
+    "cost": "Very low startup cost (no truck or special equipment needed)",
+    "found": "Austin Zaback",
+    "what": "A single-purpose subscription service: roll a homeowner's trash and recycling cans out to the curb on collection day, then bring them back afterward, with no equipment beyond the cans themselves and a reliable weekly schedule.",
+    "pitch": "Zaback profiles a company called Can Monkey, whose founder got the idea watching a neighbor pull into his garage and leave the trash can sitting at the curb, then reasoned other homeowners felt the same way. That company reportedly has over 4,000 active subscriptions across 18 states with 500-plus runners, charging $49.99 a month per property, roughly $200,000 a month in recurring revenue, with a churn rate Zaback says is under 1%.",
+    "best": "Someone looking for the lowest possible equipment barrier to entry, since the entire service requires no truck, tools, or inventory, just a route, a schedule, and consistency, well suited to elderly residents, second-home owners, and short-term rental turnovers as target customers.",
+    "truth": "The company-level figures (4,000 subscriptions, sub-1% churn, $200K/month) are Zaback's account of a conversation with the founder during a business tour, a specific and named source rather than an anonymous claim, though not independently audited by Zaback himself. The core insight, that people will pay recurring fees for genuinely unglamorous, avoidable chores, is the same pattern that shows up across several ideas in this video.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
     "situation_tags": [
-      "Home office, client-facing"
+      "Local travel required",
+      "Weekend/event-based schedule"
     ]
   },
   {
@@ -100,6 +124,131 @@
     "best": "Someone starting from genuinely little, no capital, no track record, who's willing to spend real time building a skill and a public presence before expecting income, rather than someone looking for a fast, passive result.",
     "truth": "The framework itself (build a skill, prove it on real clients, then teach it) is sound and echoes advice from other creators covered elsewhere in this database. Worth knowing: partway through, the video recommends a paid book-summary app and a course-hosting platform (Kajabi) as sponsored plugs, so those specific tool recommendations carry a financial incentive, separate from the underlying framework, which doesn't depend on either product.",
     "url": "https://www.youtube.com/watch?v=mwYsapR6cYk&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=9"
+  },
+  {
+    "id": "junk-removal-service-local",
+    "name": "Junk removal service",
+    "category": "Local & professional services",
+    "tags": [
+      "junk removal",
+      "home services",
+      "local business",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (lower if you already own a truck)",
+    "found": "Austin Zaback",
+    "what": "Show up to a customer's home or property, quote the job on the spot based on volume, load unwanted furniture, appliances, or debris into a truck or trailer, and haul it away, getting paid in cash or card immediately rather than waiting on invoicing.",
+    "pitch": "Zaback frames the U.S. waste collection services industry (projected to surpass $90 billion by 2030) as large enough that small local operators can carve out real income, citing $500 to $1,500 a day in realistic revenue for a single truck and $250 to $300 as a typical job price. He emphasizes that the real growth lever is relationships, real estate agents, property managers, and estate sale companies, since apartment turnover alone runs 40-50% annually and creates a steady pipeline of clearance jobs.",
+    "best": "Someone who already owns or can access a truck or trailer and is comfortable building referral relationships with property managers, agents, and contractors rather than relying purely on one-off individual customers.",
+    "truth": "The per-day and per-job revenue figures are Zaback's own stated ranges rather than a single verified case study, though they're specific and consistent with the kind of pricing publicly discussed across the junk-removal industry. The relationship-based growth strategy (property managers, agents, estate companies) is a concrete, actionable, and independently testable approach regardless of the exact revenue figures.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Needs a truck or cargo vehicle"
+    ]
+  },
+  {
+    "id": "spotify-playlist-monetization",
+    "name": "Monetizing a curated Spotify playlist",
+    "category": "Digital & subscription products",
+    "tags": [
+      "music curation",
+      "Spotify",
+      "Patreon",
+      "very low startup cost",
+      "creative"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Mark Tilbury",
+    "what": "Build a Spotify playlist in a specific genre or mood, grow its followers, and monetize it by giving independent artists a way to get their songs placed on it in exchange for payment.",
+    "pitch": "There are two ways to charge for this: directly billing artists a flat fee per song placement, or running it as a Patreon-style membership where artists pay a small monthly fee for the chance to submit music for consideration. Tilbury prefers the second, since it's more passive (income arrives monthly without per-song negotiation) and feels more honest, since you're only picking songs you'd genuinely include rather than accepting anyone who pays. At $5 a month, 1,000 subscribed artists would be $5,000 a month.",
+    "best": "Someone with a genuine ear for a specific music genre or mood who's willing to put in the upfront time to build a playlist's following before it has real placement value to artists.",
+    "truth": "Tilbury is upfront that the direct pay-per-placement version violates Spotify's terms of service, and flags it as a real downside of that approach, not just a minor caveat, which is a good transparency signal. The Patreon-membership version he prefers doesn't have that problem. No specific real-world case study or dollar figures are given for either approach, so the $5,000-a-month math is illustrative math, not a demonstrated result.",
+    "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
+  },
+  {
+    "id": "solar-panel-cleaning-service",
+    "name": "Solar panel cleaning service",
+    "category": "Local & professional services",
+    "tags": [
+      "solar",
+      "home services",
+      "recurring revenue",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost ($500-$800 for equipment, no license required in most states)",
+    "found": "Austin Zaback",
+    "what": "Clean the dirt, dust, pollen, and bird droppings that build up on residential and commercial solar panels, restoring lost power output, using a soft-wash or low-pressure hose system, a squeegee, and a water-fed pole, typically sold as a one-to-two-times-a-year recurring package.",
+    "pitch": "Zaback frames the sales pitch around reframing the service: it's not just panel cleaning, it's recovering lost energy output on an investment that may have cost the homeowner $20,000-$30,000, since regular cleaning can boost power production by 10-20% in dirty conditions. He cites the solar panel cleaning industry being valued at $1.22 billion in 2025 and projected to reach $2.57 billion by 2035, with especially strong opportunity in high-solar-adoption states like Arizona, Texas, California, and Florida.",
+    "best": "Someone in a solar-dense region looking for one of the lowest equipment costs and least regulatory friction on this whole list, ideal for someone wanting a simple, low-overhead recurring-revenue service.",
+    "truth": "The industry valuation and growth figures are cited as third-party market research rather than Zaback's own data, and no specific individual operator's income is given for this particular idea, unlike several others in the video, so there's no personal case study to weigh here. The core value proposition (dirty panels underperform, cleaning restores output) is a straightforward, physically verifiable claim independent of any specific revenue projection.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Requires a license or certification"
+    ]
+  },
+  {
+    "id": "merch-by-amazon-tshirts",
+    "name": "Merch by Amazon print-on-demand t-shirts",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "apparel",
+      "Amazon",
+      "no upfront cost",
+      "beginner friendly"
+    ],
+    "cost": "No upfront cost",
+    "found": "Mark Tilbury",
+    "what": "List t-shirt (and other apparel) designs for sale directly on Amazon through its Merch by Amazon program. There's no inventory to buy upfront: you upload a design, pick colors and a price, and Amazon prints, ships, and handles customer service, paying you a royalty per sale.",
+    "pitch": "Tilbury frames this against the traditional route of pre-printing shirts in bulk (multiple colors and sizes) and hoping they sell, which risks money on stock that doesn't move. Merch by Amazon removes that risk entirely since nothing is printed until it's actually purchased, and it also gives you access to Amazon's existing customer base instead of needing to build your own audience or attend events to sell in person.",
+    "best": "Someone with design skills (or comfortable directing AI tools to generate designs) who wants to test apparel ideas without tying up money in inventory that might not sell.",
+    "truth": "The illustration used, a friend who pre-printed thousands of shirts and could only capitalize on one design that took off, is a real anecdote but a single example, not a data set. Worth knowing separately: Amazon requires all designs to be either fully original or properly licensed, so using copyrighted characters or logos without permission isn't just against Merch by Amazon's rules, it's a real legal risk.",
+    "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
+  },
+  {
+    "id": "window-cleaning-service-residential-commercial",
+    "name": "Window cleaning service for homes and businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "window cleaning",
+      "home services",
+      "recurring revenue",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost (~$500 for basic equipment)",
+    "found": "Austin Zaback",
+    "what": "Clean windows for homes, storefronts, and office buildings, starting with a basic kit (squeegee, mop, bucket, ladder, cleaning solution) and quoting jobs by square footage and number of stories, with the option to sell recurring quarterly packages to homeowners and monthly contracts to commercial clients.",
+    "pitch": "Zaback cites an average residential job of around $550, meaning six jobs in a day already crosses $3,000 in gross revenue, and profiles an Arizona operator who did $392,000 in a year with a small subcontractor team, starting with just $500 in equipment. He specifically highlights commercial accounts (restaurants, retail, offices) as more valuable than residential ones because they prioritize reliability over price shopping and will commit to standing monthly contracts.",
+    "best": "Someone comfortable quoting jobs quickly over the phone once they know their pricing formula, and willing to pursue commercial accounts specifically for the more stable, less price-sensitive recurring revenue they offer over one-off residential jobs.",
+    "truth": "The $392,000/year figure is a specific, named example (an Arizona operator using a subcontractor team) rather than an anonymous claim, though it represents one successful operator, not a typical or guaranteed outcome. The distinction Zaback draws between residential (price-sensitive, one-time) and commercial (reliability-focused, recurring) customers is a genuinely useful and independently testable segmentation for anyone starting this business.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required"
+    ]
+  },
+  {
+    "id": "fractional-executive-services",
+    "name": "Fractional executive services",
+    "category": "Local & professional services",
+    "tags": [
+      "consulting",
+      "executive",
+      "low startup cost",
+      "experience required"
+    ],
+    "cost": "Low startup cost",
+    "found": "David Heacock",
+    "what": "Offer part-time senior leadership, CFO, COO, or CMO, to businesses that need executive-level guidance but can't afford, or don't need, a full-time hire. You work with several clients at once, each paying a monthly retainer for a set number of hours or specific deliverables.",
+    "pitch": "Package your judgment into a recurring monthly fee, typically $5,000 to $15,000 per client, and take on 4 to 6 clients at once, which can add up to real six-figure annual income without hiring a team or building a product.",
+    "best": "Someone with a genuine, provable track record of running or operating a business, not someone who has only studied the theory of business strategy.",
+    "truth": "Heacock backs this up with his own real hiring experience, he's personally used a fractional CFO in his own businesses, so he's speaking from the buyer's side too, not just the seller's side. That's a real credibility signal. That said, landing the first client still requires real, sometimes slow, relationship-based sales, this isn't a fast-start idea, even if the eventual payoff is strong.",
+    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
+    "situation_tags": [
+      "Home office, client-facing"
+    ]
   },
   {
     "id": "portable-sanitation-servicing",
@@ -126,22 +275,22 @@
     ]
   },
   {
-    "id": "spotify-playlist-monetization",
-    "name": "Monetizing a curated Spotify playlist",
-    "category": "Digital & subscription products",
+    "id": "vending-machine-route-tilbury",
+    "name": "Building a vending machine route",
+    "category": "Local & professional services",
     "tags": [
-      "music curation",
-      "Spotify",
-      "Patreon",
-      "very low startup cost",
-      "creative"
+      "vending",
+      "route based",
+      "recurring revenue",
+      "passive income",
+      "local business"
     ],
-    "cost": "Very low startup cost",
+    "cost": "Low to moderate startup cost (used machines can be bought cheaply, or financed)",
     "found": "Mark Tilbury",
-    "what": "Build a Spotify playlist in a specific genre or mood, grow its followers, and monetize it by giving independent artists a way to get their songs placed on it in exchange for payment.",
-    "pitch": "There are two ways to charge for this: directly billing artists a flat fee per song placement, or running it as a Patreon-style membership where artists pay a small monthly fee for the chance to submit music for consideration. Tilbury prefers the second, since it's more passive (income arrives monthly without per-song negotiation) and feels more honest, since you're only picking songs you'd genuinely include rather than accepting anyone who pays. At $5 a month, 1,000 subscribed artists would be $5,000 a month.",
-    "best": "Someone with a genuine ear for a specific music genre or mood who's willing to put in the upfront time to build a playlist's following before it has real placement value to artists.",
-    "truth": "Tilbury is upfront that the direct pay-per-placement version violates Spotify's terms of service, and flags it as a real downside of that approach, not just a minor caveat, which is a good transparency signal. The Patreon-membership version he prefers doesn't have that problem. No specific real-world case study or dollar figures are given for either approach, so the $5,000-a-month math is illustrative math, not a demonstrated result.",
+    "what": "Place and maintain vending machines in local businesses (offices, warehouses, workshops), splitting a percentage of revenue with the location owner in exchange for the convenience of on-site food or drinks with no effort on their part.",
+    "pitch": "Tilbury's illustrative example is a young operator who approached a workshop with an old, unprofitable coffee machine and offered to install three new machines at no cost to the business owner, handling all maintenance and restocking himself, in exchange for a 15% cut of revenue. That operator scaled to machines across the state, all generating passive income once installed. Used vending machines are widely available cheaply, and can be financed and paid off from the route's own profits.",
+    "best": "Someone comfortable with the upfront legwork of finding good locations and negotiating placement deals, who's willing to handle restocking and maintenance (or eventually hire someone to) rather than someone looking for something entirely hands-off from day one.",
+    "truth": "The industry-level figure cited (Selecta reporting over $1 billion in 2021 sales, up 3% year over year) is a real, checkable industry data point distinct from the personal anecdote about the young operator, which is presented as a story Tilbury witnessed rather than a verified case study with real numbers attached. The core advice, that success depends on finding the right locations and the right product mix for each one, is genuinely the hard part of this business, not a minor detail.",
     "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
   },
   {
@@ -166,65 +315,26 @@
     ]
   },
   {
-    "id": "merch-by-amazon-tshirts",
-    "name": "Merch by Amazon print-on-demand t-shirts",
-    "category": "Physical & print products",
-    "tags": [
-      "print on demand",
-      "apparel",
-      "Amazon",
-      "no upfront cost",
-      "beginner friendly"
-    ],
-    "cost": "No upfront cost",
-    "found": "Mark Tilbury",
-    "what": "List t-shirt (and other apparel) designs for sale directly on Amazon through its Merch by Amazon program. There's no inventory to buy upfront: you upload a design, pick colors and a price, and Amazon prints, ships, and handles customer service, paying you a royalty per sale.",
-    "pitch": "Tilbury frames this against the traditional route of pre-printing shirts in bulk (multiple colors and sizes) and hoping they sell, which risks money on stock that doesn't move. Merch by Amazon removes that risk entirely since nothing is printed until it's actually purchased, and it also gives you access to Amazon's existing customer base instead of needing to build your own audience or attend events to sell in person.",
-    "best": "Someone with design skills (or comfortable directing AI tools to generate designs) who wants to test apparel ideas without tying up money in inventory that might not sell.",
-    "truth": "The illustration used, a friend who pre-printed thousands of shirts and could only capitalize on one design that took off, is a real anecdote but a single example, not a data set. Worth knowing separately: Amazon requires all designs to be either fully original or properly licensed, so using copyrighted characters or logos without permission isn't just against Merch by Amazon's rules, it's a real legal risk.",
-    "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
-  },
-  {
-    "id": "pressure-washing-business-trash-can-upsell",
-    "name": "Pressure washing business with a trash can cleaning upsell",
+    "id": "pool-cleaning-maintenance-service",
+    "name": "Pool cleaning and maintenance service",
     "category": "Local & professional services",
     "tags": [
-      "pressure washing",
+      "pool service",
       "home services",
       "recurring revenue",
       "low startup cost"
     ],
-    "cost": "Low startup cost (~$1,000 for equipment)",
+    "cost": "Very low startup cost (a few hundred dollars for equipment)",
     "found": "Austin Zaback",
-    "what": "Pressure wash residential driveways, patios, and building exteriors, then add a simple upsell while already on-site: offer to clean the customer's outdoor trash cans for an extra $20 to $30 per can, since the water, cleaning solution, and equipment are already there.",
-    "pitch": "Zaback cites a personal acquaintance, a former financial advisor with no industry background, who started with a trailer, water tank, hose, and surface cleaner, and crossed $100,000 in his best single month four years in. He frames the U.S. pressure washing industry as a $1.2 billion market across 32,000-plus companies with consistent, non-seasonal demand, and notes average residential jobs run $400 to $1,000.",
-    "best": "Someone willing to start with used or basic equipment and build a route, then compound revenue per stop by bundling in the trash-can upsell rather than driving to new jobs for incremental income.",
-    "truth": "The $100,000-month example is a specific person Zaback knows personally, a real but individual result rather than a typical outcome, and it came after four years of operating, not immediately. The trash-can upsell math (an extra $40-60 per stop) is a straightforward, independently testable idea regardless of how the broader pressure-washing business performs.",
+    "what": "Provide weekly pool maintenance, skimming the surface, brushing walls, occasionally vacuuming the floor, and adding chemicals as needed, for residential customers who don't want to maintain their own pool or risk it turning green and unusable.",
+    "pitch": "Zaback cites the U.S. pool cleaning and maintenance market at $26.77 billion in 2025, projected to reach nearly $40 billion by 2030, and notes that most residential customers pay $100 to $150 a month for weekly service, a naturally recurring relationship since a neglected pool creates an urgent, visible problem the homeowner wants solved.",
+    "best": "Someone in a warm-climate state (Florida, Texas, California, Arizona, and similar) willing to build a weekly route, since retention in this business is described as strong once a homeowner trusts a reliable cleaner.",
+    "truth": "No specific individual case study or income example is given for this particular idea in the video, unlike several of the others, so the pricing and market-size figures are the only data points to evaluate rather than a personal account. The core mechanic (weekly visits, chemical costs scale with actual accounts rather than being paid upfront) is specific enough to verify independently before committing capital.",
     "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
     "situation_tags": [
       "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Needs a truck or cargo vehicle"
+      "Weekend/event-based schedule"
     ]
-  },
-  {
-    "id": "vending-machine-route-tilbury",
-    "name": "Building a vending machine route",
-    "category": "Local & professional services",
-    "tags": [
-      "vending",
-      "route based",
-      "recurring revenue",
-      "passive income",
-      "local business"
-    ],
-    "cost": "Low to moderate startup cost (used machines can be bought cheaply, or financed)",
-    "found": "Mark Tilbury",
-    "what": "Place and maintain vending machines in local businesses (offices, warehouses, workshops), splitting a percentage of revenue with the location owner in exchange for the convenience of on-site food or drinks with no effort on their part.",
-    "pitch": "Tilbury's illustrative example is a young operator who approached a workshop with an old, unprofitable coffee machine and offered to install three new machines at no cost to the business owner, handling all maintenance and restocking himself, in exchange for a 15% cut of revenue. That operator scaled to machines across the state, all generating passive income once installed. Used vending machines are widely available cheaply, and can be financed and paid off from the route's own profits.",
-    "best": "Someone comfortable with the upfront legwork of finding good locations and negotiating placement deals, who's willing to handle restocking and maintenance (or eventually hire someone to) rather than someone looking for something entirely hands-off from day one.",
-    "truth": "The industry-level figure cited (Selecta reporting over $1 billion in 2021 sales, up 3% year over year) is a real, checkable industry data point distinct from the personal anecdote about the young operator, which is presented as a story Tilbury witnessed rather than a verified case study with real numbers attached. The core advice, that success depends on finding the right locations and the right product mix for each one, is genuinely the hard part of this business, not a minor detail.",
-    "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
   },
   {
     "id": "compliance-risk-elimination-services",
@@ -351,24 +461,47 @@
     ]
   },
   {
-    "id": "trash-can-rollout-curb-service",
-    "name": "Trash can rollout and curb service",
+    "id": "ai-micro-tools-lovable-stan-store",
+    "name": "AI micro-tools built with Lovable, sold as $7-$20 digital products",
+    "category": "Digital & subscription products",
+    "tags": [
+      "AI tools",
+      "digital products",
+      "Lovable",
+      "Stan Store",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Arlan Hamilton",
+    "what": "Use ChatGPT to brainstorm small, specific AI tools ($7 to $20 price point) that solve one narrow problem for a niche audience, get ChatGPT to write the build prompt, then use the AI app builder Lovable to actually build the working tool and sell it as a digital product through a simple storefront like Stan Store.",
+    "pitch": "Hamilton demonstrates the full pipeline live: she prompts ChatGPT with a specific client's situation (a daycare owner in Texas), gets a list of tool ideas (a daily child summary generator, an incident report assistant, a lesson planner generator), picks one, has ChatGPT write the exact build prompt, then pastes that into Lovable to generate the working tool in minutes. She sells finished tools like this through Stan Store with a low-price entry point ($17, discounted from $39) plus an order-bump upsell to a higher-priced companion tool.",
+    "best": "Someone comfortable brainstorming and iterating with ChatGPT who wants a fully passive, low-price digital product rather than an ongoing client service.",
+    "truth": "Hamilton discloses she has her own paid \"operating system\" prompt packs and a paid membership tier, and the specific prompts she uses in the demo aren't shown in full detail, only the process. The core mechanic, ChatGPT for ideation and prompt-writing, Lovable for the actual build, is genuinely replicable without her specific paid materials.",
+    "url": "https://www.youtube.com/watch?v=JHWFNg7ghKE",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "lawn-care-business-route",
+    "name": "Lawn care and mowing route",
     "category": "Local & professional services",
     "tags": [
-      "home services",
-      "subscription",
+      "lawn care",
+      "landscaping",
       "recurring revenue",
-      "very low startup cost"
+      "low startup cost"
     ],
-    "cost": "Very low startup cost (no truck or special equipment needed)",
+    "cost": "Low startup cost (one mower to start)",
     "found": "Austin Zaback",
-    "what": "A single-purpose subscription service: roll a homeowner's trash and recycling cans out to the curb on collection day, then bring them back afterward, with no equipment beyond the cans themselves and a reliable weekly schedule.",
-    "pitch": "Zaback profiles a company called Can Monkey, whose founder got the idea watching a neighbor pull into his garage and leave the trash can sitting at the curb, then reasoned other homeowners felt the same way. That company reportedly has over 4,000 active subscriptions across 18 states with 500-plus runners, charging $49.99 a month per property, roughly $200,000 a month in recurring revenue, with a churn rate Zaback says is under 1%.",
-    "best": "Someone looking for the lowest possible equipment barrier to entry, since the entire service requires no truck, tools, or inventory, just a route, a schedule, and consistency, well suited to elderly residents, second-home owners, and short-term rental turnovers as target customers.",
-    "truth": "The company-level figures (4,000 subscriptions, sub-1% churn, $200K/month) are Zaback's account of a conversation with the founder during a business tour, a specific and named source rather than an anonymous claim, though not independently audited by Zaback himself. The core insight, that people will pay recurring fees for genuinely unglamorous, avoidable chores, is the same pattern that shows up across several ideas in this video.",
+    "what": "Build a residential lawn mowing and basic yard maintenance route, starting with one mower and expanding customer by customer within a tight geographic area to keep drive time low and route density high.",
+    "pitch": "Zaback cites the U.S. lawn care and landscaping industry at $184 billion in 2025 across 650,000 companies, none of which controls more than 5% of the market, meaning there's no dominant national brand cornering any given neighborhood. He notes the average U.S. household spends about $600 a year on lawn care, and that doing eight to ten lawns a day can generate $400 to $750 in daily revenue solo.",
+    "best": "Someone willing to start small (one mower, one tight route) and treat this as a long, proven, unglamorous path rather than a fast or novel one, since Zaback frames it as one of the least flashy but most consistently reliable ideas on the list.",
+    "truth": "The revenue figures are Zaback's general framework based on typical job counts and pricing rather than one specific named case study, unlike some of the other ideas in this video. The market fragmentation statistic (no company over 5% share) is a real, checkable structural fact about the industry that supports the claim of low competitive barriers, regardless of any individual operator's specific results.",
     "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
     "situation_tags": [
       "Local travel required",
+      "Requires equipment/vehicle investment",
       "Weekend/event-based schedule"
     ]
   },
@@ -542,26 +675,46 @@
     ]
   },
   {
-    "id": "junk-removal-service-local",
-    "name": "Junk removal service",
-    "category": "Local & professional services",
+    "id": "ai-done-for-you-content-professionals",
+    "name": "AI-written done-for-you content service for busy professionals",
+    "category": "Marketing & content",
     "tags": [
-      "junk removal",
-      "home services",
-      "local business",
+      "AI tools",
+      "writing",
+      "content creation",
       "low startup cost"
     ],
-    "cost": "Low startup cost (lower if you already own a truck)",
+    "cost": "Very low startup cost",
+    "found": "Arlan Hamilton",
+    "what": "Use ChatGPT or Claude to write newsletters, blog posts, LinkedIn posts, and social captions on behalf of busy professionals, like doctors, plumbers, or founders, who know they should be publishing content but don't have the time, then hand them the finished, ready-to-post material.",
+    "pitch": "Hamilton frames the pitch around convenience rather than the writing itself: professionals will pay for speed and ease, having someone hand them scripts and posts ready to use rather than having to write anything themselves. The pitch to a client is built around not making them do any of the work, not requesting information they'd need time to gather.",
+    "best": "Someone comfortable picking a specific professional niche (rather than writing generically for anyone) and willing to do the outreach to land a first few clients.",
+    "truth": "This is a fairly general pitch without a specific pricing example, client acquisition story, or verified case study in the video, more of a suggested direction than a tested playbook. The underlying mechanic, using AI to draft content a professional would otherwise pay a ghostwriter for, is straightforward enough to test cheaply before committing to it as a primary offer.",
+    "url": "https://www.youtube.com/watch?v=JHWFNg7ghKE",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "mobile-car-detailing-service",
+    "name": "Mobile car detailing service",
+    "category": "Local & professional services",
+    "tags": [
+      "mobile detailing",
+      "automotive",
+      "low startup cost",
+      "high margin"
+    ],
+    "cost": "Low startup cost (no commercial space needed)",
     "found": "Austin Zaback",
-    "what": "Show up to a customer's home or property, quote the job on the spot based on volume, load unwanted furniture, appliances, or debris into a truck or trailer, and haul it away, getting paid in cash or card immediately rather than waiting on invoicing.",
-    "pitch": "Zaback frames the U.S. waste collection services industry (projected to surpass $90 billion by 2030) as large enough that small local operators can carve out real income, citing $500 to $1,500 a day in realistic revenue for a single truck and $250 to $300 as a typical job price. He emphasizes that the real growth lever is relationships, real estate agents, property managers, and estate sale companies, since apartment turnover alone runs 40-50% annually and creates a steady pipeline of clearance jobs.",
-    "best": "Someone who already owns or can access a truck or trailer and is comfortable building referral relationships with property managers, agents, and contractors rather than relying purely on one-off individual customers.",
-    "truth": "The per-day and per-job revenue figures are Zaback's own stated ranges rather than a single verified case study, though they're specific and consistent with the kind of pricing publicly discussed across the junk-removal industry. The relationship-based growth strategy (property managers, agents, estate companies) is a concrete, actionable, and independently testable approach regardless of the exact revenue figures.",
+    "what": "Drive to a customer's home or office and detail their car in their driveway or parking spot, requiring no commercial space, employees, or heavy equipment, just mobility and the tools to wash, wax, and clean a vehicle on-site.",
+    "pitch": "Zaback cites the global car detailing industry projected to surpass $58 billion by 2030 and notes mobile detailers consistently achieve 60-80% gross margins, among the highest of any service business on his list, since the core product being sold is convenience as much as the clean itself. He gives concrete pricing: $50-100 for a basic wash, $200-400 for a wax, buff, or deep clean on a luxury vehicle, meaning three high-end cars in a day could clear roughly $1,000.",
+    "best": "Someone targeting busy professionals, luxury car owners, or multi-vehicle families who will pay a premium specifically to avoid driving somewhere and waiting, rather than competing purely on price with fixed-location car washes.",
+    "truth": "The margin and pricing figures are presented as general industry figures rather than tied to one specific named operator's verified results, unlike some of the other ideas in this video. The core value proposition, that convenience commands a premium price people pay without much resistance, is a straightforward and testable claim independent of the specific dollar figures cited.",
     "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
     "situation_tags": [
       "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Needs a truck or cargo vehicle"
+      "Weekend/event-based schedule"
     ]
   },
   {
@@ -750,47 +903,47 @@
     ]
   },
   {
-    "id": "ai-micro-tools-lovable-stan-store",
-    "name": "AI micro-tools built with Lovable, sold as $7-$20 digital products",
-    "category": "Digital & subscription products",
+    "id": "ai-video-clip-service-opus-clip",
+    "name": "Short-form video clipping service using Opus Clip",
+    "category": "Marketing & content",
     "tags": [
       "AI tools",
-      "digital products",
-      "Lovable",
-      "Stan Store",
+      "video editing",
+      "content repurposing",
       "low startup cost"
     ],
-    "cost": "Very low startup cost",
+    "cost": "Very low startup cost (Opus Clip subscription)",
     "found": "Arlan Hamilton",
-    "what": "Use ChatGPT to brainstorm small, specific AI tools ($7 to $20 price point) that solve one narrow problem for a niche audience, get ChatGPT to write the build prompt, then use the AI app builder Lovable to actually build the working tool and sell it as a digital product through a simple storefront like Stan Store.",
-    "pitch": "Hamilton demonstrates the full pipeline live: she prompts ChatGPT with a specific client's situation (a daycare owner in Texas), gets a list of tool ideas (a daily child summary generator, an incident report assistant, a lesson planner generator), picks one, has ChatGPT write the exact build prompt, then pastes that into Lovable to generate the working tool in minutes. She sells finished tools like this through Stan Store with a low-price entry point ($17, discounted from $39) plus an order-bump upsell to a higher-priced companion tool.",
-    "best": "Someone comfortable brainstorming and iterating with ChatGPT who wants a fully passive, low-price digital product rather than an ongoing client service.",
-    "truth": "Hamilton discloses she has her own paid \"operating system\" prompt packs and a paid membership tier, and the specific prompts she uses in the demo aren't shown in full detail, only the process. The core mechanic, ChatGPT for ideation and prompt-writing, Lovable for the actual build, is genuinely replicable without her specific paid materials.",
+    "what": "Take a creator's or business's existing long-form video content and use the AI tool Opus Clip to automatically generate 10 to 20 short vertical clips for TikTok, Instagram Reels, and YouTube Shorts, then lightly edit and caption the best ones before delivering them to the client.",
+    "pitch": "Hamilton frames the pricing specifically around undercutting manual editors: professional editors who clip content by hand typically charge $50 to $80 per clip, so charging $10 to $20 per clip, or a flat bundle like $300 a month for around 30 clips across four videos, still feels like a bargain to the client while paying you roughly $100 an hour for the actual editing time involved. The differentiator she stresses is not just running the AI tool and handing over raw output, but going back into Opus Clip's editing tools to adjust captions and trim clips so they're genuinely polished before delivery.",
+    "best": "Someone with an eye for what makes a short clip watchable who's willing to do a bit of manual polish on top of the AI-generated output, rather than just delivering the raw automated clips.",
+    "truth": "Hamilton pays someone else to do a version of this for her own content, which is a real, if secondhand, validation that people pay for this service. The specific dollar figures ($10-20/clip, $300/month bundle, roughly $100/hour in time) are her own suggested pricing framework, not a documented case study of someone else successfully charging these rates.",
     "url": "https://www.youtube.com/watch?v=JHWFNg7ghKE",
     "situation_tags": [
       "Strictly in-home"
     ]
   },
   {
-    "id": "solar-panel-cleaning-service",
-    "name": "Solar panel cleaning service",
+    "id": "pressure-washing-with-trash-can-upsell",
+    "name": "Mobile pressure washing with a trash-can-cleaning upsell",
     "category": "Local & professional services",
     "tags": [
-      "solar",
-      "home services",
-      "recurring revenue",
-      "low startup cost"
+      "service business",
+      "very low startup cost",
+      "beginner friendly",
+      "recurring revenue"
     ],
-    "cost": "Very low startup cost ($500-$800 for equipment, no license required in most states)",
+    "cost": "About $1,000 to start (trailer, water tank, hose, surface cleaner)",
     "found": "Austin Zaback",
-    "what": "Clean the dirt, dust, pollen, and bird droppings that build up on residential and commercial solar panels, restoring lost power output, using a soft-wash or low-pressure hose system, a squeegee, and a water-fed pole, typically sold as a one-to-two-times-a-year recurring package.",
-    "pitch": "Zaback frames the sales pitch around reframing the service: it's not just panel cleaning, it's recovering lost energy output on an investment that may have cost the homeowner $20,000-$30,000, since regular cleaning can boost power production by 10-20% in dirty conditions. He cites the solar panel cleaning industry being valued at $1.22 billion in 2025 and projected to reach $2.57 billion by 2035, with especially strong opportunity in high-solar-adoption states like Arizona, Texas, California, and Florida.",
-    "best": "Someone in a solar-dense region looking for one of the lowest equipment costs and least regulatory friction on this whole list, ideal for someone wanting a simple, low-overhead recurring-revenue service.",
-    "truth": "The industry valuation and growth figures are cited as third-party market research rather than Zaback's own data, and no specific individual operator's income is given for this particular idea, unlike several others in the video, so there's no personal case study to weigh here. The core value proposition (dirty panels underperform, cleaning restores output) is a straightforward, physically verifiable claim independent of any specific revenue projection.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "what": "Mobile pressure washing of residential and commercial exteriors, with a simple add-on upsell: since you're already on-site with water and cleaning solution, offer to clean the customer's trash cans for an extra $20-30 each while you're there.",
+    "pitch": "The presenter cites the US pressure washing industry at over $1.2 billion in revenue across more than 32,000 businesses, with a typical residential exterior wash running $400-1,000. He cites one named example, a former financial advisor with no prior industry experience, who crossed $100,000 in his best single month roughly four years after starting with about $1,000 in basic (some used) equipment. The trash-can upsell is framed as pure incremental revenue on jobs already being done.",
+    "best": "Someone comfortable with physical outdoor work and local or door-to-door sales to build a residential or commercial route.",
+    "truth": "The industry-size figures are stated without an in-video source. The $100,000-best-month example is a single named anecdote, not a typical or guaranteed outcome, and four years passed between the business starting and that peak month, a timeline the pitch doesn't emphasize.",
+    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
     "situation_tags": [
       "Local travel required",
-      "Requires a license or certification"
+      "Requires equipment/vehicle investment",
+      "Needs a truck or cargo vehicle"
     ]
   },
   {
@@ -1020,43 +1173,43 @@
     ]
   },
   {
-    "id": "ai-done-for-you-content-professionals",
-    "name": "AI-written done-for-you content service for busy professionals",
-    "category": "Marketing & content",
+    "id": "custom-gpts-niche-membership-addon",
+    "name": "Custom GPTs for specific professional niches",
+    "category": "AI & automation",
     "tags": [
       "AI tools",
-      "writing",
-      "content creation",
-      "low startup cost"
+      "custom GPT",
+      "niche",
+      "subscription"
     ],
     "cost": "Very low startup cost",
     "found": "Arlan Hamilton",
-    "what": "Use ChatGPT or Claude to write newsletters, blog posts, LinkedIn posts, and social captions on behalf of busy professionals, like doctors, plumbers, or founders, who know they should be publishing content but don't have the time, then hand them the finished, ready-to-post material.",
-    "pitch": "Hamilton frames the pitch around convenience rather than the writing itself: professionals will pay for speed and ease, having someone hand them scripts and posts ready to use rather than having to write anything themselves. The pitch to a client is built around not making them do any of the work, not requesting information they'd need time to gather.",
-    "best": "Someone comfortable picking a specific professional niche (rather than writing generically for anyone) and willing to do the outreach to land a first few clients.",
-    "truth": "This is a fairly general pitch without a specific pricing example, client acquisition story, or verified case study in the video, more of a suggested direction than a tested playbook. The underlying mechanic, using AI to draft content a professional would otherwise pay a ghostwriter for, is straightforward enough to test cheaply before committing to it as a primary offer.",
+    "what": "Build a custom GPT inside ChatGPT scoped to a specific professional niche, real estate agents, coaches, consultants, or HR teams, then sell access to it on its own for $29 to $99 or more, or bundle it into an existing paid membership as a premium perk.",
+    "pitch": "Hamilton frames the appeal as low-effort packaging of something that already feels valuable: a custom GPT can be positioned as a $1,000 value included inside a $100-a-month membership, which strengthens the overall offer without requiring separate marketing or sales effort for the tool itself. She teaches the actual build process, a roughly 30 to 40 minute process by her account, inside her own paid community.",
+    "best": "Someone who already has (or is building) a niche community or membership and wants a low-effort way to add a tangible AI tool as a differentiator, rather than someone looking to sell a custom GPT as a completely standalone product from scratch.",
+    "truth": "The pricing figures ($29-99 standalone, $1,000 \"value\" bundled into a $100/month membership) are Hamilton's own suggested framing rather than documented sales figures. The core technical claim, that building a custom GPT is a straightforward, learnable process, is reasonable and independently verifiable without her specific paid course.",
     "url": "https://www.youtube.com/watch?v=JHWFNg7ghKE",
     "situation_tags": [
       "Strictly in-home"
     ]
   },
   {
-    "id": "window-cleaning-service-residential-commercial",
-    "name": "Window cleaning service for homes and businesses",
+    "id": "dog-poop-removal-service",
+    "name": "Dog poop and pet waste removal route",
     "category": "Local & professional services",
     "tags": [
-      "window cleaning",
-      "home services",
+      "service business",
+      "very low startup cost",
       "recurring revenue",
-      "low startup cost"
+      "beginner friendly"
     ],
-    "cost": "Very low startup cost (~$500 for basic equipment)",
+    "cost": "About $500 to start (rake, scoop, bins, disinfectant, bags, gloves, reliable car)",
     "found": "Austin Zaback",
-    "what": "Clean windows for homes, storefronts, and office buildings, starting with a basic kit (squeegee, mop, bucket, ladder, cleaning solution) and quoting jobs by square footage and number of stories, with the option to sell recurring quarterly packages to homeowners and monthly contracts to commercial clients.",
-    "pitch": "Zaback cites an average residential job of around $550, meaning six jobs in a day already crosses $3,000 in gross revenue, and profiles an Arizona operator who did $392,000 in a year with a small subcontractor team, starting with just $500 in equipment. He specifically highlights commercial accounts (restaurants, retail, offices) as more valuable than residential ones because they prioritize reliability over price shopping and will commit to standing monthly contracts.",
-    "best": "Someone comfortable quoting jobs quickly over the phone once they know their pricing formula, and willing to pursue commercial accounts specifically for the more stable, less price-sensitive recurring revenue they offer over one-off residential jobs.",
-    "truth": "The $392,000/year figure is a specific, named example (an Arizona operator using a subcontractor team) rather than an anonymous claim, though it represents one successful operator, not a typical or guaranteed outcome. The distinction Zaback draws between residential (price-sensitive, one-time) and commercial (reliability-focused, recurring) customers is a genuinely useful and independently testable segmentation for anyone starting this business.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "what": "A recurring weekly yard-cleaning route picking up dog waste for homeowners, run either solo or scaled by hiring additional scoopers to each run their own routes.",
+    "pitch": "The presenter cites pet-ownership statistics (roughly 65 million US households own a dog) and one specific named example: a local operator he used personally, with about 300 customers, 10 scoopers each handling roughly 30 houses, charging about $69 a month per customer, generating over $20,000 a month (about $250,000 a year) in recurring revenue, with each yard taking about 10 minutes to service.",
+    "best": "Someone who wants a low-glamour but genuinely recurring local route business, comfortable either doing the physical work themselves early on or managing a small team of scoopers as it scales.",
+    "truth": "The $20,000-a-month, 300-customer example is presented as the presenter's own direct, named experience with a real local operator rather than a secondhand or unverifiable claim, a good transparency signal. Reaching that scale required building both a large customer base and a 10-person scooper team, which the pitch compresses into a quick summary without detailing how long that growth actually took.",
+    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
     "situation_tags": [
       "Local travel required"
     ]
@@ -1391,46 +1544,69 @@
     ]
   },
   {
-    "id": "ai-video-clip-service-opus-clip",
-    "name": "Short-form video clipping service using Opus Clip",
-    "category": "Marketing & content",
+    "id": "high-ticket-ai-agency-local-service-bundle",
+    "name": "High-ticket recurring AI agency bundle for one local-service niche, instead of one-off AI websites",
+    "category": "AI & automation",
     "tags": [
       "AI tools",
-      "video editing",
-      "content repurposing",
-      "low startup cost"
+      "consulting",
+      "local business",
+      "recurring revenue"
     ],
-    "cost": "Very low startup cost (Opus Clip subscription)",
-    "found": "Arlan Hamilton",
-    "what": "Take a creator's or business's existing long-form video content and use the AI tool Opus Clip to automatically generate 10 to 20 short vertical clips for TikTok, Instagram Reels, and YouTube Shorts, then lightly edit and caption the best ones before delivering them to the client.",
-    "pitch": "Hamilton frames the pricing specifically around undercutting manual editors: professional editors who clip content by hand typically charge $50 to $80 per clip, so charging $10 to $20 per clip, or a flat bundle like $300 a month for around 30 clips across four videos, still feels like a bargain to the client while paying you roughly $100 an hour for the actual editing time involved. The differentiator she stresses is not just running the AI tool and handing over raw output, but going back into Opus Clip's editing tools to adjust captions and trim clips so they're genuinely polished before delivery.",
-    "best": "Someone with an eye for what makes a short clip watchable who's willing to do a bit of manual polish on top of the AI-generated output, rather than just delivering the raw automated clips.",
-    "truth": "Hamilton pays someone else to do a version of this for her own content, which is a real, if secondhand, validation that people pay for this service. The specific dollar figures ($10-20/clip, $300/month bundle, roughly $100/hour in time) are her own suggested pricing framework, not a documented case study of someone else successfully charging these rates.",
-    "url": "https://www.youtube.com/watch?v=JHWFNg7ghKE",
+    "cost": "Low startup cost (fulfillment outsourced to a developer team for a revenue share)",
+    "found": "Angelo Turri",
+    "what": "Running a specialized AI agency that sells a bundle of five recurring AI systems to a small number of high-ticket local service businesses in one committed industry niche, rather than selling cheap one-off AI websites to many small clients.",
+    "pitch": "The presenter argues the AI-website business model breaks down because it's low-ticket, non-recurring, and rapidly commoditized by free tools, and instead recommends committing to a single high-value local-service niche such as roofing, HVAC, solar, or med spas for a minimum of 3-6 months. He sells a bundle of five recurring AI systems addressing specific revenue leaks, including a missed-call voice receptionist, a speed-to-lead follow-up agent, dead-lead reactivation, an internal knowledge assistant, and an AI quoting agent, quantifying each business's dollar losses during the sales call using a framework he calls identify, quantify, prioritize, selling one system at a time starting with the costliest leak, then expanding into the rest with the same client over time.",
+    "best": "Someone more interested in sales and client relationship management than hands-on technical building, since the presenter explicitly delegates all development work, and comfortable running a structured, numbers-driven sales conversation.",
+    "truth": "The presenter's own numbers, including per-system pricing of $8,000 to $15,000 upfront plus $2,000 to $5,000 a month, and having helped clients scale to $10,000 to $30,000 a month, are self-reported without account or client verification shown on screen. The core critique of the low-ticket AI-website model, crowded, one-time payment, no recurring relationship, is a reasonable, internally consistent business argument independent of whether his specific numbers are exact. The video ends promoting the presenter's own paid one-on-one mentorship program.",
+    "url": "https://www.youtube.com/watch?v=zmq12ZQSGzA",
     "situation_tags": [
-      "Strictly in-home"
+      "Home office, client-facing",
+      "Phone/sales-based"
     ]
   },
   {
-    "id": "pool-cleaning-maintenance-service",
-    "name": "Pool cleaning and maintenance service",
+    "id": "outcome-based-ai-strategy-consulting-reframe",
+    "name": "Reframing an existing service as an outcome-based, AI-powered offer",
     "category": "Local & professional services",
     "tags": [
-      "pool service",
-      "home services",
-      "recurring revenue",
-      "low startup cost"
+      "AI tools",
+      "consulting",
+      "repositioning",
+      "premium pricing"
     ],
-    "cost": "Very low startup cost (a few hundred dollars for equipment)",
-    "found": "Austin Zaback",
-    "what": "Provide weekly pool maintenance, skimming the surface, brushing walls, occasionally vacuuming the floor, and adding chemicals as needed, for residential customers who don't want to maintain their own pool or risk it turning green and unusable.",
-    "pitch": "Zaback cites the U.S. pool cleaning and maintenance market at $26.77 billion in 2025, projected to reach nearly $40 billion by 2030, and notes that most residential customers pay $100 to $150 a month for weekly service, a naturally recurring relationship since a neglected pool creates an urgent, visible problem the homeowner wants solved.",
-    "best": "Someone in a warm-climate state (Florida, Texas, California, Arizona, and similar) willing to build a weekly route, since retention in this business is described as strong once a homeowner trusts a reliable cleaner.",
-    "truth": "No specific individual case study or income example is given for this particular idea in the video, unlike several of the others, so the pricing and market-size figures are the only data points to evaluate rather than a personal account. The core mechanic (weekly visits, chemical costs scale with actual accounts rather than being paid upfront) is specific enough to verify independently before committing capital.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "cost": "Very low startup cost",
+    "found": "Arlan Hamilton",
+    "what": "Take a service you already offer or have expertise in, marketing, HR, operations, finance, coaching, and repackage the pitch around a specific, AI-accelerated outcome and timeline rather than a vague description of what you do, then charge a premium project or retainer fee for the AI-enhanced version.",
+    "pitch": "Hamilton's example: instead of saying \"I help small businesses with marketing,\" you'd say \"I'll build your 90-day AI-powered marketing engine in 14 days,\" using AI to actually generate the campaign ideas, emails, landing page copy, and competitor analysis behind that offer, and charging $1,000 to $5,000 per project. For higher-ticket \"AI-enhanced strategy\" work aimed at small businesses trying to scale (her example: a business going from $25,000 to $40,000 a month), she cites a client in her own community, Liz, who went from $15,000 to $40,000 a month over eight months with this kind of support, and suggests $3,000 to $10,000 project fees or $2,000-a-month retainers for that tier.",
+    "best": "Someone with genuine prior expertise in a specific function (not someone starting from zero) who's comfortable repositioning their existing offer language around outcomes rather than learning an entirely new skill.",
+    "truth": "The Liz case study is specific (a named person, specific before/after numbers, an eight-month timeframe) but comes from Hamilton's own paid community, not an independently verified source. The core reframing technique, outcome-and-timeline language instead of a vague service description, is a general copywriting principle that doesn't depend on any of Hamilton's specific tools or programs to apply.",
+    "url": "https://www.youtube.com/watch?v=_iMh50ZZaiI",
     "situation_tags": [
-      "Local travel required",
-      "Weekend/event-based schedule"
+      "Strictly in-home",
+      "Home office, client-facing"
+    ]
+  },
+  {
+    "id": "trash-can-rolling-valet-service",
+    "name": "Trash-can rolling valet subscription service",
+    "category": "Local & professional services",
+    "tags": [
+      "service business",
+      "very low startup cost",
+      "recurring revenue",
+      "subscription",
+      "beginner friendly"
+    ],
+    "cost": "Near-zero startup cost (just a car and customers, no truck or special equipment)",
+    "found": "Austin Zaback",
+    "what": "A subscription service that rolls a homeowner's trash and recycling bins from their garage or backyard out to the curb on collection day and brings them back afterward, essentially a courier service for trash cans. No truck or specialized equipment is needed, just a route and a car.",
+    "pitch": "The presenter cites one specific named example, a company called Can Monkey, that grew to over 6,000 active subscriptions across 25 states and more than 500 cities, charging about $45 a month per property (over $250,000 a month in recurring revenue), with a churn rate the presenter says is under 1%. He names elderly residents, second-home owners, and Airbnb or short-term rental hosts as strong customer segments, and says 20-25 properties within a tight radius is enough to build a first route.",
+    "best": "Someone looking for the lowest possible barrier to entry on this list, no truck or specialized equipment, and a business that can be started essentially immediately.",
+    "truth": "The Can Monkey figures (6,000+ subscriptions, sub-1% churn) are cited as a real, named, existing company rather than an anonymous anecdote, a good transparency signal, though the specific numbers aren't independently sourced beyond the presenter's own account. This is genuinely one of the lowest-cost ideas on the list, but building a dense enough local route (20-25 tightly clustered properties) to make weekly visits efficient is the real early-stage challenge the pitch doesn't dwell on.",
+    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
+    "situation_tags": [
+      "Local travel required"
     ]
   },
   {
@@ -2015,47 +2191,114 @@
     ]
   },
   {
-    "id": "custom-gpts-niche-membership-addon",
-    "name": "Custom GPTs for specific professional niches",
-    "category": "AI & automation",
+    "id": "ai-voice-appointment-setter-lead-reactivation",
+    "name": "AI appointment-setting and lead-reactivation agent for home service businesses",
+    "category": "Local & professional services",
     "tags": [
       "AI tools",
-      "custom GPT",
-      "niche",
-      "subscription"
+      "local business",
+      "recurring revenue",
+      "phone/sales-based",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost",
+    "found": "Angelo Turri",
+    "what": "Build an AI voice agent that answers new leads within seconds (not hours), asks qualifying questions, and books the appointment straight onto the business owner's calendar. The same agent can also call through a business's list of old, cold leads with a promotion or offer to re-engage and re-book them.",
+    "pitch": "The pitch is speed and follow-up: most home service businesses lose leads simply because they respond too slowly or never follow up on old leads at all. The system is priced as a retainer between $2,000 and $4,000 a month on top of an $8,000 to $15,000 setup fee. The presenter cites installing this exact system into a roofing company and generating $159,000 in additional revenue in 3 months, with response times dropping from hours to under 2 minutes.",
+    "best": "Someone comfortable with cold-calling and sales to land the first few clients, since both the technical build (delegated to a developer for 10-15% of the client fee) and the actual selling are described as separate skills.",
+    "truth": "The roofing-company case study is specific and named by industry, which is a good signal, though it's a single example rather than an audited track record. Supporting statistics cited in the video (a claimed 300% close-rate boost from responding within 3 minutes, an 80% drop in close rate after 5 minutes) aren't sourced on-screen. The video is also a funnel into the presenter's paid one-on-one mentorship. This general AI-voice-agent-for-local-business pattern shows up repeatedly across WAH creator content, this entry adds the specific lead-reactivation angle on top of live-call handling.",
+    "url": "https://www.youtube.com/watch?v=ZQHBe6Rb6v0",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "facebook-meme-page-monetization",
+    "name": "Facebook page monetization via AI-scheduled meme and content posting",
+    "category": "Content & personal brand",
+    "tags": [
+      "Facebook",
+      "content creation",
+      "AI tools",
+      "beginner friendly",
+      "very low startup cost"
     ],
     "cost": "Very low startup cost",
-    "found": "Arlan Hamilton",
-    "what": "Build a custom GPT inside ChatGPT scoped to a specific professional niche, real estate agents, coaches, consultants, or HR teams, then sell access to it on its own for $29 to $99 or more, or bundle it into an existing paid membership as a premium perk.",
-    "pitch": "Hamilton frames the appeal as low-effort packaging of something that already feels valuable: a custom GPT can be positioned as a $1,000 value included inside a $100-a-month membership, which strengthens the overall offer without requiring separate marketing or sales effort for the tool itself. She teaches the actual build process, a roughly 30 to 40 minute process by her account, inside her own paid community.",
-    "best": "Someone who already has (or is building) a niche community or membership and wants a low-effort way to add a tangible AI tool as a differentiator, rather than someone looking to sell a custom GPT as a completely standalone product from scratch.",
-    "truth": "The pricing figures ($29-99 standalone, $1,000 \"value\" bundled into a $100/month membership) are Hamilton's own suggested framing rather than documented sales figures. The core technical claim, that building a custom GPT is a straightforward, learnable process, is reasonable and independently verifiable without her specific paid course.",
-    "url": "https://www.youtube.com/watch?v=JHWFNg7ghKE",
+    "found": "Anji Martin",
+    "what": "Run a Facebook content page, text posts, photo posts, and memes rather than video, using the AI tool Post Planner to find already-proven, high-engagement content in a chosen niche, generate an original AI image modeled on (not copied from) what's working, and schedule six to ten-plus posts a day across Facebook, Instagram, TikTok, and Twitter in bulk. Facebook pays out through its content monetization program based on reach and engagement, and pages don't need a large following since Facebook will push posts to non-followers.",
+    "pitch": "The presenter says she grew her own page from zero to over 370,000 followers with as many as 49 million views in a single month, and claims payouts as high as $500 for a single meme (the best a student has made is cited at $400). Once a page has its own bank of proven, viral posts, those same posts can be rescheduled and reposted repeatedly, and additional income can be layered on through affiliate links or digital products placed in the comments.",
+    "best": "Someone comfortable picking a content niche and consistently posting text or image content multiple times a day without needing to appear on camera or produce video.",
+    "truth": "The presenter has an affiliate discount code for Post Planner and runs a paid mentorship group, so there's a clear incentive to make the tool sound as effective as possible. The specific per-post payout figures ($500 and $400 maximums) are self-reported without account screenshots or payout documentation shown on screen, and Facebook's content monetization program terms and payout rates can change and vary by page/region, so a new page's actual earnings potential isn't verifiable from this video alone.",
+    "url": "https://www.youtube.com/watch?v=YbSzAt-78Wo",
     "situation_tags": [
       "Strictly in-home"
     ]
   },
   {
-    "id": "lawn-care-business-route",
-    "name": "Lawn care and mowing route",
+    "id": "lovable-ai-website-sales-pricing-ladder",
+    "name": "Sell AI-built (Lovable) websites and landing pages with a tiered pricing ladder",
+    "category": "Marketing & content",
+    "tags": [
+      "web design",
+      "AI tools",
+      "low startup cost",
+      "beginner friendly"
+    ],
+    "cost": "Low startup cost",
+    "found": "Arlan Hamilton",
+    "what": "Use the AI app-builder Lovable.dev, which builds from plain-language prompts with no coding required, to create websites, landing pages, sales pages, or small tools for clients and sell them. The presenter's suggested approach is to start at a low, easy-to-say-yes-to price point and raise prices for later clients as you build confidence and a track record.",
+    "pitch": "The presenter says her own students started around $300 per site (a price point she calls 'the easiest ask'), then moved up to $500, then $1,000, with one student selling a package for $1,500 and another selling a full site-plus-maintenance package for $3,500. The framing throughout is 'influence, don't convince,' meaning show genuine value rather than hard-selling.",
+    "best": "Someone who wants a structured pricing on-ramp, starting cheap and deliberately raising prices as they gain confidence and results, rather than guessing what to charge from their very first client.",
+    "truth": "This video is almost entirely a promotional pitch for the presenter's own paid 'Lovable Income Challenge' (stated at $199 at time of filming, said to be rising toward $997), so the pricing figures cited are anecdotes from her own paying students rather than an independently documented case study. The core mechanic, building websites for local businesses or individual clients using an AI tool, shows up in other entries in this database from other creators; what this entry specifically adds is the price-anchoring and scaling approach.",
+    "url": "https://www.youtube.com/watch?v=XNiJzjanxxA",
+    "situation_tags": [
+      "Strictly in-home",
+      "Home office, client-facing"
+    ]
+  },
+  {
+    "id": "ai-free-shopify-store-builder-zendrop",
+    "name": "Free AI-built Shopify dropshipping store using storebuild.ai and Zendrop",
+    "category": "E-commerce",
+    "tags": [
+      "dropshipping",
+      "AI tools",
+      "Shopify",
+      "low startup cost",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Austin Rabin",
+    "what": "Use a free AI tool (storebuild.ai) to auto-generate a complete Shopify store: pick a niche, get an auto-designed premium theme, banner, and color scheme, then connect a Shopify account and the Zendrop app, which supplies dropshipped products and automatically fulfills orders once a sale comes in. The presenter also walks through copying his own tested product-page layout (title, reviews, urgency text, variant picker, and collapsible info sections) and suggests using ChatGPT for product copy and images if you don't have a photographer.",
+    "pitch": "The presenter says this is the same store theme and product-page layout his own golf apparel brand used to scale to $3.9 million in revenue, and positions the tool as genuinely free (a promotional Shopify plan at $1/month for the first three months in the video) with Zendrop handling fulfillment for free on the first 10 products (scaling to a fee capped around $79/month after that), so the main remaining work after setup is marketing and product testing.",
+    "best": "Someone willing to treat the free store setup as just the first step and put real, ongoing effort into paid ads, product testing, and page optimization, since the free store-builder removes the design and build barrier but not the marketing work.",
+    "truth": "The presenter states explicitly that he isn't selling a course and that the tool is free, a good transparency signal, though he has referral or partnership ties to both storebuild.ai and Zendrop (this video functions as a guided funnel into both), and separately promotes his own free ad-research tool (adlibrary.io). The $3.9 million figure refers to his own separate golf apparel brand, covered with real monthly financial detail in a companion video also in this database, not a guarantee for a new store built from this free template.",
+    "url": "https://www.youtube.com/watch?v=3fg_NwHN2vY",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "window-cleaning-service",
+    "name": "Residential and commercial window cleaning service",
     "category": "Local & professional services",
     "tags": [
-      "lawn care",
-      "landscaping",
+      "service business",
+      "very low startup cost",
       "recurring revenue",
-      "low startup cost"
+      "beginner friendly"
     ],
-    "cost": "Low startup cost (one mower to start)",
+    "cost": "About $500 to start (basic squeegee and pole equipment)",
     "found": "Austin Zaback",
-    "what": "Build a residential lawn mowing and basic yard maintenance route, starting with one mower and expanding customer by customer within a tight geographic area to keep drive time low and route density high.",
-    "pitch": "Zaback cites the U.S. lawn care and landscaping industry at $184 billion in 2025 across 650,000 companies, none of which controls more than 5% of the market, meaning there's no dominant national brand cornering any given neighborhood. He notes the average U.S. household spends about $600 a year on lawn care, and that doing eight to ten lawns a day can generate $400 to $750 in daily revenue solo.",
-    "best": "Someone willing to start small (one mower, one tight route) and treat this as a long, proven, unglamorous path rather than a fast or novel one, since Zaback frames it as one of the least flashy but most consistently reliable ideas on the list.",
-    "truth": "The revenue figures are Zaback's general framework based on typical job counts and pricing rather than one specific named case study, unlike some of the other ideas in this video. The market fragmentation statistic (no company over 5% share) is a real, checkable structural fact about the industry that supports the claim of low competitive barriers, regardless of any individual operator's specific results.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "what": "Residential and commercial window cleaning, priced by square footage and number of stories for homes, with the option to sell quarterly exterior packages to homeowners and ongoing monthly contracts to commercial accounts like restaurants, retail stores, and office buildings.",
+    "pitch": "The presenter cites an average residential job around $500, and says six jobs a day would gross about $3,000 a day. He cites one named example, an Arizona operator who did $392,000 in a year with a small subcontractor team, starting with about $500 in equipment, and argues commercial accounts are less price-sensitive than residential customers, mainly wanting reliability.",
+    "best": "Someone who wants a business that can eventually be quoted over the phone once experienced, minimizing in-person estimate visits, and who's comfortable building both residential and recurring commercial accounts.",
+    "truth": "The $392,000-a-year example is a named, specific claim but isn't independently documented beyond the presenter's account. The pitch that jobs can be quoted over the phone in under two minutes applies only once you've built up real pricing experience across many homes, which a total beginner won't have on day one.",
+    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
     "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Weekend/event-based schedule"
+      "Local travel required"
     ]
   },
   {
@@ -3347,8 +3590,8 @@
     ]
   },
   {
-    "id": "high-ticket-ai-agency-local-service-bundle",
-    "name": "High-ticket recurring AI agency bundle for one local-service niche, instead of one-off AI websites",
+    "id": "ai-internal-knowledge-base-rag-system",
+    "name": "Internal AI knowledge-base (RAG) agent for home service businesses",
     "category": "AI & automation",
     "tags": [
       "AI tools",
@@ -3356,60 +3599,106 @@
       "local business",
       "recurring revenue"
     ],
-    "cost": "Low startup cost (fulfillment outsourced to a developer team for a revenue share)",
+    "cost": "Low startup cost",
     "found": "Angelo Turri",
-    "what": "Running a specialized AI agency that sells a bundle of five recurring AI systems to a small number of high-ticket local service businesses in one committed industry niche, rather than selling cheap one-off AI websites to many small clients.",
-    "pitch": "The presenter argues the AI-website business model breaks down because it's low-ticket, non-recurring, and rapidly commoditized by free tools, and instead recommends committing to a single high-value local-service niche such as roofing, HVAC, solar, or med spas for a minimum of 3-6 months. He sells a bundle of five recurring AI systems addressing specific revenue leaks, including a missed-call voice receptionist, a speed-to-lead follow-up agent, dead-lead reactivation, an internal knowledge assistant, and an AI quoting agent, quantifying each business's dollar losses during the sales call using a framework he calls identify, quantify, prioritize, selling one system at a time starting with the costliest leak, then expanding into the rest with the same client over time.",
-    "best": "Someone more interested in sales and client relationship management than hands-on technical building, since the presenter explicitly delegates all development work, and comfortable running a structured, numbers-driven sales conversation.",
-    "truth": "The presenter's own numbers, including per-system pricing of $8,000 to $15,000 upfront plus $2,000 to $5,000 a month, and having helped clients scale to $10,000 to $30,000 a month, are self-reported without account or client verification shown on screen. The core critique of the low-ticket AI-website model, crowded, one-time payment, no recurring relationship, is a reasonable, internally consistent business argument independent of whether his specific numbers are exact. The video ends promoting the presenter's own paid one-on-one mentorship program.",
-    "url": "https://www.youtube.com/watch?v=zmq12ZQSGzA",
+    "what": "Build an AI system trained on everything a business already knows, its SOPs, pricing sheets, warranty terms, and FAQs, so office staff and field technicians can ask it questions instantly instead of interrupting the owner. Once loaded with pricing data, it can also generate accurate on-the-spot quote estimates, and can eventually be exposed externally as a website chatbot.",
+    "pitch": "Priced similarly to the companion voice-agent system, an $8,000 to $15,000 setup plus $2,000 to $4,000 a month to maintain, though the presenter says actual deals have ranged from $6,000 to upwards of $15,000 depending on the business. The argument for why it's sticky: once a team relies on it daily, replacing it means rebuilding the entire knowledge base from scratch with someone else, which makes the switching cost very high.",
+    "best": "Someone comfortable with a more document-heavy onboarding process (collecting and organizing a business's SOPs, pricing, and training materials) and willing to delegate the technical build to a developer.",
+    "truth": "Unlike the companion voice-agent system, this one has no named case study with a specific dollar result, just a pricing guideline the presenter says varies deal to deal. The video overall is a funnel into the presenter's paid one-on-one mentorship, and the pricing range itself is fairly wide and unverified beyond the presenter's own account.",
+    "url": "https://www.youtube.com/watch?v=ZQHBe6Rb6v0",
     "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based"
-    ]
-  },
-  {
-    "id": "outcome-based-ai-strategy-consulting-reframe",
-    "name": "Reframing an existing service as an outcome-based, AI-powered offer",
-    "category": "Local & professional services",
-    "tags": [
-      "AI tools",
-      "consulting",
-      "repositioning",
-      "premium pricing"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Arlan Hamilton",
-    "what": "Take a service you already offer or have expertise in, marketing, HR, operations, finance, coaching, and repackage the pitch around a specific, AI-accelerated outcome and timeline rather than a vague description of what you do, then charge a premium project or retainer fee for the AI-enhanced version.",
-    "pitch": "Hamilton's example: instead of saying \"I help small businesses with marketing,\" you'd say \"I'll build your 90-day AI-powered marketing engine in 14 days,\" using AI to actually generate the campaign ideas, emails, landing page copy, and competitor analysis behind that offer, and charging $1,000 to $5,000 per project. For higher-ticket \"AI-enhanced strategy\" work aimed at small businesses trying to scale (her example: a business going from $25,000 to $40,000 a month), she cites a client in her own community, Liz, who went from $15,000 to $40,000 a month over eight months with this kind of support, and suggests $3,000 to $10,000 project fees or $2,000-a-month retainers for that tier.",
-    "best": "Someone with genuine prior expertise in a specific function (not someone starting from zero) who's comfortable repositioning their existing offer language around outcomes rather than learning an entirely new skill.",
-    "truth": "The Liz case study is specific (a named person, specific before/after numbers, an eight-month timeframe) but comes from Hamilton's own paid community, not an independently verified source. The core reframing technique, outcome-and-timeline language instead of a vague service description, is a general copywriting principle that doesn't depend on any of Hamilton's specific tools or programs to apply.",
-    "url": "https://www.youtube.com/watch?v=_iMh50ZZaiI",
-    "situation_tags": [
-      "Strictly in-home",
       "Home office, client-facing"
     ]
   },
   {
-    "id": "mobile-car-detailing-service",
-    "name": "Mobile car detailing service",
+    "id": "printify-tiktok-shop-faith-apparel",
+    "name": "Print-on-demand apparel via Printify and TikTok Shop",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "TikTok Shop",
+      "AI tools",
+      "very low startup cost",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Anji Martin",
+    "what": "Use a free TikTok Shop account together with a free Printify account to sell print-on-demand apparel with zero inventory held. Research TikTok Shop listings that have sold around 1,000 units with only 50-100 reviews (a signal of real, still-fresh demand), use an AI t-shirt design tool (KD) to generate an original design inspired by, not copied from, what's already selling, then upload it to Printify, link it to your TikTok Shop, and publish. Printify prints, packs, and ships every order hands-off once a sale comes in.",
+    "pitch": "The presenter points to one specific existing shirt listing that has sold 6,800 units at $14.55 each, roughly $100,000 in revenue for that single design, as proof the model works, and walks through building and publishing a new original listing in under 10 minutes for zero upfront cost. You keep the difference between Printify's wholesale cost and the TikTok Shop retail price you set.",
+    "best": "Someone comfortable with basic on-platform product research (checking sales counts and review counts on existing listings) who wants a genuinely zero-inventory way to test a print-on-demand apparel idea.",
+    "truth": "The $100,000/6,800-unit figure belongs to one specific, already-established listing being used as market validation, not a promise that a new design will replicate those numbers. The video frames this specifically as a way to sell faith-based apparel, but the underlying mechanic, validate an already-selling niche, create an original alternative design, and list it through Printify and TikTok Shop, applies to any product niche, not just faith-based designs.",
+    "url": "https://www.youtube.com/watch?v=HF3fp-wPvg0",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "warm-network-loom-pitch-website-redesign",
+    "name": "Warm-network video-pitch method for AI website redesigns",
+    "category": "Marketing & content",
+    "tags": [
+      "web design",
+      "AI tools",
+      "sales",
+      "very low startup cost",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Arlan Hamilton",
+    "what": "A specific outreach script: list 5-10 people you personally know who run a small business or professional practice (a salon, a dry cleaner, a doctor, a lawyer, an accountant, and similar), check whether their current website looks outdated, then record a short (under 5 minute) screen-share video on Loom or Zoom pointing out three specific, concrete things that could be improved, framed as observations, never as criticism. Offer to rebuild the site using the AI tool Lovable at a friends-and-family discount, delivered within about 72 hours, paid upfront through a checkout link like Stripe before starting the work.",
+    "pitch": "The presenter frames this as something achievable within 24 hours, since it needs no coding skill (Lovable is described in plain conversational prompts) and no cold outreach to strangers, only people already in your existing network. She suggests pricing the first redesign around $300, against a stated $997 'normal' rate, and shares an anecdote about a freelancer named Max who used a similar short personalized video to land a $1,500-a-month ongoing retainer from a past client.",
+    "best": "Someone with an existing personal or professional network that includes small business owners or self-employed professionals, and who's comfortable narrating a short screen-share video.",
+    "truth": "This is a genuinely detailed, step-by-step tactical playbook, more actionable than the presenter's companion video also in this database, though it still funnels toward her paid 'Lovable Income Challenge' for anyone who wants more structured guidance. The $300 price point and the Max anecdote are both self-reported by the presenter, not independently documented. This shares its core AI-website-building mechanic with other entries in this database from other creators; the specific contribution here is the warm-network, personalized-video outreach tactic.",
+    "url": "https://www.youtube.com/watch?v=xntlsN-GQ8Q",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "branded-apparel-dropship-brand-economics",
+    "name": "Branded apparel dropshipping brand economics (monthly transparency breakdown)",
+    "category": "E-commerce",
+    "tags": [
+      "e-commerce",
+      "apparel",
+      "dropshipping",
+      "Facebook ads",
+      "needs ad budget"
+    ],
+    "cost": "Needs ongoing ad budget",
+    "found": "Austin Rabin",
+    "what": "A real, line-item look at running an established branded apparel dropshipping business (golf-themed polos) month to month: seasonal product drops timed to holidays, bundle offers to raise average order value, image ads (the presenter's primary format, cited as roughly three times cheaper than video ads), Shopify's built-in 'Shop' advertising channel (which only charges per completed sale rather than per click), and email/SMS marketing, which the presenter says should generate roughly 30% of total revenue.",
+    "pitch": "The presenter shows a specific July breakdown with full transparency: $262,471 in revenue, $130,543 in ad spend, $62,004 cost of goods sold, roughly $11,400 in fees, $18,044 in shipping, and a small returns adjustment added back, netting about $42,301 in profit, a roughly 16% margin, which he says is lower than the brand's usual ~$60,000 typical net at that revenue level because of a mid-month Facebook platform outage and a stalled ad-account wire payment that month.",
+    "best": "Someone already building or running a branded product line rather than a purely generic private-label dropshipping store, who wants a realistic picture of the ongoing costs, ad spend, cost of goods, fees, and shipping, not just top-line revenue.",
+    "truth": "This is one of the more transparent monthly breakdowns in this database, showing real dollar figures across every expense category rather than only a revenue headline, and the presenter explicitly attributes the lower-than-usual margin to two specific, named operational problems that month rather than glossing over them. This is also an ongoing paid-advertising business with roughly $130,000 in monthly ad spend, a substantial and real barrier to entry that a beginner following the companion free-store-builder video also in this database would need to grow into over time, not start with.",
+    "url": "https://www.youtube.com/watch?v=9WnsidOcJQE",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "junk-removal-service",
+    "name": "Junk removal service",
     "category": "Local & professional services",
     "tags": [
-      "mobile detailing",
-      "automotive",
-      "low startup cost",
-      "high margin"
+      "service business",
+      "very low startup cost",
+      "recurring revenue",
+      "beginner friendly"
     ],
-    "cost": "Low startup cost (no commercial space needed)",
+    "cost": "Low startup cost if you already have a truck",
     "found": "Austin Zaback",
-    "what": "Drive to a customer's home or office and detail their car in their driveway or parking spot, requiring no commercial space, employees, or heavy equipment, just mobility and the tools to wash, wax, and clean a vehicle on-site.",
-    "pitch": "Zaback cites the global car detailing industry projected to surpass $58 billion by 2030 and notes mobile detailers consistently achieve 60-80% gross margins, among the highest of any service business on his list, since the core product being sold is convenience as much as the clean itself. He gives concrete pricing: $50-100 for a basic wash, $200-400 for a wax, buff, or deep clean on a luxury vehicle, meaning three high-end cars in a day could clear roughly $1,000.",
-    "best": "Someone targeting busy professionals, luxury car owners, or multi-vehicle families who will pay a premium specifically to avoid driving somewhere and waiting, rather than competing purely on price with fixed-location car washes.",
-    "truth": "The margin and pricing figures are presented as general industry figures rather than tied to one specific named operator's verified results, unlike some of the other ideas in this video. The core value proposition, that convenience commands a premium price people pay without much resistance, is a straightforward and testable claim independent of the specific dollar figures cited.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "what": "A junk-hauling business where you quote a job on the spot by volume, load up unwanted items, and get paid immediately at time of pickup with no invoicing. The presenter emphasizes building relationships with real estate agents, property managers, and contractors as a steady referral pipeline, especially for clearing apartments between tenants.",
+    "pitch": "The presenter cites the US waste collection services industry projected to surpass $90 billion by 2030, with junk removal (valued over $10 billion) as one of its fastest-growing segments. He says a single truck can realistically generate about $500 a day, with an average job priced $250-300, and cites the roughly 40-50% annual US apartment turnover rate as a reliable, recurring source of work through property-manager relationships.",
+    "best": "Someone who already owns or has access to a truck or trailer, and who is comfortable building referral relationships with real estate and property-management professionals rather than relying only on one-off individual customers.",
+    "truth": "The industry-size figures are stated without an in-video citation. The business model depends heavily on having, or affording, a truck, which the pitch acknowledges directly ('if you already have a truck, you're already halfway there') rather than treating equipment cost as a non-issue the way some other ideas on this list do.",
+    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
     "situation_tags": [
       "Local travel required",
-      "Weekend/event-based schedule"
+      "Needs a truck or cargo vehicle"
     ]
   },
   {
