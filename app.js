@@ -314,6 +314,18 @@ function toTitleCase(str) {
   }).join(' ');
 }
 
+function slugifyProducer(name) {
+  let s = (name || '').toLowerCase();
+  s = s.replace(/[^a-z0-9]+/g, '-');
+  s = s.replace(/^-+|-+$/g, '');
+  s = s.slice(0, 60);
+  return s;
+}
+
+function avatarSrc(found) {
+  return `assets/avatars/avatar-${slugifyProducer(found)}.jpg`;
+}
+
 function buildCard(idea) {
   const card = document.createElement('article');
   card.className = 'card';
@@ -322,7 +334,13 @@ function buildCard(idea) {
 
   card.innerHTML = `
     <div class="card-head">
-      <h3 class="card-title">${escapeHtml(toTitleCase(idea.name))}</h3>
+      <div class="card-title-block">
+        <img class="card-avatar" src="${escapeAttr(avatarSrc(idea.found))}" alt="" loading="lazy" onerror="this.classList.add('card-avatar-hidden')">
+        <div class="card-title-text">
+          <h3 class="card-title">${escapeHtml(toTitleCase(idea.name))}</h3>
+          <p class="card-meta">${escapeHtml(idea.category)} &middot; ${escapeHtml(idea.cost)}</p>
+        </div>
+      </div>
       <div class="card-actions">
         <button class="copy-btn" type="button">${COPY_SVG}<span>Copy This Entire Gig to Clipboard</span></button>
         <label class="save-toggle ${isSaved ? 'saved' : ''}">
@@ -332,7 +350,6 @@ function buildCard(idea) {
         </label>
       </div>
     </div>
-    <p class="card-meta">${escapeHtml(idea.category)} &middot; ${escapeHtml(idea.cost)}</p>
 
     <div class="card-section">
       <div class="card-section-label">Source</div>
