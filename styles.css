@@ -367,8 +367,8 @@ a { color: inherit; }
 }
 
 .card-avatar {
-  width: 48px;
-  height: 48px;
+  width: 96px;
+  height: 96px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
@@ -394,7 +394,7 @@ a { color: inherit; }
 }
 @media (max-width: 760px) {
   .card-title { font-size: 1.15rem; }
-  .card-avatar { width: 40px; height: 40px; }
+  .card-avatar { width: 80px; height: 80px; }
 }
 
 .card-meta {
