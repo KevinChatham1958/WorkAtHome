@@ -34,6 +34,7 @@ const CHECK_SVG = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" x
 // ---------- State ----------
 
 let ALL_IDEAS = [];
+let SHUFFLED_IDEAS = []; // ALL_IDEAS reordered with a date-seeded shuffle; same order for every visitor all day, changes at midnight
 let state = {
   search: "",
   savedOnly: false
@@ -41,12 +42,48 @@ let state = {
 let savedIds = new Set(loadSaved());
 let expandedIds = new Set();
 
+
+// ---------- Daily shuffle ----------
+// Deterministic per calendar date (UTC), so every visitor sees the same
+// order for the whole day, and it changes automatically at midnight UTC.
+// Not a security feature - just a display-freshness trick.
+
+function mulberry32(seed) {
+  return function () {
+    seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function dailySeed() {
+  const d = new Date();
+  const dateStr = `${d.getUTCFullYear()}${d.getUTCMonth()}${d.getUTCDate()}`;
+  let hash = 0;
+  for (let i = 0; i < dateStr.length; i++) {
+    hash = (hash * 31 + dateStr.charCodeAt(i)) | 0;
+  }
+  return hash;
+}
+
+function shuffleWithSeed(arr, seed) {
+  const rand = mulberry32(seed);
+  const copy = arr.slice();
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
 // ---------- Load data ----------
 
 fetch('ideas.json')
   .then(r => r.json())
   .then(data => {
     ALL_IDEAS = data;
+    SHUFFLED_IDEAS = shuffleWithSeed(ALL_IDEAS, dailySeed());
     updateDbStats(data);
     render();
   })
@@ -259,7 +296,7 @@ function scoreIdea(idea, words) {
 }
 
 function getRankedIdeas() {
-  let pool = ALL_IDEAS;
+  let pool = SHUFFLED_IDEAS;
   if (state.savedOnly) {
     pool = pool.filter(idea => savedIds.has(idea.id));
   }
