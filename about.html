@@ -3,218 +3,165 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About — Side Hustle Intel (mockup)</title>
+<title>About — Side Hustle Intel (mockup v2)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg: #f7f8fa;
     --bg-card: #ffffff;
-    --bg-card-hover: #fbfcfd;
     --border: #e2e4e8;
     --border-strong: #c7ccd3;
     --text-primary: #16202e;
     --text-muted: #5b6472;
     --text-faint: #87909c;
     --accent: #1f3a5f;
-    --accent-dim: #33547e;
-    --accent-bg: #eef2f6;
+    --red: #d32f2f;
     --link: #1d4ed8;
     --font-display: 'Space Grotesk', sans-serif;
     --font-body: 'Inter', sans-serif;
   }
   * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text-primary);
-    font-family: var(--font-body);
-    line-height: 1.5;
-  }
+  body { margin:0; background:var(--bg); color:var(--text-primary); font-family:var(--font-body); line-height:1.5; }
   a { color: inherit; }
 
-  /* ---------- Header (unchanged from live site) ---------- */
-  .site-header {
-    background: var(--bg-card);
-    border-bottom: 1px solid var(--border);
-    padding: 16px 24px;
-  }
-  .header-inner {
-    max-width: 720px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-  }
-  .wordmark-logo { display: block; height: auto; width: min(30%, 220px); }
-  .site-nav { display: flex; gap: 20px; }
-  .site-nav a { text-decoration: none; color: var(--text-primary); font-weight: 600; font-family: var(--font-display); font-size: 0.95rem; }
-  .site-nav a.active { color: var(--accent); }
+  .site-header { background:var(--bg-card); border-bottom:1px solid var(--border); padding:16px 24px; }
+  .header-inner { max-width:760px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+  .wordmark-logo { display:block; height:auto; width:min(30%,200px); }
+  .site-nav { display:flex; gap:20px; }
+  .site-nav a { text-decoration:none; color:var(--text-primary); font-weight:600; font-family:var(--font-display); font-size:0.95rem; }
+  .site-nav a.active { color:var(--accent); }
 
-  /* ---------- About page ---------- */
-  .about-main {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 56px 24px 80px;
-  }
+  .about-main { max-width:640px; margin:0 auto; padding:0 24px 48px; }
 
-  /* Section 1 — hero fragments */
-  .hero-block { margin-bottom: 44px; }
-  .hero-block .line {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: clamp(1.5rem, 4.2vw, 2.15rem);
-    letter-spacing: -0.01em;
-    line-height: 1.22;
-    margin: 0;
-    color: var(--text-primary);
-  }
-  .hero-block .line + .line { margin-top: 2px; }
-  .hero-block .beat { margin-top: 20px; }
-  .hero-block .beat .line { font-size: clamp(1.3rem, 3.6vw, 1.8rem); }
-
-  /* Fragment sections (What you get / The honest part) */
-  .frag-section { margin-bottom: 36px; }
-  .frag-heading {
+  /* HERO */
+  .hero-banner { text-align:center; padding:24px 0 4px; }
+  .hero-banner img { width:100%; max-width:380px; height:auto; }
+  .hero-tagline {
     font-family: var(--font-display);
     font-weight: 600;
-    font-size: 1.05rem;
-    color: var(--accent);
-    margin: 0 0 14px;
-  }
-  .frag-lines p {
-    font-family: var(--font-display);
-    font-weight: 500;
-    font-size: 1.08rem;
-    color: var(--text-primary);
-    margin: 0 0 6px;
-    line-height: 1.35;
-  }
-  .frag-lines p:last-child { margin-bottom: 0; }
-  .frag-lines .soft {
-    font-family: var(--font-body);
-    font-weight: 400;
+    font-size: clamp(1rem, 2.6vw, 1.2rem);
     color: var(--text-muted);
-    font-size: 1rem;
+    text-align: center;
+    margin: 2px 0 22px;
   }
 
-  /* Section 4 — the read-through paragraph, deliberately set apart */
-  .prose-block {
-    margin: 44px 0;
-    padding-left: 20px;
-    border-left: 3px solid var(--accent);
-    max-width: 58ch;
-  }
-  .prose-block p {
-    font-size: 1.08rem;
-    color: var(--text-primary);
+  /* Section 1 - the problem (fragments) */
+  .frag-block { margin-bottom: 22px; }
+  .frag-block p {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(1.05rem, 2.6vw, 1.25rem);
+    line-height: 1.15;
     margin: 0;
-    line-height: 1.65;
+    color: var(--text-primary);
   }
+  .frag-block p.emph { color: var(--red); }
 
-  /* Section 5 — suggest a guru + form */
-  .guru-ask { margin-bottom: 18px; }
-  .guru-ask p {
+  /* Section 2 - Our Database */
+  .db-section {
+    margin: 24px 0;
+    padding: 20px 22px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .db-heading {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin: 0 0 10px;
+  }
+  .db-heading img { width: 22px; height: 22px; flex-shrink: 0; }
+  .db-heading h2 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 0;
+    color: var(--accent);
+  }
+  .db-list { margin: 0; padding: 0; list-style: none; }
+  .db-list li {
     font-family: var(--font-display);
     font-weight: 500;
-    font-size: 1.08rem;
+    font-size: 0.95rem;
+    padding: 5px 0;
+    border-top: 1px solid var(--border);
+    line-height: 1.15;
+  }
+  .db-list li:first-child { border-top: none; padding-top: 0; }
+
+  /* Section 3 - invitation / community */
+  .invite-section { margin: 28px 0 24px; }
+  .invite-graphic { text-align: center; margin-bottom: 4px; }
+  .invite-graphic img { width: 100%; max-width: 280px; height: auto; opacity: 0.9; }
+  .invite-heading {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(1.1rem, 2.8vw, 1.35rem);
+    color: var(--accent);
+    text-align: center;
+    margin: 4px 0 12px;
+  }
+  .invite-body p {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    text-align: center;
+    max-width: 56ch;
+    margin: 0 auto 4px;
+    line-height: 1.2;
+  }
+  .invite-questions {
+    max-width: 48ch;
+    margin: 14px auto 0;
+    padding: 14px 18px;
+    background: var(--bg-card);
+    border-left: 3px solid var(--red);
+    border-radius: 4px;
+  }
+  .invite-questions p {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 0.92rem;
+    line-height: 1.15;
     margin: 0 0 4px;
     color: var(--text-primary);
+    text-align: left;
   }
-  .guru-ask p.soft-line {
-    font-family: var(--font-body);
-    font-weight: 400;
-    color: var(--text-muted);
-    font-size: 0.98rem;
-  }
+  .invite-questions p:last-child { margin-bottom: 0; }
 
+  /* Feedback form */
   .feedback-form {
+    max-width: 480px;
+    margin: 18px auto 0;
     border: 1px solid var(--border);
     border-radius: 8px;
     background: var(--bg-card);
-    padding: 28px;
-    margin-top: 20px;
+    padding: 20px;
   }
-  .form-field { margin-bottom: 20px; }
+  .form-field { margin-bottom: 14px; }
   .form-field:last-of-type { margin-bottom: 0; }
-  .form-field label {
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 6px;
+  .form-field label { display:block; font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:6px; }
+  .form-field input[type="text"], .form-field input[type="email"], .form-field textarea {
+    width:100%; font-family:var(--font-body); font-size:0.95rem; color:var(--text-primary);
+    border:1px solid var(--border-strong); border-radius:5px; padding:10px 12px; background:#fff;
   }
-  .form-field input[type="text"],
-  .form-field input[type="email"],
-  .form-field textarea {
-    width: 100%;
-    font-family: var(--font-body);
-    font-size: 0.95rem;
-    color: var(--text-primary);
-    border: 1px solid var(--border-strong);
-    border-radius: 5px;
-    padding: 10px 12px;
-    background: #fff;
-  }
-  .form-field textarea { resize: vertical; min-height: 72px; }
+  .form-field textarea { resize:vertical; min-height:72px; }
   .submit-btn {
-    font-family: var(--font-display);
-    font-weight: 600;
-    font-size: 0.95rem;
-    color: #fff;
-    background: var(--accent);
-    border: none;
-    border-radius: 5px;
-    padding: 12px 22px;
-    cursor: pointer;
+    font-family: var(--font-display); font-weight:600; font-size:0.95rem; color:#fff;
+    background: var(--red); border:none; border-radius:5px; padding:12px 22px; cursor:pointer;
   }
-  .contact-line {
-    font-size: 0.95rem;
-    color: var(--text-muted);
-    margin-top: 14px;
-  }
+  .contact-line { font-size:0.88rem; color:var(--text-muted); margin-top:10px; text-align:center; }
   .contact-line a { color: var(--link); text-decoration: underline; }
 
-  /* Section 6 — closer */
-  .closer-block {
-    margin-top: 56px;
-    padding-top: 36px;
-    border-top: 1px solid var(--border);
-    text-align: left;
-  }
-  .closer-block .soft-line {
-    font-family: var(--font-body);
-    font-size: 1rem;
-    color: var(--text-muted);
-    margin: 0 0 4px;
-  }
-  .closer-block .bold-line {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: clamp(1.3rem, 3.4vw, 1.7rem);
-    color: var(--accent);
-    margin: 22px 0 0;
-    line-height: 1.3;
-  }
-
-  /* ---------- Footer (unchanged from live site) ---------- */
-  .site-footer {
-    border-top: 1px solid var(--border);
-    padding: 32px 24px;
-    text-align: center;
-  }
-  .footer-inner {
-    color: var(--text-faint);
-    font-size: 0.85rem;
-    max-width: 600px;
-    margin: 0 auto;
-  }
+  .site-footer { border-top:1px solid var(--border); padding:20px 24px; text-align:center; }
+  .footer-inner { color:var(--text-faint); font-size:0.85rem; max-width:600px; margin:0 auto; }
 
   @media (max-width: 600px) {
-    .about-main { padding: 40px 18px 60px; }
-    .prose-block { padding-left: 16px; }
+    .about-main { padding: 0 18px 60px; }
+    .db-section { padding: 24px 18px; }
   }
 </style>
 </head>
@@ -232,81 +179,70 @@
 
 <main class="about-main">
 
-  <!-- SECTION 1 — Hero -->
-  <div class="hero-block">
-    <p class="line">ABOUT SIDE HUSTLE INTEL</p>
-    <div style="margin-top:24px;">
-      <p class="line">Too many WAH gigs.</p>
-      <p class="line">Too many gurus.</p>
-      <p class="line">Too many "I made $40k my first month" videos.</p>
-    </div>
-    <div class="beat">
-      <p class="line">We watch 'em all. You don't have to.</p>
-    </div>
-    <div class="beat">
-      <p class="line">One searchable database.</p>
-      <p class="line">Every gig. Every angle. Every creator.</p>
-    </div>
+  <!-- HERO -->
+  <div class="hero-banner">
+    <img src="assets/about-hero-lockup.jpg" alt="Side Hustle Intel">
+  </div>
+  <p class="hero-tagline">The Searchable Work-at-Home Database</p>
+
+  <!-- SECTION 1: The problem -->
+  <div class="frag-block">
+    <p>Work-at-home industry is huge and exploding. Millions of people searching. Thousands of videos. Hundreds of experts.</p>
+    <p style="margin-top: 14px;">Some gigs are great. <span class="emph">Some are a waste of time.</span></p>
+    <p style="margin-top: 6px;">We are taming the beast. Making sense of it all — one searchable database.</p>
+    <p style="margin-top: 6px;">Hundreds of new gigs added weekly.</p>
   </div>
 
-  <!-- SECTION 2 — What you get -->
-  <div class="frag-section">
-    <p class="frag-heading">What you get</p>
-    <div class="frag-lines">
-      <p>New gigs added weekly.</p>
-      <p>Search by category. Search by keyword.</p>
-      <p>Save it. Copy it.</p>
-      <p>Original source, always linked.</p>
+  <!-- SECTION 2: Our Database -->
+  <div class="db-section">
+    <div class="db-heading">
+      <img src="assets/about-mag-glass.png" alt="">
+      <h2>Our Database</h2>
     </div>
+    <ul class="db-list">
+      <li>- Hundreds of gig listings today — our target is thousands.</li>
+      <li>- Search by category, expert name, or keyword.</li>
+      <li>- One-button click saves your search results.</li>
+      <li>- One-button click copies the current gig to your clipboard.</li>
+      <li>- We always include the link (URL) to the original source.</li>
+      <li>- We don't just repeat the hype — we comment on each gig.</li>
+    </ul>
   </div>
 
-  <!-- SECTION 3 — The honest part -->
-  <div class="frag-section">
-    <p class="frag-heading">The honest part</p>
-    <div class="frag-lines">
-      <p>We don't just repeat the hype.</p>
-      <p class="soft">Every entry gets a real look — what it costs, who it's actually for, where the pitch stretches the truth.</p>
-      <p style="margin-top:14px;">Like what you see? Go watch the source.</p>
-      <p>Think it's BS? Now you know before you waste an hour.</p>
+  <!-- SECTION 3: Invitation / Community -->
+  <div class="invite-section">
+    <div class="invite-graphic">
+      <img src="assets/about-group-people.png" alt="Join our community">
     </div>
-  </div>
+    <p class="invite-heading">Help Us Build This</p>
+    <div class="invite-body">
+      <p>This is a work-in-progress. Our goal: thousands of gigs, easy to use.</p>
+      <p>We need your input — think of yourself as a beta tester.</p>
+    </div>
 
-  <!-- SECTION 4 — The read-through paragraph -->
-  <div class="prose-block">
-    <p>Side Hustle Intel is a free, searchable database of work-at-home business ideas, updated every week. Every entry comes straight from what WAH creators are actually pitching on YouTube — not our opinion, not our list. Each one gets an honest look, not just a repeat of the hype.</p>
-  </div>
-
-  <!-- SECTION 5 — Suggest a guru + form -->
-  <div class="frag-section">
-    <div class="guru-ask">
-      <p>Think we missed a guru?</p>
-      <p>Suggest 'em. We'll check 'em out.</p>
+    <div class="invite-questions">
+      <p>Did we miss something?</p>
+      <p>Should we add a WAH expert?</p>
+      <p>Should we include more information? Or different categories?</p>
     </div>
 
     <form class="feedback-form" action="https://formspree.io/f/xppzrpln" method="POST">
-      <input type="hidden" name="_subject" value="Side Hustle Intel — suggestion">
+      <input type="hidden" name="_subject" value="Side Hustle Intel — About page feedback">
       <div class="form-field">
-        <label for="sg-name">Name</label>
-        <input type="text" id="sg-name" name="name" required>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
       </div>
       <div class="form-field">
-        <label for="sg-email">Email</label>
-        <input type="email" id="sg-email" name="email" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
       </div>
       <div class="form-field">
-        <label for="sg-comment">Comment</label>
-        <textarea id="sg-comment" name="comment" required placeholder="Guru's name, channel link, or anything else we should know"></textarea>
+        <label for="comment">Comment</label>
+        <textarea id="comment" name="comment" required></textarea>
       </div>
       <button type="submit" class="submit-btn">Send</button>
     </form>
     <p class="contact-line">Or email <a href="mailto:kevin@sidehustleintel.org">kevin@sidehustleintel.org</a></p>
-  </div>
-
-  <!-- SECTION 6 — Closer -->
-  <div class="closer-block">
-    <p class="soft-line">We don't pick your side hustle.</p>
-    <p class="soft-line">We just make sure you can find them all first.</p>
-    <p class="bold-line">We give you the tools.<br>You work them.</p>
   </div>
 
 </main>
