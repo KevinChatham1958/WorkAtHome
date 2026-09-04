@@ -924,26 +924,27 @@
     ]
   },
   {
-    "id": "pressure-washing-with-trash-can-upsell",
-    "name": "Mobile pressure washing with a trash-can-cleaning upsell",
-    "category": "Local & professional services",
+    "id": "cottage-bakery-home-kitchen-drops",
+    "name": "Cottage bakery selling weekly product drops from a home kitchen",
+    "category": "Physical & print products",
     "tags": [
-      "service business",
-      "very low startup cost",
-      "beginner friendly",
-      "recurring revenue"
+      "cottage bakery",
+      "home baking",
+      "cottage food law",
+      "baked goods",
+      "food business"
     ],
-    "cost": "About $1,000 to start (trailer, water tank, hose, surface cleaner)",
+    "cost": "Low startup cost (a food handler certificate plus basic baking ingredients and packaging)",
     "found": "Austin Zaback",
-    "what": "Mobile pressure washing of residential and commercial exteriors, with a simple add-on upsell: since you're already on-site with water and cleaning solution, offer to clean the customer's trash cans for an extra $20-30 each while you're there.",
-    "pitch": "The presenter cites the US pressure washing industry at over $1.2 billion in revenue across more than 32,000 businesses, with a typical residential exterior wash running $400-1,000. He cites one named example, a former financial advisor with no prior industry experience, who crossed $100,000 in his best single month roughly four years after starting with about $1,000 in basic (some used) equipment. The trash-can upsell is framed as pure incremental revenue on jobs already being done.",
-    "best": "Someone comfortable with physical outdoor work and local or door-to-door sales to build a residential or commercial route.",
-    "truth": "The industry-size figures are stated without an in-video source. The $100,000-best-month example is a single named anecdote, not a typical or guaranteed outcome, and four years passed between the business starting and that peak month, a timeline the pitch doesn't emphasize.",
-    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
+    "what": "Bake a single signature product (Zaback's example: cinnamon rolls) from a home kitchen under your state's cottage food laws, take pre-orders online, and sell in scheduled weekly drops rather than running a storefront.",
+    "pitch": "Zaback profiles Lindsey Skillnick (Mama Lama Bakery), who started with a driveway farm stand and moved to online pre-orders, now selling roughly 400 $12 cinnamon rolls most weekends (about $4,800/weekend, over $20,000/month) on ingredient costs of $5-7 per dozen. He frames the legal bar to entry as low in most states: a food handler certificate (about $10-15), state cottage-food registration, and proper labeling, with no commercial kitchen or storefront required.",
+    "best": "Someone who already enjoys baking and wants to test a home-based food business without the overhead of a commercial kitchen lease, and who's comfortable managing a pre-order/drop schedule.",
+    "truth": "Cottage food laws vary significantly by state \u2014 some cap annual revenue, restrict which products can be sold this way, or don't allow online sales at all \u2014 so the \"just three things\" legal summary in the video should be checked against your own state's specific cottage food program before starting. The revenue figures are one baker's self-reported numbers after building a following, not a starting point; going from zero to viral in under 90 days, as Skillnick reportedly did, is closer to the exception than the rule.",
+    "url": "https://youtu.be/xUCD1BXvhjU",
     "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Needs a truck or cargo vehicle"
+      "Strictly in-home",
+      "Weekend/event-based schedule",
+      "Requires a license or certification"
     ]
   },
   {
@@ -1194,24 +1195,26 @@
     ]
   },
   {
-    "id": "dog-poop-removal-service",
-    "name": "Dog poop and pet waste removal route",
-    "category": "Local & professional services",
+    "id": "diy-bedazzle-craft-kits",
+    "name": "DIY bedazzling kits sold online (rhinestone canvas/cup craft business)",
+    "category": "Physical & print products",
     "tags": [
-      "service business",
-      "very low startup cost",
-      "recurring revenue",
-      "beginner friendly"
+      "craft business",
+      "DIY kits",
+      "rhinestones",
+      "Etsy-style product",
+      "hobby to business"
     ],
-    "cost": "About $500 to start (rake, scoop, bins, disinfectant, bags, gloves, reliable car)",
+    "cost": "Low to moderate startup cost (rhinestones, canvases, and packaging materials to build initial inventory)",
     "found": "Austin Zaback",
-    "what": "A recurring weekly yard-cleaning route picking up dog waste for homeowners, run either solo or scaled by hiring additional scoopers to each run their own routes.",
-    "pitch": "The presenter cites pet-ownership statistics (roughly 65 million US households own a dog) and one specific named example: a local operator he used personally, with about 300 customers, 10 scoopers each handling roughly 30 houses, charging about $69 a month per customer, generating over $20,000 a month (about $250,000 a year) in recurring revenue, with each yard taking about 10 minutes to service.",
-    "best": "Someone who wants a low-glamour but genuinely recurring local route business, comfortable either doing the physical work themselves early on or managing a small team of scoopers as it scales.",
-    "truth": "The $20,000-a-month, 300-customer example is presented as the presenter's own direct, named experience with a real local operator rather than a secondhand or unverifiable claim, a good transparency signal. Reaching that scale required building both a large customer base and a 10-person scooper team, which the pitch compresses into a quick summary without detailing how long that growth actually took.",
-    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
+    "what": "Sell do-it-yourself bedazzling kits (rhinestones, a canvas or cup, and instructions) that let customers create their own decorated piece at home, rather than making and selling only finished custom pieces yourself.",
+    "pitch": "Zaback profiles Bryel Smallwood, who started gluing rhinestones onto canvases for fun in college, grew a following making custom pieces (reportedly $1,000 each), then pivoted to selling DIY kits once demand outpaced her ability to hand-make everything \u2014 her first day selling kits reportedly brought in $17,000, and she now reports around $80,000/month in sales (with $10,000-12,000/week in overhead) across 500+ designs.",
+    "best": "Someone with an existing craft skill and a social following (or the willingness to build one by posting the process), who wants to productize a labor-intensive custom craft into a scalable kit business.",
+    "truth": "The jump from making individual custom pieces to a packaged DIY kit business is the real insight here, and it's a legitimately transferable idea for other crafts. But Smallwood's numbers describe a business three years and a viral following in, with real overhead (about half of gross revenue) and paid help to manage 700+ orders/month, not a plug-and-play income figure for someone starting today with no audience.",
+    "url": "https://youtu.be/xUCD1BXvhjU",
     "situation_tags": [
-      "Local travel required"
+      "Strictly in-home",
+      "Needs inventory storage"
     ]
   },
   {
@@ -1588,25 +1591,25 @@
     ]
   },
   {
-    "id": "trash-can-rolling-valet-service",
-    "name": "Trash-can rolling valet subscription service",
-    "category": "Local & professional services",
+    "id": "tumbler-etching-tiktok-marketing",
+    "name": "Personalized tumbler and glassware etching business marketed through process videos",
+    "category": "Physical & print products",
     "tags": [
-      "service business",
-      "very low startup cost",
-      "recurring revenue",
-      "subscription",
-      "beginner friendly"
+      "laser engraving",
+      "personalization",
+      "tumblers",
+      "TikTok marketing",
+      "craft business"
     ],
-    "cost": "Near-zero startup cost (just a car and customers, no truck or special equipment)",
+    "cost": "Very low startup cost (roughly $115 for a portable engraving tool, under $500 to start overall)",
     "found": "Austin Zaback",
-    "what": "A subscription service that rolls a homeowner's trash and recycling bins from their garage or backyard out to the curb on collection day and brings them back afterward, essentially a courier service for trash cans. No truck or specialized equipment is needed, just a route and a car.",
-    "pitch": "The presenter cites one specific named example, a company called Can Monkey, that grew to over 6,000 active subscriptions across 25 states and more than 500 cities, charging about $45 a month per property (over $250,000 a month in recurring revenue), with a churn rate the presenter says is under 1%. He names elderly residents, second-home owners, and Airbnb or short-term rental hosts as strong customer segments, and says 20-25 properties within a tight radius is enough to build a first route.",
-    "best": "Someone looking for the lowest possible barrier to entry on this list, no truck or specialized equipment, and a business that can be started essentially immediately.",
-    "truth": "The Can Monkey figures (6,000+ subscriptions, sub-1% churn) are cited as a real, named, existing company rather than an anonymous anecdote, a good transparency signal, though the specific numbers aren't independently sourced beyond the presenter's own account. This is genuinely one of the lowest-cost ideas on the list, but building a dense enough local route (20-25 tightly clustered properties) to make weekly visits efficient is the real early-stage challenge the pitch doesn't dwell on.",
-    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
+    "what": "Buy blank tumblers (or glass, metal, or other surfaces) wholesale, personalize them with a name or design using a laser engraver or a portable high-speed engraving pen, and sell them primarily by posting the etching process itself as short-form video content.",
+    "pitch": "Zaback profiles Stephanie Stroman, who sold 102 cups in one week ($2,550) using a laser engraver and posting the process on TikTok, turning roughly $10 blank tumblers into $25-60 personalized pieces (60-80% margins by his estimate). He frames the process video itself as free marketing, since viewers are drawn to watching the personalization happen, not just seeing the finished product.",
+    "best": "Someone comfortable posting short-form video of their own hands-on work process, who wants a low-cost physical product business where the content and the product creation are the same activity.",
+    "truth": "The core economics (cheap blanks, high per-unit margin) are genuine and don't require a full laser setup \u2014 Zaback notes cheaper handheld tools work too. The business is heavily dependent on the process videos actually getting traction on social media, which isn't guaranteed and isn't really addressed in the numbers shown; one good week from one creator isn't evidence of a repeatable income stream without that visibility.",
+    "url": "https://youtu.be/xUCD1BXvhjU",
     "situation_tags": [
-      "Local travel required"
+      "Strictly in-home"
     ]
   },
   {
@@ -2301,47 +2304,49 @@
     ]
   },
   {
-    "id": "ai-free-shopify-store-builder-zendrop",
+    "id": "ai-free-shopify-store-builder-storebuild",
     "name": "Free AI-built Shopify dropshipping store using storebuild.ai and Zendrop",
     "category": "E-commerce",
     "tags": [
       "dropshipping",
-      "AI tools",
       "Shopify",
-      "low startup cost",
-      "beginner friendly"
+      "AI store builder",
+      "Zendrop",
+      "free store"
     ],
-    "cost": "Very low startup cost",
+    "cost": "Very low startup cost ($1/month Shopify promo, free AI store builder)",
     "found": "Austin Rabin",
-    "what": "Use a free AI tool (storebuild.ai) to auto-generate a complete Shopify store: pick a niche, get an auto-designed premium theme, banner, and color scheme, then connect a Shopify account and the Zendrop app, which supplies dropshipped products and automatically fulfills orders once a sale comes in. The presenter also walks through copying his own tested product-page layout (title, reviews, urgency text, variant picker, and collapsible info sections) and suggests using ChatGPT for product copy and images if you don't have a photographer.",
-    "pitch": "The presenter says this is the same store theme and product-page layout his own golf apparel brand used to scale to $3.9 million in revenue, and positions the tool as genuinely free (a promotional Shopify plan at $1/month for the first three months in the video) with Zendrop handling fulfillment for free on the first 10 products (scaling to a fee capped around $79/month after that), so the main remaining work after setup is marketing and product testing.",
-    "best": "Someone willing to treat the free store setup as just the first step and put real, ongoing effort into paid ads, product testing, and page optimization, since the free store-builder removes the design and build barrier but not the marketing work.",
-    "truth": "The presenter states explicitly that he isn't selling a course and that the tool is free, a good transparency signal, though he has referral or partnership ties to both storebuild.ai and Zendrop (this video functions as a guided funnel into both), and separately promotes his own free ad-research tool (adlibrary.io). The $3.9 million figure refers to his own separate golf apparel brand, covered with real monthly financial detail in a companion video also in this database, not a guarantee for a new store built from this free template.",
-    "url": "https://www.youtube.com/watch?v=3fg_NwHN2vY",
+    "what": "Use a free AI tool (storebuild.ai) to auto-generate a themed Shopify dropshipping store in about 30 seconds, complete with a pre-selected niche, color scheme, and banner, then connect a Zendrop supplier account so winning products are pre-loaded and automatically fulfilled when a sale comes in.",
+    "pitch": "Rabin, who says he's run e-commerce stores for over 7 years and generated 250,000+ orders, presents this as the same premium theme his own brand (which he says scaled to $3.9 million) uses, available for free through a discounted Shopify trial ($1/month for 3 months). He walks through picking a niche, generating the store, linking Zendrop as a supplier, and turning on auto-fulfillment, positioning the main remaining work as marketing and product testing rather than building or fulfillment.",
+    "best": "Someone who wants a dropshipping store live quickly without design or development skills, and who is prepared to invest time and money afterward into marketing and paid ads, since the store itself doesn't sell anything on its own.",
+    "truth": "The store-building and fulfillment automation genuinely works as described and removes real technical barriers to starting. The $3.9 million figure is Rabin's own reported result and isn't independently verified, and the video doesn't cover the ad spend, testing, and iteration that a result at that scale would actually require \u2014 the free store is a starting point, not a shortcut to that level of revenue. It's also a promotional walkthrough for a specific paid tool stack (storebuild.ai, Shopify, Zendrop), not a neutral comparison of options.",
+    "url": "https://youtu.be/3fg_NwHN2vY",
     "situation_tags": [
       "Strictly in-home",
       "E-commerce / fulfillment"
     ]
   },
   {
-    "id": "window-cleaning-service",
-    "name": "Residential and commercial window cleaning service",
+    "id": "storage-tote-peer-to-peer-rental",
+    "name": "Peer-to-peer storage tote rental service",
     "category": "Local & professional services",
     "tags": [
-      "service business",
-      "very low startup cost",
-      "recurring revenue",
-      "beginner friendly"
+      "storage rental",
+      "moving supplies",
+      "Facebook Marketplace",
+      "local service",
+      "low inventory"
     ],
-    "cost": "About $500 to start (basic squeegee and pole equipment)",
+    "cost": "Very low startup cost (roughly $100 for an initial batch of totes, expandable as demand grows)",
     "found": "Austin Zaback",
-    "what": "Residential and commercial window cleaning, priced by square footage and number of stories for homes, with the option to sell quarterly exterior packages to homeowners and ongoing monthly contracts to commercial accounts like restaurants, retail stores, and office buildings.",
-    "pitch": "The presenter cites an average residential job around $500, and says six jobs a day would gross about $3,000 a day. He cites one named example, an Arizona operator who did $392,000 in a year with a small subcontractor team, starting with about $500 in equipment, and argues commercial accounts are less price-sensitive than residential customers, mainly wanting reliability.",
-    "best": "Someone who wants a business that can eventually be quoted over the phone once experienced, minimizing in-person estimate visits, and who's comfortable building both residential and recurring commercial accounts.",
-    "truth": "The $392,000-a-year example is a named, specific claim but isn't independently documented beyond the presenter's account. The pitch that jobs can be quoted over the phone in under two minutes applies only once you've built up real pricing experience across many homes, which a total beginner won't have on day one.",
-    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
+    "what": "Rent out 27-gallon plastic storage totes to local customers who need extra storage during a move, listed on Facebook Marketplace, with each renter signing a rental agreement and card on file, rather than requiring an upfront purchase of a full inventory before getting a first customer.",
+    "pitch": "Zaback profiles Chelsea Wade, who reportedly didn't buy a single tote until she had her first paying customer, then scaled to over 140 totes at roughly $5/tote (about $100 per 20 totes rented). He frames this as an almost zero-risk business model, citing a fragmented storage-rental market (independent operators control about 73% of it, no dominant national player) and Americans spending roughly $40 billion/year on storage.",
+    "best": "Someone wanting a very low-risk way to test a local rental business idea before committing capital, comfortable managing customer agreements and tracking physical inventory locally.",
+    "truth": "The \"prove demand before buying inventory\" approach is a genuinely useful, low-risk way to validate this kind of business, and the underlying mechanic is simple. That said, per-unit margins are thin ($5/tote), so meaningful income requires real scale (dozens to hundreds of totes) and consistent local demand, which will vary a lot by area \u2014 this isn't described as a business that replaces a full-time income on its own without significant growth.",
+    "url": "https://youtu.be/xUCD1BXvhjU",
     "situation_tags": [
-      "Local travel required"
+      "Local travel required",
+      "Needs inventory storage"
     ]
   },
   {
@@ -3721,71 +3726,73 @@
     ]
   },
   {
-    "id": "warm-network-loom-pitch-website-redesign",
+    "id": "warm-network-video-pitch-ai-website-redesign",
     "name": "Warm-network video-pitch method for AI website redesigns",
     "category": "Marketing & content",
     "tags": [
-      "web design",
-      "AI tools",
-      "sales",
-      "very low startup cost",
-      "beginner friendly"
+      "website redesign",
+      "warm outreach",
+      "Lovable",
+      "AI web design",
+      "video pitch"
     ],
-    "cost": "Very low startup cost",
+    "cost": "Low startup cost (roughly $25/month for the AI website tool)",
     "found": "Arlan Hamilton",
-    "what": "A specific outreach script: list 5-10 people you personally know who run a small business or professional practice (a salon, a dry cleaner, a doctor, a lawyer, an accountant, and similar), check whether their current website looks outdated, then record a short (under 5 minute) screen-share video on Loom or Zoom pointing out three specific, concrete things that could be improved, framed as observations, never as criticism. Offer to rebuild the site using the AI tool Lovable at a friends-and-family discount, delivered within about 72 hours, paid upfront through a checkout link like Stripe before starting the work.",
-    "pitch": "The presenter frames this as something achievable within 24 hours, since it needs no coding skill (Lovable is described in plain conversational prompts) and no cold outreach to strangers, only people already in your existing network. She suggests pricing the first redesign around $300, against a stated $997 'normal' rate, and shares an anecdote about a freelancer named Max who used a similar short personalized video to land a $1,500-a-month ongoing retainer from a past client.",
-    "best": "Someone with an existing personal or professional network that includes small business owners or self-employed professionals, and who's comfortable narrating a short screen-share video.",
-    "truth": "This is a genuinely detailed, step-by-step tactical playbook, more actionable than the presenter's companion video also in this database, though it still funnels toward her paid 'Lovable Income Challenge' for anyone who wants more structured guidance. The $300 price point and the Max anecdote are both self-reported by the presenter, not independently documented. This shares its core AI-website-building mechanic with other entries in this database from other creators; the specific contribution here is the warm-network, personalized-video outreach tactic.",
-    "url": "https://www.youtube.com/watch?v=xntlsN-GQ8Q",
+    "what": "Reach out to people in your existing network who own a small business with an outdated website, use an AI website builder (Lovable) to redesign their site as a demo, then send a short screen-recorded video (via Loom) walking them through the improved version and pitching it for around $300.",
+    "pitch": "Hamilton frames this as a same-day money method: pick 5-10 people you already know who run a small local business (dry cleaner, salon, mechanic, etc.), rebuild their site with an AI tool for a few dollars in software cost, then pitch it via a personal video rather than a cold sales call. She cites a real example (a man named Max) who closed deals with one prospect over time, eventually making about $18,000 from a single relationship, and frames the offer as low-risk since it costs the prospect nothing to say no.",
+    "best": "Someone comfortable reaching out to their own personal or professional network and speaking briefly on camera, who wants a fast, low-cost way to test whether they can sell a service before committing to paid ads or cold outreach.",
+    "truth": "The mechanic is legitimate and cheap to test, but it depends heavily on actually having a network with small-business owners in it and being willing to make the ask, which won't be true for everyone. The $300 price point and the $18,000 case-study figure come from Hamilton's own reported experience and should be read as an example outcome, not a guarantee. There's also a recurring nudge toward her paid $199 challenge throughout the video, worth knowing even though the core method is explained for free.",
+    "url": "https://youtu.be/xntlsN-GQ8Q",
     "situation_tags": [
-      "Strictly in-home",
+      "Home office, client-facing",
       "Phone/sales-based"
     ]
   },
   {
-    "id": "branded-apparel-dropship-brand-economics",
+    "id": "branded-apparel-dropshipping-pl-breakdown",
     "name": "Branded apparel dropshipping brand economics (monthly transparency breakdown)",
     "category": "E-commerce",
     "tags": [
-      "e-commerce",
-      "apparel",
       "dropshipping",
+      "apparel brand",
+      "Shopify",
       "Facebook ads",
-      "needs ad budget"
+      "profit and loss"
     ],
-    "cost": "Needs ongoing ad budget",
+    "cost": "Needs ongoing ad budget (six-figure monthly spend at Rabin's scale, though the store itself costs very little to set up)",
     "found": "Austin Rabin",
-    "what": "A real, line-item look at running an established branded apparel dropshipping business (golf-themed polos) month to month: seasonal product drops timed to holidays, bundle offers to raise average order value, image ads (the presenter's primary format, cited as roughly three times cheaper than video ads), Shopify's built-in 'Shop' advertising channel (which only charges per completed sale rather than per click), and email/SMS marketing, which the presenter says should generate roughly 30% of total revenue.",
-    "pitch": "The presenter shows a specific July breakdown with full transparency: $262,471 in revenue, $130,543 in ad spend, $62,004 cost of goods sold, roughly $11,400 in fees, $18,044 in shipping, and a small returns adjustment added back, netting about $42,301 in profit, a roughly 16% margin, which he says is lower than the brand's usual ~$60,000 typical net at that revenue level because of a mid-month Facebook platform outage and a stalled ad-account wire payment that month.",
-    "best": "Someone already building or running a branded product line rather than a purely generic private-label dropshipping store, who wants a realistic picture of the ongoing costs, ad spend, cost of goods, fees, and shipping, not just top-line revenue.",
-    "truth": "This is one of the more transparent monthly breakdowns in this database, showing real dollar figures across every expense category rather than only a revenue headline, and the presenter explicitly attributes the lower-than-usual margin to two specific, named operational problems that month rather than glossing over them. This is also an ongoing paid-advertising business with roughly $130,000 in monthly ad spend, a substantial and real barrier to entry that a beginner following the companion free-store-builder video also in this database would need to grow into over time, not start with.",
-    "url": "https://www.youtube.com/watch?v=9WnsidOcJQE",
+    "what": "Run a branded apparel dropshipping store (Rabin's example: golf-branded polos) on Shopify, using seasonal collection drops, Facebook and Shopify's own \"Shop\" ad channel, and email/SMS marketing, with fulfillment handled by a linked supplier (Zendrop).",
+    "pitch": "Rabin opens his own July numbers: $262,471 in revenue against $130,543 in Facebook ad spend, $62,004 in cost of goods, and other fees, netting $42,301 (about 16% profit margin) after a mid-month Facebook ad account issue cut into results. He credits a themed seasonal drop (a 4th of July \"Americana\" collection) and a bundle offer (5 polos for $250) for driving the month, and introduces Shopify's own \"Shop\" ad channel as a pay-per-sale alternative to Facebook ads.",
+    "best": "Someone who already has, or is building toward, a real ad budget and wants a realistic look at what a mid-six-figure-revenue dropshipping brand's actual expenses and margins look like, rather than a revenue-only highlight reel.",
+    "truth": "This is a genuinely detailed, numbers-forward breakdown, which is rarer and more useful than most dropshipping content. But the figures describe an already-scaled operation spending over $130,000/month on ads, not a starting point for someone with no budget \u2014 and the 16% margin shown is described as a below-average month for this brand. It's also a promotional video for the same free store-builder and Zendrop supplier tool featured in Rabin's other video in this batch.",
+    "url": "https://youtu.be/9WnsidOcJQE",
     "situation_tags": [
       "Strictly in-home",
       "E-commerce / fulfillment"
     ]
   },
   {
-    "id": "junk-removal-service",
-    "name": "Junk removal service",
+    "id": "mobile-coffee-cart-business",
+    "name": "Mobile coffee cart business",
     "category": "Local & professional services",
     "tags": [
-      "service business",
-      "very low startup cost",
-      "recurring revenue",
-      "beginner friendly"
+      "mobile coffee cart",
+      "food business",
+      "espresso",
+      "no storefront",
+      "events"
     ],
-    "cost": "Low startup cost if you already have a truck",
+    "cost": "Low to moderate startup cost (a basic mobile cart and espresso setup, a couple thousand dollars to get fully equipped per the presenter)",
     "found": "Austin Zaback",
-    "what": "A junk-hauling business where you quote a job on the spot by volume, load up unwanted items, and get paid immediately at time of pickup with no invoicing. The presenter emphasizes building relationships with real estate agents, property managers, and contractors as a steady referral pipeline, especially for clearing apartments between tenants.",
-    "pitch": "The presenter cites the US waste collection services industry projected to surpass $90 billion by 2030, with junk removal (valued over $10 billion) as one of its fastest-growing segments. He says a single truck can realistically generate about $500 a day, with an average job priced $250-300, and cites the roughly 40-50% annual US apartment turnover rate as a reliable, recurring source of work through property-manager relationships.",
-    "best": "Someone who already owns or has access to a truck or trailer, and who is comfortable building referral relationships with real estate and property-management professionals rather than relying only on one-off individual customers.",
-    "truth": "The industry-size figures are stated without an in-video citation. The business model depends heavily on having, or affording, a truck, which the pitch acknowledges directly ('if you already have a truck, you're already halfway there') rather than treating equipment cost as a non-issue the way some other ideas on this list do.",
-    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
+    "what": "Operate a mobile espresso/coffee cart at events, office parks, or high-foot-traffic locations, with no fixed storefront lease, selling coffee and espresso drinks directly to walk-up customers.",
+    "pitch": "Zaback cites the founder of Crema Avenue, who reportedly sells about 550 coffees over a 10-hour day (~$4,400 revenue), netting around $3,000 profit after ingredient and labor costs, and frames the market opportunity around the mobile coffee cart market's projected growth from $1.8 billion to $3.8 billion. He contrasts the cart's low startup cost against the roughly $200,000+ typically needed to open a traditional coffee shop.",
+    "best": "Someone comfortable with hands-on food service work and willing to secure event bookings or high-traffic locations, who wants a lower-capital entry into the coffee business than a storefront requires.",
+    "truth": "The cost comparison to a traditional coffee shop is fair, and the low-overhead structure (no lease, no fixed location) is a real advantage. What the numbers don't show is the effort behind securing consistently good locations or event bookings, permitting/health requirements (which vary significantly by city and aren't addressed in the video), and that a 550-coffee, $3,000-profit day likely represents an already-established cart, not a first week of business.",
+    "url": "https://youtu.be/xUCD1BXvhjU",
     "situation_tags": [
       "Local travel required",
-      "Needs a truck or cargo vehicle"
+      "Weekend/event-based schedule",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -3808,6 +3815,29 @@
     "situation_tags": [
       "Strictly in-home",
       "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "faceless-social-growth-digital-product-funnel",
+    "name": "Faceless social media growth funneled into a digital product store",
+    "category": "Content & personal brand",
+    "tags": [
+      "faceless content",
+      "digital products",
+      "social media growth",
+      "content strategy",
+      "AI content tools"
+    ],
+    "cost": "Low startup cost (AI store-builder and content-coaching tool subscriptions; no upfront inventory)",
+    "found": "Baddie In Business",
+    "what": "Grow faceless social media accounts (Instagram, TikTok, Facebook) around a specific niche using a repeatable content system, then monetize the resulting audience primarily through a low-ticket digital product ($9-29 range) sold from a store built with an AI tool (Instastore.ai), alongside affiliate links and other offers.",
+    "pitch": "The presenter (Isabella, \"Baddie In Business\") says she built multiple faceless accounts across different niches to a combined 15 million followers and became a millionaire within two years, reportedly funneling over $10 million through a mix of external monetization (products, affiliate links) and internal platform monetization. She outlines five content rules (raw over polished, keyword-heavy captions, series-based content, combining short- and long-form, and a clear one-line \"hero statement\" of who you help), and demonstrates AI tools (Instastore.ai for the store, an AI coaching tool called Stanley IG) to speed up content planning and analysis.",
+    "best": "Someone comfortable being consistently active on social media without showing their face, who's willing to research and repurpose content in a specific niche and treat content creation as a repeatable system rather than a one-off creative project.",
+    "truth": "The core mechanic (build an audience faceless, sell a low-ticket digital product) is a real and increasingly common pattern, and the specific content-strategy advice is more concrete than most creator-growth content. That said, the \"$10 million\" and \"15 million followers\" figures are self-reported and describe results from operating multiple accounts across niches over time, not a single quick win, and the video promotes several of the presenter's own paid tools and a paid coaching community (Viral Wealth) alongside the free advice, which is worth knowing going in.",
+    "url": "https://youtu.be/nwyAK9PhDzo",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
     ]
   },
   {
