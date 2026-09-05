@@ -1,5 +1,27 @@
 [
   {
+    "id": "window-screen-rebuilding-property-managers",
+    "name": "Window screen rebuilding service for property managers and landlords",
+    "category": "Local & professional services",
+    "tags": [
+      "window screen repair",
+      "property management",
+      "recurring accounts",
+      "low equipment cost"
+    ],
+    "cost": "Very low startup cost (about $240 for a fiberglass mesh roll, spline roll, and rolling tool)",
+    "found": "Business Cortex",
+    "what": "Rebuild torn or damaged window screens, selling primarily to property managers and landlords who accumulate a steady stream of damaged screens across multiple rental units at every tenant turnover, rather than marketing to individual homeowners.",
+    "pitch": "A 100-ft roll of fiberglass mesh (about $210) covers roughly 40-50 screens, a spline roll is under $18, and the rolling tool is about $10 \u2014 a full setup for around $240 with per-screen material cost of $10-25. The national average charged per screen installed is around $322, with the low end starting at $147 and labor billing $50-80/hour. The presenter frames one apartment complex as a standing account, since every unit turnover generates more damaged screens.",
+    "best": "Someone comfortable pitching directly to property managers and landlords rather than one-off homeowners, willing to build a recurring B2B account rather than relying on individual repeat customers.",
+    "truth": "The economics check out and the barrier to entry is genuinely low, but the business depends entirely on landing property-management accounts rather than individual jobs \u2014 that's a sales and relationship-building skill, not just a repair skill, and isn't really addressed in the pitch beyond identifying the target customer.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment"
+    ]
+  },
+  {
     "id": "pet-waste-removal-service",
     "name": "Pet waste (dog poop) removal service",
     "category": "Local & professional services",
@@ -19,6 +41,28 @@
     "situation_tags": [
       "Local travel required",
       "Weekend/event-based schedule"
+    ]
+  },
+  {
+    "id": "headlight-restoration-dealer-detail-shop",
+    "name": "Headlight restoration service selling to dealerships and detail shops",
+    "category": "Local & professional services",
+    "tags": [
+      "headlight restoration",
+      "auto detailing",
+      "B2B service",
+      "trade-in prep"
+    ],
+    "cost": "Very low startup cost (about $125 for a restoration kit and rotary polisher)",
+    "found": "Business Cortex",
+    "what": "Restore cloudy or yellowed headlights, primarily by selling to used car dealerships and detail shops that need every incoming trade-in restored before resale, rather than marketing to individual drivers who only need this once every few years.",
+    "pitch": "A Meguiar's heavy-duty restoration kit (about $26) plus a variable-speed rotary polisher (about $99) comes to roughly $125 total, with consumable cost per headlight under 50 cents. Restorations bill $40-160 depending on lens condition, with $65 as a common market rate and dealers benchmarking around $90. The presenter warns that underpricing (advertising a $30 restoration) signals to experienced buyers that a necessary coating step was skipped.",
+    "best": "Someone comfortable pitching recurring B2B relationships with dealerships and detail shops rather than relying on individual homeowner jobs, which the presenter says aren't frequent enough to support a full-time income.",
+    "truth": "The presenter is unusually candid that this doesn't work as a standalone full-time income selling to individual drivers \u2014 the real business is the wholesale/trade-in pipeline through dealers and detail shops, which requires building those specific commercial relationships, not just skill with a polisher.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -65,6 +109,29 @@
     ]
   },
   {
+    "id": "knife-tool-sharpening-route",
+    "name": "Knife and tool sharpening route for restaurants, butchers, and salons",
+    "category": "Local & professional services",
+    "tags": [
+      "knife sharpening",
+      "tool sharpening",
+      "restaurant service",
+      "route business",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost (a Work Sharp Ken Onion sharpener at $170-250, or a belt sander setup around $300)",
+    "found": "Business Cortex",
+    "what": "Sharpen knives, scissors, and other bladed tools for restaurants, butchers, and salons, structured as a swap route where you drop off a freshly sharpened duplicate set and pick up the dull set, turning a one-time job into a recurring weekly stop.",
+    "pitch": "The presenter recommends skipping the commonly-suggested $1,066 Tormek T8 in favor of a $170-250 Work Sharp Ken Onion or a roughly $300 belt sander setup. Rates from operators running restaurant routes: $3.50/inch for blades under 4 inches, $4.50 for 4-7 inches, $6 over 7 inches, and around $4.50 for scissors, which one operator called the best margin on the route. A soft kitchen knife takes roughly 1-3 minutes on a belt grinder, while hand-sharpening with stones (about 45 minutes per blade) is explicitly called a hobby pace, not a route pace.",
+    "best": "Someone willing to build a recurring weekly route with commercial accounts (restaurants, butchers, salons) using a duplicate-set swap system, rather than one-off sharpening jobs for individual consumers.",
+    "truth": "The swap-route structure is the real insight here \u2014 it's what turns sharpening from a single transaction into recurring weekly revenue \u2014 and the presenter is specific about which equipment tier is actually needed versus commonly over-recommended gear. The main unaddressed challenge is landing the initial commercial accounts, which requires direct B2B sales outreach.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment"
+    ]
+  },
+  {
     "id": "ai-avatars",
     "name": "AI avatars and virtual influencers",
     "category": "Marketing & content",
@@ -104,6 +171,28 @@
     "situation_tags": [
       "Local travel required",
       "Weekend/event-based schedule"
+    ]
+  },
+  {
+    "id": "sneaker-cleaning-restoration-resellers",
+    "name": "Sneaker cleaning and restoration service selling to resellers",
+    "category": "Local & professional services",
+    "tags": [
+      "sneaker cleaning",
+      "sneaker restoration",
+      "reseller service",
+      "recurring B2B"
+    ],
+    "cost": "Very low startup cost (about $35-150 for a cleaning kit)",
+    "found": "Business Cortex",
+    "what": "Clean, restore, and repair sneakers (deep cleaning, yellowing reversal, suede restoration, sole repainting), selling primarily to sneaker resellers who need every pair cleaned before listing it for resale, rather than relying on individual sneaker owners as a slow trickle of one-off customers.",
+    "pitch": "A basic Reshoevn8r kit (about $35, cleans up to 50 pairs) or a fuller professional setup (about $110) covers most of the startup cost, with supply cost of $2-5 per pair. Real shop rates: deep clean $35-50, yellowing reversal $40, suede restoration $20, sole repaint $40, sole protector $48. One documented job billed a Jordan 1 restoration at $162 with about $100 profit. The presenter frames resellers as the real repeat customer, since cleaning adds $10-20+ to resale value on pairs they move by the dozen every week.",
+    "best": "Someone who wants recurring volume from sneaker resellers rather than individual sneaker owners, and who's willing to learn proper cleaning technique to avoid damaging valuable inventory.",
+    "truth": "The economics and target-customer insight (resellers over individual owners) are solid, but the presenter is explicit about a real risk: machine washing destroys 60-70% of sneakers and direct heat melts adhesive, meaning a mistake in a service business like this means buying someone a replacement pair \u2014 the margin for error with valuable resale inventory is genuinely low.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -149,6 +238,29 @@
     ]
   },
   {
+    "id": "premium-candle-making-wholesale-boutique",
+    "name": "Premium candle making sold wholesale to boutiques, spas, and Airbnb hosts",
+    "category": "Physical & print products",
+    "tags": [
+      "candle making",
+      "premium products",
+      "wholesale",
+      "boutique retail",
+      "recurring accounts"
+    ],
+    "cost": "Low startup cost ($77 budget setup, or about $267 for a full premium setup)",
+    "found": "Business Cortex",
+    "what": "Make premium candles using coconut or soy wax, wooden wicks, and weighted vessels with a real fragrance load (not basic Mason jar candles), and sell primarily through wholesale accounts with boutiques, spas, and Airbnb hosts who reorder monthly, rather than one-off consumer sales through platforms like Etsy.",
+    "pitch": "A standard 8oz candle costs about $3.03 to make at bulk material pricing and retails $18-28; premium coconut wax versions push $20-35. The presenter breaks down a premium candle costing about $11.22 all-in, where materials (wax, wick, fragrance) are only about $1.08 of that \u2014 labor is $3.33 and overhead is $5 \u2014 framing the real product as time and positioning, not materials.",
+    "best": "Someone comfortable pitching wholesale accounts to boutiques, spas, and short-term rental hosts, and willing to price based on positioning and labor rather than just materials cost.",
+    "truth": "The materials-vs-labor cost breakdown is a genuinely useful reframe for anyone underpricing a craft product, and targeting recurring wholesale accounts over one-off retail sales is sound. The presenter doesn't address how to actually land those wholesale relationships, which is really the harder part of this business.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Strictly in-home",
+      "Needs inventory storage"
+    ]
+  },
+  {
     "id": "spotify-playlist-monetization",
     "name": "Monetizing a curated Spotify playlist",
     "category": "Digital & subscription products",
@@ -190,6 +302,29 @@
     ]
   },
   {
+    "id": "custom-embroidery-local-trades",
+    "name": "Custom embroidery business selling to local trades and sports teams",
+    "category": "Physical & print products",
+    "tags": [
+      "embroidery",
+      "custom apparel",
+      "local trades",
+      "branded workwear",
+      "recurring orders"
+    ],
+    "cost": "Low startup cost (a single-needle embroidery machine, $400-780)",
+    "found": "Business Cortex",
+    "what": "Embroider logos and designs onto blank hats and apparel using an affordable single-needle embroidery machine (not the expensive commercial multi-needle setups often recommended), selling primarily to local trades (construction crews, landscapers, real estate teams needing branded workwear) and sports clubs reordering patches seasonally, rather than competing on one-off bulk orders.",
+    "pitch": "The presenter steers buyers away from the commonly-recommended $4,800 Ricoma multi-needle machine toward single-needle options under $800 (Brother SE600 at $400, an NC700 at $530, or a PE800 at $780). Blank hats cost $3-7, embroidery adds $2.50-7.50 depending on stitch count, and a 5,000-stitch logo lands around $7.50 all-in; single custom hats sell $15-35, while bulk orders of 50+ drop to $7.50-15 each. He flags two mistakes: giving away digitizing (a real $50 line item per logo) and chasing bulk orders where margins collapse.",
+    "best": "Someone willing to build recurring relationships with local trade businesses and sports clubs for reordering branded gear, rather than treating this as a one-off custom-order shop.",
+    "truth": "The equipment-tier guidance (you don't need the expensive commercial machine) and the two specific pricing mistakes (free digitizing, chasing thin-margin bulk orders) are genuinely useful, practical warnings that could save a beginner real money. The business still depends on landing and keeping those recurring local trade accounts, which takes direct sales effort beyond just running the machine.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
+    ]
+  },
+  {
     "id": "merch-by-amazon-tshirts",
     "name": "Merch by Amazon print-on-demand t-shirts",
     "category": "Physical & print products",
@@ -227,6 +362,28 @@
     "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
     "situation_tags": [
       "Local travel required"
+    ]
+  },
+  {
+    "id": "custom-led-neon-signs-local-businesses",
+    "name": "Custom LED neon sign business selling to local businesses and event rental companies",
+    "category": "Physical & print products",
+    "tags": [
+      "LED neon signs",
+      "custom signage",
+      "local business sales",
+      "event rentals"
+    ],
+    "cost": "Low startup cost (about $120-200 in materials for a 10-ft sign)",
+    "found": "Business Cortex",
+    "what": "Design and build custom LED neon signs using flexible LED neon strip, acrylic backing, and a heat gun for bending, selling locally to bars, salons, and boutiques opening new locations, and to event and photo-booth rental companies who reorder seasonally, rather than competing on price against overseas factories.",
+    "pitch": "12-volt LED neon flex runs about $4.94/foot, a 60-watt power supply is $25, acrylic backing is $12-50/sq ft, and a heat gun is a one-time $22 cost \u2014 a 10-ft sign costs $120-200 in materials. Market pricing: small signs (12-18in) sell $80-250, medium $180-500, large $400-1,200, or $50-150/foot for simple designs. The presenter calls this the widest profit spread on his list ($5-15/foot in, $50-300/foot out) but warns overseas factories will undercut you below your own material cost on generic designs.",
+    "best": "Someone comfortable doing custom design work quickly and competing on speed and local relationships rather than price, since the presenter is explicit that competing on generic designs against overseas manufacturers is a losing strategy.",
+    "truth": "The pricing spread is genuinely attractive, but the presenter's warning is important and easy to overlook: this only works by specializing in fast, custom, local work \u2014 trying to compete on standard designs or price against overseas suppliers will fail before it starts.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -333,6 +490,29 @@
     "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
     "situation_tags": [
       "Local travel required",
+      "Weekend/event-based schedule"
+    ]
+  },
+  {
+    "id": "gourmet-mushroom-growing-restaurant-sales",
+    "name": "Gourmet mushroom growing for restaurant and farmers market sales",
+    "category": "Physical & print products",
+    "tags": [
+      "mushroom growing",
+      "gourmet food",
+      "restaurant sales",
+      "farmers market",
+      "no permit required"
+    ],
+    "cost": "Low startup cost (about $260 for an all-in-one starter kit, or $200-800 for a DIY build)",
+    "found": "Business Cortex",
+    "what": "Grow gourmet mushrooms (lion's mane and oyster varieties) in a small home setup (tent, humidifier, inline fan), selling on standing weekly orders to restaurants and at farmers markets, taking advantage of the fact that fresh cultivated mushrooms are classified as unprocessed produce in most U.S. states, requiring no permit, cottage food license, or commercial kitchen.",
+    "pitch": "An all-in-one starter kit with two fruiting kits runs about $260; ready-to-fruit bags cost $5-8/lb, dropping to $2-5/lb if mixing your own substrate. Restaurants pay $8-16/lb (oyster at the lower end, lion's mane at $12-16), while farmers market retail runs $15-24/lb \u2014 skip distributors, who only pay $3-6/lb. The presenter frames standing weekly delivery orders of 5-70 lbs as the actual business, warning that a single missed delivery is what loses an account, and that pricing off your own supply cost (one grower's mistake: selling at $5/lb in a market paying $10) leaves money on the table.",
+    "best": "Someone with space for a small grow tent setup and the discipline to hit consistent weekly delivery schedules, since missed deliveries are described as the fastest way to lose restaurant accounts.",
+    "truth": "The regulatory finding (no permit needed for fresh mushrooms as unprocessed produce in most states) is a genuinely useful, often-overlooked detail that lowers the real barrier to entry significantly. The business is fundamentally a reliability business \u2014 restaurants care more about consistent weekly delivery than about anything else \u2014 which is a different skill than growing itself.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Strictly in-home",
       "Weekend/event-based schedule"
     ]
   },
@@ -526,6 +706,28 @@
     "situation_tags": [
       "Local travel required",
       "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "microgreens-restaurant-wholesale",
+    "name": "Microgreens growing for restaurant wholesale accounts",
+    "category": "Physical & print products",
+    "tags": [
+      "microgreens",
+      "restaurant wholesale",
+      "urban farming",
+      "garage business"
+    ],
+    "cost": "Low startup cost (about $500-700 for a garage-scale rack with grow lights and shelving)",
+    "found": "Business Cortex",
+    "what": "Grow microgreens (sunflower, pea shoot, amaranth) in trays under grow lights in a garage or spare room, selling on standing weekly wholesale orders to two or three restaurant accounts rather than trying to build a broad consumer customer base.",
+    "pitch": "Heavy-duty 10x20 trays start around $15, and a full garage-scale rack with shelving and grow lights runs $500-700. Real cost per tray (seed, medium, power, water, packaging, and labor at $20/hour) comes to $5-7. Sunflower trays retail $18-22, pea shoots $16-20, amaranth $25-35, with margins running 66-79%. Growers target $25-40/tray wholesale \u2014 10 trays/week nets roughly $108, 50 trays/week around $490. The presenter warns that overwatering or dense sowing causes mold that can wipe out an entire tray (and miss a delivery) in a single afternoon.",
+    "best": "Someone with reliable indoor growing space who's willing to build 2-3 solid restaurant relationships and treat consistent delivery as the core of the business rather than trying to sell broadly to consumers.",
+    "truth": "The margins are genuinely attractive and the space/equipment requirements are modest, but the presenter is honest that the failure mode is both fast and total \u2014 a single contaminated tray from overwatering can take out an entire week's crop and cost you the account, so this rewards careful, consistent process more than volume.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Strictly in-home",
+      "Weekend/event-based schedule"
     ]
   },
   {
@@ -737,6 +939,29 @@
     "situation_tags": [
       "Strictly in-home",
       "Home office, client-facing"
+    ]
+  },
+  {
+    "id": "resin-wood-serving-boards-wholesale",
+    "name": "Resin and wood serving board business selling wedding and corporate gifting bulk orders",
+    "category": "Physical & print products",
+    "tags": [
+      "resin crafts",
+      "wood serving boards",
+      "wedding gifts",
+      "corporate gifting",
+      "wholesale"
+    ],
+    "cost": "Low startup cost (about $500-700 for a full setup including hardwood, torch, sander, and respirator)",
+    "found": "Business Cortex",
+    "what": "Make resin-and-hardwood serving boards and wall art pieces (skipping lower-value resin jewelry and coasters, which the presenter says are impulse buys with no reorder pattern), selling primarily through wedding and corporate gifting bulk orders and boutique home goods retailers buying wholesale.",
+    "pitch": "Clear casting resin runs about $19/quart ($51/gallon); a 12x8in serving tray costs about $37 in materials and sells for $150-200, while large wall art pieces cost about $147 in materials and sell for $450-600 \u2014 both using the same $51 gallon of resin, meaning the price gap is almost entirely labor and perceived value, not materials. The presenter's key warning: cheap resin or a sloppy mix ratio causes yellowing under UV months after the sale, which comes back as a refund request and a bad review long after the money was spent.",
+    "best": "Someone with patience for a precise, technical craft process who's willing to pursue bulk gifting orders (weddings, corporate) and wholesale retail relationships rather than one-off retail sales.",
+    "truth": "The materials-vs-labor cost breakdown is a genuinely useful pricing insight, and the specific warning about resin quality and yellowing is the kind of hard-won detail that prevents an expensive mistake \u2014 a board that fails months after sale costs both the refund and the reputation damage.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Strictly in-home",
+      "Needs a dedicated workspace"
     ]
   },
   {
@@ -967,6 +1192,28 @@
     "situation_tags": [
       "Strictly in-home",
       "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "guitar-setup-repair-recurring-clients",
+    "name": "Guitar setup and repair service for gigging musicians and teachers",
+    "category": "Local & professional services",
+    "tags": [
+      "guitar repair",
+      "instrument setup",
+      "musician services",
+      "recurring maintenance"
+    ],
+    "cost": "Low startup cost ($133 for a basic setup kit, or $250-400 for a complete kit)",
+    "found": "Business Cortex",
+    "what": "Perform guitar setups and repairs (action adjustment, fret leveling, nut work, full refrets) for gigging musicians and music teachers, who need this service 2-4 times a year as instruments respond to seasonal temperature and humidity changes and typically stick with one trusted repairperson once they find one.",
+    "pitch": "A basic setup kit (action gauge, straight edge, radius gauges) runs about $133, though the presenter notes it's usually missing truss rod wrenches; a genuinely complete kit with nut files, fret rocker, feeler gauges, and wrenches runs $250-400. Local shop rates: basic electric setup $60-120, acoustic $70-140, fret level and dress $150-300, nut work $60-120, full refret $300-600. Per-job material cost is typically just a set of strings and a small part.",
+    "best": "Someone with (or willing to develop) genuine guitar-tech skill, who understands that trust and repeat business come from doing quality work on a musician's primary instrument, not from marketing.",
+    "truth": "The recurring-need mechanic (2-4 times per year, driven by seasonal humidity changes) and the low per-job cost make this a genuinely attractive margin business, but it requires real technical skill that takes time to develop \u2014 this isn't a business you can start competently with just the tool list alone.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -1280,6 +1527,28 @@
     "url": "https://www.youtube.com/watch?v=wudOmpK-8Fk",
     "situation_tags": [
       "Strictly in-home"
+    ]
+  },
+  {
+    "id": "rug-tufting-interior-designer-commissions",
+    "name": "Rug tufting business selling custom commissions to interior designers",
+    "category": "Physical & print products",
+    "tags": [
+      "rug tufting",
+      "custom rugs",
+      "interior design",
+      "craft business"
+    ],
+    "cost": "Low startup cost (about $300-450 for a complete tufting kit)",
+    "found": "Business Cortex",
+    "what": "Make custom tufted rugs using a cut-pile tufting gun, monk's cloth, and backing materials, selling primarily to interior designers commissioning custom pieces for clients rather than direct-to-consumer buyers, who the presenter says won't sustain the business at a viable price point.",
+    "pitch": "A tufting gun runs about $225, with a complete kit (gun, frame, monk's cloth, glue, tools) at $300-450. Materials per rug run about $65 (yarn $27, cloth $13, latex glue $11, backing $8, packaging $6). A 2x2ft rug sells for around $220 at $55/sq ft, suggesting a $155 margin \u2014 but the presenter is explicit that a beginner's first several rugs are practice, not sellable inventory, often costing 3-4x more to make than buying a finished rug, meaning real break-even starts around the fourth through eighth rug against a $420 setup cost.",
+    "best": "Someone willing to treat the first several rugs as paid tuition rather than income, and to pursue interior designer relationships for custom commissions rather than relying on individual consumer sales.",
+    "truth": "The presenter's honesty about the practice-rug cost curve is valuable and often missing from craft-business hype \u2014 budgeting for several unsellable early attempts before turning a profit is a more realistic starting expectation than most tufting content gives.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -1742,6 +2011,30 @@
     "url": "https://www.youtube.com/watch?v=_z6r6p-Od80",
     "situation_tags": [
       "Strictly in-home"
+    ]
+  },
+  {
+    "id": "dog-treat-baking-pet-boutique-sales",
+    "name": "Dog treat baking business selling to pet boutiques and farmers markets",
+    "category": "Physical & print products",
+    "tags": [
+      "dog treats",
+      "pet food",
+      "home baking",
+      "farmers market",
+      "regulatory compliance"
+    ],
+    "cost": "Very low startup cost (packaging and labels run 30-80 cents/unit; uses equipment most kitchens already have)",
+    "found": "Business Cortex",
+    "what": "Bake dog treats (the presenter's example: peanut butter biscuits) using standard home baking equipment, and sell them to pet boutiques and at weekly farmers markets, while navigating that dog treats are regulated as pet food in many states rather than falling under simpler cottage food laws.",
+    "pitch": "A dozen peanut butter biscuits cost $1.15-2.05 all-in and sell for $8-12/dozen standard, $10-16 decorated, with gift boxes going $18-35 \u2014 about $8.40 profit per dozen at a $10 price point. Six dozen at a market nets around $50; 10-15 dozen nets $85-125. The presenter flags a regulatory detail almost nobody checks: dog treats are classified as pet food, not covered by cottage food law in many states, and some require a commercial feed license with AAFCO nutrient testing even for home-kitchen production.",
+    "best": "Someone with basic baking equipment already at home who's willing to research their specific state's pet food regulations before their first sale, and who wants pet boutiques and market regulars as repeat customers.",
+    "truth": "The regulatory warning is the single most important piece of information here \u2014 treating this like a standard cottage food business without checking state pet-food rules first is a real, easy-to-miss legal risk, not just a formality.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Strictly in-home",
+      "Weekend/event-based schedule",
+      "Requires a license or certification"
     ]
   },
   {
@@ -2572,6 +2865,28 @@
     "url": "https://www.youtube.com/watch?v=y-eBAr1uRDQ",
     "situation_tags": [
       "Strictly in-home"
+    ]
+  },
+  {
+    "id": "feeder-insect-breeding-reptile-owners",
+    "name": "Feeder insect breeding business selling to reptile owners",
+    "category": "Physical & print products",
+    "tags": [
+      "feeder insects",
+      "dubia roaches",
+      "reptile supplies",
+      "recurring demand"
+    ],
+    "cost": "Low startup cost ($150-300 for colony starter and housing)",
+    "found": "Business Cortex",
+    "what": "Breed feeder insects (dubia roaches) for sale to reptile owners, who need a constant weekly supply for pets like bearded dragons and geckos over a decade-long lifespan, making this a genuinely recurring-demand product once a colony is established.",
+    "pitch": "A dubia roach colony starter runs $45-135 depending on size, with bins, egg crates, and heat bringing total setup to $150-300. The presenter is blunt about failure modes: dubia barely breed at room temperature (one breeder wasted 6 months before realizing they lacked a heat source), colonies crash from mold in wet bins or overcrowding, and one operator lost 25% of a colony in 2 days from pesticide-contaminated feed (non-organic quinoa). He also warns that a mealworm breeder quit the business entirely after lung damage from frass dust, even while wearing a mask.",
+    "best": "Someone willing to closely manage temperature, humidity, and feed quality for a live colony, and to take a genuine health precaution (proper ventilation) seriously rather than treating it as optional.",
+    "truth": "The recurring-demand logic (reptile owners need feeders every week for years) is sound, but this is one of the more failure-prone ideas on the list \u2014 multiple specific ways to lose most or all of a colony are documented, plus a real respiratory health risk from insect frass dust that isn't fully solved by a basic mask.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Strictly in-home",
+      "Needs a dedicated workspace"
     ]
   },
   {
@@ -4231,6 +4546,28 @@
     "situation_tags": [
       "Strictly in-home",
       "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "neocaridina-shrimp-breeding-fish-stores",
+    "name": "Neocaridina shrimp breeding business selling to local fish stores",
+    "category": "Physical & print products",
+    "tags": [
+      "shrimp breeding",
+      "aquarium livestock",
+      "fish store wholesale",
+      "slow supplemental income"
+    ],
+    "cost": "Low startup cost (about $150-300 for a single-tank starter setup with livestock)",
+    "found": "Business Cortex",
+    "what": "Breed Neocaridina shrimp (a popular, colorful freshwater aquarium species) in a home tank setup, selling to local fish stores as a consistent wholesale buyer and to aquarium clubs/online sales at higher per-unit prices but lower volume.",
+    "pitch": "A 10-gallon setup with starter livestock runs $150-250, or a 20-gallon all-in-one kit for $250-300. Low-grade shrimp sell $1-3 each, mid-grade $3-5, high-grade $5-8, and breeding females $8-15. The presenter frames this explicitly as supplemental income that compounds slowly, not fast money, and warns that failing to cull low-grade offspring causes color quality to degrade across generations, drifting an entire colony back to plain wild-type coloring (and losing the price point) within a year.",
+    "best": "Someone with patience for a slow-building, low-maintenance supplemental income stream, who's willing to actively cull a colony to maintain color quality rather than letting it breed freely.",
+    "truth": "The presenter is upfront that this is slow supplemental income, not a primary income replacement, which is a more honest framing than most livestock-breeding side hustle content \u2014 the ongoing culling discipline required to maintain value is a real, easy-to-skip maintenance task that determines whether the business stays profitable.",
+    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
+    "situation_tags": [
+      "Strictly in-home",
+      "Needs a dedicated workspace"
     ]
   },
   {
@@ -6274,6 +6611,30 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
+    "id": "bootstrapped-feminine-hygiene-soap-brand",
+    "name": "Bootstrapped feminine hygiene soap brand built with organic social media marketing",
+    "category": "Physical & print products",
+    "tags": [
+      "soap making",
+      "feminine hygiene",
+      "organic marketing",
+      "DTC brand",
+      "social media selling"
+    ],
+    "cost": "Very low startup cost (started with $67 in ingredients; scales into real manufacturing costs as demand grows)",
+    "found": "School of Hard Knocks Podcast (guest: Jhalesa Seymour)",
+    "what": "Formulate and hand-make a niche personal-care product addressing a specific, underserved need (Seymour's case: feminine hygiene soap and yoni gel targeting odor, BV, and yeast infections), sell it directly to customers online (starting on Facebook, later a Shopify store), and grow purely through organic content and word-of-mouth before ever spending on paid ads.",
+    "pitch": "Seymour started her company, Salt XO, with $67 while a college senior, making soap by hand in her dorm and then her mother's kitchen, selling out via Facebook within minutes of each restock. She grew the brand organically for 5 years before introducing paid ads and influencer/UGC content, at which point growth accelerated sharply; the company now reportedly generates over $20 million a year, with one product launch bringing in $1 million in 30 minutes and one site launch drawing 18,000 visitors within a minute of going live. She credits addressing a taboo, rarely-discussed need with authentic, personal storytelling as the reason organic content converted so well before any ad spend was involved.",
+    "best": "Someone with, or willing to develop, a specific formulation or product addressing an underserved, personal need, who's willing to start small (hand-making product themselves) and build trust through organic content before investing in paid marketing.",
+    "truth": "The \"organic first, paid ads second\" sequencing is a genuinely sound strategy, especially for a product involving a sensitive or personal need where trust matters before purchase, and Seymour's account of scaling from a dorm room to in-house manufacturing and warehousing is a real, if extreme, growth story. That said, the $20 million/year and $1 million-in-30-minutes figures are self-reported without independent verification, and this is one of the more dramatic outlier outcomes in this space; the underlying lesson (build genuine trust and community first) is more broadly useful than the specific numbers are replicable. The episode is also sponsored by a specific CRM/marketing tool (HighLevel), worth noting as a paid placement.",
+    "url": "https://www.youtube.com/watch?v=btaHofImbYU",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment",
+      "Requires hiring or managing others"
+    ]
+  },
+  {
     "id": "claude-coauthor-kdp-ebook-workflow",
     "name": "Claude and co-author.ai step-by-step first KDP ebook workflow",
     "category": "Digital & subscription products",
@@ -6413,6 +6774,51 @@
     "best": "Someone starting completely from scratch with no existing audience or offer, who wants a simple starting structure rather than a complex funnel or advanced marketing system.",
     "truth": "The presenter's advice to keep early technology minimal (a Google Doc and a payment link is explicitly framed as sufficient to start) is a useful, low-risk starting point that avoids the common trap of over-building infrastructure before validating demand. This is a general business-building framework similar in spirit to other roadmap-style entries in this database; its distinguishing contributions are the specific \"look for competition, not its absence\" validation test and the explicit caution against monetizing your single deepest passion.",
     "url": "https://www.youtube.com/watch?v=bG3epVp37-c"
+  },
+  {
+    "id": "faceless-youtube-niche-scouting-vidrush",
+    "name": "Faceless YouTube niche-scouting method using recently-pivoted and spiking channels as demand signals",
+    "category": "Content & personal brand",
+    "tags": [
+      "faceless YouTube",
+      "niche research",
+      "AI video tool",
+      "VidRush",
+      "trend spotting"
+    ],
+    "cost": "Very low startup cost (an AI video-creation tool like VidRush; some tools free, others low monthly subscriptions)",
+    "found": "Steffens Niches",
+    "what": "Find currently-trending, lower-competition YouTube niches by watching for channels that have recently pivoted their content entirely (a strong signal the old content wasn't working and the new topic is) or channels showing a sudden spike in daily views on simple, low-production videos, then replicate the same proven format (AI voiceover, stock/clip footage, a consistent thumbnail style, built with an AI video tool like VidRush) in a similar or adjacent niche to avoid direct competition.",
+    "pitch": "The presenter walks through roughly 10 real example channels across niches like fallen restaurant/retail chain histories, \"we tested X from Walmart\" product roundups, royal family content, sports history, AI-avatar-narrated beauty tips for older audiences, weather disaster content, Hollywood then-vs-now, political news, geography facts, and wildlife facts, pointing out which are brand new, which recently pivoted, and which show unusual daily view spikes as evidence the format still works. He notes some of these channels also monetize through digital products linked in the description, not just AdSense.",
+    "best": "Someone comfortable with video editing tools (or an AI tool that automates it) and consistent posting, who's willing to research and copy a proven content format into a less crowded niche rather than trying to be original.",
+    "truth": "The core research method \u2014 watch for pivots and view spikes as demand signals, then replicate the proven format in an adjacent niche \u2014 is a genuinely useful, lower-guesswork approach to picking a content niche, and it echoes similar competitor-modeling advice given by other faceless-YouTube creators. That said, several examples shown are politically or trend-sensitive: a channel about political news the presenter flatly predicts \"is 1 million percent going to get banned,\" and a disaster/weather channel riding a specific real tragedy for views. That's a caution worth taking seriously before copying those specific niches, regardless of current performance, since ad revenue and channel bans in these categories can change quickly and unpredictably.",
+    "url": "https://www.youtube.com/watch?v=5bAt8h1x_5c",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "youtube-offer-first-lead-generation-coaching",
+    "name": "YouTube \"offer-first\" lead-generation framework for coaching and consulting businesses",
+    "category": "Marketing & content",
+    "tags": [
+      "YouTube marketing",
+      "coaching business",
+      "lead generation",
+      "content strategy",
+      "sales funnel"
+    ],
+    "cost": "Low startup cost (a webcam/basic recording setup; no paid ads required)",
+    "found": "Sunny Lenarduzzi",
+    "what": "Build a coaching or consulting business by defining a specific, narrow offer and ideal client first, before ever posting a video, then use YouTube purely as a lead-generation tool aimed at that one audience rather than as a general content channel chasing views and subscribers, converting viewers into an email list and then into paying clients for a bare-bones, live-delivered coaching program run via Zoom, Google Docs, and a community rather than a polished course platform.",
+    "pitch": "Lenarduzzi contrasts the \"content creator game\" (chasing views/subscribers/AdSense, needing huge view counts to earn meaningfully) with the \"business owner game\" (optimizing for dollar-per-view and qualified leads instead of reach). She cites a client (a marriage coach) who reportedly made $30,000 from a single video within 24 hours of posting, and built to over $130,000-150,000/month organically within about 18 months, starting with under 700 subscribers and no paid ads. She lays out a month-by-month rollout: months 1-2 building and validating the offer with early clients, months 3-4 publishing the first targeted videos, months 5-6 letting organic leads start arriving, and months 7-12 scaling as the \"flywheel\" compounds.",
+    "best": "Someone who already has, or can quickly develop, real expertise to teach or coach, who's willing to define a narrow, specific audience before creating any content, and who's comfortable being on camera consistently over months rather than expecting overnight results.",
+    "truth": "The core reframe (optimize YouTube for qualified leads and dollar-per-view, not vanity metrics) is a genuinely useful mental model, and it echoes advice from other creators in different formats (a similar book-funnel-to-coaching pattern exists using books instead of video as the lead-gen vehicle). That said, the $30,000-in-24-hours and $130-150k/month figures are single client examples relayed secondhand by the presenter, not independently verified, and the video is a funnel toward the presenter's own \"authority audit\" tool and further paid content \u2014 the framework is sound, but expect the real timeline to look more like the described months 1-6 ramp than the standout example given.",
+    "url": "https://www.youtube.com/watch?v=Rl3fOs63qRk",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ]
   },
   {
     "id": "ai-digital-products-genspark-etsy",
