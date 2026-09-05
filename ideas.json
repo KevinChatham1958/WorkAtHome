@@ -1153,6 +1153,28 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
+    "id": "vibe-coded-saas-app-gemini-antigravity",
+    "name": "Vibe-coding a SaaS app using Google's Gemini/Antigravity coding tools",
+    "category": "Digital & subscription products",
+    "tags": [
+      "vibe coding",
+      "SaaS",
+      "Gemini",
+      "Antigravity",
+      "app development"
+    ],
+    "cost": "Low startup cost (AI coding tool subscription and hosting; no major upfront cost)",
+    "found": "Shawn Builds AI",
+    "what": "Use Google's AI coding assistant (Antigravity) to build and launch a software app or website without traditional programming skills, then attempt to monetize it as a SaaS product.",
+    "pitch": "The presenter walks through his own repeated attempts (a cross-platform social feed app, an AI meal-planning app, an infrastructure-as-code tool) built entirely with AI coding tools, and is candid that all three ended in zero users and zero dollars because he built before validating demand. He frames the lesson as: before building anything, confirm someone would buy it right now, not after you build it.",
+    "best": "Someone with a specific person or business already lined up who wants a piece of software, rather than someone building speculatively and hoping to find users afterward.",
+    "truth": "This is the most skeptical entry in the source video, presented by the creator himself as the weakest of the five ideas covered \u2014 beginner-friendliness and speed to first income are both rated poorly, largely because building is easy but distribution and finding paying customers is hard, especially against a wave of similar AI-built \"SaaS-template\" sites the presenter calls \"AI slop.\" Worth reading as a cautionary account of what doesn't work as much as a business idea to copy.",
+    "url": "https://www.youtube.com/watch?v=_doqDIYZaM8",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "ppc-affiliate-arbitrage",
     "name": "Google/Bing PPC affiliate arbitrage",
     "category": "Marketing & content",
@@ -1504,6 +1526,29 @@
     "best": "Someone comfortable directing an AI chatbot to do structured research tasks and willing to package that into a clearly defined, sellable service on a freelance platform.",
     "truth": "The $101 average order and five-orders-in-queue figures come from a screenshot of one specific, real Fiverr listing, which is a genuinely checkable data point rather than an invented number, though it represents one operator's results, not an industry average. The underlying task (using AI to research keywords and competitors) is straightforward enough that this is a low-differentiation service, so standing out among other freelancers offering the same thing is the real work, not mentioned as a caveat in the video itself.",
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
+  },
+  {
+    "id": "upwork-freelancing-gemini-assisted-proposals",
+    "name": "Upwork freelancing with AI-assisted proposals and automation delivery",
+    "category": "AI & automation",
+    "tags": [
+      "Upwork",
+      "freelancing",
+      "AI automation",
+      "N8N",
+      "proposal writing"
+    ],
+    "cost": "Very low startup cost (free Upwork account; optional AI subscription)",
+    "found": "Shawn Builds AI",
+    "what": "Create an Upwork profile and apply to jobs (particularly AI automation and workflow-building jobs using tools like N8N), using an AI tool (Gemini) to draft tailored proposals from your background and the specific job post, and to help write the actual automation code or copy being delivered.",
+    "pitch": "The presenter says this is how he personally landed his first freelance income, eventually making over $3,000 on the platform with a 100% job success rate and a top-rated badge. He frames Upwork's advantage as reaching buyers who already know they have a problem and are looking for a solution (versus needing to convince a stranger they have a problem at all), and describes using Gemini to draft N8N automation code for clients' workflow requests.",
+    "best": "Someone with some existing skill (automation, copywriting, or a technical background) willing to start with small jobs to build a track record, comfortable using AI tools to speed up both the pitch and the delivery.",
+    "truth": "Upwork freelancing is a genuinely low-barrier way to get a first paying client, and AI-assisted proposals/delivery is a real time-saver, but the video also shows plenty of very low-budget job postings ($5-20) alongside a few outlier freelancers earning six figures \u2014 most income on the platform sits well below those outlier examples, and building a track record from zero still takes real time and effort.",
+    "url": "https://www.youtube.com/watch?v=_doqDIYZaM8",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
   },
   {
     "id": "tiktok-viral-amazon-affiliate-content",
@@ -2032,6 +2077,29 @@
     ]
   },
   {
+    "id": "outbound-lead-generation-service-gemini-segmentation",
+    "name": "Outbound lead generation service using AI-assisted market segmentation",
+    "category": "Marketing & content",
+    "tags": [
+      "lead generation",
+      "market segmentation",
+      "AI prospecting",
+      "B2B service",
+      "cold outreach"
+    ],
+    "cost": "Low startup cost (AI tool subscription; time to build prospect lists)",
+    "found": "Shawn Builds AI",
+    "what": "Sell local or niche businesses on finding them new customers by mapping their total addressable market (not just the easy, already-visible slice), segmenting it by geography, demographics, or behavior, and using an AI tool to build a prospect list, generate targeted outreach scripts, and draft personalized emails.",
+    "pitch": "The presenter cites a survey where 85% of small business owners rely on word-of-mouth referrals with no active way to find new customers, framing this as the opportunity. He describes doing this for an event venue client, mapping over 100,000 qualified prospects and segmenting them by location and hiring signals, then using a Gemini-built prospecting tool to find companies, contacts, and personalized outreach angles.",
+    "best": "Someone comfortable with B2B sales and cold outreach who wants to package market research and prospecting into a recurring, retainer-based service for local or niche businesses.",
+    "truth": "The market segmentation approach described (total addressable market vs. the easy-to-reach slice) is a legitimate and often-overlooked sales fundamental, and packaging it as a service is a real business model that predates AI tools. The presenter's own scoring rates this as only moderately beginner-friendly and moderately fast to first income, since it requires some sales skill and faces real competition from other lead-gen providers.",
+    "url": "https://www.youtube.com/watch?v=_doqDIYZaM8",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-competitor-script-harvest",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (competitor-script research method)",
     "category": "Content & personal brand",
@@ -2454,6 +2522,27 @@
     "best": "Someone comfortable running frequent, low-cost tests across multiple traffic sources rather than betting everything on one channel, and willing to manage ad spend directly on an ongoing basis.",
     "truth": "The presenter's self-reported $741,000 total is shown via an on-screen dashboard screenshot, not independently verified. He mentions a service selling pre-made, done-for-you PDF products with sales pages already built as an option for those who don't want to create their own PDF, similar to the private-label-rights model mentioned elsewhere in this database, a legitimate but not fully original-content path. The presenter also promotes a paid PDF-generation tool throughout the video.",
     "url": "https://www.youtube.com/watch?v=6Ter9q3NsfE",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "ai-rapid-app-validation",
+    "name": "A 7-day method for testing app ideas cheaply",
+    "category": "AI & automation",
+    "tags": [
+      "app development",
+      "AI tools",
+      "methodology",
+      "technical comfort needed"
+    ],
+    "cost": "$100 to $500 in ad spend to test",
+    "found": "Brett Malinowski",
+    "what": "A methodology, not a specific app, for taking an app idea to a paying customer within one week: research an underserved niche using existing App Store data, build an MVP using Claude Cowork and Claude Code to go from a product requirements doc to working software, then run a small paid-ad budget to test real demand before investing further.",
+    "pitch": "Malinowski picks an astrology app niche that's dominated by products targeting women, builds a version aimed at men in a few hours using Claude, then spends $100 a day testing it with paid ads. By day six, after fixing a bug that had wiped out an entire day's ad spend with zero signups, he gets 7 new trials for $100 spent, landing under his $20 target cost-per-acquisition for profitability.",
+    "best": "Someone comfortable with hands-on technical troubleshooting, debugging, and ad account management, not just describing what they want built and waiting.",
+    "truth": "This is one of the more transparent accounts in this database: Malinowski shows a real failed day, a bug that silently blocked every paywall for 24 hours and wasted $100 in ad spend, rather than only a polished highlight reel. Getting a handful of trial signups in a week is a genuine, useful validation signal, but it's still early-stage evidence, not proof of a sustainable business, and this does require real comfort with iterative technical problem-solving beyond basic AI prompting.",
+    "url": "https://www.youtube.com/watch?v=y-eBAr1uRDQ",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -2981,6 +3070,29 @@
     "url": "https://www.youtube.com/watch?v=Ofh6AVp0k9E",
     "situation_tags": [
       "Home office, client-facing"
+    ]
+  },
+  {
+    "id": "linkedin-infographic-content-management-service",
+    "name": "LinkedIn infographic content management service for personal brands",
+    "category": "Marketing & content",
+    "tags": [
+      "LinkedIn content",
+      "infographics",
+      "content management",
+      "inbound lead generation",
+      "AI image generation"
+    ],
+    "cost": "Low startup cost (AI image-generation tool subscription)",
+    "found": "Shawn Builds AI",
+    "what": "Create infographic-style LinkedIn posts on behalf of a business owner or personal brand, using an AI image-generation tool (Nano Banana, within Gemini) to produce the graphics from a topic prompt, with the goal of driving inbound leads through consistent, shareable content rather than outbound outreach.",
+    "pitch": "The presenter points to an existing creator (Chris Donnelly) who built a company largely through LinkedIn infographic content produced by a team of content managers, and demonstrates generating his own LinkedIn infographics with Nano Banana from a custom prompt template, saying he's booked strategy calls directly from people who engaged with these posts.",
+    "best": "Someone with an eye for what makes content engaging (or willing to learn it) who's comfortable pitching this as a done-for-you service to business owners and professionals who want a LinkedIn presence but don't have time to build one themselves.",
+    "truth": "Generating the images themselves is genuinely easy with current AI tools, as demonstrated in the video, but the presenter is upfront that speed to first income is only moderate since there's real competition and clients want to see evidence the content will actually generate leads before hiring someone new. The named case study (Chris Donnelly) represents an already-established business, not a typical starting point.",
+    "url": "https://www.youtube.com/watch?v=_doqDIYZaM8",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
     ]
   },
   {
@@ -3988,24 +4100,49 @@
     ]
   },
   {
-    "id": "ai-rapid-app-validation",
-    "name": "A 7-day method for testing app ideas cheaply",
-    "category": "AI & automation",
+    "id": "ai-agent-public-domain-book-print-on-demand",
+    "name": "AI-agent-run print-on-demand book business built on public-domain texts",
+    "category": "E-commerce",
     "tags": [
-      "app development",
-      "AI tools",
-      "methodology",
-      "technical comfort needed"
+      "print on demand",
+      "AI agents",
+      "public domain",
+      "physical product",
+      "paid ads"
     ],
-    "cost": "$100 to $500 in ad spend to test",
+    "cost": "Very low startup cost (a few hundred dollars in ad testing; no inventory since printing is pay-per-order)",
     "found": "Brett Malinowski",
-    "what": "A methodology, not a specific app, for taking an app idea to a paying customer within one week: research an underserved niche using existing App Store data, build an MVP using Claude Cowork and Claude Code to go from a product requirements doc to working software, then run a small paid-ad budget to test real demand before investing further.",
-    "pitch": "Malinowski picks an astrology app niche that's dominated by products targeting women, builds a version aimed at men in a few hours using Claude, then spends $100 a day testing it with paid ads. By day six, after fixing a bug that had wiped out an entire day's ad spend with zero signups, he gets 7 new trials for $100 spent, landing under his $20 target cost-per-acquisition for profitability.",
-    "best": "Someone comfortable with hands-on technical troubleshooting, debugging, and ad account management, not just describing what they want built and waiting.",
-    "truth": "This is one of the more transparent accounts in this database: Malinowski shows a real failed day, a bug that silently blocked every paywall for 24 hours and wasted $100 in ad spend, rather than only a polished highlight reel. Getting a handful of trial signups in a week is a genuine, useful validation signal, but it's still early-stage evidence, not proof of a sustainable business, and this does require real comfort with iterative technical problem-solving beyond basic AI prompting.",
-    "url": "https://www.youtube.com/watch?v=y-eBAr1uRDQ",
+    "what": "Use AI agents (Claude) to find an out-of-copyright text with existing online demand (the presenter's example: the Book of Enoch/Ethiopian Bible), turn it into a hardcover physical book, print and ship it per-order through a print-on-demand supplier (Lulu.com) so there's no inventory to buy upfront, and run the business (website, ad creatives, campaign setup, funnel fixes) largely through AI coding/agent tools.",
+    "pitch": "Malinowski gave an AI agent a $500 budget and three rules (AI makes every decision, AI generates all content, $500 total budget), and had it find the product, build the site, generate ad creatives, and run Meta ads. The first sale came within 37 hours; after a full day, gross revenue was $232.15 against $58.55 in ad spend and $119 in printing/shipping, for $54.60 profit. Over a full 7-day test the business generated $745.25 in total revenue, with organic distribution (a themed X/Twitter account, plus paid reposts from established niche accounts) eventually producing its first non-ad sale as well.",
+    "best": "Someone comfortable directing AI tools (or willing to learn Claude Code/agent workflows) to do the legwork of research, copywriting, and ad creative generation, who wants to test a low-inventory-risk physical product business without doing every step by hand.",
+    "truth": "The core mechanic is genuinely replicable and well-documented step by step (public domain text, print-on-demand fulfillment, AI-assisted marketing) and doesn't require deep technical skill, just willingness to direct AI agents through the process. That said, this is one creator's single 7-day experiment with a $500 test budget, not a proven scalable business, and the presenter says outright he's giving the whole built business away in a giveaway rather than continuing to run it himself, a signal this was framed as a demonstration/content project first and a business second.",
+    "url": "https://youtu.be/uX6zwf4b8sM",
     "situation_tags": [
-      "Strictly in-home"
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
+    "id": "self-hosted-book-funnel-coaching-clients",
+    "name": "Self-hosted book funnel to get coaching and consulting clients",
+    "category": "Marketing & content",
+    "tags": [
+      "book funnel",
+      "coaching business",
+      "lead generation",
+      "self-publishing",
+      "high-ticket sales"
+    ],
+    "cost": "Low startup cost (cost to write/print the book plus a funnel/checkout tool; ad or content budget optional to scale)",
+    "found": "Brian Ellwood",
+    "what": "Instead of publishing a book on Amazon and hoping the algorithm surfaces it, sell the book yourself through your own funnel (a dedicated landing page, often a \"free plus shipping\" or low-cost front-end offer) so you keep the reader's contact information, then use follow-up (calls, email, content) to sell a high-ticket coaching or consulting offer behind it.",
+    "pitch": "Ellwood describes going from $1,500 in his first six months as a real estate coach (after his first self-published book on Amazon sold almost nothing) to $88,000 in the next six months once he built a bookfunnel, drove traffic to it via podcast guest appearances, and manually followed up with buyers to sell his coaching program. He's since repeated the model with three more books, reports having earned close to $3 million in the coaching/expert world off the back of books, and cites several coaching clients (a real estate coach, a chiropractor-turned-nutrition-doctor, a former NFL player) who used the same funnel-then-upsell structure.",
+    "best": "Someone who already has, or is building, genuine coaching, consulting, or expert-level knowledge to sell, and is willing to write a short book as a lead-generation tool rather than a primary income source in itself.",
+    "truth": "The core insight \u2014 a self-hosted funnel beats hoping Amazon's algorithm does the selling, and a cheap book's real job is capturing contact info for a high-ticket upsell \u2014 is a genuinely useful, well-established pattern in the coaching/consulting world, and Ellwood's account of his own slow, mistake-filled path to figuring it out is more honest than most. That said, this only works if there's a real high-ticket offer behind the book; the book itself makes very little money on its own (he says less than $10,000 total in Amazon royalties across his career), and the video is ultimately built to sell his own \"Author Operating System\" book and related paid training.",
+    "url": "https://youtu.be/ETFTelNOTxw",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
     ]
   },
   {
@@ -6146,6 +6283,28 @@
     "best": "Someone with real existing knowledge or experience in a specific field who's willing to treat this as a slow-burn asset rather than a fast payout, and who has small pockets of otherwise-idle time to work with.",
     "truth": "The named examples throughout the video are specific and checkable in principle, a decent transparency signal, but they're all self-reported figures from the presenter's own paid community, not independently verified. The video functions as a funnel into a free live training and, ultimately, a paid one-on-one mentorship program described as \"very expensive,\" worth knowing given how much of the video is built around these specific dollar-figure success stories.",
     "url": "https://www.youtube.com/watch?v=qmostTcgp0E",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "ai-assisted-content-creator-gemini",
+    "name": "AI-assisted personal-brand content creator, monetized across multiple channels",
+    "category": "Content & personal brand",
+    "tags": [
+      "content creation",
+      "personal brand",
+      "AI scripting",
+      "sponsorships",
+      "affiliate marketing"
+    ],
+    "cost": "Free to low startup cost (a phone camera; AI subscription optional)",
+    "found": "Shawn Builds AI",
+    "what": "Build a personal, on-camera content brand around a specific topic (the presenter's own example: AI tools and tutorials), using an AI tool (Gemini) to help draft video hooks and structure so filming goes faster, and monetizing through a mix of platform ad revenue, subscriptions/Patreon, brand sponsorships, affiliate links, merchandise, and your own digital products or courses.",
+    "pitch": "The presenter describes his own channel's growth from videos getting under 150 views to now regularly getting over 20,000 views (one video reaching 70,000), attributing part of that improvement to using AI-built \"skills\" that help structure his video hooks and flow before filming. He names several peers (Patrick Dang, Sandy Lee AI, Megan Lou) running similar AI-topic content businesses across multiple monetization channels.",
+    "best": "Someone comfortable being on camera consistently over months, who's willing to treat content quality as a skill to build up over time rather than expecting fast results.",
+    "truth": "This is realistic about the timeline: the presenter's own scorecard rates speed to first income as weak, since sponsors and affiliate opportunities only show up once content quality and audience trust are established, which took him months of unremarkable videos before traction. The specific dollar figures he references for peers (\"thousands... even tens of thousands\") are informal and secondhand, not independently documented.",
+    "url": "https://www.youtube.com/watch?v=_doqDIYZaM8",
     "situation_tags": [
       "Strictly in-home"
     ]
