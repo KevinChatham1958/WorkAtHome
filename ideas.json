@@ -2305,70 +2305,97 @@
     ]
   },
   {
-    "id": "ai-voice-appointment-setter-lead-reactivation",
-    "name": "AI appointment-setting and lead-reactivation agent for home service businesses",
+    "id": "wedding-officiant-business",
+    "name": "Wedding officiant business",
     "category": "Local & professional services",
     "tags": [
-      "AI tools",
+      "events",
       "local business",
-      "recurring revenue",
-      "phone/sales-based",
-      "low startup cost"
+      "license needed",
+      "weekend work"
     ],
-    "cost": "Low startup cost",
-    "found": "Angelo Turri",
-    "what": "Build an AI voice agent that answers new leads within seconds (not hours), asks qualifying questions, and books the appointment straight onto the business owner's calendar. The same agent can also call through a business's list of old, cold leads with a promotion or offer to re-engage and re-book them.",
-    "pitch": "The pitch is speed and follow-up: most home service businesses lose leads simply because they respond too slowly or never follow up on old leads at all. The system is priced as a retainer between $2,000 and $4,000 a month on top of an $8,000 to $15,000 setup fee. The presenter cites installing this exact system into a roofing company and generating $159,000 in additional revenue in 3 months, with response times dropping from hours to under 2 minutes.",
-    "best": "Someone comfortable with cold-calling and sales to land the first few clients, since both the technical build (delegated to a developer for 10-15% of the client fee) and the actual selling are described as separate skills.",
-    "truth": "The roofing-company case study is specific and named by industry, which is a good signal, though it's a single example rather than an audited track record. Supporting statistics cited in the video (a claimed 300% close-rate boost from responding within 3 minutes, an 80% drop in close rate after 5 minutes) aren't sourced on-screen. The video is also a funnel into the presenter's paid one-on-one mentorship. This general AI-voice-agent-for-local-business pattern shows up repeatedly across WAH creator content, this entry adds the specific lead-reactivation angle on top of live-call handling.",
-    "url": "https://www.youtube.com/watch?v=ZQHBe6Rb6v0",
+    "cost": "Low to moderate startup cost",
+    "found": "Amber Gist",
+    "what": "Working as a paid wedding officiant, booking and performing wedding ceremonies for couples, and reinvesting early revenue into better equipment (a professional backdrop stand, drapes and decorations for photo backdrops, and a collapsible equipment wagon) to make the on-site experience feel more polished as the client base grows.",
+    "pitch": "The creator set herself a concrete validation goal, book and officiate 25 married couples and see if she still enjoyed the work, before investing further, and documents that she passed that bar and is now formalizing her systems and buying real equipment rather than treating it as a one-off side gig.",
+    "best": "Someone comfortable with public speaking and being the center of attention at events, who doesn't mind weekend and evening work built around other people's schedules, and who is willing to start small and low-cost before investing in equipment.",
+    "truth": "This is a behind-the-scenes, equipment-unboxing style video, not a how-to guide, so it doesn't cover how to get licensed or ordained to legally perform marriages in your area, how ceremonies are priced, or how clients are actually found, all real open questions for anyone considering this. What it does show is a real, currently-operating practitioner with a specific, self-set traction goal (25 couples) she says she's already reached, a genuine, if narrow, validation signal that this can work as an actual local service business.",
+    "url": "https://youtu.be/sKFWVQldrIQ",
     "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based"
+      "Local travel required",
+      "Weekend/event-based schedule",
+      "Requires equipment/vehicle investment",
+      "Requires a license or certification"
     ]
   },
   {
-    "id": "facebook-meme-page-monetization",
-    "name": "Facebook page monetization via AI-scheduled meme and content posting",
-    "category": "Content & personal brand",
+    "id": "ai-voice-appointment-setter-lead-reactivation",
+    "name": "AI voice appointment-setting and lead-reactivation agent for home service businesses",
+    "category": "AI & automation",
     "tags": [
-      "Facebook",
-      "content creation",
+      "AI voice agent",
+      "appointment setting",
+      "lead reactivation",
+      "home services",
+      "AI agency"
+    ],
+    "cost": "Requires a backend developer or technical partner (fulfillment typically outsourced for 10-15% of the client fee)",
+    "found": "Angelo Turri",
+    "what": "Sell home service businesses (roofing, HVAC, plumbing, electrical) an AI voice agent that answers new leads within seconds, qualifies them, and books them directly onto the owner's calendar, plus a \"lead reactivation\" version of the same agent that calls through the business's existing list of old, cold, or unbooked leads to re-engage them with a promotion or special offer.",
+    "pitch": "Turri, who says his own AI agency generates $40-50k/month, prices this system at an $8,000-15,000 setup fee plus a $2,000-4,000/month retainer, and cites installing it for a roofing company that generated $159,000 in additional revenue in 3 months, with call-response times dropping from hours to under 2 minutes and lead capture going from about half of calls to 100%. He frames the appeal to business owners as an easily quantifiable ROI and recommends also charging for ad management if the client doesn't already have enough lead flow to feed the system.",
+    "best": "Someone interested in selling and consulting rather than building software themselves \u2014 Turri's own model delegates all technical fulfillment to a developer for 10-15% of the client fee, so this fits someone comfortable with cold calling, sales conversations, and picking one home-service niche to specialize in.",
+    "truth": "The mechanic (speed-to-lead AI voice agents, cold-lead reactivation campaigns) is a real and increasingly common offering in the AI agency space, and the ROI framing is a genuinely useful way to sell it. The $159,000 case study and pricing figures are Turri's own reported numbers from his agency, not independently verified, and the video is also a funnel toward his own paid mentorship program \u2014 success here depends heavily on the sales and client-acquisition skill described more than on the AI technology itself.",
+    "url": "https://youtu.be/ZQHBe6Rb6v0",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based",
+      "Requires hiring or managing others"
+    ]
+  },
+  {
+    "id": "printify-tiktok-shop-faith-apparel",
+    "name": "Print-on-demand apparel via Printify and TikTok Shop",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "TikTok Shop",
       "AI tools",
-      "beginner friendly",
-      "very low startup cost"
+      "very low startup cost",
+      "beginner friendly"
     ],
     "cost": "Very low startup cost",
     "found": "Anji Martin",
-    "what": "Run a Facebook content page, text posts, photo posts, and memes rather than video, using the AI tool Post Planner to find already-proven, high-engagement content in a chosen niche, generate an original AI image modeled on (not copied from) what's working, and schedule six to ten-plus posts a day across Facebook, Instagram, TikTok, and Twitter in bulk. Facebook pays out through its content monetization program based on reach and engagement, and pages don't need a large following since Facebook will push posts to non-followers.",
-    "pitch": "The presenter says she grew her own page from zero to over 370,000 followers with as many as 49 million views in a single month, and claims payouts as high as $500 for a single meme (the best a student has made is cited at $400). Once a page has its own bank of proven, viral posts, those same posts can be rescheduled and reposted repeatedly, and additional income can be layered on through affiliate links or digital products placed in the comments.",
-    "best": "Someone comfortable picking a content niche and consistently posting text or image content multiple times a day without needing to appear on camera or produce video.",
-    "truth": "The presenter has an affiliate discount code for Post Planner and runs a paid mentorship group, so there's a clear incentive to make the tool sound as effective as possible. The specific per-post payout figures ($500 and $400 maximums) are self-reported without account screenshots or payout documentation shown on screen, and Facebook's content monetization program terms and payout rates can change and vary by page/region, so a new page's actual earnings potential isn't verifiable from this video alone.",
-    "url": "https://www.youtube.com/watch?v=YbSzAt-78Wo",
+    "what": "Use a free TikTok Shop account together with a free Printify account to sell print-on-demand apparel with zero inventory held. Research TikTok Shop listings that have sold around 1,000 units with only 50-100 reviews (a signal of real, still-fresh demand), use an AI t-shirt design tool (KD) to generate an original design inspired by, not copied from, what's already selling, then upload it to Printify, link it to your TikTok Shop, and publish. Printify prints, packs, and ships every order hands-off once a sale comes in.",
+    "pitch": "The presenter points to one specific existing shirt listing that has sold 6,800 units at $14.55 each, roughly $100,000 in revenue for that single design, as proof the model works, and walks through building and publishing a new original listing in under 10 minutes for zero upfront cost. You keep the difference between Printify's wholesale cost and the TikTok Shop retail price you set.",
+    "best": "Someone comfortable with basic on-platform product research (checking sales counts and review counts on existing listings) who wants a genuinely zero-inventory way to test a print-on-demand apparel idea.",
+    "truth": "The $100,000/6,800-unit figure belongs to one specific, already-established listing being used as market validation, not a promise that a new design will replicate those numbers. The video frames this specifically as a way to sell faith-based apparel, but the underlying mechanic, validate an already-selling niche, create an original alternative design, and list it through Printify and TikTok Shop, applies to any product niche, not just faith-based designs.",
+    "url": "https://www.youtube.com/watch?v=HF3fp-wPvg0",
     "situation_tags": [
-      "Strictly in-home"
+      "Strictly in-home",
+      "E-commerce / fulfillment"
     ]
   },
   {
-    "id": "lovable-ai-website-sales-pricing-ladder",
-    "name": "Sell AI-built (Lovable) websites and landing pages with a tiered pricing ladder",
+    "id": "warm-network-video-pitch-ai-website-redesign",
+    "name": "Warm-network video-pitch method for AI website redesigns",
     "category": "Marketing & content",
     "tags": [
-      "web design",
-      "AI tools",
-      "low startup cost",
-      "beginner friendly"
+      "website redesign",
+      "warm outreach",
+      "Lovable",
+      "AI web design",
+      "video pitch"
     ],
-    "cost": "Low startup cost",
+    "cost": "Low startup cost (roughly $25/month for the AI website tool)",
     "found": "Arlan Hamilton",
-    "what": "Use the AI app-builder Lovable.dev, which builds from plain-language prompts with no coding required, to create websites, landing pages, sales pages, or small tools for clients and sell them. The presenter's suggested approach is to start at a low, easy-to-say-yes-to price point and raise prices for later clients as you build confidence and a track record.",
-    "pitch": "The presenter says her own students started around $300 per site (a price point she calls 'the easiest ask'), then moved up to $500, then $1,000, with one student selling a package for $1,500 and another selling a full site-plus-maintenance package for $3,500. The framing throughout is 'influence, don't convince,' meaning show genuine value rather than hard-selling.",
-    "best": "Someone who wants a structured pricing on-ramp, starting cheap and deliberately raising prices as they gain confidence and results, rather than guessing what to charge from their very first client.",
-    "truth": "This video is almost entirely a promotional pitch for the presenter's own paid 'Lovable Income Challenge' (stated at $199 at time of filming, said to be rising toward $997), so the pricing figures cited are anecdotes from her own paying students rather than an independently documented case study. The core mechanic, building websites for local businesses or individual clients using an AI tool, shows up in other entries in this database from other creators; what this entry specifically adds is the price-anchoring and scaling approach.",
-    "url": "https://www.youtube.com/watch?v=XNiJzjanxxA",
+    "what": "Reach out to people in your existing network who own a small business with an outdated website, use an AI website builder (Lovable) to redesign their site as a demo, then send a short screen-recorded video (via Loom) walking them through the improved version and pitching it for around $300.",
+    "pitch": "Hamilton frames this as a same-day money method: pick 5-10 people you already know who run a small local business (dry cleaner, salon, mechanic, etc.), rebuild their site with an AI tool for a few dollars in software cost, then pitch it via a personal video rather than a cold sales call. She cites a real example (a man named Max) who closed deals with one prospect over time, eventually making about $18,000 from a single relationship, and frames the offer as low-risk since it costs the prospect nothing to say no.",
+    "best": "Someone comfortable reaching out to their own personal or professional network and speaking briefly on camera, who wants a fast, low-cost way to test whether they can sell a service before committing to paid ads or cold outreach.",
+    "truth": "The mechanic is legitimate and cheap to test, but it depends heavily on actually having a network with small-business owners in it and being willing to make the ask, which won't be true for everyone. The $300 price point and the $18,000 case-study figure come from Hamilton's own reported experience and should be read as an example outcome, not a guarantee. There's also a recurring nudge toward her paid $199 challenge throughout the video, worth knowing even though the core method is explained for free.",
+    "url": "https://youtu.be/xntlsN-GQ8Q",
     "situation_tags": [
-      "Strictly in-home",
-      "Home office, client-facing"
+      "Home office, client-facing",
+      "Phone/sales-based"
     ]
   },
   {
@@ -3770,27 +3797,27 @@
     ]
   },
   {
-    "id": "wedding-officiant-business",
-    "name": "Wedding officiant business",
+    "id": "wedding-officiant-business-with-photo-op-upsells",
+    "name": "Wedding officiant business with photo-op prop and backdrop upsells",
     "category": "Local & professional services",
     "tags": [
-      "events",
-      "local business",
-      "license needed",
-      "weekend work"
+      "wedding officiant",
+      "event services",
+      "photo backdrop",
+      "add-on upsells"
     ],
-    "cost": "Low to moderate startup cost",
+    "cost": "Low to moderate startup cost (a photo backdrop, stand, and portable equipment cart; costs not disclosed by the presenter)",
     "found": "Amber Gist",
-    "what": "Working as a paid wedding officiant, booking and performing wedding ceremonies for couples, and reinvesting early revenue into better equipment (a professional backdrop stand, drapes and decorations for photo backdrops, and a collapsible equipment wagon) to make the on-site experience feel more polished as the client base grows.",
-    "pitch": "The creator set herself a concrete validation goal, book and officiate 25 married couples and see if she still enjoyed the work, before investing further, and documents that she passed that bar and is now formalizing her systems and buying real equipment rather than treating it as a one-off side gig.",
-    "best": "Someone comfortable with public speaking and being the center of attention at events, who doesn't mind weekend and evening work built around other people's schedules, and who is willing to start small and low-cost before investing in equipment.",
-    "truth": "This is a behind-the-scenes, equipment-unboxing style video, not a how-to guide, so it doesn't cover how to get licensed or ordained to legally perform marriages in your area, how ceremonies are priced, or how clients are actually found, all real open questions for anyone considering this. What it does show is a real, currently-operating practitioner with a specific, self-set traction goal (25 couples) she says she's already reached, a genuine, if narrow, validation signal that this can work as an actual local service business.",
-    "url": "https://youtu.be/sKFWVQldrIQ",
+    "what": "Officiate weddings as a paid service, then increase revenue per event by offering optional add-ons like a photo backdrop and props that couples can add to their ceremony package, using a collapsible cart to transport supplies between events.",
+    "pitch": "Gist documents building this business \"in public,\" describing hitting a personal milestone of 25 officiated weddings before deciding to invest further, and is in the process of upgrading her equipment (a heavy-duty photo backdrop stand, drapes, and a collapsible supply wagon) to make the experience feel more elevated for couples and support the add-on photo-op package.",
+    "best": "Someone comfortable speaking in public and being the center of attention at events, interested in the wedding/events industry, who's willing to build the business gradually and reinvest in equipment as bookings grow.",
+    "truth": "This video is genuinely thin on business specifics \u2014 there's no pricing, revenue, or client-acquisition detail here, just an equipment update. The wedding officiant role itself is a real and accessible local service (usually just requiring a state officiant registration or ordination, which varies by location), and add-on photo props are a sensible way to raise the average sale per event, but anyone considering this should look elsewhere for the actual pricing and marketing playbook, since this particular video doesn't provide it.",
+    "url": "https://youtu.be/Ik-kBVXgcuw",
     "situation_tags": [
       "Local travel required",
       "Weekend/event-based schedule",
-      "Requires equipment/vehicle investment",
-      "Requires a license or certification"
+      "Requires a license or certification",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -3798,63 +3825,65 @@
     "name": "Internal AI knowledge-base (RAG) agent for home service businesses",
     "category": "AI & automation",
     "tags": [
-      "AI tools",
-      "consulting",
-      "local business",
-      "recurring revenue"
+      "RAG system",
+      "internal knowledge base",
+      "AI agency",
+      "home services",
+      "operations automation"
     ],
-    "cost": "Low startup cost",
+    "cost": "Requires a backend developer or technical partner (fulfillment typically outsourced for 10-15% of the client fee)",
     "found": "Angelo Turri",
-    "what": "Build an AI system trained on everything a business already knows, its SOPs, pricing sheets, warranty terms, and FAQs, so office staff and field technicians can ask it questions instantly instead of interrupting the owner. Once loaded with pricing data, it can also generate accurate on-the-spot quote estimates, and can eventually be exposed externally as a website chatbot.",
-    "pitch": "Priced similarly to the companion voice-agent system, an $8,000 to $15,000 setup plus $2,000 to $4,000 a month to maintain, though the presenter says actual deals have ranged from $6,000 to upwards of $15,000 depending on the business. The argument for why it's sticky: once a team relies on it daily, replacing it means rebuilding the entire knowledge base from scratch with someone else, which makes the switching cost very high.",
-    "best": "Someone comfortable with a more document-heavy onboarding process (collecting and organizing a business's SOPs, pricing, and training materials) and willing to delegate the technical build to a developer.",
-    "truth": "Unlike the companion voice-agent system, this one has no named case study with a specific dollar result, just a pricing guideline the presenter says varies deal to deal. The video overall is a funnel into the presenter's paid one-on-one mentorship, and the pricing range itself is fairly wide and unverified beyond the presenter's own account.",
-    "url": "https://www.youtube.com/watch?v=ZQHBe6Rb6v0",
+    "what": "Build a business a private AI system trained on all of its internal documentation (SOPs, pricing sheets, warranty terms, training materials, FAQs) so office staff and field technicians can instantly ask it questions instead of interrupting the owner or senior staff, with the option to later extend the same trained knowledge base into an external customer-facing chatbot or automated quote generator.",
+    "pitch": "Turri prices this system at an $8,000-15,000 upfront build fee plus $2,000-4,000/month to maintain, though he says his own real range has run from $6,000 to over $15,000 depending on the business. He frames it as \"stickier\" than the appointment-setting system since it becomes embedded in a business's daily operations across multiple staff, making it very costly for a client to ever switch away from once adopted.",
+    "best": "Someone comfortable with a longer, more detailed onboarding process (gathering and organizing a business's internal documents) who wants to sell a recurring, hard-to-replace service rather than a one-off project.",
+    "truth": "The core idea (a private AI trained on internal business documents, answering staff questions and eventually generating quotes) is a legitimate and growing category of AI agency offering, and the \"harder to replace\" logic for pricing and retention is sound business reasoning. As with the companion system in this video, the specific dollar figures are Turri's own reported numbers, and much of the actual difficulty in this business is in client acquisition and having an organized onboarding process, not the AI technology itself, which the video acknowledges is now something \"anybody can build.\"",
+    "url": "https://youtu.be/ZQHBe6Rb6v0",
     "situation_tags": [
-      "Home office, client-facing"
+      "Home office, client-facing",
+      "Phone/sales-based",
+      "Requires hiring or managing others"
     ]
   },
   {
-    "id": "printify-tiktok-shop-faith-apparel",
-    "name": "Print-on-demand apparel via Printify and TikTok Shop",
-    "category": "Physical & print products",
+    "id": "facebook-meme-page-monetization",
+    "name": "Facebook page monetization via AI-scheduled meme and content posting",
+    "category": "Content & personal brand",
     "tags": [
-      "print on demand",
-      "TikTok Shop",
-      "AI tools",
-      "very low startup cost",
-      "beginner friendly"
+      "Facebook monetization",
+      "meme page",
+      "content automation",
+      "Post Planner",
+      "AI content"
     ],
-    "cost": "Very low startup cost",
+    "cost": "Low startup cost (Post Planner subscription)",
     "found": "Anji Martin",
-    "what": "Use a free TikTok Shop account together with a free Printify account to sell print-on-demand apparel with zero inventory held. Research TikTok Shop listings that have sold around 1,000 units with only 50-100 reviews (a signal of real, still-fresh demand), use an AI t-shirt design tool (KD) to generate an original design inspired by, not copied from, what's already selling, then upload it to Printify, link it to your TikTok Shop, and publish. Printify prints, packs, and ships every order hands-off once a sale comes in.",
-    "pitch": "The presenter points to one specific existing shirt listing that has sold 6,800 units at $14.55 each, roughly $100,000 in revenue for that single design, as proof the model works, and walks through building and publishing a new original listing in under 10 minutes for zero upfront cost. You keep the difference between Printify's wholesale cost and the TikTok Shop retail price you set.",
-    "best": "Someone comfortable with basic on-platform product research (checking sales counts and review counts on existing listings) who wants a genuinely zero-inventory way to test a print-on-demand apparel idea.",
-    "truth": "The $100,000/6,800-unit figure belongs to one specific, already-established listing being used as market validation, not a promise that a new design will replicate those numbers. The video frames this specifically as a way to sell faith-based apparel, but the underlying mechanic, validate an already-selling niche, create an original alternative design, and list it through Printify and TikTok Shop, applies to any product niche, not just faith-based designs.",
-    "url": "https://www.youtube.com/watch?v=HF3fp-wPvg0",
+    "what": "Build a Facebook page around a niche (Martin's example: Christian content) posting text, photo, and meme-style content multiple times a day, using an AI-assisted scheduling tool (Post Planner) to find already-viral content in the niche, recreate it as original AI-generated images, and pre-schedule 6-10+ posts per day across Facebook, Instagram, TikTok, and Twitter at once.",
+    "pitch": "Martin says she grew her own page from zero to over 370,000 followers and as many as 49 million views in a single month using this process, and reports her best-performing single meme earned $500 through Facebook's content monetization program (with a student earning $400 on one post). Beyond direct platform payouts, she also monetizes by linking affiliate offers and digital products in post comments once a page has an engaged audience.",
+    "best": "Someone comfortable picking a specific content niche and posting consistently multiple times a day, who's willing to use an AI tool to speed up content creation rather than making everything by hand.",
+    "truth": "The core mechanic (studying proven viral content in a niche, recreating it as original AI-generated content, and mass-scheduling it) is genuinely how a lot of high-volume content pages operate today, and Facebook's content monetization payouts are real. That said, growing to hundreds of thousands of followers and tens of millions of monthly views, as Martin describes for her own page, took real time and consistency; the $500 and $400 per-post figures represent standout individual posts, not typical daily earnings, and the video promotes a specific paid tool (with the presenter's own discount code) and her paid mentorship community alongside the free advice.",
+    "url": "https://youtu.be/YbSzAt-78Wo",
     "situation_tags": [
-      "Strictly in-home",
-      "E-commerce / fulfillment"
+      "Strictly in-home"
     ]
   },
   {
-    "id": "warm-network-video-pitch-ai-website-redesign",
-    "name": "Warm-network video-pitch method for AI website redesigns",
+    "id": "lovable-ai-website-sales-pricing-ladder",
+    "name": "Selling AI-built (Lovable) websites with a rising pricing ladder",
     "category": "Marketing & content",
     "tags": [
-      "website redesign",
-      "warm outreach",
       "Lovable",
-      "AI web design",
-      "video pitch"
+      "AI website builder",
+      "sales mindset",
+      "pricing ladder",
+      "productized service"
     ],
-    "cost": "Low startup cost (roughly $25/month for the AI website tool)",
+    "cost": "Very low startup cost (a Lovable subscription; the video itself promotes a $199-997 paid course as an add-on)",
     "found": "Arlan Hamilton",
-    "what": "Reach out to people in your existing network who own a small business with an outdated website, use an AI website builder (Lovable) to redesign their site as a demo, then send a short screen-recorded video (via Loom) walking them through the improved version and pitching it for around $300.",
-    "pitch": "Hamilton frames this as a same-day money method: pick 5-10 people you already know who run a small local business (dry cleaner, salon, mechanic, etc.), rebuild their site with an AI tool for a few dollars in software cost, then pitch it via a personal video rather than a cold sales call. She cites a real example (a man named Max) who closed deals with one prospect over time, eventually making about $18,000 from a single relationship, and frames the offer as low-risk since it costs the prospect nothing to say no.",
-    "best": "Someone comfortable reaching out to their own personal or professional network and speaking briefly on camera, who wants a fast, low-cost way to test whether they can sell a service before committing to paid ads or cold outreach.",
-    "truth": "The mechanic is legitimate and cheap to test, but it depends heavily on actually having a network with small-business owners in it and being willing to make the ask, which won't be true for everyone. The $300 price point and the $18,000 case-study figure come from Hamilton's own reported experience and should be read as an example outcome, not a guarantee. There's also a recurring nudge toward her paid $199 challenge throughout the video, worth knowing even though the core method is explained for free.",
-    "url": "https://youtu.be/xntlsN-GQ8Q",
+    "what": "Build websites, landing pages, and sales pages for clients using the AI tool Lovable, and increase the average sale price over time as you gain experience and confidence \u2014 Hamilton's students reportedly start around $300 per site and move up to $500, $1,000, $1,500, and even $3,500 for a page-plus-maintenance package.",
+    "pitch": "Hamilton frames the core sales lesson as shifting from \"convincing\" a prospect to \"influencing\" them by simply sharing that real people are making money this way, rather than pressuring anyone. She cites her own students' pricing progression as proof that the $300 starting point isn't a ceiling, and describes the AI tooling itself (Lovable) as now accessible enough that non-technical people can build something sellable within days, with the harder skill being the sales conversation itself.",
+    "best": "Someone who's already comfortable with (or willing to learn) the mechanics of using Lovable to build sites, and who wants encouragement and a sales mindset shift more than new technical instruction.",
+    "truth": "The pricing progression ($300 up to $1,000-3,500) is a genuinely useful data point for anyone already doing this kind of work, showing there's real room to raise prices as skill and confidence grow. That said, this video is largely built around promoting Hamilton's own paid \"Lovable Income Challenge\" course (priced at $199 in the video, with an explicit warning it's about to jump to $997), and the sales-philosophy framing (\"influencing not convincing\") is more of a mindset reframe than a concrete tactical technique \u2014 pair it with a more detailed how-to video (like her warm-network outreach method) for the actual mechanics of finding and closing clients.",
+    "url": "https://youtu.be/XNiJzjanxxA",
     "situation_tags": [
       "Home office, client-facing",
       "Phone/sales-based"
