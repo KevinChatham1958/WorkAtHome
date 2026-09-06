@@ -495,6 +495,28 @@
     ]
   },
   {
+    "id": "depop-closet-reselling",
+    "name": "Depop closet reselling business",
+    "category": "E-commerce",
+    "tags": [
+      "Depop",
+      "clothing resale",
+      "closet cleanout",
+      "secondhand fashion"
+    ],
+    "cost": "Very low startup cost (uses items already owned; a phone for photos)",
+    "found": "Diamond Chanel",
+    "what": "Sell your own used clothing and accessories (or sourced secondhand items) on Depop by photographing them, listing them in a personal storefront, and using periodic storewide discounts to move older inventory.",
+    "pitch": "The presenter sold $1,000 on Depop in one week, describing a simple process: take clean photos, list items, and run periodic discounts (she runs 35% off storewide) to clear stale inventory. She also resells cheap bulk-find accessories (70 bags bought for about $10 total, listed individually for around $5 each) alongside her own closet items.",
+    "best": "Someone with a closet of clothes they no longer wear, or access to cheap secondhand/bulk items, who's comfortable with basic product photography and customer shipping.",
+    "truth": "This is a genuinely low-barrier way to turn existing possessions into cash, and the mechanics (photograph, list, discount stale stock) are straightforward. Income will scale with how much inventory you have and how much time you put into sourcing and listing, so it's more of a supplemental income stream than a scalable primary business without significant sourcing effort.",
+    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
+    "situation_tags": [
+      "Strictly in-home",
+      "Needs inventory storage"
+    ]
+  },
+  {
     "id": "portable-sanitation-servicing",
     "name": "Portable sanitation servicing (porta-potties and construction site rentals)",
     "category": "Local & professional services",
@@ -644,6 +666,29 @@
     "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
     "situation_tags": [
       "Strictly in-home"
+    ]
+  },
+  {
+    "id": "taskrabbit-local-task-work",
+    "name": "TaskRabbit local task and handyman work",
+    "category": "Local & professional services",
+    "tags": [
+      "TaskRabbit",
+      "gig work",
+      "handyman tasks",
+      "furniture assembly",
+      "errands"
+    ],
+    "cost": "Very low startup cost (basic tools; a vehicle helps)",
+    "found": "Diamond Chanel",
+    "what": "Sign up on TaskRabbit and complete local tasks for pay \u2014 cleaning, furniture assembly, running errands, and small hands-on jobs \u2014 building income through volume and repeat client requests rather than any single specialty.",
+    "pitch": "One presenter describes making close to $4,800 in a month working roughly 95 hours over about 2.5 weeks doing a mix of cleaning, furniture building, and errands, plus tips, after one task (hauling buckets and materials from Home Depot) alone earned $200 and generated a wave of inbound interest.",
+    "best": "Someone physically able to do varied manual tasks, comfortable working in strangers' homes, and willing to build a reputation through consistent, reliable task completion.",
+    "truth": "This is a genuine, accessible way to earn money quickly with minimal setup, and the presenter's hourly-equivalent rate (roughly $50/hour across the month described) is attractive for gig work. Income is directly tied to hours worked and physical effort, so it doesn't scale into passive income the way some other ideas on this list might.",
+    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -905,25 +950,26 @@
     ]
   },
   {
-    "id": "depop-closet-reselling",
-    "name": "Depop closet reselling business",
-    "category": "E-commerce",
+    "id": "newborn-blanket-embroidery-etsy-niche",
+    "name": "Personalized newborn blanket embroidery micro-niche on Etsy",
+    "category": "Physical & print products",
     "tags": [
-      "Depop",
-      "clothing resale",
-      "closet cleanout",
-      "secondhand fashion"
+      "Etsy",
+      "baby products",
+      "embroidery",
+      "print on demand",
+      "micro-niche"
     ],
-    "cost": "Very low startup cost (uses items already owned; a phone for photos)",
+    "cost": "Low startup cost (print-on-demand embroidery via Shopify, no machine required to start)",
     "found": "Diamond Chanel",
-    "what": "Sell your own used clothing and accessories (or sourced secondhand items) on Depop by photographing them, listing them in a personal storefront, and using periodic storewide discounts to move older inventory.",
-    "pitch": "The presenter sold $1,000 on Depop in one week, describing a simple process: take clean photos, list items, and run periodic discounts (she runs 35% off storewide) to clear stale inventory. She also resells cheap bulk-find accessories (70 bags bought for about $10 total, listed individually for around $5 each) alongside her own closet items.",
-    "best": "Someone with a closet of clothes they no longer wear, or access to cheap secondhand/bulk items, who's comfortable with basic product photography and customer shipping.",
-    "truth": "This is a genuinely low-barrier way to turn existing possessions into cash, and the mechanics (photograph, list, discount stale stock) are straightforward. Income will scale with how much inventory you have and how much time you put into sourcing and listing, so it's more of a supplemental income stream than a scalable primary business without significant sourcing effort.",
+    "what": "Sell personalized embroidered baby blankets in a focused micro-niche on Etsy, using a print-on-demand embroidery service (via Shopify) rather than an embroidery machine, syncing the store to Etsy, Amazon, and Instagram, with designs and fonts sourced from tools like Canva.",
+    "pitch": "The presenter points to three real Etsy stores in this exact niche: one making over $44,000/month, one over $24,000/month, and a third, only 3 months old, already over $5,000/month, all selling embroidered baby blankets.",
+    "best": "Someone drawn to a specific, narrow product niche within the broader baby/gift market, who wants to start without owning embroidery equipment by using a print-on-demand fulfillment service instead.",
+    "truth": "Micro-niches like this can genuinely support real revenue, as the cited store examples suggest, and starting via print-on-demand removes the equipment barrier entirely. That said, these are the standout examples from a large marketplace, not typical results, and success likely depends heavily on design quality and marketing within a fairly specific, competitive gift category.",
     "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
     "situation_tags": [
       "Strictly in-home",
-      "Needs inventory storage"
+      "E-commerce / fulfillment"
     ]
   },
   {
@@ -1207,26 +1253,25 @@
     ]
   },
   {
-    "id": "taskrabbit-local-task-work",
-    "name": "TaskRabbit local task and handyman work",
+    "id": "paid-focus-groups-user-testing",
+    "name": "Paid online focus groups and user testing",
     "category": "Local & professional services",
     "tags": [
-      "TaskRabbit",
-      "gig work",
-      "handyman tasks",
-      "furniture assembly",
-      "errands"
+      "focus groups",
+      "user testing",
+      "market research",
+      "paid opinions",
+      "User Interviews"
     ],
-    "cost": "Very low startup cost (basic tools; a vehicle helps)",
+    "cost": "Free to start (just sign-up time; no equipment needed)",
     "found": "Diamond Chanel",
-    "what": "Sign up on TaskRabbit and complete local tasks for pay \u2014 cleaning, furniture assembly, running errands, and small hands-on jobs \u2014 building income through volume and repeat client requests rather than any single specialty.",
-    "pitch": "One presenter describes making close to $4,800 in a month working roughly 95 hours over about 2.5 weeks doing a mix of cleaning, furniture building, and errands, plus tips, after one task (hauling buckets and materials from Home Depot) alone earned $200 and generated a wave of inbound interest.",
-    "best": "Someone physically able to do varied manual tasks, comfortable working in strangers' homes, and willing to build a reputation through consistent, reliable task completion.",
-    "truth": "This is a genuine, accessible way to earn money quickly with minimal setup, and the presenter's hourly-equivalent rate (roughly $50/hour across the month described) is attractive for gig work. Income is directly tied to hours worked and physical effort, so it doesn't scale into passive income the way some other ideas on this list might.",
+    "what": "Sign up on platforms that pay everyday people for their opinions on products and services (the presenter names User Interviews, Respondent, and dscout), applying to daily interview opportunities, most conducted over video calls from home.",
+    "pitch": "The presenter made $9,000 through this method, applying to about 5-10 opportunities daily even without expecting to be selected for most of them. Sessions pay $40-120/hour, selected slots fill within minutes so speed matters, and payment (via gift card or PayPal) typically arrives within 1-5 days.",
+    "best": "Someone with reliable internet and video-call comfort who's willing to apply to many opportunities regularly, since selection isn't guaranteed and slots fill fast.",
+    "truth": "This is a genuine, low-effort way to earn supplemental income with no upfront cost, and the pay rates cited are real for this type of work. Income is inherently inconsistent since it depends on being selected for a limited number of daily opportunities, so it works better as a side income stream than a reliable primary one.",
     "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
     "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
+      "Strictly in-home"
     ]
   },
   {
@@ -1549,26 +1594,25 @@
     ]
   },
   {
-    "id": "newborn-blanket-embroidery-etsy-niche",
-    "name": "Personalized newborn blanket embroidery micro-niche on Etsy",
-    "category": "Physical & print products",
+    "id": "field-inspection-contract-work",
+    "name": "Field inspection contract work",
+    "category": "Local & professional services",
     "tags": [
-      "Etsy",
-      "baby products",
-      "embroidery",
-      "print on demand",
-      "micro-niche"
+      "field inspections",
+      "property inspection",
+      "gig work",
+      "insurance inspections"
     ],
-    "cost": "Low startup cost (print-on-demand embroidery via Shopify, no machine required to start)",
+    "cost": "Very low startup cost (a smartphone and a car)",
     "found": "Diamond Chanel",
-    "what": "Sell personalized embroidered baby blankets in a focused micro-niche on Etsy, using a print-on-demand embroidery service (via Shopify) rather than an embroidery machine, syncing the store to Etsy, Amazon, and Instagram, with designs and fonts sourced from tools like Canva.",
-    "pitch": "The presenter points to three real Etsy stores in this exact niche: one making over $44,000/month, one over $24,000/month, and a third, only 3 months old, already over $5,000/month, all selling embroidered baby blankets.",
-    "best": "Someone drawn to a specific, narrow product niche within the broader baby/gift market, who wants to start without owning embroidery equipment by using a print-on-demand fulfillment service instead.",
-    "truth": "Micro-niches like this can genuinely support real revenue, as the cited store examples suggest, and starting via print-on-demand removes the equipment barrier entirely. That said, these are the standout examples from a large marketplace, not typical results, and success likely depends heavily on design quality and marketing within a fairly specific, competitive gift category.",
+    "what": "Work as a contract field inspector for companies that need someone local to visit a property or business, take photographs (of a vehicle, building exterior, or specific condition), and submit them, typically for insurance, compliance, or verification purposes.",
+    "pitch": "One presenter describes earning $75 for a roughly 20-minute inspection (a short drive plus photographing two company vehicles), working with a company called Metro Inspections. That specific company is no longer accepting new inspectors, but the presenter notes other similar inspection companies are actively hiring.",
+    "best": "Someone with a reliable car and smartphone who wants flexible, quick-turnaround local gig work that doesn't require any specialized skill or equipment beyond basic photography and following instructions precisely.",
+    "truth": "This is a genuinely low-barrier gig with fast per-job payouts, though per-job pay ($75 for 20 minutes in the example given) means meaningful income requires taking on a steady volume of jobs, and availability of inspection companies actively recruiting will vary by location and over time.",
     "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
     "situation_tags": [
-      "Strictly in-home",
-      "E-commerce / fulfillment"
+      "Local travel required",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -1995,25 +2039,25 @@
     ]
   },
   {
-    "id": "paid-focus-groups-user-testing",
-    "name": "Paid online focus groups and user testing",
+    "id": "medical-courier-service",
+    "name": "Medical courier service using your own vehicle",
     "category": "Local & professional services",
     "tags": [
-      "focus groups",
-      "user testing",
-      "market research",
-      "paid opinions",
-      "User Interviews"
+      "medical courier",
+      "delivery service",
+      "blood drive pickups",
+      "gig work"
     ],
-    "cost": "Free to start (just sign-up time; no equipment needed)",
+    "cost": "Very low startup cost (your own car; no special equipment)",
     "found": "Diamond Chanel",
-    "what": "Sign up on platforms that pay everyday people for their opinions on products and services (the presenter names User Interviews, Respondent, and dscout), applying to daily interview opportunities, most conducted over video calls from home.",
-    "pitch": "The presenter made $9,000 through this method, applying to about 5-10 opportunities daily even without expecting to be selected for most of them. Sessions pay $40-120/hour, selected slots fill within minutes so speed matters, and payment (via gift card or PayPal) typically arrives within 1-5 days.",
-    "best": "Someone with reliable internet and video-call comfort who's willing to apply to many opportunities regularly, since selection isn't guaranteed and slots fill fast.",
-    "truth": "This is a genuine, low-effort way to earn supplemental income with no upfront cost, and the pay rates cited are real for this type of work. Income is inherently inconsistent since it depends on being selected for a limited number of daily opportunities, so it works better as a side income stream than a reliable primary one.",
+    "what": "Deliver medical supplies, specimens, and blood drive collections between facilities using your own vehicle, contracting with medical courier companies rather than general delivery apps like DoorDash or Uber.",
+    "pitch": "Presenters in the video report earning $1,200-2,500 per week doing pickups and deliveries (blood drive collections, medical supply loads) using their own car, describing the pay as noticeably better than a regular job or standard gig-delivery apps.",
+    "best": "Someone with a reliable vehicle who wants delivery-style gig work with better pay than standard rideshare/delivery apps, and who's comfortable handling sensitive medical materials responsibly.",
+    "truth": "The pay rates described are genuinely higher than typical gig-delivery apps, which makes sense given the specialized, time-sensitive nature of medical deliveries. This kind of courier work typically requires passing a background check and sometimes specific certifications (e.g., handling biohazard materials) that aren't detailed in the video, so expect some onboarding requirements beyond just signing up.",
     "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
     "situation_tags": [
-      "Strictly in-home"
+      "Local travel required",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -2614,25 +2658,25 @@
     ]
   },
   {
-    "id": "field-inspection-contract-work",
-    "name": "Field inspection contract work",
+    "id": "mobile-phlebotomy-contract-work",
+    "name": "Mobile phlebotomy contract work",
     "category": "Local & professional services",
     "tags": [
-      "field inspections",
-      "property inspection",
-      "gig work",
-      "insurance inspections"
+      "phlebotomy",
+      "mobile blood draw",
+      "medical gig work",
+      "healthcare side hustle"
     ],
-    "cost": "Very low startup cost (a smartphone and a car)",
+    "cost": "Requires phlebotomy certification (moderate time/cost investment, but described as far less than most medical training paths)",
     "found": "Diamond Chanel",
-    "what": "Work as a contract field inspector for companies that need someone local to visit a property or business, take photographs (of a vehicle, building exterior, or specific condition), and submit them, typically for insurance, compliance, or verification purposes.",
-    "pitch": "One presenter describes earning $75 for a roughly 20-minute inspection (a short drive plus photographing two company vehicles), working with a company called Metro Inspections. That specific company is no longer accepting new inspectors, but the presenter notes other similar inspection companies are actively hiring.",
-    "best": "Someone with a reliable car and smartphone who wants flexible, quick-turnaround local gig work that doesn't require any specialized skill or equipment beyond basic photography and following instructions precisely.",
-    "truth": "This is a genuinely low-barrier gig with fast per-job payouts, though per-job pay ($75 for 20 minutes in the example given) means meaningful income requires taking on a steady volume of jobs, and availability of inspection companies actively recruiting will vary by location and over time.",
+    "what": "Work as a certified mobile phlebotomist, traveling to offices, events, or homes to draw blood for medical purposes (routine testing, cancer screening events, etc.), contracting with companies that need on-site blood draw services rather than working in a fixed clinical setting.",
+    "pitch": "A presenter reports making $600 in under 4 hours of work on back-to-back days, eventually quitting two other jobs to do this full-time, and describes getting paid $85/hour plus a $6 reimbursement per patient for an event-based cancer-screening blood draw project, with supply costs under $3 per patient.",
+    "best": "Someone willing to get phlebotomy certification first, comfortable with medical/clinical work, and looking for a healthcare-adjacent gig with notably higher hourly pay than typical gig work.",
+    "truth": "The pay rate described ($85/hour) is genuinely high for this kind of work, and unlike most items on this list, it requires real certification and skill, which raises the barrier to entry but also the pay ceiling. This isn't a same-day-start hustle \u2014 expect to invest time and some money in certification before earning anything.",
     "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
     "situation_tags": [
       "Local travel required",
-      "Requires equipment/vehicle investment"
+      "Requires a license or certification"
     ]
   },
   {
@@ -3639,25 +3683,24 @@
     ]
   },
   {
-    "id": "medical-courier-service",
-    "name": "Medical courier service using your own vehicle",
-    "category": "Local & professional services",
+    "id": "amazon-influencer-program-video-reviews-diamondchanel",
+    "name": "Amazon Influencer Program video reviews (residual-payout model)",
+    "category": "E-commerce",
     "tags": [
-      "medical courier",
-      "delivery service",
-      "blood drive pickups",
-      "gig work"
+      "Amazon Influencer Program",
+      "video reviews",
+      "residual income",
+      "affiliate commissions"
     ],
-    "cost": "Very low startup cost (your own car; no special equipment)",
+    "cost": "Free to start (uses products already owned)",
     "found": "Diamond Chanel",
-    "what": "Deliver medical supplies, specimens, and blood drive collections between facilities using your own vehicle, contracting with medical courier companies rather than general delivery apps like DoorDash or Uber.",
-    "pitch": "Presenters in the video report earning $1,200-2,500 per week doing pickups and deliveries (blood drive collections, medical supply loads) using their own car, describing the pay as noticeably better than a regular job or standard gig-delivery apps.",
-    "best": "Someone with a reliable vehicle who wants delivery-style gig work with better pay than standard rideshare/delivery apps, and who's comfortable handling sensitive medical materials responsibly.",
-    "truth": "The pay rates described are genuinely higher than typical gig-delivery apps, which makes sense given the specialized, time-sensitive nature of medical deliveries. This kind of courier work typically requires passing a background check and sometimes specific certifications (e.g., handling biohazard materials) that aren't detailed in the video, so expect some onboarding requirements beyond just signing up.",
+    "what": "Join Amazon's Influencer Program and make short product review videos of items already sold on Amazon; Amazon displays these videos to shoppers browsing those products, and pays a commission whenever a video influences a purchase \u2014 payouts can continue on already-uploaded videos even during long stretches with no new uploads.",
+    "pitch": "The presenter describes continuing to get paid monthly on videos she hasn't updated since the previous October, having started the program after her son was born and posting inconsistently since. She rates it a 3/5 for ease of starting and a 3/5 for speed to first dollar, framing the appeal as ongoing residual payouts from a modest, one-time batch of videos rather than needing constant new output.",
+    "best": "Someone with everyday Amazon purchases already on hand who's comfortable being briefly on camera, and who wants a low-maintenance income stream that doesn't require an existing following.",
+    "truth": "The genuinely distinguishing point here is the residual-payout behavior on old videos, which is a real feature of the program's structure and not typical of most side hustles requiring constant new content. That said, per-video payouts are generally modest and highly variable, and this account gives no specific dollar figures for actual earnings, just the ongoing-payout mechanic itself.",
     "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
     "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
+      "Strictly in-home"
     ]
   },
   {
@@ -3873,6 +3916,28 @@
     "url": "https://www.youtube.com/watch?v=wnzBbsmsQNk",
     "situation_tags": [
       "Strictly in-home"
+    ]
+  },
+  {
+    "id": "vibe-coded-digital-product-own-store",
+    "name": "AI vibe-coded digital products sold through your own branded online shop",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "AI tools",
+      "vibe coding",
+      "e-commerce"
+    ],
+    "cost": "Very low startup cost (AI coding tool plus a domain)",
+    "found": "Make Money with Stacy La",
+    "what": "Research proven-selling digital templates and tools (using public sales-data tools to see exactly how many times a competing product has sold and for how much), \"vibe code\" a functional version using an AI coding platform like Hostinger Horizons, then sell it through your own branded .shop domain online store rather than a crowded third-party marketplace like Etsy.",
+    "pitch": "The presenter shows real, specific examples to justify the approach: a finance-niche budget tracker template that's sold over 20,000 times for more than $400,000, and a life planner niched down specifically for neurodivergent people with ADHD that's sold over 22,000 times for more than $350,000, arguing that competitive niches (finance, health, productivity) are actually good signals of real demand as long as you niche the specific problem down far enough. She argues against selling on marketplaces like Etsy specifically because of listing and transaction fees, competition burying your listing, and the risk of account suspension, versus owning your own store with a .shop domain and full customer data control.",
+    "best": "Someone comfortable using an AI coding tool with detailed, specific prompts (rather than vague requests) to build an actual functional product, not just a static file, and willing to set up their own branded storefront rather than relying on marketplace traffic.",
+    "truth": "The specific $400K and $350K product examples are shown as public sales data from other sellers, not the presenter's own results, and she doesn't demonstrate her own product's sales figures within the video. She recommends Horizons specifically because it integrates with her own store-building workflow and is, by her account, one of the least expensive AI coding platforms, worth noting as a product preference rather than a neutral recommendation.",
+    "url": "https://www.youtube.com/watch?v=ju7zG9bdhv4",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
     ]
   },
   {
@@ -5725,25 +5790,24 @@
     ]
   },
   {
-    "id": "mobile-phlebotomy-contract-work",
-    "name": "Mobile phlebotomy contract work",
-    "category": "Local & professional services",
+    "id": "pinterest-amazon-associates-pin-funnel-diamondchanel",
+    "name": "Pinterest-to-Amazon-Associates affiliate pin funnel",
+    "category": "Marketing & content",
     "tags": [
-      "phlebotomy",
-      "mobile blood draw",
-      "medical gig work",
-      "healthcare side hustle"
+      "Pinterest marketing",
+      "Amazon Associates",
+      "affiliate links",
+      "passive traffic"
     ],
-    "cost": "Requires phlebotomy certification (moderate time/cost investment, but described as far less than most medical training paths)",
+    "cost": "Free to start (a Pinterest and Amazon Associates account)",
     "found": "Diamond Chanel",
-    "what": "Work as a certified mobile phlebotomist, traveling to offices, events, or homes to draw blood for medical purposes (routine testing, cancer screening events, etc.), contracting with companies that need on-site blood draw services rather than working in a fixed clinical setting.",
-    "pitch": "A presenter reports making $600 in under 4 hours of work on back-to-back days, eventually quitting two other jobs to do this full-time, and describes getting paid $85/hour plus a $6 reimbursement per patient for an event-based cancer-screening blood draw project, with supply costs under $3 per patient.",
-    "best": "Someone willing to get phlebotomy certification first, comfortable with medical/clinical work, and looking for a healthcare-adjacent gig with notably higher hourly pay than typical gig work.",
-    "truth": "The pay rate described ($85/hour) is genuinely high for this kind of work, and unlike most items on this list, it requires real certification and skill, which raises the barrier to entry but also the pay ceiling. This isn't a same-day-start hustle \u2014 expect to invest time and some money in certification before earning anything.",
+    "what": "Pick a top-selling product from Amazon's Best Sellers list, create a Pinterest pin using the product's own images, title, and description, attach an Amazon Associates affiliate link, and publish \u2014 earning a commission whenever someone clicks through the pin and buys.",
+    "pitch": "The presenter cites a case of someone earning over $2,000 without ever showing their face using this method, describing it as a simple, repeatable four-step process (sign up for Amazon Associates, pick a top-5 bestseller, build a Pinterest pin from the product's own assets, attach the affiliate link) that requires no ongoing engagement once pins are published, rating it 4/5 for ease of starting.",
+    "best": "Someone comfortable creating simple visual pins and willing to publish many of them consistently, since individual pin conversion rates are low and this model depends on volume.",
+    "truth": "The mechanic itself is genuine and low-cost to test, and Pinterest's evergreen, search-driven traffic does suit affiliate content better than more ephemeral social platforms. That said, this is a widely-taught, saturated tactic, and the video gives no detail on how many pins the $2,000 example required or over what timeframe, so expectations should be tempered relative to the simplicity of the pitch.",
     "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
     "situation_tags": [
-      "Local travel required",
-      "Requires a license or certification"
+      "Strictly in-home"
     ]
   },
   {
@@ -6779,25 +6843,26 @@
     ]
   },
   {
-    "id": "vibe-coded-digital-product-own-store",
-    "name": "AI vibe-coded digital products sold through your own branded online shop",
+    "id": "ai-ugc-saas-ad-service-higgsfield-stacyla",
+    "name": "AI UGC and SaaS ad production service using Higgsfield Marketing Studio",
     "category": "Digital & subscription products",
     "tags": [
-      "digital products",
-      "AI tools",
-      "vibe coding",
-      "e-commerce"
+      "AI UGC content",
+      "Higgsfield",
+      "SaaS ads",
+      "content agency",
+      "retainer pricing"
     ],
-    "cost": "Very low startup cost (AI coding tool plus a domain)",
+    "cost": "Low startup cost (a Higgsfield subscription)",
     "found": "Make Money with Stacy La",
-    "what": "Research proven-selling digital templates and tools (using public sales-data tools to see exactly how many times a competing product has sold and for how much), \"vibe code\" a functional version using an AI coding platform like Hostinger Horizons, then sell it through your own branded .shop domain online store rather than a crowded third-party marketplace like Etsy.",
-    "pitch": "The presenter shows real, specific examples to justify the approach: a finance-niche budget tracker template that's sold over 20,000 times for more than $400,000, and a life planner niched down specifically for neurodivergent people with ADHD that's sold over 22,000 times for more than $350,000, arguing that competitive niches (finance, health, productivity) are actually good signals of real demand as long as you niche the specific problem down far enough. She argues against selling on marketplaces like Etsy specifically because of listing and transaction fees, competition burying your listing, and the risk of account suspension, versus owning your own store with a .shop domain and full customer data control.",
-    "best": "Someone comfortable using an AI coding tool with detailed, specific prompts (rather than vague requests) to build an actual functional product, not just a static file, and willing to set up their own branded storefront rather than relying on marketplace traffic.",
-    "truth": "The specific $400K and $350K product examples are shown as public sales data from other sellers, not the presenter's own results, and she doesn't demonstrate her own product's sales figures within the video. She recommends Horizons specifically because it integrates with her own store-building workflow and is, by her account, one of the least expensive AI coding platforms, worth noting as a product preference rather than a neutral recommendation.",
-    "url": "https://www.youtube.com/watch?v=ju7zG9bdhv4",
+    "what": "Use Higgsfield Marketing Studio to generate UGC-style product videos and SaaS app advertisements from just a few product photos or a product URL, no physical product or human model required, then sell these as a content service to physical-product brands or SaaS companies, packaging output into a monthly retainer (a set number of videos per month) rather than selling one-off videos.",
+    "pitch": "The presenter builds two full sample videos live in about 10 minutes each (a product UGC ad and a SaaS app ad) using only a product photo or website URL, an AI avatar, and a prompt template from Higgsfield's built-in library, then lays out a 5-step marketing plan: pick one specific niche, build a portfolio of 5-10 example videos for real brands in that niche, build a daily-updated lead list (20-30 businesses/day), do consistent outreach (10-20 businesses/day via email, DM, or calls), and bundle output into a monthly retainer (e.g., $5,000/month for a set number of videos, versus $200 per one-off video).",
+    "best": "Someone comfortable using AI video generation tools and willing to commit to one specific niche and consistent daily outreach volume, since the presenter is explicit that customer acquisition, not video quality, is the actual bottleneck.",
+    "truth": "The specific 5-step marketing plan (niche down, build proof before pitching, build a lead list, outreach at real volume, then bundle into a retainer) is more concrete and actionable than most AI-content-service pitches, and the presenter is upfront that success requires genuine outreach volume, not just good videos. No independently verified revenue figures are given for the presenter's own version of this exact service \u2014 the emphasis is on the workflow and tool, not a specific proven income result.",
+    "url": "https://www.youtube.com/watch?v=tG_IwF25p8Y",
     "situation_tags": [
       "Strictly in-home",
-      "E-commerce / fulfillment"
+      "Phone/sales-based"
     ]
   },
   {
@@ -7137,6 +7202,29 @@
     "url": "https://www.youtube.com/watch?v=9WZ3Vfni8cg",
     "situation_tags": [
       "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "ai-google-review-reply-subscription-mrreis",
+    "name": "AI-drafted Google review reply subscription service, planned end-to-end with Claude Code",
+    "category": "Local & professional services",
+    "tags": [
+      "Google review management",
+      "AI automation",
+      "Claude Code",
+      "Stripe subscriptions",
+      "local business service"
+    ],
+    "cost": "Free to start (free Gmail, free Netlify hosting, free Stripe account)",
+    "found": "Mr Reis",
+    "what": "Offer local businesses a $199/month subscription service where AI drafts replies to their existing Google reviews (especially ones the business has ignored), with the owner approving each reply by email or WhatsApp before it's posted; the presenter uses Claude Code itself to generate the entire business plan, brand identity, and step-by-step setup instructions, then Stripe to handle subscription billing automatically.",
+    "pitch": "The plan calls for finding 50 local businesses on Google Maps with visibly ignored reviews, messaging 10 per day with two sample replies already written using their real reviews, offering a free first week before converting to the $199/month plan \u2014 daily maintenance work is estimated at 15 minutes per client, with a projected path to $10,000/month (51 clients) around month six at a pace of 8-10 new clients per month.",
+    "best": "Someone comfortable with cold outreach to local businesses and willing to use AI tools (Claude Code, Stripe, Netlify) to assemble the entire operation for close to zero upfront cost.",
+    "truth": "The specific step-by-step setup (free tools throughout, a scripted cold-outreach message using the business's own real reviews as proof, a free-trial-to-paid-subscription conversion) is more concretely actionable than most similar pitches. The month-six, $10,000 projection assumes a steady 8-10 new clients per month with no churn, which is an optimistic scenario rather than a guaranteed outcome, and the video is sponsored by one of the AI tools demonstrated (Higgsfield) for the marketing/ad-creation portion.",
+    "url": "https://www.youtube.com/watch?v=7YJtacrq1NU",
+    "situation_tags": [
+      "Home office, client-facing",
       "Phone/sales-based"
     ]
   },
