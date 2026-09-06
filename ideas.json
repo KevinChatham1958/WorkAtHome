@@ -862,6 +862,28 @@
     ]
   },
   {
+    "id": "mobile-phone-screen-repair-mobile-service",
+    "name": "Mobile phone and computer screen repair service",
+    "category": "Local & professional services",
+    "tags": [
+      "screen repair",
+      "mobile service",
+      "device repair",
+      "B2B contracts"
+    ],
+    "cost": "Low startup cost (specialized repair tools, replacement parts, and a small workspace or mobile setup)",
+    "found": "David Explains Money",
+    "what": "Repair cracked phone and computer screens, either from a small fixed space (even a counter or mall kiosk) or as a mobile service traveling to the client's home or office, competing on speed and on-the-spot repair rather than price against big repair chains, and pursuing ongoing maintenance contracts with small businesses and schools that need constant equipment upkeep.",
+    "pitch": "The presenter frames the real margin as being in labor and speed rather than parts cost, and recommends specializing in the two or three most common phone/device brands in your area to repair them faster and serve more customers per day, while building recurring revenue through maintenance contracts with schools and small businesses rather than relying only on one-off individual repairs.",
+    "best": "Someone with (or willing to learn) hands-on repair skill, comfortable either running a small physical setup or traveling to clients, and willing to pursue B2B maintenance contracts for steadier income.",
+    "truth": "The core competitive strategy (speed and on-the-spot service instead of price competition, plus recurring B2B contracts) is sound and specific. Skill development and reliable parts sourcing take real time to build up before the business is genuinely competitive, and the video doesn't go deep into typical repair training timelines or costs.",
+    "url": "https://youtu.be/xA6oBoVyQ9I",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment"
+    ]
+  },
+  {
     "id": "atm-business",
     "name": "ATM placement business",
     "category": "Local & professional services",
@@ -1136,6 +1158,29 @@
     "url": "https://youtu.be/2uofabJSM7A",
     "situation_tags": [
       "Strictly in-home",
+      "Requires equipment/vehicle investment"
+    ]
+  },
+  {
+    "id": "party-event-equipment-rental-weekend",
+    "name": "Party and event equipment rental business run on weekends",
+    "category": "Local & professional services",
+    "tags": [
+      "event rental",
+      "party equipment",
+      "weekend business",
+      "reusable inventory"
+    ],
+    "cost": "Low to moderate startup cost (basic tables, chairs, and tents, often bought secondhand)",
+    "found": "David Explains Money",
+    "what": "Rent out event equipment (tables, chairs, tents, linens) for weddings, quincea\u00f1eras, graduations, and corporate events, starting with a small basic inventory (round tables, folding chairs, a couple of tents) and reinvesting rental income into expanding into more specialized items, building relationships with event venues and wedding planners for recurring referral business.",
+    "pitch": "The presenter shares a real example of a family friend who started with a handful of secondhand tables and chairs stored in half a garage, and two years later books events almost every weekend while still working his regular weekday job \u2014 reinvesting early earnings into more inventory rather than spending it, which doubled his rental capacity within two years.",
+    "best": "Someone with garage or storage space for equipment and weekend availability, willing to run this alongside a full-time weekday job and reinvest early profits into inventory rather than taking them as income right away.",
+    "truth": "The presenter is honest that this specific example wasn't a straight line of growth \u2014 some months had almost no bookings, others had four events in a row \u2014 which is a more realistic picture than most side-hustle success stories. The same equipment being rented out repeatedly does mean strong margins once the initial cost is recovered, but building venue and planner relationships for referral business takes sustained effort over time.",
+    "url": "https://youtu.be/xA6oBoVyQ9I",
+    "situation_tags": [
+      "Weekend/event-based schedule",
+      "Needs inventory storage",
       "Requires equipment/vehicle investment"
     ]
   },
@@ -1457,6 +1502,27 @@
     "situation_tags": [
       "Strictly in-home",
       "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "closet-space-organizing-flat-rate-packages",
+    "name": "Home and closet organizing service with flat-rate packages for a specific client type",
+    "category": "Local & professional services",
+    "tags": [
+      "home organizing",
+      "professional organizer",
+      "flat-rate pricing",
+      "real estate referrals"
+    ],
+    "cost": "Very low startup cost (organizing materials are typically purchased by the client, not the organizer)",
+    "found": "David Explains Money",
+    "what": "Offer professional organizing services (closets, garages, pantries, home offices) charging for your time, system, and design work rather than for inventory, specializing in a specific client type (such as families who just moved, or older adults downsizing) so you can offer flat-rate packages instead of quoting every job individually, and building referral relationships with real estate agents and moving companies whose clients regularly need this service right after a move.",
+    "pitch": "The presenter frames before-and-after photos as doing most of the marketing on their own, since documented transformations are the kind of content people naturally share, reducing the need for paid advertising if the work itself is well-photographed and shared.",
+    "best": "Someone with an eye for organization and design who's comfortable specializing in one client type to standardize pricing, and willing to build referral relationships with real estate agents and moving companies.",
+    "truth": "Specializing in one client type to enable flat-rate pricing (versus quoting every job individually) is a genuinely useful way to make this business easier to price and market consistently, and the real estate/moving-company referral channel is a logical, underused source of recurring leads for this specific service.",
+    "url": "https://youtu.be/xA6oBoVyQ9I",
+    "situation_tags": [
+      "Local travel required"
     ]
   },
   {
@@ -1881,6 +1947,29 @@
       "Needs inventory storage",
       "Requires travel to source or inspect goods",
       "Needs a truck or cargo vehicle"
+    ]
+  },
+  {
+    "id": "used-cooking-oil-recycling-restaurant-route",
+    "name": "Used cooking oil recycling route for restaurants",
+    "category": "Local & professional services",
+    "tags": [
+      "cooking oil recycling",
+      "biodiesel",
+      "restaurant route",
+      "waste collection"
+    ],
+    "cost": "Low to moderate startup cost (a vehicle capable of transporting oil containers; compliance with waste transportation regulations)",
+    "found": "David Explains Money",
+    "what": "Collect used cooking oil from independent restaurants for free (in exchange for exclusive collection rights), then resell it in volume to biodiesel processing plants that pay considerably more per gallon for consistent bulk supply than what an individual restaurant would otherwise get for their oil, aiming to sign regular collection contracts with groups of restaurants rather than relying on sporadic one-off pickups.",
+    "pitch": "The presenter cites 2025 grease-recycling industry data showing restaurants typically receive 10-65 cents per gallon of used cooking oil for resale, with prices topping $1.30/gallon in high-demand biodiesel markets like California, framing the business as solving two problems at once: it removes a waste disposal headache for the restaurant and pays the operator for the volume collected.",
+    "best": "Someone with a vehicle able to transport oil containers, willing to research and comply with state waste-transportation regulations from day one, and comfortable pursuing recurring collection contracts with groups of restaurants rather than occasional pickups.",
+    "truth": "This is a genuinely under-covered, low-competition niche business with a real dual-value proposition (free service to the restaurant, paid resale to a processor). The presenter is explicit that skipping proper waste-transportation compliance is not optional and can end the business entirely, which is an important regulatory step easy to underestimate when getting started.",
+    "url": "https://youtu.be/xA6oBoVyQ9I",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Requires a license or certification"
     ]
   },
   {
@@ -2477,6 +2566,28 @@
     "url": "https://www.youtube.com/watch?v=MiUs5KSrq3c",
     "situation_tags": [
       "Strictly in-home"
+    ]
+  },
+  {
+    "id": "epoxy-garage-flooring-installation",
+    "name": "Epoxy garage flooring installation service",
+    "category": "Local & professional services",
+    "tags": [
+      "epoxy flooring",
+      "garage renovation",
+      "home improvement",
+      "visual portfolio marketing"
+    ],
+    "cost": "Low to moderate startup cost (epoxy materials and application tools; practice runs recommended before charging clients)",
+    "found": "David Explains Money",
+    "what": "Apply epoxy resin coatings to garage concrete floors (and later patios, basements, and small commercial spaces) for homeowners converting garages into functional living spaces like home gyms, workshops, or game rooms, mastering one specific installation technique well and building a portfolio of before-and-after photos, since the business sells primarily through visual references and word of mouth.",
+    "pitch": "The presenter frames the appeal as strong margins (materials cost relatively little compared to the per-square-foot installed price) combined with fast job completion (one to two days per job), and specifically recommends practicing on your own garage or a family member's before charging real clients, since the application technique has a short learning curve but any mistakes remain visibly permanent on the floor.",
+    "best": "Someone willing to practice the technique thoroughly before taking paying clients, and comfortable building a portfolio-driven, word-of-mouth marketing approach rather than relying on advertising.",
+    "truth": "The advice to practice on a low-stakes floor first is genuinely important given the presenter's own warning that mistakes are permanent and immediately visible, which could otherwise damage a new business's local reputation quickly. The margin and speed advantages described are real, but building a reputation strong enough to expand beyond garages into commercial spaces will take time and a demonstrated track record.",
+    "url": "https://youtu.be/xA6oBoVyQ9I",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -3482,6 +3593,28 @@
     "situation_tags": [
       "E-commerce / fulfillment",
       "Needs inventory storage",
+      "Requires equipment/vehicle investment"
+    ]
+  },
+  {
+    "id": "local-courier-service-small-business-contracts",
+    "name": "Local courier and delivery service for small businesses with recurring contracts",
+    "category": "Local & professional services",
+    "tags": [
+      "local courier",
+      "same-day delivery",
+      "B2B contracts",
+      "medical and legal delivery"
+    ],
+    "cost": "Very low startup cost (your own vehicle; practically no inventory required)",
+    "found": "David Explains Money",
+    "what": "Offer same-day local courier and delivery service for small businesses that need documents or small packages moved quickly within a city \u2014 the presenter highlights pharmacies, law firms, and dental clinics as target customers \u2014 pursuing monthly recurring contracts with a handful of businesses rather than competing for individual one-off delivery requests, and organizing routes by grouping deliveries by area and time window.",
+    "pitch": "The presenter frames the medical and legal sectors as the biggest opportunity, since confidentiality and punctuality matter more to those clients than price, allowing higher rates than a generic courier service, and notes that just three or four well-organized monthly contracts can cover vehicle and fuel costs before any additional delivery counts as extra profit.",
+    "best": "Someone with a reliable vehicle who wants recurring B2B delivery contracts rather than one-off gig-app-style deliveries, and who's comfortable pitching directly to medical, legal, and other small business offices.",
+    "truth": "Targeting recurring monthly contracts with a small number of businesses (rather than competing for scattered one-off deliveries against big shipping companies) is a sound way to build predictable income in a normally low-margin category, and the specific niche framing (confidentiality/punctuality-sensitive sectors) is a genuinely useful positioning angle. Landing those first few contracts still requires direct outreach and building trust with each business individually.",
+    "url": "https://youtu.be/xA6oBoVyQ9I",
+    "situation_tags": [
+      "Local travel required",
       "Requires equipment/vehicle investment"
     ]
   },
@@ -5526,6 +5659,28 @@
     ]
   },
   {
+    "id": "mobile-home-buy-rent-flip",
+    "name": "Buying, renting, and flipping mobile homes",
+    "category": "Local & professional services",
+    "tags": [
+      "mobile homes",
+      "real estate",
+      "flipping",
+      "rental income"
+    ],
+    "cost": "Moderate startup cost (buying a used mobile home, typically needing minor repairs)",
+    "found": "David Explains Money",
+    "what": "Buy used mobile homes at a discount (often needing minor cosmetic repairs), fix them up with simple upgrades like paint, flooring, and kitchen updates, then either rent them out for steady monthly income or resell them at a markup \u2014 starting within an already-established mobile home park (where land is rented separately, lowering the initial investment) rather than buying land outright.",
+    "pitch": "The presenter frames this as combining two income streams in one business \u2014 ongoing rental income if you keep the property, or a lump-sum resale profit if you flip it \u2014 and recommends starting with one or two units in an established park before considering land ownership, once more experience and capital are available.",
+    "best": "Someone comfortable with basic home repair and renovation work (or managing contractors who do it), willing to start small within an established mobile home park before taking on land ownership.",
+    "truth": "Starting within an established park to avoid the added cost and complexity of land ownership is sound, practical advice for lowering the initial investment in this business. Rising demand for mobile homes as a more affordable housing option is a real market tailwind, but this still requires real capital for the initial purchase and repairs, and success depends on realistic repair-cost estimation and local rental or resale demand, which the video doesn't detail specifically.",
+    "url": "https://youtu.be/xA6oBoVyQ9I",
+    "situation_tags": [
+      "Requires travel to source or inspect goods",
+      "Requires equipment/vehicle investment"
+    ]
+  },
+  {
     "id": "window-cleaning-lean-start-scale-systems",
     "name": "Window cleaning business started lean and scaled through owner-built systems",
     "category": "Local & professional services",
@@ -6411,6 +6566,29 @@
     "best": "Someone willing to commit to a genuinely high volume of cold outreach early on and keep the initial offer deliberately simple and low-priced rather than trying to charge premium rates as a beginner.",
     "truth": "This needs a direct, upfront caution: the cold-call script described involves inventing a nonexistent mutual referral (a fictional person who supposedly recommended the business) to get a prospect to stay on the line, a deliberate fabrication both founders openly acknowledge and defend as a minor, harmless untruth in service of a legitimate outcome. Readers should weigh that directly rather than adopt the script uncritically. Separately, the two founders' accounts (given in separate interviews) describe the same company from each partner's side, not two independent discoveries of this approach; specific figures throughout (revenue, churn, close rates) are the founders' own account without independent verification, though the level of specific detail, including openly discussed early failures and low periods, is a stronger transparency signal than most success-story content.",
     "url": "https://www.youtube.com/watch?v=mwMQLJ5GoRM"
+  },
+  {
+    "id": "whatsapp-ai-voice-agent-local-clinics",
+    "name": "WhatsApp/voice AI agent business for local clinics and service businesses",
+    "category": "AI & automation",
+    "tags": [
+      "AI voice agent",
+      "WhatsApp automation",
+      "local business sales",
+      "ElevenLabs",
+      "cold outreach"
+    ],
+    "cost": "Low startup cost (ElevenLabs and Twilio subscriptions; Claude Cowork/Opus access)",
+    "found": "Kamil Sattar | Make Money With AI and THE ECOM KING",
+    "what": "Build an AI voice and WhatsApp text agent (using ElevenLabs, with Twilio for landline/phone numbers) that answers calls and messages for local businesses \u2014 the presenter's example is dental and aesthetic clinics \u2014 booking appointments and answering questions, then sell it to business owners after researching the most underserved local niches with Claude and building a free demo based on a real target business's actual website content before ever reaching out.",
+    "pitch": "The presenter cites a $158,000 revenue result over about 3 months (9,161 calls, 85% answer rate) from this exact system for one client, and demonstrates the full workflow live: using Claude Cowork to research which local business niches lose the most revenue to missed calls, building a demo voice agent in ElevenLabs based on a specific real clinic's website, then using the Claude Chrome extension to find business owner names and contact details (via Companies House/public records) for targeted outreach, recommending in-person demos or a screen-recorded Loom video as the pitch.",
+    "best": "Someone comfortable with a moderate technical setup (ElevenLabs, Twilio, prompt engineering) who's willing to do direct local outreach (in-person, cold email, or LinkedIn) rather than waiting for inbound interest.",
+    "truth": "The specific tool stack and step-by-step demo-then-prospect workflow is more detailed and tactical than most AI-voice-agent content, and using AI research tools to target the most underserved local niches first is a genuinely useful de-risking step. The $158,000 case study figure is the presenter's own reported client result, not independently verified, and success still depends on the outreach and sales execution described, not just the technical build.",
+    "url": "https://www.youtube.com/watch?v=vRwND09Jh8Q",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ]
   },
   {
     "id": "claude-canva-guided-journals",
