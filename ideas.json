@@ -369,6 +369,27 @@
     ]
   },
   {
+    "id": "fractional-executive-services",
+    "name": "Fractional executive services",
+    "category": "Local & professional services",
+    "tags": [
+      "consulting",
+      "executive",
+      "low startup cost",
+      "experience required"
+    ],
+    "cost": "Low startup cost",
+    "found": "David Heacock",
+    "what": "Offer part-time senior leadership, CFO, COO, or CMO, to businesses that need executive-level guidance but can't afford, or don't need, a full-time hire. You work with several clients at once, each paying a monthly retainer for a set number of hours or specific deliverables.",
+    "pitch": "Package your judgment into a recurring monthly fee, typically $5,000 to $15,000 per client, and take on 4 to 6 clients at once, which can add up to real six-figure annual income without hiring a team or building a product.",
+    "best": "Someone with a genuine, provable track record of running or operating a business, not someone who has only studied the theory of business strategy.",
+    "truth": "Heacock backs this up with his own real hiring experience, he's personally used a fractional CFO in his own businesses, so he's speaking from the buyer's side too, not just the seller's side. That's a real credibility signal. That said, landing the first client still requires real, sometimes slow, relationship-based sales, this isn't a fast-start idea, even if the eventual payoff is strong.",
+    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
+    "situation_tags": [
+      "Home office, client-facing"
+    ]
+  },
+  {
     "id": "merch-by-amazon-tshirts",
     "name": "Merch by Amazon print-on-demand t-shirts",
     "category": "Physical & print products",
@@ -453,21 +474,21 @@
     ]
   },
   {
-    "id": "fractional-executive-services",
-    "name": "Fractional executive services",
+    "id": "compliance-risk-elimination-services",
+    "name": "Compliance and risk-elimination services",
     "category": "Local & professional services",
     "tags": [
       "consulting",
-      "executive",
-      "low startup cost",
-      "experience required"
+      "compliance",
+      "certification needed",
+      "low startup cost"
     ],
     "cost": "Low startup cost",
     "found": "David Heacock",
-    "what": "Offer part-time senior leadership, CFO, COO, or CMO, to businesses that need executive-level guidance but can't afford, or don't need, a full-time hire. You work with several clients at once, each paying a monthly retainer for a set number of hours or specific deliverables.",
-    "pitch": "Package your judgment into a recurring monthly fee, typically $5,000 to $15,000 per client, and take on 4 to 6 clients at once, which can add up to real six-figure annual income without hiring a team or building a product.",
-    "best": "Someone with a genuine, provable track record of running or operating a business, not someone who has only studied the theory of business strategy.",
-    "truth": "Heacock backs this up with his own real hiring experience, he's personally used a fractional CFO in his own businesses, so he's speaking from the buyer's side too, not just the seller's side. That's a real credibility signal. That said, landing the first client still requires real, sometimes slow, relationship-based sales, this isn't a fast-start idea, even if the eventual payoff is strong.",
+    "what": "You become the specialized expert businesses pay to eliminate regulatory risk, things like product compliance certification, HIPAA compliance, OSHA workplace safety, or R&D tax credit paperwork. Done well, this work can save a company millions in fines or lawsuits; done poorly, it can cost them just as much.",
+    "pitch": "Heacock ranks this as his top category because it hits every trait that supports premium pricing at once: the work is recurring, it's genuinely painful for the business to do themselves, it's document-heavy, which plays well with AI-assisted tools, and, most importantly, the customer's name and reputation is on the line if it's done wrong. That combination means businesses will pay well above what the raw hours would suggest.",
+    "best": "Someone with real experience who is willing to specialize deeply in one regulatory area rather than staying a generalist.",
+    "truth": "In the video, Heacock uses a real anecdote to ground the pitch, he mentions paying $33,600 for this kind of service himself, which shows he's speaking from firsthand experience as a buyer. But when he ranks this category as the single best remote business opportunity, that ranking is his own opinion, not an audited industry statistic.",
     "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
     "situation_tags": [
       "Home office, client-facing"
@@ -605,24 +626,24 @@
     ]
   },
   {
-    "id": "compliance-risk-elimination-services",
-    "name": "Compliance and risk-elimination services",
+    "id": "bookkeeping-payroll-services",
+    "name": "AI-leveraged bookkeeping and payroll services",
     "category": "Local & professional services",
     "tags": [
       "consulting",
-      "compliance",
-      "certification needed",
+      "AI tools",
+      "recurring revenue",
       "low startup cost"
     ],
-    "cost": "Low startup cost",
+    "cost": "Low startup cost, software subscriptions only",
     "found": "David Heacock",
-    "what": "You become the specialized expert businesses pay to eliminate regulatory risk, things like product compliance certification, HIPAA compliance, OSHA workplace safety, or R&D tax credit paperwork. Done well, this work can save a company millions in fines or lawsuits; done poorly, it can cost them just as much.",
-    "pitch": "Heacock ranks this as his top category because it hits every trait that supports premium pricing at once: the work is recurring, it's genuinely painful for the business to do themselves, it's document-heavy, which plays well with AI-assisted tools, and, most importantly, the customer's name and reputation is on the line if it's done wrong. That combination means businesses will pay well above what the raw hours would suggest.",
-    "best": "Someone with real experience who is willing to specialize deeply in one regulatory area rather than staying a generalist.",
-    "truth": "In the video, Heacock uses a real anecdote to ground the pitch, he mentions paying $33,600 for this kind of service himself, which shows he's speaking from firsthand experience as a buyer. But when he ranks this category as the single best remote business opportunity, that ranking is his own opinion, not an audited industry statistic.",
+    "what": "Document-heavy, recurring back-office services, bookkeeping, medical billing, or payroll, where AI now handles much of the document processing, letting one person serve more clients than before. No accounting license is required, just tool fluency and a chosen niche.",
+    "pitch": "This work is recurring by nature, businesses need it every month, not once, and AI tools have lowered the manual workload significantly compared to a few years ago.",
+    "best": "Someone comfortable learning bookkeeping or payroll software and who wants steady, recurring client relationships over flashier project work.",
+    "truth": "This is a solid, learnable option, though it's more operational than strategic compared to something like fractional executive work. It requires real comfort with financial recordkeeping, not just general business sense.",
     "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
     "situation_tags": [
-      "Home office, client-facing"
+      "Strictly in-home"
     ]
   },
   {
@@ -841,24 +862,24 @@
     ]
   },
   {
-    "id": "bookkeeping-payroll-services",
-    "name": "AI-leveraged bookkeeping and payroll services",
+    "id": "atm-business",
+    "name": "ATM placement business",
     "category": "Local & professional services",
     "tags": [
-      "consulting",
-      "AI tools",
-      "recurring revenue",
-      "low startup cost"
+      "physical business",
+      "needs US presence",
+      "passive income"
     ],
-    "cost": "Low startup cost, software subscriptions only",
+    "cost": "About $2,000 or more per machine",
     "found": "David Heacock",
-    "what": "Document-heavy, recurring back-office services, bookkeeping, medical billing, or payroll, where AI now handles much of the document processing, letting one person serve more clients than before. No accounting license is required, just tool fluency and a chosen niche.",
-    "pitch": "This work is recurring by nature, businesses need it every month, not once, and AI tools have lowered the manual workload significantly compared to a few years ago.",
-    "best": "Someone comfortable learning bookkeeping or payroll software and who wants steady, recurring client relationships over flashier project work.",
-    "truth": "This is a solid, learnable option, though it's more operational than strategic compared to something like fractional executive work. It requires real comfort with financial recordkeeping, not just general business sense.",
+    "what": "Buy and place ATM machines in local businesses like nail salons or convenience stores, earning a fee on every transaction, and scale by adding more machines over time.",
+    "pitch": "A real example is cited of someone turning a $2,100 first machine into an $8 million a year company over time.",
+    "best": "Someone based in the U.S. who's comfortable with local relationship-building and doesn't mind managing physical equipment across multiple sites.",
+    "truth": "This relies on a single case study, which may not be typical, and it requires physically placing and maintaining machines in person, so it isn't a remote or location-independent business.",
     "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
     "situation_tags": [
-      "Strictly in-home"
+      "Local travel required",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -1119,24 +1140,25 @@
     ]
   },
   {
-    "id": "atm-business",
-    "name": "ATM placement business",
+    "id": "equipment-rental-business",
+    "name": "Equipment rental business",
     "category": "Local & professional services",
     "tags": [
       "physical business",
       "needs US presence",
-      "passive income"
+      "needs significant capital"
     ],
-    "cost": "About $2,000 or more per machine",
+    "cost": "Often $50,000 to $100,000 or more per piece of equipment",
     "found": "David Heacock",
-    "what": "Buy and place ATM machines in local businesses like nail salons or convenience stores, earning a fee on every transaction, and scale by adding more machines over time.",
-    "pitch": "A real example is cited of someone turning a $2,100 first machine into an $8 million a year company over time.",
-    "best": "Someone based in the U.S. who's comfortable with local relationship-building and doesn't mind managing physical equipment across multiple sites.",
-    "truth": "This relies on a single case study, which may not be typical, and it requires physically placing and maintaining machines in person, so it isn't a remote or location-independent business.",
+    "what": "Buy commercial or industrial equipment, like compressors, and rent it out to businesses that need it temporarily rather than owning it themselves.",
+    "pitch": "Presented as tax-efficient, since equipment can typically be fully depreciated, alongside steady rental income.",
+    "best": "Someone with real capital to deploy and existing relationships or knowledge in a specific trade or industry.",
+    "truth": "Grounded in the presenter's own real business experience with equipment needs, which lends some credibility. This requires meaningful capital and local delivery logistics, not a low-cost entry point.",
     "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
     "situation_tags": [
       "Local travel required",
-      "Requires equipment/vehicle investment"
+      "Requires equipment/vehicle investment",
+      "Needs a truck or cargo vehicle"
     ]
   },
   {
@@ -1438,25 +1460,26 @@
     ]
   },
   {
-    "id": "equipment-rental-business",
-    "name": "Equipment rental business",
+    "id": "hvac-trade-service",
+    "name": "HVAC or trade service business",
     "category": "Local & professional services",
     "tags": [
-      "physical business",
+      "skilled trade",
       "needs US presence",
-      "needs significant capital"
+      "needs training"
     ],
-    "cost": "Often $50,000 to $100,000 or more per piece of equipment",
+    "cost": "Low to start once trained, scales with team size",
     "found": "David Heacock",
-    "what": "Buy commercial or industrial equipment, like compressors, and rent it out to businesses that need it temporarily rather than owning it themselves.",
-    "pitch": "Presented as tax-efficient, since equipment can typically be fully depreciated, alongside steady rental income.",
-    "best": "Someone with real capital to deploy and existing relationships or knowledge in a specific trade or industry.",
-    "truth": "Grounded in the presenter's own real business experience with equipment needs, which lends some credibility. This requires meaningful capital and local delivery logistics, not a low-cost entry point.",
+    "what": "Learn a trade, HVAC specifically in this example, through trade school or working for an established operator, then start a capital-light local service business.",
+    "pitch": "Framed as genuinely capital-light once you have the skill, since the barrier is training and licensing, not equipment or inventory.",
+    "best": "Someone willing to invest real time learning a hands-on trade from the ground up before starting the business side.",
+    "truth": "Grounded in the presenter's own real HVAC business, which is a credibility positive. This requires physical presence, hands-on trade training, and typically licensing, a genuine skill investment before any income starts.",
     "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
     "situation_tags": [
       "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Needs a truck or cargo vehicle"
+      "Requires a license or certification",
+      "Needs a truck or cargo vehicle",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -1861,24 +1884,23 @@
     ]
   },
   {
-    "id": "hvac-trade-service",
-    "name": "HVAC or trade service business",
+    "id": "tow-truck-service",
+    "name": "Emergency tow truck service",
     "category": "Local & professional services",
     "tags": [
-      "skilled trade",
+      "physical business",
       "needs US presence",
-      "needs training"
+      "needs equipment"
     ],
-    "cost": "Low to start once trained, scales with team size",
+    "cost": "Cost of a tow truck, often tens of thousands of dollars",
     "found": "David Heacock",
-    "what": "Learn a trade, HVAC specifically in this example, through trade school or working for an established operator, then start a capital-light local service business.",
-    "pitch": "Framed as genuinely capital-light once you have the skill, since the barrier is training and licensing, not equipment or inventory.",
-    "best": "Someone willing to invest real time learning a hands-on trade from the ground up before starting the business side.",
-    "truth": "Grounded in the presenter's own real HVAC business, which is a credibility positive. This requires physical presence, hands-on trade training, and typically licensing, a genuine skill investment before any income starts.",
+    "what": "Provide towing services, particularly for large commercial trucks, in an underserved local area, with the potential to scale by adding more trucks over time.",
+    "pitch": "Framed as high margin in underserved local markets, with real upside as you add equipment.",
+    "best": "Someone based locally with access to specialized equipment financing and a genuine underserved market to enter.",
+    "truth": "Based on a single local anecdote rather than a broadly verified model, results likely vary a great deal by local market. This requires real equipment investment and physical local presence.",
     "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
     "situation_tags": [
       "Local travel required",
-      "Requires a license or certification",
       "Needs a truck or cargo vehicle",
       "Requires equipment/vehicle investment"
     ]
@@ -2437,25 +2459,47 @@
     ]
   },
   {
-    "id": "tow-truck-service",
-    "name": "Emergency tow truck service",
+    "id": "no-code-ai-mobile-app-app-store",
+    "name": "Native mobile app built end-to-end with a no-code AI app builder, published to the App Store",
+    "category": "AI & automation",
+    "tags": [
+      "app development",
+      "AI tools",
+      "no-code",
+      "mobile app"
+    ],
+    "cost": "Low to moderate startup cost (AI app-builder subscription plus a $99/year Apple developer account)",
+    "found": "Christian Peverelli",
+    "what": "Building a native iOS mobile app from scratch using a no-code AI app-building tool, describing the desired app in plain language and iterating through each build phase, then publishing it through Apple's App Store submission and TestFlight beta process.",
+    "pitch": "The presenter walks through cloning the core concept of a well-known app as a demonstration case, feeding a chain of specific prompts one at a time into a no-code AI app-building tool: design and navigation first, then a key feature, then a backend database for data persistence. He also covers deploying a companion legal and landing page and the real mechanics of Apple's App Store submission process, including the developer fee, TestFlight beta testing, and the review wait time.",
+    "best": "Someone comfortable directing an AI tool through an iterative build process and willing to navigate Apple's actual app-submission requirements, not just build a prototype and stop there.",
+    "truth": "This video's tool recommendation is a paid sponsorship, which the presenter discloses directly, so the specific platform choice should be weighed with that in mind, though he does explain his reasoning, native hardware access like the camera, for picking it over alternatives. The example app is a demo and practice clone, not the presenter's own live revenue-generating business, so no income figures are given or implied for this specific build.",
+    "url": "https://www.youtube.com/watch?v=MiUs5KSrq3c",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "waste-management-business",
+    "name": "Waste management and trash collection",
     "category": "Local & professional services",
     "tags": [
       "physical business",
       "needs US presence",
-      "needs equipment"
+      "needs significant capital"
     ],
-    "cost": "Cost of a tow truck, often tens of thousands of dollars",
+    "cost": "Very high to compete at meaningful scale",
     "found": "David Heacock",
-    "what": "Provide towing services, particularly for large commercial trucks, in an underserved local area, with the potential to scale by adding more trucks over time.",
-    "pitch": "Framed as high margin in underserved local markets, with real upside as you add equipment.",
-    "best": "Someone based locally with access to specialized equipment financing and a genuine underserved market to enter.",
-    "truth": "Based on a single local anecdote rather than a broadly verified model, results likely vary a great deal by local market. This requires real equipment investment and physical local presence.",
+    "what": "A local trash collection service, cited alongside the example of a company that grew from a small local operator into a multi-billion-dollar public company through acquisitions and underserved local niches.",
+    "pitch": "Framed as a durable, essential-service category with real long-term growth potential through acquisition.",
+    "best": "Someone thinking in terms of years, not months, with access to significant capital or financing for growth.",
+    "truth": "The example used is an extreme outlier, a multi-billion-dollar public company, not representative of what a typical entrant should expect. This is a large-scale, capital-intensive undertaking, not an accessible starting point for most people.",
     "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
     "situation_tags": [
       "Local travel required",
-      "Needs a truck or cargo vehicle",
-      "Requires equipment/vehicle investment"
+      "Requires equipment/vehicle investment",
+      "Requires hiring or managing others",
+      "Needs a truck or cargo vehicle"
     ]
   },
   {
@@ -3355,6 +3399,28 @@
     ]
   },
   {
+    "id": "chrome-extension-search-validated-development",
+    "name": "Chrome extension development validated by search volume and monetization research before building",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Chrome extension",
+      "AI coding",
+      "freemium",
+      "idea validation",
+      "agentic coding"
+    ],
+    "cost": "Very low startup cost (AI coding tool subscription; hosting via Vercel/Supabase)",
+    "found": "Christian Peverelli",
+    "what": "Build browser (Chrome) extensions using AI/agentic coding tools rather than manual programming, but validate each idea before building it: check search volume for the extension idea (via Google Keyword Planner, Ahrefs, or similar), confirm similar extensions are already generating revenue (checking a platform like extensionpay.com, which many extensions use for Stripe-based monetization), and filter for ideas that are easy to get installed and used repeatedly rather than once.",
+    "pitch": "The presenter's guest, Eddie, runs a portfolio of about 10 small AI-built businesses generating $30,000-50,000/month combined, with 5 Chrome extensions alone generating $20,000/month using a freemium model (free access initially, then charging over time). He builds using Claude Code, hosts on Vercel with Supabase as the database, and creates custom reusable \"skills\" for recurring tasks like outreach, rather than starting from scratch each time.",
+    "best": "Someone comfortable with AI coding tools (Claude Code or similar) who wants a structured, research-first approach to picking which small software product to build, rather than guessing at ideas.",
+    "truth": "The validation framework here (search volume plus competitor monetization proof plus install-friction assessment) is a genuinely useful risk-reduction method that applies well beyond just Chrome extensions. That said, Eddie's own results reflect years of iterating across many products and business ideas, most of which he says \"weren't really good\" at first \u2014 the portfolio approach (build several, keep what works) is the real strategy, not any single extension being a guaranteed win.",
+    "url": "https://youtu.be/M-teR-KLWGc",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "freelance-graphic-design",
     "name": "Freelance graphic design",
     "category": "Marketing & content",
@@ -3375,26 +3441,23 @@
     ]
   },
   {
-    "id": "waste-management-business",
-    "name": "Waste management and trash collection",
+    "id": "software-implementation-partner",
+    "name": "Certified software implementation partner",
     "category": "Local & professional services",
     "tags": [
-      "physical business",
-      "needs US presence",
-      "needs significant capital"
+      "consulting",
+      "certification needed",
+      "B2B software"
     ],
-    "cost": "Very high to compete at meaningful scale",
+    "cost": "Low startup cost, often free certification",
     "found": "David Heacock",
-    "what": "A local trash collection service, cited alongside the example of a company that grew from a small local operator into a multi-billion-dollar public company through acquisitions and underserved local niches.",
-    "pitch": "Framed as a durable, essential-service category with real long-term growth potential through acquisition.",
-    "best": "Someone thinking in terms of years, not months, with access to significant capital or financing for growth.",
-    "truth": "The example used is an extreme outlier, a multi-billion-dollar public company, not representative of what a typical entrant should expect. This is a large-scale, capital-intensive undertaking, not an accessible starting point for most people.",
+    "what": "Get certified on a complex B2B software platform, like ServiceTitan, NetSuite, or HubSpot, then get paid by that software company's own customers to set it up, train their team, and make sure it actually gets used.",
+    "pitch": "The software company has already found the customers, your job is making sure the tool actually works for them, which many businesses struggle to do alone.",
+    "best": "Someone willing to commit to deeply learning one specific software platform before expecting to earn from it.",
+    "truth": "A reasonable, learnable model, but it does require a real time investment becoming genuinely expert in one platform before the first client, this isn't a same-week income source.",
     "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
     "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Requires hiring or managing others",
-      "Needs a truck or cargo vehicle"
+      "Home office, client-facing"
     ]
   },
   {
@@ -4949,6 +5012,28 @@
     "url": "https://www.youtube.com/watch?v=3iU4a1yWGn0"
   },
   {
+    "id": "mini-course-from-audience-buying-signals",
+    "name": "Building a mini-course by listening for your audience's repeated \"how do you do that?\" questions",
+    "category": "Content & personal brand",
+    "tags": [
+      "digital products",
+      "mini course",
+      "audience-driven products",
+      "launch strategy",
+      "content creation"
+    ],
+    "cost": "Very low startup cost (a course-hosting platform and basic video editing)",
+    "found": "Brian O'Neill",
+    "what": "Build an audience by posting content about whatever genuinely interests you, then pay close attention to what your audience repeatedly asks you how to do \u2014 that repeated question is the signal for a specific, narrow, low-cost mini-course (not a comprehensive multi-hour course) that directly answers it, launched with visible urgency (a closing cart date) and built-in social proof from documenting the process publicly as it happens.",
+    "pitch": "The presenter breaks down creator Jessica Carter, who grew from 50 to over 162,000 Instagram followers after pivoting to content about video editing techniques (after years of unrelated personal content), then launched a narrow $57 mini-course teaching just that one editing skill when her audience kept asking how she did it \u2014 generating $50,000 in the first 24 hours and $313,000 over 6 days, driven largely by urgency (a limited window to buy) and her own public documentation of the launch happening in real time.",
+    "best": "Someone who's already built (or is building) an engaged audience around a specific skill or interest, and is willing to actually notice and act on repeated audience questions rather than guessing at what to sell.",
+    "truth": "The core lesson \u2014 audience questions are buying signals, and a narrow mini-course beats an over-built comprehensive course \u2014 is a genuinely sound and often-overlooked product strategy. That said, this case study describes an outcome after 10 years of posting and a viral video that brought in most of the new followers; the launch mechanics (urgency, real-time documentation) are replicable, but they depend on already having an audience willing to buy, which is the harder and slower part not covered in depth here.",
+    "url": "https://youtu.be/DlNWYzaL_F0",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "book-as-client-acquisition-engine-claude",
     "name": "Writing a book with Claude as a client-acquisition engine for coaches and experts",
     "category": "Marketing & content",
@@ -5170,22 +5255,47 @@
     ]
   },
   {
-    "id": "no-code-ai-mobile-app-app-store",
-    "name": "Native mobile app built end-to-end with a no-code AI app builder, published to the App Store",
-    "category": "AI & automation",
+    "id": "ser-term-jingle-local-business-marketing",
+    "name": "\"SER-term jingle\" marketing service for local service businesses",
+    "category": "Marketing & content",
     "tags": [
-      "app development",
-      "AI tools",
-      "no-code",
-      "mobile app"
+      "local marketing",
+      "jingles",
+      "SEO",
+      "YouTube pre-roll ads",
+      "service business branding"
     ],
-    "cost": "Low to moderate startup cost (AI app-builder subscription plus a $99/year Apple developer account)",
+    "cost": "Low startup cost (requires either music production skill/equipment or the ability to hire a singer/producer)",
+    "found": "Chris Koerner on The Koerner Office Podcast and The Koerner Office Highlights",
+    "what": "Create a short, catchy \"earworm\" jingle built around a specific, ownable search phrase (the business's \"SER term\" \u2014 search engine results term, e.g. \"Google Pink Plumber\") for a local service business (pest control, plumbing, HVAC), then run it as a cheap, geographically-targeted skippable YouTube pre-roll ad, licensing the same jingle concept and production process repeatedly to non-competing businesses in different markets (each business gets exclusivity in its own city/zip code), bundled with a broader \"local internet presence\" service (Google Business Profile management, high-converting website audits, content/podcast production).",
+    "pitch": "The guest, a longtime musician and internet marketer, describes selling this exact jingle to over 100 pest control companies at $2,000 each (each getting exclusivity in their own market), plus an ongoing $500/month retainer for managing their broader local marketing (Google Business Profile, website conversion, content). One client's business reportedly tripled or quadrupled after running a jingle as a cheap, zip-code-targeted YouTube pre-roll ad, generating millions of ad impressions for a few hundred dollars total, since even people who skip the ad hear the jingle and phrase in the first few seconds.",
+    "best": "Someone with (or willing to hire) music production skill, comfortable pitching and managing ongoing local business marketing relationships, and interested in a distinctive service that differentiates from typical digital marketing agencies.",
+    "truth": "This is a genuinely novel, specific local marketing mechanic that doesn't overlap with typical \"digital marketing agency\" content \u2014 the combination of a memorable, ownable search-term jingle with ultra-cheap, geographically-targeted skippable pre-roll ads is a real, replicable insight, and the presenter has decades of documented client results behind it. That said, this requires either real music/production skill or the resources to hire it out reliably across many clients, which is a higher skill/coordination bar than most local marketing services on this list.",
+    "url": "https://youtu.be/DlNWYzaL_F0",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based",
+      "Requires hiring or managing others"
+    ]
+  },
+  {
+    "id": "seo-content-site-long-sales-cycle-niche",
+    "name": "SEO content site targeting a niche's long research-and-comparison sales cycle",
+    "category": "Marketing & content",
+    "tags": [
+      "SEO",
+      "affiliate content",
+      "niche website",
+      "content marketing",
+      "long-tail keywords"
+    ],
+    "cost": "Very low startup cost (a domain and hosting; content can be AI-assisted)",
     "found": "Christian Peverelli",
-    "what": "Building a native iOS mobile app from scratch using a no-code AI app-building tool, describing the desired app in plain language and iterating through each build phase, then publishing it through Apple's App Store submission and TestFlight beta process.",
-    "pitch": "The presenter walks through cloning the core concept of a well-known app as a demonstration case, feeding a chain of specific prompts one at a time into a no-code AI app-building tool: design and navigation first, then a key feature, then a backend database for data persistence. He also covers deploying a companion legal and landing page and the real mechanics of Apple's App Store submission process, including the developer fee, TestFlight beta testing, and the review wait time.",
-    "best": "Someone comfortable directing an AI tool through an iterative build process and willing to navigate Apple's actual app-submission requirements, not just build a prototype and stop there.",
-    "truth": "This video's tool recommendation is a paid sponsorship, which the presenter discloses directly, so the specific platform choice should be weighed with that in mind, though he does explain his reasoning, native hardware access like the camera, for picking it over alternatives. The example app is a demo and practice clone, not the presenter's own live revenue-generating business, so no income figures are given or implied for this specific build.",
-    "url": "https://www.youtube.com/watch?v=MiUs5KSrq3c",
+    "what": "Build a content-driven SEO website in a niche where buyers go through a long research process before purchasing (the example given: peptide supplements), targeting the low-competition, long-tail search terms people use while researching (benefits, side effects, comparisons, expert opinions) rather than competing on high-competition, ready-to-buy keywords, and supplementing articles with useful interactive tools (calculators) and organized expert-opinion roundups.",
+    "pitch": "The presenter shows a real example site (built by the same guest, Eddie) that grew to 1.1 million monthly visitors purely through SEO, using three content strategies: long-form comparison and how-to articles targeting research-stage keywords, free calculator tools relevant to the niche, and pages organizing what named industry experts have said about specific topics within the niche.",
+    "best": "Someone willing to do real keyword and content-gap research and produce a genuinely useful volume of long-form content, rather than a handful of thin articles.",
+    "truth": "The three-part content strategy (comparison content, useful tools, expert-opinion aggregation) is a solid, well-documented SEO approach that outlasts algorithm changes better than purely AI-generated thin content. Reaching 1.1 million monthly visitors is a standout result built over real time, not an overnight outcome, and the niche example used (peptides) is explicitly flagged by the presenter as controversial, which may not be a comfortable content area for everyone to build a business around.",
+    "url": "https://youtu.be/M-teR-KLWGc",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -5347,23 +5457,26 @@
     ]
   },
   {
-    "id": "software-implementation-partner",
-    "name": "Certified software implementation partner",
+    "id": "window-cleaning-lean-start-scale-systems",
+    "name": "Window cleaning business started lean and scaled through owner-built systems",
     "category": "Local & professional services",
     "tags": [
-      "consulting",
-      "certification needed",
-      "B2B software"
+      "window cleaning",
+      "service business",
+      "lean startup",
+      "systems building",
+      "scaling"
     ],
-    "cost": "Low startup cost, often free certification",
+    "cost": "Very low startup cost (a squeegee, bucket, and soap to start)",
     "found": "David Heacock",
-    "what": "Get certified on a complex B2B software platform, like ServiceTitan, NetSuite, or HubSpot, then get paid by that software company's own customers to set it up, train their team, and make sure it actually gets used.",
-    "pitch": "The software company has already found the customers, your job is making sure the tool actually works for them, which many businesses struggle to do alone.",
-    "best": "Someone willing to commit to deeply learning one specific software platform before expecting to earn from it.",
-    "truth": "A reasonable, learnable model, but it does require a real time investment becoming genuinely expert in one platform before the first client, this isn't a same-week income source.",
-    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
+    "what": "Start a window cleaning business with minimal equipment, personally doing the cleaning work in the early stages to learn the business's actual pain points firsthand, then use that hands-on experience to build the systems and processes needed to scale the business well beyond a one-person operation.",
+    "pitch": "Heacock cites a business owner, John, who started with just a squeegee, bucket, and soap cleaning windows for a single bank, and now runs a window cleaning business doing $10 million in annual revenue at a 40% net margin, or about $4 million a year in profit. Heacock frames doing the labor yourself early on as valuable specifically because it teaches you the business's real pain points before you try to build systems to solve them at scale.",
+    "best": "Someone willing to do the physical labor themselves in the early stages of the business, viewing that hands-on period as market research for building scalable systems later rather than something to avoid.",
+    "truth": "The lean-start-then-systematize approach is sound, practical business advice that applies well beyond window cleaning specifically. The $10 million/40% margin outcome represents a mature, fully-scaled operation with a large team, not a starting point \u2014 the presenter is clear that the real lesson is in the sequencing (labor first, systems second), not in window cleaning being a special path to that scale.",
+    "url": "https://youtu.be/vdXlkMW2nqc",
     "situation_tags": [
-      "Home office, client-facing"
+      "Local travel required",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -5683,6 +5796,28 @@
     "best": "Someone willing to treat this as a genuinely long-term, compounding project rather than expecting fast results, and comfortable doing real editing and fact-checking on AI-drafted content rather than publishing it as-is.",
     "truth": "This is one of the more transparent videos in this database on setting realistic expectations: the presenter says outright this is not fast money, shares that his own first book sold only three copies, and is explicit that indexing and ranking are not instant or guaranteed. The headline revenue figure is shown via a self-reported dashboard screenshot without independent verification, and it's not clear whether that figure reflects the same slow, compounding process otherwise described or a separate result. A paid program is promoted at the end.",
     "url": "https://www.youtube.com/watch?v=9hGYYCIS9vQ",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "ai-music-youtube-channel-claude-suno",
+    "name": "AI music YouTube channel built with Claude for songwriting and an AI music generator",
+    "category": "Content & personal brand",
+    "tags": [
+      "AI music",
+      "YouTube monetization",
+      "Claude",
+      "Suno-style tools",
+      "passive content"
+    ],
+    "cost": "Very low startup cost (an AI music generation tool subscription, roughly $10/month, plus Claude access)",
+    "found": "Geekbot AI",
+    "what": "Create an AI music channel by using Claude to generate song concepts, lyrics, and detailed genre/style prompts, feeding those into an AI music generation tool (the video uses one called Sondo) to produce a fully produced song and an AI artist image, then generating a complete AI music video synced to the song, publishing original (non-cover) music under a consistent AI artist persona to build a channel following.",
+    "pitch": "The presenter cites real examples of small AI music channels earning six figures a year (an AI reggae channel around $250,000, an AI R&B artist around $229,000, an AI country act around $160,000) in premium-RPM niches like lowfi, cinematic, and ambient music, which pay $3-8 per thousand views, walking through the full production pipeline (song, artist, video) built in under an hour using Claude and a paid AI music tool.",
+    "best": "Someone comfortable working entirely with AI tools for content creation, willing to treat idea/niche selection (not song quality) as the actual differentiator, and disciplined about following platform monetization rules.",
+    "truth": "The specific YouTube policy rules covered (no mass-uploading near-identical tracks, no AI covers of existing artists' songs, labeling content as AI-generated, and only monetizing tracks generated while on a paid plan with commercial rights) are genuinely important and easy to violate accidentally, so this level of detail is more useful than most AI-content videos that skip the compliance side. The headline earnings figures describe standout channels, not typical outcomes, and the video also promotes the presenter's own AI-idea-scoring tool as a paid upsell.",
+    "url": "https://www.youtube.com/watch?v=XCw0Rf1btP8",
     "situation_tags": [
       "Strictly in-home"
     ]
