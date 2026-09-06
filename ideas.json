@@ -3421,6 +3421,29 @@
     ]
   },
   {
+    "id": "paid-ai-workshop-lead-magnet-custom-builds",
+    "name": "Paid in-person AI workshops used as a lead magnet into custom AI implementation builds",
+    "category": "AI & automation",
+    "tags": [
+      "AI consulting",
+      "in-person workshops",
+      "offer ladder",
+      "AI implementation",
+      "B2B services"
+    ],
+    "cost": "Very low startup cost (a venue or company location; Eventbrite and Stripe for public workshops)",
+    "found": "Corey Ganim",
+    "what": "Run paid in-person AI training workshops (either open to the public via Eventbrite, or sold directly to a company for its team) as the entry point of an offer ladder, using the workshop to build trust and uncover a business's expensive workflow problems, then upselling attendees or the company into paid AI assessments, custom AI \"operating system\" builds, and ongoing retainers.",
+    "pitch": "The guest, after winding down a $500k-ARR B2B SaaS company he'd raised $8 million for, says 6 months of part-time AI consulting surpassed that entire run rate. His model: public workshops start around $500/person (a 4-hour session, 15-20 attendees via Eventbrite and Stripe), private company workshops run $5,000-10,000, and successful workshops lead to custom AI implementation builds priced $25,000-50,000 (3-6 weeks of work) plus six-figure combined packages (assessment + workshop + build + retainer) for larger clients.",
+    "best": "Someone who can genuinely build useful AI workflows or agents (or is confident they can learn to), comfortable speaking to a room and running a training session, and willing to treat the workshop as market research for what to build next rather than the main product.",
+    "truth": "The core ladder logic \u2014 cheap public workshop proves your teaching and builds a track record, which unlocks higher-ticket private company workshops and custom builds \u2014 is a sound, low-risk way to enter AI consulting without an existing audience or client base. The presenter is candid that pricing and packaging is still being actively experimented with even after months of doing this, so expect genuine trial and error rather than a fixed playbook, and the real skill required is workflow-building competence, not just workshop delivery.",
+    "url": "https://youtu.be/Nzy1a-IDzFA",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ]
+  },
+  {
     "id": "freelance-graphic-design",
     "name": "Freelance graphic design",
     "category": "Marketing & content",
@@ -3438,6 +3461,28 @@
     "url": "https://www.youtube.com/watch?v=Kim-esfsBUE",
     "situation_tags": [
       "Strictly in-home"
+    ]
+  },
+  {
+    "id": "amazon-wholesale-reselling",
+    "name": "Amazon wholesale reselling",
+    "category": "E-commerce",
+    "tags": [
+      "reselling",
+      "Amazon FBA",
+      "needs capital"
+    ],
+    "cost": "$3,000 to $5,000 minimum to start meaningfully",
+    "found": "Daejin Park",
+    "what": "Buy products at wholesale or distributor pricing, then list and sell them on Amazon FBA, earning the difference between your cost and the sale price.",
+    "pitch": "A real, detailed case is presented reaching $12 to $20 million a year in sales, with specific numbers on margins and overhead shared openly.",
+    "best": "Someone with real starting capital and the patience to navigate Amazon's seller policies and account management.",
+    "truth": "One of the more transparent accounts in this database, it includes a real downside, an account freeze from an intellectual-property complaint, rather than only the highlight numbers. This requires meaningful upfront capital and, in most cases, access to U.S. warehousing or fulfillment logistics.",
+    "url": "https://www.youtube.com/watch?v=8QkMRe_-Q6U",
+    "situation_tags": [
+      "E-commerce / fulfillment",
+      "Needs inventory storage",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -5338,6 +5383,29 @@
     "url": "https://www.youtube.com/watch?v=0nsO7S23SPM"
   },
   {
+    "id": "niche-expertise-ai-workshop-assessment-funnel",
+    "name": "Leveraging existing niche industry expertise into a cheap AI workshop and paid assessment funnel",
+    "category": "AI & automation",
+    "tags": [
+      "AI consulting",
+      "niche expertise",
+      "paid assessment",
+      "consulting funnel",
+      "Notebook LM"
+    ],
+    "cost": "Very low startup cost (an existing niche network/email list; AI tools for the deliverable)",
+    "found": "Corey Ganim",
+    "what": "Use existing deep knowledge of a specific industry (not AI or technical skill) to run a cheap, niche-specific AI workshop for that industry's professionals, then upsell attendees into a paid, personalized AI assessment (a written report plus a short AI-generated explainer video walking through their specific numbers and pain points), positioning the assessment as a self-serve blueprint they could implement themselves or hire the presenter's company to execute for a much larger retainer.",
+    "pitch": "The guest, an orthodontic-practice consultant with no coding or technical background, ran a $97 workshop (21 people, some at an early-bird $49 rate) teaching a simple 3-part filter for evaluating AI opportunities, then sold a $497-997 personalized assessment where he used Claude to generate a report and a short Notebook LM/Gemini explainer video referencing the client's specific numbers (e.g., an EBITDA target for a practice sale). One assessment client signed a $30,000, 6-month retainer after seeing the report, reasoning it was easier to pay him than spend 200 hours implementing it herself.",
+    "best": "Someone with genuine, established expertise and trust within a specific niche or industry (even without any AI or technical background), willing to package that trust into a structured workshop-then-assessment funnel.",
+    "truth": "The mechanic is a compelling example of how existing industry credibility, not technical skill, can be the actual unlock for AI consulting \u2014 the presenter is explicit he can't code and isn't a developer. The specific numbers ($97 workshop, $497 assessment, $30k retainer) reflect one strong case study from a coach's own student rather than a typical or guaranteed outcome, and success still depends on already having (or being willing to build) real credibility within a specific niche.",
+    "url": "https://youtu.be/lXYHFEVMxig",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ]
+  },
+  {
     "id": "ai-tools-assessment-service",
     "name": "The $999 AI tools assessment service",
     "category": "Local & professional services",
@@ -5399,25 +5467,26 @@
     "url": "https://www.youtube.com/watch?v=lnMznu4SAEs"
   },
   {
-    "id": "amazon-wholesale-reselling",
-    "name": "Amazon wholesale reselling",
+    "id": "blank-apparel-wholesale-arbitrage",
+    "name": "Blank apparel wholesale arbitrage for small clothing brands",
     "category": "E-commerce",
     "tags": [
-      "reselling",
-      "Amazon FBA",
-      "needs capital"
+      "wholesale",
+      "blank apparel",
+      "clothing brands",
+      "MOQ arbitrage",
+      "B2B"
     ],
-    "cost": "$3,000 to $5,000 minimum to start meaningfully",
+    "cost": "High startup cost (inventory purchased in bulk from factories; warehouse space required)",
     "found": "Daejin Park",
-    "what": "Buy products at wholesale or distributor pricing, then list and sell them on Amazon FBA, earning the difference between your cost and the sale price.",
-    "pitch": "A real, detailed case is presented reaching $12 to $20 million a year in sales, with specific numbers on margins and overhead shared openly.",
-    "best": "Someone with real starting capital and the patience to navigate Amazon's seller policies and account management.",
-    "truth": "One of the more transparent accounts in this database, it includes a real downside, an account freeze from an intellectual-property complaint, rather than only the highlight numbers. This requires meaningful upfront capital and, in most cases, access to U.S. warehousing or fulfillment logistics.",
-    "url": "https://www.youtube.com/watch?v=8QkMRe_-Q6U",
+    "what": "Buy blank apparel (t-shirts, hoodies, sweat sets) directly from overseas factories at bulk minimum-order-quantity pricing (often 5,000+ pieces), then resell it in small quantities \u2014 even a single piece \u2014 to people and small clothing brands who want to print their own designs but can't meet a factory's MOQ themselves, capturing the price difference between bulk and single-unit pricing.",
+    "pitch": "The presenter's company does roughly $12 million a year selling blanks this way, buying in bulk (5,000-piece minimums) directly from factories in China and Bangladesh and reselling to anyone from individual buyers of a single shirt up to established clothing brands, at wholesale-adjacent pricing that's still profitable at volume. He describes margins varying wildly by product (some items making just $2.50 per unit, others far more), with the real business model built on cash flow through consistent volume (roughly $20,000-60,000 in daily sales) rather than high per-unit margins.",
+    "best": "Someone with access to real capital for bulk inventory purchases and warehouse space, comfortable operating a physical, inventory-heavy business with long lead times (6 months to a year from factory order to delivery).",
+    "truth": "This is a genuine, scaled business model, but it's meaningfully more capital- and operations-intensive than most entries in this database \u2014 it requires real warehouse space, significant upfront inventory investment, and 6-12 month lead times on ordering, plus the presenter is candid that despite $12 million in revenue, the business often sits close to zero cash on hand because nearly everything gets reinvested into the next container of inventory and tax obligations.",
+    "url": "https://www.youtube.com/watch?v=PzQNzuSOvFQ",
     "situation_tags": [
-      "E-commerce / fulfillment",
       "Needs inventory storage",
-      "Requires equipment/vehicle investment"
+      "Requires hiring or managing others"
     ]
   },
   {
@@ -6488,6 +6557,28 @@
     ]
   },
   {
+    "id": "ig-reel-templates-etsy-claude-higgfield",
+    "name": "Instagram Reel/UGC-style video template packs sold on Etsy, researched and built with Claude and Higgfield MCP",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy digital products",
+      "Instagram templates",
+      "Claude MCP",
+      "UGC content",
+      "cold email outreach"
+    ],
+    "cost": "Very low startup cost (Etsy listing fees, Claude access, and a Higgfield subscription for AI video generation)",
+    "found": "Luna Vega",
+    "what": "Research already-selling Instagram Reel template packs on Etsy using Claude to identify why a bestseller converts and generate a ranked list of underserved adjacent niches, then build a new template pack for one of those gaps entirely inside Claude using the Higgfield MCP (an AI video generation tool) to produce UGC-style video content without switching between apps, and sell it both passively on Etsy and actively via personalized cold email outreach (a free watermarked sample per prospect) and building an audience on Threads.",
+    "pitch": "The presenter demonstrates the full research-to-build pipeline live: a specific Claude prompt analyzes a bestselling Etsy template pack's reviews and conversion reasons, then generates 10 adjacent underserved niches to explore, landing on a holiday-season content pack gap. She frames the real differentiator as building higher-end, UGC-styled content per niche rather than generic \"AI slop\" bundles, and recommends supplementing passive Etsy sales with direct cold email outreach to small creators/businesses (offering a personalized watermarked sample, potentially upselling to a monthly content subscription) and building an audience on Threads, which she describes as still under-competitive compared to Instagram or TikTok.",
+    "best": "Someone comfortable using AI tools for both research and content creation, willing to do the harder distribution work (cold outreach, building a Threads presence) rather than relying on Etsy's own traffic alone.",
+    "truth": "The research method (using Claude to reverse-engineer why a listing converts and surface adjacent niches) is a genuinely useful, systematic approach to product research beyond guesswork. The presenter is candid that Etsy success requires real skill in thumbnails, keywords, and differentiation that takes practice to develop, and that passive listing alone is a slow path \u2014 the cold email and Threads distribution methods she recommends require real ongoing outreach effort, not just uploading a product.",
+    "url": "https://www.youtube.com/watch?v=9GMfP5ypec4",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "personal-brand-content-high-ticket-mentorship",
     "name": "Personal-brand content channel selling a high-ticket mentorship program",
     "category": "Content & personal brand",
@@ -7461,6 +7552,29 @@
     "url": "https://www.youtube.com/watch?v=5bAt8h1x_5c",
     "situation_tags": [
       "Strictly in-home"
+    ]
+  },
+  {
+    "id": "sell-before-teach-over-40-content-strategy",
+    "name": "\"Sell before you teach\" content strategy for building a coaching business around decades of professional experience",
+    "category": "Content & personal brand",
+    "tags": [
+      "coaching business",
+      "content strategy",
+      "personal brand",
+      "older audience niche",
+      "consulting"
+    ],
+    "cost": "Very low startup cost (a phone to record content; no equipment or audience required to start)",
+    "found": "Steven Thompson",
+    "what": "Build a coaching or consulting business around decades of existing professional experience by selling directly to a small number of clients before creating any public content at all, then use content afterward not to teach complete how-to tutorials for free, but to share stories and insights that shift how an audience thinks about a problem \u2014 reserving the actual step-by-step implementation for a paid product \u2014 while targeting a specific type of person (e.g., people over 40 with an established career) rather than a narrow topic niche.",
+    "pitch": "The presenter, a former police detective, cites a client named Rose, a travel consultant in her early 60s, who signed 6 clients at $2,500 each ($15,000 in her first month) before ever posting a single video, using her decades of niche expertise directly as the product. He also shares his own numbers: videos averaging around 400 views generated a $24,000 course launch, arguing that a small, already-convinced audience converts better than a large, undecided one, and that stopping full free tutorials (in favor of story-driven, belief-shifting content) grew his business more than teaching everything for free ever did.",
+    "best": "Someone with substantial real-world professional experience (particularly people mid-career or later) who's willing to sell directly to a small initial audience via outreach rather than waiting to build a following first.",
+    "truth": "The core reframes here \u2014 that experience itself can be the product regardless of content or audience size, and that giving away complete tutorials can undercut sales by resolving the very problem someone would pay to have solved \u2014 are genuinely useful correctives to common \"just give away free value\" content advice. The specific numbers describe strong individual examples (Rose's zero-video $15k month, the presenter's own 400-view/$24k launch) rather than typical outcomes, and the video is built toward promoting the presenter's own paid \"YouTube business action plan\" product.",
+    "url": "https://www.youtube.com/watch?v=dIu31c1aMmY",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
     ]
   },
   {
