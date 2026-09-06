@@ -3724,6 +3724,48 @@
     ]
   },
   {
+    "id": "faceless-ai-explainer-competitor-modeling",
+    "name": "Faceless AI explainer-video YouTube channel using competitor-modeling and AI production tools",
+    "category": "Content & personal brand",
+    "tags": [
+      "YouTube",
+      "AI tools",
+      "faceless",
+      "explainer videos"
+    ],
+    "cost": "Low startup cost (free tools; paid AI tool optional)",
+    "found": "E'Calm",
+    "what": "Building a faceless YouTube channel using AI tools to post explainer-style videos in a chosen niche, monetized through standard YouTube ad revenue.",
+    "pitch": "The presenter argues most beginners fail because of weak channel trust signals, so recommends rebranding an old channel or properly optimizing a new one's SEO settings before posting. The core method is finding proven ideas by studying two or more competitor channels' top-performing videos, checking total views and views-per-hour to confirm the topic still has real demand, then using an AI tool to generate a script modeled on competitors' structure and pacing, an AI voiceover, and AI-generated visuals timed to the voiceover's natural pauses.",
+    "best": "Someone comfortable following a fairly technical, multi-tool AI workflow and willing to research proven-idea patterns from competitor channels rather than inventing original content from scratch.",
+    "truth": "The presenter shows on-screen analytics claiming over $35,000 in the last 28 days and averaging around $31,000 a month, but these are self-reported dashboard screenshots, not independently verified. The video is careful to frame the method as modeling a competitor's proven structure and pacing rather than copying their actual video, though the line between the two is something a viewer should judge for themselves. The channel-trust and SEO advice covered is standard, legitimate YouTube practice.",
+    "url": "https://www.youtube.com/watch?v=Hvl8CdsbtrA",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "high-ticket-coaching-program-youtube-roadmap",
+    "name": "Building a high-ticket group coaching program from an existing YouTube channel",
+    "category": "Local & professional services",
+    "tags": [
+      "coaching",
+      "YouTube",
+      "high-ticket offer",
+      "roadmap"
+    ],
+    "cost": "Varies (mostly time; low direct cost to start)",
+    "found": "Ed Lawrence",
+    "what": "A roadmap for creators who already have a YouTube channel and audience in a health, wealth, relationship, or serious-hobbyist niche (music, photography, and similar) to build and launch a group coaching program: survey and interview your existing viewers to find their top three problems and the false beliefs stopping them from buying, then build an offer, pricing, and sales page copy directly around what that research reveals rather than guessing.",
+    "pitch": "Lawrence, who says he's generated eight figures from high-ticket programs and helped hundreds of creators with a claimed 90% success rate, illustrates the method with a real pivot: a client's planned generic \"productivity\" program was reshaped, after viewer surveys and calls revealed the audience was mostly high-pressure tech workers, into a program specifically about managing career pressure, which then sold out at over $5,000 per seat. He gives a specific readiness checklist (niche, comment engagement ratio, email list size and open rate, existing sales, and returning-viewer rate) and a concrete pricing tactic: start at a discounted \"founding member\" rate below your long-term target price to make the first launch feel less intimidating.",
+    "best": "An existing content creator with a genuine, engaged audience (even a small one, Lawrence stresses total view count matters less than returning-viewer loyalty) who's willing to do direct audience research before building anything, rather than assuming they already know what their viewers want.",
+    "truth": "Lawrence's headline outcomes (a program hitting $60K in six weeks, another reaching $100K/month in 120 days) are specific client examples he cites but doesn't independently document within the video itself, and he runs a paid tool and coaching offer that this video partly promotes. The core research method, surveys and calls to uncover real audience problems and objections before building an offer, is a general, independently applicable principle that doesn't require his specific program or tools to execute.",
+    "url": "https://www.youtube.com/watch?v=vF5lO5yPGUY",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "etsy-beauty-business-templates",
     "name": "Beauty-professional business templates on Etsy",
     "category": "Digital & subscription products",
@@ -4885,6 +4927,29 @@
     ]
   },
   {
+    "id": "ai-viral-hook-organic-instagram-dropshipping",
+    "name": "AI-designed viral video hooks for organic (non-paid) Instagram dropshipping content",
+    "category": "E-commerce",
+    "tags": [
+      "dropshipping",
+      "Instagram marketing",
+      "AI hook generation",
+      "organic traffic",
+      "Claude automation"
+    ],
+    "cost": "Low startup cost (a free AI hook-generation tool; a video generation tool subscription for full video production)",
+    "found": "Ali Akbar | White-Label Ecommerce",
+    "what": "Drive traffic to a dropshipping store entirely through organic Instagram video posts rather than paid ads, by using a custom AI tool (built on Claude) trained on six psychological hook patterns (curiosity, loss aversion, identity resonance, pattern disruption, social friction, conspiracy) to generate a short, attention-grabbing opening for a product video, then combining that AI-generated hook with real product demonstration footage to produce a video designed to go viral without any ad spend.",
+    "pitch": "The presenter analyzes a real Instagram dropshipping account (109,000 followers) that generated 6.3 million views on a single AI-hook-plus-real-footage video, driving traffic directly to their store with zero paid advertising, and demonstrates live building a similar hook for a different product (a neck fan) using his free AI tool, copying product details and images from a supplier listing into the tool to generate a ready-to-use video concept in minutes.",
+    "best": "Someone running or starting a dropshipping store who wants to avoid the cost and risk of paid advertising, comfortable using AI tools to systematize video hook creation across many products.",
+    "truth": "The specific psychological hook framework and the AI-plus-real-footage combination (rather than fully AI-generated video, which the presenter notes performs worse once audiences suspect it) reflect a genuinely more nuanced understanding of what currently works on Instagram than generic \"just post videos\" advice. The single 6.3-million-view example is a standout case, not a typical result, and organic reach on any platform can change unpredictably as algorithms shift.",
+    "url": "https://www.youtube.com/watch?v=vXRZW6eWZDY",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
     "id": "amazon-kdp-medium-content-validation-system",
     "name": "A data-driven validation system for medium and high-content Amazon KDP books",
     "category": "Digital & subscription products",
@@ -5939,22 +6004,23 @@
     ]
   },
   {
-    "id": "faceless-ai-explainer-competitor-modeling",
-    "name": "Faceless AI explainer-video YouTube channel using competitor-modeling and AI production tools",
+    "id": "faceless-shorts-viral-clip-repurposing-reaction-edit",
+    "name": "Faceless YouTube Shorts channel built by repurposing viral clips with reaction-style editing",
     "category": "Content & personal brand",
     "tags": [
-      "YouTube",
-      "AI tools",
-      "faceless",
-      "explainer videos"
+      "YouTube Shorts",
+      "faceless content",
+      "reaction editing",
+      "CapCut",
+      "algorithm optimization"
     ],
-    "cost": "Low startup cost (free tools; paid AI tool optional)",
+    "cost": "Very low startup cost (CapCut is free; an AI tool for caption removal, roughly $7-10/month)",
     "found": "E'Calm",
-    "what": "Building a faceless YouTube channel using AI tools to post explainer-style videos in a chosen niche, monetized through standard YouTube ad revenue.",
-    "pitch": "The presenter argues most beginners fail because of weak channel trust signals, so recommends rebranding an old channel or properly optimizing a new one's SEO settings before posting. The core method is finding proven ideas by studying two or more competitor channels' top-performing videos, checking total views and views-per-hour to confirm the topic still has real demand, then using an AI tool to generate a script modeled on competitors' structure and pacing, an AI voiceover, and AI-generated visuals timed to the voiceover's natural pauses.",
-    "best": "Someone comfortable following a fairly technical, multi-tool AI workflow and willing to research proven-idea patterns from competitor channels rather than inventing original content from scratch.",
-    "truth": "The presenter shows on-screen analytics claiming over $35,000 in the last 28 days and averaging around $31,000 a month, but these are self-reported dashboard screenshots, not independently verified. The video is careful to frame the method as modeling a competitor's proven structure and pacing rather than copying their actual video, though the line between the two is something a viewer should judge for themselves. The channel-trust and SEO advice covered is standard, legitimate YouTube practice.",
-    "url": "https://www.youtube.com/watch?v=Hvl8CdsbtrA",
+    "what": "Build a faceless YouTube Shorts channel by finding already-viral videos from other platforms (using an AI research agent to surface high-engagement clips), adding substantive value through reaction text, commentary, and edited pacing (required to satisfy YouTube's reused-content policy), then optimizing the channel's early upload behavior to avoid getting stuck in a low-view \"seed audience\" trap that new or mismatched channels fall into.",
+    "pitch": "The presenter grew a channel to over 2 million subscribers and a billion views in 5 months using only 30 videos, and describes a second channel in the same niche reaching 300,000 subscribers with the same system, with the two channels averaging $1,000 and $7,000/month respectively. He explains the specific algorithm mechanic: new channels get tested with a small \"seed audience\" of a few thousand people, and if early videos don't perform with that specific test group, the channel can get stuck getting near-zero views \u2014 fixed by rebranding an old channel with under 200 subscribers, using an aged Google account, and optimizing channel keywords before the first upload.",
+    "best": "Someone comfortable with detailed short-form video editing (CapCut) who's willing to research and substantially rework existing viral content rather than creating fully original videos.",
+    "truth": "The specific \"seed audience\" and channel-optimization mechanics described are more concrete and technically detailed than most faceless-content advice, and the legal distinction the presenter draws (adding substantive commentary/modification to satisfy YouTube's reused-content policy, not just re-uploading) is an important, often-skipped compliance detail. The revenue figures are self-reported, and repurposing others' viral content \u2014 even with modification \u2014 carries real platform-policy risk if the added value is judged insufficient, which is a judgment call YouTube makes case by case.",
+    "url": "https://youtu.be/X5u50PrADM8",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -5999,22 +6065,23 @@
     ]
   },
   {
-    "id": "high-ticket-coaching-program-youtube-roadmap",
-    "name": "Building a high-ticket group coaching program from an existing YouTube channel",
-    "category": "Local & professional services",
+    "id": "buyer-focused-youtube-ideation-splintering-system",
+    "name": "Buyer-focused YouTube content ideation system using dollar-per-view tracking and \"splintering\"",
+    "category": "Marketing & content",
     "tags": [
-      "coaching",
-      "YouTube",
-      "high-ticket offer",
-      "roadmap"
+      "YouTube marketing",
+      "content strategy",
+      "sales tracking",
+      "video ideation",
+      "existing business growth"
     ],
-    "cost": "Varies (mostly time; low direct cost to start)",
+    "cost": "Low startup cost (a sales-tracking tool like RevTrack; no cost beyond existing content production)",
     "found": "Ed Lawrence",
-    "what": "A roadmap for creators who already have a YouTube channel and audience in a health, wealth, relationship, or serious-hobbyist niche (music, photography, and similar) to build and launch a group coaching program: survey and interview your existing viewers to find their top three problems and the false beliefs stopping them from buying, then build an offer, pricing, and sales page copy directly around what that research reveals rather than guessing.",
-    "pitch": "Lawrence, who says he's generated eight figures from high-ticket programs and helped hundreds of creators with a claimed 90% success rate, illustrates the method with a real pivot: a client's planned generic \"productivity\" program was reshaped, after viewer surveys and calls revealed the audience was mostly high-pressure tech workers, into a program specifically about managing career pressure, which then sold out at over $5,000 per seat. He gives a specific readiness checklist (niche, comment engagement ratio, email list size and open rate, existing sales, and returning-viewer rate) and a concrete pricing tactic: start at a discounted \"founding member\" rate below your long-term target price to make the first launch feel less intimidating.",
-    "best": "An existing content creator with a genuine, engaged audience (even a small one, Lawrence stresses total view count matters less than returning-viewer loyalty) who's willing to do direct audience research before building anything, rather than assuming they already know what their viewers want.",
-    "truth": "Lawrence's headline outcomes (a program hitting $60K in six weeks, another reaching $100K/month in 120 days) are specific client examples he cites but doesn't independently document within the video itself, and he runs a paid tool and coaching offer that this video partly promotes. The core research method, surveys and calls to uncover real audience problems and objections before building an offer, is a general, independently applicable principle that doesn't require his specific program or tools to execute.",
-    "url": "https://www.youtube.com/watch?v=vF5lO5yPGUY",
+    "what": "For an existing business already selling something, replace the common practice of copying whatever gets views on YouTube with a 5-step system: survey your actual buyers about their top struggles, track dollar-per-view (not just views) on every video you publish using a tool like RevTrack to find which topics already generate sales, take any video with unusually high dollar-per-view and \"splinter\" it into a deeper, standalone video on that specific sub-topic, use your buyers' actual priorities (not generic view-getting topics) as a filter (a \"buyer lens\") when adapting ideas from other successful channels, and repeat the highest-converting patterns rather than constantly inventing new topics.",
+    "pitch": "The presenter cites one video that generated $50,000 from just 12,000 views by applying this system, and describes \"splintering\" a passing mention of a concept (warm audience depletion) into its own deep-dive video that went on to generate $94,000. He contrasts this with traditional idea-copying (finding a popular video in your space and remaking it), which he argues actively repels serious buyers by only attracting complete beginners chasing views rather than results.",
+    "best": "Someone who already has an existing offer or business and uses YouTube for sales rather than ad revenue, comfortable tracking sales data per video rather than just view counts.",
+    "truth": "The core insight \u2014 track revenue per video, not views, and systematically expand on whatever topics already convert \u2014 is a genuinely more rigorous approach than most content-ideation advice, and the \"splintering\" technique (turning a proven passing mention into a full video) is a specific, reusable tactic. This system assumes you already have paying customers to survey and existing sales data to track, so it's most useful as a growth technique for an established offer, not a way to start a business from zero, and the video promotes the presenter's own free masterclass as a lead magnet.",
+    "url": "https://youtu.be/KzZHowQbQnU",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -8116,6 +8183,28 @@
     "best": "A true beginner who hasn't shipped a digital product before and wants a specific, ordered sequence to follow rather than a general overview, particularly useful for someone who already has some specific expertise or experience others would pay to learn.",
     "truth": "This is presented as a free course by ThriveCart, a checkout and delivery platform, so the entire pipeline (including the checkout and delivery lesson) is naturally built around promoting ThriveCart's own product, worth knowing even though the broader idea-to-launch sequence doesn't strictly require that specific tool. The $3 million claim is the presenter's own background and isn't demonstrated step-by-step within this video, which focuses on the process rather than proving the presenter's own numbers.",
     "url": "https://www.youtube.com/watch?v=OJkTbvXZYPc",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "ai-avatar-ugc-video-creation-tribe-app",
+    "name": "AI-avatar UGC video creation for brands via the Tribe app",
+    "category": "Content & personal brand",
+    "tags": [
+      "UGC content",
+      "AI avatar",
+      "Tribe app",
+      "faceless content",
+      "per-video gig pay"
+    ],
+    "cost": "Free to start (a UGC-matching app; an AI avatar/video generation tool for the faceless version)",
+    "found": "Tiger Insight",
+    "what": "Sign up on a UGC-matching app (Tribe) that connects everyday people with brands needing short-form ad-style video content, then instead of filming yourself, generate an AI avatar from a single photo of yourself and use it to produce short (15-30 second) UGC-style videos in various settings for brands, getting paid per video (the presenter cites a $300-2,000 range per video) without needing camera equipment, a set, or being on camera personally.",
+    "pitch": "The presenter reports earning over $1,000 from just five video gigs on the app entirely using the AI-avatar method, framing it as accessible to camera-shy beginners with no video equipment, and walks through the full signup and profile-setup process including selecting content categories and committing to a monthly video-output volume, which he notes AI content can meet far more easily than filming yourself.",
+    "best": "Someone comfortable using AI avatar/video generation tools who wants UGC-style gig income without being on camera personally or needing filming equipment.",
+    "truth": "This overlaps conceptually with other UGC-matching-platform entries already in the database, but the AI-avatar angle (letting someone entirely camera-shy participate, and scale to very high monthly video volume) is a genuine differentiator worth noting on its own. One important caution from the video itself: it suggests filling in placeholder details (birthdate, location) during signup, but the presenter also states plainly that if your account details don't match your real ID during any verification, you can be locked out and lose access to money already earned \u2014 so using accurate personal information, not the placeholder shortcuts shown, is the safer approach despite what's demonstrated in the video.",
+    "url": "https://youtu.be/bmZfuPeC9Qo",
     "situation_tags": [
       "Strictly in-home"
     ]
