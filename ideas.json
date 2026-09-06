@@ -2925,6 +2925,26 @@
     ]
   },
   {
+    "id": "youtube-coaching-niche-experts",
+    "name": "Coaching existing YouTubers on monetization and growth",
+    "category": "Marketing & content",
+    "tags": [
+      "coaching",
+      "YouTube",
+      "needs existing expertise"
+    ],
+    "cost": "Low startup cost, needs your own credibility",
+    "found": "Shane Hummus",
+    "what": "Coach existing YouTubers who already have an audience and expertise, in this case a creator teaching the Amazon KDP publishing model, on monetization, operations, and hiring, packaged as a paid course plus coaching program.",
+    "pitch": "In a named, on-camera case study, Hummus describes taking his client Sean's channel from around 100,000 subscribers to over 300,000, more than tripling AdSense income to $22,000 a month, growing course revenue to over $500,000 a month, and landing a single affiliate commission of $73,000 along the way.",
+    "best": "Someone who already has real, demonstrable expertise in a specific area of business or content growth to coach others in, since this model depends entirely on already having that credibility.",
+    "truth": "This is Hummus's own paying client, interviewed together on camera, which is a stronger transparency signal than a third-party retelling, but it's still a single promotional case study from the coach's own business, not an independently audited result. Building a coaching business requires you to already have real expertise in a specific niche, which isn't something this idea creates for you.",
+    "url": "https://www.youtube.com/watch?v=Ofh6AVp0k9E",
+    "situation_tags": [
+      "Home office, client-facing"
+    ]
+  },
+  {
     "id": "outbound-lead-generation-service-gemini-segmentation",
     "name": "Outbound lead generation service using AI-assisted market segmentation",
     "category": "Marketing & content",
@@ -4061,6 +4081,49 @@
     ]
   },
   {
+    "id": "ai-client-acquisition-roadmap-claude",
+    "name": "Landing your first AI consulting client using Claude",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "consulting",
+      "client acquisition",
+      "low startup cost",
+      "roadmap"
+    ],
+    "cost": "Low startup cost",
+    "found": "Patrick Dang",
+    "what": "This isn't a single business idea so much as a general roadmap for getting your first paying client for any AI-powered service, using Claude as the core tool. The framework covers picking a niche, building a personal brand through content (Dang recommends YouTube or similar), and reaching out to or attracting potential clients, whether or not you have any prior experience or portfolio.",
+    "pitch": "Dang argues the opportunity is still early: by his account, less than 1% of the world's population has even downloaded Claude, so anyone building real skill with it now has a head start on the market. He points to one of his clients, Sandy, a full-time insurance salesperson with three kids and no AI background, who he says grew a YouTube channel to over 36,000 subscribers and built an AI side business earning over $30,000 a month within about 5-6 months, all while keeping her day job.",
+    "best": "A total beginner to AI consulting who's willing to invest in building a public presence (content, a personal brand) rather than someone looking for a purely behind-the-scenes, no-audience path to clients.",
+    "truth": "Worth knowing upfront: this video is a funnel into Dang's own paid three-day live training program, and it includes a fairly heavy sales pitch for that program partway through, complete with a mention of live sales role-play coaching as part of the paid offer. The Sandy case study is specific and named, which is a good transparency signal, but it's a single example, not an audited track record across many clients. The core advice, pick a niche, build in public, use content to attract inbound interest, is genuinely sound and echoes what other creators in this database (Tilbury, Gadzhi) also recommend for AI service businesses.",
+    "url": "https://www.youtube.com/watch?v=DuOolRhG2UY",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "ai-niche-lock-playbook",
+    "name": "The one-year AI niche lock-in playbook",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "roadmap",
+      "content creation",
+      "beginner friendly"
+    ],
+    "cost": "Low startup cost",
+    "found": "Sabrina Ramonov",
+    "what": "A strategy framework, not one specific business: pick a single narrow area within AI, commit to learning only that area for three months without monetizing, then spend a full year building a public audience and offer around it before switching to anything else.",
+    "pitch": "Ramonov, who previously built and sold an AI company, argues that most people fail not from picking the wrong niche but from switching niches too early; she cites one entrepreneur who went from zero to $50,000 a month in six months by building a focused community around one specific skill rather than a broad product.",
+    "best": "Someone early in exploring AI as a business who hasn't yet committed to one lane, and who's willing to build in public through content for a sustained period before expecting income.",
+    "truth": "This overlaps conceptually with the existing \"Landing your first AI consulting client using Claude\" roadmap entry already in the database, both push pick-a-niche-and-build-in-public advice. This version's distinguishing piece is the explicit one-year commitment framework and the three-month no-monetization learning period, a specific, checkable claim rather than vague encouragement. Results depend heavily on consistency and the specific niche chosen, neither of which the video can guarantee.",
+    "url": "https://www.youtube.com/watch?v=WvsWbgE_kWg",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "ai-seo-consulting-upwork",
     "name": "AI SEO consulting sourced through Upwork",
     "category": "Marketing & content",
@@ -4121,23 +4184,25 @@
     ]
   },
   {
-    "id": "youtube-coaching-niche-experts",
-    "name": "Coaching existing YouTubers on monetization and growth",
-    "category": "Marketing & content",
+    "id": "youtube-side-income-claude-scripting",
+    "name": "Part-time YouTube channel in your existing expertise, scripted with Claude",
+    "category": "Content & personal brand",
     "tags": [
-      "coaching",
       "YouTube",
-      "needs existing expertise"
+      "content creation",
+      "AI tools",
+      "side income",
+      "low startup cost"
     ],
-    "cost": "Low startup cost, needs your own credibility",
+    "cost": "Very low startup cost (phone or webcam, AI subscription)",
     "found": "Shane Hummus",
-    "what": "Coach existing YouTubers who already have an audience and expertise, in this case a creator teaching the Amazon KDP publishing model, on monetization, operations, and hiring, packaged as a paid course plus coaching program.",
-    "pitch": "In a named, on-camera case study, Hummus describes taking his client Sean's channel from around 100,000 subscribers to over 300,000, more than tripling AdSense income to $22,000 a month, growing course revenue to over $500,000 a month, and landing a single affiliate commission of $73,000 along the way.",
-    "best": "Someone who already has real, demonstrable expertise in a specific area of business or content growth to coach others in, since this model depends entirely on already having that credibility.",
-    "truth": "This is Hummus's own paying client, interviewed together on camera, which is a stronger transparency signal than a third-party retelling, but it's still a single promotional case study from the coach's own business, not an independently audited result. Building a coaching business requires you to already have real expertise in a specific niche, which isn't something this idea creates for you.",
-    "url": "https://www.youtube.com/watch?v=Ofh6AVp0k9E",
+    "what": "Start a YouTube channel in a niche built around your existing job, expertise, or life experience, nursing, HVAC, cybersecurity, whatever you already know, while keeping your day job, using Claude to compress scriptwriting into small pockets of spare time like lunch breaks and commutes instead of the hours it used to take.",
+    "pitch": "Hummus frames the whole plan as roughly four hours a week: about an hour once a month brainstorming video ideas with Claude, short lunch-break sessions talking through and polishing scripts, a single batch-recording session, and a short publishing session, arguing that AI collapsed what used to require a researcher, writer, strategist, and marketer into one $20-a-month tool. He backs this with several named case studies from his own community; his brother, a 50-year-old HVAC business owner, reportedly went from zero to over $18,000 in a month within his first month of posting.",
+    "best": "Someone with real existing knowledge or experience in a specific field who's willing to treat this as a slow-burn asset rather than a fast payout, and who has small pockets of otherwise-idle time to work with.",
+    "truth": "The named examples throughout the video are specific and checkable in principle, a decent transparency signal, but they're all self-reported figures from the presenter's own paid community, not independently verified. The video functions as a funnel into a free live training and, ultimately, a paid one-on-one mentorship program described as \"very expensive,\" worth knowing given how much of the video is built around these specific dollar-figure success stories.",
+    "url": "https://www.youtube.com/watch?v=qmostTcgp0E",
     "situation_tags": [
-      "Home office, client-facing"
+      "Strictly in-home"
     ]
   },
   {
@@ -5851,6 +5916,29 @@
     "url": "https://www.youtube.com/watch?v=HOnelkClaDI"
   },
   {
+    "id": "ai-voice-assistant-real-estate-zillow-loom-pitch",
+    "name": "AI voice assistant for real estate agents, prospected via Zillow with a reusable demo",
+    "category": "AI & automation",
+    "tags": [
+      "AI voice agent",
+      "real estate",
+      "GoHighLevel",
+      "Zillow prospecting",
+      "Loom pitch"
+    ],
+    "cost": "Low startup cost (a GoHighLevel subscription and one phone number for the reusable demo)",
+    "found": "Don Bassler",
+    "what": "Build one reusable, generic AI voice assistant demo (using GoHighLevel's voice AI, trained on a fictional sample property) that answers buyer calls, captures leads, and demonstrates live-calendar showing bookings, then find real estate agents with multiple active listings on Zillow, pitch them with a short personal Loom video referencing their actual listing, and walk interested agents through the demo live over the phone before customizing the assistant with their real listings and calendar once they sign on (typically around $297-500+/month).",
+    "pitch": "The presenter frames the core insight as building the demo once rather than a custom assistant per prospect \u2014 one phone number, one generic sample property, reused across every pitch \u2014 since agents lose real money when a buyer call goes unanswered and moves to a competing agent. The outreach method is simple: find 20 agents with active Zillow listings, send each a 30-40 second Loom video referencing their specific listing, and demo the AI live over the phone once they show interest, converting to a customized paid setup only after they say yes.",
+    "best": "Someone comfortable with a moderate technical build (GoHighLevel's voice AI interface and prompt writing) and direct video-based cold outreach, who wants a scalable one-to-many pitch rather than building a custom product per prospect.",
+    "truth": "The reusable-demo-first architecture is a genuinely smart way to avoid the common mistake of over-building before ever landing a client, and the specific $297+/month pricing and outreach script are concrete and actionable. This is a well-covered idea category in general (AI voice agents for real estate), but this creator's specific pricing, prospecting method, and demo-first build process are distinct enough to stand on their own \u2014 the video is also a funnel toward the presenter's own paid GoHighLevel affiliate link and course bundle.",
+    "url": "https://www.youtube.com/watch?v=Vzj1JbG4_D0",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ]
+  },
+  {
     "id": "faceless-ai-explainer-competitor-modeling",
     "name": "Faceless AI explainer-video YouTube channel using competitor-modeling and AI production tools",
     "category": "Content & personal brand",
@@ -7351,25 +7439,26 @@
     "url": "https://www.youtube.com/watch?v=fN_2c_LPfX0"
   },
   {
-    "id": "ai-client-acquisition-roadmap-claude",
-    "name": "Landing your first AI consulting client using Claude",
+    "id": "sell-existing-job-skill-ai-powered-service",
+    "name": "Packaging an existing job skill into an AI-powered service, sold before it's built",
     "category": "AI & automation",
     "tags": [
-      "AI tools",
-      "consulting",
-      "client acquisition",
-      "low startup cost",
-      "roadmap"
+      "skill packaging",
+      "AI consulting",
+      "cold outreach",
+      "Upwork",
+      "sell before you build"
     ],
-    "cost": "Low startup cost",
+    "cost": "Free to start (uses an existing Claude/AI subscription and skills already learned on the job)",
     "found": "Patrick Dang",
-    "what": "This isn't a single business idea so much as a general roadmap for getting your first paying client for any AI-powered service, using Claude as the core tool. The framework covers picking a niche, building a personal brand through content (Dang recommends YouTube or similar), and reaching out to or attracting potential clients, whether or not you have any prior experience or portfolio.",
-    "pitch": "Dang argues the opportunity is still early: by his account, less than 1% of the world's population has even downloaded Claude, so anyone building real skill with it now has a head start on the market. He points to one of his clients, Sandy, a full-time insurance salesperson with three kids and no AI background, who he says grew a YouTube channel to over 36,000 subscribers and built an AI side business earning over $30,000 a month within about 5-6 months, all while keeping her day job.",
-    "best": "A total beginner to AI consulting who's willing to invest in building a public presence (content, a personal brand) rather than someone looking for a purely behind-the-scenes, no-audience path to clients.",
-    "truth": "Worth knowing upfront: this video is a funnel into Dang's own paid three-day live training program, and it includes a fairly heavy sales pitch for that program partway through, complete with a mention of live sales role-play coaching as part of the paid offer. The Sandy case study is specific and named, which is a good transparency signal, but it's a single example, not an audited track record across many clients. The core advice, pick a niche, build in public, use content to attract inbound interest, is genuinely sound and echoes what other creators in this database (Tilbury, Gadzhi) also recommend for AI service businesses.",
-    "url": "https://www.youtube.com/watch?v=DuOolRhG2UY",
+    "what": "Identify a skill you already have from a current or past job (sales, copywriting, design, operations) that a business would pay to outsource, pitch that specific outcome directly to a potential client (via Upwork, LinkedIn, or cold outreach) before building anything, then use Claude to actually deliver the work once they've said yes and paid \u2014 rather than building a product or portfolio first and hoping someone buys it afterward.",
+    "pitch": "The presenter cites a client, Sandy, a former insurance sales manager with no AI or SEO background, who used a Loom video pitch (\"I saw your post on Upwork, here's my solution\") to land a $3,300/month SEO client with no portfolio or references, later increased to $5,500/month, then used that success to build a YouTube channel to 30,000 subscribers and $30,000/month. He also describes a client who sold AI-generated PowerPoint creation to a company paying humans thousands of dollars a month for the same work.",
+    "best": "Someone with a genuine, marketable skill from their current or past job who's comfortable pitching a specific outcome to a stranger before having a finished product or track record to show.",
+    "truth": "The core reframe \u2014 sell the outcome you already know how to produce before building a generic product speculatively \u2014 is a sound way to avoid wasted upfront effort, and the specific example (a non-technical hire landing a $3,300/month client via a short Loom pitch) is concrete and replicable in spirit. The case study figures are the presenter's own client results, not independently verified, and the video promotes a paid 3-day live training and a free \"Ikigai\" Claude tool as lead magnets alongside the free advice.",
+    "url": "https://www.youtube.com/watch?v=qsUksdDNbv0",
     "situation_tags": [
-      "Strictly in-home"
+      "Strictly in-home",
+      "Phone/sales-based"
     ]
   },
   {
@@ -7510,22 +7599,23 @@
     ]
   },
   {
-    "id": "ai-niche-lock-playbook",
-    "name": "The one-year AI niche lock-in playbook",
-    "category": "AI & automation",
+    "id": "30-day-personal-brand-launch-copy-proven-hooks",
+    "name": "30-day personal brand launch system built on copying proven video hooks before creating original content",
+    "category": "Content & personal brand",
     "tags": [
-      "AI tools",
-      "roadmap",
-      "content creation",
-      "beginner friendly"
+      "personal brand",
+      "content strategy",
+      "video hooks",
+      "TikTok",
+      "niche selection framework"
     ],
-    "cost": "Low startup cost",
+    "cost": "Free to start (just a smartphone; no equipment or editing software required)",
     "found": "Sabrina Ramonov",
-    "what": "A strategy framework, not one specific business: pick a single narrow area within AI, commit to learning only that area for three months without monetizing, then spend a full year building a public audience and offer around it before switching to anything else.",
-    "pitch": "Ramonov, who previously built and sold an AI company, argues that most people fail not from picking the wrong niche but from switching niches too early; she cites one entrepreneur who went from zero to $50,000 a month in six months by building a focused community around one specific skill rather than a broad product.",
-    "best": "Someone early in exploring AI as a business who hasn't yet committed to one lane, and who's willing to build in public through content for a sustained period before expecting income.",
-    "truth": "This overlaps conceptually with the existing \"Landing your first AI consulting client using Claude\" roadmap entry already in the database, both push pick-a-niche-and-build-in-public advice. This version's distinguishing piece is the explicit one-year commitment framework and the three-month no-monetization learning period, a specific, checkable claim rather than vague encouragement. Results depend heavily on consistency and the specific niche chosen, neither of which the video can guarantee.",
-    "url": "https://www.youtube.com/watch?v=WvsWbgE_kWg",
+    "what": "Choose a content niche using a three-circle framework (something you enjoy, something you're good at, and something people already spend money on), then for the first 17 videos, deliberately copy the exact opener/hook (word-for-word script, visual style, and delivery) from other creators' already-proven, high-view videos in that niche \u2014 swapping in your own specific content after the hook \u2014 before transitioning to fully original content once you've built intuition for what makes an opener work.",
+    "pitch": "The presenter, who grew to 3 million followers and sold her first AI company for over $10 million, argues that copying proven openers isn't cheating but is how most successful creators actually got their first wins, since a hook already getting hundreds of thousands of views has effectively been \"voted\" successful by a large audience; she recommends no special equipment (a phone's front camera and the TikTok app's built-in teleprompter feature are enough) and to treat the first 17 videos explicitly as a practice period rather than expecting immediate original success.",
+    "best": "Someone willing to be on camera and comfortable being explicitly imitative early on as a deliberate learning strategy, rather than feeling pressure to be original from video one.",
+    "truth": "The specific, unusually candid method (systematically copying proven hooks for a defined 17-video practice period, not \"be authentic\" platitudes) is a genuinely more actionable strategy than most creator-growth advice, and treating early videos as practice rather than a launch reduces the pressure that stops many people from starting. Growing to 3 million followers and an eight-figure exit represent an extreme outlier outcome, not a typical result, even if the specific tactic described is legitimately useful on its own.",
+    "url": "https://www.youtube.com/watch?v=TePQevG_Dgc",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -7678,23 +7768,23 @@
     ]
   },
   {
-    "id": "youtube-side-income-claude-scripting",
-    "name": "Part-time YouTube channel in your existing expertise, scripted with Claude",
+    "id": "niche-expertise-youtube-channel-vs-ai-slop",
+    "name": "Personal-brand YouTube channel built on decades of niche expertise, targeting niches currently dominated by low-quality AI content",
     "category": "Content & personal brand",
     "tags": [
-      "YouTube",
-      "content creation",
-      "AI tools",
-      "side income",
-      "low startup cost"
+      "personal brand",
+      "YouTube growth",
+      "niche expertise",
+      "AI-assisted scripting",
+      "course sales"
     ],
-    "cost": "Very low startup cost (phone or webcam, AI subscription)",
+    "cost": "Free to start (a laptop and a Claude subscription; no camera crew or equipment required)",
     "found": "Shane Hummus",
-    "what": "Start a YouTube channel in a niche built around your existing job, expertise, or life experience, nursing, HVAC, cybersecurity, whatever you already know, while keeping your day job, using Claude to compress scriptwriting into small pockets of spare time like lunch breaks and commutes instead of the hours it used to take.",
-    "pitch": "Hummus frames the whole plan as roughly four hours a week: about an hour once a month brainstorming video ideas with Claude, short lunch-break sessions talking through and polishing scripts, a single batch-recording session, and a short publishing session, arguing that AI collapsed what used to require a researcher, writer, strategist, and marketer into one $20-a-month tool. He backs this with several named case studies from his own community; his brother, a 50-year-old HVAC business owner, reportedly went from zero to over $18,000 in a month within his first month of posting.",
-    "best": "Someone with real existing knowledge or experience in a specific field who's willing to treat this as a slow-burn asset rather than a fast payout, and who has small pockets of otherwise-idle time to work with.",
-    "truth": "The named examples throughout the video are specific and checkable in principle, a decent transparency signal, but they're all self-reported figures from the presenter's own paid community, not independently verified. The video functions as a funnel into a free live training and, ultimately, a paid one-on-one mentorship program described as \"very expensive,\" worth knowing given how much of the video is built around these specific dollar-figure success stories.",
-    "url": "https://www.youtube.com/watch?v=qmostTcgp0E",
+    "what": "Build a YouTube channel around decades of real professional experience in a specific field, deliberately targeting topics where the current top-ranking content is low-quality \"AI slop\" (mass-produced, generic AI-narrated videos), using that weak competition as free market research and validation of demand, then use Claude (loaded with your niche, past video titles, and voice) as a co-writer to speed up scripting, and monetize the resulting audience through a course once trust is established.",
+    "pitch": "The presenter profiles a 60-year-old former nurse (33 years of patient-facing experience) who started a YouTube channel 9 months prior with no technical background, using Claude to help script videos, deliberately entering a niche already crowded with generic AI-narrated content and out-competing it with real, specific experience \u2014 she went from earning nothing from content to over $10,000 in a single month and was able to quit her nursing job.",
+    "best": "Someone with substantial real-world experience in a specific field who's willing to be on camera regularly, and comfortable using AI tools to speed up scripting rather than writing everything by hand.",
+    "truth": "The \"AI slop as free market research\" framing is a genuinely useful and somewhat counterintuitive way to pick a content niche \u2014 if a low-quality format is already getting views, it proves demand without proving the format can't be beaten by something better. The $10,000/month outcome represents a strong result reached after months of consistent output, not an overnight result, and the video funnels toward the presenter's own paid community and live training.",
+    "url": "https://www.youtube.com/watch?v=72QkMk1_Vmg",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -8301,6 +8391,29 @@
     "url": "https://www.youtube.com/watch?v=oF68RgdzRLE",
     "situation_tags": [
       "Strictly in-home"
+    ]
+  },
+  {
+    "id": "ai-tiktok-shop-bottom-funnel-content-system",
+    "name": "AI-generated TikTok Shop content system using proven \"bottom of funnel\" formats",
+    "category": "E-commerce",
+    "tags": [
+      "TikTok Shop",
+      "AI content generation",
+      "Kalodata",
+      "GMV Max",
+      "content automation"
+    ],
+    "cost": "Low startup cost (AI image/video generation tools like Google Flow/Nano Banana/Omniflash; a product research tool like Kalodata)",
+    "found": "ducrez",
+    "what": "Find already-viral, simple \"bottom of funnel\" TikTok Shop videos (short, low-production clips aimed at buyers who already know the product but haven't purchased yet), study their format and hook, then use AI image and video generation tools to recreate that exact proven format with a different product, without ever ordering, filming, or showing your face, taking advantage of TikTok's GMV Max ad system (which automatically pushes ad budget toward whichever creative gets the highest click-through rate) to scale winning content.",
+    "pitch": "The presenter says their community has generated seven figures in GMV this year using entirely AI-generated content, and demonstrates the full pipeline live: using a product research tool (Kalodata) to pull a product's base image, generating a styled product image with Google Flow's Nano Banana, then an AI video clip with Omniflash, and explains that consistency of format (not constant creative reinvention) combined with rapid product-swapping is what makes this scalable, eventually delegating the repetitive content-generation steps to a hired VA running the same automation.",
+    "best": "Someone willing to study and reverse-engineer already-successful TikTok Shop content rather than creating original formats, and comfortable using several AI generation tools together as a repeatable pipeline.",
+    "truth": "The specific mechanics described (GMV Max's click-through-rate-driven budget allocation, and the value of testing many simple videos over polishing a few) reflect real, current TikTok Shop advertising behavior and are more concretely actionable than most AI-content pitches. The $342,927 GMV figure is the presenter's own reported result, not independently verified, and this is a crowded, fast-moving space where formats that work today may saturate quickly.",
+    "url": "https://www.youtube.com/watch?v=puJkObRPQ6s",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
     ]
   },
   {
