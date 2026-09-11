@@ -1862,6 +1862,25 @@
     ]
   },
   {
+    "id": "ai-missed-call-textback-claude-twilio",
+    "name": "AI missed-call text-back system for home service and appointment businesses (Claude + Twilio)",
+    "category": "AI & automation",
+    "tags": [
+      "missed-call text-back",
+      "Claude",
+      "Twilio",
+      "home services",
+      "speed to lead"
+    ],
+    "cost": "Low startup cost (Claude access plus a Twilio account for sending/receiving texts)",
+    "found": "Automate AI Consulting",
+    "what": "Forward a home service business's existing phone number so any unanswered call within a few rings triggers an instant text reply (via Twilio) that answers the caller's likely question and offers a specific time to talk, using conversation logic written by Claude from the business's real pricing, service area, hours, and the five most common questions callers ask — sold standalone as its own dedicated product to plumbers, HVAC companies, electricians, roofers, and also medical/dental clinics and med spas.",
+    "pitch": "The sales pitch is built entirely on the client's own math: a business getting 30 inbound calls a week that misses a third of them, with even a modest 1-in-4 missed-call booking rate at a $600 average ticket, is losing roughly $6,000/month — a number that gets larger fast for services with high-ticket jobs (like an HVAC system replacement) where a single missed call's true cost is unknown. Priced at $1,000-3,000 setup plus $500-1,000/month, with a real example of replacing a client's $1,600/month outsourced call center, making the setup fee an easy comparison for the client to make.",
+    "best": "Someone comfortable with cold outreach to service businesses and willing to walk a prospect through their own missed-call math on the call rather than pitching features.",
+    "truth": "This uses the same missed-call-to-text mechanic found in several other bundled AI-agency offerings elsewhere in this database, but sold here as a standalone product with a specific build stack (Claude for conversation logic, Twilio for delivery) and a distinct instant-response, question-answering design rather than a generic \"sorry we missed you\" text. The stated ROI math is illustrative reasoning from the presenter, not a documented case study with verified before/after numbers for a named client.",
+    "url": "https://www.youtube.com/watch?v=tKBpMevDJO8"
+  },
+  {
     "id": "ai-trigger-based-sales-outreach",
     "name": "AI-personalized, trigger-based sales prospecting service",
     "category": "Local & professional services",
@@ -2032,6 +2051,25 @@
     "situation_tags": [
       "Strictly in-home"
     ]
+  },
+  {
+    "id": "valet-trash-bulk-waste-apartment-complexes",
+    "name": "Valet trash and bulk waste removal for apartment complexes",
+    "category": "Local & professional services",
+    "tags": [
+      "valet trash",
+      "apartment complex contracts",
+      "junk hauling",
+      "recurring B2B contract",
+      "multi-family housing"
+    ],
+    "cost": "Low startup cost (roughly $4,500 for a used hauling truck)",
+    "found": "HIDDEN WEALTH",
+    "what": "Walk the hallways of multi-family apartment complexes each evening collecting tied trash bags residents leave outside their doors (a service many complexes already charge residents a mandatory monthly fee for, often around $30/door) and haul them to the property's main dumpster, selling directly to property managers on a multi-year contract rather than to individual tenants; use standalone bulk item and junk hauling (old couches, mattresses, appliances tenants leave behind) as a faster-to-sell entry service that builds trust with property managers before pitching the larger recurring valet contract.",
+    "pitch": "The math scales with door count: a 400-unit complex charging residents $30/month for valet trash represents $12,000/month in revenue for a nightly task the presenter says takes under two hours. The illustrative account in the source video describes two operators who spent six months and 20 daily pitches with zero contracts before a property manager explained that nobody hands a multi-million-dollar property contract to unproven operators showing up in a borrowed truck — the fix was leading with smaller, faster-cash bulk-hauling jobs to build a track record and cash flow before ever pitching the long-term valet contract.",
+    "best": "Someone comfortable with physical nightly work and willing to spend real time building credibility with property managers before landing a first multi-year contract, rather than expecting an immediate yes.",
+    "truth": "This account reads as an illustrative story built around a named individual rather than an independently verifiable case study, so the specific dollar figures should be treated as representative rather than audited; the underlying business mechanic — a per-door recurring service sold to a property manager as one contract instead of one-off consumer sales — is a genuine, sound model consistent with how many multi-family service contracts work in practice. Landing that first contract without an established track record is a real, non-trivial hurdle, not a minor detail.",
+    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis"
   },
   {
     "id": "atm-machine-ownership",
@@ -2302,6 +2340,25 @@
     ]
   },
   {
+    "id": "ai-instant-quote-generator-contractors",
+    "name": "AI instant quote/estimate generator for contractors and other quote-first businesses",
+    "category": "AI & automation",
+    "tags": [
+      "instant quotes",
+      "Claude",
+      "contractor sales",
+      "customer-facing intake form",
+      "quote-to-booking"
+    ],
+    "cost": "Low startup cost (Claude access to build the pricing-rules document and intake form logic)",
+    "found": "Automate AI Consulting",
+    "what": "Convert a contractor or quote-based business's real pricing structure (base rates, labor, add-ons, often scattered across the owner's head and a personal spreadsheet) into a document Claude reads as pricing rules, then build a short 5-6 question customer-facing intake form whose answers feed those rules to generate a clean, branded estimate delivered by email same-day, with a booking link embedded directly in the estimate so the customer can convert immediately — sold to contractors, roofers, remodelers, landscapers, movers, and law firms who quote work before doing it.",
+    "pitch": "The sales math: a contractor sending 12 quotes a month and closing 3 who speeds up quote delivery from days to same-day can realistically close 2 more of those 12 (going from 3 to 5), which at a $2,500 average job is an extra $5,000/month — meaning a $2,000-4,000 build pays for itself within weeks. The underlying insight is that slow quote turnaround (the classic \"I'll get back to you\" that becomes a kitchen-table typing session at 9pm) loses jobs the contractor mistakenly attributes to being outbid on price.",
+    "best": "Someone targeting service businesses where quotes are genuinely customized (not fixed-price) and slow turnaround is a believable, provable pain point, comfortable extracting an owner's informal pricing logic into a structured document.",
+    "truth": "This is customer-facing (the end customer fills out the form and receives the estimate directly), which differs from a similar existing entry in this database built as an internal tool for a business's own employees to use — different mechanic, different buyer experience. The $5,000/month projected gain is the presenter's illustrative math from assumed conversion improvements, not a verified case study with a named client's actual before/after numbers.",
+    "url": "https://www.youtube.com/watch?v=tKBpMevDJO8"
+  },
+  {
     "id": "ai-content-repurposing-service",
     "name": "AI content repurposing service for local businesses",
     "category": "Marketing & content",
@@ -2516,6 +2573,25 @@
     ]
   },
   {
+    "id": "commercial-pressure-washing-per-sqft-pricing",
+    "name": "Commercial-focused pressure washing priced per square foot instead of per residential job",
+    "category": "Local & professional services",
+    "tags": [
+      "pressure washing",
+      "commercial exteriors",
+      "soft washing",
+      "per-square-foot pricing",
+      "before/after marketing"
+    ],
+    "cost": "Low to moderate startup cost (roughly $3,000 for a commercial-grade pressure washer, hoses, and extension wand)",
+    "found": "HIDDEN WEALTH",
+    "what": "Rather than competing on $100-200 residential driveway jobs, target commercial exteriors, parking garages, and roofs, pricing by square footage (roughly $0.25-0.50/sq ft) so a single commercial job can produce $1,500 or more in half a day, using proper soft-washing chemicals and low-pressure technique (rather than blasting everything at full pressure) to avoid property damage, and marketing with before/after photos and review requests after every job.",
+    "pitch": "The illustrative account describes a construction worker with 25 years of trade experience picking up the skill from a friend, investing about $3,000 in equipment, and immediately out-earning his prior day rate — but also describes a costly early mistake: using full water pressure without understanding proper chemical application blew out a seal and flooded a client's unit, an expensive lesson that led to properly learning soft-wash technique before taking on more commercial work.",
+    "best": "Someone willing to learn proper chemical/pressure technique before taking commercial jobs (the margin for error is real and costly), and interested in targeting business and property clients rather than only residential driveways.",
+    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. The commercial-versus-residential pricing distinction and the soft-washing safety lesson are genuine, checkable facts about the pressure washing trade independent of the narrative; property damage from improper technique is a real and documented risk in this industry, not just a dramatic plot point.",
+    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis"
+  },
+  {
     "id": "airbnb-rental-arbitrage",
     "name": "Short-term rental arbitrage (Airbnb without owning property)",
     "category": "Local & professional services",
@@ -2718,6 +2794,27 @@
     ]
   },
   {
+    "id": "aged-domain-first-strategy",
+    "name": "Buy aged/expired domains with existing traffic, then choose the monetization method",
+    "category": "Marketing & content",
+    "tags": [
+      "domains",
+      "SEO",
+      "affiliate marketing",
+      "strategy"
+    ],
+    "cost": "Domain purchases from under $50 to several thousand dollars each, plus an optional paid tool subscription",
+    "found": "affiliatemarketingmc",
+    "what": "Instead of picking a business model first (dropshipping, print-on-demand, AI agency, SaaS, faceless YouTube, Amazon FBA, affiliate marketing), buy an aged or expired domain via marketplaces like Spamzilla that already has organic search traffic, rankings, and backlinks in a real niche, then decide afterward what to sell to that ready-made audience.",
+    "pitch": "Argues every popular online 'business model' is really just a monetization method, and every one dies at the same point: lack of buyer traffic. Owning a domain that already has traffic and backlinks makes the eventual offer swappable and independent of any single platform or affiliate program change.",
+    "best": "Someone with some capital to invest in domain purchases and the research skill to vet a domain's real traffic and backlink quality before buying, who wants a ready-made audience rather than building one from zero.",
+    "truth": "The core insight — audience/traffic is the scarce asset, not the offer — is widely-held, credible online-marketing wisdom. Specific domain-valuation figures cited are third-party tool estimates the presenter himself caveats as not a guaranteed resale price. Buying an expired domain for its rankings/backlinks is an established but real-risk tactic: Google can devalue an old backlink profile after an ownership change, and some niches carry trademark risk, as the source itself flags for one example. The presenter's own paid tool and lead-gen notes page are promoted throughout.",
+    "url": "https://youtu.be/e0HXV2HeHpU",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "high-ticket-affiliate-marketing-selling-mechanisms",
     "name": "High-ticket digital product affiliate marketing via webinar, book-a-call, or nurture funnels",
     "category": "Marketing & content",
@@ -2868,6 +2965,25 @@
     "situation_tags": [
       "Strictly in-home"
     ]
+  },
+  {
+    "id": "ai-review-reply-voice-guide-approval-dashboard",
+    "name": "AI-drafted Google review replies with an owner voice-guide and approval dashboard",
+    "category": "AI & automation",
+    "tags": [
+      "review reply automation",
+      "Claude",
+      "AI search visibility",
+      "owner-approval workflow",
+      "local SEO"
+    ],
+    "cost": "Low startup cost (Claude access to build the voice guide and reply-drafting workflow)",
+    "found": "Automate AI Consulting",
+    "what": "Build a \"voice guide\" in Claude from a business's existing reviews and how the owner naturally talks, then have the system read each new incoming review, pull the specific detail the customer mentioned (a staff name, the exact service performed), and draft a personalized reply in the owner's voice — critically, no reply publishes automatically; each draft lands on a dashboard where the owner reviews and clicks approve before it goes live on Google, which is what makes owners comfortable saying yes and avoids platform risk.",
+    "pitch": "The sales hook leans on a cited 2026 survey finding that the share of people using AI assistants for local business recommendations jumped from 6% to 45% in a year, meaning unanswered reviews are increasingly the raw material AI tools cite when recommending (or not recommending) a business — while the same survey found generic templated replies (\"thanks for your feedback\" 50 times) actively turn off half of customers, which is the specific gap this service closes. A strong pre-call tactic: have Claude read a prospect's full review history and hand them a one-page summary of their top 5 complaints and top 5 praises before ever pitching anything, which most owners have never seen. Priced $500-1,500/month based on location count and review volume.",
+    "best": "Someone targeting multi-location or review-heavy local businesses, comfortable positioning the pre-call complaint/praise summary as a free diagnostic to open conversations.",
+    "truth": "A similar AI-drafted review-reply concept already exists in this database from a different producer at a flat $199/month; this version's distinguishing specifics are the owner-approval-before-publish workflow (a meaningful trust and platform-compliance safeguard) and the pre-call complaint/praise diagnostic as a sales tool. The cited survey statistic (6% to 45% AI-assistant usage) should be verified against the original Bright Local source rather than taken at face value, as exact figures from cited surveys are sometimes rounded or summarized loosely in marketing content.",
+    "url": "https://www.youtube.com/watch?v=tKBpMevDJO8"
   },
   {
     "id": "ai-internal-knowledge-base-smb",
@@ -3193,6 +3309,25 @@
     ]
   },
   {
+    "id": "airbnb-turnover-cleaning-property-portfolios",
+    "name": "Airbnb and short-term rental turnover cleaning service for property management portfolios",
+    "category": "Local & professional services",
+    "tags": [
+      "Airbnb cleaning",
+      "short-term rental turnover",
+      "property management contracts",
+      "recurring high-frequency service",
+      "team scaling"
+    ],
+    "cost": "Low startup cost (roughly $1,000 if you already have a working vehicle, or around $5,000 total including a vehicle and supplies)",
+    "found": "HIDDEN WEALTH",
+    "what": "Offer full turnover cleaning for short-term rental (Airbnb-style) properties — not just sweeping and wiping surfaces, but managing linens, restocking guest toiletries, and flagging maintenance issues — targeting property managers who oversee entire portfolios of listings needing service multiple times a week between every guest checkout, rather than standard residential cleaning clients who need service once every week or two.",
+    "pitch": "The illustrative account describes starting the service part-time on weekends alongside a full-time job before it outgrew that income within three months, then scaling by landing property-manager clients with 20-50 properties at once rather than pursuing homeowners one at a time; a single turnover clean is priced $150-400, and that rate multiplied across dozens of weekly turnovers compounds quickly with a hired team.",
+    "best": "Someone willing to build relationships with local property managers (who control access to many properties at once) rather than only marketing to individual homeowners, and comfortable eventually hiring and managing a cleaning team to handle the higher frequency this niche demands.",
+    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. The underlying structural insight — that turnover frequency (multiple cleanings per property per week) compounds revenue much faster than standard biweekly residential cleaning — is a genuine, checkable feature of the short-term rental market that doesn't depend on any one person's specific story.",
+    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis"
+  },
+  {
     "id": "pressure-washing-service",
     "name": "Residential pressure washing service",
     "category": "Local & professional services",
@@ -3437,22 +3572,21 @@
     ]
   },
   {
-    "id": "aged-domain-first-strategy",
-    "name": "Buy aged/expired domains with existing traffic, then choose the monetization method",
+    "id": "affiliate-offer-selection-by-epc",
+    "name": "Affiliate offer selection by earnings-per-click and audience fit, not headline commission",
     "category": "Marketing & content",
     "tags": [
-      "domains",
-      "SEO",
       "affiliate marketing",
-      "strategy"
+      "decision framework",
+      "EPC"
     ],
-    "cost": "Domain purchases from under $50 to several thousand dollars each, plus an optional paid tool subscription",
+    "cost": "Free to apply; a keyword-research tool (free or paid) is useful",
     "found": "affiliatemarketingmc",
-    "what": "Instead of picking a business model first (dropshipping, print-on-demand, AI agency, SaaS, faceless YouTube, Amazon FBA, affiliate marketing), buy an aged or expired domain via marketplaces like Spamzilla that already has organic search traffic, rankings, and backlinks in a real niche, then decide afterward what to sell to that ready-made audience.",
-    "pitch": "Argues every popular online 'business model' is really just a monetization method, and every one dies at the same point: lack of buyer traffic. Owning a domain that already has traffic and backlinks makes the eventual offer swappable and independent of any single platform or affiliate program change.",
-    "best": "Someone with some capital to invest in domain purchases and the research skill to vet a domain's real traffic and backlink quality before buying, who wants a ready-made audience rather than building one from zero.",
-    "truth": "The core insight — audience/traffic is the scarce asset, not the offer — is widely-held, credible online-marketing wisdom. Specific domain-valuation figures cited are third-party tool estimates the presenter himself caveats as not a guaranteed resale price. Buying an expired domain for its rankings/backlinks is an established but real-risk tactic: Google can devalue an old backlink profile after an ownership change, and some niches carry trademark risk, as the source itself flags for one example. The presenter's own paid tool and lead-gen notes page are promoted throughout.",
-    "url": "https://youtu.be/e0HXV2HeHpU",
+    "what": "A vetting framework for choosing which affiliate offer to promote to an existing or growing audience: does it solve a problem the audience already told you they have, does it match your traffic's 'temperature,' can you show it rather than just describe it, does it pay once or on repeat, and would you still recommend it if it paid nothing? Emphasizes tracking earnings-per-click (EPC) over chasing the highest advertised commission.",
+    "pitch": "Most beginners pick the highest-payout offer first and then hunt for traffic, which is backwards and explains dead affiliate links that never convert. The presenter's own biggest claimed payday (over $3M in one niche) came from a low per-conversion offer matched to a large volume of the right traffic, not a high-commission offer with little targeted traffic.",
+    "best": "Anyone already promoting or considering affiliate offers to an existing or growing audience, since this is a decision framework to apply rather than a standalone business to start.",
+    "truth": "This is a narrower, tactical companion to the same creator's audience-first philosophy taught elsewhere — kept as its own entry because the seven-question offer filter and EPC framing are a distinct, directly-applicable decision tool rather than a repeat of the domain-buying mechanic. The specific dollar figures cited are the presenter's own unaudited claims, though the general logic (match offer to audience intent, track EPC not sticker commission) is sound, standard practice.",
+    "url": "https://youtu.be/kLPu7zXZfqI",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -3821,6 +3955,25 @@
     "situation_tags": [
       "Strictly in-home"
     ]
+  },
+  {
+    "id": "ai-conversion-focused-website-rebuild-one-action",
+    "name": "Conversion-focused website rebuild built around one specific action, not a template",
+    "category": "AI & automation",
+    "tags": [
+      "website rebuild",
+      "conversion design",
+      "Claude",
+      "local business marketing",
+      "fast first sale"
+    ],
+    "cost": "Low startup cost (Claude access to generate the site)",
+    "found": "Automate AI Consulting",
+    "what": "Rebuild an outdated local-business website (the common pattern: an about page, services page, photo gallery from years ago, a phone number buried in the footer, zero bookings ever attributed to the site) by first defining the single action the page needs to produce for that specific business type, prompting Claude as a conversion-focused web designer with that goal and business type so it lays out section order around the goal before any design happens, then populating the copy from the business's real customer reviews rather than generic marketing language, with the booking link placed prominently.",
+    "pitch": "The presenter frames the common failure mode as starting from a template, which means starting from someone else's goal rather than this business's one needed action — the fix is goal-first design, not prettier design. Priced $1,500-3,000, and pitched as a strong first-sale offer specifically because it doesn't require having prior client work to show (unlike offers that need an existing portfolio).",
+    "best": "Someone new to selling AI-built services who needs a first client and doesn't yet have a portfolio, since this offer can be demonstrated with just the target business's own existing reviews and goal.",
+    "truth": "The goal-first (not template-first) design principle is sound web-design practice independent of which AI tool builds the site, and using a business's real reviews as ad copy is a legitimate way to make a rebuild feel authentic rather than generic. This is a distinct market segment problem (an existing but non-converting website) from most other AI-website entries in this database, which more often target businesses with no website at all.",
+    "url": "https://www.youtube.com/watch?v=tKBpMevDJO8"
   },
   {
     "id": "ai-landing-pages-framer-local",
@@ -4314,6 +4467,25 @@
     ]
   },
   {
+    "id": "epoxy-garage-floor-sell-before-buy-financing",
+    "name": "Epoxy garage floor coating funded by selling jobs before buying equipment",
+    "category": "Local & professional services",
+    "tags": [
+      "epoxy flooring",
+      "garage floor coating",
+      "bootstrap financing",
+      "deposit-funded equipment rental",
+      "high-margin trade service"
+    ],
+    "cost": "Moderate startup cost to learn (roughly $2,000 for manufacturer training) with equipment financed via client deposits rather than upfront purchase",
+    "found": "HIDDEN WEALTH",
+    "what": "Apply high-performance epoxy/polyaspartic coatings to garage concrete floors (grinding down the old surface, repairing cracks, then applying a decorative, chip-resistant finish that lasts 20-30 years), but bootstrap the expensive commercial equipment (a concrete grinder can cost over $20,000) by first landing paying clients through targeted local ad campaigns showing dramatic before/after transformations, collecting a 50% deposit upfront, and using those deposits to rent the grinding equipment day-by-day from a local supply shop rather than buying it outright — only purchasing owned equipment once enough client-funded profit has accumulated.",
+    "pitch": "A garage floor job typically takes a two-person team one day and homeowners pay $4,000-7,000 per garage given the finish's longevity, with the illustrative account citing about $1,800/month in ongoing truck-and-gear overhead against up to $60,000 in monthly revenue at scale. The presenter is candid that early mistakes are costly and specific: underestimating how long a job will take when old sealant resists the rented equipment can turn a projected two-day job into two weeks, so testing the concrete's hardness and moisture before quoting became a hard-learned, now-standard step.",
+    "best": "Someone willing to invest in proper technique training before taking paying jobs (this trade has a real, visible failure mode if botched) and comfortable using a sell-first, equipment-later financing sequence rather than buying expensive gear speculatively.",
+    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. A similar epoxy garage flooring entry already exists in this database from a different producer emphasizing portfolio-building and practicing on a low-stakes floor first; this version's distinct, checkable contribution is the deposit-funded equipment rental strategy for bootstrapping expensive gear, and the specific concrete-testing lesson learned from a near-failure.",
+    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis"
+  },
+  {
     "id": "mobile-car-detailing",
     "name": "Mobile car detailing service",
     "category": "Local & professional services",
@@ -4650,6 +4822,26 @@
     ]
   },
   {
+    "id": "direct-response-marketing-fundamentals",
+    "name": "Direct response marketing fundamentals",
+    "category": "Marketing & content",
+    "tags": [
+      "copywriting",
+      "marketing skill",
+      "methodology"
+    ],
+    "cost": "Low cost, mostly time",
+    "found": "Sabri Suby",
+    "what": "A skills roadmap for mastering persuasive marketing: study old direct-response print ads from the early 1900s for their headline and hook structure, build a personal \"swipe file\" of proven techniques, then apply that structure to modern ad traffic, distinguishing between demand capture (people already searching for a solution) and demand generation (people who don't yet know they have the problem).",
+    "pitch": "Suby cites advertising legend David Ogilvy's claim that 80% of his agency's client profits came from direct-response work despite it receiving a minority of the ad budget, and lays out concrete mechanics, a roughly 4% click-through rate is typical on Google search ads, as a starting benchmark for evaluating your own campaigns.",
+    "best": "Anyone doing marketing, copywriting, or content work who wants a stronger foundation in persuasion and traffic strategy, a skill to build, not a business on its own.",
+    "truth": "The historical references (Ogilvy, the direct-response advertising era) are real and independently checkable, which lends real credibility to the framework. This is presented as general marketing education rather than tied to selling a specific product in this video, a reasonably trustworthy, low-risk skill to develop regardless of which specific business idea you pursue.",
+    "url": "https://www.youtube.com/watch?v=HsjuAvqs3zU",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "ai-niche-lock-playbook",
     "name": "The one-year AI niche lock-in playbook",
     "category": "AI & automation",
@@ -4839,21 +5031,23 @@
     ]
   },
   {
-    "id": "affiliate-offer-selection-by-epc",
-    "name": "Affiliate offer selection by earnings-per-click and audience fit, not headline commission",
+    "id": "focused-single-product-affiliate-site-ai-research",
+    "name": "Focused single-product affiliate site built with AI market research",
     "category": "Marketing & content",
     "tags": [
       "affiliate marketing",
-      "decision framework",
-      "EPC"
+      "niche site",
+      "AI keyword research",
+      "content marketing",
+      "CPA offers"
     ],
-    "cost": "Free to apply; a keyword-research tool (free or paid) is useful",
+    "cost": "Low startup cost (a domain, hosting, and an AI research/content tool subscription)",
     "found": "affiliatemarketingmc",
-    "what": "A vetting framework for choosing which affiliate offer to promote to an existing or growing audience: does it solve a problem the audience already told you they have, does it match your traffic's 'temperature,' can you show it rather than just describe it, does it pay once or on repeat, and would you still recommend it if it paid nothing? Emphasizes tracking earnings-per-click (EPC) over chasing the highest advertised commission.",
-    "pitch": "Most beginners pick the highest-payout offer first and then hunt for traffic, which is backwards and explains dead affiliate links that never convert. The presenter's own biggest claimed payday (over $3M in one niche) came from a low per-conversion offer matched to a large volume of the right traffic, not a high-commission offer with little targeted traffic.",
-    "best": "Anyone already promoting or considering affiliate offers to an existing or growing audience, since this is a decision framework to apply rather than a standalone business to start.",
-    "truth": "This is a narrower, tactical companion to the same creator's audience-first philosophy taught elsewhere — kept as its own entry because the seven-question offer filter and EPC framing are a distinct, directly-applicable decision tool rather than a repeat of the domain-buying mechanic. The specific dollar figures cited are the presenter's own unaudited claims, though the general logic (match offer to audience intent, track EPC not sticker commission) is sound, standard practice.",
-    "url": "https://youtu.be/kLPu7zXZfqI",
+    "what": "Build one narrowly-focused, single-product affiliate website (one niche, one specific product or offer, one domain) rather than a broad blog covering many products, using an AI research tool to reverse-engineer market demand (competitor traffic estimates, keyword search volume, buyer questions from forums/Reddit) before building the site, then drive traffic through a mix of SEO content, short-form social videos, and infographics all pointed at the same single offer.",
+    "pitch": "The presenter, who says he's run affiliate sites for 27 years, walks through a live example in the doorbell camera niche: using an AI research tool (AI Profit Scoop Elite) to pull competitor traffic estimates (sites getting 700-25,000 monthly visitors on a single product), keyword search volume, and real buyer questions, then building content and a landing page around just that one product and its highest-paying CPA affiliate offers. He frames the core mistake as most beginners splitting attention across too many products, platforms, and offers instead of committing to one focused site.",
+    "best": "Someone willing to commit to a single, narrow niche and product rather than a broad content site, and comfortable with a research-heavy setup process before ever publishing content.",
+    "truth": "The \"one page, one offer, one focused site\" principle is a genuinely sound affiliate marketing strategy that avoids a common beginner mistake, and using traffic/keyword tools to validate demand before building is a real risk-reduction step. That said, the presenter's own results (\"27 years,\" \"hundreds of one-page websites\") aren't something a beginner will replicate quickly, and the video is built around promoting a specific paid tool and community — the free advice here is genuinely useful as a strategy, but expect a slower ramp than the presenter's polished example makes it look.",
+    "url": "https://www.youtube.com/watch?v=oF68RgdzRLE",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -5673,6 +5867,25 @@
     ]
   },
   {
+    "id": "ai-database-reactivation-segmented-sms-performance-pricing",
+    "name": "AI-segmented database reactivation campaign with a performance-based pricing option",
+    "category": "AI & automation",
+    "tags": [
+      "database reactivation",
+      "win-back campaign",
+      "Claude",
+      "performance-based pricing",
+      "old customer lists"
+    ],
+    "cost": "Low startup cost (Claude access to segment the list and write messaging)",
+    "found": "Automate AI Consulting",
+    "what": "Export a local business's list of past customers, unbooked quote requests, or old leads sitting unused in a booking system or inbox, have Claude segment that list by what each contact bought or asked about and how long ago, then write a short, specific win-back text sequence per segment (referencing the exact thing that contact previously booked or inquired about) sent out in small batches rather than all at once, so the business owner can review and adjust the message before it reaches everyone.",
+    "pitch": "The sales math scales with list size and average ticket: a med spa with 400 past clients at a $200 average visit reactivating just 4% of them nets $3,200 from a list that was otherwise producing nothing, while a home services company with 5,000 old leads at a $3,000 average job reactivating 2% nets $300,000. Priced $2,000-8,000 depending on database size, or offered on a performance basis for newer operators: a smaller $3,000 upfront fee plus 5-10% of revenue the campaign generates, which is easy for owners to agree to since it's revenue they wouldn't otherwise have had. This is pitched as the highest-leverage of the five offers because a successfully reactivated database builds enough trust to upsell every other service on the list afterward.",
+    "best": "Someone comfortable segmenting and messaging a business's existing customer list carefully (specificity and small batching matter for trust), and willing to offer performance-based pricing when starting out without a track record.",
+    "truth": "The presenter is explicit that messaging must only go to people who gave the business explicit permission to contact them, with an unsubscribe option in every message — a real compliance requirement, not just a nice-to-have, since sending unsolicited bulk texts carries legal risk under anti-spam regulations. The cited revenue projections (4% and 2% reactivation rates) are the presenter's own illustrative assumptions, not documented results from a named client campaign.",
+    "url": "https://www.youtube.com/watch?v=tKBpMevDJO8"
+  },
+  {
     "id": "faceless-social-growth-digital-product-funnel",
     "name": "Faceless social media growth funneled into a digital product store",
     "category": "Content & personal brand",
@@ -5715,6 +5928,25 @@
     "situation_tags": [
       "Strictly in-home"
     ]
+  },
+  {
+    "id": "ghl-merchant-review-blast-upsell-dynamic-pricing",
+    "name": "GoHighLevel/Merchant review-automation foot-in-the-door with fast upsell and dynamic pricing",
+    "category": "Local & professional services",
+    "tags": [
+      "GoHighLevel",
+      "Merchant",
+      "review automation",
+      "Google Business Profile",
+      "dynamic pricing"
+    ],
+    "cost": "Low startup cost (a Merchant or similar Google Business Profile optimization tool subscription, roughly $23-99/month)",
+    "found": "Balint Adorjan (interviewed by ItsKeaton)",
+    "what": "Cold-call local service businesses with a free \"database reactivation\" review-request blast (texting a business's past customers asking for a Google review) as a foot-in-the-door offer, deliver it fast (all requests sent within about two weeks instead of trickling slowly), then upsell the client onto an ongoing Google Business Profile management tool (the presenter uses Merchant, built so the business owner can approve photos/updates entirely from their phone) once they see early results, converting a free trial into a base $97/month product with no fixed price beyond that — pricing the setup and monthly fee dynamically based on cues from the conversation rather than quoting a set rate.",
+    "pitch": "The presenter built this after moving away from a similar tool (Yext) whose reputation soured in the GoHighLevel community, discovering that clients who saw fast review-blast results (some going from zero to steady inbound calls within days) began asking \"what else do you do?\" unprompted, producing what he describes as a 100% upsell rate on everyone who completed the trial. Once experienced, he skips the trial period entirely and charges $500-1,500 upfront on the very first call, adjusting the price based on how the prospect responds to value cues during the conversation (a plumber overwhelmed with new business, for instance, cares less about the price than the outcome) rather than quoting one fixed number to everyone.",
+    "best": "Someone comfortable with cold calling and reading a prospect's reactions in real time to set price dynamically, willing to front-load fast, visible results (an aggressive initial review push) before asking for a larger commitment.",
+    "truth": "The core mechanic (a low-cost, fast-results free trial that upsells itself once the client sees value) is a sound, well-established sales sequence, and the presenter's own numbers (100% upsell rate on completed trials) are self-reported from his personal business, not independently audited. This uses the same category of Google Business Profile tool as another entry in this database with a much lower-tech, relationship-first sales approach — the distinguishing element here is the aggressive fast-trial-to-upsell sequence and dynamic, conversation-driven pricing rather than a fixed rate card.",
+    "url": "https://www.youtube.com/watch?v=UD-rwYcdKvM"
   },
   {
     "id": "micro-saas-niche-ai-tool",
@@ -6889,6 +7121,25 @@
     ]
   },
   {
+    "id": "remote-cleaning-agency-dispatch-subcontractor-model",
+    "name": "Fully remote cleaning agency that dispatches jobs to independent subcontractors",
+    "category": "Local & professional services",
+    "tags": [
+      "remote agency model",
+      "subcontractor dispatch",
+      "cleaning business",
+      "location-independent",
+      "margin-based brokerage"
+    ],
+    "cost": "Very low startup cost (under $1,000 for a booking website and phone/booking software)",
+    "found": "HIDDEN WEALTH",
+    "what": "Run a home cleaning company entirely remotely by never employing cleaners directly: build a booking website and run local search ads to capture inbound customer calls, quote and book the jobs yourself (or via phone software), then match each job to vetted independent cleaning subcontractors who already own their own equipment and drive to jobs from their own homes — collecting the customer's payment upfront, paying the subcontractor their fixed cut, and keeping the 30-40% margin in between without ever cleaning anything yourself.",
+    "pitch": "The illustrative account frames the core competitive edge as simply answering the phone: testing ten local competitor cleaning companies on a Saturday morning found seven didn't pick up at all, and immediate answering plus instant booking converted more than half of inbound calls into booked jobs — no cleaning skill or physical presence required from the business owner, since the entire value-add is fast response, reliable dispatch, and vetting subcontractors.",
+    "best": "Someone who wants a genuinely location-independent business and is comfortable operating as a broker/dispatcher rather than a hands-on service provider, with the discipline to vet and manage a network of subcontractors reliably.",
+    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. The core insight — that many local service businesses lose bookable customers simply by not answering the phone promptly — is a genuine, well-documented pattern in local-service marketing independent of this particular narrative; building a reliable subcontractor network and maintaining service quality without direct oversight is a real, non-trivial operational challenge the story doesn't dwell on.",
+    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis"
+  },
+  {
     "id": "etsy-google-sheets-templates-claude-recreation",
     "name": "Recreating proven best-selling Etsy Google Sheets templates using Claude",
     "category": "Digital & subscription products",
@@ -6994,6 +7245,25 @@
     ]
   },
   {
+    "id": "youtube-growth-agency-depth-first-research",
+    "name": "YouTube growth agency using a data-driven \"depth-first search\" topic research system",
+    "category": "Marketing & content",
+    "tags": [
+      "YouTube agency",
+      "topic research",
+      "title/thumbnail formats",
+      "lead-magnet CTAs",
+      "B2B service"
+    ],
+    "cost": "Very low startup cost (an AI tool for research, plus time; scales with hired editors/VAs as client load grows)",
+    "found": "Jake Trinder",
+    "what": "Run a YouTube channel-growth agency for businesses and personal brands by systematically researching what topics already have proven demand on YouTube (using a manual \"depth-first search\" process across search terms, outlier videos, and channel recommendations, or delegating that research to a VA or AI), then packaging validated topics with proven title/thumbnail formats, a promise-proof-plan hook structure, and value-first calls-to-action (a useful free resource/tool tied to the topic) instead of a hard sales pitch.",
+    "pitch": "The presenter runs over 100 YouTube channels for clients (citing examples like a doctor's channel going from ~1,000 to 100,000+ daily views in under a month after switching from guessed topics to validated-demand topics) and argues the core service is: validate that a specific market already searches for a topic before filming, reverse-engineer why a proven title/thumbnail format works for a given audience rather than copying it blindly, and design every video's call-to-action as a useful next step (a free tool, template, or resource) that naturally feeds a sales funnel rather than a generic pitch.",
+    "best": "Someone comfortable with content strategy and data research (or willing to delegate that research to a VA/AI) who wants to offer YouTube channel growth as a service to businesses, rather than growing only their own channel.",
+    "truth": "The core methodology — validating topic demand before producing content, and treating a channel as one cohesive audience rather than a grab-bag of videos — is sound, evidence-based content strategy that applies whether you're running this as an agency or growing your own business's channel. The presenter's cited client results (Gary Vee, Instantly AI, various six-figure claims) are his own reported case studies, not independently verified, and building this into a full agency requires real content-production capacity (editors, research staff) to service multiple clients at once.",
+    "url": "https://www.youtube.com/watch?v=Ar2DXQorEm4"
+  },
+  {
     "id": "three-rs-creative-freelancer-repositioning",
     "name": "The three R's: repositioning a creative freelance service as a transformation offer",
     "category": "Marketing & content",
@@ -7033,6 +7303,25 @@
       "Strictly in-home",
       "Phone/sales-based"
     ]
+  },
+  {
+    "id": "kdp-micro-niche-coloring-book-blending",
+    "name": "Micro-niche KDP coloring books built by blending trending themes and low-competition categories",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Amazon KDP",
+      "coloring books",
+      "niche research",
+      "AI illustration",
+      "evergreen catalog"
+    ],
+    "cost": "Very low startup cost (an AI coloring-page generation tool on a pay-as-you-go credit system, no subscription required)",
+    "found": "Jeff (5 TINY but Profitable KDP Niches)",
+    "what": "Target small, low-competition KDP coloring/activity book niches (measured by total search results, percentage of top-page listings that are already KDP books, and niche/demand/opportunity scores) rather than chasing high-volume categories, using specific tactics: templating a themed idea across multiple countries/cultures (e.g. \"Mexican Treats\" coloring book applied to other national cuisines), merging two individually-trending animal/character niches into one book (e.g. axolotl + capybara), targeting event-specific niches with naturally short shelf-life demand (wedding kids' activity books), and building out comprehensive evergreen reference niches (a coloring book covering all 63 U.S. National Parks).",
+    "pitch": "The presenter walks through live Amazon search data for each niche (total competing listings, how many are KDP vs. traditionally published, and estimated monthly royalties pulled from sales-rank data) and argues the strategy isn't finding one huge niche but building a catalog of 10-50 small books that each generate modest, steady, evergreen sales, illustrating the AI-generated-artwork workflow directly by creating sample coloring pages live using a credit-based AI tool.",
+    "best": "Someone willing to do niche research (checking competition and demand signals before publishing) and build a catalog of many small books over time rather than betting on one bestseller.",
+    "truth": "Revenue figures cited are estimates derived from Amazon's public bestseller rank via third-party tools, a commonly used but indirect estimation method, not confirmed sales data. The core catalog-of-small-niches strategy is a genuinely different approach from chasing one viral topic and is a sound way to reduce single-book risk, though it also means no individual book is likely to produce large income on its own — the model depends on volume across many titles.",
+    "url": "https://www.youtube.com/watch?v=hUTkB6UQRLQ"
   },
   {
     "id": "ai-dropshipping-store-zendrop-smplsocial",
@@ -7095,6 +7384,25 @@
     "best": "Someone who already has a rough digital product idea and wants a concrete way to reframe it as something more actionable and higher-value, rather than someone starting from a blank page.",
     "truth": "This shares its core \"sell a transformation, not information\" philosophy with several other approaches covered elsewhere in this database; its distinguishing, genuinely useful contribution is the two specific, ready-to-use AI prompts and the concrete price ladder tied directly to increasing personal involvement rather than just increasing scope. The video demonstrates the entire workflow inside the presenter's own paid platform (Milo Tree, which she co-founded), a financial incentive worth knowing, though the underlying prompts and framework don't require that specific platform.",
     "url": "https://www.youtube.com/watch?v=rtp1nZrhroA"
+  },
+  {
+    "id": "systeme-io-digital-product-content-freebie-funnel",
+    "name": "Own-audience digital product funnel built on Systeme.io instead of selling on Amazon",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "Systeme.io",
+      "email funnel",
+      "lead magnet",
+      "audience ownership"
+    ],
+    "cost": "Free to start (Systeme.io has a free-forever plan; only content creation time required)",
+    "found": "Jo | Digital Product Designer",
+    "what": "Instead of publishing a digital product (ebook, template, guide) directly to a marketplace like Amazon and hoping people find it, build a small owned funnel using the free all-in-one platform Systeme.io: create content that surfaces a specific problem, offer one genuinely useful free resource in exchange for an email address, then use an automated email sequence to introduce and sell a small digital product that solves the next step of that problem.",
+    "pitch": "The presenter's five-step version: (1) find a specific problem rather than starting with a product idea, (2) create content on that problem before building anything, treating comments and analytics as free market research, (3) build exactly one useful freebie (not several), (4) connect landing page, email, checkout, and product delivery in Systeme.io's free tier, and (5) let audience behavior (what gets watched, downloaded, replied-to) dictate what small paid product to build next, rather than disappearing for months to build a large course upfront.",
+    "best": "Someone willing to build and grow their own content/audience first rather than relying on marketplace search traffic, and who prefers a single consolidated free tool over stitching together several paid platforms.",
+    "truth": "Owning the customer relationship (email list) instead of a one-time marketplace transaction is a sound, well-established principle for repeat digital-product sales, and Systeme.io's free tier genuinely covers landing pages, email, and checkout in one place. The video is fairly generic and doesn't walk through a specific product, niche, or real numbers the way some similar funnel pitches do, so treat this as a solid structural framework rather than a proven, numbers-backed case study.",
+    "url": "https://www.youtube.com/watch?v=00IaFaHDfsI"
   },
   {
     "id": "free-lead-magnet-websites-whitelabel-upsells",
@@ -7919,6 +8227,25 @@
     ]
   },
   {
+    "id": "ai-mini-movie-viral-ads-ecommerce-outreach-test",
+    "name": "AI-generated \"mini movie\" viral ad creation service for e-commerce brands, tested across three outreach channels",
+    "category": "Marketing & content",
+    "tags": [
+      "AI video ads",
+      "e-commerce marketing",
+      "Facebook Ads Library research",
+      "cold outreach",
+      "narrative ad format"
+    ],
+    "cost": "Very low startup cost (ChatGPT plan plus an AI video tool like TopView, roughly $20-50/month; a $1 domain)",
+    "found": "Mr. AI CASH",
+    "what": "Use the Facebook Ads Library to find products with long-running ads (a proxy for \"this is working\") that solve a clear problem with a strong \"wow factor,\" then use ChatGPT connected to an AI video-generation tool (via an MCP integration) to produce a short, funny, narrative \"mini movie\" style ad (not a testimonial-style UGC ad) for that product in three 15-second clips, build a branded portfolio website and $1 domain entirely with ChatGPT, and pitch the finished samples to e-commerce and dropshipping brands running similar ads.",
+    "pitch": "In a documented 7-day test, the presenter tried three client-acquisition channels side by side: automated cold email outreach (found leads and their contact info via AI, sent messages daily) produced replies but zero closed sales; posting the sample ads organically on Instagram with a call-to-action produced one $57 sale by day six; and direct outreach via WhatsApp links found in the Facebook Ads Library (using a wa.me search filter to find brands already used to messaging customers there) produced the fastest results — the first sale plus an $810/month upgrade after the client saw one finished video. Total revenue was $987 against real, disclosed costs, netting $572.20 profit for the week.",
+    "best": "Someone comfortable with a genuinely technical AI tool chain (ChatGPT plus a connected video-generation platform) and willing to test multiple outreach channels rather than betting on just one.",
+    "truth": "This is unusually transparent for a challenge-format video: the presenter explicitly reports the method that didn't work (automated cold email, zero sales) alongside what did, and gives an honest final tally that fell short of the stated $1,000 goal rather than declaring an inflated win. The comedic \"mini movie\" narrative format is a distinct creative style from the testimonial-style UGC-cloning approach covered by other similar entries in this database, and results depend heavily on finding genuinely funny, product-appropriate concepts — not every product lends itself to this format as well as the example shown.",
+    "url": "https://www.youtube.com/watch?v=8OD5rFhUHkI"
+  },
+  {
     "id": "ai-partner-consulting-claude-code",
     "name": "Becoming an AI \"partner\" for local businesses using Claude Code",
     "category": "AI & automation",
@@ -7960,6 +8287,25 @@
       "Strictly in-home",
       "Phone/sales-based"
     ]
+  },
+  {
+    "id": "multi-site-seo-content-network-ad-revenue",
+    "name": "Multi-site SEO content network monetized through display ad networks",
+    "category": "Content & personal brand",
+    "tags": [
+      "SEO content sites",
+      "display ad revenue",
+      "Mediavine",
+      "niche site diversification",
+      "content update systems"
+    ],
+    "cost": "Low ongoing cost (the presenter's ~20-site portfolio runs on roughly $7,000/month in hosting and content investment combined)",
+    "found": "Niche Pursuits (guest: Jon Dykstra)",
+    "what": "Build and diversify across multiple SEO-driven content websites monetized primarily through a premium display-ad network (the presenter uses Mediavine) rather than affiliate commissions, treating a flagship site as the main revenue driver while largely outsourcing day-to-day content and management on additional sites to a team, and running a systematic, checklist-based process for updating older content on the flagship site as it ages.",
+    "pitch": "After roughly 8 years of building his largest site while adding 19 more over time, the presenter reports revenue fluctuating around $100K/month (the flagship site alone doing $70-75K, the rest of the portfolio contributing $15-20K combined) against total monthly expenses around $7,000, and describes his content-update process: a 20-point checklist covering SEO keyword gaps (pulled from Google Search Console data), rewrites, added custom illustrations, and improved internal linking, run by two dedicated hires (one SEO-focused, one editorial) rather than himself. He's candid that a Mediavine rep told him their biggest publishers concentrate on one site rather than diversifying, and that he suspects the multi-site approach costs him some revenue but prefers it for risk diversification.",
+    "best": "Someone willing to commit years (not months) to building SEO content, comfortable eventually outsourcing content production and site management to a small team, and interested in ad revenue over affiliate commissions as the primary monetization method.",
+    "truth": "The presenter is unusually transparent that content updates on his flagship site haven't yet produced measurable traffic gains despite significant ongoing investment, and that the multi-site diversification strategy may leave revenue on the table compared to concentrating effort on one site, per direct feedback from his ad network. Display-ad-revenue niche sites depend heavily on the health of the underlying ad network and on Google's search algorithm, both outside the publisher's control, and this is a genuinely long-horizon business (he describes year one as \"terrible\" and gains as \"painfully slow\").",
+    "url": "https://www.youtube.com/watch?v=sL_ZAdSDDCA"
   },
   {
     "id": "gohighlevel-bundled-content-voice-offer",
@@ -8197,24 +8543,23 @@
     "url": "https://www.youtube.com/watch?v=QPyrodYpQ_k"
   },
   {
-    "id": "direct-response-marketing-fundamentals",
-    "name": "Direct response marketing fundamentals",
+    "id": "meta-ads-creative-strategy-service-ecommerce",
+    "name": "Meta ads media-buying service for e-commerce brands built around advanced creative and campaign-structure tactics",
     "category": "Marketing & content",
     "tags": [
-      "copywriting",
-      "marketing skill",
-      "methodology"
+      "Meta ads",
+      "media buying",
+      "ad creative strategy",
+      "e-commerce",
+      "paid advertising service"
     ],
-    "cost": "Low cost, mostly time",
+    "cost": "Low startup cost (a Meta ads account and client ad spend; no special tools required beyond what's already available)",
     "found": "Sabri Suby",
-    "what": "A skills roadmap for mastering persuasive marketing: study old direct-response print ads from the early 1900s for their headline and hook structure, build a personal \"swipe file\" of proven techniques, then apply that structure to modern ad traffic, distinguishing between demand capture (people already searching for a solution) and demand generation (people who don't yet know they have the problem).",
-    "pitch": "Suby cites advertising legend David Ogilvy's claim that 80% of his agency's client profits came from direct-response work despite it receiving a minority of the ad budget, and lays out concrete mechanics, a roughly 4% click-through rate is typical on Google search ads, as a starting benchmark for evaluating your own campaigns.",
-    "best": "Anyone doing marketing, copywriting, or content work who wants a stronger foundation in persuasion and traffic strategy, a skill to build, not a business on its own.",
-    "truth": "The historical references (Ogilvy, the direct-response advertising era) are real and independently checkable, which lends real credibility to the framework. This is presented as general marketing education rather than tied to selling a specific product in this video, a reasonably trustworthy, low-risk skill to develop regardless of which specific business idea you pursue.",
-    "url": "https://www.youtube.com/watch?v=HsjuAvqs3zU",
-    "situation_tags": [
-      "Strictly in-home"
-    ]
+    "what": "Offer a Meta (Facebook/Instagram) ads management service to e-commerce brands differentiated by a specific set of creative and campaign-structuring tactics rather than generic \"we run your ads\" positioning: running ads from unbranded \"phantom\" personal-style pages instead of a polished brand page, using raw, unedited personal-story photos and long-form \"Trojan story\" narrative ad copy instead of studio-quality creative, rewriting the first 11-14 words of an ad (the \"lead-in\") to read like a personal update rather than a sales pitch, using \"Learn More\" instead of harder calls-to-action, deliberately avoiding a middle-ground creative style (a \"barbell\" approach of either totally raw statics or fully produced skits, never in-between), relaunching Meta-rejected ads into a separate \"zombie campaign\" with a dedicated budget, and refreshing fatiguing ads by rotating creative, then headline, then body copy in that order rather than killing them outright.",
+    "pitch": "The presenter's agency reports having spent over $300 million on Meta ads across a thousand niches, and frames each tactic around a specific, checkable mechanism: personal/unbranded pages get disproportionately more ad spend approval and engagement than branded pages because \"people want to buy off people, not brands\"; a changed lead-in alone produced a claimed 5x return-on-ad-spend improvement on one ad; and ad fatigue should be diagnosed using a 7-day rolling average and Meta's frequency metric (above roughly 3 signals real fatigue) rather than day-to-day performance swings, since the underlying creative usually still has \"winning DNA\" left in it.",
+    "best": "Someone with existing paid-advertising or media-buying experience (or willing to learn Meta Ads Manager deeply) who wants a differentiated service offering for e-commerce clients rather than generic \"we manage your ads\" positioning.",
+    "truth": "The specific figures cited (a 5x return-on-ad-spend from one lead-in change, various brand examples) are the presenter's own claimed results and case examples from his agency, not independently verified, and best practices on ad platforms shift frequently as Meta's algorithm and policies change. That said, the underlying principles — native-feeling creative outperforming polished ads, structured A/B testing of one variable at a time, and data-driven (not day-to-day panic-driven) fatigue diagnosis — are consistent with widely-documented direct-response advertising practice, and are genuinely useful as a technical skill set to build a paid-media service around.",
+    "url": "https://www.youtube.com/watch?v=QN_LVgvik-k"
   },
   {
     "id": "30-day-personal-brand-launch-copy-proven-hooks",
@@ -8552,6 +8897,25 @@
     ]
   },
   {
+    "id": "durable-vs-consumable-value-pricing-model",
+    "name": "Durable-vs-consumable value pricing model for restructuring a course or coaching business",
+    "category": "Digital & subscription products",
+    "tags": [
+      "course business",
+      "recurring revenue",
+      "pricing strategy",
+      "value stacking",
+      "coaching add-ons"
+    ],
+    "cost": "Very low cost to apply (a pricing/offer restructuring exercise, no new tools required beyond what the business already sells)",
+    "found": "Stockton Walbeck",
+    "what": "For an existing (or planned) online course, coaching, or education business, separate what's actually being sold into \"durable value\" (a one-time asset like the course content itself, which a customer no longer needs once they've absorbed it) and \"consumable value\" (ongoing things a customer keeps paying for), then deliberately add at least one of four consumable-value layers: direct value (templates, downloadable assets), human-delivered value (coaching calls, done-for-you services), strategic value (ongoing data/intel, like a niche newsletter), or operational value (software/tools needed to actually use what was taught) — pricing the one-time course high, and the ongoing consumable layer separately and smaller.",
+    "pitch": "The presenter cites two of his own businesses as case studies: a course-only business that plateaued because it had no consumable layer and had to be re-sold to every customer every month, later fixed by adding a companion software subscription (5-10x'ing lifetime revenue); and a $500 one-time course that was mistakenly repriced as a $37/month subscription for the same static (durable) content, cutting average customer lifetime value to roughly a third of what the one-time price generated — illustrating that recurring pricing doesn't create recurring value unless something genuinely ongoing is actually being delivered.",
+    "best": "Someone who already sells, or plans to sell, an online course, coaching program, or educational product and wants to add a genuine recurring-revenue component rather than just slapping a subscription price on static content.",
+    "truth": "The underlying distinction (one-time informational value vs. ongoing operational/service/data value) is a genuinely useful mental model for diagnosing why a course-only business plateaus, and the cited case studies include specific before/after numbers from the presenter's own businesses. This is a restructuring strategy for an existing or planned info-product business rather than a standalone new business idea, and the presenter promotes his own software product and an AI prompt/skill for applying the framework, both of which are optional rather than required to use the underlying concept.",
+    "url": "https://www.youtube.com/watch?v=ug8v9faIvtg"
+  },
+  {
     "id": "youtube-offer-first-lead-generation-coaching",
     "name": "YouTube \"offer-first\" lead-generation framework for coaching and consulting businesses",
     "category": "Marketing & content",
@@ -8596,6 +8960,25 @@
       "Strictly in-home",
       "E-commerce / fulfillment"
     ]
+  },
+  {
+    "id": "dual-ai-premium-coaching-offer-build",
+    "name": "Building and validating a premium coaching/transformation offer using ChatGPT and Claude in different roles",
+    "category": "Digital & subscription products",
+    "tags": [
+      "high-ticket coaching",
+      "dual-AI workflow",
+      "offer validation",
+      "paid ads funnel",
+      "sales call analysis"
+    ],
+    "cost": "Low startup cost (ChatGPT and Claude subscriptions; ad spend is a separate, larger cost once scaling with paid traffic)",
+    "found": "Tanner Chidester",
+    "what": "Build a premium, implementation-supported coaching or transformation offer (the video's example: a $5,000 90-day fitness program for a specific customer type) by assigning ChatGPT and Claude different jobs throughout the process — ChatGPT for fast creation (curriculum drafts, outreach messages, roleplay practice, marketing content) and Claude for critical analysis (reviewing customer research for real patterns vs. assumptions, critiquing the curriculum and offer as a skeptical buyer, analyzing sales call transcripts and support conversations for recurring objections and drop-off points) — then using specific funnel math (a \"law of 10\" model converting ad spend to leads to booked calls to closed deals) to know what conversion metrics need improving.",
+    "pitch": "The presenter walks through a full example build: defining one specific customer and problem, generating a minimum viable curriculum, stress-testing it with Claude for likely dropout points, packaging it as a $5,000 implementation-supported offer (not just a PDF), and reverse-engineering the funnel math needed to hit a $250,000/90-day revenue target (roughly $60K ad spend at a 4x return, with specific target conversion benchmarks: a ~$1,250 or lower customer acquisition cost, ~$100-150 per booked call, and under ~$15 per lead) — then using Claude weekly to analyze real business metrics (booking rate, show rate, close rate, CAC) and identify the single biggest constraint to fix next.",
+    "best": "Someone with genuine coaching/subject-matter expertise willing to build a specific, implementation-supported (not just informational) offer, and comfortable running or learning a paid-ads-driven sales funnel with real conversion-rate tracking.",
+    "truth": "The dual-AI workflow (one tool for fast drafting, one for critical analysis) and the discipline of tracking funnel math to a single bottleneck are genuinely useful, concrete practices applicable beyond fitness coaching specifically. The $250,000-in-90-days figure is explicitly framed by the presenter as an illustrative target built from example conversion rates, not a guarantee, and the underlying business model (high-ticket coaching sold via paid-ads funnel) requires real ad budget, sales skill, and expertise beyond what AI tools alone can supply — the presenter's own \"$141 million in career sales\" claim is a self-reported figure, not independently verified.",
+    "url": "https://www.youtube.com/watch?v=78O5S16DnGg"
   },
   {
     "id": "tap-framework-digital-product-ai-coach-dm-automation",
@@ -8839,6 +9222,25 @@
     ]
   },
   {
+    "id": "narrow-niche-ai-aggregated-pdf-guide",
+    "name": "Ultra-narrow-niche AI-aggregated PDF guide (\"one person, one problem\") digital product",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "niche selection",
+      "AI research aggregation",
+      "minimum viable product",
+      "PDF guides"
+    ],
+    "cost": "Very low startup cost (a specialized AI research tool rather than a free chatbot)",
+    "found": "Udo Onyekwere (summarizing Iman Gadzhi)",
+    "what": "Pick one very specific underserved person-and-problem combination (e.g. postpartum weight loss for new mothers rather than general weight loss, or business English for non-native executives rather than general language learning), then use a specialized AI research tool (not a generic chatbot like plain ChatGPT/Claude, which the source argues loses coherence past roughly 10 sources) to assemble findings from 150+ existing studies, reports, and courses into one focused, short guide — positioning yourself as a curator of expert consensus rather than an expert yourself.",
+    "pitch": "The minimum viable version is a roughly 45-page PDF built in about 40 minutes of AI-assisted work, deliberately small rather than a 5-hour course, tested cheaply and relaunched or replaced if it flops — the source's framing is that since each attempt costs nothing (unlike dropshipping's ad spend or FBA's inventory cost), the only real failure is quitting after one try, citing a real example of a first launch making $12 and a second, refined launch making $21,000.",
+    "best": "Someone comfortable with a narrow, specific niche rather than a broad topic, and willing to iterate through multiple small product attempts instead of investing heavily in one large course upfront.",
+    "truth": "The narrow-niche-over-broad-niche principle and the emphasis on assembling existing, verifiable expert consensus (rather than inventing new claims) are sound, low-risk approaches to digital products. The presenter of this specific video is explicit that the $1,995 course being summarized isn't necessary to use this method, and that the underlying strategy is free — a genuinely useful signal of good faith worth noting, though the individual case study cited ($12 then $21,000) is the source's own reported data, not independently verified.",
+    "url": "https://www.youtube.com/watch?v=CmN_r9NmX9A"
+  },
+  {
     "id": "ai-brain-folder-agent-system",
     "name": "Running a solo, multi-business operation with an AI agent team",
     "category": "AI & automation",
@@ -9031,26 +9433,23 @@
     ]
   },
   {
-    "id": "focused-single-product-affiliate-site-ai-research",
-    "name": "Focused single-product affiliate site built with AI market research",
-    "category": "Marketing & content",
+    "id": "saas-adaptation-not-cloning-niche-repositioning",
+    "name": "\"Adaptation over cloning\" niche SaaS repositioning built with AI",
+    "category": "Digital & subscription products",
     "tags": [
-      "affiliate marketing",
-      "niche site",
-      "AI keyword research",
-      "content marketing",
-      "CPA offers"
+      "SaaS",
+      "vibe coding",
+      "niche repositioning",
+      "productized software",
+      "AI-built MVP"
     ],
-    "cost": "Low startup cost (a domain, hosting, and an AI research/content tool subscription)",
+    "cost": "Low startup cost (an AI coding tool like Claude, plus optional developer help for finishing touches)",
     "found": "affiliatemarketingmc",
-    "what": "Build one narrowly-focused, single-product affiliate website (one niche, one specific product or offer, one domain) rather than a broad blog covering many products, using an AI research tool to reverse-engineer market demand (competitor traffic estimates, keyword search volume, buyer questions from forums/Reddit) before building the site, then drive traffic through a mix of SEO content, short-form social videos, and infographics all pointed at the same single offer.",
-    "pitch": "The presenter, who says he's run affiliate sites for 27 years, walks through a live example in the doorbell camera niche: using an AI research tool (AI Profit Scoop Elite) to pull competitor traffic estimates (sites getting 700-25,000 monthly visitors on a single product), keyword search volume, and real buyer questions, then building content and a landing page around just that one product and its highest-paying CPA affiliate offers. He frames the core mistake as most beginners splitting attention across too many products, platforms, and offers instead of committing to one focused site.",
-    "best": "Someone willing to commit to a single, narrow niche and product rather than a broad content site, and comfortable with a research-heavy setup process before ever publishing content.",
-    "truth": "The \"one page, one offer, one focused site\" principle is a genuinely sound affiliate marketing strategy that avoids a common beginner mistake, and using traffic/keyword tools to validate demand before building is a real risk-reduction step. That said, the presenter's own results (\"27 years,\" \"hundreds of one-page websites\") aren't something a beginner will replicate quickly, and the video is built around promoting a specific paid tool and community — the free advice here is genuinely useful as a strategy, but expect a slower ramp than the presenter's polished example makes it look.",
-    "url": "https://www.youtube.com/watch?v=oF68RgdzRLE",
-    "situation_tags": [
-      "Strictly in-home"
-    ]
+    "what": "Instead of cloning an existing app outright (which raises legal and competitive problems), pick an established, revenue-proven SaaS category with known user frustrations (the video's example: generic support-focused live chat software), identify a specific underserved buyer or use case within that category the incumbents don't optimize for (e.g. sales-focused live chat instead of support-focused live chat), and use AI coding tools to quickly build a repositioned MVP around that one specific outcome, then sell it both as a low-cost productized subscription and as a higher-priced custom/done-for-you implementation.",
+    "pitch": "The presenter built a live-chat tool (\"SellerPole\") in about 48 hours using Claude for most of the coding plus a developer for finishing details, explicitly reframing the whole live-chat product around helping salespeople act on buying intent before a visitor leaves (built-in sales pipeline notes, mass-messaging site visitors) rather than the industry-standard support-ticket framing — arguing that researching competitor complaints (via tools like Ahrefs or searching \"[product] alternatives\") and choosing one specific underserved buyer is what makes an adapted SaaS product sellable, not the software itself.",
+    "best": "Someone comfortable using AI coding tools to build a working MVP quickly, and willing to do real market research (studying complaints about existing tools in a category) before building, rather than building speculatively.",
+    "truth": "The core lesson — that repositioning a proven, revenue-validated software category around an underserved specific buyer beats cloning a feature set — is sound product strategy used by many real, larger businesses (the video cites Tesla vs. Prius and Celsius vs. energy drinks as analogies). The presenter is explicit that \"cloning\" language is marketing framing, not literal copying, and that results (including his own) are not typical or guaranteed; the video also promotes his own paid mentorship community, a financial incentive worth factoring in.",
+    "url": "https://www.youtube.com/watch?v=mdmphrHkeC8"
   },
   {
     "id": "ai-tiktok-shop-bottom-funnel-content-system",
