@@ -22,26 +22,6 @@
     ]
   },
   {
-    "id": "ai-clipping",
-    "name": "AI clipping for creators",
-    "category": "Marketing & content",
-    "tags": [
-      "content creation",
-      "AI tools",
-      "very low startup cost"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Mark Tilbury",
-    "what": "Cut creators' long-form videos into short clips using AI editing tools, post them to TikTok and Reels, and get paid per view through marketplaces like Content Rewards.",
-    "pitch": "Big creators have hours of unused footage sitting around, and short clips are the easiest way for them to reach new fans, so they'll pay you for posting clips that gain traction.",
-    "best": "Someone looking for the lowest possible barrier to entry, more as a way to learn content and AI tools than as a long-term income plan.",
-    "truth": "Tilbury is direct about this one: competition is very high, because it's this easy to start, everyone jumps in. Most people quit within a week or two, so simple consistency puts you ahead of most, but the ceiling on income is modest.",
-    "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
-    "situation_tags": [
-      "Strictly in-home"
-    ]
-  },
-  {
     "id": "pet-waste-removal-service",
     "name": "Pet waste (dog poop) removal service",
     "category": "Local & professional services",
@@ -61,6 +41,26 @@
     "situation_tags": [
       "Local travel required",
       "Weekend/event-based schedule"
+    ]
+  },
+  {
+    "id": "ai-clipping",
+    "name": "AI clipping for creators",
+    "category": "Marketing & content",
+    "tags": [
+      "content creation",
+      "AI tools",
+      "very low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Mark Tilbury",
+    "what": "Cut creators' long-form videos into short clips using AI editing tools, post them to TikTok and Reels, and get paid per view through marketplaces like Content Rewards.",
+    "pitch": "Big creators have hours of unused footage sitting around, and short clips are the easiest way for them to reach new fans, so they'll pay you for posting clips that gain traction.",
+    "best": "Someone looking for the lowest possible barrier to entry, more as a way to learn content and AI tools than as a long-term income plan.",
+    "truth": "Tilbury is direct about this one: competition is very high, because it's this easy to start, everyone jumps in. Most people quit within a week or two, so simple consistency puts you ahead of most, but the ceiling on income is modest.",
+    "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
+    "situation_tags": [
+      "Strictly in-home"
     ]
   },
   {
@@ -370,6 +370,26 @@
     ]
   },
   {
+    "id": "ai-avatars",
+    "name": "AI avatars and virtual influencers",
+    "category": "Marketing & content",
+    "tags": [
+      "AI tools",
+      "content creation",
+      "needs long-term commitment"
+    ],
+    "cost": "Low startup cost, high time investment",
+    "found": "Mark Tilbury",
+    "what": "Build a photorealistic AI-generated person using tools like Higsfield, then use that character to sell products or build a following as an AI influencer, earning through sponsorships and affiliate income.",
+    "pitch": "AI avatars remove the usual friction of being an influencer, no filming yourself, no bad hair days. Tilbury demonstrates that the avatar generation itself takes only minutes.",
+    "best": "Someone who's genuinely comfortable with a multi-month content and audience-building project, since the avatar is just the starting point.",
+    "truth": "Building the avatar is fast, but Tilbury is upfront that developing a consistent character, engaging content, and an actual audience is a much longer process, likely months, not days. This is closer to a content-creator business than a quick service.",
+    "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "pressure-washing-business-trash-can-upsell",
     "name": "Pressure washing business with a trash can cleaning upsell",
     "category": "Local & professional services",
@@ -390,26 +410,6 @@
       "Local travel required",
       "Requires equipment/vehicle investment",
       "Needs a truck or cargo vehicle"
-    ]
-  },
-  {
-    "id": "ai-avatars",
-    "name": "AI avatars and virtual influencers",
-    "category": "Marketing & content",
-    "tags": [
-      "AI tools",
-      "content creation",
-      "needs long-term commitment"
-    ],
-    "cost": "Low startup cost, high time investment",
-    "found": "Mark Tilbury",
-    "what": "Build a photorealistic AI-generated person using tools like Higsfield, then use that character to sell products or build a following as an AI influencer, earning through sponsorships and affiliate income.",
-    "pitch": "AI avatars remove the usual friction of being an influencer, no filming yourself, no bad hair days. Tilbury demonstrates that the avatar generation itself takes only minutes.",
-    "best": "Someone who's genuinely comfortable with a multi-month content and audience-building project, since the avatar is just the starting point.",
-    "truth": "Building the avatar is fast, but Tilbury is upfront that developing a consistent character, engaging content, and an actual audience is a much longer process, likely months, not days. This is closer to a content-creator business than a quick service.",
-    "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
-    "situation_tags": [
-      "Strictly in-home"
     ]
   },
   {
@@ -477,6 +477,28 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
+    "id": "local-lead-gen-site-rental",
+    "name": "Local lead generation website rental business",
+    "category": "Local & professional services",
+    "tags": [
+      "SEO",
+      "local business",
+      "lead generation",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Build simple, single-niche, single-city websites (towing, HVAC, tree removal, radon mitigation, etc.) optimized to rank in local Google searches, then instead of selling the leads those sites generate, rent the entire site to a local business owner for a monthly fee or a cut of the resulting jobs, while retaining ownership of the site itself.",
+    "pitch": "Vander walked away from a client-services SEO agency making $108,000 a year because he was tired of clients controlling the relationship, and rebuilt the same skill set into owned assets instead: ranking local lead-gen sites himself, then renting them out so that if one business owner doesn't want the arrangement, he can rent it to a different local competitor instead.",
+    "best": "Someone with real SEO or local search skills who wants to own recurring, semi-passive assets rather than trade time for client work, and who's comfortable pitching a local business owner on a rev-share arrangement.",
+    "truth": "The pivot story is specific and checkable (a named dollar figure walked away from, specific service niches and cities named), a good transparency signal. Vander is candid that this took real SEO skill built up over a prior failed agency business, so it isn't a true beginner idea; someone starting from zero would need to learn competitive local SEO first. The episode doesn't fully address what happens if Google's local algorithm changes or a business owner decides to build their own site instead of renewing.",
+    "url": "https://www.youtube.com/watch?v=6ErnEr2JcD0",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
     "id": "custom-embroidery-local-trades",
     "name": "Custom embroidery business selling to local trades and sports teams",
     "category": "Physical & print products",
@@ -539,28 +561,6 @@
     "best": "Someone comfortable with cold outreach to service businesses and willing to walk a prospect through their own missed-call math on the call rather than pitching features.",
     "truth": "This uses the same missed-call-to-text mechanic found in several other bundled AI-agency offerings elsewhere in this database, but sold here as a standalone product with a specific build stack (Claude for conversation logic, Twilio for delivery) and a distinct instant-response, question-answering design rather than a generic \"sorry we missed you\" text. The stated ROI math is illustrative reasoning from the presenter, not a documented case study with verified before/after numbers for a named client.",
     "url": "https://www.youtube.com/watch?v=tKBpMevDJO8"
-  },
-  {
-    "id": "local-lead-gen-site-rental",
-    "name": "Local lead generation website rental business",
-    "category": "Local & professional services",
-    "tags": [
-      "SEO",
-      "local business",
-      "lead generation",
-      "recurring revenue"
-    ],
-    "cost": "Low startup cost",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Build simple, single-niche, single-city websites (towing, HVAC, tree removal, radon mitigation, etc.) optimized to rank in local Google searches, then instead of selling the leads those sites generate, rent the entire site to a local business owner for a monthly fee or a cut of the resulting jobs, while retaining ownership of the site itself.",
-    "pitch": "Vander walked away from a client-services SEO agency making $108,000 a year because he was tired of clients controlling the relationship, and rebuilt the same skill set into owned assets instead: ranking local lead-gen sites himself, then renting them out so that if one business owner doesn't want the arrangement, he can rent it to a different local competitor instead.",
-    "best": "Someone with real SEO or local search skills who wants to own recurring, semi-passive assets rather than trade time for client work, and who's comfortable pitching a local business owner on a rev-share arrangement.",
-    "truth": "The pivot story is specific and checkable (a named dollar figure walked away from, specific service niches and cities named), a good transparency signal. Vander is candid that this took real SEO skill built up over a prior failed agency business, so it isn't a true beginner idea; someone starting from zero would need to learn competitive local SEO first. The episode doesn't fully address what happens if Google's local algorithm changes or a business owner decides to build their own site instead of renewing.",
-    "url": "https://www.youtube.com/watch?v=6ErnEr2JcD0",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ]
   },
   {
     "id": "faceless-video-editing-service",
@@ -689,6 +689,25 @@
     ]
   },
   {
+    "id": "consume-apply-educate-income-roadmap",
+    "name": "The consume, apply, educate roadmap to a $10,000-a-month income",
+    "category": "Content & personal brand",
+    "tags": [
+      "roadmap",
+      "content creation",
+      "education",
+      "very low startup cost",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Mark Tilbury",
+    "what": "This is a general three-stage framework rather than one specific business, for building a high-income skill into a public, teachable business. Stage one is consuming targeted knowledge (picking one high-income skill like video editing, sales, or design, then learning it from credible creators and communities, not just random content). Stage two is applying it by taking on real, even low-paying, clients to build a track record. Stage three is educating others in that same skill once you've built real experience, through content, courses, or communities.",
+    "pitch": "Tilbury argues the real money isn't in the skill itself but in eventually teaching it, since an education product (a course, membership, or community) only has to be built once and can be sold repeatedly for predictable, recurring revenue. He frames relatability, being visibly a few steps ahead of your audience rather than a distant expert, as the actual differentiator that gets people to buy from you over someone more credentialed.",
+    "best": "Someone starting from genuinely little, no capital, no track record, who's willing to spend real time building a skill and a public presence before expecting income, rather than someone looking for a fast, passive result.",
+    "truth": "The framework itself (build a skill, prove it on real clients, then teach it) is sound and echoes advice from other creators covered elsewhere in this database. Worth knowing: partway through, the video recommends a paid book-summary app and a course-hosting platform (Kajabi) as sponsored plugs, so those specific tool recommendations carry a financial incentive, separate from the underlying framework, which doesn't depend on either product.",
+    "url": "https://www.youtube.com/watch?v=mwYsapR6cYk&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=9"
+  },
+  {
     "id": "trash-can-rollout-curb-service",
     "name": "Trash can rollout and curb service",
     "category": "Local & professional services",
@@ -709,25 +728,6 @@
       "Local travel required",
       "Weekend/event-based schedule"
     ]
-  },
-  {
-    "id": "consume-apply-educate-income-roadmap",
-    "name": "The consume, apply, educate roadmap to a $10,000-a-month income",
-    "category": "Content & personal brand",
-    "tags": [
-      "roadmap",
-      "content creation",
-      "education",
-      "very low startup cost",
-      "beginner friendly"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Mark Tilbury",
-    "what": "This is a general three-stage framework rather than one specific business, for building a high-income skill into a public, teachable business. Stage one is consuming targeted knowledge (picking one high-income skill like video editing, sales, or design, then learning it from credible creators and communities, not just random content). Stage two is applying it by taking on real, even low-paying, clients to build a track record. Stage three is educating others in that same skill once you've built real experience, through content, courses, or communities.",
-    "pitch": "Tilbury argues the real money isn't in the skill itself but in eventually teaching it, since an education product (a course, membership, or community) only has to be built once and can be sold repeatedly for predictable, recurring revenue. He frames relatability, being visibly a few steps ahead of your audience rather than a distant expert, as the actual differentiator that gets people to buy from you over someone more credentialed.",
-    "best": "Someone starting from genuinely little, no capital, no track record, who's willing to spend real time building a skill and a public presence before expecting income, rather than someone looking for a fast, passive result.",
-    "truth": "The framework itself (build a skill, prove it on real clients, then teach it) is sound and echoes advice from other creators covered elsewhere in this database. Worth knowing: partway through, the video recommends a paid book-summary app and a course-hosting platform (Kajabi) as sponsored plugs, so those specific tool recommendations carry a financial incentive, separate from the underlying framework, which doesn't depend on either product.",
-    "url": "https://www.youtube.com/watch?v=mwYsapR6cYk&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=9"
   },
   {
     "id": "taskrabbit-local-task-work",
@@ -899,6 +899,27 @@
     "best": "Someone with some capital to invest in domain purchases and the research skill to vet a domain's real traffic and backlink quality before buying, who wants a ready-made audience rather than building one from zero.",
     "truth": "The core insight \u2014 audience/traffic is the scarce asset, not the offer \u2014 is widely-held, credible online-marketing wisdom. Specific domain-valuation figures cited are third-party tool estimates the presenter himself caveats as not a guaranteed resale price. Buying an expired domain for its rankings/backlinks is an established but real-risk tactic: Google can devalue an old backlink profile after an ownership change, and some niches carry trademark risk, as the source itself flags for one example. The presenter's own paid tool and lead-gen notes page are promoted throughout.",
     "url": "https://youtu.be/e0HXV2HeHpU",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "etsy-png-shop-ai-clip-art-pdfs",
+    "name": "Etsy \"PNG shop\" selling AI-generated clip art and wall art as PDF downloads",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "AI tools",
+      "clip art",
+      "digital downloads"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Alex",
+    "what": "Running an Etsy shop selling cheap AI-generated clip art and printable wall art delivered as a PDF containing a Google Drive download link, built by pulling already-trending design ideas from a trend-research tool and using Claude for the listing copy.",
+    "pitch": "The presenter shows a real large Etsy shop selling exactly this model as proof of concept, then walks through his own workflow: using a paid trend-research tool to find already-trending design niches, cross-checked against Google Trends for legitimacy, generating matching AI art in an image tool, exporting multiple variations, uploading files to a shared Google Drive folder, building a simple PDF delivery card containing that Drive link, and using Claude only to write SEO-optimized Etsy titles, descriptions, and tags. States this is a volume-and-consistency business, not a one-hit-listing business, and that he is not selling a course.",
+    "best": "Someone comfortable posting a high volume of low-priced listings consistently rather than expecting one or two designs to carry the business.",
+    "truth": "The presenter explicitly discloses AI use in his own Etsy listings, as required by Etsy's policy, and states buyers don't seem to mind, a genuinely transparent practice worth noting positively. He states he isn't selling anything in this video, a mild credibility signal, though the specific weekly revenue figures shown are self-reported screenshots, not independently verified. Two paid tools are referenced with affiliate-style links in the description.",
+    "url": "https://www.youtube.com/watch?v=pLoswerx89s",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -1098,6 +1119,25 @@
     ]
   },
   {
+    "id": "spotify-playlist-monetization",
+    "name": "Monetizing a curated Spotify playlist",
+    "category": "Digital & subscription products",
+    "tags": [
+      "music curation",
+      "Spotify",
+      "Patreon",
+      "very low startup cost",
+      "creative"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Mark Tilbury",
+    "what": "Build a Spotify playlist in a specific genre or mood, grow its followers, and monetize it by giving independent artists a way to get their songs placed on it in exchange for payment.",
+    "pitch": "There are two ways to charge for this: directly billing artists a flat fee per song placement, or running it as a Patreon-style membership where artists pay a small monthly fee for the chance to submit music for consideration. Tilbury prefers the second, since it's more passive (income arrives monthly without per-song negotiation) and feels more honest, since you're only picking songs you'd genuinely include rather than accepting anyone who pays. At $5 a month, 1,000 subscribed artists would be $5,000 a month.",
+    "best": "Someone with a genuine ear for a specific music genre or mood who's willing to put in the upfront time to build a playlist's following before it has real placement value to artists.",
+    "truth": "Tilbury is upfront that the direct pay-per-placement version violates Spotify's terms of service, and flags it as a real downside of that approach, not just a minor caveat, which is a good transparency signal. The Patreon-membership version he prefers doesn't have that problem. No specific real-world case study or dollar figures are given for either approach, so the $5,000-a-month math is illustrative math, not a demonstrated result.",
+    "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
+  },
+  {
     "id": "junk-removal-service-local",
     "name": "Junk removal service",
     "category": "Local & professional services",
@@ -1119,25 +1159,6 @@
       "Requires equipment/vehicle investment",
       "Needs a truck or cargo vehicle"
     ]
-  },
-  {
-    "id": "spotify-playlist-monetization",
-    "name": "Monetizing a curated Spotify playlist",
-    "category": "Digital & subscription products",
-    "tags": [
-      "music curation",
-      "Spotify",
-      "Patreon",
-      "very low startup cost",
-      "creative"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Mark Tilbury",
-    "what": "Build a Spotify playlist in a specific genre or mood, grow its followers, and monetize it by giving independent artists a way to get their songs placed on it in exchange for payment.",
-    "pitch": "There are two ways to charge for this: directly billing artists a flat fee per song placement, or running it as a Patreon-style membership where artists pay a small monthly fee for the chance to submit music for consideration. Tilbury prefers the second, since it's more passive (income arrives monthly without per-song negotiation) and feels more honest, since you're only picking songs you'd genuinely include rather than accepting anyone who pays. At $5 a month, 1,000 subscribed artists would be $5,000 a month.",
-    "best": "Someone with a genuine ear for a specific music genre or mood who's willing to put in the upfront time to build a playlist's following before it has real placement value to artists.",
-    "truth": "Tilbury is upfront that the direct pay-per-placement version violates Spotify's terms of service, and flags it as a real downside of that approach, not just a minor caveat, which is a good transparency signal. The Patreon-membership version he prefers doesn't have that problem. No specific real-world case study or dollar figures are given for either approach, so the $5,000-a-month math is illustrative math, not a demonstrated result.",
-    "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
   },
   {
     "id": "resin-wood-serving-boards-wholesale",
@@ -1226,27 +1247,6 @@
     "situation_tags": [
       "Strictly in-home",
       "Phone/sales-based"
-    ]
-  },
-  {
-    "id": "etsy-png-shop-ai-clip-art-pdfs",
-    "name": "Etsy \"PNG shop\" selling AI-generated clip art and wall art as PDF downloads",
-    "category": "Digital & subscription products",
-    "tags": [
-      "Etsy",
-      "AI tools",
-      "clip art",
-      "digital downloads"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Alex",
-    "what": "Running an Etsy shop selling cheap AI-generated clip art and printable wall art delivered as a PDF containing a Google Drive download link, built by pulling already-trending design ideas from a trend-research tool and using Claude for the listing copy.",
-    "pitch": "The presenter shows a real large Etsy shop selling exactly this model as proof of concept, then walks through his own workflow: using a paid trend-research tool to find already-trending design niches, cross-checked against Google Trends for legitimacy, generating matching AI art in an image tool, exporting multiple variations, uploading files to a shared Google Drive folder, building a simple PDF delivery card containing that Drive link, and using Claude only to write SEO-optimized Etsy titles, descriptions, and tags. States this is a volume-and-consistency business, not a one-hit-listing business, and that he is not selling a course.",
-    "best": "Someone comfortable posting a high volume of low-priced listings consistently rather than expecting one or two designs to carry the business.",
-    "truth": "The presenter explicitly discloses AI use in his own Etsy listings, as required by Etsy's policy, and states buyers don't seem to mind, a genuinely transparent practice worth noting positively. He states he isn't selling anything in this video, a mild credibility signal, though the specific weekly revenue figures shown are self-reported screenshots, not independently verified. Two paid tools are referenced with affiliate-style links in the description.",
-    "url": "https://www.youtube.com/watch?v=pLoswerx89s",
-    "situation_tags": [
-      "Strictly in-home"
     ]
   },
   {
@@ -1418,6 +1418,50 @@
     ]
   },
   {
+    "id": "ai-receptionist-reseller-local-business",
+    "name": "AI receptionist reseller for local businesses",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "local business",
+      "done-for-you service",
+      "recurring revenue"
+    ],
+    "cost": "~$297/mo for a HighLevel software plan (covers unlimited clients)",
+    "found": "Adam Erhart",
+    "what": "Install a white-label AI phone receptionist (built on the HighLevel platform) for local businesses that miss calls \u2014 plumbers, dentists, landscapers. The AI answers every call 24/7, holds a natural conversation, books appointments, and takes caller info. Charge the business a flat $397/month.",
+    "pitch": "Cites a 411 Locals study claiming only ~40% of small-business calls get answered by a real person and that 85% of people who hit voicemail never call back, so a missed call is a plausible lost job. A US Census Bureau survey is cited finding only 18% of businesses use AI at all, mostly large ones, framing small local businesses as an underserved, easy market. The seller installs and operates existing tools rather than building anything new.",
+    "best": "Someone comfortable pitching and onboarding local business owners who wants to resell an existing white-label tool rather than build their own AI product from scratch.",
+    "truth": "The cited statistics are attributed to real sources but not independently verified here. The underlying mechanic \u2014 reselling white-label AI voice automation to local businesses monthly \u2014 is a real and growing service model. The recommended software platform is the presenter's own affiliate link (with a bundled template pack unlocked through it specifically), though the business model itself doesn't require using that particular link.",
+    "url": "https://youtu.be/AJX8EgyHwEM",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "print-on-demand-ai-design-node-workflow",
+    "name": "Print-on-demand apparel shop using AI \"node-based\" design workflows",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "AI tools",
+      "Etsy",
+      "apparel"
+    ],
+    "cost": "Low startup cost",
+    "found": "Alek",
+    "what": "Running a print-on-demand apparel shop (e.g. on Etsy) built around AI \"node-based\" design pipelines: you connect a reference design, an AI text-generator node, and an AI image-generator node so that changing one global theme prompt automatically remixes dozens of unique, on-trend design variations, which are then prepped (upscaled, background removed, sized to a product) and listed using reusable presets with AI-generated SEO titles, descriptions, and tags.",
+    "pitch": "The presenter argues that researching what's already proven to sell, then using an AI node-based pipeline to remix those proven concepts into original variations, lets him go from a niche idea to finished, ready-to-sell product listings in 10 to 20 minutes, a dramatic speed-up from years of manually designing print-on-demand products by hand.",
+    "best": "Someone who already has some print-on-demand or design background, or is willing to learn a real design-canvas/node-based tool rather than a single AI chat prompt, and who is comfortable focusing on one product type and iterating designs at real volume rather than a handful of one-off listings.",
+    "truth": "The presenter has sold, by his own account, a few million dollars of print-on-demand products over six years, and he's promoting his own software (Listing View) and paid community (Merch Makers) throughout, so there's a clear commercial incentive behind the specific tools named. That said, the underlying process, researching proven designs, using AI to remix them into original variations, prepping files properly, and batch-listing with presets, is a real and teachable workflow independent of which specific tool runs it. He also repeatedly and explicitly warns against copying another seller's design directly, a genuine legal/platform-ban risk worth taking seriously.",
+    "url": "https://youtu.be/_0A_DUtzTCA",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
     "id": "claude-local-business-website-lead-gen-retainer",
     "name": "Building websites and lead-capture automations for local businesses that don't have one, with a monthly hosting retainer",
     "category": "Local & professional services",
@@ -1453,6 +1497,29 @@
     "best": "Someone comfortable with basic AI image generation and willing to either front a small amount of production cash on Etsy, or accept a smaller, simpler storefront through Printify's free option instead.",
     "truth": "Sarah discloses she runs a successful version of this business herself, which is a real credibility signal, but also means she has a direct financial interest in recommending the specific paid tools she promotes alongside this content (a Canva Pro affiliate link and her own paid course). The core mechanics of the business (AI design plus print-on-demand fulfillment) don't require either of those paid products to work.",
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
+  },
+  {
+    "id": "costco-liquidation-reselling",
+    "name": "Buying and reselling Costco liquidation returns",
+    "category": "E-commerce",
+    "tags": [
+      "reselling",
+      "liquidation",
+      "Costco",
+      "needs storage"
+    ],
+    "cost": "A few hundred to a few thousand dollars per pallet or lot",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Buy pallets or individual units of Costco customer returns and liquidated merchandise through the B-Stock auction platform, researching resale value on Facebook Marketplace or comparable retail listings before bidding, then resell the items individually online, through Facebook Marketplace for larger items or Whatnot live auctions for smaller consumable goods.",
+    "pitch": "Chris Koerner challenges an experienced reseller, Shannon, to help him turn a starting bankroll into $10,000 profit in 10 days flat, buying returned and liquidated Costco merchandise through the B-Stock auction platform at pennies on the dollar (a $3,400 gazebo for $200, an $1,800 furniture set for $200) and reselling it on Facebook Marketplace and, for smaller items like food and drinks, through live-auction platforms like Whatnot.",
+    "best": "Someone with storage space (a garage or a small storage unit) and access to a bit of starting capital, who's comfortable researching resale prices before bidding and willing to learn category-specific quirks like appliance grading and model research.",
+    "truth": "This same buy-liquidation-and-resell pattern shows up repeatedly across WAH creator content, sourcing returned or excess inventory well below retail and reselling it piece by piece, which is itself a signal that the underlying model genuinely works, not just a one-off story. What makes this version distinct: a Costco-specific sourcing angle through the B-Stock auction platform, a named experienced mentor walking through live bid research in real time, and the Whatnot live-auction resale channel for smaller consumable goods, a genuinely different selling mechanic than one-off Marketplace listings. Koerner is candid that categories like appliances and electronics require real category-specific knowledge to avoid getting burned, and that not every item resells quickly, sometimes you cut the price and take a loss just to free up storage space.",
+    "url": "https://www.youtube.com/watch?v=kEV86fy-Rvc",
+    "situation_tags": [
+      "Needs inventory storage",
+      "Requires travel to source or inspect goods",
+      "Needs a truck or cargo vehicle"
+    ]
   },
   {
     "id": "newborn-blanket-embroidery-etsy-niche",
@@ -1522,6 +1589,25 @@
     ]
   },
   {
+    "id": "merch-by-amazon-tshirts",
+    "name": "Merch by Amazon print-on-demand t-shirts",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "apparel",
+      "Amazon",
+      "no upfront cost",
+      "beginner friendly"
+    ],
+    "cost": "No upfront cost",
+    "found": "Mark Tilbury",
+    "what": "List t-shirt (and other apparel) designs for sale directly on Amazon through its Merch by Amazon program. There's no inventory to buy upfront: you upload a design, pick colors and a price, and Amazon prints, ships, and handles customer service, paying you a royalty per sale.",
+    "pitch": "Tilbury frames this against the traditional route of pre-printing shirts in bulk (multiple colors and sizes) and hoping they sell, which risks money on stock that doesn't move. Merch by Amazon removes that risk entirely since nothing is printed until it's actually purchased, and it also gives you access to Amazon's existing customer base instead of needing to build your own audience or attend events to sell in person.",
+    "best": "Someone with design skills (or comfortable directing AI tools to generate designs) who wants to test apparel ideas without tying up money in inventory that might not sell.",
+    "truth": "The illustration used, a friend who pre-printed thousands of shirts and could only capitalize on one design that took off, is a real anecdote but a single example, not a data set. Worth knowing separately: Amazon requires all designs to be either fully original or properly licensed, so using copyrighted characters or logos without permission isn't just against Merch by Amazon's rules, it's a real legal risk.",
+    "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
+  },
+  {
     "id": "solar-panel-cleaning-service",
     "name": "Solar panel cleaning service",
     "category": "Local & professional services",
@@ -1542,25 +1628,6 @@
       "Local travel required",
       "Requires a license or certification"
     ]
-  },
-  {
-    "id": "merch-by-amazon-tshirts",
-    "name": "Merch by Amazon print-on-demand t-shirts",
-    "category": "Physical & print products",
-    "tags": [
-      "print on demand",
-      "apparel",
-      "Amazon",
-      "no upfront cost",
-      "beginner friendly"
-    ],
-    "cost": "No upfront cost",
-    "found": "Mark Tilbury",
-    "what": "List t-shirt (and other apparel) designs for sale directly on Amazon through its Merch by Amazon program. There's no inventory to buy upfront: you upload a design, pick colors and a price, and Amazon prints, ships, and handles customer service, paying you a royalty per sale.",
-    "pitch": "Tilbury frames this against the traditional route of pre-printing shirts in bulk (multiple colors and sizes) and hoping they sell, which risks money on stock that doesn't move. Merch by Amazon removes that risk entirely since nothing is printed until it's actually purchased, and it also gives you access to Amazon's existing customer base instead of needing to build your own audience or attend events to sell in person.",
-    "best": "Someone with design skills (or comfortable directing AI tools to generate designs) who wants to test apparel ideas without tying up money in inventory that might not sell.",
-    "truth": "The illustration used, a friend who pre-printed thousands of shirts and could only capitalize on one design that took off, is a real anecdote but a single example, not a data set. Worth knowing separately: Amazon requires all designs to be either fully original or properly licensed, so using copyrighted characters or logos without permission isn't just against Merch by Amazon's rules, it's a real legal risk.",
-    "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
   },
   {
     "id": "short-run-screen-printing-packaging",
@@ -1686,29 +1753,6 @@
     "best": "Someone targeting service businesses where quotes are genuinely customized (not fixed-price) and slow turnaround is a believable, provable pain point, comfortable extracting an owner's informal pricing logic into a structured document.",
     "truth": "This is customer-facing (the end customer fills out the form and receives the estimate directly), which differs from a similar existing entry in this database built as an internal tool for a business's own employees to use \u2014 different mechanic, different buyer experience. The $5,000/month projected gain is the presenter's illustrative math from assumed conversion improvements, not a verified case study with a named client's actual before/after numbers.",
     "url": "https://www.youtube.com/watch?v=tKBpMevDJO8"
-  },
-  {
-    "id": "costco-liquidation-reselling",
-    "name": "Buying and reselling Costco liquidation returns",
-    "category": "E-commerce",
-    "tags": [
-      "reselling",
-      "liquidation",
-      "Costco",
-      "needs storage"
-    ],
-    "cost": "A few hundred to a few thousand dollars per pallet or lot",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Buy pallets or individual units of Costco customer returns and liquidated merchandise through the B-Stock auction platform, researching resale value on Facebook Marketplace or comparable retail listings before bidding, then resell the items individually online, through Facebook Marketplace for larger items or Whatnot live auctions for smaller consumable goods.",
-    "pitch": "Chris Koerner challenges an experienced reseller, Shannon, to help him turn a starting bankroll into $10,000 profit in 10 days flat, buying returned and liquidated Costco merchandise through the B-Stock auction platform at pennies on the dollar (a $3,400 gazebo for $200, an $1,800 furniture set for $200) and reselling it on Facebook Marketplace and, for smaller items like food and drinks, through live-auction platforms like Whatnot.",
-    "best": "Someone with storage space (a garage or a small storage unit) and access to a bit of starting capital, who's comfortable researching resale prices before bidding and willing to learn category-specific quirks like appliance grading and model research.",
-    "truth": "This same buy-liquidation-and-resell pattern shows up repeatedly across WAH creator content, sourcing returned or excess inventory well below retail and reselling it piece by piece, which is itself a signal that the underlying model genuinely works, not just a one-off story. What makes this version distinct: a Costco-specific sourcing angle through the B-Stock auction platform, a named experienced mentor walking through live bid research in real time, and the Whatnot live-auction resale channel for smaller consumable goods, a genuinely different selling mechanic than one-off Marketplace listings. Koerner is candid that categories like appliances and electronics require real category-specific knowledge to avoid getting burned, and that not every item resells quickly, sometimes you cut the price and take a loss just to free up storage space.",
-    "url": "https://www.youtube.com/watch?v=kEV86fy-Rvc",
-    "situation_tags": [
-      "Needs inventory storage",
-      "Requires travel to source or inspect goods",
-      "Needs a truck or cargo vehicle"
-    ]
   },
   {
     "id": "faceless-ghostwriting-service",
@@ -1922,6 +1966,25 @@
     ]
   },
   {
+    "id": "vending-machine-route-tilbury",
+    "name": "Building a vending machine route",
+    "category": "Local & professional services",
+    "tags": [
+      "vending",
+      "route based",
+      "recurring revenue",
+      "passive income",
+      "local business"
+    ],
+    "cost": "Low to moderate startup cost (used machines can be bought cheaply, or financed)",
+    "found": "Mark Tilbury",
+    "what": "Place and maintain vending machines in local businesses (offices, warehouses, workshops), splitting a percentage of revenue with the location owner in exchange for the convenience of on-site food or drinks with no effort on their part.",
+    "pitch": "Tilbury's illustrative example is a young operator who approached a workshop with an old, unprofitable coffee machine and offered to install three new machines at no cost to the business owner, handling all maintenance and restocking himself, in exchange for a 15% cut of revenue. That operator scaled to machines across the state, all generating passive income once installed. Used vending machines are widely available cheaply, and can be financed and paid off from the route's own profits.",
+    "best": "Someone comfortable with the upfront legwork of finding good locations and negotiating placement deals, who's willing to handle restocking and maintenance (or eventually hire someone to) rather than someone looking for something entirely hands-off from day one.",
+    "truth": "The industry-level figure cited (Selecta reporting over $1 billion in 2021 sales, up 3% year over year) is a real, checkable industry data point distinct from the personal anecdote about the young operator, which is presented as a story Tilbury witnessed rather than a verified case study with real numbers attached. The core advice, that success depends on finding the right locations and the right product mix for each one, is genuinely the hard part of this business, not a minor detail.",
+    "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
+  },
+  {
     "id": "window-cleaning-service-residential-commercial",
     "name": "Window cleaning service for homes and businesses",
     "category": "Local & professional services",
@@ -1941,25 +2004,6 @@
     "situation_tags": [
       "Local travel required"
     ]
-  },
-  {
-    "id": "vending-machine-route-tilbury",
-    "name": "Building a vending machine route",
-    "category": "Local & professional services",
-    "tags": [
-      "vending",
-      "route based",
-      "recurring revenue",
-      "passive income",
-      "local business"
-    ],
-    "cost": "Low to moderate startup cost (used machines can be bought cheaply, or financed)",
-    "found": "Mark Tilbury",
-    "what": "Place and maintain vending machines in local businesses (offices, warehouses, workshops), splitting a percentage of revenue with the location owner in exchange for the convenience of on-site food or drinks with no effort on their part.",
-    "pitch": "Tilbury's illustrative example is a young operator who approached a workshop with an old, unprofitable coffee machine and offered to install three new machines at no cost to the business owner, handling all maintenance and restocking himself, in exchange for a 15% cut of revenue. That operator scaled to machines across the state, all generating passive income once installed. Used vending machines are widely available cheaply, and can be financed and paid off from the route's own profits.",
-    "best": "Someone comfortable with the upfront legwork of finding good locations and negotiating placement deals, who's willing to handle restocking and maintenance (or eventually hire someone to) rather than someone looking for something entirely hands-off from day one.",
-    "truth": "The industry-level figure cited (Selecta reporting over $1 billion in 2021 sales, up 3% year over year) is a real, checkable industry data point distinct from the personal anecdote about the young operator, which is presented as a story Tilbury witnessed rather than a verified case study with real numbers attached. The core advice, that success depends on finding the right locations and the right product mix for each one, is genuinely the hard part of this business, not a minor detail.",
-    "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
   },
   {
     "id": "neocaridina-shrimp-breeding-fish-stores",
@@ -2161,50 +2205,6 @@
     "truth": "The presenter claims $50 million in total sales and an eight-figure-per-year business run from 'a laptop and a phone,' all self-reported with no account verification shown. This video also frames the model as 'the easiest way to start,' but understates the hardest step: getting a real brand to actually approve a wholesale account is not automatic, and a separate companion video from the same channel shows that process is the real bottleneck.",
     "url": "https://youtu.be/2XgxGima2Xs",
     "situation_tags": [
-      "E-commerce / fulfillment"
-    ]
-  },
-  {
-    "id": "ai-receptionist-reseller-local-business",
-    "name": "AI receptionist reseller for local businesses",
-    "category": "AI & automation",
-    "tags": [
-      "AI tools",
-      "local business",
-      "done-for-you service",
-      "recurring revenue"
-    ],
-    "cost": "~$297/mo for a HighLevel software plan (covers unlimited clients)",
-    "found": "Adam Erhart",
-    "what": "Install a white-label AI phone receptionist (built on the HighLevel platform) for local businesses that miss calls \u2014 plumbers, dentists, landscapers. The AI answers every call 24/7, holds a natural conversation, books appointments, and takes caller info. Charge the business a flat $397/month.",
-    "pitch": "Cites a 411 Locals study claiming only ~40% of small-business calls get answered by a real person and that 85% of people who hit voicemail never call back, so a missed call is a plausible lost job. A US Census Bureau survey is cited finding only 18% of businesses use AI at all, mostly large ones, framing small local businesses as an underserved, easy market. The seller installs and operates existing tools rather than building anything new.",
-    "best": "Someone comfortable pitching and onboarding local business owners who wants to resell an existing white-label tool rather than build their own AI product from scratch.",
-    "truth": "The cited statistics are attributed to real sources but not independently verified here. The underlying mechanic \u2014 reselling white-label AI voice automation to local businesses monthly \u2014 is a real and growing service model. The recommended software platform is the presenter's own affiliate link (with a bundled template pack unlocked through it specifically), though the business model itself doesn't require using that particular link.",
-    "url": "https://youtu.be/AJX8EgyHwEM",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ]
-  },
-  {
-    "id": "print-on-demand-ai-design-node-workflow",
-    "name": "Print-on-demand apparel shop using AI \"node-based\" design workflows",
-    "category": "Physical & print products",
-    "tags": [
-      "print on demand",
-      "AI tools",
-      "Etsy",
-      "apparel"
-    ],
-    "cost": "Low startup cost",
-    "found": "Alek",
-    "what": "Running a print-on-demand apparel shop (e.g. on Etsy) built around AI \"node-based\" design pipelines: you connect a reference design, an AI text-generator node, and an AI image-generator node so that changing one global theme prompt automatically remixes dozens of unique, on-trend design variations, which are then prepped (upscaled, background removed, sized to a product) and listed using reusable presets with AI-generated SEO titles, descriptions, and tags.",
-    "pitch": "The presenter argues that researching what's already proven to sell, then using an AI node-based pipeline to remix those proven concepts into original variations, lets him go from a niche idea to finished, ready-to-sell product listings in 10 to 20 minutes, a dramatic speed-up from years of manually designing print-on-demand products by hand.",
-    "best": "Someone who already has some print-on-demand or design background, or is willing to learn a real design-canvas/node-based tool rather than a single AI chat prompt, and who is comfortable focusing on one product type and iterating designs at real volume rather than a handful of one-off listings.",
-    "truth": "The presenter has sold, by his own account, a few million dollars of print-on-demand products over six years, and he's promoting his own software (Listing View) and paid community (Merch Makers) throughout, so there's a clear commercial incentive behind the specific tools named. That said, the underlying process, researching proven designs, using AI to remix them into original variations, prepping files properly, and batch-listing with presets, is a real and teachable workflow independent of which specific tool runs it. He also repeatedly and explicitly warns against copying another seller's design directly, a genuine legal/platform-ban risk worth taking seriously.",
-    "url": "https://youtu.be/_0A_DUtzTCA",
-    "situation_tags": [
-      "Strictly in-home",
       "E-commerce / fulfillment"
     ]
   },
@@ -2685,6 +2685,27 @@
     ]
   },
   {
+    "id": "public-daily-challenge-content-to-digital-product",
+    "name": "Public daily-accountability challenge content, monetized with a simple info-product",
+    "category": "Content & personal brand",
+    "tags": [
+      "content creation",
+      "digital products",
+      "personal brand",
+      "consistency challenge"
+    ],
+    "cost": "Free to low \u2014 a phone camera and consistent daily time investment; AI tools can help draft the eventual product",
+    "found": "AI Hustle",
+    "what": "Publicly document a personal challenge with a daily video post (e.g. a short workout time-lapse posted every day, numbered 'Day 1,' 'Day 2,' etc.) to build a following around visible, consistent progress, then sell a simple, related digital product \u2014 such as a workout PDF \u2014 to the audience that watched the results happen in real time.",
+    "pitch": "Discussed as a case study of someone the podcast hosts know personally who ran a public daily workout challenge for over a year (370+ consecutive days), grew to 300,000+ followers, and made roughly $17,000 in one month selling a workout PDF. The value isn't the PDF itself, which could be drafted with AI in minutes, but the trust and distribution earned by visibly documenting real, consistent results over a long period.",
+    "best": "Someone with a specific personal habit, skill, or transformation they're willing to document daily and publicly for a long stretch (months, not weeks), since the trust built by visible consistency is what eventually sells the product.",
+    "truth": "This is a secondhand account from a podcast about a personal friend's business, not a verified financial record \u2014 the $17,000/month figure should be read as anecdotal. The hosts' broader point (many 'sell AI digital products' pitches are really selling a course about selling digital products, and a product is worthless without real distribution) is a reasonable, self-aware caveat from a podcast that itself sells a paid community. The public daily-challenge format is a distinct, repeatable content mechanic \u2014 documented consistency as the trust-building asset \u2014 not just a generic build-audience-sell-something idea.",
+    "url": "https://youtu.be/FpxKjNAaDus",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "shopify-store-creation-service-buildyourstore-autods",
     "name": "Shopify store creation as a service using Claude, Build Your Store, and AutoDS",
     "category": "E-commerce",
@@ -2791,6 +2812,27 @@
     ]
   },
   {
+    "id": "ai-planner-app-meta-ads-subscription",
+    "name": "AI-built planner/tracker app sold as a subscription via Meta ads",
+    "category": "Digital & subscription products",
+    "tags": [
+      "AI tools",
+      "digital products",
+      "subscription",
+      "paid ads"
+    ],
+    "cost": "Needs ongoing ad budget",
+    "found": "Alex",
+    "what": "Using an AI niche-research tool to find a proven, in-demand planner/tracker niche (e.g. a Gen Z budgeting tracker), then an AI app builder to turn that idea into an interactive, mobile-optimized web app in minutes, and selling access as a monthly subscription through the creator's own website, driven by paid Meta (Facebook/Instagram) ad campaigns pointed at a dedicated sales page.",
+    "pitch": "The creator walks through the entire pipeline live: validating a niche, building the actual app, standing up a subscription sales page, and configuring a real Meta ad campaign (budget, targeting, conversion pixel, ad creative), arguing that even if a batch of new subscribers only breaks even on ad spend in month one, the recurring subscription charge in later months is where the real profit comes from, so you shouldn't pull ads just because month one didn't turn a profit.",
+    "best": "Someone comfortable with the technical side of running paid Meta ad campaigns (pixels, conversion tracking, budgets, creative testing) in addition to using AI tools to build the product itself, since running ads well is presented as an ongoing, real skill this model depends on, not a set-and-forget step.",
+    "truth": "The presenter shows a real, live run-through of the workflow end to end rather than only describing it, and cites third-party Etsy sales data (a competing shop with 59,000 sales in two years) as general market validation for the planner/tracker niche, though his own $800/day figure for this specific method is a self-reported screenshot, not independently verified. Running Meta ads well takes real, ongoing ad spend and iteration, this is not a zero-cost model, and the \"break even on ads, profit from renewals\" logic only works if you actually retain subscribers month over month.",
+    "url": "https://youtu.be/frDbrv74Mns",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "claude-interactive-quiz-lead-magnet-influencers",
     "name": "Building interactive diagnostic quizzes to replace influencers' and coaches' static PDF lead magnets",
     "category": "Marketing & content",
@@ -2827,6 +2869,29 @@
     "best": "Someone comfortable directing an AI chatbot to do structured research tasks and willing to package that into a clearly defined, sellable service on a freelance platform.",
     "truth": "The $101 average order and five-orders-in-queue figures come from a screenshot of one specific, real Fiverr listing, which is a genuinely checkable data point rather than an invented number, though it represents one operator's results, not an industry average. The underlying task (using AI to research keywords and competitors) is straightforward enough that this is a low-differentiation service, so standing out among other freelancers offering the same thing is the real work, not mentioned as a caveat in the video itself.",
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
+  },
+  {
+    "id": "whitelabel-gohighlevel-saas-reseller",
+    "name": "White-label SaaS reseller for local business niches (GoHighLevel)",
+    "category": "Local & professional services",
+    "tags": [
+      "SaaS",
+      "reselling",
+      "local business",
+      "GoHighLevel",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (~$497/month software fee, plus ad spend)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "You white-label GoHighLevel's all-in-one marketing and CRM software and resell it to local business niches (event rental companies, med spas, gyms, dentists, roofers, and similar), charging a monthly software fee while your own reseller cost stays fixed at $497 a month regardless of how many clients you have.",
+    "pitch": "Koerner reverse-engineers real competitors using GoHighLevel's own public \"SaaSpreneur\" awards page, which shows which resellers have crossed 100, 500, or 1,000+ paying customers, then walks through a five-tool toolkit: the pricing page, the Wayback Machine, the Meta Ads Library, builtwith.com, and LinkedIn, to estimate a competitor's real revenue, ad spend, and team size. He demonstrates the model live by building a \"missed call text back\" tool for a roofing business in a few minutes inside GoHighLevel, showing how a small wedge product can turn into a broader retainer relationship.",
+    "best": "Someone comfortable with sales and marketing research who's willing to pick one underserved local-business niche and specialize in it, rather than trying to serve every industry at once.",
+    "truth": "Koerner discloses upfront that he's a GoHighLevel affiliate and earns a commission if viewers sign up through his link, worth keeping in mind given how enthusiastically the software is framed. All of the specific revenue estimates for the example businesses are his own \"back of a napkin\" math based on public award tiers and pricing pages, not verified financials, a reasonable estimate but not an audited number. The reverse-engineering toolkit itself is genuinely useful and independently verifiable regardless of how accurate any single revenue guess turns out to be.",
+    "url": "https://www.youtube.com/watch?v=VOo3M3ZHUoA",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ]
   },
   {
     "id": "faceless-product-testing-review-channel",
@@ -2911,6 +2976,25 @@
     ]
   },
   {
+    "id": "online-services-skill-pyramid-roadmap",
+    "name": "The skill pyramid for turning an online service into $10,000 a month",
+    "category": "Local & professional services",
+    "tags": [
+      "roadmap",
+      "freelancing",
+      "consulting",
+      "very low startup cost",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Mark Tilbury",
+    "what": "A general framework, not a single business, for scaling any online service (video editing, copywriting, thumbnail design, social media management, and similar) into real income, built around four elements: positioning yourself to serve businesses rather than individuals, pricing based on the value/results you deliver rather than hours worked, building visible proof of your work so clients come to you, and using reliable systems (a CRM, clear deadlines) to stand out from competitors who miss deadlines.",
+    "pitch": "Tilbury argues businesses pay fundamentally differently than individuals do: a $2,000 problem is trivial for a business already making $50,000 a month if it solves a real pain point, so repositioning the same skill toward business clients (e.g., editing for an entrepreneur selling a product instead of a small YouTuber) unlocks meaningfully higher rates without learning a new skill. He frames charging based on results (a Facebook ads specialist billing on revenue generated, not hours) as the single biggest lever for income, since it reframes the client's mental math from cost to profit.",
+    "best": "Someone who already has, or is building, one specific online skill and wants a framework for pricing and positioning it profitably, rather than someone looking for a brand-new idea to start from scratch.",
+    "truth": "The core framework (serve businesses, charge for outcomes, build visible proof, be reliable) is genuinely sound and echoes advice given independently by other creators in this database. The video also includes a sponsored plug for a CRM tool (Odoo) and an affiliate link for a trading platform partway through, both tied to a financial incentive separate from the core advice, and roughly the second half of the video shifts into general personal investing (savings accounts, index funds, individual stocks, crypto) rather than business advice, which is a separate topic from the roadmap itself.",
+    "url": "https://www.youtube.com/watch?v=5rhHm6WWOIs&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=3"
+  },
+  {
     "id": "pool-cleaning-maintenance-service",
     "name": "Pool cleaning and maintenance service",
     "category": "Local & professional services",
@@ -2931,25 +3015,6 @@
       "Local travel required",
       "Weekend/event-based schedule"
     ]
-  },
-  {
-    "id": "online-services-skill-pyramid-roadmap",
-    "name": "The skill pyramid for turning an online service into $10,000 a month",
-    "category": "Local & professional services",
-    "tags": [
-      "roadmap",
-      "freelancing",
-      "consulting",
-      "very low startup cost",
-      "beginner friendly"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Mark Tilbury",
-    "what": "A general framework, not a single business, for scaling any online service (video editing, copywriting, thumbnail design, social media management, and similar) into real income, built around four elements: positioning yourself to serve businesses rather than individuals, pricing based on the value/results you deliver rather than hours worked, building visible proof of your work so clients come to you, and using reliable systems (a CRM, clear deadlines) to stand out from competitors who miss deadlines.",
-    "pitch": "Tilbury argues businesses pay fundamentally differently than individuals do: a $2,000 problem is trivial for a business already making $50,000 a month if it solves a real pain point, so repositioning the same skill toward business clients (e.g., editing for an entrepreneur selling a product instead of a small YouTuber) unlocks meaningfully higher rates without learning a new skill. He frames charging based on results (a Facebook ads specialist billing on revenue generated, not hours) as the single biggest lever for income, since it reframes the client's mental math from cost to profit.",
-    "best": "Someone who already has, or is building, one specific online skill and wants a framework for pricing and positioning it profitably, rather than someone looking for a brand-new idea to start from scratch.",
-    "truth": "The core framework (serve businesses, charge for outcomes, build visible proof, be reliable) is genuinely sound and echoes advice given independently by other creators in this database. The video also includes a sponsored plug for a CRM tool (Odoo) and an affiliate link for a trading platform partway through, both tied to a financial incentive separate from the core advice, and roughly the second half of the video shifts into general personal investing (savings accounts, index funds, individual stocks, crypto) rather than business advice, which is a separate topic from the roadmap itself.",
-    "url": "https://www.youtube.com/watch?v=5rhHm6WWOIs&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=3"
   },
   {
     "id": "balloon-stuffing-gift-business",
@@ -3162,6 +3227,24 @@
     ]
   },
   {
+    "id": "ebay-niche-reselling-account-warming",
+    "name": "eBay niche reselling with the account-warming strategy",
+    "category": "E-commerce",
+    "tags": [
+      "reselling",
+      "eBay",
+      "very low startup cost",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Mark Tilbury",
+    "what": "Build an eBay reselling business focused on a specific under-served niche (collectibles, vintage items, refurbished tech, trading cards, gaming accessories) rather than competing broadly, starting by selling unused items from around your own home to build account history before investing in inventory.",
+    "pitch": "Tilbury cites a specific creator, Kai Towers, who turned $400 into $317,000 within a year focused specifically on the gaming-accessories niche (replacement thumb sticks, retro memory cards). The pitch is that eBay isn't dying, real Q2 2025 revenue was up 6% year over year to $2.7 billion, but has pivoted from competing with Amazon on speed toward dominating niches where loyal buyers specifically prefer eBay. The account-warming tactic (selling household items first) is framed as a genuinely low-risk way to learn the platform's mechanics, build seller feedback, and generate starting capital before committing money to inventory.",
+    "best": "Someone with a genuine interest in a specific collector or niche category, willing to build real product knowledge in it, since success here depends on knowing the niche well enough to source and price competitively, not just listing generic items.",
+    "truth": "The eBay revenue figures ($2.7 billion in Q2 2025, up 6% year over year) are a real, checkable company-level statistic, a good sign. The Kai Towers case study ($400 to $317,000 in a year) is presented as a real individual's result but without account screenshots or independent verification, so it's a strong but unaudited claim. Worth knowing: this video is structured as a promotional funnel, each case study featured is a paid video series inside the presenter's own course platform, so there's a financial incentive to make each result sound as replicable as possible.",
+    "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
+  },
+  {
     "id": "lawn-care-business-route",
     "name": "Lawn care and mowing route",
     "category": "Local & professional services",
@@ -3183,24 +3266,6 @@
       "Requires equipment/vehicle investment",
       "Weekend/event-based schedule"
     ]
-  },
-  {
-    "id": "ebay-niche-reselling-account-warming",
-    "name": "eBay niche reselling with the account-warming strategy",
-    "category": "E-commerce",
-    "tags": [
-      "reselling",
-      "eBay",
-      "very low startup cost",
-      "beginner friendly"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Mark Tilbury",
-    "what": "Build an eBay reselling business focused on a specific under-served niche (collectibles, vintage items, refurbished tech, trading cards, gaming accessories) rather than competing broadly, starting by selling unused items from around your own home to build account history before investing in inventory.",
-    "pitch": "Tilbury cites a specific creator, Kai Towers, who turned $400 into $317,000 within a year focused specifically on the gaming-accessories niche (replacement thumb sticks, retro memory cards). The pitch is that eBay isn't dying, real Q2 2025 revenue was up 6% year over year to $2.7 billion, but has pivoted from competing with Amazon on speed toward dominating niches where loyal buyers specifically prefer eBay. The account-warming tactic (selling household items first) is framed as a genuinely low-risk way to learn the platform's mechanics, build seller feedback, and generate starting capital before committing money to inventory.",
-    "best": "Someone with a genuine interest in a specific collector or niche category, willing to build real product knowledge in it, since success here depends on knowing the niche well enough to source and price competitively, not just listing generic items.",
-    "truth": "The eBay revenue figures ($2.7 billion in Q2 2025, up 6% year over year) are a real, checkable company-level statistic, a good sign. The Kai Towers case study ($400 to $317,000 in a year) is presented as a real individual's result but without account screenshots or independent verification, so it's a strong but unaudited claim. Worth knowing: this video is structured as a promotional funnel, each case study featured is a paid video series inside the presenter's own course platform, so there's a financial incentive to make each result sound as replicable as possible.",
-    "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
   },
   {
     "id": "colored-flame-candles-novelty",
@@ -3239,29 +3304,6 @@
     "best": "Someone targeting multi-location or review-heavy local businesses, comfortable positioning the pre-call complaint/praise summary as a free diagnostic to open conversations.",
     "truth": "A similar AI-drafted review-reply concept already exists in this database from a different producer at a flat $199/month; this version's distinguishing specifics are the owner-approval-before-publish workflow (a meaningful trust and platform-compliance safeguard) and the pre-call complaint/praise diagnostic as a sales tool. The cited survey statistic (6% to 45% AI-assistant usage) should be verified against the original Bright Local source rather than taken at face value, as exact figures from cited surveys are sometimes rounded or summarized loosely in marketing content.",
     "url": "https://www.youtube.com/watch?v=tKBpMevDJO8"
-  },
-  {
-    "id": "whitelabel-gohighlevel-saas-reseller",
-    "name": "White-label SaaS reseller for local business niches (GoHighLevel)",
-    "category": "Local & professional services",
-    "tags": [
-      "SaaS",
-      "reselling",
-      "local business",
-      "GoHighLevel",
-      "low startup cost"
-    ],
-    "cost": "Low startup cost (~$497/month software fee, plus ad spend)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "You white-label GoHighLevel's all-in-one marketing and CRM software and resell it to local business niches (event rental companies, med spas, gyms, dentists, roofers, and similar), charging a monthly software fee while your own reseller cost stays fixed at $497 a month regardless of how many clients you have.",
-    "pitch": "Koerner reverse-engineers real competitors using GoHighLevel's own public \"SaaSpreneur\" awards page, which shows which resellers have crossed 100, 500, or 1,000+ paying customers, then walks through a five-tool toolkit: the pricing page, the Wayback Machine, the Meta Ads Library, builtwith.com, and LinkedIn, to estimate a competitor's real revenue, ad spend, and team size. He demonstrates the model live by building a \"missed call text back\" tool for a roofing business in a few minutes inside GoHighLevel, showing how a small wedge product can turn into a broader retainer relationship.",
-    "best": "Someone comfortable with sales and marketing research who's willing to pick one underserved local-business niche and specialize in it, rather than trying to serve every industry at once.",
-    "truth": "Koerner discloses upfront that he's a GoHighLevel affiliate and earns a commission if viewers sign up through his link, worth keeping in mind given how enthusiastically the software is framed. All of the specific revenue estimates for the example businesses are his own \"back of a napkin\" math based on public award tiers and pricing pages, not verified financials, a reasonable estimate but not an audited number. The reverse-engineering toolkit itself is genuinely useful and independently verifiable regardless of how accurate any single revenue guess turns out to be.",
-    "url": "https://www.youtube.com/watch?v=VOo3M3ZHUoA",
-    "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based"
-    ]
   },
   {
     "id": "faceless-digital-publishing-kdp-pen-name",
@@ -3472,6 +3514,25 @@
     ]
   },
   {
+    "id": "brand-deal-flipping-influencer-agency",
+    "name": "Brand deal flipping: a middleman agency between influencers and brands",
+    "category": "Local & professional services",
+    "tags": [
+      "consulting",
+      "influencer marketing",
+      "agency",
+      "very low startup cost",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Mark Tilbury",
+    "what": "Act as the connector between brands looking to advertise and content creators/influencers looking for sponsorship deals, negotiating and managing the partnership in exchange for a cut of the deal value, a middleman business similar in structure to how Airbnb, Uber, or DoorDash connect two sides of a market without owning the underlying asset themselves.",
+    "pitch": "Tilbury cites Suhail Amin, who started this at 16 with no existing industry connections and now generates over $4 million a year working with major brands (Ubisoft, Netflix, Acer) and creators. The pitch leans on a real, cited data point: as of May 2025, Americans watch more streaming content than cable and broadcast TV combined, with YouTube the single largest share, meaning brand ad budgets are shifting toward creators faster than creators can independently negotiate for themselves, which is exactly the gap a competent middleman fills. A worked example: one brand booking 5 influencer deals a month at $7,000 average value and a 30% margin works out to roughly $10,000 a month in profit for the agency.",
+    "best": "Someone comfortable with cold outreach and relationship management on both sides of a deal (younger creators and often-older brand marketing teams), since the core skill here is negotiation and trust-building, not content creation itself.",
+    "truth": "The streaming-viewership statistic (Americans watching more streaming than cable/broadcast, YouTube as the top platform) is attributed to a real, named source (The New York Times, May 2025) and is independently checkable. The Suhail Amin case study, including the specific $30,000 profit in his first six months, is presented in detail but is a single individual's account, not an audited business record. The video is part of the same promotional series discussed above (each case study links to a paid course), worth knowing when weighing how polished the result sounds.",
+    "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
+  },
+  {
     "id": "mobile-car-detailing-service",
     "name": "Mobile car detailing service",
     "category": "Local & professional services",
@@ -3492,25 +3553,6 @@
       "Local travel required",
       "Weekend/event-based schedule"
     ]
-  },
-  {
-    "id": "brand-deal-flipping-influencer-agency",
-    "name": "Brand deal flipping: a middleman agency between influencers and brands",
-    "category": "Local & professional services",
-    "tags": [
-      "consulting",
-      "influencer marketing",
-      "agency",
-      "very low startup cost",
-      "beginner friendly"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Mark Tilbury",
-    "what": "Act as the connector between brands looking to advertise and content creators/influencers looking for sponsorship deals, negotiating and managing the partnership in exchange for a cut of the deal value, a middleman business similar in structure to how Airbnb, Uber, or DoorDash connect two sides of a market without owning the underlying asset themselves.",
-    "pitch": "Tilbury cites Suhail Amin, who started this at 16 with no existing industry connections and now generates over $4 million a year working with major brands (Ubisoft, Netflix, Acer) and creators. The pitch leans on a real, cited data point: as of May 2025, Americans watch more streaming content than cable and broadcast TV combined, with YouTube the single largest share, meaning brand ad budgets are shifting toward creators faster than creators can independently negotiate for themselves, which is exactly the gap a competent middleman fills. A worked example: one brand booking 5 influencer deals a month at $7,000 average value and a 30% margin works out to roughly $10,000 a month in profit for the agency.",
-    "best": "Someone comfortable with cold outreach and relationship management on both sides of a deal (younger creators and often-older brand marketing teams), since the core skill here is negotiation and trust-building, not content creation itself.",
-    "truth": "The streaming-viewership statistic (Americans watching more streaming than cable/broadcast, YouTube as the top platform) is attributed to a real, named source (The New York Times, May 2025) and is independently checkable. The Suhail Amin case study, including the specific $30,000 profit in his first six months, is presented in detail but is a single individual's account, not an audited business record. The video is part of the same promotional series discussed above (each case study links to a paid course), worth knowing when weighing how polished the result sounds.",
-    "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
   },
   {
     "id": "photo-embroidery-portrait-art",
@@ -3548,27 +3590,6 @@
     "best": "Someone who wants to stay a true solo operator without hiring staff or building physical inventory, and who is willing to specialize in one skill (marketing) rather than juggling product creation, fulfillment, and support.",
     "truth": "This shares the same unverified '$3 million' claim as the presenter's companion video, and also funnels to a free masterclass. The comparison to harder businesses (restaurants, Amazon FBA, agencies) is somewhat one-sided \u2014 those businesses can also be run leaner than described here. The real substance is a decision framework (simple, affordable, one skill, high margin) rather than a step-by-step how-to.",
     "url": "https://youtu.be/EJwQ3ifrQw8",
-    "situation_tags": [
-      "Strictly in-home"
-    ]
-  },
-  {
-    "id": "ai-planner-app-meta-ads-subscription",
-    "name": "AI-built planner/tracker app sold as a subscription via Meta ads",
-    "category": "Digital & subscription products",
-    "tags": [
-      "AI tools",
-      "digital products",
-      "subscription",
-      "paid ads"
-    ],
-    "cost": "Needs ongoing ad budget",
-    "found": "Alex",
-    "what": "Using an AI niche-research tool to find a proven, in-demand planner/tracker niche (e.g. a Gen Z budgeting tracker), then an AI app builder to turn that idea into an interactive, mobile-optimized web app in minutes, and selling access as a monthly subscription through the creator's own website, driven by paid Meta (Facebook/Instagram) ad campaigns pointed at a dedicated sales page.",
-    "pitch": "The creator walks through the entire pipeline live: validating a niche, building the actual app, standing up a subscription sales page, and configuring a real Meta ad campaign (budget, targeting, conversion pixel, ad creative), arguing that even if a batch of new subscribers only breaks even on ad spend in month one, the recurring subscription charge in later months is where the real profit comes from, so you shouldn't pull ads just because month one didn't turn a profit.",
-    "best": "Someone comfortable with the technical side of running paid Meta ad campaigns (pixels, conversion tracking, budgets, creative testing) in addition to using AI tools to build the product itself, since running ads well is presented as an ongoing, real skill this model depends on, not a set-and-forget step.",
-    "truth": "The presenter shows a real, live run-through of the workflow end to end rather than only describing it, and cites third-party Etsy sales data (a competing shop with 59,000 sales in two years) as general market validation for the planner/tracker niche, though his own $800/day figure for this specific method is a self-reported screenshot, not independently verified. Running Meta ads well takes real, ongoing ad spend and iteration, this is not a zero-cost model, and the \"break even on ads, profit from renewals\" logic only works if you actually retain subscribers month over month.",
-    "url": "https://youtu.be/frDbrv74Mns",
     "situation_tags": [
       "Strictly in-home"
     ]
@@ -3749,6 +3770,49 @@
     ]
   },
   {
+    "id": "google-review-automation-service",
+    "name": "Automated Google-review generation service for local businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "local business",
+      "reputation",
+      "automation",
+      "recurring revenue"
+    ],
+    "cost": "~$297/mo for a HighLevel software plan (covers unlimited clients)",
+    "found": "Adam Erhart",
+    "what": "Sell local businesses one narrow service: an automated system that texts or emails every customer after a completed job asking for a Google review, plus a 'reactivation campaign' reaching a business's entire past-customer list for reviews they were never asked for. Pitched at a flat $297/month with a 'no new reviews, no pay' guarantee.",
+    "pitch": "Built around a 'one-tool offer' framework: sell exactly one clearly-named result, guarantee the outcome to remove the buyer's downside, and remove all setup effort from the business owner. Cites the well-known 2000 jam-tasting choice-overload study and Kahneman's loss-aversion research as behavioral backing for a single narrow offer with a guarantee.",
+    "best": "Someone comfortable selling a single, narrowly-defined service to local business owners, especially one who can offer a results-based guarantee to make the pitch an easy yes.",
+    "truth": "The cited psychology research is real and widely known, though the jam study specifically has faced replication difficulties in follow-up research, so treat it as illustrative rather than settled proof of a guaranteed conversion lift. The underlying mechanic (automated review-request campaigns) is a real, commonly-sold local-marketing service. The recommended software platform is again the presenter's own affiliate link, and the price point is his suggested anchor, not a guaranteed market rate.",
+    "url": "https://youtu.be/H942H-ANhJ0",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "digital-products-etsy-three-phase-roadmap",
+    "name": "A three-phase roadmap for launching and scaling an Etsy digital product shop",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "digital products",
+      "roadmap",
+      "beginner friendly"
+    ],
+    "cost": "Low startup cost",
+    "found": "Alek",
+    "what": "A structured, checklist-driven roadmap for starting an Etsy digital product shop in three phases: launch (pick a low-ticket, evergreen product with room for many variations, and research proven niches directly on Etsy), build (use a repeatable \"product hacking\" process, deconstructing successful competitors' listings into their design, image, and SEO elements to build original but similarly-structured products), and optimize (analyze view/click/conversion data after 100 published listings to guide what to make next).",
+    "pitch": "The presenter argues AI has compressed what used to take hours per listing down to minutes, and lays out concrete, specific criteria for picking a winning product category ($5-$25 price point, room for many variations, evergreen demand, and something you'd enjoy making), plus a data-driven reason for pushing through to 100 listings before trying to optimize: enough listings to generate real, actionable customer interaction data.",
+    "best": "A complete beginner who's willing to follow a structured, checklist-driven process rather than trying to perfect a single product, and who is prepared to publish and iterate across a real volume of listings (100-plus) before expecting clear traction.",
+    "truth": "This is a general methodology/roadmap video rather than a single dollar-figure case study, so no specific outcome is claimed for a shop that followed this exact process start to finish. The core advice, start on Etsy rather than your own website if you don't already have traffic, and pick evergreen, low-ticket, variation-friendly products, is sound and echoes how other Etsy-based digital product sellers describe the platform elsewhere in this database. The \"100 listings\" threshold is the presenter's own operating rule, not an independently verified industry benchmark.",
+    "url": "https://youtu.be/T-gfoXzz8k8",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "claude-social-media-management-local-business",
     "name": "AI-accelerated social media management service for local businesses using Claude for batch content creation",
     "category": "Marketing & content",
@@ -3785,6 +3849,28 @@
     "best": "Someone who wants a very low-cost way to test print-on-demand publishing and is willing to do the legwork of finding an under-served theme or niche, since the puzzle types themselves are largely interchangeable across books.",
     "truth": "The 86-124 copies a day figure comes from a third-party Amazon sales rank estimator, not a confirmed sales report from the book's actual author, so it's a reasonable estimate rather than verified data. The Canva PDF-to-editable-file step Sarah recommends works using Canva's free tier, though she also promotes her own Canva affiliate link for the paid version alongside it, worth knowing given her direct financial interest in that specific recommendation.",
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
+  },
+  {
+    "id": "grass-fed-beef-arbitrage-no-land",
+    "name": "Grass-fed beef arbitrage without owning any land",
+    "category": "Local & professional services",
+    "tags": [
+      "grass-fed beef",
+      "livestock arbitrage",
+      "direct-to-consumer meat",
+      "no land required"
+    ],
+    "cost": "Moderate startup cost (buying young cattle from a rancher; costs scale with how many head you buy)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Buy young cattle (calves at around 500-600 lbs) directly from a rancher at market price, arrange to have them custom-finished and slaughtered once they reach optimal size instead of selling them at the standard weight, then package and sell the finished grass-fed beef directly to consumers \u2014 all without owning or leasing any land yourself.",
+    "pitch": "Koerner describes the rancher he bought his own property from as making consistent money simply letting calves graze until they reach market weight, then selling roughly 15 at a time at auction for about $1,400 each. His proposed arbitrage: buy calves at that same price, brand them as your own, but instead of selling them early at the standard auction weight, pay to have them finished and slaughtered at optimal size, then sell the packaged beef directly to consumers (he suggests shipping nationally through an e-commerce operation) \u2014 capturing the price difference between a live auction calf and finished, packaged, direct-to-consumer beef.",
+    "best": "Someone who can build a relationship with a working rancher (to buy calves and arrange grazing/finishing) and a slaughterhouse (booking dates months in advance, since they get busy), and who has or can build a direct-to-consumer sales channel for the finished product.",
+    "truth": "The core arbitrage logic is sound and doesn't require owning land, which is a genuine barrier-lowering insight most beef-business content skips past. That said, the presenter is explicit this is his own not-yet-executed plan (\"a ways off\") rather than a proven case study, and the real complexity \u2014 coordinating a rancher relationship, slaughterhouse scheduling, meat packaging/labeling regulations, and building distribution \u2014 is meaningfully harder than the simple unit-economics pitch suggests.",
+    "url": "https://youtu.be/HOosrT6vj_Y",
+    "situation_tags": [
+      "Requires travel to source or inspect goods",
+      "Requires hiring or managing others"
+    ]
   },
   {
     "id": "medical-courier-service",
@@ -3977,6 +4063,24 @@
     ]
   },
   {
+    "id": "video-editing-brand-influencer-campaigns",
+    "name": "Video editing for brand and influencer campaigns",
+    "category": "Marketing & content",
+    "tags": [
+      "video editing",
+      "freelancing",
+      "very low startup cost",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Mark Tilbury",
+    "what": "Offer video editing services, starting with small jobs for individual creators and small businesses, then working up to editing paid brand and influencer campaign content, positioning the skill as a scalable freelance business rather than a one-off gig.",
+    "pitch": "Tilbury cites Tom La Trousse, who taught himself editing from his university dorm room and built to $100,000 in yearly profit editing influencer collaborations for brands like Coca-Cola, Nintendo, and Gymshark. The pitch leans on video's dominance of internet traffic (cited at 82.5% of global internet traffic) as evidence of durable, growing demand, and directly addresses the AI-replacement question: the argument is that AI tools can automate mechanical cutting and beat-syncing, but can't judge emotional pacing or build genuinely original approaches the way a human editor does, so editing remains a real, in-demand skill even as AI tools mature around it.",
+    "best": "Someone willing to start with smaller, lower-paying jobs (TikToks and Reels for small creators) to build a portfolio before pursuing higher-value brand work, rather than expecting to land major clients immediately.",
+    "truth": "The 82.5%-of-internet-traffic figure is a commonly cited industry statistic, though its original source isn't named in the video, so it's worth treating as a general industry estimate rather than an audited number. The Tom La Trousse case study is specific (named brands, a dollar figure) but comes from the presenter's own paid course content, where Tom is a featured instructor, a real financial incentive behind how the result is framed. The advice to build a portfolio through smaller jobs before pursuing brand-level clients is sound, general freelancing guidance independent of any specific tool or course.",
+    "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
+  },
+  {
     "id": "cottage-bakery-home-kitchen-drops",
     "name": "Cottage bakery selling weekly product drops from a home kitchen",
     "category": "Physical & print products",
@@ -3999,24 +4103,6 @@
       "Weekend/event-based schedule",
       "Requires a license or certification"
     ]
-  },
-  {
-    "id": "video-editing-brand-influencer-campaigns",
-    "name": "Video editing for brand and influencer campaigns",
-    "category": "Marketing & content",
-    "tags": [
-      "video editing",
-      "freelancing",
-      "very low startup cost",
-      "beginner friendly"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Mark Tilbury",
-    "what": "Offer video editing services, starting with small jobs for individual creators and small businesses, then working up to editing paid brand and influencer campaign content, positioning the skill as a scalable freelance business rather than a one-off gig.",
-    "pitch": "Tilbury cites Tom La Trousse, who taught himself editing from his university dorm room and built to $100,000 in yearly profit editing influencer collaborations for brands like Coca-Cola, Nintendo, and Gymshark. The pitch leans on video's dominance of internet traffic (cited at 82.5% of global internet traffic) as evidence of durable, growing demand, and directly addresses the AI-replacement question: the argument is that AI tools can automate mechanical cutting and beat-syncing, but can't judge emotional pacing or build genuinely original approaches the way a human editor does, so editing remains a real, in-demand skill even as AI tools mature around it.",
-    "best": "Someone willing to start with smaller, lower-paying jobs (TikToks and Reels for small creators) to build a portfolio before pursuing higher-value brand work, rather than expecting to land major clients immediately.",
-    "truth": "The 82.5%-of-internet-traffic figure is a commonly cited industry statistic, though its original source isn't named in the video, so it's worth treating as a general industry estimate rather than an audited number. The Tom La Trousse case study is specific (named brands, a dollar figure) but comes from the presenter's own paid course content, where Tom is a featured instructor, a real financial incentive behind how the result is framed. The advice to build a portfolio through smaller jobs before pursuing brand-level clients is sound, general freelancing guidance independent of any specific tool or course.",
-    "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
   },
   {
     "id": "custom-mug-sublimation-business",
@@ -4168,6 +4254,27 @@
     ]
   },
   {
+    "id": "ai-planner-app-etsy-claude-seo",
+    "name": "AI-built planner/tracker app sold as an Etsy PDF download, with Claude writing the SEO",
+    "category": "Digital & subscription products",
+    "tags": [
+      "AI tools",
+      "Etsy",
+      "digital products",
+      "SEO"
+    ],
+    "cost": "Low startup cost",
+    "found": "Alex",
+    "what": "Building the same style of AI-generated interactive planner/tracker app (using an AI niche-research tool and an AI app builder) as a companion approach to the creator's Meta-ads version, but delivering it as an Etsy digital download instead: the finished app is packaged as a PDF containing a Google Drive access link, listed on Etsy for built-in marketplace traffic, with Claude used specifically to write the Etsy-optimized listing titles, descriptions, and tags for each product.",
+    "pitch": "The creator frames this as a two-phase path: start on Etsy to reach a first $5,000-$20,000 month without needing to run paid ads, then move to a self-hosted website once you have proof of concept and money to invest in scaling. He positions Claude as effectively doing the marketing work, generating ranking-ready Etsy copy, so a seller without marketing experience can still compete on discoverability.",
+    "best": "A more cautious beginner who'd rather start on Etsy's existing marketplace traffic before investing in a standalone website and paid ads, and who wants a lighter-weight PDF/Google-Drive delivery method rather than building and maintaining a subscription app and payment system.",
+    "truth": "This video is essentially a companion, lower-friction version of the creator's own Meta-ads planner-app pitch (also in this database), reusing the same underlying research and app-building tools but for a non-subscription Etsy listing, worth comparing both if this general approach interests you. The presenter again cites third-party Etsy sales data (a 59,000-sale digital planner shop) as niche validation, and his own $798/day figure is a self-reported screenshot rather than independently verified. Etsy's search algorithm and competition level change over time, so results depend heavily on execution and timing, not just on following the steps shown.",
+    "url": "https://youtu.be/5aCGTLqOAR0",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "tiktok-viral-amazon-affiliate-content",
     "name": "TikTok viral Amazon-affiliate product content",
     "category": "Content & personal brand",
@@ -4292,6 +4399,24 @@
     ]
   },
   {
+    "id": "branded-dropshipping-trust-positioning",
+    "name": "Branded dropshipping: positioning products as a trusted brand, not a generic listing",
+    "category": "E-commerce",
+    "tags": [
+      "dropshipping",
+      "branding",
+      "e-commerce",
+      "needs ad budget"
+    ],
+    "cost": "Needs ongoing ad budget",
+    "found": "Mark Tilbury",
+    "what": "A variation on traditional dropshipping that focuses on building genuine brand trust, a real website, consistent visual identity, and a product presentation people want to be seen buying, rather than just relisting a generic AliExpress item at a markup and competing purely on price and ad spend.",
+    "pitch": "Tilbury cites Jimmy Barlow, who started with no money or experience and now profits around $40,000 a month. The core argument is about margin structure: a traditional dropshipping approach might mark a $10 item up to $30 and barely survive ad costs and refunds, while the same product reframed as an $80 branded item, sold on trust rather than price, produces meaningfully higher margins and a lower refund rate because customers are buying into the brand, not just the object. A rough monthly math check is given: at roughly $25 profit per sale, hitting $10,000 a month requires around 13-14 sales a day, not hundreds of customers.",
+    "best": "Someone willing to invest real time in store design, brand consistency, and a multi-month ramp-up (the video frames months one through three as testing, learning, and scaling, not immediate profit) rather than someone looking for overnight results.",
+    "truth": "The Jimmy Barlow case study and the $40,000-a-month figure are presented as a real result but, as with the other case studies in this video, come from the presenter's own paid course platform where Jimmy is a featured instructor, a direct financial incentive worth factoring in. The underlying economic argument (branding supports higher prices and lower refund rates than a generic pass-through markup) is a reasonable and generally accepted e-commerce principle, independent of whether the specific $40,000 figure is representative.",
+    "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
+  },
+  {
     "id": "diy-bedazzle-craft-kits",
     "name": "DIY bedazzling kits sold online (rhinestone canvas/cup craft business)",
     "category": "Physical & print products",
@@ -4313,24 +4438,6 @@
       "Strictly in-home",
       "Needs inventory storage"
     ]
-  },
-  {
-    "id": "branded-dropshipping-trust-positioning",
-    "name": "Branded dropshipping: positioning products as a trusted brand, not a generic listing",
-    "category": "E-commerce",
-    "tags": [
-      "dropshipping",
-      "branding",
-      "e-commerce",
-      "needs ad budget"
-    ],
-    "cost": "Needs ongoing ad budget",
-    "found": "Mark Tilbury",
-    "what": "A variation on traditional dropshipping that focuses on building genuine brand trust, a real website, consistent visual identity, and a product presentation people want to be seen buying, rather than just relisting a generic AliExpress item at a markup and competing purely on price and ad spend.",
-    "pitch": "Tilbury cites Jimmy Barlow, who started with no money or experience and now profits around $40,000 a month. The core argument is about margin structure: a traditional dropshipping approach might mark a $10 item up to $30 and barely survive ad costs and refunds, while the same product reframed as an $80 branded item, sold on trust rather than price, produces meaningfully higher margins and a lower refund rate because customers are buying into the brand, not just the object. A rough monthly math check is given: at roughly $25 profit per sale, hitting $10,000 a month requires around 13-14 sales a day, not hundreds of customers.",
-    "best": "Someone willing to invest real time in store design, brand consistency, and a multi-month ramp-up (the video frames months one through three as testing, learning, and scaling, not immediate profit) rather than someone looking for overnight results.",
-    "truth": "The Jimmy Barlow case study and the $40,000-a-month figure are presented as a real result but, as with the other case studies in this video, come from the presenter's own paid course platform where Jimmy is a featured instructor, a direct financial incentive worth factoring in. The underlying economic argument (branding supports higher prices and lower refund rates than a generic pass-through markup) is a reasonable and generally accepted e-commerce principle, independent of whether the specific $40,000 figure is representative.",
-    "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
   },
   {
     "id": "plastic-bottle-cutter-upcycled-rope",
@@ -4369,28 +4476,6 @@
     "best": "Someone new to selling AI-built services who needs a first client and doesn't yet have a portfolio, since this offer can be demonstrated with just the target business's own existing reviews and goal.",
     "truth": "The goal-first (not template-first) design principle is sound web-design practice independent of which AI tool builds the site, and using a business's real reviews as ad copy is a legitimate way to make a rebuild feel authentic rather than generic. This is a distinct market segment problem (an existing but non-converting website) from most other AI-website entries in this database, which more often target businesses with no website at all.",
     "url": "https://www.youtube.com/watch?v=tKBpMevDJO8"
-  },
-  {
-    "id": "grass-fed-beef-arbitrage-no-land",
-    "name": "Grass-fed beef arbitrage without owning any land",
-    "category": "Local & professional services",
-    "tags": [
-      "grass-fed beef",
-      "livestock arbitrage",
-      "direct-to-consumer meat",
-      "no land required"
-    ],
-    "cost": "Moderate startup cost (buying young cattle from a rancher; costs scale with how many head you buy)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Buy young cattle (calves at around 500-600 lbs) directly from a rancher at market price, arrange to have them custom-finished and slaughtered once they reach optimal size instead of selling them at the standard weight, then package and sell the finished grass-fed beef directly to consumers \u2014 all without owning or leasing any land yourself.",
-    "pitch": "Koerner describes the rancher he bought his own property from as making consistent money simply letting calves graze until they reach market weight, then selling roughly 15 at a time at auction for about $1,400 each. His proposed arbitrage: buy calves at that same price, brand them as your own, but instead of selling them early at the standard auction weight, pay to have them finished and slaughtered at optimal size, then sell the packaged beef directly to consumers (he suggests shipping nationally through an e-commerce operation) \u2014 capturing the price difference between a live auction calf and finished, packaged, direct-to-consumer beef.",
-    "best": "Someone who can build a relationship with a working rancher (to buy calves and arrange grazing/finishing) and a slaughterhouse (booking dates months in advance, since they get busy), and who has or can build a direct-to-consumer sales channel for the finished product.",
-    "truth": "The core arbitrage logic is sound and doesn't require owning land, which is a genuine barrier-lowering insight most beef-business content skips past. That said, the presenter is explicit this is his own not-yet-executed plan (\"a ways off\") rather than a proven case study, and the real complexity \u2014 coordinating a rancher relationship, slaughterhouse scheduling, meat packaging/labeling regulations, and building distribution \u2014 is meaningfully harder than the simple unit-economics pitch suggests.",
-    "url": "https://youtu.be/HOosrT6vj_Y",
-    "situation_tags": [
-      "Requires travel to source or inspect goods",
-      "Requires hiring or managing others"
-    ]
   },
   {
     "id": "faceless-youtube-channel-screen-recordings",
@@ -4578,6 +4663,30 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
+    "id": "restaurant-specials-board-ads-agency-upsell",
+    "name": "Free restaurant specials-board advertising, used as a wedge to upsell local businesses into an AI/digital agency",
+    "category": "Marketing & content",
+    "tags": [
+      "local advertising",
+      "restaurant marketing",
+      "lead generation",
+      "AI implementation agency",
+      "upsell funnel"
+    ],
+    "cost": "Very low startup cost (about $350-400 per board, covered by ad sales before the board is even printed)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Place a free dry-erase specials board (used for daily specials and announcements) inside high-foot-traffic local businesses like restaurants and coffee shops, sell 6 ad slots on the board's border to other local businesses for $600/year each, then use the relationship with those advertisers (mostly home services \u2014 realtors, contractors, insurance agents, lawyers) as a warm lead into a separate, higher-ticket AI implementation and digital marketing agency (websites, Google review/reputation management, AI voice receptionists).",
+    "pitch": "The guests, a married couple who started this a year and a half ago alongside an existing digital agency, are earning about $10,000-15,000/month combined from both sides of the business after 6 months. The board itself costs about $350-400 to produce (which is covered before printing, since you only print once all 6 ad spots are sold) and generates about $3,200-4,600 profit per placement per year at roughly 85% margin; separately, roughly 20-30 of the businesses that bought ad space have converted into digital agency clients averaging about $7,500/year each, projected around $200,000-225,000 in annual revenue from that side alone \u2014 with 60% of that from brand reputation management, 30% from websites/hosting, and 10% from higher-ticket AI services like voice receptionists and automated appointment booking.",
+    "best": "Someone comfortable with in-person and DM-based local sales (cold outreach to find host locations and advertisers) who also wants to build or already runs a digital marketing/AI implementation service to upsell into.",
+    "truth": "This is one of the more genuinely novel local business mechanics in this database \u2014 a low-cost physical product used deliberately as a lead-generation wedge into a much higher-margin service business, rather than as the primary profit center itself. The presenters are candid that finding the first advertiser took 10-15 cold outreach messages, and that asking business owners broad questions (\"what problems are you having?\") doesn't work as well as specific ones (\"do employees show up late?\") \u2014 a real, transferable sales lesson. The digital-agency upsell side requires an existing or newly-built service offering, which is a nontrivial second business, not just a matter of selling one ad board.",
+    "url": "https://youtu.be/McQucrnkSt0",
+    "situation_tags": [
+      "Local travel required",
+      "Phone/sales-based",
+      "Requires hiring or managing others"
+    ]
+  },
+  {
     "id": "eco-bricks-plastic-waste-furniture",
     "name": "Eco-brick furniture and community-build business using packed plastic waste",
     "category": "Physical & print products",
@@ -4684,6 +4793,24 @@
     ]
   },
   {
+    "id": "brand-identity-design-service",
+    "name": "Full brand identity design service",
+    "category": "Marketing & content",
+    "tags": [
+      "graphic design",
+      "branding",
+      "consulting",
+      "very low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Mark Tilbury",
+    "what": "Design a business's complete visual identity (logo, color palette, typography, imagery style) as a full package rather than a single deliverable like a logo, aimed at businesses that want to look immediately recognizable and trustworthy to customers.",
+    "pitch": "Tilbury cites Jack Watson, who went from a negative bank balance to his first $20,000 month within six months of specializing in this. The pitch leans on a clear market gap: there are many designers charging around $50 for a quick logo, but few offering the complete, cohesive package that makes a brand feel genuinely professional, which is why brand identity is positioned as a premium, underserved tier of graphic design. As evidence of real market size, the video cites the global brand identity market valued at over $9.5 billion in 2024, projected to reach $40 billion by 2032, and a real example of the UK government reportedly spending roughly $650,000 on a single logo redesign.",
+    "best": "Someone with genuine visual design skill and taste who's willing to develop a full-package offering rather than staying at the cheaper, more commoditized single-logo tier of the market.",
+    "truth": "The market-size figures ($9.5 billion in 2024, projected $40 billion by 2032) and the government logo redesign cost are specific, checkable claims, though the market-size numbers' original source isn't named in the video. The Jack Watson case study, like the others in this video, is featured because he's an instructor on the presenter's own paid course platform, worth factoring in when weighing how the results are framed. The underlying market gap described (cheap single-logo work vs. a full cohesive identity package) is a genuine, recognizable distinction in the design industry, independent of any specific case study's numbers.",
+    "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
+  },
+  {
     "id": "tumbler-etching-tiktok-marketing",
     "name": "Personalized tumbler and glassware etching business marketed through process videos",
     "category": "Physical & print products",
@@ -4704,24 +4831,6 @@
     "situation_tags": [
       "Strictly in-home"
     ]
-  },
-  {
-    "id": "brand-identity-design-service",
-    "name": "Full brand identity design service",
-    "category": "Marketing & content",
-    "tags": [
-      "graphic design",
-      "branding",
-      "consulting",
-      "very low startup cost"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Mark Tilbury",
-    "what": "Design a business's complete visual identity (logo, color palette, typography, imagery style) as a full package rather than a single deliverable like a logo, aimed at businesses that want to look immediately recognizable and trustworthy to customers.",
-    "pitch": "Tilbury cites Jack Watson, who went from a negative bank balance to his first $20,000 month within six months of specializing in this. The pitch leans on a clear market gap: there are many designers charging around $50 for a quick logo, but few offering the complete, cohesive package that makes a brand feel genuinely professional, which is why brand identity is positioned as a premium, underserved tier of graphic design. As evidence of real market size, the video cites the global brand identity market valued at over $9.5 billion in 2024, projected to reach $40 billion by 2032, and a real example of the UK government reportedly spending roughly $650,000 on a single logo redesign.",
-    "best": "Someone with genuine visual design skill and taste who's willing to develop a full-package offering rather than staying at the cheaper, more commoditized single-logo tier of the market.",
-    "truth": "The market-size figures ($9.5 billion in 2024, projected $40 billion by 2032) and the government logo redesign cost are specific, checkable claims, though the market-size numbers' original source isn't named in the video. The Jack Watson case study, like the others in this video, is featured because he's an instructor on the presenter's own paid course platform, worth factoring in when weighing how the results are framed. The underlying market gap described (cheap single-logo work vs. a full cohesive identity package) is a genuine, recognizable distinction in the design industry, independent of any specific case study's numbers.",
-    "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
   },
   {
     "id": "media-kit-sponsorships-content-site-agency",
@@ -4911,6 +5020,25 @@
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s"
   },
   {
+    "id": "short-form-content-strategist-local-business",
+    "name": "Short-form video content strategist for small businesses",
+    "category": "Marketing & content",
+    "tags": [
+      "short-form video",
+      "content strategy",
+      "consulting",
+      "very low startup cost",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Mark Tilbury",
+    "what": "Help small businesses, entrepreneurs, and coaches (a local gym, a coffee shop, an estate agent) grow their audience and attention on short-form platforms by developing their content strategy, hooks, and posting approach, without needing to be the on-camera talent or creator yourself.",
+    "pitch": "Tilbury cites Noah Brilley, who studied what made content go viral on TikTok as a student, tested and refined that understanding, and made over $100,000 before turning 18 helping creators, tech companies, and even banks grow their audiences this way. The pitch centers on a real behavioral statistic: the average TikTok user opens the app roughly 20 times a day and spends around 90 minutes on it daily, framed as evidence that attention itself is the scarce resource businesses are competing for, and that understanding how to capture it is a sellable skill independent of being a creator personally. A suggested pricing structure is a flat monthly fee plus a performance-based view bonus when content goes viral, which aligns incentives between strategist and client.",
+    "best": "Someone with a genuine, demonstrated eye for what makes short-form content work (hooks, pacing, trends) who's more interested in strategy and analysis than being on camera themselves.",
+    "truth": "The TikTok usage statistics (20 opens a day, 90 minutes average) are attributed to TikTok's own claims, a reasonable but self-reported source rather than independent audited data. The Noah Brilley case study is specific but, consistent with the other examples in this video, comes from the presenter's own paid course platform where Noah is a featured instructor. The core idea, that strategy and understanding of a platform's mechanics is a genuinely separable, sellable skill from content creation itself, is a real and increasingly common freelance service, independent of this particular case study.",
+    "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
+  },
+  {
     "id": "storage-tote-peer-to-peer-rental",
     "name": "Peer-to-peer storage tote rental service",
     "category": "Local & professional services",
@@ -4934,25 +5062,6 @@
     ]
   },
   {
-    "id": "short-form-content-strategist-local-business",
-    "name": "Short-form video content strategist for small businesses",
-    "category": "Marketing & content",
-    "tags": [
-      "short-form video",
-      "content strategy",
-      "consulting",
-      "very low startup cost",
-      "beginner friendly"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Mark Tilbury",
-    "what": "Help small businesses, entrepreneurs, and coaches (a local gym, a coffee shop, an estate agent) grow their audience and attention on short-form platforms by developing their content strategy, hooks, and posting approach, without needing to be the on-camera talent or creator yourself.",
-    "pitch": "Tilbury cites Noah Brilley, who studied what made content go viral on TikTok as a student, tested and refined that understanding, and made over $100,000 before turning 18 helping creators, tech companies, and even banks grow their audiences this way. The pitch centers on a real behavioral statistic: the average TikTok user opens the app roughly 20 times a day and spends around 90 minutes on it daily, framed as evidence that attention itself is the scarce resource businesses are competing for, and that understanding how to capture it is a sellable skill independent of being a creator personally. A suggested pricing structure is a flat monthly fee plus a performance-based view bonus when content goes viral, which aligns incentives between strategist and client.",
-    "best": "Someone with a genuine, demonstrated eye for what makes short-form content work (hooks, pacing, trends) who's more interested in strategy and analysis than being on camera themselves.",
-    "truth": "The TikTok usage statistics (20 opens a day, 90 minutes average) are attributed to TikTok's own claims, a reasonable but self-reported source rather than independent audited data. The Noah Brilley case study is specific but, consistent with the other examples in this video, comes from the presenter's own paid course platform where Noah is a featured instructor. The core idea, that strategy and understanding of a platform's mechanics is a genuinely separable, sellable skill from content creation itself, is a real and increasingly common freelance service, independent of this particular case study.",
-    "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
-  },
-  {
     "id": "portable-laminator-on-demand-service",
     "name": "On-demand laminating service and laminated product business",
     "category": "Local & professional services",
@@ -4969,64 +5078,6 @@
     "pitch": "Market through school groups, libraries, parent forums, and local cafes with simple per-sheet pricing and volume discounts, and treat designed template packs (chore charts, planners) as a form of ongoing, semi-passive income once created, since the design work is done once but can be laminated and sold repeatedly.",
     "best": "Someone looking for a very low-cost, flexible service business with a fast turnaround, comfortable doing both on-location service work and designing reusable product templates.",
     "truth": "This is a genuinely low-barrier, low-risk business to test given the minimal equipment cost, and splitting revenue between a service (lamination) and a product (pre-designed laminated goods) is a sound way to diversify. Per-job margins are inherently small, so volume and repeat institutional clients (schools, offices) matter more than any single job.",
-    "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s"
-  },
-  {
-    "id": "facebook-reaction-content-monetization",
-    "name": "Reaction/commentary content monetized through Facebook's creator payouts",
-    "category": "Content & personal brand",
-    "tags": [
-      "content creation",
-      "Facebook",
-      "very low startup cost",
-      "beginner friendly"
-    ],
-    "cost": "Very low startup cost",
-    "found": "AI Hustle podcast creators",
-    "what": "Once a Facebook page crosses roughly 4,000 followers, Meta pays creators directly for views on reels, photos, and even stories, unlike Instagram, which generally doesn't pay for organic reach. The specific content strategy discussed is to find already-viral content in a chosen niche (money-making and side-hustle content, in the cited example), play the original clip in the background using a green-screen-style overlay, and record yourself reacting to and adding your own commentary and ideas on top of it, rather than silently pointing at the video.",
-    "pitch": "The strategy is attributed to a named creator (Chris Corner) reportedly earning around $35,000 a month using this exact method, cranking out five to six of these reaction videos a day across niches once a winning format is found. The presenters note real, checkable audience-behavior context for why this works: Facebook's audience skews older and consumes far more content than it creates, while a lot of Instagram content already auto-posts to a linked Facebook page and quietly picks up far more views there than on Instagram itself, an underused distribution gap.",
-    "best": "Someone comfortable being on camera for quick reaction-style commentary and willing to post multiple times a day, since the model depends on volume and finding already-proven viral source material rather than one polished video at a time.",
-    "truth": "This entry is unusually well-sourced on its own limits: one of the presenters shows their own actual, real Facebook monetization earnings live on screen, a modest $4.68 total for the year from a largely inactive page, a genuinely transparent contrast to the $35,000-a-month claim, which is attributed secondhand to another creator's video and not independently verified. The presenters also flag a real platform risk: reposting content and talking about exactly how much money a platform's payout program earns has reportedly gotten some creators' accounts restricted or banned, worth knowing before building a strategy entirely around one platform's creator-payment program.",
-    "url": "https://www.youtube.com/watch?v=wUf28jznTt4"
-  },
-  {
-    "id": "public-daily-challenge-content-to-digital-product",
-    "name": "Public daily-accountability challenge content, monetized with a simple info-product",
-    "category": "Content & personal brand",
-    "tags": [
-      "content creation",
-      "digital products",
-      "personal brand",
-      "consistency challenge"
-    ],
-    "cost": "Free to low \u2014 a phone camera and consistent daily time investment; AI tools can help draft the eventual product",
-    "found": "AI Hustle",
-    "what": "Publicly document a personal challenge with a daily video post (e.g. a short workout time-lapse posted every day, numbered 'Day 1,' 'Day 2,' etc.) to build a following around visible, consistent progress, then sell a simple, related digital product \u2014 such as a workout PDF \u2014 to the audience that watched the results happen in real time.",
-    "pitch": "Discussed as a case study of someone the podcast hosts know personally who ran a public daily workout challenge for over a year (370+ consecutive days), grew to 300,000+ followers, and made roughly $17,000 in one month selling a workout PDF. The value isn't the PDF itself, which could be drafted with AI in minutes, but the trust and distribution earned by visibly documenting real, consistent results over a long period.",
-    "best": "Someone with a specific personal habit, skill, or transformation they're willing to document daily and publicly for a long stretch (months, not weeks), since the trust built by visible consistency is what eventually sells the product.",
-    "truth": "This is a secondhand account from a podcast about a personal friend's business, not a verified financial record \u2014 the $17,000/month figure should be read as anecdotal. The hosts' broader point (many 'sell AI digital products' pitches are really selling a course about selling digital products, and a product is worthless without real distribution) is a reasonable, self-aware caveat from a podcast that itself sells a paid community. The public daily-challenge format is a distinct, repeatable content mechanic \u2014 documented consistency as the trust-building asset \u2014 not just a generic build-audience-sell-something idea.",
-    "url": "https://youtu.be/FpxKjNAaDus",
-    "situation_tags": [
-      "Strictly in-home"
-    ]
-  },
-  {
-    "id": "mini-cheesecakes-in-jars-business",
-    "name": "Mini cheesecakes-in-jars dessert business",
-    "category": "Physical & print products",
-    "tags": [
-      "mini desserts",
-      "jarred food",
-      "farmers markets",
-      "wedding/corporate catering",
-      "food production"
-    ],
-    "cost": "Low to moderate startup cost (jars, liners, mixers, an oven or no-bake recipes, refrigeration, labels, and tamper seals)",
-    "found": "Business Cortex",
-    "what": "Produce portable, individually-jarred mini cheesecakes (classic, strawberry, chocolate, salted caramel, plus seasonal flavors) for sale as singles or four-packs, with corporate and wedding customization available via lid labels, sold at farmers markets, coffee shops, and via Instagram pre-orders.",
-    "pitch": "Focus on creamy texture, fresh toppings, and visually appealing layering, using insulated carriers for local delivery and behind-the-scenes baking content to build a following; rotating limited flavors is suggested to keep demand high and encourage repeat purchases rather than a single static menu.",
-    "best": "Someone comfortable with food production and refrigerated-product logistics (proper cold storage and transport), interested in both retail market sales and event/corporate catering orders.",
-    "truth": "Jarred, portioned desserts are a well-established, popular format at markets and events because they're easy to sample and transport, and the wedding/corporate customization angle is a credible way to land higher-value orders. This is a perishable, refrigeration-dependent product, so cold-chain logistics and any local cottage-food/health regulations need real attention before scaling beyond a hobby volume.",
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s"
   },
   {
@@ -5049,6 +5100,43 @@
     "situation_tags": [
       "Strictly in-home"
     ]
+  },
+  {
+    "id": "facebook-reaction-content-monetization",
+    "name": "Reaction/commentary content monetized through Facebook's creator payouts",
+    "category": "Content & personal brand",
+    "tags": [
+      "content creation",
+      "Facebook",
+      "very low startup cost",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "AI Hustle podcast creators",
+    "what": "Once a Facebook page crosses roughly 4,000 followers, Meta pays creators directly for views on reels, photos, and even stories, unlike Instagram, which generally doesn't pay for organic reach. The specific content strategy discussed is to find already-viral content in a chosen niche (money-making and side-hustle content, in the cited example), play the original clip in the background using a green-screen-style overlay, and record yourself reacting to and adding your own commentary and ideas on top of it, rather than silently pointing at the video.",
+    "pitch": "The strategy is attributed to a named creator (Chris Corner) reportedly earning around $35,000 a month using this exact method, cranking out five to six of these reaction videos a day across niches once a winning format is found. The presenters note real, checkable audience-behavior context for why this works: Facebook's audience skews older and consumes far more content than it creates, while a lot of Instagram content already auto-posts to a linked Facebook page and quietly picks up far more views there than on Instagram itself, an underused distribution gap.",
+    "best": "Someone comfortable being on camera for quick reaction-style commentary and willing to post multiple times a day, since the model depends on volume and finding already-proven viral source material rather than one polished video at a time.",
+    "truth": "This entry is unusually well-sourced on its own limits: one of the presenters shows their own actual, real Facebook monetization earnings live on screen, a modest $4.68 total for the year from a largely inactive page, a genuinely transparent contrast to the $35,000-a-month claim, which is attributed secondhand to another creator's video and not independently verified. The presenters also flag a real platform risk: reposting content and talking about exactly how much money a platform's payout program earns has reportedly gotten some creators' accounts restricted or banned, worth knowing before building a strategy entirely around one platform's creator-payment program.",
+    "url": "https://www.youtube.com/watch?v=wUf28jznTt4"
+  },
+  {
+    "id": "mini-cheesecakes-in-jars-business",
+    "name": "Mini cheesecakes-in-jars dessert business",
+    "category": "Physical & print products",
+    "tags": [
+      "mini desserts",
+      "jarred food",
+      "farmers markets",
+      "wedding/corporate catering",
+      "food production"
+    ],
+    "cost": "Low to moderate startup cost (jars, liners, mixers, an oven or no-bake recipes, refrigeration, labels, and tamper seals)",
+    "found": "Business Cortex",
+    "what": "Produce portable, individually-jarred mini cheesecakes (classic, strawberry, chocolate, salted caramel, plus seasonal flavors) for sale as singles or four-packs, with corporate and wedding customization available via lid labels, sold at farmers markets, coffee shops, and via Instagram pre-orders.",
+    "pitch": "Focus on creamy texture, fresh toppings, and visually appealing layering, using insulated carriers for local delivery and behind-the-scenes baking content to build a following; rotating limited flavors is suggested to keep demand high and encourage repeat purchases rather than a single static menu.",
+    "best": "Someone comfortable with food production and refrigerated-product logistics (proper cold storage and transport), interested in both retail market sales and event/corporate catering orders.",
+    "truth": "Jarred, portioned desserts are a well-established, popular format at markets and events because they're easy to sample and transport, and the wedding/corporate customization angle is a credible way to land higher-value orders. This is a perishable, refrigeration-dependent product, so cold-chain logistics and any local cottage-food/health regulations need real attention before scaling beyond a hobby volume.",
+    "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s"
   },
   {
     "id": "rank-and-rent-ai-search-durability",
@@ -7820,6 +7908,44 @@
     ]
   },
   {
+    "id": "facebook-ai-photo-content-monetization",
+    "name": "Building a niche Facebook photo page monetized through Facebook's Content Monetization program",
+    "category": "Content & personal brand",
+    "tags": [
+      "Facebook monetization",
+      "AI image generation",
+      "niche content page",
+      "organic growth",
+      "content monetization program"
+    ],
+    "cost": "Very low (an AI image generation tool, free Facebook Page creation, optional basic photo editor)",
+    "found": "Passive Biz Lucca",
+    "what": "Pick one narrow, highly visual niche (cozy cabins, vintage cars, tiny homes), validate demand by checking for existing large Facebook pages in that niche, create a public Facebook Page around it, generate original AI images with a specific, detail-rich prompt (not generic), lightly edit each image to make it feel human-made, post one per day with a short caption ending in a question to drive comments, and apply to Facebook's Content Monetization program once the page hits roughly 5,000-10,000 followers with real engagement.",
+    "pitch": "The presenter reports over $14,000 in one month from Facebook content monetization (mostly PDF sales plus the photo program) and walks through the mechanic: Facebook now pays for original photos and text posts, not just video, but has cracked down hard on reposted or lightly-edited content since 2025, so the images must be genuinely original. He gives a specific 90-day, one-post-a-day plan with a weekly review step, and is upfront this is a slow-build strategy, not a fast-cash scheme.",
+    "best": "Someone willing to commit to a consistent 90-day daily-posting habit in one visual niche, comfortable writing detailed AI image prompts and doing basic photo-editing polish, patient with a slow initial ramp.",
+    "truth": "Facebook's content monetization program and its original-content enforcement rules are real and match public information from Facebook's creator resources, and the described mechanics are consistent with how the platform's recommendation system is known to work. The specific $14,000/month figure is self-reported and unverifiable, payout thresholds and eligibility vary by country and change over time (the video itself warns not to trust fixed numbers), and it ends by funneling viewers to a paid course for the full system.",
+    "url": "https://www.youtube.com/watch?v=2z7ORVBVLzw"
+  },
+  {
+    "id": "shopify-store-cloning-ai-image-video-whitelabeler",
+    "name": "Cloning a proven winning Shopify store's page and creative assets with AI tools, then drop shipping the product",
+    "category": "E-commerce",
+    "tags": [
+      "Shopify dropshipping",
+      "product research",
+      "page cloning",
+      "AI image generation",
+      "AI UGC video"
+    ],
+    "cost": "Low-to-moderate (product-research tool subscription, a page-cloning tool like White Labeler, AI image/video generation tools, Shopify subscription; no inventory required for the drop-shipping test phase)",
+    "found": "Ali Akbar",
+    "what": "Use a product-research tool to find an already-proven, heavily-advertised e-commerce product (validated by high ad-account activity, scaling traffic, and a converting sales-funnel-style product page), clone that page's structure section-by-section with an AI page-mirroring tool (White Labeler), source the product from AliExpress/Alibaba/local suppliers to drop-ship-test it before committing to inventory, then use an AI-agent tool to generate your own branded product images and UGC-style ad videos by swapping your product into the same creative formats the original winning store used.",
+    "pitch": "The presenter picks a specific pet-product example doing an estimated $546K-$950K/month and walks through the entire build live: page cloning, sourcing with margin data (60-78% depending on supplier), and generating on-brand images/videos with an AI assistant that gives step-by-step creative prompts. He frames this as proof that dropshipping is one of the most beginner-friendly online business models when building on top of an already-validated winner.",
+    "best": "Someone comfortable running paid ads and managing a drop-shipping supply chain, willing to pay for multiple tool subscriptions (research, page-cloning, AI creative) and to iterate on ad creative regularly.",
+    "truth": "Product-page cloning combined with a validated, already-scaling winning product is a real, established e-commerce tactic (not cloning brand names or copy, per the presenter's own caveat), and AI tools genuinely speed up creative-asset production. The specific revenue figures for the reference store are third-party estimates, not verified sales data, and this method inherently competes directly with an established, heavily-advertised incumbent, so success depends on real ad-spend and iteration skill, not just the initial clone.",
+    "url": "https://www.youtube.com/watch?v=pvzVvkZUmbQ"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -7913,49 +8039,6 @@
     "situation_tags": [
       "E-commerce / fulfillment",
       "Phone/sales-based"
-    ]
-  },
-  {
-    "id": "google-review-automation-service",
-    "name": "Automated Google-review generation service for local businesses",
-    "category": "Local & professional services",
-    "tags": [
-      "local business",
-      "reputation",
-      "automation",
-      "recurring revenue"
-    ],
-    "cost": "~$297/mo for a HighLevel software plan (covers unlimited clients)",
-    "found": "Adam Erhart",
-    "what": "Sell local businesses one narrow service: an automated system that texts or emails every customer after a completed job asking for a Google review, plus a 'reactivation campaign' reaching a business's entire past-customer list for reviews they were never asked for. Pitched at a flat $297/month with a 'no new reviews, no pay' guarantee.",
-    "pitch": "Built around a 'one-tool offer' framework: sell exactly one clearly-named result, guarantee the outcome to remove the buyer's downside, and remove all setup effort from the business owner. Cites the well-known 2000 jam-tasting choice-overload study and Kahneman's loss-aversion research as behavioral backing for a single narrow offer with a guarantee.",
-    "best": "Someone comfortable selling a single, narrowly-defined service to local business owners, especially one who can offer a results-based guarantee to make the pitch an easy yes.",
-    "truth": "The cited psychology research is real and widely known, though the jam study specifically has faced replication difficulties in follow-up research, so treat it as illustrative rather than settled proof of a guaranteed conversion lift. The underlying mechanic (automated review-request campaigns) is a real, commonly-sold local-marketing service. The recommended software platform is again the presenter's own affiliate link, and the price point is his suggested anchor, not a guaranteed market rate.",
-    "url": "https://youtu.be/H942H-ANhJ0",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ]
-  },
-  {
-    "id": "digital-products-etsy-three-phase-roadmap",
-    "name": "A three-phase roadmap for launching and scaling an Etsy digital product shop",
-    "category": "Digital & subscription products",
-    "tags": [
-      "Etsy",
-      "digital products",
-      "roadmap",
-      "beginner friendly"
-    ],
-    "cost": "Low startup cost",
-    "found": "Alek",
-    "what": "A structured, checklist-driven roadmap for starting an Etsy digital product shop in three phases: launch (pick a low-ticket, evergreen product with room for many variations, and research proven niches directly on Etsy), build (use a repeatable \"product hacking\" process, deconstructing successful competitors' listings into their design, image, and SEO elements to build original but similarly-structured products), and optimize (analyze view/click/conversion data after 100 published listings to guide what to make next).",
-    "pitch": "The presenter argues AI has compressed what used to take hours per listing down to minutes, and lays out concrete, specific criteria for picking a winning product category ($5-$25 price point, room for many variations, evergreen demand, and something you'd enjoy making), plus a data-driven reason for pushing through to 100 listings before trying to optimize: enough listings to generate real, actionable customer interaction data.",
-    "best": "A complete beginner who's willing to follow a structured, checklist-driven process rather than trying to perfect a single product, and who is prepared to publish and iterate across a real volume of listings (100-plus) before expecting clear traction.",
-    "truth": "This is a general methodology/roadmap video rather than a single dollar-figure case study, so no specific outcome is claimed for a shop that followed this exact process start to finish. The core advice, start on Etsy rather than your own website if you don't already have traffic, and pick evergreen, low-ticket, variation-friendly products, is sound and echoes how other Etsy-based digital product sellers describe the platform elsewhere in this database. The \"100 listings\" threshold is the presenter's own operating rule, not an independently verified industry benchmark.",
-    "url": "https://youtu.be/T-gfoXzz8k8",
-    "situation_tags": [
-      "Strictly in-home"
     ]
   },
   {
@@ -8430,6 +8513,25 @@
     ]
   },
   {
+    "id": "ai-generated-podcast-network-ad-revenue",
+    "name": "Building a network of 100%-AI-generated podcasts monetized through automatic ad-revenue splicing",
+    "category": "Content & personal brand",
+    "tags": [
+      "AI podcast",
+      "ElevenLabs voice cloning",
+      "ad revenue",
+      "content network",
+      "evergreen niches"
+    ],
+    "cost": "Low (ElevenLabs subscription for AI voice generation, an ad-enabled podcast host like RSS.com, Claude for scripting)",
+    "found": "AI Hustle",
+    "what": "Generate scripts with Claude and voice them with ElevenLabs' V3 model to produce fully AI-generated podcast episodes in evergreen niches (history, finance, fitness, religion, etc.), publish through an ad-enabled distributor like RSS.com that automatically splices in ads with no manual ad reads, and grow reach by testing the same content across multiple differently-named podcasts to find which framing/title performs best organically before doubling down on the winner.",
+    "pitch": "The hosts say their own human-hosted podcast made about $1,057 in the last month from 24,000 downloads via automatic RSS.com ad splicing, and describe running several fully AI-voiced podcasts (ElevenLabs V3 narration) that also earn real money, with individual side shows pulling $250-$524/month from repurposed content. Their scaling trick: launch the same episodes under 10 differently-named podcasts, see which gains organic traction, then focus effort on the winner.",
+    "best": "Someone comfortable picking an evergreen content niche and managing multiple podcast feeds, without needing to appear on camera or record their own voice.",
+    "truth": "Ad-revenue-per-download from platforms like RSS.com is real but modest \u2014 the figures shown come from tens of thousands of downloads, so this is a volume game, not a fast path to income. The multi-podcast-name testing tactic is a legitimate organic-discovery strategy, but the host explicitly warns against using trademarked terms in podcast names (a friend's podcast got banned for this), and the video doubles as an ad for the presenters' own paid School community, which gates the more detailed guidance behind a $20/month membership.",
+    "url": "https://www.youtube.com/watch?v=uA0MaHk2Els"
+  },
+  {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
     "name": "Digistore24 affiliate marketing funnel using a free \"nurture sequence\" instead of direct-linking",
     "category": "Marketing & content",
@@ -8447,27 +8549,6 @@
     "best": "Someone willing to research a niche topic well enough to create honestly useful free content about it, and comfortable setting up and maintaining a funnel builder and consistent short-form posting schedule rather than looking for a single-click solution.",
     "truth": "The core insight \u2014 that a trust-building content funnel converts far better than direct-linking a cold affiliate offer \u2014 is a well-established affiliate marketing principle, not a gimmick, and Digistore24 itself is a real, longstanding European affiliate network with a large product catalog. That said, the presenter's own numbers (300,000 TikTok followers, \"millions\" in digital product sales) reflect years of compounding, and the free masterclass and comments-section funnel referenced throughout point toward an upsell; expect the trust-building and content-creation phase to take real, sustained time before sales materialize.",
     "url": "https://www.youtube.com/watch?v=GL1J5PPQJ64"
-  },
-  {
-    "id": "ai-planner-app-etsy-claude-seo",
-    "name": "AI-built planner/tracker app sold as an Etsy PDF download, with Claude writing the SEO",
-    "category": "Digital & subscription products",
-    "tags": [
-      "AI tools",
-      "Etsy",
-      "digital products",
-      "SEO"
-    ],
-    "cost": "Low startup cost",
-    "found": "Alex",
-    "what": "Building the same style of AI-generated interactive planner/tracker app (using an AI niche-research tool and an AI app builder) as a companion approach to the creator's Meta-ads version, but delivering it as an Etsy digital download instead: the finished app is packaged as a PDF containing a Google Drive access link, listed on Etsy for built-in marketplace traffic, with Claude used specifically to write the Etsy-optimized listing titles, descriptions, and tags for each product.",
-    "pitch": "The creator frames this as a two-phase path: start on Etsy to reach a first $5,000-$20,000 month without needing to run paid ads, then move to a self-hosted website once you have proof of concept and money to invest in scaling. He positions Claude as effectively doing the marketing work, generating ranking-ready Etsy copy, so a seller without marketing experience can still compete on discoverability.",
-    "best": "A more cautious beginner who'd rather start on Etsy's existing marketplace traffic before investing in a standalone website and paid ads, and who wants a lighter-weight PDF/Google-Drive delivery method rather than building and maintaining a subscription app and payment system.",
-    "truth": "This video is essentially a companion, lower-friction version of the creator's own Meta-ads planner-app pitch (also in this database), reusing the same underlying research and app-building tools but for a non-subscription Etsy listing, worth comparing both if this general approach interests you. The presenter again cites third-party Etsy sales data (a 59,000-sale digital planner shop) as niche validation, and his own $798/day figure is a self-reported screenshot rather than independently verified. Etsy's search algorithm and competition level change over time, so results depend heavily on execution and timing, not just on following the steps shown.",
-    "url": "https://youtu.be/5aCGTLqOAR0",
-    "situation_tags": [
-      "Strictly in-home"
-    ]
   },
   {
     "id": "ai-internal-knowledge-base-rag-system",
@@ -8647,6 +8728,44 @@
     ]
   },
   {
+    "id": "free-website-gift-297-retainer-facebook-groups",
+    "name": "Free-website-as-a-gift client acquisition, upsold to a $297/month AI lead-system retainer",
+    "category": "Local & professional services",
+    "tags": [
+      "local business websites",
+      "AI website building",
+      "recurring retainer",
+      "Facebook community groups",
+      "no-website prospecting"
+    ],
+    "cost": "Low startup cost (HighLevel subscription ~$297/month unlimited-client plan, covered once first client signs; AI Studio site builder included)",
+    "found": "Adam Erhart",
+    "what": "Post a free-website offer in local Facebook community groups (or find businesses lacking a website via Google Maps or a prospecting tool), build a real, AI-generated site (HighLevel's AI Studio) in minutes on a temporary preview link, hand it over framed as a completed gift, then upsell the business owner to a $297/month retainer that keeps the site live and adds lead-capture automations (text-back, review requests, appointment booking).",
+    "pitch": "The presenter argues the real barrier to landing local-business clients isn't skill but the price conversation up front, which gets cold outreach ignored; building the site first and framing it as an already-finished gift removes that friction, and a real deadline (a preview link that comes down in 7 days) creates urgency without hard selling. He provides five copy-paste scripts (the group post, delivery message, close, and outreach messages) and packages the whole HighLevel setup as a free bonus he calls Agency OS.",
+    "best": "Someone comfortable posting in and monitoring local Facebook groups or running simple Google Maps prospecting, willing to do a few minutes of unpaid AI-generated site-building per lead before any commitment from the business owner.",
+    "truth": "The mechanics (build first, gift-frame, real time-limited preview, upsell to a hosting/automation retainer) are sound and match how successful local-service agencies commonly operate. The presenter's claimed track record and the ~13% no-website hit rate from his own 692-business test are self-reported, not independently verified, and the video is structured as a lead magnet for his own paid HighLevel affiliate link and Agency OS bonus, so treat the tool recommendation as a sales funnel rather than neutral advice.",
+    "url": "https://www.youtube.com/watch?v=EJ8sQIBEwRk"
+  },
+  {
+    "id": "claude-reverse-prompt-etsy-digital-products",
+    "name": "Reverse-engineering bestselling Etsy digital products (resumes, budget trackers, print-on-demand text art) with Claude",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy digital downloads",
+      "Claude Design",
+      "reverse prompting",
+      "resume templates",
+      "print-on-demand"
+    ],
+    "cost": "Low (Claude subscription, an Etsy market-research tool like ListingView, optional mockup/Canva tools)",
+    "found": "Alek",
+    "what": "Find a top-selling Etsy digital product (a resume template shop, a budget/sinking-funds tracker, or pattern-pressed text art for shirts/prints), screenshot it into Claude to generate a build prompt via 'reverse prompting,' then feed that prompt into Claude Design to build a reusable generator tool (a resume builder, an interactive budget-tracker app, or a bulk pattern-text design tool) that outputs finished, sellable files (PDF/Word, HTML/Canva site, or PNG) in minutes, which you then list for sale on Etsy or turn into print-on-demand products via Printify/TikTok Shop.",
+    "pitch": "The presenter shows three example shops making $7K-$63K/month from these product types and argues the bottleneck was never design skill \u2014 it's finding what's already selling and letting Claude generate a polished, on-brand version fast. He demonstrates the exact workflow live for each product type and uses a paid tool (ListingView, his own product) to identify high-revenue listings and auto-generate optimized titles/tags/descriptions.",
+    "best": "Someone comfortable using Claude Design/Claude Code and willing to do repeated iteration (colors, spacing, mockups) to get each generated product polished enough to sell, plus ongoing listing/tag optimization work to stay visible on Etsy.",
+    "truth": "The reverse-prompting technique (screenshot a bestseller, have Claude write a build prompt, then generate the product) is a genuinely repeatable method, and Claude Design's ability to output ready-to-sell files quickly is real. The specific revenue figures for referenced shops come from a paid research tool's estimates, not verified sales data, and this is a crowded, fast-to-copy niche \u2014 long-term success depends on volume and consistency rather than any one product.",
+    "url": "https://www.youtube.com/watch?v=E57vDFkBu_Q"
+  },
+  {
     "id": "claude-project-dropshipping-skill-system",
     "name": "Claude Project skill system for end-to-end dropshipping store building",
     "category": "E-commerce",
@@ -8751,6 +8870,25 @@
     "url": "https://www.youtube.com/watch?v=mdmphrHkeC8"
   },
   {
+    "id": "ai-clipart-etsy-passive-digital-download",
+    "name": "Selling AI-generated clip art PDF packs on Etsy, using Claude only for listing titles, tags, and descriptions",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy clip art",
+      "AI image generation",
+      "passive digital downloads",
+      "SEO listing optimization",
+      "print-and-craft market"
+    ],
+    "cost": "Very low (an AI image generator subscription, a trend-research tool like Trended Designs, Etsy listing fees)",
+    "found": "Alex",
+    "what": "Use a trend-research tool to find in-demand clip art niches (e.g. seasonal themes like Halloween cats), generate matching images with an AI image generator, bundle 20+ variations into a PDF sold for $3-5 with commercial usage rights to crafters, teachers, and parents, then use Claude to write SEO-optimized Etsy titles, tags, and descriptions so listings rank organically without paid ads.",
+    "pitch": "The presenter shows several Etsy clip-art shops making an estimated $6,400 to $271,000 in lifetime sales tracked via a third-party revenue-estimate tool, all selling simple $3-5 image packs, and frames the business as unusually low-friction because buyers just need to find the art appealing. He walks through the full stack live: trend research, image generation, and Claude-written listing copy, all without a paid course gate.",
+    "best": "Someone with no design skill who's comfortable using AI image-generation and trend-research tools repetitively to build out a large catalog of niche-specific image packs over time.",
+    "truth": "Selling AI clip art on Etsy is a real, low-cost-to-test niche, and Claude genuinely helps with SEO-style listing copy. The specific shop revenue figures come from a third-party estimation tool, not Etsy's own sales data, and because the barrier to entry is this low, the niche is easy for others to replicate once a trending style is spotted, so consistent output volume matters more than any single listing.",
+    "url": "https://www.youtube.com/watch?v=7WSOOMYWFk0"
+  },
+  {
     "id": "ai-database-reactivation-segmented-sms-performance-pricing",
     "name": "AI-segmented database reactivation campaign with a performance-based pricing option",
     "category": "AI & automation",
@@ -8768,30 +8906,6 @@
     "best": "Someone comfortable segmenting and messaging a business's existing customer list carefully (specificity and small batching matter for trust), and willing to offer performance-based pricing when starting out without a track record.",
     "truth": "The presenter is explicit that messaging must only go to people who gave the business explicit permission to contact them, with an unsubscribe option in every message \u2014 a real compliance requirement, not just a nice-to-have, since sending unsolicited bulk texts carries legal risk under anti-spam regulations. The cited revenue projections (4% and 2% reactivation rates) are the presenter's own illustrative assumptions, not documented results from a named client campaign.",
     "url": "https://www.youtube.com/watch?v=tKBpMevDJO8"
-  },
-  {
-    "id": "restaurant-specials-board-ads-agency-upsell",
-    "name": "Free restaurant specials-board advertising, used as a wedge to upsell local businesses into an AI/digital agency",
-    "category": "Marketing & content",
-    "tags": [
-      "local advertising",
-      "restaurant marketing",
-      "lead generation",
-      "AI implementation agency",
-      "upsell funnel"
-    ],
-    "cost": "Very low startup cost (about $350-400 per board, covered by ad sales before the board is even printed)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Place a free dry-erase specials board (used for daily specials and announcements) inside high-foot-traffic local businesses like restaurants and coffee shops, sell 6 ad slots on the board's border to other local businesses for $600/year each, then use the relationship with those advertisers (mostly home services \u2014 realtors, contractors, insurance agents, lawyers) as a warm lead into a separate, higher-ticket AI implementation and digital marketing agency (websites, Google review/reputation management, AI voice receptionists).",
-    "pitch": "The guests, a married couple who started this a year and a half ago alongside an existing digital agency, are earning about $10,000-15,000/month combined from both sides of the business after 6 months. The board itself costs about $350-400 to produce (which is covered before printing, since you only print once all 6 ad spots are sold) and generates about $3,200-4,600 profit per placement per year at roughly 85% margin; separately, roughly 20-30 of the businesses that bought ad space have converted into digital agency clients averaging about $7,500/year each, projected around $200,000-225,000 in annual revenue from that side alone \u2014 with 60% of that from brand reputation management, 30% from websites/hosting, and 10% from higher-ticket AI services like voice receptionists and automated appointment booking.",
-    "best": "Someone comfortable with in-person and DM-based local sales (cold outreach to find host locations and advertisers) who also wants to build or already runs a digital marketing/AI implementation service to upsell into.",
-    "truth": "This is one of the more genuinely novel local business mechanics in this database \u2014 a low-cost physical product used deliberately as a lead-generation wedge into a much higher-margin service business, rather than as the primary profit center itself. The presenters are candid that finding the first advertiser took 10-15 cold outreach messages, and that asking business owners broad questions (\"what problems are you having?\") doesn't work as well as specific ones (\"do employees show up late?\") \u2014 a real, transferable sales lesson. The digital-agency upsell side requires an existing or newly-built service offering, which is a nontrivial second business, not just a matter of selling one ad board.",
-    "url": "https://youtu.be/McQucrnkSt0",
-    "situation_tags": [
-      "Local travel required",
-      "Phone/sales-based",
-      "Requires hiring or managing others"
-    ]
   },
   {
     "id": "faceless-affiliate-marketing-overview",
@@ -8911,6 +9025,25 @@
     "best": "Someone comfortable with AI image and video generation tools and consistent, frequent content posting, since this model depends on a steady stream of new short-form videos rather than a one-time setup.",
     "truth": "The engagement numbers cited (millions of views, direct buy-intent comments) are drawn from real, visible public posts, a genuinely checkable claim, but no actual affiliate earnings figures are shown for any specific account, so the income potential itself is inferred from engagement and commission structure rather than demonstrated. Building the linked storefront also requires a separate free tool (Beacons) beyond the AI generation tools themselves.",
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
+  },
+  {
+    "id": "upwork-ai-faked-competency-retainer-scaling",
+    "name": "Landing Upwork retainer clients in a skill you don't have, using AI to fake and then actually deliver the competency",
+    "category": "Local & professional services",
+    "tags": [
+      "Upwork freelancing",
+      "AI-assisted service delivery",
+      "retainer clients",
+      "niche tilting",
+      "cold application"
+    ],
+    "cost": "Very low (a ChatGPT/Claude subscription, an Upwork account, Loom for video pitches)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Apply to Upwork jobs in a skill you don't actually have (e.g. SEO) by slightly tilting away from the most saturated keyword phrasing, record a short (2-3 minute) unedited Loom video pitching how you'd approach the client's problem using an AI-built workflow, win the retainer, then actually deliver the work by learning the skill just-in-time with AI tools (Claude Code for automation build-out), and increase the retainer price once results are proven by expanding scope.",
+    "pitch": "The interview subject describes going from severe poverty to a $3,000/month Upwork retainer (later raised to $5,500/month with the same client) after just 7 job applications and zero prior SEO experience, using ChatGPT to build the actual automation and a confident, unedited Loom pitch video to win trust. She expanded into content creation, a paid community, sponsorships, and a self-built app as additional income layers once inbound interest picked up from her YouTube channel.",
+    "best": "Someone comfortable pitching themselves into work outside their existing skillset and willing to learn just-in-time with AI tools under real client pressure; helps to have some video-comfort for the Loom pitch step.",
+    "truth": "AI genuinely lowers the bar to producing passable client deliverables fast, and Upwork niche-tilting to reduce competition is a real, sound tactic. Most of this video is the subject's personal mindset framing and multiple loosely-connected income streams rather than a single step-by-step process, and her reported income figures and timeline are self-reported and not independently verified \u2014 treat this as one real example of the method rather than a guaranteed outcome.",
+    "url": "https://www.youtube.com/watch?v=lG5U30gKCaY"
   },
   {
     "id": "lovable-ai-website-sales-pricing-ladder",
@@ -9150,6 +9283,24 @@
     ]
   },
   {
+    "id": "ai-dropshipping-store-buildyourstore-autods-tilbury",
+    "name": "A live, budget-constrained test of an AI-built dropshipping store",
+    "category": "E-commerce",
+    "tags": [
+      "dropshipping",
+      "AI tools",
+      "e-commerce",
+      "very low startup cost"
+    ],
+    "cost": "Very low startup cost (roughly $1 in tool setup fees, plus a small marketing budget)",
+    "found": "Mark Tilbury",
+    "what": "A documented, real-time test of building a dropshipping store using free AI tools (Build Your Store to generate the Shopify site and pick a niche, AutoDS to source, price, and fulfill products) under three self-imposed constraints: under $1 in setup cost, doable entirely from a laptop, and finished in under an hour, then promoting it through a micro-influencer rather than paid ads.",
+    "pitch": "Rather than just describing the tool workflow in the abstract, the video walks through a specific, real attempt end to end, including actual numbers: a sports and fitness niche store selling a breathing trainer, golf-club bag clips, a resistance band, and a beanie, promoted via a single Instagram story from a micro-influencer (roughly 14,500 followers) paid $50 for the post. Over roughly 24 hours, this produced 10 genuine sales of one product at $170.85 in revenue, with $80.35 in profit after product cost, shipping, the influencer payment, and platform fees, a concrete, small-scale proof point rather than a projected or hypothetical result.",
+    "best": "Someone who wants to see a realistic, unglamorized first attempt at this model, modest numbers and all, before deciding whether to invest real time in it, since this demonstrates a genuine early-stage result rather than a scaled success story.",
+    "truth": "This uses the same underlying AI-store-plus-dropshipping-fulfillment mechanic covered by other entries in this database, but this particular account is valuable specifically because it's a live, transparently documented single test with real, modest numbers ($80.35 profit from one week) rather than a description of the tool or a scaled, after-the-fact success claim. Worth noting: the presenter frames the setup cost as \"under $1,\" but that figure doesn't include the $50 paid to the micro-influencer or the Shopify subscription cost that begins after the free trial, so the true all-in cost of this specific test was closer to $90. The micro-influencer engagement statistics cited (60% higher engagement, 20%+ higher conversion versus macro-influencers) are attributed to a named source (Socialbakers) and are a genuinely useful, checkable data point for anyone considering this promotion strategy.",
+    "url": "https://www.youtube.com/watch?v=xfOT2elC2Ok&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=7"
+  },
+  {
     "id": "mobile-coffee-cart-business",
     "name": "Mobile coffee cart business",
     "category": "Local & professional services",
@@ -9172,24 +9323,6 @@
       "Weekend/event-based schedule",
       "Requires equipment/vehicle investment"
     ]
-  },
-  {
-    "id": "ai-dropshipping-store-buildyourstore-autods-tilbury",
-    "name": "A live, budget-constrained test of an AI-built dropshipping store",
-    "category": "E-commerce",
-    "tags": [
-      "dropshipping",
-      "AI tools",
-      "e-commerce",
-      "very low startup cost"
-    ],
-    "cost": "Very low startup cost (roughly $1 in tool setup fees, plus a small marketing budget)",
-    "found": "Mark Tilbury",
-    "what": "A documented, real-time test of building a dropshipping store using free AI tools (Build Your Store to generate the Shopify site and pick a niche, AutoDS to source, price, and fulfill products) under three self-imposed constraints: under $1 in setup cost, doable entirely from a laptop, and finished in under an hour, then promoting it through a micro-influencer rather than paid ads.",
-    "pitch": "Rather than just describing the tool workflow in the abstract, the video walks through a specific, real attempt end to end, including actual numbers: a sports and fitness niche store selling a breathing trainer, golf-club bag clips, a resistance band, and a beanie, promoted via a single Instagram story from a micro-influencer (roughly 14,500 followers) paid $50 for the post. Over roughly 24 hours, this produced 10 genuine sales of one product at $170.85 in revenue, with $80.35 in profit after product cost, shipping, the influencer payment, and platform fees, a concrete, small-scale proof point rather than a projected or hypothetical result.",
-    "best": "Someone who wants to see a realistic, unglamorized first attempt at this model, modest numbers and all, before deciding whether to invest real time in it, since this demonstrates a genuine early-stage result rather than a scaled success story.",
-    "truth": "This uses the same underlying AI-store-plus-dropshipping-fulfillment mechanic covered by other entries in this database, but this particular account is valuable specifically because it's a live, transparently documented single test with real, modest numbers ($80.35 profit from one week) rather than a description of the tool or a scaled, after-the-fact success claim. Worth noting: the presenter frames the setup cost as \"under $1,\" but that figure doesn't include the $50 paid to the micro-influencer or the Shopify subscription cost that begins after the free trial, so the true all-in cost of this specific test was closer to $90. The micro-influencer engagement statistics cited (60% higher engagement, 20%+ higher conversion versus macro-influencers) are attributed to a named source (Socialbakers) and are a genuinely useful, checkable data point for anyone considering this promotion strategy.",
-    "url": "https://www.youtube.com/watch?v=xfOT2elC2Ok&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=7"
   },
   {
     "id": "homemade-chocolate-tempering-business",
