@@ -2839,6 +2839,51 @@
     ]
   },
   {
+    "id": "self-hosted-book-funnel-coaching-clients",
+    "name": "Self-hosted book funnel to get coaching and consulting clients",
+    "category": "Marketing & content",
+    "tags": [
+      "book funnel",
+      "coaching business",
+      "lead generation",
+      "self-publishing",
+      "high-ticket sales"
+    ],
+    "cost": "Low startup cost (cost to write/print the book plus a funnel/checkout tool; ad or content budget optional to scale)",
+    "found": "Brian Ellwood",
+    "what": "Instead of publishing a book on Amazon and hoping the algorithm surfaces it, sell the book yourself through your own funnel (a dedicated landing page, often a \"free plus shipping\" or low-cost front-end offer) so you keep the reader's contact information, then use follow-up (calls, email, content) to sell a high-ticket coaching or consulting offer behind it.",
+    "pitch": "Ellwood describes going from $1,500 in his first six months as a real estate coach (after his first self-published book on Amazon sold almost nothing) to $88,000 in the next six months once he built a bookfunnel, drove traffic to it via podcast guest appearances, and manually followed up with buyers to sell his coaching program. He's since repeated the model with three more books, reports having earned close to $3 million in the coaching/expert world off the back of books, and cites several coaching clients (a real estate coach, a chiropractor-turned-nutrition-doctor, a former NFL player) who used the same funnel-then-upsell structure.",
+    "best": "Someone who already has, or is building, genuine coaching, consulting, or expert-level knowledge to sell, and is willing to write a short book as a lead-generation tool rather than a primary income source in itself.",
+    "truth": "The core insight \u2014 a self-hosted funnel beats hoping Amazon's algorithm does the selling, and a cheap book's real job is capturing contact info for a high-ticket upsell \u2014 is a genuinely useful, well-established pattern in the coaching/consulting world, and Ellwood's account of his own slow, mistake-filled path to figuring it out is more honest than most. That said, this only works if there's a real high-ticket offer behind the book; the book itself makes very little money on its own (he says less than $10,000 total in Amazon royalties across his career), and the video is ultimately built to sell his own \"Author Operating System\" book and related paid training.",
+    "url": "https://youtu.be/ETFTelNOTxw",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "mini-course-from-audience-buying-signals",
+    "name": "Building a mini-course by listening for your audience's repeated \"how do you do that?\" questions",
+    "category": "Content & personal brand",
+    "tags": [
+      "digital products",
+      "mini course",
+      "audience-driven products",
+      "launch strategy",
+      "content creation"
+    ],
+    "cost": "Very low startup cost (a course-hosting platform and basic video editing)",
+    "found": "Brian O'Neill",
+    "what": "Build an audience by posting content about whatever genuinely interests you, then pay close attention to what your audience repeatedly asks you how to do \u2014 that repeated question is the signal for a specific, narrow, low-cost mini-course (not a comprehensive multi-hour course) that directly answers it, launched with visible urgency (a closing cart date) and built-in social proof from documenting the process publicly as it happens.",
+    "pitch": "The presenter breaks down creator Jessica Carter, who grew from 50 to over 162,000 Instagram followers after pivoting to content about video editing techniques (after years of unrelated personal content), then launched a narrow $57 mini-course teaching just that one editing skill when her audience kept asking how she did it \u2014 generating $50,000 in the first 24 hours and $313,000 over 6 days, driven largely by urgency (a limited window to buy) and her own public documentation of the launch happening in real time.",
+    "best": "Someone who's already built (or is building) an engaged audience around a specific skill or interest, and is willing to actually notice and act on repeated audience questions rather than guessing at what to sell.",
+    "truth": "The core lesson \u2014 audience questions are buying signals, and a narrow mini-course beats an over-built comprehensive course \u2014 is a genuinely sound and often-overlooked product strategy. That said, this case study describes an outcome after 10 years of posting and a viral video that brought in most of the new followers; the launch mechanics (urgency, real-time documentation) are replicable, but they depend on already having an audience willing to buy, which is the harder and slower part not covered in depth here.",
+    "url": "https://youtu.be/DlNWYzaL_F0",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "wall-printer-mural-service",
     "name": "Wall printer mural service for businesses",
     "category": "Physical & print products",
@@ -5911,29 +5956,6 @@
     ]
   },
   {
-    "id": "self-hosted-book-funnel-coaching-clients",
-    "name": "Self-hosted book funnel to get coaching and consulting clients",
-    "category": "Marketing & content",
-    "tags": [
-      "book funnel",
-      "coaching business",
-      "lead generation",
-      "self-publishing",
-      "high-ticket sales"
-    ],
-    "cost": "Low startup cost (cost to write/print the book plus a funnel/checkout tool; ad or content budget optional to scale)",
-    "found": "Brian Ellwood",
-    "what": "Instead of publishing a book on Amazon and hoping the algorithm surfaces it, sell the book yourself through your own funnel (a dedicated landing page, often a \"free plus shipping\" or low-cost front-end offer) so you keep the reader's contact information, then use follow-up (calls, email, content) to sell a high-ticket coaching or consulting offer behind it.",
-    "pitch": "Ellwood describes going from $1,500 in his first six months as a real estate coach (after his first self-published book on Amazon sold almost nothing) to $88,000 in the next six months once he built a bookfunnel, drove traffic to it via podcast guest appearances, and manually followed up with buyers to sell his coaching program. He's since repeated the model with three more books, reports having earned close to $3 million in the coaching/expert world off the back of books, and cites several coaching clients (a real estate coach, a chiropractor-turned-nutrition-doctor, a former NFL player) who used the same funnel-then-upsell structure.",
-    "best": "Someone who already has, or is building, genuine coaching, consulting, or expert-level knowledge to sell, and is willing to write a short book as a lead-generation tool rather than a primary income source in itself.",
-    "truth": "The core insight \u2014 a self-hosted funnel beats hoping Amazon's algorithm does the selling, and a cheap book's real job is capturing contact info for a high-ticket upsell \u2014 is a genuinely useful, well-established pattern in the coaching/consulting world, and Ellwood's account of his own slow, mistake-filled path to figuring it out is more honest than most. That said, this only works if there's a real high-ticket offer behind the book; the book itself makes very little money on its own (he says less than $10,000 total in Amazon royalties across his career), and the video is ultimately built to sell his own \"Author Operating System\" book and related paid training.",
-    "url": "https://youtu.be/ETFTelNOTxw",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ]
-  },
-  {
     "id": "ebook-business-rule-of-one-samcart",
     "name": "The \"Rule of One\" framework for a low-price ebook business",
     "category": "Digital & subscription products",
@@ -5950,28 +5972,6 @@
     "best": "Someone willing to narrow their topic and audience much more specifically than feels natural at first, and to commit to one traffic channel long enough to master it rather than spreading effort across several platforms at once.",
     "truth": "Worth knowing directly: the presenter is the founder and CEO of SamCart, and this video is a direct demonstration of, and funnel toward, SamCart's own tools (Typeset for PDF design, SamCart for the landing page), a clear and undisguised financial interest in those specific recommendations. That said, the underlying \"Rule of One\" positioning framework and the personal case study behind it predate SamCart's founding and don't require those specific tools to apply; the presenter's original $1.2 million in ebook sales, which he says funded SamCart's creation, is a personal claim without independent verification.",
     "url": "https://www.youtube.com/watch?v=3iU4a1yWGn0"
-  },
-  {
-    "id": "mini-course-from-audience-buying-signals",
-    "name": "Building a mini-course by listening for your audience's repeated \"how do you do that?\" questions",
-    "category": "Content & personal brand",
-    "tags": [
-      "digital products",
-      "mini course",
-      "audience-driven products",
-      "launch strategy",
-      "content creation"
-    ],
-    "cost": "Very low startup cost (a course-hosting platform and basic video editing)",
-    "found": "Brian O'Neill",
-    "what": "Build an audience by posting content about whatever genuinely interests you, then pay close attention to what your audience repeatedly asks you how to do \u2014 that repeated question is the signal for a specific, narrow, low-cost mini-course (not a comprehensive multi-hour course) that directly answers it, launched with visible urgency (a closing cart date) and built-in social proof from documenting the process publicly as it happens.",
-    "pitch": "The presenter breaks down creator Jessica Carter, who grew from 50 to over 162,000 Instagram followers after pivoting to content about video editing techniques (after years of unrelated personal content), then launched a narrow $57 mini-course teaching just that one editing skill when her audience kept asking how she did it \u2014 generating $50,000 in the first 24 hours and $313,000 over 6 days, driven largely by urgency (a limited window to buy) and her own public documentation of the launch happening in real time.",
-    "best": "Someone who's already built (or is building) an engaged audience around a specific skill or interest, and is willing to actually notice and act on repeated audience questions rather than guessing at what to sell.",
-    "truth": "The core lesson \u2014 audience questions are buying signals, and a narrow mini-course beats an over-built comprehensive course \u2014 is a genuinely sound and often-overlooked product strategy. That said, this case study describes an outcome after 10 years of posting and a viral video that brought in most of the new followers; the launch mechanics (urgency, real-time documentation) are replicable, but they depend on already having an audience willing to buy, which is the harder and slower part not covered in depth here.",
-    "url": "https://youtu.be/DlNWYzaL_F0",
-    "situation_tags": [
-      "Strictly in-home"
-    ]
   },
   {
     "id": "book-as-client-acquisition-engine-claude",
@@ -8272,6 +8272,43 @@
     "url": "https://www.youtube.com/watch?v=5oyFcKMFCPQ"
   },
   {
+    "id": "two-tier-filter-product-high-touch-upsell",
+    "name": "Selling a cheap 'filter' digital product paired with a high-touch upsell of the same solution",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital product pricing",
+      "upsell funnel",
+      "AI prompt offer creation",
+      "thank-you-page upsell"
+    ],
+    "cost": "Very low (a free platform plan covering a few products with no credit card, taking a percentage of sales; a paid tier needed for upsells)",
+    "found": "Jillian Leslie",
+    "what": "Sell a narrow $17-37 digital product ('filter product') that solves one specific problem, using the sale itself to identify buyers who are willing to pay for that solution, then offer a $297-997 higher-touch version of the exact same solution (adding access, customization, accountability, or done-with-you/done-for-you help) as an upsell on the thank-you page immediately after purchase; use an AI prompt to generate both offer descriptions together and score the idea on urgency, willingness to pay, and ease of creation.",
+    "pitch": "The presenter argues a $27 product alone is a 'treadmill' needing about 370 sales/month for $10K, but reframes it as a customer-qualification filter: a buyer has proven real intent to pay, making them the right audience for a much higher-priced version of the same solution. She demonstrates the full setup live on her own platform, walking through the filter product, the AI-generated sales page, and the thank-you-page upsell.",
+    "best": "Someone who already has (or can create) a narrow, specific digital product and is willing to design a higher-touch version of the same solution rather than build a second, unrelated product.",
+    "truth": "The 'filter product plus higher-touch upsell of the same solution' structure is a real, sound customer-ladder concept, and the advice to sell the high-ticket offer before building it out is standard, validated lean-startup practice. The presenter is the co-founder of the platform being demonstrated, so the tool walkthrough doubles as a promotion for her own product, and no independently-verified case study of the full result is shown for any real business.",
+    "url": "https://www.youtube.com/watch?v=BaN9iZAN0tM"
+  },
+  {
+    "id": "car-flipping-marketplace-app-negotiation",
+    "name": "Flipping used cars found via automated underpriced-listing alerts, with in-person inspection and negotiation",
+    "category": "E-commerce",
+    "tags": [
+      "car flipping",
+      "Facebook Marketplace",
+      "vehicle negotiation",
+      "automated deal alerts",
+      "resale"
+    ],
+    "cost": "Moderate (capital to purchase vehicles outright, plus a paid deal-alert app subscription and repair costs)",
+    "found": "Buddy's DIY",
+    "what": "Use an app that continuously scans Facebook Marketplace, OfferUp, and Craigslist for underpriced vehicles (filtered by AI valuation and profit-margin estimates) and alerts you instantly so you can message sellers before other flippers, then inspect the vehicle in person (exterior condition, interior wear, an OBD scan, a test drive) to catch issues not disclosed in the listing, negotiate the price down using those findings plus a 'walk away' tactic, repair/detail the vehicle yourself, and resell it for a profit.",
+    "pitch": "The presenter walks through one complete flip start to finish: a 2012 Ford F-150 bought for $6,500 (negotiated down from a $7,900 asking price using inspection findings), repaired and detailed for a total investment of $7,405, then sold for $11,250, a $3,845 profit over about 19.75 hours of labor, roughly $194/hour.",
+    "best": "Someone comfortable with basic vehicle inspection, minor bodywork/detailing, and in-person price negotiation, with enough capital to buy vehicles outright before reselling.",
+    "truth": "Car flipping via underpriced Marketplace listings is a well-established, real side business, and the specific numbers shown are unusually transparent and internally consistent, lending credibility to this particular example. The described automated-alert app is a paid tool the presenter promotes, and results depend heavily on local market conditions, available capital, and genuine mechanical/negotiation skill that takes time to develop.",
+    "url": "https://www.youtube.com/watch?v=dGzgEiWJ9hk"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -8852,6 +8889,44 @@
     "best": "Someone in a city with active local marketplace listings and available cash to buy items on short notice, comfortable acting quickly on alerts to beat other buyers to underpriced listings.",
     "truth": "Marketplace arbitrage/flipping itself is a well-established side hustle, and using an AI agent to automate the constant watching is a reasonable extension of that. This was mentioned briefly as one of several prompt ideas in a wide-ranging discussion, not demonstrated live or with results shown, so there's no verified evidence of how well the automated monitoring performs in practice, and competition for the same underpriced listings will increase as more people use similar bots.",
     "url": "https://www.youtube.com/watch?v=nglqTHwuZ-8"
+  },
+  {
+    "id": "book-funnel-coaching-client-acquisition-brianellwood",
+    "name": "Using a self-published book funnel (not just Amazon) as a high-ticket coaching client acquisition engine",
+    "category": "Marketing & content",
+    "tags": [
+      "book funnel",
+      "coaching client acquisition",
+      "email sequence",
+      "lead magnet book",
+      "consultant marketing"
+    ],
+    "cost": "Low (self-publishing costs plus a funnel/email tool; ad spend optional for driving traffic to the funnel)",
+    "found": "Brian Ellwood",
+    "what": "Write and self-publish a short book positioned to solve one specific problem for your target coaching/consulting audience, sell it through your own checkout funnel (not just Amazon) so you capture the buyer's contact info, follow up with an automated email/video sequence that continues the book's 'transformational journey' and makes a clear offer with a deadline, converting a percentage of cheap book buyers into high-ticket coaching clients.",
+    "pitch": "The presenter says he's made $2-3 million in high-ticket client revenue over nearly a decade using books as the entry point, currently 3-6 high-ticket clients/month, after his first self-published Amazon-only book made just $17. He names three specific failure points (poor book packaging, no 'transformational journey' inside the book, and selling only through Amazon which withholds buyer contact info) and credits learning this system directly from ClickFunnels founder Russell Brunson.",
+    "best": "Existing or aspiring coaches/consultants/experts with a specific area of expertise, comfortable writing a short book and setting up a basic sales funnel with email automation.",
+    "truth": "The core mechanics (own-funnel book sales for list-building, and structuring a book to drive a specific next action) are established direct-response marketing techniques already used across the coaching industry, and this database already includes similar book-as-lead-magnet entries from other producers. His own revenue figures are self-reported across nearly a decade and multiple niches, not from a single book.",
+    "url": "https://www.youtube.com/watch?v=x0AdotROnpU"
+  },
+  {
+    "id": "audience-signal-mini-course-launch",
+    "name": "Building a narrow mini-course by listening for your audience's repeated 'how do you do that?' questions and launching it with a public FOMO campaign",
+    "category": "Content & personal brand",
+    "tags": [
+      "audience-first course creation",
+      "mini course",
+      "FOMO launch",
+      "waitlist marketing",
+      "content-to-product"
+    ],
+    "cost": "Very low (a Canva document plus unlisted vertical videos, no expensive course platform required)",
+    "found": "Brian O'Neill",
+    "what": "Post content in a topic you're genuinely interested in until people start repeatedly asking a specific 'how do you do that?' question, then build a narrow, simple mini-course (a handful of steps, a Canva walkthrough document plus short unlisted videos) that answers exactly that one question, launch it through a waitlist with a closing deadline, and drive urgency by publicly documenting sales milestones and reminders across stories and posts throughout the launch window.",
+    "pitch": "The presenter analyzes another creator's launch, in which a $57 mini-course reportedly made $313,000 in 6 days ($50,000 in the first 24 hours) after she pivoted her content to a specific interest, got audience questions about her video-editing technique, and turned those questions directly into a course.",
+    "best": "Someone already building an audience or willing to start, patient enough to let genuine audience questions surface before deciding what to sell, comfortable launching publicly with visible urgency/scarcity messaging.",
+    "truth": "The core principle, that repeated audience questions are a reliable buying signal and a narrow single-problem course converts better than an over-built one, is sound, evidence-based content-marketing advice. This is a third-party breakdown of one unusually large launch, not a guaranteed formula, and the presenter has no personal relationship with the creator and hasn't independently verified the revenue figures beyond what she posted publicly.",
+    "url": "https://www.youtube.com/watch?v=1VEMpRr9GnY"
   },
   {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
