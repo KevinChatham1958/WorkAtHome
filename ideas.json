@@ -22,6 +22,28 @@
     ]
   },
   {
+    "id": "custom-stamps-small-business-packaging",
+    "name": "Custom stamp making for small business branded packaging",
+    "category": "Physical & print products",
+    "tags": [
+      "custom stamps",
+      "small business packaging",
+      "photopolymer stamps",
+      "branding"
+    ],
+    "cost": "Low startup cost (about $350-650 for a compact exposure unit, printer, and stamp-making materials)",
+    "found": "Business Dash",
+    "what": "Make custom rubber/photopolymer stamps (logos, return addresses, wedding details, loyalty cards) primarily for small businesses that want branded packaging without ordering thousands of pre-printed bags or boxes, using a compact exposure unit and washout process rather than mass-production equipment.",
+    "pitch": "A realistic testing setup (exposure unit, printer for artwork negatives, photopolymer material, washout tools, backing, handles) runs $350-650. The presenter warns against competing with generic decorative stamps against cheap mass-produced alternatives \u2014 the real value is accurate custom work for businesses (a bakery stamping bags, a handmade seller marking boxes) that need small, precise branding touches.",
+    "best": "Someone with patience for a precise, technical production process (correct artwork reversal, clean exposure/washout) who wants to serve small business customers rather than compete in the general decorative stamp market.",
+    "truth": "The presenter's warning against generic decorative stamps is a genuinely useful positioning insight \u2014 this works best as a B2B custom service, not another crowded consumer stamp shop. The equipment cost is modest, but building a base of repeat small-business customers takes direct outreach, which isn't addressed in the video.",
+    "url": "https://youtu.be/2uofabJSM7A",
+    "situation_tags": [
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
+    ]
+  },
+  {
     "id": "pet-waste-removal-service",
     "name": "Pet waste (dog poop) removal service",
     "category": "Local & professional services",
@@ -109,21 +131,21 @@
     ]
   },
   {
-    "id": "custom-stamps-small-business-packaging",
-    "name": "Custom stamp making for small business branded packaging",
+    "id": "foil-press-personalization-business",
+    "name": "Foil press personalization business for stationery and packaging",
     "category": "Physical & print products",
     "tags": [
-      "custom stamps",
-      "small business packaging",
-      "photopolymer stamps",
-      "branding"
+      "foil press",
+      "personalization",
+      "wedding stationery",
+      "packaging"
     ],
-    "cost": "Low startup cost (about $350-650 for a compact exposure unit, printer, and stamp-making materials)",
+    "cost": "Low startup cost (about $350-650 for a compact foil press and materials)",
     "found": "Business Dash",
-    "what": "Make custom rubber/photopolymer stamps (logos, return addresses, wedding details, loyalty cards) primarily for small businesses that want branded packaging without ordering thousands of pre-printed bags or boxes, using a compact exposure unit and washout process rather than mass-production equipment.",
-    "pitch": "A realistic testing setup (exposure unit, printer for artwork negatives, photopolymer material, washout tools, backing, handles) runs $350-650. The presenter warns against competing with generic decorative stamps against cheap mass-produced alternatives \u2014 the real value is accurate custom work for businesses (a bakery stamping bags, a handmade seller marking boxes) that need small, precise branding touches.",
-    "best": "Someone with patience for a precise, technical production process (correct artwork reversal, clean exposure/washout) who wants to serve small business customers rather than compete in the general decorative stamp market.",
-    "truth": "The presenter's warning against generic decorative stamps is a genuinely useful positioning insight \u2014 this works best as a B2B custom service, not another crowded consumer stamp shop. The equipment cost is modest, but building a base of repeat small-business customers takes direct outreach, which isn't addressed in the video.",
+    "what": "Use a compact foil press to add metallic or colored foil personalization (names, initials, dates) to notebooks, wedding stationery, certificates, menu covers, and gift boxes, buying good blank products and adding value through personalization rather than making every item from raw material.",
+    "pitch": "A practical setup (press, foil rolls, reusable letters, blank products, alignment tools, heat-resistant accessories) runs $350-650. The presenter warns that custom metal dies for unique logos get expensive on small orders, recommending a first offer focused on reusable letters, names, dates, and simple initials rather than promising fully custom designs to everyone.",
+    "best": "Someone comfortable with a physical, hands-on process requiring practice with pressure, temperature, and timing, who wants to serve both individual customers (wedding stationery) and small businesses (branded packaging, product tags).",
+    "truth": "Starting with reusable letters and simple personalization (rather than custom dies for every order) is a genuinely practical way to keep this business affordable to run, and the presenter is honest that pressure/temperature/timing take real practice before results are consistent.",
     "url": "https://youtu.be/2uofabJSM7A",
     "situation_tags": [
       "Strictly in-home",
@@ -393,6 +415,28 @@
     ]
   },
   {
+    "id": "local-lead-gen-site-rental",
+    "name": "Local lead generation website rental business",
+    "category": "Local & professional services",
+    "tags": [
+      "SEO",
+      "local business",
+      "lead generation",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Build simple, single-niche, single-city websites (towing, HVAC, tree removal, radon mitigation, etc.) optimized to rank in local Google searches, then instead of selling the leads those sites generate, rent the entire site to a local business owner for a monthly fee or a cut of the resulting jobs, while retaining ownership of the site itself.",
+    "pitch": "Vander walked away from a client-services SEO agency making $108,000 a year because he was tired of clients controlling the relationship, and rebuilt the same skill set into owned assets instead: ranking local lead-gen sites himself, then renting them out so that if one business owner doesn't want the arrangement, he can rent it to a different local competitor instead.",
+    "best": "Someone with real SEO or local search skills who wants to own recurring, semi-passive assets rather than trade time for client work, and who's comfortable pitching a local business owner on a rev-share arrangement.",
+    "truth": "The pivot story is specific and checkable (a named dollar figure walked away from, specific service niches and cities named), a good transparency signal. Vander is candid that this took real SEO skill built up over a prior failed agency business, so it isn't a true beginner idea; someone starting from zero would need to learn competitive local SEO first. The episode doesn't fully address what happens if Google's local algorithm changes or a business owner decides to build their own site instead of renewing.",
+    "url": "https://www.youtube.com/watch?v=6ErnEr2JcD0",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
     "id": "ai-avatars",
     "name": "AI avatars and virtual influencers",
     "category": "Marketing & content",
@@ -410,6 +454,28 @@
     "url": "https://www.youtube.com/watch?v=ytAW1_g2IfI",
     "situation_tags": [
       "Strictly in-home"
+    ]
+  },
+  {
+    "id": "rigid-gift-box-manufacturing",
+    "name": "Rigid gift box manufacturing for small businesses",
+    "category": "Physical & print products",
+    "tags": [
+      "gift boxes",
+      "packaging",
+      "small batch manufacturing",
+      "wedding and corporate gifting"
+    ],
+    "cost": "Low startup cost (about $400-700 for a board cutter and packaging materials)",
+    "found": "Business Dash",
+    "what": "Make rigid, premium gift boxes (used for jewelry, photography packages, wedding gifts, corporate presents) by cutting board, wrapping it with decorative paper or fabric, and assembling with inserts, ribbons, or magnets, serving small businesses that need 20-100 boxes but can't meet the minimum order quantities required by large packaging factories.",
+    "pitch": "A beginner's setup (board cutter, scoring tools, corner tools, rulers, adhesives, wrapping materials, magnets, ribbons, board stock) costs $400-700. The presenter recommends starting with 3-4 standard box sizes and offering customization through colors, labels, and inserts rather than a different size for every order, since inconsistent sizing wastes materials and shipping empty boxes is expensive due to their volume relative to weight.",
+    "best": "Someone willing to standardize on a small set of sizes and pursue small businesses (jewelry sellers, photographers, wedding planners, corporate gifting) who need quantities too small for factory minimums.",
+    "truth": "The minimum-order-quantity gap this business fills is a genuinely real market inefficiency \u2014 factories don't want small orders, and that's exactly the space this serves. The presenter's specific warning about measurement precision and shipping costs for empty boxes reflects real, easy-to-underestimate operational costs in this business.",
+    "url": "https://youtu.be/2uofabJSM7A",
+    "situation_tags": [
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -499,28 +565,6 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
-    "id": "local-lead-gen-site-rental",
-    "name": "Local lead generation website rental business",
-    "category": "Local & professional services",
-    "tags": [
-      "SEO",
-      "local business",
-      "lead generation",
-      "recurring revenue"
-    ],
-    "cost": "Low startup cost",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Build simple, single-niche, single-city websites (towing, HVAC, tree removal, radon mitigation, etc.) optimized to rank in local Google searches, then instead of selling the leads those sites generate, rent the entire site to a local business owner for a monthly fee or a cut of the resulting jobs, while retaining ownership of the site itself.",
-    "pitch": "Vander walked away from a client-services SEO agency making $108,000 a year because he was tired of clients controlling the relationship, and rebuilt the same skill set into owned assets instead: ranking local lead-gen sites himself, then renting them out so that if one business owner doesn't want the arrangement, he can rent it to a different local competitor instead.",
-    "best": "Someone with real SEO or local search skills who wants to own recurring, semi-passive assets rather than trade time for client work, and who's comfortable pitching a local business owner on a rev-share arrangement.",
-    "truth": "The pivot story is specific and checkable (a named dollar figure walked away from, specific service niches and cities named), a good transparency signal. Vander is candid that this took real SEO skill built up over a prior failed agency business, so it isn't a true beginner idea; someone starting from zero would need to learn competitive local SEO first. The episode doesn't fully address what happens if Google's local algorithm changes or a business owner decides to build their own site instead of renewing.",
-    "url": "https://www.youtube.com/watch?v=6ErnEr2JcD0",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ]
-  },
-  {
     "id": "ai-missed-call-textback-claude-twilio",
     "name": "AI missed-call text-back system for home service and appointment businesses (Claude + Twilio)",
     "category": "AI & automation",
@@ -563,21 +607,21 @@
     ]
   },
   {
-    "id": "foil-press-personalization-business",
-    "name": "Foil press personalization business for stationery and packaging",
+    "id": "short-run-screen-printing-packaging",
+    "name": "Short-run screen printing for local business packaging",
     "category": "Physical & print products",
     "tags": [
-      "foil press",
-      "personalization",
-      "wedding stationery",
-      "packaging"
+      "screen printing",
+      "packaging",
+      "short-run printing",
+      "local business branding"
     ],
-    "cost": "Low startup cost (about $350-650 for a compact foil press and materials)",
+    "cost": "Low startup cost (about $300-650 for a starter screen printing setup)",
     "found": "Business Dash",
-    "what": "Use a compact foil press to add metallic or colored foil personalization (names, initials, dates) to notebooks, wedding stationery, certificates, menu covers, and gift boxes, buying good blank products and adding value through personalization rather than making every item from raw material.",
-    "pitch": "A practical setup (press, foil rolls, reusable letters, blank products, alignment tools, heat-resistant accessories) runs $350-650. The presenter warns that custom metal dies for unique logos get expensive on small orders, recommending a first offer focused on reusable letters, names, dates, and simple initials rather than promising fully custom designs to everyone.",
-    "best": "Someone comfortable with a physical, hands-on process requiring practice with pressure, temperature, and timing, who wants to serve both individual customers (wedding stationery) and small businesses (branded packaging, product tags).",
-    "truth": "Starting with reusable letters and simple personalization (rather than custom dies for every order) is a genuinely practical way to keep this business affordable to run, and the presenter is honest that pressure/temperature/timing take real practice before results are consistent.",
+    "what": "Screen print short runs (a few dozen pieces) of branded paper bags, fabric pouches, posters, boxes, and tote bags for small local businesses (cafes, bakeries, market vendors) who need only small quantities with their logo, rather than the large minimum orders typical of commercial screen printing.",
+    "pitch": "A starter system (screens, a small press or hinge clamps, squeegees, inks, emulsion or reusable stencils, drying space, cleaning supplies) runs $300-650. The presenter emphasizes that this business gets stronger the more times a single screen is reused for the same customer's reorders, and warns against accepting a different complicated design for every tiny order, since setup and cleaning time can exceed the actual printing time.",
+    "best": "Someone willing to focus on simple, one-color logo designs for repeat local business customers rather than chasing varied, complex one-off designs.",
+    "truth": "The insight about reusable screens driving profitability on repeat orders (versus one-off custom work) is a genuinely useful operating principle that applies to most small-batch manufacturing, not just screen printing specifically.",
     "url": "https://youtu.be/2uofabJSM7A",
     "situation_tags": [
       "Strictly in-home",
@@ -841,6 +885,28 @@
     "situation_tags": [
       "Strictly in-home",
       "Weekend/event-based schedule"
+    ]
+  },
+  {
+    "id": "custom-foam-insert-fabrication",
+    "name": "Custom foam insert fabrication for equipment and product cases",
+    "category": "Physical & print products",
+    "tags": [
+      "foam inserts",
+      "protective packaging",
+      "B2B fabrication",
+      "case customization"
+    ],
+    "cost": "Low startup cost (about $250-550 for foam stock and cutting tools)",
+    "found": "Business Dash",
+    "what": "Cut custom foam inserts that hold tools, electronics, camera equipment, samples, or collectibles securely in place inside cases and shipping boxes, selling mainly to businesses (repair companies, photographers, tool sellers, sales teams) rather than casual individual buyers.",
+    "pitch": "A beginner setup (foam stock, cutting equipment, adhesives, measuring tools, sample cases) costs roughly $250-550, using sharp knives, cutting guides, templates, or hot wire tools, with more advanced shapes outsourceable while a beginner handles measuring, prototyping, and assembly. The core challenge is precision: an opening too loose lets the product move, too tight and the customer struggles to remove it or the foam tears.",
+    "best": "Someone with patience for precise measurement and prototyping work, comfortable pursuing recurring B2B clients (a single repeat business client can outweigh dozens of individual customers) rather than one-off consumer sales.",
+    "truth": "The precision challenge described is real and not to be underestimated \u2014 foam insert work has a genuine skill floor around accurate measuring and prototyping, and the presenter's advice to start with simple rectangular/layered designs before attempting complex shapes is sound risk management for a beginner.",
+    "url": "https://youtu.be/2uofabJSM7A",
+    "situation_tags": [
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -1143,28 +1209,6 @@
     ]
   },
   {
-    "id": "rigid-gift-box-manufacturing",
-    "name": "Rigid gift box manufacturing for small businesses",
-    "category": "Physical & print products",
-    "tags": [
-      "gift boxes",
-      "packaging",
-      "small batch manufacturing",
-      "wedding and corporate gifting"
-    ],
-    "cost": "Low startup cost (about $400-700 for a board cutter and packaging materials)",
-    "found": "Business Dash",
-    "what": "Make rigid, premium gift boxes (used for jewelry, photography packages, wedding gifts, corporate presents) by cutting board, wrapping it with decorative paper or fabric, and assembling with inserts, ribbons, or magnets, serving small businesses that need 20-100 boxes but can't meet the minimum order quantities required by large packaging factories.",
-    "pitch": "A beginner's setup (board cutter, scoring tools, corner tools, rulers, adhesives, wrapping materials, magnets, ribbons, board stock) costs $400-700. The presenter recommends starting with 3-4 standard box sizes and offering customization through colors, labels, and inserts rather than a different size for every order, since inconsistent sizing wastes materials and shipping empty boxes is expensive due to their volume relative to weight.",
-    "best": "Someone willing to standardize on a small set of sizes and pursue small businesses (jewelry sellers, photographers, wedding planners, corporate gifting) who need quantities too small for factory minimums.",
-    "truth": "The minimum-order-quantity gap this business fills is a genuinely real market inefficiency \u2014 factories don't want small orders, and that's exactly the space this serves. The presenter's specific warning about measurement precision and shipping costs for empty boxes reflects real, easy-to-underestimate operational costs in this business.",
-    "url": "https://youtu.be/2uofabJSM7A",
-    "situation_tags": [
-      "Strictly in-home",
-      "Requires equipment/vehicle investment"
-    ]
-  },
-  {
     "id": "ai-done-for-you-content-professionals",
     "name": "AI-written done-for-you content service for busy professionals",
     "category": "Marketing & content",
@@ -1252,6 +1296,29 @@
     ]
   },
   {
+    "id": "costco-liquidation-reselling",
+    "name": "Buying and reselling Costco liquidation returns",
+    "category": "E-commerce",
+    "tags": [
+      "reselling",
+      "liquidation",
+      "Costco",
+      "needs storage"
+    ],
+    "cost": "A few hundred to a few thousand dollars per pallet or lot",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Buy pallets or individual units of Costco customer returns and liquidated merchandise through the B-Stock auction platform, researching resale value on Facebook Marketplace or comparable retail listings before bidding, then resell the items individually online, through Facebook Marketplace for larger items or Whatnot live auctions for smaller consumable goods.",
+    "pitch": "Chris Koerner challenges an experienced reseller, Shannon, to help him turn a starting bankroll into $10,000 profit in 10 days flat, buying returned and liquidated Costco merchandise through the B-Stock auction platform at pennies on the dollar (a $3,400 gazebo for $200, an $1,800 furniture set for $200) and reselling it on Facebook Marketplace and, for smaller items like food and drinks, through live-auction platforms like Whatnot.",
+    "best": "Someone with storage space (a garage or a small storage unit) and access to a bit of starting capital, who's comfortable researching resale prices before bidding and willing to learn category-specific quirks like appliance grading and model research.",
+    "truth": "This same buy-liquidation-and-resell pattern shows up repeatedly across WAH creator content, sourcing returned or excess inventory well below retail and reselling it piece by piece, which is itself a signal that the underlying model genuinely works, not just a one-off story. What makes this version distinct: a Costco-specific sourcing angle through the B-Stock auction platform, a named experienced mentor walking through live bid research in real time, and the Whatnot live-auction resale channel for smaller consumable goods, a genuinely different selling mechanic than one-off Marketplace listings. Koerner is candid that categories like appliances and electronics require real category-specific knowledge to avoid getting burned, and that not every item resells quickly, sometimes you cut the price and take a loss just to free up storage space.",
+    "url": "https://www.youtube.com/watch?v=kEV86fy-Rvc",
+    "situation_tags": [
+      "Needs inventory storage",
+      "Requires travel to source or inspect goods",
+      "Needs a truck or cargo vehicle"
+    ]
+  },
+  {
     "id": "spotify-playlist-monetization",
     "name": "Monetizing a curated Spotify playlist",
     "category": "Digital & subscription products",
@@ -1269,6 +1336,28 @@
     "best": "Someone with a genuine ear for a specific music genre or mood who's willing to put in the upfront time to build a playlist's following before it has real placement value to artists.",
     "truth": "Tilbury is upfront that the direct pay-per-placement version violates Spotify's terms of service, and flags it as a real downside of that approach, not just a minor caveat, which is a good transparency signal. The Patreon-membership version he prefers doesn't have that problem. No specific real-world case study or dollar figures are given for either approach, so the $5,000-a-month math is illustrative math, not a demonstrated result.",
     "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
+  },
+  {
+    "id": "work-apron-tool-roll-sewing",
+    "name": "Custom work apron and tool roll sewing business",
+    "category": "Physical & print products",
+    "tags": [
+      "work aprons",
+      "tool rolls",
+      "trade workwear",
+      "sewing business"
+    ],
+    "cost": "Low startup cost (about $500-800 for a heavy-duty sewing machine and materials)",
+    "found": "Business Dash",
+    "what": "Sew canvas or denim work aprons, knife rolls, brush rolls, and tool organizers designed around the specific equipment carried by a particular trade (barbers, baristas, florists, bakers, tattoo artists, mechanics, woodworkers), selling both personalized individual pieces and small matching batches to businesses.",
+    "pitch": "A realistic setup (a strong sewing machine, cutting tools, canvas or denim, webbing, hardware, thread, labels, packaging) runs $500-800. The presenter recommends choosing one profession and talking to people who actually do that work to learn what they carry every day, rather than designing 10 generic styles upfront, since heavy fabric and multiple pockets require accurate cutting and consistent stitching that a badly-placed pocket can ruin.",
+    "best": "Someone with real sewing skill (or willing to develop it for heavy fabric work) who's willing to research one specific trade's actual daily-carry needs before designing a product.",
+    "truth": "The advice to build around a real workflow for one profession, rather than a generic multi-purpose apron, is a genuinely sound way to create a product people actually value over a novelty item \u2014 but it requires real sewing competency with heavy materials, which isn't a trivial skill to pick up quickly.",
+    "url": "https://youtu.be/2uofabJSM7A",
+    "situation_tags": [
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
+    ]
   },
   {
     "id": "resin-wood-serving-boards-wholesale",
@@ -1588,29 +1677,6 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
-    "id": "costco-liquidation-reselling",
-    "name": "Buying and reselling Costco liquidation returns",
-    "category": "E-commerce",
-    "tags": [
-      "reselling",
-      "liquidation",
-      "Costco",
-      "needs storage"
-    ],
-    "cost": "A few hundred to a few thousand dollars per pallet or lot",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Buy pallets or individual units of Costco customer returns and liquidated merchandise through the B-Stock auction platform, researching resale value on Facebook Marketplace or comparable retail listings before bidding, then resell the items individually online, through Facebook Marketplace for larger items or Whatnot live auctions for smaller consumable goods.",
-    "pitch": "Chris Koerner challenges an experienced reseller, Shannon, to help him turn a starting bankroll into $10,000 profit in 10 days flat, buying returned and liquidated Costco merchandise through the B-Stock auction platform at pennies on the dollar (a $3,400 gazebo for $200, an $1,800 furniture set for $200) and reselling it on Facebook Marketplace and, for smaller items like food and drinks, through live-auction platforms like Whatnot.",
-    "best": "Someone with storage space (a garage or a small storage unit) and access to a bit of starting capital, who's comfortable researching resale prices before bidding and willing to learn category-specific quirks like appliance grading and model research.",
-    "truth": "This same buy-liquidation-and-resell pattern shows up repeatedly across WAH creator content, sourcing returned or excess inventory well below retail and reselling it piece by piece, which is itself a signal that the underlying model genuinely works, not just a one-off story. What makes this version distinct: a Costco-specific sourcing angle through the B-Stock auction platform, a named experienced mentor walking through live bid research in real time, and the Whatnot live-auction resale channel for smaller consumable goods, a genuinely different selling mechanic than one-off Marketplace listings. Koerner is candid that categories like appliances and electronics require real category-specific knowledge to avoid getting burned, and that not every item resells quickly, sometimes you cut the price and take a loss just to free up storage space.",
-    "url": "https://www.youtube.com/watch?v=kEV86fy-Rvc",
-    "situation_tags": [
-      "Needs inventory storage",
-      "Requires travel to source or inspect goods",
-      "Needs a truck or cargo vehicle"
-    ]
-  },
-  {
     "id": "ai-instant-quote-generator-contractors",
     "name": "AI instant quote/estimate generator for contractors and other quote-first businesses",
     "category": "AI & automation",
@@ -1675,6 +1741,28 @@
     ]
   },
   {
+    "id": "custom-picture-framing-business",
+    "name": "Custom picture framing and shadow box business",
+    "category": "Physical & print products",
+    "tags": [
+      "custom framing",
+      "shadow boxes",
+      "photography services",
+      "local business"
+    ],
+    "cost": "Low startup cost (about $450-750 for a mat cutter, joining tools, and frame stock)",
+    "found": "Business Dash",
+    "what": "Assemble custom picture frames, matted photographs, certificate frames, wedding keepsakes, and shadow boxes for sentimental or unusually-sized items, sourcing pre-cut frame lengths rather than milling raw wood, and selling both to individuals and to businesses (photographers, artists, interior designers) needing multiple pieces in a consistent style.",
+    "pitch": "A controlled setup (mat cutter, joining tools, saw or miter equipment, clamps, measuring tools, backing materials, starter frame stock) costs $450-750. The presenter emphasizes accuracy at every stage since a slightly out-of-square frame creates visible gaps, and recommends starting with smaller standard formats before attempting large, fragile, expensive-to-ship pieces.",
+    "best": "Someone with a careful, detail-oriented approach who wants to build a business around trust \u2014 the presenter notes this works best when customers trust you with items they wouldn't hand to a discount framing shop.",
+    "truth": "The trust-based framing (pun intended) of this business is accurate: custom framing customers are often handling sentimental, irreplaceable items, so quality and care matter more here than in most craft businesses on this list, and that's a real differentiator from big-box framing shops.",
+    "url": "https://youtu.be/2uofabJSM7A",
+    "situation_tags": [
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
+    ]
+  },
+  {
     "id": "rug-tufting-interior-designer-commissions",
     "name": "Rug tufting business selling custom commissions to interior designers",
     "category": "Physical & print products",
@@ -1714,28 +1802,6 @@
     "best": "Someone with design skills (or comfortable directing AI tools to generate designs) who wants to test apparel ideas without tying up money in inventory that might not sell.",
     "truth": "The illustration used, a friend who pre-printed thousands of shirts and could only capitalize on one design that took off, is a real anecdote but a single example, not a data set. Worth knowing separately: Amazon requires all designs to be either fully original or properly licensed, so using copyrighted characters or logos without permission isn't just against Merch by Amazon's rules, it's a real legal risk.",
     "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
-  },
-  {
-    "id": "short-run-screen-printing-packaging",
-    "name": "Short-run screen printing for local business packaging",
-    "category": "Physical & print products",
-    "tags": [
-      "screen printing",
-      "packaging",
-      "short-run printing",
-      "local business branding"
-    ],
-    "cost": "Low startup cost (about $300-650 for a starter screen printing setup)",
-    "found": "Business Dash",
-    "what": "Screen print short runs (a few dozen pieces) of branded paper bags, fabric pouches, posters, boxes, and tote bags for small local businesses (cafes, bakeries, market vendors) who need only small quantities with their logo, rather than the large minimum orders typical of commercial screen printing.",
-    "pitch": "A starter system (screens, a small press or hinge clamps, squeegees, inks, emulsion or reusable stencils, drying space, cleaning supplies) runs $300-650. The presenter emphasizes that this business gets stronger the more times a single screen is reused for the same customer's reorders, and warns against accepting a different complicated design for every tiny order, since setup and cleaning time can exceed the actual printing time.",
-    "best": "Someone willing to focus on simple, one-color logo designs for repeat local business customers rather than chasing varied, complex one-off designs.",
-    "truth": "The insight about reusable screens driving profitability on repeat orders (versus one-off custom work) is a genuinely useful operating principle that applies to most small-batch manufacturing, not just screen printing specifically.",
-    "url": "https://youtu.be/2uofabJSM7A",
-    "situation_tags": [
-      "Strictly in-home",
-      "Requires equipment/vehicle investment"
-    ]
   },
   {
     "id": "pool-cleaning-maintenance-service",
@@ -1818,6 +1884,28 @@
     "best": "Someone looking for a low-skill personalization business with wide material versatility and genuine gift-giving-season demand spikes.",
     "truth": "The cost and price figures are consistent with what's publicly available for this kind of engraver and its typical products, a reasonable range. No named operator or verified sales record is given, so the specific income math should be treated as illustrative rather than a demonstrated case study.",
     "url": "https://www.youtube.com/watch?v=xQ12WUnQid4"
+  },
+  {
+    "id": "custom-mug-sublimation-business",
+    "name": "Custom mug sublimation business for corporate and event gifting",
+    "category": "Physical & print products",
+    "tags": [
+      "sublimation printing",
+      "custom mugs",
+      "corporate gifts",
+      "small batch production"
+    ],
+    "cost": "Low startup cost (about $550-750 for a mug press and sublimation printer setup)",
+    "found": "Business Dash",
+    "what": "Produce personalized sublimated mugs for individual gifts and, more importantly, for repeat business customers like real estate agents (closing gifts), companies (employee welcome products), and schools or clubs needing several matching pieces delivered by a fixed date.",
+    "pitch": "A complete sublimation setup (mug press, compatible printer, ink, paper, thermal tape, blank mugs, test materials, protective boxes) runs $550-750. The presenter stresses that production only begins after order approval, keeping finished inventory low, and that consistency (matching height and color across a bulk order) matters more to repeat business clients than having hundreds of different designs.",
+    "best": "Someone who can commit to consistent, professional execution on bulk business orders (matching every logo's size and color exactly) rather than treating this as a one-off novelty gift shop.",
+    "truth": "The presenter's framing around consistency and dependable delivery for repeat business clients (versus just having a wide design catalog) points to what actually differentiates a sustainable small operator from a random online seller in a genuinely crowded product category.",
+    "url": "https://youtu.be/2uofabJSM7A",
+    "situation_tags": [
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
+    ]
   },
   {
     "id": "dog-treat-baking-pet-boutique-sales",
@@ -2100,6 +2188,29 @@
     ]
   },
   {
+    "id": "whitelabel-gohighlevel-saas-reseller",
+    "name": "White-label SaaS reseller for local business niches (GoHighLevel)",
+    "category": "Local & professional services",
+    "tags": [
+      "SaaS",
+      "reselling",
+      "local business",
+      "GoHighLevel",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (~$497/month software fee, plus ad spend)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "You white-label GoHighLevel's all-in-one marketing and CRM software and resell it to local business niches (event rental companies, med spas, gyms, dentists, roofers, and similar), charging a monthly software fee while your own reseller cost stays fixed at $497 a month regardless of how many clients you have.",
+    "pitch": "Koerner reverse-engineers real competitors using GoHighLevel's own public \"SaaSpreneur\" awards page, which shows which resellers have crossed 100, 500, or 1,000+ paying customers, then walks through a five-tool toolkit: the pricing page, the Wayback Machine, the Meta Ads Library, builtwith.com, and LinkedIn, to estimate a competitor's real revenue, ad spend, and team size. He demonstrates the model live by building a \"missed call text back\" tool for a roofing business in a few minutes inside GoHighLevel, showing how a small wedge product can turn into a broader retainer relationship.",
+    "best": "Someone comfortable with sales and marketing research who's willing to pick one underserved local-business niche and specialize in it, rather than trying to serve every industry at once.",
+    "truth": "Koerner discloses upfront that he's a GoHighLevel affiliate and earns a commission if viewers sign up through his link, worth keeping in mind given how enthusiastically the software is framed. All of the specific revenue estimates for the example businesses are his own \"back of a napkin\" math based on public award tiers and pricing pages, not verified financials, a reasonable estimate but not an audited number. The reverse-engineering toolkit itself is genuinely useful and independently verifiable regardless of how accurate any single revenue guess turns out to be.",
+    "url": "https://www.youtube.com/watch?v=VOo3M3ZHUoA",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ]
+  },
+  {
     "id": "vending-machine-route-tilbury",
     "name": "Building a vending machine route",
     "category": "Local & professional services",
@@ -2117,6 +2228,28 @@
     "best": "Someone comfortable with the upfront legwork of finding good locations and negotiating placement deals, who's willing to handle restocking and maintenance (or eventually hire someone to) rather than someone looking for something entirely hands-off from day one.",
     "truth": "The industry-level figure cited (Selecta reporting over $1 billion in 2021 sales, up 3% year over year) is a real, checkable industry data point distinct from the personal anecdote about the young operator, which is presented as a story Tilbury witnessed rather than a verified case study with real numbers attached. The core advice, that success depends on finding the right locations and the right product mix for each one, is genuinely the hard part of this business, not a minor detail.",
     "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54"
+  },
+  {
+    "id": "pad-printing-curved-product-branding",
+    "name": "Pad printing business for branding curved products",
+    "category": "Physical & print products",
+    "tags": [
+      "pad printing",
+      "product branding",
+      "curved surface printing",
+      "B2B small batch"
+    ],
+    "cost": "Low startup cost (about $650-950 for a desktop pad printing machine)",
+    "found": "Business Dash",
+    "what": "Use a pad printing machine (which transfers ink from an engraved plate via a flexible silicone pad) to brand curved or uneven objects that flat presses can't handle \u2014 pens, bottle caps, tool handles, plastic cases \u2014 selling primarily to local businesses that need only 50-100 branded pieces, a quantity too small for large suppliers who prefer orders in the thousands.",
+    "pitch": "A beginner setup (a single-color desktop machine, printing plates, silicone pads, suitable inks, cleaning supplies, product fixtures, blank test items) costs $650-950. The presenter warns that consistency is the hard part \u2014 each product may need a different plate, pad, ink, and fixture, and an item that shifts during printing produces a crooked or blurred logo.",
+    "best": "Someone comfortable with a technical, fixture-dependent process who wants to fill the specific gap between individual custom orders and factory-scale bulk branding runs.",
+    "truth": "The market gap identified (large suppliers won't touch small orders of 50-100 curved items) is genuine and specific, which is more defensible than a generic \"branded promotional products\" business \u2014 but the per-product setup complexity (different plate/pad/ink combinations) means this isn't a simple one-machine-fits-all operation.",
+    "url": "https://youtu.be/2uofabJSM7A",
+    "situation_tags": [
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
+    ]
   },
   {
     "id": "neocaridina-shrimp-breeding-fish-stores",
@@ -2186,28 +2319,6 @@
     ]
   },
   {
-    "id": "custom-foam-insert-fabrication",
-    "name": "Custom foam insert fabrication for equipment and product cases",
-    "category": "Physical & print products",
-    "tags": [
-      "foam inserts",
-      "protective packaging",
-      "B2B fabrication",
-      "case customization"
-    ],
-    "cost": "Low startup cost (about $250-550 for foam stock and cutting tools)",
-    "found": "Business Dash",
-    "what": "Cut custom foam inserts that hold tools, electronics, camera equipment, samples, or collectibles securely in place inside cases and shipping boxes, selling mainly to businesses (repair companies, photographers, tool sellers, sales teams) rather than casual individual buyers.",
-    "pitch": "A beginner setup (foam stock, cutting equipment, adhesives, measuring tools, sample cases) costs roughly $250-550, using sharp knives, cutting guides, templates, or hot wire tools, with more advanced shapes outsourceable while a beginner handles measuring, prototyping, and assembly. The core challenge is precision: an opening too loose lets the product move, too tight and the customer struggles to remove it or the foam tears.",
-    "best": "Someone with patience for precise measurement and prototyping work, comfortable pursuing recurring B2B clients (a single repeat business client can outweigh dozens of individual customers) rather than one-off consumer sales.",
-    "truth": "The precision challenge described is real and not to be underestimated \u2014 foam insert work has a genuine skill floor around accurate measuring and prototyping, and the presenter's advice to start with simple rectangular/layered designs before attempting complex shapes is sound risk management for a beginner.",
-    "url": "https://youtu.be/2uofabJSM7A",
-    "situation_tags": [
-      "Strictly in-home",
-      "Requires equipment/vehicle investment"
-    ]
-  },
-  {
     "id": "jellyball-bubble-tea-pearl-wholesale",
     "name": "Popping bubble tea pearl (\"jellyball\") production sold wholesale to cafes",
     "category": "Physical & print products",
@@ -2246,6 +2357,28 @@
     "situation_tags": [
       "Local travel required",
       "Weekend/event-based schedule"
+    ]
+  },
+  {
+    "id": "acrylic-display-fabrication-local-b2b",
+    "name": "Acrylic display fabrication for local B2B customers",
+    "category": "Physical & print products",
+    "tags": [
+      "acrylic displays",
+      "retail fixtures",
+      "local B2B",
+      "countertop displays"
+    ],
+    "cost": "Low startup cost (about $450-750 for a strip heater and cutting/finishing tools)",
+    "found": "Business Dash",
+    "what": "Fabricate acrylic countertop displays, menu holders, product risers, brochure stands, and QR code table signs using a strip heater and cutting/scoring tools, focusing on one customer group and a small catalog of standard products rather than promising unlimited custom fabrication.",
+    "pitch": "A working setup (strip heater, cutting or scoring tools, polishing supplies, clamps, drills, safety equipment, acrylic stock) runs $450-750. The presenter recommends choosing one customer group (for example, three display packages designed specifically for market vendors) since every unusual custom size creates wasted sheet material and one-time design work that's harder to price and repeat.",
+    "best": "Someone willing to standardize around a specific customer type (bakeries, jewelry sellers, restaurants) with a repeatable product catalog rather than accepting unlimited custom requests.",
+    "truth": "The advice to build a standard catalog for one customer type, rather than promising infinite customization, is a genuinely important lesson for any small fabrication business \u2014 it's what makes material use, pricing, and production time predictable instead of chaotic.",
+    "url": "https://youtu.be/2uofabJSM7A",
+    "situation_tags": [
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -2884,6 +3017,25 @@
     ]
   },
   {
+    "id": "facebook-ai-photo-content-monetization",
+    "name": "Building a niche Facebook photo page monetized through Facebook's Content Monetization program",
+    "category": "Content & personal brand",
+    "tags": [
+      "Facebook monetization",
+      "AI image generation",
+      "niche content page",
+      "organic growth",
+      "content monetization program"
+    ],
+    "cost": "Very low (an AI image generation tool, free Facebook Page creation, optional basic photo editor)",
+    "found": "Passive Biz Lucca",
+    "what": "Pick one narrow, highly visual niche (cozy cabins, vintage cars, tiny homes), validate demand by checking for existing large Facebook pages in that niche, create a public Facebook Page around it, generate original AI images with a specific, detail-rich prompt (not generic), lightly edit each image to make it feel human-made, post one per day with a short caption ending in a question to drive comments, and apply to Facebook's Content Monetization program once the page hits roughly 5,000-10,000 followers with real engagement.",
+    "pitch": "The presenter reports over $14,000 in one month from Facebook content monetization (mostly PDF sales plus the photo program) and walks through the mechanic: Facebook now pays for original photos and text posts, not just video, but has cracked down hard on reposted or lightly-edited content since 2025, so the images must be genuinely original. He gives a specific 90-day, one-post-a-day plan with a weekly review step, and is upfront this is a slow-build strategy, not a fast-cash scheme.",
+    "best": "Someone willing to commit to a consistent 90-day daily-posting habit in one visual niche, comfortable writing detailed AI image prompts and doing basic photo-editing polish, patient with a slow initial ramp.",
+    "truth": "Facebook's content monetization program and its original-content enforcement rules are real and match public information from Facebook's creator resources, and the described mechanics are consistent with how the platform's recommendation system is known to work. The specific $14,000/month figure is self-reported and unverifiable, payout thresholds and eligibility vary by country and change over time (the video itself warns not to trust fixed numbers), and it ends by funneling viewers to a paid course for the full system.",
+    "url": "https://www.youtube.com/watch?v=2z7ORVBVLzw"
+  },
+  {
     "id": "wall-printer-mural-service",
     "name": "Wall printer mural service for businesses",
     "category": "Physical & print products",
@@ -3113,29 +3265,6 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
-    "id": "whitelabel-gohighlevel-saas-reseller",
-    "name": "White-label SaaS reseller for local business niches (GoHighLevel)",
-    "category": "Local & professional services",
-    "tags": [
-      "SaaS",
-      "reselling",
-      "local business",
-      "GoHighLevel",
-      "low startup cost"
-    ],
-    "cost": "Low startup cost (~$497/month software fee, plus ad spend)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "You white-label GoHighLevel's all-in-one marketing and CRM software and resell it to local business niches (event rental companies, med spas, gyms, dentists, roofers, and similar), charging a monthly software fee while your own reseller cost stays fixed at $497 a month regardless of how many clients you have.",
-    "pitch": "Koerner reverse-engineers real competitors using GoHighLevel's own public \"SaaSpreneur\" awards page, which shows which resellers have crossed 100, 500, or 1,000+ paying customers, then walks through a five-tool toolkit: the pricing page, the Wayback Machine, the Meta Ads Library, builtwith.com, and LinkedIn, to estimate a competitor's real revenue, ad spend, and team size. He demonstrates the model live by building a \"missed call text back\" tool for a roofing business in a few minutes inside GoHighLevel, showing how a small wedge product can turn into a broader retainer relationship.",
-    "best": "Someone comfortable with sales and marketing research who's willing to pick one underserved local-business niche and specialize in it, rather than trying to serve every industry at once.",
-    "truth": "Koerner discloses upfront that he's a GoHighLevel affiliate and earns a commission if viewers sign up through his link, worth keeping in mind given how enthusiastically the software is framed. All of the specific revenue estimates for the example businesses are his own \"back of a napkin\" math based on public award tiers and pricing pages, not verified financials, a reasonable estimate but not an audited number. The reverse-engineering toolkit itself is genuinely useful and independently verifiable regardless of how accurate any single revenue guess turns out to be.",
-    "url": "https://www.youtube.com/watch?v=VOo3M3ZHUoA",
-    "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based"
-    ]
-  },
-  {
     "id": "ai-review-reply-voice-guide-approval-dashboard",
     "name": "AI-drafted Google review replies with an owner voice-guide and approval dashboard",
     "category": "AI & automation",
@@ -3275,6 +3404,28 @@
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s"
   },
   {
+    "id": "custom-sticker-label-business",
+    "name": "Custom sticker and label business for repeat small business orders",
+    "category": "Physical & print products",
+    "tags": [
+      "custom stickers",
+      "product labels",
+      "small business packaging",
+      "recurring orders"
+    ],
+    "cost": "Low startup cost (about $650-950 for a color printer and contour cutter)",
+    "found": "Business Dash",
+    "what": "Print and cut custom stickers and labels (logo stickers, packaging seals, bottle labels, QR labels) using a color inkjet printer and a contour cutter, focusing on small businesses that need new labels every time they produce another batch of product, rather than one-off novelty designs.",
+    "pitch": "A controlled setup (color inkjet printer, compact contour cutter, printable sticker paper or vinyl, laminate, ink, cutting tools) costs $650-950. The presenter stresses testing every material combination before claiming a sticker is waterproof, outdoor-safe, or dishwasher-safe, since print quality, ink, adhesive, and laminate all have to work together, and recommends starting with recurring business labels rather than hundreds of random illustrations.",
+    "best": "Someone willing to build relationships with small businesses (bakeries needing new packaging seals weekly, candle sellers needing scent labels, online stores needing parcel logos) for recurring reorder revenue.",
+    "truth": "The emphasis on recurring reorder revenue over one-off novelty sales is the right instinct here \u2014 stickers are a commodity product, so what makes this sustainable is being the default supplier a business reorders from every batch, not winning one-time sales.",
+    "url": "https://youtu.be/2uofabJSM7A",
+    "situation_tags": [
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
+    ]
+  },
+  {
     "id": "cottage-bakery-home-kitchen-drops",
     "name": "Cottage bakery selling weekly product drops from a home kitchen",
     "category": "Physical & print products",
@@ -3316,28 +3467,6 @@
     "best": "Someone looking for a very low-cost, low-complexity manufacturing product to start with, comfortable pitching to schools, tutoring centers, and small local retailers.",
     "truth": "This is about as low-barrier a physical product business as they come, and the specific buyer list (tutoring centers, tailors, hardware stores) is more concrete than most \"sell it on Etsy\" pitches. Margins per unit are inherently small, so meaningful income depends on landing recurring bulk/wholesale buyers rather than one-off retail sales.",
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s"
-  },
-  {
-    "id": "work-apron-tool-roll-sewing",
-    "name": "Custom work apron and tool roll sewing business",
-    "category": "Physical & print products",
-    "tags": [
-      "work aprons",
-      "tool rolls",
-      "trade workwear",
-      "sewing business"
-    ],
-    "cost": "Low startup cost (about $500-800 for a heavy-duty sewing machine and materials)",
-    "found": "Business Dash",
-    "what": "Sew canvas or denim work aprons, knife rolls, brush rolls, and tool organizers designed around the specific equipment carried by a particular trade (barbers, baristas, florists, bakers, tattoo artists, mechanics, woodworkers), selling both personalized individual pieces and small matching batches to businesses.",
-    "pitch": "A realistic setup (a strong sewing machine, cutting tools, canvas or denim, webbing, hardware, thread, labels, packaging) runs $500-800. The presenter recommends choosing one profession and talking to people who actually do that work to learn what they carry every day, rather than designing 10 generic styles upfront, since heavy fabric and multiple pockets require accurate cutting and consistent stitching that a badly-placed pocket can ruin.",
-    "best": "Someone with real sewing skill (or willing to develop it for heavy fabric work) who's willing to research one specific trade's actual daily-carry needs before designing a product.",
-    "truth": "The advice to build around a real workflow for one profession, rather than a generic multi-purpose apron, is a genuinely sound way to create a product people actually value over a novelty item \u2014 but it requires real sewing competency with heavy materials, which isn't a trivial skill to pick up quickly.",
-    "url": "https://youtu.be/2uofabJSM7A",
-    "situation_tags": [
-      "Strictly in-home",
-      "Requires equipment/vehicle investment"
-    ]
   },
   {
     "id": "field-inspection-contract-work",
@@ -3490,6 +3619,28 @@
     ]
   },
   {
+    "id": "grass-fed-beef-arbitrage-no-land",
+    "name": "Grass-fed beef arbitrage without owning any land",
+    "category": "Local & professional services",
+    "tags": [
+      "grass-fed beef",
+      "livestock arbitrage",
+      "direct-to-consumer meat",
+      "no land required"
+    ],
+    "cost": "Moderate startup cost (buying young cattle from a rancher; costs scale with how many head you buy)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Buy young cattle (calves at around 500-600 lbs) directly from a rancher at market price, arrange to have them custom-finished and slaughtered once they reach optimal size instead of selling them at the standard weight, then package and sell the finished grass-fed beef directly to consumers \u2014 all without owning or leasing any land yourself.",
+    "pitch": "Koerner describes the rancher he bought his own property from as making consistent money simply letting calves graze until they reach market weight, then selling roughly 15 at a time at auction for about $1,400 each. His proposed arbitrage: buy calves at that same price, brand them as your own, but instead of selling them early at the standard auction weight, pay to have them finished and slaughtered at optimal size, then sell the packaged beef directly to consumers (he suggests shipping nationally through an e-commerce operation) \u2014 capturing the price difference between a live auction calf and finished, packaged, direct-to-consumer beef.",
+    "best": "Someone who can build a relationship with a working rancher (to buy calves and arrange grazing/finishing) and a slaughterhouse (booking dates months in advance, since they get busy), and who has or can build a direct-to-consumer sales channel for the finished product.",
+    "truth": "The core arbitrage logic is sound and doesn't require owning land, which is a genuine barrier-lowering insight most beef-business content skips past. That said, the presenter is explicit this is his own not-yet-executed plan (\"a ways off\") rather than a proven case study, and the real complexity \u2014 coordinating a rancher relationship, slaughterhouse scheduling, meat packaging/labeling regulations, and building distribution \u2014 is meaningfully harder than the simple unit-economics pitch suggests.",
+    "url": "https://youtu.be/HOosrT6vj_Y",
+    "situation_tags": [
+      "Requires travel to source or inspect goods",
+      "Requires hiring or managing others"
+    ]
+  },
+  {
     "id": "ebay-niche-reselling-account-warming",
     "name": "eBay niche reselling with the account-warming strategy",
     "category": "E-commerce",
@@ -3506,6 +3657,24 @@
     "best": "Someone with a genuine interest in a specific collector or niche category, willing to build real product knowledge in it, since success here depends on knowing the niche well enough to source and price competitively, not just listing generic items.",
     "truth": "The eBay revenue figures ($2.7 billion in Q2 2025, up 6% year over year) are a real, checkable company-level statistic, a good sign. The Kai Towers case study ($400 to $317,000 in a year) is presented as a real individual's result but without account screenshots or independent verification, so it's a strong but unaudited claim. Worth knowing: this video is structured as a promotional funnel, each case study featured is a paid video series inside the presenter's own course platform, so there's a financial incentive to make each result sound as replicable as possible.",
     "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
+  },
+  {
+    "id": "mini-oil-press-machine-business",
+    "name": "Small-batch cooking oil production using a mini oil press machine",
+    "category": "Physical & print products",
+    "tags": [
+      "small manufacturing",
+      "oil press",
+      "food production",
+      "$1000 startup machine"
+    ],
+    "cost": "Very low (average starter machine price around $220, plus bottles/labels, all under $1,000)",
+    "found": "Business Dash",
+    "what": "Use a small mini oil press machine to press cooking oil from seeds and nuts (sesame, peanuts, sunflower, coconut, flaxseed, or black seed depending on local availability), sell fresh, small-batch oil positioned on freshness and quality against mass-produced alternatives, after first researching seed prices, oil yield, bottle/label costs, and local food regulations before buying the machine.",
+    "pitch": "Presented as one of ten $1,000-startup machine businesses, the appeal being that oil is a product people already understand and buy regularly, so the sales pitch is about freshness and small-batch quality rather than educating customers on a new product.",
+    "best": "Someone in a region where small-batch or artisanal food products are gaining trust, willing to handle local food-safety/labeling compliance.",
+    "truth": "Small-scale oil pressing is a real, established micro-manufacturing niche in many markets, and the core insight, that the machine is only step one and the real business is trust/freshness/repeat buyers, is sound practical advice. No specific revenue example or case study is given; this is general guidance rather than a demonstrated result.",
+    "url": "https://www.youtube.com/watch?v=mKFNXLik1ro"
   },
   {
     "id": "diy-bedazzle-craft-kits",
@@ -3698,6 +3867,24 @@
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s"
   },
   {
+    "id": "cup-sealing-machine-drink-business",
+    "name": "Running a cup-sealing service or drink business using a cup sealing machine",
+    "category": "Physical & print products",
+    "tags": [
+      "small manufacturing",
+      "cup sealer",
+      "drink vendor service",
+      "$1000 startup machine"
+    ],
+    "cost": "Very low (average starter machine price around $140, plus cups/film, under $1,000)",
+    "found": "Business Dash",
+    "what": "Use a cup sealing machine to seal plastic cups of cold drinks with a branded film top, either to sell your own drinks from a stand or kiosk, or to offer cup-sealing as a paid service to existing juice shops, tea sellers, and small food vendors who currently use less professional loose lids or plastic wrap.",
+    "pitch": "Presented as a low-cost machine with two business models (make-and-sell or sell-the-service), with the appeal being that a sealed cup makes any small drink business look more professional without opening a full cafe.",
+    "best": "Someone in a market with existing informal drink vendors who could be sold on packaging upgrades, or willing to start their own drink stand.",
+    "truth": "Cup sealing machines and the drink-packaging upgrade service model are real and already used commercially, particularly in markets with a strong street-food/drink-vendor culture. No specific revenue example is given, and success depends on there being enough existing drink sellers nearby willing to pay for the service.",
+    "url": "https://www.youtube.com/watch?v=mKFNXLik1ro"
+  },
+  {
     "id": "ppc-affiliate-arbitrage",
     "name": "Google/Bing PPC affiliate arbitrage",
     "category": "Marketing & content",
@@ -3777,28 +3964,6 @@
     "url": "https://youtu.be/xUCD1BXvhjU",
     "situation_tags": [
       "Strictly in-home"
-    ]
-  },
-  {
-    "id": "custom-picture-framing-business",
-    "name": "Custom picture framing and shadow box business",
-    "category": "Physical & print products",
-    "tags": [
-      "custom framing",
-      "shadow boxes",
-      "photography services",
-      "local business"
-    ],
-    "cost": "Low startup cost (about $450-750 for a mat cutter, joining tools, and frame stock)",
-    "found": "Business Dash",
-    "what": "Assemble custom picture frames, matted photographs, certificate frames, wedding keepsakes, and shadow boxes for sentimental or unusually-sized items, sourcing pre-cut frame lengths rather than milling raw wood, and selling both to individuals and to businesses (photographers, artists, interior designers) needing multiple pieces in a consistent style.",
-    "pitch": "A controlled setup (mat cutter, joining tools, saw or miter equipment, clamps, measuring tools, backing materials, starter frame stock) costs $450-750. The presenter emphasizes accuracy at every stage since a slightly out-of-square frame creates visible gaps, and recommends starting with smaller standard formats before attempting large, fragile, expensive-to-ship pieces.",
-    "best": "Someone with a careful, detail-oriented approach who wants to build a business around trust \u2014 the presenter notes this works best when customers trust you with items they wouldn't hand to a discount framing shop.",
-    "truth": "The trust-based framing (pun intended) of this business is accurate: custom framing customers are often handling sentimental, irreplaceable items, so quality and care matter more here than in most craft businesses on this list, and that's a real differentiator from big-box framing shops.",
-    "url": "https://youtu.be/2uofabJSM7A",
-    "situation_tags": [
-      "Strictly in-home",
-      "Requires equipment/vehicle investment"
     ]
   },
   {
@@ -4073,28 +4238,6 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
-    "id": "grass-fed-beef-arbitrage-no-land",
-    "name": "Grass-fed beef arbitrage without owning any land",
-    "category": "Local & professional services",
-    "tags": [
-      "grass-fed beef",
-      "livestock arbitrage",
-      "direct-to-consumer meat",
-      "no land required"
-    ],
-    "cost": "Moderate startup cost (buying young cattle from a rancher; costs scale with how many head you buy)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Buy young cattle (calves at around 500-600 lbs) directly from a rancher at market price, arrange to have them custom-finished and slaughtered once they reach optimal size instead of selling them at the standard weight, then package and sell the finished grass-fed beef directly to consumers \u2014 all without owning or leasing any land yourself.",
-    "pitch": "Koerner describes the rancher he bought his own property from as making consistent money simply letting calves graze until they reach market weight, then selling roughly 15 at a time at auction for about $1,400 each. His proposed arbitrage: buy calves at that same price, brand them as your own, but instead of selling them early at the standard auction weight, pay to have them finished and slaughtered at optimal size, then sell the packaged beef directly to consumers (he suggests shipping nationally through an e-commerce operation) \u2014 capturing the price difference between a live auction calf and finished, packaged, direct-to-consumer beef.",
-    "best": "Someone who can build a relationship with a working rancher (to buy calves and arrange grazing/finishing) and a slaughterhouse (booking dates months in advance, since they get busy), and who has or can build a direct-to-consumer sales channel for the finished product.",
-    "truth": "The core arbitrage logic is sound and doesn't require owning land, which is a genuine barrier-lowering insight most beef-business content skips past. That said, the presenter is explicit this is his own not-yet-executed plan (\"a ways off\") rather than a proven case study, and the real complexity \u2014 coordinating a rancher relationship, slaughterhouse scheduling, meat packaging/labeling regulations, and building distribution \u2014 is meaningfully harder than the simple unit-economics pitch suggests.",
-    "url": "https://youtu.be/HOosrT6vj_Y",
-    "situation_tags": [
-      "Requires travel to source or inspect goods",
-      "Requires hiring or managing others"
-    ]
-  },
-  {
     "id": "ai-conversion-focused-website-rebuild-one-action",
     "name": "Conversion-focused website rebuild built around one specific action, not a template",
     "category": "AI & automation",
@@ -4156,6 +4299,24 @@
       "Strictly in-home",
       "Phone/sales-based"
     ]
+  },
+  {
+    "id": "badge-button-maker-bulk-orders",
+    "name": "Selling bulk custom badges and buttons to schools, events, and businesses using a badge maker machine",
+    "category": "Physical & print products",
+    "tags": [
+      "small manufacturing",
+      "badge maker",
+      "bulk institutional sales",
+      "$1000 startup machine"
+    ],
+    "cost": "Very low (average starter machine price around $90, one of the cheapest on the list, under $1,000)",
+    "found": "Business Dash",
+    "what": "Use a manual badge and button maker to turn printed designs into custom badges, pins, name tags, or event buttons, and sell in bulk to schools, businesses, weddings/events, and local organizations by proactively visiting event planners, print shops, and local businesses with samples rather than posting individual designs online.",
+    "pitch": "Presented as one of the lowest-cost machines on the list, with the key insight being that beginners fail by selling one badge at a time online instead of pursuing bulk orders from institutions that regularly need hundreds of custom badges.",
+    "best": "Someone comfortable doing in-person or direct outreach to schools, event planners, and local businesses to pitch bulk orders, rather than relying on organic online sales.",
+    "truth": "Badge/button makers are inexpensive, widely available machines, and bulk institutional sales genuinely tend to outperform one-off retail sales for this kind of product. No specific revenue example is given; success depends on developing real relationships with schools and event organizers.",
+    "url": "https://www.youtube.com/watch?v=mKFNXLik1ro"
   },
   {
     "id": "decorative-dumbbells-home-fitness-decor",
@@ -4327,6 +4488,30 @@
     ]
   },
   {
+    "id": "restaurant-specials-board-ads-agency-upsell",
+    "name": "Free restaurant specials-board advertising, used as a wedge to upsell local businesses into an AI/digital agency",
+    "category": "Marketing & content",
+    "tags": [
+      "local advertising",
+      "restaurant marketing",
+      "lead generation",
+      "AI implementation agency",
+      "upsell funnel"
+    ],
+    "cost": "Very low startup cost (about $350-400 per board, covered by ad sales before the board is even printed)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Place a free dry-erase specials board (used for daily specials and announcements) inside high-foot-traffic local businesses like restaurants and coffee shops, sell 6 ad slots on the board's border to other local businesses for $600/year each, then use the relationship with those advertisers (mostly home services \u2014 realtors, contractors, insurance agents, lawyers) as a warm lead into a separate, higher-ticket AI implementation and digital marketing agency (websites, Google review/reputation management, AI voice receptionists).",
+    "pitch": "The guests, a married couple who started this a year and a half ago alongside an existing digital agency, are earning about $10,000-15,000/month combined from both sides of the business after 6 months. The board itself costs about $350-400 to produce (which is covered before printing, since you only print once all 6 ad spots are sold) and generates about $3,200-4,600 profit per placement per year at roughly 85% margin; separately, roughly 20-30 of the businesses that bought ad space have converted into digital agency clients averaging about $7,500/year each, projected around $200,000-225,000 in annual revenue from that side alone \u2014 with 60% of that from brand reputation management, 30% from websites/hosting, and 10% from higher-ticket AI services like voice receptionists and automated appointment booking.",
+    "best": "Someone comfortable with in-person and DM-based local sales (cold outreach to find host locations and advertisers) who also wants to build or already runs a digital marketing/AI implementation service to upsell into.",
+    "truth": "This is one of the more genuinely novel local business mechanics in this database \u2014 a low-cost physical product used deliberately as a lead-generation wedge into a much higher-margin service business, rather than as the primary profit center itself. The presenters are candid that finding the first advertiser took 10-15 cold outreach messages, and that asking business owners broad questions (\"what problems are you having?\") doesn't work as well as specific ones (\"do employees show up late?\") \u2014 a real, transferable sales lesson. The digital-agency upsell side requires an existing or newly-built service offering, which is a nontrivial second business, not just a matter of selling one ad board.",
+    "url": "https://youtu.be/McQucrnkSt0",
+    "situation_tags": [
+      "Local travel required",
+      "Phone/sales-based",
+      "Requires hiring or managing others"
+    ]
+  },
+  {
     "id": "video-editing-brand-influencer-campaigns",
     "name": "Video editing for brand and influencer campaigns",
     "category": "Marketing & content",
@@ -4345,26 +4530,22 @@
     "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
   },
   {
-    "id": "custom-mug-sublimation-business",
-    "name": "Custom mug sublimation business for corporate and event gifting",
+    "id": "vinyl-cutting-plotter-signage-business",
+    "name": "Making custom signage, stickers, and decals for local businesses using a vinyl cutting plotter",
     "category": "Physical & print products",
     "tags": [
-      "sublimation printing",
-      "custom mugs",
-      "corporate gifts",
-      "small batch production"
+      "small manufacturing",
+      "vinyl cutting",
+      "local business signage",
+      "$1000 startup machine"
     ],
-    "cost": "Low startup cost (about $550-750 for a mug press and sublimation printer setup)",
+    "cost": "Low (average starter machine price around $300, plus vinyl/transfer tape/blades, under $1,000)",
     "found": "Business Dash",
-    "what": "Produce personalized sublimated mugs for individual gifts and, more importantly, for repeat business customers like real estate agents (closing gifts), companies (employee welcome products), and schools or clubs needing several matching pieces delivered by a fixed date.",
-    "pitch": "A complete sublimation setup (mug press, compatible printer, ink, paper, thermal tape, blank mugs, test materials, protective boxes) runs $550-750. The presenter stresses that production only begins after order approval, keeping finished inventory low, and that consistency (matching height and color across a bulk order) matters more to repeat business clients than having hundreds of different designs.",
-    "best": "Someone who can commit to consistent, professional execution on bulk business orders (matching every logo's size and color exactly) rather than treating this as a one-off novelty gift shop.",
-    "truth": "The presenter's framing around consistency and dependable delivery for repeat business clients (versus just having a wide design catalog) points to what actually differentiates a sustainable small operator from a random online seller in a genuinely crowded product category.",
-    "url": "https://youtu.be/2uofabJSM7A",
-    "situation_tags": [
-      "Strictly in-home",
-      "Requires equipment/vehicle investment"
-    ]
+    "what": "Use a vinyl cutting plotter to produce signs, delivery-bike logos, stickers, window graphics, wall quotes, product labels, and heat-transfer shirt designs for local shops, salons, gyms, cafes, and repair businesses, pricing each job to include design time, measuring, transfer tape, failed cuts, installation, and transport, not just the raw vinyl material cost.",
+    "pitch": "Presented as a machine with obvious, everywhere-you-look customer demand once you understand its output, with the key beginner mistake being underpricing jobs by only calculating material cost rather than full labor and overhead.",
+    "best": "Someone comfortable with basic design software and willing to do in-person sales visits to local businesses to pitch signage and branding work.",
+    "truth": "Vinyl cutting for local business signage and branding is a real, established small-business service, and the pricing warning reflects a genuine common failure mode in this trade. No specific revenue example is given; success depends on local business density and design/sales skill.",
+    "url": "https://www.youtube.com/watch?v=mKFNXLik1ro"
   },
   {
     "id": "electric-sausage-stuffer-gourmet-batch",
@@ -4664,6 +4845,24 @@
     "url": "https://www.youtube.com/watch?v=xQ12WUnQid4"
   },
   {
+    "id": "liquid-filling-machine-packaging-service",
+    "name": "Offering liquid and paste product filling as a service to small producers using a manual filling machine",
+    "category": "Physical & print products",
+    "tags": [
+      "small manufacturing",
+      "contract filling",
+      "B2B packaging service",
+      "$1000 startup machine"
+    ],
+    "cost": "Low (average starter setup price around $180, under $1,000)",
+    "found": "Business Dash",
+    "what": "Use a manual liquid/paste filling machine to fill bottles or containers cleanly and consistently for products like honey, sauce, shampoo, lotion, or cosmetics, either packaging your own product line or offering filling-as-a-service to small home producers who currently fill bottles by hand; keep separate equipment/cleaning protocols for different product categories to respect hygiene rules.",
+    "pitch": "Presented as an unglamorous but practical machine, with the underrated business model being the B2B filling-as-a-service option for small producers who already make a good product but have messy, inconsistent packaging.",
+    "best": "Someone comfortable following hygiene/food-safety protocols and building relationships with small home-based producers who need packaging help.",
+    "truth": "Contract filling services for small producers are a real, established B2B niche, and the hygiene/cross-contamination warning reflects genuine regulatory and safety concerns. No specific revenue example is given; success depends on finding enough small producers locally who need this specific service.",
+    "url": "https://www.youtube.com/watch?v=mKFNXLik1ro"
+  },
+  {
     "id": "nut-butter-making-small-batch",
     "name": "Small-batch flavored nut butter business",
     "category": "Physical & print products",
@@ -4912,26 +5111,22 @@
     ]
   },
   {
-    "id": "pad-printing-curved-product-branding",
-    "name": "Pad printing business for branding curved products",
+    "id": "spice-grinding-packaging-business",
+    "name": "Grinding, weighing, and packaging spices for retail sale using a small spice-grinding setup",
     "category": "Physical & print products",
     "tags": [
-      "pad printing",
-      "product branding",
-      "curved surface printing",
-      "B2B small batch"
+      "small manufacturing",
+      "spice packaging",
+      "food repackaging",
+      "$1000 startup machine"
     ],
-    "cost": "Low startup cost (about $650-950 for a desktop pad printing machine)",
+    "cost": "Very low (average starter setup price around $250 for a grinder, digital scale, and heat sealer, under $1,000)",
     "found": "Business Dash",
-    "what": "Use a pad printing machine (which transfers ink from an engraved plate via a flexible silicone pad) to brand curved or uneven objects that flat presses can't handle \u2014 pens, bottle caps, tool handles, plastic cases \u2014 selling primarily to local businesses that need only 50-100 branded pieces, a quantity too small for large suppliers who prefer orders in the thousands.",
-    "pitch": "A beginner setup (a single-color desktop machine, printing plates, silicone pads, suitable inks, cleaning supplies, product fixtures, blank test items) costs $650-950. The presenter warns that consistency is the hard part \u2014 each product may need a different plate, pad, ink, and fixture, and an item that shifts during printing produces a crooked or blurred logo.",
-    "best": "Someone comfortable with a technical, fixture-dependent process who wants to fill the specific gap between individual custom orders and factory-scale bulk branding runs.",
-    "truth": "The market gap identified (large suppliers won't touch small orders of 50-100 curved items) is genuine and specific, which is more defensible than a generic \"branded promotional products\" business \u2014 but the per-product setup complexity (different plate/pad/ink combinations) means this isn't a simple one-machine-fits-all operation.",
-    "url": "https://youtu.be/2uofabJSM7A",
-    "situation_tags": [
-      "Strictly in-home",
-      "Requires equipment/vehicle investment"
-    ]
+    "what": "Use a small spice grinder, digital scale, and heat sealer to grind, weigh, and seal spices into clean, accurately-weighed, sealed pouches, then sell to neighbors, small shops, food sellers, online customers, or local grocery stores, competing on trust, cleanliness, and freshness rather than on the underlying product itself.",
+    "pitch": "Presented as a less exciting but more realistic option than flashier machines, since spices are already bought every week; the key insight is that the business isn't the grinder, it's the packaging quality and trust that make an otherwise commodity product feel more valuable.",
+    "best": "Someone able to source raw spices affordably and willing to focus on clean, consistent packaging and accurate weights to build repeat local trust.",
+    "truth": "Small-batch spice packaging and reselling is a real, low-barrier micro-business in many markets, and the packaging-as-differentiator insight is sound. No specific revenue example is given; margins depend heavily on local spice sourcing costs and competition.",
+    "url": "https://www.youtube.com/watch?v=mKFNXLik1ro"
   },
   {
     "id": "glass-bottle-upcycle-tumblers-vases",
@@ -4988,30 +5183,6 @@
     "best": "Someone with a reasonable eye for visual design who's comfortable directing AI tools rather than building slides from scratch, and willing to sell the finished output as a freelance service rather than a product.",
     "truth": "The $222 average gig price and 12-order queue come from a real, visible Fiverr listing, a genuinely checkable data point, though it reflects one seller's results rather than a category-wide average. Sarah's workflow relies on Canva's AI features, which require a paid Pro account (she offers her own affiliate link to a free 30-day trial of it), so the described process isn't fully $0 the way some of her other ideas are, despite being framed alongside them as free.",
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
-  },
-  {
-    "id": "restaurant-specials-board-ads-agency-upsell",
-    "name": "Free restaurant specials-board advertising, used as a wedge to upsell local businesses into an AI/digital agency",
-    "category": "Marketing & content",
-    "tags": [
-      "local advertising",
-      "restaurant marketing",
-      "lead generation",
-      "AI implementation agency",
-      "upsell funnel"
-    ],
-    "cost": "Very low startup cost (about $350-400 per board, covered by ad sales before the board is even printed)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Place a free dry-erase specials board (used for daily specials and announcements) inside high-foot-traffic local businesses like restaurants and coffee shops, sell 6 ad slots on the board's border to other local businesses for $600/year each, then use the relationship with those advertisers (mostly home services \u2014 realtors, contractors, insurance agents, lawyers) as a warm lead into a separate, higher-ticket AI implementation and digital marketing agency (websites, Google review/reputation management, AI voice receptionists).",
-    "pitch": "The guests, a married couple who started this a year and a half ago alongside an existing digital agency, are earning about $10,000-15,000/month combined from both sides of the business after 6 months. The board itself costs about $350-400 to produce (which is covered before printing, since you only print once all 6 ad spots are sold) and generates about $3,200-4,600 profit per placement per year at roughly 85% margin; separately, roughly 20-30 of the businesses that bought ad space have converted into digital agency clients averaging about $7,500/year each, projected around $200,000-225,000 in annual revenue from that side alone \u2014 with 60% of that from brand reputation management, 30% from websites/hosting, and 10% from higher-ticket AI services like voice receptionists and automated appointment booking.",
-    "best": "Someone comfortable with in-person and DM-based local sales (cold outreach to find host locations and advertisers) who also wants to build or already runs a digital marketing/AI implementation service to upsell into.",
-    "truth": "This is one of the more genuinely novel local business mechanics in this database \u2014 a low-cost physical product used deliberately as a lead-generation wedge into a much higher-margin service business, rather than as the primary profit center itself. The presenters are candid that finding the first advertiser took 10-15 cold outreach messages, and that asking business owners broad questions (\"what problems are you having?\") doesn't work as well as specific ones (\"do employees show up late?\") \u2014 a real, transferable sales lesson. The digital-agency upsell side requires an existing or newly-built service offering, which is a nontrivial second business, not just a matter of selling one ad board.",
-    "url": "https://youtu.be/McQucrnkSt0",
-    "situation_tags": [
-      "Local travel required",
-      "Phone/sales-based",
-      "Requires hiring or managing others"
-    ]
   },
   {
     "id": "ai-database-reactivation-segmented-sms-performance-pricing",
@@ -5158,6 +5329,25 @@
     ]
   },
   {
+    "id": "upwork-ai-faked-competency-retainer-scaling",
+    "name": "Landing Upwork retainer clients in a skill you don't have, using AI to fake and then actually deliver the competency",
+    "category": "Local & professional services",
+    "tags": [
+      "Upwork freelancing",
+      "AI-assisted service delivery",
+      "retainer clients",
+      "niche tilting",
+      "cold application"
+    ],
+    "cost": "Very low (a ChatGPT/Claude subscription, an Upwork account, Loom for video pitches)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Apply to Upwork jobs in a skill you don't actually have (e.g. SEO) by slightly tilting away from the most saturated keyword phrasing, record a short (2-3 minute) unedited Loom video pitching how you'd approach the client's problem using an AI-built workflow, win the retainer, then actually deliver the work by learning the skill just-in-time with AI tools (Claude Code for automation build-out), and increase the retainer price once results are proven by expanding scope.",
+    "pitch": "The interview subject describes going from severe poverty to a $3,000/month Upwork retainer (later raised to $5,500/month with the same client) after just 7 job applications and zero prior SEO experience, using ChatGPT to build the actual automation and a confident, unedited Loom pitch video to win trust. She expanded into content creation, a paid community, sponsorships, and a self-built app as additional income layers once inbound interest picked up from her YouTube channel.",
+    "best": "Someone comfortable pitching themselves into work outside their existing skillset and willing to learn just-in-time with AI tools under real client pressure; helps to have some video-comfort for the Loom pitch step.",
+    "truth": "AI genuinely lowers the bar to producing passable client deliverables fast, and Upwork niche-tilting to reduce competition is a real, sound tactic. Most of this video is the subject's personal mindset framing and multiple loosely-connected income streams rather than a single step-by-step process, and her reported income figures and timeline are self-reported and not independently verified \u2014 treat this as one real example of the method rather than a guaranteed outcome.",
+    "url": "https://www.youtube.com/watch?v=lG5U30gKCaY"
+  },
+  {
     "id": "brand-identity-design-service",
     "name": "Full brand identity design service",
     "category": "Marketing & content",
@@ -5174,6 +5364,24 @@
     "best": "Someone with genuine visual design skill and taste who's willing to develop a full-package offering rather than staying at the cheaper, more commoditized single-logo tier of the market.",
     "truth": "The market-size figures ($9.5 billion in 2024, projected $40 billion by 2032) and the government logo redesign cost are specific, checkable claims, though the market-size numbers' original source isn't named in the video. The Jack Watson case study, like the others in this video, is featured because he's an instructor on the presenter's own paid course platform, worth factoring in when weighing how the results are framed. The underlying market gap described (cheap single-logo work vs. a full cohesive identity package) is a genuine, recognizable distinction in the design industry, independent of any specific case study's numbers.",
     "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
+  },
+  {
+    "id": "laser-engraving-personalization-business",
+    "name": "Producing personalized and branded products for businesses and events using a small laser engraving machine",
+    "category": "Physical & print products",
+    "tags": [
+      "small manufacturing",
+      "laser engraving",
+      "event personalization",
+      "$1000 startup machine"
+    ],
+    "cost": "Moderate for the list (average starter machine price around $450, plus safety/ventilation gear, under $1,000)",
+    "found": "Business Dash",
+    "what": "Use a small laser engraving machine to mark or cut designs onto wood, leather, acrylic, cardboard, paper, bamboo, or coated metals, focusing on one niche (gifts, business branding, wedding items, or packaging accessories) rather than trying to sell everything to everyone, producing small custom batches for businesses and events that need volumes too small for a factory but too large to do one at a time.",
+    "pitch": "Presented as a machine whose real opportunity only becomes clear once you understand where a laser engraver fits between mass factories and single-item hobbyists; the presenter recommends choosing one niche first, then approaching buyers who already need custom work with samples.",
+    "best": "Someone willing to pick a specific niche and build a sample portfolio to approach relevant local buyers, rather than selling generic engraved items broadly.",
+    "truth": "Laser engraving for small-batch personalization and branding is a real, established micro-manufacturing niche, and the advice to niche down rather than sell everything is sound. No specific revenue example is given; ventilation and safety equipment are a genuine real requirement, not optional.",
+    "url": "https://www.youtube.com/watch?v=mKFNXLik1ro"
   },
   {
     "id": "media-kit-sponsorships-content-site-agency",
@@ -5341,26 +5549,22 @@
     ]
   },
   {
-    "id": "acrylic-display-fabrication-local-b2b",
-    "name": "Acrylic display fabrication for local B2B customers",
+    "id": "tart-shell-b2b-supply-business",
+    "name": "Supplying mini tart and pie shells to bakeries and caterers using a shell-forming machine, rather than selling desserts directly",
     "category": "Physical & print products",
     "tags": [
-      "acrylic displays",
-      "retail fixtures",
-      "local B2B",
-      "countertop displays"
+      "small manufacturing",
+      "B2B food supply",
+      "bakery wholesale",
+      "$1000 startup machine"
     ],
-    "cost": "Low startup cost (about $450-750 for a strip heater and cutting/finishing tools)",
+    "cost": "Moderate for the list (average starter machine price around $650, one of the more expensive, but plannable under $1,000)",
     "found": "Business Dash",
-    "what": "Fabricate acrylic countertop displays, menu holders, product risers, brochure stands, and QR code table signs using a strip heater and cutting/scoring tools, focusing on one customer group and a small catalog of standard products rather than promising unlimited custom fabrication.",
-    "pitch": "A working setup (strip heater, cutting or scoring tools, polishing supplies, clamps, drills, safety equipment, acrylic stock) runs $450-750. The presenter recommends choosing one customer group (for example, three display packages designed specifically for market vendors) since every unusual custom size creates wasted sheet material and one-time design work that's harder to price and repeat.",
-    "best": "Someone willing to standardize around a specific customer type (bakeries, jewelry sellers, restaurants) with a repeatable product catalog rather than accepting unlimited custom requests.",
-    "truth": "The advice to build a standard catalog for one customer type, rather than promising infinite customization, is a genuinely important lesson for any small fabrication business \u2014 it's what makes material use, pricing, and production time predictable instead of chaotic.",
-    "url": "https://youtu.be/2uofabJSM7A",
-    "situation_tags": [
-      "Strictly in-home",
-      "Requires equipment/vehicle investment"
-    ]
+    "what": "Use a tartlet/mini pie shell forming machine to press dough into consistent, uniform tart or pie shells, then sell the empty shells wholesale to bakeries, cafes, catering kitchens, dessert shops, and event suppliers who want to sell finished desserts but don't want staff time spent hand-shaping shells, rather than building your own retail dessert brand.",
+    "pitch": "Presented as an unglamorous machine most beginners skip, with the actual opportunity being becoming the boring, reliable B2B supplier behind bakeries rather than competing with them directly for retail customers.",
+    "best": "Someone comfortable approaching bakeries and catering businesses directly to become a reliable wholesale supplier, rather than building a consumer-facing dessert brand.",
+    "truth": "Wholesale supply of semi-finished baked components to bakeries and caterers is a real, established B2B food-industry practice. No specific revenue example is given; food-safety/hygiene compliance requirements for wholesale food supply will apply and vary by location.",
+    "url": "https://www.youtube.com/watch?v=mKFNXLik1ro"
   },
   {
     "id": "handmade-candle-holders-multi-medium",
@@ -5437,6 +5641,24 @@
     "best": "Someone willing to do physically demanding manual labor initially, in a market with new-construction housing growth and little existing lawn-leveling competition.",
     "truth": "The broader lawn care market is large and well-established, and top-dressing/leveling is a genuine, recognized landscaping technique, the presenter's framing of it as an underserved standalone niche is plausible given how few dedicated providers he cites. The specific $500K/year figure is one individual's self-reported result, and this business still requires physical labor and correctly assessing whether a local market has the underserved demand the presenter describes.",
     "url": "https://www.youtube.com/watch?v=akllDPkT07I"
+  },
+  {
+    "id": "impulse-heat-sealer-repackaging-business",
+    "name": "Repackaging bulk food products into smaller retail-ready pouches using an impulse heat sealer",
+    "category": "Physical & print products",
+    "tags": [
+      "small manufacturing",
+      "bulk repackaging",
+      "food resale",
+      "$1000 startup machine"
+    ],
+    "cost": "Very low (average starter setup price around $120 for a heat sealer, digital scale, and packaging tools, one of the easiest to keep under $1,000)",
+    "found": "Business Dash",
+    "what": "Use an impulse heat sealer with a digital scale to repackage bulk-bought products (nuts, dates, snacks, coffee, spices, tea, dried fruit) into smaller, sealed, labeled pouches for resale, or offer packaging as a service to home food producers, starting with small test batches and simple labels before investing heavily in packaging design once real demand is confirmed.",
+    "pitch": "Presented as a deceptively simple machine whose real value is turning loose, cheap-looking bulk products into sellable, professional-looking retail items; the presenter warns against over-investing in packaging design before confirming actual customer demand.",
+    "best": "Someone comfortable sourcing bulk food products affordably and willing to test small batches before scaling packaging investment.",
+    "truth": "Bulk repackaging and resale of food staples is a real, low-barrier micro-business model, and the 'test demand before over-investing' advice is sound, broadly applicable lean-startup guidance. No specific revenue example is given; margins depend on bulk sourcing costs relative to local retail prices.",
+    "url": "https://www.youtube.com/watch?v=mKFNXLik1ro"
   },
   {
     "id": "mini-cheesecakes-in-jars-business",
@@ -8177,25 +8399,6 @@
     ]
   },
   {
-    "id": "facebook-ai-photo-content-monetization",
-    "name": "Building a niche Facebook photo page monetized through Facebook's Content Monetization program",
-    "category": "Content & personal brand",
-    "tags": [
-      "Facebook monetization",
-      "AI image generation",
-      "niche content page",
-      "organic growth",
-      "content monetization program"
-    ],
-    "cost": "Very low (an AI image generation tool, free Facebook Page creation, optional basic photo editor)",
-    "found": "Passive Biz Lucca",
-    "what": "Pick one narrow, highly visual niche (cozy cabins, vintage cars, tiny homes), validate demand by checking for existing large Facebook pages in that niche, create a public Facebook Page around it, generate original AI images with a specific, detail-rich prompt (not generic), lightly edit each image to make it feel human-made, post one per day with a short caption ending in a question to drive comments, and apply to Facebook's Content Monetization program once the page hits roughly 5,000-10,000 followers with real engagement.",
-    "pitch": "The presenter reports over $14,000 in one month from Facebook content monetization (mostly PDF sales plus the photo program) and walks through the mechanic: Facebook now pays for original photos and text posts, not just video, but has cracked down hard on reposted or lightly-edited content since 2025, so the images must be genuinely original. He gives a specific 90-day, one-post-a-day plan with a weekly review step, and is upfront this is a slow-build strategy, not a fast-cash scheme.",
-    "best": "Someone willing to commit to a consistent 90-day daily-posting habit in one visual niche, comfortable writing detailed AI image prompts and doing basic photo-editing polish, patient with a slow initial ramp.",
-    "truth": "Facebook's content monetization program and its original-content enforcement rules are real and match public information from Facebook's creator resources, and the described mechanics are consistent with how the platform's recommendation system is known to work. The specific $14,000/month figure is self-reported and unverifiable, payout thresholds and eligibility vary by country and change over time (the video itself warns not to trust fixed numbers), and it ends by funneling viewers to a paid course for the full system.",
-    "url": "https://www.youtube.com/watch?v=2z7ORVBVLzw"
-  },
-  {
     "id": "shopify-store-cloning-ai-image-video-whitelabeler",
     "name": "Cloning a proven winning Shopify store's page and creative assets with AI tools, then drop shipping the product",
     "category": "E-commerce",
@@ -8307,6 +8510,44 @@
     "best": "Someone comfortable with basic vehicle inspection, minor bodywork/detailing, and in-person price negotiation, with enough capital to buy vehicles outright before reselling.",
     "truth": "Car flipping via underpriced Marketplace listings is a well-established, real side business, and the specific numbers shown are unusually transparent and internally consistent, lending credibility to this particular example. The described automated-alert app is a paid tool the presenter promotes, and results depend heavily on local market conditions, available capital, and genuine mechanical/negotiation skill that takes time to develop.",
     "url": "https://www.youtube.com/watch?v=dGzgEiWJ9hk"
+  },
+  {
+    "id": "competitor-funnel-tool-research-method",
+    "name": "Reverse-engineering competitors' online business strategy, customer funnel, and tech stack without copying their content",
+    "category": "Marketing & content",
+    "tags": [
+      "competitive research",
+      "customer funnel analysis",
+      "tool detection",
+      "solopreneur education",
+      "business strategy"
+    ],
+    "cost": "Free (using free tools like builtwith.com, viewing page source, and signing up for competitors' free offers/email lists/webinars)",
+    "found": "Cindy's Got Systems",
+    "what": "Identify at least three competitors already doing what you want to build, follow them everywhere they're active, sign up for their free lead magnets, webinars, and email lists, and pay attention to the overarching strategy (which platforms they use, whether they run ads or go organic, whether they use upsells) rather than copying specific content; use a screen recorder to document and narrate the full customer flow you experience, and use free tools like builtwith.com or a website's page source to identify a competitor's exact tech stack, so you can build your own comparable system without paying for expensive courses.",
+    "pitch": "The presenter, a former middle manager turned online-business educator, says she built her entire early business education this way because she had no money for courses or coaches, explicitly distinguishing this from content theft: she never copies competitors' sales copy, courses, or onboarding content directly, only the underlying strategic structure and tools.",
+    "best": "Someone starting an online coaching, course, or solopreneur education business with little to no budget for paid training, comfortable doing methodical, unglamorous research rather than following a packaged course.",
+    "truth": "This is a legitimate, ethical competitive-research methodology, distinct from and explicitly contrasted against copying another creator's actual material, and tools like builtwith.com and page-source inspection are real, free, publicly available research methods. No specific revenue outcome is claimed; it's a research process, not a guaranteed path to any particular income level.",
+    "url": "https://www.youtube.com/watch?v=6tV0Q9Ln1IY"
+  },
+  {
+    "id": "speak-shape-ship-ai-digital-product-workflow",
+    "name": "The 'speak it, shape it, ship it' AI workflow for creating ebooks, workshops, memberships, or courses from your existing knowledge",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "voice-to-text AI",
+      "Claude content creation",
+      "membership business",
+      "online course"
+    ],
+    "cost": "Very low (a voice-to-text tool like Whisper Flow, a Claude subscription; free tiers can work)",
+    "found": "Molly Keyser",
+    "what": "Use a repeatable three-step workflow to turn existing knowledge into a sellable digital product without writing or design skills: first 'speak it' by talking through everything you know about a problem into a voice-to-text tool, then 'shape it' by having Claude organize that raw brain-dump into a structured outline, then 'ship it' by having Claude design the actual deliverable; apply this same workflow across four product formats, an ebook, a one-time-recorded paid workshop replay, a recurring membership, or a full course, choosing the format based on how much monthly income you need and how many sales/members that requires.",
+    "pitch": "The presenter says she's sold digital products full-time since 2014 and now earns around $3,865/week using this exact method, walking through specific 'rent math' for each product type, and stresses that traffic (she uses YouTube, with a Claude project trained on her own brand voice) is the fifth, often-skipped ingredient that makes any of these products actually sell.",
+    "best": "Someone with existing knowledge or experience in a specific problem area, comfortable talking through what they know out loud rather than writing from a blank page, willing to also build a consistent traffic/content channel.",
+    "truth": "The core workflow (voice-dump raw knowledge, then use AI to structure and design the deliverable) is a genuinely useful, low-friction way to overcome the writing/design bottleneck, and the format-selection math is sound, practical planning. Her own $3,865/week figure is self-reported, and the video is sponsored in part by a store-building tool she promotes as an alternative, so that portion is an ad rather than neutral advice.",
+    "url": "https://www.youtube.com/watch?v=be6Co41PkxU"
   },
   {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
@@ -8929,6 +9170,25 @@
     "url": "https://www.youtube.com/watch?v=1VEMpRr9GnY"
   },
   {
+    "id": "review-mined-pdf-demand-research-content-funnel",
+    "name": "Mining competitor product reviews for unmet customer complaints to build and sell a PDF digital product",
+    "category": "Digital & subscription products",
+    "tags": [
+      "PDF digital products",
+      "market research",
+      "review mining",
+      "content-to-product funnel",
+      "AI-assisted writing"
+    ],
+    "cost": "Very low (an AI chat subscription, a digital product delivery platform, no ad spend required)",
+    "found": "Passive Biz Lucca",
+    "what": "Instead of asking an AI to invent PDF ideas, research existing paid products in a niche and read their customer reviews specifically for complaints and unmet requests, use those real complaints as the product spec, build the PDF with AI section-by-section around solving exactly those gaps, package it as an outcome/'system' rather than a bare PDF, then find already-successful content in the same niche and create similar content around the same specific problem that funnels viewers to the product, adding a small upsell at checkout to increase average order value.",
+    "pitch": "The presenter reports $34,626 in the last 30 days from this exact workflow, crediting Iman Gadzhi's 'find demand first' digital-product framework, and walks through the full math from views to clicks to conversions compounding toward the five-figure number across many pieces of content.",
+    "best": "Someone comfortable digging through reviews/complaints for market research and consistently producing niche-specific short-form content that funnels to a product.",
+    "truth": "Mining reviews for unmet customer needs is a genuinely sound, underused market-research technique that goes beyond generic AI brainstorming, and building content around an already-proven topic is solid organic-marketing logic. The specific $34,626 figure is self-reported, and the stated math is illustrative rather than guaranteed, requiring genuinely consistent content output to reach that scale.",
+    "url": "https://www.youtube.com/watch?v=mpJUKXcFhGE"
+  },
+  {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
     "name": "Digistore24 affiliate marketing funnel using a free \"nurture sequence\" instead of direct-linking",
     "category": "Marketing & content",
@@ -9426,25 +9686,6 @@
     "url": "https://www.youtube.com/watch?v=8NvhbfZNTrc"
   },
   {
-    "id": "upwork-ai-faked-competency-retainer-scaling",
-    "name": "Landing Upwork retainer clients in a skill you don't have, using AI to fake and then actually deliver the competency",
-    "category": "Local & professional services",
-    "tags": [
-      "Upwork freelancing",
-      "AI-assisted service delivery",
-      "retainer clients",
-      "niche tilting",
-      "cold application"
-    ],
-    "cost": "Very low (a ChatGPT/Claude subscription, an Upwork account, Loom for video pitches)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Apply to Upwork jobs in a skill you don't actually have (e.g. SEO) by slightly tilting away from the most saturated keyword phrasing, record a short (2-3 minute) unedited Loom video pitching how you'd approach the client's problem using an AI-built workflow, win the retainer, then actually deliver the work by learning the skill just-in-time with AI tools (Claude Code for automation build-out), and increase the retainer price once results are proven by expanding scope.",
-    "pitch": "The interview subject describes going from severe poverty to a $3,000/month Upwork retainer (later raised to $5,500/month with the same client) after just 7 job applications and zero prior SEO experience, using ChatGPT to build the actual automation and a confident, unedited Loom pitch video to win trust. She expanded into content creation, a paid community, sponsorships, and a self-built app as additional income layers once inbound interest picked up from her YouTube channel.",
-    "best": "Someone comfortable pitching themselves into work outside their existing skillset and willing to learn just-in-time with AI tools under real client pressure; helps to have some video-comfort for the Loom pitch step.",
-    "truth": "AI genuinely lowers the bar to producing passable client deliverables fast, and Upwork niche-tilting to reduce competition is a real, sound tactic. Most of this video is the subject's personal mindset framing and multiple loosely-connected income streams rather than a single step-by-step process, and her reported income figures and timeline are self-reported and not independently verified \u2014 treat this as one real example of the method rather than a guaranteed outcome.",
-    "url": "https://www.youtube.com/watch?v=lG5U30gKCaY"
-  },
-  {
     "id": "ai-prompt-driven-prospect-research-outreach",
     "name": "Using a detailed AI prompt to research verified local-business prospects and draft outreach for an AI-consulting first client",
     "category": "Local & professional services",
@@ -9549,6 +9790,25 @@
       "Strictly in-home",
       "E-commerce / fulfillment"
     ]
+  },
+  {
+    "id": "water-filtration-install-broker-facebook-leads",
+    "name": "Running a water filtration/softener installation business as a subcontractor broker, marketed via undereducated Meta lead-form ads",
+    "category": "Local & professional services",
+    "tags": [
+      "water filtration business",
+      "subcontractor model",
+      "Meta lead ads",
+      "home services",
+      "GoHighLevel CRM"
+    ],
+    "cost": "Very low (~$500 initial setup: a Claude-built website, GoHighLevel CRM/phone, Jobber scheduling, Google Workspace, plus ~$300/month tech stack and ~$180/month plumbing liability insurance)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Start a whole-house water filtration/softener installation business without being a licensed plumber yourself, by partnering with private licensed plumbers who handle the actual installs while you own the marketing, sales, scheduling, and customer relationship; build the tech stack cheaply (a Claude-built website, GoHighLevel for CRM/phone, Jobber for scheduling), price below established competitors, and run Meta ads with deliberately minimal educational content (geo-targeted, instant-form lead capture straight into the CRM) so that only already-educated, price-aware customers convert.",
+    "pitch": "The guest reports going from $0 to $81,000 in monthly revenue in 85 days after less than $500 of startup cost, launching this as his third home-service business, and credits spotting the opportunity from multiple unrelated creators independently mentioning water filtration as an underserved niche within a short window, plus an aggressive lead-follow-up system to convert Meta leads he was paying $30-40 each for.",
+    "best": "Someone comfortable running paid Meta ad campaigns, managing subcontractor relationships with licensed tradespeople, and doing persistent phone-based lead follow-up, without needing a trade license themselves.",
+    "truth": "The subcontractor-broker home-service model is a real, established structure used across multiple home-service niches, and the specific operational details given (cost per lead, closing rates, tech stack costs) are unusually granular and internally consistent. This is the presenter's third attempt at building a business this way, so his execution speed reflects accumulated experience, not something a true first-time beginner should expect to replicate immediately; his own figures are self-reported.",
+    "url": "https://www.youtube.com/watch?v=9U4MCbfL8MQ"
   },
   {
     "id": "youtube-teaching-to-course-funnel",
@@ -9679,28 +9939,6 @@
     ]
   },
   {
-    "id": "custom-sticker-label-business",
-    "name": "Custom sticker and label business for repeat small business orders",
-    "category": "Physical & print products",
-    "tags": [
-      "custom stickers",
-      "product labels",
-      "small business packaging",
-      "recurring orders"
-    ],
-    "cost": "Low startup cost (about $650-950 for a color printer and contour cutter)",
-    "found": "Business Dash",
-    "what": "Print and cut custom stickers and labels (logo stickers, packaging seals, bottle labels, QR labels) using a color inkjet printer and a contour cutter, focusing on small businesses that need new labels every time they produce another batch of product, rather than one-off novelty designs.",
-    "pitch": "A controlled setup (color inkjet printer, compact contour cutter, printable sticker paper or vinyl, laminate, ink, cutting tools) costs $650-950. The presenter stresses testing every material combination before claiming a sticker is waterproof, outdoor-safe, or dishwasher-safe, since print quality, ink, adhesive, and laminate all have to work together, and recommends starting with recurring business labels rather than hundreds of random illustrations.",
-    "best": "Someone willing to build relationships with small businesses (bakeries needing new packaging seals weekly, candle sellers needing scent labels, online stores needing parcel logos) for recurring reorder revenue.",
-    "truth": "The emphasis on recurring reorder revenue over one-off novelty sales is the right instinct here \u2014 stickers are a commodity product, so what makes this sustainable is being the default supplier a business reorders from every batch, not winning one-time sales.",
-    "url": "https://youtu.be/2uofabJSM7A",
-    "situation_tags": [
-      "Strictly in-home",
-      "Requires equipment/vehicle investment"
-    ]
-  },
-  {
     "id": "ai-dropshipping-store-buildyourstore-autods-tilbury",
     "name": "A live, budget-constrained test of an AI-built dropshipping store",
     "category": "E-commerce",
@@ -9736,6 +9974,24 @@
     "best": "Someone comfortable with physical detailing work and mobile/on-location service delivery, ideally near a marina or boating community.",
     "truth": "The recurring-revenue logic (boats are exposed to sun and salt and need regular upkeep) is sound, and the market-size and operator-composition figures are cited from third-party market data rather than the presenter's own claim, which adds some credibility. The individual job-value example ($5,000) represents a premium full-restoration job, not a typical basic detail, so real per-job economics for a beginner will likely start considerably lower.",
     "url": "https://www.youtube.com/watch?v=akllDPkT07I"
+  },
+  {
+    "id": "dough-sheeter-b2b-food-supply-business",
+    "name": "Supplying fresh dough sheets, pasta, or noodles to food businesses using a dough sheeter or pasta machine",
+    "category": "Physical & print products",
+    "tags": [
+      "small manufacturing",
+      "B2B food supply",
+      "pasta machine",
+      "$1000 startup machine"
+    ],
+    "cost": "Moderate for the list (average starter machine price around $500, plannable under $1,000 with basic tools)",
+    "found": "Business Dash",
+    "what": "Use a mini dough sheeter or pasta/noodle machine to produce consistent fresh pasta, noodles, dumpling wrappers, samosa sheets, or pastry sheets faster than manual rolling, then sell primarily to repeat B2B customers (dumpling sellers, bakeries, frozen snack producers, catering kitchens) who already use this product daily, rather than relying on slow one-pack-at-a-time retail sales.",
+    "pitch": "Presented as a strong option because dough-based foods exist in nearly every culture, with the key insight being that beginners undersell this machine by targeting retail customers instead of the food businesses that need this labor-saving product every day and will become repeat buyers.",
+    "best": "Someone comfortable approaching local food businesses directly to establish recurring wholesale supply relationships.",
+    "truth": "B2B dough/pasta supply to food businesses is a real, established practice in food-service supply chains, and the focus on repeat B2B buyers over one-time retail sales reflects sound unit-economics reasoning. No specific revenue example is given; food-safety regulations for wholesale food production will apply and vary by location.",
+    "url": "https://www.youtube.com/watch?v=mKFNXLik1ro"
   },
   {
     "id": "homemade-chocolate-tempering-business",
