@@ -970,6 +970,72 @@
     ]
   },
   {
+    "id": "pay-per-lead-agency-model",
+    "name": "Pay-per-lead agency (broker or self-run)",
+    "category": "Marketing & content",
+    "tags": [
+      "lead generation",
+      "paid ads",
+      "agency",
+      "recurring revenue"
+    ],
+    "cost": "Needs ongoing ad budget (or none, if brokering)",
+    "found": "Billy Robinson",
+    "what": "Instead of selling marketing services on a retainer, generate qualified leads through Meta ads and a qualifying quiz funnel in a single niche, like life insurance, business loans, or debt settlement, and sell each lead exclusively to a buyer who wants that kind of prospect, or broker leads between existing suppliers and buyers without touching ad spend yourself.",
+    "pitch": "Robinson argues this beats a traditional retainer agency on two fronts: leads are an easier sell than ongoing \"marketing services\" because virtually every business owner says yes to more leads, and there are two direct levers to grow profit, raising the price per lead or lowering the cost to generate it. He walks through ten specific verticals with rough sale prices and costs to generate (life insurance around $50 to $60 a lead, mortgage leads $100 to $120, legal leads up to $200 to $250), and recommends beginners start with the lower-risk broker model, sourcing leads from existing suppliers and reselling at a fixed markup, before eventually running their own ad campaigns.",
+    "best": "Someone with real comfort running or learning to run Meta ad campaigns, or, for the broker path, someone comfortable with B2B cold outreach and negotiating supplier relationships, since neither path is a passive income stream.",
+    "truth": "Robinson discloses upfront that he's teaching this as a free lead-in to his paid community, and the free version leaves out the detailed funnel templates, scripts, and full campaign structure that are gated behind the paid offer. The specific revenue figures (a $250K+/month agency, 30% average margins) come from his own screenshotted tracking sheet, a more concrete transparency signal than most claims in this space, but still self-reported and not independently audited.",
+    "url": "https://www.youtube.com/watch?v=oAREF2wSHUo",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "google-search-ads-pdf-products",
+    "name": "Google Search Ads for narrow, problem-specific PDF products",
+    "category": "Marketing & content",
+    "tags": [
+      "Google Ads",
+      "PDF",
+      "digital products",
+      "paid traffic"
+    ],
+    "cost": "Low to moderate startup cost (ad spend)",
+    "found": "Brandon Belcher",
+    "what": "Selling narrow, problem-specific PDF products, such as a guide for parents dealing with a specific sleep issue, by targeting people already typing that exact problem into Google, using Google Search Ads rather than social media ads.",
+    "pitch": "The presenter, with 17 years selling digital products, argues Google Search Ads target the most purchase-ready traffic possible, since someone typing a specific, painful search query at any hour is actively looking for a solution right now, unlike social media traffic which has to be interrupted mid-scroll. Recommends picking a highly specific long-tail keyword problem, using the Google Keyword Tool to confirm real search volume, and using AI to draft and self-rate multiple ad headline and description options before choosing the highest-rated ones.",
+    "best": "Someone comfortable identifying a narrow, specific, painful problem within a broad niche rather than a generic topic, and willing to actively manage a paid ad account rather than relying purely on organic traffic.",
+    "truth": "The specific example math given, 100 clicks a day, 5 sales at $30 each, is presented as an illustrative scenario rather than the presenter's own verified campaign data. The core strategic argument, that search-intent traffic converts differently than social interruption-based traffic, is a well-established digital marketing principle independent of the specific numbers used to illustrate it.",
+    "url": "https://www.youtube.com/watch?v=_z6r6p-Od80",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "faceless-social-growth-digital-product-funnel",
+    "name": "Faceless social media growth funneled into a digital product store",
+    "category": "Content & personal brand",
+    "tags": [
+      "faceless content",
+      "digital products",
+      "social media growth",
+      "content strategy",
+      "AI content tools"
+    ],
+    "cost": "Low startup cost (AI store-builder and content-coaching tool subscriptions; no upfront inventory)",
+    "found": "Baddie In Business",
+    "what": "Grow faceless social media accounts (Instagram, TikTok, Facebook) around a specific niche using a repeatable content system, then monetize the resulting audience primarily through a low-ticket digital product ($9-29 range) sold from a store built with an AI tool (Instastore.ai), alongside affiliate links and other offers.",
+    "pitch": "The presenter (Isabella, \"Baddie In Business\") says she built multiple faceless accounts across different niches to a combined 15 million followers and became a millionaire within two years, reportedly funneling over $10 million through a mix of external monetization (products, affiliate links) and internal platform monetization. She outlines five content rules (raw over polished, keyword-heavy captions, series-based content, combining short- and long-form, and a clear one-line \"hero statement\" of who you help), and demonstrates AI tools (Instastore.ai for the store, an AI coaching tool called Stanley IG) to speed up content planning and analysis.",
+    "best": "Someone comfortable being consistently active on social media without showing their face, who's willing to research and repurpose content in a specific niche and treat content creation as a repeatable system rather than a one-off creative project.",
+    "truth": "The core mechanic (build an audience faceless, sell a low-ticket digital product) is a real and increasingly common pattern, and the specific content-strategy advice is more concrete than most creator-growth content. That said, the \"$10 million\" and \"15 million followers\" figures are self-reported and describe results from operating multiple accounts across niches over time, not a single quick win, and the video promotes several of the presenter's own paid tools and a paid coaching community (Viral Wealth) alongside the free advice, which is worth knowing going in.",
+    "url": "https://youtu.be/nwyAK9PhDzo",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
     "id": "seo-affiliate-topical-authority-site",
     "name": "SEO-driven affiliate content site built on topical authority",
     "category": "Marketing & content",
@@ -1312,49 +1378,6 @@
     "situation_tags": [
       "Strictly in-home",
       "Phone/sales-based"
-    ]
-  },
-  {
-    "id": "pay-per-lead-agency-model",
-    "name": "Pay-per-lead agency (broker or self-run)",
-    "category": "Marketing & content",
-    "tags": [
-      "lead generation",
-      "paid ads",
-      "agency",
-      "recurring revenue"
-    ],
-    "cost": "Needs ongoing ad budget (or none, if brokering)",
-    "found": "Billy Robinson",
-    "what": "Instead of selling marketing services on a retainer, generate qualified leads through Meta ads and a qualifying quiz funnel in a single niche, like life insurance, business loans, or debt settlement, and sell each lead exclusively to a buyer who wants that kind of prospect, or broker leads between existing suppliers and buyers without touching ad spend yourself.",
-    "pitch": "Robinson argues this beats a traditional retainer agency on two fronts: leads are an easier sell than ongoing \"marketing services\" because virtually every business owner says yes to more leads, and there are two direct levers to grow profit, raising the price per lead or lowering the cost to generate it. He walks through ten specific verticals with rough sale prices and costs to generate (life insurance around $50 to $60 a lead, mortgage leads $100 to $120, legal leads up to $200 to $250), and recommends beginners start with the lower-risk broker model, sourcing leads from existing suppliers and reselling at a fixed markup, before eventually running their own ad campaigns.",
-    "best": "Someone with real comfort running or learning to run Meta ad campaigns, or, for the broker path, someone comfortable with B2B cold outreach and negotiating supplier relationships, since neither path is a passive income stream.",
-    "truth": "Robinson discloses upfront that he's teaching this as a free lead-in to his paid community, and the free version leaves out the detailed funnel templates, scripts, and full campaign structure that are gated behind the paid offer. The specific revenue figures (a $250K+/month agency, 30% average margins) come from his own screenshotted tracking sheet, a more concrete transparency signal than most claims in this space, but still self-reported and not independently audited.",
-    "url": "https://www.youtube.com/watch?v=oAREF2wSHUo",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ]
-  },
-  {
-    "id": "google-search-ads-pdf-products",
-    "name": "Google Search Ads for narrow, problem-specific PDF products",
-    "category": "Marketing & content",
-    "tags": [
-      "Google Ads",
-      "PDF",
-      "digital products",
-      "paid traffic"
-    ],
-    "cost": "Low to moderate startup cost (ad spend)",
-    "found": "Brandon Belcher",
-    "what": "Selling narrow, problem-specific PDF products, such as a guide for parents dealing with a specific sleep issue, by targeting people already typing that exact problem into Google, using Google Search Ads rather than social media ads.",
-    "pitch": "The presenter, with 17 years selling digital products, argues Google Search Ads target the most purchase-ready traffic possible, since someone typing a specific, painful search query at any hour is actively looking for a solution right now, unlike social media traffic which has to be interrupted mid-scroll. Recommends picking a highly specific long-tail keyword problem, using the Google Keyword Tool to confirm real search volume, and using AI to draft and self-rate multiple ad headline and description options before choosing the highest-rated ones.",
-    "best": "Someone comfortable identifying a narrow, specific, painful problem within a broad niche rather than a generic topic, and willing to actively manage a paid ad account rather than relying purely on organic traffic.",
-    "truth": "The specific example math given, 100 clicks a day, 5 sales at $30 each, is presented as an illustrative scenario rather than the presenter's own verified campaign data. The core strategic argument, that search-intent traffic converts differently than social interruption-based traffic, is a well-established digital marketing principle independent of the specific numbers used to illustrate it.",
-    "url": "https://www.youtube.com/watch?v=_z6r6p-Od80",
-    "situation_tags": [
-      "Strictly in-home"
     ]
   },
   {
@@ -2945,6 +2968,68 @@
     ]
   },
   {
+    "id": "pay-per-lead-agency-five-ones-roadmap",
+    "name": "Pay-per-lead agency built around a single niche, offer, and traffic source",
+    "category": "Local & professional services",
+    "tags": [
+      "lead generation",
+      "consulting",
+      "Facebook ads",
+      "recurring revenue"
+    ],
+    "cost": "Needs ad budget (scales with lead volume)",
+    "found": "Billy Robinson",
+    "what": "Build a pay-per-lead agency that generates qualified leads (or calls, or booked appointments) for businesses in a single niche and sells them for a per-lead price, using one paid-traffic channel, the presenter's is Facebook ads, as the acquisition engine. The presenter frames a 'rule of five ones' as the operating discipline: one target market, one product or offer, one conversion tool, one traffic source, all aimed at reaching $1 million a year before adding any complexity.",
+    "pitch": "The presenter says he built his own agency to $350,000 a month using this exact discipline, after wasting real time and money (he cites tens of thousands of dollars) trying to run multiple lead types and a second channel (cold email) at once early on. The core argument: picking one narrow lane and mastering it produces better unit economics, working backward from a revenue target to cost-per-lead, cost-per-client, and ad spend, than spreading across many offers or channels.",
+    "best": "Someone comfortable picking one specific niche and one paid-traffic channel and sticking with it through the slow, unglamorous work of landing a first client, then a second, then scaling only what already works rather than chasing new ideas.",
+    "truth": "The presenter shows a real screenshot of his own agency's monthly numbers as evidence and names specific member results from his paid 'Pay-Per-Lead Nation Pro' community, though these are self-reported wins from his own paying community, not independently audited. The video functions as a funnel into that paid community. The core operating framework itself (pick one niche, offer, channel, and traffic source, validate with a first client, then scale what works) is explained in enough real depth to be useful independent of the community pitch.",
+    "url": "https://www.youtube.com/watch?v=83ldaKrJGZg",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "low-ticket-pdf-trend-research-solo-ads",
+    "name": "Low-ticket PDF selling using trend research and solo ads",
+    "category": "Marketing & content",
+    "tags": [
+      "PDF",
+      "digital products",
+      "solo ads",
+      "trend research"
+    ],
+    "cost": "Low startup cost",
+    "found": "Brandon Belcher",
+    "what": "Selling low-ticket PDF products, $7-47, by researching in-demand topics through Google autocomplete, Google Trends, and Pinterest Trends, then driving traffic through a mix of small-budget social ads, solo ads, and a niche-focused Instagram content account.",
+    "pitch": "The presenter argues most beginners over-focus on high-ticket courses, when consistent daily low-ticket sales compound faster and require less trust to close. Recommends choosing health, wealth, or relationship niches specifically, using Google's autocomplete suggestions and Google and Pinterest Trends to find exactly what people are already searching for, then testing traffic through inexpensive social ads, solo ads, a flat fee to have an established list-owner in the same niche email their list on your behalf, or a niche Instagram account posting consistent content until the algorithm picks it up organically. Recommends pricing between $7 and $47 and testing a single PDF for about two weeks before concluding it isn't working.",
+    "best": "Someone comfortable running frequent, low-cost tests across multiple traffic sources rather than betting everything on one channel, and willing to manage ad spend directly on an ongoing basis.",
+    "truth": "The presenter's self-reported $741,000 total is shown via an on-screen dashboard screenshot, not independently verified. He mentions a service selling pre-made, done-for-you PDF products with sales pages already built as an option for those who don't want to create their own PDF, similar to the private-label-rights model mentioned elsewhere in this database, a legitimate but not fully original-content path. The presenter also promotes a paid PDF-generation tool throughout the video.",
+    "url": "https://www.youtube.com/watch?v=6Ter9q3NsfE",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "claude-autods-niche-dropship-store-baddie",
+    "name": "Launching an AI-built dropshipping store with Claude connected to AutoDS as a virtual employee",
+    "category": "E-commerce",
+    "tags": [
+      "dropshipping",
+      "AutoDS",
+      "Claude integration",
+      "Shopify store builder",
+      "AI product research"
+    ],
+    "cost": "Very low (a promotional Shopify trial, free AI store-builder tool, AutoDS account)",
+    "found": "Baddie In Business",
+    "what": "Use a free AI store-builder to instantly launch a Shopify store, source products via AutoDS (product research, competitor data, automated fulfillment), then connect Claude to AutoDS so it can research products, compare opportunities, and help run day-to-day store decisions conversationally.",
+    "pitch": "Presented as one of three Claude-powered side hustles capable of reaching $500/day, emphasizing zero inventory or shipping since AutoDS's suppliers fulfill orders directly and Claude acts as a research/decision-support 'employee' inside the business.",
+    "best": "Someone comfortable connecting multiple SaaS tools and managing an online store, willing to learn cold-start dropshipping basics.",
+    "truth": "The described mechanics (AI store builder plus AutoDS drop-shipping fulfillment plus Claude as a research layer) are real and match a pattern seen from other producers around the same time, so treat it as a variant of an increasingly common AI-dropshipping approach rather than a novel method. No independent revenue example is given for this producer's own results, and the video funnels to the presenter's own free lead-magnet course.",
+    "url": "https://www.youtube.com/watch?v=EAwgAFCd-Cg"
+  },
+  {
     "id": "claude-interactive-quiz-lead-magnet-influencers",
     "name": "Building interactive diagnostic quizzes to replace influencers' and coaches' static PDF lead magnets",
     "category": "Marketing & content",
@@ -3731,49 +3816,6 @@
     ]
   },
   {
-    "id": "pay-per-lead-agency-five-ones-roadmap",
-    "name": "Pay-per-lead agency built around a single niche, offer, and traffic source",
-    "category": "Local & professional services",
-    "tags": [
-      "lead generation",
-      "consulting",
-      "Facebook ads",
-      "recurring revenue"
-    ],
-    "cost": "Needs ad budget (scales with lead volume)",
-    "found": "Billy Robinson",
-    "what": "Build a pay-per-lead agency that generates qualified leads (or calls, or booked appointments) for businesses in a single niche and sells them for a per-lead price, using one paid-traffic channel, the presenter's is Facebook ads, as the acquisition engine. The presenter frames a 'rule of five ones' as the operating discipline: one target market, one product or offer, one conversion tool, one traffic source, all aimed at reaching $1 million a year before adding any complexity.",
-    "pitch": "The presenter says he built his own agency to $350,000 a month using this exact discipline, after wasting real time and money (he cites tens of thousands of dollars) trying to run multiple lead types and a second channel (cold email) at once early on. The core argument: picking one narrow lane and mastering it produces better unit economics, working backward from a revenue target to cost-per-lead, cost-per-client, and ad spend, than spreading across many offers or channels.",
-    "best": "Someone comfortable picking one specific niche and one paid-traffic channel and sticking with it through the slow, unglamorous work of landing a first client, then a second, then scaling only what already works rather than chasing new ideas.",
-    "truth": "The presenter shows a real screenshot of his own agency's monthly numbers as evidence and names specific member results from his paid 'Pay-Per-Lead Nation Pro' community, though these are self-reported wins from his own paying community, not independently audited. The video functions as a funnel into that paid community. The core operating framework itself (pick one niche, offer, channel, and traffic source, validate with a first client, then scale what works) is explained in enough real depth to be useful independent of the community pitch.",
-    "url": "https://www.youtube.com/watch?v=83ldaKrJGZg",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ]
-  },
-  {
-    "id": "low-ticket-pdf-trend-research-solo-ads",
-    "name": "Low-ticket PDF selling using trend research and solo ads",
-    "category": "Marketing & content",
-    "tags": [
-      "PDF",
-      "digital products",
-      "solo ads",
-      "trend research"
-    ],
-    "cost": "Low startup cost",
-    "found": "Brandon Belcher",
-    "what": "Selling low-ticket PDF products, $7-47, by researching in-demand topics through Google autocomplete, Google Trends, and Pinterest Trends, then driving traffic through a mix of small-budget social ads, solo ads, and a niche-focused Instagram content account.",
-    "pitch": "The presenter argues most beginners over-focus on high-ticket courses, when consistent daily low-ticket sales compound faster and require less trust to close. Recommends choosing health, wealth, or relationship niches specifically, using Google's autocomplete suggestions and Google and Pinterest Trends to find exactly what people are already searching for, then testing traffic through inexpensive social ads, solo ads, a flat fee to have an established list-owner in the same niche email their list on your behalf, or a niche Instagram account posting consistent content until the algorithm picks it up organically. Recommends pricing between $7 and $47 and testing a single PDF for about two weeks before concluding it isn't working.",
-    "best": "Someone comfortable running frequent, low-cost tests across multiple traffic sources rather than betting everything on one channel, and willing to manage ad spend directly on an ongoing basis.",
-    "truth": "The presenter's self-reported $741,000 total is shown via an on-screen dashboard screenshot, not independently verified. He mentions a service selling pre-made, done-for-you PDF products with sales pages already built as an option for those who don't want to create their own PDF, similar to the private-label-rights model mentioned elsewhere in this database, a legitimate but not fully original-content path. The presenter also promotes a paid PDF-generation tool throughout the video.",
-    "url": "https://www.youtube.com/watch?v=6Ter9q3NsfE",
-    "situation_tags": [
-      "Strictly in-home"
-    ]
-  },
-  {
     "id": "ai-voice-agents-chris-koerner",
     "name": "AI voice agents for small local businesses",
     "category": "Local & professional services",
@@ -4452,6 +4494,69 @@
       "Phone/sales-based",
       "Requires hiring or managing others"
     ]
+  },
+  {
+    "id": "pay-per-lead-facebook-ads-live-campaign-diary",
+    "name": "Live Facebook-ads campaign diary for launching a pay-per-lead niche",
+    "category": "Local & professional services",
+    "tags": [
+      "lead generation",
+      "Facebook ads",
+      "AI tools",
+      "phone/sales-based"
+    ],
+    "cost": "Needs ad budget",
+    "found": "Billy Robinson",
+    "what": "A real-time, week-one walkthrough of launching a Facebook lead-generation ad campaign in a brand new niche (life insurance leads in Australia) for a pay-per-lead agency: reviewing ad-account data after $635 in spend, identifying which ad formats and hooks converted (image ads outperformed video ads; specific text hooks and images won), pausing underperformers, and using an AI ad-creative tool (Poppy) to generate new variations of the winning ads along with matching ad copy.",
+    "pitch": "The presenter walks through his actual decision-making process on real data: waiting for enough days of data before making changes, comparing cost-per-lead across ad sets, and iterating both by tweaking what's already working and by testing a completely new ad style (text-overlay lifestyle images) in parallel, aiming to bring cost-per-lead down toward the low $20s.",
+    "best": "Someone who already has, or is building (per the presenter's companion roadmap video also in this database), a pay-per-lead agency and wants a concrete look at the actual week-to-week media-buying and optimization process rather than just the high-level strategy.",
+    "truth": "This is one of the more transparent, blow-by-blow entries in this database, real ad-account numbers, real failures shown alongside wins (the video ads flopped, one image ad had too high a cost-per-lead and got paused), and the presenter is candid that a failed early test is a normal, expected part of media buying, not something to be discouraged by. The video still promotes the presenter's own paid community and ad-prompt templates, and this is a single week's data from a single niche and market, not a guaranteed repeatable result elsewhere.",
+    "url": "https://www.youtube.com/watch?v=2DzJD7PQlVk",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "faceless-instagram-content-page-digital-products-affiliate",
+    "name": "Faceless Instagram content page monetized with digital products and affiliate links",
+    "category": "Content & personal brand",
+    "tags": [
+      "Instagram",
+      "content creation",
+      "AI tools",
+      "digital products",
+      "affiliate marketing",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost (faceless.page subscription)",
+    "found": "Brandon Belcher",
+    "what": "Build a niche-focused Instagram content page, quotes, reels, viral content, without ever showing your face, using an AI content-automation tool (faceless.page) to generate weeks of content in minutes. Monetize the page's traffic either by selling a low-cost digital product (the presenter's example: a $27 PDF guide) linked in the bio, or through affiliate marketing (linking to a paid tool or service and earning a commission, such as a Shopify affiliate link on an e-commerce-focused page).",
+    "pitch": "The presenter says he personally grew a faceless account (PLR Hustle) to 170,000 followers and over $1 million in revenue before ever revealing his face, and cites a named second example (Millionaire Mentor, run by a founder named Jason) reportedly making $1 million a month anonymously. He walks through the underlying math: at a 5-10% follower-to-buyer conversion rate on a $27 product, roughly 100-200 new followers a day is enough to hit $270 a day in sales.",
+    "best": "Someone who's shy or camera-averse but comfortable consistently posting content, or automating it, and picking one specific niche and target avatar to speak to.",
+    "truth": "The presenter is promoting his own tool of choice (faceless.page) throughout, and it's reasonable to assume some financial relationship with that platform, though he's transparent that he used to do the same process manually with ChatGPT and Canva before switching. The $1 million and $1 million-a-month figures are both self-reported, his own account and a secondhand account of another creator's, not independently documented, and the 5-10% buyer-conversion-rate math presented as achievable is on the high end for cold social-media traffic, worth treating as an optimistic case rather than a typical outcome.",
+    "url": "https://www.youtube.com/watch?v=VFhS15I3uMM",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
+    "id": "claude-canva-ebook-digital-product",
+    "name": "Writing and selling an ebook digital product using Claude for content and Canva for design",
+    "category": "Digital & subscription products",
+    "tags": [
+      "ebook creation",
+      "Claude writing",
+      "Canva templates",
+      "digital product"
+    ],
+    "cost": "Very low (a Claude subscription and a free Canva account)",
+    "found": "Baddie In Business",
+    "what": "Ask Claude for trending ebook topic ideas within a niche you know something about, have it write the full ebook content, then copy the text into a free Canva ebook template to format and design it, producing a sellable digital product with minimal writing time.",
+    "pitch": "Presented as a low-cost, low-effort way to enter the digital products space, framed as a growing category over the next 5-10 years, with the presenter offering a free course covering distribution/selling specifics not shown in this video.",
+    "best": "Someone with a topic they know enough about to add personalized value on top of AI-generated content, comfortable with basic Canva design work.",
+    "truth": "AI-assisted ebook creation paired with a design template is a well-established, low-barrier method, and this specific video only covers the content-creation portion, not selling or distribution, which the presenter says is covered in a separate free course.",
+    "url": "https://www.youtube.com/watch?v=EAwgAFCd-Cg"
   },
   {
     "id": "tiktok-viral-amazon-affiliate-content",
@@ -5701,29 +5806,6 @@
     "situation_tags": [
       "Phone/sales-based",
       "E-commerce / fulfillment"
-    ]
-  },
-  {
-    "id": "faceless-social-growth-digital-product-funnel",
-    "name": "Faceless social media growth funneled into a digital product store",
-    "category": "Content & personal brand",
-    "tags": [
-      "faceless content",
-      "digital products",
-      "social media growth",
-      "content strategy",
-      "AI content tools"
-    ],
-    "cost": "Low startup cost (AI store-builder and content-coaching tool subscriptions; no upfront inventory)",
-    "found": "Baddie In Business",
-    "what": "Grow faceless social media accounts (Instagram, TikTok, Facebook) around a specific niche using a repeatable content system, then monetize the resulting audience primarily through a low-ticket digital product ($9-29 range) sold from a store built with an AI tool (Instastore.ai), alongside affiliate links and other offers.",
-    "pitch": "The presenter (Isabella, \"Baddie In Business\") says she built multiple faceless accounts across different niches to a combined 15 million followers and became a millionaire within two years, reportedly funneling over $10 million through a mix of external monetization (products, affiliate links) and internal platform monetization. She outlines five content rules (raw over polished, keyword-heavy captions, series-based content, combining short- and long-form, and a clear one-line \"hero statement\" of who you help), and demonstrates AI tools (Instastore.ai for the store, an AI coaching tool called Stanley IG) to speed up content planning and analysis.",
-    "best": "Someone comfortable being consistently active on social media without showing their face, who's willing to research and repurpose content in a specific niche and treat content creation as a repeatable system rather than a one-off creative project.",
-    "truth": "The core mechanic (build an audience faceless, sell a low-ticket digital product) is a real and increasingly common pattern, and the specific content-strategy advice is more concrete than most creator-growth content. That said, the \"$10 million\" and \"15 million followers\" figures are self-reported and describe results from operating multiple accounts across niches over time, not a single quick win, and the video promotes several of the presenter's own paid tools and a paid coaching community (Viral Wealth) alongside the free advice, which is worth knowing going in.",
-    "url": "https://youtu.be/nwyAK9PhDzo",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
     ]
   },
   {
@@ -8133,6 +8215,63 @@
     "url": "https://www.youtube.com/watch?v=pvzVvkZUmbQ"
   },
   {
+    "id": "ai-print-on-demand-gap-finder-wholesaleted",
+    "name": "Print-on-demand Etsy store built by finding under-served niche gaps and automating design with AI image and Canva tools",
+    "category": "E-commerce",
+    "tags": [
+      "print on demand",
+      "Etsy shop",
+      "AI image generation",
+      "niche gap research",
+      "Claude Code automation"
+    ],
+    "cost": "Low (an AI image-generation subscription, Canva Pro, a Printify account, an AI chatbot subscription)",
+    "found": "Wholesale Ted",
+    "what": "Pick a print-on-demand niche where you have personal insider knowledge, use an AI chatbot to research underserved sub-niches ('gaps in the market') and brainstorm product slogans, generate designs with an AI image tool, clean them up in Canva (background removal, upscaling to print resolution), list on Printify-connected Etsy, and use Claude to optimize listing SEO for Etsy's search algorithm; optionally hand the whole repeatable workflow to an AI coding agent like Claude Code to run semi-automatically.",
+    "pitch": "The presenter reports building a one-person AI business earning over $1,000/day and got her first two Etsy sales within two weeks of launch, crediting success to filling a genuine market gap rather than copying already-successful listings, using her own personal expertise in the niche to judge which AI-generated designs would actually sell.",
+    "best": "Someone with genuine personal knowledge of an underserved niche, comfortable using multiple AI tools in sequence and willing to do manual quality judgment on AI-generated designs.",
+    "truth": "Print-on-demand via Printify with AI-generated designs is an established, low-barrier e-commerce model, and the 'gap in the market' positioning strategy is sound competitive advice. The presenter's own $1,000+/day figure is self-reported and comes from a business built over time, not from this specific example alone, and the video promotes her own free ebook as a lead magnet.",
+    "url": "https://www.youtube.com/watch?v=P-ULbNbV5IQ"
+  },
+  {
+    "id": "dropshipping-winning-mechanism-product-research",
+    "name": "Finding 'winning mechanism' dropshipping products via CalData, Google Trends, and Amazon cross-verification",
+    "category": "E-commerce",
+    "tags": [
+      "dropshipping",
+      "product research",
+      "TikTok Shop trends",
+      "Google Trends validation",
+      "Facebook ads"
+    ],
+    "cost": "Low to moderate (a product-research tool subscription, ad spend for testing, a store-builder tool plus Claude for the storefront)",
+    "found": "Sharif Mohsin",
+    "what": "Instead of chasing viral trending products, look for 'winning mechanisms', a new, differentiated solution to an already-proven problem, sourced from a TikTok Shop product/ad database like CalData, then cross-verify real demand for that specific angle using Google Trends search volume and Amazon listing signals (high recent unit-sold volume relative to a low review count, indicating a newly-trending listing), before building a store and running Facebook ads to the validated product.",
+    "pitch": "The presenter says he's scaled multiple stores to $1,000+/day using this method over 5 years, with historical results shown and two live example products validated start to finish, breaking down that $1K/day is roughly 25 sales/day of a $40 product at 20-30% margin.",
+    "best": "Someone comfortable running and iterating on paid Facebook ad campaigns and willing to pay for a product-research tool subscription, with capital available to test multiple products before finding a winner.",
+    "truth": "The core validation method (cross-checking a trending product's demand across TikTok Shop data, Google Trends, and Amazon's unit-sold-vs-review-count signal) is a genuinely sound, specific research technique beyond just copying whatever's currently viral. The presenter's own results are self-reported screenshots, and the video promotes his own free lead-magnet course for the full build-out details.",
+    "url": "https://www.youtube.com/watch?v=27H-o-shY-I"
+  },
+  {
+    "id": "google-review-ai-reputation-management-agency",
+    "name": "Selling an AI-automated Google review request and reply system to local businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "reputation management",
+      "Google Business Profile",
+      "AI review responses",
+      "GoHighLevel",
+      "local SEO"
+    ],
+    "cost": "Low (a GoHighLevel subscription, with a 30-day free trial referenced)",
+    "found": "Jarid Orgeron",
+    "what": "Set up a GoHighLevel-based system that connects to a client's Google Business Profile to automatically request reviews after a sale, send drip-paced review requests to avoid unnatural review velocity, and have an AI agent auto-reply to incoming reviews using a configured brand voice, with guardrails against risky language and holding sensitive/negative reviews for human review; sell this on the value proposition of winning the click in local search results, not just ranking higher.",
+    "pitch": "The presenter, an online seller since 2003 and AI-agency operator since 2023, argues most agency pitches aren't things business owners wake up wanting, but nearly every business owner wants more five-star reviews, and demonstrates the full AI-agent setup live, positioning it as a $500/day business without needing cold calling to get started.",
+    "best": "Someone comfortable setting up and configuring a SaaS automation platform for clients and explaining the local-search value proposition to local business owners.",
+    "truth": "The core insight, that review count and velocity affect click-through and local ranking, is grounded in real local-SEO understanding, and the guardrails described for AI-generated review replies reflect real operational risk awareness. The presenter's own $500/day claim is not demonstrated with verified results in this video, and it promotes his own paid-adjacent free community and software affiliate link.",
+    "url": "https://www.youtube.com/watch?v=5oyFcKMFCPQ"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -8734,51 +8873,6 @@
     "url": "https://www.youtube.com/watch?v=GL1J5PPQJ64"
   },
   {
-    "id": "pay-per-lead-facebook-ads-live-campaign-diary",
-    "name": "Live Facebook-ads campaign diary for launching a pay-per-lead niche",
-    "category": "Local & professional services",
-    "tags": [
-      "lead generation",
-      "Facebook ads",
-      "AI tools",
-      "phone/sales-based"
-    ],
-    "cost": "Needs ad budget",
-    "found": "Billy Robinson",
-    "what": "A real-time, week-one walkthrough of launching a Facebook lead-generation ad campaign in a brand new niche (life insurance leads in Australia) for a pay-per-lead agency: reviewing ad-account data after $635 in spend, identifying which ad formats and hooks converted (image ads outperformed video ads; specific text hooks and images won), pausing underperformers, and using an AI ad-creative tool (Poppy) to generate new variations of the winning ads along with matching ad copy.",
-    "pitch": "The presenter walks through his actual decision-making process on real data: waiting for enough days of data before making changes, comparing cost-per-lead across ad sets, and iterating both by tweaking what's already working and by testing a completely new ad style (text-overlay lifestyle images) in parallel, aiming to bring cost-per-lead down toward the low $20s.",
-    "best": "Someone who already has, or is building (per the presenter's companion roadmap video also in this database), a pay-per-lead agency and wants a concrete look at the actual week-to-week media-buying and optimization process rather than just the high-level strategy.",
-    "truth": "This is one of the more transparent, blow-by-blow entries in this database, real ad-account numbers, real failures shown alongside wins (the video ads flopped, one image ad had too high a cost-per-lead and got paused), and the presenter is candid that a failed early test is a normal, expected part of media buying, not something to be discouraged by. The video still promotes the presenter's own paid community and ad-prompt templates, and this is a single week's data from a single niche and market, not a guaranteed repeatable result elsewhere.",
-    "url": "https://www.youtube.com/watch?v=2DzJD7PQlVk",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ]
-  },
-  {
-    "id": "faceless-instagram-content-page-digital-products-affiliate",
-    "name": "Faceless Instagram content page monetized with digital products and affiliate links",
-    "category": "Content & personal brand",
-    "tags": [
-      "Instagram",
-      "content creation",
-      "AI tools",
-      "digital products",
-      "affiliate marketing",
-      "beginner friendly"
-    ],
-    "cost": "Very low startup cost (faceless.page subscription)",
-    "found": "Brandon Belcher",
-    "what": "Build a niche-focused Instagram content page, quotes, reels, viral content, without ever showing your face, using an AI content-automation tool (faceless.page) to generate weeks of content in minutes. Monetize the page's traffic either by selling a low-cost digital product (the presenter's example: a $27 PDF guide) linked in the bio, or through affiliate marketing (linking to a paid tool or service and earning a commission, such as a Shopify affiliate link on an e-commerce-focused page).",
-    "pitch": "The presenter says he personally grew a faceless account (PLR Hustle) to 170,000 followers and over $1 million in revenue before ever revealing his face, and cites a named second example (Millionaire Mentor, run by a founder named Jason) reportedly making $1 million a month anonymously. He walks through the underlying math: at a 5-10% follower-to-buyer conversion rate on a $27 product, roughly 100-200 new followers a day is enough to hit $270 a day in sales.",
-    "best": "Someone who's shy or camera-averse but comfortable consistently posting content, or automating it, and picking one specific niche and target avatar to speak to.",
-    "truth": "The presenter is promoting his own tool of choice (faceless.page) throughout, and it's reasonable to assume some financial relationship with that platform, though he's transparent that he used to do the same process manually with ChatGPT and Canva before switching. The $1 million and $1 million-a-month figures are both self-reported, his own account and a secondhand account of another creator's, not independently documented, and the 5-10% buyer-conversion-rate math presented as achievable is on the high end for cold social-media traffic, worth treating as an optimistic case rather than a typical outcome.",
-    "url": "https://www.youtube.com/watch?v=VFhS15I3uMM",
-    "situation_tags": [
-      "Strictly in-home"
-    ]
-  },
-  {
     "id": "paid-ai-business-audits-chris-koerner",
     "name": "Paid AI business audits for people in your existing network",
     "category": "Local & professional services",
@@ -9062,6 +9156,61 @@
     "best": "Someone comfortable making cold calls and running structured sales conversations, willing to build relationships with freelance developers rather than build the automations personally.",
     "truth": "The underlying model (broker AI automation deals for high-ticket local trades, delegate the technical build) is a real, sound structure that several agency operators use, and the sales framework itself (quantifying pain points in dollar terms before pitching) is standard high-ticket consultative selling, not AI-specific. Specific income figures (his own $48K/month and student results) are self-reported and unverified, and the video ends by pitching his own paid one-on-one mentorship program.",
     "url": "https://www.youtube.com/watch?v=ZZpBv7xeYWk"
+  },
+  {
+    "id": "pay-per-lead-media-company-model",
+    "name": "Pivoting from a retainer marketing agency to a pay-per-lead media company that owns and sells its own leads",
+    "category": "Marketing & content",
+    "tags": [
+      "pay-per-lead business",
+      "lead generation",
+      "Facebook ads",
+      "media company model",
+      "agency pivot"
+    ],
+    "cost": "Moderate (you front the Facebook ad spend for your own consumer-facing funnel rather than a client)",
+    "found": "Billy Robinson",
+    "what": "Instead of charging clients a flat monthly retainer to run their marketing, pick one industry niche (mortgages, insurance, solar, legal, home services), build your own consumer-facing brand and funnel, run ads to generate inbound leads under your own name, then sell those leads to businesses in that niche at a fixed price per lead, getting paid upfront; build a lead-distribution system to handle multiple buyers before scaling to a second traffic source or niche.",
+    "pitch": "The presenter says he scaled from an $80K/month traditional 10-staff retainer agency to a $250K/month pay-per-lead operation by flipping the model with one mortgage-broker client, offering to run the ads himself and sell back leads at a fixed price, profiting from efficiency gains rather than being capped by billable hours. He is candid about a real bad month where cost-per-lead spiked and margin dropped from 35% to 20.5%.",
+    "best": "Someone with existing paid-ads experience (or willing to learn Meta ads specifically) and enough capital to front ad spend before getting paid, comfortable building and owning a brand rather than working under client brands.",
+    "truth": "The pay-per-lead / media-company pivot is a real, established business model distinct from standard retainer agencies, and the presenter's account of margin compression during a bad month is a realistic illustration of the model's real risk. His own revenue figures are self-reported, and the video ends by promoting his own paid community and lead-distribution software.",
+    "url": "https://www.youtube.com/watch?v=NStq42nosUk"
+  },
+  {
+    "id": "pdf-problem-solving-four-asset-sales-funnel",
+    "name": "Selling pain-point-specific PDFs through a four-asset sales funnel with a thank-you-page upsell",
+    "category": "Digital & subscription products",
+    "tags": [
+      "PDF digital products",
+      "sales page funnel",
+      "one-time-offer upsell",
+      "problem-solving offers"
+    ],
+    "cost": "Very low (cost of building or buying four assets: a sales mock-up image, sales page, thank-you page, and the PDF itself)",
+    "found": "Brandon Belcher",
+    "what": "Build a $17 PDF that solves one narrow, specific, emotionally-felt pain point, then sell it through four assets: a scroll-stopping sales mock-up image, a dedicated sales page built entirely around that one PDF, a thank-you page shown only once after purchase offering a higher-ticket upsell ($97+) framed as a one-time-only offer, and the polished PDF itself.",
+    "pitch": "The presenter says he's used this exact four-asset system since 2010 and walks through two live example sales pages, explaining that zeroing in on a specific, widely-felt pain point combined with a dedicated sales page removes the need to personally sell anything once traffic is driven to it.",
+    "best": "Someone comfortable identifying a narrow, specific pain point within a niche and building or commissioning simple sales assets; no coding or advanced design skill required if buying pre-made asset templates.",
+    "truth": "The core mechanics (single-offer sales pages outperforming generic stores, and thank-you-page one-time upsells using FOMO) are established, real direct-response marketing tactics. His specific revenue projections are illustrative math based on assumed conversion rates, not verified results, and the video promotes his own paid 'PDF Vault' of pre-made assets across niches.",
+    "url": "https://www.youtube.com/watch?v=5JVDID-4JUM"
+  },
+  {
+    "id": "faceless-youtube-ai-generated-content-baddie",
+    "name": "Running a faceless YouTube channel with AI-generated scripts, voiceovers, and stock footage",
+    "category": "Content & personal brand",
+    "tags": [
+      "faceless YouTube",
+      "AI voiceover",
+      "AI script generation",
+      "ad revenue"
+    ],
+    "cost": "Very low (stock footage access and an AI script/voiceover tool)",
+    "found": "Baddie In Business",
+    "what": "Build a YouTube channel using stock footage clips paired with an AI-generated voiceover and script (list-style or narration videos), without appearing on camera, monetized through YouTube ad revenue as the channel grows.",
+    "pitch": "Presenter cites the channel 'Top Fives' as reportedly earning about $400,000/year per Social Blade estimates from simple narrated list videos, framing faceless AI content as increasingly accessible now that AI can help generate scripts and video elements.",
+    "best": "Someone comfortable picking a content niche and consistently producing videos, without needing on-camera presence or original filming.",
+    "truth": "Faceless AI-narrated YouTube channels are a well-established content category with real monetization potential, though success depends heavily on consistent output and finding an underserved sub-niche. The $400K figure is a third-party estimate for one specific channel, not a typical outcome, and this video doesn't walk through the actual video-creation tools in detail.",
+    "url": "https://www.youtube.com/watch?v=EAwgAFCd-Cg"
   },
   {
     "id": "faceless-affiliate-marketing-overview",
