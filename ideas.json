@@ -110,6 +110,28 @@
     ]
   },
   {
+    "id": "depop-closet-reselling",
+    "name": "Depop closet reselling business",
+    "category": "E-commerce",
+    "tags": [
+      "Depop",
+      "clothing resale",
+      "closet cleanout",
+      "secondhand fashion"
+    ],
+    "cost": "Very low startup cost (uses items already owned; a phone for photos)",
+    "found": "Diamond Chanel",
+    "what": "Sell your own used clothing and accessories (or sourced secondhand items) on Depop by photographing them, listing them in a personal storefront, and using periodic storewide discounts to move older inventory.",
+    "pitch": "The presenter sold $1,000 on Depop in one week, describing a simple process: take clean photos, list items, and run periodic discounts (she runs 35% off storewide) to clear stale inventory. She also resells cheap bulk-find accessories (70 bags bought for about $10 total, listed individually for around $5 each) alongside her own closet items.",
+    "best": "Someone with a closet of clothes they no longer wear, or access to cheap secondhand/bulk items, who's comfortable with basic product photography and customer shipping.",
+    "truth": "This is a genuinely low-barrier way to turn existing possessions into cash, and the mechanics (photograph, list, discount stale stock) are straightforward. Income will scale with how much inventory you have and how much time you put into sourcing and listing, so it's more of a supplemental income stream than a scalable primary business without significant sourcing effort.",
+    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
+    "situation_tags": [
+      "Strictly in-home",
+      "Needs inventory storage"
+    ]
+  },
+  {
     "id": "ai-clipping",
     "name": "AI clipping for creators",
     "category": "Marketing & content",
@@ -242,28 +264,6 @@
     ]
   },
   {
-    "id": "depop-closet-reselling",
-    "name": "Depop closet reselling business",
-    "category": "E-commerce",
-    "tags": [
-      "Depop",
-      "clothing resale",
-      "closet cleanout",
-      "secondhand fashion"
-    ],
-    "cost": "Very low startup cost (uses items already owned; a phone for photos)",
-    "found": "Diamond Chanel",
-    "what": "Sell your own used clothing and accessories (or sourced secondhand items) on Depop by photographing them, listing them in a personal storefront, and using periodic storewide discounts to move older inventory.",
-    "pitch": "The presenter sold $1,000 on Depop in one week, describing a simple process: take clean photos, list items, and run periodic discounts (she runs 35% off storewide) to clear stale inventory. She also resells cheap bulk-find accessories (70 bags bought for about $10 total, listed individually for around $5 each) alongside her own closet items.",
-    "best": "Someone with a closet of clothes they no longer wear, or access to cheap secondhand/bulk items, who's comfortable with basic product photography and customer shipping.",
-    "truth": "This is a genuinely low-barrier way to turn existing possessions into cash, and the mechanics (photograph, list, discount stale stock) are straightforward. Income will scale with how much inventory you have and how much time you put into sourcing and listing, so it's more of a supplemental income stream than a scalable primary business without significant sourcing effort.",
-    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
-    "situation_tags": [
-      "Strictly in-home",
-      "Needs inventory storage"
-    ]
-  },
-  {
     "id": "portable-sanitation-servicing",
     "name": "Portable sanitation servicing (porta-potties and construction site rentals)",
     "category": "Local & professional services",
@@ -369,6 +369,29 @@
     "best": "Someone looking for a very low-skill, event-based side income who's comfortable working in-person at parties, fairs, or pop-up events rather than a fixed location.",
     "truth": "The specific cost and price figures are consistent with what's publicly listed for this kind of device on Amazon and Alibaba, a reasonable, checkable range rather than an invented number. No specific named operator or case study backs the daily-client estimates given, so treat the income math as illustrative rather than a demonstrated result.",
     "url": "https://www.youtube.com/watch?v=xQ12WUnQid4"
+  },
+  {
+    "id": "taskrabbit-local-task-work",
+    "name": "TaskRabbit local task and handyman work",
+    "category": "Local & professional services",
+    "tags": [
+      "TaskRabbit",
+      "gig work",
+      "handyman tasks",
+      "furniture assembly",
+      "errands"
+    ],
+    "cost": "Very low startup cost (basic tools; a vehicle helps)",
+    "found": "Diamond Chanel",
+    "what": "Sign up on TaskRabbit and complete local tasks for pay \u2014 cleaning, furniture assembly, running errands, and small hands-on jobs \u2014 building income through volume and repeat client requests rather than any single specialty.",
+    "pitch": "One presenter describes making close to $4,800 in a month working roughly 95 hours over about 2.5 weeks doing a mix of cleaning, furniture building, and errands, plus tips, after one task (hauling buckets and materials from Home Depot) alone earned $200 and generated a wave of inbound interest.",
+    "best": "Someone physically able to do varied manual tasks, comfortable working in strangers' homes, and willing to build a reputation through consistent, reliable task completion.",
+    "truth": "This is a genuine, accessible way to earn money quickly with minimal setup, and the presenter's hourly-equivalent rate (roughly $50/hour across the month described) is attractive for gig work. Income is directly tied to hours worked and physical effort, so it doesn't scale into passive income the way some other ideas on this list might.",
+    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment"
+    ]
   },
   {
     "id": "closet-space-organizing-flat-rate-packages",
@@ -695,6 +718,29 @@
     ]
   },
   {
+    "id": "newborn-blanket-embroidery-etsy-niche",
+    "name": "Personalized newborn blanket embroidery micro-niche on Etsy",
+    "category": "Physical & print products",
+    "tags": [
+      "Etsy",
+      "baby products",
+      "embroidery",
+      "print on demand",
+      "micro-niche"
+    ],
+    "cost": "Low startup cost (print-on-demand embroidery via Shopify, no machine required to start)",
+    "found": "Diamond Chanel",
+    "what": "Sell personalized embroidered baby blankets in a focused micro-niche on Etsy, using a print-on-demand embroidery service (via Shopify) rather than an embroidery machine, syncing the store to Etsy, Amazon, and Instagram, with designs and fonts sourced from tools like Canva.",
+    "pitch": "The presenter points to three real Etsy stores in this exact niche: one making over $44,000/month, one over $24,000/month, and a third, only 3 months old, already over $5,000/month, all selling embroidered baby blankets.",
+    "best": "Someone drawn to a specific, narrow product niche within the broader baby/gift market, who wants to start without owning embroidery equipment by using a print-on-demand fulfillment service instead.",
+    "truth": "Micro-niches like this can genuinely support real revenue, as the cited store examples suggest, and starting via print-on-demand removes the equipment barrier entirely. That said, these are the standout examples from a large marketplace, not typical results, and success likely depends heavily on design quality and marketing within a fairly specific, competitive gift category.",
+    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
     "id": "short-run-screen-printing-packaging",
     "name": "Short-run screen printing for local business packaging",
     "category": "Physical & print products",
@@ -906,29 +952,6 @@
     "best": "Someone starting from genuinely little, no capital, no track record, who's willing to spend real time building a skill and a public presence before expecting income, rather than someone looking for a fast, passive result.",
     "truth": "The framework itself (build a skill, prove it on real clients, then teach it) is sound and echoes advice from other creators covered elsewhere in this database. Worth knowing: partway through, the video recommends a paid book-summary app and a course-hosting platform (Kajabi) as sponsored plugs, so those specific tool recommendations carry a financial incentive, separate from the underlying framework, which doesn't depend on either product.",
     "url": "https://www.youtube.com/watch?v=mwYsapR6cYk&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=9"
-  },
-  {
-    "id": "taskrabbit-local-task-work",
-    "name": "TaskRabbit local task and handyman work",
-    "category": "Local & professional services",
-    "tags": [
-      "TaskRabbit",
-      "gig work",
-      "handyman tasks",
-      "furniture assembly",
-      "errands"
-    ],
-    "cost": "Very low startup cost (basic tools; a vehicle helps)",
-    "found": "Diamond Chanel",
-    "what": "Sign up on TaskRabbit and complete local tasks for pay \u2014 cleaning, furniture assembly, running errands, and small hands-on jobs \u2014 building income through volume and repeat client requests rather than any single specialty.",
-    "pitch": "One presenter describes making close to $4,800 in a month working roughly 95 hours over about 2.5 weeks doing a mix of cleaning, furniture building, and errands, plus tips, after one task (hauling buckets and materials from Home Depot) alone earned $200 and generated a wave of inbound interest.",
-    "best": "Someone physically able to do varied manual tasks, comfortable working in strangers' homes, and willing to build a reputation through consistent, reliable task completion.",
-    "truth": "This is a genuine, accessible way to earn money quickly with minimal setup, and the presenter's hourly-equivalent rate (roughly $50/hour across the month described) is attractive for gig work. Income is directly tied to hours worked and physical effort, so it doesn't scale into passive income the way some other ideas on this list might.",
-    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ]
   },
   {
     "id": "small-engine-repair-shop",
@@ -1254,6 +1277,28 @@
     "url": "https://www.youtube.com/watch?v=xQ12WUnQid4"
   },
   {
+    "id": "paid-focus-groups-user-testing",
+    "name": "Paid online focus groups and user testing",
+    "category": "Local & professional services",
+    "tags": [
+      "focus groups",
+      "user testing",
+      "market research",
+      "paid opinions",
+      "User Interviews"
+    ],
+    "cost": "Free to start (just sign-up time; no equipment needed)",
+    "found": "Diamond Chanel",
+    "what": "Sign up on platforms that pay everyday people for their opinions on products and services (the presenter names User Interviews, Respondent, and dscout), applying to daily interview opportunities, most conducted over video calls from home.",
+    "pitch": "The presenter made $9,000 through this method, applying to about 5-10 opportunities daily even without expecting to be selected for most of them. Sessions pay $40-120/hour, selected slots fill within minutes so speed matters, and payment (via gift card or PayPal) typically arrives within 1-5 days.",
+    "best": "Someone with reliable internet and video-call comfort who's willing to apply to many opportunities regularly, since selection isn't guaranteed and slots fill fast.",
+    "truth": "This is a genuine, low-effort way to earn supplemental income with no upfront cost, and the pay rates cited are real for this type of work. Income is inherently inconsistent since it depends on being selected for a limited number of daily opportunities, so it works better as a side income stream than a reliable primary one.",
+    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "local-courier-service-small-business-contracts",
     "name": "Local courier and delivery service for small businesses with recurring contracts",
     "category": "Local & professional services",
@@ -1514,6 +1559,28 @@
     ]
   },
   {
+    "id": "field-inspection-contract-work",
+    "name": "Field inspection contract work",
+    "category": "Local & professional services",
+    "tags": [
+      "field inspections",
+      "property inspection",
+      "gig work",
+      "insurance inspections"
+    ],
+    "cost": "Very low startup cost (a smartphone and a car)",
+    "found": "Diamond Chanel",
+    "what": "Work as a contract field inspector for companies that need someone local to visit a property or business, take photographs (of a vehicle, building exterior, or specific condition), and submit them, typically for insurance, compliance, or verification purposes.",
+    "pitch": "One presenter describes earning $75 for a roughly 20-minute inspection (a short drive plus photographing two company vehicles), working with a company called Metro Inspections. That specific company is no longer accepting new inspectors, but the presenter notes other similar inspection companies are actively hiring.",
+    "best": "Someone with a reliable car and smartphone who wants flexible, quick-turnaround local gig work that doesn't require any specialized skill or equipment beyond basic photography and following instructions precisely.",
+    "truth": "This is a genuinely low-barrier gig with fast per-job payouts, though per-job pay ($75 for 20 minutes in the example given) means meaningful income requires taking on a steady volume of jobs, and availability of inspection companies actively recruiting will vary by location and over time.",
+    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment"
+    ]
+  },
+  {
     "id": "window-cleaning-service-residential-commercial",
     "name": "Window cleaning service for homes and businesses",
     "category": "Local & professional services",
@@ -1750,6 +1817,27 @@
     ]
   },
   {
+    "id": "faceless-ai-explainer-competitor-modeling",
+    "name": "Faceless AI explainer-video YouTube channel using competitor-modeling and AI production tools",
+    "category": "Content & personal brand",
+    "tags": [
+      "YouTube",
+      "AI tools",
+      "faceless",
+      "explainer videos"
+    ],
+    "cost": "Low startup cost (free tools; paid AI tool optional)",
+    "found": "E'Calm",
+    "what": "Building a faceless YouTube channel using AI tools to post explainer-style videos in a chosen niche, monetized through standard YouTube ad revenue.",
+    "pitch": "The presenter argues most beginners fail because of weak channel trust signals, so recommends rebranding an old channel or properly optimizing a new one's SEO settings before posting. The core method is finding proven ideas by studying two or more competitor channels' top-performing videos, checking total views and views-per-hour to confirm the topic still has real demand, then using an AI tool to generate a script modeled on competitors' structure and pacing, an AI voiceover, and AI-generated visuals timed to the voiceover's natural pauses.",
+    "best": "Someone comfortable following a fairly technical, multi-tool AI workflow and willing to research proven-idea patterns from competitor channels rather than inventing original content from scratch.",
+    "truth": "The presenter shows on-screen analytics claiming over $35,000 in the last 28 days and averaging around $31,000 a month, but these are self-reported dashboard screenshots, not independently verified. The video is careful to frame the method as modeling a competitor's proven structure and pacing rather than copying their actual video, though the line between the two is something a viewer should judge for themselves. The channel-trust and SEO advice covered is standard, legitimate YouTube practice.",
+    "url": "https://www.youtube.com/watch?v=Hvl8CdsbtrA",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "claude-local-business-website-lead-gen-retainer",
     "name": "Building websites and lead-capture automations for local businesses that don't have one, with a monthly hosting retainer",
     "category": "Local & professional services",
@@ -1804,29 +1892,6 @@
     "best": "Someone targeting service businesses where quotes are genuinely customized (not fixed-price) and slow turnaround is a believable, provable pain point, comfortable extracting an owner's informal pricing logic into a structured document.",
     "truth": "This is customer-facing (the end customer fills out the form and receives the estimate directly), which differs from a similar existing entry in this database built as an internal tool for a business's own employees to use \u2014 different mechanic, different buyer experience. The $5,000/month projected gain is the presenter's illustrative math from assumed conversion improvements, not a verified case study with a named client's actual before/after numbers.",
     "url": "https://www.youtube.com/watch?v=tKBpMevDJO8"
-  },
-  {
-    "id": "newborn-blanket-embroidery-etsy-niche",
-    "name": "Personalized newborn blanket embroidery micro-niche on Etsy",
-    "category": "Physical & print products",
-    "tags": [
-      "Etsy",
-      "baby products",
-      "embroidery",
-      "print on demand",
-      "micro-niche"
-    ],
-    "cost": "Low startup cost (print-on-demand embroidery via Shopify, no machine required to start)",
-    "found": "Diamond Chanel",
-    "what": "Sell personalized embroidered baby blankets in a focused micro-niche on Etsy, using a print-on-demand embroidery service (via Shopify) rather than an embroidery machine, syncing the store to Etsy, Amazon, and Instagram, with designs and fonts sourced from tools like Canva.",
-    "pitch": "The presenter points to three real Etsy stores in this exact niche: one making over $44,000/month, one over $24,000/month, and a third, only 3 months old, already over $5,000/month, all selling embroidered baby blankets.",
-    "best": "Someone drawn to a specific, narrow product niche within the broader baby/gift market, who wants to start without owning embroidery equipment by using a print-on-demand fulfillment service instead.",
-    "truth": "Micro-niches like this can genuinely support real revenue, as the cited store examples suggest, and starting via print-on-demand removes the equipment barrier entirely. That said, these are the standout examples from a large marketplace, not typical results, and success likely depends heavily on design quality and marketing within a fairly specific, competitive gift category.",
-    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
-    "situation_tags": [
-      "Strictly in-home",
-      "E-commerce / fulfillment"
-    ]
   },
   {
     "id": "fire-extinguisher-inspection-route",
@@ -2033,6 +2098,28 @@
     "best": "Someone looking for a low-skill personalization business with wide material versatility and genuine gift-giving-season demand spikes.",
     "truth": "The cost and price figures are consistent with what's publicly available for this kind of engraver and its typical products, a reasonable range. No named operator or verified sales record is given, so the specific income math should be treated as illustrative rather than a demonstrated case study.",
     "url": "https://www.youtube.com/watch?v=xQ12WUnQid4"
+  },
+  {
+    "id": "medical-courier-service",
+    "name": "Medical courier service using your own vehicle",
+    "category": "Local & professional services",
+    "tags": [
+      "medical courier",
+      "delivery service",
+      "blood drive pickups",
+      "gig work"
+    ],
+    "cost": "Very low startup cost (your own car; no special equipment)",
+    "found": "Diamond Chanel",
+    "what": "Deliver medical supplies, specimens, and blood drive collections between facilities using your own vehicle, contracting with medical courier companies rather than general delivery apps like DoorDash or Uber.",
+    "pitch": "Presenters in the video report earning $1,200-2,500 per week doing pickups and deliveries (blood drive collections, medical supply loads) using their own car, describing the pay as noticeably better than a regular job or standard gig-delivery apps.",
+    "best": "Someone with a reliable vehicle who wants delivery-style gig work with better pay than standard rideshare/delivery apps, and who's comfortable handling sensitive medical materials responsibly.",
+    "truth": "The pay rates described are genuinely higher than typical gig-delivery apps, which makes sense given the specialized, time-sensitive nature of medical deliveries. This kind of courier work typically requires passing a background check and sometimes specific certifications (e.g., handling biohazard materials) that aren't detailed in the video, so expect some onboarding requirements beyond just signing up.",
+    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment"
+    ]
   },
   {
     "id": "pressure-washing-annual-contracts",
@@ -2395,6 +2482,28 @@
     ]
   },
   {
+    "id": "mobile-phlebotomy-contract-work",
+    "name": "Mobile phlebotomy contract work",
+    "category": "Local & professional services",
+    "tags": [
+      "phlebotomy",
+      "mobile blood draw",
+      "medical gig work",
+      "healthcare side hustle"
+    ],
+    "cost": "Requires phlebotomy certification (moderate time/cost investment, but described as far less than most medical training paths)",
+    "found": "Diamond Chanel",
+    "what": "Work as a certified mobile phlebotomist, traveling to offices, events, or homes to draw blood for medical purposes (routine testing, cancer screening events, etc.), contracting with companies that need on-site blood draw services rather than working in a fixed clinical setting.",
+    "pitch": "A presenter reports making $600 in under 4 hours of work on back-to-back days, eventually quitting two other jobs to do this full-time, and describes getting paid $85/hour plus a $6 reimbursement per patient for an event-based cancer-screening blood draw project, with supply costs under $3 per patient.",
+    "best": "Someone willing to get phlebotomy certification first, comfortable with medical/clinical work, and looking for a healthcare-adjacent gig with notably higher hourly pay than typical gig work.",
+    "truth": "The pay rate described ($85/hour) is genuinely high for this kind of work, and unlike most items on this list, it requires real certification and skill, which raises the barrier to entry but also the pay ceiling. This isn't a same-day-start hustle \u2014 expect to invest time and some money in certification before earning anything.",
+    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
+    "situation_tags": [
+      "Local travel required",
+      "Requires a license or certification"
+    ]
+  },
+  {
     "id": "neocaridina-shrimp-breeding-fish-stores",
     "name": "Neocaridina shrimp breeding business selling to local fish stores",
     "category": "Physical & print products",
@@ -2414,28 +2523,6 @@
     "situation_tags": [
       "Strictly in-home",
       "Needs a dedicated workspace"
-    ]
-  },
-  {
-    "id": "paid-focus-groups-user-testing",
-    "name": "Paid online focus groups and user testing",
-    "category": "Local & professional services",
-    "tags": [
-      "focus groups",
-      "user testing",
-      "market research",
-      "paid opinions",
-      "User Interviews"
-    ],
-    "cost": "Free to start (just sign-up time; no equipment needed)",
-    "found": "Diamond Chanel",
-    "what": "Sign up on platforms that pay everyday people for their opinions on products and services (the presenter names User Interviews, Respondent, and dscout), applying to daily interview opportunities, most conducted over video calls from home.",
-    "pitch": "The presenter made $9,000 through this method, applying to about 5-10 opportunities daily even without expecting to be selected for most of them. Sessions pay $40-120/hour, selected slots fill within minutes so speed matters, and payment (via gift card or PayPal) typically arrives within 1-5 days.",
-    "best": "Someone with reliable internet and video-call comfort who's willing to apply to many opportunities regularly, since selection isn't guaranteed and slots fill fast.",
-    "truth": "This is a genuine, low-effort way to earn supplemental income with no upfront cost, and the pay rates cited are real for this type of work. Income is inherently inconsistent since it depends on being selected for a limited number of daily opportunities, so it works better as a side income stream than a reliable primary one.",
-    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
-    "situation_tags": [
-      "Strictly in-home"
     ]
   },
   {
@@ -2791,27 +2878,6 @@
       "E-commerce / fulfillment",
       "Needs inventory storage",
       "Requires equipment/vehicle investment"
-    ]
-  },
-  {
-    "id": "faceless-ai-explainer-competitor-modeling",
-    "name": "Faceless AI explainer-video YouTube channel using competitor-modeling and AI production tools",
-    "category": "Content & personal brand",
-    "tags": [
-      "YouTube",
-      "AI tools",
-      "faceless",
-      "explainer videos"
-    ],
-    "cost": "Low startup cost (free tools; paid AI tool optional)",
-    "found": "E'Calm",
-    "what": "Building a faceless YouTube channel using AI tools to post explainer-style videos in a chosen niche, monetized through standard YouTube ad revenue.",
-    "pitch": "The presenter argues most beginners fail because of weak channel trust signals, so recommends rebranding an old channel or properly optimizing a new one's SEO settings before posting. The core method is finding proven ideas by studying two or more competitor channels' top-performing videos, checking total views and views-per-hour to confirm the topic still has real demand, then using an AI tool to generate a script modeled on competitors' structure and pacing, an AI voiceover, and AI-generated visuals timed to the voiceover's natural pauses.",
-    "best": "Someone comfortable following a fairly technical, multi-tool AI workflow and willing to research proven-idea patterns from competitor channels rather than inventing original content from scratch.",
-    "truth": "The presenter shows on-screen analytics claiming over $35,000 in the last 28 days and averaging around $31,000 a month, but these are self-reported dashboard screenshots, not independently verified. The video is careful to frame the method as modeling a competitor's proven structure and pacing rather than copying their actual video, though the line between the two is something a viewer should judge for themselves. The channel-trust and SEO advice covered is standard, legitimate YouTube practice.",
-    "url": "https://www.youtube.com/watch?v=Hvl8CdsbtrA",
-    "situation_tags": [
-      "Strictly in-home"
     ]
   },
   {
@@ -3219,6 +3285,52 @@
     "url": "https://www.youtube.com/watch?v=2z7ORVBVLzw"
   },
   {
+    "id": "ai-voice-assistant-real-estate-zillow-loom-pitch",
+    "name": "AI voice assistant for real estate agents, prospected via Zillow with a reusable demo",
+    "category": "AI & automation",
+    "tags": [
+      "AI voice agent",
+      "real estate",
+      "GoHighLevel",
+      "Zillow prospecting",
+      "Loom pitch"
+    ],
+    "cost": "Low startup cost (a GoHighLevel subscription and one phone number for the reusable demo)",
+    "found": "Don Bassler",
+    "what": "Build one reusable, generic AI voice assistant demo (using GoHighLevel's voice AI, trained on a fictional sample property) that answers buyer calls, captures leads, and demonstrates live-calendar showing bookings, then find real estate agents with multiple active listings on Zillow, pitch them with a short personal Loom video referencing their actual listing, and walk interested agents through the demo live over the phone before customizing the assistant with their real listings and calendar once they sign on (typically around $297-500+/month).",
+    "pitch": "The presenter frames the core insight as building the demo once rather than a custom assistant per prospect \u2014 one phone number, one generic sample property, reused across every pitch \u2014 since agents lose real money when a buyer call goes unanswered and moves to a competing agent. The outreach method is simple: find 20 agents with active Zillow listings, send each a 30-40 second Loom video referencing their specific listing, and demo the AI live over the phone once they show interest, converting to a customized paid setup only after they say yes.",
+    "best": "Someone comfortable with a moderate technical build (GoHighLevel's voice AI interface and prompt writing) and direct video-based cold outreach, who wants a scalable one-to-many pitch rather than building a custom product per prospect.",
+    "truth": "The reusable-demo-first architecture is a genuinely smart way to avoid the common mistake of over-building before ever landing a client, and the specific $297+/month pricing and outreach script are concrete and actionable. This is a well-covered idea category in general (AI voice agents for real estate), but this creator's specific pricing, prospecting method, and demo-first build process are distinct enough to stand on their own \u2014 the video is also a funnel toward the presenter's own paid GoHighLevel affiliate link and course bundle.",
+    "url": "https://www.youtube.com/watch?v=Vzj1JbG4_D0",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ]
+  },
+  {
+    "id": "ai-tiktok-shop-bottom-funnel-content-system",
+    "name": "AI-generated TikTok Shop content system using proven \"bottom of funnel\" formats",
+    "category": "E-commerce",
+    "tags": [
+      "TikTok Shop",
+      "AI content generation",
+      "Kalodata",
+      "GMV Max",
+      "content automation"
+    ],
+    "cost": "Low startup cost (AI image/video generation tools like Google Flow/Nano Banana/Omniflash; a product research tool like Kalodata)",
+    "found": "ducrez",
+    "what": "Find already-viral, simple \"bottom of funnel\" TikTok Shop videos (short, low-production clips aimed at buyers who already know the product but haven't purchased yet), study their format and hook, then use AI image and video generation tools to recreate that exact proven format with a different product, without ever ordering, filming, or showing your face, taking advantage of TikTok's GMV Max ad system (which automatically pushes ad budget toward whichever creative gets the highest click-through rate) to scale winning content.",
+    "pitch": "The presenter says their community has generated seven figures in GMV this year using entirely AI-generated content, and demonstrates the full pipeline live: using a product research tool (Kalodata) to pull a product's base image, generating a styled product image with Google Flow's Nano Banana, then an AI video clip with Omniflash, and explains that consistency of format (not constant creative reinvention) combined with rapid product-swapping is what makes this scalable, eventually delegating the repetitive content-generation steps to a hired VA running the same automation.",
+    "best": "Someone willing to study and reverse-engineer already-successful TikTok Shop content rather than creating original formats, and comfortable using several AI generation tools together as a repeatable pipeline.",
+    "truth": "The specific mechanics described (GMV Max's click-through-rate-driven budget allocation, and the value of testing many simple videos over polishing a few) reflect real, current TikTok Shop advertising behavior and are more concretely actionable than most AI-content pitches. The $342,927 GMV figure is the presenter's own reported result, not independently verified, and this is a crowded, fast-moving space where formats that work today may saturate quickly.",
+    "url": "https://www.youtube.com/watch?v=puJkObRPQ6s",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ]
+  },
+  {
     "id": "wall-printer-mural-service",
     "name": "Wall printer mural service for businesses",
     "category": "Physical & print products",
@@ -3546,6 +3658,27 @@
     "url": "https://www.youtube.com/watch?v=5rhHm6WWOIs&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=3"
   },
   {
+    "id": "amazon-influencer-program-video-reviews-diamondchanel",
+    "name": "Amazon Influencer Program video reviews (residual-payout model)",
+    "category": "E-commerce",
+    "tags": [
+      "Amazon Influencer Program",
+      "video reviews",
+      "residual income",
+      "affiliate commissions"
+    ],
+    "cost": "Free to start (uses products already owned)",
+    "found": "Diamond Chanel",
+    "what": "Join Amazon's Influencer Program and make short product review videos of items already sold on Amazon; Amazon displays these videos to shoppers browsing those products, and pays a commission whenever a video influences a purchase \u2014 payouts can continue on already-uploaded videos even during long stretches with no new uploads.",
+    "pitch": "The presenter describes continuing to get paid monthly on videos she hasn't updated since the previous October, having started the program after her son was born and posting inconsistently since. She rates it a 3/5 for ease of starting and a 3/5 for speed to first dollar, framing the appeal as ongoing residual payouts from a modest, one-time batch of videos rather than needing constant new output.",
+    "best": "Someone with everyday Amazon purchases already on hand who's comfortable being briefly on camera, and who wants a low-maintenance income stream that doesn't require an existing following.",
+    "truth": "The genuinely distinguishing point here is the residual-payout behavior on old videos, which is a real feature of the program's structure and not typical of most side hustles requiring constant new content. That said, per-video payouts are generally modest and highly variable, and this account gives no specific dollar figures for actual earnings, just the ongoing-payout mechanic itself.",
+    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "private-atm-network-business",
     "name": "Building a private ATM network placed in cash-heavy businesses",
     "category": "Local & professional services",
@@ -3689,28 +3822,6 @@
     ]
   },
   {
-    "id": "field-inspection-contract-work",
-    "name": "Field inspection contract work",
-    "category": "Local & professional services",
-    "tags": [
-      "field inspections",
-      "property inspection",
-      "gig work",
-      "insurance inspections"
-    ],
-    "cost": "Very low startup cost (a smartphone and a car)",
-    "found": "Diamond Chanel",
-    "what": "Work as a contract field inspector for companies that need someone local to visit a property or business, take photographs (of a vehicle, building exterior, or specific condition), and submit them, typically for insurance, compliance, or verification purposes.",
-    "pitch": "One presenter describes earning $75 for a roughly 20-minute inspection (a short drive plus photographing two company vehicles), working with a company called Metro Inspections. That specific company is no longer accepting new inspectors, but the presenter notes other similar inspection companies are actively hiring.",
-    "best": "Someone with a reliable car and smartphone who wants flexible, quick-turnaround local gig work that doesn't require any specialized skill or equipment beyond basic photography and following instructions precisely.",
-    "truth": "This is a genuinely low-barrier gig with fast per-job payouts, though per-job pay ($75 for 20 minutes in the example given) means meaningful income requires taking on a steady volume of jobs, and availability of inspection companies actively recruiting will vary by location and over time.",
-    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ]
-  },
-  {
     "id": "waste-oil-grease-collection-recycling",
     "name": "Waste oil and grease collection and recycling route",
     "category": "Local & professional services",
@@ -3752,6 +3863,27 @@
     "best": "Someone comfortable working with high heat and molten metal safely, with patience for finishing/polishing work, and interested in the sustainability/heirloom-transformation angle as a selling point.",
     "truth": "Melting and casting metal involves real safety risk (burns, fumes, ventilation needs) that requires proper equipment and protective gear, not just a hot plate in a garage \u2014 this is a more hands-on, higher-skill craft than most items on this list. One-of-a-kind, made-to-order pieces genuinely can command strong margins if the finishing quality is high, but that finishing skill takes real practice to develop.",
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s"
+  },
+  {
+    "id": "pinterest-amazon-associates-pin-funnel-diamondchanel",
+    "name": "Pinterest-to-Amazon-Associates affiliate pin funnel",
+    "category": "Marketing & content",
+    "tags": [
+      "Pinterest marketing",
+      "Amazon Associates",
+      "affiliate links",
+      "passive traffic"
+    ],
+    "cost": "Free to start (a Pinterest and Amazon Associates account)",
+    "found": "Diamond Chanel",
+    "what": "Pick a top-selling product from Amazon's Best Sellers list, create a Pinterest pin using the product's own images, title, and description, attach an Amazon Associates affiliate link, and publish \u2014 earning a commission whenever someone clicks through the pin and buys.",
+    "pitch": "The presenter cites a case of someone earning over $2,000 without ever showing their face using this method, describing it as a simple, repeatable four-step process (sign up for Amazon Associates, pick a top-5 bestseller, build a Pinterest pin from the product's own assets, attach the affiliate link) that requires no ongoing engagement once pins are published, rating it 4/5 for ease of starting.",
+    "best": "Someone comfortable creating simple visual pins and willing to publish many of them consistently, since individual pin conversion rates are low and this model depends on volume.",
+    "truth": "The mechanic itself is genuine and low-cost to test, and Pinterest's evergreen, search-driven traffic does suit affiliate content better than more ephemeral social platforms. That said, this is a widely-taught, saturated tactic, and the video gives no detail on how many pins the $2,000 example required or over what timeframe, so expectations should be tempered relative to the simplicity of the pitch.",
+    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
   },
   {
     "id": "custom-gpts-niche-membership-addon",
@@ -4137,6 +4269,24 @@
     "url": "https://www.youtube.com/watch?v=xQ12WUnQid4"
   },
   {
+    "id": "dog-sitting-walking-rover-app",
+    "name": "Dog sitting and walking through apps like Rover",
+    "category": "Local & professional services",
+    "tags": [
+      "pet sitting",
+      "Rover app",
+      "dog walking",
+      "phone-based side hustle"
+    ],
+    "cost": "Free to start (just a Rover profile)",
+    "found": "Diamond Chanel",
+    "what": "Sign up on Rover (or similar pet-sitting apps) to offer dog walking, drop-in visits, and overnight sitting, building a client base one booking at a time and earning holiday-rate premiums during peak travel periods.",
+    "pitch": "The presenter documents earning $794 in just over a week from a mix of one multi-day overnight stay ($282), two drop-in visits ($70), a cash tip ($50), and a holiday-rate booking ($294), rating it 5/5 for ease of entry and 4/5 for speed to first dollar.",
+    "best": "Someone comfortable with pets, available for flexible hours including early mornings, in an area with enough pet-owner demand.",
+    "truth": "Pet sitting via Rover and similar apps is a real, widely-used gig platform with genuine demand, and the presenter's week of earnings is a plausible, itemized real example rather than a vague claim. Income is inherently variable and location-dependent, and building a steady client base takes time and good reviews.",
+    "url": "https://www.youtube.com/watch?v=p5INpPh3ApY"
+  },
+  {
     "id": "recurring-pest-control-contracts",
     "name": "Running a pest control business built on automatically-renewing monthly maintenance contracts",
     "category": "Local & professional services",
@@ -4432,6 +4582,28 @@
     ]
   },
   {
+    "id": "faceless-shorts-viral-clip-repurposing-reaction-edit",
+    "name": "Faceless YouTube Shorts channel built by repurposing viral clips with reaction-style editing",
+    "category": "Content & personal brand",
+    "tags": [
+      "YouTube Shorts",
+      "faceless content",
+      "reaction editing",
+      "CapCut",
+      "algorithm optimization"
+    ],
+    "cost": "Very low startup cost (CapCut is free; an AI tool for caption removal, roughly $7-10/month)",
+    "found": "E'Calm",
+    "what": "Build a faceless YouTube Shorts channel by finding already-viral videos from other platforms (using an AI research agent to surface high-engagement clips), adding substantive value through reaction text, commentary, and edited pacing (required to satisfy YouTube's reused-content policy), then optimizing the channel's early upload behavior to avoid getting stuck in a low-view \"seed audience\" trap that new or mismatched channels fall into.",
+    "pitch": "The presenter grew a channel to over 2 million subscribers and a billion views in 5 months using only 30 videos, and describes a second channel in the same niche reaching 300,000 subscribers with the same system, with the two channels averaging $1,000 and $7,000/month respectively. He explains the specific algorithm mechanic: new channels get tested with a small \"seed audience\" of a few thousand people, and if early videos don't perform with that specific test group, the channel can get stuck getting near-zero views \u2014 fixed by rebranding an old channel with under 200 subscribers, using an aged Google account, and optimizing channel keywords before the first upload.",
+    "best": "Someone comfortable with detailed short-form video editing (CapCut) who's willing to research and substantially rework existing viral content rather than creating fully original videos.",
+    "truth": "The specific \"seed audience\" and channel-optimization mechanics described are more concrete and technically detailed than most faceless-content advice, and the legal distinction the presenter draws (adding substantive commentary/modification to satisfy YouTube's reused-content policy, not just re-uploading) is an important, often-skipped compliance detail. The revenue figures are self-reported, and repurposing others' viral content \u2014 even with modification \u2014 carries real platform-policy risk if the added value is judged insufficient, which is a judgment call YouTube makes case by case.",
+    "url": "https://youtu.be/X5u50PrADM8",
+    "situation_tags": [
+      "Strictly in-home"
+    ]
+  },
+  {
     "id": "claude-social-media-management-local-business",
     "name": "AI-accelerated social media management service for local businesses using Claude for batch content creation",
     "category": "Marketing & content",
@@ -4487,28 +4659,6 @@
     "best": "Someone new to selling AI-built services who needs a first client and doesn't yet have a portfolio, since this offer can be demonstrated with just the target business's own existing reviews and goal.",
     "truth": "The goal-first (not template-first) design principle is sound web-design practice independent of which AI tool builds the site, and using a business's real reviews as ad copy is a legitimate way to make a rebuild feel authentic rather than generic. This is a distinct market segment problem (an existing but non-converting website) from most other AI-website entries in this database, which more often target businesses with no website at all.",
     "url": "https://www.youtube.com/watch?v=tKBpMevDJO8"
-  },
-  {
-    "id": "medical-courier-service",
-    "name": "Medical courier service using your own vehicle",
-    "category": "Local & professional services",
-    "tags": [
-      "medical courier",
-      "delivery service",
-      "blood drive pickups",
-      "gig work"
-    ],
-    "cost": "Very low startup cost (your own car; no special equipment)",
-    "found": "Diamond Chanel",
-    "what": "Deliver medical supplies, specimens, and blood drive collections between facilities using your own vehicle, contracting with medical courier companies rather than general delivery apps like DoorDash or Uber.",
-    "pitch": "Presenters in the video report earning $1,200-2,500 per week doing pickups and deliveries (blood drive collections, medical supply loads) using their own car, describing the pay as noticeably better than a regular job or standard gig-delivery apps.",
-    "best": "Someone with a reliable vehicle who wants delivery-style gig work with better pay than standard rideshare/delivery apps, and who's comfortable handling sensitive medical materials responsibly.",
-    "truth": "The pay rates described are genuinely higher than typical gig-delivery apps, which makes sense given the specialized, time-sensitive nature of medical deliveries. This kind of courier work typically requires passing a background check and sometimes specific certifications (e.g., handling biohazard materials) that aren't detailed in the video, so expect some onboarding requirements beyond just signing up.",
-    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ]
   },
   {
     "id": "truck-driver-recruiting-placement",
@@ -4609,6 +4759,24 @@
       "Local travel required",
       "Needs inventory storage"
     ]
+  },
+  {
+    "id": "drop-off-cooler-service-uber-courier",
+    "name": "Selling pre-packed drink and snack coolers delivered via Uber Connect",
+    "category": "E-commerce",
+    "tags": [
+      "cooler delivery service",
+      "Uber Connect",
+      "event/beach supplies",
+      "seasonal side hustle"
+    ],
+    "cost": "Low (styrofoam coolers, drinks/snacks/alcohol inventory purchased upfront)",
+    "found": "Diamond Chanel",
+    "what": "Fill styrofoam coolers with ice, drinks, snacks, and (where legal) alcoholic beverages, then use Uber's Connect/Courier feature to have an Uber driver pick up and deliver the packed cooler to a customer, charging for the products, the cooler, convenience, and delivery, without ever leaving home yourself.",
+    "pitch": "The presenter highlights this as especially timely for warm-weather seasons (beach days, holidays, parties) and frames the Uber-delivery mechanic as the key insight that removes the need to personally drop off orders, rating it 4/5 for ease and 3/5 for speed to first dollar since it requires upfront shopping and finding clients.",
+    "best": "Someone in a warm climate or event-heavy area willing to do some local marketing/promotion to find customers and comfortable fronting inventory costs.",
+    "truth": "Pre-packed cooler delivery is a real, low-tech local micro-business that several sellers run seasonally around beaches, parks, and events, and using Uber Connect as a logistics workaround is a genuinely clever, low-cost delivery solution. Success depends heavily on local demand and marketing, which the video doesn't cover in detail.",
+    "url": "https://www.youtube.com/watch?v=p5INpPh3ApY"
   },
   {
     "id": "wood-burning-pyrography-custom-gifts",
@@ -5092,6 +5260,24 @@
     "url": "https://www.youtube.com/watch?v=xQ12WUnQid4"
   },
   {
+    "id": "party-rental-delivery-service",
+    "name": "Renting out party equipment (chairs, tables, bounce houses) with delivery",
+    "category": "Local & professional services",
+    "tags": [
+      "party rental business",
+      "event equipment",
+      "bounce house rental",
+      "delivery service"
+    ],
+    "cost": "Moderate (purchasing chairs, tables, and/or a bounce house as rentable inventory)",
+    "found": "Diamond Chanel",
+    "what": "Buy party equipment (folding chairs, tables, bounce houses) and rent it out for events, delivering and picking up the items yourself or hiring someone else to handle delivery/logistics.",
+    "pitch": "The presenter shows real footage of a delivery run (40 chairs, 5 tables, earning $120 and $100 on two separate deliveries) and describes renting a bounce house for her own event for $100-150, rating the idea 3/5 for ease (requires promotion and client-finding) and 4/5 for speed to first dollar.",
+    "best": "Someone with storage space for equipment and a vehicle for delivery, or capital to hire delivery help, willing to market locally for event bookings.",
+    "truth": "Party equipment rental is a real, established local service business with genuine demand around weddings, birthdays, and holidays, and the footage shown depicts real, specific delivery jobs rather than a vague pitch. This requires meaningful upfront capital for equipment and ongoing local marketing to find bookings.",
+    "url": "https://www.youtube.com/watch?v=p5INpPh3ApY"
+  },
+  {
     "id": "heavy-equipment-tool-rental-business",
     "name": "Renting out heavy equipment and specialized tools to contractors and homeowners",
     "category": "Local & professional services",
@@ -5145,28 +5331,6 @@
     "best": "Someone comfortable with food production and allergen-conscious labeling, interested in flavor development and building a farmers-market or specialty-retail presence.",
     "truth": "The \"clean, small-batch, transparent ingredients\" positioning is a genuine and proven differentiator against mass-produced nut butter, and tasting-based sales are a well-established conversion tactic for food products at markets. Nut products carry real allergen liability, so accurate labeling and safe handling (cross-contamination control) matter more here than for most items on this list.",
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s"
-  },
-  {
-    "id": "mobile-phlebotomy-contract-work",
-    "name": "Mobile phlebotomy contract work",
-    "category": "Local & professional services",
-    "tags": [
-      "phlebotomy",
-      "mobile blood draw",
-      "medical gig work",
-      "healthcare side hustle"
-    ],
-    "cost": "Requires phlebotomy certification (moderate time/cost investment, but described as far less than most medical training paths)",
-    "found": "Diamond Chanel",
-    "what": "Work as a certified mobile phlebotomist, traveling to offices, events, or homes to draw blood for medical purposes (routine testing, cancer screening events, etc.), contracting with companies that need on-site blood draw services rather than working in a fixed clinical setting.",
-    "pitch": "A presenter reports making $600 in under 4 hours of work on back-to-back days, eventually quitting two other jobs to do this full-time, and describes getting paid $85/hour plus a $6 reimbursement per patient for an event-based cancer-screening blood draw project, with supply costs under $3 per patient.",
-    "best": "Someone willing to get phlebotomy certification first, comfortable with medical/clinical work, and looking for a healthcare-adjacent gig with notably higher hourly pay than typical gig work.",
-    "truth": "The pay rate described ($85/hour) is genuinely high for this kind of work, and unlike most items on this list, it requires real certification and skill, which raises the barrier to entry but also the pay ceiling. This isn't a same-day-start hustle \u2014 expect to invest time and some money in certification before earning anything.",
-    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
-    "situation_tags": [
-      "Local travel required",
-      "Requires a license or certification"
-    ]
   },
   {
     "id": "non-emergency-medical-transportation",
@@ -5387,6 +5551,24 @@
     "best": "Someone able to source raw spices affordably and willing to focus on clean, consistent packaging and accurate weights to build repeat local trust.",
     "truth": "Small-batch spice packaging and reselling is a real, low-barrier micro-business in many markets, and the packaging-as-differentiator insight is sound. No specific revenue example is given; margins depend heavily on local spice sourcing costs and competition.",
     "url": "https://www.youtube.com/watch?v=mKFNXLik1ro"
+  },
+  {
+    "id": "faceless-pinterest-affiliate-marketing",
+    "name": "Running a faceless Pinterest account to drive affiliate commissions or digital product sales",
+    "category": "E-commerce",
+    "tags": [
+      "Pinterest affiliate marketing",
+      "faceless content",
+      "product pins",
+      "affiliate links"
+    ],
+    "cost": "Free to start (just a Pinterest account and access to a brand's affiliate program)",
+    "found": "Diamond Chanel",
+    "what": "Pick a product category you already use and understand (skincare, coffee, shoes), find the brand's affiliate program through their website, get your unique tracking link, and post simple product-focused pins on Pinterest with no face or voice required, earning commission when pin viewers click through and buy; the same setup works to sell your own digital products in place of an affiliate link.",
+    "pitch": "The presenter reports making over $2,000 using this exact faceless Pinterest setup, framing Pinterest's search-and-shop nature (rather than personality-driven content) as what makes a faceless approach genuinely effective there, rating it 4/5 for ease (AI can speed up pin creation) but only 2/5 for speed to first dollar since it takes time to build traction.",
+    "best": "Someone comfortable with basic visual content creation and willing to be patient, since Pinterest traffic and affiliate income typically build gradually rather than instantly.",
+    "truth": "Faceless Pinterest affiliate marketing is a real, established content-to-commerce strategy, and Pinterest's product-search-driven user behavior genuinely suits affiliate and digital-product links better than most social platforms. The presenter's own $2,000 figure has no stated timeframe attached, making it hard to judge as a rate of income, and her own admission that it's slow to earn a first dollar is a useful, honest caveat.",
+    "url": "https://www.youtube.com/watch?v=p5INpPh3ApY"
   },
   {
     "id": "software-implementation-partner",
@@ -5723,6 +5905,24 @@
     "url": "https://www.youtube.com/watch?v=xQ12WUnQid4"
   },
   {
+    "id": "ghost-kitchen-doordash-home-food-business",
+    "name": "Running a home-based ghost kitchen food business listed on DoorDash",
+    "category": "Local & professional services",
+    "tags": [
+      "ghost kitchen",
+      "DoorDash food listing",
+      "home food business",
+      "cottage food law"
+    ],
+    "cost": "Low to moderate (ingredients, packaging, and potentially a food handler's permit depending on state)",
+    "found": "Diamond Chanel",
+    "what": "Prepare a specific, shareable food product from home (the example given is mini cookie cups with a dipping sauce) and list it on DoorDash so local customers can order it, with a driver picking up from your home and delivering it, meaning you never leave the house; depending on your state, this may require a food handler's permit or operating under your state's cottage food law.",
+    "pitch": "The presenter shows a real example of an entrepreneur who went viral selling cookie cups, turning video views into steady weekly orders, and frames a visually distinctive, shareable food product as the key to organic promotion, rating this 3/5 for ease (varies by state regulation) and 2/5 for speed to first dollar since additional promotion beyond DoorDash is usually needed.",
+    "best": "Someone who enjoys cooking/baking and is willing to research and comply with their specific state's home food business regulations.",
+    "truth": "Home-based ghost kitchens listed on delivery apps are a real, growing category, and the video is upfront about the real regulatory requirement (food handler's permit or cottage food law compliance) that varies significantly by state rather than glossing over it. The cited example's viral success is one specific case, not a typical outcome, and building enough visibility for consistent orders takes real marketing effort beyond just listing on DoorDash.",
+    "url": "https://www.youtube.com/watch?v=p5INpPh3ApY"
+  },
+  {
     "id": "niche-management-software-small-business",
     "name": "Building simple niche management software that solves one operational problem for a specific small-business trade",
     "category": "AI & automation",
@@ -5758,27 +5958,6 @@
     "best": "Someone comfortable with print production equipment (sublimation or laser cutting) and interested in a seasonal, gift-occasion-driven sales pattern.",
     "truth": "Photo puzzles are an established, proven personalized-gift category with genuine repeat-purchase potential around recurring occasions (holidays, weddings, births). Print/cut equipment represents a real upfront cost compared to some other items on this list, and quality consistency (image resolution, cut precision) directly affects both customer satisfaction and repeat business.",
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s"
-  },
-  {
-    "id": "amazon-influencer-program-video-reviews-diamondchanel",
-    "name": "Amazon Influencer Program video reviews (residual-payout model)",
-    "category": "E-commerce",
-    "tags": [
-      "Amazon Influencer Program",
-      "video reviews",
-      "residual income",
-      "affiliate commissions"
-    ],
-    "cost": "Free to start (uses products already owned)",
-    "found": "Diamond Chanel",
-    "what": "Join Amazon's Influencer Program and make short product review videos of items already sold on Amazon; Amazon displays these videos to shoppers browsing those products, and pays a commission whenever a video influences a purchase \u2014 payouts can continue on already-uploaded videos even during long stretches with no new uploads.",
-    "pitch": "The presenter describes continuing to get paid monthly on videos she hasn't updated since the previous October, having started the program after her son was born and posting inconsistently since. She rates it a 3/5 for ease of starting and a 3/5 for speed to first dollar, framing the appeal as ongoing residual payouts from a modest, one-time batch of videos rather than needing constant new output.",
-    "best": "Someone with everyday Amazon purchases already on hand who's comfortable being briefly on camera, and who wants a low-maintenance income stream that doesn't require an existing following.",
-    "truth": "The genuinely distinguishing point here is the residual-payout behavior on old videos, which is a real feature of the program's structure and not typical of most side hustles requiring constant new content. That said, per-video payouts are generally modest and highly variable, and this account gives no specific dollar figures for actual earnings, just the ongoing-payout mechanic itself.",
-    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
-    "situation_tags": [
-      "Strictly in-home"
-    ]
   },
   {
     "id": "foundation-repair-waterproofing-leadgen",
@@ -5918,6 +6097,24 @@
     "best": "Someone with a genuine, demonstrated eye for what makes short-form content work (hooks, pacing, trends) who's more interested in strategy and analysis than being on camera themselves.",
     "truth": "The TikTok usage statistics (20 opens a day, 90 minutes average) are attributed to TikTok's own claims, a reasonable but self-reported source rather than independent audited data. The Noah Brilley case study is specific but, consistent with the other examples in this video, comes from the presenter's own paid course platform where Noah is a featured instructor. The core idea, that strategy and understanding of a platform's mechanics is a genuinely separable, sellable skill from content creation itself, is a real and increasingly common freelance service, independent of this particular case study.",
     "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5"
+  },
+  {
+    "id": "online-notary-signing-service",
+    "name": "Becoming an online notary for remote document signings",
+    "category": "Local & professional services",
+    "tags": [
+      "online notary",
+      "remote online notarization",
+      "signing agent",
+      "licensed service"
+    ],
+    "cost": "Low (notary course and state licensing/bonding fees; process took about a week per the presenter)",
+    "found": "Diamond Chanel",
+    "what": "Become licensed as a notary (a short course plus a court swearing-in in the presenter's state) and perform notarizations, most of which now happen online through dedicated apps/platforms, allowing full-time or part-time remote work handling document signings and oaths.",
+    "pitch": "The presenter, who has done this herself, shows real footage of a fast online signing and describes ongoing notification requests for work years after getting licensed, rating it 4/5 for ease and 3/5 for speed to first income since it can take time to find a platform that supplies consistent work.",
+    "best": "Someone willing to complete their state's notary licensing process and comfortable conducting brief, professional video-call signings.",
+    "truth": "Online/remote notarization is a real, legitimate, licensed profession with genuine platforms connecting notaries to signing work, and the presenter speaks from firsthand ongoing experience rather than a one-time attempt. Licensing requirements, costs, and the legality of remote online notarization vary by state, which isn't detailed in this segment.",
+    "url": "https://www.youtube.com/watch?v=p5INpPh3ApY"
   },
   {
     "id": "portable-laminator-on-demand-service",
@@ -6799,29 +6996,6 @@
     "best": "Someone comfortable identifying a real, already-searched-for problem rather than starting from their own idea, and willing to build toward recurring revenue rather than treating a single low-price sale as the end goal.",
     "truth": "The presenter is explicit and upfront that this isn't a passive, prompt-and-done system, real ongoing work is still required, which is a fair disclaimer given how the low-price framing could otherwise oversell ease. The specific $15 million lifetime-revenue figure is a personal claim without independent verification. The entire video is a demonstration of, and funnel toward, the presenter's own paid all-in-one AI business platform, a direct financial incentive worth knowing, though the underlying strategy (low-price entry product plus recurring continuity offer) is a well-established, tool-agnostic info-product approach.",
     "url": "https://www.youtube.com/watch?v=HOnelkClaDI"
-  },
-  {
-    "id": "ai-voice-assistant-real-estate-zillow-loom-pitch",
-    "name": "AI voice assistant for real estate agents, prospected via Zillow with a reusable demo",
-    "category": "AI & automation",
-    "tags": [
-      "AI voice agent",
-      "real estate",
-      "GoHighLevel",
-      "Zillow prospecting",
-      "Loom pitch"
-    ],
-    "cost": "Low startup cost (a GoHighLevel subscription and one phone number for the reusable demo)",
-    "found": "Don Bassler",
-    "what": "Build one reusable, generic AI voice assistant demo (using GoHighLevel's voice AI, trained on a fictional sample property) that answers buyer calls, captures leads, and demonstrates live-calendar showing bookings, then find real estate agents with multiple active listings on Zillow, pitch them with a short personal Loom video referencing their actual listing, and walk interested agents through the demo live over the phone before customizing the assistant with their real listings and calendar once they sign on (typically around $297-500+/month).",
-    "pitch": "The presenter frames the core insight as building the demo once rather than a custom assistant per prospect \u2014 one phone number, one generic sample property, reused across every pitch \u2014 since agents lose real money when a buyer call goes unanswered and moves to a competing agent. The outreach method is simple: find 20 agents with active Zillow listings, send each a 30-40 second Loom video referencing their specific listing, and demo the AI live over the phone once they show interest, converting to a customized paid setup only after they say yes.",
-    "best": "Someone comfortable with a moderate technical build (GoHighLevel's voice AI interface and prompt writing) and direct video-based cold outreach, who wants a scalable one-to-many pitch rather than building a custom product per prospect.",
-    "truth": "The reusable-demo-first architecture is a genuinely smart way to avoid the common mistake of over-building before ever landing a client, and the specific $297+/month pricing and outreach script are concrete and actionable. This is a well-covered idea category in general (AI voice agents for real estate), but this creator's specific pricing, prospecting method, and demo-first build process are distinct enough to stand on their own \u2014 the video is also a funnel toward the presenter's own paid GoHighLevel affiliate link and course bundle.",
-    "url": "https://www.youtube.com/watch?v=Vzj1JbG4_D0",
-    "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based"
-    ]
   },
   {
     "id": "pinterest-traffic-strategy-ecommerce",
@@ -8688,29 +8862,6 @@
     ]
   },
   {
-    "id": "ai-tiktok-shop-bottom-funnel-content-system",
-    "name": "AI-generated TikTok Shop content system using proven \"bottom of funnel\" formats",
-    "category": "E-commerce",
-    "tags": [
-      "TikTok Shop",
-      "AI content generation",
-      "Kalodata",
-      "GMV Max",
-      "content automation"
-    ],
-    "cost": "Low startup cost (AI image/video generation tools like Google Flow/Nano Banana/Omniflash; a product research tool like Kalodata)",
-    "found": "ducrez",
-    "what": "Find already-viral, simple \"bottom of funnel\" TikTok Shop videos (short, low-production clips aimed at buyers who already know the product but haven't purchased yet), study their format and hook, then use AI image and video generation tools to recreate that exact proven format with a different product, without ever ordering, filming, or showing your face, taking advantage of TikTok's GMV Max ad system (which automatically pushes ad budget toward whichever creative gets the highest click-through rate) to scale winning content.",
-    "pitch": "The presenter says their community has generated seven figures in GMV this year using entirely AI-generated content, and demonstrates the full pipeline live: using a product research tool (Kalodata) to pull a product's base image, generating a styled product image with Google Flow's Nano Banana, then an AI video clip with Omniflash, and explains that consistency of format (not constant creative reinvention) combined with rapid product-swapping is what makes this scalable, eventually delegating the repetitive content-generation steps to a hired VA running the same automation.",
-    "best": "Someone willing to study and reverse-engineer already-successful TikTok Shop content rather than creating original formats, and comfortable using several AI generation tools together as a repeatable pipeline.",
-    "truth": "The specific mechanics described (GMV Max's click-through-rate-driven budget allocation, and the value of testing many simple videos over polishing a few) reflect real, current TikTok Shop advertising behavior and are more concretely actionable than most AI-content pitches. The $342,927 GMV figure is the presenter's own reported result, not independently verified, and this is a crowded, fast-moving space where formats that work today may saturate quickly.",
-    "url": "https://www.youtube.com/watch?v=puJkObRPQ6s",
-    "situation_tags": [
-      "Strictly in-home",
-      "E-commerce / fulfillment"
-    ]
-  },
-  {
     "id": "ai-stick-figure-explainer-production-pipeline",
     "name": "A free-AI-tools production pipeline for viral stick-figure explainer videos",
     "category": "Content & personal brand",
@@ -8978,6 +9129,24 @@
     "url": "https://www.youtube.com/watch?v=oDxM5Z1sDk4"
   },
   {
+    "id": "amazon-machine-product-manufacturing-business",
+    "name": "Starting a small physical-product business by buying an inexpensive specialty machine from Amazon",
+    "category": "Physical & print products",
+    "tags": [
+      "Amazon machines",
+      "small manufacturing",
+      "home-based production",
+      "niche product creation"
+    ],
+    "cost": "Low (many machines shown cost under $100-500, some specialized equipment costs more)",
+    "found": "Easy Business",
+    "what": "Browse Amazon for specialty machines (CNC cutters, plastic injection molders, liquid/cream filling machines, induction sealers, sublimation kits, chocolate coating drums, labeling machines, balloon-stuffing machines, laser engravers, and many similar tools), most designed to run from a garage or home, then use one to manufacture and sell a specific niche physical product rather than reselling a generic item.",
+    "pitch": "The video is a rapid catalog of 123 different Amazon-available machines, each shown with a quick explanation of what it does and what product it could make, built around combining a cheap accessible machine with a specific product concept to create something more defensible than a commodity.",
+    "best": "Someone with workshop/garage space willing to research a specific niche product idea to pair with one of these machines, rather than buying equipment first and figuring out what to sell later.",
+    "truth": "Buying inexpensive specialty machines to manufacture niche physical products at small scale is a real, established path into e-commerce and craft-business selling. This video moves through 123 machines in rapid succession with only a sentence or two of context each and no specific pricing or case studies for any individual idea, so treat it as a broad idea-generation catalog to research further rather than a ready-to-execute plan.",
+    "url": "https://www.youtube.com/watch?v=ABIhwh1rJLY"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -9204,28 +9373,6 @@
     "situation_tags": [
       "Needs inventory storage",
       "Requires hiring or managing others"
-    ]
-  },
-  {
-    "id": "faceless-shorts-viral-clip-repurposing-reaction-edit",
-    "name": "Faceless YouTube Shorts channel built by repurposing viral clips with reaction-style editing",
-    "category": "Content & personal brand",
-    "tags": [
-      "YouTube Shorts",
-      "faceless content",
-      "reaction editing",
-      "CapCut",
-      "algorithm optimization"
-    ],
-    "cost": "Very low startup cost (CapCut is free; an AI tool for caption removal, roughly $7-10/month)",
-    "found": "E'Calm",
-    "what": "Build a faceless YouTube Shorts channel by finding already-viral videos from other platforms (using an AI research agent to surface high-engagement clips), adding substantive value through reaction text, commentary, and edited pacing (required to satisfy YouTube's reused-content policy), then optimizing the channel's early upload behavior to avoid getting stuck in a low-view \"seed audience\" trap that new or mismatched channels fall into.",
-    "pitch": "The presenter grew a channel to over 2 million subscribers and a billion views in 5 months using only 30 videos, and describes a second channel in the same niche reaching 300,000 subscribers with the same system, with the two channels averaging $1,000 and $7,000/month respectively. He explains the specific algorithm mechanic: new channels get tested with a small \"seed audience\" of a few thousand people, and if early videos don't perform with that specific test group, the channel can get stuck getting near-zero views \u2014 fixed by rebranding an old channel with under 200 subscribers, using an aged Google account, and optimizing channel keywords before the first upload.",
-    "best": "Someone comfortable with detailed short-form video editing (CapCut) who's willing to research and substantially rework existing viral content rather than creating fully original videos.",
-    "truth": "The specific \"seed audience\" and channel-optimization mechanics described are more concrete and technically detailed than most faceless-content advice, and the legal distinction the presenter draws (adding substantive commentary/modification to satisfy YouTube's reused-content policy, not just re-uploading) is an important, often-skipped compliance detail. The revenue figures are self-reported, and repurposing others' viral content \u2014 even with modification \u2014 carries real platform-policy risk if the added value is judged insufficient, which is a judgment call YouTube makes case by case.",
-    "url": "https://youtu.be/X5u50PrADM8",
-    "situation_tags": [
-      "Strictly in-home"
     ]
   },
   {
@@ -9617,6 +9764,44 @@
     "url": "https://www.youtube.com/watch?v=mpJUKXcFhGE"
   },
   {
+    "id": "gohighlevel-lead-system-not-website-positioning",
+    "name": "Selling local businesses a 'lead-converting system' (not 'a website') built in GoHighLevel, for $300-500/month",
+    "category": "Local & professional services",
+    "tags": [
+      "GoHighLevel",
+      "AI website + CRM system",
+      "local business lead capture",
+      "Loom outreach",
+      "recurring monthly fee"
+    ],
+    "cost": "Low (a GoHighLevel subscription, which has a free 30-day trial)",
+    "found": "Don Bassler",
+    "what": "Build one reusable GoHighLevel template combining a simple 5-page website, lead-capture forms, an AI chat widget, automated text/email follow-up, appointment booking, and CRM tracking, then package and pitch it explicitly as a 'lead-converting system that happens to look like a website' rather than as web design or AI technology; charge an optional one-time setup fee ($500-1,000+) plus a $300-500/month recurring fee justified by the bundled hosting, CRM, automation, and support.",
+    "pitch": "The presenter argues this reframing (result-first, not technology-first) is what makes the pitch easy, and demonstrates his outreach method: record a short, personalized Loom video showing a prospect's actual current website and its lack of lead-capture, alongside a pre-built demo, asking only for a 'yes, show me more' rather than trying to close on the first message.",
+    "best": "Someone comfortable with a no-code platform like GoHighLevel and willing to do personalized video outreach rather than generic cold email.",
+    "truth": "AI-enhanced local-business websites with lead-capture and CRM bundled in is a well-established, frequently-covered business model, and the specific contribution here, framing the offer around the outcome and using a personalized before/after Loom video as the outreach hook, is a genuinely useful sales refinement. No independent case-study results are shown; the presenter promotes his own GoHighLevel affiliate link throughout.",
+    "url": "https://www.youtube.com/watch?v=LzITZpSG54k"
+  },
+  {
+    "id": "tiktok-shop-bottom-funnel-ai-video-affiliate",
+    "name": "Running TikTok Shop affiliate accounts with short bottom-of-funnel AI-generated product videos, scaled with a VA team",
+    "category": "E-commerce",
+    "tags": [
+      "TikTok Shop affiliate",
+      "bottom-of-funnel content",
+      "GMV Max",
+      "AI video generation",
+      "virtual assistant team"
+    ],
+    "cost": "Low to moderate (a product-research analytics tool, AI image/video generation tools, VA wages once scaling)",
+    "found": "ducrez",
+    "what": "Find products with already-high ad spend and proven demand (using specific filters: minimum $500 revenue, ad-view ratio over 51%, video duration under 15 seconds, commission above 15%, fewer than 200-300 active creators, most sample videos already ad-boosted), create simple, repeatable, 15-second-or-less AI-generated videos styled after existing successful videos in the niche, post as unboosted organic content and let TikTok's GMV Max algorithm push whichever gets the best click-through rate; scale by dividing the workflow into VA roles (account warm-up, product research, content creation, posting) with a manager VA overseeing dozens of accounts.",
+    "pitch": "The presenter reports $230,000+ in GMV over 14 days using this method, walks through the full workflow including manual and automated product-research criteria and the AI content pipeline, and describes scaling from 2 to 40 accounts through a structured VA team with defined roles.",
+    "best": "Someone comfortable with data-driven product research and repetitive content production at volume, willing to eventually build and manage a VA team to scale.",
+    "truth": "Bottom-of-funnel retargeting content aimed at already-proven, high-ad-spend products reflects real, sound direct-response advertising logic, and TikTok's GMV Max system genuinely allocates ad budget based on click-through as described. The presenter's GMV figure is self-reported and is total sales value, not profit; the video leads into the presenter's own paid coaching program.",
+    "url": "https://www.youtube.com/watch?v=yaZBkD_K_fA"
+  },
+  {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
     "name": "Digistore24 affiliate marketing funnel using a free \"nurture sequence\" instead of direct-linking",
     "category": "Marketing & content",
@@ -9799,6 +9984,25 @@
     "best": "Someone comfortable setting up multiple SaaS tool integrations (Shopify, Zenrop, an ad-library research tool, Claude/ChatGPT MCP connections) and willing to do a final manual pass on ad creative for best results, even though most of the pipeline can run unattended.",
     "truth": "The core mechanics, theme-based conversion optimization, automated dropshipping fulfillment apps, and using AI to research and generate ad creative, are all established, real e-commerce practices, and MCP-based tool automation for scheduled research/generation is technically legitimate. The $4.1M brand revenue figure is self-reported and unverified, and the video promotes the presenter's own affiliate-linked store-building software and ad-library tool, so treat those specific tool recommendations as a sales funnel rather than neutral advice.",
     "url": "https://www.youtube.com/watch?v=IlAbicMXo1I"
+  },
+  {
+    "id": "faceless-youtube-history-niche-vidiq-outlier",
+    "name": "Building a faceless YouTube automation channel in the history niche using VidIQ outlier scoring and an all-in-one AI video generator",
+    "category": "Content & personal brand",
+    "tags": [
+      "faceless YouTube channel",
+      "YouTube automation",
+      "VidIQ",
+      "AI video generation",
+      "history niche"
+    ],
+    "cost": "Low (a VidIQ subscription, an AI video-generation tool starting around $29/month for ~9 videos)",
+    "found": "E'Calm",
+    "what": "Pick the history niche specifically, create and optimize a channel with VidIQ-researched keywords, find video topics by checking VidIQ's 'outlier score' (aim for 20+, ideally 50+) and views-per-hour on existing videos, especially older videos still pulling steady views years later, rather than asking an AI to invent topics; feed the chosen topic plus a detailed master prompt into an all-in-one AI video tool that researches, scripts, voices, edits, and generates thumbnails/descriptions automatically, then unlist each video briefly to let YouTube auto-generate multi-language captions/dubs before publishing.",
+    "pitch": "The presenter shows real channel dashboards claiming $40-47K and $240K+ from faceless channels, walks through his own documented failures (a compilation channel that couldn't monetize, an early history attempt where generic AI scripts killed retention) before landing on this process, and demonstrates a new channel monetized with only 4 videos.",
+    "best": "Someone willing to do real topic research rather than relying on AI to invent ideas, comfortable using a paid all-in-one AI video tool rather than hiring freelance editors.",
+    "truth": "The failure mode described, generic AI scripts killing retention even with initial views, matches real YouTube algorithm mechanics, and the outlier-score research method is a genuine, commonly-used technique. The presenter's own figures are self-reported screenshots; monetization thresholds referenced are accurate as of publication but subject to change.",
+    "url": "https://www.youtube.com/watch?v=Sp83h2FqOH0"
   },
   {
     "id": "tote-rental-business",
@@ -10279,27 +10483,6 @@
     "url": "https://www.youtube.com/watch?v=xQ12WUnQid4"
   },
   {
-    "id": "pinterest-amazon-associates-pin-funnel-diamondchanel",
-    "name": "Pinterest-to-Amazon-Associates affiliate pin funnel",
-    "category": "Marketing & content",
-    "tags": [
-      "Pinterest marketing",
-      "Amazon Associates",
-      "affiliate links",
-      "passive traffic"
-    ],
-    "cost": "Free to start (a Pinterest and Amazon Associates account)",
-    "found": "Diamond Chanel",
-    "what": "Pick a top-selling product from Amazon's Best Sellers list, create a Pinterest pin using the product's own images, title, and description, attach an Amazon Associates affiliate link, and publish \u2014 earning a commission whenever someone clicks through the pin and buys.",
-    "pitch": "The presenter cites a case of someone earning over $2,000 without ever showing their face using this method, describing it as a simple, repeatable four-step process (sign up for Amazon Associates, pick a top-5 bestseller, build a Pinterest pin from the product's own assets, attach the affiliate link) that requires no ongoing engagement once pins are published, rating it 4/5 for ease of starting.",
-    "best": "Someone comfortable creating simple visual pins and willing to publish many of them consistently, since individual pin conversion rates are low and this model depends on volume.",
-    "truth": "The mechanic itself is genuine and low-cost to test, and Pinterest's evergreen, search-driven traffic does suit affiliate content better than more ephemeral social platforms. That said, this is a widely-taught, saturated tactic, and the video gives no detail on how many pins the $2,000 example required or over what timeframe, so expectations should be tempered relative to the simplicity of the pitch.",
-    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
-    "situation_tags": [
-      "Strictly in-home"
-    ]
-  },
-  {
     "id": "remote-run-residential-cleaning-business",
     "name": "Remote-run residential cleaning business",
     "category": "Local & professional services",
@@ -10357,6 +10540,24 @@
     "best": "Someone who wants to see a realistic, unglamorized first attempt at this model, modest numbers and all, before deciding whether to invest real time in it, since this demonstrates a genuine early-stage result rather than a scaled success story.",
     "truth": "This uses the same underlying AI-store-plus-dropshipping-fulfillment mechanic covered by other entries in this database, but this particular account is valuable specifically because it's a live, transparently documented single test with real, modest numbers ($80.35 profit from one week) rather than a description of the tool or a scaled, after-the-fact success claim. Worth noting: the presenter frames the setup cost as \"under $1,\" but that figure doesn't include the $50 paid to the micro-influencer or the Shopify subscription cost that begins after the free trial, so the true all-in cost of this specific test was closer to $90. The micro-influencer engagement statistics cited (60% higher engagement, 20%+ higher conversion versus macro-influencers) are attributed to a named source (Socialbakers) and are a genuinely useful, checkable data point for anyone considering this promotion strategy.",
     "url": "https://www.youtube.com/watch?v=xfOT2elC2Ok&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=7"
+  },
+  {
+    "id": "freelance-arbitrage-broker-connector",
+    "name": "Freelance arbitrage: connecting people who need a service with freelancers who provide it, for a convenience fee",
+    "category": "Marketing & content",
+    "tags": [
+      "freelance arbitrage",
+      "service brokering",
+      "agency model",
+      "matchmaking business"
+    ],
+    "cost": "Very low (no product or inventory needed; the business is the connection itself)",
+    "found": "Diamond Chanel",
+    "what": "Identify people willing to pay for a specific service and freelancers/contractors who already perform that service, then connect the two for a convenience fee, essentially operating as a lightweight matchmaking agency; scalable by vetting and building a roster of reliable contractors, and eventually hiring people to do the work under your own brand.",
+    "pitch": "The presenter calls this her highest-ceiling idea on the list because of its scalability into a full agency or even a larger company, comparing the model directly to how real estate agents and staffing brokers already operate and get paid for convenience, rating it 4/5 for ease (you're the researcher/connector, not the doer) and 3/5 for speed since vetting good contractors takes some time.",
+    "best": "Someone comfortable with relationship-building and vetting service providers, willing to build trust with both clients and contractors before the model scales.",
+    "truth": "Service brokering/matchmaking for a fee is a long-established, real business model (staffing agencies, real estate brokerages, and freelance-agency middlemen all operate this way), and the scalability argument is sound since the model doesn't require the operator to personally perform the service. No specific revenue example is given for this particular idea in the video; success depends on finding a service niche with a real gap between supply and demand.",
+    "url": "https://www.youtube.com/watch?v=p5INpPh3ApY"
   },
   {
     "id": "boat-detailing-service",
