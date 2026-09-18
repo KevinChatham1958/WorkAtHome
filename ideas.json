@@ -338,30 +338,6 @@
     "published": "2026-07-31"
   },
   {
-    "id": "pressure-washing-business-trash-can-upsell",
-    "name": "Pressure washing business with a trash can cleaning upsell",
-    "category": "Local & professional services",
-    "tags": [
-      "pressure washing",
-      "home services",
-      "recurring revenue",
-      "low startup cost"
-    ],
-    "cost": "Low startup cost (~$1,000 for equipment)",
-    "found": "Austin Zaback",
-    "what": "Pressure wash residential driveways, patios, and building exteriors, then add a simple upsell while already on-site: offer to clean the customer's outdoor trash cans for an extra $20 to $30 per can, since the water, cleaning solution, and equipment are already there.",
-    "pitch": "Zaback cites a personal acquaintance, a former financial advisor with no industry background, who started with a trailer, water tank, hose, and surface cleaner, and crossed $100,000 in his best single month four years in. He frames the U.S. pressure washing industry as a $1.2 billion market across 32,000-plus companies with consistent, non-seasonal demand, and notes average residential jobs run $400 to $1,000.",
-    "best": "Someone willing to start with used or basic equipment and build a route, then compound revenue per stop by bundling in the trash-can upsell rather than driving to new jobs for incremental income.",
-    "truth": "The $100,000-month example is a specific person Zaback knows personally, a real but individual result rather than a typical outcome, and it came after four years of operating, not immediately. The trash-can upsell math (an extra $40-60 per stop) is a straightforward, independently testable idea regardless of how the broader pressure-washing business performs.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Needs a truck or cargo vehicle"
-    ],
-    "published": "2026-04-09"
-  },
-  {
     "id": "portable-sanitation-servicing",
     "name": "Portable sanitation servicing (porta-potties and construction site rentals)",
     "category": "Local & professional services",
@@ -385,6 +361,30 @@
       "Weekend/event-based schedule"
     ],
     "published": "2026-08-14"
+  },
+  {
+    "id": "pressure-washing-business-trash-can-upsell",
+    "name": "Pressure washing business with a trash can cleaning upsell",
+    "category": "Local & professional services",
+    "tags": [
+      "pressure washing",
+      "home services",
+      "recurring revenue",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (~$1,000 for equipment)",
+    "found": "Austin Zaback",
+    "what": "Pressure wash residential driveways, patios, and building exteriors, then add a simple upsell while already on-site: offer to clean the customer's outdoor trash cans for an extra $20 to $30 per can, since the water, cleaning solution, and equipment are already there.",
+    "pitch": "Zaback cites a personal acquaintance, a former financial advisor with no industry background, who started with a trailer, water tank, hose, and surface cleaner, and crossed $100,000 in his best single month four years in. He frames the U.S. pressure washing industry as a $1.2 billion market across 32,000-plus companies with consistent, non-seasonal demand, and notes average residential jobs run $400 to $1,000.",
+    "best": "Someone willing to start with used or basic equipment and build a route, then compound revenue per stop by bundling in the trash-can upsell rather than driving to new jobs for incremental income.",
+    "truth": "The $100,000-month example is a specific person Zaback knows personally, a real but individual result rather than a typical outcome, and it came after four years of operating, not immediately. The trash-can upsell math (an extra $40-60 per stop) is a straightforward, independently testable idea regardless of how the broader pressure-washing business performs.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Needs a truck or cargo vehicle"
+    ],
+    "published": "2026-04-09"
   },
   {
     "id": "taskrabbit-local-task-work",
@@ -1051,6 +1051,30 @@
     "url": "https://www.youtube.com/watch?v=TEpSqX6ONl4"
   },
   {
+    "id": "small-engine-repair-shop",
+    "name": "Small engine repair shop",
+    "category": "Local & professional services",
+    "tags": [
+      "skilled trade",
+      "repair",
+      "local business",
+      "recurring revenue"
+    ],
+    "cost": "Moderate startup cost (tools, shop space)",
+    "found": "Johnny & Sergio",
+    "what": "Repair small engines, lawnmowers, generators, chainsaws, pressure washers, and line striping machines, for local landscaping crews, contractors, and homeowners, positioning yourself as the reliable shop with fast turnaround rather than a hobbyist who fixes engines occasionally.",
+    "pitch": "The presenters argue this is a skilled trade that almost nobody under 50 is actively pursuing, even though every contractor with small engine equipment eventually needs it fixed and there's no national chain to call. The real opportunity, they say, isn't that nobody fixes engines, it's that almost nobody does it as a real, reliable business with an actual shop and same-day callbacks.",
+    "best": "Someone younger who's willing to learn a genuine skilled trade and is comfortable with a business that gets noticeably slower in winter, since demand is seasonal for outdoor equipment.",
+    "truth": "The presenters are upfront that this is one of the weaker \"build a real business\" plays on their list precisely because the labor takes real time to learn and the seasonality is a real constraint. It's framed as a good cash-flow trade, not an easy path to a scalable company.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "Local travel required"
+    ],
+    "published": "2026-08-14"
+  },
+  {
     "id": "airbnb-turnover-cleaning-property-portfolios",
     "name": "Airbnb and short-term rental turnover cleaning service for property management portfolios",
     "category": "Local & professional services",
@@ -1159,30 +1183,6 @@
     "truth": "The framework itself (build a skill, prove it on real clients, then teach it) is sound and echoes advice from other creators covered elsewhere in this database. Worth knowing: partway through, the video recommends a paid book-summary app and a course-hosting platform (Kajabi) as sponsored plugs, so those specific tool recommendations carry a financial incentive, separate from the underlying framework, which doesn't depend on either product.",
     "url": "https://www.youtube.com/watch?v=mwYsapR6cYk&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=9",
     "published": "2024-09-25"
-  },
-  {
-    "id": "small-engine-repair-shop",
-    "name": "Small engine repair shop",
-    "category": "Local & professional services",
-    "tags": [
-      "skilled trade",
-      "repair",
-      "local business",
-      "recurring revenue"
-    ],
-    "cost": "Moderate startup cost (tools, shop space)",
-    "found": "Johnny & Sergio",
-    "what": "Repair small engines, lawnmowers, generators, chainsaws, pressure washers, and line striping machines, for local landscaping crews, contractors, and homeowners, positioning yourself as the reliable shop with fast turnaround rather than a hobbyist who fixes engines occasionally.",
-    "pitch": "The presenters argue this is a skilled trade that almost nobody under 50 is actively pursuing, even though every contractor with small engine equipment eventually needs it fixed and there's no national chain to call. The real opportunity, they say, isn't that nobody fixes engines, it's that almost nobody does it as a real, reliable business with an actual shop and same-day callbacks.",
-    "best": "Someone younger who's willing to learn a genuine skilled trade and is comfortable with a business that gets noticeably slower in winter, since demand is seasonal for outdoor equipment.",
-    "truth": "The presenters are upfront that this is one of the weaker \"build a real business\" plays on their list precisely because the labor takes real time to learn and the seasonality is a real constraint. It's framed as a good cash-flow trade, not an easy path to a scalable company.",
-    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
-    "situation_tags": [
-      "Needs a dedicated workspace",
-      "Requires equipment/vehicle investment",
-      "Local travel required"
-    ],
-    "published": "2026-08-14"
   },
   {
     "id": "airbnb-rental-arbitrage",
@@ -1875,6 +1875,29 @@
     "published": "2026-09-05"
   },
   {
+    "id": "fire-extinguisher-inspection-route",
+    "name": "Fire extinguisher testing and inspection route",
+    "category": "Local & professional services",
+    "tags": [
+      "service business",
+      "recurring revenue",
+      "certification needed",
+      "route based"
+    ],
+    "cost": "Low to moderate startup cost",
+    "found": "Johnny & Sergio",
+    "what": "Inspect and tag fire extinguishers for offices, restaurants, warehouses, and apartment buildings on the legally required annual inspection schedule, building up a recurring route of accounts over time.",
+    "pitch": "Every commercial building is legally required to get its extinguishers inspected on a set schedule, and fire marshals actually check for the tag, which means the law itself does the sales pitch for you. Once you're inspecting a building's extinguishers, switching to a new inspector means a customer has to re-explain their whole building to someone new, which the presenters say makes accounts unusually sticky once you land them.",
+    "best": "Someone comfortable with slower, longer commercial sales cycles who's willing to build up a large route of low-ticket accounts over time rather than looking for one big score.",
+    "truth": "The presenters are honest that this sits mid-list specifically because it isn't high-ticket per visit, so building meaningful income requires a genuinely large route and patience with commercial sales cycles. They note it's a fragmented market with no dominant national brand, a real and checkable structural fact about the industry.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Local travel required",
+      "Requires a license or certification"
+    ],
+    "published": "2026-08-14"
+  },
+  {
     "id": "window-cleaning-service-residential-commercial",
     "name": "Window cleaning service for homes and businesses",
     "category": "Local & professional services",
@@ -2247,29 +2270,6 @@
     "truth": "This is customer-facing (the end customer fills out the form and receives the estimate directly), which differs from a similar existing entry in this database built as an internal tool for a business's own employees to use \u2014 different mechanic, different buyer experience. The $5,000/month projected gain is the presenter's illustrative math from assumed conversion improvements, not a verified case study with a named client's actual before/after numbers.",
     "url": "https://www.youtube.com/watch?v=tKBpMevDJO8",
     "published": "2026-09-11"
-  },
-  {
-    "id": "fire-extinguisher-inspection-route",
-    "name": "Fire extinguisher testing and inspection route",
-    "category": "Local & professional services",
-    "tags": [
-      "service business",
-      "recurring revenue",
-      "certification needed",
-      "route based"
-    ],
-    "cost": "Low to moderate startup cost",
-    "found": "Johnny & Sergio",
-    "what": "Inspect and tag fire extinguishers for offices, restaurants, warehouses, and apartment buildings on the legally required annual inspection schedule, building up a recurring route of accounts over time.",
-    "pitch": "Every commercial building is legally required to get its extinguishers inspected on a set schedule, and fire marshals actually check for the tag, which means the law itself does the sales pitch for you. Once you're inspecting a building's extinguishers, switching to a new inspector means a customer has to re-explain their whole building to someone new, which the presenters say makes accounts unusually sticky once you land them.",
-    "best": "Someone comfortable with slower, longer commercial sales cycles who's willing to build up a large route of low-ticket accounts over time rather than looking for one big score.",
-    "truth": "The presenters are honest that this sits mid-list specifically because it isn't high-ticket per visit, so building meaningful income requires a genuinely large route and patience with commercial sales cycles. They note it's a fragmented market with no dominant national brand, a real and checkable structural fact about the industry.",
-    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
-    "situation_tags": [
-      "Local travel required",
-      "Requires a license or certification"
-    ],
-    "published": "2026-08-14"
   },
   {
     "id": "remote-cleaning-agency-dispatch-subcontractor-model",
@@ -2704,6 +2704,30 @@
     "url": "https://www.youtube.com/watch?v=TEpSqX6ONl4"
   },
   {
+    "id": "commercial-dock-door-equipment-service",
+    "name": "Commercial dock and door equipment service",
+    "category": "Local & professional services",
+    "tags": [
+      "skilled trade",
+      "service business",
+      "recurring revenue",
+      "warehouse"
+    ],
+    "cost": "Moderate to high startup cost (specialized tools, van)",
+    "found": "Johnny & Sergio",
+    "what": "Repair and maintain the dock levelers, roll-up doors, and dock seals that every warehouse and distribution center relies on to load and unload trucks, and sign accounts to quarterly preventive-maintenance contracts.",
+    "pitch": "When a loading bay breaks, a warehouse can't load or unload trucks, so operators will pay premium rates for same-day emergency repair on top of standard preventive-maintenance contracts. The presenters point to the ongoing warehouse and e-commerce boom as a structural tailwind that keeps this market growing every year.",
+    "best": "Someone with real electrical and hydraulic know-how, since this is effectively a skilled trade working with motors, sensors, and safety systems, not a business you can outsource entirely from day one.",
+    "truth": "The presenters rank this in the middle of their list specifically because of the technical skill and safety risk involved, since it's your hands doing the diagnosing and fixing unless you eventually buy your way into an existing operation. They're clear this isn't a laptop business.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Needs a truck or cargo vehicle"
+    ],
+    "published": "2026-08-14"
+  },
+  {
     "id": "mini-dumper-tight-access-hauling",
     "name": "Offering self-loading mini dumper hauling for tight residential construction sites",
     "category": "Local & professional services",
@@ -2983,30 +3007,6 @@
       "Needs a dedicated workspace"
     ],
     "published": "2026-09-05"
-  },
-  {
-    "id": "commercial-dock-door-equipment-service",
-    "name": "Commercial dock and door equipment service",
-    "category": "Local & professional services",
-    "tags": [
-      "skilled trade",
-      "service business",
-      "recurring revenue",
-      "warehouse"
-    ],
-    "cost": "Moderate to high startup cost (specialized tools, van)",
-    "found": "Johnny & Sergio",
-    "what": "Repair and maintain the dock levelers, roll-up doors, and dock seals that every warehouse and distribution center relies on to load and unload trucks, and sign accounts to quarterly preventive-maintenance contracts.",
-    "pitch": "When a loading bay breaks, a warehouse can't load or unload trucks, so operators will pay premium rates for same-day emergency repair on top of standard preventive-maintenance contracts. The presenters point to the ongoing warehouse and e-commerce boom as a structural tailwind that keeps this market growing every year.",
-    "best": "Someone with real electrical and hydraulic know-how, since this is effectively a skilled trade working with motors, sensors, and safety systems, not a business you can outsource entirely from day one.",
-    "truth": "The presenters rank this in the middle of their list specifically because of the technical skill and safety risk involved, since it's your hands doing the diagnosing and fixing unless you eventually buy your way into an existing operation. They're clear this isn't a laptop business.",
-    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Needs a truck or cargo vehicle"
-    ],
-    "published": "2026-08-14"
   },
   {
     "id": "equipment-rental-business",
@@ -3974,6 +3974,97 @@
     "published": "2026-08-03"
   },
   {
+    "id": "free-lead-magnet-websites-whitelabel-upsells",
+    "name": "Free lead-magnet websites for local businesses, monetized via white-label platform subscription and AI upsells",
+    "category": "Local & professional services",
+    "tags": [
+      "local business",
+      "white label",
+      "AI tools",
+      "recurring revenue"
+    ],
+    "cost": "Very low startup cost (white-label software subscription)",
+    "found": "John Whitford",
+    "what": "Finding local businesses with no website or a poor one via Google Maps, building and giving them a free website as a foot-in-the-door gift, then charging a low monthly fee for hosting it on a white-label all-in-one software platform, and upselling additional AI features over time.",
+    "pitch": "The presenter walks through the full funnel live: search Google Maps for a specific business type and city, skip the already-top-ranked results and look instead for a solid business with no website or a thin one, build them a free website hosted on a white-label software platform combining hosting, a CRM, and AI tools in one, then once they're using it, upsell a chat widget, roughly $50 to $300 a month, a speed-to-lead automated follow-up workflow that texts and emails new leads within seconds of a missed call, roughly $200 to $500 a month, and an AI voice receptionist trained on that specific business, $500 to $1,000 a month, stacking a single client to several hundred dollars a month in recurring revenue.",
+    "best": "Someone comfortable with local outreach and willing to give away the first deliverable for free to build trust before charging for anything, rather than pitching a paid product cold.",
+    "truth": "The presenter discloses over 2,500 paying software customers and personal financial independence from this business, but individual client revenue figures shown are explicitly framed as illustrative, conservative estimates rather than guaranteed or typical results. The presenter has a financial incentive to promote sign-ups for the specific software platform used throughout the video.",
+    "url": "https://www.youtube.com/watch?v=YFf3jRZ0bho",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ],
+    "published": "2026-08-17"
+  },
+  {
+    "id": "faceless-tiktok-shop-seller-affiliate-army",
+    "name": "Faceless TikTok Shop seller business using print-on-demand and an affiliate army",
+    "category": "E-commerce",
+    "tags": [
+      "TikTok Shop",
+      "print on demand",
+      "e-commerce",
+      "faceless"
+    ],
+    "cost": "Low startup cost (Printify Premium ~$30/month)",
+    "found": "Jon Reiter",
+    "what": "Become a TikTok Shop seller (rather than an affiliate) using print-on-demand fulfillment through Printify so there's no upfront inventory, then instead of creating your own content, recruit and pay a team of TikTok Shop affiliates to film and post promotional videos for a commission.",
+    "pitch": "Reiter's core argument is structural: TikTok Shop affiliates typically keep only 10-30% commission and never own the underlying store or brand, while sellers keep 50-70% of profit and own an asset they could eventually sell. He walks through the specific mechanics: connect a TikTok Shop to Printify for on-demand fulfillment, filter products through what he calls the \"mandatory three\" (immediate visual wow factor, solves an urgent problem, easy to film), then use a tool like Kalodata to find affiliates already driving sales for similar trending products and poach them with a higher commission rate (which he calls \"affiliate sniping\"), optionally supplementing with AI-generated product videos from a single product photo.",
+    "best": "Someone comfortable managing and motivating a team of outside content creators (affiliates) rather than producing content themselves, and willing to test multiple print-on-demand product ideas before finding ones that sell.",
+    "truth": "Reiter is direct that the headline $201,509/month and $273,000/month figures are not representative of a realistic start, and gives a more grounded estimate instead: roughly $5,000 in sales in the first 30 days, $15,000-$20,000 a month by 90-110 days with consistent effort. The specific student examples cited (Joe, April White, Cooper) are from his own paid coaching program (\"inner circle\"), which the video promotes throughout, so they're not independently verified case studies.",
+    "url": "https://www.youtube.com/watch?v=8Oo2grpskhA",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "published": "2026-08-13"
+  },
+  {
+    "id": "tiktok-shop-traffic-kdp-books",
+    "name": "Driving TikTok Shop traffic to Amazon KDP books instead of relying on reviews or ads",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Amazon KDP",
+      "TikTok Shop",
+      "publishing",
+      "marketing"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Jonathan Nilsen",
+    "what": "Driving external traffic from TikTok Shop to Amazon KDP book listings, rather than relying on Amazon's own reviews or paid ads, to rank books organically through outside viral traffic instead of gaming Amazon's review system.",
+    "pitch": "The presenter argues the older KDP playbook, stacking reviews quickly then relying on Amazon ads, is breaking down on three fronts: Amazon is actively cracking down on review manipulation, AI has commoditized book quality so a well-made book is no longer a real differentiator, and Amazon ad costs keep climbing as more AI-assisted publishers compete for the same keywords. His fix: build a following on TikTok, faceless content is fine to start, promoting a specific book, let viral TikTok traffic drive organic Amazon rank and reviews without needing to manipulate anything, and use TikTok Shop's direct-purchase feature as a second, independent sales channel.",
+    "best": "Someone willing to build a TikTok content presence around their book, even faceless, rather than relying purely on Amazon's internal ecosystem, and comfortable treating this as a genuinely early, narrowing window rather than a permanent strategy.",
+    "truth": "The presenter cites his own TikTok Shop sales, $350k in 2025, $300k so far this year, and runs a paid coaching program teaching this exact strategy, so there's a clear incentive to frame the opportunity as urgent and time-limited. The underlying diagnosis, that Amazon's review-manipulation crackdown and AI-driven quality commoditization are real trends, is a reasonable read of the current KDP landscape independent of the specific program being sold.",
+    "url": "https://www.youtube.com/watch?v=PThbzpRjqRs",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-24"
+  },
+  {
+    "id": "ai-built-shopify-store-claude",
+    "name": "AI-built Shopify store using Claude",
+    "category": "E-commerce",
+    "tags": [
+      "e-commerce",
+      "AI tools",
+      "low startup cost",
+      "Shopify"
+    ],
+    "cost": "Low startup cost",
+    "found": "Jordan Welch",
+    "what": "Build an entire Shopify e-commerce store, including product images, website copy, and design, using AI tools rather than hiring designers, copywriters, or photographers. Welch used Claude for the site's code and written copy, and an AI video/image generation tool (Higgsfield) for product visuals and marketing videos.",
+    "pitch": "Welch frames this as a case study: he says he took a 17-year-old subscriber with less than $100 to their name and helped them build a store that did over $100,000 in sales within 90 days, and over $200,000 within six months, using only about 30 minutes of work a day. He argues that where store-building once required real skill in web design, copywriting, and content creation, AI tools now handle most of that work, leaving execution and consistency as the main differentiators.",
+    "best": "Someone comfortable spending real time experimenting inside AI tools daily and willing to treat this as an ongoing store to manage, not a one-time setup.",
+    "truth": "A few things worth flagging: Welch is promoting his own free course and a pre-built AI Shopify store template alongside this video, so there's a clear incentive to make the process sound as simple and fast as possible. He also has a long, established e-commerce career (he mentions a personal store portfolio doing over $10 million a year), so his starting skill level isn't really comparable to a true beginner's. Unlike the AI-built dropshipping model covered elsewhere in this database, this video doesn't specify a product-sourcing method (no mention of a dropshipping supplier tool), so it's not clear if this specific case study is dropshipping, print-on-demand, or another model, worth digging into before assuming it works the same way.",
+    "url": "https://www.youtube.com/watch?v=jMJbbu3RE_E",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "published": "2026-07-11"
+  },
+  {
     "id": "wall-printer-mural-service",
     "name": "Wall printer mural service for businesses",
     "category": "Physical & print products",
@@ -4275,6 +4366,31 @@
     "published": "2026-04-21"
   },
   {
+    "id": "waste-oil-grease-collection-recycling",
+    "name": "Waste oil and grease collection and recycling route",
+    "category": "Local & professional services",
+    "tags": [
+      "route based",
+      "recurring revenue",
+      "regulatory requirement",
+      "recycling"
+    ],
+    "cost": "High startup cost (vacuum truck, permits)",
+    "found": "Johnny & Sergio",
+    "what": "Collect used motor oil and cooking grease from auto shops, restaurants, and small manufacturers on a recurring pickup schedule, a regulatory requirement for these businesses, then resell the collected oil to re-refiners for a second revenue stream on the same stop.",
+    "pitch": "Businesses that generate used oil or grease can't legally dispose of it themselves, so pickup isn't optional, and once you're the hauler of record for an account, the presenters say customers rarely shop around since nobody wants to risk getting caught non-compliant. The double revenue stream, a pickup fee plus reselling the oil, is what the presenters say sets this apart from most other route-based businesses on their list.",
+    "best": "Someone with access to real startup capital for a vacuum truck and the right hauling permits, and who's comfortable with revenue that partly fluctuates with commodity oil prices.",
+    "truth": "The presenters flag this honestly as one of the heaviest startup-cost items on their list, requiring a specialized vehicle and permits before you can legally operate, and note the resale side of the revenue moves with oil prices rather than staying flat. They frame it as one of the least-known businesses on the list rather than a proven, widely replicated model.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Needs a truck or cargo vehicle",
+      "Requires a license or certification"
+    ],
+    "published": "2026-08-14"
+  },
+  {
     "id": "online-services-skill-pyramid-roadmap",
     "name": "The skill pyramid for turning an online service into $10,000 a month",
     "category": "Local & professional services",
@@ -4536,31 +4652,6 @@
     "best": "Someone comfortable pitching facilities managers and building an initial art inventory, without needing physical labor or seasonal availability.",
     "truth": "Art leasing to commercial properties is a real, if niche, established service. No specific case study or verified revenue figure is given; figures are general estimates from the presenter's framing.",
     "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
-  },
-  {
-    "id": "waste-oil-grease-collection-recycling",
-    "name": "Waste oil and grease collection and recycling route",
-    "category": "Local & professional services",
-    "tags": [
-      "route based",
-      "recurring revenue",
-      "regulatory requirement",
-      "recycling"
-    ],
-    "cost": "High startup cost (vacuum truck, permits)",
-    "found": "Johnny & Sergio",
-    "what": "Collect used motor oil and cooking grease from auto shops, restaurants, and small manufacturers on a recurring pickup schedule, a regulatory requirement for these businesses, then resell the collected oil to re-refiners for a second revenue stream on the same stop.",
-    "pitch": "Businesses that generate used oil or grease can't legally dispose of it themselves, so pickup isn't optional, and once you're the hauler of record for an account, the presenters say customers rarely shop around since nobody wants to risk getting caught non-compliant. The double revenue stream, a pickup fee plus reselling the oil, is what the presenters say sets this apart from most other route-based businesses on their list.",
-    "best": "Someone with access to real startup capital for a vacuum truck and the right hauling permits, and who's comfortable with revenue that partly fluctuates with commodity oil prices.",
-    "truth": "The presenters flag this honestly as one of the heaviest startup-cost items on their list, requiring a specialized vehicle and permits before you can legally operate, and note the resale side of the revenue moves with oil prices rather than staying flat. They frame it as one of the least-known businesses on the list rather than a proven, widely replicated model.",
-    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Needs a truck or cargo vehicle",
-      "Requires a license or certification"
-    ],
-    "published": "2026-08-14"
   },
   {
     "id": "metal-melting-furnace-cast-jewelry",
@@ -4915,6 +5006,29 @@
     "best": "Someone patient with repetitive interactions and comfortable working under mild pressure; no specialized skill required.",
     "truth": "Remote customer service roles with major named companies are a real, established category of work-from-home employment. Pay figures are general ranges, not tied to a single case study.",
     "url": "https://www.youtube.com/watch?v=TEpSqX6ONl4"
+  },
+  {
+    "id": "truck-driver-recruiting-placement",
+    "name": "Truck driver recruiting and placement service",
+    "category": "Local & professional services",
+    "tags": [
+      "staffing",
+      "recruiting",
+      "logistics",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost (ad spend only)",
+    "found": "Johnny & Sergio",
+    "what": "Run Facebook ads to find qualified CDL drivers and owner-operators looking for better freight or routes, vet them for a valid license and clean record, then place them with trucking companies for a per-driver placement fee.",
+    "pitch": "Trucking companies lose real money, cited at around $4,000 a month per truck, for every truck sitting empty without a qualified driver, which is why carriers will pay a placement fee of up to $4,000 for every qualified driver who gets hired and stays on. The presenters describe this as one of the purest \"laptop style\" businesses on their list, since you never touch a truck, own a truck, or need labor, inventory, or a lease, just a Facebook ad account.",
+    "best": "Someone comfortable running paid ads and doing consistent outreach, since this is a placement/staffing model rather than a subscription, meaning you're always selling and refilling the pipeline, and a slow month directly hits revenue.",
+    "truth": "The presenters are candid that this ranks mid-list because of that staffing-model instability, not because the underlying opportunity is weak, calling it stressful when the pipeline gets thin. The $4,000-per-truck and per-placement figures come from a source the presenter says they spoke with directly, a specific and checkable-in-principle number, though it's a single secondhand account rather than an audited industry statistic.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-08-14"
   },
   {
     "id": "mini-hammer-crusher-debris-recycling",
@@ -5483,29 +5597,6 @@
     "published": "2026-09-11"
   },
   {
-    "id": "truck-driver-recruiting-placement",
-    "name": "Truck driver recruiting and placement service",
-    "category": "Local & professional services",
-    "tags": [
-      "staffing",
-      "recruiting",
-      "logistics",
-      "low startup cost"
-    ],
-    "cost": "Very low startup cost (ad spend only)",
-    "found": "Johnny & Sergio",
-    "what": "Run Facebook ads to find qualified CDL drivers and owner-operators looking for better freight or routes, vet them for a valid license and clean record, then place them with trucking companies for a per-driver placement fee.",
-    "pitch": "Trucking companies lose real money, cited at around $4,000 a month per truck, for every truck sitting empty without a qualified driver, which is why carriers will pay a placement fee of up to $4,000 for every qualified driver who gets hired and stays on. The presenters describe this as one of the purest \"laptop style\" businesses on their list, since you never touch a truck, own a truck, or need labor, inventory, or a lease, just a Facebook ad account.",
-    "best": "Someone comfortable running paid ads and doing consistent outreach, since this is a placement/staffing model rather than a subscription, meaning you're always selling and refilling the pipeline, and a slow month directly hits revenue.",
-    "truth": "The presenters are candid that this ranks mid-list because of that staffing-model instability, not because the underlying opportunity is weak, calling it stressful when the pipeline gets thin. The $4,000-per-truck and per-placement figures come from a source the presenter says they spoke with directly, a specific and checkable-in-principle number, though it's a single secondhand account rather than an audited industry statistic.",
-    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ],
-    "published": "2026-08-14"
-  },
-  {
     "id": "hopper-gun-textured-wall-finishing",
     "name": "Offering decorative textured wall finishing with a hopper gun spray tool",
     "category": "Local & professional services",
@@ -5621,6 +5712,30 @@
       "Needs inventory storage"
     ],
     "published": "2026-08-13"
+  },
+  {
+    "id": "non-emergency-medical-transportation",
+    "name": "Non-emergency medical transportation (NEMT) service",
+    "category": "Local & professional services",
+    "tags": [
+      "healthcare",
+      "recurring revenue",
+      "insurance billing",
+      "logistics"
+    ],
+    "cost": "Low to moderate startup cost",
+    "found": "Johnny & Sergio",
+    "what": "Coordinate rides for patients who need regular transportation to dialysis, chemotherapy, or other medical appointments and can't drive themselves, billing the ride to Medicaid or insurance rather than charging the patient directly, while independent drivers with their own vehicles do the actual driving.",
+    "pitch": "Because rides bill through insurance rather than a rideshare-style flat rate, the presenters say pricing runs meaningfully higher than a service like Uber, and recurring patients, such as someone needing dialysis three times a week for years, create some of the stickiest repeat revenue on their whole list. Once a patient and their case manager trust a driver, the presenters argue they're unlikely to go looking for a new one.",
+    "best": "Someone with patience for paperwork and a willingness to navigate Medicaid and managed-care billing, plus the operational discipline to vet and manage independent drivers as the actual face of the service.",
+    "truth": "The presenters are direct that getting set up to bill Medicaid and insurance is genuinely slow and paperwork-heavy, and that payment itself can take a while to come through, real friction points they don't gloss over. They also flag that driver reliability is the whole product here, since patients are trusting the driver, not the company brand.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Local travel required",
+      "Requires hiring or managing others",
+      "Requires a license or certification"
+    ],
+    "published": "2026-08-14"
   },
   {
     "id": "party-rental-delivery-service",
@@ -6269,30 +6384,6 @@
     "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
   },
   {
-    "id": "non-emergency-medical-transportation",
-    "name": "Non-emergency medical transportation (NEMT) service",
-    "category": "Local & professional services",
-    "tags": [
-      "healthcare",
-      "recurring revenue",
-      "insurance billing",
-      "logistics"
-    ],
-    "cost": "Low to moderate startup cost",
-    "found": "Johnny & Sergio",
-    "what": "Coordinate rides for patients who need regular transportation to dialysis, chemotherapy, or other medical appointments and can't drive themselves, billing the ride to Medicaid or insurance rather than charging the patient directly, while independent drivers with their own vehicles do the actual driving.",
-    "pitch": "Because rides bill through insurance rather than a rideshare-style flat rate, the presenters say pricing runs meaningfully higher than a service like Uber, and recurring patients, such as someone needing dialysis three times a week for years, create some of the stickiest repeat revenue on their whole list. Once a patient and their case manager trust a driver, the presenters argue they're unlikely to go looking for a new one.",
-    "best": "Someone with patience for paperwork and a willingness to navigate Medicaid and managed-care billing, plus the operational discipline to vet and manage independent drivers as the actual face of the service.",
-    "truth": "The presenters are direct that getting set up to bill Medicaid and insurance is genuinely slow and paperwork-heavy, and that payment itself can take a while to come through, real friction points they don't gloss over. They also flag that driver reliability is the whole product here, since patients are trusting the driver, not the company brand.",
-    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
-    "situation_tags": [
-      "Local travel required",
-      "Requires hiring or managing others",
-      "Requires a license or certification"
-    ],
-    "published": "2026-08-14"
-  },
-  {
     "id": "branded-dropshipping-trust-positioning",
     "name": "Branded dropshipping: positioning products as a trusted brand, not a generic listing",
     "category": "E-commerce",
@@ -6477,6 +6568,30 @@
     "best": "Someone with genuine subject-matter strength (not just general availability), comfortable setting their own schedule and rates.",
     "truth": "Direct-to-student tutoring platforms are real and accurately described, and the specialization-over-generic-availability observation matches how these marketplaces typically reward tutors. Pay figures are general platform ranges.",
     "url": "https://www.youtube.com/watch?v=TEpSqX6ONl4"
+  },
+  {
+    "id": "foundation-repair-waterproofing-leadgen",
+    "name": "Foundation repair and waterproofing lead generation",
+    "category": "Local & professional services",
+    "tags": [
+      "home services",
+      "lead generation",
+      "partnership model",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Johnny & Sergio",
+    "what": "Partner with licensed foundation repair and waterproofing crews who already own the specialized equipment, hydraulic piers, drainage systems, and handle their marketing, scheduling, and sales conversations in exchange for a cut of every job you bring them, without doing any of the physical repair work yourself.",
+    "pitch": "A cracking foundation or a flooding crawl space pushes homeowners to act fast, with jobs commonly running $5,000 to $15,000, and the presenters note there's no single dominant player controlling more than a small share of the market. Because you're leveraging crews who already own expensive equipment, the presenters say you can start with just a Google Business Profile and some before-and-after photos rather than any real capital.",
+    "best": "Someone comfortable with lead generation and sales who wants to avoid buying equipment or doing physical labor, and who's okay with a business that's mostly one-time transactions per customer rather than recurring.",
+    "truth": "The presenters are upfront that the one thing keeping this from ranking higher on their list is that it's almost entirely one-time work, a homeowner's foundation gets fixed once, and then you're hoping for the next referral or lead, which they acknowledge can get stressful as you try to grow. They frame the urgency and dollar amounts as genuine, not exaggerated, since a worsening foundation is a real, escalating cost to the homeowner.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Local travel required",
+      "Phone/sales-based",
+      "Requires hiring or managing others"
+    ],
+    "published": "2026-08-14"
   },
   {
     "id": "mortar-spray-machine-stucco-plastering",
@@ -6988,30 +7103,6 @@
     "published": "2025-09-12"
   },
   {
-    "id": "foundation-repair-waterproofing-leadgen",
-    "name": "Foundation repair and waterproofing lead generation",
-    "category": "Local & professional services",
-    "tags": [
-      "home services",
-      "lead generation",
-      "partnership model",
-      "low startup cost"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Johnny & Sergio",
-    "what": "Partner with licensed foundation repair and waterproofing crews who already own the specialized equipment, hydraulic piers, drainage systems, and handle their marketing, scheduling, and sales conversations in exchange for a cut of every job you bring them, without doing any of the physical repair work yourself.",
-    "pitch": "A cracking foundation or a flooding crawl space pushes homeowners to act fast, with jobs commonly running $5,000 to $15,000, and the presenters note there's no single dominant player controlling more than a small share of the market. Because you're leveraging crews who already own expensive equipment, the presenters say you can start with just a Google Business Profile and some before-and-after photos rather than any real capital.",
-    "best": "Someone comfortable with lead generation and sales who wants to avoid buying equipment or doing physical labor, and who's okay with a business that's mostly one-time transactions per customer rather than recurring.",
-    "truth": "The presenters are upfront that the one thing keeping this from ranking higher on their list is that it's almost entirely one-time work, a homeowner's foundation gets fixed once, and then you're hoping for the next referral or lead, which they acknowledge can get stressful as you try to grow. They frame the urgency and dollar amounts as genuine, not exaggerated, since a worsening foundation is a real, escalating cost to the homeowner.",
-    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
-    "situation_tags": [
-      "Local travel required",
-      "Phone/sales-based",
-      "Requires hiring or managing others"
-    ],
-    "published": "2026-08-14"
-  },
-  {
     "id": "hand-painted-signs-banners-business",
     "name": "Hand-painting custom signs and party banners as an alternative to vinyl printing",
     "category": "Physical & print products",
@@ -7030,6 +7121,29 @@
     "truth": "The core observation, that hand-craftsmanship stands out against mass-produced vinyl printing and can support a real following-driven sales channel, is sound, and the banner version genuinely has a very low cost of entry. The follower-count and pricing figures come from two specific individual examples rather than typical outcomes, and building an audience large enough to sustain consistent DM orders took real, sustained content effort, not just posting a few paintings.",
     "url": "https://www.youtube.com/watch?v=akllDPkT07I",
     "published": "2026-07-09"
+  },
+  {
+    "id": "remote-run-residential-cleaning-business",
+    "name": "Remote-run residential cleaning business",
+    "category": "Local & professional services",
+    "tags": [
+      "home services",
+      "recurring revenue",
+      "beginner friendly",
+      "very low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Johnny & Sergio",
+    "what": "Run a residential house-cleaning business without doing any of the cleaning yourself. Hire independent cleaners who already own their own supplies and vehicles, handle the marketing, scheduling, and customer relationships, and split revenue roughly 50/50 with the cleaner on every job.",
+    "pitch": "The presenters rank this their overall number-one pick because it's a large, fragmented home-services market with no dominant national brand, and roughly one in three one-time cleanings converts into a recurring client, building compounding revenue instead of starting from zero every month. Using a rough example, a $350 first-time deep clean split 50/50 with the cleaner, scaled to around 25 to 30 recurring clients, gets to roughly $10,000 a month in revenue with no employees on payroll and minimal ongoing labor from the owner.",
+    "best": "Someone willing to build the business around recruiting and managing independent cleaners from day one, rather than doing cleanings themselves to save money early on, which the presenters call the single most common way people sabotage this model.",
+    "truth": "The presenters are explicit that this is the business they'd start themselves from zero, and flag a real failure pattern: people who fail at this almost always fail the same way, by getting personally attached to doing the cleaning and building limiting beliefs around recruiting cleaners instead of stepping into an owner role early. They also promote a paid mentorship program at the end with a stated revenue and client guarantee, worth knowing given the number of specific client success figures cited throughout the video.",
+    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
+    "situation_tags": [
+      "Requires hiring or managing others",
+      "Strictly in-home"
+    ],
+    "published": "2026-08-14"
   },
   {
     "id": "tart-shell-b2b-supply-business",
@@ -8477,97 +8591,6 @@
     "truth": "Owning the customer relationship (email list) instead of a one-time marketplace transaction is a sound, well-established principle for repeat digital-product sales, and Systeme.io's free tier genuinely covers landing pages, email, and checkout in one place. The video is fairly generic and doesn't walk through a specific product, niche, or real numbers the way some similar funnel pitches do, so treat this as a solid structural framework rather than a proven, numbers-backed case study.",
     "url": "https://www.youtube.com/watch?v=00IaFaHDfsI",
     "published": "2026-09-08"
-  },
-  {
-    "id": "free-lead-magnet-websites-whitelabel-upsells",
-    "name": "Free lead-magnet websites for local businesses, monetized via white-label platform subscription and AI upsells",
-    "category": "Local & professional services",
-    "tags": [
-      "local business",
-      "white label",
-      "AI tools",
-      "recurring revenue"
-    ],
-    "cost": "Very low startup cost (white-label software subscription)",
-    "found": "John Whitford",
-    "what": "Finding local businesses with no website or a poor one via Google Maps, building and giving them a free website as a foot-in-the-door gift, then charging a low monthly fee for hosting it on a white-label all-in-one software platform, and upselling additional AI features over time.",
-    "pitch": "The presenter walks through the full funnel live: search Google Maps for a specific business type and city, skip the already-top-ranked results and look instead for a solid business with no website or a thin one, build them a free website hosted on a white-label software platform combining hosting, a CRM, and AI tools in one, then once they're using it, upsell a chat widget, roughly $50 to $300 a month, a speed-to-lead automated follow-up workflow that texts and emails new leads within seconds of a missed call, roughly $200 to $500 a month, and an AI voice receptionist trained on that specific business, $500 to $1,000 a month, stacking a single client to several hundred dollars a month in recurring revenue.",
-    "best": "Someone comfortable with local outreach and willing to give away the first deliverable for free to build trust before charging for anything, rather than pitching a paid product cold.",
-    "truth": "The presenter discloses over 2,500 paying software customers and personal financial independence from this business, but individual client revenue figures shown are explicitly framed as illustrative, conservative estimates rather than guaranteed or typical results. The presenter has a financial incentive to promote sign-ups for the specific software platform used throughout the video.",
-    "url": "https://www.youtube.com/watch?v=YFf3jRZ0bho",
-    "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based"
-    ],
-    "published": "2026-08-17"
-  },
-  {
-    "id": "faceless-tiktok-shop-seller-affiliate-army",
-    "name": "Faceless TikTok Shop seller business using print-on-demand and an affiliate army",
-    "category": "E-commerce",
-    "tags": [
-      "TikTok Shop",
-      "print on demand",
-      "e-commerce",
-      "faceless"
-    ],
-    "cost": "Low startup cost (Printify Premium ~$30/month)",
-    "found": "Jon Reiter",
-    "what": "Become a TikTok Shop seller (rather than an affiliate) using print-on-demand fulfillment through Printify so there's no upfront inventory, then instead of creating your own content, recruit and pay a team of TikTok Shop affiliates to film and post promotional videos for a commission.",
-    "pitch": "Reiter's core argument is structural: TikTok Shop affiliates typically keep only 10-30% commission and never own the underlying store or brand, while sellers keep 50-70% of profit and own an asset they could eventually sell. He walks through the specific mechanics: connect a TikTok Shop to Printify for on-demand fulfillment, filter products through what he calls the \"mandatory three\" (immediate visual wow factor, solves an urgent problem, easy to film), then use a tool like Kalodata to find affiliates already driving sales for similar trending products and poach them with a higher commission rate (which he calls \"affiliate sniping\"), optionally supplementing with AI-generated product videos from a single product photo.",
-    "best": "Someone comfortable managing and motivating a team of outside content creators (affiliates) rather than producing content themselves, and willing to test multiple print-on-demand product ideas before finding ones that sell.",
-    "truth": "Reiter is direct that the headline $201,509/month and $273,000/month figures are not representative of a realistic start, and gives a more grounded estimate instead: roughly $5,000 in sales in the first 30 days, $15,000-$20,000 a month by 90-110 days with consistent effort. The specific student examples cited (Joe, April White, Cooper) are from his own paid coaching program (\"inner circle\"), which the video promotes throughout, so they're not independently verified case studies.",
-    "url": "https://www.youtube.com/watch?v=8Oo2grpskhA",
-    "situation_tags": [
-      "Strictly in-home",
-      "E-commerce / fulfillment"
-    ],
-    "published": "2026-08-13"
-  },
-  {
-    "id": "tiktok-shop-traffic-kdp-books",
-    "name": "Driving TikTok Shop traffic to Amazon KDP books instead of relying on reviews or ads",
-    "category": "Digital & subscription products",
-    "tags": [
-      "Amazon KDP",
-      "TikTok Shop",
-      "publishing",
-      "marketing"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Jonathan Nilsen",
-    "what": "Driving external traffic from TikTok Shop to Amazon KDP book listings, rather than relying on Amazon's own reviews or paid ads, to rank books organically through outside viral traffic instead of gaming Amazon's review system.",
-    "pitch": "The presenter argues the older KDP playbook, stacking reviews quickly then relying on Amazon ads, is breaking down on three fronts: Amazon is actively cracking down on review manipulation, AI has commoditized book quality so a well-made book is no longer a real differentiator, and Amazon ad costs keep climbing as more AI-assisted publishers compete for the same keywords. His fix: build a following on TikTok, faceless content is fine to start, promoting a specific book, let viral TikTok traffic drive organic Amazon rank and reviews without needing to manipulate anything, and use TikTok Shop's direct-purchase feature as a second, independent sales channel.",
-    "best": "Someone willing to build a TikTok content presence around their book, even faceless, rather than relying purely on Amazon's internal ecosystem, and comfortable treating this as a genuinely early, narrowing window rather than a permanent strategy.",
-    "truth": "The presenter cites his own TikTok Shop sales, $350k in 2025, $300k so far this year, and runs a paid coaching program teaching this exact strategy, so there's a clear incentive to frame the opportunity as urgent and time-limited. The underlying diagnosis, that Amazon's review-manipulation crackdown and AI-driven quality commoditization are real trends, is a reasonable read of the current KDP landscape independent of the specific program being sold.",
-    "url": "https://www.youtube.com/watch?v=PThbzpRjqRs",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-24"
-  },
-  {
-    "id": "ai-built-shopify-store-claude",
-    "name": "AI-built Shopify store using Claude",
-    "category": "E-commerce",
-    "tags": [
-      "e-commerce",
-      "AI tools",
-      "low startup cost",
-      "Shopify"
-    ],
-    "cost": "Low startup cost",
-    "found": "Jordan Welch",
-    "what": "Build an entire Shopify e-commerce store, including product images, website copy, and design, using AI tools rather than hiring designers, copywriters, or photographers. Welch used Claude for the site's code and written copy, and an AI video/image generation tool (Higgsfield) for product visuals and marketing videos.",
-    "pitch": "Welch frames this as a case study: he says he took a 17-year-old subscriber with less than $100 to their name and helped them build a store that did over $100,000 in sales within 90 days, and over $200,000 within six months, using only about 30 minutes of work a day. He argues that where store-building once required real skill in web design, copywriting, and content creation, AI tools now handle most of that work, leaving execution and consistency as the main differentiators.",
-    "best": "Someone comfortable spending real time experimenting inside AI tools daily and willing to treat this as an ongoing store to manage, not a one-time setup.",
-    "truth": "A few things worth flagging: Welch is promoting his own free course and a pre-built AI Shopify store template alongside this video, so there's a clear incentive to make the process sound as simple and fast as possible. He also has a long, established e-commerce career (he mentions a personal store portfolio doing over $10 million a year), so his starting skill level isn't really comparable to a true beginner's. Unlike the AI-built dropshipping model covered elsewhere in this database, this video doesn't specify a product-sourcing method (no mention of a dropshipping supplier tool), so it's not clear if this specific case study is dropshipping, print-on-demand, or another model, worth digging into before assuming it works the same way.",
-    "url": "https://www.youtube.com/watch?v=jMJbbu3RE_E",
-    "situation_tags": [
-      "Strictly in-home",
-      "E-commerce / fulfillment"
-    ],
-    "published": "2026-07-11"
   },
   {
     "id": "multi-channel-book-reselling-business",
@@ -10515,6 +10538,25 @@
     "url": "https://www.youtube.com/watch?v=wReAMTdeYrE"
   },
   {
+    "id": "used-book-reselling-robo-scout-ebay-amazon",
+    "name": "Reselling used books on eBay and Amazon, using barcode-scanning software to identify which books are actually worth selling",
+    "category": "E-commerce",
+    "tags": [
+      "used book reselling",
+      "eBay",
+      "Amazon FBA",
+      "book scouting software",
+      "estate sale sourcing"
+    ],
+    "cost": "Low (a scouting software subscription like Robo Scout; a barcode scanner once doing volume)",
+    "found": "Josh Graff",
+    "what": "Set up seller accounts on both eBay (fast, simple) and Amazon (takes weeks due to identity verification, so start early even if not selling there yet), then use book-scouting software to scan a book's barcode/ISBN and instantly see its current Amazon resale price and a 180-day 'sell score' showing how often it actually sells, filtering out the vast majority of books not worth reselling (anything under roughly $10-12 isn't worth the ~$4.50 media-mail shipping) and focusing on non-fiction, obscure, or collectible titles that sell reliably at $12+; source inventory from estate sales (best, rarely picked over) and thrift stores (more hit-or-miss, often already picked through).",
+    "pitch": "The presenter, who sells used books full-time to support his family, walks through live examples: one book with a sell score of 79/180 days and a $23 resale price ('a no-brainer'), and another worth roughly $100 used despite being harder to find in stock, illustrating exactly how to read the scouting software's output.",
+    "best": "Someone with access to estate sales/thrift stores in their area, willing to sort through dozens or hundreds of books to find the handful actually worth listing.",
+    "truth": "Used book arbitrage via barcode-scanning scout apps is a real, long-established reselling niche, and the specific economics described reflect genuine, practical knowledge from someone doing this as an actual full-time business. No specific personal revenue figures are given in this excerpt, though the presenter states this is his full-time income source.",
+    "url": "https://www.youtube.com/watch?v=o6yoJeHbq68"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -11256,6 +11298,82 @@
     "url": "https://www.youtube.com/watch?v=WlLC8r3jj0k"
   },
   {
+    "id": "whitelabel-saas-clone-birdeye-rebilling",
+    "name": "White-labeling a GoHighLevel-powered software clone of a named $500M SaaS company (Birdeye), with tiered pricing and usage rebilling",
+    "category": "Digital & subscription products",
+    "tags": [
+      "white-label SaaS",
+      "GoHighLevel",
+      "software rebilling",
+      "review management clone",
+      "recurring subscription tiers"
+    ],
+    "cost": "Low (a white-labelable AI software platform subscription, 30-day free trial referenced)",
+    "found": "John Whitford",
+    "what": "Study a specific, real, well-known SaaS company's product and pricing (the presenter uses Birdeye, a ~$500M reputation-management platform selling AI-powered review requests, business listing sync, and social/marketing tools) then recreate an equivalent branded software product using a white-labelable AI platform, building your own tiered pricing plans by turning specific features on or off per tier without any coding. Generate three layers of revenue: the monthly subscription fee itself, 'rebilling' (marking up the underlying per-use cost of things like text messages that get passed through to the client), and a one-time setup/onboarding fee ($1,000-2,000) that increases how long a client stays subscribed by making sure they're properly set up in their first 30 days.",
+    "pitch": "The presenter, who says his own similarly-built white-label software reached over 1,000 paying customers and won the platform's top award, argues this beats time-based service businesses because clients treat a working software subscription like a utility bill they never think to cancel, and walks through cloning the specific competitor's feature set and pricing live.",
+    "best": "Someone comfortable studying a competitor's product/pricing page and configuring a white-label software platform's tiers and rebilling settings, without needing to code anything.",
+    "truth": "White-labeling an AI-powered local-business SaaS platform and reselling it under your own brand with tiered pricing and usage rebilling is a real, current business model already covered from multiple angles in this database, and the specific mechanics described (rebilling markup, setup-fee retention effect) are accurate to how these platforms work. The presenter's own 1,000-customer figure and the video's call to action (subscribe/like/comment for a free trial) make this a lead-generation video for his own affiliate-linked platform.",
+    "url": "https://www.youtube.com/watch?v=wiXG8rRAbes"
+  },
+  {
+    "id": "tiktok-shop-live-auction-selling-own-brand",
+    "name": "Selling products via TikTok Shop LIVE auctions, moving from affiliate promotion to owning your own branded margin",
+    "category": "E-commerce",
+    "tags": [
+      "TikTok Shop",
+      "live auction selling",
+      "Alibaba sourcing",
+      "own-brand e-commerce",
+      "livestream selling"
+    ],
+    "cost": "Low to moderate (initial small product orders from Alibaba-style suppliers, scaling to bulk own-branded inventory)",
+    "found": "Jon Reiter",
+    "what": "Sell products live on TikTok Shop using its 'auction' format (distinct from a normal fixed-price live listing), starting as an affiliate promoting others' products, then shifting to sourcing and owning your own branded inventory (e.g. purses bought wholesale from Alibaba-style suppliers) to capture the full margin instead of an affiliate commission; run consistent 2+ hour live sessions in the evening after a day job, and once volume grows, hire and train other people to run live sessions on your behalf.",
+    "pitch": "The interview subject, a full-time bank branch manager with four kids including one with special needs, reports going from zero TikTok Shop experience to over $250,000 in sales in 5 months, hitting a $68,000 single month, crediting the specific shift from affiliate-only selling to sourcing and branding her own purse product line as the moment revenue jumped.",
+    "best": "Someone willing to commit consistent evening hours to live-selling, comfortable eventually sourcing and managing inventory, and willing to hire/train others to scale.",
+    "truth": "TikTok Shop's live auction selling format and the affiliate-to-owned-brand progression described are real, current e-commerce mechanics. The case study's results are self-reported and this is a testimonial-style interview promoting the interviewer's own paid mentorship program, though the underlying business mechanics are legitimate and commonly used.",
+    "url": "https://www.youtube.com/watch?v=Vw5u5Atd-f0"
+  },
+  {
+    "id": "tiktok-shop-kdp-book-demand-engine",
+    "name": "Using TikTok Shop short-form video to create demand for self-published books before they're found on Amazon search",
+    "category": "Digital & subscription products",
+    "tags": [
+      "TikTok Shop",
+      "Amazon KDP",
+      "book publishing",
+      "affiliate content multiplication",
+      "seasonal product architecture"
+    ],
+    "cost": "Low (KDP publishing costs, optional paid ads once a winning format is found)",
+    "found": "Jonathan Nilsen",
+    "what": "Instead of relying on Amazon keyword search to be discovered, create short-form video content that manufactures demand directly, driving TikTok Shop sales that spill over into organic Amazon search visibility once the book has proven traction; use a simple, repeatable 11-second video format (curiosity hook, feature dump, direct CTA) that's faceless and easy for affiliates to copy once you find the winning angle, then build a 'reusable product architecture' by applying the same proven format to seasonal variants of the same emotional promise rather than reinventing the concept for every book.",
+    "pitch": "The presenter cites named case studies: Lark and Road doing $2.25M in TikTok Shop sales using seasonal gift-book variants of one format, Claremont Road Books doing ~$80K/month on TikTok Shop plus an estimated $80-100K/month on KDP after four months of testing, and his own books doing $250K in TikTok Shop sales this year.",
+    "best": "Someone willing to publish and test repeatedly to find one winning content format before scaling, comfortable with short-form video creation (even faceless).",
+    "truth": "TikTok Shop driving discovery and sales for self-published books, with organic Amazon spillover, is a real, current publishing dynamic, and the cited case studies include verifiable public brand names and platform-level sales data. The video explicitly promotes the presenter's own paid coaching community as the way to execute this system.",
+    "url": "https://www.youtube.com/watch?v=_QcuQRBrASA"
+  },
+  {
+    "id": "shopify-claude-mcp-trendtrack-clonestore-dropshipping",
+    "name": "Finding and validating winning dropshipping products with a Claude-connected ad-spy tool, then cloning and improving a competitor's store",
+    "category": "E-commerce",
+    "tags": [
+      "Shopify dropshipping",
+      "Claude MCP integration",
+      "ad-spy product research",
+      "competitor store cloning",
+      "AI validation research"
+    ],
+    "cost": "Low (an ad-spy tool subscription with free trial, a store-cloning tool subscription, a free Claude account)",
+    "found": "Jordan Welch",
+    "what": "Find winning dropshipping products using an ad-spy research tool, filtering for currently-active ads created in the last 30 days from stores with 10-50 live ads (established but still beatable), looking for products that are trending, not available in physical stores, have $25-30+ profit margin per order, and have visual 'wow factor'; connect the research tool to Claude via MCP so a single prompt scans the tool's data and produces a full product-validation report in about 10 minutes instead of a week of manual research; then connect a second tool to Claude via MCP to clone a validated competitor's store structure, feeding in the validation research so Claude helps craft differentiated angles and copywriting rather than a straight copy.",
+    "pitch": "The presenter reports taking a new store from zero to $424 in sales on day one using an Alaskan volcanic clay mask stick found through this process, and offers a free course plus a free AI-built Shopify store to viewers who sign up through his affiliate partnerships, walking through the entire live process on screen.",
+    "best": "Someone comfortable connecting and using multiple SaaS tools via Claude's MCP integrations and willing to do real product validation before launching.",
+    "truth": "Ad-spy research tools and Claude MCP integrations for automated product/competitor research are real, current, technically accurate capabilities, and the winning-product criteria described reflect standard, sound dropshipping selection logic. The $424-day-one figure is self-reported from one product, and the video is structured as a lead-in to his own free course and multiple paid-tool affiliate partnerships.",
+    "url": "https://www.youtube.com/watch?v=9zh3Raq4FVc"
+  },
+  {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
     "name": "Digistore24 affiliate marketing funnel using a free \"nurture sequence\" instead of direct-linking",
     "category": "Marketing & content",
@@ -11964,27 +12082,22 @@
     "published": "2026-04-21"
   },
   {
-    "id": "remote-run-residential-cleaning-business",
-    "name": "Remote-run residential cleaning business",
+    "id": "remote-cleaning-broker-contractor-network",
+    "name": "Running a 100% remote cleaning business by brokering jobs to independent contractor cleaners, never visiting a job site yourself",
     "category": "Local & professional services",
     "tags": [
-      "home services",
-      "recurring revenue",
-      "beginner friendly",
-      "very low startup cost"
+      "remote cleaning business",
+      "independent contractor network",
+      "recurring service booking",
+      "lead-to-cleaner brokerage"
     ],
-    "cost": "Very low startup cost",
+    "cost": "Low (a simple website, Google Business Profile, a separate phone number; paid ads optional on top)",
     "found": "Johnny & Sergio",
-    "what": "Run a residential house-cleaning business without doing any of the cleaning yourself. Hire independent cleaners who already own their own supplies and vehicles, handle the marketing, scheduling, and customer relationships, and split revenue roughly 50/50 with the cleaner on every job.",
-    "pitch": "The presenters rank this their overall number-one pick because it's a large, fragmented home-services market with no dominant national brand, and roughly one in three one-time cleanings converts into a recurring client, building compounding revenue instead of starting from zero every month. Using a rough example, a $350 first-time deep clean split 50/50 with the cleaner, scaled to around 25 to 30 recurring clients, gets to roughly $10,000 a month in revenue with no employees on payroll and minimal ongoing labor from the owner.",
-    "best": "Someone willing to build the business around recruiting and managing independent cleaners from day one, rather than doing cleanings themselves to save money early on, which the presenters call the single most common way people sabotage this model.",
-    "truth": "The presenters are explicit that this is the business they'd start themselves from zero, and flag a real failure pattern: people who fail at this almost always fail the same way, by getting personally attached to doing the cleaning and building limiting beliefs around recruiting cleaners instead of stepping into an owner role early. They also promote a paid mentorship program at the end with a stated revenue and client guarantee, worth knowing given the number of specific client success figures cited throughout the video.",
-    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
-    "situation_tags": [
-      "Requires hiring or managing others",
-      "Strictly in-home"
-    ],
-    "published": "2026-08-14"
+    "what": "Build a cleaning business entirely around brokering, never doing the cleaning yourself or hiring W-2 employees: set up a simple website, Google Business Profile, and dedicated phone number in your chosen city, source cleaners for free through local Facebook/Nextdoor group posts (filtering roughly 100 applicants down to about 20 reliable independent contractors), take bookings and route them to a vetted cleaner while keeping 50-60% of each job (roughly $150-175 of a $300-350 clean), and convert first-time customers to recurring bookings via a post-job quality-control call; use paid ads (Google LSA, Thumbtack, Meta) alongside organic recruiting once running.",
+    "pitch": "The presenter cites two friends with no cleaning background who started this as a side project alongside full-time furniture-store jobs, reaching $10,000/month within a couple months and $60,000/month in top-line revenue, still working their day jobs throughout; he frames the $40+ billion cleaning industry as extremely fragmented, meaning local competition is mostly unsophisticated solo operators.",
+    "best": "Someone comfortable managing an online-only operation (booking, dispatching, vetting cleaners, running ads) without ever personally cleaning a house or hiring in-house staff.",
+    "truth": "The customer-acquisition-plus-independent-contractor-network model for local service businesses is real and sound, and the specific unit economics given are consistent, plausible numbers. The case study is self-reported, and the video funnels toward the presenters' own paid one-on-one application/mentorship program.",
+    "url": "https://www.youtube.com/watch?v=p6mYFoY7fQE"
   },
   {
     "id": "electrician-subcontractor-to-remodeling-contractors",
