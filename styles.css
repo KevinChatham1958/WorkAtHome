@@ -334,19 +334,23 @@ a { color: inherit; }
 }
 
 /* ---------- Sort control ---------- */
+.sort-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
 .sort-label {
   font-size: 0.85rem;
   color: var(--text-muted);
-  font-weight: 600;
 }
 .sort-select {
   font-family: var(--font-body);
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: var(--text-primary);
   background: var(--bg-card);
   border: 1px solid var(--border-strong);
   border-radius: 8px;
-  padding: 6px 10px;
+  padding: 3px 8px;
   cursor: pointer;
 }
 .sort-select:hover { border-color: var(--accent); }

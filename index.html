@@ -43,12 +43,6 @@
           <input type="checkbox" id="saved-only-toggle">
           <span>View Saved Only</span>
         </label>
-        <label class="sort-label" for="sort-select">Sort:</label>
-        <select id="sort-select" class="sort-select">
-          <option value="shuffle">Shuffle (Default)</option>
-          <option value="newest">Newest</option>
-          <option value="oldest">Oldest</option>
-        </select>
       </div>
       <p class="search-instruction">Search by keyword, category, or creator — or just start scrolling</p>
       <button type="button" id="download-saved-btn" class="download-btn">
@@ -85,6 +79,15 @@
 
     <div class="db-links-row">
       <span>Current WAH Gigs: <span class="db-count" id="gig-count">—</span></span>
+      <span class="db-sep">&middot;</span>
+      <span class="sort-inline">
+        <label class="sort-label" for="sort-select">Sort by date:</label>
+        <select id="sort-select" class="sort-select">
+          <option value="shuffle">Shuffle (Default)</option>
+          <option value="newest">Newest</option>
+          <option value="oldest">Oldest</option>
+        </select>
+      </span>
     </div>
 
   </div>
