@@ -272,6 +272,24 @@
     "published": "2026-06-19"
   },
   {
+    "id": "commercial-backflow-testing",
+    "name": "Running a legally-mandated commercial backflow valve testing service",
+    "category": "Local & professional services",
+    "tags": [
+      "backflow testing",
+      "water utility compliance",
+      "recurring legal inspection",
+      "certification-based service"
+    ],
+    "cost": "Very low (certification costs a few hundred dollars and takes days)",
+    "found": "Jack Harrison Explains",
+    "what": "Get certified as a backflow tester and test the backflow prevention valves that restaurants, hospitals, and office buildings with sprinkler systems are legally required to have inspected once a year in nearly every state, or the water utility can shut the property's water off entirely; each test takes under an hour.",
+    "pitch": "The presenter charges $75-400 per device, with a mid-size commercial building often having 3-4 devices on site, framing this as selling the only thing standing between a property owner and the water company shutting their building off, meaning customers don't haggle.",
+    "best": "Someone willing to get a quick, inexpensive certification and comfortable managing a recurring annual testing schedule across commercial properties.",
+    "truth": "Backflow testing requirements are real, codified legal obligations in most states, and the described low-cost, low-barrier certification path is accurate to how this trade actually works. No specific personal case study or revenue figure is given beyond per-device pricing.",
+    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4"
+  },
+  {
     "id": "pest-control-route",
     "name": "Running a pest control or similar recurring home-service route",
     "category": "Local & professional services",
@@ -862,6 +880,24 @@
     "published": "2026-06-19"
   },
   {
+    "id": "commercial-kitchen-hood-cleaning",
+    "name": "Running a commercial kitchen exhaust hood cleaning service required by fire code",
+    "category": "Local & professional services",
+    "tags": [
+      "kitchen hood cleaning",
+      "fire code compliance",
+      "restaurant maintenance",
+      "recurring contract"
+    ],
+    "cost": "Low (labor and degreaser are the main costs)",
+    "found": "Jack Harrison Explains",
+    "what": "Clean commercial kitchen exhaust hoods on the schedule required by fire code (NFPA 96) for any restaurant running a fryer or grill, every one to six months depending on grease volume; insurance companies can refuse to pay a fire claim if the hood wasn't cleaned on schedule, which makes restaurant owners genuinely motivated to stay compliant.",
+    "pitch": "A single cleaning runs $400-600 with reported gross margins of 50-65%; the presenter does the math on a two-person crew handling 40 restaurants on quarterly contracts (160 cleanings/year) that nobody has to actively sell because the fire code creates the demand.",
+    "best": "Someone comfortable with physical cleaning labor and willing to build a client base of quarterly recurring restaurant contracts.",
+    "truth": "NFPA 96 and its insurance implications are real, codified requirements, and the margin/pricing figures are consistent with how this trade is typically priced. No specific personal case study is given beyond the illustrative math.",
+    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4"
+  },
+  {
     "id": "atm-machine-ownership",
     "name": "Owning and placing private ATM machines",
     "category": "Local & professional services",
@@ -995,6 +1031,24 @@
       "Strictly in-home"
     ],
     "published": "2026-08-10"
+  },
+  {
+    "id": "remote-virtual-assistant-work",
+    "name": "Working as a remote virtual assistant handling email, scheduling, and admin tasks",
+    "category": "Local & professional services",
+    "tags": [
+      "virtual assistant",
+      "remote admin work",
+      "Upwork",
+      "Belay"
+    ],
+    "cost": "Free (an Upwork/Fiverr account, or applying directly to VA agencies)",
+    "found": "Income Testing Lab",
+    "what": "Handle email management, scheduling, research, and admin tasks remotely for business owners, applying through dedicated VA agencies (Belay, Unbabel, which vet clients for you) or general freelance platforms (Upwork, Fiverr).",
+    "pitch": "Real pay runs $20-50/hour, sometimes higher for specialized calendar/inbox management, and many roles are ongoing part-time or full-time positions rather than one-off gigs, with zero startup cost.",
+    "best": "Someone organized with basic admin/scheduling skills; no degree required, though management experience helps.",
+    "truth": "Virtual assistant work through named platforms is a real, established remote job category. Pay figures are general platform data, not a single verified case study.",
+    "url": "https://www.youtube.com/watch?v=TEpSqX6ONl4"
   },
   {
     "id": "airbnb-turnover-cleaning-property-portfolios",
@@ -1574,6 +1628,23 @@
       "Strictly in-home"
     ],
     "published": "2026-06-19"
+  },
+  {
+    "id": "commercial-ice-machine-leasing",
+    "name": "Leasing and servicing commercial ice machines for bars, restaurants, and hotels",
+    "category": "Local & professional services",
+    "tags": [
+      "ice machine leasing",
+      "restaurant equipment service",
+      "all-inclusive maintenance contract"
+    ],
+    "cost": "Moderate to high (cost of ice machine units to lease out)",
+    "found": "Jack Harrison Explains",
+    "what": "Lease commercial ice machines to bars, restaurants, and hotels on an all-inclusive monthly contract covering service calls, repairs, and bi-annual maintenance, so the business never has to deal with an ice machine failure themselves (which tends to happen during a busy Friday night rush, not a quiet afternoon).",
+    "pitch": "Leasing companies charge $75-500/month per unit; the presenter frames what's really being sold as the guarantee that a breakdown becomes someone else's emergency, which is why customers rarely negotiate on price.",
+    "best": "Someone comfortable managing a fleet of leased equipment and coordinating repair/maintenance service (whether performed personally or subcontracted).",
+    "truth": "Commercial ice machine leasing with bundled maintenance is a real, established equipment-service model in the food service industry. Pricing figures are general industry ranges, not a specific verified case study.",
+    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4"
   },
   {
     "id": "pressure-washing-service",
@@ -2351,6 +2422,24 @@
     "published": "2026-06-19"
   },
   {
+    "id": "commercial-elevator-maintenance",
+    "name": "Running a licensed commercial elevator maintenance contract business",
+    "category": "Local & professional services",
+    "tags": [
+      "elevator maintenance",
+      "licensed trade",
+      "legally mandated inspection",
+      "high-rise contracts"
+    ],
+    "cost": "High (requires real licensing and training, typically working under a certified program first)",
+    "found": "Jack Harrison Explains",
+    "what": "Get licensed and trained in elevator maintenance (typically working under an existing certified program before signing your own contracts), then hold annual maintenance contracts required by law in every state; a small building's contract runs $3,500-5,000/year while a commercial high-rise can run $12,000-20,000/month.",
+    "pitch": "The presenter is explicit this isn't a weekend side hustle given the real licensing barrier, but frames that barrier as exactly why existing operators have waiting lists instead of marketing budgets, citing Massachusetts fining $100/day for an elevator operating without its required inspection.",
+    "best": "Someone willing to invest real time in licensing/certification for a genuine skilled trade with a high barrier to entry but correspondingly high contract values.",
+    "truth": "Mandatory elevator inspection/maintenance laws are real and codified, and the cited Massachusetts penalty reflects genuine regulatory enforcement. This is one of the higher-barrier items on the list, which the presenter states upfront rather than glossing over.",
+    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4"
+  },
+  {
     "id": "notary-loan-signing-agent",
     "name": "Notary loan signing agent",
     "category": "Local & professional services",
@@ -2595,6 +2684,24 @@
       "Strictly in-home"
     ],
     "published": "2026-08-10"
+  },
+  {
+    "id": "remote-transcription-work",
+    "name": "Working as a remote audio/video transcriber",
+    "category": "Local & professional services",
+    "tags": [
+      "transcription work",
+      "Rev",
+      "GoTranscript",
+      "per-minute pay"
+    ],
+    "cost": "Free (sign up and pass a typing/accuracy test)",
+    "found": "Income Testing Lab",
+    "what": "Turn audio and video into text for companies like Rev, GoTranscript, TranscribeMe, and Scribie, after passing a short typing/accuracy test; medical and legal transcription pays more but requires accuracy certifications.",
+    "pitch": "Rev's average transcriber makes about $156/month working around 15 jobs, with top earners hitting $900-1,500/month; medical/legal transcription runs $25-40/hour. The video is explicit that pay is per audio-minute, not per hour worked, so real hourly pay depends heavily on your typing speed.",
+    "best": "Someone with fast, accurate typing; the video recommends testing your own speed honestly before committing real time.",
+    "truth": "Named transcription platforms and their per-minute pay structure are real and accurately described, including the honest gap between advertised and real hourly rates depending on typing speed.",
+    "url": "https://www.youtube.com/watch?v=TEpSqX6ONl4"
   },
   {
     "id": "mini-dumper-tight-access-hauling",
@@ -2923,6 +3030,23 @@
       "Needs a truck or cargo vehicle"
     ],
     "published": "2026-06-19"
+  },
+  {
+    "id": "floor-mat-uniform-exchange-route",
+    "name": "Running a floor mat and work uniform exchange route for offices and restaurants",
+    "category": "Local & professional services",
+    "tags": [
+      "floor mat rental",
+      "uniform rental route",
+      "recurring B2B route business"
+    ],
+    "cost": "Moderate (vehicle and initial mat/uniform inventory)",
+    "found": "Jack Harrison Explains",
+    "what": "Run a route where a driver visits offices and restaurants every two weeks, swapping dirty floor mats and work uniforms for clean ones, billed as a recurring B2B service contract.",
+    "pitch": "The presenter cites Cintas, a $9.6 billion company built on exactly this simple exchange model, controlling nearly a third of a $20+ billion industry, framing it as proof that a genuinely boring, repeatable route business can scale enormously without any unique invention.",
+    "best": "Someone comfortable with a driving/logistics route business and building recurring B2B service contracts.",
+    "truth": "Cintas is a real, massive, publicly-known company validating this exact business model at scale. No specific small-operator case study or figures are given for someone starting from scratch in this niche.",
+    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4"
   },
   {
     "id": "formal-wear-dress-rental",
@@ -3826,6 +3950,30 @@
     "published": "2026-08-29"
   },
   {
+    "id": "ai-dropshipping-store-zendrop-smplsocial",
+    "name": "AI-built dropshipping store with auto-loaded products and AI video ads",
+    "category": "E-commerce",
+    "tags": [
+      "dropshipping",
+      "AI tools",
+      "Shopify",
+      "e-commerce",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost ($1/month Shopify promo, free AI store builder)",
+    "found": "Jeremy Ray Holst",
+    "what": "Use a guided \"free AI store builder\" wizard to set up a niche-specific Shopify store in a few clicks (pick a niche, colors, and banner), connect the ZenDrop supplier app so trending, pre-vetted products get automatically loaded onto the store with fulfillment handled on autopilot, then generate product marketing videos using only a screenshot of the product and a text prompt through a tool called smplsocial.io.",
+    "pitch": "The presenter demonstrates the entire build, from a blank page to a live, product-stocked store, in under 10 minutes on camera, emphasizing that no product ever has to be purchased, held, or physically touched to create realistic-looking marketing videos of it in use. The AI video step specifically removes the traditional friction of dropshipping marketing, no need to own the product, film it, or hire an editor, since a single screenshot and prompt produces a finished vertical video.",
+    "best": "A true beginner who wants the fastest possible path to a live, functioning store and is comfortable letting an automated supplier and AI tools handle product selection and content creation rather than doing deep niche research themselves.",
+    "truth": "The video is structured around the presenter's own free store-builder tool and a free course and community (dropshippingstarter.com) that it funnels into, both disclosed but worth factoring in given how central they are to the walkthrough. No revenue or sales results are shown or claimed for this specific store within the video, it demonstrates the build process only, not a proven outcome.",
+    "url": "https://www.youtube.com/watch?v=PSXm_Df2tL0",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "published": "2026-08-03"
+  },
+  {
     "id": "wall-printer-mural-service",
     "name": "Wall printer mural service for businesses",
     "category": "Physical & print products",
@@ -4354,6 +4502,24 @@
     "published": "2026-06-19"
   },
   {
+    "id": "medical-equipment-rental-business",
+    "name": "Renting medical equipment (wheelchairs, hospital beds, oxygen concentrators) with Medicare covering most of the bill",
+    "category": "Local & professional services",
+    "tags": [
+      "medical equipment rental",
+      "Medicare reimbursement",
+      "durable medical equipment",
+      "post-surgery recovery"
+    ],
+    "cost": "Moderate to high (equipment plus accredited medical equipment supplier licensing/paperwork)",
+    "found": "Jack Harrison Explains",
+    "what": "Become an accredited medical equipment supplier and rent out wheelchairs, hospital beds, and oxygen concentrators to patients discharged after surgery who need equipment temporarily (e.g., a hospital bed for 6 weeks of recovery) rather than buying it outright; clean and re-inspect equipment between rentals so it can go out repeatedly.",
+    "pitch": "Rents for $200-800/month, and in many cases Medicare pays 80% of that bill directly, meaning the presenter frames the real customer as a government payer that reliably pays on schedule rather than a stressed family managing medical bills themselves.",
+    "best": "Someone willing to complete accredited medical equipment supplier licensing and manage equipment cleaning/inspection between rentals.",
+    "truth": "Medicare's durable medical equipment rental coverage is a real, well-documented reimbursement pathway, and the licensing requirement described is accurate. No specific personal case study or revenue figures beyond the general rental-rate range are given.",
+    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4"
+  },
+  {
     "id": "art-leasing-offices-hotels",
     "name": "Leasing framed art to offices, hotels, and corporate lobbies on a rotating basis",
     "category": "Local & professional services",
@@ -4734,6 +4900,23 @@
     "published": "2026-08-10"
   },
   {
+    "id": "remote-customer-service-established-companies",
+    "name": "Working remote customer service for established Fortune 500 companies",
+    "category": "Local & professional services",
+    "tags": [
+      "remote customer service",
+      "work from home call center",
+      "established employer"
+    ],
+    "cost": "Free (many roles provide equipment and paid training)",
+    "found": "Income Testing Lab",
+    "what": "Handle calls, chats, and emails from home for known companies (Progressive, Amazon, insurance companies, major retailers) that hire remote reps directly, typically providing equipment and paid training.",
+    "pitch": "Pay starts around $14-25/hour and climbs with experience; expect 2-3 weeks before your first paycheck due to paid training, framed as one of the lowest-risk remote options since you work directly for known companies rather than an anonymous platform.",
+    "best": "Someone patient with repetitive interactions and comfortable working under mild pressure; no specialized skill required.",
+    "truth": "Remote customer service roles with major named companies are a real, established category of work-from-home employment. Pay figures are general ranges, not tied to a single case study.",
+    "url": "https://www.youtube.com/watch?v=TEpSqX6ONl4"
+  },
+  {
     "id": "mini-hammer-crusher-debris-recycling",
     "name": "On-site crushing of construction debris into resellable gravel with a mini hammer crusher",
     "category": "Local & professional services",
@@ -4895,6 +5078,23 @@
       "Requires equipment/vehicle investment"
     ],
     "published": "2026-06-19"
+  },
+  {
+    "id": "self-serve-dog-wash-stations",
+    "name": "Operating self-serve dog wash stations that customers pay to use themselves",
+    "category": "Local & professional services",
+    "tags": [
+      "self-serve dog wash",
+      "pet care business",
+      "automated retail unit"
+    ],
+    "cost": "Moderate (cost of a self-serve wash unit)",
+    "found": "Jack Harrison Explains",
+    "what": "Install a self-serve dog wash unit (like a Tubby-style machine) in a decent retail location where customers pay $15-25 to wash their own dog rather than dealing with the mess of washing at home; the machine handles the transaction itself, with the operator visiting weekly to restock soap and collect revenue.",
+    "pitch": "The presenter cites a per-wash cost to the owner of about $1.50 in water/electricity/shampoo against a $15-25 customer price, and says a well-placed unit washing 15-30 dogs/day can generate roughly $110,000-220,000/year in revenue.",
+    "best": "Someone able to secure a good retail location and willing to do weekly restocking/collection visits.",
+    "truth": "Self-serve dog wash units are a real, established small-business category with genuinely strong per-transaction margins given the low marginal cost. Revenue figures are general framing rather than a single verified case study.",
+    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4"
   },
   {
     "id": "pallet-crate-tote-rental-b2b",
@@ -5635,6 +5835,24 @@
     "published": "2026-06-19"
   },
   {
+    "id": "reverse-vending-recycling-kiosk-jackharrison",
+    "name": "Operating reverse vending recycling kiosks in states with bottle deposit laws",
+    "category": "Local & professional services",
+    "tags": [
+      "reverse vending machine",
+      "bottle deposit law",
+      "recycling kiosk",
+      "state-dependent business"
+    ],
+    "cost": "Moderate (cost of the reverse vending machine)",
+    "found": "Jack Harrison Explains",
+    "what": "Place a reverse vending machine outside a supermarket in a state with a bottle deposit law; customers feed in empty bottles and cans and get money back, while the machine owner earns from container deposit fees, on-screen advertising space, and recycling partnerships.",
+    "pitch": "Earns $300-1,000+/month per unit in a busy location, but the presenter is explicit this business only exists in states with a bottle deposit law on the books \u2014 if your state doesn't have one, the model simply doesn't exist there, so checking your state's law is the entire filter before pursuing this.",
+    "best": "Someone located in one of the states with an active bottle deposit law, willing to secure good supermarket foot-traffic placement.",
+    "truth": "Reverse vending machines and state bottle deposit laws are real and accurately described, and the presenter's upfront geographic caveat (unlike many similar videos) adds credibility. Revenue figures are general framing, not a personal case study.",
+    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4"
+  },
+  {
     "id": "used-cooking-oil-collection-route",
     "name": "Running a used cooking oil collection route, paid by both the restaurant and the biodiesel buyer",
     "category": "Local & professional services",
@@ -6243,6 +6461,24 @@
     "published": "2026-08-17"
   },
   {
+    "id": "online-tutoring-platforms",
+    "name": "Setting your own rates as an online tutor through direct-to-student platforms",
+    "category": "Local & professional services",
+    "tags": [
+      "online tutoring",
+      "Wyzant",
+      "iTalki",
+      "specialized subject teaching"
+    ],
+    "cost": "Free (sign up directly on the platform)",
+    "found": "Income Testing Lab",
+    "what": "Tutor students directly through platforms like Wyzant and iTalki in a subject you're strong in (language, math, test prep, coding basics), setting your own rates and schedule.",
+    "pitch": "Realistic pay sits around $15/hour for general subjects and $20-80/hour for specialized or advanced subjects; language tutoring is called out as particularly strong given constant global demand, with tutors who have a clear specialty and good reviews earning meaningfully more than generalists.",
+    "best": "Someone with genuine subject-matter strength (not just general availability), comfortable setting their own schedule and rates.",
+    "truth": "Direct-to-student tutoring platforms are real and accurately described, and the specialization-over-generic-availability observation matches how these marketplaces typically reward tutors. Pay figures are general platform ranges.",
+    "url": "https://www.youtube.com/watch?v=TEpSqX6ONl4"
+  },
+  {
     "id": "mortar-spray-machine-stucco-plastering",
     "name": "Offering fast mortar/stucco spraying for new home exteriors with a mini mortar spray machine",
     "category": "Local & professional services",
@@ -6298,6 +6534,23 @@
       "Home office, client-facing"
     ],
     "published": "2026-06-19"
+  },
+  {
+    "id": "solar-panel-cleaning-contract-service",
+    "name": "Running a scheduled solar panel cleaning service for commercial rooftops and small solar farms",
+    "category": "Local & professional services",
+    "tags": [
+      "solar panel cleaning",
+      "commercial rooftop maintenance",
+      "growing maintenance niche"
+    ],
+    "cost": "Moderate (leasing or buying cleaning robots/equipment, not manufacturing them)",
+    "found": "Jack Harrison Explains",
+    "what": "Lease or buy solar panel cleaning equipment (not build it yourself, which the presenter notes is a far more expensive manufacturing business) and run scheduled cleaning contracts across commercial rooftops and small solar farms, since dust and pollen buildup cuts electricity output by 4-8%, representing real lost revenue for panel owners.",
+    "pitch": "The presenter frames this as an emerging niche where solar capacity is growing faster than the maintenance industry serving it, meaning an early operator in most cities is effectively founding the local market rather than entering an already-crowded one.",
+    "best": "Someone willing to lease/operate cleaning equipment and build recurring maintenance contracts with commercial solar panel owners.",
+    "truth": "Solar panel output degradation from dust/pollen buildup is a real, documented phenomenon, and the growing-capacity-outpacing-maintenance argument is a reasonable, current market observation. No specific personal case study or revenue figures are given.",
+    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4"
   },
   {
     "id": "cardboard-bailing-resale-route",
@@ -6820,6 +7073,24 @@
       "Requires equipment/vehicle investment"
     ],
     "published": "2025-06-13"
+  },
+  {
+    "id": "grease-trap-pumping-double-revenue",
+    "name": "Running a grease trap pumping service that gets paid by the restaurant and again by a biofuel buyer",
+    "category": "Local & professional services",
+    "tags": [
+      "grease trap pumping",
+      "biofuel resale",
+      "waste-to-value arbitrage",
+      "health code compliance"
+    ],
+    "cost": "Moderate to high (pump truck and equipment)",
+    "found": "Jack Harrison Explains",
+    "what": "Pump out commercial kitchens' underground grease traps on the health-code-mandated schedule (every 1-3 months), getting paid by the restaurant for the removal service, then resell the collected used grease to biofuel producers who turn it into renewable diesel, getting paid a second time on the same material.",
+    "pitch": "The presenter cites one waste company that documented recovering nearly 300 tons of used grease over 3 years, generating over $100,000 in rebates on top of what they were already being paid to remove it \u2014 a genuine double-revenue mechanic on the same collected material.",
+    "best": "Someone comfortable with pump-truck route work and willing to build relationships with biofuel buyers for the resale side.",
+    "truth": "Grease trap pumping is a real, health-code-mandated recurring service, and grease-to-biofuel resale is a real, established secondary market; the cited case study figures (300 tons, $100K in rebates) are attributed to one specific company, not independently verified.",
+    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4"
   },
   {
     "id": "lavender-flower-farm-agritourism",
@@ -8163,30 +8434,6 @@
     "truth": "Revenue figures cited are estimates derived from Amazon's public bestseller rank via third-party tools, a commonly used but indirect estimation method, not confirmed sales data. The core catalog-of-small-niches strategy is a genuinely different approach from chasing one viral topic and is a sound way to reduce single-book risk, though it also means no individual book is likely to produce large income on its own \u2014 the model depends on volume across many titles.",
     "url": "https://www.youtube.com/watch?v=hUTkB6UQRLQ",
     "published": "2026-09-08"
-  },
-  {
-    "id": "ai-dropshipping-store-zendrop-smplsocial",
-    "name": "AI-built dropshipping store with auto-loaded products and AI video ads",
-    "category": "E-commerce",
-    "tags": [
-      "dropshipping",
-      "AI tools",
-      "Shopify",
-      "e-commerce",
-      "low startup cost"
-    ],
-    "cost": "Very low startup cost ($1/month Shopify promo, free AI store builder)",
-    "found": "Jeremy Ray Holst",
-    "what": "Use a guided \"free AI store builder\" wizard to set up a niche-specific Shopify store in a few clicks (pick a niche, colors, and banner), connect the ZenDrop supplier app so trending, pre-vetted products get automatically loaded onto the store with fulfillment handled on autopilot, then generate product marketing videos using only a screenshot of the product and a text prompt through a tool called smplsocial.io.",
-    "pitch": "The presenter demonstrates the entire build, from a blank page to a live, product-stocked store, in under 10 minutes on camera, emphasizing that no product ever has to be purchased, held, or physically touched to create realistic-looking marketing videos of it in use. The AI video step specifically removes the traditional friction of dropshipping marketing, no need to own the product, film it, or hire an editor, since a single screenshot and prompt produces a finished vertical video.",
-    "best": "A true beginner who wants the fastest possible path to a live, functioning store and is comfortable letting an automated supplier and AI tools handle product selection and content creation rather than doing deep niche research themselves.",
-    "truth": "The video is structured around the presenter's own free store-builder tool and a free course and community (dropshippingstarter.com) that it funnels into, both disclosed but worth factoring in given how central they are to the walkthrough. No revenue or sales results are shown or claimed for this specific store within the video, it demonstrates the build process only, not a proven outcome.",
-    "url": "https://www.youtube.com/watch?v=PSXm_Df2tL0",
-    "situation_tags": [
-      "Strictly in-home",
-      "E-commerce / fulfillment"
-    ],
-    "published": "2026-08-03"
   },
   {
     "id": "local-seo-microsite-rank-rent-ai-blueprint",
@@ -10212,6 +10459,62 @@
     "url": "https://www.youtube.com/watch?v=ntY3dp2ejmw"
   },
   {
+    "id": "gohighlevel-native-loyalty-program-saas",
+    "name": "Selling a QR-code loyalty program built natively inside GoHighLevel to niche-specific local businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "GoHighLevel",
+      "loyalty program SaaS",
+      "local business retention",
+      "recurring SaaS retainer",
+      "niche targeting"
+    ],
+    "cost": "Low (a GoHighLevel subscription/agency account)",
+    "found": "ItsKeaton",
+    "what": "Build a customer loyalty program entirely inside GoHighLevel using its native automation: customers scan a QR code, submit a short form, and earn a 'visit' point via a workflow math-calculation action; after a set number of visits they redeem a reward and get asked for a Google review, and inactive customers automatically get a follow-up text/coupon after 30 days of no visits, replacing a physical punch card with something that lives on a phone and can't be lost. Sell it to a specific, narrow niche (the presenter's own first vertical was nutrition/supplement shops) rather than pitching 'a loyalty program' generically, since owning a specific niche lets you charge more and be seen as a specialist; price starting around $97/month and moving toward $297/month or $1,500/year upfront as trust and testimonials build, bundled with a simple templated website as a foot-in-the-door offer.",
+    "pitch": "The presenter reports currently doing $20,000/month from this exact SaaS offer, and shares the origin story: he built a free homepage for a business as an opener, and the owner told him he didn't want a website, he wanted to replace physical punch cards, which became his first $97/month client and the source of his first referrals; his interviewer overlays a reusable 'validation loop' framework (pick 3 candidate niches, find out what the customer actually wishes they could buy, build the minimum viable version, land 3 paying clients, then scale).",
+    "best": "Someone comfortable learning GoHighLevel's workflow/automation builder and willing to specialize in one narrow local-business niche rather than a generic pitch.",
+    "truth": "GoHighLevel-native loyalty/rewards programs replacing physical punch cards are a real, currently-sellable local-business retention product, and the specific mechanics described (QR code, form, points via workflow math actions, automated win-back texts) are accurate to how the platform actually works. The presenter's $20,000/month figure is self-reported, and the video is a promotional interview steering viewers toward his own paid community for the loyalty-program template and deeper coaching.",
+    "url": "https://www.youtube.com/watch?v=eyxqF96Ti6A"
+  },
+  {
+    "id": "kdp-unsaturated-niche-book-research",
+    "name": "Finding low-competition, already-selling Amazon KDP book niches using niche-research software",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Amazon KDP",
+      "low-competition niches",
+      "coloring/activity books",
+      "niche research tool",
+      "Etsy printables crossover"
+    ],
+    "cost": "Low (a KDP niche-research tool subscription; AI image tools for creating illustrations)",
+    "found": "JeffSetLife",
+    "what": "Use a niche-research tool to find KDP book categories with a 'demand vs opportunity' sweet spot: real, active buyer demand and existing sales, but few total competing listings so a new book isn't buried immediately. The presenter identifies five specific current examples this way (paper doll books for girls, nonogram puzzle books, monochrome mystery coloring books, pixel mystery/color-by-number books for kids, and dot-marker vehicle coloring books), each with real per-book estimated monthly royalties pulled from the research tool, and notes most of these same book concepts can be repackaged as printable digital downloads on Etsy for a second income stream from the same content.",
+    "pitch": "For each niche, the presenter shows specific competing books' estimated monthly royalties (ranging roughly $100 to over $3,000/month per title depending on the niche), and demonstrates that some of these are simple enough to create with AI image tools plus a specialized formatting tool rather than requiring artistic skill.",
+    "best": "Someone comfortable using a niche-research tool to validate demand before creating a book, and willing to create simple visual content with AI-assisted tools.",
+    "truth": "Using niche-research software to find underserved-but-proven KDP categories is a real, sound market-validation practice, and the specific royalty estimates come from the research tool's own tracking data, though third-party royalty estimation is inherently approximate, not verified sales. The specific niches named will naturally saturate over time as more publishers watch the same videos.",
+    "url": "https://www.youtube.com/watch?v=4_T5Wv-hwjA"
+  },
+  {
+    "id": "four-ai-digital-product-formats-with-selling-system",
+    "name": "Four AI-buildable digital product formats (action guide, prompt system, paid workshop, no-code app) plus a simple system for selling any of them",
+    "category": "Digital & subscription products",
+    "tags": [
+      "AI digital products",
+      "no-code app building",
+      "AI workshop pre-selling",
+      "YouTube-to-email funnel"
+    ],
+    "cost": "Very low (ChatGPT/Claude, Canva, a no-code app builder, an email/checkout platform)",
+    "found": "Jo",
+    "what": "Build one of four AI-assisted digital product formats, each matched to a specific customer and problem rather than made broad: (1) a short 10-20 page 'AI action guide' built section-by-section with Claude/ChatGPT using your own real knowledge, then designed in Canva; (2) an 'AI prompt and template system' bundling prompts/templates/checklists that solve one repeatable task for one type of customer; (3) a paid AI workshop that you can pre-sell before ever building it, letting real purchases validate the topic; (4) a no-code app built by describing the idea to Claude/ChatGPT to generate a detailed build prompt, then feeding that prompt to a no-code app builder, adding a paywall once it works. Sell any of these through a simple funnel: weekly YouTube videos about the same problem, a free related freebie, an email list, and a checkout page, pre-selling before fully building when possible.",
+    "pitch": "The presenter frames the central lesson as: the specific product type matters far less than whether it solves a real, specific, painful problem for a specific customer, walking through the exact creation steps and honest pros/cons for each of the four formats.",
+    "best": "Someone willing to pick one narrow customer and problem rather than trying to build something broad, and comfortable using AI conversationally rather than expecting a single generic prompt to produce a sellable product.",
+    "truth": "All four described build methods are real, current, technically accurate capabilities, and the pre-sell-before-building advice for the workshop format is sound, low-risk validation practice. No personal revenue figures or case studies are given; it's a structural breakdown that ends by directing viewers to the presenter's own separate free training.",
+    "url": "https://www.youtube.com/watch?v=wReAMTdeYrE"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -10934,6 +11237,25 @@
     "url": "https://www.youtube.com/watch?v=JZhHyEOglzU"
   },
   {
+    "id": "shopify-dropshipping-claude-mcp-full-stack-course",
+    "name": "A full Shopify dropshipping build using Claude MCP integrations for product research, AI ad creation, and email marketing automation",
+    "category": "E-commerce",
+    "tags": [
+      "Shopify dropshipping",
+      "Claude MCP integration",
+      "AI UGC ad creation",
+      "email marketing automation",
+      "TikTok burner account research"
+    ],
+    "cost": "Low (free trials for a supplier tool, a free Claude account, a free email platform, an AI content tool)",
+    "found": "Jeremy Ray Holst",
+    "what": "Build a complete dropshipping business end to end: (1) find winning products manually by training a dedicated 'burner' TikTok/Instagram account to surface viral product videos and validating demand in the comments, or automatically by connecting a supplier tool (Zenrop) to Claude via MCP and running a custom research prompt that has Claude scan and rank the best current products; (2) build the store using a free premium Shopify theme; (3) create AI-generated UGC-style video ads by recreating the structure (cuts, beat-drops, on-screen text) of an already-viral ad using an AI content tool, rather than filming original footage; (4) set up automated email/SMS marketing by connecting an email platform (Omnisend) to Claude via MCP and running a master prompt that builds out full campaigns from the product name.",
+    "pitch": "The presenter frames this as one single video covering the entire business from zero to a fully built, sales-ready store, walking through each stage live with real screen recordings of the actual tool integrations rather than just describing them, running several giveaways throughout tied to liking/subscribing/commenting.",
+    "best": "Someone willing to learn several connected tools (a supplier platform, Claude MCP connectors, an AI video-editing tool, an email platform) and comfortable with a genuinely hands-on multi-step build process.",
+    "truth": "Every individual technique described (algorithm-trained product research, MCP-based Claude integrations, AI-recreated UGC ad structure, automated email/SMS flows) is real and technically accurate to how these platforms currently work. The video is structured with multiple giveaways and promotional/affiliate links to the presenter's own free course and several tools, so those specific tool recommendations should be read as partly promotional even though the underlying techniques are legitimate.",
+    "url": "https://www.youtube.com/watch?v=WlLC8r3jj0k"
+  },
+  {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
     "name": "Digistore24 affiliate marketing funnel using a free \"nurture sequence\" instead of direct-linking",
     "category": "Marketing & content",
@@ -11436,6 +11758,24 @@
     "published": "2026-09-10"
   },
   {
+    "id": "freelance-writing-niche-samples",
+    "name": "Building a freelance writing career by pitching niche-specific sample pieces rather than broad general offers",
+    "category": "Local & professional services",
+    "tags": [
+      "freelance writing",
+      "Upwork",
+      "niche specialization",
+      "AI training work"
+    ],
+    "cost": "Free (Upwork account or direct outreach; platform fees run 5-20%)",
+    "found": "Income Testing Lab",
+    "what": "Build freelance writing income by creating two or three strong sample pieces in one specific niche, then pitching consistently within that niche via Upwork and direct outreach, rather than offering broad, occasional general writing; also considers adjacent AI training/evaluation freelance work through newer platforms like Mindrift as a less-saturated lane in the same category.",
+    "pitch": "Established rates run $35-150/hour, though the video is explicit you won't start there; it cites one real example of a writer landing a $1,500/month retainer after just two or three targeted niche samples, framing 'specific and consistent' as beating 'broad and occasional' every time.",
+    "best": "Someone willing to build a small, focused sample portfolio in one niche before pitching broadly, and patient with a below-top-rate starting period.",
+    "truth": "Niche specialization outperforming generalist positioning is well-documented, standard freelance-writing advice, and Upwork's platform fee structure is accurately described. The $1,500/month retainer example is one cited case, not independently verified.",
+    "url": "https://www.youtube.com/watch?v=TEpSqX6ONl4"
+  },
+  {
     "id": "claude-custom-internal-tool-small-business",
     "name": "Building simple custom internal tools (trackers, logs, booking sheets) for small businesses to replace paper or overpriced software",
     "category": "Local & professional services",
@@ -11665,6 +12005,23 @@
     "truth": "Subcontracting to general contractors as a primary client-acquisition channel is a real, established strategy in the trades, since a single trusted GC relationship can generate far more repeat volume than one-off homeowner jobs, and permit-data prospecting is a real, used tactic. This episode is a real-time coaching conversation rather than a finished, proven system, so the scaling tactics discussed are proposed next steps, not yet demonstrated results.",
     "url": "https://www.youtube.com/watch?v=JDnhpF4OfPU",
     "published": "2026-09-08"
+  },
+  {
+    "id": "apartment-valet-trash-service",
+    "name": "Running a valet trash collection service for apartment complexes",
+    "category": "Local & professional services",
+    "tags": [
+      "valet trash service",
+      "apartment complex amenity",
+      "B2B service contract"
+    ],
+    "cost": "Very low (insurance and hiring part-time workers; no storefront or inventory)",
+    "found": "Jack Harrison Explains",
+    "what": "Sign a B2B contract with an apartment complex property manager to collect residents' trash bags left outside their doors each evening and wheel them to the dumpster, hiring part-time workers (often college students earning around $20/hour for a 2-hour evening shift) to do the actual collection while you hold the contract.",
+    "pitch": "Properties pay the service $8-15 per unit per month and then charge residents $20-35 for it as an amenity; the presenter cites a real listing of an owner-operator running this across roughly 1,400 units generating $15,000/month on two long-term assignable contracts, with a startup checklist of just a phone call, insurance, and two reliable workers.",
+    "best": "Someone comfortable pitching property managers on B2B service contracts and managing part-time hourly workers, without needing to do the physical collection themselves.",
+    "truth": "Valet trash service for apartment complexes is a real, established amenity business model with genuine 3-5 year B2B contracts common in the industry. The cited 1,400-unit example is one real listing, not independently audited, but the low-barrier startup description is consistent with how this business is typically entered.",
+    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4"
   },
   {
     "id": "ai-dropshipping-store-buildyourstore-autods-tilbury",
