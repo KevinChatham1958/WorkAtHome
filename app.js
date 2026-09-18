@@ -37,7 +37,8 @@ let ALL_IDEAS = [];
 let SHUFFLED_IDEAS = []; // ALL_IDEAS reordered with a date-seeded shuffle; same order for every visitor all day, changes at midnight
 let state = {
   search: "",
-  savedOnly: false
+  savedOnly: false,
+  sortBy: "shuffle" // "shuffle" | "newest" | "oldest"
 };
 let savedIds = new Set(loadSaved());
 let expandedIds = new Set();
@@ -220,6 +221,11 @@ document.getElementById('saved-only-toggle').addEventListener('change', (e) => {
   render();
 });
 
+document.getElementById('sort-select').addEventListener('change', (e) => {
+  state.sortBy = e.target.value;
+  render();
+});
+
 document.getElementById('download-saved-btn').addEventListener('click', downloadSavedGigs);
 
 // ---------- Soft-ranking scorer ----------
@@ -295,6 +301,27 @@ function scoreIdea(idea, words) {
   return score;
 }
 
+// Compares two ideas by their "published" date (YYYY-MM-DD, or absent for
+// older entries backfilled before this field existed / non-YouTube sources).
+// Entries missing a date always sink to the bottom of a date sort rather
+// than being hidden — consistent with the rest of the site never hiding
+// anything, just reordering it.
+function compareByDate(a, b, sortBy) {
+  const da = a.published || '';
+  const db = b.published || '';
+  if (!da && !db) return 0;
+  if (!da) return 1;
+  if (!db) return -1;
+  return sortBy === 'oldest' ? da.localeCompare(db) : db.localeCompare(da);
+}
+
+// Set by getRankedIdeas() on every call: the subset of the just-computed
+// results that actually matched the current search (score > 0), or null
+// when there's no active search. Used only by updateSameProducerNote —
+// the main grid always shows everything (nothing is ever hidden), but the
+// note needs to know which entries were genuine matches, not the full list.
+let lastMatchedIdeas = null;
+
 function getRankedIdeas() {
   let pool = SHUFFLED_IDEAS;
   if (state.savedOnly) {
@@ -302,17 +329,34 @@ function getRankedIdeas() {
   }
 
   const words = state.search.length > 0 ? state.search.split(/\s+/).filter(Boolean) : [];
+  const dateSortActive = state.sortBy === 'newest' || state.sortBy === 'oldest';
 
   if (words.length === 0) {
     updateSearchFeedback(0);
-    return pool;
+    lastMatchedIdeas = null;
+    if (dateSortActive) {
+      return [...pool].sort((a, b) => compareByDate(a, b, state.sortBy));
+    }
+    return pool; // shuffle (default) order
   }
 
-  const scored = pool
-    .map(idea => ({ idea, score: scoreIdea(idea, words) }))
-    .sort((a, b) => b.score - a.score);
+  const scored = pool.map(idea => ({ idea, score: scoreIdea(idea, words) }));
+  updateSearchFeedback(scored.length > 0 ? Math.max(...scored.map(x => x.score)) : 0);
+  lastMatchedIdeas = scored.filter(x => x.score > 0).map(x => x.idea);
 
-  updateSearchFeedback(scored.length > 0 ? scored[0].score : 0);
+  if (dateSortActive) {
+    // A date sort still respects relevance as a soft grouping — matches
+    // (score > 0) sort by date among themselves, non-matches follow after,
+    // also by date — so nothing disappears, but the visitor's search term
+    // still determines what surfaces first, same as it always has.
+    scored.sort((a, b) => {
+      const aMatched = a.score > 0, bMatched = b.score > 0;
+      if (aMatched !== bMatched) return aMatched ? -1 : 1;
+      return compareByDate(a.idea, b.idea, state.sortBy);
+    });
+  } else {
+    scored.sort((a, b) => b.score - a.score);
+  }
 
   return scored.map(x => x.idea);
 }
@@ -325,6 +369,7 @@ function render() {
   const ranked = getRankedIdeas();
 
   updateSavedUI();
+  updateSameProducerNote(ranked);
 
   if (state.savedOnly && ranked.length === 0) {
     grid.innerHTML = '';
@@ -337,6 +382,32 @@ function render() {
   ranked.forEach(idea => {
     grid.appendChild(buildCard(idea));
   });
+}
+
+// Shown whenever every genuinely-matched result (not the full "nothing is
+// hidden" list — see lastMatchedIdeas) traces back to the same producer,
+// e.g. searching a creator's name. A plain-language reminder that this is
+// our curated sample of that creator's uploads, not their full history, so
+// a "Newest" sort here isn't the same as checking their actual channel.
+// Falls back to the full displayed set only when there's no active search
+// (e.g. plain "View Saved Only" browsing) — that list isn't ranked, so it
+// has no separate "matched" subset to check against.
+function updateSameProducerNote(ranked) {
+  const note = document.getElementById('same-producer-note');
+  const basis = lastMatchedIdeas !== null ? lastMatchedIdeas : ranked;
+
+  if (basis.length === 0) {
+    note.hidden = true;
+    return;
+  }
+  const firstProducer = basis[0].found;
+  const allSame = firstProducer && basis.every(idea => idea.found === firstProducer);
+  if (allSame) {
+    note.hidden = false;
+    note.textContent = `${basis.length} entr${basis.length === 1 ? 'y' : 'ies'} from ${firstProducer} in our database — not their full upload history.`;
+  } else {
+    note.hidden = true;
+  }
 }
 
 function toTitleCase(str) {

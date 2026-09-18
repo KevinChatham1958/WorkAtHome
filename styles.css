@@ -332,6 +332,41 @@ a { color: inherit; }
   padding: 60px 20px;
 }
 
+/* ---------- Sort row ---------- */
+.sort-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 4px 0 14px;
+}
+.sort-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.sort-select {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+.sort-select:hover { border-color: var(--accent); }
+
+.same-producer-note {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  background: var(--accent-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin: 0 0 14px;
+}
+
 /* ---------- Grid ---------- */
 .grid {
   display: block;

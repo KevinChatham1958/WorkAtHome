@@ -86,6 +86,17 @@
 
 <main id="browse" class="browse">
 
+  <div class="sort-row">
+    <label class="sort-label" for="sort-select">Sort:</label>
+    <select id="sort-select" class="sort-select">
+      <option value="shuffle">Shuffle (Default)</option>
+      <option value="newest">Newest</option>
+      <option value="oldest">Oldest</option>
+    </select>
+  </div>
+
+  <p id="same-producer-note" class="same-producer-note" hidden></p>
+
   <div class="grid" id="gig-grid" aria-live="polite"></div>
 
   <button type="button" id="back-to-search-btn" class="back-to-search-btn" hidden>
