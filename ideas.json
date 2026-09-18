@@ -786,6 +786,28 @@
     "published": "2026-09-11"
   },
   {
+    "id": "claude-etsy-worksheet-bundles",
+    "name": "Claude-generated Etsy digital worksheet bundles",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "AI tools",
+      "digital downloads",
+      "worksheets"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Joshua Mayo",
+    "what": "Using Claude to generate downloadable PDF worksheet bundles around a specific problem or interest, refined for formatting in Canva, then sold as an instant digital download on Etsy.",
+    "pitch": "The presenter shows real Etsy examples of worksheet bundles earning $200 to over $1,100 a month, some accumulating over $80,000 across several years, then demonstrates the process live: pasting a reusable prompt template into Claude, specifying only the topic and page count, letting Claude generate the full worksheet content, then spending about 30 minutes in Canva fixing formatting issues before exporting as a final PDF for the Etsy listing.",
+    "best": "Someone comfortable doing a final polish pass in Canva rather than expecting a publish-ready product straight out of Claude, and willing to test multiple worksheet topics quickly to see what sells.",
+    "truth": "The presenter is upfront that Claude's first draft needs real fixing, formatting issues, before it's sellable, a more honest framing than some AI-content pitches that imply zero manual work. The specific per-listing revenue figures shown come directly from each listing's own public Etsy sales-count display, a more verifiable source than some third-party estimation tools used elsewhere in this database. A sponsored VPN segment appears partway through, unrelated to the core worksheet-selling content.",
+    "url": "https://www.youtube.com/watch?v=wz9CmUZ4jRg",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-05-12"
+  },
+  {
     "id": "used-cooking-oil-recycling-restaurant-route",
     "name": "Used cooking oil recycling route for restaurants",
     "category": "Local & professional services",
@@ -963,28 +985,6 @@
       "Strictly in-home"
     ],
     "published": "2026-08-21"
-  },
-  {
-    "id": "claude-etsy-worksheet-bundles",
-    "name": "Claude-generated Etsy digital worksheet bundles",
-    "category": "Digital & subscription products",
-    "tags": [
-      "Etsy",
-      "AI tools",
-      "digital downloads",
-      "worksheets"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Joshua Mayo",
-    "what": "Using Claude to generate downloadable PDF worksheet bundles around a specific problem or interest, refined for formatting in Canva, then sold as an instant digital download on Etsy.",
-    "pitch": "The presenter shows real Etsy examples of worksheet bundles earning $200 to over $1,100 a month, some accumulating over $80,000 across several years, then demonstrates the process live: pasting a reusable prompt template into Claude, specifying only the topic and page count, letting Claude generate the full worksheet content, then spending about 30 minutes in Canva fixing formatting issues before exporting as a final PDF for the Etsy listing.",
-    "best": "Someone comfortable doing a final polish pass in Canva rather than expecting a publish-ready product straight out of Claude, and willing to test multiple worksheet topics quickly to see what sells.",
-    "truth": "The presenter is upfront that Claude's first draft needs real fixing, formatting issues, before it's sellable, a more honest framing than some AI-content pitches that imply zero manual work. The specific per-listing revenue figures shown come directly from each listing's own public Etsy sales-count display, a more verifiable source than some third-party estimation tools used elsewhere in this database. A sponsored VPN segment appears partway through, unrelated to the core worksheet-selling content.",
-    "url": "https://www.youtube.com/watch?v=wz9CmUZ4jRg",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-05-12"
   },
   {
     "id": "vibe-coded-saas-app-gemini-antigravity",
@@ -2272,6 +2272,28 @@
     "published": "2026-09-11"
   },
   {
+    "id": "claude-ai-printable-wall-art",
+    "name": "AI-generated printable wall art on Etsy",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "AI tools",
+      "wall art",
+      "digital downloads"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Joshua Mayo",
+    "what": "Creating AI-generated printable wall art sold as digital PNG or PDF downloads on Etsy, where the customer prints and frames the artwork themselves, using Claude to analyze a bestselling listing's images and generate prompts for an AI image tool to create an inspired-but-different set of designs.",
+    "pitch": "The presenter shows real examples earning $145 to over $4,000 a month from printable wall art bundles, one shop having made about $600,000 total. He demonstrates screenshotting a top-selling listing, having Claude analyze it and generate several unique, not copied, image prompts, feeding those into an AI image tool, then using a custom cropping tool Claude builds on request to instantly generate all the different print-size dimensions customers expect, cutting what would normally take weeks of manual resizing down to seconds.",
+    "best": "Someone comfortable directing AI tools iteratively to get a genuinely distinct result rather than a close copy, and willing to build out a full size range for every listing, since top sellers all offer multiple dimensions.",
+    "truth": "The presenter is explicit he doesn't want to just copy an existing listing and iterates the AI prompts specifically to make the result look different, worth noting as a good practice signal, though the underlying method, studying a competitor's exact images as the starting reference, sits closer to the line than pure independent design and is worth being thoughtful about. The specific revenue figures shown come from each listing's own public Etsy sales data.",
+    "url": "https://www.youtube.com/watch?v=wz9CmUZ4jRg",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-05-12"
+  },
+  {
     "id": "remote-cleaning-agency-dispatch-subcontractor-model",
     "name": "Fully remote cleaning agency that dispatches jobs to independent subcontractors",
     "category": "Local & professional services",
@@ -2615,28 +2637,6 @@
       "Strictly in-home"
     ],
     "published": "2026-08-21"
-  },
-  {
-    "id": "claude-ai-printable-wall-art",
-    "name": "AI-generated printable wall art on Etsy",
-    "category": "Digital & subscription products",
-    "tags": [
-      "Etsy",
-      "AI tools",
-      "wall art",
-      "digital downloads"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Joshua Mayo",
-    "what": "Creating AI-generated printable wall art sold as digital PNG or PDF downloads on Etsy, where the customer prints and frames the artwork themselves, using Claude to analyze a bestselling listing's images and generate prompts for an AI image tool to create an inspired-but-different set of designs.",
-    "pitch": "The presenter shows real examples earning $145 to over $4,000 a month from printable wall art bundles, one shop having made about $600,000 total. He demonstrates screenshotting a top-selling listing, having Claude analyze it and generate several unique, not copied, image prompts, feeding those into an AI image tool, then using a custom cropping tool Claude builds on request to instantly generate all the different print-size dimensions customers expect, cutting what would normally take weeks of manual resizing down to seconds.",
-    "best": "Someone comfortable directing AI tools iteratively to get a genuinely distinct result rather than a close copy, and willing to build out a full size range for every listing, since top sellers all offer multiple dimensions.",
-    "truth": "The presenter is explicit he doesn't want to just copy an existing listing and iterates the AI prompts specifically to make the result look different, worth noting as a good practice signal, though the underlying method, studying a competitor's exact images as the starting reference, sits closer to the line than pure independent design and is worth being thoughtful about. The specific revenue figures shown come from each listing's own public Etsy sales data.",
-    "url": "https://www.youtube.com/watch?v=wz9CmUZ4jRg",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-05-12"
   },
   {
     "id": "upwork-freelancing-gemini-assisted-proposals",
@@ -4065,6 +4065,28 @@
     "published": "2026-07-11"
   },
   {
+    "id": "custom-ai-pet-portraits-etsy",
+    "name": "Custom AI pet portraits sold on Etsy",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "AI tools",
+      "pet portraits",
+      "personalized products"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Just Teachin Stuff",
+    "what": "Creating personalized, custom AI-generated pet portraits, in a specific illustration style such as minimalist line art, from a customer's own photo, sold as a made-to-order digital product on Etsy.",
+    "pitch": "The presenter walks through the reasoning live: personalized products avoid the saturation of generic AI-template shops since each one is made to order from a real photo. He identifies the typical buyer as someone buying a gift for a pet-obsessed friend or family member rather than pet owners buying for themselves, and demonstrates the actual creation process, uploading a customer's dog photo to an AI tool along with a style reference image, generating a finished portrait in under a minute, then using Claude to write the full Etsy listing from the finished image.",
+    "best": "Someone willing to do light per-order customization work for each sale, uploading a customer's specific photo, rather than a fully passive, pre-made product.",
+    "truth": "The specific pricing given, $18 to $28 per portrait, and market-size figures cited are stated without a named source in the video, so should be treated as illustrative rather than independently verified. The core creation process is demonstrated live and is genuinely as fast as claimed.",
+    "url": "https://www.youtube.com/watch?v=wnzBbsmsQNk",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-24"
+  },
+  {
     "id": "wall-printer-mural-service",
     "name": "Wall printer mural service for businesses",
     "category": "Physical & print products",
@@ -4323,6 +4345,28 @@
     "truth": "A similar AI-drafted review-reply concept already exists in this database from a different producer at a flat $199/month; this version's distinguishing specifics are the owner-approval-before-publish workflow (a meaningful trust and platform-compliance safeguard) and the pre-call complaint/praise diagnostic as a sales tool. The cited survey statistic (6% to 45% AI-assistant usage) should be verified against the original Bright Local source rather than taken at face value, as exact figures from cited surveys are sometimes rounded or summarized loosely in marketing content.",
     "url": "https://www.youtube.com/watch?v=tKBpMevDJO8",
     "published": "2026-09-11"
+  },
+  {
+    "id": "claude-faceless-youtube-channel",
+    "name": "Faceless YouTube channel using Claude for scripts and AI tools for visuals",
+    "category": "Content & personal brand",
+    "tags": [
+      "YouTube",
+      "faceless",
+      "AI tools",
+      "content creation"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Joshua Mayo",
+    "what": "Building a faceless YouTube channel using Claude to generate video ideas and full scripts, and a separate AI visual tool to generate the accompanying images or animated clips, paired with either a real recorded voiceover or an AI voiceover tool.",
+    "pitch": "The presenter shows several real examples of faceless channels, scary-story, kids-storytelling, and historical mini-documentary styles, getting over a million views using primarily still AI-generated images, noting that YouTube requires creators to disclose altered or synthetic content when AI is used and that several successful channels are already doing exactly that. Demonstrated workflow: ask Claude for video ideas, have it write a full script with iterative edits, generate matching visuals in an AI video or image tool from parts of that script, and record either your own voice or an AI voiceover on top.",
+    "best": "Someone comfortable with a consistent weekly production workflow and, per the presenter's own recommendation, willing to record a real human voiceover rather than relying entirely on an AI voice, since that's framed as what YouTube's algorithm favors.",
+    "truth": "The presenter doesn't provide his own channel's revenue figures for this specific method, instead pointing to third-party example channels, view counts only, no revenue shown, as proof the format works, so the income potential here is illustrated rather than personally demonstrated. The AI-content-disclosure point, several example channels correctly labeling their videos as synthetic content, is a good, verifiable transparency signal worth noting.",
+    "url": "https://www.youtube.com/watch?v=wz9CmUZ4jRg",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-05-12"
   },
   {
     "id": "faceless-product-testing-review-channel",
@@ -4920,28 +4964,6 @@
       "Strictly in-home"
     ],
     "published": "2026-08-21"
-  },
-  {
-    "id": "claude-faceless-youtube-channel",
-    "name": "Faceless YouTube channel using Claude for scripts and AI tools for visuals",
-    "category": "Content & personal brand",
-    "tags": [
-      "YouTube",
-      "faceless",
-      "AI tools",
-      "content creation"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Joshua Mayo",
-    "what": "Building a faceless YouTube channel using Claude to generate video ideas and full scripts, and a separate AI visual tool to generate the accompanying images or animated clips, paired with either a real recorded voiceover or an AI voiceover tool.",
-    "pitch": "The presenter shows several real examples of faceless channels, scary-story, kids-storytelling, and historical mini-documentary styles, getting over a million views using primarily still AI-generated images, noting that YouTube requires creators to disclose altered or synthetic content when AI is used and that several successful channels are already doing exactly that. Demonstrated workflow: ask Claude for video ideas, have it write a full script with iterative edits, generate matching visuals in an AI video or image tool from parts of that script, and record either your own voice or an AI voiceover on top.",
-    "best": "Someone comfortable with a consistent weekly production workflow and, per the presenter's own recommendation, willing to record a real human voiceover rather than relying entirely on an AI voice, since that's framed as what YouTube's algorithm favors.",
-    "truth": "The presenter doesn't provide his own channel's revenue figures for this specific method, instead pointing to third-party example channels, view counts only, no revenue shown, as proof the format works, so the income potential here is illustrated rather than personally demonstrated. The AI-content-disclosure point, several example channels correctly labeling their videos as synthetic content, is a good, verifiable transparency signal worth noting.",
-    "url": "https://www.youtube.com/watch?v=wz9CmUZ4jRg",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-05-12"
   },
   {
     "id": "outbound-lead-generation-service-gemini-segmentation",
@@ -5595,6 +5617,28 @@
     "truth": "The goal-first (not template-first) design principle is sound web-design practice independent of which AI tool builds the site, and using a business's real reviews as ad copy is a legitimate way to make a rebuild feel authentic rather than generic. This is a distinct market segment problem (an existing but non-converting website) from most other AI-website entries in this database, which more often target businesses with no website at all.",
     "url": "https://www.youtube.com/watch?v=tKBpMevDJO8",
     "published": "2026-09-11"
+  },
+  {
+    "id": "claude-connected-spreadsheet-templates",
+    "name": "Claude-connected spreadsheet templates for Etsy",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "spreadsheets",
+      "AI tools",
+      "digital downloads"
+    ],
+    "cost": "Low to moderate startup cost (mainly a technical setup process)",
+    "found": "Joshua Mayo",
+    "what": "Building sellable spreadsheet templates, such as budget trackers, content planners, and wedding planners, by connecting Claude directly to Google Sheets via a technical setup process, then having Claude build the full spreadsheet with formulas and structure, sold as a one-time-build, infinitely-resellable digital download on Etsy.",
+    "pitch": "The presenter shows real Etsy examples of simple spreadsheet templates earning $400 to over $16,000 a month, some priced as low as $1 but selling in very high volume, then walks through the technical setup: installing a Google Workspace command-line tool via Claude's own guided instructions, creating OAuth credentials in a Google Cloud project, and connecting Claude directly to Google Sheets so it can build out a functional spreadsheet with formulas rather than just static text.",
+    "best": "Someone willing to follow a genuinely technical one-time setup process that the presenter is upfront is more involved than the other ideas in this video, in exchange for being able to build spreadsheet products going forward.",
+    "truth": "The presenter is candid that the setup is technical and some viewers may hit snags, a more honest framing than presenting this as a simple no-friction process. The specific revenue figures shown come from each listing's own public Etsy sales-count display, a directly verifiable source rather than a third-party estimation tool.",
+    "url": "https://www.youtube.com/watch?v=wz9CmUZ4jRg",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-05-12"
   },
   {
     "id": "hopper-gun-textured-wall-finishing",
@@ -6483,28 +6527,6 @@
     "published": "2026-08-21"
   },
   {
-    "id": "claude-connected-spreadsheet-templates",
-    "name": "Claude-connected spreadsheet templates for Etsy",
-    "category": "Digital & subscription products",
-    "tags": [
-      "Etsy",
-      "spreadsheets",
-      "AI tools",
-      "digital downloads"
-    ],
-    "cost": "Low to moderate startup cost (mainly a technical setup process)",
-    "found": "Joshua Mayo",
-    "what": "Building sellable spreadsheet templates, such as budget trackers, content planners, and wedding planners, by connecting Claude directly to Google Sheets via a technical setup process, then having Claude build the full spreadsheet with formulas and structure, sold as a one-time-build, infinitely-resellable digital download on Etsy.",
-    "pitch": "The presenter shows real Etsy examples of simple spreadsheet templates earning $400 to over $16,000 a month, some priced as low as $1 but selling in very high volume, then walks through the technical setup: installing a Google Workspace command-line tool via Claude's own guided instructions, creating OAuth credentials in a Google Cloud project, and connecting Claude directly to Google Sheets so it can build out a functional spreadsheet with formulas rather than just static text.",
-    "best": "Someone willing to follow a genuinely technical one-time setup process that the presenter is upfront is more involved than the other ideas in this video, in exchange for being able to build spreadsheet products going forward.",
-    "truth": "The presenter is candid that the setup is technical and some viewers may hit snags, a more honest framing than presenting this as a simple no-friction process. The specific revenue figures shown come from each listing's own public Etsy sales-count display, a directly verifiable source rather than a third-party estimation tool.",
-    "url": "https://www.youtube.com/watch?v=wz9CmUZ4jRg",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-05-12"
-  },
-  {
     "id": "linkedin-infographic-content-management-service",
     "name": "LinkedIn infographic content management service for personal brands",
     "category": "Marketing & content",
@@ -6781,6 +6803,28 @@
     "truth": "The presenter is explicit that messaging must only go to people who gave the business explicit permission to contact them, with an unsubscribe option in every message \u2014 a real compliance requirement, not just a nice-to-have, since sending unsolicited bulk texts carries legal risk under anti-spam regulations. The cited revenue projections (4% and 2% reactivation rates) are the presenter's own illustrative assumptions, not documented results from a named client campaign.",
     "url": "https://www.youtube.com/watch?v=tKBpMevDJO8",
     "published": "2026-09-11"
+  },
+  {
+    "id": "claude-design-print-on-demand-storefront",
+    "name": "Semi-automated print-on-demand apparel using Claude Design and an AI storefront builder",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "AI tools",
+      "apparel",
+      "e-commerce"
+    ],
+    "cost": "Low startup cost (AI tool subscriptions; free Printful/Etsy accounts)",
+    "found": "Joshua Mayo",
+    "what": "A semi-automated print-on-demand apparel business built around simple, repeatable text-based t-shirt designs, using Claude Design to build a custom bulk-design-generator tool, an AI website builder for a standalone storefront, and Printful for automated fulfillment.",
+    "pitch": "The presenter argues simple text-based shirt stores succeed through volume, hundreds or thousands of listings, rather than one viral design, and shows how Claude's design mode can build a working custom software tool, not just generate individual images, that bulk-produces dozens of on-brand shirt designs from a template phrase across many niches at once. Also demonstrates using an AI website builder to build a complete, functional e-commerce storefront from a single prompt, connecting Printful for automated fulfillment to both that storefront and an Etsy shop simultaneously, and using Claude to reverse-engineer SEO-optimized titles and tags from already-successful competitor listings.",
+    "best": "Someone willing to build and maintain a large volume of simple listings rather than expecting a few designs to succeed, and comfortable stitching together several different tools into one connected workflow.",
+    "truth": "The presenter is explicit this is not a get-rich-quick scheme and still requires consistency, good design taste, and patience, a more grounded framing than some AI-business pitches. No personal revenue figures are given for the presenter's own store using this specific method; the examples of successful stores shown are third-party Etsy listings, not the presenter's own results.",
+    "url": "https://www.youtube.com/watch?v=bW8K4G1uvnA",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-06-19"
   },
   {
     "id": "small-parts-light-manufacturing",
@@ -8632,28 +8676,6 @@
       "Phone/sales-based"
     ],
     "published": "2026-06-14"
-  },
-  {
-    "id": "custom-ai-pet-portraits-etsy",
-    "name": "Custom AI pet portraits sold on Etsy",
-    "category": "Digital & subscription products",
-    "tags": [
-      "Etsy",
-      "AI tools",
-      "pet portraits",
-      "personalized products"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Just Teachin Stuff",
-    "what": "Creating personalized, custom AI-generated pet portraits, in a specific illustration style such as minimalist line art, from a customer's own photo, sold as a made-to-order digital product on Etsy.",
-    "pitch": "The presenter walks through the reasoning live: personalized products avoid the saturation of generic AI-template shops since each one is made to order from a real photo. He identifies the typical buyer as someone buying a gift for a pet-obsessed friend or family member rather than pet owners buying for themselves, and demonstrates the actual creation process, uploading a customer's dog photo to an AI tool along with a style reference image, generating a finished portrait in under a minute, then using Claude to write the full Etsy listing from the finished image.",
-    "best": "Someone willing to do light per-order customization work for each sale, uploading a customer's specific photo, rather than a fully passive, pre-made product.",
-    "truth": "The specific pricing given, $18 to $28 per portrait, and market-size figures cited are stated without a named source in the video, so should be treated as illustrative rather than independently verified. The core creation process is demonstrated live and is genuinely as fast as claimed.",
-    "url": "https://www.youtube.com/watch?v=wnzBbsmsQNk",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-24"
   },
   {
     "id": "ghl-stone-systems-vsl-cold-outreach-sales-system",
@@ -10557,6 +10579,81 @@
     "url": "https://www.youtube.com/watch?v=o6yoJeHbq68"
   },
   {
+    "id": "work-from-home-claims-processing-jobs",
+    "name": "Work-from-home insurance claims processing jobs, from entry-level resolution roles to leadership positions",
+    "category": "Local & professional services",
+    "tags": [
+      "remote insurance jobs",
+      "claims processing",
+      "medical billing",
+      "work from home employment"
+    ],
+    "cost": "Free (standard job application process; some employers provide equipment)",
+    "found": "Kat Lewis",
+    "what": "Apply to remote work-from-home insurance/medical claims processing roles, ranging from entry-level positions requiring just a high school diploma and basic computer skills (resolving denied/pending claims, correcting billing errors) to leadership roles overseeing a claims team (requiring a bachelor's degree or equivalent experience). The presenter reviews four specific current examples: an account resolution specialist at Sarnova (Medicare/Medicaid claims, no degree required, ~$20-27/hour), a claims customer experience team lead at Reserve (leadership role, $75,000-95,000/year, includes equipment), a claims correction specialist at OneOncology (medical billing correction, ~$21-31/hour), and a PIP/med pay claims associate at Allstate (auto insurance claims investigation, ~$21-23/hour, full equipment provided).",
+    "pitch": "The presenter reviews each job's actual posted responsibilities and requirements directly from company careers pages, and since most listings don't publish salary, she researches and estimates realistic pay ranges herself rather than just repeating the employer's own vague framing.",
+    "best": "Someone comfortable with detail-oriented administrative work, willing to learn insurance/medical billing terminology; entry-level roles need no prior experience, while leadership roles require a degree or equivalent industry background.",
+    "truth": "All four named employers and job postings are real, verifiable current listings, and claims processing is a genuine, established category of remote employment. Salary figures for roles that don't publish pay are the presenter's own researched estimates, not confirmed by the employer.",
+    "url": "https://www.youtube.com/watch?v=bXPCZjrTsUU"
+  },
+  {
+    "id": "faceless-ranking-shorts-claude-vidiq-research",
+    "name": "Building a faceless 'ranking' YouTube Shorts channel using Claude+VidIQ for research and an AI tool to assemble clip-compilation videos",
+    "category": "Content & personal brand",
+    "tags": [
+      "faceless YouTube Shorts",
+      "ranking niche",
+      "Claude + VidIQ",
+      "clip compilation content",
+      "YouTube automation"
+    ],
+    "cost": "Low (a free VidIQ Chrome extension, a free Claude account, a video-assembly tool with a free trial)",
+    "found": "Kellan Henneberry",
+    "what": "Build a 'ranking' format faceless YouTube Shorts channel (compiling and numerically ranking a handful of already-viral short clips sourced from platforms like TikTok, e.g. 'funniest parkour fails'), using the VidIQ Chrome extension connected to Claude to pull a full competitor-channel research breakdown from an inspiration channel, then asking Claude to generate proven high-performing topic ideas based on that data; use a video-assembly tool to download each ranked clip, format a two-line color-highlighted title, arrange 5-7 clips in shuffled playback order for retention, and post 1-2 Shorts daily without skipping days.",
+    "pitch": "The presenter shows his own channel's real dashboard: $24,000+ in the past 28 days, a single short with 16.8 million views and a 42-cent RPM earning $3,800, and roughly $250,000 in trailing-12-month profit, arguing that declining Google Trends interest in 'YouTube automation' signals lower competition right now, and stresses that daily consistency for weeks is the real determining factor.",
+    "best": "Someone able to post daily without fail for an extended period, comfortable using several connected AI tools for research and assembly rather than writing original scripts.",
+    "truth": "The platform mechanics (VidIQ+Claude research, Google Trends data, RPM/revenue figures) are technically accurate, though self-reported and not independently audited. The content method itself is a real legitimacy concern worth flagging clearly: it involves downloading other creators' already-viral clips, stripping the watermark, and reposting them for monetization without licensing or crediting the original creator, which carries genuine copyright and platform-policy risk.",
+    "url": "https://www.youtube.com/watch?v=V_t51u1tBJc"
+  },
+  {
+    "id": "amazon-kdp-nonfiction-niche-topic-validation-claude",
+    "name": "Finding and validating a specific, non-saturated non-fiction book topic on Amazon before writing it with Claude",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Amazon KDP",
+      "non-fiction book niches",
+      "topic validation",
+      "Claude book writing",
+      "self-publishing strategy"
+    ],
+    "cost": "Low (Amazon KDP publishing is free; a book-research/BSR-checking tool for validation)",
+    "found": "Ken Fornari",
+    "what": "Deliberately skip low-content books (journals, planners, coloring books, puzzle books) as oversaturated and dominated by big brands, and instead target specific, narrow non-fiction topics that solve one specific problem for one specific reader (e.g. 'emotional regulation for teens,' not generic 'diet book'); find topic candidates by browsing Amazon's bestseller categories and noting specific, narrow, well-performing books, then validate real demand using a research tool; create the book title first (since it defines competitive positioning), then have Claude build a chapter-by-chapter outline and draft each chapter, guided by your own prompting rather than a single one-shot prompt.",
+    "pitch": "The presenter, who has sold over 40,000 books/ebooks/audiobooks on Amazon and Audible for multiple six figures and still earns thousands monthly, argues Amazon KDP beats other digital products specifically because Amazon already has active buyers searching for solutions, meaning you don't need heavy paid-advertising expertise; he's explicit this isn't instant or 'free money' and requires real strategy on both topic-selection and creation.",
+    "best": "Someone willing to do real topic research before writing, and comfortable guiding Claude through a structured multi-step writing process rather than expecting a single prompt to produce a finished book.",
+    "truth": "Amazon KDP's royalty/fulfillment structure and the strategic distinction between saturated low-content books and narrower non-fiction niches are accurate and reflect genuine, experienced self-publishing practice, and the presenter's stated volume (40,000+ books sold) lends real credibility beyond a typical one-off claim.",
+    "url": "https://www.youtube.com/watch?v=Q-ktNi4_Ycw"
+  },
+  {
+    "id": "email-marketing-swipe-file-lead-magnet-launch-system",
+    "name": "Building an email marketing system around a two-tier lead magnet strategy, a repeatable 3-email weekly format, and timed launch campaigns",
+    "category": "Marketing & content",
+    "tags": [
+      "email marketing",
+      "lead magnets",
+      "Claude swipe file",
+      "launch campaigns",
+      "newsletter monetization"
+    ],
+    "cost": "Very low (an email platform, a Claude subscription for drafting assistance)",
+    "found": "Kleo",
+    "what": "Build an email list and monetize it using several reusable tactics: maintain a 'swipe file' of subscribed newsletters in a separate inbox folder to study working examples and feed them to Claude as reference when drafting; run two lead magnet types in parallel \u2014 one comprehensive 'pillar' lead magnet designed to convert into paid offers (e.g. a 7-day email course), plus many lightweight 'one-off' lead magnets (checklists, cheat sheets) that grow the list and cross-link back to the pillar magnet; send a repeatable weekly 3-email cadence (a Monday 'curation' email resurfacing old content, a mid-week 'deep dive' fully explaining one real tactic, and a 'story' email sharing a case study or breaking down someone else's public campaign as a credibility-building alternative); and run timed launch campaigns using either a genuine time-limited discount or an 'expiring bonus' alternative.",
+    "pitch": "The interview subject, an email specialist who co-founded an agency after years running email for a 10,000-student writing program, cites a client who made $150,000 in 30-60 days from three emails a week, and describes his own biggest single launch: a $650,000 Black Friday campaign, framing Black Friday and Prime Day as underused opportunities in the coaching/info-product space.",
+    "best": "Someone willing to consistently send email and comfortable giving away real, detailed tactical content for free as the deep-dive format, trusting that implementation (not information) is what people pay for.",
+    "truth": "The specific tactics described reflect genuine, widely-practiced email marketing methodology from someone with real agency-scale experience, and the ethical distinction drawn between an honest limited-time discount and a fake perpetual 'sale' is a fair critique of common bad practice. The cited $150,000 and $650,000 figures are self-reported, not independently audited, and this podcast-style interview promotes the guest's own email agency.",
+    "url": "https://www.youtube.com/watch?v=8x9Uyji54D4"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -11374,6 +11471,25 @@
     "url": "https://www.youtube.com/watch?v=9zh3Raq4FVc"
   },
   {
+    "id": "etsy-digital-product-research-driven-testing",
+    "name": "Finding not-yet-bestseller Etsy digital product listings and reverse-engineering why they're gaining traction, instead of copying bestsellers or trusting your own design taste",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy digital products",
+      "market research tool",
+      "pre-bestseller listing analysis",
+      "iterative testing",
+      "Pinterest traffic"
+    ],
+    "cost": "Low (an Etsy research/SEO tool subscription)",
+    "found": "Just Teachin Stuff",
+    "what": "Instead of copying an already-successful Etsy bestseller (which the presenter demonstrates rarely reproduces the same results even with a near-identical listing), use a research tool to find listings that are NOT yet bestsellers but show early momentum signals (rising views, growing favorites, a handful of early sales, listed within the last month). Treat every published listing as a disposable test rather than a precious creation: make a design 'good enough,' publish it, watch the real signals, and iterate on the specific variable that seems to matter (thumbnail, title keywords, pricing, color, style) rather than getting emotionally attached to any single design.",
+    "pitch": "The presenter, an ex-teacher who now runs an academy teaching this process, demonstrates live on Etsy how two nearly-identical pet-portrait listings from the same seller can have wildly different results ($2,124/month vs. $0/month), attributing it to small details rather than the core design, and frames the whole lesson as: research and testing matter more than design skill, and consistency/patience over months matters more than any single tactic.",
+    "best": "Someone willing to publish frequently and treat each listing as a data point rather than a masterpiece, and comfortable using a paid research tool to study competitor traction signals.",
+    "truth": "The core methodology, studying pre-bestseller listings for early traction signals and iterating based on real market response, is sound, evidence-based e-commerce practice, and the live demonstrated example is a genuine, verifiable illustration on Etsy's own public platform. No specific personal revenue figures are given; the video promotes a free webinar (a lead magnet for the presenter's paid academy).",
+    "url": "https://www.youtube.com/watch?v=V42wlg4RxSQ"
+  },
+  {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
     "name": "Digistore24 affiliate marketing funnel using a free \"nurture sequence\" instead of direct-linking",
     "category": "Marketing & content",
@@ -11811,28 +11927,6 @@
     "published": "2026-08-21"
   },
   {
-    "id": "claude-design-print-on-demand-storefront",
-    "name": "Semi-automated print-on-demand apparel using Claude Design and an AI storefront builder",
-    "category": "Physical & print products",
-    "tags": [
-      "print on demand",
-      "AI tools",
-      "apparel",
-      "e-commerce"
-    ],
-    "cost": "Low startup cost (AI tool subscriptions; free Printful/Etsy accounts)",
-    "found": "Joshua Mayo",
-    "what": "A semi-automated print-on-demand apparel business built around simple, repeatable text-based t-shirt designs, using Claude Design to build a custom bulk-design-generator tool, an AI website builder for a standalone storefront, and Printful for automated fulfillment.",
-    "pitch": "The presenter argues simple text-based shirt stores succeed through volume, hundreds or thousands of listings, rather than one viral design, and shows how Claude's design mode can build a working custom software tool, not just generate individual images, that bulk-produces dozens of on-brand shirt designs from a template phrase across many niches at once. Also demonstrates using an AI website builder to build a complete, functional e-commerce storefront from a single prompt, connecting Printful for automated fulfillment to both that storefront and an Etsy shop simultaneously, and using Claude to reverse-engineer SEO-optimized titles and tags from already-successful competitor listings.",
-    "best": "Someone willing to build and maintain a large volume of simple listings rather than expecting a few designs to succeed, and comfortable stitching together several different tools into one connected workflow.",
-    "truth": "The presenter is explicit this is not a get-rich-quick scheme and still requires consistency, good design taste, and patience, a more grounded framing than some AI-business pitches. No personal revenue figures are given for the presenter's own store using this specific method; the examples of successful stores shown are third-party Etsy listings, not the presenter's own results.",
-    "url": "https://www.youtube.com/watch?v=bW8K4G1uvnA",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-06-19"
-  },
-  {
     "id": "ai-assisted-content-creator-gemini",
     "name": "AI-assisted personal-brand content creator, monetized across multiple channels",
     "category": "Content & personal brand",
@@ -11951,6 +12045,25 @@
     "truth": "The core technique, a rule-bound research prompt that forces verification and flags unconfirmed claims, is a genuinely sound way to generate higher-quality, personalized outreach than generic cold pitches, and the presenter demonstrates real spot-checking rather than just trusting the AI's output. The video is explicitly a model comparison/review rather than a step-by-step gig walkthrough, both models' outputs are described as 'not a client' since no outreach was actually sent in the video, and it promotes the presenter's own paid School community and consulting services.",
     "url": "https://www.youtube.com/watch?v=Im8XV1tkPEo",
     "published": "2026-09-13"
+  },
+  {
+    "id": "ai-animated-kids-story-youtube-channel",
+    "name": "Creating AI-animated children's story videos for YouTube, with a structured story framework to avoid looking like mass-produced content",
+    "category": "Content & personal brand",
+    "tags": [
+      "AI animation",
+      "kids YouTube content",
+      "faceless channel",
+      "OpenArt",
+      "character-driven storytelling"
+    ],
+    "cost": "Low (an OpenArt subscription, with a free tier to experiment before committing to a paid plan)",
+    "found": "Joshua Mayo",
+    "what": "Build AI-animated children's story videos using a tool (OpenArt) that generates a consistent character across scenes and a 'Director' feature that turns a plain-language story description into a full animated video (visuals, narration, music) in one generation; structure every story around a simple three-part framework (a relatable problem, a turning point, an earned resolution) rather than generic prompted content, since YouTube has been actively removing channels that look mass-produced/templated; optionally blend in real stock footage alongside AI-generated scenes as a 'hybrid' style that reads as more clearly human-directed and lower-risk for removal.",
+    "pitch": "The presenter demonstrates the entire build live and explains the monetization path: YouTube AdSense as the baseline (kids content has lower ad rates but high repeat-watch volume offsets this), then repurposing a successful character/story into an AI-illustrated children's book sold on Amazon, citing Super Simple, a real channel that grew into its own paid ad-free subscription app plus licensing deals with platforms like Amazon Prime Video.",
+    "best": "Someone willing to build an actual story rather than mass-generate templated content, and patient with a real production process rather than expecting instant volume.",
+    "truth": "AI-animated kids content, the removal risk for templated/mass-produced channels, and the described monetization progression are all real and consistent with how YouTube's kids-content ecosystem works, and the Super Simple example is a real, verifiable case of this progression at scale. No personal revenue figures for the presenter's own channel are given; the video promotes his own affiliate link to the tool used throughout.",
+    "url": "https://www.youtube.com/watch?v=4LryAnzFLMw"
   },
   {
     "id": "lovable-ai-website-sales-pricing-ladder",
