@@ -422,6 +422,15 @@ function toTitleCase(str) {
   }).join(' ');
 }
 
+function formatPublished(dateStr) {
+  if (!dateStr) return null;
+  // dateStr is "YYYY-MM-DD"; parse as UTC so it doesn't shift a day depending
+  // on the visitor's timezone.
+  const d = new Date(dateStr + 'T00:00:00Z');
+  if (isNaN(d.getTime())) return null;
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+}
+
 function slugifyProducer(name) {
   let s = (name || '').toLowerCase();
   s = s.replace(/[^a-z0-9]+/g, '-');
@@ -439,14 +448,17 @@ function buildCard(idea) {
   card.className = 'card';
 
   const isSaved = savedIds.has(idea.id);
+  const publishedText = formatPublished(idea.published);
 
   card.innerHTML = `
     <div class="card-head">
       <div class="card-title-block">
-        <img class="card-avatar" src="${escapeAttr(avatarSrc(idea.found))}" alt="" loading="lazy" onerror="this.classList.add('card-avatar-hidden')">
+        <img class="card-avatar" src="${escapeAttr(avatarSrc(idea.found))}" alt="" loading="lazy" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+        <div class="card-avatar-placeholder" aria-hidden="true" hidden>No Photo</div>
         <div class="card-title-text">
           <h3 class="card-title">${escapeHtml(toTitleCase(idea.name))}</h3>
           <p class="card-meta">${escapeHtml(idea.category)} &middot; ${escapeHtml(idea.cost)}</p>
+          ${publishedText ? `<p class="card-date">Posted ${escapeHtml(publishedText)}</p>` : ''}
         </div>
       </div>
       <div class="card-actions">
