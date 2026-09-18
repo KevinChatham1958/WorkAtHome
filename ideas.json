@@ -46,6 +46,29 @@
     "published": "2026-08-07"
   },
   {
+    "id": "vending-machine-route",
+    "name": "Building a vending machine route",
+    "category": "Local & professional services",
+    "tags": [
+      "asset ownership",
+      "local business",
+      "recurring revenue",
+      "low time commitment"
+    ],
+    "cost": "$1,500 to $6,000 per machine",
+    "found": "Harry's Stealth Wealth",
+    "what": "Buy individual vending machines (new or refurbished) and place them in high-traffic locations like offices, gyms, factories, or waiting areas, then visit on a rotation to restock inventory and collect revenue.",
+    "pitch": "The video cites a 2025 industry analysis putting monthly profit per well-placed machine at $200 to $500 after all costs, with location mattering more than anything else. It also cites a CNBC feature on an operator running a $300,000-a-year vending business on about 4 hours of work a week.",
+    "best": "Someone comfortable driving a regular restocking route and negotiating placement agreements with property or business owners, without needing any specialized skill.",
+    "truth": "As with the other entries from this video, the specific case study should be read as illustrative rather than a verified individual, but the underlying industry figures cited (profit ranges, the 95% five-year survival rate versus 20% for restaurants) come from named third-party sources (an industry analysis firm, CNBC) that can be checked independently of the narrative wrapper.",
+    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment"
+    ],
+    "published": "2026-04-07"
+  },
+  {
     "id": "custom-stamps-small-business-packaging",
     "name": "Custom stamp making for small business branded packaging",
     "category": "Physical & print products",
@@ -138,6 +161,26 @@
     "published": "2026-09-05"
   },
   {
+    "id": "valet-trash-bulk-waste-apartment-complexes",
+    "name": "Valet trash and bulk waste removal for apartment complexes",
+    "category": "Local & professional services",
+    "tags": [
+      "valet trash",
+      "apartment complex contracts",
+      "junk hauling",
+      "recurring B2B contract",
+      "multi-family housing"
+    ],
+    "cost": "Low startup cost (roughly $4,500 for a used hauling truck)",
+    "found": "HIDDEN WEALTH",
+    "what": "Walk the hallways of multi-family apartment complexes each evening collecting tied trash bags residents leave outside their doors (a service many complexes already charge residents a mandatory monthly fee for, often around $30/door) and haul them to the property's main dumpster, selling directly to property managers on a multi-year contract rather than to individual tenants; use standalone bulk item and junk hauling (old couches, mattresses, appliances tenants leave behind) as a faster-to-sell entry service that builds trust with property managers before pitching the larger recurring valet contract.",
+    "pitch": "The math scales with door count: a 400-unit complex charging residents $30/month for valet trash represents $12,000/month in revenue for a nightly task the presenter says takes under two hours. The illustrative account in the source video describes two operators who spent six months and 20 daily pitches with zero contracts before a property manager explained that nobody hands a multi-million-dollar property contract to unproven operators showing up in a borrowed truck \u2014 the fix was leading with smaller, faster-cash bulk-hauling jobs to build a track record and cash flow before ever pitching the long-term valet contract.",
+    "best": "Someone comfortable with physical nightly work and willing to spend real time building credibility with property managers before landing a first multi-year contract, rather than expecting an immediate yes.",
+    "truth": "This account reads as an illustrative story built around a named individual rather than an independently verifiable case study, so the specific dollar figures should be treated as representative rather than audited; the underlying business mechanic \u2014 a per-door recurring service sold to a property manager as one contract instead of one-off consumer sales \u2014 is a genuine, sound model consistent with how many multi-family service contracts work in practice. Landing that first contract without an established track record is a real, non-trivial hurdle, not a minor detail.",
+    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
+    "published": "2026-08-19"
+  },
+  {
     "id": "ai-clipping",
     "name": "AI clipping for creators",
     "category": "Marketing & content",
@@ -227,6 +270,31 @@
       "Home office, client-facing"
     ],
     "published": "2026-06-19"
+  },
+  {
+    "id": "pest-control-route",
+    "name": "Running a pest control or similar recurring home-service route",
+    "category": "Local & professional services",
+    "tags": [
+      "local business",
+      "recurring revenue",
+      "certification needed",
+      "route-based"
+    ],
+    "cost": "Equipment and certification costs vary by state",
+    "found": "Harry's Stealth Wealth",
+    "what": "Sign up homes onto a recurring monthly service plan (pest control, or similarly structured services like pool cleaning or lawn care), and service them on a repeating route rather than needing to resell each customer every month.",
+    "pitch": "The video does the math on one hypothetical route: 82 homes paying $59 a month for basic pest control comes to $4,838 in gross monthly revenue from one technician and one truck, with the model scaling by adding additional routes.",
+    "best": "Someone willing to get any required state licensing or certification and who's comfortable with physical, on-site route work and a truck.",
+    "truth": "This is one of the more genuinely well-established, verifiable small-business categories in the video; recurring local pest and lawn services are a real, common small-business model independent of this particular narrative. State licensing requirements for pest control specifically vary and can be a real barrier or delay worth researching locally before assuming this is a fast start.",
+    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Requires a license or certification",
+      "Needs a truck or cargo vehicle"
+    ],
+    "published": "2026-04-07"
   },
   {
     "id": "foil-press-personalization-business",
@@ -370,29 +438,6 @@
     "published": "2026-08-24"
   },
   {
-    "id": "vending-machine-route",
-    "name": "Building a vending machine route",
-    "category": "Local & professional services",
-    "tags": [
-      "asset ownership",
-      "local business",
-      "recurring revenue",
-      "low time commitment"
-    ],
-    "cost": "$1,500 to $6,000 per machine",
-    "found": "Harry's Stealth Wealth",
-    "what": "Buy individual vending machines (new or refurbished) and place them in high-traffic locations like offices, gyms, factories, or waiting areas, then visit on a rotation to restock inventory and collect revenue.",
-    "pitch": "The video cites a 2025 industry analysis putting monthly profit per well-placed machine at $200 to $500 after all costs, with location mattering more than anything else. It also cites a CNBC feature on an operator running a $300,000-a-year vending business on about 4 hours of work a week.",
-    "best": "Someone comfortable driving a regular restocking route and negotiating placement agreements with property or business owners, without needing any specialized skill.",
-    "truth": "As with the other entries from this video, the specific case study should be read as illustrative rather than a verified individual, but the underlying industry figures cited (profit ranges, the 95% five-year survival rate versus 20% for restaurants) come from named third-party sources (an industry analysis firm, CNBC) that can be checked independently of the narrative wrapper.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-04-07"
-  },
-  {
     "id": "digital-nail-printer-mini-machine-business",
     "name": "Digital nail art printer service",
     "category": "Physical & print products",
@@ -432,6 +477,48 @@
       "Local travel required"
     ],
     "published": "2026-08-07"
+  },
+  {
+    "id": "commercial-pressure-washing-per-sqft-pricing",
+    "name": "Commercial-focused pressure washing priced per square foot instead of per residential job",
+    "category": "Local & professional services",
+    "tags": [
+      "pressure washing",
+      "commercial exteriors",
+      "soft washing",
+      "per-square-foot pricing",
+      "before/after marketing"
+    ],
+    "cost": "Low to moderate startup cost (roughly $3,000 for a commercial-grade pressure washer, hoses, and extension wand)",
+    "found": "HIDDEN WEALTH",
+    "what": "Rather than competing on $100-200 residential driveway jobs, target commercial exteriors, parking garages, and roofs, pricing by square footage (roughly $0.25-0.50/sq ft) so a single commercial job can produce $1,500 or more in half a day, using proper soft-washing chemicals and low-pressure technique (rather than blasting everything at full pressure) to avoid property damage, and marketing with before/after photos and review requests after every job.",
+    "pitch": "The illustrative account describes a construction worker with 25 years of trade experience picking up the skill from a friend, investing about $3,000 in equipment, and immediately out-earning his prior day rate \u2014 but also describes a costly early mistake: using full water pressure without understanding proper chemical application blew out a seal and flooded a client's unit, an expensive lesson that led to properly learning soft-wash technique before taking on more commercial work.",
+    "best": "Someone willing to learn proper chemical/pressure technique before taking commercial jobs (the margin for error is real and costly), and interested in targeting business and property clients rather than only residential driveways.",
+    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. The commercial-versus-residential pricing distinction and the soft-washing safety lesson are genuine, checkable facts about the pressure washing trade independent of the narrative; property damage from improper technique is a real and documented risk in this industry, not just a dramatic plot point.",
+    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
+    "published": "2026-08-19"
+  },
+  {
+    "id": "small-scale-property-management",
+    "name": "Small-scale residential property management",
+    "category": "Local & professional services",
+    "tags": [
+      "local business",
+      "real estate",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost (service-based, no property ownership required)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Act as the bridge between everyday landlords and tenants, collecting rent, arranging repairs, and handling move-ins and move-outs, for landlords who'd rather pay a fee than manage those tasks themselves.",
+    "pitch": "The video's math: a solo property manager handling 50 doors at an average fee of $91 per door per month brings in $4,550 in gross monthly fees, with income scaling as more doors are added and a small team is brought on.",
+    "best": "Someone organized and comfortable being the point of contact for both landlords and tenants, including handling occasionally stressful situations like repairs or move-out disputes.",
+    "truth": "Per-door management fees and the basic mechanics described here are consistent with how property management is actually structured in the real world, a genuine, well-established service category. The 50-door starting point implies real existing relationships or marketing effort to land that many landlord clients, which the video doesn't address in depth.",
+    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
+    "situation_tags": [
+      "Local travel required",
+      "Phone/sales-based"
+    ],
+    "published": "2026-04-07"
   },
   {
     "id": "ai-micro-tools-lovable-stan-store",
@@ -775,6 +862,28 @@
     "published": "2026-06-19"
   },
   {
+    "id": "atm-machine-ownership",
+    "name": "Owning and placing private ATM machines",
+    "category": "Local & professional services",
+    "tags": [
+      "asset ownership",
+      "passive income",
+      "low time commitment"
+    ],
+    "cost": "Around $3,000 per machine",
+    "found": "Harry's Stealth Wealth",
+    "what": "Buy an ATM machine, negotiate a placement agreement with a high-traffic small business (a gas station, barber shop, or small grocery store), load it with cash, and collect a per-transaction fee every time someone withdraws money.",
+    "pitch": "The video estimates a typical machine handling around 300 transactions a month at $2.50 to $3.50 per withdrawal, working out to roughly $300 to $1,500 a month depending on location, for about 30 minutes of restocking and receipt-checking a week.",
+    "best": "Someone looking for the most hands-off entry point on this list, willing to handle cash logistics and negotiate a placement deal with a business owner.",
+    "truth": "Owning private ATMs is a real, established small-business model, not a novel or fringe idea, and the per-transaction fee structure described is accurate to how these machines actually work. What the video doesn't cover: cash-handling logistics and liability, and the placement negotiation itself likely requires more selling effort than the video's brief framing suggests.",
+    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment"
+    ],
+    "published": "2026-04-07"
+  },
+  {
     "id": "short-run-screen-printing-packaging",
     "name": "Short-run screen printing for local business packaging",
     "category": "Physical & print products",
@@ -818,26 +927,6 @@
       "Strictly in-home"
     ],
     "published": "2026-08-21"
-  },
-  {
-    "id": "valet-trash-bulk-waste-apartment-complexes",
-    "name": "Valet trash and bulk waste removal for apartment complexes",
-    "category": "Local & professional services",
-    "tags": [
-      "valet trash",
-      "apartment complex contracts",
-      "junk hauling",
-      "recurring B2B contract",
-      "multi-family housing"
-    ],
-    "cost": "Low startup cost (roughly $4,500 for a used hauling truck)",
-    "found": "HIDDEN WEALTH",
-    "what": "Walk the hallways of multi-family apartment complexes each evening collecting tied trash bags residents leave outside their doors (a service many complexes already charge residents a mandatory monthly fee for, often around $30/door) and haul them to the property's main dumpster, selling directly to property managers on a multi-year contract rather than to individual tenants; use standalone bulk item and junk hauling (old couches, mattresses, appliances tenants leave behind) as a faster-to-sell entry service that builds trust with property managers before pitching the larger recurring valet contract.",
-    "pitch": "The math scales with door count: a 400-unit complex charging residents $30/month for valet trash represents $12,000/month in revenue for a nightly task the presenter says takes under two hours. The illustrative account in the source video describes two operators who spent six months and 20 daily pitches with zero contracts before a property manager explained that nobody hands a multi-million-dollar property contract to unproven operators showing up in a borrowed truck \u2014 the fix was leading with smaller, faster-cash bulk-hauling jobs to build a track record and cash flow before ever pitching the long-term valet contract.",
-    "best": "Someone comfortable with physical nightly work and willing to spend real time building credibility with property managers before landing a first multi-year contract, rather than expecting an immediate yes.",
-    "truth": "This account reads as an illustrative story built around a named individual rather than an independently verifiable case study, so the specific dollar figures should be treated as representative rather than audited; the underlying business mechanic \u2014 a per-door recurring service sold to a property manager as one contract instead of one-off consumer sales \u2014 is a genuine, sound model consistent with how many multi-family service contracts work in practice. Landing that first contract without an established track record is a real, non-trivial hurdle, not a minor detail.",
-    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
-    "published": "2026-08-19"
   },
   {
     "id": "claude-etsy-worksheet-bundles",
@@ -906,6 +995,26 @@
       "Strictly in-home"
     ],
     "published": "2026-08-10"
+  },
+  {
+    "id": "airbnb-turnover-cleaning-property-portfolios",
+    "name": "Airbnb and short-term rental turnover cleaning service for property management portfolios",
+    "category": "Local & professional services",
+    "tags": [
+      "Airbnb cleaning",
+      "short-term rental turnover",
+      "property management contracts",
+      "recurring high-frequency service",
+      "team scaling"
+    ],
+    "cost": "Low startup cost (roughly $1,000 if you already have a working vehicle, or around $5,000 total including a vehicle and supplies)",
+    "found": "HIDDEN WEALTH",
+    "what": "Offer full turnover cleaning for short-term rental (Airbnb-style) properties \u2014 not just sweeping and wiping surfaces, but managing linens, restocking guest toiletries, and flagging maintenance issues \u2014 targeting property managers who oversee entire portfolios of listings needing service multiple times a week between every guest checkout, rather than standard residential cleaning clients who need service once every week or two.",
+    "pitch": "The illustrative account describes starting the service part-time on weekends alongside a full-time job before it outgrew that income within three months, then scaling by landing property-manager clients with 20-50 properties at once rather than pursuing homeowners one at a time; a single turnover clean is priced $150-400, and that rate multiplied across dozens of weekly turnovers compounds quickly with a hired team.",
+    "best": "Someone willing to build relationships with local property managers (who control access to many properties at once) rather than only marketing to individual homeowners, and comfortable eventually hiring and managing a cleaning team to handle the higher frequency this niche demands.",
+    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. The underlying structural insight \u2014 that turnover frequency (multiple cleanings per property per week) compounds revenue much faster than standard biweekly residential cleaning \u2014 is a genuine, checkable feature of the short-term rental market that doesn't depend on any one person's specific story.",
+    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
+    "published": "2026-08-19"
   },
   {
     "id": "custom-led-neon-signs-local-businesses",
@@ -1020,6 +1129,28 @@
       "Local travel required"
     ],
     "published": "2026-08-14"
+  },
+  {
+    "id": "airbnb-rental-arbitrage",
+    "name": "Short-term rental arbitrage (Airbnb without owning property)",
+    "category": "Local & professional services",
+    "tags": [
+      "real estate",
+      "short-term rental",
+      "recurring revenue"
+    ],
+    "cost": "$5,000 to $15,000 to furnish a unit",
+    "found": "Harry's Stealth Wealth",
+    "what": "Rent a property from a landlord with their written permission to sublet it, furnish it, and list it on short-term rental platforms; your profit is the gap between what you pay in rent and what you collect in nightly bookings, without ever needing a mortgage or down payment.",
+    "pitch": "The video estimates $1,000 to $3,000 in profit per unit per month, with some operators managing 5 to 20 units this way, and stresses that systems (automated booking, guest messaging, a rotating cleaning crew, and dynamic pricing software) are what make multiple units manageable.",
+    "best": "Someone comfortable with the logistics of furnishing and managing a short-term rental, and who can find a landlord willing to permit subletting for this purpose in writing.",
+    "truth": "This model is real and practiced (often called \"rental arbitrage\"), but it depends entirely on finding a landlord willing to allow it in writing, many won't, and on local short-term rental regulations, which vary widely by city and can restrict or ban this model outright. The video doesn't mention either of those real constraints, worth researching thoroughly before committing to a lease based on this plan.",
+    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
+    "situation_tags": [
+      "Local travel required",
+      "Requires hiring or managing others"
+    ],
+    "published": "2026-04-07"
   },
   {
     "id": "paid-focus-groups-user-testing",
@@ -1315,31 +1446,6 @@
     "published": "2026-08-24"
   },
   {
-    "id": "pest-control-route",
-    "name": "Running a pest control or similar recurring home-service route",
-    "category": "Local & professional services",
-    "tags": [
-      "local business",
-      "recurring revenue",
-      "certification needed",
-      "route-based"
-    ],
-    "cost": "Equipment and certification costs vary by state",
-    "found": "Harry's Stealth Wealth",
-    "what": "Sign up homes onto a recurring monthly service plan (pest control, or similarly structured services like pool cleaning or lawn care), and service them on a repeating route rather than needing to resell each customer every month.",
-    "pitch": "The video does the math on one hypothetical route: 82 homes paying $59 a month for basic pest control comes to $4,838 in gross monthly revenue from one technician and one truck, with the model scaling by adding additional routes.",
-    "best": "Someone willing to get any required state licensing or certification and who's comfortable with physical, on-site route work and a truck.",
-    "truth": "This is one of the more genuinely well-established, verifiable small-business categories in the video; recurring local pest and lawn services are a real, common small-business model independent of this particular narrative. State licensing requirements for pest control specifically vary and can be a real barrier or delay worth researching locally before assuming this is a fast start.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Requires a license or certification",
-      "Needs a truck or cargo vehicle"
-    ],
-    "published": "2026-04-07"
-  },
-  {
     "id": "tufting-gun-custom-rug-business",
     "name": "Custom tufted rug business",
     "category": "Physical & print products",
@@ -1428,6 +1534,26 @@
     "published": "2026-09-05"
   },
   {
+    "id": "epoxy-garage-floor-sell-before-buy-financing",
+    "name": "Epoxy garage floor coating funded by selling jobs before buying equipment",
+    "category": "Local & professional services",
+    "tags": [
+      "epoxy flooring",
+      "garage floor coating",
+      "bootstrap financing",
+      "deposit-funded equipment rental",
+      "high-margin trade service"
+    ],
+    "cost": "Moderate startup cost to learn (roughly $2,000 for manufacturer training) with equipment financed via client deposits rather than upfront purchase",
+    "found": "HIDDEN WEALTH",
+    "what": "Apply high-performance epoxy/polyaspartic coatings to garage concrete floors (grinding down the old surface, repairing cracks, then applying a decorative, chip-resistant finish that lasts 20-30 years), but bootstrap the expensive commercial equipment (a concrete grinder can cost over $20,000) by first landing paying clients through targeted local ad campaigns showing dramatic before/after transformations, collecting a 50% deposit upfront, and using those deposits to rent the grinding equipment day-by-day from a local supply shop rather than buying it outright \u2014 only purchasing owned equipment once enough client-funded profit has accumulated.",
+    "pitch": "A garage floor job typically takes a two-person team one day and homeowners pay $4,000-7,000 per garage given the finish's longevity, with the illustrative account citing about $1,800/month in ongoing truck-and-gear overhead against up to $60,000 in monthly revenue at scale. The presenter is candid that early mistakes are costly and specific: underestimating how long a job will take when old sealant resists the rented equipment can turn a projected two-day job into two weeks, so testing the concrete's hardness and moisture before quoting became a hard-learned, now-standard step.",
+    "best": "Someone willing to invest in proper technique training before taking paying jobs (this trade has a real, visible failure mode if botched) and comfortable using a sell-first, equipment-later financing sequence rather than buying expensive gear speculatively.",
+    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. A similar epoxy garage flooring entry already exists in this database from a different producer emphasizing portfolio-building and practicing on a low-stakes floor first; this version's distinct, checkable contribution is the deposit-funded equipment rental strategy for bootstrapping expensive gear, and the specific concrete-testing lesson learned from a near-failure.",
+    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
+    "published": "2026-08-19"
+  },
+  {
     "id": "bookkeeping-payroll-services",
     "name": "AI-leveraged bookkeeping and payroll services",
     "category": "Local & professional services",
@@ -1448,6 +1574,30 @@
       "Strictly in-home"
     ],
     "published": "2026-06-19"
+  },
+  {
+    "id": "pressure-washing-service",
+    "name": "Residential pressure washing service",
+    "category": "Local & professional services",
+    "tags": [
+      "local business",
+      "equipment needed",
+      "weekend schedule",
+      "beginner friendly"
+    ],
+    "cost": "$75 (rental) to $3,200 (own equipment)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Pressure wash driveways, siding, and other exterior home surfaces for homeowners, starting with a rented machine and scaling up to owned commercial-grade equipment as the work becomes steady.",
+    "pitch": "The video walks through starting with a $75 weekend rental from a home improvement store, landing two of six neighborhood doors knocked on, and making $210 in a single afternoon, then scaling to three jobs a Saturday at $300 to $500 per job with 20-50% profit margins after buying a $3,200 commercial setup.",
+    "best": "Someone who wants a genuinely low-cost way to test a service business on weekends, comfortable with physical outdoor work and basic neighborhood marketing.",
+    "truth": "This is one of the more checkable, concrete ideas in the video; the starting cost (a rental) is real and low enough that most people really could test this in a single weekend, a good sign for a beginner-friendly idea. The claimed monthly totals depend on booking a consistent volume of jobs every single weekend, which takes real ongoing marketing effort the video doesn't detail.",
+    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Weekend/event-based schedule"
+    ],
+    "published": "2026-04-07"
   },
   {
     "id": "ai-done-for-you-content-professionals",
@@ -1674,6 +1824,30 @@
       "Local travel required"
     ],
     "published": "2026-04-09"
+  },
+  {
+    "id": "mobile-car-detailing",
+    "name": "Mobile car detailing service",
+    "category": "Local & professional services",
+    "tags": [
+      "local business",
+      "equipment needed",
+      "weekend schedule",
+      "beginner friendly"
+    ],
+    "cost": "About $2,700 for starting equipment",
+    "found": "Harry's Stealth Wealth",
+    "what": "Travel to customers' homes or workplaces to clean and detail their vehicles, interior and exterior, using portable equipment rather than operating from a fixed shop location.",
+    "pitch": "The video cites a Reddit thread (with posted Square payment receipts as evidence) from an operator claiming $3,700 to $4,200 in monthly revenue detailing cars out of a home garage, at $150 to $300 per job with a 60-80% profit margin.",
+    "best": "Someone comfortable with physical, hands-on outdoor work and willing to build a weekend booking schedule, without needing a storefront or employees.",
+    "truth": "The Square receipt screenshots mentioned in the source material are a genuinely better transparency signal than most claims in this video, real payment platform data, not just a stated number. That said, this is still a secondhand Reddit account relayed by the video, not something independently verified here. The margins and price points described are broadly consistent with what real mobile detailers charge.",
+    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Weekend/event-based schedule"
+    ],
+    "published": "2026-04-07"
   },
   {
     "id": "guitar-setup-repair-recurring-clients",
@@ -2027,6 +2201,26 @@
     "published": "2026-08-14"
   },
   {
+    "id": "remote-cleaning-agency-dispatch-subcontractor-model",
+    "name": "Fully remote cleaning agency that dispatches jobs to independent subcontractors",
+    "category": "Local & professional services",
+    "tags": [
+      "remote agency model",
+      "subcontractor dispatch",
+      "cleaning business",
+      "location-independent",
+      "margin-based brokerage"
+    ],
+    "cost": "Very low startup cost (under $1,000 for a booking website and phone/booking software)",
+    "found": "HIDDEN WEALTH",
+    "what": "Run a home cleaning company entirely remotely by never employing cleaners directly: build a booking website and run local search ads to capture inbound customer calls, quote and book the jobs yourself (or via phone software), then match each job to vetted independent cleaning subcontractors who already own their own equipment and drive to jobs from their own homes \u2014 collecting the customer's payment upfront, paying the subcontractor their fixed cut, and keeping the 30-40% margin in between without ever cleaning anything yourself.",
+    "pitch": "The illustrative account frames the core competitive edge as simply answering the phone: testing ten local competitor cleaning companies on a Saturday morning found seven didn't pick up at all, and immediate answering plus instant booking converted more than half of inbound calls into booked jobs \u2014 no cleaning skill or physical presence required from the business owner, since the entire value-add is fast response, reliable dispatch, and vetting subcontractors.",
+    "best": "Someone who wants a genuinely location-independent business and is comfortable operating as a broker/dispatcher rather than a hands-on service provider, with the discipline to vet and manage a network of subcontractors reliably.",
+    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. The core insight \u2014 that many local service businesses lose bookable customers simply by not answering the phone promptly \u2014 is a genuine, well-documented pattern in local-service marketing independent of this particular narrative; building a reliable subcontractor network and maintaining service quality without direct oversight is a real, non-trivial operational challenge the story doesn't dwell on.",
+    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
+    "published": "2026-08-19"
+  },
+  {
     "id": "custom-picture-framing-business",
     "name": "Custom picture framing and shadow box business",
     "category": "Physical & print products",
@@ -2157,6 +2351,30 @@
     "published": "2026-06-19"
   },
   {
+    "id": "notary-loan-signing-agent",
+    "name": "Notary loan signing agent",
+    "category": "Local & professional services",
+    "tags": [
+      "certification needed",
+      "local business",
+      "high hourly rate",
+      "beginner friendly"
+    ],
+    "cost": "Under $400 (state notary commission plus signing agent certification)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Become a certified notary and loan signing agent, then get hired by title companies, escrow companies, or signing services to meet home buyers or refinancing homeowners in person to witness and notarize the paperwork involved in a real estate closing.",
+    "pitch": "The video cites a CNBC report calling this one of the highest-paying side hustles in America, up to $200 an hour, for appointments that typically take about an hour and pay $75 to $200 each, requiring only a state notary commission ($50-$100) and a signing agent certification course (about $200).",
+    "best": "Someone who wants a genuinely low-cost, credential-based entry point with a clear certification path, comfortable scheduling and traveling to in-person appointments, often evenings and weekends around closing schedules.",
+    "truth": "This is a real, well-documented gig economy role (signing services and title companies do hire independent notary signing agents), and the certification path and cost described are accurate to how someone would actually get started. Building a steady stream of signing appointments generally requires getting listed with signing services and building a reputation, which takes time the video doesn't address; the per-appointment pay is real, but consistent volume isn't guaranteed from day one.",
+    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
+    "situation_tags": [
+      "Local travel required",
+      "Requires a license or certification",
+      "Weekend/event-based schedule"
+    ],
+    "published": "2026-04-07"
+  },
+  {
     "id": "pool-cleaning-maintenance-service",
     "name": "Pool cleaning and maintenance service",
     "category": "Local & professional services",
@@ -2200,28 +2418,6 @@
       "Strictly in-home"
     ],
     "published": "2026-08-24"
-  },
-  {
-    "id": "small-scale-property-management",
-    "name": "Small-scale residential property management",
-    "category": "Local & professional services",
-    "tags": [
-      "local business",
-      "real estate",
-      "recurring revenue"
-    ],
-    "cost": "Low startup cost (service-based, no property ownership required)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Act as the bridge between everyday landlords and tenants, collecting rent, arranging repairs, and handling move-ins and move-outs, for landlords who'd rather pay a fee than manage those tasks themselves.",
-    "pitch": "The video's math: a solo property manager handling 50 doors at an average fee of $91 per door per month brings in $4,550 in gross monthly fees, with income scaling as more doors are added and a small team is brought on.",
-    "best": "Someone organized and comfortable being the point of contact for both landlords and tenants, including handling occasionally stressful situations like repairs or move-out disputes.",
-    "truth": "Per-door management fees and the basic mechanics described here are consistent with how property management is actually structured in the real world, a genuine, well-established service category. The 50-door starting point implies real existing relationships or marketing effort to land that many landlord clients, which the video doesn't address in depth.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Phone/sales-based"
-    ],
-    "published": "2026-04-07"
   },
   {
     "id": "desktop-laser-engraver-personalized-gifts",
@@ -2332,26 +2528,6 @@
     "published": "2026-08-21"
   },
   {
-    "id": "commercial-pressure-washing-per-sqft-pricing",
-    "name": "Commercial-focused pressure washing priced per square foot instead of per residential job",
-    "category": "Local & professional services",
-    "tags": [
-      "pressure washing",
-      "commercial exteriors",
-      "soft washing",
-      "per-square-foot pricing",
-      "before/after marketing"
-    ],
-    "cost": "Low to moderate startup cost (roughly $3,000 for a commercial-grade pressure washer, hoses, and extension wand)",
-    "found": "HIDDEN WEALTH",
-    "what": "Rather than competing on $100-200 residential driveway jobs, target commercial exteriors, parking garages, and roofs, pricing by square footage (roughly $0.25-0.50/sq ft) so a single commercial job can produce $1,500 or more in half a day, using proper soft-washing chemicals and low-pressure technique (rather than blasting everything at full pressure) to avoid property damage, and marketing with before/after photos and review requests after every job.",
-    "pitch": "The illustrative account describes a construction worker with 25 years of trade experience picking up the skill from a friend, investing about $3,000 in equipment, and immediately out-earning his prior day rate \u2014 but also describes a costly early mistake: using full water pressure without understanding proper chemical application blew out a seal and flooded a client's unit, an expensive lesson that led to properly learning soft-wash technique before taking on more commercial work.",
-    "best": "Someone willing to learn proper chemical/pressure technique before taking commercial jobs (the margin for error is real and costly), and interested in targeting business and property clients rather than only residential driveways.",
-    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. The commercial-versus-residential pricing distinction and the soft-washing safety lesson are genuine, checkable facts about the pressure washing trade independent of the narrative; property damage from improper technique is a real and documented risk in this industry, not just a dramatic plot point.",
-    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
-    "published": "2026-08-19"
-  },
-  {
     "id": "claude-ai-printable-wall-art",
     "name": "AI-generated printable wall art on Etsy",
     "category": "Digital & subscription products",
@@ -2419,6 +2595,42 @@
       "Strictly in-home"
     ],
     "published": "2026-08-10"
+  },
+  {
+    "id": "mini-dumper-tight-access-hauling",
+    "name": "Offering self-loading mini dumper hauling for tight residential construction sites",
+    "category": "Local & professional services",
+    "tags": [
+      "construction equipment rental",
+      "mini dumper",
+      "residential site access",
+      "specialized hauling"
+    ],
+    "cost": "Low ($1,300-3,200 for the machine)",
+    "found": "HIDDEN WEALTH",
+    "what": "Operate a self-loading mini dumper (front loader shovel plus hydraulic dump bed on tracks or tight-turning wheels) to move dirt and gravel through narrow residential side yards, small gates, and steep slopes that full-size dump trucks and wheelbarrow crews can't handle efficiently.",
+    "pitch": "Renting the machine with yourself as operator pulls $250-450/day, pitched to pool installation crews, drainage contractors, and landscaping teams doing retaining walls, since one mini dumper replaces roughly three manual laborers and cuts job time significantly.",
+    "best": "Someone comfortable operating small construction equipment and willing to market directly to residential contractors doing tight-access jobs.",
+    "truth": "This is a real, niche piece of specialized construction equipment addressing a genuine access problem; the day-rate figures are presented as general industry pricing, not a verified personal case study.",
+    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM"
+  },
+  {
+    "id": "musical-instrument-rental-schools",
+    "name": "Renting student musical instruments to school band programs",
+    "category": "Local & professional services",
+    "tags": [
+      "instrument rental",
+      "school band programs",
+      "rental asset business",
+      "recurring revenue"
+    ],
+    "cost": "Moderate (a starter fleet of 10-50 used student horns runs $5,000-15,000)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Buy a fleet of used student-grade band instruments (flutes, clarinets, trumpets) and rent them to middle/high school band students for $20-50/month, 9-10 months a year, to a new student every school year for a decade; collect a deposit and offer a rent-to-own option to cover damage risk, and land the first customers by contacting band directors directly and showing up at instrument-fitting nights.",
+    "pitch": "The video cites Music & Arts, a national chain built entirely on this model, as proof of real demand, and frames the appeal as parents not wanting to buy a $900 trumpet for a 12-year-old who might quit by March; a small fleet can generate a few hundred to over $1,000/month once established, with each instrument paying for itself in 1-2 school years.",
+    "best": "Someone willing to build relationships with local school band directors and comfortable managing a rental inventory (deposits, condition tracking, cleaning) over multiple school years.",
+    "truth": "Instrument rental to school band programs is a real, established model with a genuine large existing competitor validating demand. No specific personal case study or verified revenue figure is given for an independent small operator; figures are general industry ranges.",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
   },
   {
     "id": "mobile-phlebotomy-contract-work",
@@ -2713,6 +2925,24 @@
     "published": "2026-06-19"
   },
   {
+    "id": "formal-wear-dress-rental",
+    "name": "Renting formal wear and dresses for prom and wedding season",
+    "category": "Local & professional services",
+    "tags": [
+      "formal wear rental",
+      "prom season",
+      "wedding season",
+      "rental asset business"
+    ],
+    "cost": "Moderate ($8,000-25,000 for a rack of 30-60 pieces plus tailoring and a small showroom)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Buy formal dresses and rent each one out for $80-150 per event, with a popular piece renting 4-6 times in a single prom/wedding season and again the following year; partner with a prom vendor fair or a local bridal boutique that doesn't already rent, to get inventory in front of customers fast.",
+    "pitch": "The video frames this as quick and seasonal but with strong per-item math \u2014 a $200 dress can pay for itself many times over across seasons \u2014 and notes revenue can land within a month or two if inventory is ready before prom season.",
+    "best": "Someone comfortable with tailoring/alterations logistics and building a relationship with an existing bridal or event vendor to get initial exposure.",
+    "truth": "Formal wear rental is a real, established local service, and the seasonal-but-recurring math described is sound. No specific case study or verified revenue figure is given; figures are general estimates.",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
+  },
+  {
     "id": "vending-machine-route-business",
     "name": "Building a vending machine route across offices, gyms, and factories",
     "category": "Local & professional services",
@@ -2730,6 +2960,24 @@
     "truth": "Vending machine routes are a real, long-established micro-business, and negotiating good locations genuinely matters more than the product sold, which matches common industry knowledge. The specific 50-machine example is one presenter-cited case from industry reports, not independently verified, and finding good locations takes real ongoing sales effort.",
     "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
     "published": "2026-06-30"
+  },
+  {
+    "id": "spider-mini-crane-indoor-hoisting",
+    "name": "Offering hydraulic spider mini crane hoisting for tight indoor and delicate job sites",
+    "category": "Local & professional services",
+    "tags": [
+      "construction equipment rental",
+      "spider crane",
+      "indoor hoisting",
+      "specialized niche service"
+    ],
+    "cost": "Moderate ($2,000-5,000 used or from equipment importers)",
+    "found": "HIDDEN WEALTH",
+    "what": "Operate a hydraulic spider mini crane (wide folding outrigger legs, electric-powered, narrow enough to fit through standard double doors) to hoist 1-3 tons with precision in tight, uneven, or indoor spaces where standard industrial cranes can't fit or aren't allowed due to exhaust fumes.",
+    "pitch": "Specialized operators charge $400-800/day, targeting commercial HVAC crews hoisting chillers in tight mechanical rooms, glass installers on urban sites, historical building remodelers, and industrial mechanics \u2014 a niche standard crane rental companies won't even quote for small indoor jobs, giving the operator pricing leverage.",
+    "best": "Someone comfortable with precision equipment operation in tight, high-stakes environments (indoor spaces, fragile historic buildings).",
+    "truth": "This is a real, genuinely low-competition niche within crane rental since major rental companies don't serve small indoor jobs. Day-rate figures are general industry framing, not a personal verified case study.",
+    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM"
   },
   {
     "id": "amazon-influencer-program-video-reviews-diamondchanel",
@@ -3533,6 +3781,51 @@
     "published": "2026-09-04"
   },
   {
+    "id": "print-on-demand-tshirts",
+    "name": "Print-on-demand t-shirt business",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "apparel",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "UpFlip",
+    "what": "A print-on-demand apparel business built around niche-specific t-shirt designs, using a fulfillment partner for printing and shipping so you never hold inventory.",
+    "pitch": "One case study claims over $1 million in revenue in its first year, though only after 10 earlier failed store attempts and a period of significant personal debt from other failed businesses.",
+    "best": "Someone prepared for a real trial-and-error phase, this isn't presented as a first-try success story.",
+    "truth": "The arc shown, many failures followed by success, suggests real survivorship bias in what's highlighted, the failed attempts aren't detailed. Worth weighing that against the low-effort framing implied by a headline like this.",
+    "url": "https://www.youtube.com/watch?v=aHUB5HH-BRk",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "published": "2026-04-21"
+  },
+  {
+    "id": "ai-music-youtube-channel-claude-suno",
+    "name": "AI music YouTube channel built with Claude for songwriting and an AI music generator",
+    "category": "Content & personal brand",
+    "tags": [
+      "AI music",
+      "YouTube monetization",
+      "Claude",
+      "Suno-style tools",
+      "passive content"
+    ],
+    "cost": "Very low startup cost (an AI music generation tool subscription, roughly $10/month, plus Claude access)",
+    "found": "Geekbot AI",
+    "what": "Create an AI music channel by using Claude to generate song concepts, lyrics, and detailed genre/style prompts, feeding those into an AI music generation tool (the video uses one called Sondo) to produce a fully produced song and an AI artist image, then generating a complete AI music video synced to the song, publishing original (non-cover) music under a consistent AI artist persona to build a channel following.",
+    "pitch": "The presenter cites real examples of small AI music channels earning six figures a year (an AI reggae channel around $250,000, an AI R&B artist around $229,000, an AI country act around $160,000) in premium-RPM niches like lowfi, cinematic, and ambient music, which pay $3-8 per thousand views, walking through the full production pipeline (song, artist, video) built in under an hour using Claude and a paid AI music tool.",
+    "best": "Someone comfortable working entirely with AI tools for content creation, willing to treat idea/niche selection (not song quality) as the actual differentiator, and disciplined about following platform monetization rules.",
+    "truth": "The specific YouTube policy rules covered (no mass-uploading near-identical tracks, no AI covers of existing artists' songs, labeling content as AI-generated, and only monetizing tracks generated while on a paid plan with commercial rights) are genuinely important and easy to violate accidentally, so this level of detail is more useful than most AI-content videos that skip the compliance side. The headline earnings figures describe standout channels, not typical outcomes, and the video also promotes the presenter's own AI-idea-scoring tool as a paid upsell.",
+    "url": "https://www.youtube.com/watch?v=XCw0Rf1btP8",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-29"
+  },
+  {
     "id": "wall-printer-mural-service",
     "name": "Wall printer mural service for businesses",
     "category": "Physical & print products",
@@ -3815,28 +4108,6 @@
     "published": "2026-08-24"
   },
   {
-    "id": "atm-machine-ownership",
-    "name": "Owning and placing private ATM machines",
-    "category": "Local & professional services",
-    "tags": [
-      "asset ownership",
-      "passive income",
-      "low time commitment"
-    ],
-    "cost": "Around $3,000 per machine",
-    "found": "Harry's Stealth Wealth",
-    "what": "Buy an ATM machine, negotiate a placement agreement with a high-traffic small business (a gas station, barber shop, or small grocery store), load it with cash, and collect a per-transaction fee every time someone withdraws money.",
-    "pitch": "The video estimates a typical machine handling around 300 transactions a month at $2.50 to $3.50 per withdrawal, working out to roughly $300 to $1,500 a month depending on location, for about 30 minutes of restocking and receipt-checking a week.",
-    "best": "Someone looking for the most hands-off entry point on this list, willing to handle cash logistics and negotiate a placement deal with a business owner.",
-    "truth": "Owning private ATMs is a real, established small-business model, not a novel or fringe idea, and the per-transaction fee structure described is accurate to how these machines actually work. What the video doesn't cover: cash-handling logistics and liability, and the placement negotiation itself likely requires more selling effort than the video's brief framing suggests.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-04-07"
-  },
-  {
     "id": "resin-3d-printer-collectible-figures",
     "name": "Resin 3D printed collectible figures",
     "category": "Physical & print products",
@@ -3874,6 +4145,24 @@
     "truth": "The core framework (serve businesses, charge for outcomes, build visible proof, be reliable) is genuinely sound and echoes advice given independently by other creators in this database. The video also includes a sponsored plug for a CRM tool (Odoo) and an affiliate link for a trading platform partway through, both tied to a financial incentive separate from the core advice, and roughly the second half of the video shifts into general personal investing (savings accounts, index funds, individual stocks, crypto) rather than business advice, which is a separate topic from the roadmap itself.",
     "url": "https://www.youtube.com/watch?v=5rhHm6WWOIs&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=3",
     "published": "2025-02-27"
+  },
+  {
+    "id": "mobile-storage-pod-rental",
+    "name": "Renting portable steel storage containers to homeowners and contractors",
+    "category": "Local & professional services",
+    "tags": [
+      "mobile storage rental",
+      "storage pods",
+      "contractor job-site storage",
+      "rental asset business"
+    ],
+    "cost": "Moderate to high ($10,000-50,000 for a handful of used containers plus a trailer to move them)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Buy used steel storage containers and rent them out at $150-250/month to two customer groups: homeowners moving or remodeling, and contractors who need a locked on-site box for tools/materials for months at a time (the more recurring of the two); get first customers by contacting moving companies and real estate agents who regularly refer clients needing storage.",
+    "pitch": "The video cites PODS as a national franchise proving the model at scale (costing over a million dollars to buy into), framing this as capturing the same demand lean as a small independent operator with just a handful of containers; a $10,000 container at $200/month pays back in roughly 4 years, then is largely pure profit for a decade after.",
+    "best": "Someone with capital for a handful of containers and a trailer, comfortable building referral relationships with movers and real estate agents.",
+    "truth": "Mobile storage rental is a real, well-established model with strong evidence of genuine demand (PODS' national scale). No specific small-operator case study or verified revenue is given; figures are general industry estimates.",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
   },
   {
     "id": "private-atm-network-business",
@@ -4005,6 +4294,23 @@
     "published": "2025-09-12"
   },
   {
+    "id": "portable-generator-jobsite-power-rental",
+    "name": "Renting portable power generators to job sites experiencing power outages",
+    "category": "Local & professional services",
+    "tags": [
+      "construction equipment rental",
+      "portable generators",
+      "jobsite power backup"
+    ],
+    "cost": "Very low ($350-700 per entry-level commercial generator)",
+    "found": "HIDDEN WEALTH",
+    "what": "Buy portable gas or diesel generators and rent them to subcontractors on active construction sites experiencing power problems (new developments without utility hookup yet, older flip houses with breakers that trip from heavy tool use), providing surge-protected power for tools and lighting.",
+    "pitch": "Rents for $50-80/day per unit, targeting remote framing crews, night-shift interior finishing crews, outdoor event setup crews, and mobile repair vans; once a builder knows you have reliable backup power on short notice, they call for every off-grid site.",
+    "best": "Someone with capital for a few generator units and willing to be on-call for short-notice deliveries to active job sites.",
+    "truth": "Portable generator rental to solve a real, common construction-site problem (power outages/inadequate temporary power) is a real, established service. Day-rate figures are general industry pricing.",
+    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM"
+  },
+  {
     "id": "bookkeeping-small-business-recurring-clients",
     "name": "Offering monthly bookkeeping services to small businesses without needing to be a certified accountant",
     "category": "Local & professional services",
@@ -4046,6 +4352,24 @@
       "Requires equipment/vehicle investment"
     ],
     "published": "2026-06-19"
+  },
+  {
+    "id": "art-leasing-offices-hotels",
+    "name": "Leasing framed art to offices, hotels, and corporate lobbies on a rotating basis",
+    "category": "Local & professional services",
+    "tags": [
+      "art leasing",
+      "office decor rental",
+      "rotating art program",
+      "rental asset business"
+    ],
+    "cost": "Moderate ($5,000-25,000 for an opening portfolio of 20-30 framed pieces)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Buy a rotating portfolio of framed art and lease individual pieces to offices, hotel lobbies, and corporate suites for $50-300/month per piece, pitched as 'fresh walls every quarter with zero maintenance effort' for the property manager; once a piece has paid for itself on one wall, move it to the next location and start earning again.",
+    "pitch": "The video frames this as the calmest business on the list \u2014 no delivery trucks, no heavy lifting, no seasonal rush \u2014 with a full rotating portfolio potentially generating $1,500-5,000/month once established across a city's office parks and hotel lobbies.",
+    "best": "Someone comfortable pitching facilities managers and building an initial art inventory, without needing physical labor or seasonal availability.",
+    "truth": "Art leasing to commercial properties is a real, if niche, established service. No specific case study or verified revenue figure is given; figures are general estimates from the presenter's framing.",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
   },
   {
     "id": "waste-oil-grease-collection-recycling",
@@ -4301,6 +4625,24 @@
     "published": "2025-09-12"
   },
   {
+    "id": "camera-equipment-rental-sharegrid",
+    "name": "Renting out camera and film equipment through a peer-to-peer platform",
+    "category": "Local & professional services",
+    "tags": [
+      "camera equipment rental",
+      "ShareGrid",
+      "peer-to-peer rental",
+      "content creator market"
+    ],
+    "cost": "Moderate ($3,000-8,000 for a starter kit of one camera body and a couple of lenses)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Buy camera/lens equipment and list it on a peer-to-peer rental platform (ShareGrid cited specifically) to rent to wedding videographers, YouTubers, and small production houses who need gear for one shoot rather than buying it; price slightly under local competition to get an early booking.",
+    "pitch": "The video cites ShareGrid's own published numbers as verification: over 12,000 members, $100M+ worth of gear listed, up to $750,000 in built-in insurance coverage, with a Sony camera body renting at an average of $112/day on the platform \u2014 a modest kit can clear $700-1,000+/month, and a $6,000 body only needs 10-15 rental days a year to cover its depreciation.",
+    "best": "Someone with camera equipment (or capital to buy some) in a market with real content-production demand (a mid-to-large metro), comfortable managing bookings and equipment condition through a rental platform.",
+    "truth": "Camera equipment rental via ShareGrid is a real, verifiable platform with the cited membership/inventory/insurance figures coming from the platform's own published numbers, giving this more third-party grounding than most items on the list. Individual earnings still depend on local demand and utilization, which the presenter is honest is the real risk (an underbooked asset quietly loses money).",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
+  },
+  {
     "id": "faceless-digital-publishing-kdp-pen-name",
     "name": "Faceless digital publishing (Amazon KDP under a pen name)",
     "category": "Digital & subscription products",
@@ -4321,26 +4663,6 @@
       "Strictly in-home"
     ],
     "published": "2026-08-21"
-  },
-  {
-    "id": "airbnb-turnover-cleaning-property-portfolios",
-    "name": "Airbnb and short-term rental turnover cleaning service for property management portfolios",
-    "category": "Local & professional services",
-    "tags": [
-      "Airbnb cleaning",
-      "short-term rental turnover",
-      "property management contracts",
-      "recurring high-frequency service",
-      "team scaling"
-    ],
-    "cost": "Low startup cost (roughly $1,000 if you already have a working vehicle, or around $5,000 total including a vehicle and supplies)",
-    "found": "HIDDEN WEALTH",
-    "what": "Offer full turnover cleaning for short-term rental (Airbnb-style) properties \u2014 not just sweeping and wiping surfaces, but managing linens, restocking guest toiletries, and flagging maintenance issues \u2014 targeting property managers who oversee entire portfolios of listings needing service multiple times a week between every guest checkout, rather than standard residential cleaning clients who need service once every week or two.",
-    "pitch": "The illustrative account describes starting the service part-time on weekends alongside a full-time job before it outgrew that income within three months, then scaling by landing property-manager clients with 20-50 properties at once rather than pursuing homeowners one at a time; a single turnover clean is priced $150-400, and that rate multiplied across dozens of weekly turnovers compounds quickly with a hired team.",
-    "best": "Someone willing to build relationships with local property managers (who control access to many properties at once) rather than only marketing to individual homeowners, and comfortable eventually hiring and managing a cleaning team to handle the higher frequency this niche demands.",
-    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. The underlying structural insight \u2014 that turnover frequency (multiple cleanings per property per week) compounds revenue much faster than standard biweekly residential cleaning \u2014 is a genuine, checkable feature of the short-term rental market that doesn't depend on any one person's specific story.",
-    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
-    "published": "2026-08-19"
   },
   {
     "id": "claude-faceless-youtube-channel",
@@ -4412,6 +4734,24 @@
     "published": "2026-08-10"
   },
   {
+    "id": "mini-hammer-crusher-debris-recycling",
+    "name": "On-site crushing of construction debris into resellable gravel with a mini hammer crusher",
+    "category": "Local & professional services",
+    "tags": [
+      "construction debris",
+      "mini hammer crusher",
+      "aggregate resale",
+      "waste-to-value"
+    ],
+    "cost": "Low to moderate ($1,000-2,000 depending on motor size)",
+    "found": "HIDDEN WEALTH",
+    "what": "Bring a mini hammer crusher to a job site to crush broken concrete, brick, and tile into reusable gravel on the spot (shrinking the trash pile by up to 60%), charging contractors to eliminate their dumpster/dump fees, then separately package and sell the crushed aggregate to landscapers or foundation crews as gravel fill \u2014 getting paid on both ends of the same material.",
+    "pitch": "Charges $500-1,000/day for the crushing service, targeting demolition/remodeling crews, hardscaping crews needing cheap base gravel, and eco-conscious builders trying to divert waste from landfills.",
+    "best": "Someone with capital for the crusher and a vehicle to transport it between job sites, comfortable with a physical, on-site service.",
+    "truth": "On-site debris crushing and aggregate resale is a real, double-sided-revenue business model (getting paid to remove waste, then getting paid again to sell the processed output). Day-rate and margin figures are general industry framing.",
+    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM"
+  },
+  {
     "id": "automatic-nail-art-printing-service",
     "name": "Mobile nail art printing service for events using an automatic nail printer",
     "category": "Local & professional services",
@@ -4471,28 +4811,6 @@
       "Strictly in-home"
     ],
     "published": "2026-08-24"
-  },
-  {
-    "id": "airbnb-rental-arbitrage",
-    "name": "Short-term rental arbitrage (Airbnb without owning property)",
-    "category": "Local & professional services",
-    "tags": [
-      "real estate",
-      "short-term rental",
-      "recurring revenue"
-    ],
-    "cost": "$5,000 to $15,000 to furnish a unit",
-    "found": "Harry's Stealth Wealth",
-    "what": "Rent a property from a landlord with their written permission to sublet it, furnish it, and list it on short-term rental platforms; your profit is the gap between what you pay in rent and what you collect in nightly bookings, without ever needing a mortgage or down payment.",
-    "pitch": "The video estimates $1,000 to $3,000 in profit per unit per month, with some operators managing 5 to 20 units this way, and stresses that systems (automated booking, guest messaging, a rotating cleaning crew, and dynamic pricing software) are what make multiple units manageable.",
-    "best": "Someone comfortable with the logistics of furnishing and managing a short-term rental, and who can find a landlord willing to permit subletting for this purpose in writing.",
-    "truth": "This model is real and practiced (often called \"rental arbitrage\"), but it depends entirely on finding a landlord willing to allow it in writing, many won't, and on local short-term rental regulations, which vary widely by city and can restrict or ban this model outright. The video doesn't mention either of those real constraints, worth researching thoroughly before committing to a lease based on this plan.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires hiring or managing others"
-    ],
-    "published": "2026-04-07"
   },
   {
     "id": "rock-tumbler-polished-stone-jewelry",
@@ -4577,6 +4895,24 @@
       "Requires equipment/vehicle investment"
     ],
     "published": "2026-06-19"
+  },
+  {
+    "id": "pallet-crate-tote-rental-b2b",
+    "name": "Renting reusable pallets, crates, and totes to warehouses and distribution centers",
+    "category": "Local & professional services",
+    "tags": [
+      "pallet rental",
+      "B2B logistics rental",
+      "warehouse supply",
+      "rental asset business"
+    ],
+    "cost": "Moderate ($5,000-25,000 in starting inventory plus one warehouse account)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Buy reusable pallets, plastic totes, or crates and rent them by the trip or a small monthly fee to warehouses, distribution centers, and third-party logistics shops that would rather rent than own and store their own, in a recurring loop where the same unit goes out and comes back repeatedly.",
+    "pitch": "The video cites CHEP, the company behind the ubiquitous blue pallets seen on loading docks nationwide, as proof this exact B2B rental model works at massive scale; a small operator starts with 5-25,000 in inventory and one warehouse account, targeting logistics managers directly.",
+    "best": "Someone with (or able to build) relationships in local warehousing/logistics, comfortable with unglamorous, recurring B2B account management.",
+    "truth": "Pallet/tote rental to warehouses is a real, large, well-established B2B model (CHEP is a genuine multi-billion dollar company built on exactly this). No specific small-operator case study is given; figures are general framing rather than a verified independent result.",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
   },
   {
     "id": "brand-deal-flipping-influencer-agency",
@@ -4970,6 +5306,24 @@
     "published": "2026-08-14"
   },
   {
+    "id": "hopper-gun-textured-wall-finishing",
+    "name": "Offering decorative textured wall finishing with a hopper gun spray tool",
+    "category": "Local & professional services",
+    "tags": [
+      "hopper gun",
+      "textured wall finishing",
+      "interior remodeling service",
+      "low startup cost trade"
+    ],
+    "cost": "Very low (under $500 total for a hopper gun ($50-200) plus an air compressor)",
+    "found": "HIDDEN WEALTH",
+    "what": "Use a pneumatic hopper gun (fed by a standard air compressor) to spray specialty plaster, microcement, or textured drywall mud onto walls/ceilings in an even layer, producing finishes like orange peel, knockdown texture, or modern accent walls, billed as custom design work rather than basic labor.",
+    "pitch": "Skilled operators bill $300-500 per textured room and can complete 2-3 rooms in a day, targeting homeowners doing remodels, interior designers, boutique hotels, and general contractors looking to subcontract specialty wall finishing.",
+    "best": "Someone willing to practice the spray technique to a professional finish quality, with the lowest capital barrier on this list.",
+    "truth": "Hopper-gun textured wall finishing is a real, established specialty trade service with genuinely low startup cost. Pricing figures are general industry framing rather than a verified personal case study.",
+    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM"
+  },
+  {
     "id": "badge-button-maker-bulk-orders",
     "name": "Selling bulk custom badges and buttons to schools, events, and businesses using a badge maker machine",
     "category": "Physical & print products",
@@ -5026,6 +5380,23 @@
     "truth": "The \"equipment as home decor\" framing is a genuine, differentiated angle in a home-fitness market that's grown alongside home gyms, and styled photography is a low-cost, high-leverage way to market a visual product. Weight calibration and edge/seal durability need real quality control since these are still functional weights being lifted, not purely decorative objects.",
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s",
     "published": "2025-09-12"
+  },
+  {
+    "id": "scaffolding-rental-contractors",
+    "name": "Renting scaffolding to general contractors, painters, and restoration crews",
+    "category": "Local & professional services",
+    "tags": [
+      "scaffolding rental",
+      "contractor equipment rental",
+      "construction rental business"
+    ],
+    "cost": "Moderate ($10,000-50,000 per Entrepreneur magazine's cited starter range)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Buy scaffolding sets and rent them to contractors, painters, masons, and restoration crews at $500-3,000/month, delivered flat and stacked (the contractor's own crew does the assembly/climbing); land first accounts by handing a simple price list directly to local contractors and home-service companies.",
+    "pitch": "The video cites United Rentals and Sunbelt (multi-billion dollar equipment rental giants) as proof contractors overwhelmingly rent rather than buy scaffolding, framing this as rented on every job (not just seasonally), so a starter inventory can pay back in roughly a year if kept in constant rotation across 3-4 contractor accounts.",
+    "best": "Someone comfortable doing direct, in-person sales to local contractors and managing delivery/pickup logistics, without needing to do the climbing/assembly work themselves.",
+    "truth": "Scaffolding rental to contractors is a real, large, well-established market with major public companies validating demand at scale. No specific small-operator case study or verified revenue figure is given for an independent starter business.",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
   },
   {
     "id": "storage-tote-peer-to-peer-rental",
@@ -5262,6 +5633,41 @@
       "Needs a truck or cargo vehicle"
     ],
     "published": "2026-06-19"
+  },
+  {
+    "id": "used-cooking-oil-collection-route",
+    "name": "Running a used cooking oil collection route, paid by both the restaurant and the biodiesel buyer",
+    "category": "Local & professional services",
+    "tags": [
+      "used cooking oil collection",
+      "waste stream arbitrage",
+      "biodiesel resale",
+      "collection route business"
+    ],
+    "cost": "Very low to start (a rented truck, a drum, and a pump; a fuller owned setup runs $40,000-70,000)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Collect used cooking oil for free from restaurants (who are glad to have it hauled away), then resell it to biodiesel refiners for roughly $100-185 per 50-gallon barrel, getting paid on both ends of the same material; start by cold-walking restaurant kitchens offering free removal, and build route density (many close-together stops) rather than chasing far-flung accounts.",
+    "pitch": "The video cites a real program from a company called Fat Hopes Energy paying a set minimum of about $1,800/month for delivering at least 4,000 kg of used oil, and says a lean solo collector with a few hundred stabilized stops can bring in $2,000-6,600/month, with mature multi-hundred-account operators reportedly exceeding $1 million/year at full scale.",
+    "best": "Someone comfortable with cold outreach to restaurant kitchens and willing to build a tight, dense collection route rather than a spread-out one.",
+    "truth": "Used cooking oil collection for biodiesel resale is a real, established waste-arbitrage niche with a named real buyer program cited. The presenter is explicit this is general information, not financial advice, and the largest-scale figures ($1M+/year) represent mature multi-year operations, not a typical starting result.",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
+  },
+  {
+    "id": "electric-mini-forklift-warehouse-service",
+    "name": "Offering battery-powered mini forklift material-handling services to small warehouses",
+    "category": "Local & professional services",
+    "tags": [
+      "electric mini forklift",
+      "warehouse material handling",
+      "small business logistics"
+    ],
+    "cost": "Moderate ($1,500-5,000 depending on lift height and load capacity)",
+    "found": "HIDDEN WEALTH",
+    "what": "Operate a battery-powered electric mini forklift (zero exhaust emissions, tight turning radius, 1-2 ton lift capacity) to help small e-commerce warehouses, fulfillment hubs, and fabrication shops move palletized goods and unload trucks, without them needing to buy their own equipment or deal with gas-forklift fumes indoors.",
+    "pitch": "Rents/charges $100-250/day, targeting growing e-commerce warehouses during inventory spikes, small machine shops moving raw metal, and indoor contractors working inside closed retail spaces where exhaust emissions aren't allowed.",
+    "best": "Someone with capital for the equipment, willing to offer short-term material-handling help to small operations that can't justify owning a full-size forklift.",
+    "truth": "Electric mini forklifts serving small warehouses/fabrication shops that lack space or budget for full-size equipment is a real, genuine niche. Day-rate figures are general industry pricing.",
+    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM"
   },
   {
     "id": "electric-sausage-stuffer-gourmet-batch",
@@ -5533,30 +5939,6 @@
     "published": "2026-08-24"
   },
   {
-    "id": "pressure-washing-service",
-    "name": "Residential pressure washing service",
-    "category": "Local & professional services",
-    "tags": [
-      "local business",
-      "equipment needed",
-      "weekend schedule",
-      "beginner friendly"
-    ],
-    "cost": "$75 (rental) to $3,200 (own equipment)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Pressure wash driveways, siding, and other exterior home surfaces for homeowners, starting with a rented machine and scaling up to owned commercial-grade equipment as the work becomes steady.",
-    "pitch": "The video walks through starting with a $75 weekend rental from a home improvement store, landing two of six neighborhood doors knocked on, and making $210 in a single afternoon, then scaling to three jobs a Saturday at $300 to $500 per job with 20-50% profit margins after buying a $3,200 commercial setup.",
-    "best": "Someone who wants a genuinely low-cost way to test a service business on weekends, comfortable with physical outdoor work and basic neighborhood marketing.",
-    "truth": "This is one of the more checkable, concrete ideas in the video; the starting cost (a rental) is real and low enough that most people really could test this in a single weekend, a good sign for a beginner-friendly idea. The claimed monthly totals depend on booking a consistent volume of jobs every single weekend, which takes real ongoing marketing effort the video doesn't detail.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-04-07"
-  },
-  {
     "id": "mini-cnc-carved-wood-products",
     "name": "Mini CNC carved wood and acrylic products",
     "category": "Physical & print products",
@@ -5650,6 +6032,23 @@
     "truth": "The \"clean, small-batch, transparent ingredients\" positioning is a genuine and proven differentiator against mass-produced nut butter, and tasting-based sales are a well-established conversion tactic for food products at markets. Nut products carry real allergen liability, so accurate labeling and safe handling (cross-contamination control) matter more here than for most items on this list.",
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s",
     "published": "2025-09-12"
+  },
+  {
+    "id": "reverse-vending-bottle-deposit-machines",
+    "name": "Placing reverse vending (bottle deposit) machines in high-traffic retail locations",
+    "category": "Local & professional services",
+    "tags": [
+      "reverse vending machines",
+      "bottle deposit business",
+      "passive location income"
+    ],
+    "cost": "Moderate ($5,000-25,000 per machine depending on capacity/features)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Place a reverse vending (bottle/can deposit) machine in a high-traffic retail location like a supermarket, earning from deposit handling, ad revenue, and a retail partnership share; pitch store owners on two things they want \u2014 more foot traffic and a cut of the deposit/ad income \u2014 rather than paying for floor space.",
+    "pitch": "The video frames this as the lowest-labor entry on the list: once installed, a single machine in a busy supermarket can bring in $300-1,000+/month with essentially no ongoing effort from the operator, scaling by adding machine count rather than personal hours.",
+    "best": "Someone with capital to acquire and place machines and willing to negotiate retail partnerships, but not needing ongoing hands-on labor once installed.",
+    "truth": "Reverse vending machines are a real, established recycling-incentive technology already deployed commercially. No specific case study or verified revenue figure is given; figures are general framing, and return on a single machine is described as taking 1-3 years.",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
   },
   {
     "id": "non-emergency-medical-transportation",
@@ -5775,26 +6174,6 @@
     "published": "2026-08-21"
   },
   {
-    "id": "epoxy-garage-floor-sell-before-buy-financing",
-    "name": "Epoxy garage floor coating funded by selling jobs before buying equipment",
-    "category": "Local & professional services",
-    "tags": [
-      "epoxy flooring",
-      "garage floor coating",
-      "bootstrap financing",
-      "deposit-funded equipment rental",
-      "high-margin trade service"
-    ],
-    "cost": "Moderate startup cost to learn (roughly $2,000 for manufacturer training) with equipment financed via client deposits rather than upfront purchase",
-    "found": "HIDDEN WEALTH",
-    "what": "Apply high-performance epoxy/polyaspartic coatings to garage concrete floors (grinding down the old surface, repairing cracks, then applying a decorative, chip-resistant finish that lasts 20-30 years), but bootstrap the expensive commercial equipment (a concrete grinder can cost over $20,000) by first landing paying clients through targeted local ad campaigns showing dramatic before/after transformations, collecting a 50% deposit upfront, and using those deposits to rent the grinding equipment day-by-day from a local supply shop rather than buying it outright \u2014 only purchasing owned equipment once enough client-funded profit has accumulated.",
-    "pitch": "A garage floor job typically takes a two-person team one day and homeowners pay $4,000-7,000 per garage given the finish's longevity, with the illustrative account citing about $1,800/month in ongoing truck-and-gear overhead against up to $60,000 in monthly revenue at scale. The presenter is candid that early mistakes are costly and specific: underestimating how long a job will take when old sealant resists the rented equipment can turn a projected two-day job into two weeks, so testing the concrete's hardness and moisture before quoting became a hard-learned, now-standard step.",
-    "best": "Someone willing to invest in proper technique training before taking paying jobs (this trade has a real, visible failure mode if botched) and comfortable using a sell-first, equipment-later financing sequence rather than buying expensive gear speculatively.",
-    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. A similar epoxy garage flooring entry already exists in this database from a different producer emphasizing portfolio-building and practicing on a low-stakes floor first; this version's distinct, checkable contribution is the deposit-funded equipment rental strategy for bootstrapping expensive gear, and the specific concrete-testing lesson learned from a near-failure.",
-    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
-    "published": "2026-08-19"
-  },
-  {
     "id": "claude-connected-spreadsheet-templates",
     "name": "Claude-connected spreadsheet templates for Etsy",
     "category": "Digital & subscription products",
@@ -5864,6 +6243,23 @@
     "published": "2026-08-17"
   },
   {
+    "id": "mortar-spray-machine-stucco-plastering",
+    "name": "Offering fast mortar/stucco spraying for new home exteriors with a mini mortar spray machine",
+    "category": "Local & professional services",
+    "tags": [
+      "mortar spraying",
+      "stucco application",
+      "new construction subcontracting"
+    ],
+    "cost": "Low to moderate ($600-2,000)",
+    "found": "HIDDEN WEALTH",
+    "what": "Use a continuous-feed mortar/stucco spray pump to apply an even coat of plaster or stucco across an entire exterior wall dramatically faster than a manual trowel crew, subcontracting to general contractors on new suburban home builds.",
+    "pitch": "Charges $4-8 per square meter of wall coverage; a standard new home with 400-600 square meters of exterior wall at $6/meter works out to $2,400-3,600 gross for a job completed in about 2 days, appealing to contractors given how hard skilled manual plaster crews are to find.",
+    "best": "Someone willing to learn the spray technique and market directly to general contractors building new housing subdivisions.",
+    "truth": "Mortar/stucco spray application is a real, established time-saving trade technique addressing genuine skilled-labor scarcity. The per-job math shown is a straightforward calculation from stated rates, not a claimed personal result.",
+    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM"
+  },
+  {
     "id": "spice-grinding-packaging-business",
     "name": "Grinding, weighing, and packaging spices for retail sale using a small spice-grinding setup",
     "category": "Physical & print products",
@@ -5902,6 +6298,23 @@
       "Home office, client-facing"
     ],
     "published": "2026-06-19"
+  },
+  {
+    "id": "cardboard-bailing-resale-route",
+    "name": "Running a cardboard bailing and resale route for warehouses and big-box stores",
+    "category": "Local & professional services",
+    "tags": [
+      "cardboard bailing",
+      "warehouse waste resale",
+      "recycling route business"
+    ],
+    "cost": "Moderate ($10,000-40,000 for a baler plus a truck)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Offer warehouses and big-box stores free cardboard removal in exchange for exclusive resale rights, bail the cardboard, and sell it to a paper mill by the ton; build a tight cluster of accounts within one industrial zone rather than spreading thin across a wide area.",
+    "pitch": "The video cites solo cardboard routes bringing in roughly $500-3,000/month once a few steady accounts are locked in, with commercial collection margins commonly running 30-35% and specialized industrial routes reaching 35-40%+ due to thin competition.",
+    "best": "Someone with capital for a baler and truck, comfortable doing direct outreach to warehouse/retail back-of-house managers.",
+    "truth": "Cardboard bailing and resale to paper mills is a real, established recycling-arbitrage niche. No specific verified case study is given; figures are general industry ranges, and the presenter notes route density (not chasing one distant account) is the key operational lesson.",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
   },
   {
     "id": "ghost-kitchen-doordash-home-food-business",
@@ -6187,6 +6600,41 @@
     "published": "2026-06-03"
   },
   {
+    "id": "firewood-processing-bundling-business",
+    "name": "Processing and bundling firewood for retail sale near gas stations and campgrounds",
+    "category": "Physical & print products",
+    "tags": [
+      "firewood business",
+      "seasonal side hustle",
+      "wood processing",
+      "retail bundling"
+    ],
+    "cost": "Moderate ($2,000-20,000 depending on splitter and truck)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Source logs (ideally through free/cheap relationships with arborists and loggers rather than buying truckloads), split and bundle firewood, and sell bundles at retail locations like gas stations near campgrounds, or seasoned cords directly to homeowners with fireplaces; margin depends heavily on sourcing cost, not just sale price.",
+    "pitch": "The video cites one documented operator earning around $8,000/month, with a University Extension budget showing about $48 profit per cord (roughly $337 per 7-cord truckload) for a lean two-person crew buying logs wholesale, and notes seasoned hardwood sells for $250-350/cord in colder markets.",
+    "best": "Someone with access to a truck and wood-splitting equipment, and ideally relationships with arborists/loggers for cheap or free log sourcing to protect margin.",
+    "truth": "Firewood processing and retail bundling is a real, established seasonal business, and the University Extension cost breakdown cited gives genuine third-party grounding to the margin figures. This is explicitly seasonal (winter-concentrated) income, which the video is upfront about.",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
+  },
+  {
+    "id": "asphalt-crack-sealing-recurring-maintenance",
+    "name": "Running a recurring asphalt crack-sealing maintenance service for commercial parking lots",
+    "category": "Local & professional services",
+    "tags": [
+      "asphalt crack sealing",
+      "parking lot maintenance",
+      "recurring commercial contract"
+    ],
+    "cost": "Low ($600-1,200 for an entry-level commercial unit)",
+    "found": "HIDDEN WEALTH",
+    "what": "Use an asphalt crack-sealing machine (heats rubberized sealant to over 300\u00b0F and applies it via spray wand) to seal cracks in commercial parking lots and driveways before water/ice damage turns them into expensive potholes, then lock in recurring seasonal (typically spring) maintenance contracts with the same properties.",
+    "pitch": "Charges $5-10 per linear meter; a strip mall lot with 500 meters of cracking is a $2,500-5,000 payday for one afternoon of work, pitched to commercial property managers, logistics hub operators, and HOA boards as protection against a future $50,000 repaving bill.",
+    "best": "Someone comfortable pitching recurring maintenance contracts to property managers and HOA boards, not just one-off jobs.",
+    "truth": "Asphalt crack sealing is a real, well-established preventive-maintenance trade, and the recurring-contract framing (annual retainer with property managers) reflects how this service is genuinely often sold. Pricing figures are general industry ranges.",
+    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM"
+  },
+  {
     "id": "media-kit-sponsorships-content-site-agency",
     "name": "Media-kit sponsorships and done-for-you agency services layered on a content site",
     "category": "Local & professional services",
@@ -6208,30 +6656,6 @@
       "Phone/sales-based"
     ],
     "published": "2026-08-24"
-  },
-  {
-    "id": "mobile-car-detailing",
-    "name": "Mobile car detailing service",
-    "category": "Local & professional services",
-    "tags": [
-      "local business",
-      "equipment needed",
-      "weekend schedule",
-      "beginner friendly"
-    ],
-    "cost": "About $2,700 for starting equipment",
-    "found": "Harry's Stealth Wealth",
-    "what": "Travel to customers' homes or workplaces to clean and detail their vehicles, interior and exterior, using portable equipment rather than operating from a fixed shop location.",
-    "pitch": "The video cites a Reddit thread (with posted Square payment receipts as evidence) from an operator claiming $3,700 to $4,200 in monthly revenue detailing cars out of a home garage, at $150 to $300 per job with a 60-80% profit margin.",
-    "best": "Someone comfortable with physical, hands-on outdoor work and willing to build a weekend booking schedule, without needing a storefront or employees.",
-    "truth": "The Square receipt screenshots mentioned in the source material are a genuinely better transparency signal than most claims in this video, real payment platform data, not just a stated number. That said, this is still a secondhand Reddit account relayed by the video, not something independently verified here. The margins and price points described are broadly consistent with what real mobile detailers charge.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-04-07"
   },
   {
     "id": "circular-knitting-machine-handmade-goods",
@@ -6398,6 +6822,24 @@
     "published": "2025-06-13"
   },
   {
+    "id": "lavender-flower-farm-agritourism",
+    "name": "Running a small lavender or you-pick flower farm combining product sales with visitor days",
+    "category": "Physical & print products",
+    "tags": [
+      "lavender farming",
+      "agritourism",
+      "you-pick flower farm",
+      "seasonal farm business"
+    ],
+    "cost": "Moderate to high ($10,000-50,000 depending on acreage, for land prep, plant stock, irrigation, and a small retail setup)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Plant and grow a small lavender (or similar flower) field, treating it as an agritourism business first rather than pure farming: charge visitors a small entry fee for you-pick bouquet days, run small workshops, and sell bundled bouquets and lavender oil to soap makers and gift shops, generating income while the field matures toward full harvest productivity over 2-3 years.",
+    "pitch": "The video cites operators reporting $300-2,000/month in season blending product sales with visitor days, and notes the lavender oil market is projected to grow near 7%/year over the next decade; the honest caveat is that full bloom productivity takes 2-3 years, which the agritourism-first approach is meant to bridge.",
+    "best": "Someone with land access and patience for a multi-year ramp, willing to run visitor-facing events (workshops, pick days) rather than waiting for wholesale oil contracts alone.",
+    "truth": "Lavender/agritourism farming is a real, established small-farm business model, and the market-growth figure is cited from industry projections rather than the presenter's own claim. This is genuinely slower and more capital-intensive than most other items on this list, which the video is explicit about.",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
+  },
+  {
     "id": "handmade-candle-holders-multi-medium",
     "name": "Handmade candle holder business across concrete, wood, metal, or glass",
     "category": "Physical & print products",
@@ -6455,6 +6897,24 @@
     "truth": "The TikTok usage statistics (20 opens a day, 90 minutes average) are attributed to TikTok's own claims, a reasonable but self-reported source rather than independent audited data. The Noah Brilley case study is specific but, consistent with the other examples in this video, comes from the presenter's own paid course platform where Noah is a featured instructor. The core idea, that strategy and understanding of a platform's mechanics is a genuinely separable, sellable skill from content creation itself, is a real and increasingly common freelance service, independent of this particular case study.",
     "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5",
     "published": "2025-12-19"
+  },
+  {
+    "id": "guillotine-shear-stone-cutting-service",
+    "name": "Offering precision brick and paver cutting with a manual guillotine shear for hardscape crews",
+    "category": "Local & professional services",
+    "tags": [
+      "stone cutting service",
+      "hardscaping",
+      "manual guillotine shear",
+      "no power tool trade"
+    ],
+    "cost": "Very low ($300-500 for the tool)",
+    "found": "HIDDEN WEALTH",
+    "what": "Use a manual guillotine-style stone shear (no gas, batteries, or power cords \u2014 pure mechanical lever pressure) to cut bricks, pavers, and stone blocks cleanly for hardscape crews, avoiding the dust, noise, and diamond-blade cost of a gas cutoff saw.",
+    "pitch": "Charges around $100/hour or $100-150/day as a specialty add-on line item, targeting hardscape contractors building outdoor kitchens/patios, commercial landscaping crews laying paver walkways, and custom home builders doing high-end stone work.",
+    "best": "Someone wanting the lowest-capital, lowest-maintenance entry on this list, comfortable doing physical lever-operated cutting work.",
+    "truth": "Manual guillotine stone shears are a real, established hardscaping tool, and the clean-cut value proposition (versus a messy gas saw) is a genuine trade advantage. Pricing figures are general industry framing.",
+    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM"
   },
   {
     "id": "freelance-arbitrage-broker-connector",
@@ -6533,6 +6993,23 @@
     "truth": "Bulk repackaging and resale of food staples is a real, low-barrier micro-business model, and the 'test demand before over-investing' advice is sound, broadly applicable lean-startup guidance. No specific revenue example is given; margins depend on bulk sourcing costs relative to local retail prices.",
     "url": "https://www.youtube.com/watch?v=mKFNXLik1ro",
     "published": "2026-06-03"
+  },
+  {
+    "id": "sod-farming-landscaping-supply",
+    "name": "Growing and selling sod to landscapers and new-construction builders",
+    "category": "Physical & print products",
+    "tags": [
+      "sod farming",
+      "landscaping supply",
+      "new construction supply chain"
+    ],
+    "cost": "High ($20,000-50,000 for a small commercial plot with irrigation and harvesting gear)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Grow sod on a dedicated plot and sell it by the pallet to landscapers, builders, and municipal projects tied to new-construction lawns, replanting immediately after each harvest so the same ground yields repeatedly; get a first recurring account by underpricing the local supplier on a bulk order for one subdivision buildout.",
+    "pitch": "The video cites University Extension data showing roughly $8,000-12,000 in returns per acre against about $4,000 in costs per acre (so $4,000-8,000 margin per acre per cycle), with a 20-acre plot in active rotation described as real recurring monthly money through the growing season.",
+    "best": "Someone with land access and patience \u2014 sod takes 9-18 months to build a harvestable root mat \u2014 and willing to build relationships with a handful of steady landscaping/building accounts rather than one-off sales.",
+    "truth": "Sod farming for landscaping supply is a real, established agricultural business, and the per-acre economics are cited from a named University Extension source, giving genuine third-party grounding. This is capital- and land-intensive with a long ramp time, which the video is upfront about.",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
   },
   {
     "id": "commercial-kitchen-plumbing-specialty",
@@ -7520,29 +7997,6 @@
     "truth": "The presenter directly and specifically addresses the real risk of AI content getting demonetized or removed, correctly noting that YouTube's enforcement has mainly targeted mass-produced, repetitive, near-identical AI content rather than well-produced original videos that happen to use AI voiceover or AI-generated images, a genuinely useful and accurate clarification rather than vague reassurance. The $13,000-a-month figure for the example channel is attributed to a third-party estimation tool, not the channel's own confirmed earnings, so it should be treated as a plausible estimate rather than verified income.",
     "url": "https://www.youtube.com/watch?v=o17G_qad9w8",
     "published": "2026-07-02"
-  },
-  {
-    "id": "ai-music-youtube-channel-claude-suno",
-    "name": "AI music YouTube channel built with Claude for songwriting and an AI music generator",
-    "category": "Content & personal brand",
-    "tags": [
-      "AI music",
-      "YouTube monetization",
-      "Claude",
-      "Suno-style tools",
-      "passive content"
-    ],
-    "cost": "Very low startup cost (an AI music generation tool subscription, roughly $10/month, plus Claude access)",
-    "found": "Geekbot AI",
-    "what": "Create an AI music channel by using Claude to generate song concepts, lyrics, and detailed genre/style prompts, feeding those into an AI music generation tool (the video uses one called Sondo) to produce a fully produced song and an AI artist image, then generating a complete AI music video synced to the song, publishing original (non-cover) music under a consistent AI artist persona to build a channel following.",
-    "pitch": "The presenter cites real examples of small AI music channels earning six figures a year (an AI reggae channel around $250,000, an AI R&B artist around $229,000, an AI country act around $160,000) in premium-RPM niches like lowfi, cinematic, and ambient music, which pay $3-8 per thousand views, walking through the full production pipeline (song, artist, video) built in under an hour using Claude and a paid AI music tool.",
-    "best": "Someone comfortable working entirely with AI tools for content creation, willing to treat idea/niche selection (not song quality) as the actual differentiator, and disciplined about following platform monetization rules.",
-    "truth": "The specific YouTube policy rules covered (no mass-uploading near-identical tracks, no AI covers of existing artists' songs, labeling content as AI-generated, and only monetizing tracks generated while on a paid plan with commercial rights) are genuinely important and easy to violate accidentally, so this level of detail is more useful than most AI-content videos that skip the compliance side. The headline earnings figures describe standout channels, not typical outcomes, and the video also promotes the presenter's own AI-idea-scoring tool as a paid upsell.",
-    "url": "https://www.youtube.com/watch?v=XCw0Rf1btP8",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-29"
   },
   {
     "id": "ai-search-answer-engine-visibility-review-optimization",
@@ -9171,28 +9625,6 @@
     "published": "2026-08-20"
   },
   {
-    "id": "print-on-demand-tshirts",
-    "name": "Print-on-demand t-shirt business",
-    "category": "Physical & print products",
-    "tags": [
-      "print on demand",
-      "apparel",
-      "low startup cost"
-    ],
-    "cost": "Very low startup cost",
-    "found": "UpFlip",
-    "what": "A print-on-demand apparel business built around niche-specific t-shirt designs, using a fulfillment partner for printing and shipping so you never hold inventory.",
-    "pitch": "One case study claims over $1 million in revenue in its first year, though only after 10 earlier failed store attempts and a period of significant personal debt from other failed businesses.",
-    "best": "Someone prepared for a real trial-and-error phase, this isn't presented as a first-try success story.",
-    "truth": "The arc shown, many failures followed by success, suggests real survivorship bias in what's highlighted, the failed attempts aren't detailed. Worth weighing that against the low-effort framing implied by a headline like this.",
-    "url": "https://www.youtube.com/watch?v=aHUB5HH-BRk",
-    "situation_tags": [
-      "Strictly in-home",
-      "E-commerce / fulfillment"
-    ],
-    "published": "2026-04-21"
-  },
-  {
     "id": "subscription-ai-website-tools-local-business",
     "name": "Subscription-based custom AI website tools for local businesses",
     "category": "Local & professional services",
@@ -9683,6 +10115,101 @@
     "best": "Someone comfortable talking over a screen recording without appearing on camera, willing to post consistently since results build as review videos accumulate search rankings.",
     "truth": "ClickBank affiliate marketing via review videos is a real, long-standing method, and the email-capture-before-the-sale conversion principle is standard, sound direct-response practice. No specific personal results or screenshots are shown despite the '$500/Day' title, and the video's main call to action is his own affiliate link to a different program, so treat this as a generic tutorial rather than a demonstrated result.",
     "url": "https://www.youtube.com/watch?v=1ua3Bgw1YyY"
+  },
+  {
+    "id": "ai-vibe-coded-landing-page-funnel",
+    "name": "Building a high-converting sales landing page with AI-assisted coding instead of no-code tools or a hired designer",
+    "category": "Digital & subscription products",
+    "tags": [
+      "vibe coding",
+      "landing page design",
+      "Claude + VS Code",
+      "GitHub Copilot",
+      "AI website building"
+    ],
+    "cost": "Very low (a Claude subscription, free VS Code with GitHub Copilot)",
+    "found": "Dan Vas",
+    "what": "Instead of using no-code landing-page builders (Framer, Webflow, Circle's built-in tools) or hiring a designer, write out the page's full copy section-by-section yourself, feed it to Claude with a detailed prompt describing the offer and page structure, have Claude generate the initial HTML, then import it into VS Code with GitHub Copilot to iteratively refine the design and functionality through conversational edits rather than manual coding.",
+    "pitch": "The presenter, who has zero coding knowledge, says this method produced a page that generated $2,300-2,400 in its first week and a half live, after he'd already tried and rejected both no-code builders and a top-rated Upwork designer whose AI-templated result 'wasn't going to sell'; he argues the emotional/persuasive copy writing (which he did himself with ChatGPT assistance) mattered more than any design tool.",
+    "best": "Someone willing to write their own page copy first (rather than expecting AI to invent it) and iterate conversationally with an AI coding assistant instead of dragging-and-dropping in a visual builder.",
+    "truth": "AI-assisted coding for landing pages is a real, current capability, and the specific critique of generic no-code AI templates (that they can look interchangeable and undersell an offer) is a fair, commonly-echoed observation. The $2,300-2,400 figure is self-reported from a brand-new launch (including one refund), not an established track record, and the page promotes the presenter's own course, so the underlying offer's own conversion quality can't be separated from the page-building technique alone.",
+    "url": "https://www.youtube.com/watch?v=reIw4d8O9xw"
+  },
+  {
+    "id": "notion-template-niche-gumroad-pinterest",
+    "name": "Building a niche-specific Notion template with Notion AI and selling it on Gumroad, driven by Pinterest traffic",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Notion templates",
+      "Notion AI",
+      "Gumroad",
+      "Pinterest traffic",
+      "digital products"
+    ],
+    "cost": "Low ($10/month Notion AI add-on with a free trial, a design tool with a free plan, free Gumroad/Pinterest accounts)",
+    "found": "Glowithgia",
+    "what": "Instead of copying a generic template (budget trackers, content calendars), build a Notion template around a niche you personally have real knowledge in so you know the exact fields/workflow that niche actually needs; build it directly inside Notion using Notion AI with a specific, detailed brief, then polish it visually with an AI design tool to create a cover, in-template graphics, and a lifestyle mockup listing image, list it on Gumroad (which auto-generates a title/description by scanning the product), and drive free traffic via Pinterest pins sized to Pinterest's recommended vertical ratio, posted to a niche-specific board.",
+    "pitch": "The presenter made $2,200 in 2 months from this exact system using cold Pinterest traffic and zero pre-existing audience, no face-in-camera content, and no ad spend, crediting her personal niche knowledge (not the AI tool itself) as the real competitive advantage over generic templates, and reports over 34 million monthly Pinterest views across her accounts as evidence the traffic channel works at scale.",
+    "best": "Someone with genuine hands-on knowledge of a specific niche/workflow, comfortable iterating conversationally with Notion AI and doing basic visual design work.",
+    "truth": "Notion templates sold on Gumroad with Pinterest as a traffic source is a real, already-established niche within digital products, and the core insight (niche knowledge beats generic templates, Pinterest's search/save intent suits product discovery) is sound, non-obvious marketing logic. Her $2,200-in-2-months figure is self-reported from a single product, and the video includes a paid sponsorship segment that is promotional rather than neutral tool advice.",
+    "url": "https://www.youtube.com/watch?v=kWsB2eLtwJ8"
+  },
+  {
+    "id": "digital-product-first-sale-distribution-strategy",
+    "name": "A no-audience-required strategy for getting your first digital product sale, based on where the buyer already looks for help",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital product marketing",
+      "customer acquisition",
+      "distribution strategy",
+      "cold traffic",
+      "first-sale validation"
+    ],
+    "cost": "Free (a search/keyword tool for research, optional UGC-style video recording)",
+    "found": "Grow With Bre",
+    "what": "Before choosing a marketing platform, identify where your specific buyer already goes looking for help with their problem (search engines/Etsy/YouTube for consumer products, or direct outreach/partnerships/communities for a narrow B2B product), pick just one distribution channel that matches that rather than trying several platforms at once, use language mined directly from real buyer conversations (Reddit, YouTube comments, reviews) rather than invented marketing copy, get the first 100 qualified people in front of a clearly-explained offer, and treat clicks-without-purchases as diagnostic feedback rather than a reason to just buy more traffic.",
+    "pitch": "The presenter argues most beginners fail because they build a product before ever asking where their buyer looks for help, giving a concrete example of a narrow B2B outreach message for a local-contractor tool that needs far fewer total prospects than a mass-market consumer product; she recommends against starting with paid ads for validation, treating them as a later amplifier once organic clicks and conversions already prove the offer works.",
+    "best": "Someone who already has a specific digital product built and needs a first sale, willing to do research and outreach rather than expecting a platform or ad campaign to solve distribution automatically.",
+    "truth": "The core framing, that platform choice should follow the buyer's existing search/discovery behavior rather than personal preference, and that early traction should come from organic validation before paid ad spend, reflects sound, widely-taught product-market-fit principles. The cited keyword-volume figures are general market data rather than tied to a single verified case study, and the video references her own separate UGC tutorial as further reading.",
+    "url": "https://www.youtube.com/watch?v=8tDbczp0KvM"
+  },
+  {
+    "id": "gohighlevel-three-piece-ai-retainer-bundle",
+    "name": "Selling a three-part AI automation bundle (reviews, missed-call receptionist, social content) to local businesses for $500/month via GoHighLevel",
+    "category": "Local & professional services",
+    "tags": [
+      "GoHighLevel",
+      "AI receptionist",
+      "review automation",
+      "AI social content",
+      "recurring retainer"
+    ],
+    "cost": "Low (a GoHighLevel subscription, with a 30-day free trial referenced)",
+    "found": "High Level Profit Systems",
+    "what": "Build three automated systems inside GoHighLevel for a local business using its AI tools: (1) a review workflow, described in plain English to GoHighLevel's AI workflow builder, that texts customers for a Google review after a job is marked complete, plus an AI auto-reply to every incoming review; (2) missed-call-text-back combined with an AI voice receptionist trained on the business's own website that can answer questions, check the calendar, and book real appointments during the call; (3) a batch of AI-generated social media images and captions scheduled onto a content calendar with human review before publishing. Package all three as one $500/month retainer, save the build as a reusable 'snapshot' template, and reuse it for each new client by swapping the business name/logo, with the fee billing automatically via recurring invoice.",
+    "pitch": "The presenter, whose own agency reportedly does $140,000/month in recurring revenue from 40 clients, argues most local businesses are silently losing money in three specific places (no review requests, missed calls, dead social pages) and demonstrates building the entire system live using AI-assisted prompts; he stresses pricing it as a recurring retainer rather than a one-time setup fee as the key mistake that caps most agencies' income.",
+    "best": "Someone comfortable working inside a SaaS platform like GoHighLevel and willing to build one reusable template system rather than starting from scratch for each new client.",
+    "truth": "GoHighLevel's AI workflow builder, missed-call-text-back, AI voice receptionist, and AI content generation are real, current platform capabilities, and packaging automation as a recurring retainer rather than a one-time fee is sound agency-pricing advice echoed by multiple other producers in this space. The presenter's $140,000/month figure is self-reported, the video is explicitly delivered by an AI clone of the presenter, and it promotes his own GoHighLevel affiliate trial/bundle throughout.",
+    "url": "https://www.youtube.com/watch?v=YYkxFzQ_yKU"
+  },
+  {
+    "id": "shopify-dropshipping-instagram-algorithm-product-research",
+    "name": "Finding low-competition dropshipping products via a trained Instagram algorithm or product-research software, then testing with Facebook ads",
+    "category": "E-commerce",
+    "tags": [
+      "Shopify dropshipping",
+      "product research",
+      "Instagram algorithm training",
+      "Facebook ads testing",
+      "AliExpress sourcing"
+    ],
+    "cost": "Low (a Shopify subscription, a $50/day ad-testing budget which can be cut lower, optional paid product-research software)",
+    "found": "Henrik Wold",
+    "what": "Instead of chasing the biggest viral trends (too saturated for a beginner), find low-competition winning products two ways: free method \u2014 create a fresh Instagram account and deliberately like several dropshipping-style posts to train the algorithm into feeding you trending product ads in Reels; paid method \u2014 use a product-research tool to pull products trending on TikTok Shop, filtering for items still under roughly $300K in tracked revenue with a still-rising sales graph (not yet saturated). Validate against three criteria (solves a real problem, $25-30+ profit margin after supplier cost, recent but not brand-new), source cheap on AliExpress, then test with Facebook ads ($50/day, targeting US/UK/Canada/Australia or Australia-only for cheaper testing), cutting any creative with cost-per-click above ~$2.30 and adding new test creatives daily.",
+    "pitch": "The presenter says he's made over $10 million in dropshipping over 7 years and cites a specific student who made over $70,000 profit in 8 weeks from a new store without chasing any viral trend, framing this as a free alternative to channels that push paid affiliate software recommendations.",
+    "best": "Someone willing to do real, ongoing product research and comfortable running and iterating on paid Facebook ad tests daily.",
+    "truth": "Shopify dropshipping with AliExpress sourcing and Facebook ad testing is a well-established, real e-commerce model, and the specific tactical details (CPC benchmarks, the revenue-threshold saturation check, avoiding heavy/complex products) reflect genuine operational experience. The presenter's $10M figure and the student case study are self-reported and unverified, and the video still promotes a specific paid research tool as an option despite the 'no affiliate pushing' framing.",
+    "url": "https://www.youtube.com/watch?v=ntY3dp2ejmw"
   },
   {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
@@ -10369,6 +10896,44 @@
     "url": "https://www.youtube.com/watch?v=eKH-oaFt4qE"
   },
   {
+    "id": "clothing-reselling-flea-market-ebay-upflip",
+    "name": "Sourcing clothes from flea markets, thrift stores, and bulk clothing pallets to resell on eBay",
+    "category": "E-commerce",
+    "tags": [
+      "clothing reselling",
+      "eBay",
+      "thrift/flea market sourcing",
+      "bulk clothing pallets",
+      "80/20 pricing rule"
+    ],
+    "cost": "Very low to start (can begin with clothes already in your own closet; scales to $75-200 flea-market hauls, then eventually 44,000-lb bulk truckloads)",
+    "found": "UpFlip",
+    "what": "Source clothing from flea markets, thrift stores, personal/family closets, and eventually bulk clothing pallets or full truckloads (sold cheap because ~90 million pounds of clothing gets discarded daily in the US), clean and photograph each item (12 photos per item, keyword-rich titles like 'parka military jacket' for eBay search visibility), and list following an 80/20 rule: 80% everyday mid-grade items ($20-80) that sell predictably, with a small 20% (or less) of higher-end pieces ($100-600+) as pure-profit upside; track inventory with a simple sequential numbering system (001 to infinity, never repeating) to manage high volume without a fancy racking system.",
+    "pitch": "The interviewed reseller reports $120,000 in revenue last month at a 50-60% profit margin, having grown from an $18,000/month one-person thrift/flea-market operation to now moving 9,000 items/month and buying 44,000-lb bulk truckloads, with a stated goal of $6 million next year including wholesale; he's candid that losing his prior electronics supplier nearly ended the business a year ago, crediting diversifying across many sourcing channels rather than depending on one as the key lesson.",
+    "best": "Someone willing to start small (even just their own closet) and do hands-on sourcing, cleaning, photographing, and shipping, comfortable scaling into bulk buying and eventually hiring help as volume grows.",
+    "truth": "Clothing reselling via thrift/flea-market sourcing and bulk liquidation pallets is a well-established, real e-commerce niche, and the specific tactics described (keyword-rich titles, the 80/20 grade mix, sequential inventory numbering, multi-supplier diversification) reflect genuine operational knowledge. His revenue and margin figures are self-reported and represent 8 years of compounding growth, not a typical first-year result, and the video includes a paid sponsorship segment (a business-formation service) that is promotional rather than neutral advice.",
+    "url": "https://www.youtube.com/watch?v=xTigixXmBMQ"
+  },
+  {
+    "id": "ai-kdp-ebook-publishing-claude-system",
+    "name": "Publishing AI-drafted ebooks on Amazon KDP using a niche-first, chapter-by-chapter human-edited system",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Amazon KDP",
+      "AI ebook writing",
+      "self-publishing",
+      "Kindle Unlimited",
+      "Claude drafting"
+    ],
+    "cost": "Very low ($0 upfront \u2014 Amazon KDP publishing is free; only cost is time and an AI subscription)",
+    "found": "Geekbot AI",
+    "what": "Find a book idea already in demand by asking Claude for ebook ideas in proven Amazon categories (personal finance, self-help, health, how-to, business) targeted at a specific narrow reader with a specific painful problem, then write the book chapter-by-chapter with Claude drafting each section and a required human editing pass (cutting fluff, adding personal examples/voice) rather than one giant AI-generated dump, design a cover via a detailed Claude-written art-direction prompt fed into an AI image generator, then publish through Amazon KDP's free form, pricing between $2.99-$9.99 to hit the 70% royalty tier and opting into Kindle Unlimited for per-page-read payouts.",
+    "pitch": "The presenter says regular ebook portfolios of 5-10 books can earn $1,000-5,000/month combined, walks through the entire process live, and highlights two under-discussed Amazon KDP policies: disclosing whether a book is 'AI-generated' (raw, undisclosed) versus 'AI-assisted' (drafted with AI, human-edited, no disclosure required) and a 3-book-per-day publishing cap meant to catch mass-AI-spam publishers, both of which the human-edited approach in this method satisfies.",
+    "best": "Someone comfortable directing Claude through a structured multi-step writing process and willing to do a genuine editing pass on each chapter rather than publishing raw AI output.",
+    "truth": "Amazon KDP's free, high-royalty self-publishing model and its real, current AI-content disclosure and publishing-cap policies are accurately described and match Amazon's actual public KDP guidelines. The specific per-book/portfolio income figures are general claims without a personal case study or verified screenshot, and it promotes the presenter's own 'ViraScope AI' idea-research tool as an add-on, so treat that recommendation as promotional.",
+    "url": "https://www.youtube.com/watch?v=JZhHyEOglzU"
+  },
+  {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
     "name": "Digistore24 affiliate marketing funnel using a free \"nurture sequence\" instead of direct-linking",
     "category": "Marketing & content",
@@ -10806,26 +11371,6 @@
     "published": "2026-08-21"
   },
   {
-    "id": "remote-cleaning-agency-dispatch-subcontractor-model",
-    "name": "Fully remote cleaning agency that dispatches jobs to independent subcontractors",
-    "category": "Local & professional services",
-    "tags": [
-      "remote agency model",
-      "subcontractor dispatch",
-      "cleaning business",
-      "location-independent",
-      "margin-based brokerage"
-    ],
-    "cost": "Very low startup cost (under $1,000 for a booking website and phone/booking software)",
-    "found": "HIDDEN WEALTH",
-    "what": "Run a home cleaning company entirely remotely by never employing cleaners directly: build a booking website and run local search ads to capture inbound customer calls, quote and book the jobs yourself (or via phone software), then match each job to vetted independent cleaning subcontractors who already own their own equipment and drive to jobs from their own homes \u2014 collecting the customer's payment upfront, paying the subcontractor their fixed cut, and keeping the 30-40% margin in between without ever cleaning anything yourself.",
-    "pitch": "The illustrative account frames the core competitive edge as simply answering the phone: testing ten local competitor cleaning companies on a Saturday morning found seven didn't pick up at all, and immediate answering plus instant booking converted more than half of inbound calls into booked jobs \u2014 no cleaning skill or physical presence required from the business owner, since the entire value-add is fast response, reliable dispatch, and vetting subcontractors.",
-    "best": "Someone who wants a genuinely location-independent business and is comfortable operating as a broker/dispatcher rather than a hands-on service provider, with the discipline to vet and manage a network of subcontractors reliably.",
-    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. The core insight \u2014 that many local service businesses lose bookable customers simply by not answering the phone promptly \u2014 is a genuine, well-documented pattern in local-service marketing independent of this particular narrative; building a reliable subcontractor network and maintaining service quality without direct oversight is a real, non-trivial operational challenge the story doesn't dwell on.",
-    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
-    "published": "2026-08-19"
-  },
-  {
     "id": "claude-design-print-on-demand-storefront",
     "name": "Semi-automated print-on-demand apparel using Claude Design and an AI storefront builder",
     "category": "Physical & print products",
@@ -11060,30 +11605,6 @@
     "published": "2026-08-10"
   },
   {
-    "id": "notary-loan-signing-agent",
-    "name": "Notary loan signing agent",
-    "category": "Local & professional services",
-    "tags": [
-      "certification needed",
-      "local business",
-      "high hourly rate",
-      "beginner friendly"
-    ],
-    "cost": "Under $400 (state notary commission plus signing agent certification)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Become a certified notary and loan signing agent, then get hired by title companies, escrow companies, or signing services to meet home buyers or refinancing homeowners in person to witness and notarize the paperwork involved in a real estate closing.",
-    "pitch": "The video cites a CNBC report calling this one of the highest-paying side hustles in America, up to $200 an hour, for appointments that typically take about an hour and pay $75 to $200 each, requiring only a state notary commission ($50-$100) and a signing agent certification course (about $200).",
-    "best": "Someone who wants a genuinely low-cost, credential-based entry point with a clear certification path, comfortable scheduling and traveling to in-person appointments, often evenings and weekends around closing schedules.",
-    "truth": "This is a real, well-documented gig economy role (signing services and title companies do hire independent notary signing agents), and the certification path and cost described are accurate to how someone would actually get started. Building a steady stream of signing appointments generally requires getting listed with signing services and building a reputation, which takes time the video doesn't address; the per-appointment pay is real, but consistent volume isn't guaranteed from day one.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires a license or certification",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-04-07"
-  },
-  {
     "id": "binding-laminator-mini-stationery-service",
     "name": "Document binding and laminating service",
     "category": "Local & professional services",
@@ -11165,6 +11686,23 @@
     "published": "2024-12-21"
   },
   {
+    "id": "power-trowel-concrete-floor-finishing",
+    "name": "Offering same-day concrete floor finishing with a mini power trowel",
+    "category": "Local & professional services",
+    "tags": [
+      "power trowel",
+      "concrete finishing",
+      "garage and warehouse floors"
+    ],
+    "cost": "Moderate ($1,500-4,000)",
+    "found": "HIDDEN WEALTH",
+    "what": "Use a mini power trowel (spinning steel blades) to smooth and seal fresh concrete within its narrow curing window, producing a polished, pore-sealed finish on garage floors, warehouse floors, and patios that manual hand-troweling can't match in speed or quality.",
+    "pitch": "Charges $2-5 per square meter of finished slab; a standard two-car garage (roughly 50 square meters) at $4/meter is a $200 job completed in about 20 minutes of machine work, scaling well on larger commercial warehouse floors.",
+    "best": "Someone able to work within tight concrete-curing timing windows, targeting residential concrete contractors and commercial epoxy floor installers who need a smooth base slab.",
+    "truth": "Power troweling is a real, standard concrete-finishing technique addressing a genuine quality/speed problem with manual finishing. Pricing figures are a straightforward calculation from stated rates, not a claimed personal case study.",
+    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM"
+  },
+  {
     "id": "cleaning-business-owner-not-cleaner",
     "name": "Starting a residential cleaning business as the owner/manager, hiring cleaners rather than cleaning yourself",
     "category": "Local & professional services",
@@ -11220,6 +11758,23 @@
     "truth": "B2B dough/pasta supply to food businesses is a real, established practice in food-service supply chains, and the focus on repeat B2B buyers over one-time retail sales reflects sound unit-economics reasoning. No specific revenue example is given; food-safety regulations for wholesale food production will apply and vary by location.",
     "url": "https://www.youtube.com/watch?v=mKFNXLik1ro",
     "published": "2026-06-03"
+  },
+  {
+    "id": "specialty-recycling-waste-to-value-route",
+    "name": "Running a focused specialty recycling route, paid by both the material generator and the downstream buyer",
+    "category": "Local & professional services",
+    "tags": [
+      "specialty recycling",
+      "waste-to-value arbitrage",
+      "scrap metal/e-waste collection"
+    ],
+    "cost": "Moderate ($10,000-30,000 for a single truck and totes, focused on one specialty material)",
+    "found": "Harry's Stealth Wealth",
+    "what": "Pick one clean specialty material (scrap metal, electronic waste, or a specific plastic \u2014 not general trash) that big haulers ignore, collect it for a fee from generators like print shops, small factories, and auto shops, then resell the sorted/baled output to a downstream buyer, getting paid on both ends; lock recurring contracts rather than one-off pickups, and enforce a contamination rule at the source to avoid rejected loads.",
+    "pitch": "The video frames this as the best item on the whole list, capable of bringing in $3,000-20,000/month, citing collection-operation margins of 20-30% (and specialized industrial routes reaching 35-40%+), and notes some established recycling route businesses sell for 4-6 times yearly earnings because buyers value the durable recurring cash flow.",
+    "best": "Someone willing to specialize in one clean material stream and build recurring B2B relationships, rather than trying to collect general mixed waste.",
+    "truth": "Specialty recycling arbitrage is a real, established business model, and the acquisition-multiple claim (routes selling for 4-6x earnings) reflects genuine buyer interest in recurring-revenue service businesses. The presenter is explicit about the real failure mode (a contaminated load getting rejected by the buyer) and its practical fixes, adding credibility over a purely rosy pitch.",
+    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o"
   },
   {
     "id": "parking-lot-ownership-business",
