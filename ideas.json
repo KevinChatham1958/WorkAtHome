@@ -202,6 +202,28 @@
     "published": "2026-07-25"
   },
   {
+    "id": "amazon-merch-on-demand",
+    "name": "Amazon Merch on Demand (passive t-shirt design uploads)",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "Amazon",
+      "passive income",
+      "beginner friendly"
+    ],
+    "cost": "Free to join (application required)",
+    "found": "Greg Gottfried",
+    "what": "Create t-shirt designs and upload them to Amazon's own built-in Merch on Demand program, which creates the product listing, handles printing, shipping, and customer service entirely on Amazon's side, so the seller's only ongoing task is producing and uploading new designs.",
+    "pitch": "Gottfried, who's run this program for nearly 10 years, explains the real leverage isn't in the small per-sale profit (about $3.18 on a $21.99 shirt) but in Amazon's existing shopper traffic doing the selling, since he's seen individual designs sell 400-700-plus times a month without any of the seller's own marketing. His top tip is checking that a design's exact phrase isn't trademark-protected before uploading, using a free trademark search, since a protected phrase can get a seller in trouble.",
+    "best": "Someone comfortable treating this as a volume game, producing many designs rather than perfecting a few, and who's fine with the program's real barrier: an application to join, which isn't automatic.",
+    "truth": "Gottfried discloses he sells zero physical products himself after 10 years of Amazon experience, everything he recommends is passive-income focused, which shapes which of Amazon's many programs he features. The per-shirt profit margin and per-design sales volume are specific, real figures from his own account, and the requirements (free to join, 18+, must live in an English-speaking country, no need to reside in the U.S.) are concrete and independently verifiable on Amazon's own signup page.",
+    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-02"
+  },
+  {
     "id": "party-event-equipment-rental-weekend",
     "name": "Party and event equipment rental business run on weekends",
     "category": "Local & professional services",
@@ -698,6 +720,28 @@
       "Needs inventory storage"
     ],
     "published": "2026-09-05"
+  },
+  {
+    "id": "amazon-kdp-low-content-books",
+    "name": "Amazon KDP low and medium-content books (word searches, log books, planners)",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "Amazon KDP",
+      "publishing",
+      "beginner friendly"
+    ],
+    "cost": "Free to join, no ongoing fees",
+    "found": "Greg Gottfried",
+    "what": "Publish functional, non-text-heavy books through Amazon Kindle Direct Publishing, word search books, log books, maintenance trackers, and similar niche-specific planners, using template-based design tools rather than writing full-length content, with Amazon handling printing, shipping, and customer service the same way it does for Merch on Demand.",
+    "pitch": "Gottfried is candid that he tried full-length, text-based books and had little success with them, they took too long to create and weren't worth it for him, whereas low and medium-content books let him produce 5 to 10 finished books in a single day using template tools built for word searches, crosswords, and similar formats. Pricing works the same way as Merch on Demand: set a sale price, earn a few dollars in royalties per sale, and rely on Amazon's own traffic and volume rather than personal marketing.",
+    "best": "Someone with no graphic design or writing background who wants a genuinely fast production process, since Gottfried emphasizes you can go from never having made a book to having one finished within a single tutorial session.",
+    "truth": "Gottfried frames this specifically as \"an even easier way\" than typical KDP advice, which usually focuses on longer books, based on his own personal experience of what worked and didn't for him over years of trying different formats. Signup requirements are concrete and checkable (free, 18+, English-speaking country, no application required, unlike Merch on Demand), and no specific revenue figures are given for this particular business model in the video.",
+    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-02"
   },
   {
     "id": "trash-can-rollout-curb-service",
@@ -1207,6 +1251,28 @@
     "published": "2026-04-07"
   },
   {
+    "id": "amazon-associates-youtube-review-videos",
+    "name": "Amazon Associates affiliate income via YouTube review videos",
+    "category": "Marketing & content",
+    "tags": [
+      "affiliate marketing",
+      "Amazon",
+      "YouTube",
+      "content creation"
+    ],
+    "cost": "Free to join, no ongoing fees",
+    "found": "Greg Gottfried",
+    "what": "Join the Amazon Associates program to get a unique tracked link for any Amazon product, then create YouTube videos (talking about or demonstrating products, without necessarily appearing on camera) with those affiliate links in the description, earning a commission on anything a viewer buys on Amazon within 24 hours of clicking through, not just the specific product featured.",
+    "pitch": "Gottfried's single best piece of advice is to make videos about topics people are actively Googling or searching for on YouTube, since that content earns organic views without needing an existing subscriber base or following, and he notes that a large share of commissions actually come from \"secondary sales,\" other items a visitor adds to their cart beyond the one they originally clicked through for.",
+    "best": "Someone comfortable creating video content (camera-on or camera-off, talking about products they already know or own) but who doesn't want to build a large following first, since Gottfried's approach relies on search-driven discovery rather than an audience.",
+    "truth": "Gottfried discloses that videos have worked \"head and shoulders above everything else\" for him personally compared to photos or social posts, a stated preference based on his own experience rather than a universal claim. The 24-hour attribution window and secondary-sales mechanic are concrete, verifiable facts about how the Amazon Associates program actually works, not marketing claims specific to his own results.",
+    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-02"
+  },
+  {
     "id": "paid-focus-groups-user-testing",
     "name": "Paid online focus groups and user testing",
     "category": "Local & professional services",
@@ -1296,28 +1362,6 @@
       "Strictly in-home"
     ],
     "published": "2026-04-01"
-  },
-  {
-    "id": "amazon-merch-on-demand",
-    "name": "Amazon Merch on Demand (passive t-shirt design uploads)",
-    "category": "Physical & print products",
-    "tags": [
-      "print on demand",
-      "Amazon",
-      "passive income",
-      "beginner friendly"
-    ],
-    "cost": "Free to join (application required)",
-    "found": "Greg Gottfried",
-    "what": "Create t-shirt designs and upload them to Amazon's own built-in Merch on Demand program, which creates the product listing, handles printing, shipping, and customer service entirely on Amazon's side, so the seller's only ongoing task is producing and uploading new designs.",
-    "pitch": "Gottfried, who's run this program for nearly 10 years, explains the real leverage isn't in the small per-sale profit (about $3.18 on a $21.99 shirt) but in Amazon's existing shopper traffic doing the selling, since he's seen individual designs sell 400-700-plus times a month without any of the seller's own marketing. His top tip is checking that a design's exact phrase isn't trademark-protected before uploading, using a free trademark search, since a protected phrase can get a seller in trouble.",
-    "best": "Someone comfortable treating this as a volume game, producing many designs rather than perfecting a few, and who's fine with the program's real barrier: an application to join, which isn't automatic.",
-    "truth": "Gottfried discloses he sells zero physical products himself after 10 years of Amazon experience, everything he recommends is passive-income focused, which shapes which of Amazon's many programs he features. The per-shirt profit margin and per-design sales volume are specific, real figures from his own account, and the requirements (free to join, 18+, must live in an English-speaking country, no need to reside in the U.S.) are concrete and independently verifiable on Amazon's own signup page.",
-    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-02"
   },
   {
     "id": "ai-ghostwriting",
@@ -1896,6 +1940,28 @@
       "Requires a license or certification"
     ],
     "published": "2026-08-14"
+  },
+  {
+    "id": "amazon-influencer-program-product-videos",
+    "name": "Amazon Influencer Program: short product review videos on Amazon listings",
+    "category": "Marketing & content",
+    "tags": [
+      "Amazon",
+      "affiliate marketing",
+      "video",
+      "passive income"
+    ],
+    "cost": "Free to join (requires an active social media account to apply)",
+    "found": "Greg Gottfried",
+    "what": "Record short review or demo videos for products you've already purchased from Amazon, upload them to your Amazon Influencer account, and earn a commission whenever a shopper watches your video directly on that product's Amazon listing page and then buys, without ever needing to post the videos to your own social media.",
+    "pitch": "Gottfried, three months into this specific program at the time of filming, made about $70 in profit his first month simply reviewing products he already owned, then jumped to roughly $1,400 in his second month after switching strategy: using a data tool to check how many other influencer videos already exist for a given product (since Amazon only displays about five per listing) and prioritizing products with little existing video competition over ones already saturated with 100-plus competing videos.",
+    "best": "Someone who already owns a range of Amazon-purchased products and is comfortable recording brief, simple review or demo videos, understanding that visibility (getting into the limited top-five video slots) matters more than production quality.",
+    "truth": "Gottfried is specific that his own $70-to-$1,400 jump came from a single tactical shift (competition-checking before choosing which products to review), a concrete and replicable insight rather than a vague growth claim. The application does require proving an existing active social media account, even though the ongoing work happens entirely on Amazon's platform, a real and sometimes confusing requirement worth knowing upfront.",
+    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-02"
   },
   {
     "id": "window-cleaning-service-residential-commercial",
@@ -2617,6 +2683,24 @@
     "published": "2026-09-05"
   },
   {
+    "id": "amazon-merch-on-demand-subniche-shirts",
+    "name": "Selling print-on-demand T-shirts through Amazon Merch on Demand, focusing on specific sub-niches instead of broad topics",
+    "category": "Physical & print products",
+    "tags": [
+      "Amazon Merch on Demand",
+      "print on demand",
+      "T-shirt design",
+      "sub-niche strategy"
+    ],
+    "cost": "Very low (free to join Amazon Merch on Demand; a copyright-free commercial-use T-shirt design tool)",
+    "found": "Greg Gottfried",
+    "what": "Join Amazon Merch on Demand and upload T-shirt designs (phrase-based joke/niche shirts); Amazon creates the product listing, handles printing, shipping, and customer service as orders come in, paying the designer a split of the profit per sale. Use a copyright-free, commercially-licensed design tool to quickly create designs without needing Photoshop skills, and focus on narrow sub-niches within a broader topic (not just 'fishing shirts' but 'fly fishing,' 'deep-sea fishing,' 'ice fishing' separately) rather than one generic category, to reduce competition per design.",
+    "pitch": "The presenter describes this as the first income stream that ever worked for him after being laid off at 18, discovering it passively earned money in the background of his part-time job with no ads or active marketing required, and says it built the foundation that all nine of his other income streams grew out of.",
+    "best": "Someone willing to create many design variations across specific sub-niches rather than a few broad designs, comfortable with a slow passive-income buildup rather than instant results.",
+    "truth": "Amazon Merch on Demand is a real, established print-on-demand marketplace with the fulfillment model described accurately (Amazon handles printing/shipping/service, seller gets a royalty split), and the sub-niche strategy is sound, standard print-on-demand advice for reducing competition. No specific personal revenue figures for this exact stream are given in this segment.",
+    "url": "https://www.youtube.com/watch?v=egILyXhaLhM"
+  },
+  {
     "id": "faceless-ghostwriting-service",
     "name": "Faceless ghostwriting service",
     "category": "Marketing & content",
@@ -3084,6 +3168,23 @@
     "truth": "Vending machine routes are a real, long-established micro-business, and negotiating good locations genuinely matters more than the product sold, which matches common industry knowledge. The specific 50-machine example is one presenter-cited case from industry reports, not independently verified, and finding good locations takes real ongoing sales effort.",
     "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
     "published": "2026-06-30"
+  },
+  {
+    "id": "udemy-course-from-existing-expertise",
+    "name": "Recording a step-by-step video course and selling it on Udemy, letting the platform handle marketing and discovery",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Udemy course creation",
+      "online course marketplace",
+      "passive course income"
+    ],
+    "cost": "Very low (free to create an instructor account and upload a course)",
+    "found": "Greg Gottfried",
+    "what": "Record a chapter-based video course teaching something you already know how to do well, and upload it to Udemy, a marketplace that (unlike selling a course independently) handles all marketing, discovery, and matching the course to interested students itself, meaning a creator doesn't need an existing audience to get enrollments; the presenter recommends starting from your own hobbies, career expertise, or a business you already run.",
+    "pitch": "The presenter created his first course teaching how he sells T-shirts via print-on-demand, reportedly earning about $500 in profit in the first month, and now has 27 courses on his instructor profile built up over several years; he shows a specific real example of a niche real-estate-drone-photography course Udemy matched with over 5,000 enrolled students with zero marketing effort from the creator.",
+    "best": "Someone with genuine expertise in a specific skill or hobby, comfortable being on camera to teach, and willing to let the platform (rather than personal marketing) drive discovery.",
+    "truth": "Udemy is a real, established course marketplace that does handle matching and discovery for creators as described, and the cited enrollment example is a real, verifiable case visible on the platform. The presenter's own $500 first-month figure is self-reported.",
+    "url": "https://www.youtube.com/watch?v=egILyXhaLhM"
   },
   {
     "id": "spider-mini-crane-indoor-hoisting",
@@ -4110,28 +4211,6 @@
     "published": "2026-04-01"
   },
   {
-    "id": "amazon-kdp-low-content-books",
-    "name": "Amazon KDP low and medium-content books (word searches, log books, planners)",
-    "category": "Physical & print products",
-    "tags": [
-      "print on demand",
-      "Amazon KDP",
-      "publishing",
-      "beginner friendly"
-    ],
-    "cost": "Free to join, no ongoing fees",
-    "found": "Greg Gottfried",
-    "what": "Publish functional, non-text-heavy books through Amazon Kindle Direct Publishing, word search books, log books, maintenance trackers, and similar niche-specific planners, using template-based design tools rather than writing full-length content, with Amazon handling printing, shipping, and customer service the same way it does for Merch on Demand.",
-    "pitch": "Gottfried is candid that he tried full-length, text-based books and had little success with them, they took too long to create and weren't worth it for him, whereas low and medium-content books let him produce 5 to 10 finished books in a single day using template tools built for word searches, crosswords, and similar formats. Pricing works the same way as Merch on Demand: set a sale price, earn a few dollars in royalties per sale, and rely on Amazon's own traffic and volume rather than personal marketing.",
-    "best": "Someone with no graphic design or writing background who wants a genuinely fast production process, since Gottfried emphasizes you can go from never having made a book to having one finished within a single tutorial session.",
-    "truth": "Gottfried frames this specifically as \"an even easier way\" than typical KDP advice, which usually focuses on longer books, based on his own personal experience of what worked and didn't for him over years of trying different formats. Signup requirements are concrete and checkable (free, 18+, English-speaking country, no application required, unlike Merch on Demand), and no specific revenue figures are given for this particular business model in the video.",
-    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-02"
-  },
-  {
     "id": "ai-landing-pages-websites",
     "name": "AI landing pages and websites for local businesses",
     "category": "Marketing & content",
@@ -4619,6 +4698,24 @@
     "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM"
   },
   {
+    "id": "youtube-adsense-educational-tutorial-channel",
+    "name": "Building a YouTube channel around educational how-to videos to earn AdSense revenue, rather than entertainment content",
+    "category": "Content & personal brand",
+    "tags": [
+      "YouTube AdSense",
+      "educational content",
+      "evergreen search traffic",
+      "tutorial videos"
+    ],
+    "cost": "Very low (just a camera/phone and editing software)",
+    "found": "Greg Gottfried",
+    "what": "Create short, specific educational how-to videos (the presenter started with individual chapters/lessons from his print-on-demand knowledge) and post them to YouTube to qualify for AdSense once subscriber/watch-time thresholds are met; deliberately choose educational content over entertainment content, since advertisers pay more for ads on educational videos and these videos get sustained organic search traffic over time (ranking on Google) rather than needing constant new uploads to keep view counts up.",
+    "pitch": "The presenter cites a real example unrelated to his own channel \u2014 a general 'how to back up a trailer' tutorial with 400,000-500,000+ views \u2014 to illustrate how evergreen educational content can accumulate large view counts purely through organic search discovery, arguing this is the core mechanic that makes an educational channel more sustainable than an entertainment one.",
+    "best": "Someone with genuine how-to knowledge willing to create clear, helpful videos rather than chase trends, and patient with the AdSense qualification threshold before monetization begins.",
+    "truth": "YouTube's AdSense program, its subscriber/watch-time eligibility requirements, and the described pattern of educational content earning higher ad rates and more evergreen organic search traffic are accurate and match well-documented, common creator-economy observations. No specific personal revenue figures for this particular stream are given.",
+    "url": "https://www.youtube.com/watch?v=egILyXhaLhM"
+  },
+  {
     "id": "bookkeeping-small-business-recurring-clients",
     "name": "Offering monthly bookkeeping services to small businesses without needing to be a certified accountant",
     "category": "Local & professional services",
@@ -5069,6 +5166,24 @@
     "best": "Someone with capital for the crusher and a vehicle to transport it between job sites, comfortable with a physical, on-site service.",
     "truth": "On-site debris crushing and aggregate resale is a real, double-sided-revenue business model (getting paid to remove waste, then getting paid again to sell the processed output). Day-rate and margin figures are general industry framing.",
     "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM"
+  },
+  {
+    "id": "niche-affiliate-content-websites",
+    "name": "Building niche-specific affiliate websites that answer search questions and link to Amazon products via Amazon Associates",
+    "category": "Marketing & content",
+    "tags": [
+      "affiliate marketing website",
+      "Amazon Associates",
+      "SEO content",
+      "niche content site"
+    ],
+    "cost": "Very low (a website/hosting cost; free to join Amazon Associates)",
+    "found": "Greg Gottfried",
+    "what": "Build a website of articles answering specific search questions within one niche (e.g. how to clean a specific car's seats), embedding Amazon Associates affiliate links to relevant products within helpful, genuinely useful content; when a reader clicks through and buys anything on Amazon within 24 hours, the site owner earns a commission, with search engines (not paid ads) driving the traffic.",
+    "pitch": "The presenter shows one of his own sites with over a hundred pages of articles, and says he's built several similar niche sites, but is candid that this stream has become notably less effective in recent years as AI-generated content has flooded the same search results, making him uncertain whether handwritten content will eventually outcompete AI content again or not.",
+    "best": "Someone willing to write (or have written) genuinely helpful, specific content and comfortable with an SEO-dependent business model that's grown more competitive.",
+    "truth": "Amazon Associates and the affiliate-content-website model are real and accurately described, and the presenter's own honest caution about AI content flooding this space is a credible, current concern rather than an oversold pitch; this kind of transparency about a declining tactic adds to rather than undercuts the entry's trustworthiness.",
+    "url": "https://www.youtube.com/watch?v=egILyXhaLhM"
   },
   {
     "id": "automatic-nail-art-printing-service",
@@ -5758,6 +5873,24 @@
     "published": "2026-08-13"
   },
   {
+    "id": "niche-affiliate-youtube-channel-day-one-monetization",
+    "name": "Repurposing affiliate-website content into niche YouTube videos to earn affiliate commissions from day one, before qualifying for AdSense",
+    "category": "Content & personal brand",
+    "tags": [
+      "affiliate YouTube channel",
+      "day-one monetization",
+      "Amazon Associates",
+      "niche review videos"
+    ],
+    "cost": "Very low (a camera/phone; free to join Amazon Associates)",
+    "found": "Greg Gottfried",
+    "what": "Take existing affiliate-website article ideas (or original ones) and record them as videos instead, posting an Amazon Associates affiliate link in each video's description; unlike AdSense, which requires hitting subscriber/watch-time thresholds first, affiliate-link earnings start from a channel's very first video and first viewer, since income comes from purchases after a click, not from ad placement eligibility. Focus on educational, question-answering videos, since Google increasingly surfaces video results (not just articles) for informational searches.",
+    "pitch": "The presenter shows a real six-year-old video comparing flash drives for Tesla dashcams (a specific, once-niche need) with an affiliate link in the description, explaining that this exact video type let him start earning commissions immediately on a brand-new channel with no subscriber base.",
+    "best": "Someone starting a brand-new channel who wants income before reaching AdSense eligibility, willing to make specific, question-answering videos rather than entertainment content.",
+    "truth": "The distinction between AdSense's monetization threshold and Amazon Associates' day-one-eligible affiliate links is accurate, and Google increasingly favoring video results for certain searches is a real, documented trend. The specific example shown is real and verifiable in concept, though no personal revenue figures for this exact stream are given.",
+    "url": "https://www.youtube.com/watch?v=egILyXhaLhM"
+  },
+  {
     "id": "non-emergency-medical-transportation",
     "name": "Non-emergency medical transportation (NEMT) service",
     "category": "Local & professional services",
@@ -6115,28 +6248,6 @@
     "published": "2026-04-01"
   },
   {
-    "id": "amazon-associates-youtube-review-videos",
-    "name": "Amazon Associates affiliate income via YouTube review videos",
-    "category": "Marketing & content",
-    "tags": [
-      "affiliate marketing",
-      "Amazon",
-      "YouTube",
-      "content creation"
-    ],
-    "cost": "Free to join, no ongoing fees",
-    "found": "Greg Gottfried",
-    "what": "Join the Amazon Associates program to get a unique tracked link for any Amazon product, then create YouTube videos (talking about or demonstrating products, without necessarily appearing on camera) with those affiliate links in the description, earning a commission on anything a viewer buys on Amazon within 24 hours of clicking through, not just the specific product featured.",
-    "pitch": "Gottfried's single best piece of advice is to make videos about topics people are actively Googling or searching for on YouTube, since that content earns organic views without needing an existing subscriber base or following, and he notes that a large share of commissions actually come from \"secondary sales,\" other items a visitor adds to their cart beyond the one they originally clicked through for.",
-    "best": "Someone comfortable creating video content (camera-on or camera-off, talking about products they already know or own) but who doesn't want to build a large following first, since Gottfried's approach relies on search-driven discovery rather than an audience.",
-    "truth": "Gottfried discloses that videos have worked \"head and shoulders above everything else\" for him personally compared to photos or social posts, a stated preference based on his own experience rather than a universal claim. The 24-hour attribution window and secondary-sales mechanic are concrete, verifiable facts about how the Amazon Associates program actually works, not marketing claims specific to his own results.",
-    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-02"
-  },
-  {
     "id": "ai-shopify-dropshipping",
     "name": "AI-built Shopify store and dropshipping",
     "category": "E-commerce",
@@ -6409,6 +6520,24 @@
     "truth": "The \"clean, small-batch, transparent ingredients\" positioning is a genuine and proven differentiator against mass-produced nut butter, and tasting-based sales are a well-established conversion tactic for food products at markets. Nut products carry real allergen liability, so accurate labeling and safe handling (cross-contamination control) matter more here than for most items on this list.",
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s",
     "published": "2025-09-12"
+  },
+  {
+    "id": "high-ticket-niche-masterclass-course",
+    "name": "Creating a detailed, high-ticket masterclass course teaching your own proven business system in full depth",
+    "category": "Digital & subscription products",
+    "tags": [
+      "high-ticket course",
+      "masterclass",
+      "digital product",
+      "course creation caveats"
+    ],
+    "cost": "Low (time investment is the real cost; no special tools required beyond video recording/editing)",
+    "found": "Greg Gottfried",
+    "what": "Take a business system you've already proven works for yourself (in this case, building niche affiliate YouTube channels) and package it into one comprehensive, detailed, hand-holding paid course \u2014 a step above a quick free tutorial \u2014 covering every resource, trick, and detail you know about the topic, sold for several hundred dollars per student.",
+    "pitch": "The presenter is candid that this specific stream took roughly three months to create (versus days for a shorter free tutorial) and, despite students paying hundreds of dollars, hasn't been a great financial decision for him personally, because he feels obligated to over-help paying students in a way that conflicts with the low-stress, passive lifestyle he otherwise built; he still sells it today because of the genuine value inside, but doesn't actively promote it.",
+    "best": "Someone with a genuinely proven system willing to trade significant upfront creation time for a premium price point, and prepared for the higher support obligation that comes with high-ticket customers.",
+    "truth": "The core tradeoff described, a high-ticket course commanding a premium price but creating a real ongoing support burden that undercuts passivity, is an honest, commonly-echoed observation from people who've actually built and sold premium courses, not a rosy oversell. No specific revenue figures for this course are given, only the time-cost caveat.",
+    "url": "https://www.youtube.com/watch?v=egILyXhaLhM"
   },
   {
     "id": "reverse-vending-bottle-deposit-machines",
@@ -6866,6 +6995,24 @@
     "published": "2026-07-09"
   },
   {
+    "id": "insider-knowledge-digital-download-resource",
+    "name": "Packaging your own insider industry knowledge into a small, low-cost digital download and selling it on a marketplace like Etsy",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital download product",
+      "Etsy digital products",
+      "lightweight passive product",
+      "insider knowledge resource"
+    ],
+    "cost": "Very low (Etsy's listing fee, currently around 20 cents per listing, renewed per sale)",
+    "found": "Greg Gottfried",
+    "what": "Distill specific, time-saving insider knowledge from a business you already run (the presenter's example: a curated list of the 10 best-selling print-on-demand T-shirt phrases, with a larger 100-phrase version also offered) into a small, focused digital download product, and sell it either through your own existing audience or on a marketplace like Etsy if you're starting without one.",
+    "pitch": "The presenter frames this as a genuinely passive, low-effort income stream built entirely from repackaging knowledge he already had rather than creating anything new, and is honest that it hasn't been a massive earner for him personally, positioning it as a reasonable side-addition rather than a primary business.",
+    "best": "Someone with real, specific insider knowledge from an existing business or skill, looking for a low-effort way to monetize that knowledge as a standalone product.",
+    "truth": "Selling small knowledge-based digital downloads via Etsy is a real, low-barrier product category, and the presenter is candid that this specific stream underperformed his other income streams rather than overselling it, which adds credibility.",
+    "url": "https://www.youtube.com/watch?v=egILyXhaLhM"
+  },
+  {
     "id": "eco-bricks-plastic-waste-furniture",
     "name": "Eco-brick furniture and community-build business using packed plastic waste",
     "category": "Physical & print products",
@@ -7306,6 +7453,24 @@
     "truth": "Electrician specialization commanding premium rates is a real, well-documented pattern in skilled trades generally, and EV charging/smart home installation is a genuinely growing, real market need as EV adoption increases. This requires an existing electrical license (a real, non-trivial barrier not detailed here), and the specific $250/hour figure is a cited rate, not a guaranteed outcome.",
     "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
     "published": "2026-06-30"
+  },
+  {
+    "id": "amazon-kdp-low-content-puzzle-books",
+    "name": "Publishing low and medium-content books (puzzle books, activity books) on Amazon Kindle Direct Publishing",
+    "category": "Physical & print products",
+    "tags": [
+      "Amazon KDP",
+      "low content books",
+      "puzzle books",
+      "print on demand publishing"
+    ],
+    "cost": "Very low (Amazon KDP is free to use; a template-based book creation tool for puzzle content)",
+    "found": "Greg Gottfried",
+    "what": "Publish low and medium-content books through Amazon KDP's print-on-demand system (Amazon prints, ships, and handles customer service per order, paying a royalty split), focusing specifically on puzzle books, crossword books, word search books, and similar activity content rather than full-length novels, which the presenter found much harder to sell; use pre-made templates for puzzle generation rather than building content from scratch, and apply the same specific-niche thinking used for the T-shirt business.",
+    "pitch": "The presenter says he originally tried this stream years earlier without much success, and only found real traction after switching strategy specifically to niche puzzle books, framing this as a valuable lesson that low-content book type (not the KDP platform itself) was the reason for his earlier failure.",
+    "best": "Someone willing to niche down within the low-content book category (rather than novels) and use templated tools to speed up creation.",
+    "truth": "Amazon KDP's print-on-demand model and the general distinction between the difficulty of selling novels versus low-content books are accurate and match common self-publishing knowledge. No specific revenue figures for this stream are given in this segment, only the presenter's own account of an initial failed attempt followed by later success after changing approach.",
+    "url": "https://www.youtube.com/watch?v=egILyXhaLhM"
   },
   {
     "id": "short-form-content-strategist-local-business",
@@ -10654,6 +10819,25 @@
     "url": "https://www.youtube.com/watch?v=8x9Uyji54D4"
   },
   {
+    "id": "ebay-reselling-sell-through-rate-method",
+    "name": "Using eBay's sell-through rate to pick garage-sale clothing items that will actually sell fast, without overcomplicating the listing process",
+    "category": "E-commerce",
+    "tags": [
+      "eBay reselling",
+      "clothing resale",
+      "sell-through rate",
+      "garage sale sourcing",
+      "simple listing method"
+    ],
+    "cost": "Very low (just a phone; source items for a few dollars each at garage/yard sales)",
+    "found": "Cam (Camlife)",
+    "what": "Wake up early on a Thursday or Friday to hit garage/yard sales before other resellers, and before buying an item, check its eBay 'sell-through rate' on your phone: search the item on eBay, filter to sold listings, divide the number sold by the number currently listed, and multiply by 100 \u2014 a rate near or above 100% signals strong, fast-moving demand, while a low rate (under 20%) means an item could take a year or more to sell. Adding a specific model/style name as a search keyword (not just the brand) can dramatically change this number by filtering out low-demand generic listings. Once confirmed, skip elaborate presentation entirely \u2014 lay the item on the floor, photograph it on your phone including the tag and back, and list it on eBay alone, priced at the market rate already researched.",
+    "pitch": "The presenter, who says he now runs a 'million dollar' clothing resale business selling about 400 items a day but started part-time out of a one-bedroom apartment, demonstrates live on his phone the exact difference one keyword makes: a generic 'Abercrombie & Fitch jacket' search shows 17,000 listed with only a 13.25% sell-through rate (nearly 2 years to sell), while adding the specific jacket style name narrows it to 72 listed with a 173% sell-through rate (about 50 days to sell) \u2014 the same brand, a completely different opportunity.",
+    "best": "Someone willing to get up early for garage sales and do a 30-second sell-through-rate check on their phone before buying, rather than buying on instinct or overcomplicating the resale process.",
+    "truth": "eBay's sold-listings filter and the sell-through-rate calculation described are real, publicly available features anyone can replicate exactly as shown, and the specific before/after example is demonstrated live with real, checkable numbers rather than just claimed. The presenter's own 'million dollar business' and 400-items-a-day figures are self-reported and not independently verified, though the core sourcing technique itself doesn't depend on those numbers being true to be useful.",
+    "url": "https://www.facebook.com/reel/1478933937394958"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -11745,28 +11929,6 @@
     "published": "2026-04-01"
   },
   {
-    "id": "amazon-influencer-program-product-videos",
-    "name": "Amazon Influencer Program: short product review videos on Amazon listings",
-    "category": "Marketing & content",
-    "tags": [
-      "Amazon",
-      "affiliate marketing",
-      "video",
-      "passive income"
-    ],
-    "cost": "Free to join (requires an active social media account to apply)",
-    "found": "Greg Gottfried",
-    "what": "Record short review or demo videos for products you've already purchased from Amazon, upload them to your Amazon Influencer account, and earn a commission whenever a shopper watches your video directly on that product's Amazon listing page and then buys, without ever needing to post the videos to your own social media.",
-    "pitch": "Gottfried, three months into this specific program at the time of filming, made about $70 in profit his first month simply reviewing products he already owned, then jumped to roughly $1,400 in his second month after switching strategy: using a data tool to check how many other influencer videos already exist for a given product (since Amazon only displays about five per listing) and prioritizing products with little existing video competition over ones already saturated with 100-plus competing videos.",
-    "best": "Someone who already owns a range of Amazon-purchased products and is comfortable recording brief, simple review or demo videos, understanding that visibility (getting into the limited top-five video slots) matters more than production quality.",
-    "truth": "Gottfried is specific that his own $70-to-$1,400 jump came from a single tactical shift (competition-checking before choosing which products to review), a concrete and replicable insight rather than a vague growth claim. The application does require proving an existing active social media account, even though the ongoing work happens entirely on Amazon's platform, a real and sometimes confusing requirement worth knowing upfront.",
-    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-02"
-  },
-  {
     "id": "ai-app-building",
     "name": "AI app building for businesses or your own product",
     "category": "AI & automation",
@@ -12248,6 +12410,24 @@
     "best": "Someone comfortable pitching property managers on B2B service contracts and managing part-time hourly workers, without needing to do the physical collection themselves.",
     "truth": "Valet trash service for apartment complexes is a real, established amenity business model with genuine 3-5 year B2B contracts common in the industry. The cited 1,400-unit example is one real listing, not independently audited, but the low-barrier startup description is consistent with how this business is typically entered.",
     "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4"
+  },
+  {
+    "id": "amazon-influencer-low-competition-product-videos",
+    "name": "Finding low-competition, high-revenue products for Amazon Influencer videos using your own past Amazon order history",
+    "category": "Content & personal brand",
+    "tags": [
+      "Amazon Influencer Program",
+      "product review videos",
+      "low-competition product research",
+      "ViralVue tool"
+    ],
+    "cost": "Low (free Amazon Influencer Program signup; a product-research tool like ViralVue)",
+    "found": "Greg Gottfried",
+    "what": "Join the Amazon Influencer Program and create short review videos of products you already own, which can then surface in a product's own listing page under 'Amazon Influencer Videos,' earning a commission when a viewer purchases after watching; rather than guessing which products to review, use a research tool that scans your own Amazon order history and ranks past purchases by opportunity (high monthly product revenue combined with very few existing competing Influencer videos), surfacing genuinely low-competition, high-traffic products to review first.",
+    "pitch": "The presenter, who started this stream just a couple months before the video, reports making about $70 in profit the first month doing general reviews, then jumping to roughly $1,400 in profit the second month after using the research tool to target specific low-competition, high-revenue products (citing real examples found this way selling $20,000-75,000/month in product revenue with only one to three competing videos).",
+    "best": "Someone with an existing Amazon purchase history to draw from, comfortable making brief on-camera or voiceover product reviews rather than needing a full YouTube channel or website.",
+    "truth": "The Amazon Influencer Program and its video-placement mechanics on product pages are real and accurately described, and the specific before/after progression ($70 to $1,400) is a concrete, plausible self-reported result tied to a clear tactical change (using the research tool) rather than a vague claim. The presenter explicitly says he can't guarantee similar results for viewers.",
+    "url": "https://www.youtube.com/watch?v=egILyXhaLhM"
   },
   {
     "id": "ai-dropshipping-store-buildyourstore-autods-tilbury",
