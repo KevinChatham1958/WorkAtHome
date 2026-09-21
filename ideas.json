@@ -852,6 +852,30 @@
     "published": "2026-05-12"
   },
   {
+    "id": "ai-google-review-reply-subscription-mrreis",
+    "name": "AI-drafted Google review reply subscription service, planned end-to-end with Claude Code",
+    "category": "Local & professional services",
+    "tags": [
+      "Google review management",
+      "AI automation",
+      "Claude Code",
+      "Stripe subscriptions",
+      "local business service"
+    ],
+    "cost": "Free to start (free Gmail, free Netlify hosting, free Stripe account)",
+    "found": "Mr Reis",
+    "what": "Offer local businesses a $199/month subscription service where AI drafts replies to their existing Google reviews (especially ones the business has ignored), with the owner approving each reply by email or WhatsApp before it's posted; the presenter uses Claude Code itself to generate the entire business plan, brand identity, and step-by-step setup instructions, then Stripe to handle subscription billing automatically.",
+    "pitch": "The plan calls for finding 50 local businesses on Google Maps with visibly ignored reviews, messaging 10 per day with two sample replies already written using their real reviews, offering a free first week before converting to the $199/month plan \u2014 daily maintenance work is estimated at 15 minutes per client, with a projected path to $10,000/month (51 clients) around month six at a pace of 8-10 new clients per month.",
+    "best": "Someone comfortable with cold outreach to local businesses and willing to use AI tools (Claude Code, Stripe, Netlify) to assemble the entire operation for close to zero upfront cost.",
+    "truth": "The specific step-by-step setup (free tools throughout, a scripted cold-outreach message using the business's own real reviews as proof, a free-trial-to-paid-subscription conversion) is more concretely actionable than most similar pitches. The month-six, $10,000 projection assumes a steady 8-10 new clients per month with no churn, which is an optimistic scenario rather than a guaranteed outcome, and the video is sponsored by one of the AI tools demonstrated (Higgsfield) for the marketing/ad-creation portion.",
+    "url": "https://www.youtube.com/watch?v=7YJtacrq1NU",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ],
+    "published": "2026-09-04"
+  },
+  {
     "id": "used-cooking-oil-recycling-restaurant-route",
     "name": "Used cooking oil recycling route for restaurants",
     "category": "Local & professional services",
@@ -2403,6 +2427,25 @@
       "Strictly in-home"
     ],
     "published": "2026-05-12"
+  },
+  {
+    "id": "single-purpose-utility-website-ad-monetization",
+    "name": "Building single-purpose micro-utility websites monetized with display ads, using AI to build and market them end-to-end",
+    "category": "Digital & subscription products",
+    "tags": [
+      "micro-utility websites",
+      "display ad monetization",
+      "AI website building",
+      "Claude Code",
+      "Google Trends validation"
+    ],
+    "cost": "Very low (free using Google's Antigravity IDE or a Claude Code subscription; free ad networks to start before qualifying for AdSense)",
+    "found": "Mr Reis",
+    "what": "Give an AI a vague prompt about your own job, hobbies, and daily annoyances, and ask it to generate 20 single-purpose micro-utility website ideas ranked by likely traffic, validate real search demand for a handful of favorites in Google Trends, then have Claude Code or Google's free Antigravity IDE build and deploy the site end-to-end (including signing up for an ad network and inserting ad slots) from a single prompt, monetizing through a low-traffic-friendly ad network first before graduating to Google AdSense once traffic grows.",
+    "pitch": "The presenter cites several real examples of single-purpose utility sites (a temporary-email generator, a 'weird Amazon products' site, a link-outage checker) earning $2,500-$39,000/month purely from display ads on very simple pages, and argues such sites can also be resold later at 25-40x monthly earnings; he demonstrates the entire build live, including his own previously-built metadata-removal tool as a real personal example.",
+    "best": "Someone comfortable directing an AI coding assistant conversationally rather than writing code themselves, willing to validate an idea's search demand before building rather than guessing.",
+    "truth": "Simple utility websites monetized by display ads are a real, long-standing internet business model, and the specific named examples are genuine existing sites, though their exact revenue figures are unverified claims relayed from the sites' own founders. The video promotes the presenter's own paid 'Wealth Academy Pro' community for a prompt-injection 'skill' and free-token workaround, and separately teases a paid 'Mythos AI' tool, so those specific add-ons are sales funnels rather than required parts of the core method.",
+    "url": "https://www.youtube.com/watch?v=eKH-oaFt4qE"
   },
   {
     "id": "remote-cleaning-agency-dispatch-subcontractor-model",
@@ -3982,30 +4025,6 @@
     "published": "2026-09-01"
   },
   {
-    "id": "ai-google-review-reply-subscription-mrreis",
-    "name": "AI-drafted Google review reply subscription service, planned end-to-end with Claude Code",
-    "category": "Local & professional services",
-    "tags": [
-      "Google review management",
-      "AI automation",
-      "Claude Code",
-      "Stripe subscriptions",
-      "local business service"
-    ],
-    "cost": "Free to start (free Gmail, free Netlify hosting, free Stripe account)",
-    "found": "Mr Reis",
-    "what": "Offer local businesses a $199/month subscription service where AI drafts replies to their existing Google reviews (especially ones the business has ignored), with the owner approving each reply by email or WhatsApp before it's posted; the presenter uses Claude Code itself to generate the entire business plan, brand identity, and step-by-step setup instructions, then Stripe to handle subscription billing automatically.",
-    "pitch": "The plan calls for finding 50 local businesses on Google Maps with visibly ignored reviews, messaging 10 per day with two sample replies already written using their real reviews, offering a free first week before converting to the $199/month plan \u2014 daily maintenance work is estimated at 15 minutes per client, with a projected path to $10,000/month (51 clients) around month six at a pace of 8-10 new clients per month.",
-    "best": "Someone comfortable with cold outreach to local businesses and willing to use AI tools (Claude Code, Stripe, Netlify) to assemble the entire operation for close to zero upfront cost.",
-    "truth": "The specific step-by-step setup (free tools throughout, a scripted cold-outreach message using the business's own real reviews as proof, a free-trial-to-paid-subscription conversion) is more concretely actionable than most similar pitches. The month-six, $10,000 projection assumes a steady 8-10 new clients per month with no churn, which is an optimistic scenario rather than a guaranteed outcome, and the video is sponsored by one of the AI tools demonstrated (Higgsfield) for the marketing/ad-creation portion.",
-    "url": "https://www.youtube.com/watch?v=7YJtacrq1NU",
-    "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based"
-    ],
-    "published": "2026-09-04"
-  },
-  {
     "id": "print-on-demand-tshirts",
     "name": "Print-on-demand t-shirt business",
     "category": "Physical & print products",
@@ -4232,6 +4251,26 @@
       "Phone/sales-based"
     ],
     "published": "2026-08-21"
+  },
+  {
+    "id": "ai-mini-movie-viral-ads-ecommerce-outreach-test",
+    "name": "AI-generated \"mini movie\" viral ad creation service for e-commerce brands, tested across three outreach channels",
+    "category": "Marketing & content",
+    "tags": [
+      "AI video ads",
+      "e-commerce marketing",
+      "Facebook Ads Library research",
+      "cold outreach",
+      "narrative ad format"
+    ],
+    "cost": "Very low startup cost (ChatGPT plan plus an AI video tool like TopView, roughly $20-50/month; a $1 domain)",
+    "found": "Mr. AI CASH",
+    "what": "Use the Facebook Ads Library to find products with long-running ads (a proxy for \"this is working\") that solve a clear problem with a strong \"wow factor,\" then use ChatGPT connected to an AI video-generation tool (via an MCP integration) to produce a short, funny, narrative \"mini movie\" style ad (not a testimonial-style UGC ad) for that product in three 15-second clips, build a branded portfolio website and $1 domain entirely with ChatGPT, and pitch the finished samples to e-commerce and dropshipping brands running similar ads.",
+    "pitch": "In a documented 7-day test, the presenter tried three client-acquisition channels side by side: automated cold email outreach (found leads and their contact info via AI, sent messages daily) produced replies but zero closed sales; posting the sample ads organically on Instagram with a call-to-action produced one $57 sale by day six; and direct outreach via WhatsApp links found in the Facebook Ads Library (using a wa.me search filter to find brands already used to messaging customers there) produced the fastest results \u2014 the first sale plus an $810/month upgrade after the client saw one finished video. Total revenue was $987 against real, disclosed costs, netting $572.20 profit for the week.",
+    "best": "Someone comfortable with a genuinely technical AI tool chain (ChatGPT plus a connected video-generation platform) and willing to test multiple outreach channels rather than betting on just one.",
+    "truth": "This is unusually transparent for a challenge-format video: the presenter explicitly reports the method that didn't work (automated cold email, zero sales) alongside what did, and gives an honest final tally that fell short of the stated $1,000 goal rather than declaring an inflated win. The comedic \"mini movie\" narrative format is a distinct creative style from the testimonial-style UGC-cloning approach covered by other similar entries in this database, and results depend heavily on finding genuinely funny, product-appropriate concepts \u2014 not every product lends itself to this format as well as the example shown.",
+    "url": "https://www.youtube.com/watch?v=8OD5rFhUHkI",
+    "published": "2026-09-11"
   },
   {
     "id": "wall-printer-mural-service",
@@ -4492,6 +4531,24 @@
       "Strictly in-home"
     ],
     "published": "2026-05-12"
+  },
+  {
+    "id": "claude-code-faceless-youtube-niche-research-automation",
+    "name": "Using Claude Code to fully research, plan, and script a faceless YouTube automation channel from a single conversational prompt",
+    "category": "Content & personal brand",
+    "tags": [
+      "faceless YouTube channel",
+      "Claude Code automation",
+      "niche research",
+      "viral script analysis"
+    ],
+    "cost": "Free (Claude Code/free-tier AI coding tools; free image generation via Bing)",
+    "found": "Mr Reis",
+    "what": "Use an AI coding assistant (Claude Code, or a similar tool) to autonomously research and browse for the most profitable faceless YouTube niches for 2026, asking it to output a ranked list (with estimated pay per 1,000 views, competition level, and affiliate potential) plus 10 video ideas per niche, and a list of inspiration channels to study, all compiled into a downloadable file; verify a channel's monetization status with a free Chrome extension before modeling videos after it; for individual scripts, feed the AI a proven high-performing video's title and transcript and ask it to write an original script that follows the same successful structure and reasoning without copying the content, explicitly avoiding YouTube's crackdown on templated, mass-produced AI content.",
+    "pitch": "The presenter cites several other creators' real reported numbers as proof of the opportunity ($30,000/month from YouTube Shorts, $25,000/month from ranking-style Shorts, $21,000 in 28 days from an AI sleep/history channel) and says he's personally made hundreds of thousands in AdSense, walking through the entire live research-to-script workflow using Claude Code, and specifically flagging that YouTube deleted 16 channels with 35 million combined subscribers in a 2026 policy update targeting mass-produced AI content, distinguishing that from the structured, non-templated approach he demonstrates.",
+    "best": "Someone comfortable directing an AI coding tool through a multi-step research and writing process rather than expecting a single one-shot script.",
+    "truth": "Using an AI coding assistant to autonomously research niches and browse the web is a real, current capability, and the described YouTube policy crackdown on mass-produced AI content is a real, verifiable event. The cited creator earnings are third-party claims relayed by the presenter, not independently verified, and this is one segment of a longer sponsored video.",
+    "url": "https://www.youtube.com/watch?v=Sq0-pephnek"
   },
   {
     "id": "faceless-product-testing-review-channel",
@@ -5848,6 +5905,24 @@
     "published": "2026-05-12"
   },
   {
+    "id": "ai-agent-cloned-etsy-digital-product",
+    "name": "Having an AI coding agent research a proven-selling Etsy digital product and build your own version of it from scratch",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy digital products",
+      "Claude Code automation",
+      "AI agent web browsing",
+      "product cloning"
+    ],
+    "cost": "Free (Claude Code/free-tier AI coding tools; a free open-source design tool)",
+    "found": "Mr Reis",
+    "what": "Ask an AI coding assistant to browse Etsy itself (using its own built-in browser) to find digital products with strong proof of demand (high review counts, bestseller badges), then, once you pick one, have the same AI agent build your own original version of that product type (the presenter's live example: an Excel/Google Sheets planner with 11,000 reviews became the basis for a new spreadsheet product, built automatically inside a free, open-source design tool the AI installs and operates on your behalf) \u2014 the AI handles research, product creation, and asks you only for basic decisions like the product name and where to sell it.",
+    "pitch": "The presenter demonstrates the entire process live and mostly hands-off, letting the AI browse Etsy, select four candidate products with reasoning for each, then build a working spreadsheet product end-to-end while he steps away, framing this as work you can start and let run in the background rather than sit and watch.",
+    "best": "Someone comfortable giving an AI agent a research-and-build task with light supervision rather than manually researching and designing a product themselves.",
+    "truth": "AI coding agents with built-in web browsing that can research a marketplace and generate a matching product are a real, current capability demonstrated live rather than just described. No revenue figures for this specific method are given in this segment, and the approach still requires actually selling and marketing the resulting product, which isn't covered here.",
+    "url": "https://www.youtube.com/watch?v=Sq0-pephnek"
+  },
+  {
     "id": "hopper-gun-textured-wall-finishing",
     "name": "Offering decorative textured wall finishing with a hopper gun spray tool",
     "category": "Local & professional services",
@@ -7046,6 +7121,24 @@
       "Strictly in-home"
     ],
     "published": "2026-06-19"
+  },
+  {
+    "id": "branded-content-clipping-reward-programs",
+    "name": "Joining paid content-clipping reward programs, posting a brand's provided short-form clips to your own social accounts for pay-per-view",
+    "category": "Content & personal brand",
+    "tags": [
+      "content clipping",
+      "creator reward programs",
+      "pay-per-view content",
+      "short-form reposting"
+    ],
+    "cost": "Free (join a clipping platform directly; some campaigns provide AI-assisted clip creation)",
+    "found": "Mr Reis",
+    "what": "Join a content-clipping reward platform, browse active brand campaigns (some with thousands of participants and real remaining budgets), take a provided content library, create short-form clips following the campaign's rules (sometimes with built-in AI clip-generation tools), post them to your own social media accounts, and get paid a set rate per 1,000 views the posted clips generate, with rates varying by campaign (cited examples ranged roughly $1-2.20 per 1,000-10,000 views depending on the program).",
+    "pitch": "The presenter shows a real, live campaign dashboard with thousands of active participants and specific per-view payout rates still available, framing this as a low-effort way to earn from content you don't have to originate yourself, and notes payment scales directly with how much you post.",
+    "best": "Someone with (or willing to build) social media accounts for posting, comfortable following brand content rules rather than creating fully original content.",
+    "truth": "Paid content-clipping reward programs are real and the platform/payout structure shown is accurate to how these programs work. No personal earnings figures for the presenter using this specific method are given; payouts depend entirely on how many views your posted clips generate, which isn't guaranteed.",
+    "url": "https://www.youtube.com/watch?v=Sq0-pephnek"
   },
   {
     "id": "small-parts-light-manufacturing",
@@ -9341,26 +9434,6 @@
     "published": "2026-08-07"
   },
   {
-    "id": "ai-mini-movie-viral-ads-ecommerce-outreach-test",
-    "name": "AI-generated \"mini movie\" viral ad creation service for e-commerce brands, tested across three outreach channels",
-    "category": "Marketing & content",
-    "tags": [
-      "AI video ads",
-      "e-commerce marketing",
-      "Facebook Ads Library research",
-      "cold outreach",
-      "narrative ad format"
-    ],
-    "cost": "Very low startup cost (ChatGPT plan plus an AI video tool like TopView, roughly $20-50/month; a $1 domain)",
-    "found": "Mr. AI CASH",
-    "what": "Use the Facebook Ads Library to find products with long-running ads (a proxy for \"this is working\") that solve a clear problem with a strong \"wow factor,\" then use ChatGPT connected to an AI video-generation tool (via an MCP integration) to produce a short, funny, narrative \"mini movie\" style ad (not a testimonial-style UGC ad) for that product in three 15-second clips, build a branded portfolio website and $1 domain entirely with ChatGPT, and pitch the finished samples to e-commerce and dropshipping brands running similar ads.",
-    "pitch": "In a documented 7-day test, the presenter tried three client-acquisition channels side by side: automated cold email outreach (found leads and their contact info via AI, sent messages daily) produced replies but zero closed sales; posting the sample ads organically on Instagram with a call-to-action produced one $57 sale by day six; and direct outreach via WhatsApp links found in the Facebook Ads Library (using a wa.me search filter to find brands already used to messaging customers there) produced the fastest results \u2014 the first sale plus an $810/month upgrade after the client saw one finished video. Total revenue was $987 against real, disclosed costs, netting $572.20 profit for the week.",
-    "best": "Someone comfortable with a genuinely technical AI tool chain (ChatGPT plus a connected video-generation platform) and willing to test multiple outreach channels rather than betting on just one.",
-    "truth": "This is unusually transparent for a challenge-format video: the presenter explicitly reports the method that didn't work (automated cold email, zero sales) alongside what did, and gives an honest final tally that fell short of the stated $1,000 goal rather than declaring an inflated win. The comedic \"mini movie\" narrative format is a distinct creative style from the testimonial-style UGC-cloning approach covered by other similar entries in this database, and results depend heavily on finding genuinely funny, product-appropriate concepts \u2014 not every product lends itself to this format as well as the example shown.",
-    "url": "https://www.youtube.com/watch?v=8OD5rFhUHkI",
-    "published": "2026-09-11"
-  },
-  {
     "id": "ai-partner-consulting-claude-code",
     "name": "Becoming an AI \"partner\" for local businesses using Claude Code",
     "category": "AI & automation",
@@ -10903,6 +10976,25 @@
     "url": "https://www.youtube.com/watch?v=BZMq9zMZMog"
   },
   {
+    "id": "print-on-demand-decode-flip-design-method",
+    "name": "A 'find, decode, flip' method for creating original best-selling T-shirt designs by reverse-engineering why proven designs sell, rather than copying them",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "T-shirt design",
+      "design research method",
+      "Etsy bestseller research",
+      "POD ideation"
+    ],
+    "cost": "Very low (Etsy/Amazon browsing is free; an optional paid research tool)",
+    "found": "Meg Heckman",
+    "what": "Instead of copying an already-selling design, use a three-step process: FIND a genuinely proven best-seller (large review history, sits in a shop's bestsellers, or a competing brand's own 'best selling' sort filter); DECODE it by separating the visual style (roughly 20% of the effect) from the underlying concept or joke (roughly 80%), going one level deeper to identify the abstract 'pattern' at work (e.g. a well-known two-sided saying paired with one animal/object that can only do one side of it); then FLIP the pattern, not the specific design, by finding entirely different concepts with the same underlying shape and applying them to a completely different animal, object, or niche.",
+    "pitch": "The presenter demonstrates the method live on a real, currently-selling Etsy shirt (a penguin captioned 'flight was never an option'), showing a full page of copycats all splitting the same customer, then generates three completely original concepts from the decoded pattern; she ties this back to her own history-niche shirt (a Thomas Jefferson procrastination joke) that generated over $73,000 in its first year.",
+    "best": "Someone already doing or starting print-on-demand who wants a repeatable, non-copying way to generate original design concepts.",
+    "truth": "The core insight, that extracting and reapplying an underlying conceptual pattern produces something genuinely original while copying just creates direct competition, is sound creative and competitive strategy, and the live demonstration is concrete and verifiable. The $73,000 figure is self-reported, and the video promotes her own paid course as the next step.",
+    "url": "https://www.youtube.com/watch?v=o-dR95FNbLM"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -11522,25 +11614,6 @@
     "published": "2026-09-13"
   },
   {
-    "id": "single-purpose-utility-website-ad-monetization",
-    "name": "Building single-purpose micro-utility websites monetized with display ads, using AI to build and market them end-to-end",
-    "category": "Digital & subscription products",
-    "tags": [
-      "micro-utility websites",
-      "display ad monetization",
-      "AI website building",
-      "Claude Code",
-      "Google Trends validation"
-    ],
-    "cost": "Very low (free using Google's Antigravity IDE or a Claude Code subscription; free ad networks to start before qualifying for AdSense)",
-    "found": "Mr Reis",
-    "what": "Give an AI a vague prompt about your own job, hobbies, and daily annoyances, and ask it to generate 20 single-purpose micro-utility website ideas ranked by likely traffic, validate real search demand for a handful of favorites in Google Trends, then have Claude Code or Google's free Antigravity IDE build and deploy the site end-to-end (including signing up for an ad network and inserting ad slots) from a single prompt, monetizing through a low-traffic-friendly ad network first before graduating to Google AdSense once traffic grows.",
-    "pitch": "The presenter cites several real examples of single-purpose utility sites (a temporary-email generator, a 'weird Amazon products' site, a link-outage checker) earning $2,500-$39,000/month purely from display ads on very simple pages, and argues such sites can also be resold later at 25-40x monthly earnings; he demonstrates the entire build live, including his own previously-built metadata-removal tool as a real personal example.",
-    "best": "Someone comfortable directing an AI coding assistant conversationally rather than writing code themselves, willing to validate an idea's search demand before building rather than guessing.",
-    "truth": "Simple utility websites monetized by display ads are a real, long-standing internet business model, and the specific named examples are genuine existing sites, though their exact revenue figures are unverified claims relayed from the sites' own founders. The video promotes the presenter's own paid 'Wealth Academy Pro' community for a prompt-injection 'skill' and free-token workaround, and separately teases a paid 'Mythos AI' tool, so those specific add-ons are sales funnels rather than required parts of the core method.",
-    "url": "https://www.youtube.com/watch?v=eKH-oaFt4qE"
-  },
-  {
     "id": "clothing-reselling-flea-market-ebay-upflip",
     "name": "Sourcing clothes from flea markets, thrift stores, and bulk clothing pallets to resell on eBay",
     "category": "E-commerce",
@@ -11729,6 +11802,25 @@
     "best": "Someone willing to consistently post content (twice daily is the stated benchmark) for several months, comfortable positioning themselves as a coach/expert in a specific niche.",
     "truth": "The high-ticket-coaching-via-personal-brand model is a widely-used, real business structure, and the specific frameworks given (the offer formula, the niche-finding exercise, low-vs-high-ticket math) are genuinely usable tools rather than vague motivation. The $200,000 lifetime figure is self-reported and not broken down by year or source, and the video funnels toward his own paid mentorship application.",
     "url": "https://www.youtube.com/watch?v=gaX0nykEfHo"
+  },
+  {
+    "id": "claude-higgsfield-ebook-facebook-ads-library-research",
+    "name": "Finding proven-selling ebooks via the Facebook Ads Library, then rebuilding and upgrading them with Claude AI connected to an image/video generation tool",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Facebook Ads Library research",
+      "Claude MCP integration",
+      "Gumroad ebook",
+      "Facebook ad testing",
+      "digital product validation"
+    ],
+    "cost": "Low (a Gumroad account, an AI image/video generation subscription, a Facebook ad budget starting around $10/day)",
+    "found": "Mr. AI CASH",
+    "what": "Use the free, public Facebook Ads Library (filtered to a strong ad-spending country and to ads running 5+ days, a signal of profitability) to build a list of proven-selling digital products, feed that list to Claude to identify the strongest candidate; rather than copying, connect Claude to an AI image/video tool via MCP and use a prompt sequence to analyze the original, generate an upgraded positioning and table of contents, write the ebook chapter-by-chapter with AI-generated images, and produce cover options, merging everything into a finished PDF; publish on Gumroad with a discount coupon, then use the same connected tools to generate video/image ad creatives and a suggested target audience, running a structured two-ad-set Facebook test (with and without interest targeting).",
+    "pitch": "The presenter shows real, unedited results: after finding a proven-selling hormone-health ebook via the Ads Library and rebuilding an upgraded version, he spent $60 on Facebook ads and made $124 back (~$64 profit) on an incomplete test, explicitly showing one ad set burned money with zero results while the other converted, and demonstrates a free alternative (theme pages on Instagram/TikTok) for those without ad budget.",
+    "best": "Someone comfortable chaining AI tools via connectors/MCP and willing to run and interpret a real paid ad test rather than expecting guaranteed results.",
+    "truth": "The Facebook Ads Library is a real, free, publicly available research tool, and AI tools connecting via MCP for content creation is a real, current capability demonstrated with real screen recordings. The presenter's own results are modest and transparent rather than an exaggerated success story, though this is a single, early-stage, unfinished test.",
+    "url": "https://www.youtube.com/watch?v=beBRtz_VSGU"
   },
   {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
@@ -12321,6 +12413,24 @@
     "best": "Someone willing to build an actual story rather than mass-generate templated content, and patient with a real production process rather than expecting instant volume.",
     "truth": "AI-animated kids content, the removal risk for templated/mass-produced channels, and the described monetization progression are all real and consistent with how YouTube's kids-content ecosystem works, and the Super Simple example is a real, verifiable case of this progression at scale. No personal revenue figures for the presenter's own channel are given; the video promotes his own affiliate link to the tool used throughout.",
     "url": "https://www.youtube.com/watch?v=4LryAnzFLMw"
+  },
+  {
+    "id": "ai-chatbot-optimized-micro-utility-website",
+    "name": "Building simple one-page utility websites specifically optimized to be recommended by AI chatbots, not just found via Google search",
+    "category": "Digital & subscription products",
+    "tags": [
+      "micro-utility websites",
+      "AI answer engine optimization",
+      "display ad monetization",
+      "AI-recommended websites"
+    ],
+    "cost": "Very low (free AI coding tools to build the site; ad network signup)",
+    "found": "Mr Reis",
+    "what": "Build a genuinely simple, single-purpose one-page tool or calculator website (the same broad concept as other 'micro-utility site' approaches), but specifically instruct the AI building it to add the technical elements that help AI chatbots (ChatGPT, Claude, etc.) find and recommend the site when a user asks a related question in conversation, rather than relying only on traditional Google search ranking; since more people are now asking AI assistants questions directly instead of searching Google, a site optimized to be the answer an AI recommends can capture traffic that never touches a traditional search results page. Monetize with ad networks that approve and pay from day one (the presenter names Adsterra and Monetag as options), rather than waiting for a longer AdSense approval process.",
+    "pitch": "The presenter cites several real, named one-page utility sites as proof of the underlying ad-monetized-utility-site model's ceiling (a sleep calculator earning roughly $36,000/month from 1.7 million monthly visitors with no blog or backlinks, a free online photo editor earning around $200,000/month on about $700/year in hosting cost, and a text-case-converter tool earning five figures monthly from 3.6 million visitors on about $20/month in hosting), framing a simple one-page tool as capable of running almost entirely on autopilot once built and indexed.",
+    "best": "Someone comfortable directing an AI coding tool to build a genuinely simple, narrow tool, and willing to learn the specific technical steps that help AI assistants (not just Google) discover and recommend a site.",
+    "truth": "The named example websites and their described monetization models (ad-supported, no blog/backlink strategy needed) are real, well-known, and independently verifiable one-page utility sites, and AI answer engines increasingly citing and recommending websites in conversational responses is a real, current, and growing traffic dynamic. The specific dollar figures for each cited site are the presenter's own claims about other people's businesses, not independently verified, and this specific technique shares its core 'simple ad-monetized utility site' concept with content already covered elsewhere from this same producer, with the AI-recommendation optimization angle being the genuinely new contribution here.",
+    "url": "https://www.youtube.com/watch?v=Sq0-pephnek"
   },
   {
     "id": "lovable-ai-website-sales-pricing-ladder",
