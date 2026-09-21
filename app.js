@@ -41,7 +41,12 @@ let state = {
   sortBy: "shuffle" // "shuffle" | "newest" | "oldest"
 };
 let savedIds = new Set(loadSaved());
-let expandedIds = new Set();
+// Only one card can be expanded at a time; null means every card is collapsed.
+// Clicking a card's title/avatar area sets this to that card's id (or back to
+// null if it was already the expanded one) and re-renders. Changing sort or
+// running a new search resets this to null — see runSearch(), the sort-select
+// listener, and clearSearchBtn's listener.
+let expandedId = null;
 
 
 // ---------- Daily shuffle ----------
@@ -183,6 +188,7 @@ clearSearchBtn.addEventListener('click', () => {
   clearSearchBtn.hidden = true;
   // Clearing is an undo, not a search — snaps back instantly, no spinner.
   state.search = '';
+  expandedId = null; // the displayed set is changing, so collapse whatever was open
   render();
   searchInputEl.focus();
 });
@@ -196,6 +202,7 @@ function runSearch(rawValue) {
 
   setTimeout(() => {
     state.search = query;
+    expandedId = null; // a new search resets the view — nothing stays expanded
     searchLoadingEl.hidden = true;
     gigGridEl.hidden = false;
     searchSubmitBtn.disabled = false;
@@ -223,6 +230,7 @@ document.getElementById('saved-only-toggle').addEventListener('change', (e) => {
 
 document.getElementById('sort-select').addEventListener('change', (e) => {
   state.sortBy = e.target.value;
+  expandedId = null; // changing sort order resets the view — nothing stays expanded
   render();
 });
 
@@ -445,14 +453,15 @@ function avatarSrc(found) {
 
 function buildCard(idea) {
   const card = document.createElement('article');
-  card.className = 'card';
+  const isExpanded = expandedId === idea.id;
+  card.className = 'card' + (isExpanded ? ' expanded' : '');
 
   const isSaved = savedIds.has(idea.id);
   const publishedText = formatPublished(idea.published);
 
   card.innerHTML = `
     <div class="card-head">
-      <div class="card-title-block">
+      <div class="card-title-block" role="button" tabindex="0" aria-expanded="${isExpanded}">
         <img class="card-avatar" src="${escapeAttr(avatarSrc(idea.found))}" alt="" loading="lazy" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
         <div class="card-avatar-placeholder" aria-hidden="true" hidden>No Photo</div>
         <div class="card-title-text">
@@ -471,31 +480,50 @@ function buildCard(idea) {
       </div>
     </div>
 
-    <div class="card-section">
-      <div class="card-section-label">Source</div>
-      <p class="card-text">${escapeHtml(idea.found)} &mdash; <a href="${escapeAttr(idea.url)}" target="_blank" rel="noopener">${escapeHtml(idea.url)}</a></p>
-    </div>
+    <div class="card-details" ${isExpanded ? '' : 'hidden'}>
+      <div class="card-section">
+        <div class="card-section-label">Source</div>
+        <p class="card-text">${escapeHtml(idea.found)} &mdash; <a href="${escapeAttr(idea.url)}" target="_blank" rel="noopener">${escapeHtml(idea.url)}</a></p>
+      </div>
 
-    <div class="card-section">
-      <div class="card-section-label">What It Is</div>
-      <p class="card-text">${escapeHtml(idea.what)}</p>
-    </div>
+      <div class="card-section">
+        <div class="card-section-label">What It Is</div>
+        <p class="card-text">${escapeHtml(idea.what)}</p>
+      </div>
 
-    <div class="card-section">
-      <div class="card-section-label">The Pitch</div>
-      <p class="card-text">${escapeHtml(idea.pitch)}</p>
-    </div>
+      <div class="card-section">
+        <div class="card-section-label">The Pitch</div>
+        <p class="card-text">${escapeHtml(idea.pitch)}</p>
+      </div>
 
-    <div class="card-section">
-      <div class="card-section-label">Best For</div>
-      <p class="card-text">${escapeHtml(idea.best)}</p>
-    </div>
+      <div class="card-section">
+        <div class="card-section-label">Best For</div>
+        <p class="card-text">${escapeHtml(idea.best)}</p>
+      </div>
 
-    <div class="card-section">
-      <div class="card-section-label">The Truth</div>
-      <p class="card-text">${escapeHtml(idea.truth)}</p>
+      <div class="card-section">
+        <div class="card-section-label">The Truth</div>
+        <p class="card-text">${escapeHtml(idea.truth)}</p>
+      </div>
     </div>
   `;
+
+  // Clicking (or Enter/Space-ing) the title/avatar area is the only way to
+  // expand or collapse a card. Copy and Save live outside this element in
+  // .card-actions, so they always work regardless of expand state and never
+  // trigger a toggle themselves.
+  const titleBlock = card.querySelector('.card-title-block');
+  const toggleExpand = () => {
+    expandedId = (expandedId === idea.id) ? null : idea.id;
+    render();
+  };
+  titleBlock.addEventListener('click', toggleExpand);
+  titleBlock.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      toggleExpand();
+    }
+  });
 
   card.querySelector('.save-checkbox').addEventListener('change', () => {
     toggleSaved(idea.id);

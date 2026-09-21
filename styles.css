@@ -43,10 +43,10 @@ a { color: inherit; }
   * { animation: none !important; transition: none !important; }
 }
 
-/* ---------- Hero (combined header + hero) ---------- */
+/* ---------- Hero (compact 3-line header) ---------- */
 .hero {
   position: relative;
-  padding: 20px 24px 8px;
+  padding: 18px 24px 14px;
   text-align: center;
   background: var(--bg-card);
   color: var(--text-primary);
@@ -55,7 +55,7 @@ a { color: inherit; }
 
 .about-link {
   position: absolute;
-  top: 20px;
+  top: 18px;
   right: 24px;
   text-decoration: none;
   color: var(--text-muted);
@@ -65,46 +65,35 @@ a { color: inherit; }
 .about-link:hover { color: var(--text-primary); }
 
 .wordmark-link {
-  display: inline-flex;
-  align-items: center;
-  line-height: 0;
-}
-
-.hero-logo {
-  display: block;
-  width: min(50%, 380px);
-  height: auto;
-  margin: 0 auto 14px;
-}
-@media (max-width: 640px) {
-  .hero-logo { width: min(75%, 300px); }
-}
-
-.eyebrow {
   display: inline-block;
-  border: 1px solid var(--border);
-  color: var(--accent);
-  background: var(--accent-bg);
-  font-family: var(--font-body);
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 7px 16px;
-  border-radius: 4px;
-  margin-top: 8px;
+  text-decoration: none;
 }
 
 .hero-title {
   font-family: 'Archivo Black', 'Arial Black', Impact, var(--font-display), sans-serif;
   font-weight: 400;
-  font-size: clamp(2.4rem, 6vw, 3.8rem);
-  line-height: 1.08;
+  font-size: clamp(1.3rem, 3vw, 1.7rem);
+  line-height: 1.15;
   letter-spacing: -0.01em;
   color: var(--text-primary);
   margin: 0;
 }
-.hero-accent { color: var(--accent); }
+
+.hero-sub {
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 6px 0 0;
+}
+
+.hero-sub-alt {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  margin: 2px 0 0;
+}
 
 /* ---------- Tool section (search/controls, boxed by a double rule) ---------- */
 .tool-section {
@@ -127,9 +116,10 @@ a { color: inherit; }
   z-index: 40;
   background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(8px);
-  display: grid;
-  grid-template-columns: auto 1fr auto;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 20px;
   padding: 6px 0 14px;
   border-bottom: 1px solid var(--border);
@@ -138,8 +128,7 @@ a { color: inherit; }
 @media (max-width: 760px) {
   .controls-row {
     position: static;
-    grid-template-columns: 1fr;
-    justify-items: center;
+    justify-content: center;
     gap: 10px;
     text-align: center;
   }
@@ -151,14 +140,6 @@ a { color: inherit; }
   flex-wrap: wrap;
   gap: 16px;
   white-space: nowrap;
-}
-
-.search-instruction {
-  text-align: center;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-  font-weight: 500;
-  margin: 0;
 }
 
 .search-row {
@@ -397,6 +378,14 @@ a { color: inherit; }
   gap: 12px;
   flex: 1 1 auto;
   min-width: 0;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.12s;
+}
+.card-title-block:hover { background: var(--accent-bg); }
+.card-title-block:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .card-avatar {
@@ -432,6 +421,8 @@ a { color: inherit; }
   min-width: 0;
   flex: 1 1 auto;
 }
+
+.card-details { margin-top: 8px; }
 
 .card-title {
   font-family: var(--font-display);
