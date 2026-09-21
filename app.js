@@ -477,6 +477,10 @@ function buildCard(idea) {
           <span class="bookmark-icon">${isSaved ? BOOKMARK_FILLED_SVG : BOOKMARK_OUTLINE_SVG}</span>
           <span>Save for Later</span>
         </label>
+        <button class="expand-btn" type="button" aria-expanded="${isExpanded}">
+          <span class="expand-chevron">${CHEVRON_SVG}</span>
+          <span>${isExpanded ? 'Show Less' : 'Show Full Details'}</span>
+        </button>
       </div>
     </div>
 
@@ -508,11 +512,13 @@ function buildCard(idea) {
     </div>
   `;
 
-  // Clicking (or Enter/Space-ing) the title/avatar area is the only way to
-  // expand or collapse a card. Copy and Save live outside this element in
-  // .card-actions, so they always work regardless of expand state and never
-  // trigger a toggle themselves.
+  // Two ways to expand or collapse a card: clicking (or Enter/Space-ing) the
+  // title/avatar area, or the explicit "Show Full Details" button — mainly
+  // for discoverability, since the title-block's hover cue is invisible on
+  // touch devices. Copy and Save live outside both of these in .card-actions,
+  // so they always work regardless of expand state and never trigger a toggle.
   const titleBlock = card.querySelector('.card-title-block');
+  const expandBtn = card.querySelector('.expand-btn');
   const toggleExpand = () => {
     expandedId = (expandedId === idea.id) ? null : idea.id;
     render();
@@ -524,6 +530,7 @@ function buildCard(idea) {
       toggleExpand();
     }
   });
+  expandBtn.addEventListener('click', toggleExpand);
 
   card.querySelector('.save-checkbox').addEventListener('change', () => {
     toggleSaved(idea.id);

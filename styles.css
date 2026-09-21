@@ -486,14 +486,14 @@ a { color: inherit; }
 /* ---------- Action row: save + copy (top-right of card) ---------- */
 .card-actions {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 20px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
   flex-shrink: 0;
 }
 @media (max-width: 640px) {
   .card-head { flex-direction: column; align-items: flex-start; }
-  .card-actions { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .card-actions { align-items: flex-start; }
 }
 
 .save-toggle {
@@ -527,6 +527,26 @@ a { color: inherit; }
 }
 .copy-btn svg { flex-shrink: 0; }
 .copy-btn:hover { color: var(--accent); }
+
+.expand-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--accent-bg);
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 5px 10px;
+  white-space: nowrap;
+  transition: background 0.15s, border-color 0.15s;
+}
+.expand-btn:hover { background: var(--border); border-color: var(--accent); }
+.expand-chevron { display: inline-flex; transition: transform 0.15s; }
+.expand-btn[aria-expanded="true"] .expand-chevron { transform: rotate(180deg); }
 
 /* ---------- Footer ---------- */
 .site-footer {
