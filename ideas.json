@@ -2279,6 +2279,51 @@
     "published": "2026-05-18"
   },
   {
+    "id": "vibe-coded-digital-product-own-store",
+    "name": "AI vibe-coded digital products sold through your own branded online shop",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "AI tools",
+      "vibe coding",
+      "e-commerce"
+    ],
+    "cost": "Very low startup cost (AI coding tool plus a domain)",
+    "found": "Make Money with Stacy La",
+    "what": "Research proven-selling digital templates and tools (using public sales-data tools to see exactly how many times a competing product has sold and for how much), \"vibe code\" a functional version using an AI coding platform like Hostinger Horizons, then sell it through your own branded .shop domain online store rather than a crowded third-party marketplace like Etsy.",
+    "pitch": "The presenter shows real, specific examples to justify the approach: a finance-niche budget tracker template that's sold over 20,000 times for more than $400,000, and a life planner niched down specifically for neurodivergent people with ADHD that's sold over 22,000 times for more than $350,000, arguing that competitive niches (finance, health, productivity) are actually good signals of real demand as long as you niche the specific problem down far enough. She argues against selling on marketplaces like Etsy specifically because of listing and transaction fees, competition burying your listing, and the risk of account suspension, versus owning your own store with a .shop domain and full customer data control.",
+    "best": "Someone comfortable using an AI coding tool with detailed, specific prompts (rather than vague requests) to build an actual functional product, not just a static file, and willing to set up their own branded storefront rather than relying on marketplace traffic.",
+    "truth": "The specific $400K and $350K product examples are shown as public sales data from other sellers, not the presenter's own results, and she doesn't demonstrate her own product's sales figures within the video. She recommends Horizons specifically because it integrates with her own store-building workflow and is, by her account, one of the least expensive AI coding platforms, worth noting as a product preference rather than a neutral recommendation.",
+    "url": "https://www.youtube.com/watch?v=ju7zG9bdhv4",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "published": "2026-07-23"
+  },
+  {
+    "id": "low-ticket-digital-course-passive-income",
+    "name": "Low-ticket digital course as a near-passive income stream",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "online courses",
+      "passive income",
+      "beginner friendly"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Marissa Romero",
+    "what": "Package your existing knowledge into a low-priced digital course ($27 to $197), sold through an automated sales page and email sequence rather than live sales calls, so that once it's built it keeps generating revenue with essentially no ongoing fulfillment work from you.",
+    "pitch": "Romero compares seven income models she's personally used, one-to-one coaching, high-ticket done-for-you services, low- and mid-ticket courses, affiliate marketing, brand deals, and joint ventures, and argues the low-ticket course model is the only one that gave her real passive income: she made $30,000 to $40,000 a month during a 90-day maternity leave without touching the business. Her reasoning is structural: no sales calls, no fulfillment, and it scales without needing more of her time, unlike the high-ticket, done-for-you offers that required a large team and heavy sales-call involvement.",
+    "best": "Someone with real expertise or a track record in something specific who's comfortable creating an automated sales funnel once, rather than someone who prefers ongoing client relationships or high-touch coaching.",
+    "truth": "Romero is candid about the tradeoffs of every model she covers, including admitting she got tempted into building a high-ticket, done-for-you offer that grew her team but not her margins the way she expected, a genuinely balanced account rather than a highlight reel. She promotes her own paid course (the AI Product to Profit Builder) partway through, worth knowing given how much of the video builds toward that pitch.",
+    "url": "https://www.youtube.com/watch?v=P-DC-FlVD7o",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-16"
+  },
+  {
     "id": "claude-local-business-website-lead-gen-retainer",
     "name": "Building websites and lead-capture automations for local businesses that don't have one, with a monthly hosting retainer",
     "category": "Local & professional services",
@@ -3579,29 +3624,6 @@
     "published": "2026-08-13"
   },
   {
-    "id": "vibe-coded-digital-product-own-store",
-    "name": "AI vibe-coded digital products sold through your own branded online shop",
-    "category": "Digital & subscription products",
-    "tags": [
-      "digital products",
-      "AI tools",
-      "vibe coding",
-      "e-commerce"
-    ],
-    "cost": "Very low startup cost (AI coding tool plus a domain)",
-    "found": "Make Money with Stacy La",
-    "what": "Research proven-selling digital templates and tools (using public sales-data tools to see exactly how many times a competing product has sold and for how much), \"vibe code\" a functional version using an AI coding platform like Hostinger Horizons, then sell it through your own branded .shop domain online store rather than a crowded third-party marketplace like Etsy.",
-    "pitch": "The presenter shows real, specific examples to justify the approach: a finance-niche budget tracker template that's sold over 20,000 times for more than $400,000, and a life planner niched down specifically for neurodivergent people with ADHD that's sold over 22,000 times for more than $350,000, arguing that competitive niches (finance, health, productivity) are actually good signals of real demand as long as you niche the specific problem down far enough. She argues against selling on marketplaces like Etsy specifically because of listing and transaction fees, competition burying your listing, and the risk of account suspension, versus owning your own store with a .shop domain and full customer data control.",
-    "best": "Someone comfortable using an AI coding tool with detailed, specific prompts (rather than vague requests) to build an actual functional product, not just a static file, and willing to set up their own branded storefront rather than relying on marketplace traffic.",
-    "truth": "The specific $400K and $350K product examples are shown as public sales data from other sellers, not the presenter's own results, and she doesn't demonstrate her own product's sales figures within the video. She recommends Horizons specifically because it integrates with her own store-building workflow and is, by her account, one of the least expensive AI coding platforms, worth noting as a product preference rather than a neutral recommendation.",
-    "url": "https://www.youtube.com/watch?v=ju7zG9bdhv4",
-    "situation_tags": [
-      "Strictly in-home",
-      "E-commerce / fulfillment"
-    ],
-    "published": "2026-07-23"
-  },
-  {
     "id": "vibe-coding-process-to-profit-framework",
     "name": "Turning a repeated manual process into a same-day AI tool",
     "category": "AI & automation",
@@ -3619,28 +3641,6 @@
     "truth": "The specific numeric criteria for validation (does it show up in search, is someone already paying for it, are people complaining about current options) are genuinely concrete and checkable, a real strength of this framework over vaguer \"find a good idea\" advice. The video is a long promotional session for the presenter's own paid workshop and existing tool ecosystem (Cliptor, AI Profit Scoop Elite, and others), a financial incentive worth knowing, though the underlying validate-then-build-small methodology doesn't require any of those specific products to apply.",
     "url": "https://www.youtube.com/watch?v=wRcRkSK7Yao",
     "published": "2026-08-20"
-  },
-  {
-    "id": "low-ticket-digital-course-passive-income",
-    "name": "Low-ticket digital course as a near-passive income stream",
-    "category": "Digital & subscription products",
-    "tags": [
-      "digital products",
-      "online courses",
-      "passive income",
-      "beginner friendly"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Marissa Romero",
-    "what": "Package your existing knowledge into a low-priced digital course ($27 to $197), sold through an automated sales page and email sequence rather than live sales calls, so that once it's built it keeps generating revenue with essentially no ongoing fulfillment work from you.",
-    "pitch": "Romero compares seven income models she's personally used, one-to-one coaching, high-ticket done-for-you services, low- and mid-ticket courses, affiliate marketing, brand deals, and joint ventures, and argues the low-ticket course model is the only one that gave her real passive income: she made $30,000 to $40,000 a month during a 90-day maternity leave without touching the business. Her reasoning is structural: no sales calls, no fulfillment, and it scales without needing more of her time, unlike the high-ticket, done-for-you offers that required a large team and heavy sales-call involvement.",
-    "best": "Someone with real expertise or a track record in something specific who's comfortable creating an automated sales funnel once, rather than someone who prefers ongoing client relationships or high-touch coaching.",
-    "truth": "Romero is candid about the tradeoffs of every model she covers, including admitting she got tempted into building a high-ticket, done-for-you offer that grew her team but not her margins the way she expected, a genuinely balanced account rather than a highlight reel. She promotes her own paid course (the AI Product to Profit Builder) partway through, worth knowing given how much of the video builds toward that pitch.",
-    "url": "https://www.youtube.com/watch?v=P-DC-FlVD7o",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-16"
   },
   {
     "id": "ai-social-posting-service-dormant-profiles",
@@ -4186,6 +4186,52 @@
       "Strictly in-home"
     ],
     "published": "2026-08-24"
+  },
+  {
+    "id": "etsy-digital-products-printables",
+    "name": "Selling digital printables and templates on Etsy",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "digital products",
+      "print on demand",
+      "beginner friendly",
+      "very low startup cost"
+    ],
+    "cost": "Very low startup cost",
+    "found": "LaCresha Sims",
+    "what": "Create simple digital products like Canva templates, routine charts, budgeting bundles, or checklists, and list them for sale on Etsy, where Etsy's own search and marketplace traffic does most of the ongoing promotion once a listing is set up.",
+    "pitch": "Sims, a stay-at-home mom, made her first sale nine days after listing her first product, and says her Etsy shop alone has continued to generate weekly income with no new listings added in over six months, no social media presence, and no face-showing required.",
+    "best": "Someone who wants the lowest possible barrier to entry, no following, no camera, no paid ads, and who's willing to research what's already selling well and make a solid version of it rather than searching for an undiscovered niche.",
+    "truth": "Sims is unusually transparent about the difference between revenue and actual profit, and shows real month-by-month numbers from her first 90 days rather than only a flattering total. She also builds three additional income streams on top of this one (affiliate marketing for the tools she uses, YouTube ad revenue, and selling a course teaching this same Etsy process), which she's candid are progressively more effort-intensive and depend on already having some track record or audience, worth knowing if the plan is to stop at just the Etsy shop.",
+    "url": "https://www.youtube.com/watch?v=mPu04xk_YUI",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-05"
+  },
+  {
+    "id": "personal-brand-content-high-ticket-mentorship",
+    "name": "Personal-brand content channel selling a high-ticket mentorship program",
+    "category": "Content & personal brand",
+    "tags": [
+      "content creation",
+      "coaching",
+      "personal brand",
+      "high ticket"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Maddox Goforth",
+    "what": "Building a personal-brand YouTube and short-form content channel around a skill or hobby, then selling a high-ticket mentorship program that bundles a pre-recorded course with live coaching calls to the audience that content attracts.",
+    "pitch": "The presenter frames the first 90 days as unglamorous audience-building, posting one short-form video daily plus one long-form video weekly, that most people quit before finishing. He walks through his own path from a teenage lawn-mowing business, to documenting it for views, to selling digital products, landing eventually on high-ticket mentorship as the highest-earning format. The core advice is to pick something you're already better than most people at, not necessarily expert-level.",
+    "best": "Someone with a specific skill or hobby they're already better-than-average at, willing to post daily short-form and weekly long-form content for months before seeing real sales, since the presenter is explicit the first 90 days are mostly audience-building.",
+    "truth": "The presenter uses strong guarantee language more than once, a phrasing worth reading skeptically since no legitimate business model can guarantee outcomes. He also discloses, mid-video, an earlier business selling access to reseller vendor-contact lists that he later shut down because it didn't align with his brand, without fully explaining what the problem was, worth knowing as a credibility data point. The presenter started this content journey at 13 years old, and much of the track record described is self-reported without any account verification shown on screen.",
+    "url": "https://www.youtube.com/watch?v=bYvGrY6N0cI",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-08-21"
   },
   {
     "id": "wall-printer-mural-service",
@@ -5672,6 +5718,52 @@
       "Strictly in-home"
     ],
     "published": "2026-08-13"
+  },
+  {
+    "id": "ai-ugc-saas-ad-service-higgsfield-stacyla",
+    "name": "AI UGC and SaaS ad production service using Higgsfield Marketing Studio",
+    "category": "Digital & subscription products",
+    "tags": [
+      "AI UGC content",
+      "Higgsfield",
+      "SaaS ads",
+      "content agency",
+      "retainer pricing"
+    ],
+    "cost": "Low startup cost (a Higgsfield subscription)",
+    "found": "Make Money with Stacy La",
+    "what": "Use Higgsfield Marketing Studio to generate UGC-style product videos and SaaS app advertisements from just a few product photos or a product URL, no physical product or human model required, then sell these as a content service to physical-product brands or SaaS companies, packaging output into a monthly retainer (a set number of videos per month) rather than selling one-off videos.",
+    "pitch": "The presenter builds two full sample videos live in about 10 minutes each (a product UGC ad and a SaaS app ad) using only a product photo or website URL, an AI avatar, and a prompt template from Higgsfield's built-in library, then lays out a 5-step marketing plan: pick one specific niche, build a portfolio of 5-10 example videos for real brands in that niche, build a daily-updated lead list (20-30 businesses/day), do consistent outreach (10-20 businesses/day via email, DM, or calls), and bundle output into a monthly retainer (e.g., $5,000/month for a set number of videos, versus $200 per one-off video).",
+    "best": "Someone comfortable using AI video generation tools and willing to commit to one specific niche and consistent daily outreach volume, since the presenter is explicit that customer acquisition, not video quality, is the actual bottleneck.",
+    "truth": "The specific 5-step marketing plan (niche down, build proof before pitching, build a lead list, outreach at real volume, then bundle into a retainer) is more concrete and actionable than most AI-content-service pitches, and the presenter is upfront that success requires genuine outreach volume, not just good videos. No independently verified revenue figures are given for the presenter's own version of this exact service \u2014 the emphasis is on the workflow and tool, not a specific proven income result.",
+    "url": "https://www.youtube.com/watch?v=tG_IwF25p8Y",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-05-25"
+  },
+  {
+    "id": "interactive-ai-digital-products-vibe-coding",
+    "name": "Interactive AI-native digital products built with vibe coding",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "AI tools",
+      "vibe coding",
+      "GoHighLevel"
+    ],
+    "cost": "Low startup cost (requires a CRM/vibe-coding platform subscription)",
+    "found": "Marissa Romero",
+    "what": "Move beyond static digital products (PDFs, Canva templates) to interactive, AI-native tools built through vibe coding inside a platform like GoHighLevel's AI Studio: interactive workbooks that let a buyer voice-dictate answers and get auto-generated results, calculators (revenue, pricing, savings), client-tracking dashboards, bundles of custom marketing assets for a specific niche, and custom GPTs trained on your own expertise that a buyer can consult directly.",
+    "pitch": "The presenter demonstrates building a functional interactive lead-magnet workbook live by talking to the AI tool in plain language, no code, describing toggles, autosave behavior, and design changes and having the tool implement them. She argues the appeal of building within a CRM-integrated tool specifically (versus a disconnected app builder like Lovable) is that the finished product connects directly to a payment processor and customer data, so it's sellable immediately rather than needing a separate integration step.",
+    "best": "Someone already using or willing to adopt a CRM-style platform with a built-in AI app builder, comfortable describing what they want conversationally rather than writing traditional prompts or code.",
+    "truth": "The presenter promotes her own affiliate link and a paid coaching community throughout the video, both disclosed, and several of the specific examples shown (a boxing coach's client tracker, a meal-prep business's marketing-asset bundle) are hers or her husband's own tools rather than independently documented sales. The core shift she's describing, static files versus interactive, buildable-by-talking tools, is a genuine and independently verifiable capability shift regardless of which specific platform is used to build it.",
+    "url": "https://www.youtube.com/watch?v=RxmJ2Pi0zuQ",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-07-19"
   },
   {
     "id": "claude-social-media-management-local-business",
@@ -8992,29 +9084,6 @@
     "published": "2026-09-04"
   },
   {
-    "id": "etsy-digital-products-printables",
-    "name": "Selling digital printables and templates on Etsy",
-    "category": "Digital & subscription products",
-    "tags": [
-      "Etsy",
-      "digital products",
-      "print on demand",
-      "beginner friendly",
-      "very low startup cost"
-    ],
-    "cost": "Very low startup cost",
-    "found": "LaCresha Sims",
-    "what": "Create simple digital products like Canva templates, routine charts, budgeting bundles, or checklists, and list them for sale on Etsy, where Etsy's own search and marketplace traffic does most of the ongoing promotion once a listing is set up.",
-    "pitch": "Sims, a stay-at-home mom, made her first sale nine days after listing her first product, and says her Etsy shop alone has continued to generate weekly income with no new listings added in over six months, no social media presence, and no face-showing required.",
-    "best": "Someone who wants the lowest possible barrier to entry, no following, no camera, no paid ads, and who's willing to research what's already selling well and make a solid version of it rather than searching for an undiscovered niche.",
-    "truth": "Sims is unusually transparent about the difference between revenue and actual profit, and shows real month-by-month numbers from her first 90 days rather than only a flattering total. She also builds three additional income streams on top of this one (affiliate marketing for the tools she uses, YouTube ad revenue, and selling a course teaching this same Etsy process), which she's candid are progressively more effort-intensive and depend on already having some track record or audience, worth knowing if the plan is to stop at just the Etsy shop.",
-    "url": "https://www.youtube.com/watch?v=mPu04xk_YUI",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-05"
-  },
-  {
     "id": "openclaw-skills-marketplace-micro-saas",
     "name": "Publishing \"skills\" to the OpenClaw/ClawHub marketplace as a micro-SaaS",
     "category": "AI & automation",
@@ -9036,29 +9105,6 @@
       "Strictly in-home"
     ],
     "published": "2026-02-23"
-  },
-  {
-    "id": "personal-brand-content-high-ticket-mentorship",
-    "name": "Personal-brand content channel selling a high-ticket mentorship program",
-    "category": "Content & personal brand",
-    "tags": [
-      "content creation",
-      "coaching",
-      "personal brand",
-      "high ticket"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Maddox Goforth",
-    "what": "Building a personal-brand YouTube and short-form content channel around a skill or hobby, then selling a high-ticket mentorship program that bundles a pre-recorded course with live coaching calls to the audience that content attracts.",
-    "pitch": "The presenter frames the first 90 days as unglamorous audience-building, posting one short-form video daily plus one long-form video weekly, that most people quit before finishing. He walks through his own path from a teenage lawn-mowing business, to documenting it for views, to selling digital products, landing eventually on high-ticket mentorship as the highest-earning format. The core advice is to pick something you're already better than most people at, not necessarily expert-level.",
-    "best": "Someone with a specific skill or hobby they're already better-than-average at, willing to post daily short-form and weekly long-form content for months before seeing real sales, since the presenter is explicit the first 90 days are mostly audience-building.",
-    "truth": "The presenter uses strong guarantee language more than once, a phrasing worth reading skeptically since no legitimate business model can guarantee outcomes. He also discloses, mid-video, an earlier business selling access to reseller vendor-contact lists that he later shut down because it didn't align with his brand, without fully explaining what the problem was, worth knowing as a credibility data point. The presenter started this content journey at 13 years old, and much of the track record described is self-reported without any account verification shown on screen.",
-    "url": "https://www.youtube.com/watch?v=bYvGrY6N0cI",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ],
-    "published": "2026-08-21"
   },
   {
     "id": "ai-built-companion-saas-youtube-content-funnel",
@@ -10838,6 +10884,25 @@
     "url": "https://www.facebook.com/reel/1478933937394958"
   },
   {
+    "id": "digital-product-plr-funnel-companion-app-upsell",
+    "name": "Building a low-cost PDF entry product paired with a companion web-app upsell, using PLR content and a tripwire sales funnel",
+    "category": "Digital & subscription products",
+    "tags": [
+      "PLR digital products",
+      "tripwire funnel",
+      "order bump",
+      "companion web app",
+      "Meta ads testing"
+    ],
+    "cost": "Low ($4-8 for a PLR/purchased base product, a .store domain, ad testing budget)",
+    "found": "London Leffler",
+    "what": "Start with an inexpensive entry-level digital product, either self-made or purchased as PLR (private label rights, buying a ready-made product you can resell as your own) for a few dollars, and structure a full funnel: a low price point ($7-8) to remove friction, an optional order bump at checkout, then a post-purchase upsell offering a more expensive companion product (here, a custom-built web app that pairs with the PDF, sold as one-time lifetime access); build the product page optimized for mobile, and drive traffic with Meta ads, adjusting daily based on real conversion data.",
+    "pitch": "The presenter runs this as a live '$1,000 in 7 days' challenge (after two prior failures), building a 'Pup Manager' brand from scratch, including a genuinely custom companion app built with AI-assisted coding; he shows real, unedited numbers throughout, including a pivot to a free lead-magnet entry, ad-pixel tracking issues, and a running total of about $270 in sales and $131 in profit partway through.",
+    "best": "Someone comfortable building a multi-step sales funnel and willing to iterate daily based on real ad performance data rather than a one-time setup.",
+    "truth": "PLR digital products, tripwire/order-bump/upsell funnels, and paid social ad testing are all real, established tactics, and the presenter's transparency about a struggling pixel and modest running profit lends real credibility compared to a polished after-the-fact case study. This is shown as an in-progress, unresolved challenge, so the ultimate outcome isn't confirmed within this segment.",
+    "url": "https://www.youtube.com/watch?v=BZMq9zMZMog"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -11125,30 +11190,6 @@
     "published": "2026-08-12"
   },
   {
-    "id": "ai-ugc-saas-ad-service-higgsfield-stacyla",
-    "name": "AI UGC and SaaS ad production service using Higgsfield Marketing Studio",
-    "category": "Digital & subscription products",
-    "tags": [
-      "AI UGC content",
-      "Higgsfield",
-      "SaaS ads",
-      "content agency",
-      "retainer pricing"
-    ],
-    "cost": "Low startup cost (a Higgsfield subscription)",
-    "found": "Make Money with Stacy La",
-    "what": "Use Higgsfield Marketing Studio to generate UGC-style product videos and SaaS app advertisements from just a few product photos or a product URL, no physical product or human model required, then sell these as a content service to physical-product brands or SaaS companies, packaging output into a monthly retainer (a set number of videos per month) rather than selling one-off videos.",
-    "pitch": "The presenter builds two full sample videos live in about 10 minutes each (a product UGC ad and a SaaS app ad) using only a product photo or website URL, an AI avatar, and a prompt template from Higgsfield's built-in library, then lays out a 5-step marketing plan: pick one specific niche, build a portfolio of 5-10 example videos for real brands in that niche, build a daily-updated lead list (20-30 businesses/day), do consistent outreach (10-20 businesses/day via email, DM, or calls), and bundle output into a monthly retainer (e.g., $5,000/month for a set number of videos, versus $200 per one-off video).",
-    "best": "Someone comfortable using AI video generation tools and willing to commit to one specific niche and consistent daily outreach volume, since the presenter is explicit that customer acquisition, not video quality, is the actual bottleneck.",
-    "truth": "The specific 5-step marketing plan (niche down, build proof before pitching, build a lead list, outreach at real volume, then bundle into a retainer) is more concrete and actionable than most AI-content-service pitches, and the presenter is upfront that success requires genuine outreach volume, not just good videos. No independently verified revenue figures are given for the presenter's own version of this exact service \u2014 the emphasis is on the workflow and tool, not a specific proven income result.",
-    "url": "https://www.youtube.com/watch?v=tG_IwF25p8Y",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ],
-    "published": "2026-05-25"
-  },
-  {
     "id": "manis-plr-content-to-interactive-tool-conversion",
     "name": "Converting existing PLR content and courses into interactive AI tools",
     "category": "Digital & subscription products",
@@ -11166,28 +11207,6 @@
     "truth": "This is the same presenter as another general AI-tool-building entry in this database; the distinguishing contribution here specifically is starting from existing owned content rather than a brand-new idea, and using keyword search volume to decide which specific sub-features to build first. The video is a long promotional session for the presenter's own paid course and product ecosystem, a financial incentive worth knowing, though the underlying content-to-tool conversion technique doesn't require those specific products.",
     "url": "https://www.youtube.com/watch?v=AyaAQguyKVQ",
     "published": "2026-05-29"
-  },
-  {
-    "id": "interactive-ai-digital-products-vibe-coding",
-    "name": "Interactive AI-native digital products built with vibe coding",
-    "category": "Digital & subscription products",
-    "tags": [
-      "digital products",
-      "AI tools",
-      "vibe coding",
-      "GoHighLevel"
-    ],
-    "cost": "Low startup cost (requires a CRM/vibe-coding platform subscription)",
-    "found": "Marissa Romero",
-    "what": "Move beyond static digital products (PDFs, Canva templates) to interactive, AI-native tools built through vibe coding inside a platform like GoHighLevel's AI Studio: interactive workbooks that let a buyer voice-dictate answers and get auto-generated results, calculators (revenue, pricing, savings), client-tracking dashboards, bundles of custom marketing assets for a specific niche, and custom GPTs trained on your own expertise that a buyer can consult directly.",
-    "pitch": "The presenter demonstrates building a functional interactive lead-magnet workbook live by talking to the AI tool in plain language, no code, describing toggles, autosave behavior, and design changes and having the tool implement them. She argues the appeal of building within a CRM-integrated tool specifically (versus a disconnected app builder like Lovable) is that the finished product connects directly to a payment processor and customer data, so it's sellable immediately rather than needing a separate integration step.",
-    "best": "Someone already using or willing to adopt a CRM-style platform with a built-in AI app builder, comfortable describing what they want conversationally rather than writing traditional prompts or code.",
-    "truth": "The presenter promotes her own affiliate link and a paid coaching community throughout the video, both disclosed, and several of the specific examples shown (a boxing coach's client tracker, a meal-prep business's marketing-asset bundle) are hers or her husband's own tools rather than independently documented sales. The core shift she's describing, static files versus interactive, buildable-by-talking tools, is a genuine and independently verifiable capability shift regardless of which specific platform is used to build it.",
-    "url": "https://www.youtube.com/watch?v=RxmJ2Pi0zuQ",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-07-19"
   },
   {
     "id": "gohighlevel-bundled-content-voice-offer",
@@ -11674,6 +11693,44 @@
     "url": "https://www.youtube.com/watch?v=V42wlg4RxSQ"
   },
   {
+    "id": "digital-product-seven-channel-distribution-no-social-media",
+    "name": "Selling digital products through seven specific channels that don't require posting daily on social media",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital product marketing",
+      "Etsy marketplace",
+      "Pinterest traffic",
+      "affiliate program",
+      "email marketing"
+    ],
+    "cost": "Low (an Etsy shop, a Pinterest account, an affiliate/email platform)",
+    "found": "LaCresha Sims",
+    "what": "Sell digital products using seven specific channels instead of daily social media posting: (1) marketplaces with built-in buyer intent (Etsy, Creative Fabrica, Teachers Pay Teachers, Amazon KDP); (2) Pinterest, used as a visual search engine rather than a follower-based platform; (3) an affiliate program following a 'WIN' framework \u2014 Worthy product, attractive Incentive (20-80% commission), and Necessities (ready-made graphics, testimonials, a tracking dashboard); (4) search-based YouTube videos that answer a specific question and link to the product in the description; (5) collaborations (podcast appearances, newsletter swaps, joint bundles), vetted for audience fit and partner reputation risk; (6) Google/SEO, including Etsy's own paid off-site ads; (7) email marketing, capturing an address at checkout and automating a nurture sequence to a list you own.",
+    "pitch": "The presenter, a homeschooling stay-at-home military wife, reports $19,285.62 in revenue last month and $117,349.98 total from January through August 2026, all without relying on social media posting, and says her Etsy shop alone has made her family over $30,000 since opening.",
+    "best": "Someone selling (or planning to sell) a digital product who wants to build multiple discovery channels rather than depending on one platform or daily content posting.",
+    "truth": "All seven channels described are real, currently functioning discovery/sales mechanisms, and the specific mechanics (Etsy's off-site ads, Pinterest's search-driven traffic, the ownership advantage of an email list) are accurate. The presenter's own revenue figures are self-reported, and the video leads into her own paid community.",
+    "url": "https://www.youtube.com/watch?v=FpcEI5N8R0Y"
+  },
+  {
+    "id": "personal-brand-high-ticket-digital-coaching-offer",
+    "name": "Building a high-ticket coaching/mentorship offer around a personal brand, using a structured niche-finding and offer-formula process",
+    "category": "Digital & subscription products",
+    "tags": [
+      "personal branding",
+      "high-ticket coaching",
+      "digital product offer",
+      "niche-finding framework",
+      "content strategy"
+    ],
+    "cost": "Very low (a phone/camera for content, an all-in-one platform for hosting courses/coaching/payments)",
+    "found": "Maddox Goforth",
+    "what": "Find a sellable niche using a structured self-reflection exercise (what you love, what you're good at, what you can be paid for, what the market needs), then package it using an offer formula: 'I help [target audience] go from [current problem] to [desired outcome]'; price as high-ticket ($2,000-5,000) rather than low-ticket, since fewer sales are needed from a smaller audience; build a personal brand across five steps (message, target audience, profile optimization, content, scaling), posting value/proof/authentic content twice daily to attract inbound leads; once revenue supports it, hire an editor, then a DM-setter and sales-call closer.",
+    "pitch": "The presenter, who cites 90,000 Instagram followers, 14,000 YouTube subscribers, and 277,000 TikTok followers, says he's generated over $200,000 through personal branding, structuring the video as a fairly complete playbook (niche exercise, offer formula, content strategy, hiring roadmap) directing viewers to a free questionnaire and ultimately his own paid mentorship application.",
+    "best": "Someone willing to consistently post content (twice daily is the stated benchmark) for several months, comfortable positioning themselves as a coach/expert in a specific niche.",
+    "truth": "The high-ticket-coaching-via-personal-brand model is a widely-used, real business structure, and the specific frameworks given (the offer formula, the niche-finding exercise, low-vs-high-ticket math) are genuinely usable tools rather than vague motivation. The $200,000 lifetime figure is self-reported and not broken down by year or source, and the video funnels toward his own paid mentorship application.",
+    "url": "https://www.youtube.com/watch?v=gaX0nykEfHo"
+  },
+  {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
     "name": "Digistore24 affiliate marketing funnel using a free \"nurture sequence\" instead of direct-linking",
     "category": "Marketing & content",
@@ -11904,6 +11961,44 @@
     "best": "Someone comfortable posting consistently and willing to review weekly performance to iterate, targeting an older demographic with a practically useful niche.",
     "truth": "The platform mechanics described match publicly known information about Facebook's creator monetization, and the pricing psychology is sound direct-response reasoning. His own revenue and view figures are self-reported from his own dashboard, not independently audited.",
     "url": "https://www.youtube.com/watch?v=me8-FxceLXk"
+  },
+  {
+    "id": "genspark-ai-workspace-affiliate-business-build",
+    "name": "Building an entire affiliate marketing business (landing page, interactive lead magnet, email sequence, Pinterest content) inside one AI workspace tool",
+    "category": "Marketing & content",
+    "tags": [
+      "affiliate marketing",
+      "GenSpark AI workspace",
+      "interactive lead magnet",
+      "AI-coded landing page",
+      "Pinterest content creation"
+    ],
+    "cost": "Low (a free-tier AI workspace with credits; optional custom domain)",
+    "found": "Make Money with Stacy La",
+    "what": "Use a single all-in-one AI workspace to build every core piece of an affiliate marketing business via conversational or spoken prompts: an AI 'developer agent' codes a fully custom, mobile-responsive landing page with an email capture box from a plain-language description; the same workspace can research and suggest a profitable niche and affiliate product; build an interactive, web-app-style lead magnet (rather than a static PDF) with the affiliate link coded directly into its call-to-action button; generate a full email follow-up sequence and Pinterest pin graphics, all within the same connected project.",
+    "pitch": "The presenter says she built this entire affiliate marketing business from scratch in under an hour using only conversational prompts, positioning the interactive lead magnet as a way to stand out since she hasn't seen other affiliate marketers using anything beyond standard PDF lead magnets, and provides a companion checklist with every exact prompt used.",
+    "best": "Someone comfortable directing an AI tool conversationally to build web assets without needing to code, and willing to pick a real niche/product before starting.",
+    "truth": "AI workspace tools that code full websites and lead magnets from plain-language prompts are a real, current capability, and the core affiliate-marketing structure described reflects standard, sound fundamentals. No revenue figures are given, this is a tool-and-workflow demonstration, and the video promotes her own referral link to the platform.",
+    "url": "https://www.youtube.com/watch?v=42UsykZzCRQ"
+  },
+  {
+    "id": "ai-powered-digital-offer-types-gohighlevel",
+    "name": "Six types of AI-powered digital offers (done-for-you services, template packs, Claude skills, AI sales bots) built mainly through GoHighLevel",
+    "category": "Digital & subscription products",
+    "tags": [
+      "AI digital offers",
+      "GoHighLevel",
+      "AI done-for-you service",
+      "Claude skill product",
+      "AI sales bot"
+    ],
+    "cost": "Low (a GoHighLevel subscription, with a 30-day free trial referenced)",
+    "found": "Marissa Romero",
+    "what": "Move beyond static PDFs/templates into distinct AI-powered digital offer types: (1) an 'AI done-for-you' service, where a customer fills out a form after purchase, an AI agent processes their answers, and an automated email delivers a finished result within hours, built inside GoHighLevel; (2) niche-specific AI template packs (a bundle of prompts plus pre-built assets like a sales page for one audience, e.g. dog trainers), sold as a low-ticket done-for-you kit; (3) a Claude skill packaged as a product itself, such as a custom GPT generating a video script using the seller's proven framework, sold as a low-cost order bump; (4) an AI sales bot connected to a business's text number that automatically texts a sales page and carries a natural sales conversation.",
+    "pitch": "The presenter says a small 200-250 subscriber YouTube channel, deliberately used as a low-audience case study, generated 53 sales of a $47 front-end offer (about $4,000) plus upsells, and separately references a recent launch making $700 in its first 7 days, arguing low-ticket AI offers are dramatically easier to sell than high-ticket ones.",
+    "best": "Someone comfortable setting up automations inside GoHighLevel (forms, AI agents, email/SMS delivery) and willing to start with a low-ticket offer.",
+    "truth": "AI-driven form-to-fulfillment automation, custom GPTs/Claude skills as sellable products, and AI sales bots connected to business messaging are real, current capabilities, and the case-study numbers are concrete and plausible. The presenter is a GoHighLevel affiliate promoting her own paid coaching community and free trial throughout.",
+    "url": "https://www.youtube.com/watch?v=H62vAThO05c"
   },
   {
     "id": "tote-rental-business",
