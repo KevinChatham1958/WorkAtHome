@@ -224,6 +224,29 @@
     "published": "2026-08-02"
   },
   {
+    "id": "ai-client-acquisition-roadmap-claude",
+    "name": "Landing your first AI consulting client using Claude",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "consulting",
+      "client acquisition",
+      "low startup cost",
+      "roadmap"
+    ],
+    "cost": "Low startup cost",
+    "found": "Patrick Dang",
+    "what": "This isn't a single business idea so much as a general roadmap for getting your first paying client for any AI-powered service, using Claude as the core tool. The framework covers picking a niche, building a personal brand through content (Dang recommends YouTube or similar), and reaching out to or attracting potential clients, whether or not you have any prior experience or portfolio.",
+    "pitch": "Dang argues the opportunity is still early: by his account, less than 1% of the world's population has even downloaded Claude, so anyone building real skill with it now has a head start on the market. He points to one of his clients, Sandy, a full-time insurance salesperson with three kids and no AI background, who he says grew a YouTube channel to over 36,000 subscribers and built an AI side business earning over $30,000 a month within about 5-6 months, all while keeping her day job.",
+    "best": "A total beginner to AI consulting who's willing to invest in building a public presence (content, a personal brand) rather than someone looking for a purely behind-the-scenes, no-audience path to clients.",
+    "truth": "Worth knowing upfront: this video is a funnel into Dang's own paid three-day live training program, and it includes a fairly heavy sales pitch for that program partway through, complete with a mention of live sales role-play coaching as part of the paid offer. The Sandy case study is specific and named, which is a good transparency signal, but it's a single example, not an audited track record across many clients. The core advice, pick a niche, build in public, use content to attract inbound interest, is genuinely sound and echoes what other creators in this database (Tilbury, Gadzhi) also recommend for AI service businesses.",
+    "url": "https://www.youtube.com/watch?v=DuOolRhG2UY",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-06-24"
+  },
+  {
     "id": "party-event-equipment-rental-weekend",
     "name": "Party and event equipment rental business run on weekends",
     "category": "Local & professional services",
@@ -874,6 +897,30 @@
       "Phone/sales-based"
     ],
     "published": "2026-09-04"
+  },
+  {
+    "id": "sell-existing-job-skill-ai-powered-service",
+    "name": "Packaging an existing job skill into an AI-powered service, sold before it's built",
+    "category": "AI & automation",
+    "tags": [
+      "skill packaging",
+      "AI consulting",
+      "cold outreach",
+      "Upwork",
+      "sell before you build"
+    ],
+    "cost": "Free to start (uses an existing Claude/AI subscription and skills already learned on the job)",
+    "found": "Patrick Dang",
+    "what": "Identify a skill you already have from a current or past job (sales, copywriting, design, operations) that a business would pay to outsource, pitch that specific outcome directly to a potential client (via Upwork, LinkedIn, or cold outreach) before building anything, then use Claude to actually deliver the work once they've said yes and paid \u2014 rather than building a product or portfolio first and hoping someone buys it afterward.",
+    "pitch": "The presenter cites a client, Sandy, a former insurance sales manager with no AI or SEO background, who used a Loom video pitch (\"I saw your post on Upwork, here's my solution\") to land a $3,300/month SEO client with no portfolio or references, later increased to $5,500/month, then used that success to build a YouTube channel to 30,000 subscribers and $30,000/month. He also describes a client who sold AI-generated PowerPoint creation to a company paying humans thousands of dollars a month for the same work.",
+    "best": "Someone with a genuine, marketable skill from their current or past job who's comfortable pitching a specific outcome to a stranger before having a finished product or track record to show.",
+    "truth": "The core reframe \u2014 sell the outcome you already know how to produce before building a generic product speculatively \u2014 is a sound way to avoid wasted upfront effort, and the specific example (a non-technical hire landing a $3,300/month client via a short Loom pitch) is concrete and replicable in spirit. The case study figures are the presenter's own client results, not independently verified, and the video promotes a paid 3-day live training and a free \"Ikigai\" Claude tool as lead magnets alongside the free advice.",
+    "url": "https://www.youtube.com/watch?v=qsUksdDNbv0",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-06-15"
   },
   {
     "id": "used-cooking-oil-recycling-restaurant-route",
@@ -1585,6 +1632,24 @@
     "truth": "The cost and price figures are consistent with what's publicly listed for tufting kits and finished custom rugs elsewhere, a reasonable range. No specific named operator or verified sales figures are given, so the income potential is illustrative rather than demonstrated by a real case study.",
     "url": "https://www.youtube.com/watch?v=xQ12WUnQid4",
     "published": "2026-04-21"
+  },
+  {
+    "id": "ai-meta-ads-agency-underspending-brands",
+    "name": "Selling AI-generated Meta ad creative to brands that are running too few ads compared to their competitors",
+    "category": "Marketing & content",
+    "tags": [
+      "Meta ads",
+      "AI ad creative",
+      "Facebook Ad Library research",
+      "Claude + Higgsfield workflow"
+    ],
+    "cost": "Low (Claude subscription, an AI image/video tool like Higgsfield)",
+    "found": "Patrick Dang",
+    "what": "Use the free Facebook Ad Library to find brands running noticeably fewer ads than their direct competitors (a signal they can't produce creative at scale); use Claude for ad copy, hooks, and angles, and an AI image/video tool (Higgsfield) for the visuals, feeding Claude a competitor's proven, long-running ad as creative inspiration to build sample ads for the underspending brand before ever contacting them; approach the founder or ad manager with several free finished samples already made, rather than pitching the idea cold.",
+    "pitch": "The presenter demonstrates this live on a real brand (a keyboard company running only 20 ads worldwide versus a competitor's 700), generating finished sample ads in minutes and framing unsolicited, already-built samples as the strongest way to get a response; he scores this 14/25 on his own scorecard (ease 3, speed 3, validated 5, competition 3, long-term 5) and cites charging $1,000-5,000+ per brand depending on scale.",
+    "best": "Someone willing to learn ad strategy and AI image/video tools, comfortable doing unsolicited prospecting work (building free samples) before landing a client.",
+    "truth": "The Facebook Ad Library is a real, free, public research tool, and AI-generated ad creative is a real, current capability demonstrated live. The presenter's own pricing and scorecard reflect his stated experience but aren't independently audited, and the video promotes a specific AI tool's affiliate signup and his own paid training/coaching.",
+    "url": "https://www.youtube.com/watch?v=jVOk8oc-a70"
   },
   {
     "id": "local-courier-service-small-business-contracts",
@@ -2348,6 +2413,26 @@
     "published": "2026-08-16"
   },
   {
+    "id": "facebook-ai-photo-content-monetization",
+    "name": "Building a niche Facebook photo page monetized through Facebook's Content Monetization program",
+    "category": "Content & personal brand",
+    "tags": [
+      "Facebook monetization",
+      "AI image generation",
+      "niche content page",
+      "organic growth",
+      "content monetization program"
+    ],
+    "cost": "Very low (an AI image generation tool, free Facebook Page creation, optional basic photo editor)",
+    "found": "Passive Biz Lucca",
+    "what": "Pick one narrow, highly visual niche (cozy cabins, vintage cars, tiny homes), validate demand by checking for existing large Facebook pages in that niche, create a public Facebook Page around it, generate original AI images with a specific, detail-rich prompt (not generic), lightly edit each image to make it feel human-made, post one per day with a short caption ending in a question to drive comments, and apply to Facebook's Content Monetization program once the page hits roughly 5,000-10,000 followers with real engagement.",
+    "pitch": "The presenter reports over $14,000 in one month from Facebook content monetization (mostly PDF sales plus the photo program) and walks through the mechanic: Facebook now pays for original photos and text posts, not just video, but has cracked down hard on reposted or lightly-edited content since 2025, so the images must be genuinely original. He gives a specific 90-day, one-post-a-day plan with a weekly review step, and is upfront this is a slow-build strategy, not a fast-cash scheme.",
+    "best": "Someone willing to commit to a consistent 90-day daily-posting habit in one visual niche, comfortable writing detailed AI image prompts and doing basic photo-editing polish, patient with a slow initial ramp.",
+    "truth": "Facebook's content monetization program and its original-content enforcement rules are real and match public information from Facebook's creator resources, and the described mechanics are consistent with how the platform's recommendation system is known to work. The specific $14,000/month figure is self-reported and unverifiable, payout thresholds and eligibility vary by country and change over time (the video itself warns not to trust fixed numbers), and it ends by funneling viewers to a paid course for the full system.",
+    "url": "https://www.youtube.com/watch?v=2z7ORVBVLzw",
+    "published": "2026-08-14"
+  },
+  {
     "id": "claude-local-business-website-lead-gen-retainer",
     "name": "Building websites and lead-capture automations for local businesses that don't have one, with a monthly hosting retainer",
     "category": "Local & professional services",
@@ -2446,6 +2531,24 @@
     "best": "Someone comfortable directing an AI coding assistant conversationally rather than writing code themselves, willing to validate an idea's search demand before building rather than guessing.",
     "truth": "Simple utility websites monetized by display ads are a real, long-standing internet business model, and the specific named examples are genuine existing sites, though their exact revenue figures are unverified claims relayed from the sites' own founders. The video promotes the presenter's own paid 'Wealth Academy Pro' community for a prompt-injection 'skill' and free-token workaround, and separately teases a paid 'Mythos AI' tool, so those specific add-ons are sales funnels rather than required parts of the core method.",
     "url": "https://www.youtube.com/watch?v=eKH-oaFt4qE"
+  },
+  {
+    "id": "ai-ghostwriting-founder-personal-brand",
+    "name": "Ghostwriting for founders' personal brands by training Claude on their voice using a structured content database",
+    "category": "Marketing & content",
+    "tags": [
+      "AI ghostwriting",
+      "personal brand content",
+      "founder LinkedIn/X content",
+      "Claude voice training"
+    ],
+    "cost": "Very low (a Claude subscription, a free Notion account)",
+    "found": "Patrick Dang",
+    "what": "Build a simple Notion database per client containing their YouTube transcripts or interviews, writing style notes, top-performing content, personal stories, and ideal customer profile, then feed that database to Claude whenever writing so it can draft in the founder's actual voice (getting roughly 60-70% of the way there automatically), adding a human editing pass to finish it; target founders of businesses that already make real money (not solo coaches or agents) who post consistently on LinkedIn or X but get poor engagement.",
+    "pitch": "The presenter, who writes his own YouTube scripts and other copy using this exact Notion-plus-Claude system, calls this the easiest and cheapest AI side hustle to start, scoring it 22/25 (ease 4, speed 5, validated 5, competition 3, long-term 5), and cites pricing anywhere from $500/month on the low end to $2,000-3,000/month, or a percentage of revenue for top performers.",
+    "best": "Someone with strong writing/editing instincts willing to study a client's voice and content deeply rather than producing generic AI copy.",
+    "truth": "AI-assisted ghostwriting using a structured reference database is a real, sound, and increasingly common workflow, and the presenter's own use of it for his own content lends direct personal credibility. Pricing figures are the presenter's own stated ranges from his network, not independently verified, and the video promotes a free companion Claude skill and his own paid training.",
+    "url": "https://www.youtube.com/watch?v=jVOk8oc-a70"
   },
   {
     "id": "remote-cleaning-agency-dispatch-subcontractor-model",
@@ -2980,6 +3083,24 @@
       "Needs a dedicated workspace"
     ],
     "published": "2026-09-05"
+  },
+  {
+    "id": "ai-content-creator-underserved-niche",
+    "name": "Becoming an AI-focused content creator in a specific underserved niche, using AI tools to handle scripting and production",
+    "category": "Content & personal brand",
+    "tags": [
+      "AI content creation",
+      "YouTube creator",
+      "niche content gap analysis",
+      "brand deals and info products"
+    ],
+    "cost": "Low (Claude for scripts, an AI image/video tool for thumbnails/B-roll)",
+    "found": "Patrick Dang",
+    "what": "Create content specifically about using AI/Claude for a chosen audience, using Claude to write and repurpose scripts and an AI image/video tool to generate thumbnails and motion graphics rather than needing design skills; study 3-5 existing creators in the space (breaking down their scripts, strategy, and branding with Claude) not to copy them, but to identify a specific gap or angle nobody else is covering yet.",
+    "pitch": "The presenter cites a client, a former insurance sales manager with no prior AI knowledge, who reached 50,000 YouTube subscribers and over $50,000/month within 6 months while working full-time and raising three kids; he scores this 19/25 (ease 3, speed 3, validated 5, competition 3-4, long-term 5) and notes monetization through brand deals, info products/courses, and one-on-one client work, with AdSense treated as bonus income rather than the core plan.",
+    "best": "Someone willing to be on camera and consistently produce content, comfortable studying competitors analytically to find a real gap rather than copying them.",
+    "truth": "AI-assisted content creation tools for scripting, thumbnails, and editing are real and current, and the specific case study (a named client's follower/revenue growth) is a concrete claim, though self-reported and not independently audited. The video promotes the presenter's own free 3-day training and paid coaching.",
+    "url": "https://www.youtube.com/watch?v=jVOk8oc-a70"
   },
   {
     "id": "portable-restroom-rental-business",
@@ -3733,29 +3854,6 @@
     "published": "2026-08-24"
   },
   {
-    "id": "ai-client-acquisition-roadmap-claude",
-    "name": "Landing your first AI consulting client using Claude",
-    "category": "AI & automation",
-    "tags": [
-      "AI tools",
-      "consulting",
-      "client acquisition",
-      "low startup cost",
-      "roadmap"
-    ],
-    "cost": "Low startup cost",
-    "found": "Patrick Dang",
-    "what": "This isn't a single business idea so much as a general roadmap for getting your first paying client for any AI-powered service, using Claude as the core tool. The framework covers picking a niche, building a personal brand through content (Dang recommends YouTube or similar), and reaching out to or attracting potential clients, whether or not you have any prior experience or portfolio.",
-    "pitch": "Dang argues the opportunity is still early: by his account, less than 1% of the world's population has even downloaded Claude, so anyone building real skill with it now has a head start on the market. He points to one of his clients, Sandy, a full-time insurance salesperson with three kids and no AI background, who he says grew a YouTube channel to over 36,000 subscribers and built an AI side business earning over $30,000 a month within about 5-6 months, all while keeping her day job.",
-    "best": "A total beginner to AI consulting who's willing to invest in building a public presence (content, a personal brand) rather than someone looking for a purely behind-the-scenes, no-audience path to clients.",
-    "truth": "Worth knowing upfront: this video is a funnel into Dang's own paid three-day live training program, and it includes a fairly heavy sales pitch for that program partway through, complete with a mention of live sales role-play coaching as part of the paid offer. The Sandy case study is specific and named, which is a good transparency signal, but it's a single example, not an audited track record across many clients. The core advice, pick a niche, build in public, use content to attract inbound interest, is genuinely sound and echoes what other creators in this database (Tilbury, Gadzhi) also recommend for AI service businesses.",
-    "url": "https://www.youtube.com/watch?v=DuOolRhG2UY",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-06-24"
-  },
-  {
     "id": "ai-niche-lock-playbook",
     "name": "The one-year AI niche lock-in playbook",
     "category": "AI & automation",
@@ -3955,26 +4053,6 @@
       "Strictly in-home"
     ],
     "published": "2026-08-31"
-  },
-  {
-    "id": "facebook-ai-photo-content-monetization",
-    "name": "Building a niche Facebook photo page monetized through Facebook's Content Monetization program",
-    "category": "Content & personal brand",
-    "tags": [
-      "Facebook monetization",
-      "AI image generation",
-      "niche content page",
-      "organic growth",
-      "content monetization program"
-    ],
-    "cost": "Very low (an AI image generation tool, free Facebook Page creation, optional basic photo editor)",
-    "found": "Passive Biz Lucca",
-    "what": "Pick one narrow, highly visual niche (cozy cabins, vintage cars, tiny homes), validate demand by checking for existing large Facebook pages in that niche, create a public Facebook Page around it, generate original AI images with a specific, detail-rich prompt (not generic), lightly edit each image to make it feel human-made, post one per day with a short caption ending in a question to drive comments, and apply to Facebook's Content Monetization program once the page hits roughly 5,000-10,000 followers with real engagement.",
-    "pitch": "The presenter reports over $14,000 in one month from Facebook content monetization (mostly PDF sales plus the photo program) and walks through the mechanic: Facebook now pays for original photos and text posts, not just video, but has cracked down hard on reposted or lightly-edited content since 2025, so the images must be genuinely original. He gives a specific 90-day, one-post-a-day plan with a weekly review step, and is upfront this is a slow-build strategy, not a fast-cash scheme.",
-    "best": "Someone willing to commit to a consistent 90-day daily-posting habit in one visual niche, comfortable writing detailed AI image prompts and doing basic photo-editing polish, patient with a slow initial ramp.",
-    "truth": "Facebook's content monetization program and its original-content enforcement rules are real and match public information from Facebook's creator resources, and the described mechanics are consistent with how the platform's recommendation system is known to work. The specific $14,000/month figure is self-reported and unverifiable, payout thresholds and eligibility vary by country and change over time (the video itself warns not to trust fixed numbers), and it ends by funneling viewers to a paid course for the full system.",
-    "url": "https://www.youtube.com/watch?v=2z7ORVBVLzw",
-    "published": "2026-08-14"
   },
   {
     "id": "ai-voice-assistant-real-estate-zillow-loom-pitch",
@@ -4617,6 +4695,24 @@
     "published": "2026-08-14"
   },
   {
+    "id": "ai-growth-operator-for-creators",
+    "name": "Becoming a 'growth operator' handling the business side (funnels, emails, webinars) for content creators who only want to make content",
+    "category": "Marketing & content",
+    "tags": [
+      "creator monetization",
+      "growth operator",
+      "funnel building",
+      "webinar and email systems"
+    ],
+    "cost": "Low (Claude subscription, an AI image tool for design)",
+    "found": "Patrick Dang",
+    "what": "Work behind the scenes for a content creator, building and running everything needed to monetize their audience (landing pages, email sequences, webinar slide decks, ad campaigns) using Claude for copywriting and structure and an AI image tool for design, so the creator only has to show up and talk; find creators with a sizeable following who don't yet sell anything and pitch becoming the operational partner who builds that out.",
+    "pitch": "The presenter, who employs his own growth operators rather than building his funnels himself, scores this 18/25 (ease 2, speed 3, validated 5, competition 3-4, long-term 5), calling it one of the most profitable opportunities on his list despite its higher skill requirement, and recommends charging a base fee plus 10-50% of resulting profit depending on negotiated value.",
+    "best": "Someone with genuine funnel/marketing-systems skill willing to take on a business-operations role rather than a purely creative one.",
+    "truth": "Creators increasingly outsourcing their business/monetization operations to a dedicated operator is a real, observable industry pattern the presenter describes from his own team structure. Pricing and difficulty ratings are the presenter's own framing, not independently verified, and the video promotes his free training and paid coaching.",
+    "url": "https://www.youtube.com/watch?v=jVOk8oc-a70"
+  },
+  {
     "id": "online-services-skill-pyramid-roadmap",
     "name": "The skill pyramid for turning an online service into $10,000 a month",
     "category": "Local & professional services",
@@ -5066,6 +5162,24 @@
       "Needs inventory storage"
     ],
     "published": "2026-08-13"
+  },
+  {
+    "id": "ai-youtube-channel-management-agency",
+    "name": "Running a founder's entire YouTube channel for them (ideation, scripting, editing, thumbnails) using AI tools",
+    "category": "Content & personal brand",
+    "tags": [
+      "YouTube management agency",
+      "founder personal brand",
+      "AI scripting and editing",
+      "content operations"
+    ],
+    "cost": "Low (Claude for scripts, an AI image/video tool for editing/thumbnails)",
+    "found": "Patrick Dang",
+    "what": "Take over every part of a founder's YouTube channel except the actual filming, using Claude for video ideas and scripts and AI tools for editing and thumbnails; target founders who already run a profitable business, have tried YouTube themselves, and failed to gain traction, pitching that you'll run the whole operation while they just show up on camera.",
+    "pitch": "The presenter scores this 18/25 (ease 2-3, speed 3, validated 5, competition 3-4, long-term 5), citing pricing examples of $1,500-2,000/month for scripting and ideation alone (roughly $300-500 per script for four scripts monthly), with editing and a profit-percentage arrangement layered on top for a full-service package.",
+    "best": "Someone with real scripting, editing, and content-strategy skill willing to essentially run a media operation on a client's behalf.",
+    "truth": "Founders outsourcing YouTube channel operations to specialized agencies is a real, active market, and the described AI-assisted workflow (scripting, editing, thumbnails) is technically accurate to current tools. Pricing figures are the presenter's own cited ranges, not independently verified, and the video promotes his free training and paid coaching.",
+    "url": "https://www.youtube.com/watch?v=jVOk8oc-a70"
   },
   {
     "id": "recurring-cleaning-service-crew-scaling",
@@ -5823,6 +5937,26 @@
     "published": "2026-07-19"
   },
   {
+    "id": "review-mined-pdf-demand-research-content-funnel",
+    "name": "Mining competitor product reviews for unmet customer complaints to build and sell a PDF digital product",
+    "category": "Digital & subscription products",
+    "tags": [
+      "PDF digital products",
+      "market research",
+      "review mining",
+      "content-to-product funnel",
+      "AI-assisted writing"
+    ],
+    "cost": "Very low (an AI chat subscription, a digital product delivery platform, no ad spend required)",
+    "found": "Passive Biz Lucca",
+    "what": "Instead of asking an AI to invent PDF ideas, research existing paid products in a niche and read their customer reviews specifically for complaints and unmet requests, use those real complaints as the product spec, build the PDF with AI section-by-section around solving exactly those gaps, package it as an outcome/'system' rather than a bare PDF, then find already-successful content in the same niche and create similar content around the same specific problem that funnels viewers to the product, adding a small upsell at checkout to increase average order value.",
+    "pitch": "The presenter reports $34,626 in the last 30 days from this exact workflow, crediting Iman Gadzhi's 'find demand first' digital-product framework, and walks through the full math from views to clicks to conversions compounding toward the five-figure number across many pieces of content.",
+    "best": "Someone comfortable digging through reviews/complaints for market research and consistently producing niche-specific short-form content that funnels to a product.",
+    "truth": "Mining reviews for unmet customer needs is a genuinely sound, underused market-research technique that goes beyond generic AI brainstorming, and building content around an already-proven topic is solid organic-marketing logic. The specific $34,626 figure is self-reported, and the stated math is illustrative rather than guaranteed, requiring genuinely consistent content output to reach that scale.",
+    "url": "https://www.youtube.com/watch?v=mpJUKXcFhGE",
+    "published": "2026-09-16"
+  },
+  {
     "id": "claude-social-media-management-local-business",
     "name": "AI-accelerated social media management service for local businesses using Claude for batch content creation",
     "category": "Marketing & content",
@@ -5921,6 +6055,24 @@
     "best": "Someone comfortable giving an AI agent a research-and-build task with light supervision rather than manually researching and designing a product themselves.",
     "truth": "AI coding agents with built-in web browsing that can research a marketplace and generate a matching product are a real, current capability demonstrated live rather than just described. No revenue figures for this specific method are given in this segment, and the approach still requires actually selling and marketing the resulting product, which isn't covered here.",
     "url": "https://www.youtube.com/watch?v=Sq0-pephnek"
+  },
+  {
+    "id": "ai-second-channel-content-repurposing",
+    "name": "Starting and running a creator's 'second channel' that repurposes their existing long-form content into high-volume clips",
+    "category": "Content & personal brand",
+    "tags": [
+      "second YouTube channel",
+      "content repurposing",
+      "high-volume clipping",
+      "AI clip selection"
+    ],
+    "cost": "Low (Claude subscription for scanning/clipping decisions, editing tools)",
+    "found": "Patrick Dang",
+    "what": "Mine a creator's existing archive (podcast episodes, Q&As, workshops) for their best moments using Claude to scan transcripts and select clips, then post many short videos a day to a dedicated second channel purely for monetization (not audience growth) \u2014 a model the presenter credits to a specific real second-channel strategy where high-volume, highly specific clips convert into calls and email signups even at low individual view counts; approach creators who have strong long-form content but no outlet for the volume.",
+    "pitch": "The presenter cites a named example channel with over 4 million subscribers on its main channel and a second channel of 100,000 subscribers posting roughly 20-30 videos a day, reportedly generating more revenue from the second channel than the main one; he scores this newer opportunity 18-19/25 (ease 3-4, speed 4, validated 4, competition 3, long-term 4) and says pricing can reach thousands of dollars per month given the direct revenue impact.",
+    "best": "Someone comfortable working with a large archive of existing content and making fast editorial decisions on what to clip and post at high volume.",
+    "truth": "The core dynamic, that highly specific short clips with a clear call-to-action can convert well even at modest view counts, is a real and increasingly discussed content strategy, and the cited example channel and its scale are publicly verifiable. The presenter is explicit this is a newer, still-developing trend without an established market rate, and the video promotes his free training and paid coaching.",
+    "url": "https://www.youtube.com/watch?v=jVOk8oc-a70"
   },
   {
     "id": "hopper-gun-textured-wall-finishing",
@@ -6612,6 +6764,25 @@
     "published": "2026-04-21"
   },
   {
+    "id": "ai-seo-aeo-ranking-service",
+    "name": "Selling AI-search-engine optimization (AEO/GEO) alongside traditional SEO, helping brands get recommended by ChatGPT and Claude, not just rank on Google",
+    "category": "Marketing & content",
+    "tags": [
+      "AEO",
+      "GEO",
+      "AI search optimization",
+      "traditional SEO",
+      "AI-generated content"
+    ],
+    "cost": "Very low (a Claude subscription; Upwork or direct outreach to find clients)",
+    "found": "Patrick Dang",
+    "what": "Offer businesses either traditional SEO (helping them rank on Google/Bing) using AI to mass-produce optimized content, or the newer discipline of AEO/GEO, optimizing a business's content and site so AI assistants like ChatGPT and Claude recommend them when a user asks a related question; find prospects by targeting businesses built on platforms like Webflow (which is actively pushing AEO messaging to its users) that already do some SEO but haven't started on AI-platform visibility, and pitch the AI-ranking opportunity specifically as the next wave they're missing.",
+    "pitch": "The presenter cites a client, previously with zero SEO/AI experience, who landed her first AI-optimization client on Upwork at $3,000/month and increased that client's SEO traffic by roughly 1,000%; he scores this 23/25 (ease 4, speed 4-5, validated 5, competition 4-5, long-term 5), calling it one of the easiest, most beginner-friendly ideas on his list given how new and low-competition the AEO side specifically still is.",
+    "best": "Someone willing to learn what content actually ranks on AI platforms (a skill the presenter says can be picked up in about two weeks) and comfortable with early-stage, still-developing service pricing.",
+    "truth": "AI answer-engine optimization (AEO/GEO) as a growing, real service category, and platforms like Webflow actively promoting it to their user base, are accurate, current, and verifiable trends. The cited client case study and its specific numbers are self-reported and not independently audited, and the video promotes a free companion Claude skill and the presenter's paid training.",
+    "url": "https://www.youtube.com/watch?v=jVOk8oc-a70"
+  },
+  {
     "id": "heavy-equipment-tool-rental-business",
     "name": "Renting out heavy equipment and specialized tools to contractors and homeowners",
     "category": "Local & professional services",
@@ -7141,6 +7312,24 @@
     "url": "https://www.youtube.com/watch?v=Sq0-pephnek"
   },
   {
+    "id": "ai-outbound-lead-generation-agency",
+    "name": "Running AI-assisted outbound lead generation (cold email/LinkedIn) for B2B companies in under-served niches",
+    "category": "Marketing & content",
+    "tags": [
+      "outbound lead generation",
+      "cold email",
+      "B2B sales agency",
+      "AI list building"
+    ],
+    "cost": "Low (a Claude subscription for list-building and scripts)",
+    "found": "Patrick Dang",
+    "what": "Build prospect lists and outreach scripts with Claude, then run outbound cold email/LinkedIn campaigns on behalf of B2B companies that need more sales calls but aren't skilled at outbound themselves; specifically target less glamorous, 'boring' niches (logistics, law, trades, and similar) where fewer people are already pitching the exact same outbound service, since the presenter notes outbound-lead-gen sellers ironically all compete for clients using outbound themselves.",
+    "pitch": "The presenter scores this 18/25 (ease 3, speed 3, validated 5, competition 2, long-term 5), explicitly flagging competition as this idea's weak point since so many people sell outbound lead generation using outbound lead generation to find clients, and cites charging $1,000-5,000/month retainers plus commission, fully negotiable.",
+    "best": "Someone with genuine sales/outreach skill willing to specialize in an under-pitched niche rather than the most obvious, crowded verticals.",
+    "truth": "AI-assisted list building and cold outreach is a real, established service category, and the presenter's honest acknowledgment that this specific idea faces real competition (rather than presenting it as a blue ocean) adds credibility. Pricing figures are the presenter's own stated ranges, not independently verified, and the video promotes a free companion Claude skill and his paid training.",
+    "url": "https://www.youtube.com/watch?v=jVOk8oc-a70"
+  },
+  {
     "id": "small-parts-light-manufacturing",
     "name": "Light manufacturing of small custom parts that large factories consider too small to bother with",
     "category": "Physical & print products",
@@ -7619,6 +7808,24 @@
     "truth": "This is a genuinely distinct product from candle-making itself (a separately listed business), letting a maker enter the same market from the accessories side, and partnering directly with candle makers for bundles is a sound, low-cost distribution strategy. Heat-safety testing matters for any holder meant to be used with a lit candle, and each medium has its own real skill/tooling learning curve.",
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s",
     "published": "2025-09-12"
+  },
+  {
+    "id": "ai-inbound-dm-setting-for-creators",
+    "name": "Setting appointments for creator-led founders by messaging their own engaged followers (inbound DM setting), rather than cold outbound",
+    "category": "Marketing & content",
+    "tags": [
+      "DM setting",
+      "inbound sales",
+      "creator monetization",
+      "high-ticket sales support"
+    ],
+    "cost": "Very low (no special tools required beyond messaging platforms)",
+    "found": "Patrick Dang",
+    "what": "Instead of cold outbound, work exclusively with founders who already create content and have an engaged audience, finding the people who follow, engage with, and view their profile, then message those warm prospects to book a sales call or close a DM sale on the founder's behalf; only take on creators selling something genuinely high-ticket (at least $2,000), since compensation is typically a base fee plus commission.",
+    "pitch": "The presenter scores this 21/25 (ease 4, speed 5, validated 5, competition 3-4, long-term 4), framing it as one of the fastest ideas on the list to land a first client (simply finding creators who post consistently but are weak at DMs) while cautioning it's a good starting point rather than a lifelong career unless scaled into a full sales agency, and cites a $1,000 base plus 5-10% commission as typical.",
+    "best": "Someone comfortable with sales conversations and DM-based selling, looking for a fast-to-start opportunity rather than necessarily a long-term business.",
+    "truth": "Inbound DM setting for creator-led offers is a real, active service the presenter says he personally hires for, and warm-audience outreach converting better than cold outbound is standard, sound sales logic. Pricing figures are the presenter's own stated ranges, not independently verified, and the video promotes a free companion Claude skill and paid training.",
+    "url": "https://www.youtube.com/watch?v=jVOk8oc-a70"
   },
   {
     "id": "ev-charging-smart-home-electrician-specialty",
@@ -10995,6 +11202,63 @@
     "url": "https://www.youtube.com/watch?v=o-dR95FNbLM"
   },
   {
+    "id": "niche-software-tool-build-and-exit",
+    "name": "Building a niche software tool by scratching your own itch or finding a feature gap in a larger competitor, then growing and eventually selling it",
+    "category": "Digital & subscription products",
+    "tags": [
+      "niche software",
+      "SaaS business exit",
+      "WordPress plugin",
+      "software marketing strategies",
+      "business acquisition"
+    ],
+    "cost": "Moderate (cost of hiring a developer to build the initial version, unless you can code it yourself)",
+    "found": "Niche Pursuits",
+    "what": "Find a niche software idea using one of three approaches: solve a real problem you personally experience in your own work; find a feature that a large, well-known software company offers only as an afterthought and build a focused, better version of just that one feature; or directly interview potential customers to validate demand before building. Hire a developer, launch (ideally to an existing audience), then grow using continuous product improvement, content marketing, email marketing to a growing list, an affiliate program plus direct outreach to bloggers/YouTubers for free-copy reviews, a free/stripped-down version listed on a relevant marketplace to drive upgrades, and outreach to genuine industry influencers.",
+    "pitch": "The presenter built 'Link Whisper,' a WordPress internal-linking plugin, from a $30,000 launch month down to $5,000-7,000 in months two and three, then grew it over five years to roughly $90,000/month average revenue, before selling the company for $2.7 million in early 2025 after a drawn-out, multi-month acquisition process that included two earlier declined offers.",
+    "best": "Someone with (or willing to hire) development resources, patient enough to grow a product over years, willing to do consistent marketing across many channels.",
+    "truth": "Niche software/SaaS businesses built around a validated problem are a real, well-established path to a sellable business, and the specific growth tactics described are standard, sound software marketing practices. His revenue and sale-price figures are self-reported but specific and detailed; note this path genuinely requires real capital or technical resources to build the initial product, unlike many other entries in this database.",
+    "url": "https://www.youtube.com/watch?v=eVldld15cXo"
+  },
+  {
+    "id": "google-review-automation-local-business-prospecting",
+    "name": "Finding local businesses with visibly weak Google reviews and selling them a done-for-you AI review-request automation via GoHighLevel",
+    "category": "Local & professional services",
+    "tags": [
+      "Google review automation",
+      "GoHighLevel",
+      "local business prospecting",
+      "reputation management",
+      "recurring retainer"
+    ],
+    "cost": "Low (a GoHighLevel subscription, with a 30-day free trial referenced)",
+    "found": "Noah Anderberg",
+    "what": "Find local businesses (plumbers, roofers, dentists, salons, landscapers) with a visible review gap using Google Maps, checking five signals together: a decent but weak review count, no recent reviews, a rating below nearby competitors, negative reviews with no response, and evidence the business is active and can afford the service. Add the prospect to a CRM, run a quick review audit comparing them to their strongest competitor, then pitch a done-for-you AI system (built in GoHighLevel) that automatically texts customers a personalized review request after a job, follows up if they don't respond, and includes an AI-agent auto-reply for incoming reviews; price at $100-500/month.",
+    "pitch": "The presenter frames this as an easy first offer for a beginner specifically because it doesn't require explaining unfamiliar technology to a busy tradesperson, and positions it as genuinely recurring since reviews need to keep coming in; he shares his own real pricing ($100-300/month per client) and a specific outreach script highlighting the exact review-count gap versus a top local competitor.",
+    "best": "Someone willing to do consistent local prospecting via Google Maps and comfortable setting up GoHighLevel automations.",
+    "truth": "GoHighLevel's AI-assisted review automation and auto-reply agents are real, current capabilities, and the five-signal prospecting checklist is a genuinely useful, concrete filter. This general offer overlaps in concept with other GoHighLevel-based entries already in this database from different producers, though the specific checklist and script here are distinct; the video also promotes the presenter's own free community.",
+    "url": "https://www.youtube.com/watch?v=Y_Ca-k0aLLU"
+  },
+  {
+    "id": "faceless-bible-story-youtube-automation",
+    "name": "Creating faceless AI-generated Bible story videos for YouTube, monetized through AdSense, affiliate links, and digital products",
+    "category": "Content & personal brand",
+    "tags": [
+      "faceless YouTube channel",
+      "faith-based content",
+      "AI video generation",
+      "Christian affiliate programs",
+      "InVideo AI"
+    ],
+    "cost": "Low (an AI video generation tool subscription, ChatGPT for scripting)",
+    "found": "Profit Stacking Club",
+    "what": "Use ChatGPT to generate a list of Bible stories well-suited to short, 2-minute YouTube videos, then write an emotional, relatable script with a strong opening line and inspiring takeaway; feed that script into an all-in-one AI video generation tool (handling voiceover, visuals, subtitles, and music together), choosing a visual style and generating both horizontal and vertical versions to cross-post to Shorts/Instagram/TikTok. As a faster alternative, find an already-successful video on the same Bible story, paste its link into the tool's reference-video workflow, and let it generate a fresh, differently-styled version based on the same concept rather than a word-for-word copy.",
+    "pitch": "The presenter cites a real, named faceless Bible-content channel pulling almost a million views a month without daily posting, making $5,000-10,000/month, and stresses three monetization layers beyond AdSense: affiliate links to the tools used plus Christian retailers, and eventually the creator's own digital products like scripture cards or printable journals.",
+    "best": "Someone comfortable directing an AI video tool through prompts and choices rather than filming/editing manually, willing to layer multiple income sources rather than waiting on AdSense alone.",
+    "truth": "AI video generation tools with the described capabilities are real and technically accurate as demonstrated live, and the cited channel's view counts support the core opportunity. The presenter's monetization figures for that other channel are relayed claims, not independently verified, and the reference-video generation method produces content closely following another creator's existing video's structure, worth being aware of even though the tool markets this as a legitimate feature.",
+    "url": "https://www.youtube.com/watch?v=5oqiL7qJn7c"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -11340,30 +11604,6 @@
     "published": "2026-09-07"
   },
   {
-    "id": "sell-existing-job-skill-ai-powered-service",
-    "name": "Packaging an existing job skill into an AI-powered service, sold before it's built",
-    "category": "AI & automation",
-    "tags": [
-      "skill packaging",
-      "AI consulting",
-      "cold outreach",
-      "Upwork",
-      "sell before you build"
-    ],
-    "cost": "Free to start (uses an existing Claude/AI subscription and skills already learned on the job)",
-    "found": "Patrick Dang",
-    "what": "Identify a skill you already have from a current or past job (sales, copywriting, design, operations) that a business would pay to outsource, pitch that specific outcome directly to a potential client (via Upwork, LinkedIn, or cold outreach) before building anything, then use Claude to actually deliver the work once they've said yes and paid \u2014 rather than building a product or portfolio first and hoping someone buys it afterward.",
-    "pitch": "The presenter cites a client, Sandy, a former insurance sales manager with no AI or SEO background, who used a Loom video pitch (\"I saw your post on Upwork, here's my solution\") to land a $3,300/month SEO client with no portfolio or references, later increased to $5,500/month, then used that success to build a YouTube channel to 30,000 subscribers and $30,000/month. He also describes a client who sold AI-generated PowerPoint creation to a company paying humans thousands of dollars a month for the same work.",
-    "best": "Someone with a genuine, marketable skill from their current or past job who's comfortable pitching a specific outcome to a stranger before having a finished product or track record to show.",
-    "truth": "The core reframe \u2014 sell the outcome you already know how to produce before building a generic product speculatively \u2014 is a sound way to avoid wasted upfront effort, and the specific example (a non-technical hire landing a $3,300/month client via a short Loom pitch) is concrete and replicable in spirit. The case study figures are the presenter's own client results, not independently verified, and the video promotes a paid 3-day live training and a free \"Ikigai\" Claude tool as lead magnets alongside the free advice.",
-    "url": "https://www.youtube.com/watch?v=qsUksdDNbv0",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ],
-    "published": "2026-06-15"
-  },
-  {
     "id": "30-day-personal-brand-launch-copy-proven-hooks",
     "name": "30-day personal brand launch system built on copying proven video hooks before creating original content",
     "category": "Content & personal brand",
@@ -11552,26 +11792,6 @@
     "truth": "The core principle, that repeated audience questions are a reliable buying signal and a narrow single-problem course converts better than an over-built one, is sound, evidence-based content-marketing advice. This is a third-party breakdown of one unusually large launch, not a guaranteed formula, and the presenter has no personal relationship with the creator and hasn't independently verified the revenue figures beyond what she posted publicly.",
     "url": "https://www.youtube.com/watch?v=1VEMpRr9GnY",
     "published": "2026-09-03"
-  },
-  {
-    "id": "review-mined-pdf-demand-research-content-funnel",
-    "name": "Mining competitor product reviews for unmet customer complaints to build and sell a PDF digital product",
-    "category": "Digital & subscription products",
-    "tags": [
-      "PDF digital products",
-      "market research",
-      "review mining",
-      "content-to-product funnel",
-      "AI-assisted writing"
-    ],
-    "cost": "Very low (an AI chat subscription, a digital product delivery platform, no ad spend required)",
-    "found": "Passive Biz Lucca",
-    "what": "Instead of asking an AI to invent PDF ideas, research existing paid products in a niche and read their customer reviews specifically for complaints and unmet requests, use those real complaints as the product spec, build the PDF with AI section-by-section around solving exactly those gaps, package it as an outcome/'system' rather than a bare PDF, then find already-successful content in the same niche and create similar content around the same specific problem that funnels viewers to the product, adding a small upsell at checkout to increase average order value.",
-    "pitch": "The presenter reports $34,626 in the last 30 days from this exact workflow, crediting Iman Gadzhi's 'find demand first' digital-product framework, and walks through the full math from views to clicks to conversions compounding toward the five-figure number across many pieces of content.",
-    "best": "Someone comfortable digging through reviews/complaints for market research and consistently producing niche-specific short-form content that funnels to a product.",
-    "truth": "Mining reviews for unmet customer needs is a genuinely sound, underused market-research technique that goes beyond generic AI brainstorming, and building content around an already-proven topic is solid organic-marketing logic. The specific $34,626 figure is self-reported, and the stated math is illustrative rather than guaranteed, requiring genuinely consistent content output to reach that scale.",
-    "url": "https://www.youtube.com/watch?v=mpJUKXcFhGE",
-    "published": "2026-09-16"
   },
   {
     "id": "gohighlevel-lead-system-not-website-positioning",
@@ -12091,6 +12311,25 @@
     "best": "Someone comfortable setting up automations inside GoHighLevel (forms, AI agents, email/SMS delivery) and willing to start with a low-ticket offer.",
     "truth": "AI-driven form-to-fulfillment automation, custom GPTs/Claude skills as sellable products, and AI sales bots connected to business messaging are real, current capabilities, and the case-study numbers are concrete and plausible. The presenter is a GoHighLevel affiliate promoting her own paid coaching community and free trial throughout.",
     "url": "https://www.youtube.com/watch?v=H62vAThO05c"
+  },
+  {
+    "id": "pdf-product-as-outcome-system-iman-gadzhi-method",
+    "name": "Positioning and building digital PDF products as complete 'systems' that deliver an outcome, rather than plain information documents",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital product positioning",
+      "PDF business",
+      "AI-assisted product creation",
+      "offer building",
+      "conversion optimization"
+    ],
+    "cost": "Very low (an AI chatbot subscription, a checkout/sales page tool)",
+    "found": "Passive Biz Lucca",
+    "what": "Research an existing digital-product marketplace to find a narrow, already-proven problem, then build an 'offer' around it rather than a single document: a main guide plus several small bonus resources (a checklist, tracker, planner) where each bonus removes one specific obstacle, making the solution more complete rather than longer. Use AI section-by-section (feeding it the customer profile, outcome, and specific piece to build next, not 'write an ebook') to assemble the product. Name it as a 'system' rather than a document, build a sales page leading with the customer's problem, drive traffic with content attacking the specific problem from multiple angles, and treat the whole thing as a measurable funnel (visitors, purchases, conversion rate, true profit), testing one variable at a time. Scale by building a portfolio of several PDF offers rather than one product.",
+    "pitch": "The presenter reports $34,626 in one month from this system, building the entry example (a grocery-savings PDF system) live on screen from research through sales page copy, framing the whole approach as adapting Iman Gadzhi's high-ticket offer-building principles to a much lower-priced PDF business.",
+    "best": "Someone willing to do real market research before creating anything, comfortable treating the business as a measurable, testable funnel rather than just making a product and hoping.",
+    "truth": "The core positioning principle and the described AI-assisted section-by-section creation workflow are genuinely sound, well-reasoned digital-product and direct-response marketing practices. The $34,626 monthly figure is self-reported; this producer has at least one other PDF-business video in this database, so some philosophy overlaps, though the specific build and scaling framing here are distinct.",
+    "url": "https://www.youtube.com/watch?v=RfBADlvDIuA"
   },
   {
     "id": "tote-rental-business",
@@ -12615,6 +12854,24 @@
     "best": "Someone comfortable pitching property managers on B2B service contracts and managing part-time hourly workers, without needing to do the physical collection themselves.",
     "truth": "Valet trash service for apartment complexes is a real, established amenity business model with genuine 3-5 year B2B contracts common in the industry. The cited 1,400-unit example is one real listing, not independently audited, but the low-barrier startup description is consistent with how this business is typically entered.",
     "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4"
+  },
+  {
+    "id": "ai-email-list-monetization-retention",
+    "name": "Rebuilding neglected email lists into revenue using AI-drafted automation flows (abandoned cart, win-back, regular sends)",
+    "category": "Marketing & content",
+    "tags": [
+      "email marketing",
+      "Klaviyo automation",
+      "list reactivation",
+      "abandoned cart flows"
+    ],
+    "cost": "Very low (a Klaviyo account, a Claude subscription for copywriting)",
+    "found": "Patrick Dang",
+    "what": "Find brands with large but under-utilized email lists (people collecting emails through content or ads but not sending consistently, with no abandoned-cart or win-back automation in place), sign up for their list to confirm the gap firsthand, then use an email platform like Klaviyo plus Claude for copywriting to build out the missing flows and regular sending cadence; approach with a Loom video showing specific examples of what their competitors are doing well by comparison.",
+    "pitch": "The presenter scores this 21/25 (ease 4, speed 4, validated 5, competition 3-4, long-term 5), citing pricing anywhere from around $500 per email up to a percentage of the resulting revenue depending on negotiation, and frames a Loom video demonstrating researched, specific gaps as the key to getting a response.",
+    "best": "Someone comfortable with email copywriting and marketing automation platforms, willing to do upfront research (subscribing to a prospect's list) before pitching.",
+    "truth": "Email list monetization and retention via automated flows is a real, well-established e-commerce marketing service, and the described client-finding method (subscribing to a list to personally verify the gap) is a genuinely practical validation step. Pricing figures are the presenter's own stated ranges, not independently verified, and the video promotes his free training and paid coaching.",
+    "url": "https://www.youtube.com/watch?v=jVOk8oc-a70"
   },
   {
     "id": "amazon-influencer-low-competition-product-videos",
