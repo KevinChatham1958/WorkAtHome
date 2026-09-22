@@ -145,7 +145,7 @@ function toggleSaved(id) {
 
 function updateSavedUI() {
   const countEl = document.getElementById('saved-count');
-  countEl.textContent = `${savedIds.size} gig${savedIds.size === 1 ? '' : 's'} saved`;
+  countEl.textContent = `${savedIds.size} saved`;
   document.getElementById('download-saved-btn').disabled = savedIds.size === 0;
 }
 
@@ -463,7 +463,7 @@ function buildCard(idea) {
     <div class="card-head">
       <div class="card-title-block" role="button" tabindex="0" aria-expanded="${isExpanded}">
         <img class="card-avatar" src="${escapeAttr(avatarSrc(idea.found))}" alt="" loading="lazy" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
-        <div class="card-avatar-placeholder" aria-hidden="true" hidden>No Photo</div>
+        <div class="card-avatar-placeholder" aria-hidden="true" hidden>No<br>Photo</div>
         <div class="card-title-text">
           <h3 class="card-title">${escapeHtml(toTitleCase(idea.name))}</h3>
           <p class="card-meta">${escapeHtml(idea.category)} &middot; ${escapeHtml(idea.cost)}</p>
@@ -590,18 +590,6 @@ function escapeAttr(str) {
   return (str || '').replace(/"/g, '&quot;');
 }
 
-// ---------- Back to search ----------
-
-const backToSearchBtn = document.getElementById('back-to-search-btn');
-
-window.addEventListener('scroll', () => {
-  backToSearchBtn.hidden = window.scrollY < 500;
-}, { passive: true });
-
-backToSearchBtn.addEventListener('click', () => {
-  const searchInput = document.getElementById('search-input');
-  searchInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  // Give the smooth scroll a moment to land before focusing, so the page
-  // doesn't jump again as the keyboard/focus ring appears mid-scroll.
-  setTimeout(() => searchInput.focus(), 400);
-});
+// Back to search button removed — the search tool is now sticky (see
+// .controls-row in styles.css) and never scrolls out of view, so a
+// jump-back-to-search control has nothing left to do.
