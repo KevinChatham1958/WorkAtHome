@@ -1766,6 +1766,29 @@
     "published": "2026-07-29"
   },
   {
+    "id": "vibe-coded-digital-product-own-store",
+    "name": "AI vibe-coded digital products sold through your own branded online shop",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "AI tools",
+      "vibe coding",
+      "e-commerce"
+    ],
+    "cost": "Very low startup cost (AI coding tool plus a domain)",
+    "found": "Make Money with Stacy La",
+    "what": "Research proven-selling digital templates and tools (using public sales-data tools to see exactly how many times a competing product has sold and for how much), \"vibe code\" a functional version using an AI coding platform like Hostinger Horizons, then sell it through your own branded .shop domain online store rather than a crowded third-party marketplace like Etsy.",
+    "pitch": "The presenter shows real, specific examples to justify the approach: a finance-niche budget tracker template that's sold over 20,000 times for more than $400,000, and a life planner niched down specifically for neurodivergent people with ADHD that's sold over 22,000 times for more than $350,000, arguing that competitive niches (finance, health, productivity) are actually good signals of real demand as long as you niche the specific problem down far enough. She argues against selling on marketplaces like Etsy specifically because of listing and transaction fees, competition burying your listing, and the risk of account suspension, versus owning your own store with a .shop domain and full customer data control.",
+    "best": "Someone comfortable using an AI coding tool with detailed, specific prompts (rather than vague requests) to build an actual functional product, not just a static file, and willing to set up their own branded storefront rather than relying on marketplace traffic.",
+    "truth": "The specific $400K and $350K product examples are shown as public sales data from other sellers, not the presenter's own results, and she doesn't demonstrate her own product's sales figures within the video. She recommends Horizons specifically because it integrates with her own store-building workflow and is, by her account, one of the least expensive AI coding platforms, worth noting as a product preference rather than a neutral recommendation.",
+    "url": "https://www.youtube.com/watch?v=ju7zG9bdhv4",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "published": "2026-07-23"
+  },
+  {
     "id": "seo-affiliate-topical-authority-site",
     "name": "SEO-driven affiliate content site built on topical authority",
     "category": "Marketing & content",
@@ -2553,29 +2576,6 @@
     "published": "2026-05-18"
   },
   {
-    "id": "vibe-coded-digital-product-own-store",
-    "name": "AI vibe-coded digital products sold through your own branded online shop",
-    "category": "Digital & subscription products",
-    "tags": [
-      "digital products",
-      "AI tools",
-      "vibe coding",
-      "e-commerce"
-    ],
-    "cost": "Very low startup cost (AI coding tool plus a domain)",
-    "found": "Make Money with Stacy La",
-    "what": "Research proven-selling digital templates and tools (using public sales-data tools to see exactly how many times a competing product has sold and for how much), \"vibe code\" a functional version using an AI coding platform like Hostinger Horizons, then sell it through your own branded .shop domain online store rather than a crowded third-party marketplace like Etsy.",
-    "pitch": "The presenter shows real, specific examples to justify the approach: a finance-niche budget tracker template that's sold over 20,000 times for more than $400,000, and a life planner niched down specifically for neurodivergent people with ADHD that's sold over 22,000 times for more than $350,000, arguing that competitive niches (finance, health, productivity) are actually good signals of real demand as long as you niche the specific problem down far enough. She argues against selling on marketplaces like Etsy specifically because of listing and transaction fees, competition burying your listing, and the risk of account suspension, versus owning your own store with a .shop domain and full customer data control.",
-    "best": "Someone comfortable using an AI coding tool with detailed, specific prompts (rather than vague requests) to build an actual functional product, not just a static file, and willing to set up their own branded storefront rather than relying on marketplace traffic.",
-    "truth": "The specific $400K and $350K product examples are shown as public sales data from other sellers, not the presenter's own results, and she doesn't demonstrate her own product's sales figures within the video. She recommends Horizons specifically because it integrates with her own store-building workflow and is, by her account, one of the least expensive AI coding platforms, worth noting as a product preference rather than a neutral recommendation.",
-    "url": "https://www.youtube.com/watch?v=ju7zG9bdhv4",
-    "situation_tags": [
-      "Strictly in-home",
-      "E-commerce / fulfillment"
-    ],
-    "published": "2026-07-23"
-  },
-  {
     "id": "low-ticket-digital-course-passive-income",
     "name": "Low-ticket digital course as a near-passive income stream",
     "category": "Digital & subscription products",
@@ -2639,6 +2639,30 @@
       "Phone/sales-based"
     ],
     "published": "2026-05-21"
+  },
+  {
+    "id": "gohighlevel-ai-setup-real-estate-agents",
+    "name": "GoHighLevel AI setup for real estate agents (Zillow client sourcing)",
+    "category": "Local & professional services",
+    "tags": [
+      "AI tools",
+      "real estate",
+      "GoHighLevel",
+      "lead generation",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost (software subscription)",
+    "found": "Jason Wardrop",
+    "what": "Use Zillow's own agent directory to find real estate agents who are actively selling (filterable by top agent, buyer/seller agent, and area), build each one a free AI-generated website with an embedded AI chatbot trained on their listings and reviews, then convert the free build into a paid $299 to $997 a month retainer for ongoing lead follow-up and social content.",
+    "pitch": "Wardrop, who says he worked with over 15,000 real estate agent clients from 2015 to 2021, walks through the exact mechanics: search Zillow's agent directory for a specific city, filter to top-performing agents since part-time agents likely can't afford the service, then use a single AI prompt to auto-generate a professional website, complete with a chatbot trained specifically on that agent's listings and reviews. The pitch to the agent is built on reciprocity, showing up with a finished, free website rather than asking for anything upfront.",
+    "best": "Someone comfortable with a give-first outreach approach and willing to package one repeatable offer (website plus chatbot plus lead follow-up) that can be resold to agent after agent with minimal customization.",
+    "truth": "Wardrop discloses he earns an affiliate commission from the AI software he's demonstrating and is promoting his own free workshop and course throughout the video. The underlying mechanic, Zillow as a sourcing tool, a free build as a reciprocity hook, is specific and independently testable regardless of which particular software you choose to build with.",
+    "url": "https://www.youtube.com/watch?v=nkR89x5zXBo",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-08-13"
   },
   {
     "id": "claude-local-business-website-lead-gen-retainer",
@@ -4074,30 +4098,6 @@
     "published": "2026-08-17"
   },
   {
-    "id": "gohighlevel-ai-setup-real-estate-agents",
-    "name": "GoHighLevel AI setup for real estate agents (Zillow client sourcing)",
-    "category": "Local & professional services",
-    "tags": [
-      "AI tools",
-      "real estate",
-      "GoHighLevel",
-      "lead generation",
-      "recurring revenue"
-    ],
-    "cost": "Low startup cost (software subscription)",
-    "found": "Jason Wardrop",
-    "what": "Use Zillow's own agent directory to find real estate agents who are actively selling (filterable by top agent, buyer/seller agent, and area), build each one a free AI-generated website with an embedded AI chatbot trained on their listings and reviews, then convert the free build into a paid $299 to $997 a month retainer for ongoing lead follow-up and social content.",
-    "pitch": "Wardrop, who says he worked with over 15,000 real estate agent clients from 2015 to 2021, walks through the exact mechanics: search Zillow's agent directory for a specific city, filter to top-performing agents since part-time agents likely can't afford the service, then use a single AI prompt to auto-generate a professional website, complete with a chatbot trained specifically on that agent's listings and reviews. The pitch to the agent is built on reciprocity, showing up with a finished, free website rather than asking for anything upfront.",
-    "best": "Someone comfortable with a give-first outreach approach and willing to package one repeatable offer (website plus chatbot plus lead follow-up) that can be resold to agent after agent with minimal customization.",
-    "truth": "Wardrop discloses he earns an affiliate commission from the AI software he's demonstrating and is promoting his own free workshop and course throughout the video. The underlying mechanic, Zillow as a sourcing tool, a free build as a reciprocity hook, is specific and independently testable regardless of which particular software you choose to build with.",
-    "url": "https://www.youtube.com/watch?v=nkR89x5zXBo",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ],
-    "published": "2026-08-13"
-  },
-  {
     "id": "vibe-coding-process-to-profit-framework",
     "name": "Turning a repeated manual process into a same-day AI tool",
     "category": "AI & automation",
@@ -4750,6 +4750,26 @@
     "published": "2026-09-15"
   },
   {
+    "id": "youtube-growth-agency-depth-first-research",
+    "name": "YouTube growth agency using a data-driven \"depth-first search\" topic research system",
+    "category": "Marketing & content",
+    "tags": [
+      "YouTube agency",
+      "topic research",
+      "title/thumbnail formats",
+      "lead-magnet CTAs",
+      "B2B service"
+    ],
+    "cost": "Very low startup cost (an AI tool for research, plus time; scales with hired editors/VAs as client load grows)",
+    "found": "Jake Trinder",
+    "what": "Run a YouTube channel-growth agency for businesses and personal brands by systematically researching what topics already have proven demand on YouTube (using a manual \"depth-first search\" process across search terms, outlier videos, and channel recommendations, or delegating that research to a VA or AI), then packaging validated topics with proven title/thumbnail formats, a promise-proof-plan hook structure, and value-first calls-to-action (a useful free resource/tool tied to the topic) instead of a hard sales pitch.",
+    "pitch": "The presenter runs over 100 YouTube channels for clients (citing examples like a doctor's channel going from ~1,000 to 100,000+ daily views in under a month after switching from guessed topics to validated-demand topics) and argues the core service is: validate that a specific market already searches for a topic before filming, reverse-engineer why a proven title/thumbnail format works for a given audience rather than copying it blindly, and design every video's call-to-action as a useful next step (a free tool, template, or resource) that naturally feeds a sales funnel rather than a generic pitch.",
+    "best": "Someone comfortable with content strategy and data research (or willing to delegate that research to a VA/AI) who wants to offer YouTube channel growth as a service to businesses, rather than growing only their own channel.",
+    "truth": "The core methodology \u2014 validating topic demand before producing content, and treating a channel as one cohesive audience rather than a grab-bag of videos \u2014 is sound, evidence-based content strategy that applies whether you're running this as an agency or growing your own business's channel. The presenter's cited client results (Gary Vee, Instantly AI, various six-figure claims) are his own reported case studies, not independently verified, and building this into a full agency requires real content-production capacity (editors, research staff) to service multiple clients at once.",
+    "url": "https://www.youtube.com/watch?v=Ar2DXQorEm4",
+    "published": "2026-09-08"
+  },
+  {
     "id": "wall-printer-mural-service",
     "name": "Wall printer mural service for businesses",
     "category": "Physical & print products",
@@ -4972,6 +4992,30 @@
       "Strictly in-home"
     ],
     "published": "2026-08-14"
+  },
+  {
+    "id": "ai-ugc-saas-ad-service-higgsfield-stacyla",
+    "name": "AI UGC and SaaS ad production service using Higgsfield Marketing Studio",
+    "category": "Digital & subscription products",
+    "tags": [
+      "AI UGC content",
+      "Higgsfield",
+      "SaaS ads",
+      "content agency",
+      "retainer pricing"
+    ],
+    "cost": "Low startup cost (a Higgsfield subscription)",
+    "found": "Make Money with Stacy La",
+    "what": "Use Higgsfield Marketing Studio to generate UGC-style product videos and SaaS app advertisements from just a few product photos or a product URL, no physical product or human model required, then sell these as a content service to physical-product brands or SaaS companies, packaging output into a monthly retainer (a set number of videos per month) rather than selling one-off videos.",
+    "pitch": "The presenter builds two full sample videos live in about 10 minutes each (a product UGC ad and a SaaS app ad) using only a product photo or website URL, an AI avatar, and a prompt template from Higgsfield's built-in library, then lays out a 5-step marketing plan: pick one specific niche, build a portfolio of 5-10 example videos for real brands in that niche, build a daily-updated lead list (20-30 businesses/day), do consistent outreach (10-20 businesses/day via email, DM, or calls), and bundle output into a monthly retainer (e.g., $5,000/month for a set number of videos, versus $200 per one-off video).",
+    "best": "Someone comfortable using AI video generation tools and willing to commit to one specific niche and consistent daily outreach volume, since the presenter is explicit that customer acquisition, not video quality, is the actual bottleneck.",
+    "truth": "The specific 5-step marketing plan (niche down, build proof before pitching, build a lead list, outreach at real volume, then bundle into a retainer) is more concrete and actionable than most AI-content-service pitches, and the presenter is upfront that success requires genuine outreach volume, not just good videos. No independently verified revenue figures are given for the presenter's own version of this exact service \u2014 the emphasis is on the workflow and tool, not a specific proven income result.",
+    "url": "https://www.youtube.com/watch?v=tG_IwF25p8Y",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-05-25"
   },
   {
     "id": "claude-interactive-quiz-lead-magnet-influencers",
@@ -6405,30 +6449,6 @@
     "published": "2026-08-13"
   },
   {
-    "id": "ai-ugc-saas-ad-service-higgsfield-stacyla",
-    "name": "AI UGC and SaaS ad production service using Higgsfield Marketing Studio",
-    "category": "Digital & subscription products",
-    "tags": [
-      "AI UGC content",
-      "Higgsfield",
-      "SaaS ads",
-      "content agency",
-      "retainer pricing"
-    ],
-    "cost": "Low startup cost (a Higgsfield subscription)",
-    "found": "Make Money with Stacy La",
-    "what": "Use Higgsfield Marketing Studio to generate UGC-style product videos and SaaS app advertisements from just a few product photos or a product URL, no physical product or human model required, then sell these as a content service to physical-product brands or SaaS companies, packaging output into a monthly retainer (a set number of videos per month) rather than selling one-off videos.",
-    "pitch": "The presenter builds two full sample videos live in about 10 minutes each (a product UGC ad and a SaaS app ad) using only a product photo or website URL, an AI avatar, and a prompt template from Higgsfield's built-in library, then lays out a 5-step marketing plan: pick one specific niche, build a portfolio of 5-10 example videos for real brands in that niche, build a daily-updated lead list (20-30 businesses/day), do consistent outreach (10-20 businesses/day via email, DM, or calls), and bundle output into a monthly retainer (e.g., $5,000/month for a set number of videos, versus $200 per one-off video).",
-    "best": "Someone comfortable using AI video generation tools and willing to commit to one specific niche and consistent daily outreach volume, since the presenter is explicit that customer acquisition, not video quality, is the actual bottleneck.",
-    "truth": "The specific 5-step marketing plan (niche down, build proof before pitching, build a lead list, outreach at real volume, then bundle into a retainer) is more concrete and actionable than most AI-content-service pitches, and the presenter is upfront that success requires genuine outreach volume, not just good videos. No independently verified revenue figures are given for the presenter's own version of this exact service \u2014 the emphasis is on the workflow and tool, not a specific proven income result.",
-    "url": "https://www.youtube.com/watch?v=tG_IwF25p8Y",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ],
-    "published": "2026-05-25"
-  },
-  {
     "id": "interactive-ai-digital-products-vibe-coding",
     "name": "Interactive AI-native digital products built with vibe coding",
     "category": "Digital & subscription products",
@@ -6492,6 +6512,30 @@
       "Phone/sales-based"
     ],
     "published": "2026-05-21"
+  },
+  {
+    "id": "gohighlevel-ai-upgrade-local-business-maps",
+    "name": "GoHighLevel AI upgrade for local businesses (Google Maps sourcing)",
+    "category": "Local & professional services",
+    "tags": [
+      "GoHighLevel",
+      "AI tools",
+      "local business",
+      "lead generation",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost (software subscription)",
+    "found": "Jason Wardrop",
+    "what": "Use an AI prospecting tool synced to Google Maps to find local businesses (plumbers, electricians, and similar trades) that don't have a website, build each one a free demo website automatically, then upsell a $300 to $1,500 a month \"AI upgrade\" package that adds a chat widget, voice AI receptionist, missed-call text-back, review automation, and a unified inbox, all set up through a white-labeled GoHighLevel account in under 20 seconds.",
+    "pitch": "Wardrop cites research that roughly 28-31% of small local businesses still don't have a website, and frames the free-website offer as a foot-in-the-door tactic rather than the actual product: once a business owner says yes to the free site, the AI upgrade package (which he prices at a combined $2,800/month \"total value\") is the real recurring offer. He provides an exact cold-call and text-message script for reaching business owners once their contact info and a working demo site are already in hand.",
+    "best": "Someone comfortable doing outbound phone and text outreach to local business owners, and who wants a fully templated, software-driven offer rather than building anything custom from scratch.",
+    "truth": "Wardrop discloses this is built around his own white-labeled software product and free workshop funnel, and the $2,800/month \"total value\" figure is his own bundled pricing framework rather than a documented amount any single client has actually paid. The underlying mechanic, Google Maps prospecting for businesses without websites plus a free-site-then-upsell sequence, is specific and independently testable regardless of which particular software is used to execute it.",
+    "url": "https://www.youtube.com/watch?v=PBS73aETisw",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-08-12"
   },
   {
     "id": "claude-social-media-management-local-business",
@@ -7383,6 +7427,26 @@
     "truth": "The failure mode described, generic AI scripts killing retention even with initial views, matches real YouTube algorithm mechanics, and the outlier-score research method is a genuine, commonly-used technique. The presenter's own figures are self-reported screenshots; monetization thresholds referenced are accurate as of publication but subject to change.",
     "url": "https://www.youtube.com/watch?v=Sp83h2FqOH0",
     "published": "2026-08-26"
+  },
+  {
+    "id": "genspark-ai-workspace-affiliate-business-build",
+    "name": "Building an entire affiliate marketing business (landing page, interactive lead magnet, email sequence, Pinterest content) inside one AI workspace tool",
+    "category": "Marketing & content",
+    "tags": [
+      "affiliate marketing",
+      "GenSpark AI workspace",
+      "interactive lead magnet",
+      "AI-coded landing page",
+      "Pinterest content creation"
+    ],
+    "cost": "Low (a free-tier AI workspace with credits; optional custom domain)",
+    "found": "Make Money with Stacy La",
+    "what": "Use a single all-in-one AI workspace to build every core piece of an affiliate marketing business via conversational or spoken prompts: an AI 'developer agent' codes a fully custom, mobile-responsive landing page with an email capture box from a plain-language description; the same workspace can research and suggest a profitable niche and affiliate product; build an interactive, web-app-style lead magnet (rather than a static PDF) with the affiliate link coded directly into its call-to-action button; generate a full email follow-up sequence and Pinterest pin graphics, all within the same connected project.",
+    "pitch": "The presenter says she built this entire affiliate marketing business from scratch in under an hour using only conversational prompts, positioning the interactive lead magnet as a way to stand out since she hasn't seen other affiliate marketers using anything beyond standard PDF lead magnets, and provides a companion checklist with every exact prompt used.",
+    "best": "Someone comfortable directing an AI tool conversationally to build web assets without needing to code, and willing to pick a real niche/product before starting.",
+    "truth": "AI workspace tools that code full websites and lead magnets from plain-language prompts are a real, current capability, and the core affiliate-marketing structure described reflects standard, sound fundamentals. No revenue figures are given, this is a tool-and-workflow demonstration, and the video promotes her own referral link to the platform.",
+    "url": "https://www.youtube.com/watch?v=42UsykZzCRQ",
+    "published": "2026-04-15"
   },
   {
     "id": "tiktok-viral-amazon-affiliate-content",
@@ -9892,26 +9956,6 @@
     "published": "2026-08-23"
   },
   {
-    "id": "youtube-growth-agency-depth-first-research",
-    "name": "YouTube growth agency using a data-driven \"depth-first search\" topic research system",
-    "category": "Marketing & content",
-    "tags": [
-      "YouTube agency",
-      "topic research",
-      "title/thumbnail formats",
-      "lead-magnet CTAs",
-      "B2B service"
-    ],
-    "cost": "Very low startup cost (an AI tool for research, plus time; scales with hired editors/VAs as client load grows)",
-    "found": "Jake Trinder",
-    "what": "Run a YouTube channel-growth agency for businesses and personal brands by systematically researching what topics already have proven demand on YouTube (using a manual \"depth-first search\" process across search terms, outlier videos, and channel recommendations, or delegating that research to a VA or AI), then packaging validated topics with proven title/thumbnail formats, a promise-proof-plan hook structure, and value-first calls-to-action (a useful free resource/tool tied to the topic) instead of a hard sales pitch.",
-    "pitch": "The presenter runs over 100 YouTube channels for clients (citing examples like a doctor's channel going from ~1,000 to 100,000+ daily views in under a month after switching from guessed topics to validated-demand topics) and argues the core service is: validate that a specific market already searches for a topic before filming, reverse-engineer why a proven title/thumbnail format works for a given audience rather than copying it blindly, and design every video's call-to-action as a useful next step (a free tool, template, or resource) that naturally feeds a sales funnel rather than a generic pitch.",
-    "best": "Someone comfortable with content strategy and data research (or willing to delegate that research to a VA/AI) who wants to offer YouTube channel growth as a service to businesses, rather than growing only their own channel.",
-    "truth": "The core methodology \u2014 validating topic demand before producing content, and treating a channel as one cohesive audience rather than a grab-bag of videos \u2014 is sound, evidence-based content strategy that applies whether you're running this as an agency or growing your own business's channel. The presenter's cited client results (Gary Vee, Instantly AI, various six-figure claims) are his own reported case studies, not independently verified, and building this into a full agency requires real content-production capacity (editors, research staff) to service multiple clients at once.",
-    "url": "https://www.youtube.com/watch?v=Ar2DXQorEm4",
-    "published": "2026-09-08"
-  },
-  {
     "id": "three-rs-creative-freelancer-repositioning",
     "name": "The three R's: repositioning a creative freelance service as a transformation offer",
     "category": "Marketing & content",
@@ -12320,30 +12364,6 @@
     "published": "2026-08-24"
   },
   {
-    "id": "gohighlevel-ai-upgrade-local-business-maps",
-    "name": "GoHighLevel AI upgrade for local businesses (Google Maps sourcing)",
-    "category": "Local & professional services",
-    "tags": [
-      "GoHighLevel",
-      "AI tools",
-      "local business",
-      "lead generation",
-      "recurring revenue"
-    ],
-    "cost": "Low startup cost (software subscription)",
-    "found": "Jason Wardrop",
-    "what": "Use an AI prospecting tool synced to Google Maps to find local businesses (plumbers, electricians, and similar trades) that don't have a website, build each one a free demo website automatically, then upsell a $300 to $1,500 a month \"AI upgrade\" package that adds a chat widget, voice AI receptionist, missed-call text-back, review automation, and a unified inbox, all set up through a white-labeled GoHighLevel account in under 20 seconds.",
-    "pitch": "Wardrop cites research that roughly 28-31% of small local businesses still don't have a website, and frames the free-website offer as a foot-in-the-door tactic rather than the actual product: once a business owner says yes to the free site, the AI upgrade package (which he prices at a combined $2,800/month \"total value\") is the real recurring offer. He provides an exact cold-call and text-message script for reaching business owners once their contact info and a working demo site are already in hand.",
-    "best": "Someone comfortable doing outbound phone and text outreach to local business owners, and who wants a fully templated, software-driven offer rather than building anything custom from scratch.",
-    "truth": "Wardrop discloses this is built around his own white-labeled software product and free workshop funnel, and the $2,800/month \"total value\" figure is his own bundled pricing framework rather than a documented amount any single client has actually paid. The underlying mechanic, Google Maps prospecting for businesses without websites plus a free-site-then-upsell sequence, is specific and independently testable regardless of which particular software is used to execute it.",
-    "url": "https://www.youtube.com/watch?v=PBS73aETisw",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ],
-    "published": "2026-08-12"
-  },
-  {
     "id": "manis-plr-content-to-interactive-tool-conversion",
     "name": "Converting existing PLR content and courses into interactive AI tools",
     "category": "Digital & subscription products",
@@ -12922,6 +12942,24 @@
     "url": "https://www.youtube.com/watch?v=eLAQkZx5QkE"
   },
   {
+    "id": "youtube-cross-niche-pattern-matching-hook-framework",
+    "name": "Finding proven video formats by cross-referencing outlier videos in adjacent niches, then adapting them with a hook-proof-promise-plan-persona structure",
+    "category": "Marketing & content",
+    "tags": [
+      "YouTube growth strategy",
+      "cross-niche research",
+      "video hook structure",
+      "content diagnostics"
+    ],
+    "cost": "Free (research time; optional AI tool to help identify adjacent niches)",
+    "found": "Jake Trinder",
+    "what": "Instead of only researching what's already working within your own niche, identify adjacent niches whose viewers share the same underlying intent and psychology as yours (e.g. Facebook ads, YouTube growth, LinkedIn growth, cold email, and lead generation are all adjacent for a 'grow your business' audience), and look for video formats producing consistent outlier results across multiple of those niches, since cross-niche consistency signals the format resonates with that viewer psychology broadly, not just a one-off fluke. Adapt the validated format (e.g. a 'speedrunning' format proven first in gaming, then validated again in dropshipping) into your own niche's specific topic. Structure each video around four visible elements plus an implicit fifth: a Hook, Proof (credibility matched to whatever the video specifically promised), Promise (what the viewer gets, explained early for low-awareness topics), Plan (the actual content), and Persona (making clear who the video is for) \u2014 and match your thumbnail's visual signals to the specific sub-audience you want. When a video underperforms, diagnose past surface metrics: check whether CTR, retention, or a specific moment (an awkward hard call-to-action, an off-camera teleprompter glance) is the actual cause.",
+    "pitch": "The presenter, who runs a YouTube growth agency for business-focused channels, walks through a real example: a dropshipping-niche video that validated the 'speedrunning' format (already proven for years in gaming) for a business-minded audience, which let his team confidently adapt the same format into a cold-calling/lead-generation video, and explains diagnosing an underperforming client video down to a single teleprompter glance visible on the retention graph.",
+    "best": "Someone already producing YouTube content who wants a more systematic, evidence-based way to choose formats and structure videos, rather than guessing or only copying direct competitors.",
+    "truth": "Cross-niche pattern research and outlier-video analysis are real, sound content-strategy practices grounded in how YouTube's recommendation algorithm treats viewer intent and format signals, and the specific example given is a concrete, traceable case rather than a vague claim. This is a genuinely educational discussion with no product pitch, application link, or call to action within the transcript itself, which is somewhat unusual and adds credibility relative to most similar content.",
+    "url": "https://www.youtube.com/watch?v=m2Gz54cYPk8"
+  },
+  {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
     "name": "Digistore24 affiliate marketing funnel using a free \"nurture sequence\" instead of direct-linking",
     "category": "Marketing & content",
@@ -13112,26 +13150,6 @@
     "published": "2026-09-10"
   },
   {
-    "id": "genspark-ai-workspace-affiliate-business-build",
-    "name": "Building an entire affiliate marketing business (landing page, interactive lead magnet, email sequence, Pinterest content) inside one AI workspace tool",
-    "category": "Marketing & content",
-    "tags": [
-      "affiliate marketing",
-      "GenSpark AI workspace",
-      "interactive lead magnet",
-      "AI-coded landing page",
-      "Pinterest content creation"
-    ],
-    "cost": "Low (a free-tier AI workspace with credits; optional custom domain)",
-    "found": "Make Money with Stacy La",
-    "what": "Use a single all-in-one AI workspace to build every core piece of an affiliate marketing business via conversational or spoken prompts: an AI 'developer agent' codes a fully custom, mobile-responsive landing page with an email capture box from a plain-language description; the same workspace can research and suggest a profitable niche and affiliate product; build an interactive, web-app-style lead magnet (rather than a static PDF) with the affiliate link coded directly into its call-to-action button; generate a full email follow-up sequence and Pinterest pin graphics, all within the same connected project.",
-    "pitch": "The presenter says she built this entire affiliate marketing business from scratch in under an hour using only conversational prompts, positioning the interactive lead magnet as a way to stand out since she hasn't seen other affiliate marketers using anything beyond standard PDF lead magnets, and provides a companion checklist with every exact prompt used.",
-    "best": "Someone comfortable directing an AI tool conversationally to build web assets without needing to code, and willing to pick a real niche/product before starting.",
-    "truth": "AI workspace tools that code full websites and lead magnets from plain-language prompts are a real, current capability, and the core affiliate-marketing structure described reflects standard, sound fundamentals. No revenue figures are given, this is a tool-and-workflow demonstration, and the video promotes her own referral link to the platform.",
-    "url": "https://www.youtube.com/watch?v=42UsykZzCRQ",
-    "published": "2026-04-15"
-  },
-  {
     "id": "ai-powered-digital-offer-types-gohighlevel",
     "name": "Six types of AI-powered digital offers (done-for-you services, template packs, Claude skills, AI sales bots) built mainly through GoHighLevel",
     "category": "Digital & subscription products",
@@ -13189,6 +13207,24 @@
     "best": "Someone with (or willing to hire) real development capability to deliver working AI agent builds to clients, comfortable doing direct outreach to marketing agencies rather than cold-calling end businesses directly.",
     "truth": "Claude Code's ability to plan and build a working AI quoting tool from a conversational prompt is a real, current capability demonstrated live and in detail, and the underlying business problem (unpaid time spent on manual quoting) is a genuine, quantifiable pain point. The marketing-agency referral partnership is sound business development strategy. The presenter's revenue figures are self-reported, and the video directs viewers to apply for his own paid development/referral network.",
     "url": "https://www.youtube.com/watch?v=L1lswXTpLjw"
+  },
+  {
+    "id": "ai-prospector-onboarder-agency-automation-stack",
+    "name": "Using two connected AI tools to automatically find local businesses needing a website/AI system, then onboard them into a white-label recurring software stack in under a minute",
+    "category": "Local & professional services",
+    "tags": [
+      "AI agency automation",
+      "local business prospecting",
+      "white-label GoHighLevel-style stack",
+      "AI onboarding automation"
+    ],
+    "cost": "Low (a white-labelable AI software platform subscription)",
+    "found": "Jason Wardrop",
+    "what": "Use an AI 'prospector' tool connected to Google Maps to search any industry and location, automatically pulling contact info, review counts, and whether each business already has a website, then filter for businesses without one; copy that business's Google Business Profile link into an AI website builder and generate a complete demo website from a single prompt, no design/coding skill required. Once a business agrees to become a client, use a second AI 'onboarder' tool: create a white-label sub-account, paste in their Google Business Profile link, and run a pre-built 'skill' file that automatically fills in the needed custom values and sets up their full system (website with lead capture, AI chat/voice agents, booking calendars, follow-up automations, review requests) without manual configuration. Sell the completed package as a white-label monthly subscription under your own brand, illustratively priced around $209/month per client.",
+    "pitch": "The presenter, who built and grew his own software company to over 14,000 paying clients between 2015-2021 (showing real Stripe screenshots of $15,000-20,000 daily recurring revenue as evidence), demonstrates the entire prospecting-to-onboarding workflow live and uncut in about 60 seconds, framing the traditional version of this work (a week of manual setup agencies charge $1,500-2,000/month for) as now fully automated; he cites several first-name-only individual results as illustrative rather than typical, explicitly disclaiming any income guarantee.",
+    "best": "Someone comfortable operating within a white-label AI software platform and willing to handle the actual client relationship and sales conversations, since the AI tools handle prospecting and technical setup but not closing.",
+    "truth": "AI tools that scan Google Maps for businesses lacking a website and auto-generate a working demo site, plus automated white-label sub-account onboarding via a pre-built skill file, are real, current capabilities demonstrated live on screen rather than just described. The presenter's past software-company revenue is backed by shown Stripe screenshots, though the specific client success stories cited are first-name-only and not independently verified, and the video gates a fuller paid/free workshop behind engagement actions, so that next step is promotional even though the demonstrated core workflow is real and replicable.",
+    "url": "https://www.youtube.com/watch?v=UiRmCO44KM0"
   },
   {
     "id": "tote-rental-business",
@@ -13387,6 +13423,25 @@
     "best": "Someone willing to post consistently multiple times a day and comfortable structuring scripts around a specific emotional/narrative formula.",
     "truth": "It's important to flag clearly: the video's own title claims '$1,024,937 In 90 Days,' but that exact figure is never shown, explained, or connected to any data anywhere in the actual video \u2014 the real, live-demonstrated dashboard figures total roughly $129,000 across three months on the main page, a genuine and still-substantial result, but nowhere close to the headline, which reads as unsubstantiated title exaggeration. Facebook's Reels monetization program and its engagement-based reward structure are real and accurately described, and showing a live dashboard rather than a static screenshot is more credible than most similar videos, which makes the title/content gap even more worth noting.",
     "url": "https://www.youtube.com/watch?v=E_CIP98ufto"
+  },
+  {
+    "id": "ai-affiliate-blog-seo-ranking-system",
+    "name": "Using AI tools to research keywords, choose a domain, and auto-generate SEO-optimized affiliate blog content designed to rank on Google",
+    "category": "Marketing & content",
+    "tags": [
+      "affiliate blog SEO",
+      "AI content generation",
+      "keyword research",
+      "domain strategy",
+      "Perplexity AI"
+    ],
+    "cost": "Low (a domain, roughly $99 for a niche-extension domain, an AI keyword research tool, an SEO content-writing AI subscription)",
+    "found": "Make Money with Stacy La",
+    "what": "Choose a niche that satisfies two requirements: genuine personal knowledge or passion, AND proven profitability. Buy a domain using a newer, more available extension (e.g. '.online') rather than competing for scarce '.com' names, keeping it short and including a relevant keyword. Use an AI research tool (Perplexity) with two specific prompts: one to surface high-search-volume, low-to-medium-competition keywords within the niche, and a second to find exactly what people are searching for related to a chosen keyword. Generate the actual articles with a dedicated SEO-content AI tool rather than a general chatbot: configure it to use the most recent model, target the correct country, set a readability level, auto-generate images, connect to the web for current data, and auto-publish to WordPress; for non-WordPress sites, copy the article manually. Insert affiliate links into the finished content, and build a content calendar so posts build on each other over time to establish topical authority (rewarded by Google's E-E-A-T quality framework).",
+    "pitch": "The presenter frames the video around correcting a common misconception (that Google penalizes AI-written content, when it only cares about quality signals like E-E-A-T), and provides a full free downloadable checklist walking through the exact prompts and tool settings used, framing this as a repeatable, evergreen system that compounds over time rather than producing overnight results.",
+    "best": "Someone with genuine niche knowledge willing to review and verify AI-generated content for accuracy rather than publishing it unedited, comfortable configuring several connected AI tools.",
+    "truth": "Google's E-E-A-T quality framework and its stated indifference to whether content is AI-assisted are real, publicly documented Google guidelines, and the specific tool workflow is technically accurate and current. The presenter is honest that results take time rather than promising overnight income, though the video promotes several of her own affiliate-linked tools, so those specific recommendations are promotional even though the underlying strategy is sound and tool-agnostic in principle.",
+    "url": "https://www.youtube.com/watch?v=sRaY4kjl104"
   },
   {
     "id": "faceless-affiliate-marketing-overview",
