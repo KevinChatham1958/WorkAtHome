@@ -467,7 +467,7 @@ function buildCard(idea) {
         <div class="card-title-text">
           <h3 class="card-title">${escapeHtml(toTitleCase(idea.name))}</h3>
           <p class="card-meta">${escapeHtml(idea.category)} &middot; ${escapeHtml(idea.cost)}</p>
-          ${publishedText ? `<p class="card-date">Posted ${escapeHtml(publishedText)}</p>` : ''}
+          <p class="card-date">${publishedText ? `Originally published ${escapeHtml(publishedText)} &mdash; ` : ''}${escapeHtml(idea.found)}</p>
         </div>
       </div>
       <div class="card-actions">
