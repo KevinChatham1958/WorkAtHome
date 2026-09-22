@@ -4496,6 +4496,30 @@
     "published": "2026-08-29"
   },
   {
+    "id": "ai-digital-products-genspark-etsy",
+    "name": "AI-generated digital products (Etsy-style templates, trackers, planners)",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "AI tools",
+      "Etsy",
+      "print on demand",
+      "passive income"
+    ],
+    "cost": "Low startup cost (AI subscription plus ad testing budget)",
+    "found": "THE ECOM KING",
+    "what": "Use an AI agent (the video uses GenSpark) to research which digital products, planners, trackers, templates, and similar downloadable goods, are already proven sellers on marketplaces like Etsy, generate a polished version yourself, and validate demand with paid ads before fully building the product out.",
+    "pitch": "The presenter distills the pattern from studying paid sales data on top Etsy digital-product sellers into five habits: validate demand with ads before building, target one specific person and moment rather than a broad audience, send traffic straight to a single-product page with the buy button at the top, show real proof like screenshots and numbers instead of vague promises, and use AI for a first draft that a human then edits rather than selling AI output unedited. He walks through the actual process inside GenSpark, from researching best-selling listings to generating product mockup images for the store listing.",
+    "best": "Someone comfortable with iterative testing, running small ad spends to validate an idea before investing real time building it out, rather than someone hoping to build the \"perfect\" product first.",
+    "truth": "The presenter discloses he's promoting his own affiliate link for GenSpark, and the specific case-study sales figures ($22,000, $16,000, $15,000 in 30 days for individual sellers) come from a paid third-party data tool he says he purchased access to, not something a viewer can verify directly. The underlying five-pattern framework, validate before building, niche down hard, one-page funnels, real proof, AI draft plus human edit, is sound and independently checkable advice regardless of the specific dollar figures shown.",
+    "url": "https://www.youtube.com/watch?v=Ps9c5NP3uds",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "published": "2026-08-16"
+  },
+  {
     "id": "wall-printer-mural-service",
     "name": "Wall printer mural service for businesses",
     "category": "Physical & print products",
@@ -10356,30 +10380,6 @@
     "published": "2026-09-01"
   },
   {
-    "id": "ai-digital-products-genspark-etsy",
-    "name": "AI-generated digital products (Etsy-style templates, trackers, planners)",
-    "category": "Digital & subscription products",
-    "tags": [
-      "digital products",
-      "AI tools",
-      "Etsy",
-      "print on demand",
-      "passive income"
-    ],
-    "cost": "Low startup cost (AI subscription plus ad testing budget)",
-    "found": "THE ECOM KING",
-    "what": "Use an AI agent (the video uses GenSpark) to research which digital products, planners, trackers, templates, and similar downloadable goods, are already proven sellers on marketplaces like Etsy, generate a polished version yourself, and validate demand with paid ads before fully building the product out.",
-    "pitch": "The presenter distills the pattern from studying paid sales data on top Etsy digital-product sellers into five habits: validate demand with ads before building, target one specific person and moment rather than a broad audience, send traffic straight to a single-product page with the buy button at the top, show real proof like screenshots and numbers instead of vague promises, and use AI for a first draft that a human then edits rather than selling AI output unedited. He walks through the actual process inside GenSpark, from researching best-selling listings to generating product mockup images for the store listing.",
-    "best": "Someone comfortable with iterative testing, running small ad spends to validate an idea before investing real time building it out, rather than someone hoping to build the \"perfect\" product first.",
-    "truth": "The presenter discloses he's promoting his own affiliate link for GenSpark, and the specific case-study sales figures ($22,000, $16,000, $15,000 in 30 days for individual sellers) come from a paid third-party data tool he says he purchased access to, not something a viewer can verify directly. The underlying five-pattern framework, validate before building, niche down hard, one-page funnels, real proof, AI draft plus human edit, is sound and independently checkable advice regardless of the specific dollar figures shown.",
-    "url": "https://www.youtube.com/watch?v=Ps9c5NP3uds",
-    "situation_tags": [
-      "Strictly in-home",
-      "E-commerce / fulfillment"
-    ],
-    "published": "2026-08-16"
-  },
-  {
     "id": "dual-ai-premium-coaching-offer-build",
     "name": "Building and validating a premium coaching/transformation offer using ChatGPT and Claude in different roles",
     "category": "Digital & subscription products",
@@ -11564,6 +11564,62 @@
     "published": "2025-09-09"
   },
   {
+    "id": "321-content-bucket-strategy-claude-analytics",
+    "name": "The '3-2-1' short-form content strategy: posting a mix of broad and narrow topic buckets, guided by Claude-analyzed performance data instead of guessing",
+    "category": "Marketing & content",
+    "tags": [
+      "short-form content strategy",
+      "Claude Skills",
+      "content analytics",
+      "audience targeting",
+      "lead generation via content"
+    ],
+    "cost": "Low (a Claude subscription; a content-analytics tool for pulling cross-platform performance data)",
+    "found": "The Calum Johnson Show",
+    "what": "Structure a weekly short-form content posting schedule (originally 3-2-1 = 3 broad-topic videos, 2 medium, 1 narrow) using a mental model of concentric 'rings' from broad (general business/money topics, huge reach but low buyer-fit) down to narrow (your exact ideal customer's specific problem, smaller reach but far higher conversion); use a Claude Skill that interviews you (who specifically benefits most from your content, their one core struggle) to generate a personalized visual map of these rings. Feed your own posted videos' transcripts and performance data into Claude to identify, per topic/hook/format category, which specific buckets are statistically outperforming your average, then post more in winning buckets and cut underperformers in your next batch. Explicitly separate two different content goals requiring opposite strategies: broad, viral-optimized content for brand-deal revenue, versus narrower, precisely-targeted content for converting a specific buyer into a customer or lead.",
+    "pitch": "The presenter (a guest, Callaway) reports going from a smaller following to 2 million combined subscribers across his channels over three years, with his specific 'Callaway Marketing' account reaching 60,000 followers and six figures in attributable revenue in 100 days by deliberately NOT trying to go viral, instead keeping his audience precisely aligned with buyers; he demonstrates the Claude Skill live, including a real example where analyzing 11 similar videos pinpointed the specific word difference between his best and worst performers.",
+    "best": "Someone already posting short-form content (or about to start) who wants a data-driven, testable system for choosing topics rather than guessing, comfortable using Claude Skills/connected analytics tools.",
+    "truth": "The core insight, that broad viral content and narrow conversion-focused content are genuinely different games requiring different targeting, is sound, non-obvious content-marketing logic backed by a real, live-demonstrated example. The presenter's own follower/revenue figures are self-reported, and the specific Claude Skill and analytics tool demonstrated are the guest's own paid products, so those tool recommendations are promotional even though the underlying framework doesn't require them.",
+    "url": "https://www.youtube.com/watch?v=lZc30sUfx64"
+  },
+  {
+    "id": "gohighlevel-repeatable-template-website-retainer",
+    "name": "Selling one repeatable GoHighLevel website template (not a custom build per client) to local businesses as a $297/month system, with SEO as a follow-on upsell",
+    "category": "Local & professional services",
+    "tags": [
+      "GoHighLevel",
+      "repeatable website template",
+      "local business retainer",
+      "missed-call-text-back",
+      "SEO upsell"
+    ],
+    "cost": "Low (a GoHighLevel subscription)",
+    "found": "The Savvy Couple - Kelan & Brittany",
+    "what": "Instead of custom-building a different website for every client, build ONE repeatable GoHighLevel website system with the core pieces nearly every local business needs (homepage, service pages, lead form, chat widget, missed-call-text-back, 5-star review automation, text remarketing, mobile app control), then customize branding/content per client rather than rebuilding structure from scratch; price it as a $297/month system (no upfront fee) positioned as 'a website that captures leads and follows up faster,' not a design service. Find first clients via Google Maps searches for local businesses with a poor or missing website. Once a client has the website running, upsell to a $500-997/month local SEO add-on as the website becomes their marketing system's 'front door.'",
+    "pitch": "The presenter cites the conversion math behind missed-call-text-back (responding within 5 minutes vs. the average 30-minute response yields roughly 21x higher conversion), shows real live examples across actual clients (pressure washing, roofing, junk removal, cleaning, a dance studio) all on the same repeatable template, and explains his pricing evolution from $1,500-5,000 custom builds to $297/month using an AI-assisted build prompt.",
+    "best": "Someone willing to build and refine one solid template system rather than customizing from scratch per client, comfortable prospecting local businesses via Google Maps.",
+    "truth": "GoHighLevel's missed-call-text-back, review automation, and mobile-app features are real, current platform capabilities, and the response-time-to-conversion statistic cited is a widely-referenced industry figure. This general offer type is already covered from multiple angles elsewhere in this database, though the 'one repeatable template, not custom per client' insight and concrete real-client examples here are a distinct contribution; the video promotes the presenter's own paid community and a proprietary AI prompt.",
+    "url": "https://www.youtube.com/watch?v=YGAJr9be5TA"
+  },
+  {
+    "id": "cardboard-furniture-craft-resale",
+    "name": "Building wood-like furniture from free cardboard using a layering and wood-glue hardening technique, then reselling it",
+    "category": "Physical & print products",
+    "tags": [
+      "cardboard furniture",
+      "upcycled craft product",
+      "wood glue hardening technique",
+      "eco-friendly furniture"
+    ],
+    "cost": "Very low (roughly $9 in materials per piece; cardboard itself is free)",
+    "found": "The Vision Bros",
+    "what": "Collect free cardboard boxes and cut pieces to a furniture design (a small nightstand demonstrated), layer and glue multiple sheets for strength, tape and square off all edges with masking tape for durability, then brush on a 50/50 mixture of water and wood glue over the entire piece and let it dry for several hours, hardening the cardboard so it can be sanded like real wood; finish with peel-and-stick vinyl wrap, and for load-bearing surfaces, sandwich a layer of cheap hardboard between two layers of cardboard for extra strength.",
+    "pitch": "The presenter builds a complete cardboard nightstand on camera, then breaks down the exact material cost (about $9 total: free cardboard, ~$1.75 in wood glue, $2 in masking tape, $5 in vinyl wrap), estimating the finished piece could sell for $40-60 depending on finish, suggesting it be marketed as lightweight, eco-friendly, or custom-made.",
+    "best": "Someone comfortable with basic hands-on crafting and patient with a multi-hour drying process, willing to build a small inventory to sell.",
+    "truth": "The wood-glue-and-water hardening technique for cardboard is a real, documented upcycling method, and the build is shown step-by-step with a genuine cost breakdown. The $40-60 resale estimate is the presenter's own suggestion, not a demonstrated sale, so actual market demand would need to be tested by the person making it.",
+    "url": "https://www.youtube.com/watch?v=m-cifah2fV8"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -12375,6 +12431,25 @@
     "best": "Someone willing to study real comparable channels' data before choosing a niche, rather than guessing, and willing to test with a real batch of videos before fully committing.",
     "truth": "The specific analytical signals described (outlier recency, RPM varying by content category, small-channel proof-of-concept batches) reflect genuine, practical YouTube-growth knowledge, and the channels/figures shown are real, current, and independently viewable on YouTube. The video promotes the presenter's own free community and an upcoming paid-adjacent workshop, so that next step is promotional, though the core research methodology doesn't depend on joining it.",
     "url": "https://www.youtube.com/watch?v=c3t0HML-v9s"
+  },
+  {
+    "id": "claude-everbe-triangulated-digital-product-research",
+    "name": "Validating a high-ticket digital product idea across three independent data sources (Etsy sales scraping, ad-library confirmation, keyword volume) using Claude before building it",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital product research",
+      "Claude MCP integration",
+      "Etsy market data",
+      "Facebook ad library validation",
+      "high-ticket digital products"
+    ],
+    "cost": "Low (an Etsy-research tool, optionally a paid ad-spy tool, a .store domain)",
+    "found": "THE ECOM KING",
+    "what": "Connect a paid Etsy-scraping research tool to Claude via MCP and have Claude pull the top-selling digital product listings and highest-volume search keywords across all categories, then research and shortlist specific product ideas within the highest-demand niches; cross-validate each candidate using a second, independent signal \u2014 a paid ad-spy tool or Facebook's free public Ad Library \u2014 to confirm brands are actually running ads for that product type, since a real winning product shows up validated on multiple independent signals rather than just one. Apply a six-point filter: the ad has run 60+ days, the reference Etsy listing makes $2,000+/month, it's priced $20+, it has real reviews, it solves a boring everyday problem rather than chasing a trend, and you could build a better version yourself in a day. Sell the resulting product independently (your own website, not Etsy) since Etsy's price competition compresses margins, using Claude to build the site and write ad scripts.",
+    "pitch": "The presenter shows his real Stripe dashboard with $218,000 gross volume and $180,000 net from selling high-ticket digital products averaging $241 each, arguing the model is low-risk since digital products carry no inventory or shipping cost; he walks through the full live research workflow, framing using multiple AI tools together, rather than picking just one, as the key decision.",
+    "best": "Someone comfortable connecting and coordinating multiple AI tools/connectors, willing to apply a strict, multi-source validation filter before committing time to building a product.",
+    "truth": "Etsy-scraping research tools, Claude's MCP connectors, and cross-validating ideas against ad-library activity are real, current, technically accurate capabilities as demonstrated live, and requiring confirmation across multiple independent signals is sound, disciplined validation practice. The presenter's Stripe figures are self-reported screenshots, and the video includes a paid sponsorship segment for a domain registrar, so that recommendation is promotional.",
+    "url": "https://www.youtube.com/watch?v=oN9LcIA_rt8"
   },
   {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
