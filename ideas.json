@@ -2665,6 +2665,28 @@
     "published": "2026-08-13"
   },
   {
+    "id": "ai-niche-lock-playbook",
+    "name": "The one-year AI niche lock-in playbook",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "roadmap",
+      "content creation",
+      "beginner friendly"
+    ],
+    "cost": "Low startup cost",
+    "found": "Sabrina Ramonov",
+    "what": "A strategy framework, not one specific business: pick a single narrow area within AI, commit to learning only that area for three months without monetizing, then spend a full year building a public audience and offer around it before switching to anything else.",
+    "pitch": "Ramonov, who previously built and sold an AI company, argues that most people fail not from picking the wrong niche but from switching niches too early; she cites one entrepreneur who went from zero to $50,000 a month in six months by building a focused community around one specific skill rather than a broad product.",
+    "best": "Someone early in exploring AI as a business who hasn't yet committed to one lane, and who's willing to build in public through content for a sustained period before expecting income.",
+    "truth": "This overlaps conceptually with the existing \"Landing your first AI consulting client using Claude\" roadmap entry already in the database, both push pick-a-niche-and-build-in-public advice. This version's distinguishing piece is the explicit one-year commitment framework and the three-month no-monetization learning period, a specific, checkable claim rather than vague encouragement. Results depend heavily on consistency and the specific niche chosen, neither of which the video can guarantee.",
+    "url": "https://www.youtube.com/watch?v=WvsWbgE_kWg",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-02-13"
+  },
+  {
     "id": "claude-local-business-website-lead-gen-retainer",
     "name": "Building websites and lead-capture automations for local businesses that don't have one, with a monthly hosting retainer",
     "category": "Local & professional services",
@@ -4162,28 +4184,6 @@
       "Strictly in-home"
     ],
     "published": "2026-08-24"
-  },
-  {
-    "id": "ai-niche-lock-playbook",
-    "name": "The one-year AI niche lock-in playbook",
-    "category": "AI & automation",
-    "tags": [
-      "AI tools",
-      "roadmap",
-      "content creation",
-      "beginner friendly"
-    ],
-    "cost": "Low startup cost",
-    "found": "Sabrina Ramonov",
-    "what": "A strategy framework, not one specific business: pick a single narrow area within AI, commit to learning only that area for three months without monetizing, then spend a full year building a public audience and offer around it before switching to anything else.",
-    "pitch": "Ramonov, who previously built and sold an AI company, argues that most people fail not from picking the wrong niche but from switching niches too early; she cites one entrepreneur who went from zero to $50,000 a month in six months by building a focused community around one specific skill rather than a broad product.",
-    "best": "Someone early in exploring AI as a business who hasn't yet committed to one lane, and who's willing to build in public through content for a sustained period before expecting income.",
-    "truth": "This overlaps conceptually with the existing \"Landing your first AI consulting client using Claude\" roadmap entry already in the database, both push pick-a-niche-and-build-in-public advice. This version's distinguishing piece is the explicit one-year commitment framework and the three-month no-monetization learning period, a specific, checkable claim rather than vague encouragement. Results depend heavily on consistency and the specific niche chosen, neither of which the video can guarantee.",
-    "url": "https://www.youtube.com/watch?v=WvsWbgE_kWg",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-02-13"
   },
   {
     "id": "ai-seo-consulting-upwork",
@@ -6536,6 +6536,29 @@
       "Phone/sales-based"
     ],
     "published": "2026-08-12"
+  },
+  {
+    "id": "30-day-personal-brand-launch-copy-proven-hooks",
+    "name": "30-day personal brand launch system built on copying proven video hooks before creating original content",
+    "category": "Content & personal brand",
+    "tags": [
+      "personal brand",
+      "content strategy",
+      "video hooks",
+      "TikTok",
+      "niche selection framework"
+    ],
+    "cost": "Free to start (just a smartphone; no equipment or editing software required)",
+    "found": "Sabrina Ramonov",
+    "what": "Choose a content niche using a three-circle framework (something you enjoy, something you're good at, and something people already spend money on), then for the first 17 videos, deliberately copy the exact opener/hook (word-for-word script, visual style, and delivery) from other creators' already-proven, high-view videos in that niche \u2014 swapping in your own specific content after the hook \u2014 before transitioning to fully original content once you've built intuition for what makes an opener work.",
+    "pitch": "The presenter, who grew to 3 million followers and sold her first AI company for over $10 million, argues that copying proven openers isn't cheating but is how most successful creators actually got their first wins, since a hook already getting hundreds of thousands of views has effectively been \"voted\" successful by a large audience; she recommends no special equipment (a phone's front camera and the TikTok app's built-in teleprompter feature are enough) and to treat the first 17 videos explicitly as a practice period rather than expecting immediate original success.",
+    "best": "Someone willing to be on camera and comfortable being explicitly imitative early on as a deliberate learning strategy, rather than feeling pressure to be original from video one.",
+    "truth": "The specific, unusually candid method (systematically copying proven hooks for a defined 17-video practice period, not \"be authentic\" platitudes) is a genuinely more actionable strategy than most creator-growth advice, and treating early videos as practice rather than a launch reduces the pressure that stops many people from starting. Growing to 3 million followers and an eight-figure exit represent an extreme outlier outcome, not a typical result, even if the specific tactic described is legitimately useful on its own.",
+    "url": "https://www.youtube.com/watch?v=TePQevG_Dgc",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-24"
   },
   {
     "id": "claude-social-media-management-local-business",
@@ -12101,6 +12124,61 @@
     "url": "https://www.youtube.com/watch?v=aaxdNBoT0OU"
   },
   {
+    "id": "ten-remote-jobs-for-over-50",
+    "name": "Ten remote job types well-suited to workers over 50, each with real pay ranges and where to apply",
+    "category": "Local & professional services",
+    "tags": [
+      "remote jobs",
+      "over 50 careers",
+      "career change",
+      "work from home employment"
+    ],
+    "cost": "Free (standard job application; some require certification investment)",
+    "found": "Second Act Brand",
+    "what": "Apply to one of ten remote job categories: virtual project manager ($75K-140K/year, apply via We Work Remotely/Remote.co/LinkedIn); online course creator ($1K-10K+/month passive income via Udemy/Teachable/WordPress+LearnPress); grant writer ($30-125/hour, apply via Upwork/Grant Professionals Association); corporate trainer/facilitator ($65K-100K/year or $40-75/hour contracting, apply via LinkedIn/Indeed); real estate agent ($50K-100K/year commission-based, requires state licensing); medical/legal transcriptionist ($18-32/hour, 60+ WPM typing, apply via Rev/TranscribeMe or specialized firms); business/life coach ($60-250/hour, apply via LinkedIn/International Coaching Federation directory); freelance writer/editor ($30-75/hour, apply via ProBlogger/Upwork/Contently); virtual assistant for professionals ($22-40/hour, apply via Belay/Boldly/Time etc.); and content creator around your own expertise (variable income via ads/sponsors/products, built on YouTube/WordPress/Anchor FM).",
+    "pitch": "The presenter, who started her own content-creation business after a layoff last year, ranks content creation as her top pick since it's what she's personally doing now, while being candid that top earners in that category make far more than she currently does, and gives a realistic reality-check caveat for each of the ten jobs.",
+    "best": "Someone over 50 looking for a remote career shift, with the specific job fitting different existing skill sets (organizational, writing, teaching, sales, or a personal passion/expertise).",
+    "truth": "All ten job categories, their pay ranges, and the named application platforms are real, established parts of the current remote job market, and the presenter's honest reality-check caveats for each add credibility. No verified personal earnings figures are given for the presenter's own business specifically.",
+    "url": "https://www.youtube.com/watch?v=DlouOR3iwLE"
+  },
+  {
+    "id": "ai-model-training-data-labeling-platforms",
+    "name": "Getting paid to train AI models (data labeling, prompt writing, response evaluation) through platforms open to workers worldwide",
+    "category": "Local & professional services",
+    "tags": [
+      "AI training work",
+      "data labeling",
+      "RLHF",
+      "Scale AI",
+      "Appen"
+    ],
+    "cost": "Free (standard signup; a laptop and internet connection)",
+    "found": "Talk with Richey",
+    "what": "Sign up for a platform that pays contractors to help train AI models: reviewing AI responses, correcting mistakes, writing prompts, and evaluating output quality. The presenter tests Handshake AI specifically but is upfront it requires a bachelor's/master's/doctoral degree and a valid US or Canada work permit; for workers outside those requirements, he names four alternatives accepting contractors from most countries: Scale AI (largest, data labeling and RLHF evaluation), Appen CloudGen (170+ countries, accepts zero-experience starters), Surge AI (more specialized, higher-quality projects), and Mindrift (newer, 800,000+ vetted trainers). Work typically starts with basic tasks and levels up into higher-paying specialized evaluation work over time.",
+    "pitch": "The presenter tracked every dollar over a full week testing Handshake AI himself, and is transparent that his realistic earnings were $450-525 for about 15 hours of work \u2014 not the '$75-300/hour' headline rates advertised; he cites one person who started on a similar platform doing basic annotation at $15/hour and, eight months later, was doing specialized RLHF work at $65/hour on the same platform.",
+    "best": "Someone comfortable with detail-oriented evaluation/writing work, willing to start at lower pay and build toward specialized, higher-paying work over time.",
+    "truth": "Handshake AI, Scale AI, Appen, Surge AI, and Mindrift are all real, verifiable AI-training platforms, and the presenter's transparency about his actual $450-525 weekly earnings (versus advertised headline rates) and Handshake AI's real eligibility restrictions is far more credible than simply repeating the marketing numbers. The skill-progression example is a secondhand account, not independently verified, though presented as illustrative rather than typical.",
+    "url": "https://www.youtube.com/watch?v=d5xEGLrf3IM"
+  },
+  {
+    "id": "faceless-motivational-content-linked-digital-product",
+    "name": "Running a faceless motivational-quote content channel that links to a rebranded pre-made digital product (ebook, journal, or planner)",
+    "category": "Content & personal brand",
+    "tags": [
+      "faceless YouTube channel",
+      "motivational content",
+      "PLR digital product",
+      "AI-generated quotes"
+    ],
+    "cost": "Very low (free Canva, free ChatGPT; a pre-made or PLR digital product template)",
+    "found": "SamTheCoach",
+    "what": "Pick a niche-specific faceless content channel format (the presenter runs several: budgeting, debt payoff, remote-job resume advice, motivational, biblical, and a kids channel, recommending motivational content as the easiest starting point), source aesthetic already-viral-style faceless video clips, generate a relevant motivational quote with ChatGPT, paste it as a text overlay onto the clip using Canva (including the free version), and post across YouTube, TikTok, Instagram, and Facebook; link a digital product in the description (the presenter's own example is a generic gratitude journal template with only the cover image changed) so viewers who resonate can buy it directly, earning both ad revenue and product sales.",
+    "pitch": "The presenter claims $613,000 in digital product sales over the past 30 days and cites one student testimonial (a former daycare owner reporting her first sales after buying the presenter's paid program), framing the technique as accessible to complete beginners with no selling experience or existing audience required.",
+    "best": "Someone comfortable posting faceless content consistently across multiple platforms and willing to start with a simple, largely-templated product rather than building something highly differentiated.",
+    "truth": "No revenue proof (a dashboard, a sales screenshot, anything) is shown on screen at any point despite the specific $613,000 headline figure, and the single testimonial cited is a first-name-only account with no independent verification. The underlying technique (reused stock reels, an AI-generated quote overlay, a lightly-rebranded template product) is real and does work as a simple, low-effort combination, but it's also generic and easily replicated simultaneously by many creators, meaning individual results will vary widely. The video is structured almost entirely around promoting the presenter's own paid course, community, and weekly coaching calls, so treat the specific claims as promotional rather than an independently demonstrated result.",
+    "url": "https://www.youtube.com/watch?v=PCTp9_Ud9PQ"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -12420,29 +12498,6 @@
     "truth": "The presenter is unusually candid that results vary enormously \u2014 he explicitly says he has abandoned channels that flopped and had a million-subscriber channel deleted by YouTube \u2014 and notes his own current channel's RPM ($4/1,000 views) is far below the outlier $31/1,000 figure some channels see, directly pushing back on hype from other faceless-YouTube content. VidRush is described as genuinely expensive (from $99/month, about $3/minute of output), and revenue figures for other channels come from third-party estimator tools, not verified statements, so all dollar figures here should be read as rough and highly variable rather than typical.",
     "url": "https://www.youtube.com/watch?v=TZuevEe3YV4",
     "published": "2026-09-07"
-  },
-  {
-    "id": "30-day-personal-brand-launch-copy-proven-hooks",
-    "name": "30-day personal brand launch system built on copying proven video hooks before creating original content",
-    "category": "Content & personal brand",
-    "tags": [
-      "personal brand",
-      "content strategy",
-      "video hooks",
-      "TikTok",
-      "niche selection framework"
-    ],
-    "cost": "Free to start (just a smartphone; no equipment or editing software required)",
-    "found": "Sabrina Ramonov",
-    "what": "Choose a content niche using a three-circle framework (something you enjoy, something you're good at, and something people already spend money on), then for the first 17 videos, deliberately copy the exact opener/hook (word-for-word script, visual style, and delivery) from other creators' already-proven, high-view videos in that niche \u2014 swapping in your own specific content after the hook \u2014 before transitioning to fully original content once you've built intuition for what makes an opener work.",
-    "pitch": "The presenter, who grew to 3 million followers and sold her first AI company for over $10 million, argues that copying proven openers isn't cheating but is how most successful creators actually got their first wins, since a hook already getting hundreds of thousands of views has effectively been \"voted\" successful by a large audience; she recommends no special equipment (a phone's front camera and the TikTok app's built-in teleprompter feature are enough) and to treat the first 17 videos explicitly as a practice period rather than expecting immediate original success.",
-    "best": "Someone willing to be on camera and comfortable being explicitly imitative early on as a deliberate learning strategy, rather than feeling pressure to be original from video one.",
-    "truth": "The specific, unusually candid method (systematically copying proven hooks for a defined 17-video practice period, not \"be authentic\" platitudes) is a genuinely more actionable strategy than most creator-growth advice, and treating early videos as practice rather than a launch reduces the pressure that stops many people from starting. Growing to 3 million followers and an eight-figure exit represent an extreme outlier outcome, not a typical result, even if the specific tactic described is legitimately useful on its own.",
-    "url": "https://www.youtube.com/watch?v=TePQevG_Dgc",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-24"
   },
   {
     "id": "stacking-ai-income-streams",
@@ -13225,6 +13280,25 @@
     "best": "Someone comfortable operating within a white-label AI software platform and willing to handle the actual client relationship and sales conversations, since the AI tools handle prospecting and technical setup but not closing.",
     "truth": "AI tools that scan Google Maps for businesses lacking a website and auto-generate a working demo site, plus automated white-label sub-account onboarding via a pre-built skill file, are real, current capabilities demonstrated live on screen rather than just described. The presenter's past software-company revenue is backed by shown Stripe screenshots, though the specific client success stories cited are first-name-only and not independently verified, and the video gates a fuller paid/free workshop behind engagement actions, so that next step is promotional even though the demonstrated core workflow is real and replicable.",
     "url": "https://www.youtube.com/watch?v=UiRmCO44KM0"
+  },
+  {
+    "id": "five-free-ai-tools-bootstrapped-business-stack",
+    "name": "A five-tool free AI stack for running a bootstrapped business end to end: decision-making, content research, website building, customer support, and version control",
+    "category": "Digital & subscription products",
+    "tags": [
+      "NotebookLM",
+      "AI customer support automation",
+      "free website builder",
+      "GitHub version control",
+      "bootstrapped SaaS"
+    ],
+    "cost": "Very low (all five tools have functional free tiers; only ongoing cost is chatbot API usage for the support automation)",
+    "found": "Sabrina Ramonov",
+    "what": "Use five connected free tools to run a business without a team or budget: (1) NotebookLM as a personal 'business coach' \u2014 feed it a curated set of videos/files from a specific expert, describe your own situation and constraints, and ask what that expert would do, getting an answer grounded in and cited back to the source material with a visual mind map; (2) a social-media research tool (Apify) to find already-viral posts on your topic, then remix a proven structure into your own version; (3) a free open-source site builder (Astro) plus free hosting (Vercel) to build a website editable afterward just by asking Claude or ChatGPT to update it directly; (4) a free open-source automation tool connected to your help docs and a chatbot API to auto-answer common support questions and escalate to you with full context only when needed; (5) GitHub as a version-control 'undo button' for the entire business, so a broken update can be instantly rolled back to the last working version.",
+    "pitch": "The presenter says she grew her business from $0 to $1 million with no team, no budget, and no ad spend using this exact five-tool stack, walking through a real recent incident where a new feature broke customer login entirely and GitHub let her restore the last working version within minutes.",
+    "best": "Someone building or running a small business solo who wants a genuinely free, connected toolchain, comfortable directing AI tools conversationally rather than using traditional drag-and-drop software.",
+    "truth": "All five tools are real, current, and technically accurately described, and the specific mechanics are demonstrated with real, specific personal examples rather than vague claims. The presenter's $1 million revenue figure is self-reported and not independently audited, though the described tool workflow itself is fully verifiable and reproducible regardless of her specific results.",
+    "url": "https://www.youtube.com/watch?v=75tja_RxKn4"
   },
   {
     "id": "tote-rental-business",
