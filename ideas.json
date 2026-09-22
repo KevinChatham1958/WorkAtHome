@@ -427,6 +427,45 @@
     "published": "2026-08-14"
   },
   {
+    "id": "single-product-niche-ecommerce",
+    "name": "Single-product niche e-commerce",
+    "category": "E-commerce",
+    "tags": [
+      "e-commerce",
+      "SEO",
+      "needs product sourcing"
+    ],
+    "cost": "Varies, product sourcing and inventory cost",
+    "found": "Tim Richard",
+    "what": "Build a brand around one physical product by targeting a high-demand, low-SEO-competition keyword niche, rather than competing in a crowded general category.",
+    "pitch": "Several real examples are cited doing $80,000 to $600,000-plus a month by finding an underserved keyword niche and building the whole store around ranking for it, using tools like Ahrefs to spot the opportunity.",
+    "best": "Someone comfortable with keyword research and content strategy who's also willing to handle physical product sourcing and fulfillment.",
+    "truth": "The presenter explicitly caveats that these figures are estimates from public traffic data, not verified financials, and reminds viewers no results are guaranteed. The keyword-research method is genuinely teachable and useful even if the specific revenue numbers should be taken with caution.",
+    "url": "https://www.youtube.com/watch?v=Z0YOWKKNSU0",
+    "situation_tags": [
+      "E-commerce / fulfillment"
+    ],
+    "published": "2026-04-14"
+  },
+  {
+    "id": "plastic-shredder-flake-resale",
+    "name": "Shredding free plastic waste from local businesses into flakes and selling them to manufacturers",
+    "category": "Local & professional services",
+    "tags": [
+      "plastic recycling",
+      "plastic shredder",
+      "flake resale",
+      "free waste sourcing"
+    ],
+    "cost": "Very low ($300 for the machine)",
+    "found": "Wealth Unlocked",
+    "what": "Buy a small plastic shredder (handles 10 plastic types including PVC, PET, ABS, polypropylene) and collect plastic waste (bottles, containers, caps, bins) for free from restaurants, residential complexes, and supermarkets who are glad to have it hauled away, shred it into flakes, and sell the flakes to injection molding shops and 3D-printing filament makers who buy them as raw material.",
+    "pitch": "The presenter frames the sourcing side as the real insight: businesses give away plastic waste not out of generosity but because storing and disposing of it is a genuine cost and hassle for them, so showing up to take it away solves their problem for free.",
+    "best": "Someone with space to store and process plastic waste and willing to build relationships with local businesses generating it daily.",
+    "truth": "Plastic shredding for flake resale to manufacturers is a real, established small-recycling business model. No specific personal revenue figures are given.",
+    "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
+  },
+  {
     "id": "pressure-washing-business-trash-can-upsell",
     "name": "Pressure washing business with a trash can cleaning upsell",
     "category": "Local & professional services",
@@ -1226,6 +1265,41 @@
       "Local travel required"
     ],
     "published": "2026-08-14"
+  },
+  {
+    "id": "water-heater-replacement-niche-seo-leadgen",
+    "name": "Building a hyper-niche website targeting only 'water heater replacement' searches, then referring the leads to a plumber for a cut",
+    "category": "Local & professional services",
+    "tags": [
+      "local SEO lead generation",
+      "water heater replacement",
+      "niche service website",
+      "referral fee model"
+    ],
+    "cost": "Low (website hosting; SEO tool subscription for keyword research)",
+    "found": "Tim Richard",
+    "what": "Build a website focused exclusively on water heater replacement/repair (not general plumbing), targeting specific high-volume, low-competition keywords ('water heater replacement,' 'water heater replacement near me,' 'water heater repair'), rank it for a specific city using dedicated content pages, then either fulfill the service yourself or route the resulting leads to a plumber/contractor for a referral cut, replicable city by city.",
+    "pitch": "The presenter cites a real plumber who flipped his entire business to focus only on water heater replacement after noticing it was his most profitable, under-targeted service, now making $700,000/year and ranking #1 in his town; keyword research shows 'water heater replacement' gets 112,000 monthly searches nationally at a 0/100 difficulty score, which the presenter says is the easiest single home-service keyword he's ever found.",
+    "best": "Someone willing to learn basic SEO/keyword research and either perform the service themselves or build referral relationships with local plumbers.",
+    "truth": "The cited search-volume and keyword-difficulty figures come from a named third-party SEO tool (Ahrefs) and are independently checkable, and the underlying niche-SEO-plus-referral-or-fulfillment model is a real, established local-service business approach. The $700,000/year case study is one specific example the presenter found, not independently verified, and he's explicit that results aren't guaranteed.",
+    "url": "https://www.youtube.com/watch?v=iWmTuDAHl7Q"
+  },
+  {
+    "id": "hydraulic-baler-compaction-service",
+    "name": "Compacting recyclable materials with a hydraulic baler, both for better recycling-center payouts and as a paid compaction service for other businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "hydraulic baler",
+      "material compaction service",
+      "recycling center payout"
+    ],
+    "cost": "Moderate ($690-1,500 depending on size)",
+    "found": "Wealth Unlocked",
+    "what": "Buy a hydraulic baler (10 tons of pressure, compacts plastic, cardboard, or textiles into dense bales) to compress your own recyclable material before selling it to a recycling center, since compacted material pays more per load (it saves the buyer transportation and handling costs); separately, offer the same compaction as a paid service to stores, warehouses, and supermarkets that generate cardboard daily but don't have space or budget for their own baler.",
+    "pitch": "The presenter frames the baler as a profit multiplier rather than just workshop organization equipment, since recycling centers pay more for compacted material, and highlights the underused second income stream: charging other businesses $690-1,500 to compact their own cardboard on-site.",
+    "best": "Someone already collecting recyclable material who wants better payouts, or willing to offer compaction as a standalone service to local businesses.",
+    "truth": "Hydraulic balers and their role in improving recycling-center payouts are real, standard industry equipment and practice. No specific personal revenue figures are given.",
+    "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
   },
   {
     "id": "airbnb-turnover-cleaning-property-portfolios",
@@ -2104,6 +2178,42 @@
       "Requires a license or certification"
     ],
     "published": "2026-08-14"
+  },
+  {
+    "id": "basketball-hoop-installation-subcontractor-network",
+    "name": "Running a nationwide basketball hoop installation booking service using local subcontractors in each city",
+    "category": "Local & professional services",
+    "tags": [
+      "installation service booking",
+      "subcontractor network",
+      "B2B outreach",
+      "national local-service brand"
+    ],
+    "cost": "Low (a simple booking website; no equipment needed since subcontractors provide their own)",
+    "found": "Tim Richard",
+    "what": "Build a website and brand focused solely on basketball hoop installation, operating across many states/cities by dispatching each job to a local handyman/contractor subcontractor rather than doing installations personally; grow the client base partly through B2B outreach to companies that sell basketball hoops online, offering to handle installation referrals for their customers.",
+    "pitch": "The presenter found a real company (basketballhoopinstall.com) operating this exact model across Arizona, Colorado, Georgia, Indiana, Kansas, and more, using local subcontractors in each market rather than a single local crew.",
+    "best": "Someone comfortable managing a network of subcontractors across multiple markets and doing direct B2B outreach to hoop retailers rather than performing installations themselves.",
+    "truth": "This is a real, verifiable company operating exactly as described, and the subcontractor-dispatch-plus-B2B-referral model is a sound, replicable structure for a narrow installation niche. No specific revenue figures are given for this particular business.",
+    "url": "https://www.youtube.com/watch?v=iWmTuDAHl7Q"
+  },
+  {
+    "id": "used-oil-purification-biodiesel-service",
+    "name": "Purifying free used cooking or motor oil into biodiesel feedstock with a mobile filtration machine",
+    "category": "Local & professional services",
+    "tags": [
+      "used oil purification",
+      "biodiesel feedstock",
+      "mobile recycling service",
+      "restaurant waste oil"
+    ],
+    "cost": "Low ($865 for the machine)",
+    "found": "Wealth Unlocked",
+    "what": "Buy a portable oil purification machine (100-micron filter, 75kg, fits in a pickup truck) and collect used cooking oil from restaurants (who are eager to have it hauled away rather than clogging drains or paying disposal fees) or used motor oil from repair shops, filter it clean, and sell the purified oil as biodiesel feedstock to farmers, transportation companies, and local fleets, or as filtered motor oil to repair shops.",
+    "pitch": "The presenter frames this as a business where the raw material comes to you for free and the supplier is grateful, highlighting that the same machine serves two separate markets (cooking oil for biodiesel, motor oil for repair shops) depending on which filter setting you use.",
+    "best": "Someone comfortable with a mobile, route-based collection model, willing to build relationships with restaurants and repair shops as ongoing suppliers.",
+    "truth": "Used cooking oil and motor oil purification for biodiesel/resale is a real, established waste-arbitrage niche. No specific personal revenue figures are given.",
+    "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
   },
   {
     "id": "amazon-influencer-program-product-videos",
@@ -3099,6 +3209,41 @@
       "Needs a truck or cargo vehicle"
     ],
     "published": "2026-08-14"
+  },
+  {
+    "id": "tree-swing-installation-social-referral-service",
+    "name": "Offering tree swing installation as a add-on service, growing through local Facebook community page endorsements",
+    "category": "Local & professional services",
+    "tags": [
+      "tree swing installation",
+      "local Facebook marketing",
+      "niche installation add-on service"
+    ],
+    "cost": "Low (materials for the swing itself run roughly $500-700 per job, often paid by the customer)",
+    "found": "Tim Richard",
+    "what": "Offer tree swing installation, either as a standalone service or as an add-on to an existing tree-care/climbing business, and grow it by asking happy customers to post a photo and endorsement on their local Facebook community page (which the presenter says spreads unusually well for this specific service); also consider partnering directly with online tree-swing retailers who need a referral network of local installers for the swings they sell.",
+    "pitch": "The presenter cites a real tree-climbing company that has done over 500 tree swing installations (worth $250,000+ at the low end of the $500-700 price range) as a side offering to their main business, with a waitlist of over 50 people despite it not being their primary focus.",
+    "best": "Someone with (or able to build a relationship with) tree-climbing/arborist skills, comfortable using local Facebook groups for word-of-mouth marketing.",
+    "truth": "This is a real, verifiable company (Piedmont Tree Climbing) with the installation volume and waitlist as described. The Facebook-endorsement growth mechanic and swing-retailer partnership idea are the presenter's own suggested strategies, not independently demonstrated results.",
+    "url": "https://www.youtube.com/watch?v=iWmTuDAHl7Q"
+  },
+  {
+    "id": "wood-pellet-mill-sawdust-fuel",
+    "name": "Compressing free sawmill sawdust into wood pellets and selling them as heating fuel or livestock feed pellets",
+    "category": "Local & professional services",
+    "tags": [
+      "wood pellet mill",
+      "sawdust fuel",
+      "biomass heating",
+      "livestock feed pellets"
+    ],
+    "cost": "Moderate (machine price not stated in this segment; produces 80-100kg/hour)",
+    "found": "Wealth Unlocked",
+    "what": "Buy a pellet mill and collect sawdust, dry leaves, rice husks, or straw for free or nearly free from sawmills (who otherwise burn it just to get rid of it), compress it into 4-12mm pellets with no glue or chemicals needed, and sell the pellets as fuel to bakeries with wood-fired ovens, barbecue restaurants, mountain hotels, industrial furnaces, and households with pellet stoves; using a different die on the same machine, produce feed pellets for livestock, poultry, and cattle operations instead.",
+    "pitch": "The presenter highlights that the exact same sawdust considered worthless trash locally is sold by the ton as a commercial product in other markets, arguing the only difference is whether it's been compressed into a usable form, with finished pellets described as reaching roughly $1,400 in product value from zero-cost raw material.",
+    "best": "Someone near a sawmill or similar dry-waste source, willing to build relationships with both fuel buyers and potential livestock-feed buyers.",
+    "truth": "Wood pellet production from sawdust waste is a real, established biomass fuel industry practice. No specific personal revenue case study is given; the $1,400 figure appears to describe cumulative product value, not a single transaction.",
+    "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
   },
   {
     "id": "mini-dumper-tight-access-hauling",
@@ -4520,6 +4665,28 @@
     "published": "2026-08-16"
   },
   {
+    "id": "digital-product-full-roadmap-thrivecart",
+    "name": "Full roadmap for building and selling your first digital product",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "AI tools",
+      "roadmap",
+      "Claude"
+    ],
+    "cost": "Very low startup cost",
+    "found": "ThriveCart",
+    "what": "A complete, sequenced roadmap for launching a first digital product (a template, course, workbook, or toolkit): a structured exercise to pick one specific product for one specific person, using Claude to build the actual content and curriculum, PicMonkey for visual design and packaging, and ThriveCart to handle checkout and delivery, ending with specific guidance on pricing and finding first buyers.",
+    "pitch": "The presenter, who says they've made over $3 million from digital products, frames the whole appeal around removing decision paralysis: rather than facing the build, price, checkout, and launch all at once, the video sequences them into one decision at a time. The pricing guidance is specific and concrete: start under $50 for a first product (as low as $7 for a simple ebook, around $27 as a common sweet spot), and consider a graduated pricing structure where the first 25 buyers pay less than the next 50, both to reward early buyers and build momentum.",
+    "best": "A true beginner who hasn't shipped a digital product before and wants a specific, ordered sequence to follow rather than a general overview, particularly useful for someone who already has some specific expertise or experience others would pay to learn.",
+    "truth": "This is presented as a free course by ThriveCart, a checkout and delivery platform, so the entire pipeline (including the checkout and delivery lesson) is naturally built around promoting ThriveCart's own product, worth knowing even though the broader idea-to-launch sequence doesn't strictly require that specific tool. The $3 million claim is the presenter's own background and isn't demonstrated step-by-step within this video, which focuses on the process rather than proving the presenter's own numbers.",
+    "url": "https://www.youtube.com/watch?v=OJkTbvXZYPc",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-02"
+  },
+  {
     "id": "wall-printer-mural-service",
     "name": "Wall printer mural service for businesses",
     "category": "Physical & print products",
@@ -4863,6 +5030,41 @@
       "Requires a license or certification"
     ],
     "published": "2026-08-14"
+  },
+  {
+    "id": "mobile-home-skirting-installation-national-subcontractor",
+    "name": "Running a nationwide mobile home skirting installation booking service via local subcontractors",
+    "category": "Local & professional services",
+    "tags": [
+      "mobile home skirting",
+      "subcontractor network",
+      "niche installation service",
+      "low competition SEO"
+    ],
+    "cost": "Low (a booking website; subcontractors handle their own tools/materials)",
+    "found": "Tim Richard",
+    "what": "Build a website and brand focused exclusively on mobile home skirting installation (the decorative/functional covering around a mobile home's base), operating in multiple states by dispatching jobs to local subcontractors rather than performing the work personally.",
+    "pitch": "The presenter found a real company (likely run by the same operator behind the basketball hoop installation business) operating across Colorado, Georgia, Iowa, and Idaho using subcontracted installers, and cites keyword data showing 'mobile home skirting' gets 11,000 monthly searches at a 5/100 difficulty score, which Ahrefs classifies as easy to rank for.",
+    "best": "Someone comfortable managing subcontractors across multiple markets rather than doing installations personally, willing to build and rank a niche website.",
+    "truth": "This is a real, verifiable company operating as described, and the cited keyword-volume/difficulty figures come from a named third-party SEO tool. No specific revenue figures are given for this particular business.",
+    "url": "https://www.youtube.com/watch?v=iWmTuDAHl7Q"
+  },
+  {
+    "id": "styrofoam-densifier-low-competition-niche",
+    "name": "Melting down free waste styrofoam into dense resalable blocks, in a niche with almost no competition",
+    "category": "Local & professional services",
+    "tags": [
+      "styrofoam densifier",
+      "expanded polystyrene recycling",
+      "low competition niche"
+    ],
+    "cost": "Moderate to high ($2,200 for the machine)",
+    "found": "Wealth Unlocked",
+    "what": "Buy a styrofoam densifier (melts expanded polystyrene packaging waste with heat into a solid block, processing 130kg/hour) and collect styrofoam for free from supermarkets, appliance stores, and logistics warehouses who struggle to dispose of it (it's charged by volume, not weight, making disposal expensive despite weighing almost nothing), then sell the dense polystyrene blocks as raw material to manufacturers of decorative moldings, picture frames, thermal insulation, and new packaging.",
+    "pitch": "The presenter argues this is the most wide-open niche in the entire recycling industry specifically because almost nobody works with styrofoam, as most people don't know how to process it, unlike more commonly recycled materials.",
+    "best": "Someone with storage/workshop space and willing to build relationships with retailers and warehouses generating consistent styrofoam waste.",
+    "truth": "Styrofoam densification for resale to manufacturers is a real, established (if under-served) recycling niche. No specific personal revenue figures are given.",
+    "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
   },
   {
     "id": "ai-growth-operator-for-creators",
@@ -5578,6 +5780,41 @@
       "Phone/sales-based"
     ],
     "published": "2026-08-14"
+  },
+  {
+    "id": "gym-mirror-installation-national-subcontractor",
+    "name": "Selling and installing standardized gym mirrors nationwide using local subcontractors",
+    "category": "Local & professional services",
+    "tags": [
+      "gym mirror installation",
+      "subcontractor network",
+      "residential and commercial service"
+    ],
+    "cost": "Low (standardized pre-sized mirrors; subcontractors handle installation labor)",
+    "found": "Tim Richard",
+    "what": "Sell standardized, pre-sized gym mirrors (in a few common sizes like 6x8 or 4x8) to residential and commercial customers, having them measure their wall and select the right quantity, then dispatch local subcontractors to install the mirrors using simple wall-mounted corner brackets, operating across multiple markets from one central booking website.",
+    "pitch": "The presenter found a real company (themirrorcompany.com) running this exact model nationally with a simple, standardized product line and a subcontractor installation network, serving both home gym owners and commercial gyms.",
+    "best": "Someone comfortable managing a subcontractor network and a simple e-commerce-style ordering process rather than performing installations themselves.",
+    "truth": "This is a real, verifiable company operating as described. No specific revenue figures or keyword-volume data are given for this particular business in the video.",
+    "url": "https://www.youtube.com/watch?v=iWmTuDAHl7Q"
+  },
+  {
+    "id": "textile-shredder-fiber-and-branded-products",
+    "name": "Shredding free donated clothing into fiber, either to sell to manufacturers or to make your own branded 'circular fashion' products",
+    "category": "Physical & print products",
+    "tags": [
+      "textile shredder",
+      "clothing recycling",
+      "circular fashion branding",
+      "fiber resale"
+    ],
+    "cost": "Moderate to high ($2,000 for the machine)",
+    "found": "Wealth Unlocked",
+    "what": "Buy a textile shredder (350kg/hour, shreds old clothes and fabric scraps into fiber) and collect unsellable donated clothing for free from charities, clothing banks, and donation drives, then either sell the resulting fiber to mattress, cushion, plush toy, and pet bed manufacturers, or use the fiber yourself to make and sell your own cushions, bean bags, and dog beds under a 'circular fashion' brand positioning, appealing to customers willing to pay more for a product that rescued material from landfill.",
+    "pitch": "The presenter frames the branded-product route as what separates someone who just sells raw fiber from someone who builds an actual premium brand, arguing environmentally-conscious buyers pay a real premium once they understand a product's waste-rescue story.",
+    "best": "Someone willing to either build B2B relationships with fiber-buying manufacturers or develop and market their own branded product line.",
+    "truth": "Textile shredding for fiber resale and 'upcycled' branded product positioning are both real, established practices in the sustainable/circular economy space. No specific personal revenue figures are given.",
+    "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
   },
   {
     "id": "mini-hammer-crusher-debris-recycling",
@@ -6473,6 +6710,41 @@
     "published": "2026-08-14"
   },
   {
+    "id": "garage-door-spring-repair-niche-referral-leadgen",
+    "name": "Building a niche website around 'garage door spring repair' specifically, then referring leads to a garage door company for a cut",
+    "category": "Local & professional services",
+    "tags": [
+      "garage door spring repair",
+      "niche SEO lead generation",
+      "referral fee model",
+      "specialized dangerous repair"
+    ],
+    "cost": "Low (website hosting; SEO tool subscription for keyword research)",
+    "found": "Tim Richard",
+    "what": "Build a website focused specifically on garage door spring repair/replacement (rather than general garage door services), rank it for local search terms, and route the resulting leads to an established garage door company to perform the actual repair (since spring tension makes this a genuinely dangerous DIY task nobody attempts themselves), taking a referral cut on each job sent.",
+    "pitch": "The presenter cites keyword data showing 'garage door spring repair' gets 11,000 monthly searches at a 0/100 difficulty score, noting that while many garage door companies offer the service, very few have built dedicated content specifically targeting this exact search term, leaving an open ranking opportunity.",
+    "best": "Someone willing to learn basic local SEO and build a referral relationship with an established, licensed garage door company to actually perform the repairs.",
+    "truth": "The cited search-volume and difficulty figures come from a named third-party SEO tool and are independently checkable. This is a proposed opportunity based on real keyword data rather than a demonstrated case study business, and the presenter is explicit that results aren't guaranteed.",
+    "url": "https://www.youtube.com/watch?v=iWmTuDAHl7Q"
+  },
+  {
+    "id": "kitchen-composter-low-risk-entry-point",
+    "name": "Starting with a small tabletop food composter as a low-risk way to test the organic waste recycling business before scaling up",
+    "category": "Local & professional services",
+    "tags": [
+      "kitchen composter",
+      "organic waste recycling",
+      "low-risk business entry point"
+    ],
+    "cost": "Very low ($110 for the machine, the cheapest on the list)",
+    "found": "Wealth Unlocked",
+    "what": "Buy a small tabletop composter (2.5-liter capacity, turns food scraps into finished compost in 3-8 hours) not as the actual business, but as a genuinely low-risk way to learn the fundamentals of organic waste processing (moisture levels, odor control, processing times) and how to sell finished compost to a plant nursery, before committing serious money to a larger industrial composter that can process 200kg/day, charge restaurants for organic waste pickup, and sell to urban farms.",
+    "pitch": "The presenter explicitly frames this as the smartest, least risky investment on the entire list, since it lets someone find out whether they actually enjoy this type of work before spending thousands of dollars on bigger equipment.",
+    "best": "Someone considering organic waste recycling as a business who wants to test their interest and aptitude before a larger investment.",
+    "truth": "Small-scale composting equipment is real and widely available, and using a cheap version to validate interest before scaling is sound, low-risk business advice. No specific personal revenue figures are given.",
+    "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
+  },
+  {
     "id": "party-rental-delivery-service",
     "name": "Renting out party equipment (chairs, tables, bounce houses) with delivery",
     "category": "Local & professional services",
@@ -7365,6 +7637,40 @@
     "published": "2026-08-14"
   },
   {
+    "id": "window-well-cover-installation-national-subcontractor",
+    "name": "Running a nationwide window well cover installation service via regional subcontractors",
+    "category": "Local & professional services",
+    "tags": [
+      "window well cover installation",
+      "subcontractor network",
+      "niche home service"
+    ],
+    "cost": "Low (a booking website; subcontractors provide installation labor)",
+    "found": "Tim Richard",
+    "what": "Build a website and brand focused specifically on window well cover installation (protective covers over basement window wells), operating across a wide service area by dispatching jobs to regional subcontractors, with each service area getting its own dedicated content page to support local search rankings.",
+    "pitch": "The presenter found a real company based in Colorado and Illinois that services a large multi-state area this way, and cites keyword data showing 'window well covers' gets 13,000 monthly searches at a 2/100 difficulty score, classified as easy to rank for with little existing competing content.",
+    "best": "Someone comfortable managing regional subcontractors and building location-specific content pages to support local SEO rankings.",
+    "truth": "This is a real, verifiable company operating as described, and the cited keyword-volume/difficulty figures come from a named third-party SEO tool. No specific revenue figures are given for this particular business.",
+    "url": "https://www.youtube.com/watch?v=iWmTuDAHl7Q"
+  },
+  {
+    "id": "briquette-press-wood-waste-fuel",
+    "name": "Compressing free wood waste into briquettes and selling them as a charcoal alternative to restaurants and grillers",
+    "category": "Local & professional services",
+    "tags": [
+      "briquette press",
+      "wood waste fuel",
+      "charcoal alternative"
+    ],
+    "cost": "Moderate to high ($1,395 for the machine)",
+    "found": "Wealth Unlocked",
+    "what": "Buy a briquette press (100-150kg/hour, compresses sawdust, bamboo, straw, rice husks, or wood scraps into dense square/hexagonal blocks using pressure alone, no glue) and sell the briquettes, which burn longer and stack/transport better than pellets, to steakhouses, barbecue restaurants, and backyard grillers as a direct charcoal replacement without cutting down trees.",
+    "pitch": "The presenter positions briquettes as targeting a completely different market than pellets (grilling/heating versus industrial furnaces/stoves) and frames the opportunity size around how much charcoal is burned every weekend at restaurants and backyard grills that could instead come from wood waste someone is already throwing away.",
+    "best": "Someone with access to free wood waste sourcing (sawmills, woodshops) and willing to build relationships with restaurants and grill-focused buyers.",
+    "truth": "Briquette production from wood waste as a charcoal alternative is a real, established practice. No specific personal revenue figures are given.",
+    "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
+  },
+  {
     "id": "mortar-spray-machine-stucco-plastering",
     "name": "Offering fast mortar/stucco spraying for new home exteriors with a mini mortar spray machine",
     "category": "Local & professional services",
@@ -8016,6 +8322,41 @@
       "Strictly in-home"
     ],
     "published": "2026-08-14"
+  },
+  {
+    "id": "window-screen-repair-niche-mobile-service",
+    "name": "Building an entire mobile business around window and door screen repair specifically",
+    "category": "Local & professional services",
+    "tags": [
+      "window screen repair",
+      "mobile repair service",
+      "niche home service",
+      "low competition SEO"
+    ],
+    "cost": "Low (basic screen-repair materials and tools; a mobile service vehicle)",
+    "found": "Tim Richard",
+    "what": "Offer mobile, on-site repair of window screens, retractable door screens, and sliding door screens as a standalone specialty (not a general handyman service), traveling to customers' homes rather than requiring drop-off; build a business identity entirely around this one narrow service.",
+    "pitch": "The presenter found a real company (Screen Mobile) built entirely around this niche, and cites keyword data showing 'window screen repair' gets 5,400 monthly searches at a 0/100 difficulty score and 'window screen repair near me' gets 7,800 searches, also at 0/100 difficulty, with little existing dedicated content competing for either term.",
+    "best": "Someone comfortable with basic screen-repair skills and a mobile, on-the-road service model.",
+    "truth": "This is a real, verifiable company operating as described, and the cited keyword-volume/difficulty figures come from a named third-party SEO tool. No specific revenue figures are given for this particular business.",
+    "url": "https://www.youtube.com/watch?v=iWmTuDAHl7Q"
+  },
+  {
+    "id": "cardboard-perforating-packaging-service",
+    "name": "Turning free used cardboard into flexible protective packaging mesh, sold or applied on-site as a bubble-wrap alternative",
+    "category": "Local & professional services",
+    "tags": [
+      "cardboard perforating machine",
+      "eco-friendly packaging",
+      "e-commerce protective packaging"
+    ],
+    "cost": "Low ($698 for the machine)",
+    "found": "Wealth Unlocked",
+    "what": "Buy a cardboard perforating machine (small, desk-sized, 150W power draw) that feeds in any used cardboard box and perforates/stretches it into a flexible cushioned mesh that absorbs impact similarly to bubble wrap, then sell the protective mesh by the meter to e-commerce businesses and logistics companies, or offer an on-site service where you process their own accumulated cardboard directly.",
+    "pitch": "The presenter frames this as solving a problem online sellers are actively asking about \u2014 cheap, plastic-free protective packaging \u2014 using free raw material (cardboard is endlessly available from supermarkets and warehouses) to meet real, current demand from e-commerce businesses wanting to drop plastic packaging.",
+    "best": "Someone comfortable pitching e-commerce/logistics businesses on either a product (packaging mesh) or an on-site processing service.",
+    "truth": "This is a real, current small-manufacturing niche responding to a genuine e-commerce demand for plastic-free packaging alternatives. No specific personal revenue figures are given.",
+    "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
   },
   {
     "id": "tart-shell-b2b-supply-business",
@@ -10545,28 +10886,6 @@
     "published": "2026-06-02"
   },
   {
-    "id": "digital-product-full-roadmap-thrivecart",
-    "name": "Full roadmap for building and selling your first digital product",
-    "category": "Digital & subscription products",
-    "tags": [
-      "digital products",
-      "AI tools",
-      "roadmap",
-      "Claude"
-    ],
-    "cost": "Very low startup cost",
-    "found": "ThriveCart",
-    "what": "A complete, sequenced roadmap for launching a first digital product (a template, course, workbook, or toolkit): a structured exercise to pick one specific product for one specific person, using Claude to build the actual content and curriculum, PicMonkey for visual design and packaging, and ThriveCart to handle checkout and delivery, ending with specific guidance on pricing and finding first buyers.",
-    "pitch": "The presenter, who says they've made over $3 million from digital products, frames the whole appeal around removing decision paralysis: rather than facing the build, price, checkout, and launch all at once, the video sequences them into one decision at a time. The pricing guidance is specific and concrete: start under $50 for a first product (as low as $7 for a simple ebook, around $27 as a common sweet spot), and consider a graduated pricing structure where the first 25 buyers pay less than the next 50, both to reward early buyers and build momentum.",
-    "best": "A true beginner who hasn't shipped a digital product before and wants a specific, ordered sequence to follow rather than a general overview, particularly useful for someone who already has some specific expertise or experience others would pay to learn.",
-    "truth": "This is presented as a free course by ThriveCart, a checkout and delivery platform, so the entire pipeline (including the checkout and delivery lesson) is naturally built around promoting ThriveCart's own product, worth knowing even though the broader idea-to-launch sequence doesn't strictly require that specific tool. The $3 million claim is the presenter's own background and isn't demonstrated step-by-step within this video, which focuses on the process rather than proving the presenter's own numbers.",
-    "url": "https://www.youtube.com/watch?v=OJkTbvXZYPc",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-02"
-  },
-  {
     "id": "ai-avatar-ugc-video-creation-tribe-app",
     "name": "AI-avatar UGC video creation for brands via the Tribe app",
     "category": "Content & personal brand",
@@ -10608,27 +10927,6 @@
     "truth": "The ClickBank \"gravity\" metric is a real, transparent feature of the platform and a genuinely useful way to gauge existing demand before promoting a product, a good sign. However, the specific product highlighted in the video as the example, a \"brain-frequency\" audio product marketed with vague neuroscience-adjacent claims, is the kind of unverifiable wellness product worth being skeptical of promoting, separate from whether the underlying affiliate-marketing business model itself is sound. The video also heavily promotes a paid idea-generation tool as close to mandatory (\"I genuinely don't recommend trying this method without it\"), a clear financial incentive behind that specific recommendation, though the core ClickBank-plus-faceless-content mechanic works without it.",
     "url": "https://www.youtube.com/watch?v=rAvOFvIK4Rw",
     "published": "2026-05-28"
-  },
-  {
-    "id": "single-product-niche-ecommerce",
-    "name": "Single-product niche e-commerce",
-    "category": "E-commerce",
-    "tags": [
-      "e-commerce",
-      "SEO",
-      "needs product sourcing"
-    ],
-    "cost": "Varies, product sourcing and inventory cost",
-    "found": "Tim Richard",
-    "what": "Build a brand around one physical product by targeting a high-demand, low-SEO-competition keyword niche, rather than competing in a crowded general category.",
-    "pitch": "Several real examples are cited doing $80,000 to $600,000-plus a month by finding an underserved keyword niche and building the whole store around ranking for it, using tools like Ahrefs to spot the opportunity.",
-    "best": "Someone comfortable with keyword research and content strategy who's also willing to handle physical product sourcing and fulfillment.",
-    "truth": "The presenter explicitly caveats that these figures are estimates from public traffic data, not verified financials, and reminds viewers no results are guaranteed. The keyword-research method is genuinely teachable and useful even if the specific revenue numbers should be taken with caution.",
-    "url": "https://www.youtube.com/watch?v=Z0YOWKKNSU0",
-    "situation_tags": [
-      "E-commerce / fulfillment"
-    ],
-    "published": "2026-04-14"
   },
   {
     "id": "micro-cult-messaging",
@@ -11620,6 +11918,42 @@
     "url": "https://www.youtube.com/watch?v=m-cifah2fV8"
   },
   {
+    "id": "remote-insurance-research-verification-specialist-jobs",
+    "name": "Remote research and verification specialist jobs in healthcare insurance and employment background screening",
+    "category": "Local & professional services",
+    "tags": [
+      "remote insurance research jobs",
+      "verification specialist",
+      "healthcare administration",
+      "background screening"
+    ],
+    "cost": "Free (standard job application; equipment provided by the employer)",
+    "found": "Thressa Sweat",
+    "what": "Apply to remote 'research/verification specialist' roles that go beyond typical customer service: one example, an Authorization and Verification Research Specialist at a healthcare insurance company, investigates and validates prior-authorization and benefits-verification requirements across different insurance payers by researching payer websites, portals, and policy documents, comparing multiple sources to determine what's actually current and accurate; a second example, a Verification Specialist at a background-screening company, processes employment, education, license, and reference verification requests for job applicants, communicating by phone/email/portal with employers, schools, and licensing agents and flagging discrepancies between what an applicant reported and what a verification source confirms.",
+    "pitch": "The presenter breaks down each listing's actual requirements: the insurance research role requires real prior-authorization/benefits-verification experience from a healthcare setting (not a true beginner role, but equipment is fully provided), while the verification specialist role only requires 1 year of general administrative, customer service, data entry, or research experience (background-screening experience is only 'preferred,' not required), making it accessible to a much broader range of applicants; she stresses tailoring your resume to name the specific tasks you performed rather than vague descriptions.",
+    "best": "Someone detail-oriented who enjoys investigating discrepancies and comparing information across sources; the insurance role needs direct healthcare/insurance experience, while the verification specialist role is open to broader administrative backgrounds.",
+    "truth": "Both named companies and their listed job requirements are real, specific, current postings reviewed directly from their own job descriptions, and the presenter's resume-tailoring advice is sound, standard job-application guidance.",
+    "url": "https://www.youtube.com/watch?v=ZEMBZ0vhyNs"
+  },
+  {
+    "id": "goodwill-outlet-whatnot-livestream-reselling",
+    "name": "Sourcing inventory from Goodwill Outlet bins and yard sales, then reselling via live-auction shows on the Whatnot app",
+    "category": "E-commerce",
+    "tags": [
+      "Whatnot livestream selling",
+      "Goodwill Outlet bins sourcing",
+      "live auction reselling",
+      "yard sale sourcing"
+    ],
+    "cost": "Very low (Goodwill Outlet items are typically sold by the pound; yard sale items just a few dollars each)",
+    "found": "Tyce Tyce Baby",
+    "what": "Source resale inventory primarily from Goodwill Outlet 'bins' locations (a clearance tier below regular Goodwill stores, often sold by the pound) and yard sales, then sell it via live, real-time auction-style shows on the Whatnot app (a mix of QVC and eBay, where live viewers bid as the host shows items); build a specific expertise niche within the household (e.g. one partner focusing on clothing brands, the other on electronics/general goods) to divide sourcing knowledge, and grow a live audience to the point where a single show can draw 500-600 concurrent viewers.",
+    "pitch": "The presenter (a fellow reseller/YouTuber) spends a day with a couple who scaled into one of the largest shows on Whatnot, hitting a self-reported goal of over $250,000 in Whatnot sales for the year; the couple is candid that despite the reselling headline, 65-70% of their actual household income now comes from YouTube (AdSense, sponsorships, affiliate links), with reselling itself contributing only about 25-30%.",
+    "best": "Someone willing to build genuine sourcing expertise and comfortable hosting a live, on-camera selling show rather than just listing items statically.",
+    "truth": "Whatnot is a real, established live-auction resale platform, and Goodwill Outlet bins are a real, well-known deep-discount sourcing tier. Worth noting the video's own title ('Makes $250K/Year Reselling') is somewhat misleading on close inspection: the $250,000 figure is gross Whatnot sales volume, not personal profit, and the couple's own admission is that most of their actual household income comes from YouTube content creation, with reselling a minority contributor.",
+    "url": "https://www.youtube.com/watch?v=SDYRrDe7b3Y"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -12452,6 +12786,24 @@
     "url": "https://www.youtube.com/watch?v=oN9LcIA_rt8"
   },
   {
+    "id": "nine-boring-high-demand-digital-product-categories",
+    "name": "Nine unglamorous but consistently-selling digital product categories, each with a specific price range and buyer profile",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital product categories",
+      "template selling",
+      "ThriveCart checkout",
+      "boring recurring-demand products"
+    ],
+    "cost": "Very low (design tools like Canva/Notion, a checkout platform)",
+    "found": "ThriveCart",
+    "what": "Instead of chasing trendy digital product launches, create products in categories that solve a dull, recurring problem: (1) legal/contract templates, $27-150/pack; (2) spreadsheet templates and calculators, $15-35 simple trackers, $37-97+ niche calculators; (3) resume/LinkedIn kits (ATS-friendly), $10-39; (4) digital planners and printables, $5-20 printables, $20-45 hyperlinked planners, with dated planners creating natural yearly repeat purchases; (5) Canva template packs, $12-30 single sets, $30-67 bundles; (6) Lightroom presets and video LUT packs, $6-25 starter packs, $30-80 themed bundles; (7) Notion templates and systems, $15 simple up to $79+ premium bundles; (8) website/funnel templates for Framer, Webflow, WordPress, or Shopify, $19-350+ depending on platform; (9) business SOPs, checklists, and swipe files, $27-150, with proven playbooks reaching $97-297.",
+    "pitch": "The presenter frames the common thread across all nine as: each solves a problem that doesn't go away and refreshes with new buyers every month, arguing boring, reliable demand beats a trendy product that dies off after launch hype fades, and demonstrates bundling multiple products into one checkout to increase revenue per customer.",
+    "best": "Someone deciding which type of digital product to create, looking for a category with durable, non-trend-dependent demand rather than chasing whatever's currently viral.",
+    "truth": "All nine categories are real, established digital-product types with genuine ongoing buyer demand, and the specific pricing ranges given are consistent with what similar products commonly sell for. No personal revenue figures are given; it promotes the presenter's own checkout platform and a separate paid course as next steps.",
+    "url": "https://www.youtube.com/watch?v=j1i9bbX26XE"
+  },
+  {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
     "name": "Digistore24 affiliate marketing funnel using a free \"nurture sequence\" instead of direct-linking",
     "category": "Marketing & content",
@@ -13234,6 +13586,40 @@
     "truth": "The customer-acquisition-plus-independent-contractor-network model for local service businesses is real and sound, and the specific unit economics given are consistent, plausible numbers. The case study is self-reported, and the video funnels toward the presenters' own paid one-on-one application/mentorship program.",
     "url": "https://www.youtube.com/watch?v=p6mYFoY7fQE",
     "published": "2026-08-27"
+  },
+  {
+    "id": "gun-safe-moving-referral-service",
+    "name": "Running a specialized heavy-safe moving service, built entirely on referrals from online safe retailers",
+    "category": "Local & professional services",
+    "tags": [
+      "gun safe moving",
+      "specialized heavy-item moving",
+      "retailer referral partnership"
+    ],
+    "cost": "Low (moving equipment like dollies/straps; no inventory needed)",
+    "found": "Tim Richard",
+    "what": "Offer specialized moving/placement services for gun safes and other heavy safes (delivered to a garage but needing to go to a basement or another room), building the client base primarily by contacting companies that sell safes online and asking to be their recommended installation/moving partner, since few movers specialize specifically in this niche.",
+    "pitch": "The presenter describes his own real experience buying a safe online and being directly referred to a company that specializes in exactly this, who told him they get essentially all their business through relationships with online safe retailers rather than general advertising.",
+    "best": "Someone with (or willing to acquire) the physical strength/equipment for moving very heavy items, comfortable reaching out directly to online retailers to establish referral partnerships.",
+    "truth": "This is a first-hand account from the presenter's own real customer experience with a real company, not a secondhand claim, which lends direct credibility. No specific revenue figures are given for this business.",
+    "url": "https://www.youtube.com/watch?v=iWmTuDAHl7Q"
+  },
+  {
+    "id": "tire-shredder-rubber-crumb-resale",
+    "name": "Shredding free waste tires into rubber crumb and selling it to gym flooring, turf, and asphalt manufacturers",
+    "category": "Local & professional services",
+    "tags": [
+      "tire shredder",
+      "rubber crumb resale",
+      "waste tire recycling"
+    ],
+    "cost": "High ($1,500 for the smallest available machine)",
+    "found": "Wealth Unlocked",
+    "what": "Buy a tire shredder (500kg/hour, dual shafts, produces 1-5cm rubber pieces) and collect waste tires for free from tire shops (who pay to have them hauled away since they take up valuable space), shred them into rubber crumb, and sell it to manufacturers of gym flooring, artificial turf, playground surfaces, insulation materials, shoe soles, and modified asphalt.",
+    "pitch": "The presenter is candid this is the most commonly-featured machine in the recycling-business content niche, but argues that's exactly the point \u2014 everyone talks about it, almost nobody actually owns one \u2014 framing the demand as permanent and recession-proof since vehicles and their tires never stop wearing out.",
+    "best": "Someone with capital for the higher-cost equipment and space to process and store tires, willing to build relationships with tire shops as suppliers.",
+    "truth": "Tire shredding for rubber crumb resale is a real, well-established recycling business model with genuine, permanent demand from named end-use industries. No specific personal revenue figures are given.",
+    "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
   },
   {
     "id": "electrician-subcontractor-to-remodeling-contractors",
