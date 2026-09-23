@@ -2888,6 +2888,28 @@
     "published": "2026-08-17"
   },
   {
+    "id": "tiktok-shop-traffic-kdp-books",
+    "name": "Driving TikTok Shop traffic to Amazon KDP books instead of relying on reviews or ads",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Amazon KDP",
+      "TikTok Shop",
+      "publishing",
+      "marketing"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Jonathan Nilsen",
+    "what": "Driving external traffic from TikTok Shop to Amazon KDP book listings, rather than relying on Amazon's own reviews or paid ads, to rank books organically through outside viral traffic instead of gaming Amazon's review system.",
+    "pitch": "The presenter argues the older KDP playbook, stacking reviews quickly then relying on Amazon ads, is breaking down on three fronts: Amazon is actively cracking down on review manipulation, AI has commoditized book quality so a well-made book is no longer a real differentiator, and Amazon ad costs keep climbing as more AI-assisted publishers compete for the same keywords. His fix: build a following on TikTok, faceless content is fine to start, promoting a specific book, let viral TikTok traffic drive organic Amazon rank and reviews without needing to manipulate anything, and use TikTok Shop's direct-purchase feature as a second, independent sales channel.",
+    "best": "Someone willing to build a TikTok content presence around their book, even faceless, rather than relying purely on Amazon's internal ecosystem, and comfortable treating this as a genuinely early, narrowing window rather than a permanent strategy.",
+    "truth": "The presenter cites his own TikTok Shop sales, $350k in 2025, $300k so far this year, and runs a paid coaching program teaching this exact strategy, so there's a clear incentive to frame the opportunity as urgent and time-limited. The underlying diagnosis, that Amazon's review-manipulation crackdown and AI-driven quality commoditization are real trends, is a reasonable read of the current KDP landscape independent of the specific program being sold.",
+    "url": "https://www.youtube.com/watch?v=PThbzpRjqRs",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-24"
+  },
+  {
     "id": "claude-local-business-website-lead-gen-retainer",
     "name": "Building websites and lead-capture automations for local businesses that don't have one, with a monthly hosting retainer",
     "category": "Local & professional services",
@@ -4766,28 +4788,6 @@
     "published": "2026-08-13"
   },
   {
-    "id": "tiktok-shop-traffic-kdp-books",
-    "name": "Driving TikTok Shop traffic to Amazon KDP books instead of relying on reviews or ads",
-    "category": "Digital & subscription products",
-    "tags": [
-      "Amazon KDP",
-      "TikTok Shop",
-      "publishing",
-      "marketing"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Jonathan Nilsen",
-    "what": "Driving external traffic from TikTok Shop to Amazon KDP book listings, rather than relying on Amazon's own reviews or paid ads, to rank books organically through outside viral traffic instead of gaming Amazon's review system.",
-    "pitch": "The presenter argues the older KDP playbook, stacking reviews quickly then relying on Amazon ads, is breaking down on three fronts: Amazon is actively cracking down on review manipulation, AI has commoditized book quality so a well-made book is no longer a real differentiator, and Amazon ad costs keep climbing as more AI-assisted publishers compete for the same keywords. His fix: build a following on TikTok, faceless content is fine to start, promoting a specific book, let viral TikTok traffic drive organic Amazon rank and reviews without needing to manipulate anything, and use TikTok Shop's direct-purchase feature as a second, independent sales channel.",
-    "best": "Someone willing to build a TikTok content presence around their book, even faceless, rather than relying purely on Amazon's internal ecosystem, and comfortable treating this as a genuinely early, narrowing window rather than a permanent strategy.",
-    "truth": "The presenter cites his own TikTok Shop sales, $350k in 2025, $300k so far this year, and runs a paid coaching program teaching this exact strategy, so there's a clear incentive to frame the opportunity as urgent and time-limited. The underlying diagnosis, that Amazon's review-manipulation crackdown and AI-driven quality commoditization are real trends, is a reasonable read of the current KDP landscape independent of the specific program being sold.",
-    "url": "https://www.youtube.com/watch?v=PThbzpRjqRs",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-24"
-  },
-  {
     "id": "ai-built-shopify-store-claude",
     "name": "AI-built Shopify store using Claude",
     "category": "E-commerce",
@@ -5109,6 +5109,28 @@
     "best": "Someone comfortable with basic hands-on crafting and patient with a multi-hour drying process, willing to build a small inventory to sell.",
     "truth": "The wood-glue-and-water hardening technique for cardboard is a real, documented upcycling method, and the build is shown step-by-step with a genuine cost breakdown. The $40-60 resale estimate is the presenter's own suggestion, not a demonstrated sale, so actual market demand would need to be tested by the person making it.",
     "url": "https://www.youtube.com/watch?v=m-cifah2fV8"
+  },
+  {
+    "id": "etsy-google-sheets-templates-claude-recreation",
+    "name": "Recreating proven best-selling Etsy Google Sheets templates using Claude",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Etsy",
+      "Google Sheets",
+      "AI tools",
+      "digital downloads"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Hannah Gardner",
+    "what": "Researching already-proven, best-selling Etsy digital download products, particularly Google Sheets-based templates like book trackers, budget trackers, and wedding planners, using a paid research tool, then recreating a competing version of each using Claude with a carefully engineered prompt.",
+    "pitch": "A guest presenter, described as a Claude specialist, demonstrates the process live: filter a paid research tool for higher-priced, recently listed, high-cart-count digital Google Sheets products, track the top candidates in a saved collection, sort by estimated monthly revenue to prioritize which to build first, then feed a detailed engineered prompt plus the original listing's screenshots into Claude to generate a matching multi-tab spreadsheet product, refining the build plan before Claude executes to avoid wasted iteration.",
+    "best": "Someone comfortable using Claude's more advanced building mode, not just chat, and willing to add real creative polish on top of what the AI generates first, since raw AI output is described as needing a human pass to feel distinct.",
+    "truth": "The estimated revenue figures shown throughout, including a wedding-planner spreadsheet cited around $200 a day, come from the same third-party Etsy research tool used elsewhere in this database, an estimate from visible signals, not confirmed sales data. The guest presenter says the underlying prompt took him a full night of iteration to perfect, worth knowing since a first attempt with a simple, undialed prompt is described as producing sloppy results.",
+    "url": "https://www.youtube.com/watch?v=MUFyMS4QJlw",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-04-07"
   },
   {
     "id": "wall-printer-mural-service",
@@ -7042,6 +7064,26 @@
     "truth": "White-labeling an AI-powered local-business SaaS platform and reselling it under your own brand with tiered pricing and usage rebilling is a real, current business model already covered from multiple angles in this database, and the specific mechanics described (rebilling markup, setup-fee retention effect) are accurate to how these platforms work. The presenter's own 1,000-customer figure and the video's call to action (subscribe/like/comment for a free trial) make this a lead-generation video for his own affiliate-linked platform.",
     "url": "https://www.youtube.com/watch?v=wiXG8rRAbes",
     "published": "2026-09-07"
+  },
+  {
+    "id": "tiktok-shop-kdp-book-demand-engine",
+    "name": "Using TikTok Shop short-form video to create demand for self-published books before they're found on Amazon search",
+    "category": "Digital & subscription products",
+    "tags": [
+      "TikTok Shop",
+      "Amazon KDP",
+      "book publishing",
+      "affiliate content multiplication",
+      "seasonal product architecture"
+    ],
+    "cost": "Low (KDP publishing costs, optional paid ads once a winning format is found)",
+    "found": "Jonathan Nilsen",
+    "what": "Instead of relying on Amazon keyword search to be discovered, create short-form video content that manufactures demand directly, driving TikTok Shop sales that spill over into organic Amazon search visibility once the book has proven traction; use a simple, repeatable 11-second video format (curiosity hook, feature dump, direct CTA) that's faceless and easy for affiliates to copy once you find the winning angle, then build a 'reusable product architecture' by applying the same proven format to seasonal variants of the same emotional promise rather than reinventing the concept for every book.",
+    "pitch": "The presenter cites named case studies: Lark and Road doing $2.25M in TikTok Shop sales using seasonal gift-book variants of one format, Claremont Road Books doing ~$80K/month on TikTok Shop plus an estimated $80-100K/month on KDP after four months of testing, and his own books doing $250K in TikTok Shop sales this year.",
+    "best": "Someone willing to publish and test repeatedly to find one winning content format before scaling, comfortable with short-form video creation (even faceless).",
+    "truth": "TikTok Shop driving discovery and sales for self-published books, with organic Amazon spillover, is a real, current publishing dynamic, and the cited case studies include verifiable public brand names and platform-level sales data. The video explicitly promotes the presenter's own paid coaching community as the way to execute this system.",
+    "url": "https://www.youtube.com/watch?v=_QcuQRBrASA",
+    "published": "2026-09-04"
   },
   {
     "id": "claude-social-media-management-local-business",
@@ -10484,28 +10526,6 @@
     "published": "2026-07-20"
   },
   {
-    "id": "etsy-google-sheets-templates-claude-recreation",
-    "name": "Recreating proven best-selling Etsy Google Sheets templates using Claude",
-    "category": "Digital & subscription products",
-    "tags": [
-      "Etsy",
-      "Google Sheets",
-      "AI tools",
-      "digital downloads"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Hannah Gardner",
-    "what": "Researching already-proven, best-selling Etsy digital download products, particularly Google Sheets-based templates like book trackers, budget trackers, and wedding planners, using a paid research tool, then recreating a competing version of each using Claude with a carefully engineered prompt.",
-    "pitch": "A guest presenter, described as a Claude specialist, demonstrates the process live: filter a paid research tool for higher-priced, recently listed, high-cart-count digital Google Sheets products, track the top candidates in a saved collection, sort by estimated monthly revenue to prioritize which to build first, then feed a detailed engineered prompt plus the original listing's screenshots into Claude to generate a matching multi-tab spreadsheet product, refining the build plan before Claude executes to avoid wasted iteration.",
-    "best": "Someone comfortable using Claude's more advanced building mode, not just chat, and willing to add real creative polish on top of what the AI generates first, since raw AI output is described as needing a human pass to feel distinct.",
-    "truth": "The estimated revenue figures shown throughout, including a wedding-planner spreadsheet cited around $200 a day, come from the same third-party Etsy research tool used elsewhere in this database, an estimate from visible signals, not confirmed sales data. The guest presenter says the underlying prompt took him a full night of iteration to perfect, worth knowing since a first attempt with a simple, undialed prompt is described as producing sloppy results.",
-    "url": "https://www.youtube.com/watch?v=MUFyMS4QJlw",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-04-07"
-  },
-  {
     "id": "high-ticket-coaching-positioning-dm-sales-system",
     "name": "AI-built positioning and a DM-to-call sales system for high-ticket coaching offers",
     "category": "Local & professional services",
@@ -12816,6 +12836,42 @@
     "url": "https://www.youtube.com/watch?v=kRUi4cudsss"
   },
   {
+    "id": "etsy-30-day-prelaunch-inventory-strategy",
+    "name": "A 30-day Etsy launch plan built around holding back all product listings until you have 15-20 ready, to capture the platform's new-shop visibility boost all at once",
+    "category": "E-commerce",
+    "tags": [
+      "Etsy shop launch",
+      "Etsy SEO strategy",
+      "new-shop algorithm boost",
+      "target audience research"
+    ],
+    "cost": "Very low (an Etsy shop account; Canva for branding assets)",
+    "found": "Tatyana Savage",
+    "what": "Follow a structured 30-day plan rather than opening an Etsy shop and posting products as you make them. Days 1-3: answer three foundational questions before making anything \u2014 who is your specific target audience, what problem or goal do your products solve for them (testing every product idea against this), and only then what specific products to make; choose a keyword-informed shop name and build simple branding (a banner, a simple text-based logo). Days 4-14: make and fully photograph 15-20 products WITHOUT posting a single one yet \u2014 the core insight, since Etsy gives every brand-new shop an aggressive 30-day visibility boost over established competitors, and posting slowly squanders that window. Day 15 (launch): post 3-5 products at once, deliberately varying keywords/titles/descriptions across listings (never duplicate SEO details, since near-identical listings can cause Etsy's algorithm to make them compete against each other). Days 16-30: post one new product every 2-3 days from the remaining pre-built inventory, since steady posting frequency signals an active shop worth continuing to promote.",
+    "pitch": "The presenter, who says she became a top seller in her niche using this exact strategy, walks through a full worked example throughout (a shop targeting early-childhood teachers, testing a lesson-plan idea against a trending affirmation-card idea and rejecting the latter since it doesn't solve a real problem), framing the pre-launch delay as counterintuitive but essential.",
+    "best": "Someone willing to delay gratification and do real upfront customer/product research and a genuine two-week production sprint before ever opening their shop.",
+    "truth": "Etsy's search algorithm giving new shops a temporary visibility boost during an early window is a widely-discussed, plausible platform dynamic among sellers, though not officially documented by Etsy itself, so treat the specific '30 days' framing as the presenter's informed interpretation rather than confirmed policy. The SEO-cannibalization concern is sound, standard e-commerce SEO logic. No specific revenue figures are given, though the worked example is concrete; the video promotes her own paid Canva banner templates and keyword-research video as supplementary resources.",
+    "url": "https://www.youtube.com/watch?v=uiGqkeufRpE"
+  },
+  {
+    "id": "etsy-print-on-demand-trending-categories-live-research",
+    "name": "Four specific print-on-demand product categories (woven blankets, pillow covers, mugs/drinkware, canvas wall art) validated with live Etsy search-volume and sales data",
+    "category": "E-commerce",
+    "tags": [
+      "Etsy print on demand",
+      "Printify",
+      "Everbe research tool",
+      "trending product categories"
+    ],
+    "cost": "Low (a Printify account for fulfillment; an Everbe subscription/Chrome extension for research)",
+    "found": "Money With Mak",
+    "what": "Research what's already selling on Etsy directly (starting with the homepage itself, which surfaces trending categories) using a research tool (Everbe) to check search volume and listing performance/age, cross-referenced against a print-on-demand supplier (Printify) for cost and margin. Four categories demonstrated live: (1) woven blankets, especially personalized versions ($50-80+ retail against ~$31 production+shipping, ~1,200 searches/month, example listings at $1,800-2,900/month); (2) pillow covers (preferred over full pillows since buyers rotate covers seasonally, 1,500-2,300 searches/month, ~$9 production cost); (3) drinkware (personalized mugs, glass sipper cups), an often-overlooked category with 'personalized mug' searched 3,500 times/month, one 5-month-old listing earning ~$7,000/month; (4) canvas wall art and prints at higher price points with strong markup. Actively watch for current pattern/color trends (animal print, stripes) to apply across whichever category is chosen.",
+    "pitch": "The presenter, an active print-on-demand Etsy seller, does the entire research process live (checking real search-volume, filtering to listings under a year or six months old, calculating real production costs against real retail prices), countering the common new-seller objection by repeatedly pointing to listings only months old already earning thousands a month.",
+    "best": "Someone comfortable using a print-on-demand fulfillment model who wants to validate a specific product category against real data before committing.",
+    "truth": "Everbe and Printify are both real, current tools, and the specific search-volume and listing performance data shown are pulled live rather than invented, making them independently checkable in principle. Revenue figures for other sellers are third-party tool estimates based on visible sales signals, not confirmed payout data, and the video is built around demonstrating the presenter's own regular use of both tools.",
+    "url": "https://www.youtube.com/watch?v=2JWdtiWgvbI"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -13401,26 +13457,6 @@
     "published": "2026-09-03"
   },
   {
-    "id": "tiktok-shop-kdp-book-demand-engine",
-    "name": "Using TikTok Shop short-form video to create demand for self-published books before they're found on Amazon search",
-    "category": "Digital & subscription products",
-    "tags": [
-      "TikTok Shop",
-      "Amazon KDP",
-      "book publishing",
-      "affiliate content multiplication",
-      "seasonal product architecture"
-    ],
-    "cost": "Low (KDP publishing costs, optional paid ads once a winning format is found)",
-    "found": "Jonathan Nilsen",
-    "what": "Instead of relying on Amazon keyword search to be discovered, create short-form video content that manufactures demand directly, driving TikTok Shop sales that spill over into organic Amazon search visibility once the book has proven traction; use a simple, repeatable 11-second video format (curiosity hook, feature dump, direct CTA) that's faceless and easy for affiliates to copy once you find the winning angle, then build a 'reusable product architecture' by applying the same proven format to seasonal variants of the same emotional promise rather than reinventing the concept for every book.",
-    "pitch": "The presenter cites named case studies: Lark and Road doing $2.25M in TikTok Shop sales using seasonal gift-book variants of one format, Claremont Road Books doing ~$80K/month on TikTok Shop plus an estimated $80-100K/month on KDP after four months of testing, and his own books doing $250K in TikTok Shop sales this year.",
-    "best": "Someone willing to publish and test repeatedly to find one winning content format before scaling, comfortable with short-form video creation (even faceless).",
-    "truth": "TikTok Shop driving discovery and sales for self-published books, with organic Amazon spillover, is a real, current publishing dynamic, and the cited case studies include verifiable public brand names and platform-level sales data. The video explicitly promotes the presenter's own paid coaching community as the way to execute this system.",
-    "url": "https://www.youtube.com/watch?v=_QcuQRBrASA",
-    "published": "2026-09-04"
-  },
-  {
     "id": "shopify-claude-mcp-trendtrack-clonestore-dropshipping",
     "name": "Finding and validating winning dropshipping products with a Claude-connected ad-spy tool, then cloning and improving a competitor's store",
     "category": "E-commerce",
@@ -13704,6 +13740,24 @@
     "url": "https://www.youtube.com/watch?v=O6quio68avk"
   },
   {
+    "id": "five-etsy-trend-print-on-demand-niches-live-research",
+    "name": "Five specific, currently-trending Etsy niches identified by studying young, fast-growing listings directly on Etsy itself, most fulfilled via print-on-demand",
+    "category": "E-commerce",
+    "tags": [
+      "Etsy trend research",
+      "print on demand",
+      "Printify",
+      "niche product validation"
+    ],
+    "cost": "Low (a Printify or similar print-on-demand account; no upfront inventory required for most listed examples)",
+    "found": "Hannah Gardner",
+    "what": "Research trending Etsy niches by searching directly on Etsy itself rather than pulling trend signals from other platforms, since Etsy's buyer pool and taste are genuinely different; look for listings that are young (weeks to months old) but already showing real demand indicators (a 'sold X times in the last 24 hours' flame icon, items in many carts). Five specific trending niches demonstrated live: (1) 'old money' aesthetic products fulfilled via print-on-demand at roughly 20-30% margins; (2) whimsical/vintage-style products and specific hobby kits \u2014 hyper-targeted single-product listings with low competition, one example cited earning roughly $61,000-100,000 within a year; (3) wedding 'micro-niches' \u2014 pet-inclusive decor, destination-wedding items, passport-style invitations, one example cited at roughly $50,000 revenue in 7 months; (4) retirement-themed gifts, suited to a fully-niched shop identity. For each niche, cross-check whether the trending product already exists in a print-on-demand catalog to fulfill without holding inventory, and look for newly-added product options specifically, since being among the first to use a brand-new variation is a genuine open-market opportunity.",
+    "pitch": "The presenter demonstrates the entire research process live on Etsy and Printify simultaneously, showing real listings with current sales-velocity indicators and specific dollar figures (a wedding pet-napkin listing selling 60 units a day), calculating real Printify production costs against observed retail prices.",
+    "best": "Someone comfortable using a print-on-demand fulfillment model and willing to do live, current research on Etsy itself rather than assuming a trend from another platform will transfer.",
+    "truth": "The core research methodology is sound, practical e-commerce logic, and the specific listings/sales indicators shown are real and live at time of filming, though trend-driven niches can fade and weren't independently reverified here. Revenue figures for other sellers are estimates based on visible demand indicators, not confirmed sales data, and the video includes a paid sponsorship segment for a specific Etsy research/AI tool.",
+    "url": "https://www.youtube.com/watch?v=Swri2G1RABY"
+  },
+  {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
     "name": "Digistore24 affiliate marketing funnel using a free \"nurture sequence\" instead of direct-linking",
     "category": "Marketing & content",
@@ -13984,6 +14038,24 @@
     "best": "Someone comfortable building and slightly customizing an automation workflow per niche, willing to prospect local businesses with an existing, sizeable customer base.",
     "truth": "AI-parsed, automated customer-reactivation workflows are a real, current capability, and the core insight (past customers are an underused, already-warm audience many local businesses neglect) is sound, practical marketing logic. The presenter's own scale claims are self-reported and not independently verified, and the video is structured to have viewers comment for scripts and a free extended trial of his own software platform, so that lead-generation mechanic is promotional even though the underlying database-reactivation concept is tool-agnostic.",
     "url": "https://www.youtube.com/watch?v=OJK-pWkwNF0"
+  },
+  {
+    "id": "viral-book-reel-recreation-chatgpt-carousel",
+    "name": "Reverse-engineering a viral TikTok Shop book-carousel reel with ChatGPT, then recreating the same proven format for your own book",
+    "category": "Marketing & content",
+    "tags": [
+      "TikTok Shop carousel reel",
+      "viral content recreation",
+      "ChatGPT image analysis",
+      "KDP book marketing"
+    ],
+    "cost": "Very low (a ChatGPT subscription; product photos of your own book)",
+    "found": "Jonathan Nilsen",
+    "what": "Find an already-viral, high-selling carousel-style reel in your niche (the example: a children's book carousel that generated $18,000 in sales from one post), screenshot every individual slide in order, then upload those screenshots to ChatGPT with a plain-language prompt asking it to analyze why the reel works (identifying the structure: an emotional 'hook' slide creating an open curiosity loop, a feature-dump sequence stacking benefits, a clean conversion moment). Once ChatGPT breaks down the winning structure, upload images of your own book and ask it to recreate the same reel format using your own material; review and tweak the output rather than accepting it unedited. The underlying structure is described as transferable well beyond children's books into self-help, relationship, or attachment-themed books, just by swapping the specific hook.",
+    "pitch": "The presenter walks through the entire process live, ties it to a real case study covered in an earlier video, demonstrates the screenshot-analyze-recreate workflow step by step, and gives the full core technique away for free before mentioning an optional $17 mini-course and coaching calls.",
+    "best": "Someone selling a book or similar visually-driven product on TikTok Shop or Instagram, comfortable directing ChatGPT through an image-analysis-then-recreation workflow.",
+    "truth": "The described workflow is a real, current, technically accurate capability demonstrated live, and the psychological breakdown of why the example reel works is sound, standard direct-response marketing reasoning. The presenter is upfront the demo images were AI-generated mockups for illustration, and the $18,000 sales figure for the original post is relayed from an earlier video, not independently verified here.",
+    "url": "https://www.youtube.com/watch?v=k5KTdUb9EEM"
   },
   {
     "id": "tote-rental-business",
