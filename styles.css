@@ -143,15 +143,17 @@ a { color: inherit; }
   backdrop-filter: blur(8px);
   border-top: 5px double var(--text-primary);
   border-bottom: 1px solid var(--border);
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-items: center;
   gap: 14px;
   padding: 8px 0;
 }
 @media (max-width: 760px) {
   .controls-row {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
     text-align: center;
@@ -163,6 +165,7 @@ a { color: inherit; }
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 16px;
   white-space: nowrap;
 }
