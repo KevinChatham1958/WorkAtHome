@@ -46,6 +46,8 @@ a { color: inherit; }
 /* ---------- Hero (compact 3-line header) ---------- */
 .hero {
   position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px 24px 16px;
   text-align: center;
   background: #0d0d0d;
@@ -82,13 +84,22 @@ a { color: inherit; }
 
 .hero-title {
   margin: 0;
-  line-height: 0;
+  min-height: clamp(30px, 5.2vw, 40px);
+  display: flex;
+  align-items: center;
 }
 
 .hero-logo-img {
   height: clamp(30px, 5.2vw, 40px);
   width: auto;
+  max-width: 100%;
   display: block;
+  /* If the file ever fails to load, fall back to readable white wordmark text
+     instead of clipped/broken-icon alt text. */
+  font-family: 'Archivo Black', 'Arial Black', Impact, var(--font-display), sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  letter-spacing: -0.01em;
 }
 
 .hero-sub {
