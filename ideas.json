@@ -578,6 +578,29 @@
     "published": "2026-04-21"
   },
   {
+    "id": "local-lead-gen-site-rental",
+    "name": "Local lead generation website rental business",
+    "category": "Local & professional services",
+    "tags": [
+      "SEO",
+      "local business",
+      "lead generation",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Build simple, single-niche, single-city websites (towing, HVAC, tree removal, radon mitigation, etc.) optimized to rank in local Google searches, then instead of selling the leads those sites generate, rent the entire site to a local business owner for a monthly fee or a cut of the resulting jobs, while retaining ownership of the site itself.",
+    "pitch": "Vander walked away from a client-services SEO agency making $108,000 a year because he was tired of clients controlling the relationship, and rebuilt the same skill set into owned assets instead: ranking local lead-gen sites himself, then renting them out so that if one business owner doesn't want the arrangement, he can rent it to a different local competitor instead.",
+    "best": "Someone with real SEO or local search skills who wants to own recurring, semi-passive assets rather than trade time for client work, and who's comfortable pitching a local business owner on a rev-share arrangement.",
+    "truth": "The pivot story is specific and checkable (a named dollar figure walked away from, specific service niches and cities named), a good transparency signal. Vander is candid that this took real SEO skill built up over a prior failed agency business, so it isn't a true beginner idea; someone starting from zero would need to learn competitive local SEO first. The episode doesn't fully address what happens if Google's local algorithm changes or a business owner decides to build their own site instead of renewing.",
+    "url": "https://www.youtube.com/watch?v=6ErnEr2JcD0",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-07-10"
+  },
+  {
     "id": "closet-space-organizing-flat-rate-packages",
     "name": "Home and closet organizing service with flat-rate packages for a specific client type",
     "category": "Local & professional services",
@@ -733,29 +756,6 @@
     "published": "2026-07-30"
   },
   {
-    "id": "local-lead-gen-site-rental",
-    "name": "Local lead generation website rental business",
-    "category": "Local & professional services",
-    "tags": [
-      "SEO",
-      "local business",
-      "lead generation",
-      "recurring revenue"
-    ],
-    "cost": "Low startup cost",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Build simple, single-niche, single-city websites (towing, HVAC, tree removal, radon mitigation, etc.) optimized to rank in local Google searches, then instead of selling the leads those sites generate, rent the entire site to a local business owner for a monthly fee or a cut of the resulting jobs, while retaining ownership of the site itself.",
-    "pitch": "Vander walked away from a client-services SEO agency making $108,000 a year because he was tired of clients controlling the relationship, and rebuilt the same skill set into owned assets instead: ranking local lead-gen sites himself, then renting them out so that if one business owner doesn't want the arrangement, he can rent it to a different local competitor instead.",
-    "best": "Someone with real SEO or local search skills who wants to own recurring, semi-passive assets rather than trade time for client work, and who's comfortable pitching a local business owner on a rev-share arrangement.",
-    "truth": "The pivot story is specific and checkable (a named dollar figure walked away from, specific service niches and cities named), a good transparency signal. Vander is candid that this took real SEO skill built up over a prior failed agency business, so it isn't a true beginner idea; someone starting from zero would need to learn competitive local SEO first. The episode doesn't fully address what happens if Google's local algorithm changes or a business owner decides to build their own site instead of renewing.",
-    "url": "https://www.youtube.com/watch?v=6ErnEr2JcD0",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ],
-    "published": "2026-07-10"
-  },
-  {
     "id": "blister-packaging-service-small-manufacturers",
     "name": "Offering blister packaging as a service to small manufacturers who can't get their products onto store shelves without it",
     "category": "Local & professional services",
@@ -820,28 +820,6 @@
     "published": "2026-09-05"
   },
   {
-    "id": "amazon-kdp-low-content-books",
-    "name": "Amazon KDP low and medium-content books (word searches, log books, planners)",
-    "category": "Physical & print products",
-    "tags": [
-      "print on demand",
-      "Amazon KDP",
-      "publishing",
-      "beginner friendly"
-    ],
-    "cost": "Free to join, no ongoing fees",
-    "found": "Greg Gottfried",
-    "what": "Publish functional, non-text-heavy books through Amazon Kindle Direct Publishing, word search books, log books, maintenance trackers, and similar niche-specific planners, using template-based design tools rather than writing full-length content, with Amazon handling printing, shipping, and customer service the same way it does for Merch on Demand.",
-    "pitch": "Gottfried is candid that he tried full-length, text-based books and had little success with them, they took too long to create and weren't worth it for him, whereas low and medium-content books let him produce 5 to 10 finished books in a single day using template tools built for word searches, crosswords, and similar formats. Pricing works the same way as Merch on Demand: set a sale price, earn a few dollars in royalties per sale, and rely on Amazon's own traffic and volume rather than personal marketing.",
-    "best": "Someone with no graphic design or writing background who wants a genuinely fast production process, since Gottfried emphasizes you can go from never having made a book to having one finished within a single tutorial session.",
-    "truth": "Gottfried frames this specifically as \"an even easier way\" than typical KDP advice, which usually focuses on longer books, based on his own personal experience of what worked and didn't for him over years of trying different formats. Signup requirements are concrete and checkable (free, 18+, English-speaking country, no application required, unlike Merch on Demand), and no specific revenue figures are given for this particular business model in the video.",
-    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-02"
-  },
-  {
     "id": "trash-can-rollout-curb-service",
     "name": "Trash can rollout and curb service",
     "category": "Local & professional services",
@@ -863,6 +841,28 @@
       "Weekend/event-based schedule"
     ],
     "published": "2026-04-09"
+  },
+  {
+    "id": "amazon-kdp-low-content-books",
+    "name": "Amazon KDP low and medium-content books (word searches, log books, planners)",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "Amazon KDP",
+      "publishing",
+      "beginner friendly"
+    ],
+    "cost": "Free to join, no ongoing fees",
+    "found": "Greg Gottfried",
+    "what": "Publish functional, non-text-heavy books through Amazon Kindle Direct Publishing, word search books, log books, maintenance trackers, and similar niche-specific planners, using template-based design tools rather than writing full-length content, with Amazon handling printing, shipping, and customer service the same way it does for Merch on Demand.",
+    "pitch": "Gottfried is candid that he tried full-length, text-based books and had little success with them, they took too long to create and weren't worth it for him, whereas low and medium-content books let him produce 5 to 10 finished books in a single day using template tools built for word searches, crosswords, and similar formats. Pricing works the same way as Merch on Demand: set a sale price, earn a few dollars in royalties per sale, and rely on Amazon's own traffic and volume rather than personal marketing.",
+    "best": "Someone with no graphic design or writing background who wants a genuinely fast production process, since Gottfried emphasizes you can go from never having made a book to having one finished within a single tutorial session.",
+    "truth": "Gottfried frames this specifically as \"an even easier way\" than typical KDP advice, which usually focuses on longer books, based on his own personal experience of what worked and didn't for him over years of trying different formats. Signup requirements are concrete and checkable (free, 18+, English-speaking country, no application required, unlike Merch on Demand), and no specific revenue figures are given for this particular business model in the video.",
+    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-02"
   },
   {
     "id": "ig-reel-templates-etsy-claude-higgfield",
@@ -1243,6 +1243,29 @@
     "published": "2026-08-23"
   },
   {
+    "id": "high-ticket-ai-agency-local-service-bundle",
+    "name": "High-ticket recurring AI agency bundle for one local-service niche, instead of one-off AI websites",
+    "category": "AI & automation",
+    "tags": [
+      "AI tools",
+      "consulting",
+      "local business",
+      "recurring revenue"
+    ],
+    "cost": "Low startup cost (fulfillment outsourced to a developer team for a revenue share)",
+    "found": "Angelo Turri",
+    "what": "Running a specialized AI agency that sells a bundle of five recurring AI systems to a small number of high-ticket local service businesses in one committed industry niche, rather than selling cheap one-off AI websites to many small clients.",
+    "pitch": "The presenter argues the AI-website business model breaks down because it's low-ticket, non-recurring, and rapidly commoditized by free tools, and instead recommends committing to a single high-value local-service niche such as roofing, HVAC, solar, or med spas for a minimum of 3-6 months. He sells a bundle of five recurring AI systems addressing specific revenue leaks, including a missed-call voice receptionist, a speed-to-lead follow-up agent, dead-lead reactivation, an internal knowledge assistant, and an AI quoting agent, quantifying each business's dollar losses during the sales call using a framework he calls identify, quantify, prioritize, selling one system at a time starting with the costliest leak, then expanding into the rest with the same client over time.",
+    "best": "Someone more interested in sales and client relationship management than hands-on technical building, since the presenter explicitly delegates all development work, and comfortable running a structured, numbers-driven sales conversation.",
+    "truth": "The presenter's own numbers, including per-system pricing of $8,000 to $15,000 upfront plus $2,000 to $5,000 a month, and having helped clients scale to $10,000 to $30,000 a month, are self-reported without account or client verification shown on screen. The core critique of the low-ticket AI-website model, crowded, one-time payment, no recurring relationship, is a reasonable, internally consistent business argument independent of whether his specific numbers are exact. The video ends promoting the presenter's own paid one-on-one mentorship program.",
+    "url": "https://www.youtube.com/watch?v=zmq12ZQSGzA",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ],
+    "published": "2026-08-16"
+  },
+  {
     "id": "small-engine-repair-shop",
     "name": "Small engine repair shop",
     "category": "Local & professional services",
@@ -1342,6 +1365,30 @@
     "published": "2024-09-25"
   },
   {
+    "id": "junk-removal-service-local",
+    "name": "Junk removal service",
+    "category": "Local & professional services",
+    "tags": [
+      "junk removal",
+      "home services",
+      "local business",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (lower if you already own a truck)",
+    "found": "Austin Zaback",
+    "what": "Show up to a customer's home or property, quote the job on the spot based on volume, load unwanted furniture, appliances, or debris into a truck or trailer, and haul it away, getting paid in cash or card immediately rather than waiting on invoicing.",
+    "pitch": "Zaback frames the U.S. waste collection services industry (projected to surpass $90 billion by 2030) as large enough that small local operators can carve out real income, citing $500 to $1,500 a day in realistic revenue for a single truck and $250 to $300 as a typical job price. He emphasizes that the real growth lever is relationships, real estate agents, property managers, and estate sale companies, since apartment turnover alone runs 40-50% annually and creates a steady pipeline of clearance jobs.",
+    "best": "Someone who already owns or can access a truck or trailer and is comfortable building referral relationships with property managers, agents, and contractors rather than relying purely on one-off individual customers.",
+    "truth": "The per-day and per-job revenue figures are Zaback's own stated ranges rather than a single verified case study, though they're specific and consistent with the kind of pricing publicly discussed across the junk-removal industry. The relationship-based growth strategy (property managers, agents, estate companies) is a concrete, actionable, and independently testable approach regardless of the exact revenue figures.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Needs a truck or cargo vehicle"
+    ],
+    "published": "2026-04-09"
+  },
+  {
     "id": "custom-led-neon-signs-local-businesses",
     "name": "Custom LED neon sign business selling to local businesses and event rental companies",
     "category": "Physical & print products",
@@ -1386,30 +1433,6 @@
       "Requires equipment/vehicle investment"
     ],
     "published": "2026-08-07"
-  },
-  {
-    "id": "junk-removal-service-local",
-    "name": "Junk removal service",
-    "category": "Local & professional services",
-    "tags": [
-      "junk removal",
-      "home services",
-      "local business",
-      "low startup cost"
-    ],
-    "cost": "Low startup cost (lower if you already own a truck)",
-    "found": "Austin Zaback",
-    "what": "Show up to a customer's home or property, quote the job on the spot based on volume, load unwanted furniture, appliances, or debris into a truck or trailer, and haul it away, getting paid in cash or card immediately rather than waiting on invoicing.",
-    "pitch": "Zaback frames the U.S. waste collection services industry (projected to surpass $90 billion by 2030) as large enough that small local operators can carve out real income, citing $500 to $1,500 a day in realistic revenue for a single truck and $250 to $300 as a typical job price. He emphasizes that the real growth lever is relationships, real estate agents, property managers, and estate sale companies, since apartment turnover alone runs 40-50% annually and creates a steady pipeline of clearance jobs.",
-    "best": "Someone who already owns or can access a truck or trailer and is comfortable building referral relationships with property managers, agents, and contractors rather than relying purely on one-off individual customers.",
-    "truth": "The per-day and per-job revenue figures are Zaback's own stated ranges rather than a single verified case study, though they're specific and consistent with the kind of pricing publicly discussed across the junk-removal industry. The relationship-based growth strategy (property managers, agents, estate companies) is a concrete, actionable, and independently testable approach regardless of the exact revenue figures.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Needs a truck or cargo vehicle"
-    ],
-    "published": "2026-04-09"
   },
   {
     "id": "uv-printer-multi-surface-personalization",
@@ -1631,29 +1654,6 @@
     "published": "2026-07-09"
   },
   {
-    "id": "high-ticket-ai-agency-local-service-bundle",
-    "name": "High-ticket recurring AI agency bundle for one local-service niche, instead of one-off AI websites",
-    "category": "AI & automation",
-    "tags": [
-      "AI tools",
-      "consulting",
-      "local business",
-      "recurring revenue"
-    ],
-    "cost": "Low startup cost (fulfillment outsourced to a developer team for a revenue share)",
-    "found": "Angelo Turri",
-    "what": "Running a specialized AI agency that sells a bundle of five recurring AI systems to a small number of high-ticket local service businesses in one committed industry niche, rather than selling cheap one-off AI websites to many small clients.",
-    "pitch": "The presenter argues the AI-website business model breaks down because it's low-ticket, non-recurring, and rapidly commoditized by free tools, and instead recommends committing to a single high-value local-service niche such as roofing, HVAC, solar, or med spas for a minimum of 3-6 months. He sells a bundle of five recurring AI systems addressing specific revenue leaks, including a missed-call voice receptionist, a speed-to-lead follow-up agent, dead-lead reactivation, an internal knowledge assistant, and an AI quoting agent, quantifying each business's dollar losses during the sales call using a framework he calls identify, quantify, prioritize, selling one system at a time starting with the costliest leak, then expanding into the rest with the same client over time.",
-    "best": "Someone more interested in sales and client relationship management than hands-on technical building, since the presenter explicitly delegates all development work, and comfortable running a structured, numbers-driven sales conversation.",
-    "truth": "The presenter's own numbers, including per-system pricing of $8,000 to $15,000 upfront plus $2,000 to $5,000 a month, and having helped clients scale to $10,000 to $30,000 a month, are self-reported without account or client verification shown on screen. The core critique of the low-ticket AI-website model, crowded, one-time payment, no recurring relationship, is a reasonable, internally consistent business argument independent of whether his specific numbers are exact. The video ends promoting the presenter's own paid one-on-one mentorship program.",
-    "url": "https://www.youtube.com/watch?v=zmq12ZQSGzA",
-    "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based"
-    ],
-    "published": "2026-08-16"
-  },
-  {
     "id": "pay-per-lead-agency-model",
     "name": "Pay-per-lead agency (broker or self-run)",
     "category": "Marketing & content",
@@ -1830,6 +1830,30 @@
     "published": "2026-04-21"
   },
   {
+    "id": "costco-liquidation-reselling",
+    "name": "Buying and reselling Costco liquidation returns",
+    "category": "E-commerce",
+    "tags": [
+      "reselling",
+      "liquidation",
+      "Costco",
+      "needs storage"
+    ],
+    "cost": "A few hundred to a few thousand dollars per pallet or lot",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Buy pallets or individual units of Costco customer returns and liquidated merchandise through the B-Stock auction platform, researching resale value on Facebook Marketplace or comparable retail listings before bidding, then resell the items individually online, through Facebook Marketplace for larger items or Whatnot live auctions for smaller consumable goods.",
+    "pitch": "Chris Koerner challenges an experienced reseller, Shannon, to help him turn a starting bankroll into $10,000 profit in 10 days flat, buying returned and liquidated Costco merchandise through the B-Stock auction platform at pennies on the dollar (a $3,400 gazebo for $200, an $1,800 furniture set for $200) and reselling it on Facebook Marketplace and, for smaller items like food and drinks, through live-auction platforms like Whatnot.",
+    "best": "Someone with storage space (a garage or a small storage unit) and access to a bit of starting capital, who's comfortable researching resale prices before bidding and willing to learn category-specific quirks like appliance grading and model research.",
+    "truth": "This same buy-liquidation-and-resell pattern shows up repeatedly across WAH creator content, sourcing returned or excess inventory well below retail and reselling it piece by piece, which is itself a signal that the underlying model genuinely works, not just a one-off story. What makes this version distinct: a Costco-specific sourcing angle through the B-Stock auction platform, a named experienced mentor walking through live bid research in real time, and the Whatnot live-auction resale channel for smaller consumable goods, a genuinely different selling mechanic than one-off Marketplace listings. Koerner is candid that categories like appliances and electronics require real category-specific knowledge to avoid getting burned, and that not every item resells quickly, sometimes you cut the price and take a loss just to free up storage space.",
+    "url": "https://www.youtube.com/watch?v=kEV86fy-Rvc",
+    "situation_tags": [
+      "Needs inventory storage",
+      "Requires travel to source or inspect goods",
+      "Needs a truck or cargo vehicle"
+    ],
+    "published": "2026-08-12"
+  },
+  {
     "id": "ai-meta-ads-agency-underspending-brands",
     "name": "Selling AI-generated Meta ad creative to brands that are running too few ads compared to their competitors",
     "category": "Marketing & content",
@@ -1847,29 +1871,6 @@
     "truth": "The Facebook Ad Library is a real, free, public research tool, and AI-generated ad creative is a real, current capability demonstrated live. The presenter's own pricing and scorecard reflect his stated experience but aren't independently audited, and the video promotes a specific AI tool's affiliate signup and his own paid training/coaching.",
     "url": "https://www.youtube.com/watch?v=jVOk8oc-a70",
     "published": "2026-07-31"
-  },
-  {
-    "id": "local-courier-service-small-business-contracts",
-    "name": "Local courier and delivery service for small businesses with recurring contracts",
-    "category": "Local & professional services",
-    "tags": [
-      "local courier",
-      "same-day delivery",
-      "B2B contracts",
-      "medical and legal delivery"
-    ],
-    "cost": "Very low startup cost (your own vehicle; practically no inventory required)",
-    "found": "David Explains Money",
-    "what": "Offer same-day local courier and delivery service for small businesses that need documents or small packages moved quickly within a city \u2014 the presenter highlights pharmacies, law firms, and dental clinics as target customers \u2014 pursuing monthly recurring contracts with a handful of businesses rather than competing for individual one-off delivery requests, and organizing routes by grouping deliveries by area and time window.",
-    "pitch": "The presenter frames the medical and legal sectors as the biggest opportunity, since confidentiality and punctuality matter more to those clients than price, allowing higher rates than a generic courier service, and notes that just three or four well-organized monthly contracts can cover vehicle and fuel costs before any additional delivery counts as extra profit.",
-    "best": "Someone with a reliable vehicle who wants recurring B2B delivery contracts rather than one-off gig-app-style deliveries, and who's comfortable pitching directly to medical, legal, and other small business offices.",
-    "truth": "Targeting recurring monthly contracts with a small number of businesses (rather than competing for scattered one-off deliveries against big shipping companies) is a sound way to build predictable income in a normally low-margin category, and the specific niche framing (confidentiality/punctuality-sensitive sectors) is a genuinely useful positioning angle. Landing those first few contracts still requires direct outreach and building trust with each business individually.",
-    "url": "https://youtu.be/xA6oBoVyQ9I",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-08-07"
   },
   {
     "id": "solar-panel-cleaning-service",
@@ -1893,6 +1894,29 @@
       "Requires a license or certification"
     ],
     "published": "2026-04-09"
+  },
+  {
+    "id": "local-courier-service-small-business-contracts",
+    "name": "Local courier and delivery service for small businesses with recurring contracts",
+    "category": "Local & professional services",
+    "tags": [
+      "local courier",
+      "same-day delivery",
+      "B2B contracts",
+      "medical and legal delivery"
+    ],
+    "cost": "Very low startup cost (your own vehicle; practically no inventory required)",
+    "found": "David Explains Money",
+    "what": "Offer same-day local courier and delivery service for small businesses that need documents or small packages moved quickly within a city \u2014 the presenter highlights pharmacies, law firms, and dental clinics as target customers \u2014 pursuing monthly recurring contracts with a handful of businesses rather than competing for individual one-off delivery requests, and organizing routes by grouping deliveries by area and time window.",
+    "pitch": "The presenter frames the medical and legal sectors as the biggest opportunity, since confidentiality and punctuality matter more to those clients than price, allowing higher rates than a generic courier service, and notes that just three or four well-organized monthly contracts can cover vehicle and fuel costs before any additional delivery counts as extra profit.",
+    "best": "Someone with a reliable vehicle who wants recurring B2B delivery contracts rather than one-off gig-app-style deliveries, and who's comfortable pitching directly to medical, legal, and other small business offices.",
+    "truth": "Targeting recurring monthly contracts with a small number of businesses (rather than competing for scattered one-off deliveries against big shipping companies) is a sound way to build predictable income in a normally low-margin category, and the specific niche framing (confidentiality/punctuality-sensitive sectors) is a genuinely useful positioning angle. Landing those first few contracts still requires direct outreach and building trust with each business individually.",
+    "url": "https://youtu.be/xA6oBoVyQ9I",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment"
+    ],
+    "published": "2026-08-07"
   },
   {
     "id": "microgreens-restaurant-wholesale",
@@ -2089,30 +2113,6 @@
     "published": "2026-07-30"
   },
   {
-    "id": "costco-liquidation-reselling",
-    "name": "Buying and reselling Costco liquidation returns",
-    "category": "E-commerce",
-    "tags": [
-      "reselling",
-      "liquidation",
-      "Costco",
-      "needs storage"
-    ],
-    "cost": "A few hundred to a few thousand dollars per pallet or lot",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Buy pallets or individual units of Costco customer returns and liquidated merchandise through the B-Stock auction platform, researching resale value on Facebook Marketplace or comparable retail listings before bidding, then resell the items individually online, through Facebook Marketplace for larger items or Whatnot live auctions for smaller consumable goods.",
-    "pitch": "Chris Koerner challenges an experienced reseller, Shannon, to help him turn a starting bankroll into $10,000 profit in 10 days flat, buying returned and liquidated Costco merchandise through the B-Stock auction platform at pennies on the dollar (a $3,400 gazebo for $200, an $1,800 furniture set for $200) and reselling it on Facebook Marketplace and, for smaller items like food and drinks, through live-auction platforms like Whatnot.",
-    "best": "Someone with storage space (a garage or a small storage unit) and access to a bit of starting capital, who's comfortable researching resale prices before bidding and willing to learn category-specific quirks like appliance grading and model research.",
-    "truth": "This same buy-liquidation-and-resell pattern shows up repeatedly across WAH creator content, sourcing returned or excess inventory well below retail and reselling it piece by piece, which is itself a signal that the underlying model genuinely works, not just a one-off story. What makes this version distinct: a Costco-specific sourcing angle through the B-Stock auction platform, a named experienced mentor walking through live bid research in real time, and the Whatnot live-auction resale channel for smaller consumable goods, a genuinely different selling mechanic than one-off Marketplace listings. Koerner is candid that categories like appliances and electronics require real category-specific knowledge to avoid getting burned, and that not every item resells quickly, sometimes you cut the price and take a loss just to free up storage space.",
-    "url": "https://www.youtube.com/watch?v=kEV86fy-Rvc",
-    "situation_tags": [
-      "Needs inventory storage",
-      "Requires travel to source or inspect goods",
-      "Needs a truck or cargo vehicle"
-    ],
-    "published": "2026-08-12"
-  },
-  {
     "id": "woven-clothing-label-manufacturing",
     "name": "Manufacturing woven clothing labels for small clothing brands that can't meet big suppliers' minimum order requirements",
     "category": "Physical & print products",
@@ -2282,28 +2282,6 @@
     "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
   },
   {
-    "id": "amazon-influencer-program-product-videos",
-    "name": "Amazon Influencer Program: short product review videos on Amazon listings",
-    "category": "Marketing & content",
-    "tags": [
-      "Amazon",
-      "affiliate marketing",
-      "video",
-      "passive income"
-    ],
-    "cost": "Free to join (requires an active social media account to apply)",
-    "found": "Greg Gottfried",
-    "what": "Record short review or demo videos for products you've already purchased from Amazon, upload them to your Amazon Influencer account, and earn a commission whenever a shopper watches your video directly on that product's Amazon listing page and then buys, without ever needing to post the videos to your own social media.",
-    "pitch": "Gottfried, three months into this specific program at the time of filming, made about $70 in profit his first month simply reviewing products he already owned, then jumped to roughly $1,400 in his second month after switching strategy: using a data tool to check how many other influencer videos already exist for a given product (since Amazon only displays about five per listing) and prioritizing products with little existing video competition over ones already saturated with 100-plus competing videos.",
-    "best": "Someone who already owns a range of Amazon-purchased products and is comfortable recording brief, simple review or demo videos, understanding that visibility (getting into the limited top-five video slots) matters more than production quality.",
-    "truth": "Gottfried is specific that his own $70-to-$1,400 jump came from a single tactical shift (competition-checking before choosing which products to review), a concrete and replicable insight rather than a vague growth claim. The application does require proving an existing active social media account, even though the ongoing work happens entirely on Amazon's platform, a real and sometimes confusing requirement worth knowing upfront.",
-    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-02"
-  },
-  {
     "id": "window-cleaning-service-residential-commercial",
     "name": "Window cleaning service for homes and businesses",
     "category": "Local & professional services",
@@ -2324,6 +2302,28 @@
       "Local travel required"
     ],
     "published": "2026-04-09"
+  },
+  {
+    "id": "amazon-influencer-program-product-videos",
+    "name": "Amazon Influencer Program: short product review videos on Amazon listings",
+    "category": "Marketing & content",
+    "tags": [
+      "Amazon",
+      "affiliate marketing",
+      "video",
+      "passive income"
+    ],
+    "cost": "Free to join (requires an active social media account to apply)",
+    "found": "Greg Gottfried",
+    "what": "Record short review or demo videos for products you've already purchased from Amazon, upload them to your Amazon Influencer account, and earn a commission whenever a shopper watches your video directly on that product's Amazon listing page and then buys, without ever needing to post the videos to your own social media.",
+    "pitch": "Gottfried, three months into this specific program at the time of filming, made about $70 in profit his first month simply reviewing products he already owned, then jumped to roughly $1,400 in his second month after switching strategy: using a data tool to check how many other influencer videos already exist for a given product (since Amazon only displays about five per listing) and prioritizing products with little existing video competition over ones already saturated with 100-plus competing videos.",
+    "best": "Someone who already owns a range of Amazon-purchased products and is comfortable recording brief, simple review or demo videos, understanding that visibility (getting into the limited top-five video slots) matters more than production quality.",
+    "truth": "Gottfried is specific that his own $70-to-$1,400 jump came from a single tactical shift (competition-checking before choosing which products to review), a concrete and replicable insight rather than a vague growth claim. The application does require proving an existing active social media account, even though the ongoing work happens entirely on Amazon's platform, a real and sometimes confusing requirement worth knowing upfront.",
+    "url": "https://www.youtube.com/watch?v=zxvh1ZW00Y8",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-02"
   },
   {
     "id": "mobile-car-detailing",
@@ -2687,6 +2687,29 @@
     "published": "2026-02-13"
   },
   {
+    "id": "free-lead-magnet-websites-whitelabel-upsells",
+    "name": "Free lead-magnet websites for local businesses, monetized via white-label platform subscription and AI upsells",
+    "category": "Local & professional services",
+    "tags": [
+      "local business",
+      "white label",
+      "AI tools",
+      "recurring revenue"
+    ],
+    "cost": "Very low startup cost (white-label software subscription)",
+    "found": "John Whitford",
+    "what": "Finding local businesses with no website or a poor one via Google Maps, building and giving them a free website as a foot-in-the-door gift, then charging a low monthly fee for hosting it on a white-label all-in-one software platform, and upselling additional AI features over time.",
+    "pitch": "The presenter walks through the full funnel live: search Google Maps for a specific business type and city, skip the already-top-ranked results and look instead for a solid business with no website or a thin one, build them a free website hosted on a white-label software platform combining hosting, a CRM, and AI tools in one, then once they're using it, upsell a chat widget, roughly $50 to $300 a month, a speed-to-lead automated follow-up workflow that texts and emails new leads within seconds of a missed call, roughly $200 to $500 a month, and an AI voice receptionist trained on that specific business, $500 to $1,000 a month, stacking a single client to several hundred dollars a month in recurring revenue.",
+    "best": "Someone comfortable with local outreach and willing to give away the first deliverable for free to build trust before charging for anything, rather than pitching a paid product cold.",
+    "truth": "The presenter discloses over 2,500 paying software customers and personal financial independence from this business, but individual client revenue figures shown are explicitly framed as illustrative, conservative estimates rather than guaranteed or typical results. The presenter has a financial incentive to promote sign-ups for the specific software platform used throughout the video.",
+    "url": "https://www.youtube.com/watch?v=YFf3jRZ0bho",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ],
+    "published": "2026-08-17"
+  },
+  {
     "id": "claude-local-business-website-lead-gen-retainer",
     "name": "Building websites and lead-capture automations for local businesses that don't have one, with a monthly hosting retainer",
     "category": "Local & professional services",
@@ -2889,6 +2912,29 @@
     "published": "2026-06-30"
   },
   {
+    "id": "pool-cleaning-maintenance-service",
+    "name": "Pool cleaning and maintenance service",
+    "category": "Local & professional services",
+    "tags": [
+      "pool service",
+      "home services",
+      "recurring revenue",
+      "low startup cost"
+    ],
+    "cost": "Very low startup cost (a few hundred dollars for equipment)",
+    "found": "Austin Zaback",
+    "what": "Provide weekly pool maintenance, skimming the surface, brushing walls, occasionally vacuuming the floor, and adding chemicals as needed, for residential customers who don't want to maintain their own pool or risk it turning green and unusable.",
+    "pitch": "Zaback cites the U.S. pool cleaning and maintenance market at $26.77 billion in 2025, projected to reach nearly $40 billion by 2030, and notes that most residential customers pay $100 to $150 a month for weekly service, a naturally recurring relationship since a neglected pool creates an urgent, visible problem the homeowner wants solved.",
+    "best": "Someone in a warm-climate state (Florida, Texas, California, Arizona, and similar) willing to build a weekly route, since retention in this business is described as strong once a homeowner trusts a reliable cleaner.",
+    "truth": "No specific individual case study or income example is given for this particular idea in the video, unlike several of the others, so the pricing and market-size figures are the only data points to evaluate rather than a personal account. The core mechanic (weekly visits, chemical costs scale with actual accounts rather than being paid upfront) is specific enough to verify independently before committing capital.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Weekend/event-based schedule"
+    ],
+    "published": "2026-04-09"
+  },
+  {
     "id": "medical-courier-service",
     "name": "Medical courier service using your own vehicle",
     "category": "Local & professional services",
@@ -3018,29 +3064,6 @@
     "published": "2026-04-07"
   },
   {
-    "id": "pool-cleaning-maintenance-service",
-    "name": "Pool cleaning and maintenance service",
-    "category": "Local & professional services",
-    "tags": [
-      "pool service",
-      "home services",
-      "recurring revenue",
-      "low startup cost"
-    ],
-    "cost": "Very low startup cost (a few hundred dollars for equipment)",
-    "found": "Austin Zaback",
-    "what": "Provide weekly pool maintenance, skimming the surface, brushing walls, occasionally vacuuming the floor, and adding chemicals as needed, for residential customers who don't want to maintain their own pool or risk it turning green and unusable.",
-    "pitch": "Zaback cites the U.S. pool cleaning and maintenance market at $26.77 billion in 2025, projected to reach nearly $40 billion by 2030, and notes that most residential customers pay $100 to $150 a month for weekly service, a naturally recurring relationship since a neglected pool creates an urgent, visible problem the homeowner wants solved.",
-    "best": "Someone in a warm-climate state (Florida, Texas, California, Arizona, and similar) willing to build a weekly route, since retention in this business is described as strong once a homeowner trusts a reliable cleaner.",
-    "truth": "No specific individual case study or income example is given for this particular idea in the video, unlike several of the others, so the pricing and market-size figures are the only data points to evaluate rather than a personal account. The core mechanic (weekly visits, chemical costs scale with actual accounts rather than being paid upfront) is specific enough to verify independently before committing capital.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
-    "situation_tags": [
-      "Local travel required",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-04-09"
-  },
-  {
     "id": "pinterest-amazon-affiliate-pins",
     "name": "Pinterest-to-Amazon affiliate pin marketing",
     "category": "Marketing & content",
@@ -3080,6 +3103,30 @@
     "truth": "The cost and price figures are consistent with what's publicly available for this kind of engraver and its typical products, a reasonable range. No named operator or verified sales record is given, so the specific income math should be treated as illustrative rather than a demonstrated case study.",
     "url": "https://www.youtube.com/watch?v=xQ12WUnQid4",
     "published": "2026-04-21"
+  },
+  {
+    "id": "whitelabel-gohighlevel-saas-reseller",
+    "name": "White-label SaaS reseller for local business niches (GoHighLevel)",
+    "category": "Local & professional services",
+    "tags": [
+      "SaaS",
+      "reselling",
+      "local business",
+      "GoHighLevel",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (~$497/month software fee, plus ad spend)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "You white-label GoHighLevel's all-in-one marketing and CRM software and resell it to local business niches (event rental companies, med spas, gyms, dentists, roofers, and similar), charging a monthly software fee while your own reseller cost stays fixed at $497 a month regardless of how many clients you have.",
+    "pitch": "Koerner reverse-engineers real competitors using GoHighLevel's own public \"SaaSpreneur\" awards page, which shows which resellers have crossed 100, 500, or 1,000+ paying customers, then walks through a five-tool toolkit: the pricing page, the Wayback Machine, the Meta Ads Library, builtwith.com, and LinkedIn, to estimate a competitor's real revenue, ad spend, and team size. He demonstrates the model live by building a \"missed call text back\" tool for a roofing business in a few minutes inside GoHighLevel, showing how a small wedge product can turn into a broader retainer relationship.",
+    "best": "Someone comfortable with sales and marketing research who's willing to pick one underserved local-business niche and specialize in it, rather than trying to serve every industry at once.",
+    "truth": "Koerner discloses upfront that he's a GoHighLevel affiliate and earns a commission if viewers sign up through his link, worth keeping in mind given how enthusiastically the software is framed. All of the specific revenue estimates for the example businesses are his own \"back of a napkin\" math based on public award tiers and pricing pages, not verified financials, a reasonable estimate but not an audited number. The reverse-engineering toolkit itself is genuinely useful and independently verifiable regardless of how accurate any single revenue guess turns out to be.",
+    "url": "https://www.youtube.com/watch?v=VOo3M3ZHUoA",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ],
+    "published": "2026-08-14"
   },
   {
     "id": "pressure-washing-annual-contracts",
@@ -3256,6 +3303,31 @@
     "published": "2026-08-23"
   },
   {
+    "id": "ai-voice-appointment-setter-lead-reactivation",
+    "name": "AI voice appointment-setting and lead-reactivation agent for home service businesses",
+    "category": "AI & automation",
+    "tags": [
+      "AI voice agent",
+      "appointment setting",
+      "lead reactivation",
+      "home services",
+      "AI agency"
+    ],
+    "cost": "Requires a backend developer or technical partner (fulfillment typically outsourced for 10-15% of the client fee)",
+    "found": "Angelo Turri",
+    "what": "Sell home service businesses (roofing, HVAC, plumbing, electrical) an AI voice agent that answers new leads within seconds, qualifies them, and books them directly onto the owner's calendar, plus a \"lead reactivation\" version of the same agent that calls through the business's existing list of old, cold, or unbooked leads to re-engage them with a promotion or special offer.",
+    "pitch": "Turri, who says his own AI agency generates $40-50k/month, prices this system at an $8,000-15,000 setup fee plus a $2,000-4,000/month retainer, and cites installing it for a roofing company that generated $159,000 in additional revenue in 3 months, with call-response times dropping from hours to under 2 minutes and lead capture going from about half of calls to 100%. He frames the appeal to business owners as an easily quantifiable ROI and recommends also charging for ad management if the client doesn't already have enough lead flow to feed the system.",
+    "best": "Someone interested in selling and consulting rather than building software themselves \u2014 Turri's own model delegates all technical fulfillment to a developer for 10-15% of the client fee, so this fits someone comfortable with cold calling, sales conversations, and picking one home-service niche to specialize in.",
+    "truth": "The mechanic (speed-to-lead AI voice agents, cold-lead reactivation campaigns) is a real and increasingly common offering in the AI agency space, and the ROI framing is a genuinely useful way to sell it. The $159,000 case study and pricing figures are Turri's own reported numbers from his agency, not independently verified, and the video is also a funnel toward his own paid mentorship program \u2014 success here depends heavily on the sales and client-acquisition skill described more than on the AI technology itself.",
+    "url": "https://youtu.be/ZQHBe6Rb6v0",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based",
+      "Requires hiring or managing others"
+    ],
+    "published": "2026-08-11"
+  },
+  {
     "id": "commercial-dock-door-equipment-service",
     "name": "Commercial dock and door equipment service",
     "category": "Local & professional services",
@@ -3352,6 +3424,30 @@
     "truth": "The industry-level figure cited (Selecta reporting over $1 billion in 2021 sales, up 3% year over year) is a real, checkable industry data point distinct from the personal anecdote about the young operator, which is presented as a story Tilbury witnessed rather than a verified case study with real numbers attached. The core advice, that success depends on finding the right locations and the right product mix for each one, is genuinely the hard part of this business, not a minor detail.",
     "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54",
     "published": "2022-06-02"
+  },
+  {
+    "id": "lawn-care-business-route",
+    "name": "Lawn care and mowing route",
+    "category": "Local & professional services",
+    "tags": [
+      "lawn care",
+      "landscaping",
+      "recurring revenue",
+      "low startup cost"
+    ],
+    "cost": "Low startup cost (one mower to start)",
+    "found": "Austin Zaback",
+    "what": "Build a residential lawn mowing and basic yard maintenance route, starting with one mower and expanding customer by customer within a tight geographic area to keep drive time low and route density high.",
+    "pitch": "Zaback cites the U.S. lawn care and landscaping industry at $184 billion in 2025 across 650,000 companies, none of which controls more than 5% of the market, meaning there's no dominant national brand cornering any given neighborhood. He notes the average U.S. household spends about $600 a year on lawn care, and that doing eight to ten lawns a day can generate $400 to $750 in daily revenue solo.",
+    "best": "Someone willing to start small (one mower, one tight route) and treat this as a long, proven, unglamorous path rather than a fast or novel one, since Zaback frames it as one of the least flashy but most consistently reliable ideas on the list.",
+    "truth": "The revenue figures are Zaback's general framework based on typical job counts and pricing rather than one specific named case study, unlike some of the other ideas in this video. The market fragmentation statistic (no company over 5% share) is a real, checkable structural fact about the industry that supports the claim of low competitive barriers, regardless of any individual operator's specific results.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Requires equipment/vehicle investment",
+      "Weekend/event-based schedule"
+    ],
+    "published": "2026-04-09"
   },
   {
     "id": "musical-instrument-rental-schools",
@@ -3457,30 +3553,6 @@
     "published": "2026-06-30"
   },
   {
-    "id": "lawn-care-business-route",
-    "name": "Lawn care and mowing route",
-    "category": "Local & professional services",
-    "tags": [
-      "lawn care",
-      "landscaping",
-      "recurring revenue",
-      "low startup cost"
-    ],
-    "cost": "Low startup cost (one mower to start)",
-    "found": "Austin Zaback",
-    "what": "Build a residential lawn mowing and basic yard maintenance route, starting with one mower and expanding customer by customer within a tight geographic area to keep drive time low and route density high.",
-    "pitch": "Zaback cites the U.S. lawn care and landscaping industry at $184 billion in 2025 across 650,000 companies, none of which controls more than 5% of the market, meaning there's no dominant national brand cornering any given neighborhood. He notes the average U.S. household spends about $600 a year on lawn care, and that doing eight to ten lawns a day can generate $400 to $750 in daily revenue solo.",
-    "best": "Someone willing to start small (one mower, one tight route) and treat this as a long, proven, unglamorous path rather than a fast or novel one, since Zaback frames it as one of the least flashy but most consistently reliable ideas on the list.",
-    "truth": "The revenue figures are Zaback's general framework based on typical job counts and pricing rather than one specific named case study, unlike some of the other ideas in this video. The market fragmentation statistic (no company over 5% share) is a real, checkable structural fact about the industry that supports the claim of low competitive barriers, regardless of any individual operator's specific results.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-04-09"
-  },
-  {
     "id": "ai-video-clip-service-opus-clip",
     "name": "Short-form video clipping service using Opus Clip",
     "category": "Marketing & content",
@@ -3547,30 +3619,6 @@
     "published": "2026-07-30"
   },
   {
-    "id": "whitelabel-gohighlevel-saas-reseller",
-    "name": "White-label SaaS reseller for local business niches (GoHighLevel)",
-    "category": "Local & professional services",
-    "tags": [
-      "SaaS",
-      "reselling",
-      "local business",
-      "GoHighLevel",
-      "low startup cost"
-    ],
-    "cost": "Low startup cost (~$497/month software fee, plus ad spend)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "You white-label GoHighLevel's all-in-one marketing and CRM software and resell it to local business niches (event rental companies, med spas, gyms, dentists, roofers, and similar), charging a monthly software fee while your own reseller cost stays fixed at $497 a month regardless of how many clients you have.",
-    "pitch": "Koerner reverse-engineers real competitors using GoHighLevel's own public \"SaaSpreneur\" awards page, which shows which resellers have crossed 100, 500, or 1,000+ paying customers, then walks through a five-tool toolkit: the pricing page, the Wayback Machine, the Meta Ads Library, builtwith.com, and LinkedIn, to estimate a competitor's real revenue, ad spend, and team size. He demonstrates the model live by building a \"missed call text back\" tool for a roofing business in a few minutes inside GoHighLevel, showing how a small wedge product can turn into a broader retainer relationship.",
-    "best": "Someone comfortable with sales and marketing research who's willing to pick one underserved local-business niche and specialize in it, rather than trying to serve every industry at once.",
-    "truth": "Koerner discloses upfront that he's a GoHighLevel affiliate and earns a commission if viewers sign up through his link, worth keeping in mind given how enthusiastically the software is framed. All of the specific revenue estimates for the example businesses are his own \"back of a napkin\" math based on public award tiers and pricing pages, not verified financials, a reasonable estimate but not an audited number. The reverse-engineering toolkit itself is genuinely useful and independently verifiable regardless of how accurate any single revenue guess turns out to be.",
-    "url": "https://www.youtube.com/watch?v=VOo3M3ZHUoA",
-    "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based"
-    ],
-    "published": "2026-08-14"
-  },
-  {
     "id": "motorcycle-helmet-cleaning-vending-machine",
     "name": "Placing coin-operated motorcycle helmet cleaning vending machines at motorcycle-traffic locations",
     "category": "Local & professional services",
@@ -3632,6 +3680,29 @@
       "Needs a dedicated workspace"
     ],
     "published": "2026-09-05"
+  },
+  {
+    "id": "mobile-car-detailing-service",
+    "name": "Mobile car detailing service",
+    "category": "Local & professional services",
+    "tags": [
+      "mobile detailing",
+      "automotive",
+      "low startup cost",
+      "high margin"
+    ],
+    "cost": "Low startup cost (no commercial space needed)",
+    "found": "Austin Zaback",
+    "what": "Drive to a customer's home or office and detail their car in their driveway or parking spot, requiring no commercial space, employees, or heavy equipment, just mobility and the tools to wash, wax, and clean a vehicle on-site.",
+    "pitch": "Zaback cites the global car detailing industry projected to surpass $58 billion by 2030 and notes mobile detailers consistently achieve 60-80% gross margins, among the highest of any service business on his list, since the core product being sold is convenience as much as the clean itself. He gives concrete pricing: $50-100 for a basic wash, $200-400 for a wax, buff, or deep clean on a luxury vehicle, meaning three high-end cars in a day could clear roughly $1,000.",
+    "best": "Someone targeting busy professionals, luxury car owners, or multi-vehicle families who will pay a premium specifically to avoid driving somewhere and waiting, rather than competing purely on price with fixed-location car washes.",
+    "truth": "The margin and pricing figures are presented as general industry figures rather than tied to one specific named operator's verified results, unlike some of the other ideas in this video. The core value proposition, that convenience commands a premium price people pay without much resistance, is a straightforward and testable claim independent of the specific dollar figures cited.",
+    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
+    "situation_tags": [
+      "Local travel required",
+      "Weekend/event-based schedule"
+    ],
+    "published": "2026-04-09"
   },
   {
     "id": "equipment-rental-business",
@@ -3810,29 +3881,6 @@
     "truth": "The mechanics (specialty equipment producing a novel food ingredient, sold wholesale to businesses that use it in their own menu items) is a straightforward, low-complexity manufacturing business. Landing and keeping wholesale accounts is a real sales relationship that the source material doesn't detail beyond \"offer samples,\" and any food-contact product will have local health/food-safety rules worth checking before selling.",
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s",
     "published": "2025-09-12"
-  },
-  {
-    "id": "mobile-car-detailing-service",
-    "name": "Mobile car detailing service",
-    "category": "Local & professional services",
-    "tags": [
-      "mobile detailing",
-      "automotive",
-      "low startup cost",
-      "high margin"
-    ],
-    "cost": "Low startup cost (no commercial space needed)",
-    "found": "Austin Zaback",
-    "what": "Drive to a customer's home or office and detail their car in their driveway or parking spot, requiring no commercial space, employees, or heavy equipment, just mobility and the tools to wash, wax, and clean a vehicle on-site.",
-    "pitch": "Zaback cites the global car detailing industry projected to surpass $58 billion by 2030 and notes mobile detailers consistently achieve 60-80% gross margins, among the highest of any service business on his list, since the core product being sold is convenience as much as the clean itself. He gives concrete pricing: $50-100 for a basic wash, $200-400 for a wax, buff, or deep clean on a luxury vehicle, meaning three high-end cars in a day could clear roughly $1,000.",
-    "best": "Someone targeting busy professionals, luxury car owners, or multi-vehicle families who will pay a premium specifically to avoid driving somewhere and waiting, rather than competing purely on price with fixed-location car washes.",
-    "truth": "The margin and pricing figures are presented as general industry figures rather than tied to one specific named operator's verified results, unlike some of the other ideas in this video. The core value proposition, that convenience commands a premium price people pay without much resistance, is a straightforward and testable claim independent of the specific dollar figures cited.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
-    "situation_tags": [
-      "Local travel required",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-04-09"
   },
   {
     "id": "acrylic-display-fabrication-local-b2b",
@@ -4459,29 +4507,6 @@
     "published": "2026-08-03"
   },
   {
-    "id": "free-lead-magnet-websites-whitelabel-upsells",
-    "name": "Free lead-magnet websites for local businesses, monetized via white-label platform subscription and AI upsells",
-    "category": "Local & professional services",
-    "tags": [
-      "local business",
-      "white label",
-      "AI tools",
-      "recurring revenue"
-    ],
-    "cost": "Very low startup cost (white-label software subscription)",
-    "found": "John Whitford",
-    "what": "Finding local businesses with no website or a poor one via Google Maps, building and giving them a free website as a foot-in-the-door gift, then charging a low monthly fee for hosting it on a white-label all-in-one software platform, and upselling additional AI features over time.",
-    "pitch": "The presenter walks through the full funnel live: search Google Maps for a specific business type and city, skip the already-top-ranked results and look instead for a solid business with no website or a thin one, build them a free website hosted on a white-label software platform combining hosting, a CRM, and AI tools in one, then once they're using it, upsell a chat widget, roughly $50 to $300 a month, a speed-to-lead automated follow-up workflow that texts and emails new leads within seconds of a missed call, roughly $200 to $500 a month, and an AI voice receptionist trained on that specific business, $500 to $1,000 a month, stacking a single client to several hundred dollars a month in recurring revenue.",
-    "best": "Someone comfortable with local outreach and willing to give away the first deliverable for free to build trust before charging for anything, rather than pitching a paid product cold.",
-    "truth": "The presenter discloses over 2,500 paying software customers and personal financial independence from this business, but individual client revenue figures shown are explicitly framed as illustrative, conservative estimates rather than guaranteed or typical results. The presenter has a financial incentive to promote sign-ups for the specific software platform used throughout the video.",
-    "url": "https://www.youtube.com/watch?v=YFf3jRZ0bho",
-    "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based"
-    ],
-    "published": "2026-08-17"
-  },
-  {
     "id": "faceless-tiktok-shop-seller-affiliate-army",
     "name": "Faceless TikTok Shop seller business using print-on-demand and an affiliate army",
     "category": "E-commerce",
@@ -4790,6 +4815,28 @@
     "published": "2026-07-07"
   },
   {
+    "id": "productized-consulting-6ps",
+    "name": "A framework for building a productized consulting business",
+    "category": "Marketing & content",
+    "tags": [
+      "consulting",
+      "methodology",
+      "framework"
+    ],
+    "cost": "Low startup cost, time-intensive",
+    "found": "Ali Abdaal",
+    "what": "A 5-phase roadmap for building a solopreneur consulting or service business: identify a marketable skill, validate demand through direct conversations, then build and sell an offer using a structured framework called the '6 Ps', Person, Problem, Promise, Plan, Product, Price.",
+    "pitch": "Rather than guessing what to build, this approach validates demand through 10 to 20 real conversations with potential clients before building anything, aiming for a minimum offer price of around $2,000.",
+    "best": "Anyone considering a consulting or service-based business, regardless of the specific skill, this is a general launch process, not a specific idea.",
+    "truth": "Presented as the creator's own general model and timeline, not a personally verified case study for this exact path. The direct-conversation validation step is a genuinely sound, low-risk practice worth borrowing for almost any service idea.",
+    "url": "https://www.youtube.com/watch?v=XIhc7_Ptrpk",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ],
+    "published": "2026-04-09"
+  },
+  {
     "id": "wall-printer-mural-service",
     "name": "Wall printer mural service for businesses",
     "category": "Physical & print products",
@@ -4876,31 +4923,6 @@
       "Strictly in-home"
     ],
     "published": "2026-08-22"
-  },
-  {
-    "id": "ai-voice-appointment-setter-lead-reactivation",
-    "name": "AI voice appointment-setting and lead-reactivation agent for home service businesses",
-    "category": "AI & automation",
-    "tags": [
-      "AI voice agent",
-      "appointment setting",
-      "lead reactivation",
-      "home services",
-      "AI agency"
-    ],
-    "cost": "Requires a backend developer or technical partner (fulfillment typically outsourced for 10-15% of the client fee)",
-    "found": "Angelo Turri",
-    "what": "Sell home service businesses (roofing, HVAC, plumbing, electrical) an AI voice agent that answers new leads within seconds, qualifies them, and books them directly onto the owner's calendar, plus a \"lead reactivation\" version of the same agent that calls through the business's existing list of old, cold, or unbooked leads to re-engage them with a promotion or special offer.",
-    "pitch": "Turri, who says his own AI agency generates $40-50k/month, prices this system at an $8,000-15,000 setup fee plus a $2,000-4,000/month retainer, and cites installing it for a roofing company that generated $159,000 in additional revenue in 3 months, with call-response times dropping from hours to under 2 minutes and lead capture going from about half of calls to 100%. He frames the appeal to business owners as an easily quantifiable ROI and recommends also charging for ad management if the client doesn't already have enough lead flow to feed the system.",
-    "best": "Someone interested in selling and consulting rather than building software themselves \u2014 Turri's own model delegates all technical fulfillment to a developer for 10-15% of the client fee, so this fits someone comfortable with cold calling, sales conversations, and picking one home-service niche to specialize in.",
-    "truth": "The mechanic (speed-to-lead AI voice agents, cold-lead reactivation campaigns) is a real and increasingly common offering in the AI agency space, and the ROI framing is a genuinely useful way to sell it. The $159,000 case study and pricing figures are Turri's own reported numbers from his agency, not independently verified, and the video is also a funnel toward his own paid mentorship program \u2014 success here depends heavily on the sales and client-acquisition skill described more than on the AI technology itself.",
-    "url": "https://youtu.be/ZQHBe6Rb6v0",
-    "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based",
-      "Requires hiring or managing others"
-    ],
-    "published": "2026-08-11"
   },
   {
     "id": "pay-per-lead-agency-five-ones-roadmap",
@@ -5180,6 +5202,29 @@
     "published": "2026-04-21"
   },
   {
+    "id": "grass-fed-beef-arbitrage-no-land",
+    "name": "Grass-fed beef arbitrage without owning any land",
+    "category": "Local & professional services",
+    "tags": [
+      "grass-fed beef",
+      "livestock arbitrage",
+      "direct-to-consumer meat",
+      "no land required"
+    ],
+    "cost": "Moderate startup cost (buying young cattle from a rancher; costs scale with how many head you buy)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Buy young cattle (calves at around 500-600 lbs) directly from a rancher at market price, arrange to have them custom-finished and slaughtered once they reach optimal size instead of selling them at the standard weight, then package and sell the finished grass-fed beef directly to consumers \u2014 all without owning or leasing any land yourself.",
+    "pitch": "Koerner describes the rancher he bought his own property from as making consistent money simply letting calves graze until they reach market weight, then selling roughly 15 at a time at auction for about $1,400 each. His proposed arbitrage: buy calves at that same price, brand them as your own, but instead of selling them early at the standard auction weight, pay to have them finished and slaughtered at optimal size, then sell the packaged beef directly to consumers (he suggests shipping nationally through an e-commerce operation) \u2014 capturing the price difference between a live auction calf and finished, packaged, direct-to-consumer beef.",
+    "best": "Someone who can build a relationship with a working rancher (to buy calves and arrange grazing/finishing) and a slaughterhouse (booking dates months in advance, since they get busy), and who has or can build a direct-to-consumer sales channel for the finished product.",
+    "truth": "The core arbitrage logic is sound and doesn't require owning land, which is a genuine barrier-lowering insight most beef-business content skips past. That said, the presenter is explicit this is his own not-yet-executed plan (\"a ways off\") rather than a proven case study, and the real complexity \u2014 coordinating a rancher relationship, slaughterhouse scheduling, meat packaging/labeling regulations, and building distribution \u2014 is meaningfully harder than the simple unit-economics pitch suggests.",
+    "url": "https://youtu.be/HOosrT6vj_Y",
+    "situation_tags": [
+      "Requires travel to source or inspect goods",
+      "Requires hiring or managing others"
+    ],
+    "published": "2026-08-27"
+  },
+  {
     "id": "waste-oil-grease-collection-recycling",
     "name": "Waste oil and grease collection and recycling route",
     "category": "Local & professional services",
@@ -5276,6 +5321,31 @@
     "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ"
   },
   {
+    "id": "cottage-bakery-home-kitchen-drops",
+    "name": "Cottage bakery selling weekly product drops from a home kitchen",
+    "category": "Physical & print products",
+    "tags": [
+      "cottage bakery",
+      "home baking",
+      "cottage food law",
+      "baked goods",
+      "food business"
+    ],
+    "cost": "Low startup cost (a food handler certificate plus basic baking ingredients and packaging)",
+    "found": "Austin Zaback",
+    "what": "Bake a single signature product (Zaback's example: cinnamon rolls) from a home kitchen under your state's cottage food laws, take pre-orders online, and sell in scheduled weekly drops rather than running a storefront.",
+    "pitch": "Zaback profiles Lindsey Skillnick (Mama Lama Bakery), who started with a driveway farm stand and moved to online pre-orders, now selling roughly 400 $12 cinnamon rolls most weekends (about $4,800/weekend, over $20,000/month) on ingredient costs of $5-7 per dozen. He frames the legal bar to entry as low in most states: a food handler certificate (about $10-15), state cottage-food registration, and proper labeling, with no commercial kitchen or storefront required.",
+    "best": "Someone who already enjoys baking and wants to test a home-based food business without the overhead of a commercial kitchen lease, and who's comfortable managing a pre-order/drop schedule.",
+    "truth": "Cottage food laws vary significantly by state \u2014 some cap annual revenue, restrict which products can be sold this way, or don't allow online sales at all \u2014 so the \"just three things\" legal summary in the video should be checked against your own state's specific cottage food program before starting. The revenue figures are one baker's self-reported numbers after building a following, not a starting point; going from zero to viral in under 90 days, as Skillnick reportedly did, is closer to the exception than the rule.",
+    "url": "https://youtu.be/xUCD1BXvhjU",
+    "situation_tags": [
+      "Strictly in-home",
+      "Weekend/event-based schedule",
+      "Requires a license or certification"
+    ],
+    "published": "2026-08-13"
+  },
+  {
     "id": "mobile-storage-pod-rental",
     "name": "Renting portable steel storage containers to homeowners and contractors",
     "category": "Local & professional services",
@@ -5355,31 +5425,6 @@
       "Requires equipment/vehicle investment"
     ],
     "published": "2026-07-31"
-  },
-  {
-    "id": "cottage-bakery-home-kitchen-drops",
-    "name": "Cottage bakery selling weekly product drops from a home kitchen",
-    "category": "Physical & print products",
-    "tags": [
-      "cottage bakery",
-      "home baking",
-      "cottage food law",
-      "baked goods",
-      "food business"
-    ],
-    "cost": "Low startup cost (a food handler certificate plus basic baking ingredients and packaging)",
-    "found": "Austin Zaback",
-    "what": "Bake a single signature product (Zaback's example: cinnamon rolls) from a home kitchen under your state's cottage food laws, take pre-orders online, and sell in scheduled weekly drops rather than running a storefront.",
-    "pitch": "Zaback profiles Lindsey Skillnick (Mama Lama Bakery), who started with a driveway farm stand and moved to online pre-orders, now selling roughly 400 $12 cinnamon rolls most weekends (about $4,800/weekend, over $20,000/month) on ingredient costs of $5-7 per dozen. He frames the legal bar to entry as low in most states: a food handler certificate (about $10-15), state cottage-food registration, and proper labeling, with no commercial kitchen or storefront required.",
-    "best": "Someone who already enjoys baking and wants to test a home-based food business without the overhead of a commercial kitchen lease, and who's comfortable managing a pre-order/drop schedule.",
-    "truth": "Cottage food laws vary significantly by state \u2014 some cap annual revenue, restrict which products can be sold this way, or don't allow online sales at all \u2014 so the \"just three things\" legal summary in the video should be checked against your own state's specific cottage food program before starting. The revenue figures are one baker's self-reported numbers after building a following, not a starting point; going from zero to viral in under 90 days, as Skillnick reportedly did, is closer to the exception than the rule.",
-    "url": "https://youtu.be/xUCD1BXvhjU",
-    "situation_tags": [
-      "Strictly in-home",
-      "Weekend/event-based schedule",
-      "Requires a license or certification"
-    ],
-    "published": "2026-08-13"
   },
   {
     "id": "pinterest-amazon-associates-pin-funnel-diamondchanel",
@@ -5561,6 +5606,30 @@
     "published": "2026-09-07"
   },
   {
+    "id": "diy-bedazzle-craft-kits",
+    "name": "DIY bedazzling kits sold online (rhinestone canvas/cup craft business)",
+    "category": "Physical & print products",
+    "tags": [
+      "craft business",
+      "DIY kits",
+      "rhinestones",
+      "Etsy-style product",
+      "hobby to business"
+    ],
+    "cost": "Low to moderate startup cost (rhinestones, canvases, and packaging materials to build initial inventory)",
+    "found": "Austin Zaback",
+    "what": "Sell do-it-yourself bedazzling kits (rhinestones, a canvas or cup, and instructions) that let customers create their own decorated piece at home, rather than making and selling only finished custom pieces yourself.",
+    "pitch": "Zaback profiles Bryel Smallwood, who started gluing rhinestones onto canvases for fun in college, grew a following making custom pieces (reportedly $1,000 each), then pivoted to selling DIY kits once demand outpaced her ability to hand-make everything \u2014 her first day selling kits reportedly brought in $17,000, and she now reports around $80,000/month in sales (with $10,000-12,000/week in overhead) across 500+ designs.",
+    "best": "Someone with an existing craft skill and a social following (or the willingness to build one by posting the process), who wants to productize a labor-intensive custom craft into a scalable kit business.",
+    "truth": "The jump from making individual custom pieces to a packaged DIY kit business is the real insight here, and it's a legitimately transferable idea for other crafts. But Smallwood's numbers describe a business three years and a viral following in, with real overhead (about half of gross revenue) and paid help to manage 700+ orders/month, not a plug-and-play income figure for someone starting today with no audience.",
+    "url": "https://youtu.be/xUCD1BXvhjU",
+    "situation_tags": [
+      "Strictly in-home",
+      "Needs inventory storage"
+    ],
+    "published": "2026-08-13"
+  },
+  {
     "id": "metal-melting-furnace-cast-jewelry",
     "name": "Small-batch metal casting business using recycled scrap metal",
     "category": "Physical & print products",
@@ -5646,29 +5715,6 @@
     "published": "2026-07-30"
   },
   {
-    "id": "grass-fed-beef-arbitrage-no-land",
-    "name": "Grass-fed beef arbitrage without owning any land",
-    "category": "Local & professional services",
-    "tags": [
-      "grass-fed beef",
-      "livestock arbitrage",
-      "direct-to-consumer meat",
-      "no land required"
-    ],
-    "cost": "Moderate startup cost (buying young cattle from a rancher; costs scale with how many head you buy)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Buy young cattle (calves at around 500-600 lbs) directly from a rancher at market price, arrange to have them custom-finished and slaughtered once they reach optimal size instead of selling them at the standard weight, then package and sell the finished grass-fed beef directly to consumers \u2014 all without owning or leasing any land yourself.",
-    "pitch": "Koerner describes the rancher he bought his own property from as making consistent money simply letting calves graze until they reach market weight, then selling roughly 15 at a time at auction for about $1,400 each. His proposed arbitrage: buy calves at that same price, brand them as your own, but instead of selling them early at the standard auction weight, pay to have them finished and slaughtered at optimal size, then sell the packaged beef directly to consumers (he suggests shipping nationally through an e-commerce operation) \u2014 capturing the price difference between a live auction calf and finished, packaged, direct-to-consumer beef.",
-    "best": "Someone who can build a relationship with a working rancher (to buy calves and arrange grazing/finishing) and a slaughterhouse (booking dates months in advance, since they get busy), and who has or can build a direct-to-consumer sales channel for the finished product.",
-    "truth": "The core arbitrage logic is sound and doesn't require owning land, which is a genuine barrier-lowering insight most beef-business content skips past. That said, the presenter is explicit this is his own not-yet-executed plan (\"a ways off\") rather than a proven case study, and the real complexity \u2014 coordinating a rancher relationship, slaughterhouse scheduling, meat packaging/labeling regulations, and building distribution \u2014 is meaningfully harder than the simple unit-economics pitch suggests.",
-    "url": "https://youtu.be/HOosrT6vj_Y",
-    "situation_tags": [
-      "Requires travel to source or inspect goods",
-      "Requires hiring or managing others"
-    ],
-    "published": "2026-08-27"
-  },
-  {
     "id": "concrete-nail-gun-rental-business",
     "name": "Buying concrete nail guns to rent out to contractors by the day, rather than using them yourself",
     "category": "Local & professional services",
@@ -5703,30 +5749,6 @@
     "truth": "Small-scale oil pressing is a real, established micro-manufacturing niche in many markets, and the core insight, that the machine is only step one and the real business is trust/freshness/repeat buyers, is sound practical advice. No specific revenue example or case study is given; this is general guidance rather than a demonstrated result.",
     "url": "https://www.youtube.com/watch?v=mKFNXLik1ro",
     "published": "2026-06-03"
-  },
-  {
-    "id": "diy-bedazzle-craft-kits",
-    "name": "DIY bedazzling kits sold online (rhinestone canvas/cup craft business)",
-    "category": "Physical & print products",
-    "tags": [
-      "craft business",
-      "DIY kits",
-      "rhinestones",
-      "Etsy-style product",
-      "hobby to business"
-    ],
-    "cost": "Low to moderate startup cost (rhinestones, canvases, and packaging materials to build initial inventory)",
-    "found": "Austin Zaback",
-    "what": "Sell do-it-yourself bedazzling kits (rhinestones, a canvas or cup, and instructions) that let customers create their own decorated piece at home, rather than making and selling only finished custom pieces yourself.",
-    "pitch": "Zaback profiles Bryel Smallwood, who started gluing rhinestones onto canvases for fun in college, grew a following making custom pieces (reportedly $1,000 each), then pivoted to selling DIY kits once demand outpaced her ability to hand-make everything \u2014 her first day selling kits reportedly brought in $17,000, and she now reports around $80,000/month in sales (with $10,000-12,000/week in overhead) across 500+ designs.",
-    "best": "Someone with an existing craft skill and a social following (or the willingness to build one by posting the process), who wants to productize a labor-intensive custom craft into a scalable kit business.",
-    "truth": "The jump from making individual custom pieces to a packaged DIY kit business is the real insight here, and it's a legitimately transferable idea for other crafts. But Smallwood's numbers describe a business three years and a viral following in, with real overhead (about half of gross revenue) and paid help to manage 700+ orders/month, not a plug-and-play income figure for someone starting today with no audience.",
-    "url": "https://youtu.be/xUCD1BXvhjU",
-    "situation_tags": [
-      "Strictly in-home",
-      "Needs inventory storage"
-    ],
-    "published": "2026-08-13"
   },
   {
     "id": "ai-youtube-channel-management-agency",
@@ -5912,6 +5934,31 @@
     "published": "2026-08-23"
   },
   {
+    "id": "ai-internal-knowledge-base-rag-system",
+    "name": "Internal AI knowledge-base (RAG) agent for home service businesses",
+    "category": "AI & automation",
+    "tags": [
+      "RAG system",
+      "internal knowledge base",
+      "AI agency",
+      "home services",
+      "operations automation"
+    ],
+    "cost": "Requires a backend developer or technical partner (fulfillment typically outsourced for 10-15% of the client fee)",
+    "found": "Angelo Turri",
+    "what": "Build a business a private AI system trained on all of its internal documentation (SOPs, pricing sheets, warranty terms, training materials, FAQs) so office staff and field technicians can instantly ask it questions instead of interrupting the owner or senior staff, with the option to later extend the same trained knowledge base into an external customer-facing chatbot or automated quote generator.",
+    "pitch": "Turri prices this system at an $8,000-15,000 upfront build fee plus $2,000-4,000/month to maintain, though he says his own real range has run from $6,000 to over $15,000 depending on the business. He frames it as \"stickier\" than the appointment-setting system since it becomes embedded in a business's daily operations across multiple staff, making it very costly for a client to ever switch away from once adopted.",
+    "best": "Someone comfortable with a longer, more detailed onboarding process (gathering and organizing a business's internal documents) who wants to sell a recurring, hard-to-replace service rather than a one-off project.",
+    "truth": "The core idea (a private AI trained on internal business documents, answering staff questions and eventually generating quotes) is a legitimate and growing category of AI agency offering, and the \"harder to replace\" logic for pricing and retention is sound business reasoning. As with the companion system in this video, the specific dollar figures are Turri's own reported numbers, and much of the actual difficulty in this business is in client acquisition and having an organized onboarding process, not the AI technology itself, which the video acknowledges is now something \"anybody can build.\"",
+    "url": "https://youtu.be/ZQHBe6Rb6v0",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based",
+      "Requires hiring or managing others"
+    ],
+    "published": "2026-08-11"
+  },
+  {
     "id": "truck-driver-recruiting-placement",
     "name": "Truck driver recruiting and placement service",
     "category": "Local & professional services",
@@ -6007,6 +6054,29 @@
     "truth": "The streaming-viewership statistic (Americans watching more streaming than cable/broadcast, YouTube as the top platform) is attributed to a real, named source (The New York Times, May 2025) and is independently checkable. The Suhail Amin case study, including the specific $30,000 profit in his first six months, is presented in detail but is a single individual's account, not an audited business record. The video is part of the same promotional series discussed above (each case study links to a paid course), worth knowing when weighing how polished the result sounds.",
     "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5",
     "published": "2025-12-19"
+  },
+  {
+    "id": "tumbler-etching-tiktok-marketing",
+    "name": "Personalized tumbler and glassware etching business marketed through process videos",
+    "category": "Physical & print products",
+    "tags": [
+      "laser engraving",
+      "personalization",
+      "tumblers",
+      "TikTok marketing",
+      "craft business"
+    ],
+    "cost": "Very low startup cost (roughly $115 for a portable engraving tool, under $500 to start overall)",
+    "found": "Austin Zaback",
+    "what": "Buy blank tumblers (or glass, metal, or other surfaces) wholesale, personalize them with a name or design using a laser engraver or a portable high-speed engraving pen, and sell them primarily by posting the etching process itself as short-form video content.",
+    "pitch": "Zaback profiles Stephanie Stroman, who sold 102 cups in one week ($2,550) using a laser engraver and posting the process on TikTok, turning roughly $10 blank tumblers into $25-60 personalized pieces (60-80% margins by his estimate). He frames the process video itself as free marketing, since viewers are drawn to watching the personalization happen, not just seeing the finished product.",
+    "best": "Someone comfortable posting short-form video of their own hands-on work process, who wants a low-cost physical product business where the content and the product creation are the same activity.",
+    "truth": "The core economics (cheap blanks, high per-unit margin) are genuine and don't require a full laser setup \u2014 Zaback notes cheaper handheld tools work too. The business is heavily dependent on the process videos actually getting traction on social media, which isn't guaranteed and isn't really addressed in the numbers shown; one good week from one creator isn't evidence of a repeatable income stream without that visibility.",
+    "url": "https://youtu.be/xUCD1BXvhjU",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-13"
   },
   {
     "id": "niche-affiliate-content-websites",
@@ -6108,6 +6178,31 @@
     "published": "2026-04-21"
   },
   {
+    "id": "restaurant-specials-board-ads-agency-upsell",
+    "name": "Free restaurant specials-board advertising, used as a wedge to upsell local businesses into an AI/digital agency",
+    "category": "Marketing & content",
+    "tags": [
+      "local advertising",
+      "restaurant marketing",
+      "lead generation",
+      "AI implementation agency",
+      "upsell funnel"
+    ],
+    "cost": "Very low startup cost (about $350-400 per board, covered by ad sales before the board is even printed)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Place a free dry-erase specials board (used for daily specials and announcements) inside high-foot-traffic local businesses like restaurants and coffee shops, sell 6 ad slots on the board's border to other local businesses for $600/year each, then use the relationship with those advertisers (mostly home services \u2014 realtors, contractors, insurance agents, lawyers) as a warm lead into a separate, higher-ticket AI implementation and digital marketing agency (websites, Google review/reputation management, AI voice receptionists).",
+    "pitch": "The guests, a married couple who started this a year and a half ago alongside an existing digital agency, are earning about $10,000-15,000/month combined from both sides of the business after 6 months. The board itself costs about $350-400 to produce (which is covered before printing, since you only print once all 6 ad spots are sold) and generates about $3,200-4,600 profit per placement per year at roughly 85% margin; separately, roughly 20-30 of the businesses that bought ad space have converted into digital agency clients averaging about $7,500/year each, projected around $200,000-225,000 in annual revenue from that side alone \u2014 with 60% of that from brand reputation management, 30% from websites/hosting, and 10% from higher-ticket AI services like voice receptionists and automated appointment booking.",
+    "best": "Someone comfortable with in-person and DM-based local sales (cold outreach to find host locations and advertisers) who also wants to build or already runs a digital marketing/AI implementation service to upsell into.",
+    "truth": "This is one of the more genuinely novel local business mechanics in this database \u2014 a low-cost physical product used deliberately as a lead-generation wedge into a much higher-margin service business, rather than as the primary profit center itself. The presenters are candid that finding the first advertiser took 10-15 cold outreach messages, and that asking business owners broad questions (\"what problems are you having?\") doesn't work as well as specific ones (\"do employees show up late?\") \u2014 a real, transferable sales lesson. The digital-agency upsell side requires an existing or newly-built service offering, which is a nontrivial second business, not just a matter of selling one ad board.",
+    "url": "https://youtu.be/McQucrnkSt0",
+    "situation_tags": [
+      "Local travel required",
+      "Phone/sales-based",
+      "Requires hiring or managing others"
+    ],
+    "published": "2026-08-21"
+  },
+  {
     "id": "recurring-pest-control-contracts",
     "name": "Running a pest control business built on automatically-renewing monthly maintenance contracts",
     "category": "Local & professional services",
@@ -6125,29 +6220,6 @@
     "truth": "Pest control is a real, well-established, licensed trade with genuine recurring-contract demand, particularly from restaurants and food-service businesses facing health-code risk. Licensing requirements are a real barrier not detailed in this segment and vary significantly by location.",
     "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
     "published": "2026-06-30"
-  },
-  {
-    "id": "tumbler-etching-tiktok-marketing",
-    "name": "Personalized tumbler and glassware etching business marketed through process videos",
-    "category": "Physical & print products",
-    "tags": [
-      "laser engraving",
-      "personalization",
-      "tumblers",
-      "TikTok marketing",
-      "craft business"
-    ],
-    "cost": "Very low startup cost (roughly $115 for a portable engraving tool, under $500 to start overall)",
-    "found": "Austin Zaback",
-    "what": "Buy blank tumblers (or glass, metal, or other surfaces) wholesale, personalize them with a name or design using a laser engraver or a portable high-speed engraving pen, and sell them primarily by posting the etching process itself as short-form video content.",
-    "pitch": "Zaback profiles Stephanie Stroman, who sold 102 cups in one week ($2,550) using a laser engraver and posting the process on TikTok, turning roughly $10 blank tumblers into $25-60 personalized pieces (60-80% margins by his estimate). He frames the process video itself as free marketing, since viewers are drawn to watching the personalization happen, not just seeing the finished product.",
-    "best": "Someone comfortable posting short-form video of their own hands-on work process, who wants a low-cost physical product business where the content and the product creation are the same activity.",
-    "truth": "The core economics (cheap blanks, high per-unit margin) are genuine and don't require a full laser setup \u2014 Zaback notes cheaper handheld tools work too. The business is heavily dependent on the process videos actually getting traction on social media, which isn't guaranteed and isn't really addressed in the numbers shown; one good week from one creator isn't evidence of a repeatable income stream without that visibility.",
-    "url": "https://youtu.be/xUCD1BXvhjU",
-    "situation_tags": [
-      "Strictly in-home"
-    ],
-    "published": "2026-08-13"
   },
   {
     "id": "tow-truck-service",
@@ -6264,6 +6336,30 @@
     "truth": "This is a distinct product and market from generic logo/apparel embroidery (a different, already-listed business) \u2014 digitizing a photo into stitchable art is a real craft skill with a learning curve, and the memorial/milestone positioning genuinely supports premium pricing since these are emotionally significant, low-frequency purchases rather than commodity items.",
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s",
     "published": "2025-09-12"
+  },
+  {
+    "id": "storage-tote-peer-to-peer-rental",
+    "name": "Peer-to-peer storage tote rental service",
+    "category": "Local & professional services",
+    "tags": [
+      "storage rental",
+      "moving supplies",
+      "Facebook Marketplace",
+      "local service",
+      "low inventory"
+    ],
+    "cost": "Very low startup cost (roughly $100 for an initial batch of totes, expandable as demand grows)",
+    "found": "Austin Zaback",
+    "what": "Rent out 27-gallon plastic storage totes to local customers who need extra storage during a move, listed on Facebook Marketplace, with each renter signing a rental agreement and card on file, rather than requiring an upfront purchase of a full inventory before getting a first customer.",
+    "pitch": "Zaback profiles Chelsea Wade, who reportedly didn't buy a single tote until she had her first paying customer, then scaled to over 140 totes at roughly $5/tote (about $100 per 20 totes rented). He frames this as an almost zero-risk business model, citing a fragmented storage-rental market (independent operators control about 73% of it, no dominant national player) and Americans spending roughly $40 billion/year on storage.",
+    "best": "Someone wanting a very low-risk way to test a local rental business idea before committing capital, comfortable managing customer agreements and tracking physical inventory locally.",
+    "truth": "The \"prove demand before buying inventory\" approach is a genuinely useful, low-risk way to validate this kind of business, and the underlying mechanic is simple. That said, per-unit margins are thin ($5/tote), so meaningful income requires real scale (dozens to hundreds of totes) and consistent local demand, which will vary a lot by area \u2014 this isn't described as a business that replaces a full-time income on its own without significant growth.",
+    "url": "https://youtu.be/xUCD1BXvhjU",
+    "situation_tags": [
+      "Local travel required",
+      "Needs inventory storage"
+    ],
+    "published": "2026-08-13"
   },
   {
     "id": "one-person-digital-affiliate-business-lean-model",
@@ -6581,6 +6677,26 @@
     "published": "2026-08-24"
   },
   {
+    "id": "whitelabel-saas-clone-birdeye-rebilling",
+    "name": "White-labeling a GoHighLevel-powered software clone of a named $500M SaaS company (Birdeye), with tiered pricing and usage rebilling",
+    "category": "Digital & subscription products",
+    "tags": [
+      "white-label SaaS",
+      "GoHighLevel",
+      "software rebilling",
+      "review management clone",
+      "recurring subscription tiers"
+    ],
+    "cost": "Low (a white-labelable AI software platform subscription, 30-day free trial referenced)",
+    "found": "John Whitford",
+    "what": "Study a specific, real, well-known SaaS company's product and pricing (the presenter uses Birdeye, a ~$500M reputation-management platform selling AI-powered review requests, business listing sync, and social/marketing tools) then recreate an equivalent branded software product using a white-labelable AI platform, building your own tiered pricing plans by turning specific features on or off per tier without any coding. Generate three layers of revenue: the monthly subscription fee itself, 'rebilling' (marking up the underlying per-use cost of things like text messages that get passed through to the client), and a one-time setup/onboarding fee ($1,000-2,000) that increases how long a client stays subscribed by making sure they're properly set up in their first 30 days.",
+    "pitch": "The presenter, who says his own similarly-built white-label software reached over 1,000 paying customers and won the platform's top award, argues this beats time-based service businesses because clients treat a working software subscription like a utility bill they never think to cancel, and walks through cloning the specific competitor's feature set and pricing live.",
+    "best": "Someone comfortable studying a competitor's product/pricing page and configuring a white-label software platform's tiers and rebilling settings, without needing to code anything.",
+    "truth": "White-labeling an AI-powered local-business SaaS platform and reselling it under your own brand with tiered pricing and usage rebilling is a real, current business model already covered from multiple angles in this database, and the specific mechanics described (rebilling markup, setup-fee retention effect) are accurate to how these platforms work. The presenter's own 1,000-customer figure and the video's call to action (subscribe/like/comment for a free trial) make this a lead-generation video for his own affiliate-linked platform.",
+    "url": "https://www.youtube.com/watch?v=wiXG8rRAbes",
+    "published": "2026-09-07"
+  },
+  {
     "id": "claude-social-media-management-local-business",
     "name": "AI-accelerated social media management service for local businesses using Claude for batch content creation",
     "category": "Marketing & content",
@@ -6815,30 +6931,6 @@
     "published": "2026-09-07"
   },
   {
-    "id": "storage-tote-peer-to-peer-rental",
-    "name": "Peer-to-peer storage tote rental service",
-    "category": "Local & professional services",
-    "tags": [
-      "storage rental",
-      "moving supplies",
-      "Facebook Marketplace",
-      "local service",
-      "low inventory"
-    ],
-    "cost": "Very low startup cost (roughly $100 for an initial batch of totes, expandable as demand grows)",
-    "found": "Austin Zaback",
-    "what": "Rent out 27-gallon plastic storage totes to local customers who need extra storage during a move, listed on Facebook Marketplace, with each renter signing a rental agreement and card on file, rather than requiring an upfront purchase of a full inventory before getting a first customer.",
-    "pitch": "Zaback profiles Chelsea Wade, who reportedly didn't buy a single tote until she had her first paying customer, then scaled to over 140 totes at roughly $5/tote (about $100 per 20 totes rented). He frames this as an almost zero-risk business model, citing a fragmented storage-rental market (independent operators control about 73% of it, no dominant national player) and Americans spending roughly $40 billion/year on storage.",
-    "best": "Someone wanting a very low-risk way to test a local rental business idea before committing capital, comfortable managing customer agreements and tracking physical inventory locally.",
-    "truth": "The \"prove demand before buying inventory\" approach is a genuinely useful, low-risk way to validate this kind of business, and the underlying mechanic is simple. That said, per-unit margins are thin ($5/tote), so meaningful income requires real scale (dozens to hundreds of totes) and consistent local demand, which will vary a lot by area \u2014 this isn't described as a business that replaces a full-time income on its own without significant growth.",
-    "url": "https://youtu.be/xUCD1BXvhjU",
-    "situation_tags": [
-      "Local travel required",
-      "Needs inventory storage"
-    ],
-    "published": "2026-08-13"
-  },
-  {
     "id": "niche-affiliate-youtube-channel-day-one-monetization",
     "name": "Repurposing affiliate-website content into niche YouTube videos to earn affiliate commissions from day one, before qualifying for AdSense",
     "category": "Content & personal brand",
@@ -6915,6 +7007,31 @@
     "best": "Someone considering organic waste recycling as a business who wants to test their interest and aptitude before a larger investment.",
     "truth": "Small-scale composting equipment is real and widely available, and using a cheap version to validate interest before scaling is sound, low-risk business advice. No specific personal revenue figures are given.",
     "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
+  },
+  {
+    "id": "mobile-coffee-cart-business",
+    "name": "Mobile coffee cart business",
+    "category": "Local & professional services",
+    "tags": [
+      "mobile coffee cart",
+      "food business",
+      "espresso",
+      "no storefront",
+      "events"
+    ],
+    "cost": "Low to moderate startup cost (a basic mobile cart and espresso setup, a couple thousand dollars to get fully equipped per the presenter)",
+    "found": "Austin Zaback",
+    "what": "Operate a mobile espresso/coffee cart at events, office parks, or high-foot-traffic locations, with no fixed storefront lease, selling coffee and espresso drinks directly to walk-up customers.",
+    "pitch": "Zaback cites the founder of Crema Avenue, who reportedly sells about 550 coffees over a 10-hour day (~$4,400 revenue), netting around $3,000 profit after ingredient and labor costs, and frames the market opportunity around the mobile coffee cart market's projected growth from $1.8 billion to $3.8 billion. He contrasts the cart's low startup cost against the roughly $200,000+ typically needed to open a traditional coffee shop.",
+    "best": "Someone comfortable with hands-on food service work and willing to secure event bookings or high-traffic locations, who wants a lower-capital entry into the coffee business than a storefront requires.",
+    "truth": "The cost comparison to a traditional coffee shop is fair, and the low-overhead structure (no lease, no fixed location) is a real advantage. What the numbers don't show is the effort behind securing consistently good locations or event bookings, permitting/health requirements (which vary significantly by city and aren't addressed in the video), and that a 550-coffee, $3,000-profit day likely represents an already-established cart, not a first week of business.",
+    "url": "https://youtu.be/xUCD1BXvhjU",
+    "situation_tags": [
+      "Local travel required",
+      "Weekend/event-based schedule",
+      "Requires equipment/vehicle investment"
+    ],
+    "published": "2026-08-13"
   },
   {
     "id": "party-rental-delivery-service",
@@ -7040,31 +7157,6 @@
       "Strictly in-home"
     ],
     "published": "2026-07-30"
-  },
-  {
-    "id": "restaurant-specials-board-ads-agency-upsell",
-    "name": "Free restaurant specials-board advertising, used as a wedge to upsell local businesses into an AI/digital agency",
-    "category": "Marketing & content",
-    "tags": [
-      "local advertising",
-      "restaurant marketing",
-      "lead generation",
-      "AI implementation agency",
-      "upsell funnel"
-    ],
-    "cost": "Very low startup cost (about $350-400 per board, covered by ad sales before the board is even printed)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Place a free dry-erase specials board (used for daily specials and announcements) inside high-foot-traffic local businesses like restaurants and coffee shops, sell 6 ad slots on the board's border to other local businesses for $600/year each, then use the relationship with those advertisers (mostly home services \u2014 realtors, contractors, insurance agents, lawyers) as a warm lead into a separate, higher-ticket AI implementation and digital marketing agency (websites, Google review/reputation management, AI voice receptionists).",
-    "pitch": "The guests, a married couple who started this a year and a half ago alongside an existing digital agency, are earning about $10,000-15,000/month combined from both sides of the business after 6 months. The board itself costs about $350-400 to produce (which is covered before printing, since you only print once all 6 ad spots are sold) and generates about $3,200-4,600 profit per placement per year at roughly 85% margin; separately, roughly 20-30 of the businesses that bought ad space have converted into digital agency clients averaging about $7,500/year each, projected around $200,000-225,000 in annual revenue from that side alone \u2014 with 60% of that from brand reputation management, 30% from websites/hosting, and 10% from higher-ticket AI services like voice receptionists and automated appointment booking.",
-    "best": "Someone comfortable with in-person and DM-based local sales (cold outreach to find host locations and advertisers) who also wants to build or already runs a digital marketing/AI implementation service to upsell into.",
-    "truth": "This is one of the more genuinely novel local business mechanics in this database \u2014 a low-cost physical product used deliberately as a lead-generation wedge into a much higher-margin service business, rather than as the primary profit center itself. The presenters are candid that finding the first advertiser took 10-15 cold outreach messages, and that asking business owners broad questions (\"what problems are you having?\") doesn't work as well as specific ones (\"do employees show up late?\") \u2014 a real, transferable sales lesson. The digital-agency upsell side requires an existing or newly-built service offering, which is a nontrivial second business, not just a matter of selling one ad board.",
-    "url": "https://youtu.be/McQucrnkSt0",
-    "situation_tags": [
-      "Local travel required",
-      "Phone/sales-based",
-      "Requires hiring or managing others"
-    ],
-    "published": "2026-08-21"
   },
   {
     "id": "essential-oil-distillation-from-waste-plants",
@@ -7223,31 +7315,6 @@
     "published": "2025-09-12"
   },
   {
-    "id": "mobile-coffee-cart-business",
-    "name": "Mobile coffee cart business",
-    "category": "Local & professional services",
-    "tags": [
-      "mobile coffee cart",
-      "food business",
-      "espresso",
-      "no storefront",
-      "events"
-    ],
-    "cost": "Low to moderate startup cost (a basic mobile cart and espresso setup, a couple thousand dollars to get fully equipped per the presenter)",
-    "found": "Austin Zaback",
-    "what": "Operate a mobile espresso/coffee cart at events, office parks, or high-foot-traffic locations, with no fixed storefront lease, selling coffee and espresso drinks directly to walk-up customers.",
-    "pitch": "Zaback cites the founder of Crema Avenue, who reportedly sells about 550 coffees over a 10-hour day (~$4,400 revenue), netting around $3,000 profit after ingredient and labor costs, and frames the market opportunity around the mobile coffee cart market's projected growth from $1.8 billion to $3.8 billion. He contrasts the cart's low startup cost against the roughly $200,000+ typically needed to open a traditional coffee shop.",
-    "best": "Someone comfortable with hands-on food service work and willing to secure event bookings or high-traffic locations, who wants a lower-capital entry into the coffee business than a storefront requires.",
-    "truth": "The cost comparison to a traditional coffee shop is fair, and the low-overhead structure (no lease, no fixed location) is a real advantage. What the numbers don't show is the effort behind securing consistently good locations or event bookings, permitting/health requirements (which vary significantly by city and aren't addressed in the video), and that a 550-coffee, $3,000-profit day likely represents an already-established cart, not a first week of business.",
-    "url": "https://youtu.be/xUCD1BXvhjU",
-    "situation_tags": [
-      "Local travel required",
-      "Weekend/event-based schedule",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-08-13"
-  },
-  {
     "id": "reselling-liquidation-goods",
     "name": "Reselling liquidation and returned goods",
     "category": "E-commerce",
@@ -7336,31 +7403,6 @@
       "Strictly in-home"
     ],
     "published": "2026-08-21"
-  },
-  {
-    "id": "ai-internal-knowledge-base-rag-system",
-    "name": "Internal AI knowledge-base (RAG) agent for home service businesses",
-    "category": "AI & automation",
-    "tags": [
-      "RAG system",
-      "internal knowledge base",
-      "AI agency",
-      "home services",
-      "operations automation"
-    ],
-    "cost": "Requires a backend developer or technical partner (fulfillment typically outsourced for 10-15% of the client fee)",
-    "found": "Angelo Turri",
-    "what": "Build a business a private AI system trained on all of its internal documentation (SOPs, pricing sheets, warranty terms, training materials, FAQs) so office staff and field technicians can instantly ask it questions instead of interrupting the owner or senior staff, with the option to later extend the same trained knowledge base into an external customer-facing chatbot or automated quote generator.",
-    "pitch": "Turri prices this system at an $8,000-15,000 upfront build fee plus $2,000-4,000/month to maintain, though he says his own real range has run from $6,000 to over $15,000 depending on the business. He frames it as \"stickier\" than the appointment-setting system since it becomes embedded in a business's daily operations across multiple staff, making it very costly for a client to ever switch away from once adopted.",
-    "best": "Someone comfortable with a longer, more detailed onboarding process (gathering and organizing a business's internal documents) who wants to sell a recurring, hard-to-replace service rather than a one-off project.",
-    "truth": "The core idea (a private AI trained on internal business documents, answering staff questions and eventually generating quotes) is a legitimate and growing category of AI agency offering, and the \"harder to replace\" logic for pricing and retention is sound business reasoning. As with the companion system in this video, the specific dollar figures are Turri's own reported numbers, and much of the actual difficulty in this business is in client acquisition and having an organized onboarding process, not the AI technology itself, which the video acknowledges is now something \"anybody can build.\"",
-    "url": "https://youtu.be/ZQHBe6Rb6v0",
-    "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based",
-      "Requires hiring or managing others"
-    ],
-    "published": "2026-08-11"
   },
   {
     "id": "pay-per-lead-facebook-ads-live-campaign-diary",
@@ -7531,6 +7573,26 @@
     "published": "2026-04-21"
   },
   {
+    "id": "upwork-ai-faked-competency-retainer-scaling",
+    "name": "Landing Upwork retainer clients in a skill you don't have, using AI to fake and then actually deliver the competency",
+    "category": "Local & professional services",
+    "tags": [
+      "Upwork freelancing",
+      "AI-assisted service delivery",
+      "retainer clients",
+      "niche tilting",
+      "cold application"
+    ],
+    "cost": "Very low (a ChatGPT/Claude subscription, an Upwork account, Loom for video pitches)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Apply to Upwork jobs in a skill you don't actually have (e.g. SEO) by slightly tilting away from the most saturated keyword phrasing, record a short (2-3 minute) unedited Loom video pitching how you'd approach the client's problem using an AI-built workflow, win the retainer, then actually deliver the work by learning the skill just-in-time with AI tools (Claude Code for automation build-out), and increase the retainer price once results are proven by expanding scope.",
+    "pitch": "The interview subject describes going from severe poverty to a $3,000/month Upwork retainer (later raised to $5,500/month with the same client) after just 7 job applications and zero prior SEO experience, using ChatGPT to build the actual automation and a confident, unedited Loom pitch video to win trust. She expanded into content creation, a paid community, sponsorships, and a self-built app as additional income layers once inbound interest picked up from her YouTube channel.",
+    "best": "Someone comfortable pitching themselves into work outside their existing skillset and willing to learn just-in-time with AI tools under real client pressure; helps to have some video-comfort for the Loom pitch step.",
+    "truth": "AI genuinely lowers the bar to producing passable client deliverables fast, and Upwork niche-tilting to reduce competition is a real, sound tactic. Most of this video is the subject's personal mindset framing and multiple loosely-connected income streams rather than a single step-by-step process, and her reported income figures and timeline are self-reported and not independently verified \u2014 treat this as one real example of the method rather than a guaranteed outcome.",
+    "url": "https://www.youtube.com/watch?v=lG5U30gKCaY",
+    "published": "2026-08-02"
+  },
+  {
     "id": "ai-seo-aeo-ranking-service",
     "name": "Selling AI-search-engine optimization (AEO/GEO) alongside traditional SEO, helping brands get recommended by ChatGPT and Claude, not just rank on Google",
     "category": "Marketing & content",
@@ -7549,6 +7611,25 @@
     "truth": "AI answer-engine optimization (AEO/GEO) as a growing, real service category, and platforms like Webflow actively promoting it to their user base, are accurate, current, and verifiable trends. The cited client case study and its specific numbers are self-reported and not independently audited, and the video promotes a free companion Claude skill and the presenter's paid training.",
     "url": "https://www.youtube.com/watch?v=jVOk8oc-a70",
     "published": "2026-07-31"
+  },
+  {
+    "id": "garage-bin-shelving-custom-wood",
+    "name": "Building and selling custom wood shelving sized for garage storage totes",
+    "category": "Physical & print products",
+    "tags": [
+      "garage organization",
+      "custom woodworking",
+      "Facebook Marketplace",
+      "storage solutions"
+    ],
+    "cost": "Very low (a chop saw and basic hand tools most people already own; materials only purchased after a deposit is placed)",
+    "found": "Austin Zaback",
+    "what": "Build custom wood shelving units sized specifically to hold large plastic storage totes in a garage, sourced from bulk 2x4s (Home Depot) and cheap overseas wheels, then sell direct to homeowners via organic Facebook Marketplace and Instagram posts with no paid advertising.",
+    "pitch": "The presenter cites Alex Hanson, who built shelving for himself, posted it on Facebook Marketplace, and grew to 20+ shelves a month and a 50,000-follower Instagram entirely organically, eventually quitting his full-time job. A standard 4ft x 5ft shelf costs about $200 in materials and sells for $770, a $570 profit per unit for a few hours of work.",
+    "best": "Someone with basic woodworking/chop-saw skills and access to a garage or workshop space to build in, comfortable posting and fulfilling orders through Facebook Marketplace and Instagram.",
+    "truth": "Garage organization is a genuinely growing home-storage category, and the described build/pricing economics are plausible for a real handmade-goods business. The single example's numbers (20+ shelves/month, $570 margin per shelf) are one presenter-cited case, not an industry average, and success still depends on local demand and the seller's own marketing hustle despite the 'organic, no ads' framing.",
+    "url": "https://www.youtube.com/watch?v=akllDPkT07I",
+    "published": "2026-07-09"
   },
   {
     "id": "heavy-equipment-tool-rental-business",
@@ -7683,25 +7764,6 @@
     "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ"
   },
   {
-    "id": "garage-bin-shelving-custom-wood",
-    "name": "Building and selling custom wood shelving sized for garage storage totes",
-    "category": "Physical & print products",
-    "tags": [
-      "garage organization",
-      "custom woodworking",
-      "Facebook Marketplace",
-      "storage solutions"
-    ],
-    "cost": "Very low (a chop saw and basic hand tools most people already own; materials only purchased after a deposit is placed)",
-    "found": "Austin Zaback",
-    "what": "Build custom wood shelving units sized specifically to hold large plastic storage totes in a garage, sourced from bulk 2x4s (Home Depot) and cheap overseas wheels, then sell direct to homeowners via organic Facebook Marketplace and Instagram posts with no paid advertising.",
-    "pitch": "The presenter cites Alex Hanson, who built shelving for himself, posted it on Facebook Marketplace, and grew to 20+ shelves a month and a 50,000-follower Instagram entirely organically, eventually quitting his full-time job. A standard 4ft x 5ft shelf costs about $200 in materials and sells for $770, a $570 profit per unit for a few hours of work.",
-    "best": "Someone with basic woodworking/chop-saw skills and access to a garage or workshop space to build in, comfortable posting and fulfilling orders through Facebook Marketplace and Instagram.",
-    "truth": "Garage organization is a genuinely growing home-storage category, and the described build/pricing economics are plausible for a real handmade-goods business. The single example's numbers (20+ shelves/month, $570 margin per shelf) are one presenter-cited case, not an industry average, and success still depends on local demand and the seller's own marketing hustle despite the 'organic, no ads' framing.",
-    "url": "https://www.youtube.com/watch?v=akllDPkT07I",
-    "published": "2026-07-09"
-  },
-  {
     "id": "sports-card-grading-resale-business",
     "name": "Buying bulk sports card lots, grading and identifying valuable cards, and reselling on specialized marketplaces",
     "category": "E-commerce",
@@ -7829,6 +7891,26 @@
     "published": "2026-08-23"
   },
   {
+    "id": "ai-agency-middleman-local-service-niche",
+    "name": "Running an AI-agency 'middleman' brokerage connecting developers to high-ticket local service businesses",
+    "category": "Local & professional services",
+    "tags": [
+      "AI agency",
+      "local business niche",
+      "developer outsourcing",
+      "cold calling",
+      "sales framework"
+    ],
+    "cost": "Very low (Lovable for a simple landing site, GoHighLevel/voice agent tooling paid per client, developer fees paid as a % of each deal, no coding required)",
+    "found": "Angelo Turri",
+    "what": "Position yourself as a sales-and-consulting 'middleman' for AI automation in one high-ticket local-service niche (roofing, HVAC, plumbing, painting, electricians), qualify leads via Google Maps plus Google Ads/review signals, close deals using a three-step 'pain point prioritization' sales framework (identify, quantify, prioritize problems before ever mentioning AI or price), then hand off the entire technical build to a vetted freelance developer (paid 15-20% of the deal) so you never touch the code yourself.",
+    "pitch": "The presenter says this 'boring' middleman model makes him $48,000/month and cites several of his own students landing $8,000-$20,000 in their first 60-90 days using the same framework. He gives away the full sales script and qualification process, framing the business as low-risk to start since you're the closer/consultant, not the builder, with developers found and vetted through AI-agency Discord communities.",
+    "best": "Someone comfortable making cold calls and running structured sales conversations, willing to build relationships with freelance developers rather than build the automations personally.",
+    "truth": "The underlying model (broker AI automation deals for high-ticket local trades, delegate the technical build) is a real, sound structure that several agency operators use, and the sales framework itself (quantifying pain points in dollar terms before pitching) is standard high-ticket consultative selling, not AI-specific. Specific income figures (his own $48K/month and student results) are self-reported and unverified, and the video ends by pitching his own paid one-on-one mentorship program.",
+    "url": "https://www.youtube.com/watch?v=ZZpBv7xeYWk",
+    "published": "2026-06-27"
+  },
+  {
     "id": "foundation-repair-waterproofing-leadgen",
     "name": "Foundation repair and waterproofing lead generation",
     "category": "Local & professional services",
@@ -7922,6 +8004,26 @@
     "truth": "The market-size figures ($9.5 billion in 2024, projected $40 billion by 2032) and the government logo redesign cost are specific, checkable claims, though the market-size numbers' original source isn't named in the video. The Jack Watson case study, like the others in this video, is featured because he's an instructor on the presenter's own paid course platform, worth factoring in when weighing how the results are framed. The underlying market gap described (cheap single-logo work vs. a full cohesive identity package) is a genuine, recognizable distinction in the design industry, independent of any specific case study's numbers.",
     "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5",
     "published": "2025-12-19"
+  },
+  {
+    "id": "foam-party-cannon-rental-business",
+    "name": "Running a mobile foam-party rental business with a professional foam cannon",
+    "category": "Local & professional services",
+    "tags": [
+      "party rental business",
+      "foam cannon",
+      "event services",
+      "seasonal side hustle",
+      "low overhead"
+    ],
+    "cost": "Low (a foam cannon setup runs about $1,500; needs only a standard electrical outlet and water source nearby)",
+    "found": "Austin Zaback",
+    "what": "Buy a professional foam cannon setup, book backyard party events, and turn a yard into a bubble party for a couple of hours per booking using just a hose hookup and an electrical outlet; scale by running multiple cannon setups across simultaneous events.",
+    "pitch": "The presenter cites Tim Carstensen, an elementary PE teacher with no business background who turned a foam cannon into a $150,000 side hustle in one year, working roughly 4 months out of the year around his teaching job and scaling from one cannon to nine simultaneous setups. Package pricing sits around $450-$550 for a 2-hour party, so the machine can pay for itself after the first weekend of bookings.",
+    "best": "Someone with weekends/summers available for event work, comfortable transporting and setting up equipment at different locations, in a market that doesn't already have this service established.",
+    "truth": "The low equipment/licensing barrier and event-based pricing described are plausible and match how novelty party-rental businesses typically operate. The $150,000/year figure is one presenter-cited example, and the video's own advice to keep backup equipment (after a mid-event cannon failure) signals a real operational risk to plan for; demand and pricing will vary heavily by local market and season.",
+    "url": "https://www.youtube.com/watch?v=akllDPkT07I",
+    "published": "2026-07-09"
   },
   {
     "id": "spice-grinding-packaging-business",
@@ -8177,26 +8279,6 @@
     "published": "2026-06-30"
   },
   {
-    "id": "foam-party-cannon-rental-business",
-    "name": "Running a mobile foam-party rental business with a professional foam cannon",
-    "category": "Local & professional services",
-    "tags": [
-      "party rental business",
-      "foam cannon",
-      "event services",
-      "seasonal side hustle",
-      "low overhead"
-    ],
-    "cost": "Low (a foam cannon setup runs about $1,500; needs only a standard electrical outlet and water source nearby)",
-    "found": "Austin Zaback",
-    "what": "Buy a professional foam cannon setup, book backyard party events, and turn a yard into a bubble party for a couple of hours per booking using just a hose hookup and an electrical outlet; scale by running multiple cannon setups across simultaneous events.",
-    "pitch": "The presenter cites Tim Carstensen, an elementary PE teacher with no business background who turned a foam cannon into a $150,000 side hustle in one year, working roughly 4 months out of the year around his teaching job and scaling from one cannon to nine simultaneous setups. Package pricing sits around $450-$550 for a 2-hour party, so the machine can pay for itself after the first weekend of bookings.",
-    "best": "Someone with weekends/summers available for event work, comfortable transporting and setting up equipment at different locations, in a market that doesn't already have this service established.",
-    "truth": "The low equipment/licensing barrier and event-based pricing described are plausible and match how novelty party-rental businesses typically operate. The $150,000/year figure is one presenter-cited example, and the video's own advice to keep backup equipment (after a mid-event cannon failure) signals a real operational risk to plan for; demand and pricing will vary heavily by local market and season.",
-    "url": "https://www.youtube.com/watch?v=akllDPkT07I",
-    "published": "2026-07-09"
-  },
-  {
     "id": "insider-knowledge-digital-download-resource",
     "name": "Packaging your own insider industry knowledge into a small, low-cost digital download and selling it on a marketplace like Etsy",
     "category": "Digital & subscription products",
@@ -8214,6 +8296,26 @@
     "truth": "Selling small knowledge-based digital downloads via Etsy is a real, low-barrier product category, and the presenter is candid that this specific stream underperformed his other income streams rather than overselling it, which adds credibility.",
     "url": "https://www.youtube.com/watch?v=egILyXhaLhM",
     "published": "2026-09-06"
+  },
+  {
+    "id": "hand-painted-signs-banners-business",
+    "name": "Hand-painting custom signs and party banners as an alternative to vinyl printing",
+    "category": "Physical & print products",
+    "tags": [
+      "hand-painted signage",
+      "custom banners",
+      "sign painting",
+      "social media sales",
+      "craft business"
+    ],
+    "cost": "Very low for the banner version (under $200 for paint, brushes, a projector for tracing designs, and Canva for layout); storefront sign painting requires more skill investment but similar low material cost",
+    "found": "Austin Zaback",
+    "what": "Hand-paint lettering, logos, or artwork instead of using vinyl printing, either as birthday/bachelorette/sweet-16 paper banners (traced with a projector from a Canva design, sold for $60-$120 each, taking under an hour per banner) or, at a more skilled level, as storefront and mural signage sold directly to businesses for hundreds to tens of thousands of dollars.",
+    "pitch": "The presenter cites two examples: Alex Slabik, who built a following of nearly 600,000 selling hand-painted party banners via Instagram/TikTok DMs with no website or ad spend, and Will Van Z, who hand-paints and gold-leaf-gilds storefront signage for restaurants and shops in New York. He frames vinyl printing's dominance as having created an opening for the hand-crafted alternative.",
+    "best": "Someone with (or willing to develop) hand-lettering/painting skill, comfortable building an audience by documenting the painting process on social media to drive DM-based orders.",
+    "truth": "The core observation, that hand-craftsmanship stands out against mass-produced vinyl printing and can support a real following-driven sales channel, is sound, and the banner version genuinely has a very low cost of entry. The follower-count and pricing figures come from two specific individual examples rather than typical outcomes, and building an audience large enough to sustain consistent DM orders took real, sustained content effort, not just posting a few paintings.",
+    "url": "https://www.youtube.com/watch?v=akllDPkT07I",
+    "published": "2026-07-09"
   },
   {
     "id": "eco-bricks-plastic-waste-furniture",
@@ -8302,26 +8404,6 @@
       "Strictly in-home"
     ],
     "published": "2026-07-30"
-  },
-  {
-    "id": "upwork-ai-faked-competency-retainer-scaling",
-    "name": "Landing Upwork retainer clients in a skill you don't have, using AI to fake and then actually deliver the competency",
-    "category": "Local & professional services",
-    "tags": [
-      "Upwork freelancing",
-      "AI-assisted service delivery",
-      "retainer clients",
-      "niche tilting",
-      "cold application"
-    ],
-    "cost": "Very low (a ChatGPT/Claude subscription, an Upwork account, Loom for video pitches)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Apply to Upwork jobs in a skill you don't actually have (e.g. SEO) by slightly tilting away from the most saturated keyword phrasing, record a short (2-3 minute) unedited Loom video pitching how you'd approach the client's problem using an AI-built workflow, win the retainer, then actually deliver the work by learning the skill just-in-time with AI tools (Claude Code for automation build-out), and increase the retainer price once results are proven by expanding scope.",
-    "pitch": "The interview subject describes going from severe poverty to a $3,000/month Upwork retainer (later raised to $5,500/month with the same client) after just 7 job applications and zero prior SEO experience, using ChatGPT to build the actual automation and a confident, unedited Loom pitch video to win trust. She expanded into content creation, a paid community, sponsorships, and a self-built app as additional income layers once inbound interest picked up from her YouTube channel.",
-    "best": "Someone comfortable pitching themselves into work outside their existing skillset and willing to learn just-in-time with AI tools under real client pressure; helps to have some video-comfort for the Loom pitch step.",
-    "truth": "AI genuinely lowers the bar to producing passable client deliverables fast, and Upwork niche-tilting to reduce competition is a real, sound tactic. Most of this video is the subject's personal mindset framing and multiple loosely-connected income streams rather than a single step-by-step process, and her reported income figures and timeline are self-reported and not independently verified \u2014 treat this as one real example of the method rather than a guaranteed outcome.",
-    "url": "https://www.youtube.com/watch?v=lG5U30gKCaY",
-    "published": "2026-08-02"
   },
   {
     "id": "braided-rope-manufacturing-niche-markets",
@@ -8459,6 +8541,26 @@
     "published": "2026-04-21"
   },
   {
+    "id": "water-filtration-install-broker-facebook-leads",
+    "name": "Running a water filtration/softener installation business as a subcontractor broker, marketed via undereducated Meta lead-form ads",
+    "category": "Local & professional services",
+    "tags": [
+      "water filtration business",
+      "subcontractor model",
+      "Meta lead ads",
+      "home services",
+      "GoHighLevel CRM"
+    ],
+    "cost": "Very low (~$500 initial setup: a Claude-built website, GoHighLevel CRM/phone, Jobber scheduling, Google Workspace, plus ~$300/month tech stack and ~$180/month plumbing liability insurance)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Start a whole-house water filtration/softener installation business without being a licensed plumber yourself, by partnering with private licensed plumbers who handle the actual installs while you own the marketing, sales, scheduling, and customer relationship; build the tech stack cheaply (a Claude-built website, GoHighLevel for CRM/phone, Jobber for scheduling), price below established competitors, and run Meta ads with deliberately minimal educational content (geo-targeted, instant-form lead capture straight into the CRM) so that only already-educated, price-aware customers convert.",
+    "pitch": "The guest reports going from $0 to $81,000 in monthly revenue in 85 days after less than $500 of startup cost, launching this as his third home-service business, and credits spotting the opportunity from multiple unrelated creators independently mentioning water filtration as an underserved niche within a short window, plus an aggressive lead-follow-up system to convert Meta leads he was paying $30-40 each for.",
+    "best": "Someone comfortable running paid Meta ad campaigns, managing subcontractor relationships with licensed tradespeople, and doing persistent phone-based lead follow-up, without needing a trade license themselves.",
+    "truth": "The subcontractor-broker home-service model is a real, established structure used across multiple home-service niches, and the specific operational details given (cost per lead, closing rates, tech stack costs) are unusually granular and internally consistent. This is the presenter's third attempt at building a business this way, so his execution speed reflects accumulated experience, not something a true first-time beginner should expect to replicate immediately; his own figures are self-reported.",
+    "url": "https://www.youtube.com/watch?v=9U4MCbfL8MQ",
+    "published": "2026-09-11"
+  },
+  {
     "id": "niche-management-software-small-business",
     "name": "Building simple niche management software that solves one operational problem for a specific small-business trade",
     "category": "AI & automation",
@@ -8517,26 +8619,6 @@
     "published": "2025-09-12"
   },
   {
-    "id": "hand-painted-signs-banners-business",
-    "name": "Hand-painting custom signs and party banners as an alternative to vinyl printing",
-    "category": "Physical & print products",
-    "tags": [
-      "hand-painted signage",
-      "custom banners",
-      "sign painting",
-      "social media sales",
-      "craft business"
-    ],
-    "cost": "Very low for the banner version (under $200 for paint, brushes, a projector for tracing designs, and Canva for layout); storefront sign painting requires more skill investment but similar low material cost",
-    "found": "Austin Zaback",
-    "what": "Hand-paint lettering, logos, or artwork instead of using vinyl printing, either as birthday/bachelorette/sweet-16 paper banners (traced with a projector from a Canva design, sold for $60-$120 each, taking under an hour per banner) or, at a more skilled level, as storefront and mural signage sold directly to businesses for hundreds to tens of thousands of dollars.",
-    "pitch": "The presenter cites two examples: Alex Slabik, who built a following of nearly 600,000 selling hand-painted party banners via Instagram/TikTok DMs with no website or ad spend, and Will Van Z, who hand-paints and gold-leaf-gilds storefront signage for restaurants and shops in New York. He frames vinyl printing's dominance as having created an opening for the hand-crafted alternative.",
-    "best": "Someone with (or willing to develop) hand-lettering/painting skill, comfortable building an audience by documenting the painting process on social media to drive DM-based orders.",
-    "truth": "The core observation, that hand-craftsmanship stands out against mass-produced vinyl printing and can support a real following-driven sales channel, is sound, and the banner version genuinely has a very low cost of entry. The follower-count and pricing figures come from two specific individual examples rather than typical outcomes, and building an audience large enough to sustain consistent DM orders took real, sustained content effort, not just posting a few paintings.",
-    "url": "https://www.youtube.com/watch?v=akllDPkT07I",
-    "published": "2026-07-09"
-  },
-  {
     "id": "remote-run-residential-cleaning-business",
     "name": "Remote-run residential cleaning business",
     "category": "Local & professional services",
@@ -8593,6 +8675,26 @@
     "best": "Someone comfortable pitching e-commerce/logistics businesses on either a product (packaging mesh) or an on-site processing service.",
     "truth": "This is a real, current small-manufacturing niche responding to a genuine e-commerce demand for plastic-free packaging alternatives. No specific personal revenue figures are given.",
     "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
+  },
+  {
+    "id": "lawn-leveling-service",
+    "name": "Offering lawn leveling as a standalone service distinct from mowing or landscaping",
+    "category": "Local & professional services",
+    "tags": [
+      "lawn care",
+      "lawn leveling",
+      "home services",
+      "low competition niche",
+      "yard maintenance"
+    ],
+    "cost": "Very low to start (hand tools, a shovel and wheelbarrow, for early jobs; heavier equipment only needed once scaling to multiple daily jobs)",
+    "found": "Austin Zaback",
+    "what": "Top-dress lawns with a sand-and-compost mix to smooth out low spots and bumps until the yard is flat, marketed as a distinct service from standard mowing or landscaping, targeting homeowners, especially in newer-construction neighborhoods with poorly graded yards.",
+    "pitch": "The presenter cites Brandon McLauren, who started during the pandemic after noticing the effect on his own yard, did his first $600 job with just a shovel and wheelbarrow, and scaled to about $500,000/year in lawn leveling alone, doubling revenue year over year for four years, in a home market with only two other companies offering the service.",
+    "best": "Someone willing to do physically demanding manual labor initially, in a market with new-construction housing growth and little existing lawn-leveling competition.",
+    "truth": "The broader lawn care market is large and well-established, and top-dressing/leveling is a genuine, recognized landscaping technique, the presenter's framing of it as an underserved standalone niche is plausible given how few dedicated providers he cites. The specific $500K/year figure is one individual's self-reported result, and this business still requires physical labor and correctly assessing whether a local market has the underserved demand the presenter describes.",
+    "url": "https://www.youtube.com/watch?v=akllDPkT07I",
+    "published": "2026-07-09"
   },
   {
     "id": "tart-shell-b2b-supply-business",
@@ -8848,22 +8950,22 @@
     "published": "2025-09-12"
   },
   {
-    "id": "lawn-leveling-service",
-    "name": "Offering lawn leveling as a standalone service distinct from mowing or landscaping",
+    "id": "boat-detailing-service",
+    "name": "Mobile boat detailing and ceramic coating service",
     "category": "Local & professional services",
     "tags": [
-      "lawn care",
-      "lawn leveling",
-      "home services",
-      "low competition niche",
-      "yard maintenance"
+      "boat detailing",
+      "mobile service business",
+      "ceramic coating",
+      "marine care",
+      "recurring revenue"
     ],
-    "cost": "Very low to start (hand tools, a shovel and wheelbarrow, for early jobs; heavier equipment only needed once scaling to multiple daily jobs)",
+    "cost": "Low to start (a buffer and detailing compound for early jobs; a trailer setup for equipment as you scale)",
     "found": "Austin Zaback",
-    "what": "Top-dress lawns with a sand-and-compost mix to smooth out low spots and bumps until the yard is flat, marketed as a distinct service from standard mowing or landscaping, targeting homeowners, especially in newer-construction neighborhoods with poorly graded yards.",
-    "pitch": "The presenter cites Brandon McLauren, who started during the pandemic after noticing the effect on his own yard, did his first $600 job with just a shovel and wheelbarrow, and scaled to about $500,000/year in lawn leveling alone, doubling revenue year over year for four years, in a home market with only two other companies offering the service.",
-    "best": "Someone willing to do physically demanding manual labor initially, in a market with new-construction housing growth and little existing lawn-leveling competition.",
-    "truth": "The broader lawn care market is large and well-established, and top-dressing/leveling is a genuine, recognized landscaping technique, the presenter's framing of it as an underserved standalone niche is plausible given how few dedicated providers he cites. The specific $500K/year figure is one individual's self-reported result, and this business still requires physical labor and correctly assessing whether a local market has the underserved demand the presenter describes.",
+    "what": "Offer mobile boat washing, oxidation buffing, and gel-coat restoration/ceramic coating services, traveling to marinas or driveways rather than requiring a shop, targeting boat owners who need regular upkeep against sun and salt exposure.",
+    "pitch": "The presenter cites Drake Roberts of Revival Marine Care in Pensacola, Florida, who documents detail jobs worth up to about $5,000 for full restoration and ceramic coating on larger boats. Pricing runs $10-$20/foot for a basic detail and $20-$45/foot for a full restoration, with ceramic coating packages running $3,500-$8,000; the market is valued at over $2.1 billion with most operators being small/independent businesses rather than big chains.",
+    "best": "Someone comfortable with physical detailing work and mobile/on-location service delivery, ideally near a marina or boating community.",
+    "truth": "The recurring-revenue logic (boats are exposed to sun and salt and need regular upkeep) is sound, and the market-size and operator-composition figures are cited from third-party market data rather than the presenter's own claim, which adds some credibility. The individual job-value example ($5,000) represents a premium full-restoration job, not a typical basic detail, so real per-job economics for a beginner will likely start considerably lower.",
     "url": "https://www.youtube.com/watch?v=akllDPkT07I",
     "published": "2026-07-09"
   },
@@ -9270,28 +9372,6 @@
     "truth": "The demonstrated funnel mechanics (share-optimized posting cadence, algorithm-friendly account behavior, and an automated like/comment-to-DM tool) are shown live with real, verified results via a Stripe dashboard, which is more transparent than most \"I made $X\" claims. That said, the presenter repeatedly notes his results (\"$15 million\" in career revenue, 50+ Twitter accounts, aged/verified accounts) reflect years of unrepeatable advantage, the video ends by funneling into a paid coaching community and a much longer paid course, and the live result fell well short of the stated $8,000 goal \u2014 a realistic starting point looks more like the $2,065 actually shown than the headline target.",
     "url": "https://www.youtube.com/watch?v=2NLzwkSqdqw",
     "published": "2026-09-08"
-  },
-  {
-    "id": "productized-consulting-6ps",
-    "name": "A framework for building a productized consulting business",
-    "category": "Marketing & content",
-    "tags": [
-      "consulting",
-      "methodology",
-      "framework"
-    ],
-    "cost": "Low startup cost, time-intensive",
-    "found": "Ali Abdaal",
-    "what": "A 5-phase roadmap for building a solopreneur consulting or service business: identify a marketable skill, validate demand through direct conversations, then build and sell an offer using a structured framework called the '6 Ps', Person, Problem, Promise, Plan, Product, Price.",
-    "pitch": "Rather than guessing what to build, this approach validates demand through 10 to 20 real conversations with potential clients before building anything, aiming for a minimum offer price of around $2,000.",
-    "best": "Anyone considering a consulting or service-based business, regardless of the specific skill, this is a general launch process, not a specific idea.",
-    "truth": "Presented as the creator's own general model and timeline, not a personally verified case study for this exact path. The direct-conversation validation step is a genuinely sound, low-risk practice worth borrowing for almost any service idea.",
-    "url": "https://www.youtube.com/watch?v=XIhc7_Ptrpk",
-    "situation_tags": [
-      "Home office, client-facing",
-      "Phone/sales-based"
-    ],
-    "published": "2026-04-09"
   },
   {
     "id": "ai-viral-hook-organic-instagram-dropshipping",
@@ -12251,6 +12331,42 @@
     "url": "https://www.youtube.com/watch?v=w6m3gFnGZe4"
   },
   {
+    "id": "twenty-virtual-assistant-freelance-service-ideas",
+    "name": "Twenty specific virtual assistant and freelance service ideas requiring no prior experience, organized by skill level",
+    "category": "Local & professional services",
+    "tags": [
+      "virtual assistant services",
+      "freelance service ideas",
+      "administrative services",
+      "recurring monthly retainer"
+    ],
+    "cost": "Very low (a laptop, free AI tools like Claude/ChatGPT for some tasks; the founder's own paid training is optional)",
+    "found": "The Virtual Savvy",
+    "what": "Offer one or more remote freelance services grouped into three tiers: administrative (email management, calendar/appointment setting, data entry, travel research/booking, AI-assisted market/competitor research, survey creation and analysis, online community management, file/email organization); creative (blog writing with an AI-assisted first draft plus a human editing pass, graphic design, newsletter creation, Pinterest management); and specialized, higher-skill services (video editing overseeing AI tools like Descript, YouTube channel management, podcast editing and guest outreach, PR/media outreach, website design with an ongoing monthly maintenance retainer rather than a one-time fee, bookkeeping/tax prep). Identify which skills you're already using in your own life or a past job, start there, and where possible convert one-time projects into ongoing monthly retainers for recurring revenue.",
+    "pitch": "The presenter, who has run this virtual assistant training business for nearly 10 years and manages a 140,000-member community, shares three real, named student results: one who signed a second client at her top package price within her first month, another who raised rates with two long-term clients via email, and a third who grew from a team of one to a team of six and from consistent $5,000 months to consistently over $15,000 months.",
+    "best": "Someone assessing what existing skills could translate into a paid remote service, willing to start narrow with 1-2 services rather than offering everything at once.",
+    "truth": "This is an established, long-running business rather than a one-off video, which adds credibility, and the specific student results cited are named with concrete before/after numbers. The presenter is honest that AI tools assist several of these services now but still require human oversight, rather than claiming full automation. The video promotes the presenter's own free training on pricing and client acquisition as the next step, though the 20 service ideas stand on their own.",
+    "url": "https://www.youtube.com/watch?v=0wnCLNzMUlk"
+  },
+  {
+    "id": "boring-industry-ai-opportunity-ranked-framework",
+    "name": "A ranked framework (easiest to most specialized) for finding AI automation opportunities inside boring, overlooked local industries, validated with a 90-day test",
+    "category": "Local & professional services",
+    "tags": [
+      "AI opportunity research",
+      "boring industry automation",
+      "90-day business validation",
+      "domain expertise advantage"
+    ],
+    "cost": "Very low (no special tools required to start; a pilot client relationship is the main investment)",
+    "found": "Silicon Valley Girl",
+    "what": "Look for a recurring, painful workflow inside an ordinary 'boring' business still run by phone calls, email, and spreadsheets, since cited data shows most small businesses have started experimenting with AI but very few have built it into core operations (a Goldman Sachs survey found 76% using AI but only 14% had integrated it into operations). Rank candidate opportunities across seven areas by ease of starting, value of the problem, and required expertise, from easiest (local marketing/lead follow-up, home services, property management, small business bookkeeping) to more specialized areas requiring real domain expertise. Start at the bottom of the list if new to this; lean into existing industry experience (accounting, logistics, legal, healthcare) if you have it, since that expertise becomes your advantage further up the specialization ladder. For your first client, start with someone you already have access to, ask them to walk you through their messiest recurring process, and build a pilot around the one complaint that comes up repeatedly. Price based on value delivered, not hours worked. Run every opportunity through a 5-step, 90-day test: pick an industry you understand, map one full customer journey to find manual wait/copy/follow-up points, find what the business already spends on that problem, package one clear before-and-after result, then give it 90 days \u2014 needing three yeses: did anyone pay, can you repeat the result, can you deliver it faster for a second client.",
+    "pitch": "The presenter draws on more than 50 real interviews from her own podcast with named AI founders and CEOs (including Higgsfield's Alex Mashrabov, Replit's CEO, Coursera founder Andrew Ng, Decagon's Jesse Zhang), citing a concrete example: an accounting firm using AI to identify a client qualified for an R&D tax credit, then using AI-assisted paperwork to help them claim roughly $50,000 in tax credits, recurring every year.",
+    "best": "Someone willing to do real customer discovery rather than guessing at a problem to solve, comfortable running a genuinely time-boxed 90-day test rather than committing indefinitely upfront.",
+    "truth": "The cited statistics (Goldman Sachs survey, OECD adoption data, an Andreessen Horowitz analysis of 600+ industry categories) are real, independently sourced data points, and the interview quotes are from real, named, identifiable industry figures. The R&D tax credit case study is specific and concrete though relayed secondhand. The video includes a paid sponsorship segment for an email marketing analytics tool, separate from the core research-driven content.",
+    "url": "https://www.youtube.com/watch?v=cVGHg4Vd9uM"
+  },
+  {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",
     "name": "Faceless AI avatar affiliate marketing for Amazon-listed brands (customer-review-mining method)",
     "category": "Content & personal brand",
@@ -12816,26 +12932,6 @@
     "published": "2026-09-02"
   },
   {
-    "id": "whitelabel-saas-clone-birdeye-rebilling",
-    "name": "White-labeling a GoHighLevel-powered software clone of a named $500M SaaS company (Birdeye), with tiered pricing and usage rebilling",
-    "category": "Digital & subscription products",
-    "tags": [
-      "white-label SaaS",
-      "GoHighLevel",
-      "software rebilling",
-      "review management clone",
-      "recurring subscription tiers"
-    ],
-    "cost": "Low (a white-labelable AI software platform subscription, 30-day free trial referenced)",
-    "found": "John Whitford",
-    "what": "Study a specific, real, well-known SaaS company's product and pricing (the presenter uses Birdeye, a ~$500M reputation-management platform selling AI-powered review requests, business listing sync, and social/marketing tools) then recreate an equivalent branded software product using a white-labelable AI platform, building your own tiered pricing plans by turning specific features on or off per tier without any coding. Generate three layers of revenue: the monthly subscription fee itself, 'rebilling' (marking up the underlying per-use cost of things like text messages that get passed through to the client), and a one-time setup/onboarding fee ($1,000-2,000) that increases how long a client stays subscribed by making sure they're properly set up in their first 30 days.",
-    "pitch": "The presenter, who says his own similarly-built white-label software reached over 1,000 paying customers and won the platform's top award, argues this beats time-based service businesses because clients treat a working software subscription like a utility bill they never think to cancel, and walks through cloning the specific competitor's feature set and pricing live.",
-    "best": "Someone comfortable studying a competitor's product/pricing page and configuring a white-label software platform's tiers and rebilling settings, without needing to code anything.",
-    "truth": "White-labeling an AI-powered local-business SaaS platform and reselling it under your own brand with tiered pricing and usage rebilling is a real, current business model already covered from multiple angles in this database, and the specific mechanics described (rebilling markup, setup-fee retention effect) are accurate to how these platforms work. The presenter's own 1,000-customer figure and the video's call to action (subscribe/like/comment for a free trial) make this a lead-generation video for his own affiliate-linked platform.",
-    "url": "https://www.youtube.com/watch?v=wiXG8rRAbes",
-    "published": "2026-09-07"
-  },
-  {
     "id": "tiktok-shop-live-auction-selling-own-brand",
     "name": "Selling products via TikTok Shop LIVE auctions, moving from affiliate promotion to owning your own branded margin",
     "category": "E-commerce",
@@ -13103,6 +13199,24 @@
     "best": "Someone offering local marketing/advertising services who wants a warmer, permission-based way to open conversations with local businesses rather than cold calling or emailing.",
     "truth": "The core strategic insight, that a free, ungated resource creates a warmer, opt-in relationship before any sales ask, is sound, well-established lead-generation logic. The specific directory software demonstrated is only available inside the presenter's own paid membership, though the underlying concept is independently buildable with other directory tools. No revenue or results figures are given for this method.",
     "url": "https://www.youtube.com/watch?v=1LDkGQHKGak"
+  },
+  {
+    "id": "warm-network-first-client-magic-question-method",
+    "name": "Landing your first paying client (and your first several) by asking your existing personal network the 'magic question,' not by pitching strangers",
+    "category": "Marketing & content",
+    "tags": [
+      "client acquisition",
+      "warm referral network",
+      "first client strategy",
+      "service business launch"
+    ],
+    "cost": "Free (no tools required beyond your existing personal and professional network)",
+    "found": "Ali Abdaal",
+    "what": "Instead of trying to sell to strangers via ads or cold outreach, get your first paying client by asking people you already know a version of one 'magic question': do you know anyone who needs [what you offer], often paired with an initial free or discounted trial to remove the risk for that first person. Real client-acquisition stories converge on the same pattern: a leadership coach got her first client by mentioning she was starting her business to a peer she'd done a free session for, who introduced her to her husband's boss; a marketing consultant got his first client by attending a local Chamber of Commerce networking event and having an organic conversation about a business owner's actual problem; an executive coach mentioned her coaching certification in an unrelated professional Slack community and someone reached out. In every case, clients 2 through 5+ then came from warm referrals off that first relationship, not separate outreach efforts.",
+    "pitch": "The presenter interviews multiple real, named coaches on his own team about specifically how they landed their first paying client, deliberately looking for a repeatable pattern across different people and service types rather than presenting one anecdote, framing the takeaway as: your first ten thousand dollars in revenue essentially never comes from cold outreach to strangers.",
+    "best": "Someone about to launch a coaching, consulting, or service-based business who has been avoiding starting because they don't know how to find that very first client.",
+    "truth": "This is a real, multi-person interview format drawing from named individuals' actual first-client stories rather than a single anecdote or invented example, and the pattern described (warm referrals outperforming cold outreach for very early-stage service businesses) is well-established, widely-taught business development wisdom. The video includes a mid-roll paid sponsorship for a social-media automation tool, a separate promotional segment from the core interview content.",
+    "url": "https://www.youtube.com/watch?v=w0q7fsLa26E"
   },
   {
     "id": "digistore24-nurture-sequence-affiliate-funnel",
@@ -13391,6 +13505,24 @@
     "url": "https://www.youtube.com/watch?v=75tja_RxKn4"
   },
   {
+    "id": "ai-database-reactivation-local-business-recurring-offer",
+    "name": "Selling AI-automated 'database reactivation' to local businesses, re-engaging their own past customers instead of chasing new leads",
+    "category": "Local & professional services",
+    "tags": [
+      "database reactivation",
+      "local business automation",
+      "recurring revenue offer",
+      "AI follow-up workflow"
+    ],
+    "cost": "Low (a white-labelable automation software subscription)",
+    "found": "John Whitford",
+    "what": "Pick one local business niche (roofing, dentists, etc.) and target businesses with a substantial customer history (a company with 300+ reviews likely has far more total past customers in their database). Get access to that business's past-customer contact list, then use a pre-built AI automation workflow (built once, reused for every client in the same niche) that sends a warm, personalized re-engagement message referencing the past service, waits for a reply, and if positive, has AI parse the response and automatically move the conversation toward booking; if no reply, the workflow keeps following up automatically. Since the setup is built once per niche and reused with minor tweaks, fulfillment for each additional client takes about 10-20 minutes. Price as monthly recurring revenue ($300-600/month per client), and increase revenue per client by stacking additional automated workflows on top over time.",
+    "pitch": "The presenter, who says his own white-label software company has over 2,500 active sub-accounts and an industry 'Diamond' award for exceeding 1,000 paying customers, frames the core insight as a value-vs-effort framework: AI automation systems are the only category that's genuinely high-value and low-effort once built, which is why they suit recurring pricing; he explicitly avoids making income claims for the viewer, stating only what he and his own students have done.",
+    "best": "Someone comfortable building and slightly customizing an automation workflow per niche, willing to prospect local businesses with an existing, sizeable customer base.",
+    "truth": "AI-parsed, automated customer-reactivation workflows are a real, current capability, and the core insight (past customers are an underused, already-warm audience many local businesses neglect) is sound, practical marketing logic. The presenter's own scale claims are self-reported and not independently verified, and the video is structured to have viewers comment for scripts and a free extended trial of his own software platform, so that lead-generation mechanic is promotional even though the underlying database-reactivation concept is tool-agnostic.",
+    "url": "https://www.youtube.com/watch?v=OJK-pWkwNF0"
+  },
+  {
     "id": "tote-rental-business",
     "name": "Moving tote rental business",
     "category": "Local & professional services",
@@ -13473,26 +13605,6 @@
     "truth": "Selling AI clip art on Etsy is a real, low-cost-to-test niche, and Claude genuinely helps with SEO-style listing copy. The specific shop revenue figures come from a third-party estimation tool, not Etsy's own sales data, and because the barrier to entry is this low, the niche is easy for others to replicate once a trending style is spotted, so consistent output volume matters more than any single listing.",
     "url": "https://www.youtube.com/watch?v=7WSOOMYWFk0",
     "published": "2026-09-13"
-  },
-  {
-    "id": "ai-agency-middleman-local-service-niche",
-    "name": "Running an AI-agency 'middleman' brokerage connecting developers to high-ticket local service businesses",
-    "category": "Local & professional services",
-    "tags": [
-      "AI agency",
-      "local business niche",
-      "developer outsourcing",
-      "cold calling",
-      "sales framework"
-    ],
-    "cost": "Very low (Lovable for a simple landing site, GoHighLevel/voice agent tooling paid per client, developer fees paid as a % of each deal, no coding required)",
-    "found": "Angelo Turri",
-    "what": "Position yourself as a sales-and-consulting 'middleman' for AI automation in one high-ticket local-service niche (roofing, HVAC, plumbing, painting, electricians), qualify leads via Google Maps plus Google Ads/review signals, close deals using a three-step 'pain point prioritization' sales framework (identify, quantify, prioritize problems before ever mentioning AI or price), then hand off the entire technical build to a vetted freelance developer (paid 15-20% of the deal) so you never touch the code yourself.",
-    "pitch": "The presenter says this 'boring' middleman model makes him $48,000/month and cites several of his own students landing $8,000-$20,000 in their first 60-90 days using the same framework. He gives away the full sales script and qualification process, framing the business as low-risk to start since you're the closer/consultant, not the builder, with developers found and vetted through AI-agency Discord communities.",
-    "best": "Someone comfortable making cold calls and running structured sales conversations, willing to build relationships with freelance developers rather than build the automations personally.",
-    "truth": "The underlying model (broker AI automation deals for high-ticket local trades, delegate the technical build) is a real, sound structure that several agency operators use, and the sales framework itself (quantifying pain points in dollar terms before pitching) is standard high-ticket consultative selling, not AI-specific. Specific income figures (his own $48K/month and student results) are self-reported and unverified, and the video ends by pitching his own paid one-on-one mentorship program.",
-    "url": "https://www.youtube.com/watch?v=ZZpBv7xeYWk",
-    "published": "2026-06-27"
   },
   {
     "id": "pay-per-lead-media-company-model",
@@ -13691,6 +13803,24 @@
     "published": "2026-08-23"
   },
   {
+    "id": "ai-agency-sales-first-delegate-build-quantified-selling",
+    "name": "Running a $50K/month AI agency for local businesses by focusing entirely on sales and quantified problem-diagnosis, delegating all technical building to developers",
+    "category": "Local & professional services",
+    "tags": [
+      "AI agency",
+      "quantified selling technique",
+      "delegated technical build",
+      "local business automation sales"
+    ],
+    "cost": "Low (no coding required personally; developer/fulfillment costs are paid out of client revenue)",
+    "found": "Angelo Turri",
+    "what": "Build an AI agency selling automation systems (AI receptionist/voice agents, speed-to-lead systems, workflow follow-up automations, database reactivation of dead leads) to unglamorous, high-volume local businesses (roofers, dentists, plumbers, contractors), but personally focus only on sales, delegating 100% of the technical build to hired developers. Filter which problems are worth building for using three questions: does this cost the business money every day it goes unsolved, is it directly tied to revenue, would the result show up on their bottom line within 30 days \u2014 if a problem fails any of these, walk away regardless of how technically impressive a solution would be. On sales calls, quantify the specific dollar cost of the business owner's own stated problem in real time (e.g. 15 missed calls a week at an $8,000 average job value, meaning roughly $100,000/month walking out the door), then compare that number directly against your system's price. Be unusually generous with value and specifics on the first call itself rather than gatekeeping details until after signing.",
+    "pitch": "The presenter says he personally cannot code and never touches the backend of any system he sells, scaling to $40,000-50,000 months by spending 100% of his time on sales; he cites a real example client, a roofing company doing $125,000/month with no CRM or follow-up system, who hit $217,000 in their very next month after implementing an AI receptionist and speed-to-lead system, paying $14,000 upfront and later referring two additional clients.",
+    "best": "Someone stronger at sales and client-facing diagnosis than at technical building, comfortable hiring and managing developers for fulfillment.",
+    "truth": "The three-question problem filter and the quantified-loss selling technique are sound, well-reasoned B2B sales principles, and the cited Harvard statistic on lead-response-time affecting close rate is a real, independently referenced study (though not sourced within the video itself). The presenter's own revenue figures and the roofing-company case study are self-reported and not independently audited, though the case study is detailed and specific rather than a vague claim.",
+    "url": "https://www.youtube.com/watch?v=-2cYbFC-Bfo"
+  },
+  {
     "id": "claude-custom-internal-tool-small-business",
     "name": "Building simple custom internal tools (trackers, logs, booking sheets) for small businesses to replace paper or overpriced software",
     "category": "Local & professional services",
@@ -13857,26 +13987,6 @@
     "published": "2026-07-30"
   },
   {
-    "id": "water-filtration-install-broker-facebook-leads",
-    "name": "Running a water filtration/softener installation business as a subcontractor broker, marketed via undereducated Meta lead-form ads",
-    "category": "Local & professional services",
-    "tags": [
-      "water filtration business",
-      "subcontractor model",
-      "Meta lead ads",
-      "home services",
-      "GoHighLevel CRM"
-    ],
-    "cost": "Very low (~$500 initial setup: a Claude-built website, GoHighLevel CRM/phone, Jobber scheduling, Google Workspace, plus ~$300/month tech stack and ~$180/month plumbing liability insurance)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Start a whole-house water filtration/softener installation business without being a licensed plumber yourself, by partnering with private licensed plumbers who handle the actual installs while you own the marketing, sales, scheduling, and customer relationship; build the tech stack cheaply (a Claude-built website, GoHighLevel for CRM/phone, Jobber for scheduling), price below established competitors, and run Meta ads with deliberately minimal educational content (geo-targeted, instant-form lead capture straight into the CRM) so that only already-educated, price-aware customers convert.",
-    "pitch": "The guest reports going from $0 to $81,000 in monthly revenue in 85 days after less than $500 of startup cost, launching this as his third home-service business, and credits spotting the opportunity from multiple unrelated creators independently mentioning water filtration as an underserved niche within a short window, plus an aggressive lead-follow-up system to convert Meta leads he was paying $30-40 each for.",
-    "best": "Someone comfortable running paid Meta ad campaigns, managing subcontractor relationships with licensed tradespeople, and doing persistent phone-based lead follow-up, without needing a trade license themselves.",
-    "truth": "The subcontractor-broker home-service model is a real, established structure used across multiple home-service niches, and the specific operational details given (cost per lead, closing rates, tech stack costs) are unusually granular and internally consistent. This is the presenter's third attempt at building a business this way, so his execution speed reflects accumulated experience, not something a true first-time beginner should expect to replicate immediately; his own figures are self-reported.",
-    "url": "https://www.youtube.com/watch?v=9U4MCbfL8MQ",
-    "published": "2026-09-11"
-  },
-  {
     "id": "youtube-teaching-to-course-funnel",
     "name": "YouTube-teaching-to-course funnel (trust, then affiliate, then paid course)",
     "category": "Digital & subscription products",
@@ -13916,6 +14026,25 @@
     "truth": "The cost and price figures given are broadly consistent with typical binding and laminating service pricing, a reasonable range. No named operator or verified revenue record backs the specific numbers, so treat this as an illustrative business model rather than a demonstrated case study.",
     "url": "https://www.youtube.com/watch?v=xQ12WUnQid4",
     "published": "2026-04-21"
+  },
+  {
+    "id": "ai-assisted-freelance-blog-writing-tech-companies",
+    "name": "Freelance writing AI-assisted, SEO-focused blog articles for B2B SaaS companies at $900-1,200 per piece",
+    "category": "Local & professional services",
+    "tags": [
+      "freelance writing",
+      "AI-assisted content",
+      "B2B SaaS blog articles",
+      "Upwork freelancing",
+      "SEO writing"
+    ],
+    "cost": "Free (an Upwork account; AI writing tools like Claude/ChatGPT/Gemini for research and drafting assistance)",
+    "found": "Chris Koerner on The Koerner Office Podcast",
+    "what": "Write long-form (2,500-3,000 word), AI-assisted but substantially human-crafted blog articles for B2B SaaS companies (app comparisons, 'alternatives to X' pieces, step-by-step tutorials) at $900-1,200 per article, targeting keywords the client provides so no independent SEO research is required beyond standard best practices. Use different AI models for different jobs within one workflow (one model for processing video/audio notes, another for matching a specific brand voice, a coding-focused AI tool as the connective router between them) rather than relying on a single model for everything, and always keep a substantial personal editing/voice pass rather than publishing AI output directly. Find clients primarily through Upwork (proactively applying to a target number of jobs per day, selecting ones with growth potential), and separately, build a portfolio by writing genuine, unsolicited example pieces for brands you actually like and pitching them directly, which sidesteps the usual chicken-and-egg problem of needing client work to get client work.",
+    "pitch": "The presenter interviews a real, named freelance writer who left her full-time job at Zapier three weeks before this recording to freelance full-time, having built her rates from a standing start on Upwork in 2016 to her current $900-1,200 per blog post; she also describes personally hiring several other real freelance writers on Upwork just to interview them about how newcomers break into the field, relaying their shared advice as a second layer of validation.",
+    "best": "Someone with genuine writing/editing skill and some subject-matter interest, comfortable using multiple AI tools as drafting assistants, and willing to proactively apply to jobs on Upwork rather than waiting to be found.",
+    "truth": "This is a real, named interviewee describing her own specific rates, client roster, and workflow in detail, which is more verifiable than an anonymous case study, and the broader claim (companies paying a premium for AI-assisted human writing) lines up with a real, cited industry data point (an internal Zapier report finding AI comprised only about 18% of a typical successful content workflow, always with a human in the loop). No aggregate revenue figure is given for the presenter himself since this is someone else's business being profiled; the video includes a brief paid-community plug near the end, incidental rather than central.",
+    "url": "https://www.youtube.com/watch?v=tK5Ivv_3sEA"
   },
   {
     "id": "remote-cleaning-broker-contractor-network",
@@ -14119,24 +14248,22 @@
     "published": "2026-08-10"
   },
   {
-    "id": "boat-detailing-service",
-    "name": "Mobile boat detailing and ceramic coating service",
+    "id": "mobile-car-detailing-recurring-subscription-business",
+    "name": "Building a six-figure mobile car detailing business, from a basic $800 setup to recurring subscription clients at luxury car storage facilities",
     "category": "Local & professional services",
     "tags": [
-      "boat detailing",
-      "mobile service business",
-      "ceramic coating",
-      "marine care",
-      "recurring revenue"
+      "mobile car detailing",
+      "recurring subscription model",
+      "word-of-mouth growth",
+      "luxury car storage facility clients"
     ],
-    "cost": "Low to start (a buffer and detailing compound for early jobs; a trailer setup for equipment as you scale)",
+    "cost": "Low to moderate ($800 for a basic starter setup; $5,000+ for professional-grade equipment and a van build-out)",
     "found": "Austin Zaback",
-    "what": "Offer mobile boat washing, oxidation buffing, and gel-coat restoration/ceramic coating services, traveling to marinas or driveways rather than requiring a shop, targeting boat owners who need regular upkeep against sun and salt exposure.",
-    "pitch": "The presenter cites Drake Roberts of Revival Marine Care in Pensacola, Florida, who documents detail jobs worth up to about $5,000 for full restoration and ceramic coating on larger boats. Pricing runs $10-$20/foot for a basic detail and $20-$45/foot for a full restoration, with ceramic coating packages running $3,500-$8,000; the market is valued at over $2.1 billion with most operators being small/independent businesses rather than big chains.",
-    "best": "Someone comfortable with physical detailing work and mobile/on-location service delivery, ideally near a marina or boating community.",
-    "truth": "The recurring-revenue logic (boats are exposed to sun and salt and need regular upkeep) is sound, and the market-size and operator-composition figures are cited from third-party market data rather than the presenter's own claim, which adds some credibility. The individual job-value example ($5,000) represents a premium full-restoration job, not a typical basic detail, so real per-job economics for a beginner will likely start considerably lower.",
-    "url": "https://www.youtube.com/watch?v=akllDPkT07I",
-    "published": "2026-07-09"
+    "what": "Start a mobile detailing business that travels to customers rather than requiring a fixed shop location, using a self-contained van with its own water and power supply (an EcoFlow battery system charging while driving is one specific setup shown). Begin with a basic equipment kit (towels, chemicals, a pressure washer, battery-powered blowers for drying) starting around $800, or invest more upfront ($5,000+) in professional-grade products that last longer. Grow client volume primarily through word-of-mouth and visible before/after results rather than paid ads; deliberately target a specific low-competition, high-density client cluster, such as a luxury car storage/condo facility, by leaving business cards at the location after a single job and letting satisfied clients refer others within that same community. Offer both first-come-first-served one-off bookings and a recurring subscription option (weekly, bi-weekly, or monthly) billed automatically.",
+    "pitch": "The presenter interviews a real, named mobile detailer on location at a luxury car storage facility where he now services about 40% of the building's roughly 200+ car-storage units; the business owner reports scaling from working out of his wife's Subaru to a fully-built-out van doing about 50 vehicles a week, becoming profitable within the first month, running a 75-80% profit margin, and acquiring his first client at that specific facility simply by leaving a business card after one job.",
+    "best": "Someone comfortable with hands-on physical work and willing to reinvest early profits into better equipment, interested in finding a dense cluster of similar high-value clients rather than scattered one-off customers.",
+    "truth": "This is a real, named business owner interviewed on location with specific, concrete figures rather than a vague success story, and the facility-based referral strategy described is a genuinely specific, replicable tactic. No claims are made about the interviewer's own results, since this is someone else's business being profiled; startup costs and time to profitability will vary by location and market.",
+    "url": "https://www.youtube.com/watch?v=ovkSOnWX0AY"
   },
   {
     "id": "dough-sheeter-b2b-food-supply-business",
