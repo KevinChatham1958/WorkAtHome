@@ -46,28 +46,34 @@ a { color: inherit; }
 /* ---------- Hero (compact 3-line header) ---------- */
 .hero {
   position: relative;
-  padding: 18px 24px 14px;
+  padding: 20px 24px 16px;
   text-align: center;
-  background: var(--bg-card);
-  color: var(--text-primary);
+  background: #0d0d0d;
+  color: #fff;
 }
 .hero-inner { max-width: 720px; margin: 0 auto; }
 
 .title-row {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 16px;
   flex-wrap: wrap;
 }
 
 .about-link {
   text-decoration: none;
-  color: var(--text-muted);
-  font-size: 0.85rem;
-  transition: color 0.15s;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  transition: color 0.15s, border-color 0.15s;
 }
-.about-link:hover { color: var(--text-primary); }
+.about-link:hover { color: #fff; border-color: rgba(255, 255, 255, 0.7); }
 
 .wordmark-link {
   display: inline-block;
@@ -75,21 +81,24 @@ a { color: inherit; }
 }
 
 .hero-title {
-  font-family: 'Archivo Black', 'Arial Black', Impact, var(--font-display), sans-serif;
-  font-weight: 400;
-  font-size: clamp(1.46rem, 3.4vw, 1.91rem); /* 3/4 of the previous clamp(1.95rem, 4.5vw, 2.55rem) */
-  line-height: 1.15;
-  letter-spacing: -0.01em;
-  color: var(--text-primary);
   margin: 0;
+  line-height: 0;
+}
+
+.hero-logo-img {
+  height: clamp(30px, 5.2vw, 40px);
+  width: auto;
+  display: block;
 }
 
 .hero-sub {
   font-family: var(--font-body);
-  font-size: 0.98rem;
+  font-size: 0.85rem;
   font-weight: 600;
-  color: var(--text-primary);
-  margin: 6px 0 0;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 12px 0 0;
 }
 
 /* ---------- Tool section (search/controls, boxed by a double rule) ----------
