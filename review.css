@@ -181,3 +181,27 @@ body { background: var(--review-tint); padding-top: var(--review-banner-h); }
   .review-banner { font-size: 0.75rem; letter-spacing: 0.08em; gap: 8px; }
   .review-bar input[type="text"] { min-width: 0; width: 100%; }
 }
+
+/* ---------- Simple delete version ---------- */
+.review-help { font-weight: 500; }
+.review-panel input[type="checkbox"] { width: 16px; height: 16px; accent-color: var(--flag-red); }
+
+.delete-toggle {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-size: 0.9rem; font-weight: 700; color: var(--flag-red);
+  border: 1.5px solid var(--flag-red); border-radius: 4px; padding: 4px 10px;
+  cursor: pointer; user-select: none; background: #fff; white-space: nowrap;
+}
+.delete-toggle input { width: 16px; height: 16px; accent-color: var(--flag-red); cursor: pointer; margin: 0; }
+.delete-toggle.on { background: var(--flag-red); color: #fff; }
+.delete-toggle.on input { accent-color: #fff; }
+
+/* always-visible submit button, bottom right */
+.review-float-btn {
+  position: fixed; right: 18px; bottom: 18px; z-index: 90;
+  font-family: var(--font-body); font-size: 0.95rem; font-weight: 700;
+  background: var(--review-band); color: #fff; border: none; border-radius: 6px;
+  padding: 11px 18px; cursor: pointer; box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+}
+.review-float-btn:hover { background: #166534; }
+.review-float-btn:disabled { background: #7fb38c; cursor: default; box-shadow: 0 2px 6px rgba(0,0,0,0.15); }

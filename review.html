@@ -10,13 +10,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css?v=20260923c">
-<link rel="stylesheet" href="review.css?v=20260925b">
+<link rel="stylesheet" href="review.css?v=20260925c">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 </head>
 <body class="review-mode">
 
-<div class="review-banner" role="note">Review Mode <button type="button" id="review-banner-copy" class="review-banner-copy" disabled>Copy flagged list (0)</button> <a href="index.html"><span class="rb-hide-sm">Go to </span>public site</a></div>
+<div class="review-banner" role="note">Review Mode <button type="button" class="submit-tagged-btn review-banner-copy" disabled>Submit all tagged (0)</button> <a href="index.html"><span class="rb-hide-sm">Go to </span>public site</a></div>
 
 <header class="hero">
   <div class="hero-inner">
@@ -89,20 +89,12 @@
 
     <section class="review-panel" aria-label="Review tools">
       <div class="review-panel-row">
-        <span id="review-stats" class="review-stats">Loading…</span>
+        <span class="review-help">Tick <strong>Delete</strong> on any idea that doesn't belong, then click <strong>Submit all tagged</strong>.</span>
         <span class="review-spacer"></span>
-        <button type="button" id="review-copy-btn" class="review-btn primary" disabled>Copy flagged list</button>
+        <button type="button" class="submit-tagged-btn review-btn primary" disabled>Submit all tagged (0)</button>
       </div>
       <div class="review-panel-row">
-        <label>Show
-          <select id="review-show">
-            <option value="all">Everything</option>
-            <option value="new">New since last review</option>
-            <option value="remove">Flagged for removal</option>
-            <option value="fix">Needs a fix</option>
-            <option value="unflagged">Not flagged</option>
-          </select>
-        </label>
+        <label><input type="checkbox" id="review-tagged-only"> Show only tagged</label>
         <label>Group by
           <select id="review-group">
             <option value="none">No grouping</option>
@@ -115,9 +107,6 @@
             <option value="">All gurus</option>
           </select>
         </label>
-        <span class="review-spacer"></span>
-        <span id="review-seen-at" class="review-seen-at"></span>
-        <button type="button" id="review-mark-seen-btn" class="review-btn">Mark all as reviewed</button>
       </div>
     </section>
 
@@ -139,11 +128,10 @@
 
 <div id="review-modal" class="review-modal-backdrop" hidden>
   <div class="review-modal" role="dialog" aria-labelledby="review-modal-title">
-    <h2 id="review-modal-title">Flagged list, copied</h2>
-    <p>This list is on your clipboard. Paste it into a chat with Claude and say "process these." Your flags stay here until you clear them. Removed ideas clear themselves once they are gone from the site.</p>
+    <h2 id="review-modal-title">Delete list copied</h2>
+    <p>Last step: paste this into your chat with Claude. Claude removes these ideas and sends you the updated file to upload and deploy. The ticks clear on their own once the ideas are gone from the site.</p>
     <textarea id="review-modal-text" readonly></textarea>
     <div class="review-modal-actions">
-      <button type="button" id="review-modal-clear" class="review-btn danger">Clear all flags</button>
       <span class="review-spacer"></span>
       <button type="button" id="review-modal-copy" class="review-btn primary">Copy again</button>
       <button type="button" id="review-modal-close" class="review-btn">Close</button>
@@ -151,7 +139,9 @@
   </div>
 </div>
 
+<button type="button" class="submit-tagged-btn review-float-btn" disabled>Submit all tagged (0)</button>
+
 <script src="app.js?v=20260923c"></script>
-<script src="review.js?v=20260925b"></script>
+<script src="review.js?v=20260925c"></script>
 </body>
 </html>
