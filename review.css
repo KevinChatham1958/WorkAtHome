@@ -1,0 +1,172 @@
+/* ==========================================================
+   REVIEW MODE — private layer on top of styles.css.
+   Only loaded by review.html. The public site never loads this.
+   ========================================================== */
+
+:root {
+  --review-tint: #e3f4e6;        /* pale green page background */
+  --review-tint-strong: #cdebd3; /* panel background */
+  --review-ink: #14532d;         /* dark green text */
+  --review-band: #15803d;        /* banner */
+  --flag-red: #b91c1c;
+  --flag-red-bg: #fdecec;
+  --fix-amber: #92400e;
+  --fix-amber-bg: #fff4e0;
+  --review-banner-h: 34px;
+}
+
+body { background: var(--review-tint); padding-top: var(--review-banner-h); }
+.browse { background: var(--review-tint); }
+
+/* ---------- Always-visible REVIEW MODE banner ---------- */
+.review-banner {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--review-banner-h);
+  z-index: 100;
+  background: var(--review-band);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+.review-banner a {
+  color: #fff; opacity: 0.85; font-size: 0.72rem; letter-spacing: 0.06em;
+  border: 1px solid rgba(255,255,255,0.5); border-radius: 3px; padding: 2px 8px; text-decoration: none;
+}
+.review-banner a:hover { opacity: 1; }
+
+/* the public sticky search bar sits just under the banner */
+.controls-row { top: var(--review-banner-h); background: rgba(240, 250, 242, 0.96); }
+
+/* ---------- Review control panel ---------- */
+.review-panel {
+  margin: 10px 0 14px;
+  padding: 12px 14px;
+  background: var(--review-tint-strong);
+  border: 1px solid #9fd3aa;
+  border-radius: 6px;
+  color: var(--review-ink);
+  font-size: 0.88rem;
+}
+.review-panel-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 18px;
+}
+.review-panel-row + .review-panel-row { margin-top: 10px; padding-top: 10px; border-top: 1px dashed #9fd3aa; }
+.review-panel label { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; }
+.review-panel select {
+  font-family: var(--font-body); font-size: 0.85rem;
+  padding: 4px 6px; border: 1px solid #8cc79a; border-radius: 4px; background: #fff; color: var(--text-primary);
+  max-width: 260px;
+}
+.review-stats { font-weight: 600; }
+.review-stats .n-flag { color: var(--flag-red); }
+.review-stats .n-fix { color: var(--fix-amber); }
+.review-stats .n-new { color: var(--review-band); }
+
+.review-btn {
+  font-family: var(--font-body); font-size: 0.85rem; font-weight: 600;
+  padding: 6px 12px; border-radius: 4px; cursor: pointer;
+  border: 1px solid var(--review-band); background: #fff; color: var(--review-band);
+}
+.review-btn:hover { background: #f0faf2; }
+.review-btn.primary { background: var(--review-band); color: #fff; }
+.review-btn.primary:hover { background: #166534; }
+.review-btn.danger { border-color: var(--flag-red); color: var(--flag-red); }
+.review-btn.danger:hover { background: var(--flag-red-bg); }
+.review-btn:disabled { opacity: 0.45; cursor: default; }
+.review-spacer { flex: 1; }
+
+/* ---------- Per-card review bar ---------- */
+.card { position: relative; }
+.card.review-flagged { background: var(--flag-red-bg); box-shadow: inset 5px 0 0 var(--flag-red); padding-left: 14px; padding-right: 10px; }
+.card.review-fix     { background: var(--fix-amber-bg); box-shadow: inset 5px 0 0 #d97706; padding-left: 14px; padding-right: 10px; }
+.card.review-new .card-title::after {
+  content: "NEW";
+  display: inline-block; margin-left: 8px; vertical-align: middle;
+  font-family: var(--font-body); font-size: 0.62rem; font-weight: 700; letter-spacing: 0.08em;
+  color: #fff; background: var(--review-band); padding: 2px 6px; border-radius: 3px;
+}
+
+.review-bar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px;
+  margin-top: 10px; padding: 8px 10px;
+  background: rgba(255,255,255,0.7);
+  border: 1px dashed #9fd3aa; border-radius: 5px;
+  font-size: 0.84rem;
+}
+.review-bar-label {
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--review-ink);
+}
+.review-bar button {
+  font-family: var(--font-body); font-size: 0.82rem; font-weight: 600;
+  padding: 4px 10px; border-radius: 4px; cursor: pointer; background: #fff;
+}
+.rb-flag { border: 1px solid var(--flag-red); color: var(--flag-red); }
+.rb-flag.on { background: var(--flag-red) !important; color: #fff; }
+.rb-fix { border: 1px solid #d97706; color: var(--fix-amber); }
+.rb-fix.on { background: #d97706 !important; color: #fff; }
+.review-bar select, .review-bar input[type="text"] {
+  font-family: var(--font-body); font-size: 0.82rem;
+  padding: 4px 6px; border: 1px solid var(--border-strong); border-radius: 4px; background: #fff;
+}
+.review-bar input[type="text"] { flex: 1; min-width: 200px; }
+.rb-status { font-weight: 600; }
+.rb-status.remove { color: var(--flag-red); }
+.rb-status.fix { color: var(--fix-amber); }
+
+/* ---------- Group headers ---------- */
+.review-group-head {
+  margin: 22px 0 0;
+  padding: 8px 12px;
+  background: var(--review-band);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 4px 4px 0 0;
+  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 12px; align-items: baseline;
+}
+.review-group-head:first-child { margin-top: 0; }
+.review-group-head .rg-meta { font-family: var(--font-body); font-size: 0.78rem; font-weight: 500; opacity: 0.9; }
+.review-group-head a { color: #fff; }
+.review-group-head .rg-flagall {
+  font-family: var(--font-body); font-size: 0.75rem; font-weight: 600;
+  background: transparent; color: #fff; border: 1px solid rgba(255,255,255,0.7); border-radius: 3px; padding: 2px 8px; cursor: pointer;
+}
+.review-group-head .rg-flagall:hover { background: rgba(255,255,255,0.15); }
+.review-group-head + .card { border-top: none; }
+
+/* ---------- Copy-list dialog ---------- */
+.review-modal-backdrop {
+  position: fixed; inset: 0; z-index: 200; background: rgba(0,0,0,0.45);
+  display: flex; align-items: center; justify-content: center; padding: 16px;
+}
+.review-modal-backdrop[hidden] { display: none; }
+.review-modal {
+  background: #fff; border-radius: 8px; width: min(720px, 100%); max-height: 90vh;
+  display: flex; flex-direction: column; gap: 10px; padding: 16px;
+}
+.review-modal h2 { margin: 0; font-family: var(--font-display); font-size: 1.1rem; color: var(--review-ink); }
+.review-modal p { margin: 0; font-size: 0.88rem; color: var(--text-muted); }
+.review-modal textarea {
+  width: 100%; min-height: 300px; flex: 1;
+  font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.8rem;
+  border: 1px solid var(--border-strong); border-radius: 4px; padding: 8px;
+}
+.review-modal-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+
+@media (max-width: 640px) {
+  .review-banner { font-size: 0.75rem; letter-spacing: 0.08em; gap: 8px; }
+  .review-bar input[type="text"] { min-width: 0; width: 100%; }
+}

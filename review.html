@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REVIEW MODE — Side Hustle Intel</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="A free, searchable database of work-from-home business ideas sourced from creator videos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=20260923c">
+<link rel="stylesheet" href="review.css?v=20260925a">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+</head>
+<body class="review-mode">
+
+<div class="review-banner" role="note">Review Mode <a href="index.html">Go to public site</a></div>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="title-row">
+      <a href="index.html" class="wordmark-link"><h1 class="hero-title"><img src="assets/logo-horizontal-white.png" alt="SideHustleIntel.org" class="hero-logo-img"></h1></a>
+      <a href="about.html" class="about-link">About Us</a>
+    </div>
+    <p class="hero-sub">Search Work-at-Home Gigs by Keyword, Category, or Creator</p>
+  </div>
+</header>
+
+<main id="browse" class="browse">
+
+  <div class="controls-row">
+    <div class="saved-group">
+      <span id="saved-count" class="saved-count">0 saved</span>
+      <label class="saved-toggle">
+        <input type="checkbox" id="saved-only-toggle">
+        <span>View Saved</span>
+      </label>
+    </div>
+
+    <div class="search-row">
+      <div class="search-field">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+          <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <input type="text" id="search-input" class="search-input" placeholder="e.g. dropshipping, pet care, Mark Tilbury…" autocomplete="off">
+        <button type="button" id="clear-search-btn" class="clear-search-btn" hidden aria-label="Clear search">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+      <button type="button" id="search-submit-btn" class="search-submit-btn" aria-label="Search">Search</button>
+    </div>
+
+    <button type="button" id="download-saved-btn" class="download-btn">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M12 3V15M12 15L7 10M12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M4 17V19C4 19.9 4.7 20.5 5.5 20.5H18.5C19.3 20.5 20 19.9 20 19V17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      Download Saved
+    </button>
+  </div>
+
+  <div class="tool-section-lower">
+    <p id="search-feedback" class="search-feedback" hidden aria-live="polite"></p>
+
+    <div id="search-loading" class="search-loading" hidden aria-live="polite">
+      <span class="spinner" aria-hidden="true"></span>
+      Searching…
+    </div>
+
+    <div class="db-links-row">
+      <span>Current WAH Gigs: <span class="db-count" id="gig-count">—</span></span>
+      <span class="db-sep">&middot;</span>
+      <span class="sort-inline">
+        <label class="sort-label" for="sort-select">Sort by date:</label>
+        <select id="sort-select" class="sort-select">
+          <option value="shuffle">Shuffle (Default)</option>
+          <option value="newest">Newest</option>
+          <option value="oldest">Oldest</option>
+        </select>
+      </span>
+    </div>
+  </div>
+
+
+    <section class="review-panel" aria-label="Review tools">
+      <div class="review-panel-row">
+        <span id="review-stats" class="review-stats">Loading…</span>
+        <span class="review-spacer"></span>
+        <button type="button" id="review-copy-btn" class="review-btn primary" disabled>Copy flagged list</button>
+      </div>
+      <div class="review-panel-row">
+        <label>Show
+          <select id="review-show">
+            <option value="all">Everything</option>
+            <option value="new">New since last review</option>
+            <option value="remove">Flagged for removal</option>
+            <option value="fix">Needs a fix</option>
+            <option value="unflagged">Not flagged</option>
+          </select>
+        </label>
+        <label>Group by
+          <select id="review-group">
+            <option value="none">No grouping</option>
+            <option value="guru">Guru</option>
+            <option value="video">Source video</option>
+          </select>
+        </label>
+        <label>Guru
+          <select id="review-guru">
+            <option value="">All gurus</option>
+          </select>
+        </label>
+        <span class="review-spacer"></span>
+        <span id="review-seen-at" class="review-seen-at"></span>
+        <button type="button" id="review-mark-seen-btn" class="review-btn">Mark all as reviewed</button>
+      </div>
+    </section>
+
+  <p id="same-producer-note" class="same-producer-note" hidden></p>
+
+  <div class="grid" id="gig-grid" aria-live="polite"></div>
+
+  <p id="review-empty" class="empty-state" hidden>Nothing matches these review filters.</p>
+
+  <p id="empty-state" class="empty-state" hidden>You haven't saved any gigs yet. Check "Save for Later" on any idea to add it here.</p>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>Side Hustle Intel — every idea here is sourced from a real creator video, linked at the bottom of each entry.</span>
+  </div>
+</footer>
+
+<div id="review-modal" class="review-modal-backdrop" hidden>
+  <div class="review-modal" role="dialog" aria-labelledby="review-modal-title">
+    <h2 id="review-modal-title">Flagged list, copied</h2>
+    <p>This list is on your clipboard. Paste it into a chat with Claude and say "process these." Your flags stay here until you clear them. Removed ideas clear themselves once they are gone from the site.</p>
+    <textarea id="review-modal-text" readonly></textarea>
+    <div class="review-modal-actions">
+      <button type="button" id="review-modal-clear" class="review-btn danger">Clear all flags</button>
+      <span class="review-spacer"></span>
+      <button type="button" id="review-modal-copy" class="review-btn primary">Copy again</button>
+      <button type="button" id="review-modal-close" class="review-btn">Close</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js?v=20260923c"></script>
+<script src="review.js?v=20260925a"></script>
+</body>
+</html>
