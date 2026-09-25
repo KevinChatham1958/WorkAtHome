@@ -268,6 +268,9 @@ function updateReviewStats() {
   el.innerHTML = `<span class="n-new">${newN} new</span> · <span class="n-flag">${removeN} flagged for removal</span> · <span class="n-fix">${fixN} need a fix</span>`;
 
   document.getElementById('review-copy-btn').disabled = (removeN + fixN) === 0;
+  const bannerBtn = document.getElementById('review-banner-copy');
+  bannerBtn.disabled = (removeN + fixN) === 0;
+  bannerBtn.textContent = `Copy flagged list (${removeN + fixN})`;
 
   const seenEl = document.getElementById('review-seen-at');
   if (reviewSeenAt) {
@@ -355,11 +358,13 @@ const modal = document.getElementById('review-modal');
 const modalText = document.getElementById('review-modal-text');
 const modalCopyBtn = document.getElementById('review-modal-copy');
 
-document.getElementById('review-copy-btn').addEventListener('click', () => {
+function openFlagList() {
   modalText.value = buildFlagList();
   modal.hidden = false;
   doCopy();
-});
+}
+document.getElementById('review-copy-btn').addEventListener('click', openFlagList);
+document.getElementById('review-banner-copy').addEventListener('click', openFlagList);
 function doCopy() {
   const done = () => { modalCopyBtn.textContent = 'Copied ✓'; setTimeout(() => { modalCopyBtn.textContent = 'Copy again'; }, 1800); };
   if (navigator.clipboard && navigator.clipboard.writeText) {

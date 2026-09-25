@@ -42,6 +42,17 @@ body { background: var(--review-tint); padding-top: var(--review-banner-h); }
   border: 1px solid rgba(255,255,255,0.5); border-radius: 3px; padding: 2px 8px; text-decoration: none;
 }
 .review-banner a:hover { opacity: 1; }
+.review-banner-copy {
+  font-family: var(--font-body); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.02em; text-transform: none;
+  background: #fff; color: var(--review-band); border: none; border-radius: 3px; padding: 3px 10px; cursor: pointer;
+}
+.review-banner-copy:hover { background: #f0faf2; }
+.review-banner-copy:disabled { opacity: 0.55; cursor: default; }
+.review-banner a, .review-banner-copy { white-space: nowrap; }
+@media (max-width: 480px) {
+  .rb-hide-sm { display: none; }
+  .review-banner-copy { font-size: 0.72rem; padding: 3px 7px; }
+}
 
 /* the public sticky search bar sits just under the banner */
 .controls-row { top: var(--review-banner-h); background: rgba(240, 250, 242, 0.96); }
