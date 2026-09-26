@@ -209,26 +209,6 @@
     "published": "2026-07-31"
   },
   {
-    "id": "valet-trash-bulk-waste-apartment-complexes",
-    "name": "Valet trash and bulk waste removal for apartment complexes",
-    "category": "Local & professional services",
-    "tags": [
-      "valet trash",
-      "apartment complex contracts",
-      "junk hauling",
-      "recurring B2B contract",
-      "multi-family housing"
-    ],
-    "cost": "Low startup cost (roughly $4,500 for a used hauling truck)",
-    "found": "HIDDEN WEALTH",
-    "what": "Walk the hallways of multi-family apartment complexes each evening collecting tied trash bags residents leave outside their doors (a service many complexes already charge residents a mandatory monthly fee for, often around $30/door) and haul them to the property's main dumpster, selling directly to property managers on a multi-year contract rather than to individual tenants; use standalone bulk item and junk hauling (old couches, mattresses, appliances tenants leave behind) as a faster-to-sell entry service that builds trust with property managers before pitching the larger recurring valet contract.",
-    "pitch": "The math scales with door count: a 400-unit complex charging residents $30/month for valet trash represents $12,000/month in revenue for a nightly task the presenter says takes under two hours. The illustrative account in the source video describes two operators who spent six months and 20 daily pitches with zero contracts before a property manager explained that nobody hands a multi-million-dollar property contract to unproven operators showing up in a borrowed truck \u2014 the fix was leading with smaller, faster-cash bulk-hauling jobs to build a track record and cash flow before ever pitching the long-term valet contract.",
-    "best": "Someone comfortable with physical nightly work and willing to spend real time building credibility with property managers before landing a first multi-year contract, rather than expecting an immediate yes.",
-    "truth": "This account reads as an illustrative story built around a named individual rather than an independently verifiable case study, so the specific dollar figures should be treated as representative rather than audited; the underlying business mechanic \u2014 a per-door recurring service sold to a property manager as one contract instead of one-off consumer sales \u2014 is a genuine, sound model consistent with how many multi-family service contracts work in practice. Landing that first contract without an established track record is a real, non-trivial hurdle, not a minor detail.",
-    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
-    "published": "2026-08-19"
-  },
-  {
     "id": "ai-clipping",
     "name": "AI clipping for creators",
     "category": "Marketing & content",
@@ -956,30 +936,6 @@
       "Weekend/event-based schedule"
     ],
     "published": "2026-04-07"
-  },
-  {
-    "id": "junk-removal-service-local",
-    "name": "Junk removal service",
-    "category": "Local & professional services",
-    "tags": [
-      "junk removal",
-      "home services",
-      "local business",
-      "low startup cost"
-    ],
-    "cost": "Low startup cost (lower if you already own a truck)",
-    "found": "Austin Zaback",
-    "what": "Show up to a customer's home or property, quote the job on the spot based on volume, load unwanted furniture, appliances, or debris into a truck or trailer, and haul it away, getting paid in cash or card immediately rather than waiting on invoicing.",
-    "pitch": "Zaback frames the U.S. waste collection services industry (projected to surpass $90 billion by 2030) as large enough that small local operators can carve out real income, citing $500 to $1,500 a day in realistic revenue for a single truck and $250 to $300 as a typical job price. He emphasizes that the real growth lever is relationships, real estate agents, property managers, and estate sale companies, since apartment turnover alone runs 40-50% annually and creates a steady pipeline of clearance jobs.",
-    "best": "Someone who already owns or can access a truck or trailer and is comfortable building referral relationships with property managers, agents, and contractors rather than relying purely on one-off individual customers.",
-    "truth": "The per-day and per-job revenue figures are Zaback's own stated ranges rather than a single verified case study, though they're specific and consistent with the kind of pricing publicly discussed across the junk-removal industry. The relationship-based growth strategy (property managers, agents, estate companies) is a concrete, actionable, and independently testable approach regardless of the exact revenue figures.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Needs a truck or cargo vehicle"
-    ],
-    "published": "2026-04-09"
   },
   {
     "id": "amazon-kdp-low-content-books",
@@ -1795,29 +1751,6 @@
     "published": "2026-09-05"
   },
   {
-    "id": "mobile-home-buy-rent-flip",
-    "name": "Buying, renting, and flipping mobile homes",
-    "category": "Local & professional services",
-    "tags": [
-      "mobile homes",
-      "real estate",
-      "flipping",
-      "rental income"
-    ],
-    "cost": "Moderate startup cost (buying a used mobile home, typically needing minor repairs)",
-    "found": "David Explains Money",
-    "what": "Buy used mobile homes at a discount (often needing minor cosmetic repairs), fix them up with simple upgrades like paint, flooring, and kitchen updates, then either rent them out for steady monthly income or resell them at a markup \u2014 starting within an already-established mobile home park (where land is rented separately, lowering the initial investment) rather than buying land outright.",
-    "pitch": "The presenter frames this as combining two income streams in one business \u2014 ongoing rental income if you keep the property, or a lump-sum resale profit if you flip it \u2014 and recommends starting with one or two units in an established park before considering land ownership, once more experience and capital are available.",
-    "best": "Someone comfortable with basic home repair and renovation work (or managing contractors who do it), willing to start small within an established mobile home park before taking on land ownership.",
-    "truth": "Starting within an established park to avoid the added cost and complexity of land ownership is sound, practical advice for lowering the initial investment in this business. Rising demand for mobile homes as a more affordable housing option is a real market tailwind, but this still requires real capital for the initial purchase and repairs, and success depends on realistic repair-cost estimation and local rental or resale demand, which the video doesn't detail specifically.",
-    "url": "https://youtu.be/xA6oBoVyQ9I",
-    "situation_tags": [
-      "Requires travel to source or inspect goods",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-08-07"
-  },
-  {
     "id": "formal-wear-dress-rental",
     "name": "Renting formal wear and dresses for prom and wedding season",
     "category": "Local & professional services",
@@ -2233,26 +2166,6 @@
     "published": "2026-09-05"
   },
   {
-    "id": "epoxy-garage-floor-sell-before-buy-financing",
-    "name": "Epoxy garage floor coating funded by selling jobs before buying equipment",
-    "category": "Local & professional services",
-    "tags": [
-      "epoxy flooring",
-      "garage floor coating",
-      "bootstrap financing",
-      "deposit-funded equipment rental",
-      "high-margin trade service"
-    ],
-    "cost": "Moderate startup cost to learn (roughly $2,000 for manufacturer training) with equipment financed via client deposits rather than upfront purchase",
-    "found": "HIDDEN WEALTH",
-    "what": "Apply high-performance epoxy/polyaspartic coatings to garage concrete floors (grinding down the old surface, repairing cracks, then applying a decorative, chip-resistant finish that lasts 20-30 years), but bootstrap the expensive commercial equipment (a concrete grinder can cost over $20,000) by first landing paying clients through targeted local ad campaigns showing dramatic before/after transformations, collecting a 50% deposit upfront, and using those deposits to rent the grinding equipment day-by-day from a local supply shop rather than buying it outright \u2014 only purchasing owned equipment once enough client-funded profit has accumulated.",
-    "pitch": "A garage floor job typically takes a two-person team one day and homeowners pay $4,000-7,000 per garage given the finish's longevity, with the illustrative account citing about $1,800/month in ongoing truck-and-gear overhead against up to $60,000 in monthly revenue at scale. The presenter is candid that early mistakes are costly and specific: underestimating how long a job will take when old sealant resists the rented equipment can turn a projected two-day job into two weeks, so testing the concrete's hardness and moisture before quoting became a hard-learned, now-standard step.",
-    "best": "Someone willing to invest in proper technique training before taking paying jobs (this trade has a real, visible failure mode if botched) and comfortable using a sell-first, equipment-later financing sequence rather than buying expensive gear speculatively.",
-    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. A similar epoxy garage flooring entry already exists in this database from a different producer emphasizing portfolio-building and practicing on a low-stakes floor first; this version's distinct, checkable contribution is the deposit-funded equipment rental strategy for bootstrapping expensive gear, and the specific concrete-testing lesson learned from a near-failure.",
-    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
-    "published": "2026-08-19"
-  },
-  {
     "id": "spotify-playlist-monetization",
     "name": "Monetizing a curated Spotify playlist",
     "category": "Digital & subscription products",
@@ -2330,25 +2243,6 @@
     "truth": "Commercial ice machine leasing with bundled maintenance is a real, established equipment-service model in the food service industry. Pricing figures are general industry ranges, not a specific verified case study.",
     "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
     "published": "2026-07-23"
-  },
-  {
-    "id": "commercial-window-cleaning-crew-broker",
-    "name": "Running a commercial window-cleaning business by hiring crews rather than doing the height work yourself",
-    "category": "Local & professional services",
-    "tags": [
-      "window cleaning",
-      "commercial contracts",
-      "crew management",
-      "boring business"
-    ],
-    "cost": "Moderate (equipment for crews plus insurance/bonding for height work; you don't need to do the work personally)",
-    "found": "David Explains Money",
-    "what": "Sign annual commercial window-cleaning contracts for office buildings and hospitals, hiring and paying two-person crews to do the actual height work while you handle sales and contract renewals; the business avoids competition because most people are deterred by the physical fear-of-heights factor of the work itself, not by cost or complexity.",
-    "pitch": "The presenter cites an operator running three two-person crews specializing only in hospitals and office buildings who bills $300,000/year without doing any height work himself, paying $400-1,000 per work day per contract that renews automatically every January.",
-    "best": "Someone comfortable managing and paying crews for physically demanding work, willing to sell annual contracts to commercial property managers.",
-    "truth": "Commercial window cleaning is a real, established trade with genuine annual-contract recurring revenue, and delegating the physical work to hired crews while owning client relationships is a standard small-business-scaling structure. The $300,000/year figure is one presenter-cited example, not a guaranteed outcome, and insurance/liability requirements for height work are a real operational cost not detailed here.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "published": "2026-06-30"
   },
   {
     "id": "ai-done-for-you-content-professionals",
@@ -2570,24 +2464,6 @@
     "published": "2026-08-14"
   },
   {
-    "id": "basketball-hoop-installation-subcontractor-network",
-    "name": "Running a nationwide basketball hoop installation booking service using local subcontractors in each city",
-    "category": "Local & professional services",
-    "tags": [
-      "installation service booking",
-      "subcontractor network",
-      "B2B outreach",
-      "national local-service brand"
-    ],
-    "cost": "Low (a simple booking website; no equipment needed since subcontractors provide their own)",
-    "found": "Tim Richard",
-    "what": "Build a website and brand focused solely on basketball hoop installation, operating across many states/cities by dispatching each job to a local handyman/contractor subcontractor rather than doing installations personally; grow the client base partly through B2B outreach to companies that sell basketball hoops online, offering to handle installation referrals for their customers.",
-    "pitch": "The presenter found a real company (basketballhoopinstall.com) operating this exact model across Arizona, Colorado, Georgia, Indiana, Kansas, and more, using local subcontractors in each market rather than a single local crew.",
-    "best": "Someone comfortable managing a network of subcontractors across multiple markets and doing direct B2B outreach to hoop retailers rather than performing installations themselves.",
-    "truth": "This is a real, verifiable company operating exactly as described, and the subcontractor-dispatch-plus-B2B-referral model is a sound, replicable structure for a narrow installation niche. No specific revenue figures are given for this particular business.",
-    "url": "https://www.youtube.com/watch?v=iWmTuDAHl7Q"
-  },
-  {
     "id": "amazon-influencer-program-product-videos",
     "name": "Amazon Influencer Program: short product review videos on Amazon listings",
     "category": "Marketing & content",
@@ -2635,25 +2511,6 @@
     "published": "2026-09-05"
   },
   {
-    "id": "pressure-washing-annual-contracts",
-    "name": "Building a pressure-washing business around recurring annual contracts instead of one-off jobs",
-    "category": "Local & professional services",
-    "tags": [
-      "pressure washing",
-      "recurring contracts",
-      "commercial property maintenance",
-      "boring business"
-    ],
-    "cost": "Low ($1,500-4,000 for a pressure washer)",
-    "found": "David Explains Money",
-    "what": "Buy a pressure washer and offer sidewalk, facade, and parking-lot cleaning, but structure the business around annual maintenance contracts with corporate buildings and condominiums rather than chasing one-off residential jobs each week, turning it into predictable recurring income.",
-    "pitch": "The presenter frames the annual-contract model as the key difference between an unpredictable side hustle and a real business, noting demand holds up regardless of the economy since commercial properties are contractually obligated to keep storefronts clean.",
-    "best": "Someone comfortable with sales calls to property managers and building owners to win annual maintenance contracts, not just one-time homeowner jobs.",
-    "truth": "Pressure washing is a well-established, low-barrier service business, and shifting from one-off jobs to annual contracts is sound, widely-used advice for reducing income unpredictability in any local service business. No specific revenue figures are given for this particular business type in the video.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "published": "2026-06-30"
-  },
-  {
     "id": "camera-equipment-rental-sharegrid",
     "name": "Renting out camera and film equipment through a peer-to-peer platform",
     "category": "Local & professional services",
@@ -2671,29 +2528,6 @@
     "truth": "Camera equipment rental via ShareGrid is a real, verifiable platform with the cited membership/inventory/insurance figures coming from the platform's own published numbers, giving this more third-party grounding than most items on the list. Individual earnings still depend on local demand and utilization, which the presenter is honest is the real risk (an underbooked asset quietly loses money).",
     "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
     "published": "2026-09-07"
-  },
-  {
-    "id": "acrylic-display-fabrication-local-b2b",
-    "name": "Acrylic display fabrication for local B2B customers",
-    "category": "Physical & print products",
-    "tags": [
-      "acrylic displays",
-      "retail fixtures",
-      "local B2B",
-      "countertop displays"
-    ],
-    "cost": "Low startup cost (about $450-750 for a strip heater and cutting/finishing tools)",
-    "found": "Business Dash",
-    "what": "Fabricate acrylic countertop displays, menu holders, product risers, brochure stands, and QR code table signs using a strip heater and cutting/scoring tools, focusing on one customer group and a small catalog of standard products rather than promising unlimited custom fabrication.",
-    "pitch": "A working setup (strip heater, cutting or scoring tools, polishing supplies, clamps, drills, safety equipment, acrylic stock) runs $450-750. The presenter recommends choosing one customer group (for example, three display packages designed specifically for market vendors) since every unusual custom size creates wasted sheet material and one-time design work that's harder to price and repeat.",
-    "best": "Someone willing to standardize around a specific customer type (bakeries, jewelry sellers, restaurants) with a repeatable product catalog rather than accepting unlimited custom requests.",
-    "truth": "The advice to build a standard catalog for one customer type, rather than promising infinite customization, is a genuinely important lesson for any small fabrication business \u2014 it's what makes material use, pricing, and production time predictable instead of chaotic.",
-    "url": "https://youtu.be/2uofabJSM7A",
-    "situation_tags": [
-      "Strictly in-home",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-07-31"
   },
   {
     "id": "high-ticket-affiliate-marketing-selling-mechanisms",
@@ -3287,25 +3121,6 @@
     "published": "2026-09-05"
   },
   {
-    "id": "pallet-crate-tote-rental-b2b",
-    "name": "Renting reusable pallets, crates, and totes to warehouses and distribution centers",
-    "category": "Local & professional services",
-    "tags": [
-      "pallet rental",
-      "B2B logistics rental",
-      "warehouse supply",
-      "rental asset business"
-    ],
-    "cost": "Moderate ($5,000-25,000 in starting inventory plus one warehouse account)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Buy reusable pallets, plastic totes, or crates and rent them by the trip or a small monthly fee to warehouses, distribution centers, and third-party logistics shops that would rather rent than own and store their own, in a recurring loop where the same unit goes out and comes back repeatedly.",
-    "pitch": "The video cites CHEP, the company behind the ubiquitous blue pallets seen on loading docks nationwide, as proof this exact B2B rental model works at massive scale; a small operator starts with 5-25,000 in inventory and one warehouse account, targeting logistics managers directly.",
-    "best": "Someone with (or able to build) relationships in local warehousing/logistics, comfortable with unglamorous, recurring B2B account management.",
-    "truth": "Pallet/tote rental to warehouses is a real, large, well-established B2B model (CHEP is a genuine multi-billion dollar company built on exactly this). No specific small-operator case study is given; figures are general framing rather than a verified independent result.",
-    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
-    "published": "2026-09-07"
-  },
-  {
     "id": "portable-restroom-rental-business",
     "name": "Running a portable restroom rental business for construction sites and events",
     "category": "Local & professional services",
@@ -3434,25 +3249,6 @@
     "published": "2026-06-19"
   },
   {
-    "id": "commercial-elevator-maintenance",
-    "name": "Running a licensed commercial elevator maintenance contract business",
-    "category": "Local & professional services",
-    "tags": [
-      "elevator maintenance",
-      "licensed trade",
-      "legally mandated inspection",
-      "high-rise contracts"
-    ],
-    "cost": "High (requires real licensing and training, typically working under a certified program first)",
-    "found": "Jack Harrison Explains",
-    "what": "Get licensed and trained in elevator maintenance (typically working under an existing certified program before signing your own contracts), then hold annual maintenance contracts required by law in every state; a small building's contract runs $3,500-5,000/year while a commercial high-rise can run $12,000-20,000/month.",
-    "pitch": "The presenter is explicit this isn't a weekend side hustle given the real licensing barrier, but frames that barrier as exactly why existing operators have waiting lists instead of marketing budgets, citing Massachusetts fining $100/day for an elevator operating without its required inspection.",
-    "best": "Someone willing to invest real time in licensing/certification for a genuine skilled trade with a high barrier to entry but correspondingly high contract values.",
-    "truth": "Mandatory elevator inspection/maintenance laws are real and codified, and the cited Massachusetts penalty reflects genuine regulatory enforcement. This is one of the higher-barrier items on the list, which the presenter states upfront rather than glossing over.",
-    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
-    "published": "2026-07-23"
-  },
-  {
     "id": "scaffolding-rental-contractors",
     "name": "Renting scaffolding to general contractors, painters, and restoration crews",
     "category": "Local & professional services",
@@ -3559,25 +3355,6 @@
       "Phone/sales-based"
     ],
     "published": "2026-08-14"
-  },
-  {
-    "id": "vending-machine-route-business",
-    "name": "Building a vending machine route across offices, gyms, and factories",
-    "category": "Local & professional services",
-    "tags": [
-      "vending machines",
-      "passive location income",
-      "restocking route",
-      "boring business"
-    ],
-    "cost": "Moderate (cost per modern card-reader vending machine, plus initial product inventory)",
-    "found": "David Explains Money",
-    "what": "Place modern, card-reading, phone-monitorable vending machines in offices, gyms, and factories, generating $300-1,000/month profit per well-placed machine; scale by adding machines across many locations and eventually hiring a contracted restocking route so you personally never have to visit each machine.",
-    "pitch": "The presenter cites an operator in Sydney with 50 machines who reportedly hasn't personally touched a single one in years due to a contracted restocking route, framing the real product as location access, not the vending machine itself.",
-    "best": "Someone able to negotiate placement agreements with location owners and willing to manage (or eventually delegate) a restocking route.",
-    "truth": "Vending machine routes are a real, long-established micro-business, and negotiating good locations genuinely matters more than the product sold, which matches common industry knowledge. The specific 50-machine example is one presenter-cited case from industry reports, not independently verified, and finding good locations takes real ongoing sales effort.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "published": "2026-06-30"
   },
   {
     "id": "jellyball-bubble-tea-pearl-wholesale",
@@ -3707,30 +3484,6 @@
     "published": "2026-08-23"
   },
   {
-    "id": "commercial-dock-door-equipment-service",
-    "name": "Commercial dock and door equipment service",
-    "category": "Local & professional services",
-    "tags": [
-      "skilled trade",
-      "service business",
-      "recurring revenue",
-      "warehouse"
-    ],
-    "cost": "Moderate to high startup cost (specialized tools, van)",
-    "found": "Johnny & Sergio",
-    "what": "Repair and maintain the dock levelers, roll-up doors, and dock seals that every warehouse and distribution center relies on to load and unload trucks, and sign accounts to quarterly preventive-maintenance contracts.",
-    "pitch": "When a loading bay breaks, a warehouse can't load or unload trucks, so operators will pay premium rates for same-day emergency repair on top of standard preventive-maintenance contracts. The presenters point to the ongoing warehouse and e-commerce boom as a structural tailwind that keeps this market growing every year.",
-    "best": "Someone with real electrical and hydraulic know-how, since this is effectively a skilled trade working with motors, sensors, and safety systems, not a business you can outsource entirely from day one.",
-    "truth": "The presenters rank this in the middle of their list specifically because of the technical skill and safety risk involved, since it's your hands doing the diagnosing and fixing unless you eventually buy your way into an existing operation. They're clear this isn't a laptop business.",
-    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Needs a truck or cargo vehicle"
-    ],
-    "published": "2026-08-14"
-  },
-  {
     "id": "tree-swing-installation-social-referral-service",
     "name": "Offering tree swing installation as a add-on service, growing through local Facebook community page endorsements",
     "category": "Local & professional services",
@@ -3847,29 +3600,6 @@
       "Needs inventory storage"
     ],
     "published": "2026-08-13"
-  },
-  {
-    "id": "mobile-phlebotomy-contract-work",
-    "name": "Mobile phlebotomy contract work",
-    "category": "Local & professional services",
-    "tags": [
-      "phlebotomy",
-      "mobile blood draw",
-      "medical gig work",
-      "healthcare side hustle"
-    ],
-    "cost": "Requires phlebotomy certification (moderate time/cost investment, but described as far less than most medical training paths)",
-    "found": "Diamond Chanel",
-    "what": "Work as a certified mobile phlebotomist, traveling to offices, events, or homes to draw blood for medical purposes (routine testing, cancer screening events, etc.), contracting with companies that need on-site blood draw services rather than working in a fixed clinical setting.",
-    "pitch": "A presenter reports making $600 in under 4 hours of work on back-to-back days, eventually quitting two other jobs to do this full-time, and describes getting paid $85/hour plus a $6 reimbursement per patient for an event-based cancer-screening blood draw project, with supply costs under $3 per patient.",
-    "best": "Someone willing to get phlebotomy certification first, comfortable with medical/clinical work, and looking for a healthcare-adjacent gig with notably higher hourly pay than typical gig work.",
-    "truth": "The pay rate described ($85/hour) is genuinely high for this kind of work, and unlike most items on this list, it requires real certification and skill, which raises the barrier to entry but also the pay ceiling. This isn't a same-day-start hustle \u2014 expect to invest time and some money in certification before earning anything.",
-    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
-    "situation_tags": [
-      "Local travel required",
-      "Requires a license or certification"
-    ],
-    "published": "2026-08-10"
   },
   {
     "id": "private-atm-network-business",
@@ -4149,29 +3879,6 @@
     "published": "2025-09-12"
   },
   {
-    "id": "equipment-rental-business",
-    "name": "Equipment rental business",
-    "category": "Local & professional services",
-    "tags": [
-      "physical business",
-      "needs US presence",
-      "needs significant capital"
-    ],
-    "cost": "Often $50,000 to $100,000 or more per piece of equipment",
-    "found": "David Heacock",
-    "what": "Buy commercial or industrial equipment, like compressors, and rent it out to businesses that need it temporarily rather than owning it themselves.",
-    "pitch": "Presented as tax-efficient, since equipment can typically be fully depreciated, alongside steady rental income.",
-    "best": "Someone with real capital to deploy and existing relationships or knowledge in a specific trade or industry.",
-    "truth": "Grounded in the presenter's own real business experience with equipment needs, which lends some credibility. This requires meaningful capital and local delivery logistics, not a low-cost entry point.",
-    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Needs a truck or cargo vehicle"
-    ],
-    "published": "2026-06-19"
-  },
-  {
     "id": "floor-mat-uniform-exchange-route",
     "name": "Running a floor mat and work uniform exchange route for offices and restaurants",
     "category": "Local & professional services",
@@ -4225,25 +3932,6 @@
     "truth": "Firewood processing and retail bundling is a real, established seasonal business, and the University Extension cost breakdown cited gives genuine third-party grounding to the margin figures. This is explicitly seasonal (winter-concentrated) income, which the video is upfront about.",
     "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
     "published": "2026-09-07"
-  },
-  {
-    "id": "spider-mini-crane-indoor-hoisting",
-    "name": "Offering hydraulic spider mini crane hoisting for tight indoor and delicate job sites",
-    "category": "Local & professional services",
-    "tags": [
-      "construction equipment rental",
-      "spider crane",
-      "indoor hoisting",
-      "specialized niche service"
-    ],
-    "cost": "Moderate ($2,000-5,000 used or from equipment importers)",
-    "found": "HIDDEN WEALTH",
-    "what": "Operate a hydraulic spider mini crane (wide folding outrigger legs, electric-powered, narrow enough to fit through standard double doors) to hoist 1-3 tons with precision in tight, uneven, or indoor spaces where standard industrial cranes can't fit or aren't allowed due to exhaust fumes.",
-    "pitch": "Specialized operators charge $400-800/day, targeting commercial HVAC crews hoisting chillers in tight mechanical rooms, glass installers on urban sites, historical building remodelers, and industrial mechanics \u2014 a niche standard crane rental companies won't even quote for small indoor jobs, giving the operator pricing leverage.",
-    "best": "Someone comfortable with precision equipment operation in tight, high-stakes environments (indoor spaces, fragile historic buildings).",
-    "truth": "This is a real, genuinely low-competition niche within crane rental since major rental companies don't serve small indoor jobs. Day-rate figures are general industry framing, not a personal verified case study.",
-    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM",
-    "published": "2026-08-24"
   },
   {
     "id": "online-services-skill-pyramid-roadmap",
@@ -5917,25 +5605,6 @@
     "published": "2026-06-03"
   },
   {
-    "id": "recurring-pest-control-contracts",
-    "name": "Running a pest control business built on automatically-renewing monthly maintenance contracts",
-    "category": "Local & professional services",
-    "tags": [
-      "pest control",
-      "recurring contracts",
-      "compliance-driven demand",
-      "boring business"
-    ],
-    "cost": "Moderate (licensing, chemicals/equipment vary by jurisdiction)",
-    "found": "David Explains Money",
-    "what": "Offer pest control services to restaurants, buildings, and homes via monthly maintenance contracts that renew automatically, positioned as risk-mitigation (avoiding health-inspection failures) rather than a one-time service, giving the business negotiating leverage since the client urgently needs the service rather than needing to be sold on it.",
-    "pitch": "The presenter cites the global pest control market at $22.64 billion (2023), projected to reach $34.3 billion by 2030 per Grand View Research, emphasizing that once a monthly contract is signed it tends to self-renew because no business wants to risk a health-code violation.",
-    "best": "Someone willing to obtain the relevant pest-control licensing in their jurisdiction and build relationships with restaurants and commercial properties.",
-    "truth": "Pest control is a real, well-established, licensed trade with genuine recurring-contract demand, particularly from restaurants and food-service businesses facing health-code risk. Licensing requirements are a real barrier not detailed in this segment and vary significantly by location.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "published": "2026-06-30"
-  },
-  {
     "id": "mobile-coffee-cart-business",
     "name": "Mobile coffee cart business",
     "category": "Local & professional services",
@@ -6003,24 +5672,6 @@
     "published": "2026-08-10"
   },
   {
-    "id": "portable-generator-jobsite-power-rental",
-    "name": "Renting portable power generators to job sites experiencing power outages",
-    "category": "Local & professional services",
-    "tags": [
-      "construction equipment rental",
-      "portable generators",
-      "jobsite power backup"
-    ],
-    "cost": "Very low ($350-700 per entry-level commercial generator)",
-    "found": "HIDDEN WEALTH",
-    "what": "Buy portable gas or diesel generators and rent them to subcontractors on active construction sites experiencing power problems (new developments without utility hookup yet, older flip houses with breakers that trip from heavy tool use), providing surge-protected power for tools and lighting.",
-    "pitch": "Rents for $50-80/day per unit, targeting remote framing crews, night-shift interior finishing crews, outdoor event setup crews, and mobile repair vans; once a builder knows you have reliable backup power on short notice, they call for every off-grid site.",
-    "best": "Someone with capital for a few generator units and willing to be on-call for short-notice deliveries to active job sites.",
-    "truth": "Portable generator rental to solve a real, common construction-site problem (power outages/inadequate temporary power) is a real, established service. Day-rate figures are general industry pricing.",
-    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM",
-    "published": "2026-08-24"
-  },
-  {
     "id": "ebay-niche-reselling-account-warming",
     "name": "eBay niche reselling with the account-warming strategy",
     "category": "E-commerce",
@@ -6038,24 +5689,6 @@
     "truth": "The eBay revenue figures ($2.7 billion in Q2 2025, up 6% year over year) are a real, checkable company-level statistic, a good sign. The Kai Towers case study ($400 to $317,000 in a year) is presented as a real individual's result but without account screenshots or independent verification, so it's a strong but unaudited claim. Worth knowing: this video is structured as a promotional funnel, each case study featured is a paid video series inside the presenter's own course platform, so there's a financial incentive to make each result sound as replicable as possible.",
     "url": "https://www.youtube.com/watch?v=6zb99U-_43M&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=5",
     "published": "2025-12-19"
-  },
-  {
-    "id": "specialty-recycling-waste-to-value-route",
-    "name": "Running a focused specialty recycling route, paid by both the material generator and the downstream buyer",
-    "category": "Local & professional services",
-    "tags": [
-      "specialty recycling",
-      "waste-to-value arbitrage",
-      "scrap metal/e-waste collection"
-    ],
-    "cost": "Moderate ($10,000-30,000 for a single truck and totes, focused on one specialty material)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Pick one clean specialty material (scrap metal, electronic waste, or a specific plastic \u2014 not general trash) that big haulers ignore, collect it for a fee from generators like print shops, small factories, and auto shops, then resell the sorted/baled output to a downstream buyer, getting paid on both ends; lock recurring contracts rather than one-off pickups, and enforce a contamination rule at the source to avoid rejected loads.",
-    "pitch": "The video frames this as the best item on the whole list, capable of bringing in $3,000-20,000/month, citing collection-operation margins of 20-30% (and specialized industrial routes reaching 35-40%+), and notes some established recycling route businesses sell for 4-6 times yearly earnings because buyers value the durable recurring cash flow.",
-    "best": "Someone willing to specialize in one clean material stream and build recurring B2B relationships, rather than trying to collect general mixed waste.",
-    "truth": "Specialty recycling arbitrage is a real, established business model, and the acquisition-multiple claim (routes selling for 4-6x earnings) reflects genuine buyer interest in recurring-revenue service businesses. The presenter is explicit about the real failure mode (a contaminated load getting rejected by the buyer) and its practical fixes, adding credibility over a purely rosy pitch.",
-    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
-    "published": "2026-09-07"
   },
   {
     "id": "youtube-adsense-educational-tutorial-channel",
@@ -6101,25 +5734,6 @@
     "published": "2026-06-19"
   },
   {
-    "id": "medical-equipment-rental-business",
-    "name": "Renting medical equipment (wheelchairs, hospital beds, oxygen concentrators) with Medicare covering most of the bill",
-    "category": "Local & professional services",
-    "tags": [
-      "medical equipment rental",
-      "Medicare reimbursement",
-      "durable medical equipment",
-      "post-surgery recovery"
-    ],
-    "cost": "Moderate to high (equipment plus accredited medical equipment supplier licensing/paperwork)",
-    "found": "Jack Harrison Explains",
-    "what": "Become an accredited medical equipment supplier and rent out wheelchairs, hospital beds, and oxygen concentrators to patients discharged after surgery who need equipment temporarily (e.g., a hospital bed for 6 weeks of recovery) rather than buying it outright; clean and re-inspect equipment between rentals so it can go out repeatedly.",
-    "pitch": "Rents for $200-800/month, and in many cases Medicare pays 80% of that bill directly, meaning the presenter frames the real customer as a government payer that reliably pays on schedule rather than a stressed family managing medical bills themselves.",
-    "best": "Someone willing to complete accredited medical equipment supplier licensing and manage equipment cleaning/inspection between rentals.",
-    "truth": "Medicare's durable medical equipment rental coverage is a real, well-documented reimbursement pathway, and the licensing requirement described is accurate. No specific personal case study or revenue figures beyond the general rental-rate range are given.",
-    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
-    "published": "2026-07-23"
-  },
-  {
     "id": "decorative-dumbbells-home-fitness-decor",
     "name": "Decorative dumbbell business for design-conscious home gyms",
     "category": "Physical & print products",
@@ -6157,25 +5771,6 @@
     "truth": "Small-batch spice packaging and reselling is a real, low-barrier micro-business in many markets, and the packaging-as-differentiator insight is sound. No specific revenue example is given; margins depend heavily on local spice sourcing costs and competition.",
     "url": "https://www.youtube.com/watch?v=mKFNXLik1ro",
     "published": "2026-06-03"
-  },
-  {
-    "id": "coin-laundromat-ownership",
-    "name": "Owning and operating a coin laundromat, including ancillary vending/ATM/Wi-Fi revenue",
-    "category": "Local & professional services",
-    "tags": [
-      "laundromat",
-      "passive location business",
-      "ancillary revenue",
-      "boring business"
-    ],
-    "cost": "High (purchasing or leasing a location and commercial laundry equipment)",
-    "found": "David Explains Money",
-    "what": "Own and operate a coin laundromat, with revenue coming not just from the washing/drying machines but from ancillary offerings at the same location, vending machines, ATMs, and free Wi-Fi that keeps customers waiting inside longer, effectively running several small businesses under one roof.",
-    "pitch": "The presenter cites the US laundromat industry generating approximately $6.8 billion/year, average revenue of $150,000/location, net margins up to 35%, and a notably high 95% five-year survival rate compared to restaurants, citing IBISWorld and 2025-2026 industry reports.",
-    "best": "Someone with significant capital for equipment and location costs, comfortable with a longer-term, lower-touch operating model.",
-    "truth": "Laundromats are a genuinely well-studied, stable small-business category with real, cited industry data on revenue and survival rates, and the ancillary-revenue-stacking observation (vending, ATMs, Wi-Fi) reflects how many real laundromats actually operate. This requires substantial upfront capital not detailed here, and is a higher-barrier entry than most other items on this list.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "published": "2026-06-30"
   },
   {
     "id": "garage-bin-shelving-custom-wood",
@@ -6706,25 +6301,6 @@
     "truth": "The \"clean, small-batch, transparent ingredients\" positioning is a genuine and proven differentiator against mass-produced nut butter, and tasting-based sales are a well-established conversion tactic for food products at markets. Nut products carry real allergen liability, so accurate labeling and safe handling (cross-contamination control) matter more here than for most items on this list.",
     "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s",
     "published": "2025-09-12"
-  },
-  {
-    "id": "heavy-equipment-tool-rental-business",
-    "name": "Renting out heavy equipment and specialized tools to contractors and homeowners",
-    "category": "Local & professional services",
-    "tags": [
-      "equipment rental",
-      "tool rental",
-      "contractor services",
-      "boring business"
-    ],
-    "cost": "High (purchasing industrial equipment upfront to rent out repeatedly)",
-    "found": "David Explains Money",
-    "what": "Buy expensive equipment (industrial mowers, scaffolding, professional-grade saws) once and rent it out repeatedly to homeowners and, more importantly, small contractors who prefer renting specialized equipment for short projects over buying and storing/maintaining it themselves.",
-    "pitch": "The presenter frames the economics as the same logic as portable restroom rental: absorb the cost of an expensive asset once, then charge dozens of different users for short-term access, with everything after the equipment pays for itself becoming profit.",
-    "best": "Someone with capital to invest in equipment inventory and space to store it between rentals.",
-    "truth": "Equipment rental to contractors is a real, established B2B business model, and the underlying economics (single capital outlay, repeated rental income) are sound and widely used across the equipment-rental industry. No specific revenue example or figures are given for this particular business in the video.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "published": "2026-06-30"
   },
   {
     "id": "ppc-affiliate-arbitrage",
@@ -7511,26 +7087,6 @@
     "published": "2025-12-19"
   },
   {
-    "id": "lawn-leveling-service",
-    "name": "Offering lawn leveling as a standalone service distinct from mowing or landscaping",
-    "category": "Local & professional services",
-    "tags": [
-      "lawn care",
-      "lawn leveling",
-      "home services",
-      "low competition niche",
-      "yard maintenance"
-    ],
-    "cost": "Very low to start (hand tools, a shovel and wheelbarrow, for early jobs; heavier equipment only needed once scaling to multiple daily jobs)",
-    "found": "Austin Zaback",
-    "what": "Top-dress lawns with a sand-and-compost mix to smooth out low spots and bumps until the yard is flat, marketed as a distinct service from standard mowing or landscaping, targeting homeowners, especially in newer-construction neighborhoods with poorly graded yards.",
-    "pitch": "The presenter cites Brandon McLauren, who started during the pandemic after noticing the effect on his own yard, did his first $600 job with just a shovel and wheelbarrow, and scaled to about $500,000/year in lawn leveling alone, doubling revenue year over year for four years, in a home market with only two other companies offering the service.",
-    "best": "Someone willing to do physically demanding manual labor initially, in a market with new-construction housing growth and little existing lawn-leveling competition.",
-    "truth": "The broader lawn care market is large and well-established, and top-dressing/leveling is a genuine, recognized landscaping technique, the presenter's framing of it as an underserved standalone niche is plausible given how few dedicated providers he cites. The specific $500K/year figure is one individual's self-reported result, and this business still requires physical labor and correctly assessing whether a local market has the underserved demand the presenter describes.",
-    "url": "https://www.youtube.com/watch?v=akllDPkT07I",
-    "published": "2026-07-09"
-  },
-  {
     "id": "glass-bottle-upcycle-tumblers-vases",
     "name": "Upcycled glass bottle tumbler and decor business",
     "category": "Physical & print products",
@@ -7645,30 +7201,6 @@
     "published": "2026-09-06"
   },
   {
-    "id": "non-emergency-medical-transportation",
-    "name": "Non-emergency medical transportation (NEMT) service",
-    "category": "Local & professional services",
-    "tags": [
-      "healthcare",
-      "recurring revenue",
-      "insurance billing",
-      "logistics"
-    ],
-    "cost": "Low to moderate startup cost",
-    "found": "Johnny & Sergio",
-    "what": "Coordinate rides for patients who need regular transportation to dialysis, chemotherapy, or other medical appointments and can't drive themselves, billing the ride to Medicaid or insurance rather than charging the patient directly, while independent drivers with their own vehicles do the actual driving.",
-    "pitch": "Because rides bill through insurance rather than a rideshare-style flat rate, the presenters say pricing runs meaningfully higher than a service like Uber, and recurring patients, such as someone needing dialysis three times a week for years, create some of the stickiest repeat revenue on their whole list. Once a patient and their case manager trust a driver, the presenters argue they're unlikely to go looking for a new one.",
-    "best": "Someone with patience for paperwork and a willingness to navigate Medicaid and managed-care billing, plus the operational discipline to vet and manage independent drivers as the actual face of the service.",
-    "truth": "The presenters are direct that getting set up to bill Medicaid and insurance is genuinely slow and paperwork-heavy, and that payment itself can take a while to come through, real friction points they don't gloss over. They also flag that driver reliability is the whole product here, since patients are trusting the driver, not the company brand.",
-    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
-    "situation_tags": [
-      "Local travel required",
-      "Requires hiring or managing others",
-      "Requires a license or certification"
-    ],
-    "published": "2026-08-14"
-  },
-  {
     "id": "garage-door-spring-repair-niche-referral-leadgen",
     "name": "Building a niche website around 'garage door spring repair' specifically, then referring leads to a garage door company for a cut",
     "category": "Local & professional services",
@@ -7704,45 +7236,6 @@
     "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
   },
   {
-    "id": "boat-detailing-service",
-    "name": "Mobile boat detailing and ceramic coating service",
-    "category": "Local & professional services",
-    "tags": [
-      "boat detailing",
-      "mobile service business",
-      "ceramic coating",
-      "marine care",
-      "recurring revenue"
-    ],
-    "cost": "Low to start (a buffer and detailing compound for early jobs; a trailer setup for equipment as you scale)",
-    "found": "Austin Zaback",
-    "what": "Offer mobile boat washing, oxidation buffing, and gel-coat restoration/ceramic coating services, traveling to marinas or driveways rather than requiring a shop, targeting boat owners who need regular upkeep against sun and salt exposure.",
-    "pitch": "The presenter cites Drake Roberts of Revival Marine Care in Pensacola, Florida, who documents detail jobs worth up to about $5,000 for full restoration and ceramic coating on larger boats. Pricing runs $10-$20/foot for a basic detail and $20-$45/foot for a full restoration, with ceramic coating packages running $3,500-$8,000; the market is valued at over $2.1 billion with most operators being small/independent businesses rather than big chains.",
-    "best": "Someone comfortable with physical detailing work and mobile/on-location service delivery, ideally near a marina or boating community.",
-    "truth": "The recurring-revenue logic (boats are exposed to sun and salt and need regular upkeep) is sound, and the market-size and operator-composition figures are cited from third-party market data rather than the presenter's own claim, which adds some credibility. The individual job-value example ($5,000) represents a premium full-restoration job, not a typical basic detail, so real per-job economics for a beginner will likely start considerably lower.",
-    "url": "https://www.youtube.com/watch?v=akllDPkT07I",
-    "published": "2026-07-09"
-  },
-  {
-    "id": "party-rental-delivery-service",
-    "name": "Renting out party equipment (chairs, tables, bounce houses) with delivery",
-    "category": "Local & professional services",
-    "tags": [
-      "party rental business",
-      "event equipment",
-      "bounce house rental",
-      "delivery service"
-    ],
-    "cost": "Moderate (purchasing chairs, tables, and/or a bounce house as rentable inventory)",
-    "found": "Diamond Chanel",
-    "what": "Buy party equipment (folding chairs, tables, bounce houses) and rent it out for events, delivering and picking up the items yourself or hiring someone else to handle delivery/logistics.",
-    "pitch": "The presenter shows real footage of a delivery run (40 chairs, 5 tables, earning $120 and $100 on two separate deliveries) and describes renting a bounce house for her own event for $100-150, rating the idea 3/5 for ease (requires promotion and client-finding) and 4/5 for speed to first dollar.",
-    "best": "Someone with storage space for equipment and a vehicle for delivery, or capital to hire delivery help, willing to market locally for event bookings.",
-    "truth": "Party equipment rental is a real, established local service business with genuine demand around weddings, birthdays, and holidays, and the footage shown depicts real, specific delivery jobs rather than a vague pitch. This requires meaningful upfront capital for equipment and ongoing local marketing to find bookings.",
-    "url": "https://www.youtube.com/watch?v=p5INpPh3ApY",
-    "published": "2026-07-18"
-  },
-  {
     "id": "printer-cartridge-ewaste-broker-route",
     "name": "Collecting discarded printer cartridges and old electronics from local offices and reselling to an e-waste buyback broker",
     "category": "Local & professional services",
@@ -7758,23 +7251,6 @@
     "best": "Someone willing to build simple local collection relationships with small offices, disciplined enough to confirm buyer pricing before collecting volume.",
     "truth": "E-waste and cartridge buyback brokers are a real, established recycling channel. No specific personal revenue figures are given for this particular business.",
     "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
-  },
-  {
-    "id": "pressure-washer-exterior-cleaning-service",
-    "name": "Starting a residential and commercial exterior pressure washing service, focused on one or two specific packages",
-    "category": "Local & professional services",
-    "tags": [
-      "pressure washing",
-      "exterior cleaning service",
-      "recurring commercial contracts"
-    ],
-    "cost": "Very low ($140-230 for a compact 110V machine; stronger commercial units cost more)",
-    "found": "Business Dash",
-    "what": "Buy a pressure washer and offer exterior cleaning for driveways, sidewalks, patios, fences, decks, pool areas, storefronts, garage floors, and exterior walls, keeping the machine at home and traveling to booked jobs. Start narrow with one or two specific service packages (e.g. a driveway-and-patio package) rather than marketing 'we clean everything,' since a focused offer is easier to sell. Build a second, recurring revenue stream with commercial clients (stores, restaurants, apartment properties) who need outdoor areas cleaned repeatedly rather than once.",
-    "pitch": "The presenter emphasizes the visual before/after result as free, self-generating marketing material for local social media and neighborhood groups, since a blackened concrete surface becoming clean is easy to understand even with the sound off.",
-    "best": "Someone comfortable with physical outdoor work and willing to start narrow with a specific service package before expanding.",
-    "truth": "Pressure washing equipment and pricing ranges cited are real and current. No personal revenue figures are given for this specific business.",
-    "url": "https://www.youtube.com/watch?v=gcL3lipetCE"
   },
   {
     "id": "outcome-based-ai-strategy-consulting-reframe",
@@ -7941,24 +7417,6 @@
     "best": "Someone near golf courses willing to negotiate access/retrieval arrangements and handle cleaning and grading balls by condition.",
     "truth": "Golf ball recovery and resale is a real, established niche resale business. No specific personal revenue figures are given for this particular business.",
     "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
-  },
-  {
-    "id": "electric-mini-forklift-warehouse-service",
-    "name": "Offering battery-powered mini forklift material-handling services to small warehouses",
-    "category": "Local & professional services",
-    "tags": [
-      "electric mini forklift",
-      "warehouse material handling",
-      "small business logistics"
-    ],
-    "cost": "Moderate ($1,500-5,000 depending on lift height and load capacity)",
-    "found": "HIDDEN WEALTH",
-    "what": "Operate a battery-powered electric mini forklift (zero exhaust emissions, tight turning radius, 1-2 ton lift capacity) to help small e-commerce warehouses, fulfillment hubs, and fabrication shops move palletized goods and unload trucks, without them needing to buy their own equipment or deal with gas-forklift fumes indoors.",
-    "pitch": "Rents/charges $100-250/day, targeting growing e-commerce warehouses during inventory spikes, small machine shops moving raw metal, and indoor contractors working inside closed retail spaces where exhaust emissions aren't allowed.",
-    "best": "Someone with capital for the equipment, willing to offer short-term material-handling help to small operations that can't justify owning a full-size forklift.",
-    "truth": "Electric mini forklifts serving small warehouses/fabrication shops that lack space or budget for full-size equipment is a real, genuine niche. Day-rate figures are general industry pricing.",
-    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM",
-    "published": "2026-08-24"
   },
   {
     "id": "branded-dropshipping-trust-positioning",
@@ -8740,23 +8198,6 @@
     "published": "2025-12-19"
   },
   {
-    "id": "catalytic-converter-scrap-collection-route",
-    "name": "Building a route collecting catalytic converters from mechanics and exhaust shops, reselling to a specialized precious-metal recycler",
-    "category": "Local & professional services",
-    "tags": [
-      "catalytic converter scrap",
-      "precious metal recycling",
-      "scrap collection route"
-    ],
-    "cost": "Moderate ($1,000-5,000 in float money to buy converters before reselling)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Collect old catalytic converters (valued for the platinum, palladium, and rhodium sealed inside) from scrapyards, mechanics, and exhaust shops who see them as waste, paying cash on the spot, then resell to a specialized recycler with an active cash-for-converters program (the presenter names Industrial Metals) who already has buyer relationships for the extracted metals. Confirm the refiner's price sheet by converter model before buying, since not every converter is worth the same and guessing wrong is how money gets lost. Check state/city regulations before starting, since scrap and converter buying is more regulated than the other routes on this list.",
-    "pitch": "The presenter frames this as paying meaningfully more per item than any of the earlier low-dollar routes, since a single converter can be worth what a whole bin of cartridges is worth, with the spread coming from knowing which converter models carry the richest metal loads.",
-    "best": "Someone with float money to buy inventory before reselling, willing to research state/local regulations and build relationships with a handful of local repair shops.",
-    "truth": "Catalytic converter recycling for precious metal content is a real, established (and increasingly regulated) scrap business, and the presenter's explicit regulatory caution is accurate and responsible guidance rather than glossing over a real legal consideration.",
-    "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
-  },
-  {
     "id": "co2-laser-engraving-b2b-consumer-dual-market",
     "name": "Running a CO2 laser engraving business split between consumer gifts and recurring B2B signage orders",
     "category": "Physical & print products",
@@ -8833,24 +8274,6 @@
     "published": "2026-06-19"
   },
   {
-    "id": "solar-panel-cleaning-contract-service",
-    "name": "Running a scheduled solar panel cleaning service for commercial rooftops and small solar farms",
-    "category": "Local & professional services",
-    "tags": [
-      "solar panel cleaning",
-      "commercial rooftop maintenance",
-      "growing maintenance niche"
-    ],
-    "cost": "Moderate (leasing or buying cleaning robots/equipment, not manufacturing them)",
-    "found": "Jack Harrison Explains",
-    "what": "Lease or buy solar panel cleaning equipment (not build it yourself, which the presenter notes is a far more expensive manufacturing business) and run scheduled cleaning contracts across commercial rooftops and small solar farms, since dust and pollen buildup cuts electricity output by 4-8%, representing real lost revenue for panel owners.",
-    "pitch": "The presenter frames this as an emerging niche where solar capacity is growing faster than the maintenance industry serving it, meaning an early operator in most cities is effectively founding the local market rather than entering an already-crowded one.",
-    "best": "Someone willing to lease/operate cleaning equipment and build recurring maintenance contracts with commercial solar panel owners.",
-    "truth": "Solar panel output degradation from dust/pollen buildup is a real, documented phenomenon, and the growing-capacity-outpacing-maintenance argument is a reasonable, current market observation. No specific personal case study or revenue figures are given.",
-    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
-    "published": "2026-07-23"
-  },
-  {
     "id": "ghost-kitchen-doordash-home-food-business",
     "name": "Running a home-based ghost kitchen food business listed on DoorDash",
     "category": "Local & professional services",
@@ -8868,25 +8291,6 @@
     "truth": "Home-based ghost kitchens listed on delivery apps are a real, growing category, and the video is upfront about the real regulatory requirement (food handler's permit or cottage food law compliance) that varies significantly by state rather than glossing over it. The cited example's viral success is one specific case, not a typical outcome, and building enough visibility for consistent orders takes real marketing effort beyond just listing on DoorDash.",
     "url": "https://www.youtube.com/watch?v=p5INpPh3ApY",
     "published": "2026-07-18"
-  },
-  {
-    "id": "parking-lot-ownership-business",
-    "name": "Owning and operating parking lots in high-demand business districts",
-    "category": "Local & professional services",
-    "tags": [
-      "parking lot business",
-      "passive location income",
-      "real estate income",
-      "boring business"
-    ],
-    "cost": "Very high (purchasing or leasing land in a high-demand commercial area)",
-    "found": "David Explains Money",
-    "what": "Own or operate parking lots in high-demand commercial districts, generating income purely from location rather than any product, service, or customer interaction; an operator managing several small lots can generate substantial passive income since the business competes only on location, not marketing, innovation, or customer service.",
-    "pitch": "The presenter cites a well-located lot generating $10,000-30,000/month with minimal operating costs, and an operator with five small lots bringing in roughly $600,000/year, framing this as one of the most purely passive businesses on the list precisely because it's considered too boring for most people to consider.",
-    "best": "Someone with substantial capital to acquire or lease land in a high-demand area; the highest capital barrier on this list.",
-    "truth": "Parking lot ownership in high-demand areas is a real, genuinely low-operational-complexity business once acquired, and the location-based competitive moat described is sound real-estate logic. This requires very substantial upfront capital not detailed here, making it inaccessible to most beginners despite the low ongoing operational effort.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "published": "2026-06-30"
   },
   {
     "id": "storage-unit-auction-flip-multichannel-resale",
@@ -9200,41 +8604,6 @@
     "published": "2026-07-30"
   },
   {
-    "id": "braided-rope-manufacturing-niche-markets",
-    "name": "Manufacturing braided rope for both industrial buyers and the higher-margin home decor/craft market",
-    "category": "Physical & print products",
-    "tags": [
-      "rope manufacturing",
-      "braided rope machine",
-      "industrial and craft dual market"
-    ],
-    "cost": "High ($6,000 for the machine)",
-    "found": "SUCCESSFUL ENTREPRENEUR",
-    "what": "Buy a braiding machine (braids 3, 4, or 6 strands simultaneously, producing rope from 3mm cord to 60mm mooring rope by changing configuration) and sell into two distinct markets with the same equipment: industrial/utility buyers (construction, agriculture, fishing, moving/trucking companies, gyms) who buy by the kilogram and compare on price, and the home decor/craft market (colored cotton rope for macrame, plant hangers, woven furniture) sold to artisans and craft stores at considerably higher margins.",
-    "pitch": "The presenter frames the craft/decor market as the more profitable of the two, since those buyers aren't comparing prices down to the penny the way industrial bulk buyers do, while both markets represent businesses that structurally can't operate without rope, not one-time impulse customers.",
-    "best": "Someone willing to serve both a price-sensitive industrial market and a higher-margin craft/decor market with the same core equipment.",
-    "truth": "Braided rope manufacturing is a real, established industrial process, and the industrial-vs-craft margin distinction described is sound, plausible market segmentation. No specific revenue figures given.",
-    "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ"
-  },
-  {
-    "id": "paper-bag-machine-plastic-ban-regulatory-demand",
-    "name": "Manufacturing paper bags for businesses legally required to stop using plastic, with branded printing as the margin upgrade",
-    "category": "Physical & print products",
-    "tags": [
-      "paper bag manufacturing",
-      "plastic bag ban",
-      "regulatory-driven demand",
-      "branded packaging"
-    ],
-    "cost": "Low (compact paper bag machines suit home-workshop-scale production; paper costs are low in bulk)",
-    "found": "Business Cortex",
-    "what": "Buy a compact paper bag making machine (cuts, folds, and glues paper into finished bags from a roll, suitable for small production runs) and sell to businesses in the hundreds of cities and dozens of countries where plastic bag bans now legally require an alternative: bakeries, clothing boutiques, pharmacies, takeaway restaurants, grocery stores, gift shops, and market vendors. Offer printed, branded bags (a bakery or boutique wanting its logo on every bag customers carry out) at a significantly higher margin than plain bags, since businesses reorder monthly without needing to be re-sold on the idea.",
-    "pitch": "The presenter frames plastic bag bans as a single regulatory shift that created massive, ongoing, non-optional demand, arguing that unlike most products, demand here doesn't fluctuate since every retail transaction involving a bag creates consumption, and branding turns what would otherwise be a low-margin commodity into a custom, repeat-order product.",
-    "best": "Someone comfortable starting at home-workshop scale and building recurring monthly relationships with local retail businesses.",
-    "truth": "Plastic bag bans spreading across many jurisdictions over the past decade are a real, verifiable regulatory trend, and paper bag manufacturing equipment for small-scale production is real. No specific personal revenue figures are given for this particular business idea.",
-    "url": "https://www.youtube.com/watch?v=KQV5sM1n_Y0"
-  },
-  {
     "id": "certified-loan-signing-agent-remote-notarization",
     "name": "Becoming a certified loan signing agent (not just a general notary), building direct relationships with title companies rather than relying on assignment platforms",
     "category": "Local & professional services",
@@ -9251,24 +8620,6 @@
     "best": "Someone detail-oriented and comfortable with precision paperwork, willing to build direct relationships with title companies rather than depending entirely on assignment platforms.",
     "truth": "The cited income figures come from named third-party sources (Glassdoor, Loan Signing System) rather than the presenter's own unverified claim, and remote online notarization as a growing 2026 opportunity is a real, current development. The presenter is upfront that not everyone reaches six-figure income and that building a full appointment volume takes real time.",
     "url": "https://www.youtube.com/watch?v=xA6oBoVyQ9I"
-  },
-  {
-    "id": "asphalt-crack-sealing-recurring-maintenance",
-    "name": "Running a recurring asphalt crack-sealing maintenance service for commercial parking lots",
-    "category": "Local & professional services",
-    "tags": [
-      "asphalt crack sealing",
-      "parking lot maintenance",
-      "recurring commercial contract"
-    ],
-    "cost": "Low ($600-1,200 for an entry-level commercial unit)",
-    "found": "HIDDEN WEALTH",
-    "what": "Use an asphalt crack-sealing machine (heats rubberized sealant to over 300\u00b0F and applies it via spray wand) to seal cracks in commercial parking lots and driveways before water/ice damage turns them into expensive potholes, then lock in recurring seasonal (typically spring) maintenance contracts with the same properties.",
-    "pitch": "Charges $5-10 per linear meter; a strip mall lot with 500 meters of cracking is a $2,500-5,000 payday for one afternoon of work, pitched to commercial property managers, logistics hub operators, and HOA boards as protection against a future $50,000 repaving bill.",
-    "best": "Someone comfortable pitching recurring maintenance contracts to property managers and HOA boards, not just one-off jobs.",
-    "truth": "Asphalt crack sealing is a real, well-established preventive-maintenance trade, and the recurring-contract framing (annual retainer with property managers) reflects how this service is genuinely often sold. Pricing figures are general industry ranges.",
-    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM",
-    "published": "2026-08-24"
   },
   {
     "id": "short-form-content-strategist-local-business",
@@ -9576,25 +8927,6 @@
     "published": "2025-06-13"
   },
   {
-    "id": "grease-trap-pumping-double-revenue",
-    "name": "Running a grease trap pumping service that gets paid by the restaurant and again by a biofuel buyer",
-    "category": "Local & professional services",
-    "tags": [
-      "grease trap pumping",
-      "biofuel resale",
-      "waste-to-value arbitrage",
-      "health code compliance"
-    ],
-    "cost": "Moderate to high (pump truck and equipment)",
-    "found": "Jack Harrison Explains",
-    "what": "Pump out commercial kitchens' underground grease traps on the health-code-mandated schedule (every 1-3 months), getting paid by the restaurant for the removal service, then resell the collected used grease to biofuel producers who turn it into renewable diesel, getting paid a second time on the same material.",
-    "pitch": "The presenter cites one waste company that documented recovering nearly 300 tons of used grease over 3 years, generating over $100,000 in rebates on top of what they were already being paid to remove it \u2014 a genuine double-revenue mechanic on the same collected material.",
-    "best": "Someone comfortable with pump-truck route work and willing to build relationships with biofuel buyers for the resale side.",
-    "truth": "Grease trap pumping is a real, health-code-mandated recurring service, and grease-to-biofuel resale is a real, established secondary market; the cited case study figures (300 tons, $100K in rebates) are attributed to one specific company, not independently verified.",
-    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
-    "published": "2026-07-23"
-  },
-  {
     "id": "ai-inbound-dm-setting-for-creators",
     "name": "Setting appointments for creator-led founders by messaging their own engaged followers (inbound DM setting), rather than cold outbound",
     "category": "Marketing & content",
@@ -9683,23 +9015,6 @@
     "best": "Someone willing to serve both agricultural bulk buyers and retail-facing branded bag customers with the same equipment.",
     "truth": "Mesh bag manufacturing is a real, established agricultural packaging process, and the plastic-bag-ban-driven reusable bag trend is a genuine, current market shift. No specific revenue figures given.",
     "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ"
-  },
-  {
-    "id": "rebar-bender-construction-supply-service",
-    "name": "Pre-bending steel rebar for small builders who don't own their own bending equipment",
-    "category": "Local & professional services",
-    "tags": [
-      "rebar bending",
-      "construction supply",
-      "B2B materials service"
-    ],
-    "cost": "Low to moderate (a compact automatic rebar bender)",
-    "found": "Business Cortex",
-    "what": "Buy a compact automatic rebar bender that shapes steel reinforcing bar into the hooks, stirrups, and angles required in concrete construction, then supply pre-bent rebar directly to builders, contractors, and construction sites. Since rebar is bought by weight but sold as prepared, ready-shaped steel, the value sits entirely in that conversion \u2014 small builders rarely own bending equipment themselves and readily buy ready-shaped steel that saves them on-site labor.",
-    "pitch": "The presenter frames hand-bending rebar as exhausting, slow, and inconsistent despite every concrete structure needing it, positioning the machine as capturing a labor-saving margin that small builders are already willing to pay for rather than doing themselves.",
-    "best": "Someone comfortable building relationships with local builders and contractors and delivering pre-shaped materials on a construction timeline.",
-    "truth": "Automatic rebar benders and pre-bent rebar supply services are real, established equipment and business types in the construction supply chain. No specific personal revenue figures are given.",
-    "url": "https://www.youtube.com/watch?v=KQV5sM1n_Y0"
   },
   {
     "id": "epoxy-garage-flooring-installation-service",
@@ -9793,23 +9108,6 @@
     "published": "2026-07-18"
   },
   {
-    "id": "certified-arborist-utility-contract-tier",
-    "name": "Earning a Certified Arborist credential to bid on the highest-paying consulting, risk-assessment, and utility line-clearance work",
-    "category": "Local & professional services",
-    "tags": [
-      "Certified Arborist",
-      "tree trimming and removal",
-      "utility line clearance contracts"
-    ],
-    "cost": "Low relative to earnings ($335-420 for the application and exam; requires ~3 years logged experience or a degree substitute)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Earn the Certified Arborist credential issued by the International Society of Arboriculture (a certification, not usually a state license) \u2014 certified arborists can legally bid on consulting, risk assessment, and utility line-clearance work that uncertified crews cannot touch, yet most tree workers never sit the exam, leaving that highest-paying tier thin. High-ticket removals ($800-3,000+ per tree) fund cash flow while the certificate unlocks recurring annual pruning contracts with property managers and multi-year utility line-clearance contracts, the steadiest and highest-paying recurring work in the trade. Log required experience working for a crew while studying for the exam.",
-    "pitch": "The presenter frames this as a two-tier business: high-ticket one-off removals for cash flow, with the certificate specifically unlocking the steadier, higher-paying recurring tier (annual property-manager maintenance and utility contracts) that pays $7,500-15,000/month once mature for a solo certified climber with a built route.",
-    "best": "Someone willing to log the required field experience while studying, comfortable with genuinely physical, technical tree work.",
-    "truth": "The International Society of Arboriculture and its certification are real and verifiable, and the legal distinction between what certified versus uncertified crews can bid on for utility/consulting work is a specific, accurate detail rather than a vague claim.",
-    "url": "https://www.youtube.com/watch?v=PwPLAZAN_38"
-  },
-  {
     "id": "bone-saw-meat-portioning-service",
     "name": "Buying whole meat cuts cheaply and using a commercial bone saw to portion them for restaurants, hunters, and farmers",
     "category": "Local & professional services",
@@ -9860,40 +9158,6 @@
     "best": "Someone with a reliable vehicle willing to prioritize building 2-3 recurring monthly business contracts over chasing scattered one-off delivery requests.",
     "truth": "Local courier services for medical and legal documents are a real, established niche business type, and the described gap (large shippers being slow/expensive for urgent local same-day delivery) is a genuine market dynamic. No specific personal revenue figures are given for this particular business.",
     "url": "https://www.youtube.com/watch?v=xA6oBoVyQ9I"
-  },
-  {
-    "id": "industrial-sewing-alterations-and-short-run-production",
-    "name": "Running an industrial sewing machine business combining alterations/repairs with short-run sewn production for small businesses",
-    "category": "Local & professional services",
-    "tags": [
-      "industrial sewing machine",
-      "clothing alterations",
-      "short production runs"
-    ],
-    "cost": "Very low ($135-230 for a basic industrial lock stitch machine)",
-    "found": "Business Dash",
-    "what": "Buy a basic industrial lock stitch sewing machine (built for speed and consistent repeated use, unlike a household machine) and combine three revenue streams: alterations and repairs (hemming, seam repair, uniform adjustments \u2014 customers already own the item and are paying to fix it, not deciding whether to buy something new); small production of sewn items (tote bags, aprons, cushion covers, pet accessories); and short production runs for small businesses that need a quick batch (a restaurant needing 20 custom aprons, a new brand needing 10 samples) too small for a factory to bother with.",
-    "pitch": "The presenter specifically recommends deciding what you want to sell first and matching the machine to that work, since leather, upholstery, stretch fabric, and overlocking may each require a different type of machine, warning against buying equipment that looks cheap but can't actually produce the intended product.",
-    "best": "Someone with sewing skill comfortable running both a repair/alteration service and small-batch production simultaneously.",
-    "truth": "Industrial lock stitch sewing machines and the cited price range are real and current, and the material-specific machine limitation described is an accurate, practical detail. No personal revenue figures are given.",
-    "url": "https://www.youtube.com/watch?v=gcL3lipetCE"
-  },
-  {
-    "id": "landscaping-season-contract-upsell",
-    "name": "Building a landscaping/lawn maintenance route with no license required, structured around season-long contracts rather than one-time mows",
-    "category": "Local & professional services",
-    "tags": [
-      "landscaping route",
-      "season contract upsell",
-      "no-license trade"
-    ],
-    "cost": "Very low (a used mower, a trailer, door hangers)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Start a lawn maintenance/landscaping route with no license required in most states (an optional Landscape Industry Certified Technician skills exam exists but isn't a hard gate). The real moat isn't a credential here \u2014 it's the willingness to sell a season-long recurring contract instead of one-time mows, which most casual mowers never bother to formalize. Build route density with door hangers in one tight area, then upsell the season contract; layer in commercial property contracts ($600-2,000/month each) on top of residential base-load mowing revenue.",
-    "pitch": "The presenter walks through the math (40 weekly homes at $50/visit is $8,000/month base mowing revenue) and frames this as the fastest of the seven trades to first revenue, since no exam blocks the first customer \u2014 casual mowers sell single visits and stay broke, while smart operators sell the season contract and repeat.",
-    "best": "Someone wanting the fastest, lowest-barrier entry of these seven trades, willing to formalize recurring season contracts rather than staying purely transactional.",
-    "truth": "The described no-license structure and the season-contract-versus-one-off distinction are accurate, practical business advice for this specific trade. No specific named case study or personal revenue figures are given for this particular entry.",
-    "url": "https://www.youtube.com/watch?v=PwPLAZAN_38"
   },
   {
     "id": "cardboard-shredder-free-material-triple-market",
@@ -10652,28 +9916,6 @@
     "truth": "The cost breakdown and the live weight/water test are genuinely concrete and checkable rather than vague claims, a good transparency signal. The video also promotes a specific paid electric-cutting-tool product throughout, worth knowing that recommendation carries a commercial interest, though the underlying technique works with basic tools like a utility knife, just more slowly.",
     "url": "https://www.youtube.com/watch?v=lnMznu4SAEs",
     "published": "2026-06-27"
-  },
-  {
-    "id": "commercial-cleaning-business",
-    "name": "Commercial cleaning and janitorial services business",
-    "category": "Local & professional services",
-    "tags": [
-      "service business",
-      "very low startup cost",
-      "needs a team"
-    ],
-    "cost": "Very low startup cost",
-    "found": "David Heacock interviewing John Torres",
-    "what": "You bid for and win commercial cleaning contracts, office buildings, medical buildings, and similar, then hire and train a local cleaning team to actually do the work, using checklists and photo verification so quality stays consistent even though you're not the one cleaning.",
-    "pitch": "The real story here is how little it took to start: John Torres began with just a $300 LLC filing fee after going through a personal bankruptcy, and scaled the business to $2.4 million a year in revenue and roughly $600,000 a year in profit within a few years, largely by winning referral-based portfolio contracts, where one satisfied client's referral led to 10 or 12 additional buildings at once.",
-    "best": "Someone who's comfortable with sales and managing people, even if they never personally clean a building. This is fundamentally a systems-and-people business, not a cleaning business.",
-    "truth": "This is one of the more transparent stories in this database, Torres shares real numbers and includes a real downside, a contractor who stole $55,000 from the business at one point, rather than only showing the highlight reel. The model does depend on hiring and trusting a local team on the ground.",
-    "url": "https://www.youtube.com/watch?v=xEwO__X9FTI",
-    "situation_tags": [
-      "Requires hiring or managing others",
-      "Local travel required"
-    ],
-    "published": "2026-06-09"
   },
   {
     "id": "productized-ai-landing-page-audit-package",
@@ -11878,24 +11120,6 @@
     "truth": "Worth knowing directly: this video is essentially a full demonstration of the presenter's own paid all-in-one platform (Digital Creator Studio), with every step, idea generation, validation, pricing, and the DM automation itself, shown running inside that specific tool, and the presenter openly says \"I created the tool, I'm biased.\" The underlying TAP validation questions and the comment-to-DM marketing concept are genuinely tool-agnostic and could be replicated with other chatbot or CRM tools, but this entry overlaps significantly with other digital-product idea-validation and pricing frameworks already covered elsewhere in this database.",
     "url": "https://www.youtube.com/watch?v=xzLtC6E7jOg",
     "published": "2025-10-01"
-  },
-  {
-    "id": "kids-party-equipment-rental-business",
-    "name": "Kids' party equipment rental business",
-    "category": "Local & professional services",
-    "tags": [
-      "rental business",
-      "events",
-      "local business",
-      "low startup cost"
-    ],
-    "cost": "Low startup cost (roughly $2,000 to start with a small initial inventory)",
-    "found": "Tayo and Dolu Lanlehin, Bay Area Kids Rentals (covered by CNBC Make It)",
-    "what": "Buy kid-sized party equipment (chairs, tables, ball pits, bounce houses, and similar) once, then rent the same items out repeatedly for birthday parties and other kids' events, rather than selling anything. The business grows by buying more categories of equipment as customers ask for them, one purchase decision at a time.",
-    "pitch": "Tayo started after struggling to find kid-sized chair rentals for her own son's first birthday: she spent about $2,000 on 48 chairs in four styles from an overseas manufacturer and stored them in her basement, using them at her own party first. She priced her inventory so each item pays for itself within roughly six rentals, everything after that is profit, and items hold up well over many uses (the garden bow chairs she started with have been rented 30-40 times and still look new). For client acquisition, rather than waiting for bookings to come in, she identified who her actual customers already did business with (local event planners), built a list, and sent them photos and pricing like a menu; a direct outreach to a well-connected family led to word-of-mouth referrals through their event planner. As demand grew for more than just chairs, the business expanded into ball pits, bounce houses, and activity workshops, becoming a one-stop booking for a party rather than a single rental item.",
-    "best": "Someone willing to start small with one category of equipment, reinvest early profits into more inventory as real demand shows up, and do direct, targeted outreach to the specific people (event planners, not just individual parents) who already book this kind of equipment regularly.",
-    "truth": "This is one of the more independently verifiable entries in this database: CNBC Make It reported the $295,000 figure directly from financial documents they reviewed, not just the founders' own claim. Worth knowing directly: that figure is 2025 revenue, not take-home profit, CNBC also reported that the business has been profitable since the start but the couple doesn't currently pay themselves from it, choosing instead to reinvest everything back into expanding the rental inventory. Both founders also kept their full-time jobs (Tayo in corporate strategic partnerships, Dolu in his own separate role) while running this as a side business with hired help (a manager, delivery drivers, and admin and customer service support) rather than doing all the work personally.",
-    "url": "https://www.cnbc.com/2025/11/30/bay-area-kids-rentals-silicon-valley-parents-built-lucrative-side-hustle.html"
   },
   {
     "id": "ai-etsy-niche-gap-research-claude-chrome",
@@ -14901,25 +14125,6 @@
     "published": "2026-08-10"
   },
   {
-    "id": "binding-laminator-mini-stationery-service",
-    "name": "Document binding and laminating service",
-    "category": "Local & professional services",
-    "tags": [
-      "mini machine",
-      "local business",
-      "very low startup cost",
-      "beginner friendly"
-    ],
-    "cost": "Under $300 for both machines combined",
-    "found": "Mini machine business YouTube creator",
-    "what": "Combine a binding machine (which punches holes and adds a spiral or ring binding to loose pages) and a laminator (which seals a document in protective plastic) into a two-part document-finishing service, since these are tools most people need only occasionally and would rather pay someone else to own.",
-    "pitch": "A binding job costs cents in materials and charges $3-10, while a laminating job costs cents and charges $1-5, with a steady, recurring customer base: students during thesis season, teachers needing guides, offices, and entrepreneurs wanting professional-looking catalogs or presentations. The pitch specifically notes this is a low-visibility, unglamorous service (not something that goes viral on social media) that nonetheless generates steady, reliable local demand, searched directly on Google (\"binding near me\").",
-    "best": "Someone looking for an unglamorous but genuinely steady local service business with very low equipment cost and no ongoing marketing dependency.",
-    "truth": "The cost and price figures given are broadly consistent with typical binding and laminating service pricing, a reasonable range. No named operator or verified revenue record backs the specific numbers, so treat this as an illustrative business model rather than a demonstrated case study.",
-    "url": "https://www.youtube.com/watch?v=xQ12WUnQid4",
-    "published": "2026-04-21"
-  },
-  {
     "id": "ai-assisted-freelance-blog-writing-tech-companies",
     "name": "Freelance writing AI-assisted, SEO-focused blog articles for B2B SaaS companies at $900-1,200 per piece",
     "category": "Local & professional services",
@@ -14956,23 +14161,6 @@
     "truth": "The customer-acquisition-plus-independent-contractor-network model for local service businesses is real and sound, and the specific unit economics given are consistent, plausible numbers. The case study is self-reported, and the video funnels toward the presenters' own paid one-on-one application/mentorship program.",
     "url": "https://www.youtube.com/watch?v=p6mYFoY7fQE",
     "published": "2026-08-27"
-  },
-  {
-    "id": "tire-shredder-rubber-crumb-resale",
-    "name": "Shredding free waste tires into rubber crumb and selling it to gym flooring, turf, and asphalt manufacturers",
-    "category": "Local & professional services",
-    "tags": [
-      "tire shredder",
-      "rubber crumb resale",
-      "waste tire recycling"
-    ],
-    "cost": "High ($1,500 for the smallest available machine)",
-    "found": "Wealth Unlocked",
-    "what": "Buy a tire shredder (500kg/hour, dual shafts, produces 1-5cm rubber pieces) and collect waste tires for free from tire shops (who pay to have them hauled away since they take up valuable space), shred them into rubber crumb, and sell it to manufacturers of gym flooring, artificial turf, playground surfaces, insulation materials, shoe soles, and modified asphalt.",
-    "pitch": "The presenter is candid this is the most commonly-featured machine in the recycling-business content niche, but argues that's exactly the point \u2014 everyone talks about it, almost nobody actually owns one \u2014 framing the demand as permanent and recession-proof since vehicles and their tires never stop wearing out.",
-    "best": "Someone with capital for the higher-cost equipment and space to process and store tires, willing to build relationships with tire shops as suppliers.",
-    "truth": "Tire shredding for rubber crumb resale is a real, well-established recycling business model with genuine, permanent demand from named end-use industries. No specific personal revenue figures are given.",
-    "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
   },
   {
     "id": "electrician-subcontractor-to-remodeling-contractors",
@@ -15068,24 +14256,6 @@
     "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ"
   },
   {
-    "id": "power-trowel-concrete-floor-finishing",
-    "name": "Offering same-day concrete floor finishing with a mini power trowel",
-    "category": "Local & professional services",
-    "tags": [
-      "power trowel",
-      "concrete finishing",
-      "garage and warehouse floors"
-    ],
-    "cost": "Moderate ($1,500-4,000)",
-    "found": "HIDDEN WEALTH",
-    "what": "Use a mini power trowel (spinning steel blades) to smooth and seal fresh concrete within its narrow curing window, producing a polished, pore-sealed finish on garage floors, warehouse floors, and patios that manual hand-troweling can't match in speed or quality.",
-    "pitch": "Charges $2-5 per square meter of finished slab; a standard two-car garage (roughly 50 square meters) at $4/meter is a $200 job completed in about 20 minutes of machine work, scaling well on larger commercial warehouse floors.",
-    "best": "Someone able to work within tight concrete-curing timing windows, targeting residential concrete contractors and commercial epoxy floor installers who need a smooth base slab.",
-    "truth": "Power troweling is a real, standard concrete-finishing technique addressing a genuine quality/speed problem with manual finishing. Pricing figures are a straightforward calculation from stated rates, not a claimed personal case study.",
-    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM",
-    "published": "2026-08-24"
-  },
-  {
     "id": "ai-influencer-content-monetization-claude-higsfield",
     "name": "Creating AI-generated faceless 'influencer' personas with Claude and an AI image/video tool, then monetizing their content",
     "category": "Content & personal brand",
@@ -15121,23 +14291,6 @@
     "truth": "A cleaning business built around hiring and managing rather than personally performing labor is a real, standard small-business scaling structure, and the specific startup steps (business registration, EIN, local marketing, then hiring) reflect a genuine, ordinary path many service businesses follow. No specific revenue figures are given in this segment; rated 3/5 for ease and 2/5 for speed to first dollar since building a client base and hiring reliable staff takes real time.",
     "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
     "published": "2026-08-10"
-  },
-  {
-    "id": "residential-pool-cleaning-weekly-maintenance-route",
-    "name": "Running a weekly residential pool cleaning and chemical maintenance route in warm-climate markets",
-    "category": "Local & professional services",
-    "tags": [
-      "pool cleaning service",
-      "weekly maintenance route",
-      "high customer retention"
-    ],
-    "cost": "Very low (a few hundred dollars for a net, brush, vacuum head, and pool pole)",
-    "found": "Austin Zaback",
-    "what": "Offer weekly pool maintenance (skimming, brushing walls, vacuuming, chemical balancing to prevent algae) to residential customers, typically priced around $100-150/month for a weekly visit. Build a route the same way other recurring home-service businesses do, benefiting from what the presenter describes as unusually high customer loyalty once a homeowner finds a pool cleaner they trust.",
-    "pitch": "The presenter cites the pool cleaning and maintenance services market at $26 billion in 2025, projected to reach $38 billion by 2030, and shares a personal family example: his grandfather ran a pool cleaning company for 30 years and only sold it upon retiring, with some client accounts having stayed with him the entire three decades.",
-    "best": "Someone in a warm-climate market willing to learn basic pool chemistry and build a tight geographic route for efficiency.",
-    "truth": "The cited market size figures are plausible industry data, and the presenter's personal family account of long-term client loyalty is a first-hand, credible example rather than a secondhand claim.",
-    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c"
   },
   {
     "id": "mobile-home-buy-repair-rent-or-flip",
@@ -15190,23 +14343,5 @@
     "best": "Someone wanting the fastest possible start of all seven trades (no exam or license blocks the first signed contract) willing to properly insure and bond the business before pitching property managers.",
     "truth": "The bonding-as-the-real-gate framing is specific and accurate (property managers genuinely require proof of insurance/bonding before signing a vendor), and Cameron Bodden is a real, named, independently referenceable operator, though the specific commercial-cleaning revenue figures for his companion brand are not as granularly sourced as some other entries in this same video.",
     "url": "https://www.youtube.com/watch?v=PwPLAZAN_38"
-  },
-  {
-    "id": "grain-grinding-dual-market-flour-feed",
-    "name": "Milling cheap bulk grain into two separate income streams: human-grade flour and animal feed from the same machine",
-    "category": "Physical & print products",
-    "tags": [
-      "grain milling",
-      "flour production",
-      "animal feed",
-      "dual revenue stream"
-    ],
-    "cost": "Moderate (a grain grinding machine; grain is bought cheaply in bulk)",
-    "found": "Business Cortex",
-    "what": "Buy a machine that grinds maize, wheat, and other grains into flour or animal feed, buying grain cheaply in bulk and converting it into a product worth several times more per kilo. Split the output into two constant, unrelated markets from the same raw material and machine: human food flour sold to households, bakeries, and shops, and animal feed sold to farmers, poultry keepers, and pet food producers. Also offer milling as a paid service to farmers who bring their own grain to be processed, in addition to selling your own branded flour and feed.",
-    "pitch": "The presenter frames the two-market split as the key insight here, since people eat every day and livestock eat every day, meaning the same equipment and raw material input serves two constant, independent sources of demand rather than betting on just one.",
-    "best": "Someone with access to bulk grain sourcing and willing to build relationships with both food-industry buyers and agricultural/livestock buyers.",
-    "truth": "Grain milling for dual human-food and animal-feed markets is a real, established agricultural processing business model. No specific personal revenue figures are given.",
-    "url": "https://www.youtube.com/watch?v=KQV5sM1n_Y0"
   }
 ]
