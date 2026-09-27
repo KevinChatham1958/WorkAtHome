@@ -23,29 +23,6 @@
     "published": "2026-09-05"
   },
   {
-    "id": "vending-machine-route",
-    "name": "Building a vending machine route",
-    "category": "Local & professional services",
-    "tags": [
-      "asset ownership",
-      "local business",
-      "recurring revenue",
-      "low time commitment"
-    ],
-    "cost": "$1,500 to $6,000 per machine",
-    "found": "Harry's Stealth Wealth",
-    "what": "Buy individual vending machines (new or refurbished) and place them in high-traffic locations like offices, gyms, factories, or waiting areas, then visit on a rotation to restock inventory and collect revenue.",
-    "pitch": "The video cites a 2025 industry analysis putting monthly profit per well-placed machine at $200 to $500 after all costs, with location mattering more than anything else. It also cites a CNBC feature on an operator running a $300,000-a-year vending business on about 4 hours of work a week.",
-    "best": "Someone comfortable driving a regular restocking route and negotiating placement agreements with property or business owners, without needing any specialized skill.",
-    "truth": "As with the other entries from this video, the specific case study should be read as illustrative rather than a verified individual, but the underlying industry figures cited (profit ranges, the 95% five-year survival rate versus 20% for restaurants) come from named third-party sources (an industry analysis firm, CNBC) that can be checked independently of the narrative wrapper.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-04-07"
-  },
-  {
     "id": "custom-stamps-small-business-packaging",
     "name": "Custom stamp making for small business branded packaging",
     "category": "Physical & print products",
@@ -136,31 +113,6 @@
       "Requires equipment/vehicle investment"
     ],
     "published": "2026-09-05"
-  },
-  {
-    "id": "pest-control-route",
-    "name": "Running a pest control or similar recurring home-service route",
-    "category": "Local & professional services",
-    "tags": [
-      "local business",
-      "recurring revenue",
-      "certification needed",
-      "route-based"
-    ],
-    "cost": "Equipment and certification costs vary by state",
-    "found": "Harry's Stealth Wealth",
-    "what": "Sign up homes onto a recurring monthly service plan (pest control, or similarly structured services like pool cleaning or lawn care), and service them on a repeating route rather than needing to resell each customer every month.",
-    "pitch": "The video does the math on one hypothetical route: 82 homes paying $59 a month for basic pest control comes to $4,838 in gross monthly revenue from one technician and one truck, with the model scaling by adding additional routes.",
-    "best": "Someone willing to get any required state licensing or certification and who's comfortable with physical, on-site route work and a truck.",
-    "truth": "This is one of the more genuinely well-established, verifiable small-business categories in the video; recurring local pest and lawn services are a real, common small-business model independent of this particular narrative. State licensing requirements for pest control specifically vary and can be a real barrier or delay worth researching locally before assuming this is a fast start.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Requires a license or certification",
-      "Needs a truck or cargo vehicle"
-    ],
-    "published": "2026-04-07"
   },
   {
     "id": "depop-closet-reselling",
@@ -294,28 +246,6 @@
       "Requires equipment/vehicle investment"
     ],
     "published": "2026-09-05"
-  },
-  {
-    "id": "small-scale-property-management",
-    "name": "Small-scale residential property management",
-    "category": "Local & professional services",
-    "tags": [
-      "local business",
-      "real estate",
-      "recurring revenue"
-    ],
-    "cost": "Low startup cost (service-based, no property ownership required)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Act as the bridge between everyday landlords and tenants, collecting rent, arranging repairs, and handling move-ins and move-outs, for landlords who'd rather pay a fee than manage those tasks themselves.",
-    "pitch": "The video's math: a solo property manager handling 50 doors at an average fee of $91 per door per month brings in $4,550 in gross monthly fees, with income scaling as more doors are added and a small team is brought on.",
-    "best": "Someone organized and comfortable being the point of contact for both landlords and tenants, including handling occasionally stressful situations like repairs or move-out disputes.",
-    "truth": "Per-door management fees and the basic mechanics described here are consistent with how property management is actually structured in the real world, a genuine, well-established service category. The 50-door starting point implies real existing relationships or marketing effort to land that many landlord clients, which the video doesn't address in depth.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Phone/sales-based"
-    ],
-    "published": "2026-04-07"
   },
   {
     "id": "pressure-washing-business-trash-can-upsell",
@@ -474,28 +404,6 @@
     "published": "2026-07-31"
   },
   {
-    "id": "atm-machine-ownership",
-    "name": "Owning and placing private ATM machines",
-    "category": "Local & professional services",
-    "tags": [
-      "asset ownership",
-      "passive income",
-      "low time commitment"
-    ],
-    "cost": "Around $3,000 per machine",
-    "found": "Harry's Stealth Wealth",
-    "what": "Buy an ATM machine, negotiate a placement agreement with a high-traffic small business (a gas station, barber shop, or small grocery store), load it with cash, and collect a per-transaction fee every time someone withdraws money.",
-    "pitch": "The video estimates a typical machine handling around 300 transactions a month at $2.50 to $3.50 per withdrawal, working out to roughly $300 to $1,500 a month depending on location, for about 30 minutes of restocking and receipt-checking a week.",
-    "best": "Someone looking for the most hands-off entry point on this list, willing to handle cash logistics and negotiate a placement deal with a business owner.",
-    "truth": "Owning private ATMs is a real, established small-business model, not a novel or fringe idea, and the per-transaction fee structure described is accurate to how these machines actually work. What the video doesn't cover: cash-handling logistics and liability, and the placement negotiation itself likely requires more selling effort than the video's brief framing suggests.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-04-07"
-  },
-  {
     "id": "portable-sanitation-servicing",
     "name": "Portable sanitation servicing (porta-potties and construction site rentals)",
     "category": "Local & professional services",
@@ -651,28 +559,6 @@
       "Needs inventory storage"
     ],
     "published": "2026-09-05"
-  },
-  {
-    "id": "airbnb-rental-arbitrage",
-    "name": "Short-term rental arbitrage (Airbnb without owning property)",
-    "category": "Local & professional services",
-    "tags": [
-      "real estate",
-      "short-term rental",
-      "recurring revenue"
-    ],
-    "cost": "$5,000 to $15,000 to furnish a unit",
-    "found": "Harry's Stealth Wealth",
-    "what": "Rent a property from a landlord with their written permission to sublet it, furnish it, and list it on short-term rental platforms; your profit is the gap between what you pay in rent and what you collect in nightly bookings, without ever needing a mortgage or down payment.",
-    "pitch": "The video estimates $1,000 to $3,000 in profit per unit per month, with some operators managing 5 to 20 units this way, and stresses that systems (automated booking, guest messaging, a rotating cleaning crew, and dynamic pricing software) are what make multiple units manageable.",
-    "best": "Someone comfortable with the logistics of furnishing and managing a short-term rental, and who can find a landlord willing to permit subletting for this purpose in writing.",
-    "truth": "This model is real and practiced (often called \"rental arbitrage\"), but it depends entirely on finding a landlord willing to allow it in writing, many won't, and on local short-term rental regulations, which vary widely by city and can restrict or ban this model outright. The video doesn't mention either of those real constraints, worth researching thoroughly before committing to a lease based on this plan.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires hiring or managing others"
-    ],
-    "published": "2026-04-07"
   },
   {
     "id": "ai-scripted-youtube-authority-channel",
@@ -914,30 +800,6 @@
     "published": "2026-09-05"
   },
   {
-    "id": "pressure-washing-service",
-    "name": "Residential pressure washing service",
-    "category": "Local & professional services",
-    "tags": [
-      "local business",
-      "equipment needed",
-      "weekend schedule",
-      "beginner friendly"
-    ],
-    "cost": "$75 (rental) to $3,200 (own equipment)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Pressure wash driveways, siding, and other exterior home surfaces for homeowners, starting with a rented machine and scaling up to owned commercial-grade equipment as the work becomes steady.",
-    "pitch": "The video walks through starting with a $75 weekend rental from a home improvement store, landing two of six neighborhood doors knocked on, and making $210 in a single afternoon, then scaling to three jobs a Saturday at $300 to $500 per job with 20-50% profit margins after buying a $3,200 commercial setup.",
-    "best": "Someone who wants a genuinely low-cost way to test a service business on weekends, comfortable with physical outdoor work and basic neighborhood marketing.",
-    "truth": "This is one of the more checkable, concrete ideas in the video; the starting cost (a rental) is real and low enough that most people really could test this in a single weekend, a good sign for a beginner-friendly idea. The claimed monthly totals depend on booking a consistent volume of jobs every single weekend, which takes real ongoing marketing effort the video doesn't detail.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-04-07"
-  },
-  {
     "id": "amazon-kdp-low-content-books",
     "name": "Amazon KDP low and medium-content books (word searches, log books, planners)",
     "category": "Physical & print products",
@@ -1162,30 +1024,6 @@
     "published": "2026-09-05"
   },
   {
-    "id": "mobile-car-detailing",
-    "name": "Mobile car detailing service",
-    "category": "Local & professional services",
-    "tags": [
-      "local business",
-      "equipment needed",
-      "weekend schedule",
-      "beginner friendly"
-    ],
-    "cost": "About $2,700 for starting equipment",
-    "found": "Harry's Stealth Wealth",
-    "what": "Travel to customers' homes or workplaces to clean and detail their vehicles, interior and exterior, using portable equipment rather than operating from a fixed shop location.",
-    "pitch": "The video cites a Reddit thread (with posted Square payment receipts as evidence) from an operator claiming $3,700 to $4,200 in monthly revenue detailing cars out of a home garage, at $150 to $300 per job with a 60-80% profit margin.",
-    "best": "Someone comfortable with physical, hands-on outdoor work and willing to build a weekend booking schedule, without needing a storefront or employees.",
-    "truth": "The Square receipt screenshots mentioned in the source material are a genuinely better transparency signal than most claims in this video, real payment platform data, not just a stated number. That said, this is still a secondhand Reddit account relayed by the video, not something independently verified here. The margins and price points described are broadly consistent with what real mobile detailers charge.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-04-07"
-  },
-  {
     "id": "epoxy-garage-flooring-installation",
     "name": "Epoxy garage flooring installation service",
     "category": "Local & professional services",
@@ -1342,30 +1180,6 @@
       "Requires equipment/vehicle investment"
     ],
     "published": "2026-07-31"
-  },
-  {
-    "id": "notary-loan-signing-agent",
-    "name": "Notary loan signing agent",
-    "category": "Local & professional services",
-    "tags": [
-      "certification needed",
-      "local business",
-      "high hourly rate",
-      "beginner friendly"
-    ],
-    "cost": "Under $400 (state notary commission plus signing agent certification)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Become a certified notary and loan signing agent, then get hired by title companies, escrow companies, or signing services to meet home buyers or refinancing homeowners in person to witness and notarize the paperwork involved in a real estate closing.",
-    "pitch": "The video cites a CNBC report calling this one of the highest-paying side hustles in America, up to $200 an hour, for appointments that typically take about an hour and pay $75 to $200 each, requiring only a state notary commission ($50-$100) and a signing agent certification course (about $200).",
-    "best": "Someone who wants a genuinely low-cost, credential-based entry point with a clear certification path, comfortable scheduling and traveling to in-person appointments, often evenings and weekends around closing schedules.",
-    "truth": "This is a real, well-documented gig economy role (signing services and title companies do hire independent notary signing agents), and the certification path and cost described are accurate to how someone would actually get started. Building a steady stream of signing appointments generally requires getting listed with signing services and building a reputation, which takes time the video doesn't address; the per-appointment pay is real, but consistent volume isn't guaranteed from day one.",
-    "url": "https://www.youtube.com/watch?v=RTI-W5VpoQQ",
-    "situation_tags": [
-      "Local travel required",
-      "Requires a license or certification",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-04-07"
   },
   {
     "id": "faceless-video-editing-service",
@@ -1618,25 +1432,6 @@
     "published": "2026-09-05"
   },
   {
-    "id": "musical-instrument-rental-schools",
-    "name": "Renting student musical instruments to school band programs",
-    "category": "Local & professional services",
-    "tags": [
-      "instrument rental",
-      "school band programs",
-      "rental asset business",
-      "recurring revenue"
-    ],
-    "cost": "Moderate (a starter fleet of 10-50 used student horns runs $5,000-15,000)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Buy a fleet of used student-grade band instruments (flutes, clarinets, trumpets) and rent them to middle/high school band students for $20-50/month, 9-10 months a year, to a new student every school year for a decade; collect a deposit and offer a rent-to-own option to cover damage risk, and land the first customers by contacting band directors directly and showing up at instrument-fitting nights.",
-    "pitch": "The video cites Music & Arts, a national chain built entirely on this model, as proof of real demand, and frames the appeal as parents not wanting to buy a $900 trumpet for a 12-year-old who might quit by March; a small fleet can generate a few hundred to over $1,000/month once established, with each instrument paying for itself in 1-2 school years.",
-    "best": "Someone willing to build relationships with local school band directors and comfortable managing a rental inventory (deposits, condition tracking, cleaning) over multiple school years.",
-    "truth": "Instrument rental to school band programs is a real, established model with a genuine large existing competitor validating demand. No specific personal case study or verified revenue figure is given for an independent small operator; figures are general industry ranges.",
-    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
-    "published": "2026-09-07"
-  },
-  {
     "id": "window-cleaning-service-residential-commercial",
     "name": "Window cleaning service for homes and businesses",
     "category": "Local & professional services",
@@ -1749,25 +1544,6 @@
       "Needs a dedicated workspace"
     ],
     "published": "2026-09-05"
-  },
-  {
-    "id": "formal-wear-dress-rental",
-    "name": "Renting formal wear and dresses for prom and wedding season",
-    "category": "Local & professional services",
-    "tags": [
-      "formal wear rental",
-      "prom season",
-      "wedding season",
-      "rental asset business"
-    ],
-    "cost": "Moderate ($8,000-25,000 for a rack of 30-60 pieces plus tailoring and a small showroom)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Buy formal dresses and rent each one out for $80-150 per event, with a popular piece renting 4-6 times in a single prom/wedding season and again the following year; partner with a prom vendor fair or a local bridal boutique that doesn't already rent, to get inventory in front of customers fast.",
-    "pitch": "The video frames this as quick and seasonal but with strong per-item math \u2014 a $200 dress can pay for itself many times over across seasons \u2014 and notes revenue can land within a month or two if inventory is ready before prom season.",
-    "best": "Someone comfortable with tailoring/alterations logistics and building a relationship with an existing bridal or event vendor to get initial exposure.",
-    "truth": "Formal wear rental is a real, established local service, and the seasonal-but-recurring math described is sound. No specific case study or verified revenue figure is given; figures are general estimates.",
-    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
-    "published": "2026-09-07"
   },
   {
     "id": "snail-mail-subscription-club",
@@ -2186,25 +1962,6 @@
     "published": "2022-06-02"
   },
   {
-    "id": "mobile-storage-pod-rental",
-    "name": "Renting portable steel storage containers to homeowners and contractors",
-    "category": "Local & professional services",
-    "tags": [
-      "mobile storage rental",
-      "storage pods",
-      "contractor job-site storage",
-      "rental asset business"
-    ],
-    "cost": "Moderate to high ($10,000-50,000 for a handful of used containers plus a trailer to move them)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Buy used steel storage containers and rent them out at $150-250/month to two customer groups: homeowners moving or remodeling, and contractors who need a locked on-site box for tools/materials for months at a time (the more recurring of the two); get first customers by contacting moving companies and real estate agents who regularly refer clients needing storage.",
-    "pitch": "The video cites PODS as a national franchise proving the model at scale (costing over a million dollars to buy into), framing this as capturing the same demand lean as a small independent operator with just a handful of containers; a $10,000 container at $200/month pays back in roughly 4 years, then is largely pure profit for a decade after.",
-    "best": "Someone with capital for a handful of containers and a trailer, comfortable building referral relationships with movers and real estate agents.",
-    "truth": "Mobile storage rental is a real, well-established model with strong evidence of genuine demand (PODS' national scale). No specific small-operator case study or verified revenue is given; figures are general industry estimates.",
-    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
-    "published": "2026-09-07"
-  },
-  {
     "id": "bookkeeping-payroll-services",
     "name": "AI-leveraged bookkeeping and payroll services",
     "category": "Local & professional services",
@@ -2375,25 +2132,6 @@
     "published": "2026-07-31"
   },
   {
-    "id": "art-leasing-offices-hotels",
-    "name": "Leasing framed art to offices, hotels, and corporate lobbies on a rotating basis",
-    "category": "Local & professional services",
-    "tags": [
-      "art leasing",
-      "office decor rental",
-      "rotating art program",
-      "rental asset business"
-    ],
-    "cost": "Moderate ($5,000-25,000 for an opening portfolio of 20-30 framed pieces)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Buy a rotating portfolio of framed art and lease individual pieces to offices, hotel lobbies, and corporate suites for $50-300/month per piece, pitched as 'fresh walls every quarter with zero maintenance effort' for the property manager; once a piece has paid for itself on one wall, move it to the next location and start earning again.",
-    "pitch": "The video frames this as the calmest business on the list \u2014 no delivery trucks, no heavy lifting, no seasonal rush \u2014 with a full rotating portfolio potentially generating $1,500-5,000/month once established across a city's office parks and hotel lobbies.",
-    "best": "Someone comfortable pitching facilities managers and building an initial art inventory, without needing physical labor or seasonal availability.",
-    "truth": "Art leasing to commercial properties is a real, if niche, established service. No specific case study or verified revenue figure is given; figures are general estimates from the presenter's framing.",
-    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
-    "published": "2026-09-07"
-  },
-  {
     "id": "field-inspection-contract-work",
     "name": "Field inspection contract work",
     "category": "Local & professional services",
@@ -2509,25 +2247,6 @@
       "Requires a license or certification"
     ],
     "published": "2026-09-05"
-  },
-  {
-    "id": "camera-equipment-rental-sharegrid",
-    "name": "Renting out camera and film equipment through a peer-to-peer platform",
-    "category": "Local & professional services",
-    "tags": [
-      "camera equipment rental",
-      "ShareGrid",
-      "peer-to-peer rental",
-      "content creator market"
-    ],
-    "cost": "Moderate ($3,000-8,000 for a starter kit of one camera body and a couple of lenses)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Buy camera/lens equipment and list it on a peer-to-peer rental platform (ShareGrid cited specifically) to rent to wedding videographers, YouTubers, and small production houses who need gear for one shoot rather than buying it; price slightly under local competition to get an early booking.",
-    "pitch": "The video cites ShareGrid's own published numbers as verification: over 12,000 members, $100M+ worth of gear listed, up to $750,000 in built-in insurance coverage, with a Sony camera body renting at an average of $112/day on the platform \u2014 a modest kit can clear $700-1,000+/month, and a $6,000 body only needs 10-15 rental days a year to cover its depreciation.",
-    "best": "Someone with camera equipment (or capital to buy some) in a market with real content-production demand (a mid-to-large metro), comfortable managing bookings and equipment condition through a rental platform.",
-    "truth": "Camera equipment rental via ShareGrid is a real, verifiable platform with the cited membership/inventory/insurance figures coming from the platform's own published numbers, giving this more third-party grounding than most items on the list. Individual earnings still depend on local demand and utilization, which the presenter is honest is the real risk (an underbooked asset quietly loses money).",
-    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
-    "published": "2026-09-07"
   },
   {
     "id": "high-ticket-affiliate-marketing-selling-mechanisms",
@@ -3249,24 +2968,6 @@
     "published": "2026-06-19"
   },
   {
-    "id": "scaffolding-rental-contractors",
-    "name": "Renting scaffolding to general contractors, painters, and restoration crews",
-    "category": "Local & professional services",
-    "tags": [
-      "scaffolding rental",
-      "contractor equipment rental",
-      "construction rental business"
-    ],
-    "cost": "Moderate ($10,000-50,000 per Entrepreneur magazine's cited starter range)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Buy scaffolding sets and rent them to contractors, painters, masons, and restoration crews at $500-3,000/month, delivered flat and stacked (the contractor's own crew does the assembly/climbing); land first accounts by handing a simple price list directly to local contractors and home-service companies.",
-    "pitch": "The video cites United Rentals and Sunbelt (multi-billion dollar equipment rental giants) as proof contractors overwhelmingly rent rather than buy scaffolding, framing this as rented on every job (not just seasonally), so a starter inventory can pay back in roughly a year if kept in constant rotation across 3-4 contractor accounts.",
-    "best": "Someone comfortable doing direct, in-person sales to local contractors and managing delivery/pickup logistics, without needing to do the climbing/assembly work themselves.",
-    "truth": "Scaffolding rental to contractors is a real, large, well-established market with major public companies validating demand at scale. No specific small-operator case study or verified revenue figure is given for an independent starter business.",
-    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
-    "published": "2026-09-07"
-  },
-  {
     "id": "cottage-bakery-home-kitchen-drops",
     "name": "Cottage bakery selling weekly product drops from a home kitchen",
     "category": "Physical & print products",
@@ -3621,24 +3322,6 @@
     "published": "2026-06-30"
   },
   {
-    "id": "reverse-vending-bottle-deposit-machines",
-    "name": "Placing reverse vending (bottle deposit) machines in high-traffic retail locations",
-    "category": "Local & professional services",
-    "tags": [
-      "reverse vending machines",
-      "bottle deposit business",
-      "passive location income"
-    ],
-    "cost": "Moderate ($5,000-25,000 per machine depending on capacity/features)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Place a reverse vending (bottle/can deposit) machine in a high-traffic retail location like a supermarket, earning from deposit handling, ad revenue, and a retail partnership share; pitch store owners on two things they want \u2014 more foot traffic and a cut of the deposit/ad income \u2014 rather than paying for floor space.",
-    "pitch": "The video frames this as the lowest-labor entry on the list: once installed, a single machine in a busy supermarket can bring in $300-1,000+/month with essentially no ongoing effort from the operator, scaling by adding machine count rather than personal hours.",
-    "best": "Someone with capital to acquire and place machines and willing to negotiate retail partnerships, but not needing ongoing hands-on labor once installed.",
-    "truth": "Reverse vending machines are a real, established recycling-incentive technology already deployed commercially. No specific case study or verified revenue figure is given; figures are general framing, and return on a single machine is described as taking 1-3 years.",
-    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
-    "published": "2026-09-07"
-  },
-  {
     "id": "ai-content-creator-underserved-niche",
     "name": "Becoming an AI-focused content creator in a specific underserved niche, using AI tools to handle scripting and production",
     "category": "Content & personal brand",
@@ -3780,24 +3463,6 @@
     "published": "2025-09-12"
   },
   {
-    "id": "cardboard-bailing-resale-route",
-    "name": "Running a cardboard bailing and resale route for warehouses and big-box stores",
-    "category": "Local & professional services",
-    "tags": [
-      "cardboard bailing",
-      "warehouse waste resale",
-      "recycling route business"
-    ],
-    "cost": "Moderate ($10,000-40,000 for a baler plus a truck)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Offer warehouses and big-box stores free cardboard removal in exchange for exclusive resale rights, bail the cardboard, and sell it to a paper mill by the ton; build a tight cluster of accounts within one industrial zone rather than spreading thin across a wide area.",
-    "pitch": "The video cites solo cardboard routes bringing in roughly $500-3,000/month once a few steady accounts are locked in, with commercial collection margins commonly running 30-35% and specialized industrial routes reaching 35-40%+ due to thin competition.",
-    "best": "Someone with capital for a baler and truck, comfortable doing direct outreach to warehouse/retail back-of-house managers.",
-    "truth": "Cardboard bailing and resale to paper mills is a real, established recycling-arbitrage niche. No specific verified case study is given; figures are general industry ranges, and the presenter notes route density (not chasing one distant account) is the key operational lesson.",
-    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
-    "published": "2026-09-07"
-  },
-  {
     "id": "tumbler-etching-tiktok-marketing",
     "name": "Personalized tumbler and glassware etching business marketed through process videos",
     "category": "Physical & print products",
@@ -3913,25 +3578,6 @@
     "truth": "Udemy is a real, established course marketplace that does handle matching and discovery for creators as described, and the cited enrollment example is a real, verifiable case visible on the platform. The presenter's own $500 first-month figure is self-reported.",
     "url": "https://www.youtube.com/watch?v=egILyXhaLhM",
     "published": "2026-09-06"
-  },
-  {
-    "id": "firewood-processing-bundling-business",
-    "name": "Processing and bundling firewood for retail sale near gas stations and campgrounds",
-    "category": "Physical & print products",
-    "tags": [
-      "firewood business",
-      "seasonal side hustle",
-      "wood processing",
-      "retail bundling"
-    ],
-    "cost": "Moderate ($2,000-20,000 depending on splitter and truck)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Source logs (ideally through free/cheap relationships with arborists and loggers rather than buying truckloads), split and bundle firewood, and sell bundles at retail locations like gas stations near campgrounds, or seasoned cords directly to homeowners with fireplaces; margin depends heavily on sourcing cost, not just sale price.",
-    "pitch": "The video cites one documented operator earning around $8,000/month, with a University Extension budget showing about $48 profit per cord (roughly $337 per 7-cord truckload) for a lean two-person crew buying logs wholesale, and notes seasoned hardwood sells for $250-350/cord in colder markets.",
-    "best": "Someone with access to a truck and wood-splitting equipment, and ideally relationships with arborists/loggers for cheap or free log sourcing to protect margin.",
-    "truth": "Firewood processing and retail bundling is a real, established seasonal business, and the University Extension cost breakdown cited gives genuine third-party grounding to the margin figures. This is explicitly seasonal (winter-concentrated) income, which the video is upfront about.",
-    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
-    "published": "2026-09-07"
   },
   {
     "id": "online-services-skill-pyramid-roadmap",
@@ -4056,25 +3702,6 @@
     "truth": "Vinyl cutting for local business signage and branding is a real, established small-business service, and the pricing warning reflects a genuine common failure mode in this trade. No specific revenue example is given; success depends on local business density and design/sales skill.",
     "url": "https://www.youtube.com/watch?v=mKFNXLik1ro",
     "published": "2026-06-03"
-  },
-  {
-    "id": "lavender-flower-farm-agritourism",
-    "name": "Running a small lavender or you-pick flower farm combining product sales with visitor days",
-    "category": "Physical & print products",
-    "tags": [
-      "lavender farming",
-      "agritourism",
-      "you-pick flower farm",
-      "seasonal farm business"
-    ],
-    "cost": "Moderate to high ($10,000-50,000 depending on acreage, for land prep, plant stock, irrigation, and a small retail setup)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Plant and grow a small lavender (or similar flower) field, treating it as an agritourism business first rather than pure farming: charge visitors a small entry fee for you-pick bouquet days, run small workshops, and sell bundled bouquets and lavender oil to soap makers and gift shops, generating income while the field matures toward full harvest productivity over 2-3 years.",
-    "pitch": "The video cites operators reporting $300-2,000/month in season blending product sales with visitor days, and notes the lavender oil market is projected to grow near 7%/year over the next decade; the honest caveat is that full bloom productivity takes 2-3 years, which the agritourism-first approach is meant to bridge.",
-    "best": "Someone with land access and patience for a multi-year ramp, willing to run visitor-facing events (workshops, pick days) rather than waiting for wholesale oil contracts alone.",
-    "truth": "Lavender/agritourism farming is a real, established small-farm business model, and the market-growth figure is cited from industry projections rather than the presenter's own claim. This is genuinely slower and more capital-intensive than most other items on this list, which the video is explicit about.",
-    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
-    "published": "2026-09-07"
   },
   {
     "id": "ai-avatar-affiliate-marketing-competitor-script-harvest",
@@ -5568,24 +5195,6 @@
     "published": "2025-09-12"
   },
   {
-    "id": "sod-farming-landscaping-supply",
-    "name": "Growing and selling sod to landscapers and new-construction builders",
-    "category": "Physical & print products",
-    "tags": [
-      "sod farming",
-      "landscaping supply",
-      "new construction supply chain"
-    ],
-    "cost": "High ($20,000-50,000 for a small commercial plot with irrigation and harvesting gear)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Grow sod on a dedicated plot and sell it by the pallet to landscapers, builders, and municipal projects tied to new-construction lawns, replanting immediately after each harvest so the same ground yields repeatedly; get a first recurring account by underpricing the local supplier on a bulk order for one subdivision buildout.",
-    "pitch": "The video cites University Extension data showing roughly $8,000-12,000 in returns per acre against about $4,000 in costs per acre (so $4,000-8,000 margin per acre per cycle), with a 20-acre plot in active rotation described as real recurring monthly money through the growing season.",
-    "best": "Someone with land access and patience \u2014 sod takes 9-18 months to build a harvestable root mat \u2014 and willing to build relationships with a handful of steady landscaping/building accounts rather than one-off sales.",
-    "truth": "Sod farming for landscaping supply is a real, established agricultural business, and the per-acre economics are cited from a named University Extension source, giving genuine third-party grounding. This is capital- and land-intensive with a long ramp time, which the video is upfront about.",
-    "url": "https://www.youtube.com/watch?v=WB2rmrWAm6o",
-    "published": "2026-09-07"
-  },
-  {
     "id": "liquid-filling-machine-packaging-service",
     "name": "Offering liquid and paste product filling as a service to small producers using a manual filling machine",
     "category": "Physical & print products",
@@ -5792,23 +5401,6 @@
     "published": "2026-07-09"
   },
   {
-    "id": "cell-tower-ground-lease-access-toll",
-    "name": "Leasing a patch of your own land to a phone carrier for a cell tower, doing nothing but negotiating the terms",
-    "category": "Local & professional services",
-    "tags": [
-      "cell tower land lease",
-      "access toll method",
-      "passive land income"
-    ],
-    "cost": "Very low (you must already control the land; the carrier pays for the build, permits, and equipment)",
-    "found": "Harry's Stealth Wealth",
-    "what": "If you control a patch of ground in an area with a cellular coverage gap, lease it to a phone carrier for a cell tower. A rural ground lease often runs $500-1,250/month, strong sites climb past $4,000, and a busy multi-carrier city rooftop can clear $6,500+/month. The carrier pays for construction, permits, and equipment \u2014 your only job is negotiating lease terms. Find opportunities via carrier site-acquisition scouts who hunt for land near dead zones, or list on a lease marketplace/negotiation firm like Vertical Consultants. Critically, never lock into a long flat-rate term: cap any lease at 5-10 years with no automatic renewal, and negotiate a share of gross revenue (15-25%) with annual increases rather than a flat fee, since traffic and ad/usage rates can rise substantially over a multi-year term.",
-    "pitch": "The presenter cites two independent sources (Vertical Consultants and the negotiation guide Steel in the Air) both confirming rural landowners should expect $500-1,250/month before expert negotiation pushes it higher, and shares a real cautionary story: signing a flat 15-year lease with automatic renewal, then watching the underlying value climb for two years while locked at the original rate.",
-    "best": "Someone who already owns land in a plausible coverage-gap location, willing to wait 6-18 months for the slow site-acquisition and construction process.",
-    "truth": "The cited lease ranges come from named, independently checkable industry sources rather than the presenter's own unverified claim, and the flat-rate-lock cautionary story is a genuine, useful structural warning for this exact business type.",
-    "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
-  },
-  {
     "id": "custom-gpts-niche-membership-addon",
     "name": "Custom GPTs for specific professional niches",
     "category": "AI & automation",
@@ -5947,23 +5539,6 @@
     "truth": "Founders outsourcing YouTube channel operations to specialized agencies is a real, active market, and the described AI-assisted workflow (scripting, editing, thumbnails) is technically accurate to current tools. Pricing figures are the presenter's own cited ranges, not independently verified, and the video promotes his free training and paid coaching.",
     "url": "https://www.youtube.com/watch?v=jVOk8oc-a70",
     "published": "2026-07-31"
-  },
-  {
-    "id": "peer-to-peer-parking-space-rental",
-    "name": "Renting out a spare driveway or parking slot to commuters or RV/boat owners via peer-to-peer apps",
-    "category": "Local & professional services",
-    "tags": [
-      "parking space rental",
-      "peer-to-peer apps",
-      "driveway monetization"
-    ],
-    "cost": "Very low (near zero; you already control the space)",
-    "found": "Harry's Stealth Wealth",
-    "what": "List a spare driveway or parking slot on peer-to-peer apps (Neighbor, Pavement, Curb Flip, Spacer), renting for $50-250/month for a standard slot, or up to $2,200/month for a larger lot storing boats/RVs. The apps collect the deposit and payment and let you set access rules (gate code, hours, no overnight) without ever handing over a key.",
-    "pitch": "The presenter cites a real, named example: Stacy Spar, an Oregon insurance agent, rents a spare lot for RV/boat storage earning about $175/month per vehicle and roughly $2,500/month total after expenses.",
-    "best": "Someone with unused driveway, yard, or lot space near an area with parking demand (downtowns, event venues), wanting a fast, near-zero-effort listing.",
-    "truth": "This is a real, named individual operator's account with specific figures, and the peer-to-peer parking apps named are real, current platforms.",
-    "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
   },
   {
     "id": "self-storage-facility-rental",
@@ -6228,23 +5803,6 @@
     "published": "2025-12-19"
   },
   {
-    "id": "wall-fence-advertising-space-lease",
-    "name": "Leasing a blank wall or fence along a busy road to an outdoor advertising company",
-    "category": "Local & professional services",
-    "tags": [
-      "wall advertising lease",
-      "outdoor advertising",
-      "billboard alternative"
-    ],
-    "cost": "Very low ($0-500 for cleanup; the ad company installs and maintains everything)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Lease a blank wall or fence visible from heavy traffic to an outdoor advertising company or local ad broker, who install and maintain the advertising. An urban wall in heavy traffic can command $1,000-10,000/month, with landmark spots earning more; even a quiet rural sign pays $500-2,000/year. Negotiate either a flat fee or a share of the ad company's gross (15-25%) with an annual increase \u2014 the share structure captures upside as traffic and ad rates rise, unlike a flat rate.",
-    "pitch": "The presenter cites a documented example of an owner negotiating $1,500/month flat for a single wall lease plus $500 for every additional advertiser added, and repeats the same cautionary structural lesson from the cell tower entry (a real flat 15-year lock that missed two years of rising ad rates as traffic doubled).",
-    "best": "Someone with a visible wall or fence along a real traffic corridor, willing to negotiate carefully on lease term length and structure.",
-    "truth": "The cited lease example is a specific, documented figure rather than a vague claim, and the flat-rate-versus-revenue-share structural advice is sound, generalizable negotiation logic applicable to any of these access-toll businesses.",
-    "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
-  },
-  {
     "id": "tart-shell-b2b-supply-business",
     "name": "Supplying mini tart and pie shells to bakeries and caterers using a shell-forming machine, rather than selling desserts directly",
     "category": "Physical & print products",
@@ -6389,23 +5947,6 @@
     "published": "2026-07-09"
   },
   {
-    "id": "seasonal-lot-lease-events-markets",
-    "name": "Renting a bare lot by the day or weekend to pop-up markets, event organizers, or seasonal storage tenants",
-    "category": "Local & professional services",
-    "tags": [
-      "seasonal lot lease",
-      "pop-up market rental",
-      "event space rental"
-    ],
-    "cost": "Very low ($0-1,000 for basic signage or fencing)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Rent an empty lot by the day or weekend rather than needing a year-round tenant: small neighborhood lots pull a few hundred dollars a day, while premium city lots have commanded $3,600-24,000/day for retail or event activations. Find event organizers, farmers market operators, and seasonal storage seekers via Craigslist, Neighbor, or direct outreach with your lot dimensions and terms. Set a clear season window, require a deposit, and require the lot be returned clean.",
-    "pitch": "The presenter walks through simple math: renting a lot to a weekend market for $300/Saturday, four Saturdays a month, is $1,200/month for ground that previously sat empty, with vendors bringing their own booths and doing all the work.",
-    "best": "Someone with an underused lot willing to book seasonal or one-off tenants rather than a single long-term lease.",
-    "truth": "The described model (event organizers seeking short-term lot space) is a real, standard arrangement, and the cited price ranges reflect plausible market rates. No single named case study is given for this specific entry.",
-    "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
-  },
-  {
     "id": "tow-truck-service",
     "name": "Emergency tow truck service",
     "category": "Local & professional services",
@@ -6539,23 +6080,6 @@
     "truth": "Sports card arbitrage and resale is a real, active market with genuine profit potential for skilled operators, and the described process (bulk sourcing, grading, pricing discipline) matches how serious card resellers actually operate. No specific revenue figures are given, and outcomes depend heavily on pricing accuracy and market knowledge that takes real time to develop.",
     "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
     "published": "2026-06-30"
-  },
-  {
-    "id": "community-garden-plot-rental",
-    "name": "Subdividing a lot into garden plots and renting each to a gardener for the growing season",
-    "category": "Local & professional services",
-    "tags": [
-      "community garden plots",
-      "seasonal plot rental",
-      "gardener demand"
-    ],
-    "cost": "Low to moderate ($500-5,000 depending on scale, for fencing and a water setup)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Subdivide a lot you control into individual plots, run a waterline, and rent each plot to a gardener for the growing season: small beds run $15-55/season, midsize plots $28-70, and bigger micro-farm blocks $350-600 each. Find gardeners through extension offices, city parks departments, and sites like Shared Earth and Yard. A refundable deposit covers cleanup if a renter abandons their plot mid-season.",
-    "pitch": "The presenter cites a real, named operator, Elliot Farm Services, renting 1,000-square-foot garden plots for $84/season (tax included) with a $50 refundable deposit each, describing genuine repeat demand every spring.",
-    "best": "Someone with lot space willing to do the upfront subdivision/water setup work once, then collect recurring seasonal signups with minimal ongoing effort.",
-    "truth": "This is a real, named, verifiable operator with specific, current pricing terms rather than an invented example.",
-    "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
   },
   {
     "id": "one-person-digital-affiliate-business-lean-model",
@@ -7126,23 +6650,6 @@
     "published": "2026-06-03"
   },
   {
-    "id": "film-location-photo-shoot-space-rental",
-    "name": "Renting your home, warehouse, or unique space to film crews and photographers by the hour",
-    "category": "Local & professional services",
-    "tags": [
-      "film location rental",
-      "photo shoot venue",
-      "Peerspace Giggster"
-    ],
-    "cost": "Very low (good photos and a clear listing profile are usually enough)",
-    "found": "Harry's Stealth Wealth",
-    "what": "List a distinctive space (a house, warehouse corner, field, rooftop) on platforms like Giggster, Peerspace, or similar for film crews and photographers, who pay for character and square footage, not labor. Standard spaces rent from about $89/hour, premium homes/studios pull $100-300/hour, and big production spaces have commanded $6,000-24,000/day. Price by the hour with a 4-hour minimum rather than a flat day rate, since booking a few hourly sessions a month outperforms a single flat-rate day almost every time. Require a refundable deposit and event insurance for larger shoots, take before/after photos, and mark off-limits rooms.",
-    "pitch": "The presenter cites a real example (a Los Angeles film location listed on Giggster at $89/hour, priced below comparable local spots yet still booking) and walks through the math: two weekend 4-hour shoots a month at $89/hour is $712/month, framing a realistic combined first-year total of $8,000-14,000 part-time when stacked with other access-toll spaces.",
-    "best": "Someone with a visually distinctive home or space willing to accommodate occasional production crews and set clear access/insurance rules.",
-    "truth": "The named platforms (Giggster, Peerspace) and the specific listed example are real and verifiable, and the hourly-vs-daily pricing advice is sound, practical guidance for this specific business type.",
-    "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
-  },
-  {
     "id": "small-parts-light-manufacturing",
     "name": "Light manufacturing of small custom parts that large factories consider too small to bother with",
     "category": "Physical & print products",
@@ -7234,23 +6741,6 @@
     "best": "Someone considering organic waste recycling as a business who wants to test their interest and aptitude before a larger investment.",
     "truth": "Small-scale composting equipment is real and widely available, and using a cheap version to validate interest before scaling is sound, low-risk business advice. No specific personal revenue figures are given.",
     "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
-  },
-  {
-    "id": "printer-cartridge-ewaste-broker-route",
-    "name": "Collecting discarded printer cartridges and old electronics from local offices and reselling to an e-waste buyback broker",
-    "category": "Local & professional services",
-    "tags": [
-      "printer cartridge recycling",
-      "e-waste broker route",
-      "office collection route"
-    ],
-    "cost": "Very low (a vehicle to collect from local businesses)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Build a collection route through small offices and business parks, gathering discarded printer cartridges and old electronics that would otherwise be thrown out, then reselling them in bulk to an e-waste/cartridge buyback broker. Find your specific local buyer first (call a cartridge broker and ask what they pay per unit) before collecting inventory, since the value depends entirely on having a confirmed buyer and price.",
-    "pitch": "The presenter frames this as the entry point of the 'discard to dollar' half of the video, with a real cautionary story about the same operator overcollecting a garage full of cartridges, golf balls, and scrap before confirming a buyer price, then discovering the actual haul was worth far less than assumed.",
-    "best": "Someone willing to build simple local collection relationships with small offices, disciplined enough to confirm buyer pricing before collecting volume.",
-    "truth": "E-waste and cartridge buyback brokers are a real, established recycling channel. No specific personal revenue figures are given for this particular business.",
-    "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
   },
   {
     "id": "outcome-based-ai-strategy-consulting-reframe",
@@ -7400,23 +6890,6 @@
     "truth": "Reverse vending machines and state bottle deposit laws are real and accurately described, and the presenter's upfront geographic caveat (unlike many similar videos) adds credibility. Revenue figures are general framing, not a personal case study.",
     "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
     "published": "2026-07-23"
-  },
-  {
-    "id": "lost-golf-ball-recovery-resale",
-    "name": "Recovering lost golf balls from course ponds and rough, then reselling them by the pound or piece",
-    "category": "Local & professional services",
-    "tags": [
-      "golf ball recovery",
-      "golf ball resale",
-      "course pond diving"
-    ],
-    "cost": "Very low (basic retrieval equipment)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Recover lost golf balls from course ponds, water hazards, and rough (with course permission or a partnership arrangement), then clean and resell them individually or in bulk, typically anywhere from a quarter to $2 per ball depending on condition and brand.",
-    "pitch": "The presenter frames this as a genuinely overlooked market \u2014 millions of golf balls sit lost in ponds nationwide \u2014 with real, ongoing resale demand from budget-conscious golfers and resellers.",
-    "best": "Someone near golf courses willing to negotiate access/retrieval arrangements and handle cleaning and grading balls by condition.",
-    "truth": "Golf ball recovery and resale is a real, established niche resale business. No specific personal revenue figures are given for this particular business.",
-    "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
   },
   {
     "id": "branded-dropshipping-trust-positioning",
@@ -7813,23 +7286,6 @@
     "published": "2026-07-31"
   },
   {
-    "id": "wine-cork-collection-recycler-fee",
-    "name": "Collecting used wine corks from bars and restaurants and routing them to a free industrial recycler for a monthly handling fee",
-    "category": "Local & professional services",
-    "tags": [
-      "wine cork recycling",
-      "bar and restaurant collection route",
-      "handling fee service"
-    ],
-    "cost": "Very low (collection bins and a vehicle)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Pitch bars and restaurants (which bin large volumes of corks every night) on a tidy monthly cork collection service, then route the collected corks to a large-scale industrial cork recycler (the presenter names Recork, North America's largest cork recycling program with 3,000+ collection partners, which turns corks into shoe soles and yoga blocks) \u2014 the recycler accepts corks for free but does not pay per cork, so your income comes entirely from the monthly handling fee you charge the bars/restaurants for the collection service itself, not from the corks' material value.",
-    "pitch": "The presenter is specific and honest that the money isn't in the cork material itself but in the collection/handling service fee charged to the businesses generating the waste, framing it as a clean recurring revenue arrangement built on solving a bar's nightly disposal annoyance.",
-    "best": "Someone willing to build a recurring collection route with local bars and restaurants and understand the fee structure isn't about reselling the material itself.",
-    "truth": "Recork is a real, named, verifiable large-scale cork recycling program. No specific personal revenue figures are given for the collection-fee side of this business.",
-    "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
-  },
-  {
     "id": "ev-charging-smart-home-electrician-specialty",
     "name": "Specializing as an electrician in EV charging station and smart home installation for premium rates",
     "category": "Local & professional services",
@@ -7939,23 +7395,6 @@
     "best": "Someone willing to do physical outdoor work and comfortable pitching a simple same-visit add-on to every existing customer.",
     "truth": "The cited market size and the trash-can upsell tactic are real and plausible; the $100K-month case study is a specific personal account relayed by the presenter, not independently verified.",
     "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c"
-  },
-  {
-    "id": "worm-castings-vermicompost-production",
-    "name": "Turning free food scraps into worm castings (premium soil amendment) sold to gardeners and market growers",
-    "category": "Physical & print products",
-    "tags": [
-      "worm castings",
-      "vermicompost production",
-      "organic soil amendment"
-    ],
-    "cost": "Low ($300 for bins, bedding, and a starter batch of worms)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Set up worm bins using free or nearly-free raw material (food scraps and organic waste), let worms convert it over a 2-3 month breeding/production cycle into worm castings \u2014 a premium, sought-after soil amendment sold by the pound \u2014 then sell to home gardeners, market growers, and bait shops, particularly at farmers markets where a handful of regular buyers can turn a spare garage corner into steady income.",
-    "pitch": "The presenter cites a real, named operator, the Urban Worm Company, which sells castings in bulk (down to 2,000lb totes) plus breeding stock directly to customers, framing the core appeal as free input converting into premium-priced output.",
-    "best": "Someone with a spare garage or yard corner willing to wait through the multi-month worm breeding cycle before having sellable volume.",
-    "truth": "This is a real, named, verifiable company operating exactly as described. No specific personal revenue figures are given for a smaller-scale individual operator.",
-    "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
   },
   {
     "id": "recycled-plastic-filament-extrusion",
@@ -8293,23 +7732,6 @@
     "published": "2026-07-18"
   },
   {
-    "id": "storage-unit-auction-flip-multichannel-resale",
-    "name": "Bidding on abandoned storage unit auction lots and routing each item to its own best-fit resale market",
-    "category": "E-commerce",
-    "tags": [
-      "storage unit auction flipping",
-      "multichannel resale",
-      "estate lot flipping"
-    ],
-    "cost": "Low to moderate (small bids under $50; a working kitty of $500-2,000 for bidding across multiple facilities monthly)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Bid on storage units at auction (storage facilities just want unpaid rent recovered, not maximum resale value, so lots sell for a fraction of their contents' worth), then sort and route each item to its own best-fit market rather than one single buyer: collectibles and electronics to eBay, vintage clothing to resellers, golf clubs to golf shops, and anything unsellable routed back into the e-waste broker or scrap-metal channels described elsewhere in this same list. Secure your buyer channels and rough resale prices for likely categories before bidding, not after, to avoid getting stuck holding an unsellable lot.",
-    "pitch": "The presenter cites a real, named, documented example: flipper Dale Klene of the channel Hustle Flips turning a $10 winning storage-unit bid into a $900 profit by sorting and reselling pieces individually on eBay, walked through in detail on a flipping podcast, and frames a realistic ongoing pace of 2-3 units a month netting $600-1,500.",
-    "best": "Someone willing to map out multiple resale channels in advance and comfortable sorting and listing a wide variety of item types rather than expecting one easy buyer for an entire lot.",
-    "truth": "This is a real, named, independently verifiable flipper and documented flip rather than an invented example, and the presenter is explicit that a $10-to-$900 result isn't a realistic single-day expectation, tempering the headline number with a more modest ongoing pace.",
-    "url": "https://www.youtube.com/watch?v=s_4SimbDwzQ"
-  },
-  {
     "id": "niche-social-media-content-pack-direct-sales",
     "name": "Niche-specific social media content packs (templates, captions, story formulas) sold directly to one type of local business",
     "category": "Digital & subscription products",
@@ -8519,23 +7941,6 @@
     "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c"
   },
   {
-    "id": "certified-pool-operator-recurring-route",
-    "name": "Earning a Certified Pool Operator credential to unlock higher-paying commercial and HOA pool contracts most casual cleaners never access",
-    "category": "Local & professional services",
-    "tags": [
-      "Certified Pool Operator",
-      "pool cleaning route",
-      "commercial pool contracts"
-    ],
-    "cost": "Low ($390-500 for the CPO course, valid 5 years; ~$6,000 all-in for a real route with equipment and insurance)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Earn the Certified Pool Operator (CPO) credential, a two-day class plus open-book exam issued by the Pool and Hot Tub Alliance \u2014 no state license is needed to clean backyard pools at all, but the CPO specifically unlocks access to commercial and homeowner-association pools, which pay 2-10x more and that almost no casual operator bothers to qualify for. Build a weekly residential route with route density (clustering pools in a tight neighborhood loop) at $125-150/month per pool, then layer in commercial accounts, each roughly equal to 6-10 backyard pools in value. Prioritize signing weekly recurring contracts over one-time 'green pool cleanup' jobs, since the recurring account is what compounds.",
-    "pitch": "The presenter cites a solo operator running 40-50 weekly homes clearing $5,000-7,500/month in season, and a real, named example: Brian and Mike bought an existing pool business (Bright Pools) for $35,000 and grew it past $100,000/year within about a year, largely by stacking commercial accounts onto the residential route.",
-    "best": "Someone willing to invest in the CPO certification specifically to access the higher-paying commercial tier, comfortable building door-to-door route density in one tight area first.",
-    "truth": "The Pool and Hot Tub Alliance and its CPO certification are real and verifiable, and the cited Bright Pools acquisition example is a specific, named account. Figures are presented as ranges, not guarantees, and results depend on local market and route density.",
-    "url": "https://www.youtube.com/watch?v=PwPLAZAN_38"
-  },
-  {
     "id": "warm-network-video-pitch-ai-website-redesign",
     "name": "Warm-network video-pitch method for AI website redesigns",
     "category": "Marketing & content",
@@ -8721,23 +8126,6 @@
     "published": "2026-09-11"
   },
   {
-    "id": "certified-chimney-sweep-vendor-list-access",
-    "name": "Earning a Certified Chimney Sweep credential to land on insurer and real estate agent vendor referral lists competitors can't access",
-    "category": "Local & professional services",
-    "tags": [
-      "Certified Chimney Sweep",
-      "insurer vendor lists",
-      "seasonal recurring service"
-    ],
-    "cost": "Low (~$500-600 all-in for the first year including certification and annual fee)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Earn the Certified Chimney Sweep credential (self-study plus a proctored exam, issued by the Chimney Safety Institute of America) \u2014 insurers and real estate agents maintain vendor referral lists but only include certified sweeps, and most handymen never bother paying the annual fee to qualify, so the certified operator lands on referral lists uncertified competitors simply can't reach. Start with brushes, a sweep vacuum, and a used van; build relationships with one local insurance agent or home inspector to generate repeat annual referrals.",
-    "pitch": "The presenter cites a sweep-only operator running roughly $150,000/year in business revenue, and a real example of a certified owner growing from about $70,000/year to a seven-figure business over roughly eight years by adding certified technicians and repair/relining work on top of the base sweep service.",
-    "best": "Someone willing to pay the annual certification fee specifically to access the referral-list gatekeeping that uncertified competitors are locked out of.",
-    "truth": "The Chimney Safety Institute of America and its certification are real and verifiable, and the vendor-list gatekeeping dynamic described is a plausible, specific competitive mechanism rather than a vague claim.",
-    "url": "https://www.youtube.com/watch?v=PwPLAZAN_38"
-  },
-  {
     "id": "mop-broom-handle-b2b-supplier",
     "name": "Manufacturing wooden mop and broom handles as a pure B2B supplier to other manufacturers, with no retail marketing required",
     "category": "Physical & print products",
@@ -8848,23 +8236,6 @@
     "best": "Someone comfortable pitching e-commerce/logistics businesses on either a product (packaging mesh) or an on-site processing service.",
     "truth": "This is a real, current small-manufacturing niche responding to a genuine e-commerce demand for plastic-free packaging alternatives. No specific personal revenue figures are given.",
     "url": "https://www.youtube.com/watch?v=XpTMdfl1hck"
-  },
-  {
-    "id": "licensed-pesticide-applicator-quarterly-route",
-    "name": "Getting a state pesticide applicator license to build a door-to-door quarterly pest control route",
-    "category": "Local & professional services",
-    "tags": [
-      "pesticide applicator license",
-      "quarterly pest control route",
-      "door-to-door recurring sales"
-    ],
-    "cost": "Low to moderate ($400-1,500 for exam prep/materials plus state fees)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Get a state pesticide applicator license (a genuine legal requirement, not just a voluntary certification, issued by your state's agriculture department) \u2014 the exam is short and cheap relative to the earning opportunity it unlocks, yet most people who could pass it in a weekend never try, keeping the field thin. Sell a quarterly recurring service plan door-to-door in tight neighborhood clusters (roughly 200-500 homes on a quarterly plan is enough to clear a strong monthly number in a mid-size town) rather than one-off treatments, since a single spray fades but the quarterly contract compounds.",
-    "pitch": "The presenter cites a real, named case study: Casey McDaniel started with $8,000 of chemicals in his garage and scaled to a $1.3 million recurring-revenue business within 3 years using door-to-door sales to build a quarterly route, with a margin of roughly $120 on a $135 recurring service.",
-    "best": "Someone comfortable with door-to-door sales, willing to get properly licensed rather than operating informally, and disciplined about putting scope and term in writing for every account.",
-    "truth": "This is a real, named, specific case study with concrete figures rather than a vague success story, and the presenter includes an honest cautionary account (his own first pest-control customer verbally agreeing to a deal with no written scope, leading to unpaid extra work) that adds practical, non-obvious business advice.",
-    "url": "https://www.youtube.com/watch?v=PwPLAZAN_38"
   },
   {
     "id": "dtf-printer-two-business-apparel-transfer-supplier",
@@ -8980,23 +8351,6 @@
     "best": "Someone comfortable being on ladders/heights, willing to build phone-quoting skill and pursue commercial accounts for less price-sensitive, more reliable recurring revenue.",
     "truth": "The specific Arizona operator case study is a real, detailed account with concrete figures, though relayed by the presenter and not independently verified. The commercial-vs-residential pricing dynamic described is standard, plausible service-business logic.",
     "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c"
-  },
-  {
-    "id": "certified-home-energy-auditor-rebate-bottleneck",
-    "name": "Becoming a certified home energy auditor to become the local bottleneck for utility rebate and tax credit paperwork",
-    "category": "Local & professional services",
-    "tags": [
-      "home energy auditor",
-      "BPI RESNET certification",
-      "utility rebate paperwork"
-    ],
-    "cost": "Moderate ($1,500-3,000 for training and the field exam, plus a blower door kit)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Earn a Building Performance Institute (BPI) Analyst or RESNET Rater certification \u2014 not a state license, though some utility programs require it to bid \u2014 and become one of the few local people qualified to sign off on energy rebate and tax-credit paperwork, since most homeowners and even contractors have never heard of these credentials. Basic audits pay $85-125 each, specialized ratings $200-450; at 15-20 audits/month once a referral pipeline is built, this produces a solid standing income. Build a referral relationship with one utility rebate program to keep the pipeline fed.",
-    "pitch": "The presenter frames the appeal as becoming a genuine local bottleneck (most homeowners and contractors don't know these credentials exist), meaning demand routes to you specifically once you're one of the few qualified people in the area.",
-    "best": "Someone comfortable with technical inspection work who wants a referral-pipeline business model rather than a physical weekly route.",
-    "truth": "BPI and RESNET certifications are real, established, and verifiable, and the described rebate-paperwork gatekeeping is a plausible, specific mechanism rather than a vague claim. No single named case study is given for this specific entry.",
-    "url": "https://www.youtube.com/watch?v=PwPLAZAN_38"
   },
   {
     "id": "mesh-produce-bag-manufacturing",
@@ -14326,22 +13680,5 @@
     "best": "Someone comfortable with physical cleaning work who wants to specialize further (sofas, vehicle interiors, rental properties) once they learn which job type is most profitable for them.",
     "truth": "Carpet extraction machines and the cited price ranges are real and current. No personal revenue figures are given for this specific business.",
     "url": "https://www.youtube.com/watch?v=gcL3lipetCE"
-  },
-  {
-    "id": "commercial-cleaning-bonded-janitorial-contracts",
-    "name": "Starting a commercial janitorial business where proper insurance and bonding, not a license, is the real barrier that excludes casual competitors",
-    "category": "Local & professional services",
-    "tags": [
-      "commercial cleaning",
-      "janitorial bonding",
-      "nightly office contracts"
-    ],
-    "cost": "Very low (under $500 for basic supplies; $500-1,500/year for general liability insurance and bonding)",
-    "found": "Harry's Stealth Wealth",
-    "what": "Start a commercial (B2B) office cleaning business \u2014 there's no mandatory license for general office cleaning in most places, so the real gate is proper general liability insurance and janitorial bonding, which most casual cleaners skip but office managers require before signing, meaning the bonded operator clears a barrier amateurs never even see. Five recurring nightly contracts at roughly $800/month each generates about $4,000/month in pure recurring revenue almost immediately; a single well-sized office (10,000 sq ft, cleaned regularly) can run over $70,000/year from one client alone. Find customers by walking into office parks and medical suites during the day and asking the property manager who currently cleans at night. Never sign a recurring contract at a price you can't service twice, since the real profit lives in the repeat visits, not the first one-time deep clean.",
-    "pitch": "The presenter cites a real, named example: Cameron Bodden, who scaled a pest control company from one truck into a business doing tens of millions a year, then launched a companion commercial cleaning brand using the same recurring-contract logic, plus a cited aggregate example of a five-client commercial cleaning portfolio scaling past $34,000/month.",
-    "best": "Someone wanting the fastest possible start of all seven trades (no exam or license blocks the first signed contract) willing to properly insure and bond the business before pitching property managers.",
-    "truth": "The bonding-as-the-real-gate framing is specific and accurate (property managers genuinely require proof of insurance/bonding before signing a vendor), and Cameron Bodden is a real, named, independently referenceable operator, though the specific commercial-cleaning revenue figures for his companion brand are not as granularly sourced as some other entries in this same video.",
-    "url": "https://www.youtube.com/watch?v=PwPLAZAN_38"
   }
 ]
