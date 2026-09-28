@@ -47,6 +47,9 @@ let savedIds = new Set(loadSaved());
 // running a new search resets this to null — see runSearch(), the sort-select
 // listener, and clearSearchBtn's listener.
 let expandedId = null;
+// Ids of ideas that have their own page at /ideas/<id>/ (built by
+// tools/build_pages.py). Loaded separately so the grid never waits on it.
+let pageIds = new Set();
 
 
 // ---------- Daily shuffle ----------
@@ -98,6 +101,14 @@ fetch('ideas.json')
       '<p style="color: var(--text-muted)">Couldn\'t load the gig database right now. Try refreshing.</p>';
     console.error(err);
   });
+
+fetch('page-index.json')
+  .then(r => (r.ok ? r.json() : { ideas: [] }))
+  .then(data => {
+    pageIds = new Set(data.ideas || []);
+    if (ALL_IDEAS.length) render();
+  })
+  .catch(() => {});
 
 // Fills in the live gig/producer counts in the tool-section's db-links-row.
 // Computed from the same data the grid renders from, so it can never drift
@@ -509,6 +520,7 @@ function buildCard(idea) {
         <div class="card-section-label">The Truth</div>
         <p class="card-text">${escapeHtml(idea.truth)}</p>
       </div>
+      ${pageIds.has(idea.id) ? `<p class="card-page-link"><a href="ideas/${encodeURIComponent(idea.id)}/">Open this idea on its own page to share or bookmark it &rarr;</a></p>` : ''}
     </div>
   `;
 

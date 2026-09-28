@@ -672,3 +672,11 @@ input:focus-visible {
   .wordmark-logo { width: min(45%, 160px); }
   .site-nav a { font-size: 0.88rem; }
 }
+
+/* ---------- Links to the static idea/category pages ---------- */
+.card-page-link { margin: 12px 0 0; font-size: 0.88rem; }
+.card-page-link a { color: var(--link); font-weight: 600; text-decoration: none; }
+.card-page-link a:hover { text-decoration: underline; }
+.footer-cats { margin-top: 10px; font-size: 0.8rem; line-height: 1.9; }
+.footer-cats a { color: var(--text-muted); text-decoration: none; margin: 0 6px; white-space: nowrap; }
+.footer-cats a:hover { text-decoration: underline; }
