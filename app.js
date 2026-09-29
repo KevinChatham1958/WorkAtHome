@@ -158,6 +158,19 @@ function updateSavedUI() {
   const countEl = document.getElementById('saved-count');
   countEl.textContent = `${savedIds.size} saved`;
   document.getElementById('download-saved-btn').disabled = savedIds.size === 0;
+  const clearBtn = document.getElementById('clear-saved-btn');
+  if (clearBtn) clearBtn.disabled = savedIds.size === 0;
+}
+
+// Unchecks every "Save for Later" at once. Asks first, since the saved list
+// lives only in this browser and can't be recovered once cleared.
+function clearAllSaved() {
+  if (savedIds.size === 0) return;
+  const n = savedIds.size;
+  if (!window.confirm(`Deselect all ${n} saved gig${n === 1 ? '' : 's'}? This can't be undone.`)) return;
+  savedIds.clear();
+  persistSaved();
+  render();
 }
 
 // ---------- Search input ----------
@@ -246,6 +259,8 @@ document.getElementById('sort-select').addEventListener('change', (e) => {
 });
 
 document.getElementById('download-saved-btn').addEventListener('click', downloadSavedGigs);
+const clearSavedBtn = document.getElementById('clear-saved-btn');
+if (clearSavedBtn) clearSavedBtn.addEventListener('click', clearAllSaved);
 
 // ---------- Soft-ranking scorer ----------
 // Nothing is ever excluded from search. Every idea gets a score against each

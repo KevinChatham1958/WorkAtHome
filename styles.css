@@ -680,3 +680,18 @@ input:focus-visible {
 .footer-cats { margin-top: 10px; font-size: 0.8rem; line-height: 1.9; }
 .footer-cats a { color: var(--text-muted); text-decoration: none; margin: 0 6px; white-space: nowrap; }
 .footer-cats a:hover { text-decoration: underline; }
+
+/* ---------- Deselect All Saved (sits next to View Saved) ---------- */
+.clear-saved-btn {
+  background: transparent;
+  border: none;
+  padding: 2px 0;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+.clear-saved-btn:hover:not(:disabled) { color: var(--accent); }
+.clear-saved-btn:disabled { color: var(--text-faint); text-decoration: none; cursor: default; opacity: 0.6; }
