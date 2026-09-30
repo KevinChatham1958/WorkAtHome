@@ -16,6 +16,10 @@ const WEIGHT_NAME = 4;
 const WEIGHT_TAG = 3;
 const WEIGHT_CATEGORY_OR_SOURCE = 2;
 const WEIGHT_BODY = 1;
+// Added on top of the normal score when the search is clearly a creator's
+// name (see creatorNameMatch). Large enough that the creator's own entries
+// always come first, ahead of loose word matches elsewhere.
+const WEIGHT_CREATOR_NAME = 1000;
 
 const SAVED_KEY = 'shi_saved_gigs';
 
@@ -308,6 +312,41 @@ function fieldMatches(tokens, word) {
   return tokens.some(token => wordMatchesToken(word, token));
 }
 
+// True when the search is a creator's name rather than a topic. Uses exact
+// words only (no partial matching), so "Doughty" matches Shawn Doughty but
+// not an idea that mentions "dough". Two or more words count when every one
+// of them is in the creator's name ("shawn doughty"). A single word counts
+// when it is the creator's whole name ("upflip"), or when it is in the
+// creator's name and is not an everyday word used in the entries themselves
+// ("tilbury" counts; "ai" or "youtube" don't, so topic searches aren't
+// hijacked by creators who happen to have that word in their name).
+let TOPIC_VOCAB = null;
+function topicVocab() {
+  if (TOPIC_VOCAB) return TOPIC_VOCAB;
+  TOPIC_VOCAB = new Set();
+  ALL_IDEAS.forEach(idea => {
+    // An entry often mentions its own creator by name ("same presenter
+    // (Shawn Doughty) as..."), so those words don't count as topic words.
+    const own = new Set(tokenize(idea.found || ''));
+    tokenize([idea.name, idea.category, idea.what, idea.pitch, idea.best, idea.truth,
+      ...(idea.tags || []), ...(idea.situation_tags || []), ...(idea.search_terms || [])].join(' '))
+      .forEach(t => { if (!own.has(t)) TOPIC_VOCAB.add(t); });
+  });
+  return TOPIC_VOCAB;
+}
+
+function creatorNameMatch(idea, words) {
+  if (words.length === 0) return false;
+  const sourceTokens = tokenize(idea.found || '');
+  if (sourceTokens.length === 0) return false;
+  const queryTokens = words.flatMap(tokenize);
+  if (queryTokens.length === 0) return false;
+  if (!queryTokens.every(t => sourceTokens.includes(t))) return false;
+  if (queryTokens.length >= 2) return true;
+  if (sourceTokens.every(t => queryTokens.includes(t))) return true;
+  return queryTokens[0].length >= 4 && !topicVocab().has(queryTokens[0]);
+}
+
 function scoreIdea(idea, words) {
   if (words.length === 0) return 0;
 
@@ -331,6 +370,8 @@ function scoreIdea(idea, words) {
     if (fieldMatches(categoryTokens, word) || fieldMatches(sourceTokens, word)) score += WEIGHT_CATEGORY_OR_SOURCE;
     if (fieldMatches(bodyTokens, word)) score += WEIGHT_BODY;
   });
+
+  if (creatorNameMatch(idea, words)) score += WEIGHT_CREATOR_NAME;
 
   return score;
 }
@@ -376,7 +417,11 @@ function getRankedIdeas() {
 
   const scored = pool.map(idea => ({ idea, score: scoreIdea(idea, words) }));
   updateSearchFeedback(scored.length > 0 ? Math.max(...scored.map(x => x.score)) : 0);
-  lastMatchedIdeas = scored.filter(x => x.score > 0).map(x => x.idea);
+  // When the search is a creator's name, only that creator's entries count as
+  // the "real" matches (so the same-creator note can appear); everything else
+  // still shows below them, as always.
+  const creatorHits = scored.filter(x => x.score >= WEIGHT_CREATOR_NAME);
+  lastMatchedIdeas = (creatorHits.length > 0 ? creatorHits : scored.filter(x => x.score > 0)).map(x => x.idea);
 
   if (dateSortActive) {
     // A date sort still respects relevance as a soft grouping — matches
