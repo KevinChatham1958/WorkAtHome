@@ -55,6 +55,32 @@ let expandedId = null;
 // tools/build_pages.py). Loaded separately so the grid never waits on it.
 let pageIds = new Set();
 
+// ---------- Visitor-action tracking (Google Analytics) ----------
+// Sends one event to Google Analytics for each meaningful visitor action:
+// a search, opening a card, saving/copying a gig, downloading saved gigs,
+// and clicking through to a source video. Each event carries the idea and
+// creator so reports can show which ideas and creators draw interest.
+// If Analytics is blocked or hasn't loaded (ad blockers, privacy settings),
+// this quietly does nothing — the site works exactly the same either way.
+function track(eventName, params) {
+  try {
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', eventName, params || {});
+    }
+  } catch (e) {
+    // never let tracking break the page
+  }
+}
+
+function ideaParams(idea) {
+  return {
+    idea_id: idea.id,
+    idea_name: toTitleCase(idea.name || ''),
+    creator: idea.found || '',
+    idea_category: idea.category || ''
+  };
+}
+
 
 // ---------- Daily shuffle ----------
 // Deterministic per calendar date (UTC), so every visitor sees the same
@@ -235,6 +261,14 @@ function runSearch(rawValue) {
     gigGridEl.hidden = false;
     searchSubmitBtn.disabled = false;
     render();
+    if (query) {
+      const matchCount = lastMatchedIdeas ? lastMatchedIdeas.length : 0;
+      track('search', {
+        search_term: query,
+        results_found: matchCount > 0 ? 'yes' : 'no',
+        match_count: matchCount
+      });
+    }
   }, SEARCH_SPINNER_MS);
 }
 
@@ -558,7 +592,7 @@ function buildCard(idea) {
     <div class="card-details" ${isExpanded ? '' : 'hidden'}>
       <div class="card-section">
         <div class="card-section-label">Source</div>
-        <p class="card-text">${escapeHtml(idea.found)} &mdash; <a href="${escapeAttr(idea.url)}" target="_blank" rel="noopener">${escapeHtml(idea.url)}</a></p>
+        <p class="card-text">${escapeHtml(idea.found)} &mdash; <a class="source-link" href="${escapeAttr(idea.url)}" target="_blank" rel="noopener">${escapeHtml(idea.url)}</a></p>
       </div>
 
       <div class="card-section">
@@ -592,8 +626,10 @@ function buildCard(idea) {
   const titleBlock = card.querySelector('.card-title-block');
   const expandBtn = card.querySelector('.expand-btn');
   const toggleExpand = () => {
-    expandedId = (expandedId === idea.id) ? null : idea.id;
+    const opening = expandedId !== idea.id;
+    expandedId = opening ? idea.id : null;
     render();
+    if (opening) track('view_idea', ideaParams(idea));
   };
   titleBlock.addEventListener('click', toggleExpand);
   titleBlock.addEventListener('keydown', (e) => {
@@ -604,10 +640,20 @@ function buildCard(idea) {
   });
   expandBtn.addEventListener('click', toggleExpand);
 
+  // Click-through to the creator's original video — the "traffic we send
+  // to creators" number. Recorded with the idea and creator attached.
+  const sourceLink = card.querySelector('.source-link');
+  if (sourceLink) {
+    sourceLink.addEventListener('click', () => {
+      track('source_click', Object.assign(ideaParams(idea), { link_url: idea.url }));
+    });
+  }
+
   card.querySelector('.save-checkbox').addEventListener('change', () => {
     toggleSaved(idea.id);
     const label = card.querySelector('.save-toggle');
     const nowSaved = savedIds.has(idea.id);
+    if (nowSaved) track('save_idea', ideaParams(idea));
     label.classList.toggle('saved', nowSaved);
     label.querySelector('.bookmark-icon').innerHTML = nowSaved ? BOOKMARK_FILLED_SVG : BOOKMARK_OUTLINE_SVG;
     if (state.savedOnly) render();
@@ -615,6 +661,7 @@ function buildCard(idea) {
 
   card.querySelector('.copy-btn').addEventListener('click', (e) => {
     const text = formatGigText(idea);
+    track('copy_idea', ideaParams(idea));
     const btn = e.currentTarget;
     const label = btn.querySelector('span');
     navigator.clipboard.writeText(text).then(() => {
@@ -635,6 +682,7 @@ function downloadSavedGigs() {
   if (savedIds.size === 0) return;
 
   const saved = ALL_IDEAS.filter(idea => savedIds.has(idea.id));
+  track('download_saved', { saved_count: saved.length });
   const body = saved.map(formatGigText).join('\n' + '-'.repeat(40) + '\n\n');
   const header = `Side Hustle Intel — Saved Gigs\nExported ${new Date().toLocaleString()}\n\n${'='.repeat(40)}\n\n`;
 
