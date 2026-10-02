@@ -2214,6 +2214,29 @@
     "published": "2026-08-02"
   },
   {
+    "id": "local-seo-microsite-rank-rent-ai-blueprint",
+    "name": "Local SEO microsite / rank-and-rent network using an AI coding blueprint",
+    "category": "Marketing & content",
+    "tags": [
+      "local SEO",
+      "rank and rent",
+      "AI tools",
+      "lead generation"
+    ],
+    "cost": "Very low startup cost (roughly $10 in domain cost plus ~$2/month hosting per site; AI coding tool subscription optional)",
+    "found": "Jesse Cunningham",
+    "what": "Building a network of dozens of small, single-service-page local-SEO microsites targeting narrow, low-competition service-plus-location combinations in the suburbs around a city, then routing calls through an AI phone agent and monetizing via revenue-share or flat-fee lead sales to local service businesses.",
+    "pitch": "The presenter runs a paid community providing a reusable site blueprint that's fed directly to an AI coding tool to auto-generate a full 40 to 50 page exact-match-domain website with almost no manual work. Core strategy: pick underserved suburb-level niches, avoiding city-center searches with a Google map pack which signal too much competition, register a cheap exact-match domain, let the site rank organically over 3 to 6 months without connecting it to Google Search Console, wire an AI voice agent to answer the phone 24/7, then monetize via revenue share, flat per-lead fees, or selling a bundle of built sites to a business owner outright.",
+    "best": "Someone patient enough to wait months for organic ranking rather than needing fast income, and willing to build and manage a network of many small sites rather than one polished website.",
+    "truth": "The presenter's own numbers, six figures a month, sites costing under $10 to build, $150 or more per qualified lead, are self-reported without account verification shown on screen. Worth noting: in a companion live-build video, the AI-generated site included fabricated customer testimonials and a false licensing claim that the presenter himself flagged as mistakes needing correction before real use, a useful reminder that AI-generated site copy needs a real editing pass, especially anything implying licensing or certifications the business doesn't actually hold. The video ends promoting the presenter's own paid community with a 7-day trial.",
+    "url": "https://www.youtube.com/watch?v=KaJnoYdJo7U",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-07-15"
+  },
+  {
     "id": "spotify-playlist-monetization",
     "name": "Monetizing a curated Spotify playlist",
     "category": "Digital & subscription products",
@@ -2420,6 +2443,31 @@
       "Strictly in-home"
     ],
     "published": "2026-08-02"
+  },
+  {
+    "id": "google-maps-scraped-lead-gen-directory-featured-listings",
+    "name": "Single-niche, single-state lead-gen directory built from scraped Google Maps data and sold as featured listings",
+    "category": "Marketing & content",
+    "tags": [
+      "local business directory",
+      "Google Maps scraping",
+      "featured listings",
+      "lead generation",
+      "programmatic SEO",
+      "Outscraper"
+    ],
+    "cost": "Low startup cost",
+    "found": "Jesse Cunningham",
+    "what": "You build a website that lists every business in one boring, high-ticket local niche across one state (for example, custom pool builders in Florida), with state pages, city pages and individual listing pages. The data comes from a paid scrape of Google Maps, which you filter, clean and enrich with AI, then publish as a site designed to rank for 'near me' and city-level searches. Local businesses in that niche pay you for top placement, featured listings or the leads the site generates.",
+    "pitch": "Jesse lays out a seven-step process: find a niche, scrape Google Maps, clean the rows, enrich them with attributes, build the pages, rank over time, then monetize. For niche research he suggests filtering 'near me' keywords in Ahrefs to keyword difficulty under 20 and looking past page one at low-volume terms others ignore. He uses Outscraper (about $100 for a typical scrape, paid per row), notes that only around 5-6% of raw rows survive filtering, and has AI read reviews to tag each business with attributes and write descriptions; he estimates the full AI-coded pipeline (Outscraper, Claude Code, Crawl4AI, Claude Vision, Supabase) at about $250 per directory, and argues AI coding makes things like 4,800 city pages with local FAQs a one-prompt job versus painful in WordPress. He cites featured listings selling for roughly $29 to $500 a month each, plus selling leads, and his specific angle is pairing the directory with your own small lead-gen websites in the same niche so you can pitch a business owner on both directory placement and exclusive leads.",
+    "best": "Suits someone comfortable with SEO and AI coding tools who is willing to wait months for rankings and then do outreach to local business owners. It fits best for people already running small lead-gen sites in a niche who want another asset in the same vertical.",
+    "truth": "Building local directories from scraped Google Maps data is a real, long-standing SEO model, and the steps and tool costs described are concrete and plausible. However, this video is largely a plan rather than a result: Jesse says he has not yet built this directory and is borrowing the framework from another creator, so the $29-$500 monthly listing prices and the 'still pays every month' example are secondhand and unverified. Ranking a new directory takes time, many niches already have strong directories and aggregators like Yelp or Angi, and selling listings or leads requires sales outreach to business owners. Republishing scraped data and mass-generated pages also carries search-quality risk if the enrichment does not add genuine value. The video repeatedly promotes Jesse's paid Rank Expander Academy community (7-day free trial, 90-day money-back guarantee), where he says the build will happen.",
+    "url": "https://www.youtube.com/watch?v=DzphMeAUJuo",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-09-16"
   },
   {
     "id": "merch-by-amazon-tshirts",
@@ -2648,6 +2696,30 @@
       "Strictly in-home"
     ],
     "published": "2026-08-02"
+  },
+  {
+    "id": "ai-image-facebook-pages-bonus-program-posting-pace",
+    "name": "AI-image Facebook pages paid through the Facebook bonus program, built on a fixed posting pace",
+    "category": "Content & personal brand",
+    "tags": [
+      "facebook page monetization",
+      "facebook bonus program",
+      "ai images",
+      "posting schedule",
+      "passive income",
+      "faceless pages"
+    ],
+    "cost": "Low startup cost",
+    "found": "Jesse Cunningham",
+    "what": "You run Facebook pages in a visual niche (the example is mountain cabins) and post AI-generated images on a strict, regular schedule. Once the page gains reach, Facebook pays you through its creator bonus program based on engagement on your posts. The work is choosing a niche, producing images, and keeping the posting rhythm steady.",
+    "pitch": "The presenter shows one of his pages that reached 1.8 million in reach and, he says, earned a little over $300 in three days through the bonus program with only around 10,000 followers, after roughly six weeks of near-flat results. His core method is pace: start at about 8 posts a day, move to 12 once Facebook begins giving reach, and go to 24 a day in niches that can take it, never posting sporadically because it throws off the algorithm. To pick a niche and pace, he searches Facebook for pages in the niche with 10,000+ followers and 10+ posts in the last two weeks, and studies the largest page (a 1.2 million follower cabin page posting every two hours). He argues small pages can earn and scaling multiplies the result.",
+    "best": "Someone patient who can produce and schedule a high volume of image posts every day and is comfortable with weeks of little or no income before a page gains traction.",
+    "truth": "The earnings figures are the presenter's own screenshots for one page over three days and are not verified; he also says the page earned only pennies for its first month or more. Facebook's bonus and creator payout programs are invite-based, change often, and can be reduced or removed, so this income is fragile and outside your control. He mentions that new pages need to buy followers to get started (likely paid page-like campaigns), which is an added cost, and mass-posting AI images competes with many copycat pages he himself shows struggling. The video promotes his free email-gated course and his paid Maverick Forum community.",
+    "url": "https://www.youtube.com/watch?v=VZljj_EkFag",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2024-06-13"
   },
   {
     "id": "vending-machine-route-tilbury",
@@ -2897,6 +2969,31 @@
     "truth": "Amazon Merch on Demand is a real, established print-on-demand marketplace with the fulfillment model described accurately (Amazon handles printing/shipping/service, seller gets a royalty split), and the sub-niche strategy is sound, standard print-on-demand advice for reducing competition. No specific personal revenue figures for this exact stream are given in this segment.",
     "url": "https://www.youtube.com/watch?v=egILyXhaLhM",
     "published": "2026-09-06"
+  },
+  {
+    "id": "facebook-page-network-traffic-to-branded-pod-store",
+    "name": "Private Facebook page network sending traffic to a niche site with its own branded print-on-demand products",
+    "category": "E-commerce",
+    "tags": [
+      "private facebook network",
+      "niche website",
+      "print on demand",
+      "branded store",
+      "facebook traffic",
+      "custom leggings"
+    ],
+    "cost": "Low startup cost",
+    "found": "Jesse Cunningham",
+    "what": "You build several Facebook pages in the same niche (a 'private Facebook network') and use them to push visitors to your own niche website. Instead of earning from display ads, the site sells products with your own unique designs, such as leggings and shoes, made and shipped by a print-on-demand partner under your brand. Buyers of the products pay you.",
+    "pitch": "The presenter says one of his sites, Bonsai Mary, had about 700,000 visitors over roughly six months, with around 150,000 coming from Facebook. He describes a ladder of monetization from display ads (easiest but lowest paying) to products to services (which he says can reach 80% margins), and argues that once you can reliably send traffic, selling your own branded products earns far more than ad RPMs, even at a 1% conversion rate. He removed display ads from the site and partnered with a manufacturing firm to sell 100% unique leggings and shoe designs tagged with the site's brand, turning a niche site into a brand.",
+    "best": "Someone who already has, or can build, a steady stream of niche traffic and wants to move from ad income to selling their own designed products.",
+    "truth": "The traffic numbers are the presenter's own and no sales figures for the store are shown, so whether the product shift actually outperformed display ads is not demonstrated; the 1% conversion example is hypothetical. Running multiple coordinated pages carries a risk of Facebook enforcement against inauthentic networks, and traffic from Facebook to outside links has become harder to get. Print-on-demand margins are thinner than the 80% figure he cites for services, and you need design ability, product quality checks, and customer service. He promotes his free course and paid Maverick Forum in the video.",
+    "url": "https://www.youtube.com/watch?v=VZljj_EkFag",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "published": "2024-06-13"
   },
   {
     "id": "online-services-skill-pyramid-roadmap",
@@ -3185,6 +3282,31 @@
     "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. The commercial-versus-residential pricing distinction and the soft-washing safety lesson are genuine, checkable facts about the pressure washing trade independent of the narrative; property damage from improper technique is a real and documented risk in this industry, not just a dramatic plot point.",
     "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
     "published": "2026-08-19"
+  },
+  {
+    "id": "ai-built-flat-html-contractor-websites-from-top-company-designs",
+    "name": "AI-built flat HTML websites for local contractors, modeled on top-ranked company designs",
+    "category": "Local & professional services",
+    "tags": [
+      "website design for contractors",
+      "AI website builder",
+      "flat HTML website",
+      "local business websites",
+      "rank and rent",
+      "Claude website"
+    ],
+    "cost": "Near-zero cost",
+    "found": "Jesse Cunningham",
+    "what": "You use an AI model to build a fast, SEO-structured static (flat HTML/CSS) website for a local service business such as a pool builder or remodeler, borrowing design ideas from the websites of top-performing companies in that trade. The finished site is either sold to a local business owner or kept and used for rank-and-rent lead generation. Clients are local contractors who want a professional site that ranks on Google.",
+    "pitch": "The presenter picks design inspiration from companies on the Qualified Remodeler Top 500 list, reasoning that their verified financials show their sites produce work, then tells the AI which sections and features to emulate (not copy one-to-one). His key tip is to generate a logo first and feed it to the model so it picks up a consistent color scheme, then have it pull free stock images from sites like Pexels. In his head-to-head test, Claude's model produced a near-finished homepage in about 15 minutes while the GPT model he tried did poorly. Because the site is flat HTML it can be hosted for free, so his stated cost is roughly $11.57 for the domain, and he says such a site can still sell to a contractor for thousands of dollars if you have a trusted relationship.",
+    "best": "People comfortable prompting AI tools who can also find and win local business clients, or who want low-cost sites for rank-and-rent. Useful for someone with an eye for what makes a trade website convincing even without coding skills.",
+    "truth": "The core mechanic is credible: AI models can now produce good-looking static homepages quickly, and static hosting is genuinely free or nearly so. However, the demo only shows a homepage, not a complete site with service pages, forms, and real images, and ranking it on Google is asserted rather than demonstrated. The 'sells for thousands' claim depends on sales skill and client relationships, which the presenter admits, and the work is becoming commoditized for exactly the reasons he describes. The video references his own 'microsite blueprint' prompt and closes by promoting his paid Rank Expand Academy community (7-day free trial), where the structure guide lives.",
+    "url": "https://www.youtube.com/watch?v=Ps6oidygAGU",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ],
+    "published": "2026-09-14"
   },
   {
     "id": "ebay-niche-reselling-account-warming",
@@ -3596,6 +3718,31 @@
     "truth": "Backflow testing requirements are real, codified legal obligations in most states, and the described low-cost, low-barrier certification path is accurate to how this trade actually works. No specific personal case study or revenue figure is given beyond per-device pricing.",
     "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
     "published": "2026-07-23"
+  },
+  {
+    "id": "single-service-city-microsite-lead-sales-four-payment-models",
+    "name": "Single-service, single-city lead-gen microsites monetized four ways (exclusive lead fee, rental, revenue share, or brokering the job)",
+    "category": "Marketing & content",
+    "tags": [
+      "rank and rent",
+      "local lead generation",
+      "exclusive leads for contractors",
+      "AI-built websites",
+      "revenue share",
+      "exact match domain"
+    ],
+    "cost": "Near-zero cost",
+    "found": "Jesse Cunningham",
+    "what": "You use an AI assistant to build a small flat-HTML website that targets one urgent, high-ticket service in one city (for example sewer line replacement in Dallas or custom pool builders in Orlando), with roughly 40-50 pages covering the service, each surrounding town, pricing, and the questions people search when the problem hits. Once it ranks and the phone rings, you hand the calls to a local contractor. The contractor pays you, either per lead, as monthly rent for the site, as a percentage of the job, or you act as the go-between on the job yourself.",
+    "pitch": "Cunningham argues that a narrowly focused site is easy for Google to understand, so it ranks more readily than a general company site with many services and a blog. He says a site built this way costs him about $11 (just the domain) and about 15 minutes with his AI blueprint, and that even nine calls a month is valuable because a contractor who closes three $8,000 jobs gets more than $20,000 of work. He lays out four ways to get paid: an exclusive flat fee of about $150 per lead (which he says contractors prefer to resold leads from Angie's List-type services), renting the whole site for $500-$1,000 a month, a revenue share such as 5% of a $150,000 pool job (his favorite), or working the lead yourself and sourcing the contractor at a markup where licensing allows. He compares the model to HomeAdvisor, Angie's List, and Zillow as lead providers.",
+    "best": "Patient people comfortable with basic SEO and website building who are willing to call and negotiate with local tradespeople. Suits someone who can wait weeks or months with no results before any income appears.",
+    "truth": "Rank and rent is a long-established, real model, and focusing a site on one service in one city is a reasonable SEO approach; the near-zero build cost is plausible for a static HTML site. What is not shown is any of his own lead volume, contractor deals, or payments: the nine-calls, $150-per-lead, and 5%-rev-share figures are hypothetical examples, and his 'six figures a month' claim is his own, unaudited. He openly says the site sits doing nothing for weeks, most early sites fail, and even experienced builders see many flops; the many-towns-page structure can also look like thin location pages to Google, and finding and trusting a contractor to report revenue for a rev share is a real hurdle. The fourth option of working the lead yourself may require trade licensing and involves going to customer properties. The video promotes his paid Rank Expand Academy community (7-day free trial) and its microsite blueprint, which he positions as the key to building these sites.",
+    "url": "https://www.youtube.com/watch?v=hjeX4RCC7iM",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-09-15"
   },
   {
     "id": "portable-sanitation-servicing",
@@ -4111,6 +4258,30 @@
     "truth": "NFPA 96 and its insurance implications are real, codified requirements, and the margin/pricing figures are consistent with how this trade is typically priced. No specific personal case study is given beyond the illustrative math.",
     "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
     "published": "2026-07-23"
+  },
+  {
+    "id": "ai-recipe-blog-pinterest-competitor-keywords",
+    "name": "AI-generated recipe blog that targets big food sites' top Pinterest keywords",
+    "category": "Content & personal brand",
+    "tags": [
+      "recipe blog",
+      "food blog",
+      "Pinterest traffic",
+      "AI recipes",
+      "display ads",
+      "PinClicks"
+    ],
+    "cost": "Very low startup cost",
+    "found": "Jesse Cunningham",
+    "what": "You run a food/recipe blog where the recipe text and food images are produced with AI, then promote each recipe through Pinterest pins with tall images. You pick which recipes to make by looking up what large recipe sites already rank for on Pinterest. Income comes mainly from display ads shown to visitors, plus Amazon-style affiliate links and possibly digital downloads.",
+    "pitch": "He points to large recipe sites such as allrecipes.com (cited at over 400 million monthly visitors and roughly $27 million a year) and loveandlemons.com (cited at $10-20 million a year) and argues a newcomer only needs a small slice of that traffic. His specific method is to type a big competitor into PinClicks, sort its Pinterest keywords by search volume (for example 'bacon recipes' at about 700,000 monthly searches, 'lemon curd' at over 100,000), then generate a matching recipe post in Content Goblin with a tall lead image and publish it. He says an AI recipe post with images costs under about 5 cents to produce, calls Pinterest 'easy mode' because it favors new accounts compared with Google, and shows reader comments on his own AI recipes saying they turned out well.",
+    "best": "People comfortable running a WordPress-style blog and a Pinterest account who are willing to publish at volume and wait months for ad income to build. Some interest in cooking helps, since recipe quality affects whether readers return.",
+    "truth": "The revenue figures for the big sites are third-party estimates from an X thread and SEO tools, and he admits nobody knows their real earnings; they say little about what a new site would make. Recipe blogging is crowded, and AI-generated recipes that have never been tested carry a real risk of failures (he notes one biscotti recipe drew complaints of being too dry), which can hurt reader trust and Pinterest engagement. Display ad networks that pay well usually require meaningful monthly traffic before accepting a site, so early income is likely small. He demonstrates Content Goblin throughout and mentions his Maverick Forum community, both of which are tools or paid groups he promotes, so the 'easy' framing should be weighed accordingly.",
+    "url": "https://www.youtube.com/watch?v=biCG55PeC4g",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2025-01-23"
   },
   {
     "id": "small-engine-repair-shop",
@@ -4773,6 +4944,31 @@
     "truth": "Commercial ice machine leasing with bundled maintenance is a real, established equipment-service model in the food service industry. Pricing figures are general industry ranges, not a specific verified case study.",
     "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
     "published": "2026-07-23"
+  },
+  {
+    "id": "ai-microsites-ai-phone-answering-high-ticket-home-services",
+    "name": "AI-built single-service microsites for high-ticket home services, with AI call answering and call routing",
+    "category": "Local & professional services",
+    "tags": [
+      "rank and rent",
+      "exact match domain",
+      "lead generation",
+      "AI phone agent",
+      "home services leads",
+      "Claude Code"
+    ],
+    "cost": "Low startup cost",
+    "found": "Jesse Cunningham",
+    "what": "You build a 40-50 page website for one service in one city (for example custom pool builders in Orlando) on an exact-match domain, rank it in Google's organic results, and capture the phone calls it generates. The calls either go to an AI agent that answers and qualifies them 24/7 or are forwarded straight to a contractor, and all calls are recorded and transcribed. You get paid by selling leads per call, renting the site for a flat monthly fee, lease-to-own deals, or selling the site outright.",
+    "pitch": "The presenter argues local search is one of the last areas Google has not crushed: it runs on a smaller, less competitive index, AI-written content is not held back, and exact-match domains still help, citing his own hundreds of sites and an ongoing community ranking contest. He deliberately skips Google Business Profiles (now hard to get approved for rank-and-rent sites, requiring video verification) and targets terms where organic blue links rather than the map pack dominate page one. His vertical criteria are jobs worth $500 and ideally $1,000-2,000+, urgent or one-time needs, home services with phone intent, and suburbs with 10,000-20,000+ people within 20 miles rather than big metros. He says a site costs under $12-15 to build with his Claude Code blueprint and that first calls typically arrive within 60-90 days, though sometimes sooner or later.",
+    "best": "People comfortable with SEO and testing who can wait a couple of months for rankings and are willing to deal with contractors and phone-routing setups.",
+    "truth": "Rank-and-rent lead generation is a real, long-standing model, and the presenter's specific choices (avoiding the map pack, picking high-ticket urgent niches, smaller suburbs) are sensible ways to reduce competition. The build cost he quotes leaves out recurring costs he acknowledges in passing: a phone number per site, an AI answering service or call tracking each month, and domains. Ranking claims and his 'six figures a month' income are his own and unaudited, and he admits a commenter's point that Google has tightened rules on this kind of site; results can vanish with an algorithm update. Finding a contractor willing to pay per lead or rent is a sales job in itself. The video promotes his paid Rank Expand Academy (7-day free trial), where the microsite blueprint lives.",
+    "url": "https://www.youtube.com/watch?v=YbSIMRQRwmw",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-09-23"
   },
   {
     "id": "fire-extinguisher-inspection-route",
@@ -5575,6 +5771,31 @@
     "truth": "Cintas is a real, massive, publicly-known company validating this exact business model at scale. No specific small-operator case study or figures are given for someone starting from scratch in this niche.",
     "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
     "published": "2026-07-23"
+  },
+  {
+    "id": "best-of-state-directory-badge-backlink-outreach",
+    "name": "AI-built \"best of\" state directory for one trade, using award badges for backlinks and featured listings",
+    "category": "Marketing & content",
+    "tags": [
+      "local directory",
+      "best of list",
+      "backlink badge",
+      "featured listings",
+      "lead routing",
+      "SEO outreach"
+    ],
+    "cost": "Low startup cost",
+    "found": "Jesse Cunningham",
+    "what": "You build a directory website listing every real business in one trade across one state, such as a 'Best of Florida Pools 2026' list, using scraped and cleaned Google Maps data. You then email each listed business a 'you made the list' badge to embed on their site, which links back to your directory. The directory earns money from paid featured listings, routing its incoming calls to paying businesses, and as a door-opener for selling other services.",
+    "pitch": "The presenter says businesses agree to post the badge because they now know search and AI-answer visibility (what he calls GEO) leans heavily on 'best of' lists, so the outreach email is essentially just the badge. Each embed is a backlink that raises the directory's domain rating. Revenue options he lists include featured placement at the top of city pages with more photos, routed leads, and using the directory as credibility when pitching. His suggested timeline: register domains and test niches in the first two weeks, scrape and enrich every business in the state by day 30, publish and send badge emails in month two. He stresses keeping it to one vertical and one region because hyperfocused directories work better than national ones.",
+    "best": "People who already run or plan local lead-gen sites and want an owned asset that builds links and relationships with local businesses.",
+    "truth": "Badge-for-link outreach is a known SEO tactic and is more likely to get responses than a cold sales pitch, so the mechanic is credible. Directory revenue is usually small on its own; the presenter himself calls it 'small, steady, and very strategic' rather than a primary income. He also says his academy is still building out the directory module, so this part is less proven in his own system than his microsite material. Scraping business data and presenting it as a 'best of' award raises fairness and accuracy questions if no real vetting happens, and Google can discount links obtained this way. He promotes his paid Rank Expand Academy throughout.",
+    "url": "https://www.youtube.com/watch?v=YbSIMRQRwmw",
+    "situation_tags": [
+      "Strictly in-home",
+      "Home office, client-facing"
+    ],
+    "published": "2026-09-23"
   },
   {
     "id": "truck-driver-recruiting-placement",
@@ -6708,6 +6929,30 @@
       "Phone/sales-based"
     ],
     "published": "2026-08-13"
+  },
+  {
+    "id": "ai-website-rebuild-local-seo-retainer-contractors",
+    "name": "AI-coded website rebuilds plus local SEO retainers for contractors, pitched with owned lead sites",
+    "category": "Local & professional services",
+    "tags": [
+      "website for contractors",
+      "local SEO retainer",
+      "web design agency",
+      "monthly website lease",
+      "AI website builder"
+    ],
+    "cost": "Near-zero cost",
+    "found": "Jesse Cunningham",
+    "what": "You rebuild a local contractor's website with an AI-coded (non-WordPress) structure and do their local SEO, profiles, and citations, charging a setup fee plus a monthly retainer, or offering the site 'free' for a monthly lease fee. The selling angle is that you already own ranking lead sites and a directory in their trade and area, so you can show call numbers and offer a featured listing and overflow leads as part of the deal.",
+    "pitch": "The presenter says most local businesses structure their websites poorly, which is the main reason they rank badly, and that a site that looks better than most WordPress builds costs under $15 to make with AI, while contractors will still pay hundreds per month. He expects websites to be commoditized so clients will not pay tens of thousands, but monthly fees still leave a large margin. A beginner might take eight hours on the first build. His sample pitch is 'one of our pool sites around Austin gets 40 calls a month, want to see the numbers?', arguing that bringing real leads earns attention. He frames retainers and per-lead deals as the fastest cash, while noting clients eventually leave once their business is doing well.",
+    "best": "People who can sell to local business owners and handle ongoing client work, especially those willing to build some proof sites first.",
+    "truth": "Selling websites and local SEO to small contractors is a proven service business, and leading with real call data is a strong pitch if you actually have it. The pitch as described depends on first owning ranking sites in the client's area, which takes months and is not guaranteed. The $15 build cost excludes your time, hosting, and ongoing maintenance, and a non-WordPress build can make clients dependent on you for every edit, which the presenter partly acknowledges. The '40 calls a month' figure is an illustrative script, not a verified result. He promotes his paid Rank Expand Academy, including an Upwork module he says helped a member make $60,000 this year, an unaudited claim.",
+    "url": "https://www.youtube.com/watch?v=YbSIMRQRwmw",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ],
+    "published": "2026-09-23"
   },
   {
     "id": "free-lead-magnet-websites-whitelabel-upsells",
@@ -8377,6 +8622,31 @@
       "E-commerce / fulfillment"
     ],
     "published": "2026-08-03"
+  },
+  {
+    "id": "rank-and-rent-local-microsites-light-serp-profile-stacking",
+    "name": "Rank-and-rent local service microsites aimed at low-competition searches, boosted with free profile stacking",
+    "category": "Marketing & content",
+    "tags": [
+      "rank and rent",
+      "local SEO",
+      "exact match domain",
+      "lead generation website",
+      "AI website builder",
+      "citation profiles"
+    ],
+    "cost": "Near-zero cost",
+    "found": "Jesse Cunningham",
+    "what": "You build a small AI-assisted website for a local service in a specific town (for example, a service-plus-city exact match domain), get it ranking in Google's regular results, and then rent the site or sell its leads to a local business that does the work. The same method can be used by a local business owner on their own website. The work is choosing the search term, building the site, setting up supporting profiles, and tracking rankings.",
+    "pitch": "Cunningham says he builds one of these sites in 10 to 15 minutes for about $12, while local businesses often pay thousands for theirs. His evidence is an ongoing contest in his community where about 50 entrants built fresh-domain microsites for two secret search terms; after six days, 21 sites were indexed in the top 50 and the best one on the easier search was ninth on page one. The video's distinct lesson is to check how crowded the Google results are before building: on the easier search a well-built site was enough, but on the harder one, profiles on Houzz, Pinterest, Facebook and Manta, plus established local businesses, outranked every new site. His recipe is to put the exact search term in the domain, title, heading and first paragraph, publish the full site (homepage, service pages, town pages, FAQ, estimates) at once, create matching listings on free platforms the same week, and seek a few relevant local links rather than bought spam links.",
+    "best": "People comfortable with basic website building and patient keyword research who can find and sell to local service businesses, or local business owners who want to improve their own site's ranking without paying an agency.",
+    "truth": "The site-structure and on-page advice is standard local SEO practice and the low build cost is plausible. The contest results are only six days old and measure rankings, not money; the video shows no rented sites, lead sales or income, and Cunningham himself notes early rankings are volatile and that the harder search was not cracked. Earning from this depends on finding a business willing to pay monthly, which the video does not cover, and on choosing niches where map listings, directories and big platforms do not dominate, which limits the pool of good targets. The video is a promotion for his paid Rank Expander Academy community (7-day free trial), including a downloadable site-building template for AI coding tools.",
+    "url": "https://www.youtube.com/watch?v=AEMcS82vjJs",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-09-24"
   },
   {
     "id": "whitelabel-saas-clone-birdeye-rebilling",
@@ -11949,27 +12219,29 @@
     "published": "2026-09-02"
   },
   {
-    "id": "local-seo-microsite-rank-rent-ai-blueprint",
-    "name": "Local SEO microsite / rank-and-rent network using an AI coding blueprint",
-    "category": "Marketing & content",
+    "id": "standalone-service-city-lead-microsites-at-99-month",
+    "name": "Standalone service-and-city lead microsites rented to contractors at about $99 a month each",
+    "category": "Local & professional services",
     "tags": [
-      "local SEO",
       "rank and rent",
-      "AI tools",
-      "lead generation"
+      "local lead generation",
+      "microsites",
+      "local SEO",
+      "AI phone answering",
+      "contractor leads"
     ],
-    "cost": "Very low startup cost (roughly $10 in domain cost plus ~$2/month hosting per site; AI coding tool subscription optional)",
+    "cost": "Low startup cost",
     "found": "Jesse Cunningham",
-    "what": "Building a network of dozens of small, single-service-page local-SEO microsites targeting narrow, low-competition service-plus-location combinations in the suburbs around a city, then routing calls through an AI phone agent and monetizing via revenue-share or flat-fee lead sales to local service businesses.",
-    "pitch": "The presenter runs a paid community providing a reusable site blueprint that's fed directly to an AI coding tool to auto-generate a full 40 to 50 page exact-match-domain website with almost no manual work. Core strategy: pick underserved suburb-level niches, avoiding city-center searches with a Google map pack which signal too much competition, register a cheap exact-match domain, let the site rank organically over 3 to 6 months without connecting it to Google Search Console, wire an AI voice agent to answer the phone 24/7, then monetize via revenue share, flat per-lead fees, or selling a bundle of built sites to a business owner outright.",
-    "best": "Someone patient enough to wait months for organic ranking rather than needing fast income, and willing to build and manage a network of many small sites rather than one polished website.",
-    "truth": "The presenter's own numbers, six figures a month, sites costing under $10 to build, $150 or more per qualified lead, are self-reported without account verification shown on screen. Worth noting: in a companion live-build video, the AI-generated site included fabricated customer testimonials and a false licensing claim that the presenter himself flagged as mistakes needing correction before real use, a useful reminder that AI-generated site copy needs a real editing pass, especially anything implying licensing or certifications the business doesn't actually hold. The video ends promoting the presenter's own paid community with a 7-day trial.",
-    "url": "https://www.youtube.com/watch?v=KaJnoYdJo7U",
+    "what": "You build many small, separate websites, each targeting one narrow local service in one city (for example sewer line replacement in Dallas), get them ranking on Google, and route the phone calls they generate to a local contractor. The contractor pays you a monthly fee for the leads, or you sell the leads per call. Calls are answered and qualified by an AI phone agent around the clock before being passed on.",
+    "pitch": "Cunningham argues these sites are not the things Google penalizes: unlike doorway pages they are the actual destination where the visitor gets an answer and calls, unlike private blog networks they never link to each other, and unlike scaled content abuse each one is focused on a single service and location. He says each site should be built around one sub-niche service with four to six related services plus many neighborhood and city service-area pages, which he calls force-feeding Google a service and a place. His stated goal is $99 per month per site across 1,000 sites, and he points to community members claiming 300-plus leads over a long weekend and six sites ranking on page one for one search. He urges building quickly now because AI token costs are, in his view, subsidized and could rise roughly tenfold.",
+    "best": "Suits someone comfortable with local SEO and outreach to tradespeople who can manage many small sites and the contractor relationships behind them.",
+    "truth": "The rank-and-rent model is real and long-established, and his compliance guidelines (unique standalone sites, no interlinking, a real business answering the phone) are reasonable risk reduction, but they do not guarantee Google will keep ranking hundreds of near-identical-format local sites; ranking, and therefore income, can disappear with an algorithm update. The $99-per-site target and the community testimonials are his own and unaudited, and the video shows no actual revenue from rented sites. Making money requires finding and keeping contractors willing to pay, which is sales work the video barely covers, and the AI phone agent adds an ongoing cost. The video is largely a promotion for his paid Rank X Bean Academy (7-day free trial), whose site-structure template file is offered only to members.",
+    "url": "https://www.youtube.com/watch?v=mliyNXNFwpk",
     "situation_tags": [
       "Strictly in-home",
       "Phone/sales-based"
     ],
-    "published": "2026-07-15"
+    "published": "2026-09-04"
   },
   {
     "id": "two-tier-filter-product-high-touch-upsell",
