@@ -122,6 +122,7 @@ fetch('ideas.json')
   .then(r => r.json())
   .then(data => {
     ALL_IDEAS = data;
+    buildVideoCounts(data);
     SHUFFLED_IDEAS = shuffleWithSeed(ALL_IDEAS, dailySeed());
     updateDbStats(data);
     render();
@@ -139,6 +140,46 @@ fetch('page-index.json')
     if (ALL_IDEAS.length) render();
   })
   .catch(() => {});
+
+// ---------- Source video grouping ----------
+// Many videos are list-style ("11 side hustles…") and produce several
+// entries. Counting entries per video lets each card say "One of N ideas
+// covered in this video", so a visitor who clicks through isn't surprised
+// to land on a video whose title doesn't match the idea they picked.
+// Computed on load, so it stays correct as entries are added or removed.
+
+const videoCounts = new Map();
+
+// Same video can appear as watch?v=, youtu.be/, with &t= or &list= tails —
+// reduce every form to the 11-character video ID. Non-YouTube links are
+// used as-is.
+function videoKey(url) {
+  const m = (url || '').match(/(?:[?&]v=|youtu\.be\/|\/shorts\/)([A-Za-z0-9_-]{11})/);
+  return m ? m[1] : (url || '');
+}
+
+function buildVideoCounts(data) {
+  videoCounts.clear();
+  data.forEach(idea => {
+    const k = videoKey(idea.url);
+    videoCounts.set(k, (videoCounts.get(k) || 0) + 1);
+  });
+}
+
+function videoIdeaCount(idea) {
+  return videoCounts.get(videoKey(idea.url)) || 1;
+}
+
+function sourceLinkHtml(idea) {
+  const label = idea.video_title
+    ? escapeHtml(idea.video_title)
+    : (/youtu/.test(idea.url || '') ? 'Watch the video' : 'View the source');
+  const count = videoIdeaCount(idea);
+  const note = count > 1
+    ? `<p class="source-note">One of ${count} ideas covered in this video</p>`
+    : '';
+  return `<p class="card-text">${escapeHtml(idea.found)} &middot; <a class="source-link" href="${escapeAttr(idea.url)}" target="_blank" rel="noopener">${label}&nbsp;&#8599;</a></p>${note}`;
+}
 
 // Fills in the live gig/producer counts in the tool-section's db-links-row.
 // Computed from the same data the grid renders from, so it can never drift
@@ -212,7 +253,9 @@ function clearAllSaved() {
 // as feedback for the "nothing changed" case (e.g. a zero-match query),
 // which previously looked identical to the search not working at all.
 
-const SEARCH_SPINNER_MS = 3500;
+// Shortened from 3500ms (Oct 2026): the actual search is instant; this is
+// only long enough for the spinner to register as "your search ran".
+const SEARCH_SPINNER_MS = 600;
 
 const searchInputEl = document.getElementById('search-input');
 const clearSearchBtn = document.getElementById('clear-search-btn');
@@ -592,7 +635,7 @@ function buildCard(idea) {
     <div class="card-details" ${isExpanded ? '' : 'hidden'}>
       <div class="card-section">
         <div class="card-section-label">Source</div>
-        <p class="card-text">${escapeHtml(idea.found)} &mdash; <a class="source-link" href="${escapeAttr(idea.url)}" target="_blank" rel="noopener">${escapeHtml(idea.url)}</a></p>
+        ${sourceLinkHtml(idea)}
       </div>
 
       <div class="card-section">
@@ -675,7 +718,7 @@ function buildCard(idea) {
 }
 
 function formatGigText(idea) {
-  return `${toTitleCase(idea.name)}\n${idea.category} | ${idea.cost}\nSource: ${idea.found} — ${idea.url}\n\nWhat It Is\n${idea.what}\n\nThe Pitch\n${idea.pitch}\n\nBest For\n${idea.best}\n\nThe Truth\n${idea.truth}\n`;
+  return `${toTitleCase(idea.name)}\n${idea.category} | ${idea.cost}\nSource: ${idea.found}${idea.video_title ? ` · "${idea.video_title}"` : ''} — ${idea.url}${videoIdeaCount(idea) > 1 ? ` (one of ${videoIdeaCount(idea)} ideas in this video)` : ''}\n\nWhat It Is\n${idea.what}\n\nThe Pitch\n${idea.pitch}\n\nBest For\n${idea.best}\n\nThe Truth\n${idea.truth}\n`;
 }
 
 function downloadSavedGigs() {

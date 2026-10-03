@@ -35,7 +35,7 @@ import shutil
 
 SITE = "https://sidehustleintel.org"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STYLE_VERSION = "20260928a"
+STYLE_VERSION = "20261003a"
 PAGE_CSS_VERSION = "2"
 CATEGORY_ORDER = [
     "AI & automation", "Local & professional services", "E-commerce",
@@ -109,6 +109,14 @@ def by_date_desc(items):
 
 # ---------- site model ----------
 
+def video_key(url):
+    """Same video can appear as watch?v=, youtu.be/, with &t= or &list= tails;
+    reduce each to the 11-character video ID (non-YouTube links as-is).
+    Mirrors videoKey() in app.js."""
+    m = re.search(r'(?:[?&]v=|youtu\.be/|/shorts/)([A-Za-z0-9_-]{11})', url or '')
+    return m.group(1) if m else (url or '')
+
+
 class Site:
     def __init__(self, ideas, release):
         self.all = ideas
@@ -126,6 +134,15 @@ class Site:
             counts[x['found']] = counts.get(x['found'], 0) + 1
         self.creators = sorted(c for c, n in counts.items() if c and n >= 2)
         self.creator_set = set(self.creators)
+        # Ideas per source video (counted across ALL ideas, released or not),
+        # so list-style videos can say "One of N ideas covered in this video".
+        self.video_counts = {}
+        for x in ideas:
+            k = video_key(x.get('url'))
+            self.video_counts[k] = self.video_counts.get(k, 0) + 1
+
+    def video_count(self, idea):
+        return self.video_counts.get(video_key(idea.get('url')), 1)
 
     def total(self):
         return len(self.all)
@@ -384,6 +401,14 @@ def idea_page(idea, site, ctx):
     creator_name = (f'<a href="{ctx.creator(idea["found"])}" style="color:inherit">{esc(idea["found"])}</a>'
                     if has_cp else esc(idea['found']))
 
+    if idea.get('video_title'):
+        source_label = esc(idea['video_title'])
+    else:
+        source_label = 'Watch the video' if 'youtu' in (idea.get('url') or '') else 'View the source'
+    n_in_video = site.video_count(idea)
+    source_note = (f'\n        <p class="source-note">One of {n_in_video} ideas covered in this video</p>'
+                   if n_in_video > 1 else '')
+
     fb = 'https://www.facebook.com/sharer/sharer.php?u=' + url
     main = f"""<main class="idea-page">
   {crumbs(ctx, (idea['category'], ctx.cat(idea['category'])))}
@@ -407,7 +432,7 @@ def idea_page(idea, site, ctx):
     <div class="idea-body">
       <div class="card-section">
         <div class="card-section-label">Source</div>
-        <p class="card-text">{esc(idea['found'])} &mdash; <a href="{esc(idea['url'])}" target="_blank" rel="noopener">{esc(idea['url'])}</a></p>
+        <p class="card-text">{esc(idea['found'])} &middot; <a class="source-link" href="{esc(idea['url'])}" target="_blank" rel="noopener">{source_label}&nbsp;&#8599;</a></p>{source_note}
       </div>
       <div class="card-section">
         <div class="card-section-label">What It Is</div>

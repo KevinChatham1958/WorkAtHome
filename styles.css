@@ -516,6 +516,18 @@ a { color: inherit; }
   word-break: break-all;
 }
 .card-text a:hover { text-decoration: underline; }
+/* Source link now shows the video title, not a raw URL — wrap at word
+   boundaries instead of the break-all used for bare URLs. */
+.card-text a.source-link {
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+.source-note {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--text-muted);
+  margin: 0.25rem 0 0;
+}
 
 /* ---------- Action row: save + copy (top-right of card) ---------- */
 .card-actions {
