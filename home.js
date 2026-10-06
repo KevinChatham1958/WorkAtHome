@@ -236,7 +236,7 @@ function cardHtml(i) {
       <div><h4>Best for</h4><p>${esc(i.best)}</p></div>
       <div><h4>The truth</h4><p>${esc(i.truth)}</p></div>
       <div><h4>Source</h4><p>${esc(i.found)} · <a class="source-link" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(srcLabel)}&nbsp;&#8599;</a></p>${n > 1 ? `<p class="source-note">One of ${n} ideas covered in this video</p>` : ''}</div>
-      <div class="details-foot"><button type="button" class="small-btn" data-act="copy">Copy this gig</button>${pageIds.has(i.id) ? `<a href="ideas/${encodeURIComponent(i.id)}/">Open on its own page to share or bookmark &rarr;</a>` : ''}</div>
+      <div class="details-foot"><button type="button" class="small-btn" data-act="copy">Copy this entire gig</button>${pageIds.has(i.id) ? `<a href="ideas/${encodeURIComponent(i.id)}/">Open on its own page to share or bookmark &rarr;</a>` : ''}</div>
     </div>` : ''}
     <div class="card-foot"><button type="button" class="expand-link" data-act="details" aria-expanded="${isOpen}">${isOpen ? 'Show less <span aria-hidden="true">▴</span>' : 'Show full details <span aria-hidden="true">▾</span>'}</button></div>
   </article>`;
