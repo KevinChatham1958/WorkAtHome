@@ -130,6 +130,10 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
   .details { margin-left: 0; }
 }
 
+.card-foot { display: flex; justify-content: flex-end; margin-top: 6px; }
+.expand-link { background: none; border: 0; padding: 4px 2px; color: var(--link); font-size: .9rem; font-weight: 600; cursor: pointer; }
+.expand-link:hover { text-decoration: underline; text-underline-offset: 2px; }
+
 .more { display: flex; justify-content: center; padding-bottom: 40px; }
 .more[hidden] { display: none; }
 .more button { border: 1px solid var(--line-strong); background: var(--surface); border-radius: 8px; padding: 10px 22px; font-weight: 600; cursor: pointer; }
