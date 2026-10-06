@@ -4,12 +4,31 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      AUTH: "cpanel ${{ secrets.CPANEL_USER }}:${{ secrets.CPANEL_TOKEN }}"
+      BASE: ${{ secrets.CPANEL_URL }}
+      REPO_ROOT: /home/solajveu/repositories/sidehustleintel
     steps:
-      - name: Trigger cPanel Git Deployment
+      # Step 1: make the server's copy of the repo pull the latest commit.
+      # Step 2: run the deployment (.cpanel.yml copies the files into the live site folder).
+      # Each step fails the run, and prints cPanel's error, if cPanel says it didn't work.
+      - name: Pull latest commit on the server
         run: |
-          curl -H "Authorization: cpanel ${{ secrets.CPANEL_USER }}:${{ secrets.CPANEL_TOKEN }}" \
-          "${{ secrets.CPANEL_URL }}/execute/VersionControl/update?repository_root=/home/solajveu/repositories/sidehustleintel&deploy=1"
+          set -euo pipefail
+          resp=$(curl -sS --fail-with-body -H "Authorization: $AUTH" \
+            "$BASE/execute/VersionControl/update?repository_root=$REPO_ROOT&branch=main") || { echo "cPanel request failed: $resp"; exit 1; }
+          echo "$resp" | jq '{status, errors, messages}'
+          [ "$(echo "$resp" | jq -r .status)" = "1" ] || { echo "::error::cPanel could not pull the latest commit"; exit 1; }
+
+      - name: Deploy to the live site
+        run: |
+          set -euo pipefail
+          resp=$(curl -sS --fail-with-body -H "Authorization: $AUTH" \
+            "$BASE/execute/VersionControlDeployment/create?repository_root=$REPO_ROOT") || { echo "cPanel request failed: $resp"; exit 1; }
+          echo "$resp" | jq '{status, errors, messages}'
+          [ "$(echo "$resp" | jq -r .status)" = "1" ] || { echo "::error::cPanel could not deploy"; exit 1; }
