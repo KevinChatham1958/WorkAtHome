@@ -197,6 +197,12 @@ function toTitleCase(str) {
     return lower.charAt(0).toUpperCase() + lower.slice(1);
   }).join(' ');
 }
+// First sentence of "What it is", shown as a one-line summary (the line is cut with … if long).
+function oneLine(text) {
+  const t = String(text || '').trim();
+  const m = t.match(/^.+?[.!?](?=\s|$)/);
+  return m ? m[0] : t;
+}
 function fmtDate(d) {
   if (!d) return '';
   const dt = new Date(d + 'T00:00:00Z');
@@ -211,10 +217,11 @@ function cardHtml(i) {
   const srcLabel = i.video_title || (/youtu/.test(i.url || '') ? 'Watch the video' : 'View the source');
   return `<article class="card" data-id="${esc(i.id)}">
     <div class="card-top">
-      <img class="avatar" src="assets/avatars/avatar-${esc(slugifyProducer(i.found))}.jpg" alt="" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+      <img class="avatar card-toggle" data-act="details" src="assets/avatars/avatar-${esc(slugifyProducer(i.found))}.jpg" alt="" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false">
       <div class="avatar-ph" aria-hidden="true" hidden>${esc(initials)}</div>
-      <div class="card-body">
+      <div class="card-body card-toggle" data-act="details" role="button" tabindex="0" aria-expanded="${isOpen}">
         <h3 class="card-title">${esc(toTitleCase(i.name || ''))}</h3>
+        ${isOpen ? '' : `<p class="card-desc">${esc(oneLine(i.what))}</p>`}
         <p class="card-meta"><span class="cat">${esc(i.category)}</span> · ${esc(i.cost)}</p>
         <p class="card-src">${esc(i.found)}${date ? ' · ' + esc(date) : ''}</p>
       </div>
@@ -251,7 +258,7 @@ function render() {
   $('empty').textContent = st.savedOnly ? 'No saved gigs yet. Tap the heart on any gig to save it.' : 'No gigs match.';
   $('more').hidden = list.length <= st.shown;
   $('q-clear').hidden = !$('q').value;
-  $('saved-n').textContent = saved.size;
+  updateSavedUI();
   updateSameProducerNote();
 
   const back = $('back-all'); if (back) back.onclick = () => { st.savedOnly = false; reset(); };
@@ -269,6 +276,13 @@ function updateSameProducerNote() {
     note.hidden = false;
     note.textContent = `${basis.length} entr${basis.length === 1 ? 'y' : 'ies'} from ${who} in our database — not their full upload history.`;
   } else note.hidden = true;
+}
+
+function updateSavedUI() {
+  $('saved-n').textContent = saved.size;
+  const none = saved.size === 0;
+  $('s-view').disabled = $('s-download').disabled = $('s-clear').disabled = none;
+  $('s-view').textContent = st.savedOnly ? 'Showing saved' : 'Show saved';
 }
 
 function buildChips(target, defs) {
@@ -348,7 +362,7 @@ function wire() {
       persistSaved();
       if (st.savedOnly) { render(); return; }
       card.outerHTML = cardHtml(idea);
-      $('saved-n').textContent = saved.size;
+      updateSavedUI();
     } else if (act === 'details') {
       const opening = !st.open.has(id);
       opening ? st.open.add(id) : st.open.delete(id);
@@ -361,21 +375,15 @@ function wire() {
     }
   });
 
-  const menu = $('saved-menu'), sb = $('saved-btn');
-  const closeMenu = () => { menu.hidden = true; sb.setAttribute('aria-expanded', 'false'); $('m-confirm').hidden = true; };
-  sb.onclick = e => {
-    e.stopPropagation();
-    const open = menu.hidden;
-    menu.hidden = !open; sb.setAttribute('aria-expanded', String(open)); $('m-confirm').hidden = true;
-    $('m-view').disabled = $('m-download').disabled = $('m-clear').disabled = saved.size === 0;
-  };
-  document.addEventListener('click', e => { if (!menu.hidden && !e.target.closest('.saved-wrap')) closeMenu(); });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(); });
-  $('m-view').onclick = () => { st.savedOnly = true; closeMenu(); reset(); window.scrollTo({ top: 0 }); };
-  $('m-download').onclick = () => { closeMenu(); downloadSaved(); };
-  $('m-clear').onclick = () => { $('m-confirm').hidden = false; };
-  $('m-cancel').onclick = () => { $('m-confirm').hidden = true; };
-  $('m-yes').onclick = () => { saved.clear(); persistSaved(); closeMenu(); render(); toast('All saved gigs deselected'); };
+  $('s-view').onclick = () => { st.savedOnly = true; reset(); window.scrollTo({ top: 0 }); };
+  $('s-download').onclick = downloadSaved;
+  $('s-clear').onclick = () => { $('s-confirm').hidden = false; $('s-clear').hidden = true; };
+  $('s-no').onclick = () => { $('s-confirm').hidden = true; $('s-clear').hidden = false; };
+  $('s-yes').onclick = () => { saved.clear(); persistSaved(); $('s-confirm').hidden = true; $('s-clear').hidden = false; render(); toast('All saved gigs deselected'); };
+  // Enter/Space on a focused card title opens it, like a click.
+  $('list').addEventListener('keydown', e => {
+    if ((e.key === 'Enter' || e.key === ' ') && e.target.matches('.card-body[data-act]')) { e.preventDefault(); e.target.click(); }
+  });
 }
 
 wire();
