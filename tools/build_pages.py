@@ -25,6 +25,7 @@ Usage:
       # self-contained single page (CSS inlined, images embedded) for review
 """
 import argparse
+from urllib.parse import quote
 import base64
 import datetime
 import html
@@ -36,7 +37,7 @@ import shutil
 SITE = "https://sidehustleintel.org"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STYLE_VERSION = "20261003a"
-PAGE_CSS_VERSION = "2"
+PAGE_CSS_VERSION = "3"
 CATEGORY_ORDER = [
     "AI & automation", "Local & professional services", "E-commerce",
     "Marketing & content", "Physical & print products",
@@ -132,7 +133,14 @@ class Site:
         counts = {}
         for x in self.pages:
             counts[x['found']] = counts.get(x['found'], 0) + 1
-        self.creators = sorted(c for c, n in counts.items() if c and n >= 2)
+        # Featured creators (outreach targets, listed in pages-release.json)
+        # always get a page, and it covers ALL their ideas, not just released ones.
+        all_names = {x['found'] for x in ideas}
+        self.featured = {c for c in release.get('featured_creators', []) if c in all_names}
+        missing = set(release.get('featured_creators', [])) - all_names
+        if missing:
+            raise SystemExit(f'featured_creators not found in ideas.json: {sorted(missing)}')
+        self.creators = sorted({c for c, n in counts.items() if c and n >= 2} | self.featured)
         self.creator_set = set(self.creators)
         # Ideas per source video (counted across ALL ideas, released or not),
         # so list-style videos can say "One of N ideas covered in this video".
@@ -153,6 +161,9 @@ class Site:
 
     def by_creator(self, name):
         return [x for x in self.pages if x['found'] == name]
+
+    def by_creator_all(self, name):
+        return [x for x in self.all if x['found'] == name]
 
     def related(self, idea, k=5):
         """Other released ideas in the same category, most shared topic tags
@@ -215,6 +226,19 @@ PAGE_CSS = """
 .footer-cats { margin-top: 10px; font-size: 0.8rem; line-height: 1.9; }
 .footer-cats a { color: var(--text-muted); text-decoration: none; margin: 0 6px; white-space: nowrap; }
 .footer-cats a:hover { text-decoration: underline; }
+.fc-stats { display: flex; flex-wrap: wrap; gap: 12px; margin: 18px 0 8px; }
+.fc-stats div { flex: 1 1 140px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+.fc-stats strong { display: block; font-family: var(--font-display); font-size: 2rem; line-height: 1; color: var(--text-primary); }
+.fc-stats span { display: block; margin-top: 4px; color: var(--text-muted); font-size: 0.88rem; }
+.fc-cta { margin: 18px 0 30px; }
+.btn-big { font-size: 1rem; padding: 12px 22px; }
+.fc-cats { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0 0 28px; padding: 0; }
+.fc-cats li { font-size: 0.88rem; padding: 5px 12px; border: 1px solid var(--border-strong); border-radius: 999px; background: var(--bg-card); }
+.fc-cats a { color: var(--text-primary); text-decoration: none; }
+.fc-cats a:hover { color: var(--link); text-decoration: underline; }
+.fc-cats span { color: var(--text-muted); font-weight: 600; margin-left: 4px; }
+.fc-note { color: var(--text-muted); font-size: 0.9rem; margin: -4px 0 6px; }
+.featured-creator h2 { margin-top: 8px; }
 @media (max-width: 560px) { .idea-page { padding: 16px 16px 48px; } .site-bar-inner { padding: 12px 16px; } }
 """
 
@@ -251,6 +275,14 @@ class Ctx:
 
     def creator(self, name):
         return f"{self.base}/creator/{slugify(name)}/"
+
+    def tool(self, query, open_id=None):
+        """Link into the home-page search tool with a search already run
+        (and optionally one gig opened and placed first)."""
+        q = f"?q={quote(query)}"
+        if open_id:
+            q += f"&open={quote(open_id)}"
+        return f"{self.base}/{q}"
 
     def img(self, rel, mime):
         if self.preview:
@@ -522,7 +554,82 @@ def category_page(cat, site, ctx):
 
 # ---------- creator page ----------
 
+def featured_creator_page(name, site, ctx):
+    """Full page for an outreach target: every idea of theirs in the database,
+    the videos they came from, and a way into the search tool."""
+    items = by_date_desc(site.by_creator_all(name))
+    url = f"{SITE}/creator/{slugify(name)}/"
+    n = len(items)
+    videos = {}
+    for x in items:
+        k = video_key(x.get('url'))
+        v = videos.setdefault(k, {'url': x['url'], 'title': x.get('video_title') or '', 'date': x.get('published') or '', 'n': 0})
+        v['n'] += 1
+    vids = sorted(videos.values(), key=lambda v: (v['date'], v['title']), reverse=True)
+    nv = len(vids)
+    cats = {}
+    for x in items:
+        cats[x['category']] = cats.get(x['category'], 0) + 1
+    cat_list = sorted(cats.items(), key=lambda kv: (-kv[1], kv[0]))
+    idea_w = 'idea' if n == 1 else 'ideas'
+    vid_w = 'video' if nv == 1 else 'videos'
+    title = f"Work-at-home ideas from {name}"
+    intro = (f"{n} work-at-home {idea_w} from {nv} of {name}'s {vid_w}. Each entry sums up the idea as the "
+             f"video presents it, adds our own take in The Truth, and links back to the original video.")
+    av = avatar_file(name)
+    avatar = f'<img class="card-avatar" src="{ctx.img(av, "image/jpeg")}" alt="{esc(name)}">' if av else ''
+    tool_all = ctx.tool(name)
+
+    def idea_href(x):
+        return ctx.idea(x) if x['id'] in site.page_ids else ctx.tool(name, x['id'])
+
+    def vid_li(v):
+        label = esc(v['title']) if v['title'] else ('Watch the video' if 'youtu' in v['url'] else 'View the source')
+        meta = ' &middot; '.join(p for p in [esc(fmt_date(v['date'])) if v['date'] else '',
+                                             f"{v['n']} {'idea' if v['n'] == 1 else 'ideas'}"] if p)
+        return (f'<li><a href="{esc(v["url"])}" target="_blank" rel="noopener">{label}&nbsp;&#8599;</a>'
+                f'<small>{meta}</small></li>')
+
+    def idea_li(x):
+        return (f'<li><a href="{idea_href(x)}">{esc(title_case(x["name"]))}</a>'
+                f'<small>{esc(x["category"])} &middot; {esc(x["cost"])}</small>'
+                f'<p>{esc(trim(x["what"], 180))}</p></li>')
+
+    stats = (f'<div class="fc-stats">'
+             f'<div><strong>{n}</strong><span>{idea_w} featured</span></div>'
+             f'<div><strong>{nv}</strong><span>{vid_w} covered</span></div>'
+             f'<div><strong>{len(cats)}</strong><span>{"category" if len(cats) == 1 else "categories"}</span></div>'
+             f'</div>')
+    cat_html = ''.join(f'<li><a href="{ctx.cat(c)}">{esc(c)}</a> <span>{k}</span></li>' for c, k in cat_list)
+    schema = [{
+        "@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": url,
+        "mainEntity": {"@type": "ItemList", "numberOfItems": n, "itemListElement": [
+            {"@type": "ListItem", "position": i + 1,
+             "url": (SITE + idea_href(x)) if not ctx.preview else idea_href(x), "name": title_case(x['name'])}
+            for i, x in enumerate(items)]},
+    }, breadcrumb_schema([("Home", SITE + "/"), (name, url)])]
+    main = f"""<main class="idea-page list-page featured-creator">
+  {crumbs(ctx, (name, None))}
+  <div class="list-head">{avatar}<h1>{esc(name)}</h1></div>
+  <p class="list-intro">{esc(intro)}</p>
+  {stats}
+  <p class="fc-cta"><a class="btn btn-primary btn-big" href="{tool_all}">See all {n} in the searchable tool &rarr;</a></p>
+  <h2>Where these ideas fall</h2>
+  <ul class="fc-cats">{cat_html}</ul>
+  <h2>Videos featured ({nv})</h2>
+  <p class="fc-note">Every idea on Side Hustle Intel links viewers to the video it came from.</p>
+  <ul class="link-list fc-videos">{''.join(vid_li(v) for v in vids)}</ul>
+  <h2>All {n} {idea_w}</h2>
+  <ul class="link-list">{''.join(idea_li(x) for x in items)}</ul>
+  {browse_all_box(ctx, site)}
+</main>"""
+    return shell(ctx, site, title=title, desc=trim(intro, 155), canonical=url,
+                 og_type='profile', schema=schema, main=main)
+
+
 def creator_page(name, site, ctx):
+    if name in site.featured:
+        return featured_creator_page(name, site, ctx)
     items = by_date_desc(site.by_creator(name))
     url = f"{SITE}/creator/{slugify(name)}/"
     n = len(items)

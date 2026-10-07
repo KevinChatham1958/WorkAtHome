@@ -39,7 +39,7 @@ const PAGE = 30;
 let ALL_IDEAS = [];
 let SHUFFLED = [];
 let pageIds = new Set();
-const st = { q: '', chips: new Set(), sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set() };
+const st = { q: '', chips: new Set(), sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set(), pin: null };
 let saved = new Set(loadSaved());
 let lastMatched = null; // genuine search matches, for the same-creator note
 
@@ -177,6 +177,11 @@ function results() {
   } else if (st.sort !== 'shuffle') {
     list = list.slice().sort((a, b) => compareByDate(a, b, st.sort));
   }
+  // A gig opened from a link (?open=<id>) stays first until the visitor changes anything.
+  if (st.pin) {
+    const k = list.findIndex(i => i.id === st.pin);
+    if (k > 0) list = [list[k], ...list.slice(0, k), ...list.slice(k + 1)];
+  }
   return list;
 }
 
@@ -265,7 +270,19 @@ function render() {
   const back = $('back-all'); if (back) back.onclick = () => { st.savedOnly = false; reset(); };
   const clr = $('clear-all'); if (clr) clr.onclick = () => { st.q = ''; $('q').value = ''; st.chips.clear(); syncChips(); reset(); };
 }
-function reset() { st.shown = PAGE; render(); }
+// Links from creator pages and outreach emails can open the tool with a
+// search already run (?q=Adam%20Enfroy) and one gig opened first (&open=<id>).
+function applyLinkParams() {
+  let p;
+  try { p = new URLSearchParams(location.search); } catch (e) { return; }
+  const q = (p.get('q') || '').trim();
+  const open = p.get('open');
+  if (q) { st.q = q; $('q').value = q; }
+  if (open && ALL_IDEAS.some(i => i.id === open)) { st.open.add(open); st.pin = open; }
+  if (q || open) track('link_landing', { search_term: q, idea_id: open || '' });
+}
+
+function reset() { st.pin = null; st.shown = PAGE; render(); }
 
 // A reminder that a creator search shows our sample, not their whole channel.
 function updateSameProducerNote() {
@@ -395,6 +412,7 @@ fetch('ideas.json')
     ALL_IDEAS = data;
     data.forEach(i => { const k = videoKey(i.url); videoCounts.set(k, (videoCounts.get(k) || 0) + 1); });
     SHUFFLED = shuffleWithSeed(data, dailySeed());
+    applyLinkParams();
     render();
   })
   .catch(err => { $('found').textContent = 'Couldn\'t load the gigs. Try refreshing.'; console.error(err); });
