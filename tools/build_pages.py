@@ -37,7 +37,7 @@ import shutil
 SITE = "https://sidehustleintel.org"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STYLE_VERSION = "20261003a"
-PAGE_CSS_VERSION = "3"
+PAGE_CSS_VERSION = "4"
 CATEGORY_ORDER = [
     "AI & automation", "Local & professional services", "E-commerce",
     "Marketing & content", "Physical & print products",
@@ -128,6 +128,8 @@ class Site:
             self.pages = [x for x in ideas if x['id'] in wanted]
         self.page_ids = {x['id'] for x in self.pages}
         self.intros = json.load(open(os.path.join(ROOT, 'tools', 'category_intros.json')))
+        pf = os.path.join(ROOT, 'tools', 'creator_profiles.json')
+        self.profiles = {k: v for k, v in json.load(open(pf)).items() if not k.startswith('_')} if os.path.exists(pf) else {}
         # A creator gets a page once they have at least two released ideas;
         # a one-item creator page would just repeat that idea's summary.
         counts = {}
@@ -237,6 +239,15 @@ PAGE_CSS = """
 .fc-cats a { color: var(--text-primary); text-decoration: none; }
 .fc-cats a:hover { color: var(--link); text-decoration: underline; }
 .fc-cats span { color: var(--text-muted); font-weight: 600; margin-left: 4px; }
+.fc-about { background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 4px 0 8px; }
+.fc-about h2 { margin: 0 0 6px !important; }
+.fc-facts { margin: 0; color: var(--text-muted); font-size: 0.92rem; }
+.fc-facts a { color: var(--link); font-weight: 600; text-decoration: none; }
+.fc-facts a:hover { text-decoration: underline; }
+.fc-quote { margin: 12px 0 0; padding: 2px 0 2px 14px; border-left: 3px solid var(--accent); }
+.fc-quote p { margin: 0; font-size: 1rem; line-height: 1.55; font-style: italic; color: var(--text-primary); }
+.fc-quote cite { display: block; margin-top: 4px; font-size: 0.82rem; font-style: normal; color: var(--text-faint); }
+.fc-asof { margin: 10px 0 0; font-size: 0.78rem; color: var(--text-faint); }
 .fc-note { color: var(--text-muted); font-size: 0.9rem; margin: -4px 0 6px; }
 .featured-creator h2 { margin-top: 8px; }
 @media (max-width: 560px) { .idea-page { padding: 16px 16px 48px; } .site-bar-inner { padding: 12px 16px; } }
@@ -574,8 +585,35 @@ def featured_creator_page(name, site, ctx):
     idea_w = 'idea' if n == 1 else 'ideas'
     vid_w = 'video' if nv == 1 else 'videos'
     title = f"Work-at-home ideas from {name}"
-    intro = (f"{n} work-at-home {idea_w} from {nv} of {name}'s {vid_w}. Each entry sums up the idea as the "
-             f"video presents it, adds our own take in The Truth, and links back to the original video.")
+    prof = site.profiles.get(name, {})
+    short = prof.get('short') or name
+    cv = prof.get('channel_videos')
+    his = prof.get('possessive', 'their')
+    if cv and cv >= nv:
+        has = f"{name} has {nv} of {his} {cv} YouTube videos in Side Hustle Intel"
+    else:
+        has = f"{name} has {nv} {vid_w} in Side Hustle Intel"
+    top = [c.lower() for c, _ in cat_list[:2]]
+    focus = (", mostly in " + " and ".join(top)) if top else ''
+    bio = (f"{has}. Together they cover {n} different work-from-home {idea_w}{focus}. "
+           f"We pull out each idea on its own and write it up in plain language: what the gig is, how {short} "
+           f"pitches it, who it suits, and our honest take. Every entry links back to the video it came from, "
+           f"so you can always hear it from {short} directly.")
+    intro = bio
+    about = ''
+    if prof:
+        facts = []
+        if prof.get('subscribers'): facts.append(f"{esc(prof['subscribers'])} subscribers")
+        if cv: facts.append(f"{cv} videos")
+        if prof.get('joined_year'): facts.append(f"on YouTube since {prof['joined_year']}")
+        if prof.get('country'): facts.append(esc(prof['country']))
+        link = (f' &middot; <a href="{esc(prof["channel_url"])}" target="_blank" rel="noopener">Visit the channel&nbsp;&#8599;</a>'
+                if prof.get('channel_url') else '')
+        quote = (f'<blockquote class="fc-quote"><p>&ldquo;{esc(prof["quote"])}&rdquo;</p>'
+                 f'<cite>{esc(name)}, on {his} YouTube channel</cite></blockquote>' if prof.get('quote') else '')
+        about = (f'<div class="fc-about"><h2>About {esc(name)}</h2>'
+                 f'<p class="fc-facts">{" &middot; ".join(facts)}{link}</p>{quote}'
+                 f'<p class="fc-asof">Channel figures as of {esc(fmt_date(prof["checked"]))}.</p></div>' if prof.get('checked') else '</div>')
     av = avatar_file(name)
     avatar = f'<img class="card-avatar" src="{ctx.img(av, "image/jpeg")}" alt="{esc(name)}">' if av else ''
     tool_all = ctx.tool(name)
@@ -613,6 +651,7 @@ def featured_creator_page(name, site, ctx):
   <div class="list-head">{avatar}<h1>{esc(name)}</h1></div>
   <p class="list-intro">{esc(intro)}</p>
   {stats}
+  {about}
   <p class="fc-cta"><a class="btn btn-primary btn-big" href="{tool_all}">See all {n} in the searchable tool &rarr;</a></p>
   <h2>Where these ideas fall</h2>
   <ul class="fc-cats">{cat_html}</ul>

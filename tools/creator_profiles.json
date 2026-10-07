@@ -1,0 +1,14 @@
+{
+  "_about": "Public facts copied by hand from each featured creator's YouTube channel page, used on their creator page. 'checked' is the date the numbers were read; they are a snapshot, refresh before outreach if old. 'quote' must be the creator's own words from their channel description, short. 'possessive' is his/her/their, used in the page text.",
+  "Adam Enfroy": {
+    "short": "Adam",
+    "channel_url": "https://www.youtube.com/channel/UCWqKcFb7h9cNEdCxB5A5BgQ",
+    "subscribers": "243K",
+    "channel_videos": 67,
+    "joined_year": 2006,
+    "country": "United States",
+    "quote": "I created this channel to combat all of the “guru” clickbait on YouTube that promises too much, delivers too little, and makes you feel bad by comparison.",
+    "checked": "2026-10-07",
+    "possessive": "his"
+  }
+}

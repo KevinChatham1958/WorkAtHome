@@ -51,6 +51,15 @@
 .fc-cats a { color: var(--text-primary); text-decoration: none; }
 .fc-cats a:hover { color: var(--link); text-decoration: underline; }
 .fc-cats span { color: var(--text-muted); font-weight: 600; margin-left: 4px; }
+.fc-about { background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 4px 0 8px; }
+.fc-about h2 { margin: 0 0 6px !important; }
+.fc-facts { margin: 0; color: var(--text-muted); font-size: 0.92rem; }
+.fc-facts a { color: var(--link); font-weight: 600; text-decoration: none; }
+.fc-facts a:hover { text-decoration: underline; }
+.fc-quote { margin: 12px 0 0; padding: 2px 0 2px 14px; border-left: 3px solid var(--accent); }
+.fc-quote p { margin: 0; font-size: 1rem; line-height: 1.55; font-style: italic; color: var(--text-primary); }
+.fc-quote cite { display: block; margin-top: 4px; font-size: 0.82rem; font-style: normal; color: var(--text-faint); }
+.fc-asof { margin: 10px 0 0; font-size: 0.78rem; color: var(--text-faint); }
 .fc-note { color: var(--text-muted); font-size: 0.9rem; margin: -4px 0 6px; }
 .featured-creator h2 { margin-top: 8px; }
 @media (max-width: 560px) { .idea-page { padding: 16px 16px 48px; } .site-bar-inner { padding: 12px 16px; } }
