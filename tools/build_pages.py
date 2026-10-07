@@ -592,11 +592,13 @@ def featured_creator_page(name, site, ctx):
     # "27 of his 67 videos" reads well; "18 of his 668" undersells, so only show the share when it's sizable.
     if cv and cv >= nv and nv / cv >= 0.25:
         has = f"{name} has {nv} of {his} {cv} YouTube videos in Side Hustle Intel"
+    elif nv == 1:
+        has = f"{name} has one video in Side Hustle Intel"
     else:
         has = f"{name} has {nv} of {his} {vid_w} in Side Hustle Intel"
     top = [c if c.startswith("AI") else c[0].lower() + c[1:] for c, _ in cat_list[:2]]
     focus = (", mostly in " + " and ".join(top)) if top else ''
-    bio = (f"{has}. Together they cover {n} different work-from-home {idea_w}{focus}. "
+    bio = (f"{has}. {'It covers' if nv == 1 else 'Together they cover'} {n} different work-from-home {idea_w}{focus}. "
            f"We pull out each idea on its own and write it up in plain language: what the gig is, how {short} "
            f"pitches it, who it suits, and our honest take. Every entry links back to the video it came from, "
            f"so you can always hear it from {short} directly.")
