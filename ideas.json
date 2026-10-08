@@ -1213,38 +1213,6 @@
     ]
   },
   {
-    "id": "custom-led-neon-signs-local-businesses",
-    "name": "Custom LED neon sign business selling to local businesses and event rental companies",
-    "category": "Physical & print products",
-    "tags": [
-      "LED neon signs",
-      "custom signage",
-      "local business sales",
-      "event rentals"
-    ],
-    "cost": "Low startup cost (about $120-200 in materials for a 10-ft sign)",
-    "found": "Business Cortex",
-    "what": "Design and build custom LED neon signs using flexible LED neon strip, acrylic backing, and a heat gun for bending, selling locally to bars, salons, and boutiques opening new locations, and to event and photo-booth rental companies who reorder seasonally, rather than competing on price against overseas factories.",
-    "pitch": "12-volt LED neon flex runs about $4.94/foot, a 60-watt power supply is $25, acrylic backing is $12-50/sq ft, and a heat gun is a one-time $22 cost — a 10-ft sign costs $120-200 in materials. Market pricing: small signs (12-18in) sell $80-250, medium $180-500, large $400-1,200, or $50-150/foot for simple designs. The presenter calls this the widest profit spread on his list ($5-15/foot in, $50-300/foot out) but warns overseas factories will undercut you below your own material cost on generic designs.",
-    "best": "Someone comfortable doing custom design work quickly and competing on speed and local relationships rather than price, since the presenter is explicit that competing on generic designs against overseas manufacturers is a losing strategy.",
-    "truth": "The pricing spread is genuinely attractive, but the presenter's warning is important and easy to overlook: this only works by specializing in fast, custom, local work — trying to compete on standard designs or price against overseas suppliers will fail before it starts.",
-    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
-    "video_title": "15 UNSEEN Garage Businesses That Cost Less Than $1000 to Start",
-    "situation_tags": [
-      "Strictly in-home",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-09-05",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "novisits",
-      "noai"
-    ]
-  },
-  {
     "id": "dough-sheeter-b2b-food-supply-business",
     "name": "Supplying fresh dough sheets, pasta, or noodles to food businesses using a dough sheeter or pasta machine",
     "category": "Physical & print products",
@@ -2399,32 +2367,6 @@
     ]
   },
   {
-    "id": "carpet-extraction-residential-commercial-cleaning",
-    "name": "Running a carpet and upholstery extraction cleaning service split between residential bookings and recurring commercial contracts",
-    "category": "Local & professional services",
-    "tags": [
-      "carpet extraction cleaning",
-      "upholstery cleaning service",
-      "recurring commercial contracts"
-    ],
-    "cost": "Low to moderate ($230 for compact extractors; more powerful machines run $500-900)",
-    "found": "Business Dash",
-    "what": "Buy a carpet extraction machine (sprays cleaning solution into carpet or upholstery, then suctions the dirty water back out) and offer cleaning for carpets, sofas, dining chairs, mattresses, rugs, stairs, and vehicle seats. Build a residential business (book customers for one item, several rooms, or a combination package, traveling only when a job is booked) alongside a recurring commercial stream (offices, rental properties, restaurants, property managers, and furnished apartments needing repeated cleaning rather than a one-time job).",
-    "pitch": "The presenter highlights that this business creates its own marketing material for free (a stained sofa before, the extraction process, then the dirty recovery water and clean finished fabric make the transformation obvious without explanation), and frames the core advantage as selling the machine's use repeatedly rather than buying inventory and hoping it sells.",
-    "best": "Someone comfortable with physical cleaning work who wants to specialize further (sofas, vehicle interiors, rental properties) once they learn which job type is most profitable for them.",
-    "truth": "Carpet extraction machines and the cited price ranges are real and current. No personal revenue figures are given for this specific business.",
-    "url": "https://www.youtube.com/watch?v=gcL3lipetCE",
-    "video_title": "10 Machines You Can Import From China to Make Money From Home",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "ai-design-studio-for-startups",
     "name": "AI-assisted design studio for websites, ads and lead magnets",
     "category": "Marketing & content",
@@ -3083,39 +3025,6 @@
     ]
   },
   {
-    "id": "trash-can-rollout-curb-service",
-    "name": "Trash can rollout and curb service",
-    "category": "Local & professional services",
-    "tags": [
-      "home services",
-      "subscription",
-      "recurring revenue",
-      "very low startup cost"
-    ],
-    "cost": "Very low startup cost (no truck or special equipment needed)",
-    "found": "Austin Zaback",
-    "what": "A single-purpose subscription service: roll a homeowner's trash and recycling cans out to the curb on collection day, then bring them back afterward, with no equipment beyond the cans themselves and a reliable weekly schedule.",
-    "pitch": "Zaback profiles a company called Can Monkey, whose founder got the idea watching a neighbor pull into his garage and leave the trash can sitting at the curb, then reasoned other homeowners felt the same way. That company reportedly has over 4,000 active subscriptions across 18 states with 500-plus runners, charging $49.99 a month per property, roughly $200,000 a month in recurring revenue, with a churn rate Zaback says is under 1%.",
-    "best": "Someone looking for the lowest possible equipment barrier to entry, since the entire service requires no truck, tools, or inventory, just a route, a schedule, and consistency, well suited to elderly residents, second-home owners, and short-term rental turnovers as target customers.",
-    "truth": "The company-level figures (4,000 subscriptions, sub-1% churn, $200K/month) are Zaback's account of a conversation with the founder during a business tour, a specific and named source rather than an anonymous claim, though not independently audited by Zaback himself. The core insight, that people will pay recurring fees for genuinely unglamorous, avoidable chores, is the same pattern that shows up across several ideas in this video.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
-    "video_title": "9 Service Businesses You Can Start Under $1,000 (No Experience Needed)",
-    "situation_tags": [
-      "Local travel required",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-04-09",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "metal-melting-furnace-cast-jewelry",
     "name": "Small-batch metal casting business using recycled scrap metal",
     "category": "Physical & print products",
@@ -3340,34 +3249,6 @@
       "nosales",
       "nocamera",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "frozen-dough-ball-supply-pizzerias",
-    "name": "Frozen dough ball supply business for pizza shops",
-    "category": "Physical & print products",
-    "tags": [
-      "dough ball production",
-      "food supply",
-      "pizzeria supplier",
-      "cold chain"
-    ],
-    "cost": "Low-moderate startup cost (20L spiral mixers around $230-450; compact divider/rounders around $445-500 once hand-portioning becomes the bottleneck)",
-    "found": "Business Dash",
-    "what": "Supplying frozen or refrigerated pizza dough balls to pizza shops and restaurants so they don't have to mix and portion dough in-house every day.",
-    "pitch": "One food-service benchmark puts a 14oz frozen dough ball around $2.60; moving 200 comparable dough balls a week at that price is roughly $520 in gross sales before flour, yeast, oil, labor, freezer space, packaging, and delivery. A 20L spiral mixer runs $230-450, with divider/rounders added later at $445-500. The presenter stresses that cold-chain reliability (freezer capacity, delivery, correct thaw/proof) matters more than the machine itself.",
-    "best": "Someone who can guarantee reliable cold-chain delivery and consistent proofing, since a restaurant will tolerate many small supply delays but not a batch of dough that arrives warm or overproofed on a busy night.",
-    "truth": "The product itself is simple — what a pizzeria is actually paying for is reliability (dough that performs exactly the same way every delivery), and a single bad delivery can cost the account regardless of how good the dough recipe is.",
-    "url": "https://www.youtube.com/watch?v=YfEmQw4RQ4U",
-    "video_title": "16 Food-Making Machines to Start a Business With | Low Investment | Small Space",
-    "published": "2026-10-02",
-    "situation_tags": null,
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
       "noai"
     ]
   },
@@ -6183,35 +6064,6 @@
     ]
   },
   {
-    "id": "cnc-router-production-for-contractors",
-    "name": "Small CNC router production business supplying contractors and designers",
-    "category": "Physical & print products",
-    "tags": [
-      "CNC router",
-      "signage production",
-      "contractor supplier",
-      "interior design supplier"
-    ],
-    "cost": "Moderate-high startup cost (a workshop-capable machine for daily production runs around $1,500-2,500; a proper 4x8ft production table runs $3,000-6,000 — a $300 hobbyist desktop kit will not hold up in production use)",
-    "found": "Business Dash",
-    "what": "Producing furniture components, cabinet doors, wall panels, signage, display stands, and molds using a workshop-grade CNC router, supplying contractors, interior designers, and signage companies rather than selling to individual consumers.",
-    "pitch": "Growing cities have constant interior renovation, new-shop, and sign-replacement activity, and small CNC operators typically become suppliers to contractors, interior designers, and signage companies who need consistent, precise components delivered on time — not sellers to individual end consumers. The presenter is direct that if this is going into a real business, it needs a true production-grade machine ($1,500-6,000), not the cheap hobby desktop kit.",
-    "best": "Someone with the capital for a genuine production-grade machine (not the cheap hobby kit) and either existing or buildable relationships with contractors, interior designers, or signage companies.",
-    "truth": "A lot of cheap CNC routers sold online are hobby kits that won't survive daily production work — buying the correct tier of machine up front matters more in this business than in most others on this list.",
-    "url": "https://www.youtube.com/watch?v=POxzUkPTyJQ",
-    "video_title": "One Machine Is All You Need to Start a Small Business From Home",
-    "published": "2026-10-02",
-    "situation_tags": null,
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "novisits",
-      "noai"
-    ]
-  },
-  {
     "id": "self-storage-facility-rental",
     "name": "Renting out self-storage units, including to small e-commerce sellers using them as informal warehouses",
     "category": "Local & professional services",
@@ -7847,34 +7699,6 @@
     ]
   },
   {
-    "id": "airbnb-turnover-cleaning-property-portfolios",
-    "name": "Airbnb and short-term rental turnover cleaning service for property management portfolios",
-    "category": "Local & professional services",
-    "tags": [
-      "Airbnb cleaning",
-      "short-term rental turnover",
-      "property management contracts",
-      "recurring high-frequency service",
-      "team scaling"
-    ],
-    "cost": "Low startup cost (roughly $1,000 if you already have a working vehicle, or around $5,000 total including a vehicle and supplies)",
-    "found": "HIDDEN WEALTH",
-    "what": "Offer full turnover cleaning for short-term rental (Airbnb-style) properties — not just sweeping and wiping surfaces, but managing linens, restocking guest toiletries, and flagging maintenance issues — targeting property managers who oversee entire portfolios of listings needing service multiple times a week between every guest checkout, rather than standard residential cleaning clients who need service once every week or two.",
-    "pitch": "The illustrative account describes starting the service part-time on weekends alongside a full-time job before it outgrew that income within three months, then scaling by landing property-manager clients with 20-50 properties at once rather than pursuing homeowners one at a time; a single turnover clean is priced $150-400, and that rate multiplied across dozens of weekly turnovers compounds quickly with a hired team.",
-    "best": "Someone willing to build relationships with local property managers (who control access to many properties at once) rather than only marketing to individual homeowners, and comfortable eventually hiring and managing a cleaning team to handle the higher frequency this niche demands.",
-    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. The underlying structural insight — that turnover frequency (multiple cleanings per property per week) compounds revenue much faster than standard biweekly residential cleaning — is a genuine, checkable feature of the short-term rental market that doesn't depend on any one person's specific story.",
-    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
-    "video_title": "6 Ugly Businesses Making Ordinary People Millionaires (Zero Competition)",
-    "published": "2026-08-19",
-    "filters": [
-      "older",
-      "outside",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "ai-lead-generation",
     "name": "AI-powered lead generation for businesses",
     "category": "Local & professional services",
@@ -7970,39 +7794,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "portable-sanitation-servicing",
-    "name": "Portable sanitation servicing (porta-potties and construction site rentals)",
-    "category": "Local & professional services",
-    "tags": [
-      "service business",
-      "recurring revenue",
-      "equipment needed",
-      "construction"
-    ],
-    "cost": "Significant upfront equipment cost (units plus servicing truck)",
-    "found": "Johnny & Sergio",
-    "what": "Rent and service portable toilets and sanitation units for active construction sites, which are legally required to have them for the length of a build, as well as weddings, festivals, and outdoor events, charging a recurring monthly or per-visit fee to pump out, restock, and maintain each unit.",
-    "pitch": "Construction contracts alone can run 6 to 18 months and combine a monthly per-unit rental fee with weekly service visits, and the same units can also be booked for single-weekend events, giving two very different customer bases for the same physical asset. The presenters argue this is one of the most recession-proof businesses on their list, since active construction and events don't stop needing sanitation just because almost nobody wants to be the one servicing it.",
-    "best": "Someone willing to do genuinely unglamorous, hands-on labor (or manage a crew that does), and who has the capital to purchase the units as a real upfront equipment cost.",
-    "truth": "The presenters are candid that this is deliberately ranked near the bottom of their list specifically because it's the least glamorous, most labor-intensive business on it, since you or your crew are doing the pump-outs and restocks yourselves. They frame it as a legitimate, demand-backed business rather than a passive one, and don't overstate how easy it is to get started.",
-    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
-    "video_title": "9 One-Person Businesses With More Demand Than Competition",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Needs a truck or cargo vehicle",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-08-14",
-    "filters": [
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
     ]
   },
   {
@@ -8563,40 +8354,6 @@
     ]
   },
   {
-    "id": "hvac-trade-service",
-    "name": "HVAC or trade service business",
-    "category": "Local & professional services",
-    "tags": [
-      "skilled trade",
-      "needs US presence",
-      "needs training"
-    ],
-    "cost": "Low to start once trained, scales with team size",
-    "found": "David Heacock",
-    "what": "Learn a trade, HVAC specifically in this example, through trade school or working for an established operator, then start a capital-light local service business.",
-    "pitch": "Framed as genuinely capital-light once you have the skill, since the barrier is training and licensing, not equipment or inventory.",
-    "best": "Someone willing to invest real time learning a hands-on trade from the ground up before starting the business side.",
-    "truth": "Grounded in the presenter's own real HVAC business, which is a credibility positive. This requires physical presence, hands-on trade training, and typically licensing, a genuine skill investment before any income starts.",
-    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
-    "video_title": "100% REMOTE Boring Businesses (That Almost Never Fail)",
-    "situation_tags": [
-      "Local travel required",
-      "Requires a license or certification",
-      "Needs a truck or cargo vehicle",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-06-19",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "drop-off-cooler-service-uber-courier",
     "name": "Selling pre-packed drink and snack coolers delivered via Uber Connect",
     "category": "E-commerce",
@@ -8722,34 +8479,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "commercial-kitchen-hood-cleaning",
-    "name": "Running a commercial kitchen exhaust hood cleaning service required by fire code",
-    "category": "Local & professional services",
-    "tags": [
-      "kitchen hood cleaning",
-      "fire code compliance",
-      "restaurant maintenance",
-      "recurring contract"
-    ],
-    "cost": "Low (labor and degreaser are the main costs)",
-    "found": "Jack Harrison Explains",
-    "what": "Clean commercial kitchen exhaust hoods on the schedule required by fire code (NFPA 96) for any restaurant running a fryer or grill, every one to six months depending on grease volume; insurance companies can refuse to pay a fire claim if the hood wasn't cleaned on schedule, which makes restaurant owners genuinely motivated to stay compliant.",
-    "pitch": "A single cleaning runs $400-600 with reported gross margins of 50-65%; the presenter does the math on a two-person crew handling 40 restaurants on quarterly contracts (160 cleanings/year) that nobody has to actively sell because the fire code creates the demand.",
-    "best": "Someone comfortable with physical cleaning labor and willing to build a client base of quarterly recurring restaurant contracts.",
-    "truth": "NFPA 96 and its insurance implications are real, codified requirements, and the margin/pricing figures are consistent with how this trade is typically priced. No specific personal case study is given beyond the illustrative math.",
-    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
-    "video_title": "These 15 Businesses Are Automated, Boring, and Almost Impossible to Fail",
-    "published": "2026-07-23",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nocamera",
-      "noinventory",
-      "noai"
     ]
   },
   {
@@ -9551,38 +9280,6 @@
     ]
   },
   {
-    "id": "tow-truck-service",
-    "name": "Emergency tow truck service",
-    "category": "Local & professional services",
-    "tags": [
-      "physical business",
-      "needs US presence",
-      "needs equipment"
-    ],
-    "cost": "Cost of a tow truck, often tens of thousands of dollars",
-    "found": "David Heacock",
-    "what": "Provide towing services, particularly for large commercial trucks, in an underserved local area, with the potential to scale by adding more trucks over time.",
-    "pitch": "Framed as high margin in underserved local markets, with real upside as you add equipment.",
-    "best": "Someone based locally with access to specialized equipment financing and a genuine underserved market to enter.",
-    "truth": "Based on a single local anecdote rather than a broadly verified model, results likely vary a great deal by local market. This requires real equipment investment and physical local presence.",
-    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
-    "video_title": "100% REMOTE Boring Businesses (That Almost Never Fail)",
-    "situation_tags": [
-      "Local travel required",
-      "Needs a truck or cargo vehicle",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-06-19",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "faceless-pinterest-affiliate-marketing",
     "name": "Running a faceless Pinterest account to drive affiliate commissions or digital product sales",
     "category": "E-commerce",
@@ -9768,32 +9465,6 @@
       "nocamera",
       "noinventory",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "commercial-ice-machine-leasing",
-    "name": "Leasing and servicing commercial ice machines for bars, restaurants, and hotels",
-    "category": "Local & professional services",
-    "tags": [
-      "ice machine leasing",
-      "restaurant equipment service",
-      "all-inclusive maintenance contract"
-    ],
-    "cost": "Moderate to high (cost of ice machine units to lease out)",
-    "found": "Jack Harrison Explains",
-    "what": "Lease commercial ice machines to bars, restaurants, and hotels on an all-inclusive monthly contract covering service calls, repairs, and bi-annual maintenance, so the business never has to deal with an ice machine failure themselves (which tends to happen during a busy Friday night rush, not a quiet afternoon).",
-    "pitch": "Leasing companies charge $75-500/month per unit; the presenter frames what's really being sold as the guarantee that a breakdown becomes someone else's emergency, which is why customers rarely negotiate on price.",
-    "best": "Someone comfortable managing a fleet of leased equipment and coordinating repair/maintenance service (whether performed personally or subcontracted).",
-    "truth": "Commercial ice machine leasing with bundled maintenance is a real, established equipment-service model in the food service industry. Pricing figures are general industry ranges, not a specific verified case study.",
-    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
-    "video_title": "These 15 Businesses Are Automated, Boring, and Almost Impossible to Fail",
-    "published": "2026-07-23",
-    "filters": [
-      "older",
-      "outside",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -10791,37 +10462,6 @@
     ]
   },
   {
-    "id": "waste-management-business",
-    "name": "Waste management and trash collection",
-    "category": "Local & professional services",
-    "tags": [
-      "physical business",
-      "needs US presence",
-      "needs significant capital"
-    ],
-    "cost": "Very high to compete at meaningful scale",
-    "found": "David Heacock",
-    "what": "A local trash collection service, cited alongside the example of a company that grew from a small local operator into a multi-billion-dollar public company through acquisitions and underserved local niches.",
-    "pitch": "Framed as a durable, essential-service category with real long-term growth potential through acquisition.",
-    "best": "Someone thinking in terms of years, not months, with access to significant capital or financing for growth.",
-    "truth": "The example used is an extreme outlier, a multi-billion-dollar public company, not representative of what a typical entrant should expect. This is a large-scale, capital-intensive undertaking, not an accessible starting point for most people.",
-    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
-    "video_title": "100% REMOTE Boring Businesses (That Almost Never Fail)",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Requires hiring or managing others",
-      "Needs a truck or cargo vehicle"
-    ],
-    "published": "2026-06-19",
-    "filters": [
-      "outside",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "ghost-kitchen-doordash-home-food-business",
     "name": "Running a home-based ghost kitchen food business listed on DoorDash",
     "category": "Local & professional services",
@@ -11657,33 +11297,6 @@
     ]
   },
   {
-    "id": "textile-shredder-fiber-and-branded-products",
-    "name": "Shredding free donated clothing into fiber, either to sell to manufacturers or to make your own branded 'circular fashion' products",
-    "category": "Physical & print products",
-    "tags": [
-      "textile shredder",
-      "clothing recycling",
-      "circular fashion branding",
-      "fiber resale"
-    ],
-    "cost": "Moderate to high ($2,000 for the machine)",
-    "found": "Wealth Unlocked",
-    "what": "Buy a textile shredder (350kg/hour, shreds old clothes and fabric scraps into fiber) and collect unsellable donated clothing for free from charities, clothing banks, and donation drives, then either sell the resulting fiber to mattress, cushion, plush toy, and pet bed manufacturers, or use the fiber yourself to make and sell your own cushions, bean bags, and dog beds under a 'circular fashion' brand positioning, appealing to customers willing to pay more for a product that rescued material from landfill.",
-    "pitch": "The presenter frames the branded-product route as what separates someone who just sells raw fiber from someone who builds an actual premium brand, arguing environmentally-conscious buyers pay a real premium once they understand a product's waste-rescue story.",
-    "best": "Someone willing to either build B2B relationships with fiber-buying manufacturers or develop and market their own branded product line.",
-    "truth": "Textile shredding for fiber resale and 'upcycled' branded product positioning are both real, established practices in the sustainable/circular economy space. No specific personal revenue figures are given.",
-    "url": "https://www.youtube.com/watch?v=XpTMdfl1hck",
-    "video_title": "10 Cheap Recycling Machines to Make Money (Easy Business Ideas)",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "novisits",
-      "noai"
-    ]
-  },
-  {
     "id": "aged-domain-first-strategy",
     "name": "Buy aged/expired domains with existing traffic, then choose the monetization method",
     "category": "Marketing & content",
@@ -11988,33 +11601,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "solar-panel-cleaning-recurring-service",
-    "name": "Offering twice-yearly solar panel cleaning, positioned as saving homeowners money rather than costing them money",
-    "category": "Local & professional services",
-    "tags": [
-      "solar panel cleaning",
-      "energy savings pitch",
-      "recurring twice-yearly service"
-    ],
-    "cost": "Very low (a soft wash/low-pressure hose setup, squeegee, water-fed pole, cleaning solutions)",
-    "found": "Austin Zaback",
-    "what": "Offer solar panel cleaning (removing dirt, dust, pollen, and bird droppings that block sunlight from reaching the cells) on a twice-a-year recurring billing package, framing the service specifically as an energy-bill savings measure rather than a cleaning expense, since cleaning can boost power production by 10-20% in dirty conditions. Stack routes the same way a pool cleaner or lawn care operator would as the client list grows.",
-    "pitch": "The presenter cites the solar panel cleaning industry at $1.2 billion in 2025, projected to reach $2.5 billion by 2035, tied to fast-growing solar adoption in states like Arizona, Texas, California, and Florida.",
-    "best": "Someone in a state with high solar adoption, comfortable framing the pitch around energy savings rather than cleanliness.",
-    "truth": "The cited market size figures are plausible industry data, and the 10-20% power-production improvement from cleaning is a genuine, commonly-cited effect. No specific personal revenue figures are given for this particular business.",
-    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
-    "video_title": "8 Service Businesses You Can Start Under $1,000 (No Experience Needed)",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
     ]
   },
   {
@@ -12399,32 +11985,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "epoxy-garage-flooring-installation-service",
-    "name": "Installing epoxy garage flooring for homeowners converting garages into functional living spaces",
-    "category": "Local & professional services",
-    "tags": [
-      "epoxy flooring installation",
-      "garage conversion",
-      "visual portfolio service"
-    ],
-    "cost": "Low to moderate (epoxy materials cost relatively little compared to per-square-foot installed pricing)",
-    "found": "David Explains Money",
-    "what": "Learn to apply epoxy resin flooring (a liquid coating over garage concrete that dries into a hard, glossy, durable layer resistant to oil stains, chemicals, and moisture) for homeowners converting their garage into a gym, workshop, or game room. Master one specific installation process and finish type well, build a visual portfolio of completed jobs (since this business sells almost entirely through photos and word of mouth), and practice first on your own garage or a family member's before charging a real client, since mistakes remain visible on the floor permanently. Expand beyond garages into patios, basements, and small commercial floors (workshops, gyms) using the same skill.",
-    "pitch": "The presenter frames the appeal as a strong margin business (materials cost little relative to the per-square-foot installed price) completed in one or two days per job, tied to a real, current trend of US homeowners converting garages into functional living spaces where the floor is typically the first thing they want to change.",
-    "best": "Someone willing to genuinely master one installation technique through real practice before taking paying clients, comfortable building a photo-based local portfolio.",
-    "truth": "Epoxy garage flooring installation is a real, established specialized trade service, and the described garage-conversion trend among US homeowners is a genuine, observable pattern. No specific personal revenue figures are given for this particular business.",
-    "url": "https://www.youtube.com/watch?v=xA6oBoVyQ9I",
-    "video_title": "10 BORING BUSINESSES That Quietly Make Money",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
     ]
   },
   {
@@ -14166,33 +13726,6 @@
     ]
   },
   {
-    "id": "window-cleaning-residential-commercial-contracts",
-    "name": "Running a window cleaning business split between quoted residential jobs and monthly commercial contracts",
-    "category": "Local & professional services",
-    "tags": [
-      "window cleaning",
-      "commercial contract accounts",
-      "residential quoting by phone"
-    ],
-    "cost": "Very low (roughly $500 in basic equipment)",
-    "found": "Austin Zaback",
-    "what": "Offer window cleaning priced by square footage and number of stories, quotable over the phone in under 2 minutes once experienced enough, without needing an on-site visit before the sale. Build recurring revenue through quarterly exterior cleaning packages for homeowners and monthly contracts with commercial accounts (restaurants, retail stores, offices), noting commercial clients generally prioritize reliability over price-shopping.",
-    "pitch": "The presenter cites a real Arizona operator who did $392,000 in a year with a small team of subcontractors, having started with $500 of equipment, and frames a residential job averaging roughly $500, meaning six jobs in a day equals roughly $3,000 in gross daily revenue.",
-    "best": "Someone comfortable being on ladders/heights, willing to build phone-quoting skill and pursue commercial accounts for less price-sensitive, more reliable recurring revenue.",
-    "truth": "The specific Arizona operator case study is a real, detailed account with concrete figures, though relayed by the presenter and not independently verified. The commercial-vs-residential pricing dynamic described is standard, plausible service-business logic.",
-    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
-    "video_title": "8 Service Businesses You Can Start Under $1,000 (No Experience Needed)",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "claude-project-dropshipping-skill-system",
     "name": "Claude Project skill system for end-to-end dropshipping store building",
     "category": "E-commerce",
@@ -14522,35 +14055,6 @@
       "parent",
       "outside",
       "nocamera",
-      "noai"
-    ]
-  },
-  {
-    "id": "foam-insulation-board-panel-production",
-    "name": "Foam insulation board and panel production business",
-    "category": "Physical & print products",
-    "tags": [
-      "foam insulation",
-      "shop-based production",
-      "builder supplier",
-      "energy efficiency products"
-    ],
-    "cost": "Moderate startup cost (around $3,500-9,000 depending on the system)",
-    "found": "Business Dash",
-    "what": "Cutting and producing foam insulation boards, panels, and pipe-insulation pieces in a shop for builders, renovation firms, and property managers — the shop-based fabrication side of foam insulation, not the on-site spray-foam application trade.",
-    "pitch": "Energy loss (heat escaping, cold air leaking, HVAC systems overworking) is a constant problem for builders, renovation firms, HVAC companies, warehouse owners, and property managers. The source material is explicit that foam insulation splits into two different business models — an on-site spray-foam application service, which is a licensed on-site trade, versus cutting foam boards, panels, and custom insulation pieces in a shop, which is the production-based version covered here. A setup runs $3,500-9,000.",
-    "best": "Someone who wants the shop-based production side (cutting boards, panels, and pipe-insulation pieces to order) rather than the on-site spray-application trade, since this version doesn't require going to job sites.",
-    "truth": "Foam insulation work broadly involves chemicals, fire ratings, and real industry standards to learn properly — a genuine barrier that discourages lazy competitors but also means this isn't something to enter casually without learning the trade correctly.",
-    "url": "https://www.youtube.com/watch?v=7KZCcBM55YI",
-    "video_title": "9 Products Every Contractor Burns Through — And the People Getting Paid to Make Them Locally",
-    "published": "2026-10-02",
-    "situation_tags": null,
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "novisits",
       "noai"
     ]
   },
