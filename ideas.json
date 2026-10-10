@@ -7902,6 +7902,40 @@
     ]
   },
   {
+    "id": "no-code-ai-mobile-app-app-store",
+    "name": "Native mobile app built end-to-end with a no-code AI app builder, published to the App Store",
+    "category": "AI & automation",
+    "tags": [
+      "app development",
+      "AI tools",
+      "no-code",
+      "mobile app"
+    ],
+    "cost": "Low to moderate startup cost (AI app-builder subscription plus a $99/year Apple developer account)",
+    "found": "Christian Peverelli",
+    "what": "Building a native iOS mobile app from scratch using a no-code AI app-building tool, describing the desired app in plain language and iterating through each build phase, then publishing it through Apple's App Store submission and TestFlight beta process.",
+    "pitch": "The presenter walks through cloning the core concept of a well-known app as a demonstration case, feeding a chain of specific prompts one at a time into a no-code AI app-building tool: design and navigation first, then a key feature, then a backend database for data persistence. He also covers deploying a companion legal and landing page and the real mechanics of Apple's App Store submission process, including the developer fee, TestFlight beta testing, and the review wait time.",
+    "best": "Someone comfortable directing an AI tool through an iterative build process and willing to navigate Apple's actual app-submission requirements, not just build a prototype and stop there.",
+    "truth": "This video's tool recommendation is a paid sponsorship, which the presenter discloses directly, so the specific platform choice should be weighed with that in mind, though he does explain his reasoning, native hardware access like the camera, for picking it over alternatives. The example app is a demo and practice clone, not the presenter's own live revenue-generating business, so no income figures are given or implied for this specific build.",
+    "url": "https://www.youtube.com/watch?v=MiUs5KSrq3c",
+    "video_title": "How to Build a $10,000 Mobile App in 46 Minutes Using AI",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-06-21",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits"
+    ]
+  },
+  {
     "id": "self-storage-facility-rental",
     "name": "Renting out self-storage units, including to small e-commerce sellers using them as informal warehouses",
     "category": "Local & professional services",
@@ -8391,6 +8425,41 @@
       "noinventory",
       "novisits",
       "noai"
+    ]
+  },
+  {
+    "id": "chrome-extension-search-validated-development",
+    "name": "Chrome extension development validated by search volume and monetization research before building",
+    "category": "Digital & subscription products",
+    "tags": [
+      "Chrome extension",
+      "AI coding",
+      "freemium",
+      "idea validation",
+      "agentic coding"
+    ],
+    "cost": "Very low startup cost (AI coding tool subscription; hosting via Vercel/Supabase)",
+    "found": "Christian Peverelli",
+    "what": "Build browser (Chrome) extensions using AI/agentic coding tools rather than manual programming, but validate each idea before building it: check search volume for the extension idea (via Google Keyword Planner, Ahrefs, or similar), confirm similar extensions are already generating revenue (checking a platform like extensionpay.com, which many extensions use for Stripe-based monetization), and filter for ideas that are easy to get installed and used repeatedly rather than once.",
+    "pitch": "The presenter's guest, Eddie, runs a portfolio of about 10 small AI-built businesses generating $30,000-50,000/month combined, with 5 Chrome extensions alone generating $20,000/month using a freemium model (free access initially, then charging over time). He builds using Claude Code, hosts on Vercel with Supabase as the database, and creates custom reusable \"skills\" for recurring tasks like outreach, rather than starting from scratch each time.",
+    "best": "Someone comfortable with AI coding tools (Claude Code or similar) who wants a structured, research-first approach to picking which small software product to build, rather than guessing at ideas.",
+    "truth": "The validation framework here (search volume plus competitor monetization proof plus install-friction assessment) is a genuinely useful risk-reduction method that applies well beyond just Chrome extensions. That said, Eddie's own results reflect years of iterating across many products and business ideas, most of which he says \"weren't really good\" at first — the portfolio approach (build several, keep what works) is the real strategy, not any single extension being a guaranteed win.",
+    "url": "https://youtu.be/M-teR-KLWGc",
+    "video_title": "How This Guy Built 10 Tiny Businesses Making $50,000/month (Copy him)",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-26",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits"
     ]
   },
   {
@@ -9005,6 +9074,42 @@
       "parent",
       "outside",
       "nocamera",
+      "noai"
+    ]
+  },
+  {
+    "id": "seo-content-site-long-sales-cycle-niche",
+    "name": "SEO content site targeting a niche's long research-and-comparison sales cycle",
+    "category": "Marketing & content",
+    "tags": [
+      "SEO",
+      "affiliate content",
+      "niche website",
+      "content marketing",
+      "long-tail keywords"
+    ],
+    "cost": "Very low startup cost (a domain and hosting; content can be AI-assisted)",
+    "found": "Christian Peverelli",
+    "what": "Build a content-driven SEO website in a niche where buyers go through a long research process before purchasing (the example given: peptide supplements), targeting the low-competition, long-tail search terms people use while researching (benefits, side effects, comparisons, expert opinions) rather than competing on high-competition, ready-to-buy keywords, and supplementing articles with useful interactive tools (calculators) and organized expert-opinion roundups.",
+    "pitch": "The presenter shows a real example site (built by the same guest, Eddie) that grew to 1.1 million monthly visitors purely through SEO, using three content strategies: long-form comparison and how-to articles targeting research-stage keywords, free calculator tools relevant to the niche, and pages organizing what named industry experts have said about specific topics within the niche.",
+    "best": "Someone willing to do real keyword and content-gap research and produce a genuinely useful volume of long-form content, rather than a handful of thin articles.",
+    "truth": "The three-part content strategy (comparison content, useful tools, expert-opinion aggregation) is a solid, well-documented SEO approach that outlasts algorithm changes better than purely AI-generated thin content. Reaching 1.1 million monthly visitors is a standout result built over real time, not an overnight outcome, and the niche example used (peptides) is explicitly flagged by the presenter as controversial, which may not be a comfortable content area for everyone to build a business around.",
+    "url": "https://youtu.be/M-teR-KLWGc",
+    "video_title": "How This Guy Built 10 Tiny Businesses Making $50,000/month (Copy him)",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-08-26",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits",
       "noai"
     ]
   },
@@ -9866,6 +9971,40 @@
       "lowcost",
       "nocamera",
       "noinventory"
+    ]
+  },
+  {
+    "id": "premium-animated-websites-claude-code-qtwo",
+    "name": "Premium animated custom websites built with Claude Code for businesses",
+    "category": "AI & automation",
+    "tags": [
+      "web design",
+      "claude code",
+      "no-code websites",
+      "website agency",
+      "freelance"
+    ],
+    "cost": "Low startup cost ($20/month Claude plan, about $10/month hosting and a domain)",
+    "found": "Christian Peverelli",
+    "what": "You use Claude Code with design add-ons (Anthropic's front-end design skill and a community UI/UX skill) to build custom, animated websites without writing code yourself. The video builds a car showcase site: a written brief turned into a first prompt, interior photo sections with motion, an interactive 3D-style hero adapted from a component library, a unified color scheme, mobile testing, and deployment to a custom domain through a Hostinger connection. The creator defines a '$10,000 website' as one with a clear goal such as booking calls, custom design, motion, mobile support, and working forms connected to a CRM or email tool. You can build such sites for your own business or sell them to clients.",
+    "pitch": "The creator says AI-built sites usually look generic, and the skills, component libraries and step-by-step design passes shown here let a non-coder produce something that looks premium enough to command a high price.",
+    "best": "Design-minded people who enjoy iterating on visuals and can explain a website's business purpose to clients.",
+    "truth": "The build process is shown in detail and is realistic, but the '$10,000' figure is a label, not a sale; the video shows no client paying that price and says nothing about how to find clients. Heavy animation and 3D elements can slow sites and break on phones, so testing matters. The creator uses a Hostinger discount code and offers prompts through his free community, which likely leads to paid offers. Charging premium prices usually depends on a portfolio and sales skills more than on the tools.",
+    "url": "https://www.youtube.com/watch?v=qTWOkhytG0M",
+    "video_title": "How to Build $10,000 Websites Using Claude Code (Full Guide)",
+    "situation_tags": [
+      "Home office, client-facing"
+    ],
+    "published": "2026-10-02",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nocamera",
+      "noinventory",
+      "novisits"
     ]
   },
   {
@@ -10933,6 +11072,38 @@
     ]
   },
   {
+    "id": "facebook-marketplace-consignment-with-ai-agent",
+    "name": "Facebook Marketplace flipping and consignment selling with an AI agent handling listings and messages",
+    "category": "E-commerce",
+    "tags": [
+      "facebook marketplace",
+      "flipping",
+      "consignment",
+      "ai agent",
+      "reselling"
+    ],
+    "cost": "Low startup cost (money to buy items if flipping; none if selling for others)",
+    "found": "Christian Peverelli",
+    "what": "You either buy underpriced items you understand on Facebook Marketplace and resell them at a fair price, or sell other people's unwanted goods for a cut (he suggests about 20%). An AI agent (Meta's Muse, in the video) searches for underpriced items in your categories, drafts listings and handles buyer messages, while you set the prices and approve key decisions. He suggests starting with $100-200 items and moving to higher-priced ones.",
+    "pitch": "The creator notes Marketplace has about a billion users and millions of new listings a day, many priced by people who just want the item gone, and says consignment is a proven model that the agent makes nearly hands-off. He likes that the platform and the agent are owned by the same company.",
+    "best": "Someone who knows the value of a product category (electronics, furniture, tools) and can store and hand over items from home.",
+    "truth": "Marketplace flipping is well established, but margins depend on your product knowledge, and buying to flip ties up cash. The creator himself recounts a user whose agent accepted a lowball offer and gave out his home address, so keep the agent on a short leash and set prices yourself. Selling for neighbors involves collecting and storing their items. The creator offers free prompts through his community.",
+    "url": "https://www.youtube.com/watch?v=QIxTHXjGGfo",
+    "video_title": "5 Proven Ways to Make Money with Meta Muse",
+    "situation_tags": [
+      "Needs inventory storage",
+      "Local travel required"
+    ],
+    "published": "2026-10-07",
+    "filters": [
+      "older",
+      "parent",
+      "lowcost",
+      "nosales",
+      "nocamera"
+    ]
+  },
+  {
     "id": "ev-charging-smart-home-electrician-specialty",
     "name": "Specializing as an electrician in EV charging station and smart home installation for premium rates",
     "category": "Local & professional services",
@@ -11363,6 +11534,41 @@
       "Strictly in-home"
     ],
     "published": "2026-05-09",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits"
+    ]
+  },
+  {
+    "id": "vibe-coded-digital-product-own-store",
+    "name": "AI vibe-coded digital products sold through your own branded online shop",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "AI tools",
+      "vibe coding",
+      "e-commerce"
+    ],
+    "cost": "Very low startup cost (AI coding tool plus a domain)",
+    "found": "Make Money with Stacy La",
+    "what": "Research proven-selling digital templates and tools (using public sales-data tools to see exactly how many times a competing product has sold and for how much), \"vibe code\" a functional version using an AI coding platform like Hostinger Horizons, then sell it through your own branded .shop domain online store rather than a crowded third-party marketplace like Etsy.",
+    "pitch": "The presenter shows real, specific examples to justify the approach: a finance-niche budget tracker template that's sold over 20,000 times for more than $400,000, and a life planner niched down specifically for neurodivergent people with ADHD that's sold over 22,000 times for more than $350,000, arguing that competitive niches (finance, health, productivity) are actually good signals of real demand as long as you niche the specific problem down far enough. She argues against selling on marketplaces like Etsy specifically because of listing and transaction fees, competition burying your listing, and the risk of account suspension, versus owning your own store with a .shop domain and full customer data control.",
+    "best": "Someone comfortable using an AI coding tool with detailed, specific prompts (rather than vague requests) to build an actual functional product, not just a static file, and willing to set up their own branded storefront rather than relying on marketplace traffic.",
+    "truth": "The specific $400K and $350K product examples are shown as public sales data from other sellers, not the presenter's own results, and she doesn't demonstrate her own product's sales figures within the video. She recommends Horizons specifically because it integrates with her own store-building workflow and is, by her account, one of the least expensive AI coding platforms, worth noting as a product preference rather than a neutral recommendation.",
+    "url": "https://www.youtube.com/watch?v=ju7zG9bdhv4",
+    "video_title": "$354,000 from ONE Digital Product??? Watch me Recreate it with AI in Minutes!",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "published": "2026-07-23",
     "filters": [
       "older",
       "parent",
@@ -12306,34 +12512,34 @@
     ]
   },
   {
-    "id": "no-code-ai-mobile-app-app-store",
-    "name": "Native mobile app built end-to-end with a no-code AI app builder, published to the App Store",
-    "category": "AI & automation",
+    "id": "klaviyo-email-flow-audits-for-shopify-stores",
+    "name": "AI-assisted email-flow audits and monitoring for Shopify stores (Klaviyo)",
+    "category": "Marketing & content",
     "tags": [
-      "app development",
-      "AI tools",
-      "no-code",
-      "mobile app"
+      "email marketing",
+      "klaviyo",
+      "shopify",
+      "audit",
+      "abandoned cart"
     ],
-    "cost": "Low to moderate startup cost (AI app-builder subscription plus a $99/year Apple developer account)",
+    "cost": "Very low startup cost (AI agent subscription)",
     "found": "Christian Peverelli",
-    "what": "Building a native iOS mobile app from scratch using a no-code AI app-building tool, describing the desired app in plain language and iterating through each build phase, then publishing it through Apple's App Store submission and TestFlight beta process.",
-    "pitch": "The presenter walks through cloning the core concept of a well-known app as a demonstration case, feeding a chain of specific prompts one at a time into a no-code AI app-building tool: design and navigation first, then a key feature, then a backend database for data persistence. He also covers deploying a companion legal and landing page and the real mechanics of Apple's App Store submission process, including the developer fee, TestFlight beta testing, and the review wait time.",
-    "best": "Someone comfortable directing an AI tool through an iterative build process and willing to navigate Apple's actual app-submission requirements, not just build a prototype and stop there.",
-    "truth": "This video's tool recommendation is a paid sponsorship, which the presenter discloses directly, so the specific platform choice should be weighed with that in mind, though he does explain his reasoning, native hardware access like the camera, for picking it over alternatives. The example app is a demo and practice clone, not the presenter's own live revenue-generating business, so no income figures are given or implied for this specific build.",
-    "url": "https://www.youtube.com/watch?v=MiUs5KSrq3c",
-    "video_title": "How to Build a $10,000 Mobile App in 46 Minutes Using AI",
+    "what": "You offer online stores an audit of their automated emails: connect an AI agent to the store's Shopify and Klaviyo accounts, compare each email flow against actual sales, find missing flows such as abandoned-cart reminders, turn off weak ones and draft fixes. You then sell ongoing monitoring that alerts you when a flow's conversion rate drops. The creator suggests a $500 audit followed by about $500 a month.",
+    "pitch": "The creator says around 70% of online carts are abandoned, so adding a single missing flow can noticeably lift a store's sales, and email agencies charge $1,000-5,000 a month, leaving room to undercut them with an agent doing the analysis.",
+    "best": "Someone who understands e-commerce or email marketing basics and can explain results to store owners.",
+    "truth": "Email-flow audits are a real, established service, and the pricing given is the creator's suggestion rather than results he reports. Clients have to grant access to their store and email accounts, so trust and data care matter. Finding stores to pay for it takes outreach. The creator offers free prompts through his community.",
+    "url": "https://www.youtube.com/watch?v=QIxTHXjGGfo",
+    "video_title": "5 Proven Ways to Make Money with Meta Muse",
     "situation_tags": [
-      "Strictly in-home"
+      "Home office, client-facing"
     ],
-    "published": "2026-06-21",
+    "published": "2026-10-07",
     "filters": [
       "older",
       "parent",
       "health",
       "outside",
       "lowcost",
-      "nosales",
       "nocamera",
       "noinventory",
       "novisits"
@@ -12521,6 +12727,40 @@
       "noinventory",
       "novisits",
       "noai"
+    ]
+  },
+  {
+    "id": "niche-saas-ai-playbook-isenberg",
+    "name": "Building a niche SaaS product with AI (30-step playbook)",
+    "category": "AI & automation",
+    "tags": [
+      "SaaS",
+      "AI tools",
+      "content marketing",
+      "roadmap"
+    ],
+    "cost": "Varies (mostly time; low direct cost to start)",
+    "found": "Greg Isenberg",
+    "what": "A general roadmap, not a single product idea, for building a cash-flowing SaaS company inside a narrow subniche of a large market (his example: FIRE, financial independence retire early, within the broader finance space), using AI tools to map a target customer's actual day-to-day workflow, find the exact point where money changes hands or time gets wasted, and build a small tool that wedges into that specific gap.",
+    "pitch": "Isenberg's core argument is to avoid building for a broad market where well-funded venture-backed competitors already play, and instead go deep on a specific subniche's workflow: map it step by step (he uses a local roofing company as an example), identify where money changes hands, and spot the repetitive mechanical steps worth automating. The back half of the playbook is about distribution: build an audience with consistent short-form content on one platform, study which posts actually get saves and DMs, and only then start running paid ads on the content that's already proven to convert organically.",
+    "best": "Someone willing to commit to both sides of the work, actually building and shipping a niche software tool and consistently creating content to build an audience around it, since the framework leans heavily on organic-then-paid distribution rather than just building the product.",
+    "truth": "Isenberg discloses his own background as an advisor to companies like TikTok and Reddit and a builder of three venture-backed companies, real, checkable experience, though it also means his frame of reference skews toward higher-stakes company-building rather than a true solo bootstrapped project. This is a general methodology rather than a single concrete idea pitch, useful as a planning framework but requiring the reader to supply their own specific niche and product.",
+    "url": "https://www.youtube.com/watch?v=9T1yWEq5kP0",
+    "video_title": "SaaS is minting millionaires again (here's how)",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-03-04",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits"
     ]
   },
   {
@@ -12845,35 +13085,35 @@
     ]
   },
   {
-    "id": "vibe-coded-digital-product-own-store",
-    "name": "AI vibe-coded digital products sold through your own branded online shop",
+    "id": "ai-ugc-saas-ad-service-higgsfield-stacyla",
+    "name": "AI UGC and SaaS ad production service using Higgsfield Marketing Studio",
     "category": "Digital & subscription products",
     "tags": [
-      "digital products",
-      "AI tools",
-      "vibe coding",
-      "e-commerce"
+      "AI UGC content",
+      "Higgsfield",
+      "SaaS ads",
+      "content agency",
+      "retainer pricing"
     ],
-    "cost": "Very low startup cost (AI coding tool plus a domain)",
+    "cost": "Low startup cost (a Higgsfield subscription)",
     "found": "Make Money with Stacy La",
-    "what": "Research proven-selling digital templates and tools (using public sales-data tools to see exactly how many times a competing product has sold and for how much), \"vibe code\" a functional version using an AI coding platform like Hostinger Horizons, then sell it through your own branded .shop domain online store rather than a crowded third-party marketplace like Etsy.",
-    "pitch": "The presenter shows real, specific examples to justify the approach: a finance-niche budget tracker template that's sold over 20,000 times for more than $400,000, and a life planner niched down specifically for neurodivergent people with ADHD that's sold over 22,000 times for more than $350,000, arguing that competitive niches (finance, health, productivity) are actually good signals of real demand as long as you niche the specific problem down far enough. She argues against selling on marketplaces like Etsy specifically because of listing and transaction fees, competition burying your listing, and the risk of account suspension, versus owning your own store with a .shop domain and full customer data control.",
-    "best": "Someone comfortable using an AI coding tool with detailed, specific prompts (rather than vague requests) to build an actual functional product, not just a static file, and willing to set up their own branded storefront rather than relying on marketplace traffic.",
-    "truth": "The specific $400K and $350K product examples are shown as public sales data from other sellers, not the presenter's own results, and she doesn't demonstrate her own product's sales figures within the video. She recommends Horizons specifically because it integrates with her own store-building workflow and is, by her account, one of the least expensive AI coding platforms, worth noting as a product preference rather than a neutral recommendation.",
-    "url": "https://www.youtube.com/watch?v=ju7zG9bdhv4",
-    "video_title": "$354,000 from ONE Digital Product??? Watch me Recreate it with AI in Minutes!",
+    "what": "Use Higgsfield Marketing Studio to generate UGC-style product videos and SaaS app advertisements from just a few product photos or a product URL, no physical product or human model required, then sell these as a content service to physical-product brands or SaaS companies, packaging output into a monthly retainer (a set number of videos per month) rather than selling one-off videos.",
+    "pitch": "The presenter builds two full sample videos live in about 10 minutes each (a product UGC ad and a SaaS app ad) using only a product photo or website URL, an AI avatar, and a prompt template from Higgsfield's built-in library, then lays out a 5-step marketing plan: pick one specific niche, build a portfolio of 5-10 example videos for real brands in that niche, build a daily-updated lead list (20-30 businesses/day), do consistent outreach (10-20 businesses/day via email, DM, or calls), and bundle output into a monthly retainer (e.g., $5,000/month for a set number of videos, versus $200 per one-off video).",
+    "best": "Someone comfortable using AI video generation tools and willing to commit to one specific niche and consistent daily outreach volume, since the presenter is explicit that customer acquisition, not video quality, is the actual bottleneck.",
+    "truth": "The specific 5-step marketing plan (niche down, build proof before pitching, build a lead list, outreach at real volume, then bundle into a retainer) is more concrete and actionable than most AI-content-service pitches, and the presenter is upfront that success requires genuine outreach volume, not just good videos. No independently verified revenue figures are given for the presenter's own version of this exact service — the emphasis is on the workflow and tool, not a specific proven income result.",
+    "url": "https://www.youtube.com/watch?v=tG_IwF25p8Y",
+    "video_title": "I built 2 AI Businesses in 24 HRs worth 10k | Proof + Copy My Workflow | Full AI Influencer Tutorial",
     "situation_tags": [
       "Strictly in-home",
-      "E-commerce / fulfillment"
+      "Phone/sales-based"
     ],
-    "published": "2026-07-23",
+    "published": "2026-05-25",
     "filters": [
       "older",
       "parent",
       "health",
       "outside",
       "lowcost",
-      "nosales",
       "nocamera",
       "noinventory",
       "novisits"
@@ -14042,35 +14282,34 @@
     ]
   },
   {
-    "id": "chrome-extension-search-validated-development",
-    "name": "Chrome extension development validated by search volume and monetization research before building",
-    "category": "Digital & subscription products",
+    "id": "monthly-books-review-one-pager-for-small-businesses",
+    "name": "Monthly \"books review\" one-pager for small businesses, drafted by an AI agent from QuickBooks and Stripe",
+    "category": "Local & professional services",
     "tags": [
-      "Chrome extension",
-      "AI coding",
-      "freemium",
-      "idea validation",
-      "agentic coding"
+      "bookkeeping",
+      "quickbooks",
+      "small business",
+      "monthly service",
+      "ai agent"
     ],
-    "cost": "Very low startup cost (AI coding tool subscription; hosting via Vercel/Supabase)",
+    "cost": "Very low startup cost (AI agent subscription)",
     "found": "Christian Peverelli",
-    "what": "Build browser (Chrome) extensions using AI/agentic coding tools rather than manual programming, but validate each idea before building it: check search volume for the extension idea (via Google Keyword Planner, Ahrefs, or similar), confirm similar extensions are already generating revenue (checking a platform like extensionpay.com, which many extensions use for Stripe-based monetization), and filter for ideas that are easy to get installed and used repeatedly rather than once.",
-    "pitch": "The presenter's guest, Eddie, runs a portfolio of about 10 small AI-built businesses generating $30,000-50,000/month combined, with 5 Chrome extensions alone generating $20,000/month using a freemium model (free access initially, then charging over time). He builds using Claude Code, hosts on Vercel with Supabase as the database, and creates custom reusable \"skills\" for recurring tasks like outreach, rather than starting from scratch each time.",
-    "best": "Someone comfortable with AI coding tools (Claude Code or similar) who wants a structured, research-first approach to picking which small software product to build, rather than guessing at ideas.",
-    "truth": "The validation framework here (search volume plus competitor monetization proof plus install-friction assessment) is a genuinely useful risk-reduction method that applies well beyond just Chrome extensions. That said, Eddie's own results reflect years of iterating across many products and business ideas, most of which he says \"weren't really good\" at first — the portfolio approach (build several, keep what works) is the real strategy, not any single extension being a guaranteed win.",
-    "url": "https://youtu.be/M-teR-KLWGc",
-    "video_title": "How This Guy Built 10 Tiny Businesses Making $50,000/month (Copy him)",
+    "what": "Each month you give small-business clients a one-page summary of their finances: profit and loss, cash flow, expenses that look off, and overdue invoices, with payment reminders drafted for their approval. An AI agent connected to the client's QuickBooks and Stripe drafts it and you review it. The creator suggests about $200 a month per client and calling it a books review rather than accounting.",
+    "pitch": "The creator points to a shortage of bookkeepers, tens of millions of small businesses that must file every year, and a bookkeeping startup that shut down in late 2024 and left thousands of businesses stranded. Comparable services cost $250-500 a month.",
+    "best": "Someone with bookkeeping or finance familiarity who is careful with numbers and comfortable handling clients' financial data.",
+    "truth": "Recurring monthly reporting is a solid service model, but accuracy is everything, and the line between a summary and actual bookkeeping or tax advice matters, as the creator hints. Clients will expect you to catch errors the agent misses. The figures are his suggested pricing, not reported results. The creator offers free prompts through his community.",
+    "url": "https://www.youtube.com/watch?v=QIxTHXjGGfo",
+    "video_title": "5 Proven Ways to Make Money with Meta Muse",
     "situation_tags": [
-      "Strictly in-home"
+      "Home office, client-facing"
     ],
-    "published": "2026-08-26",
+    "published": "2026-10-07",
     "filters": [
       "older",
       "parent",
       "health",
       "outside",
       "lowcost",
-      "nosales",
       "nocamera",
       "noinventory",
       "novisits"
@@ -14368,6 +14607,36 @@
       "noinventory",
       "novisits",
       "noai"
+    ]
+  },
+  {
+    "id": "ai-marketplace-arbitrage-flip-bot",
+    "name": "Using an AI browser agent to monitor Facebook Marketplace and Craigslist for underpriced items to flip",
+    "category": "E-commerce",
+    "tags": [
+      "marketplace arbitrage",
+      "AI browser agent",
+      "resale flipping",
+      "automated monitoring",
+      "side income"
+    ],
+    "cost": "Very low (an AI subscription with computer-use/browser-agent capability, plus cash on hand to buy items to flip)",
+    "found": "Greg Isenberg",
+    "what": "Set an AI agent with browser/computer-use capability to continuously watch Facebook Marketplace and Craigslist listings in your city for items (cameras, furniture, bikes, etc.) priced noticeably under market value, and have it text you immediately with a link when it finds one, so you can buy and resell the item for a profit.",
+    "pitch": "Discussed as one of several practical prompt ideas for a new AI model on a podcast, framed as especially useful for people who want to make a few hundred dollars a day, including younger people who can't find traditional jobs right now, an AI agent does the constant scanning a human would otherwise have to do manually.",
+    "best": "Someone in a city with active local marketplace listings and available cash to buy items on short notice, comfortable acting quickly on alerts to beat other buyers to underpriced listings.",
+    "truth": "Marketplace arbitrage/flipping itself is a well-established side hustle, and using an AI agent to automate the constant watching is a reasonable extension of that. This was mentioned briefly as one of several prompt ideas in a wide-ranging discussion, not demonstrated live or with results shown, so there's no verified evidence of how well the automated monitoring performs in practice, and competition for the same underpriced listings will increase as more people use similar bots.",
+    "url": "https://www.youtube.com/watch?v=nglqTHwuZ-8",
+    "video_title": "GPT-6 Astra: How I'd Make Money With It",
+    "published": "2026-09-10",
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "lowcost",
+      "nosales",
+      "nocamera",
+      "novisits"
     ]
   },
   {
@@ -14765,35 +15034,32 @@
     ]
   },
   {
-    "id": "ai-ugc-saas-ad-service-higgsfield-stacyla",
-    "name": "AI UGC and SaaS ad production service using Higgsfield Marketing Studio",
-    "category": "Digital & subscription products",
+    "id": "genspark-ai-workspace-affiliate-business-build",
+    "name": "Building an entire affiliate marketing business (landing page, interactive lead magnet, email sequence, Pinterest content) inside one AI workspace tool",
+    "category": "Marketing & content",
     "tags": [
-      "AI UGC content",
-      "Higgsfield",
-      "SaaS ads",
-      "content agency",
-      "retainer pricing"
+      "affiliate marketing",
+      "GenSpark AI workspace",
+      "interactive lead magnet",
+      "AI-coded landing page",
+      "Pinterest content creation"
     ],
-    "cost": "Low startup cost (a Higgsfield subscription)",
+    "cost": "Low (a free-tier AI workspace with credits; optional custom domain)",
     "found": "Make Money with Stacy La",
-    "what": "Use Higgsfield Marketing Studio to generate UGC-style product videos and SaaS app advertisements from just a few product photos or a product URL, no physical product or human model required, then sell these as a content service to physical-product brands or SaaS companies, packaging output into a monthly retainer (a set number of videos per month) rather than selling one-off videos.",
-    "pitch": "The presenter builds two full sample videos live in about 10 minutes each (a product UGC ad and a SaaS app ad) using only a product photo or website URL, an AI avatar, and a prompt template from Higgsfield's built-in library, then lays out a 5-step marketing plan: pick one specific niche, build a portfolio of 5-10 example videos for real brands in that niche, build a daily-updated lead list (20-30 businesses/day), do consistent outreach (10-20 businesses/day via email, DM, or calls), and bundle output into a monthly retainer (e.g., $5,000/month for a set number of videos, versus $200 per one-off video).",
-    "best": "Someone comfortable using AI video generation tools and willing to commit to one specific niche and consistent daily outreach volume, since the presenter is explicit that customer acquisition, not video quality, is the actual bottleneck.",
-    "truth": "The specific 5-step marketing plan (niche down, build proof before pitching, build a lead list, outreach at real volume, then bundle into a retainer) is more concrete and actionable than most AI-content-service pitches, and the presenter is upfront that success requires genuine outreach volume, not just good videos. No independently verified revenue figures are given for the presenter's own version of this exact service — the emphasis is on the workflow and tool, not a specific proven income result.",
-    "url": "https://www.youtube.com/watch?v=tG_IwF25p8Y",
-    "video_title": "I built 2 AI Businesses in 24 HRs worth 10k | Proof + Copy My Workflow | Full AI Influencer Tutorial",
-    "situation_tags": [
-      "Strictly in-home",
-      "Phone/sales-based"
-    ],
-    "published": "2026-05-25",
+    "what": "Use a single all-in-one AI workspace to build every core piece of an affiliate marketing business via conversational or spoken prompts: an AI 'developer agent' codes a fully custom, mobile-responsive landing page with an email capture box from a plain-language description; the same workspace can research and suggest a profitable niche and affiliate product; build an interactive, web-app-style lead magnet (rather than a static PDF) with the affiliate link coded directly into its call-to-action button; generate a full email follow-up sequence and Pinterest pin graphics, all within the same connected project.",
+    "pitch": "The presenter says she built this entire affiliate marketing business from scratch in under an hour using only conversational prompts, positioning the interactive lead magnet as a way to stand out since she hasn't seen other affiliate marketers using anything beyond standard PDF lead magnets, and provides a companion checklist with every exact prompt used.",
+    "best": "Someone comfortable directing an AI tool conversationally to build web assets without needing to code, and willing to pick a real niche/product before starting.",
+    "truth": "AI workspace tools that code full websites and lead magnets from plain-language prompts are a real, current capability, and the core affiliate-marketing structure described reflects standard, sound fundamentals. No revenue figures are given, this is a tool-and-workflow demonstration, and the video promotes her own referral link to the platform.",
+    "url": "https://www.youtube.com/watch?v=42UsykZzCRQ",
+    "video_title": "Watch AI Agents Build my Affiliate Marketing Business in 14 Minutes (GenSpark)",
+    "published": "2026-04-15",
     "filters": [
       "older",
       "parent",
       "health",
       "outside",
       "lowcost",
+      "nosales",
       "nocamera",
       "noinventory",
       "novisits"
@@ -16067,6 +16333,40 @@
     ]
   },
   {
+    "id": "tiktok-shop-affiliate-problem-first-skit-videos",
+    "name": "TikTok Shop affiliate videos built around one buyer's problem (skits and talking-head, no ad feel)",
+    "category": "Content & personal brand",
+    "tags": [
+      "tiktok shop",
+      "affiliate",
+      "short-form video",
+      "commission",
+      "content creator"
+    ],
+    "cost": "Near-zero cost (a phone and a TikTok account; optional paid product-research tool)",
+    "found": "BRAD LEA TV (guest: Danny Fisher)",
+    "what": "You join TikTok Shop as an affiliate (not a seller), pick products from brands that are already selling and putting ad money behind them, and post short videos with your commission link; you earn roughly 15-30% of each sale. The guest's method is to write each video for one specific buyer and their problem: a hook in the first three seconds, the problem, relating to it, why the product is credible, what life looks like after, and only then the product. He recommends three to six videos a day (about two to four hours including product research) or two-hour livestreams, and uses a paid research tool (Kalodata) to find products with rising revenue.",
+    "pitch": "The guest says he went from a $73K corporate job and $432 in the bank to his first $10,000 month within five months part-time, and around $30,000 a month since. He argues TikTok's ad system now rewards affiliates who choose brands with ad budgets, that ordinary-looking people convert well, and that a niche video reaching 200,000 of the right viewers outsells a million-view generic one.",
+    "best": "Someone comfortable on camera who can post several videos a day for months without results, and who enjoys studying what makes short videos sell.",
+    "truth": "The income figures are the guest's own and unverified; by his own account he earned about $100 in his first three months and his accounts were once banned for a month, which shows how uneven this is. Account bans for TikTok policy violations are a real risk he acknowledges. The guest sells coaching (Escape Society) and a script-writing app (ScriptKit) that the host promotes during the interview. TikTok Shop affiliate marketing is common advice among WAH creators, and availability depends on country.",
+    "url": "https://www.youtube.com/watch?v=sJjiYvJFEaM",
+    "video_title": "The Hidden Phone Business Paying More Than Most 9-5 Jobs (No Experience Needed)",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-10-06",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "lowcost",
+      "nosales",
+      "noinventory",
+      "novisits",
+      "noai"
+    ]
+  },
+  {
     "id": "claude-canva-ebook-digital-product",
     "name": "Writing and selling an ebook digital product using Claude for content and Canva for design",
     "category": "Digital & subscription products",
@@ -16462,39 +16762,72 @@
     ]
   },
   {
-    "id": "seo-content-site-long-sales-cycle-niche",
-    "name": "SEO content site targeting a niche's long research-and-comparison sales cycle",
-    "category": "Marketing & content",
+    "id": "freight-dispatcher-for-owner-operator-truckers",
+    "name": "Freight dispatcher finding loads for owner-operator truckers",
+    "category": "Local & professional services",
     "tags": [
-      "SEO",
-      "affiliate content",
-      "niche website",
-      "content marketing",
-      "long-tail keywords"
+      "truck dispatching",
+      "load boards",
+      "trucking",
+      "remote work",
+      "freight"
     ],
-    "cost": "Very low startup cost (a domain and hosting; content can be AI-assisted)",
-    "found": "Christian Peverelli",
-    "what": "Build a content-driven SEO website in a niche where buyers go through a long research process before purchasing (the example given: peptide supplements), targeting the low-competition, long-tail search terms people use while researching (benefits, side effects, comparisons, expert opinions) rather than competing on high-competition, ready-to-buy keywords, and supplementing articles with useful interactive tools (calculators) and organized expert-opinion roundups.",
-    "pitch": "The presenter shows a real example site (built by the same guest, Eddie) that grew to 1.1 million monthly visitors purely through SEO, using three content strategies: long-form comparison and how-to articles targeting research-stage keywords, free calculator tools relevant to the niche, and pages organizing what named industry experts have said about specific topics within the niche.",
-    "best": "Someone willing to do real keyword and content-gap research and produce a genuinely useful volume of long-form content, rather than a handful of thin articles.",
-    "truth": "The three-part content strategy (comparison content, useful tools, expert-opinion aggregation) is a solid, well-documented SEO approach that outlasts algorithm changes better than purely AI-generated thin content. Reaching 1.1 million monthly visitors is a standout result built over real time, not an overnight outcome, and the niche example used (peptides) is explicitly flagged by the presenter as controversial, which may not be a comfortable content area for everyone to build a business around.",
-    "url": "https://youtu.be/M-teR-KLWGc",
-    "video_title": "How This Guy Built 10 Tiny Businesses Making $50,000/month (Copy him)",
+    "cost": "Near-zero cost (a phone and load-board access)",
+    "found": "Chris Koerner on The Koerner Office Podcast (guest: Eli)",
+    "what": "You work for truck drivers who own their trucks: they tell you where and when they're available, and you search load boards such as DAT, call the shippers or brokers posting loads, and book loads for them. You typically earn a percentage of each load; the guest describes about 10%, using an example of an $800 load from years ago. It is done entirely by phone and computer.",
+    "pitch": "The guest says no license is needed to dispatch (unlike brokering, which represents the shipper), it can be done fully remotely, and it led him to discover a much bigger business renting trailers to the same drivers.",
+    "best": "Someone organized and comfortable on the phone who can negotiate rates and keep track of several drivers' schedules.",
+    "truth": "The guest says margins on dispatching were thin and he didn't make much from it, so this is a modest income unless you manage several trucks. Dispatching in this sense is mostly US-based and the trucking market swings with fuel prices and freight demand. The episode's main business, subleasing semi-trailers to truckers, is not covered here. The guest says he sells no course; the host's show promotes HighLevel as a sponsor.",
+    "url": "https://www.youtube.com/watch?v=PuogTln9CZw",
+    "video_title": "The Most Profitable Business You Can Run From a Phone",
     "situation_tags": [
-      "Strictly in-home"
+      "Phone/sales-based"
     ],
-    "published": "2026-08-26",
+    "published": "2026-10-08",
     "filters": [
       "older",
       "parent",
       "health",
       "outside",
       "lowcost",
-      "nosales",
       "nocamera",
       "noinventory",
       "novisits",
       "noai"
+    ]
+  },
+  {
+    "id": "ai-run-meta-ads-management-for-small-businesses",
+    "name": "Low-cost Facebook and Instagram ad management for small local businesses, run with an AI agent",
+    "category": "Marketing & content",
+    "tags": [
+      "facebook ads",
+      "instagram ads",
+      "ad management",
+      "local business",
+      "agency"
+    ],
+    "cost": "Very low startup cost (AI agent subscription; clients pay their own ad spend)",
+    "found": "Christian Peverelli",
+    "what": "You run paid Facebook and Instagram ads for small businesses that don't advertise yet, or tune the ads of those that do. An AI agent connected to the client's page and ad account does the research, sets up and adjusts campaigns, and produces reports, while you manage the client relationship. The creator suggests $1,000-5,000 a month, starting at the low end to undercut agencies.",
+    "pitch": "The creator says about half of small businesses run no paid ads, and that an agent built by the platform's own company can plug straight into their accounts, letting one person manage several clients at a fraction of agency cost.",
+    "best": "Someone who understands advertising basics and can sell to and report back to local business owners.",
+    "truth": "Ad management is an established service, but results depend on the client's offer, budget and your judgment, not just the tool, and owners will judge you on sales. Winning clients takes outreach. The pricing is the creator's suggestion, not reported results. The creator offers free prompts through his community.",
+    "url": "https://www.youtube.com/watch?v=QIxTHXjGGfo",
+    "video_title": "5 Proven Ways to Make Money with Meta Muse",
+    "situation_tags": [
+      "Home office, client-facing"
+    ],
+    "published": "2026-10-07",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nocamera",
+      "noinventory",
+      "novisits"
     ]
   },
   {
@@ -16988,37 +17321,35 @@
     ]
   },
   {
-    "id": "niche-saas-ai-playbook-isenberg",
-    "name": "Building a niche SaaS product with AI (30-step playbook)",
+    "id": "one-person-ai-rollup-holding-company",
+    "name": "One-person holding company that buys small service firms and runs their back office with AI agents",
     "category": "AI & automation",
     "tags": [
-      "SaaS",
-      "AI tools",
-      "content marketing",
-      "roadmap"
+      "business acquisition",
+      "ai agents",
+      "holding company",
+      "bookkeeping firms",
+      "roll-up"
     ],
-    "cost": "Varies (mostly time; low direct cost to start)",
+    "cost": "Moderate startup cost or higher (buying a business; often seller financing plus an equity roll-over)",
     "found": "Greg Isenberg",
-    "what": "A general roadmap, not a single product idea, for building a cash-flowing SaaS company inside a narrow subniche of a large market (his example: FIRE, financial independence retire early, within the broader finance space), using AI tools to map a target customer's actual day-to-day workflow, find the exact point where money changes hands or time gets wasted, and build a small tool that wedges into that specific gap.",
-    "pitch": "Isenberg's core argument is to avoid building for a broad market where well-funded venture-backed competitors already play, and instead go deep on a specific subniche's workflow: map it step by step (he uses a local roofing company as an example), identify where money changes hands, and spot the repetitive mechanical steps worth automating. The back half of the playbook is about distribution: build an audience with consistent short-form content on one platform, study which posts actually get saves and DMs, and only then start running paid ads on the content that's already proven to convert organically.",
-    "best": "Someone willing to commit to both sides of the work, actually building and shipping a niche software tool and consistently creating content to build an audience around it, since the framework leans heavily on organic-then-paid distribution rather than just building the product.",
-    "truth": "Isenberg discloses his own background as an advisor to companies like TikTok and Reddit and a builder of three venture-backed companies, real, checkable experience, though it also means his frame of reference skews toward higher-stakes company-building rather than a true solo bootstrapped project. This is a general methodology rather than a single concrete idea pitch, useful as a planning framework but requiring the reader to supply their own specific niche and product.",
-    "url": "https://www.youtube.com/watch?v=9T1yWEq5kP0",
-    "video_title": "SaaS is minting millionaires again (here's how)",
+    "what": "You buy small, long-established service businesses whose owners are retiring (bookkeeping, accounting, insurance, property management), keep the clients and staff, and make a trusted long-time employee the general manager with a share of the upside. Behind the scenes you build one shared system of AI agents (intake, preparer, reviewer) with written rules and a corrections log, so agents draft the routine work and people check it before anything reaches a client. Each new firm plugs into the same system, aiming to lift profit margins from about 5-10% toward 30-40%.",
+    "pitch": "The creator cites McKinsey's estimate that about $5 trillion of small businesses will change hands as owners retire, and says large funds (Thrive Holdings, General Catalyst) are already doing this but ignore firms too small to move their needle. A solo buyer can use the same AI tools, be personally present for the handover, and appeal to owners who would rather sell to a person.",
+    "best": "An experienced operator with access to capital or financing who can manage people remotely and is patient enough to buy slowly.",
+    "truth": "This is business acquisition, not a beginner side hustle: it needs money, deal-finding and management skill. The creator is candid that the fund results he cites are self-reported by young companies that haven't been through a recession, and that roll-ups often fail from overpaying, integrating too fast or losing key staff and clients. It is largely remote management of businesses that have their own offices. No paid product is promoted.",
+    "url": "https://www.youtube.com/watch?v=ZT4mpjx0JnE",
+    "video_title": "$5T opportunity: AI Roll Ups",
     "situation_tags": [
-      "Strictly in-home"
+      "Home office, client-facing",
+      "Requires hiring or managing others"
     ],
-    "published": "2026-03-04",
+    "published": "2026-09-28",
     "filters": [
       "older",
       "parent",
       "health",
-      "outside",
-      "lowcost",
-      "nosales",
       "nocamera",
-      "noinventory",
-      "novisits"
+      "noinventory"
     ]
   },
   {
@@ -17711,25 +18042,24 @@
     ]
   },
   {
-    "id": "genspark-ai-workspace-affiliate-business-build",
-    "name": "Building an entire affiliate marketing business (landing page, interactive lead magnet, email sequence, Pinterest content) inside one AI workspace tool",
+    "id": "ai-affiliate-blog-seo-ranking-system",
+    "name": "Using AI tools to research keywords, choose a domain, and auto-generate SEO-optimized affiliate blog content designed to rank on Google",
     "category": "Marketing & content",
     "tags": [
-      "affiliate marketing",
-      "GenSpark AI workspace",
-      "interactive lead magnet",
-      "AI-coded landing page",
-      "Pinterest content creation"
+      "affiliate blog SEO",
+      "AI content generation",
+      "keyword research",
+      "domain strategy",
+      "Perplexity AI"
     ],
-    "cost": "Low (a free-tier AI workspace with credits; optional custom domain)",
+    "cost": "Low (a domain, roughly $99 for a niche-extension domain, an AI keyword research tool, an SEO content-writing AI subscription)",
     "found": "Make Money with Stacy La",
-    "what": "Use a single all-in-one AI workspace to build every core piece of an affiliate marketing business via conversational or spoken prompts: an AI 'developer agent' codes a fully custom, mobile-responsive landing page with an email capture box from a plain-language description; the same workspace can research and suggest a profitable niche and affiliate product; build an interactive, web-app-style lead magnet (rather than a static PDF) with the affiliate link coded directly into its call-to-action button; generate a full email follow-up sequence and Pinterest pin graphics, all within the same connected project.",
-    "pitch": "The presenter says she built this entire affiliate marketing business from scratch in under an hour using only conversational prompts, positioning the interactive lead magnet as a way to stand out since she hasn't seen other affiliate marketers using anything beyond standard PDF lead magnets, and provides a companion checklist with every exact prompt used.",
-    "best": "Someone comfortable directing an AI tool conversationally to build web assets without needing to code, and willing to pick a real niche/product before starting.",
-    "truth": "AI workspace tools that code full websites and lead magnets from plain-language prompts are a real, current capability, and the core affiliate-marketing structure described reflects standard, sound fundamentals. No revenue figures are given, this is a tool-and-workflow demonstration, and the video promotes her own referral link to the platform.",
-    "url": "https://www.youtube.com/watch?v=42UsykZzCRQ",
-    "video_title": "Watch AI Agents Build my Affiliate Marketing Business in 14 Minutes (GenSpark)",
-    "published": "2026-04-15",
+    "what": "Choose a niche that satisfies two requirements: genuine personal knowledge or passion, AND proven profitability. Buy a domain using a newer, more available extension (e.g. '.online') rather than competing for scarce '.com' names, keeping it short and including a relevant keyword. Use an AI research tool (Perplexity) with two specific prompts: one to surface high-search-volume, low-to-medium-competition keywords within the niche, and a second to find exactly what people are searching for related to a chosen keyword. Generate the actual articles with a dedicated SEO-content AI tool rather than a general chatbot: configure it to use the most recent model, target the correct country, set a readability level, auto-generate images, connect to the web for current data, and auto-publish to WordPress; for non-WordPress sites, copy the article manually. Insert affiliate links into the finished content, and build a content calendar so posts build on each other over time to establish topical authority (rewarded by Google's E-E-A-T quality framework).",
+    "pitch": "The presenter frames the video around correcting a common misconception (that Google penalizes AI-written content, when it only cares about quality signals like E-E-A-T), and provides a full free downloadable checklist walking through the exact prompts and tool settings used, framing this as a repeatable, evergreen system that compounds over time rather than producing overnight results.",
+    "best": "Someone with genuine niche knowledge willing to review and verify AI-generated content for accuracy rather than publishing it unedited, comfortable configuring several connected AI tools.",
+    "truth": "Google's E-E-A-T quality framework and its stated indifference to whether content is AI-assisted are real, publicly documented Google guidelines, and the specific tool workflow is technically accurate and current. The presenter is honest that results take time rather than promising overnight income, though the video promotes several of her own affiliate-linked tools, so those specific recommendations are promotional even though the underlying strategy is sound and tool-agnostic in principle.",
+    "url": "https://www.youtube.com/watch?v=sRaY4kjl104",
+    "video_title": "How To Start Affiliate Marketing With AI (Beginner's Guide)",
     "filters": [
       "older",
       "parent",
@@ -20302,6 +20632,40 @@
     ]
   },
   {
+    "id": "ugc-creator-retainers-for-brands",
+    "name": "User-generated content (UGC) creator on monthly brand retainers",
+    "category": "Content & personal brand",
+    "tags": [
+      "ugc",
+      "brand deals",
+      "short-form video",
+      "content creator",
+      "retainer"
+    ],
+    "cost": "Near-zero cost (a phone; a simple media kit)",
+    "found": "BRAD LEA TV (guest: Danny Fisher)",
+    "what": "Brands pay ordinary people to film casual, personal-style videos about a product or app, which the brand posts on its own accounts or runs as ads. The guest describes typical retainers of about $3,000-4,000 for 30 short videos a month, often found through UGC agencies, freelance marketplaces, brand outreach, or creator platforms where brands accept applicants. His path is to prove you can get views first (for example through TikTok Shop), then send brands and agencies a media kit of your best-performing videos.",
+    "pitch": "The guest says each video can take as little as 10 minutes, that brands want regular-looking people rather than polished influencers, and that a UGC retainer gave him steady base income when his TikTok Shop accounts were suspended. He describes stacking retainers so they cover the bills while commissions are extra.",
+    "best": "Someone at ease talking to a phone camera who can take direction from brands and keep up a steady output of short videos.",
+    "truth": "Retainer amounts are the guest's own examples and vary widely; landing the first clients usually takes outreach and a portfolio, which the video covers only briefly. Some tactics described, such as planted comments and hiding that a video is paid, can conflict with platform rules and advertising-disclosure laws (in the US, the FTC requires disclosure of paid endorsements), so treat those with caution. The guest sells coaching and a script-writing app that the host promotes.",
+    "url": "https://www.youtube.com/watch?v=sJjiYvJFEaM",
+    "video_title": "The Hidden Phone Business Paying More Than Most 9-5 Jobs (No Experience Needed)",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-10-06",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "noinventory",
+      "novisits",
+      "noai"
+    ]
+  },
+  {
     "id": "faceless-youtube-ai-generated-content-baddie",
     "name": "Running a faceless YouTube channel with AI-generated scripts, voiceovers, and stock footage",
     "category": "Content & personal brand",
@@ -21070,6 +21434,40 @@
     ]
   },
   {
+    "id": "semi-trailer-subleasing-to-owner-operator-truckers",
+    "name": "Subleasing semi-trailers to owner-operator truckers, run from a phone",
+    "category": "Local & professional services",
+    "tags": [
+      "trucking",
+      "trailer rental",
+      "equipment leasing",
+      "facebook marketplace",
+      "recurring revenue"
+    ],
+    "cost": "Moderate startup cost (about $4,000 a year for insurance; trailers leased net-30 with no deposit)",
+    "found": "Chris Koerner on The Koerner Office Podcast (guest: Eli)",
+    "what": "You lease 53-foot semi-trailers (dry vans and flatbeds) from a large leasing company and sublease them to truck owners who can't get approved directly, often new companies or drivers with weak credit. The guest paid about $350 a month per trailer on net-30 terms and charged drivers about $180 a week plus a $750 deposit and a three-month minimum, so he collected before his own bill was due. He found renters through simple photo posts on Facebook Marketplace, later nationwide Facebook ads, and handled contracts, billing and insurance from his phone with two remote assistants.",
+    "pitch": "The guest says he started with one trailer for his uncle in 2019, had about 10 rented within two months, and grew to 300 trailers bringing in about $250,000 a month with $40,000-50,000 profit, while living in Colombia. He credits weekly billing, net-30 supplier terms and cheap Facebook ads (about $5,000 a month for 25 new clients) for being cash-flow positive from day one.",
+    "best": "Someone comfortable with contracts, insurance and collections who can handle risk and wants a remote, recurring-revenue business in a US industry.",
+    "truth": "This is an equipment rental business, so the work is remote but the assets are real trailers on the road: the guest lost 10-15 of 300 trailers that never came back, at $15,000-25,000 each, and says GPS tracking, careful contracts and being named as additional insured were hard lessons. His figures are self-reported and his supplier terms (no deposit, no credit check) may not be easy to get today. It depends on the US trucking market and US insurance and leasing companies. The guest says he sells no course; the host's show promotes HighLevel as a sponsor.",
+    "url": "https://www.youtube.com/watch?v=PuogTln9CZw",
+    "video_title": "The Most Profitable Business You Can Run From a Phone",
+    "situation_tags": [
+      "Phone/sales-based",
+      "Requires hiring or managing others"
+    ],
+    "published": "2026-10-08",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "nocamera",
+      "noinventory",
+      "novisits",
+      "noai"
+    ]
+  },
+  {
     "id": "website-landlord-rank-and-rent-kyle",
     "name": "Website landlord: rank-and-rent local lead generation sites",
     "category": "Local & professional services",
@@ -21176,28 +21574,28 @@
     ]
   },
   {
-    "id": "premium-animated-websites-claude-code-qtwo",
-    "name": "Premium animated custom websites built with Claude Code for businesses",
-    "category": "AI & automation",
+    "id": "old-lead-reactivation-paid-per-booked-meeting",
+    "name": "Reviving small businesses' old leads with AI follow-ups, paid per booked appointment",
+    "category": "Marketing & content",
     "tags": [
-      "web design",
-      "claude code",
-      "no-code websites",
-      "website agency",
-      "freelance"
+      "lead reactivation",
+      "appointment setting",
+      "gohighlevel",
+      "follow-up",
+      "pay per lead"
     ],
-    "cost": "Low startup cost ($20/month Claude plan, about $10/month hosting and a domain)",
+    "cost": "Low startup cost (CRM and AI agent subscriptions)",
     "found": "Christian Peverelli",
-    "what": "You use Claude Code with design add-ons (Anthropic's front-end design skill and a community UI/UX skill) to build custom, animated websites without writing code yourself. The video builds a car showcase site: a written brief turned into a first prompt, interior photo sections with motion, an interactive 3D-style hero adapted from a component library, a unified color scheme, mobile testing, and deployment to a custom domain through a Hostinger connection. The creator defines a '$10,000 website' as one with a clear goal such as booking calls, custom design, motion, mobile support, and working forms connected to a CRM or email tool. You can build such sites for your own business or sell them to clients.",
-    "pitch": "The creator says AI-built sites usually look generic, and the skills, component libraries and step-by-step design passes shown here let a non-coder produce something that looks premium enough to command a high price.",
-    "best": "Design-minded people who enjoy iterating on visuals and can explain a website's business purpose to clients.",
-    "truth": "The build process is shown in detail and is realistic, but the '$10,000' figure is a label, not a sale; the video shows no client paying that price and says nothing about how to find clients. Heavy animation and 3D elements can slow sites and break on phones, so testing matters. The creator uses a Hostinger discount code and offers prompts through his free community, which likely leads to paid offers. Charging premium prices usually depends on a portfolio and sales skills more than on the tools.",
-    "url": "https://www.youtube.com/watch?v=qTWOkhytG0M",
-    "video_title": "How to Build $10,000 Websites Using Claude Code (Full Guide)",
+    "what": "Many small businesses have long lists of leads they never followed up. You connect an AI agent to a CRM (HighLevel in the video), send personalized follow-ups to every lead not contacted in the last 90 days, and book appointments with those who respond. Rather than a monthly fee, the creator suggests charging $50-150 per qualified booked meeting.",
+    "pitch": "The creator cites a study that about 43% of leads never get contacted by small service companies, and argues that pay-per-result pricing removes the client's risk, making it easy to sell. Appointment-setting firms already charge $500-2,000 a month for similar work.",
+    "best": "Someone comfortable with CRM tools and messaging who can sell a results-based deal to service businesses.",
+    "truth": "Database reactivation is a known, legitimate tactic, and pay-per-appointment pricing is easier to sell but means you earn nothing if leads don't book. Messaging old contacts must follow consent and anti-spam rules for email and text. The figures are the creator's suggestions, not results. The creator offers free prompts through his community.",
+    "url": "https://www.youtube.com/watch?v=QIxTHXjGGfo",
+    "video_title": "5 Proven Ways to Make Money with Meta Muse",
     "situation_tags": [
       "Home office, client-facing"
     ],
-    "published": "2026-10-02",
+    "published": "2026-10-07",
     "filters": [
       "older",
       "parent",
@@ -22400,32 +22798,36 @@
     ]
   },
   {
-    "id": "ai-marketplace-arbitrage-flip-bot",
-    "name": "Using an AI browser agent to monitor Facebook Marketplace and Craigslist for underpriced items to flip",
-    "category": "E-commerce",
+    "id": "ai-back-office-service-for-bookkeeping-firms",
+    "name": "AI-agent back-office service for small bookkeeping firms (month-end cleanup, document chasing)",
+    "category": "AI & automation",
     "tags": [
-      "marketplace arbitrage",
-      "AI browser agent",
-      "resale flipping",
-      "automated monitoring",
-      "side income"
+      "bookkeeping",
+      "ai agents",
+      "b2b service",
+      "automation",
+      "accounting firms"
     ],
-    "cost": "Very low (an AI subscription with computer-use/browser-agent capability, plus cash on hand to buy items to flip)",
+    "cost": "Very low startup cost (AI tool subscriptions)",
     "found": "Greg Isenberg",
-    "what": "Set an AI agent with browser/computer-use capability to continuously watch Facebook Marketplace and Craigslist listings in your city for items (cameras, furniture, bikes, etc.) priced noticeably under market value, and have it text you immediately with a link when it finds one, so you can buy and resell the item for a profit.",
-    "pitch": "Discussed as one of several practical prompt ideas for a new AI model on a podcast, framed as especially useful for people who want to make a few hundred dollars a day, including younger people who can't find traditional jobs right now, an AI agent does the constant scanning a human would otherwise have to do manually.",
-    "best": "Someone in a city with active local marketplace listings and available cash to buy items on short notice, comfortable acting quickly on alerts to beat other buyers to underpriced listings.",
-    "truth": "Marketplace arbitrage/flipping itself is a well-established side hustle, and using an AI agent to automate the constant watching is a reasonable extension of that. This was mentioned briefly as one of several prompt ideas in a wide-ranging discussion, not demonstrated live or with results shown, so there's no verified evidence of how well the automated monitoring performs in practice, and competition for the same underpriced listings will increase as more people use similar bots.",
-    "url": "https://www.youtube.com/watch?v=nglqTHwuZ-8",
-    "video_title": "GPT-6 Astra: How I'd Make Money With It",
-    "published": "2026-09-10",
+    "what": "Pick one industry, such as small bookkeeping firms, and sell them one annoying job done with AI agents: cleaning up month-end for their messiest clients or chasing clients for missing documents. You run an intake agent, a preparer agent and a reviewer agent, and a person approves every result before it goes out. Each firm you serve teaches you how the business works, and the creator presents it as the path to eventually buying one of those firms.",
+    "pitch": "The creator says doing real work for many firms over 6-12 months builds both reliable agents and trust with owners, so when one wants to retire you are the obvious buyer. He argues AI drafts are now good enough that checking work takes far less time than doing it.",
+    "best": "Someone comfortable with AI tools and basic bookkeeping concepts who can win and keep business clients.",
+    "truth": "Getting the first firms will take outreach and a sales conversation, and firms will want strong accuracy and data-security assurances. Keeping a human approval step, as the creator insists, matters for client trust and liability. The approach is described in outline rather than with pricing or client numbers. No paid product is promoted.",
+    "url": "https://www.youtube.com/watch?v=ZT4mpjx0JnE",
+    "video_title": "$5T opportunity: AI Roll Ups",
+    "situation_tags": [
+      "Home office, client-facing"
+    ],
+    "published": "2026-09-28",
     "filters": [
       "older",
       "parent",
+      "health",
       "outside",
       "lowcost",
-      "nosales",
       "nocamera",
+      "noinventory",
       "novisits"
     ]
   },
@@ -23651,6 +24053,40 @@
     ]
   },
   {
+    "id": "ai-built-info-product-from-personal-experience",
+    "name": "Turning a personal experience into a low-priced digital guide with an AI business-builder tool, sold through social media",
+    "category": "Digital & subscription products",
+    "tags": [
+      "digital products",
+      "ebook",
+      "ai tool",
+      "social media",
+      "info product"
+    ],
+    "cost": "Low startup cost (subscription to the AI tool shown)",
+    "found": "Kandace Alexis",
+    "what": "You tell an AI tool (BiziBrain in the video) about something you've overcome or know well, and it shapes it into a digital guide; the example turns a 50-pound weight loss into a $17-27 beginner guide. The tool drafts and designs the product, suggests a price, gives a seven-day content plan, and analyzes viral videos in your niche so you can model your own short videos to drive sales. Later steps add a custom AI chatbot product, affiliate offers and a community.",
+    "pitch": "The creator says the tool turned her own business into about $100,000 in 90 days while working around two hours a day on her phone, and that her students average from $100 to thousands a day. Her pitch is that low-priced impulse products plus social media views can add up quickly.",
+    "best": "Someone with a real story or skill people would pay to learn from, who is willing to post short videos consistently.",
+    "truth": "This video works largely as a sales pitch for the tool: the creator promotes BiziBrain through her own sign-up link bundled with her paid social-media club and playbook, and even suggests reselling the tool itself as your offer. Her income and student results are unverified, and the $27,000-from-one-post example is hypothetical. Selling digital guides from personal experience is a legitimate, common model, but it doesn't require this particular tool, and health or weight-loss guides should avoid medical claims.",
+    "url": "https://www.youtube.com/watch?v=xXFb7wR1VkQ",
+    "video_title": "$100k in 100 days with AI and Wifi 2026 (BiziBrain created my 6 figure digital business)",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-10-07",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nosales",
+      "noinventory",
+      "novisits"
+    ]
+  },
+  {
     "id": "work-from-home-claims-processing-jobs",
     "name": "Work-from-home insurance claims processing jobs, from entry-level resolution roles to leadership positions",
     "category": "Local & professional services",
@@ -24145,24 +24581,28 @@
     ]
   },
   {
-    "id": "ai-affiliate-blog-seo-ranking-system",
-    "name": "Using AI tools to research keywords, choose a domain, and auto-generate SEO-optimized affiliate blog content designed to rank on Google",
-    "category": "Marketing & content",
+    "id": "ai-agent-etsy-autocomplete-research-and-build",
+    "name": "Etsy digital products researched and built by an AI browser agent (autocomplete keyword mining)",
+    "category": "Digital & subscription products",
     "tags": [
-      "affiliate blog SEO",
-      "AI content generation",
-      "keyword research",
-      "domain strategy",
-      "Perplexity AI"
+      "etsy",
+      "digital products",
+      "ai agent",
+      "product research",
+      "printables"
     ],
-    "cost": "Low (a domain, roughly $99 for a niche-extension domain, an AI keyword research tool, an SEO content-writing AI subscription)",
+    "cost": "Very low startup cost (Etsy listing fees, AI credits, an optional Etsy research extension)",
     "found": "Make Money with Stacy La",
-    "what": "Choose a niche that satisfies two requirements: genuine personal knowledge or passion, AND proven profitability. Buy a domain using a newer, more available extension (e.g. '.online') rather than competing for scarce '.com' names, keeping it short and including a relevant keyword. Use an AI research tool (Perplexity) with two specific prompts: one to surface high-search-volume, low-to-medium-competition keywords within the niche, and a second to find exactly what people are searching for related to a chosen keyword. Generate the actual articles with a dedicated SEO-content AI tool rather than a general chatbot: configure it to use the most recent model, target the correct country, set a readability level, auto-generate images, connect to the web for current data, and auto-publish to WordPress; for non-WordPress sites, copy the article manually. Insert affiliate links into the finished content, and build a content calendar so posts build on each other over time to establish topical authority (rewarded by Google's E-E-A-T quality framework).",
-    "pitch": "The presenter frames the video around correcting a common misconception (that Google penalizes AI-written content, when it only cares about quality signals like E-E-A-T), and provides a full free downloadable checklist walking through the exact prompts and tool settings used, framing this as a repeatable, evergreen system that compounds over time rather than producing overnight results.",
-    "best": "Someone with genuine niche knowledge willing to review and verify AI-generated content for accuracy rather than publishing it unedited, comfortable configuring several connected AI tools.",
-    "truth": "Google's E-E-A-T quality framework and its stated indifference to whether content is AI-assisted are real, publicly documented Google guidelines, and the specific tool workflow is technically accurate and current. The presenter is honest that results take time rather than promising overnight income, though the video promotes several of her own affiliate-linked tools, so those specific recommendations are promotional even though the underlying strategy is sound and tool-agnostic in principle.",
-    "url": "https://www.youtube.com/watch?v=sRaY4kjl104",
-    "video_title": "How To Start Affiliate Marketing With AI (Beginner's Guide)",
+    "what": "An AI agent (Genspark in the video) takes over a browser tab and types your niche plus each letter of the alphabet into Etsy's search bar to collect what buyers are searching for, then checks those terms against sales data from an Etsy research extension (ListingsView). It produces a report of the three digital products most likely to sell, and a second agent builds the chosen product from that report; the example is an interactive wedding invitation. A third prompt makes listing images (mockup, UGC-style and explainer), and you review everything before selling on Etsy or your own shop.",
+    "pitch": "The creator says this replaces hours or days of manual product research with about 20-30 minutes of hands-off agent work, and that recommendations come from real search and sales data rather than guesses. She stresses that skipping research is the main reason beginners never sell.",
+    "best": "A beginner who wants a structured, data-led way to pick and make printable or interactive digital products and is willing to check AI output carefully.",
+    "truth": "Autocomplete mining plus sales-data checks is a sound, widely used research method; the agent mainly speeds it up. The video stops before traffic, which the creator acknowledges is the hard part, and Etsy digital-product niches are crowded. AI-built products need careful checking for errors, as she says. The creator uses an affiliate link for Genspark, gates her prompts behind an email signup, and promotes her paid community.",
+    "url": "https://www.youtube.com/watch?v=jk4hySSu5xA",
+    "video_title": "This AI Agent Finds & Builds Winning Digital Products FAST | AI Product Research with Genspark",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-10-09",
     "filters": [
       "older",
       "parent",
@@ -26195,6 +26635,40 @@
       "nosales",
       "noinventory",
       "novisits"
+    ]
+  },
+  {
+    "id": "at-home-wash-and-fold-laundry-through-apps",
+    "name": "At-home wash-and-fold laundry service taken through laundry apps",
+    "category": "Local & professional services",
+    "tags": [
+      "laundry",
+      "wash and fold",
+      "stay-at-home",
+      "gig app",
+      "local service"
+    ],
+    "cost": "Very low startup cost (your own washer, dryer, detergent and utilities; gas for pickups)",
+    "found": "Sherry Beckley",
+    "what": "You sign up with a laundry-service app that sends you customers' orders, pick up their laundry, wash, dry and fold it in your own home, and return it, usually within 24 hours. The app supplies the customers and payment, so you don't have to find clients yourself; some people also build a few private regular clients. The video's example earns about $500 a month from two regular clients, with single orders around $90.",
+    "pitch": "The creator ranks it as one of the more flexible options for stay-at-home parents because the work happens at home alongside chores you already do, can be done with kids around, and pays quickly once an order is complete.",
+    "best": "A stay-at-home parent or retiree with a reliable washer and dryer who wants modest, steady income without finding customers.",
+    "truth": "The creator flags the real costs herself: you pay for water, electricity, detergent and gas, so the net is lower than the order price, and you need to track those costs. It involves short local pickups and drop-offs, availability depends on the app operating in your area, and earnings are modest rather than a full income. The other ideas in this video were on-site shift and delivery apps, not home-based work. The creator also sells a field-inspection training program.",
+    "url": "https://www.youtube.com/watch?v=mNBFFuYL3Nc",
+    "video_title": "Get Paid $500 In 24 Hours & Same-Day￼ With These Side Hustle Apps -Do This Now!",
+    "situation_tags": [
+      "Strictly in-home",
+      "Local travel required"
+    ],
+    "published": "2026-10-09",
+    "filters": [
+      "older",
+      "parent",
+      "lowcost",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "noai"
     ]
   },
   {
