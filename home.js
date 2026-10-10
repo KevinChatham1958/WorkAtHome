@@ -362,6 +362,17 @@ function wire() {
   $('q-clear').onclick = () => { $('q').value = ''; st.q = ''; reset(); $('q').focus(); };
   $('sort').onchange = e => { st.sort = e.target.value; reset(); };
   $('more-btn').onclick = () => { st.shown += PAGE; render(); };
+  // Load the next 30 automatically as the visitor nears the bottom of the list.
+  // The button stays only as a fallback for very old browsers.
+  if ('IntersectionObserver' in window) {
+    $('more').classList.add('auto');
+    const io = new IntersectionObserver(entries => {
+      if (!entries.some(e => e.isIntersecting) || $('more').hidden) return;
+      st.shown += PAGE; render();
+      io.unobserve($('more')); io.observe($('more'));  // re-check in case the screen is still not full
+    }, { rootMargin: '0px 0px 800px 0px' });
+    io.observe($('more'));
+  }
 
   $('list').addEventListener('click', e => {
     const btn = e.target.closest('[data-act]');
