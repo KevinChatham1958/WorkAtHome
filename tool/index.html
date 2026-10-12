@@ -18,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="home.css?v=20261012a">
+<link rel="stylesheet" href="home.css?v=20261012c">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 </head>
@@ -80,6 +80,7 @@
   <div class="wrap">
     <div class="tally-bar">
       <p class="found" id="found" aria-live="polite">Loading gigs…</p>
+      <div class="picks" id="picks" hidden></div>
       <div class="saved-row" id="saved-row" hidden>
         <span class="saved-n"><span class="heart" aria-hidden="true">♥</span> <span id="saved-n">0</span> saved</span>
         <button type="button" class="saved-link" id="s-view">Show saved</button>
@@ -112,8 +113,9 @@
   </div>
 </footer>
 
+<button type="button" class="pill" id="pill" hidden></button>
 <div class="toast" id="toast" role="status" hidden></div>
 
-<script src="home.js?v=20261012b"></script>
+<script src="home.js?v=20261012c"></script>
 </body>
 </html>

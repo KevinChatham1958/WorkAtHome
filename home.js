@@ -263,6 +263,19 @@ function render() {
   else if (st.q.trim() || st.chips.size) line = `Filters on<button type="button" class="linkish" id="clear-all">Clear all</button>`;
   $('count').innerHTML = line;
 
+  // Name the visitor's choices in the bar, each with an x to remove it.
+  const picks = [];
+  if (!st.savedOnly) {
+    if (st.q.trim()) picks.push(`<button type="button" class="pick" data-unpick="q" aria-label="Remove search ${esc(st.q.trim())}">“${esc(st.q.trim())}” <span aria-hidden="true">×</span></button>`);
+    st.chips.forEach(c => picks.push(`<button type="button" class="pick" data-unpick="${c}" aria-label="Remove ${esc(CHIP_LABEL[c])}">${esc(CHIP_LABEL[c])} <span aria-hidden="true">×</span></button>`));
+  }
+  $('picks').innerHTML = picks.join('');
+  $('picks').hidden = !picks.length;
+  $('pill').innerHTML = list.length
+    ? `<strong>${n}</strong> gig${plural} match · See them ↓`
+    : 'No gigs match · remove a choice';
+  updatePill();
+
   $('list').innerHTML = list.slice(0, st.shown).map(cardHtml).join('');
   $('empty').hidden = list.length > 0;
   $('empty').textContent = st.savedOnly ? 'No saved gigs yet. Tap the heart on any gig to save it.' : 'No gigs match.';
@@ -272,7 +285,7 @@ function render() {
   updateSameProducerNote();
 
   const back = $('back-all'); if (back) back.onclick = () => { st.savedOnly = false; reset(); };
-  const clr = $('clear-all'); if (clr) clr.onclick = () => { st.q = ''; $('q').value = ''; st.chips.clear(); syncChips(); reset(); };
+  const clr = $('clear-all'); if (clr) clr.onclick = () => { st.q = ''; $('q').value = ''; st.chips.clear(); syncChips(); changed(); };
 }
 // Links from creator pages and outreach emails can open the tool with a
 // search already run (?q=Adam%20Enfroy) and one gig opened first (&open=<id>).
@@ -287,6 +300,34 @@ function applyLinkParams() {
 }
 
 function reset() { st.pin = null; st.shown = PAGE; render(); }
+
+// Called whenever the visitor changes what they're looking for (a chip, a
+// search, clearing). On the default Shuffle order it deals a fresh shuffle,
+// so the top of the list visibly changes on every tap, then fades the list
+// in and bounces the results button so the change is noticeable even when
+// the list itself is off screen (phones).
+function changed() {
+  if (st.sort === 'shuffle' && ALL_IDEAS.length) SHUFFLED = shuffleWithSeed(ALL_IDEAS, (Math.random() * 4294967296) | 0);
+  reset();
+  fadeList();
+  bouncePill();
+}
+function fadeList() {
+  const l = $('list');
+  l.classList.remove('fade-in'); void l.offsetWidth; l.classList.add('fade-in');
+}
+function bouncePill() {
+  const p = $('pill');
+  p.classList.remove('bump'); void p.offsetWidth; p.classList.add('bump');
+}
+// The pinned "N gigs match · See them" button: shown while filters or a
+// search are on and the list is still below the bottom of the screen.
+function updatePill() {
+  const p = $('pill');
+  const filtered = !st.savedOnly && (st.q.trim() || st.chips.size);
+  const listTop = document.querySelector('main').getBoundingClientRect().top;
+  p.hidden = !(filtered && listTop > window.innerHeight - 60);
+}
 
 // A reminder that a creator search shows our sample, not their whole channel.
 function updateSameProducerNote() {
@@ -309,7 +350,7 @@ function updateSavedUI() {
 }
 
 function buildChips(target, defs) {
-  $(target).innerHTML = defs.map(c => `<button type="button" class="chip" data-chip="${c.id}" aria-pressed="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${c.icon}"/></svg>${esc(c.label)}<span class="x" aria-hidden="true">×</span></button>`).join('');
+  $(target).innerHTML = defs.map(c => `<button type="button" class="chip" data-chip="${c.id}" aria-pressed="false"><span class="check" aria-hidden="true">✓</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${c.icon}"/></svg>${esc(c.label)}<span class="x" aria-hidden="true">×</span></button>`).join('');
 }
 function syncChips() { document.querySelectorAll('.chip').forEach(b => b.setAttribute('aria-pressed', String(st.chips.has(b.dataset.chip)))); }
 
@@ -340,7 +381,7 @@ function downloadSaved() {
 // ---------- Wiring ----------
 let searchTrackTimer;
 function applySearch(value, fromSubmit) {
-  st.q = value; st.savedOnly = false; reset();
+  st.q = value; st.savedOnly = false; changed();
   clearTimeout(searchTrackTimer);
   const q = value.trim().toLowerCase();
   if (!q) return;
@@ -357,14 +398,24 @@ function wire() {
     const id = b.dataset.chip;
     const on = !st.chips.has(id);
     on ? st.chips.add(id) : st.chips.delete(id);
-    st.savedOnly = false; syncChips(); reset();
+    st.savedOnly = false; syncChips(); changed();
     if (on) track('filter_chip', { chip: CHIP_LABEL[id], chips_on: st.chips.size, gigs_found: results().length });
   });
 
   let deb;
   $('q').addEventListener('input', () => { clearTimeout(deb); $('q-clear').hidden = !$('q').value; deb = setTimeout(() => applySearch($('q').value, false), 250); });
   $('search-form').addEventListener('submit', e => { e.preventDefault(); clearTimeout(deb); applySearch($('q').value, true); $('q').blur(); });
-  $('q-clear').onclick = () => { $('q').value = ''; st.q = ''; reset(); $('q').focus(); };
+  $('q-clear').onclick = () => { $('q').value = ''; st.q = ''; changed(); $('q').focus(); };
+  // Removing a choice from the bar.
+  $('picks').addEventListener('click', e => {
+    const b = e.target.closest('[data-unpick]'); if (!b) return;
+    const k = b.dataset.unpick;
+    if (k === 'q') { st.q = ''; $('q').value = ''; } else { st.chips.delete(k); syncChips(); }
+    changed();
+  });
+  $('pill').onclick = () => document.querySelector('main').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  window.addEventListener('scroll', updatePill, { passive: true });
+  window.addEventListener('resize', updatePill);
   // "Try:" example searches under the search box.
   document.querySelector('.try').addEventListener('click', e => {
     const b = e.target.closest('[data-try]'); if (!b) return;
@@ -382,7 +433,7 @@ function wire() {
   if ('IntersectionObserver' in window) {
     new IntersectionObserver(entries => { boxesVisible = entries[0].intersectionRatio > 0.25; setJump(); }, { threshold: [0, 0.25, 0.5, 1] }).observe(document.querySelector('.doors'));
   }
-  $('sort').onchange = e => { st.sort = e.target.value; reset(); };
+  $('sort').onchange = e => { st.sort = e.target.value; reset(); fadeList(); };
   $('more-btn').onclick = () => { st.shown += PAGE; render(); };
   // Load the next 30 automatically as the visitor nears the bottom of the list.
   // The button stays only as a fallback for very old browsers.
