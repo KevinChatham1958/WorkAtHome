@@ -19,7 +19,7 @@ const ABOUT = [
 const WANT = [
   { id: 'lowcost', label: 'Low startup cost', icon: 'M12 3v18M17 7H9.5a3 3 0 0 0 0 6h5a3 3 0 0 1 0 6H6' },
   { id: 'nosales', label: 'No sales or cold calling', icon: 'M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2zM3 3l18 18' },
-  { id: 'nocamera', label: 'No camera', icon: 'M4 7h3l2-3h6l2 3h3v12H4zM12 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM3 3l18 18' },
+  { id: 'nocamera', label: 'Stay off camera', icon: 'M4 7h3l2-3h6l2 3h3v12H4zM12 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM3 3l18 18' },
   { id: 'noinventory', label: 'No inventory or shipping', icon: 'M3 8l9-5 9 5v9l-9 5-9-5zM3 8l9 5 9-5M12 13v9' },
   { id: 'novisits', label: 'No client visits', icon: 'M5 17h14M6 17l1.5-6h9l1.5 6M7 17v3M17 17v3M3 3l18 18' },
   { id: 'noai', label: 'No AI needed', icon: 'M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2zM3 3l18 18' }
