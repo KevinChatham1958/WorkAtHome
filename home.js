@@ -1,4 +1,4 @@
-// Home page script (index.html). app.js is kept for review.html.
+// Search tool script (tool/index.html). app.js is kept for review.html.
 //
 // How the page narrows the list:
 // - Situation chips ("About me" / "I want"). Every chip narrows: a gig shows
@@ -9,19 +9,20 @@
 
 // ---------- Situation chips ----------
 // id = the tag code stored in each idea's `filters` array.
+// icon = an SVG path drawn on a 24x24 grid (line icons; a diagonal stroke means "no").
 const ABOUT = [
-  { id: 'older', label: '50+ or retired' },
-  { id: 'parent', label: 'Stay-at-home parent' },
-  { id: 'health', label: 'Health limits' },
-  { id: 'outside', label: 'Outside the US' }
+  { id: 'older', label: '50+ or retired', icon: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 7v5l3 2' },
+  { id: 'parent', label: 'Stay-at-home parent', icon: 'M3 11l9-7 9 7M5 10v10h14V10M10 20v-6h4v6' },
+  { id: 'health', label: 'Health limits', icon: 'M12 20s-7-4.4-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.6-9 9-9 9z' },
+  { id: 'outside', label: 'Outside the US', icon: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18' }
 ];
 const WANT = [
-  { id: 'lowcost', label: 'Low startup cost' },
-  { id: 'nosales', label: 'No sales or cold calling' },
-  { id: 'nocamera', label: 'No camera' },
-  { id: 'noinventory', label: 'No inventory or shipping' },
-  { id: 'novisits', label: 'No client visits' },
-  { id: 'noai', label: 'No AI needed' }
+  { id: 'lowcost', label: 'Low startup cost', icon: 'M12 3v18M17 7H9.5a3 3 0 0 0 0 6h5a3 3 0 0 1 0 6H6' },
+  { id: 'nosales', label: 'No sales or cold calling', icon: 'M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2zM3 3l18 18' },
+  { id: 'nocamera', label: 'No camera', icon: 'M4 7h3l2-3h6l2 3h3v12H4zM12 16a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM3 3l18 18' },
+  { id: 'noinventory', label: 'No inventory or shipping', icon: 'M3 8l9-5 9 5v9l-9 5-9-5zM3 8l9 5 9-5M12 13v9' },
+  { id: 'novisits', label: 'No client visits', icon: 'M5 17h14M6 17l1.5-6h9l1.5 6M7 17v3M17 17v3M3 3l18 18' },
+  { id: 'noai', label: 'No AI needed', icon: 'M12 3l2 5 5 2-5 2-2 5-2-5-5-2 5-2zM3 3l18 18' }
 ];
 const CHIP_LABEL = Object.fromEntries([...ABOUT, ...WANT].map(c => [c.id, c.label]));
 
@@ -252,7 +253,10 @@ function render() {
   const list = results();
   const n = list.length.toLocaleString();
   const plural = list.length === 1 ? '' : 's';
-  $('found').innerHTML = st.savedOnly ? `${n} <small>saved gig${plural}</small>` : `${n} <small>gig${plural} found</small>`;
+  const filtered = st.q.trim() || st.chips.size;
+  $('found').innerHTML = st.savedOnly ? `<strong>${n}</strong> saved gig${plural}`
+    : filtered ? `<strong>${n}</strong> gig${plural} match${list.length === 1 ? 'es' : ''} your picks`
+    : `<strong>${n}</strong> gig${plural} currently in the database`;
 
   let line = '';
   if (st.savedOnly) line = `Showing your saved gigs<button type="button" class="linkish" id="back-all">Back to all gigs</button>`;
@@ -299,12 +303,13 @@ function updateSameProducerNote() {
 function updateSavedUI() {
   $('saved-n').textContent = saved.size;
   const none = saved.size === 0;
+  $('saved-row').hidden = none && !st.savedOnly; // only shown once someone saves a gig
   $('s-view').disabled = $('s-download').disabled = $('s-clear').disabled = none;
   $('s-view').textContent = st.savedOnly ? 'Showing saved' : 'Show saved';
 }
 
 function buildChips(target, defs) {
-  $(target).innerHTML = defs.map(c => `<button type="button" class="chip" data-chip="${c.id}" aria-pressed="false">${esc(c.label)}<span class="x" aria-hidden="true">×</span></button>`).join('');
+  $(target).innerHTML = defs.map(c => `<button type="button" class="chip" data-chip="${c.id}" aria-pressed="false"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${c.icon}"/></svg>${esc(c.label)}<span class="x" aria-hidden="true">×</span></button>`).join('');
 }
 function syncChips() { document.querySelectorAll('.chip').forEach(b => b.setAttribute('aria-pressed', String(st.chips.has(b.dataset.chip)))); }
 
@@ -360,6 +365,23 @@ function wire() {
   $('q').addEventListener('input', () => { clearTimeout(deb); $('q-clear').hidden = !$('q').value; deb = setTimeout(() => applySearch($('q').value, false), 250); });
   $('search-form').addEventListener('submit', e => { e.preventDefault(); clearTimeout(deb); applySearch($('q').value, true); $('q').blur(); });
   $('q-clear').onclick = () => { $('q').value = ''; st.q = ''; reset(); $('q').focus(); };
+  // "Try:" example searches under the search box.
+  document.querySelector('.try').addEventListener('click', e => {
+    const b = e.target.closest('[data-try]'); if (!b) return;
+    $('q').value = b.dataset.try; applySearch(b.dataset.try, true);
+  });
+  // The bar's button: "See them" jumps to the list; once the two boxes have
+  // scrolled out of view it becomes "Change filters" and jumps back up.
+  let boxesVisible = true;
+  const jump = $('jump');
+  const setJump = () => { jump.textContent = boxesVisible ? 'See them ↓' : '↑ Change filters'; };
+  jump.onclick = () => {
+    const target = boxesVisible ? document.querySelector('main') : document.querySelector('.intro');
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(entries => { boxesVisible = entries[0].intersectionRatio > 0.25; setJump(); }, { threshold: [0, 0.25, 0.5, 1] }).observe(document.querySelector('.doors'));
+  }
   $('sort').onchange = e => { st.sort = e.target.value; reset(); };
   $('more-btn').onclick = () => { st.shown += PAGE; render(); };
   // Load the next 30 automatically as the visitor nears the bottom of the list.
@@ -423,6 +445,7 @@ fetch('ideas.json')
     ALL_IDEAS = data;
     data.forEach(i => { const k = videoKey(i.url); videoCounts.set(k, (videoCounts.get(k) || 0) + 1); });
     SHUFFLED = shuffleWithSeed(data, dailySeed());
+    $('total-n').textContent = `${data.length.toLocaleString()} gigs`;
     applyLinkParams();
     render();
   })
