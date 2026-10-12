@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script>
+  // Old links (outreach emails, shared gig links) used /?q=... and /?open=...
+  // to open the search tool. The tool now lives at /tool/, so send them there.
+  if (/[?&](q|open)=/.test(location.search)) location.replace('/tool/' + location.search);
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-DP5LDLD5VR"></script>
 <script>
@@ -11,85 +16,171 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Side Hustle Intel — Find Your Work-at-Home Gig</title>
-<meta name="description" content="A free, searchable database of work-from-home business ideas sourced from creator videos.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="home.css?v=20261007a">
+<title>Side Hustle Intel — Find Legit Work-at-Home Gigs</title>
+<meta name="description" content="Stop spending hours on YouTube hunting for the right gig. We watch the videos so you don't have to, and explain every work-at-home idea in plain English with the link to the source video. Free, no sign-up required.">
+<link rel="canonical" href="https://sidehustleintel.org/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Find Legit Work-at-Home Gigs That Actually Match Your Situation">
+<meta property="og:description" content="We watch the YouTube videos so you don't have to. Every work-at-home idea explained in plain English, with the source video. Free, no sign-up required.">
+<meta property="og:url" content="https://sidehustleintel.org/">
+<meta property="og:image" content="https://sidehustleintel.org/assets/hero-home.webp">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #17303F;
+    --navy: #0F3D57;
+    --body: #3C5260;
+    --muted: #5A6E7A;
+    --accent: #C2410C;
+    --accent-dark: #9A3412;
+    --tint: #F4F8FA;
+    --tint2: #EEF4F7;
+    --line: #E3EAEE;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #FFFFFF; color: var(--ink); font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: #0F4C68; }
+  a:hover { color: #0A3448; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+  h1, h2 { font-family: Outfit, system-ui, sans-serif; color: var(--navy); margin: 0; }
+
+  .site-header { border-bottom: 1px solid var(--line); }
+  .site-header .wrap { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; padding-top: 16px; padding-bottom: 16px; }
+  .logo { height: 30px; width: auto; display: block; }
+  .nav { display: flex; gap: 22px; align-items: center; }
+  .nav a { text-decoration: none; font-size: 16px; font-weight: 500; color: var(--ink); padding: 8px 0; }
+  .nav a.nav-tool { color: var(--accent); font-weight: 600; border: 2px solid var(--accent); border-radius: 8px; padding: 9px 16px; }
+  .nav a.nav-tool:hover { background: var(--accent); color: #FFFFFF; }
+
+  .hero { padding: 52px 0 64px; }
+  .hero .wrap { display: flex; flex-wrap: wrap; gap: 44px; align-items: center; }
+  .hero-copy { flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 22px; }
+  .hero h1 { font-size: 52px; line-height: 1.08; font-weight: 700; }
+  .hero h1 span { color: var(--accent); }
+  .lede { margin: 0; font-size: 19px; line-height: 1.55; color: var(--body); }
+  .cta-row { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+  .btn { display: inline-block; background: var(--accent); color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 18px; line-height: 1.3; padding: 16px 26px; border-radius: 8px; text-align: center; }
+  .btn:hover, .btn:focus-visible { background: var(--accent-dark); color: #FFFFFF; }
+  .free { font-size: 15px; font-weight: 600; color: var(--body); }
+  .checks { margin: 4px 0 0; padding: 16px 20px; list-style: none; background: var(--tint2); border-radius: 10px; display: flex; flex-direction: column; gap: 10px; max-width: 480px; }
+  .checks li { display: flex; gap: 10px; align-items: flex-start; font-size: 16px; line-height: 1.4; }
+  .checks svg { flex: 0 0 18px; margin-top: 2px; }
+  .hero-photo { flex: 1 1 440px; min-width: 0; }
+  .hero-photo img { width: 100%; height: 440px; object-fit: cover; object-position: 70% 40%; border-radius: 18px; display: block; }
+
+  .creators { background: var(--tint); padding: 28px 0; }
+  .creators p { margin: 0 auto; max-width: 1000px; text-align: center; font-size: 19px; line-height: 1.5; color: var(--ink); }
+
+  .points { padding: 60px 0; }
+  .points .wrap { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; }
+  .points h2 { font-size: 32px; font-weight: 600; line-height: 1.15; margin-bottom: 12px; }
+  .points p { margin: 0; font-size: 18px; line-height: 1.6; color: var(--body); }
+
+  .closer { background: var(--navy); color: #FFFFFF; padding: 56px 0; text-align: center; }
+  .closer .wrap { display: flex; flex-direction: column; gap: 18px; align-items: center; }
+  .closer h2 { color: #FFFFFF; font-size: 36px; font-weight: 600; }
+  .closer p { margin: 0; font-size: 17px; color: #CFE0E8; }
+
+  .site-footer { padding: 28px 0 36px; font-size: 13px; line-height: 1.6; color: var(--muted); }
+
+  @media (max-width: 760px) {
+    .wrap { padding: 0 16px; }
+    .site-header .wrap { padding-top: 12px; padding-bottom: 12px; }
+    .logo { height: 22px; }
+    .nav a.nav-tool { display: none; }
+    .hero { padding: 28px 0 32px; }
+    .hero-copy { gap: 16px; }
+    .hero h1 { font-size: 34px; line-height: 1.1; }
+    .lede { font-size: 17px; line-height: 1.5; }
+    .cta-row { flex-direction: column; align-items: stretch; gap: 10px; }
+    .btn { display: block; font-size: 17px; padding: 16px 18px; }
+    .free { text-align: center; font-size: 14px; }
+    .checks { margin-top: 8px; padding: 14px 16px; max-width: none; }
+    .checks li { font-size: 15px; }
+    .hero-photo { display: none; }
+    .creators { padding: 22px 0; }
+    .creators p { font-size: 16px; }
+    .points { padding: 36px 0; }
+    .points .wrap { grid-template-columns: 1fr; gap: 28px; }
+    .points h2 { font-size: 24px; margin-bottom: 8px; }
+    .points p { font-size: 16px; line-height: 1.55; }
+    .closer { padding: 40px 0; }
+    .closer .wrap { gap: 14px; align-items: stretch; }
+    .closer h2 { font-size: 26px; }
+    .closer p { font-size: 15px; }
+    .site-footer { font-size: 12px; padding: 22px 0 28px; }
+  }
+</style>
 </head>
 <body>
 
-<!-- The home page has its own stylesheet and script (home.css, home.js).
-     styles.css and app.js are left in place because review.html and the
-     static idea/category/creator pages still use them. -->
-
 <header class="site-header">
   <div class="wrap">
-    <a href="index.html"><img class="logo" src="assets/logo-horizontal-white.png" alt="SideHustleIntel.org"></a>
-    <div class="header-actions">
-      <a class="hdr-link" href="about.html">About</a>
-    </div>
+    <a href="/"><img class="logo" src="assets/logo-horizontal.png" alt="Side Hustle Intel" width="1782" height="169"></a>
+    <nav class="nav" aria-label="Main">
+      <a href="about.html">About</a>
+      <a class="nav-tool" href="tool/">Go to the database tool</a>
+    </nav>
   </div>
 </header>
 
-<section class="finder" aria-label="Filter gigs">
-  <div class="wrap">
-    <p class="guide">Find work-at-home gigs that fit you. Tap what applies, or search by keyword or creator.</p>
-    <div class="chip-row"><span class="chip-label" id="lbl-me">About me:</span><div class="chips" id="chips-me" role="group" aria-labelledby="lbl-me"></div></div>
-    <div class="chip-row"><span class="chip-label" id="lbl-want">What I want:</span><div class="chips" id="chips-want" role="group" aria-labelledby="lbl-want"></div></div>
-  </div>
-</section>
-
-<section class="searchbar" aria-label="Search">
-  <div class="wrap">
-    <div class="search-line">
-      <form class="search" id="search-form" role="search">
-        <div class="search-field">
-          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          <input id="q" type="search" placeholder="Search gigs, skills, or creators (e.g. pet care, Mark Tilbury)" autocomplete="off" aria-label="Search gigs">
-          <button type="button" id="q-clear" aria-label="Clear search" hidden>×</button>
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <h1>Find Legit <span>Work-at-Home Gigs</span> That Actually Match Your Situation</h1>
+        <p class="lede">Stop spending hours on YouTube hunting for the right gig. We watch the videos so you don't have to. We explain every idea in plain English with the link to the source video.</p>
+        <div class="cta-row">
+          <a class="btn" href="tool/">Go to our work-at-home database tool →</a>
+          <span class="free">Free · No sign-up required</span>
         </div>
-        <button id="q-go" type="submit">Search</button>
-      </form>
-      <div class="tally">
-        <p class="found" id="found" aria-live="polite">Loading gigs…</p>
-        <div class="saved-row" id="saved-row">
-          <span class="saved-n"><span class="heart" aria-hidden="true">♥</span> <span id="saved-n">0</span> saved</span>
-          <button type="button" class="saved-link" id="s-view">Show saved</button>
-          <button type="button" class="saved-link" id="s-download">Download</button>
-          <button type="button" class="saved-link" id="s-clear">Deselect all</button>
-          <span class="saved-confirm" id="s-confirm" hidden>Deselect all? <button type="button" class="saved-link danger" id="s-yes">Yes</button> <button type="button" class="saved-link" id="s-no">No</button></span>
-        </div>
+        <ul class="checks">
+          <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F4C68" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Gigs from the biggest work-at-home YouTube creators</span></li>
+          <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F4C68" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Search by your situation and what you want</span></li>
+          <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F4C68" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span>Summarized, downloadable, with the source video</span></li>
+        </ul>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/hero-home.webp" alt="A woman with a coffee mug working on a laptop at home" width="1400" height="933">
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<main class="wrap">
-  <div class="results-line">
-    <div class="count" id="count" aria-live="polite"></div>
-    <label class="sort" for="sort">Sort by
-      <select id="sort"><option value="shuffle">Shuffle</option><option value="newest">Newest</option><option value="oldest">Oldest</option></select>
-    </label>
-  </div>
-  <p id="same-producer-note" class="same-producer-note" hidden></p>
-  <div class="list" id="list"></div>
-  <p class="empty" id="empty" hidden></p>
-  <div class="more" id="more" hidden><button type="button" id="more-btn">Show more gigs</button></div>
+  <section class="creators" aria-label="Creators covered">
+    <div class="wrap">
+      <p>Covering creators like <strong>Adam Enfroy</strong>, <strong>Patrick Dang</strong>, <strong>Mark Tilbury</strong>, <strong>Chris Koerner</strong> and more.</p>
+    </div>
+  </section>
+
+  <section class="points">
+    <div class="wrap">
+      <div>
+        <h2>Every gig, in plain English</h2>
+        <p>Who pitched it, what it is, who it's best for, our honest take, and the source video, all in one short entry.</p>
+      </div>
+      <div>
+        <h2>Avoid scams &amp; time wasters</h2>
+        <p>We leave out MLMs and other known red flags, and we tell you when a creator is selling a course.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="closer">
+    <div class="wrap">
+      <h2>Ready to find your gig?</h2>
+      <p>Free, no sign-up, nothing to buy.</p>
+      <a class="btn" href="tool/">Go to our work-at-home database tool →</a>
+    </div>
+  </section>
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <p>Side Hustle Intel — every idea here is sourced from a real creator video, linked in the Source section of each entry.</p>
-    <p class="footer-cats">Browse by category: <a href="category/ai-automation/">AI &amp; automation</a> <a href="category/local-professional-services/">Local &amp; professional services</a> <a href="category/e-commerce/">E-commerce</a> <a href="category/marketing-content/">Marketing &amp; content</a> <a href="category/physical-print-products/">Physical &amp; print products</a> <a href="category/digital-subscription-products/">Digital &amp; subscription products</a> <a href="category/content-personal-brand/">Content &amp; personal brand</a></p>
-  </div>
+  <div class="wrap">© 2026 SideHustleIntel.org · <a href="about.html">About</a> · Creator names are shown for reference only and imply no endorsement.</div>
 </footer>
 
-<div class="toast" id="toast" role="status" hidden></div>
-
-<script src="home.js?v=20261007a"></script>
 </body>
 </html>

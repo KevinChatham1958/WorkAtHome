@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DP5LDLD5VR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-DP5LDLD5VR');
+</script>
+<meta charset="UTF-8">
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Work-at-Home Gigs — Side Hustle Intel</title>
+<link rel="canonical" href="https://sidehustleintel.org/tool/">
+<meta name="description" content="A free, searchable database of work-from-home business ideas sourced from creator videos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="home.css?v=20261007a">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+</head>
+<body>
+
+<!-- The home page has its own stylesheet and script (home.css, home.js).
+     styles.css and app.js are left in place because review.html and the
+     static idea/category/creator pages still use them. -->
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="/"><img class="logo" src="assets/logo-horizontal-white.png" alt="SideHustleIntel.org"></a>
+    <div class="header-actions">
+      <a class="hdr-link" href="about.html">About</a>
+    </div>
+  </div>
+</header>
+
+<section class="finder" aria-label="Filter gigs">
+  <div class="wrap">
+    <p class="guide">Find work-at-home gigs that fit you. Tap what applies, or search by keyword or creator.</p>
+    <div class="chip-row"><span class="chip-label" id="lbl-me">About me:</span><div class="chips" id="chips-me" role="group" aria-labelledby="lbl-me"></div></div>
+    <div class="chip-row"><span class="chip-label" id="lbl-want">What I want:</span><div class="chips" id="chips-want" role="group" aria-labelledby="lbl-want"></div></div>
+  </div>
+</section>
+
+<section class="searchbar" aria-label="Search">
+  <div class="wrap">
+    <div class="search-line">
+      <form class="search" id="search-form" role="search">
+        <div class="search-field">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input id="q" type="search" placeholder="Search gigs, skills, or creators (e.g. pet care, Mark Tilbury)" autocomplete="off" aria-label="Search gigs">
+          <button type="button" id="q-clear" aria-label="Clear search" hidden>×</button>
+        </div>
+        <button id="q-go" type="submit">Search</button>
+      </form>
+      <div class="tally">
+        <p class="found" id="found" aria-live="polite">Loading gigs…</p>
+        <div class="saved-row" id="saved-row">
+          <span class="saved-n"><span class="heart" aria-hidden="true">♥</span> <span id="saved-n">0</span> saved</span>
+          <button type="button" class="saved-link" id="s-view">Show saved</button>
+          <button type="button" class="saved-link" id="s-download">Download</button>
+          <button type="button" class="saved-link" id="s-clear">Deselect all</button>
+          <span class="saved-confirm" id="s-confirm" hidden>Deselect all? <button type="button" class="saved-link danger" id="s-yes">Yes</button> <button type="button" class="saved-link" id="s-no">No</button></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+  <div class="results-line">
+    <div class="count" id="count" aria-live="polite"></div>
+    <label class="sort" for="sort">Sort by
+      <select id="sort"><option value="shuffle">Shuffle</option><option value="newest">Newest</option><option value="oldest">Oldest</option></select>
+    </label>
+  </div>
+  <p id="same-producer-note" class="same-producer-note" hidden></p>
+  <div class="list" id="list"></div>
+  <p class="empty" id="empty" hidden></p>
+  <div class="more" id="more" hidden><button type="button" id="more-btn">Show more gigs</button></div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Side Hustle Intel — every idea here is sourced from a real creator video, linked in the Source section of each entry.</p>
+    <p class="footer-cats">Browse by category: <a href="category/ai-automation/">AI &amp; automation</a> <a href="category/local-professional-services/">Local &amp; professional services</a> <a href="category/e-commerce/">E-commerce</a> <a href="category/marketing-content/">Marketing &amp; content</a> <a href="category/physical-print-products/">Physical &amp; print products</a> <a href="category/digital-subscription-products/">Digital &amp; subscription products</a> <a href="category/content-personal-brand/">Content &amp; personal brand</a></p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script src="home.js?v=20261007a"></script>
+</body>
+</html>

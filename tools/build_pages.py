@@ -288,12 +288,12 @@ class Ctx:
         return f"{self.base}/creator/{slugify(name)}/"
 
     def tool(self, query, open_id=None):
-        """Link into the home-page search tool with a search already run
+        """Link into the search tool (/tool/) with a search already run
         (and optionally one gig opened and placed first)."""
         q = f"?q={quote(query)}"
         if open_id:
             q += f"&open={quote(open_id)}"
-        return f"{self.base}/{q}"
+        return f"{self.base}/tool/{q}"
 
     def img(self, rel, mime):
         if self.preview:
@@ -355,7 +355,7 @@ def shell(ctx, site, *, title, desc, canonical, og_type, schema, main, extra_scr
   <div class="site-bar-inner">
     <a href="{ctx.home()}"><img src="{logo}" alt="SideHustleIntel.org"></a>
     <nav>
-      <a class="about-link" href="{ctx.home()}">Search all {site.total()} ideas</a>
+      <a class="about-link" href="{ctx.home()}tool/">Search all {site.total()} ideas</a>
       <a class="about-link" href="{ctx.base}/about.html">About Us</a>
     </nav>
   </div>
@@ -700,7 +700,7 @@ def creator_page(name, site, ctx):
 # ---------- sitemap, robots, homepage index ----------
 
 def sitemap(site):
-    urls = [SITE + '/', SITE + '/about.html']
+    urls = [SITE + '/', SITE + '/tool/', SITE + '/about.html']
     urls += [f"{SITE}/category/{slugify(c)}/" for c in CATEGORY_ORDER]
     urls += [f"{SITE}/creator/{slugify(c)}/" for c in site.creators]
     urls += [f"{SITE}/ideas/{x['id']}/" for x in site.pages]
