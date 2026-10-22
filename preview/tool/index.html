@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/preview/preview.css?v=4">
+<link rel="stylesheet" href="/preview/preview.css?v=5">
 </head>
 <body>
 <div class="preview-ribbon">Preview of the new design · not public yet</div>
@@ -34,21 +34,25 @@
     <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Filters</button>
     <aside class="filters" id="filters" aria-label="Filters">
       <div class="fbox">
-        <h2>Type of gig</h2>
+        <h2>Type of gig you like</h2>
+        <p class="fhint">Tick any that interest you.</p>
         <div id="cat-boxes"></div>
       </div>
       <div class="fbox">
         <h2>Your situation</h2>
+        <p class="fhint">Tick any that fit you. Each one narrows the list.</p>
         <div id="sit-boxes"></div>
       </div>
+      <button type="button" class="btn btn-sm apply" id="apply">Show gigs</button>
       <a class="helper" href="/preview/finder/"><b>Not sure what to pick?</b><span>Answer 2 quick questions →</span></a>
     </aside>
 
     <main class="main">
+      <div class="sticky-top">
       <div class="main-top">
         <div>
           <h1 id="heading">Work-at-home gigs</h1>
-          <p id="count">Loading gigs…</p>
+          <p id="count" aria-live="polite">Loading gigs…</p>
         </div>
         <label class="sort">Sort by
           <select id="sort">
@@ -59,6 +63,7 @@
         </label>
       </div>
       <div class="active" id="active"></div>
+      </div>
       <div id="list" style="display:flex;flex-direction:column;gap:14px"></div>
       <div class="empty" id="empty" hidden></div>
       <button type="button" class="btn btn-sm show-more" id="more" hidden>Show more gigs</button>
@@ -71,6 +76,6 @@
 </footer>
 
 <script src="/preview/shared.js?v=4"></script>
-<script src="/preview/tool/results.js?v=3"></script>
+<script src="/preview/tool/results.js?v=4"></script>
 </body>
 </html>

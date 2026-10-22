@@ -141,7 +141,11 @@ function render() {
   const list = results();
   const n = list.length;
   $('heading').textContent = heading();
+  const prev = $('count').dataset.n;
   $('count').innerHTML = `<strong>${n.toLocaleString()} gig${n === 1 ? '' : 's'}</strong> · tap any gig for the full details and our opinion`;
+  $('count').dataset.n = n;
+  if (prev !== undefined && String(prev) !== String(n)) { const c = $('count'); c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); setTimeout(() => c.classList.remove('flash'), 50); }
+  $('apply').textContent = n ? `Show ${n.toLocaleString()} gig${n === 1 ? '' : 's'}` : 'No gigs match';
 
   const act = [];
   if (st.savedOnly) act.push(`<button type="button" class="chip-x" data-x="saved">Saved only ×</button>`);
@@ -195,6 +199,17 @@ $('search-form').addEventListener('submit', e => { e.preventDefault(); st.q = $(
 $('sort').addEventListener('change', e => { st.sort = e.target.value; changed(); });
 $('more').addEventListener('click', () => { st.shown += PAGE; render(); });
 $('saved-link').addEventListener('click', e => { e.preventDefault(); st.savedOnly = !st.savedOnly; changed(); window.scrollTo(0, 0); });
+$('apply').addEventListener('click', () => {
+  $('filters').classList.remove('open');
+  $('filters-toggle').setAttribute('aria-expanded', 'false');
+  $('filters-toggle').textContent = 'Filters';
+  document.querySelector('.main').scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+// A soft shadow under the count bar once it sticks to the top.
+window.addEventListener('scroll', () => {
+  const s = document.querySelector('.sticky-top');
+  s.classList.toggle('stuck', s.getBoundingClientRect().top <= 0 && window.scrollY > 120);
+}, { passive: true });
 $('filters-toggle').addEventListener('click', () => {
   const open = $('filters').classList.toggle('open');
   $('filters-toggle').setAttribute('aria-expanded', String(open));
