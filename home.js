@@ -40,7 +40,7 @@ const PAGE = 30;
 let ALL_IDEAS = [];
 let SHUFFLED = [];
 let pageIds = new Set();
-const st = { q: '', chips: new Set(), sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set(), pin: null };
+const st = { q: '', cat: '', chips: new Set(), sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set(), pin: null };
 let saved = new Set(loadSaved());
 let lastMatched = null; // genuine search matches, for the same-creator note
 
@@ -160,6 +160,7 @@ function compareByDate(a, b, sortBy) {
 function results() {
   let list = SHUFFLED;
   if (st.savedOnly) list = list.filter(i => saved.has(i.id));
+  if (st.cat) list = list.filter(i => i.category === st.cat);
   if (st.chips.size) {
     const need = [...st.chips];
     list = list.filter(i => { const f = i.filters || []; return need.every(c => f.includes(c)); });
@@ -253,19 +254,20 @@ function render() {
   const list = results();
   const n = list.length.toLocaleString();
   const plural = list.length === 1 ? '' : 's';
-  const filtered = st.q.trim() || st.chips.size;
+  const filtered = st.q.trim() || st.chips.size || st.cat;
   $('found').innerHTML = st.savedOnly ? `<strong>${n}</strong> saved gig${plural}`
     : filtered ? `<strong>${n}</strong> gig${plural} match${list.length === 1 ? 'es' : ''} your picks`
     : `<strong>${n}</strong> gig${plural} currently in the database`;
 
   let line = '';
   if (st.savedOnly) line = `Showing your saved gigs<button type="button" class="linkish" id="back-all">Back to all gigs</button>`;
-  else if (st.q.trim() || st.chips.size) line = `Filters on<button type="button" class="linkish" id="clear-all">Clear all</button>`;
+  else if (filtered) line = `Filters on<button type="button" class="linkish" id="clear-all">Clear all</button>`;
   $('count').innerHTML = line;
 
   // Name the visitor's choices in the bar, each with an x to remove it.
   const picks = [];
   if (!st.savedOnly) {
+    if (st.cat) picks.push(`<button type="button" class="pick" data-unpick="cat" aria-label="Remove category ${esc(st.cat)}">Category: ${esc(st.cat)} <span aria-hidden="true">×</span></button>`);
     if (st.q.trim()) picks.push(`<button type="button" class="pick" data-unpick="q" aria-label="Remove search ${esc(st.q.trim())}">“${esc(st.q.trim())}” <span aria-hidden="true">×</span></button>`);
     st.chips.forEach(c => picks.push(`<button type="button" class="pick" data-unpick="${c}" aria-label="Remove ${esc(CHIP_LABEL[c])}">${esc(CHIP_LABEL[c])} <span aria-hidden="true">×</span></button>`));
   }
@@ -285,18 +287,30 @@ function render() {
   updateSameProducerNote();
 
   const back = $('back-all'); if (back) back.onclick = () => { st.savedOnly = false; reset(); };
-  const clr = $('clear-all'); if (clr) clr.onclick = () => { st.q = ''; $('q').value = ''; st.chips.clear(); syncChips(); changed(); };
+  const clr = $('clear-all'); if (clr) clr.onclick = () => { st.q = ''; $('q').value = ''; st.cat = ''; st.chips.clear(); syncChips(); changed(); };
 }
+// Category slugs match the /category/<slug>/ pages ("Local & professional
+// services" -> local-professional-services).
+function slugifyCategory(name) { return (name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''); }
 // Links from creator pages and outreach emails can open the tool with a
 // search already run (?q=Adam%20Enfroy) and one gig opened first (&open=<id>).
+// Homepage tiles add a category (?cat=local-professional-services) and/or
+// situation chips (?f=lowcost,nocamera).
 function applyLinkParams() {
   let p;
   try { p = new URLSearchParams(location.search); } catch (e) { return; }
   const q = (p.get('q') || '').trim();
   const open = p.get('open');
+  const catSlug = (p.get('cat') || '').trim().toLowerCase();
+  const fs = (p.get('f') || '').split(',').map(s => s.trim()).filter(id => CHIP_LABEL[id]);
   if (q) { st.q = q; $('q').value = q; }
   if (open && ALL_IDEAS.some(i => i.id === open)) { st.open.add(open); st.pin = open; }
-  if (q || open) track('link_landing', { search_term: q, idea_id: open || '' });
+  if (catSlug) {
+    const hit = ALL_IDEAS.find(i => slugifyCategory(i.category) === catSlug);
+    if (hit) st.cat = hit.category;
+  }
+  if (fs.length) { fs.forEach(id => st.chips.add(id)); syncChips(); }
+  if (q || open || st.cat || fs.length) track('link_landing', { search_term: q, idea_id: open || '', idea_category: st.cat, chips: fs.join(',') });
 }
 
 function reset() { st.pin = null; st.shown = PAGE; render(); }
@@ -324,7 +338,7 @@ function bouncePill() {
 // search are on and the list is still below the bottom of the screen.
 function updatePill() {
   const p = $('pill');
-  const filtered = !st.savedOnly && (st.q.trim() || st.chips.size);
+  const filtered = !st.savedOnly && (st.q.trim() || st.chips.size || st.cat);
   const listTop = document.querySelector('main').getBoundingClientRect().top;
   p.hidden = !(filtered && listTop > window.innerHeight - 60);
 }
@@ -410,7 +424,7 @@ function wire() {
   $('picks').addEventListener('click', e => {
     const b = e.target.closest('[data-unpick]'); if (!b) return;
     const k = b.dataset.unpick;
-    if (k === 'q') { st.q = ''; $('q').value = ''; } else { st.chips.delete(k); syncChips(); }
+    if (k === 'q') { st.q = ''; $('q').value = ''; } else if (k === 'cat') { st.cat = ''; } else { st.chips.delete(k); syncChips(); }
     changed();
   });
   $('pill').onclick = () => document.querySelector('main').scrollIntoView({ behavior: 'smooth', block: 'start' });
