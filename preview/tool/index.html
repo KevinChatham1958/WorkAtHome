@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Work-at-Home Gigs — Side Hustle Intel</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/preview/preview.css?v=2">
+</head>
+<body>
+<div class="preview-ribbon">Preview of the new design · not public yet</div>
+
+<header class="site-header results-head">
+  <div class="wrap">
+    <a href="/preview/"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel" width="1782" height="169"></a>
+    <form class="search" id="search-form" role="search">
+      <label for="q" class="sr">Search gigs</label>
+      <input id="q" type="search" placeholder="Search a skill, idea or creator" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+    <nav class="nav" aria-label="Main">
+      <a href="#" class="nav-saved" id="saved-link">♥ Saved (<span id="saved-n">0</span>)</a>
+      <a href="/about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="results-body">
+  <div class="wrap layout">
+    <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Filters</button>
+    <aside class="filters" id="filters" aria-label="Filters">
+      <div class="fbox">
+        <h2>Type of gig</h2>
+        <div id="cat-boxes"></div>
+      </div>
+      <div class="fbox">
+        <h2>Your situation</h2>
+        <div id="sit-boxes"></div>
+      </div>
+      <a class="helper" href="/preview/finder/"><b>Not sure what to pick?</b><span>Answer 2 quick questions →</span></a>
+    </aside>
+
+    <main class="main">
+      <div class="main-top">
+        <div>
+          <h1 id="heading">Work-at-home gigs</h1>
+          <p id="count">Loading gigs…</p>
+        </div>
+        <label class="sort">Sort by
+          <select id="sort">
+            <option value="shuffle">Shuffle</option>
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+          </select>
+        </label>
+      </div>
+      <div class="active" id="active"></div>
+      <div id="list" style="display:flex;flex-direction:column;gap:14px"></div>
+      <div class="empty" id="empty" hidden></div>
+      <button type="button" class="btn btn-sm show-more" id="more" hidden>Show more gigs</button>
+    </main>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">© 2026 SideHustleIntel.org · <a href="/about.html">About</a> · Creator names are shown for reference only and imply no endorsement.</div>
+</footer>
+
+<script src="/preview/shared.js?v=2"></script>
+<script src="/preview/tool/results.js?v=2"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Find Your Gig — Side Hustle Intel</title>
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/preview/preview.css?v=2">
+</head>
+<body>
+<div class="finder">
+  <div class="preview-ribbon">Preview of the new design · not public yet</div>
+  <header class="site-header">
+    <div class="wrap">
+      <a href="/preview/"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel" width="1782" height="169"></a>
+      <span class="step-label" id="step-label">Question 1 of 2</span>
+    </div>
+  </header>
+  <div class="progress" aria-hidden="true"><div id="bar" style="width:0%"></div></div>
+
+  <main id="screen" class="q" aria-live="polite"></main>
+
+  <footer class="finder-foot" id="foot">
+    <div class="wrap">
+      <button type="button" class="linkbtn" id="back">← Back</button>
+      <button type="button" class="btn" id="next" disabled>Next</button>
+    </div>
+  </footer>
+</div>
+
+<script src="/preview/shared.js?v=2"></script>
+<script>
+const QUESTIONS = [
+  { key: 'kind', q: 'What kind of work-at-home gig are you looking for?', options: [
+    { v: 'products', t: 'Sell products', d: 'Digital downloads, things you make, online stores' },
+    { v: 'services', t: 'Offer a service', d: 'Help clients and businesses from home' },
+    { v: 'audience', t: 'Build an audience', d: 'YouTube, blogs and social media' },
+    { v: 'any', t: "I'm open to anything", d: 'Show me every kind of gig' } ] },
+  { key: 'cost', q: 'How much can you spend to get started?', options: [
+    { v: 'low', t: 'As little as possible', d: 'Only gigs with low startup costs' },
+    { v: 'any', t: 'I can invest some money', d: 'Include gigs that need tools, stock or ads' } ] }
+];
+
+let IDEAS = [];
+const answers = {};
+let step = 0;
+
+// A homepage category tile (?cat=slug) answers question 1 for the visitor.
+const params = new URLSearchParams(location.search);
+const startCat = CAT_BY_SLUG[(params.get('cat') || '').toLowerCase()] || null;
+if (startCat) step = 1;
+
+function matches() {
+  let list = IDEAS;
+  if (startCat) list = list.filter(i => i.category === startCat.cat);
+  else if (answers.kind && answers.kind !== 'any') {
+    const cats = new Set(KINDS[answers.kind].cats.map(s => CAT_BY_SLUG[s].cat));
+    list = list.filter(i => cats.has(i.category));
+  }
+  if (answers.cost === 'low') list = list.filter(i => hasTag(i, 'lowcost'));
+  return list;
+}
+function resultsUrl() {
+  const p = new URLSearchParams();
+  if (startCat) p.set('cat', startCat.slug);
+  else if (answers.kind && answers.kind !== 'any') p.set('kind', answers.kind);
+  if (answers.cost === 'low') p.set('f', 'lowcost');
+  const s = p.toString();
+  return '/preview/tool/' + (s ? '?' + s : '');
+}
+
+function render() {
+  const total = QUESTIONS.length;
+  const screen = document.getElementById('screen');
+  const foot = document.getElementById('foot');
+  document.getElementById('bar').style.width = (Math.min(step, total) / total * 100) + '%';
+
+  if (step >= total) {
+    const n = matches().length;
+    document.getElementById('step-label').textContent = 'All done';
+    foot.hidden = true;
+    screen.className = 'done';
+    screen.innerHTML = `<span class="kicker">Your matches are ready</span>
+      <h1>We found ${n.toLocaleString()} gig${n === 1 ? '' : 's'} that fit you</h1>
+      <a class="btn" href="${resultsUrl()}">Show my gigs →</a>
+      <button type="button" class="linkbtn" id="restart">Start over</button>`;
+    document.getElementById('restart').onclick = () => { delete answers.kind; delete answers.cost; step = startCat ? 1 : 0; render(); };
+    return;
+  }
+
+  const Q = QUESTIONS[step];
+  document.getElementById('step-label').textContent = `Question ${step + 1} of ${total}`;
+  foot.hidden = false;
+  screen.className = 'q';
+  const note = (step === 1 && startCat) ? `<p class="note">Showing: <strong>${esc(startCat.name)}</strong> · <a href="/preview/finder/">change</a></p>` : '';
+  screen.innerHTML = `<h1>${esc(Q.q)}</h1>${note}
+    <div class="options" role="group" aria-label="${esc(Q.q)}">
+      ${Q.options.map(o => `<button type="button" class="opt" data-v="${o.v}" aria-pressed="${answers[Q.key] === o.v}">
+        <span class="ph" aria-hidden="true">graphic</span>
+        <span class="txt"><b>${esc(o.t)}</b><span class="d">${esc(o.d)}</span></span>
+      </button>`).join('')}
+    </div>`;
+  screen.querySelectorAll('.opt').forEach(b => b.onclick = () => { answers[Q.key] = b.dataset.v; render(); });
+  document.getElementById('next').disabled = !answers[Q.key];
+  document.getElementById('back').style.visibility = (step === 0 || (step === 1 && startCat)) ? 'hidden' : 'visible';
+}
+
+document.getElementById('next').onclick = () => { if (answers[QUESTIONS[step].key]) { step++; render(); window.scrollTo(0, 0); } };
+document.getElementById('back').onclick = () => { if (step > 0) { step--; render(); } };
+
+render();
+loadIdeas().then(d => { IDEAS = d; if (step >= QUESTIONS.length) render(); });
+</script>
+</body>
+</html>
