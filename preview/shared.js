@@ -35,6 +35,7 @@ function toTitleCase(str) {
   return words.map((w, i) => {
     if (!w) return w;
     if (/^[A-Z0-9$]/.test(w) && w === w.toUpperCase() && /[A-Z]/.test(w)) return w;
+    if (/[A-Z]/.test(w.slice(1))) return w.charAt(0).toUpperCase() + w.slice(1); // keep AI-built, YouTube, TikTok
     const lower = w.toLowerCase();
     if (i !== 0 && i !== words.length - 1 && minor.has(lower)) return lower;
     return lower.charAt(0).toUpperCase() + lower.slice(1);

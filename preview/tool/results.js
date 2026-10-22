@@ -105,7 +105,7 @@ function gigHtml(i) {
       <div><h4>What it is</h4><p>${esc(i.what)}</p></div>
       <div><h4>The pitch</h4><p>${esc(i.pitch)}</p></div>
       <div><h4>Best for</h4><p>${esc(i.best)}</p></div>
-      <div><h4>Our honest take</h4><p>${esc(i.truth)}</p></div>
+      <div><h4>Our opinion</h4><p>${esc(i.truth)}</p></div>
       <div class="foot">
         <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.video_title || 'Watch the source video')} ↗</a>
         <button type="button" class="small-btn" data-act="copy">Copy this gig</button>
@@ -141,7 +141,7 @@ function render() {
   const list = results();
   const n = list.length;
   $('heading').textContent = heading();
-  $('count').innerHTML = `<strong>${n.toLocaleString()} gig${n === 1 ? '' : 's'}</strong> · tap any gig for the full details and our honest take`;
+  $('count').innerHTML = `<strong>${n.toLocaleString()} gig${n === 1 ? '' : 's'}</strong> · tap any gig for the full details and our opinion`;
 
   const act = [];
   if (st.savedOnly) act.push(`<button type="button" class="chip-x" data-x="saved">Saved only ×</button>`);
@@ -208,7 +208,7 @@ $('list').addEventListener('click', e => {
   if (act === 'save') { saved.has(id) ? saved.delete(id) : saved.add(id); persistSaved(); render(); }
   if (act === 'copy') {
     const i = ALL.find(x => x.id === id);
-    const text = `${toTitleCase(i.name)}\n${i.category} | ${i.cost}\nSource: ${i.found} — ${i.url}\n\nWhat It Is\n${i.what}\n\nThe Pitch\n${i.pitch}\n\nBest For\n${i.best}\n\nOur Honest Take\n${i.truth}\n`;
+    const text = `${toTitleCase(i.name)}\n${i.category} | ${i.cost}\nSource: ${i.found} — ${i.url}\n\nWhat It Is\n${i.what}\n\nThe Pitch\n${i.pitch}\n\nBest For\n${i.best}\n\nOur Opinion\n${i.truth}\n`;
     navigator.clipboard && navigator.clipboard.writeText(text).then(() => { b.textContent = 'Copied ✓'; setTimeout(() => { b.textContent = 'Copy this gig'; }, 1800); });
   }
 });

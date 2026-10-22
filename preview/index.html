@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/preview/preview.css?v=2">
+<link rel="stylesheet" href="/preview/preview.css?v=3">
 </head>
 <body>
 <div class="preview-ribbon">Preview of the new design · not public yet</div>
@@ -30,17 +30,16 @@
     <div class="wrap">
       <div class="hero-panel">
         <div class="hero-copy">
-          <h1>Work-at-home gigs that fit your life, <span>without watching 100s of YouTube videos.</span></h1>
-          <p class="lede">Every gig explained in plain English, with an honest take.</p>
+          <h1>WORK-AT-HOME gigs that fit your life, <span>without watching 100s of YouTube videos.</span></h1>
+          <p class="lede">Every gig explained in plain English with our opinion.</p>
           <div class="cta">
             <a class="btn" href="/preview/finder/">Find your work-at-home gig →</a>
-            <small>Free · two quick questions</small>
           </div>
         </div>
         <div class="hero-photo">
           <img src="/assets/hero-home.webp" alt="A man working on a laptop and taking notes at his home office desk" width="1400" height="933">
-          <div class="badge badge-1"><b data-n="gigs">879</b><span>gigs explained</span></div>
-          <div class="badge badge-2"><b data-n="creators">272</b><span>YouTube creators</span></div>
+          <div class="badge badge-1"><b>1000+</b><span>gigs explained</span></div>
+          <div class="badge badge-2"><b>Hundreds</b><span>of YouTube creators</span></div>
         </div>
       </div>
     </div>
@@ -48,17 +47,18 @@
 
   <!-- 2 · Creators -->
   <section class="wrap creators" aria-label="Creators covered">
-    <h2>Ideas from the biggest work-at-home creators on YouTube</h2>
+    <h2>Ideas from hundreds of work-at-home creators on YouTube</h2>
     <div class="creator-row" id="creator-row"></div>
   </section>
 
   <!-- 3 · Sample gigs with tabs -->
   <section class="section">
     <div class="wrap">
-      <h2 class="section-title">A look inside: <span><span data-n="gigs">879</span> work-at-home gigs</span></h2>
+      <h2 class="section-title">A look inside: <span>1000+ gigs explained</span></h2>
+      <p class="section-sub">Example gigs</p>
       <div class="tabs" role="tablist" aria-label="Sample gigs">
         <button type="button" class="tab" role="tab" data-tab="newest" aria-selected="true">Newest</button>
-        <button type="button" class="tab" role="tab" data-tab="lowcost" aria-selected="false">Low startup cost</button>
+        <button type="button" class="tab" role="tab" data-tab="lowcost" aria-selected="false">Startup Costs</button>
         <button type="button" class="tab" role="tab" data-tab="services" aria-selected="false">Services</button>
         <button type="button" class="tab" role="tab" data-tab="products" aria-selected="false">Products</button>
       </div>
@@ -70,11 +70,11 @@
   <!-- 4 · Not just another list -->
   <section class="section reasons-wrap">
     <div class="wrap">
-      <h2 class="section-title">Not just another list of "easy money" ideas</h2>
+      <h2 class="section-title">Stop re-watching. Start finding.</h2>
       <div class="reasons">
-        <div class="reason"><span class="ph" aria-hidden="true">icon</span><div><h3>We watch the videos for you</h3><p>Each gig in one short, plain-English entry.</p></div></div>
-        <div class="reason"><span class="ph" aria-hidden="true">icon</span><div><h3>An honest take on every gig</h3><p>Including when the creator sells a course.</p></div></div>
-        <div class="reason"><span class="ph" aria-hidden="true">icon</span><div><h3>Scams screened out</h3><p>No MLMs, trading bots or known red flags.</p></div></div>
+        <div class="reason"><span class="ph" aria-hidden="true">icon</span><div><h3>No more sitting through the same ideas</h3><p>Skim a gig in seconds instead of watching another video that repeats what you've already heard.</p></div></div>
+        <div class="reason"><span class="ph" aria-hidden="true">icon</span><div><h3>Never lose a good idea again</h3><p>Save the gigs you like and find them anytime, with a link back to the original video.</p></div></div>
+        <div class="reason"><span class="ph" aria-hidden="true">icon</span><div><h3>Our opinion on every gig</h3><p>In plain English, including when the creator sells a course.</p></div></div>
       </div>
     </div>
   </section>
@@ -82,7 +82,7 @@
   <!-- 8 · Category tiles -->
   <section class="section">
     <div class="wrap">
-      <h2 class="section-title">Featuring <span><span data-n="gigs">879</span> gigs</span> from <span><span data-n="creators">272</span> YouTube creators</span></h2>
+      <h2 class="section-title">Featuring <span>1000+ gigs</span> from <span>hundreds of YouTube creators</span></h2>
       <div class="tiles" id="tiles"></div>
     </div>
   </section>
@@ -100,12 +100,13 @@
   <div class="wrap">© 2026 SideHustleIntel.org · <a href="/about.html">About</a> · Creator names are shown for reference only and imply no endorsement.</div>
 </footer>
 
-<script src="/preview/shared.js?v=2"></script>
+<script src="/preview/shared.js?v=4"></script>
 <script>
+const HOME_HIDE = new Set(['e-commerce', 'content-personal-brand']); // not shown as homepage tiles
 // Category tiles: each one opens the Gig Finder with question 1 already answered.
-document.getElementById('tiles').innerHTML = CATS.map(c =>
+document.getElementById('tiles').innerHTML = CATS.filter(c => !HOME_HIDE.has(c.slug)).map(c =>
   `<a class="tile" href="/preview/finder/?cat=${c.slug}"><span class="ph" aria-hidden="true">graphic</span><span><b>${esc(c.name)}</b><small>${esc(c.sub)}</small></span></a>`
-).join('') + `<a class="tile" href="/preview/tool/"><span class="ph" aria-hidden="true">graphic</span><span><b>Explore all gigs</b><small>Browse the whole database</small></span></a>`;
+).join('') + `<a class="tile" href="/preview/tool/"><span class="ph" aria-hidden="true">graphic</span><span><b>Explore all gigs</b><small>New gigs added weekly</small></span></a>`;
 
 const FEATURED = ['Adam Enfroy', 'Patrick Dang', 'Mark Tilbury', 'Chris Koerner', 'Jesse Cunningham'];
 let SAMPLES = {};
@@ -126,18 +127,16 @@ function showTab(name) {
     `<a class="sample" href="/preview/tool/?open=${encodeURIComponent(i.id)}">
       <span class="tag">${tagFor}</span>
       <span class="t">${esc(toTitleCase(i.name))}</span>
-      <span class="pills"><span class="pill-s">${esc(shortCost(i.cost))}</span><span class="pill-s">From ${esc(shortCreator(i.found))}</span></span>
+      <span class="pills"><span class="pill-s">From ${esc(shortCreator(i.found))}</span><span class="pill-s">${esc(shortCost(i.cost))}</span></span>
     </a>`).join('');
 }
 document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => showTab(t.dataset.tab)));
 
 loadIdeas().then(data => {
   const creators = new Set(data.map(i => i.found).filter(Boolean));
-  document.querySelectorAll('[data-n="gigs"]').forEach(e => { e.textContent = data.length.toLocaleString(); });
-  document.querySelectorAll('[data-n="creators"]').forEach(e => { e.textContent = creators.size.toLocaleString(); });
   document.getElementById('creator-row').innerHTML = FEATURED.map(n =>
     `<span class="creator">${avatarHtml(n, 'ini')}${esc(n)}</span>`).join('') +
-    `<span class="creator"><span class="ini" aria-hidden="true">+</span>${(creators.size - FEATURED.length).toLocaleString()} more</span>`;
+    `<span class="creator"><span class="ini" aria-hidden="true">+</span>hundreds more</span>`;
 
   const newest = data.slice().sort((a, b) => (b.published || '').localeCompare(a.published || ''));
   const svc = new Set(['Local & professional services', 'Marketing & content']);
