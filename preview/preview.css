@@ -69,7 +69,7 @@ h1, h2, h3 { font-family: Outfit, system-ui, sans-serif; color: var(--navy); mar
 .section { padding: 64px 0; }
 .section-title { font-size: 34px; text-align: center; }
 .section-title span { color: var(--accent); }
-.section-sub { margin: 10px 0 0; text-align: center; font-size: 15px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.section-sub { margin: 36px 0 18px; text-align: center; font-family: Outfit, system-ui, sans-serif; font-size: 28px; font-weight: 600; color: var(--ink); }
 .tabs { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 24px 0; }
 .tab { font: inherit; font-size: 16px; font-weight: 600; border-radius: 999px; padding: 10px 22px; cursor: pointer; min-height: 44px; background: #FFFFFF; color: var(--ink); border: 1.5px solid var(--field); }
 .tab[aria-selected="true"] { background: var(--navy); color: #FFFFFF; border-color: var(--navy); }

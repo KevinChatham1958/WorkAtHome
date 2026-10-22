@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/preview/preview.css?v=3">
+<link rel="stylesheet" href="/preview/preview.css?v=4">
 </head>
 <body>
 <div class="preview-ribbon">Preview of the new design · not public yet</div>
@@ -55,14 +55,8 @@
   <section class="section">
     <div class="wrap">
       <h2 class="section-title">A look inside: <span>1000+ gigs explained</span></h2>
-      <p class="section-sub">Example gigs</p>
-      <div class="tabs" role="tablist" aria-label="Sample gigs">
-        <button type="button" class="tab" role="tab" data-tab="newest" aria-selected="true">Newest</button>
-        <button type="button" class="tab" role="tab" data-tab="lowcost" aria-selected="false">Startup Costs</button>
-        <button type="button" class="tab" role="tab" data-tab="services" aria-selected="false">Services</button>
-        <button type="button" class="tab" role="tab" data-tab="products" aria-selected="false">Products</button>
-      </div>
-      <div class="sample-box" id="samples" role="tabpanel" aria-live="polite"></div>
+      <h3 class="section-sub">Example gigs</h3>
+      <div class="sample-box" id="samples"></div>
       <div class="center"><a class="btn" href="/preview/finder/">Find your work-at-home gig →</a></div>
     </div>
   </section>
@@ -121,7 +115,6 @@ function pickSamples(list, test, n) {
   return out;
 }
 function showTab(name) {
-  document.querySelectorAll('.tab').forEach(t => t.setAttribute('aria-selected', String(t.dataset.tab === name)));
   const tagFor = { newest: 'New', lowcost: 'Low startup cost', services: 'Service', products: 'Product' }[name];
   document.getElementById('samples').innerHTML = (SAMPLES[name] || []).map(i =>
     `<a class="sample" href="/preview/tool/?open=${encodeURIComponent(i.id)}">
@@ -130,7 +123,6 @@ function showTab(name) {
       <span class="pills"><span class="pill-s">From ${esc(shortCreator(i.found))}</span><span class="pill-s">${esc(shortCost(i.cost))}</span></span>
     </a>`).join('');
 }
-document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => showTab(t.dataset.tab)));
 
 loadIdeas().then(data => {
   const creators = new Set(data.map(i => i.found).filter(Boolean));
