@@ -22,7 +22,7 @@ const SITUATIONS = [
 const SIT_LABEL = Object.fromEntries(SITUATIONS.map(s => [s.id, s.label]));
 const PAGE = 30;
 
-let ALL = [], SHUFFLED = [], pageIds = new Set();
+let ALL = [], SHUFFLED = [], pageIds = new Set(), LAST_N = 0;
 const st = { cats: new Set(), chips: new Set(), q: '', sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set(), pin: null, kind: '' };
 let saved = new Set(loadSaved());
 const $ = id => document.getElementById(id);
@@ -159,7 +159,8 @@ function render() {
   $('list').innerHTML = list.slice(0, st.shown).map(gigHtml).join('');
   $('empty').hidden = n > 0;
   $('empty').textContent = st.savedOnly ? 'No saved gigs yet. Tap the heart on any gig to save it.' : 'No gigs match all of these choices. Try removing one.';
-  $('more').hidden = n <= st.shown;
+  LAST_N = n;
+  $('more').hidden = AUTO || n <= st.shown;
   $('saved-n').textContent = saved.size;
   renderFilters();
   syncUrl();
@@ -198,6 +199,19 @@ $('active').addEventListener('click', e => {
 $('search-form').addEventListener('submit', e => { e.preventDefault(); st.q = $('q').value; changed(); $('q').blur(); });
 $('sort').addEventListener('change', e => { st.sort = e.target.value; changed(); });
 $('more').addEventListener('click', () => { st.shown += PAGE; render(); });
+// Load the next 30 automatically as the visitor nears the bottom of the list (like the live tool).
+// The button stays only as a fallback for very old browsers.
+let AUTO = false;
+if ('IntersectionObserver' in window) {
+  AUTO = true;
+  const io = new IntersectionObserver(entries => {
+    if (!entries.some(e => e.isIntersecting) || !hasMore()) return;
+    st.shown += PAGE; render();
+    io.unobserve($('more-zone')); io.observe($('more-zone')); // re-check in case the screen still isn't full
+  }, { rootMargin: '0px 0px 800px 0px' });
+  io.observe($('more-zone'));
+}
+function hasMore() { return LAST_N > st.shown; }
 $('saved-link').addEventListener('click', e => { e.preventDefault(); st.savedOnly = !st.savedOnly; changed(); window.scrollTo(0, 0); });
 $('apply').addEventListener('click', () => {
   $('filters').classList.remove('open');

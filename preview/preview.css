@@ -14,6 +14,7 @@
   --field: #C9D6DD;
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 html { scroll-behavior: smooth; }
 body { margin: 0; background: #FFFFFF; color: var(--ink); font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif; -webkit-font-smoothing: antialiased; }
 a { color: #0F4C68; }
