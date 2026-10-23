@@ -233,6 +233,10 @@ $('search-form').addEventListener('submit', e => {
   const q = st.q.trim().toLowerCase();
   if (q) { const n = results().length; track('search', { search_term: q, results_found: n ? 'yes' : 'no', match_count: n }); }
 });
+// Emptying the search box clears the search right away (no Enter needed), so a refresh doesn't bring it back.
+$('q').addEventListener('input', () => {
+  if (!$('q').value.trim() && st.q) { st.q = ''; changed(); }
+});
 $('sort').addEventListener('change', e => { st.sort = e.target.value; changed(); });
 $('more').addEventListener('click', () => { st.shown += PAGE; render(); });
 // Load the next 30 automatically as the visitor nears the bottom of the list (like the live tool).
