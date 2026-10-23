@@ -578,7 +578,7 @@
   {
     "id": "sell-existing-job-skill-ai-powered-service",
     "name": "Packaging an existing job skill into an AI-powered service, sold before it's built",
-    "title": "Your Job Skill as an AI Service",
+    "title": "AI Service From Your Job Skill",
     "category": "AI & automation",
     "tags": [
       "skill packaging",
@@ -12223,7 +12223,7 @@
   {
     "id": "ai-backed-finished-result-service-from-past-job-tasks",
     "name": "Sell one finished business task from your past job, done faster with AI",
-    "title": "Selling a Task From Your Old Job",
+    "title": "Selling a Task You Know Well",
     "category": "AI & automation",
     "tags": [
       "productized service",
