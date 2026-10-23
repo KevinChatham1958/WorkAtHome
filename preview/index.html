@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/preview/preview.css?v=9">
+<link rel="stylesheet" href="/preview/preview.css?v=10">
 </head>
 <body>
 <div class="preview-ribbon">Preview of the new design · not public yet</div>
@@ -99,10 +99,11 @@
 <script src="/preview/shared.js?v=4"></script>
 <script>
 const HOME_HIDE = new Set(['e-commerce', 'content-personal-brand']); // not shown as homepage tiles
+const TILE_ICON = { 'local-professional-services': 'services', 'digital-subscription-products': 'digital', 'marketing-content': 'marketing', 'physical-print-products': 'make', 'ai-automation': 'ai' };
 // Category tiles: each one opens the gigs with that type already ticked.
 document.getElementById('tiles').innerHTML = CATS.filter(c => !HOME_HIDE.has(c.slug)).map(c =>
-  `<a class="tile" href="/preview/tool/?cat=${c.slug}"><span class="ph" aria-hidden="true">graphic</span><span><b>${esc(c.name)}</b><small>${esc(c.sub)}</small></span></a>`
-).join('') + `<a class="tile" href="/preview/tool/"><span class="ph" aria-hidden="true">graphic</span><span><b>Explore all gigs</b><small>New gigs added weekly</small></span></a>`;
+  `<a class="tile" href="/preview/tool/?cat=${c.slug}"><img class="tile-icon" src="/assets/tiles/tile-${TILE_ICON[c.slug]}.webp" alt="" width="240" height="240"><span><b>${esc(c.name)}</b><small>${esc(c.sub)}</small></span></a>`
+).join('') + `<a class="tile" href="/preview/tool/"><img class="tile-icon" src="/assets/tiles/tile-explore.webp" alt="" width="240" height="240"><span><b>Explore all gigs</b><small>New gigs added weekly</small></span></a>`;
 
 const FEATURED = ['Adam Enfroy', 'Patrick Dang', 'Mark Tilbury', 'Chris Koerner', 'Jesse Cunningham'];
 let SAMPLES = {};

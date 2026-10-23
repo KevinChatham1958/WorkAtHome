@@ -95,6 +95,7 @@ h1, h2, h3 { font-family: Outfit, system-ui, sans-serif; color: var(--navy); mar
 .tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 32px; }
 .tile { text-decoration: none; color: var(--ink); border: 1.5px solid var(--line); border-radius: 14px; padding: 22px; display: flex; align-items: center; gap: 16px; background: #FFFFFF; min-height: 96px; }
 .tile .ph { width: 60px; height: 60px; font-size: 11px; }
+.tile-icon { width: 76px; height: 76px; border-radius: 18px; flex-shrink: 0; display: block; }
 .tile b { display: block; font-family: Outfit, system-ui, sans-serif; font-size: 19px; font-weight: 600; color: var(--navy); }
 .tile small { display: block; font-size: 15px; color: var(--muted); margin-top: 4px; }
 
