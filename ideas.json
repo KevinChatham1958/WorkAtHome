@@ -509,68 +509,36 @@
     ]
   },
   {
-    "id": "headlight-restoration-dealer-detail-shop",
-    "name": "Headlight restoration service selling to dealerships and detail shops",
-    "title": "Headlight Restoration Service",
-    "category": "Local & professional services",
+    "id": "youtube-teaching-to-course-funnel",
+    "name": "YouTube-teaching-to-course funnel (trust, then affiliate, then paid course)",
+    "title": "YouTube-to-Course Funnel",
+    "category": "Digital & subscription products",
     "tags": [
-      "headlight restoration",
-      "auto detailing",
-      "B2B service",
-      "trade-in prep"
+      "youtube",
+      "online courses",
+      "affiliate marketing",
+      "email list"
     ],
-    "cost": "Very low startup cost (about $125 for a restoration kit and rotary polisher)",
-    "found": "Business Cortex",
-    "what": "Restore cloudy or yellowed headlights, primarily by selling to used car dealerships and detail shops that need every incoming trade-in restored before resale, rather than marketing to individual drivers who only need this once every few years.",
-    "pitch": "A Meguiar's heavy-duty restoration kit (about $26) plus a variable-speed rotary polisher (about $99) comes to roughly $125 total, with consumable cost per headlight under 50 cents. Restorations bill $40-160 depending on lens condition, with $65 as a common market rate and dealers benchmarking around $90. The presenter warns that underpricing (advertising a $30 restoration) signals to experienced buyers that a necessary coating step was skipped.",
-    "best": "Someone comfortable pitching recurring B2B relationships with dealerships and detail shops rather than relying on individual homeowner jobs, which the presenter says aren't frequent enough to support a full-time income.",
-    "truth": "The presenter is unusually candid that this doesn't work as a standalone full-time income selling to individual drivers \u2014 the real business is the wholesale/trade-in pipeline through dealers and detail shops, which requires building those specific commercial relationships, not just skill with a polisher.",
-    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
-    "video_title": "15 UNSEEN Garage Businesses That Cost Less Than $1000 to Start",
+    "cost": "Low \u2014 camera or screen-recording setup; course platform free trial, then roughly $25-$99/mo",
+    "found": "Adam Enfroy",
+    "what": "Teach a monetizable topic on YouTube face-on-camera or via screen recording, monetize from day one with affiliate links for tools mentioned in videos, build an email list from the channel, and once the audience and their pain points are understood (roughly months 4-6), launch a paid course sold directly to that audience.",
+    "pitch": "Of three popular models (faceless YouTube, AI blogging, online courses), courses have the highest revenue ceiling because the creator owns the entire product and margin, but a course only sells once real trust is built \u2014 which requires a real person teaching on camera or by voice. YouTube videos act as free samples building that trust while affiliate links pay the bills in the meantime.",
+    "best": "Someone comfortable teaching on camera or via voiceover who wants to eventually sell their own course rather than stay dependent on affiliate commissions, and who can sustain several months of consistent uploads before a course is ready to launch.",
+    "truth": "The funnel (content builds trust, affiliate links monetize immediately, a course monetizes the trust later) is a standard, credible framework used by many real creators. The specific '$1,000/day' math is the presenter's own illustrative estimate for an established channel, not a typical outcome, and the recommended course platform is his own affiliate link.",
+    "url": "https://youtu.be/Go0FmLy8sp8",
+    "video_title": "Faceless YouTube vs. AI Blogging vs Online Courses: Which Makes More Money in 2026?",
     "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
+      "Strictly in-home"
     ],
-    "published": "2026-09-05",
+    "published": "2026-08-10",
     "filters": [
       "older",
       "parent",
+      "health",
       "outside",
       "lowcost",
-      "nocamera",
+      "nosales",
       "noinventory",
-      "noai"
-    ]
-  },
-  {
-    "id": "pad-printing-curved-product-branding",
-    "name": "Pad printing business for branding curved products",
-    "title": "Pad Printing for Branded Products",
-    "category": "Physical & print products",
-    "tags": [
-      "pad printing",
-      "product branding",
-      "curved surface printing",
-      "B2B small batch"
-    ],
-    "cost": "Low startup cost (about $650-950 for a desktop pad printing machine)",
-    "found": "Business Dash",
-    "what": "Use a pad printing machine (which transfers ink from an engraved plate via a flexible silicone pad) to brand curved or uneven objects that flat presses can't handle \u2014 pens, bottle caps, tool handles, plastic cases \u2014 selling primarily to local businesses that need only 50-100 branded pieces, a quantity too small for large suppliers who prefer orders in the thousands.",
-    "pitch": "A beginner setup (a single-color desktop machine, printing plates, silicone pads, suitable inks, cleaning supplies, product fixtures, blank test items) costs $650-950. The presenter warns that consistency is the hard part \u2014 each product may need a different plate, pad, ink, and fixture, and an item that shifts during printing produces a crooked or blurred logo.",
-    "best": "Someone comfortable with a technical, fixture-dependent process who wants to fill the specific gap between individual custom orders and factory-scale bulk branding runs.",
-    "truth": "The market gap identified (large suppliers won't touch small orders of 50-100 curved items) is genuine and specific, which is more defensible than a generic \"branded promotional products\" business \u2014 but the per-product setup complexity (different plate/pad/ink combinations) means this isn't a simple one-machine-fits-all operation.",
-    "url": "https://youtu.be/2uofabJSM7A",
-    "video_title": "15 Low-Investment Home Businesses That Are Easier to Start Than You Think",
-    "situation_tags": [
-      "Strictly in-home",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-07-31",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
       "novisits",
       "noai"
     ]
@@ -676,66 +644,6 @@
       "nosales",
       "noinventory",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "cup-sealing-machine-drink-business",
-    "name": "Running a cup-sealing service or drink business using a cup sealing machine",
-    "title": "Cup-Sealing Drink Business",
-    "category": "Physical & print products",
-    "tags": [
-      "small manufacturing",
-      "cup sealer",
-      "drink vendor service",
-      "$1000 startup machine"
-    ],
-    "cost": "Very low (average starter machine price around $140, plus cups/film, under $1,000)",
-    "found": "Business Dash",
-    "what": "Use a cup sealing machine to seal plastic cups of cold drinks with a branded film top, either to sell your own drinks from a stand or kiosk, or to offer cup-sealing as a paid service to existing juice shops, tea sellers, and small food vendors who currently use less professional loose lids or plastic wrap.",
-    "pitch": "Presented as a low-cost machine with two business models (make-and-sell or sell-the-service), with the appeal being that a sealed cup makes any small drink business look more professional without opening a full cafe.",
-    "best": "Someone in a market with existing informal drink vendors who could be sold on packaging upgrades, or willing to start their own drink stand.",
-    "truth": "Cup sealing machines and the drink-packaging upgrade service model are real and already used commercially, particularly in markets with a strong street-food/drink-vendor culture. No specific revenue example is given, and success depends on there being enough existing drink sellers nearby willing to pay for the service.",
-    "url": "https://www.youtube.com/watch?v=mKFNXLik1ro",
-    "video_title": "If I Had to Start Over With $1,000, I'd buy These 10 Machines Before Anything Else",
-    "published": "2026-06-03",
-    "filters": [
-      "older",
-      "outside",
-      "nocamera",
-      "noai"
-    ]
-  },
-  {
-    "id": "knife-tool-sharpening-route",
-    "name": "Knife and tool sharpening route for restaurants, butchers, and salons",
-    "title": "Knife and Tool Sharpening Route",
-    "category": "Local & professional services",
-    "tags": [
-      "knife sharpening",
-      "tool sharpening",
-      "restaurant service",
-      "route business",
-      "recurring revenue"
-    ],
-    "cost": "Low startup cost (a Work Sharp Ken Onion sharpener at $170-250, or a belt sander setup around $300)",
-    "found": "Business Cortex",
-    "what": "Sharpen knives, scissors, and other bladed tools for restaurants, butchers, and salons, structured as a swap route where you drop off a freshly sharpened duplicate set and pick up the dull set, turning a one-time job into a recurring weekly stop.",
-    "pitch": "The presenter recommends skipping the commonly-suggested $1,066 Tormek T8 in favor of a $170-250 Work Sharp Ken Onion or a roughly $300 belt sander setup. Rates from operators running restaurant routes: $3.50/inch for blades under 4 inches, $4.50 for 4-7 inches, $6 over 7 inches, and around $4.50 for scissors, which one operator called the best margin on the route. A soft kitchen knife takes roughly 1-3 minutes on a belt grinder, while hand-sharpening with stones (about 45 minutes per blade) is explicitly called a hobby pace, not a route pace.",
-    "best": "Someone willing to build a recurring weekly route with commercial accounts (restaurants, butchers, salons) using a duplicate-set swap system, rather than one-off sharpening jobs for individual consumers.",
-    "truth": "The swap-route structure is the real insight here \u2014 it's what turns sharpening from a single transaction into recurring weekly revenue \u2014 and the presenter is specific about which equipment tier is actually needed versus commonly over-recommended gear. The main unaddressed challenge is landing the initial commercial accounts, which requires direct B2B sales outreach.",
-    "url": "https://www.youtube.com/watch?v=waY0QdkVHIM",
-    "video_title": "15 UNSEEN Garage Businesses That Cost Less Than $1000 to Start",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-09-05",
-    "filters": [
-      "older",
-      "outside",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -1055,36 +963,34 @@
     ]
   },
   {
-    "id": "youtube-teaching-to-course-funnel",
-    "name": "YouTube-teaching-to-course funnel (trust, then affiliate, then paid course)",
-    "title": "YouTube-to-Course Funnel",
-    "category": "Digital & subscription products",
+    "id": "pad-printing-curved-product-branding",
+    "name": "Pad printing business for branding curved products",
+    "title": "Pad Printing for Branded Products",
+    "category": "Physical & print products",
     "tags": [
-      "youtube",
-      "online courses",
-      "affiliate marketing",
-      "email list"
+      "pad printing",
+      "product branding",
+      "curved surface printing",
+      "B2B small batch"
     ],
-    "cost": "Low \u2014 camera or screen-recording setup; course platform free trial, then roughly $25-$99/mo",
-    "found": "Adam Enfroy",
-    "what": "Teach a monetizable topic on YouTube face-on-camera or via screen recording, monetize from day one with affiliate links for tools mentioned in videos, build an email list from the channel, and once the audience and their pain points are understood (roughly months 4-6), launch a paid course sold directly to that audience.",
-    "pitch": "Of three popular models (faceless YouTube, AI blogging, online courses), courses have the highest revenue ceiling because the creator owns the entire product and margin, but a course only sells once real trust is built \u2014 which requires a real person teaching on camera or by voice. YouTube videos act as free samples building that trust while affiliate links pay the bills in the meantime.",
-    "best": "Someone comfortable teaching on camera or via voiceover who wants to eventually sell their own course rather than stay dependent on affiliate commissions, and who can sustain several months of consistent uploads before a course is ready to launch.",
-    "truth": "The funnel (content builds trust, affiliate links monetize immediately, a course monetizes the trust later) is a standard, credible framework used by many real creators. The specific '$1,000/day' math is the presenter's own illustrative estimate for an established channel, not a typical outcome, and the recommended course platform is his own affiliate link.",
-    "url": "https://youtu.be/Go0FmLy8sp8",
-    "video_title": "Faceless YouTube vs. AI Blogging vs Online Courses: Which Makes More Money in 2026?",
+    "cost": "Low startup cost (about $650-950 for a desktop pad printing machine)",
+    "found": "Business Dash",
+    "what": "Use a pad printing machine (which transfers ink from an engraved plate via a flexible silicone pad) to brand curved or uneven objects that flat presses can't handle \u2014 pens, bottle caps, tool handles, plastic cases \u2014 selling primarily to local businesses that need only 50-100 branded pieces, a quantity too small for large suppliers who prefer orders in the thousands.",
+    "pitch": "A beginner setup (a single-color desktop machine, printing plates, silicone pads, suitable inks, cleaning supplies, product fixtures, blank test items) costs $650-950. The presenter warns that consistency is the hard part \u2014 each product may need a different plate, pad, ink, and fixture, and an item that shifts during printing produces a crooked or blurred logo.",
+    "best": "Someone comfortable with a technical, fixture-dependent process who wants to fill the specific gap between individual custom orders and factory-scale bulk branding runs.",
+    "truth": "The market gap identified (large suppliers won't touch small orders of 50-100 curved items) is genuine and specific, which is more defensible than a generic \"branded promotional products\" business \u2014 but the per-product setup complexity (different plate/pad/ink combinations) means this isn't a simple one-machine-fits-all operation.",
+    "url": "https://youtu.be/2uofabJSM7A",
+    "video_title": "15 Low-Investment Home Businesses That Are Easier to Start Than You Think",
     "situation_tags": [
-      "Strictly in-home"
+      "Strictly in-home",
+      "Requires equipment/vehicle investment"
     ],
-    "published": "2026-08-10",
+    "published": "2026-07-31",
     "filters": [
       "older",
       "parent",
-      "health",
       "outside",
-      "lowcost",
-      "nosales",
-      "noinventory",
+      "nocamera",
       "novisits",
       "noai"
     ]
@@ -1609,34 +1515,6 @@
       "health",
       "outside",
       "nocamera",
-      "noai"
-    ]
-  },
-  {
-    "id": "steam-car-cleaning-package-service",
-    "name": "Running a steam-based interior car detailing service, built around tiered packages rather than one generic clean",
-    "title": "Steam Car Interior Detailing",
-    "category": "Local & professional services",
-    "tags": [
-      "steam car cleaning",
-      "mobile detailing",
-      "tiered service packages"
-    ],
-    "cost": "Low to moderate (compact units are inexpensive; stronger mobile systems run roughly $700-900)",
-    "found": "Business Dash",
-    "what": "Buy a steam car cleaning machine (generates high-temperature steam to loosen dirt in seats, carpets, dashboards, vents, and door panels) and offer either a home-based drop-off service or a mobile setup traveling to customers. Build tiered packages rather than one generic offer: a basic interior refresh as the entry point, a deeper package adding seats/carpets/vents/mats/windows, and a premium option combining interior detailing with exterior work or add-ons.",
-    "pitch": "The presenter stresses that the real money is in package structure, not a single generic 'clean my car' service, and warns against choosing a machine by price alone, since steam pressure, tank size, and heat-up time all matter for a machine that has to perform reliably on a booked job.",
-    "best": "Someone comfortable with hands-on detail work, willing to build a tiered pricing structure rather than a single flat service.",
-    "truth": "Steam car cleaning equipment and the described price ranges are real and current. No personal revenue figures are given for this specific business.",
-    "url": "https://www.youtube.com/watch?v=gcL3lipetCE",
-    "video_title": "10 Machines You Can Import From China to Make Money From Home",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -2209,35 +2087,6 @@
       "outside",
       "nocamera",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "vinyl-cutter-local-business-branding-service",
-    "name": "Using a vinyl cutting machine to provide simple visual branding (window logos, decals, lettering) to local businesses",
-    "title": "Vinyl Branding for Local Businesses",
-    "category": "Local & professional services",
-    "tags": [
-      "vinyl cutting",
-      "local business branding",
-      "window graphics",
-      "vehicle decals"
-    ],
-    "cost": "Very low ($145-180 for a 24-inch cutter; better contour-cutting models run $400-550)",
-    "found": "Business Dash",
-    "what": "Buy a vinyl cutting machine (cuts letters, logos, and shapes from adhesive vinyl for application via transfer tape) and offer local visual branding services rather than only shipping flat products online: window logos, opening-hours lettering, interior lettering, and vehicle decals for cafes, gyms, real estate offices, contractors, salons, and event planners. A single customer (like a new barber shop) can generate several separate small jobs at once.",
-    "pitch": "The presenter frames the local service angle as more interesting than the online product-shipping angle specifically because one customer relationship can produce multiple jobs, and recommends starting with simple cut vinyl before adding full-color printed graphics only once real demand for it appears.",
-    "best": "Someone comfortable approaching local businesses directly to pitch simple, affordable branding touches rather than large print runs.",
-    "truth": "Vinyl cutting machines and the cited price ranges are real and current. No personal revenue figures are given for this specific business.",
-    "url": "https://www.youtube.com/watch?v=gcL3lipetCE",
-    "video_title": "10 Machines You Can Import From China to Make Money From Home",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "lowcost",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -4355,69 +4204,6 @@
     ]
   },
   {
-    "id": "solar-panel-cleaning-service",
-    "name": "Solar panel cleaning service",
-    "title": "Solar Panel Cleaning",
-    "category": "Local & professional services",
-    "tags": [
-      "solar",
-      "home services",
-      "recurring revenue",
-      "low startup cost"
-    ],
-    "cost": "Very low startup cost ($500-$800 for equipment, no license required in most states)",
-    "found": "Austin Zaback",
-    "what": "Clean the dirt, dust, pollen, and bird droppings that build up on residential and commercial solar panels, restoring lost power output, using a soft-wash or low-pressure hose system, a squeegee, and a water-fed pole, typically sold as a one-to-two-times-a-year recurring package.",
-    "pitch": "Zaback frames the sales pitch around reframing the service: it's not just panel cleaning, it's recovering lost energy output on an investment that may have cost the homeowner $20,000-$30,000, since regular cleaning can boost power production by 10-20% in dirty conditions. He cites the solar panel cleaning industry being valued at $1.22 billion in 2025 and projected to reach $2.57 billion by 2035, with especially strong opportunity in high-solar-adoption states like Arizona, Texas, California, and Florida.",
-    "best": "Someone in a solar-dense region looking for one of the lowest equipment costs and least regulatory friction on this whole list, ideal for someone wanting a simple, low-overhead recurring-revenue service.",
-    "truth": "The industry valuation and growth figures are cited as third-party market research rather than Zaback's own data, and no specific individual operator's income is given for this particular idea, unlike several others in the video, so there's no personal case study to weigh here. The core value proposition (dirty panels underperform, cleaning restores output) is a straightforward, physically verifiable claim independent of any specific revenue projection.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
-    "video_title": "9 Service Businesses You Can Start Under $1,000 (No Experience Needed)",
-    "situation_tags": [
-      "Local travel required",
-      "Requires a license or certification"
-    ],
-    "published": "2026-04-09",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
-    "id": "automatic-nail-art-printing-service",
-    "name": "Mobile nail art printing service for events using an automatic nail printer",
-    "title": "Event Nail Art Printing",
-    "category": "Local & professional services",
-    "tags": [
-      "nail art printing",
-      "mobile beauty service",
-      "weddings/events",
-      "custom designs",
-      "pop-ups"
-    ],
-    "cost": "Moderate startup cost (an automatic nail art printer, compatible gel base/top coats, a curing lamp, sanitization supplies, and a design catalog)",
-    "found": "Business Cortex",
-    "what": "Operate an automatic nail art printer that prints intricate designs or photos directly onto nails within minutes, offered as a home studio or mobile service for weddings, bridal prep, parties, corporate events, and custom looks (team logos, holiday motifs) without the time cost of hand-painted nail art.",
-    "pitch": "Price per set with add-on fees for custom uploaded designs, using demo videos of the printer in action to convert viewers into bookings, and partner with hair/makeup artists and boutique owners for pop-up event days to reach clients who are already booking beauty services for an occasion.",
-    "best": "Someone interested in the beauty/events space who wants a differentiated, faster service than traditional hand nail art, comfortable with mobile/on-location work and maintaining sanitary equipment.",
-    "truth": "Speed and precise custom-image printing is a genuine differentiator from manual nail art, and partnering with existing wedding/event vendors is a sound distribution channel. The specialized printer itself is a real upfront investment, and consistent hygienic protocols matter for a service done directly on clients' skin/nails.",
-    "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s",
-    "video_title": "20 Work From Home Business Ideas To Quit Your Job",
-    "published": "2025-09-12",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "wholesale-waffle-cone-supply-business",
     "name": "Wholesale waffle cone supply business for ice cream shops",
     "title": "Waffle Cone Supply",
@@ -4630,38 +4416,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "window-cleaning-service-residential-commercial",
-    "name": "Window cleaning service for homes and businesses",
-    "title": "Window Cleaning Service",
-    "category": "Local & professional services",
-    "tags": [
-      "window cleaning",
-      "home services",
-      "recurring revenue",
-      "low startup cost"
-    ],
-    "cost": "Very low startup cost (~$500 for basic equipment)",
-    "found": "Austin Zaback",
-    "what": "Clean windows for homes, storefronts, and office buildings, starting with a basic kit (squeegee, mop, bucket, ladder, cleaning solution) and quoting jobs by square footage and number of stories, with the option to sell recurring quarterly packages to homeowners and monthly contracts to commercial clients.",
-    "pitch": "Zaback cites an average residential job of around $550, meaning six jobs in a day already crosses $3,000 in gross revenue, and profiles an Arizona operator who did $392,000 in a year with a small subcontractor team, starting with just $500 in equipment. He specifically highlights commercial accounts (restaurants, retail, offices) as more valuable than residential ones because they prioritize reliability over price shopping and will commit to standing monthly contracts.",
-    "best": "Someone comfortable quoting jobs quickly over the phone once they know their pricing formula, and willing to pursue commercial accounts specifically for the more stable, less price-sensitive recurring revenue they offer over one-off residential jobs.",
-    "truth": "The $392,000/year figure is a specific, named example (an Arizona operator using a subcontractor team) rather than an anonymous claim, though it represents one successful operator, not a typical or guaranteed outcome. The distinction Zaback draws between residential (price-sensitive, one-time) and commercial (reliability-focused, recurring) customers is a genuinely useful and independently testable segmentation for anyone starting this business.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
-    "video_title": "9 Service Businesses You Can Start Under $1,000 (No Experience Needed)",
-    "situation_tags": [
-      "Local travel required"
-    ],
-    "published": "2026-04-09",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
     ]
   },
   {
@@ -4945,39 +4699,6 @@
     ]
   },
   {
-    "id": "pool-cleaning-maintenance-service",
-    "name": "Pool cleaning and maintenance service",
-    "title": "Pool Cleaning and Maintenance",
-    "category": "Local & professional services",
-    "tags": [
-      "pool service",
-      "home services",
-      "recurring revenue",
-      "low startup cost"
-    ],
-    "cost": "Very low startup cost (a few hundred dollars for equipment)",
-    "found": "Austin Zaback",
-    "what": "Provide weekly pool maintenance, skimming the surface, brushing walls, occasionally vacuuming the floor, and adding chemicals as needed, for residential customers who don't want to maintain their own pool or risk it turning green and unusable.",
-    "pitch": "Zaback cites the U.S. pool cleaning and maintenance market at $26.77 billion in 2025, projected to reach nearly $40 billion by 2030, and notes that most residential customers pay $100 to $150 a month for weekly service, a naturally recurring relationship since a neglected pool creates an urgent, visible problem the homeowner wants solved.",
-    "best": "Someone in a warm-climate state (Florida, Texas, California, Arizona, and similar) willing to build a weekly route, since retention in this business is described as strong once a homeowner trusts a reliable cleaner.",
-    "truth": "No specific individual case study or income example is given for this particular idea in the video, unlike several of the others, so the pricing and market-size figures are the only data points to evaluate rather than a personal account. The core mechanic (weekly visits, chemical costs scale with actual accounts rather than being paid upfront) is specific enough to verify independently before committing capital.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
-    "video_title": "9 Service Businesses You Can Start Under $1,000 (No Experience Needed)",
-    "situation_tags": [
-      "Local travel required",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-04-09",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "decorative-dumbbells-home-fitness-decor",
     "name": "Decorative dumbbell business for design-conscious home gyms",
     "title": "Decorative Dumbbells",
@@ -5038,39 +4759,6 @@
       "nosales",
       "nocamera",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "party-event-equipment-rental-weekend",
-    "name": "Party and event equipment rental business run on weekends",
-    "title": "Weekend Party Rentals",
-    "category": "Local & professional services",
-    "tags": [
-      "event rental",
-      "party equipment",
-      "weekend business",
-      "reusable inventory"
-    ],
-    "cost": "Low to moderate startup cost (basic tables, chairs, and tents, often bought secondhand)",
-    "found": "David Explains Money",
-    "what": "Rent out event equipment (tables, chairs, tents, linens) for weddings, quincea\u00f1eras, graduations, and corporate events, starting with a small basic inventory (round tables, folding chairs, a couple of tents) and reinvesting rental income into expanding into more specialized items, building relationships with event venues and wedding planners for recurring referral business.",
-    "pitch": "The presenter shares a real example of a family friend who started with a handful of secondhand tables and chairs stored in half a garage, and two years later books events almost every weekend while still working his regular weekday job \u2014 reinvesting early earnings into more inventory rather than spending it, which doubled his rental capacity within two years.",
-    "best": "Someone with garage or storage space for equipment and weekend availability, willing to run this alongside a full-time weekday job and reinvest early profits into inventory rather than taking them as income right away.",
-    "truth": "The presenter is honest that this specific example wasn't a straight line of growth \u2014 some months had almost no bookings, others had four events in a row \u2014 which is a more realistic picture than most side-hustle success stories. The same equipment being rented out repeatedly does mean strong margins once the initial cost is recovered, but building venue and planner relationships for referral business takes sustained effort over time.",
-    "url": "https://youtu.be/xA6oBoVyQ9I",
-    "video_title": "10 BORING BUSINESSES That Quietly Make Money",
-    "situation_tags": [
-      "Weekend/event-based schedule",
-      "Needs inventory storage",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-08-07",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
       "noai"
     ]
   },
@@ -5252,40 +4940,6 @@
       "lowcost",
       "noinventory",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "lawn-care-business-route",
-    "name": "Lawn care and mowing route",
-    "title": "Lawn Care Route",
-    "category": "Local & professional services",
-    "tags": [
-      "lawn care",
-      "landscaping",
-      "recurring revenue",
-      "low startup cost"
-    ],
-    "cost": "Low startup cost (one mower to start)",
-    "found": "Austin Zaback",
-    "what": "Build a residential lawn mowing and basic yard maintenance route, starting with one mower and expanding customer by customer within a tight geographic area to keep drive time low and route density high.",
-    "pitch": "Zaback cites the U.S. lawn care and landscaping industry at $184 billion in 2025 across 650,000 companies, none of which controls more than 5% of the market, meaning there's no dominant national brand cornering any given neighborhood. He notes the average U.S. household spends about $600 a year on lawn care, and that doing eight to ten lawns a day can generate $400 to $750 in daily revenue solo.",
-    "best": "Someone willing to start small (one mower, one tight route) and treat this as a long, proven, unglamorous path rather than a fast or novel one, since Zaback frames it as one of the least flashy but most consistently reliable ideas on the list.",
-    "truth": "The revenue figures are Zaback's general framework based on typical job counts and pricing rather than one specific named case study, unlike some of the other ideas in this video. The market fragmentation statistic (no company over 5% share) is a real, checkable structural fact about the industry that supports the claim of low competitive barriers, regardless of any individual operator's specific results.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
-    "video_title": "9 Service Businesses You Can Start Under $1,000 (No Experience Needed)",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-04-09",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -5603,40 +5257,6 @@
     ]
   },
   {
-    "id": "mobile-car-detailing-service",
-    "name": "Mobile car detailing service",
-    "title": "Mobile Car Detailing",
-    "category": "Local & professional services",
-    "tags": [
-      "mobile detailing",
-      "automotive",
-      "low startup cost",
-      "high margin"
-    ],
-    "cost": "Low startup cost (no commercial space needed)",
-    "found": "Austin Zaback",
-    "what": "Drive to a customer's home or office and detail their car in their driveway or parking spot, requiring no commercial space, employees, or heavy equipment, just mobility and the tools to wash, wax, and clean a vehicle on-site.",
-    "pitch": "Zaback cites the global car detailing industry projected to surpass $58 billion by 2030 and notes mobile detailers consistently achieve 60-80% gross margins, among the highest of any service business on his list, since the core product being sold is convenience as much as the clean itself. He gives concrete pricing: $50-100 for a basic wash, $200-400 for a wax, buff, or deep clean on a luxury vehicle, meaning three high-end cars in a day could clear roughly $1,000.",
-    "best": "Someone targeting busy professionals, luxury car owners, or multi-vehicle families who will pay a premium specifically to avoid driving somewhere and waiting, rather than competing purely on price with fixed-location car washes.",
-    "truth": "The margin and pricing figures are presented as general industry figures rather than tied to one specific named operator's verified results, unlike some of the other ideas in this video. The core value proposition, that convenience commands a premium price people pay without much resistance, is a straightforward and testable claim independent of the specific dollar figures cited.",
-    "url": "https://www.youtube.com/watch?v=xFn0gw_gocw",
-    "video_title": "9 Service Businesses You Can Start Under $1,000 (No Experience Needed)",
-    "situation_tags": [
-      "Local travel required",
-      "Weekend/event-based schedule"
-    ],
-    "published": "2026-04-09",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "electric-sausage-stuffer-gourmet-batch",
     "name": "Small-batch gourmet sausage business using an electric sausage stuffer",
     "title": "Gourmet Sausage Business",
@@ -5663,68 +5283,6 @@
       "outside",
       "nosales",
       "nocamera",
-      "noai"
-    ]
-  },
-  {
-    "id": "mini-donut-production-foot-traffic-business",
-    "name": "Mini donut production business for fairs and high-foot-traffic venues",
-    "title": "Mini Donut Business",
-    "category": "Physical & print products",
-    "tags": [
-      "mini donut machine",
-      "food production",
-      "fairs and markets",
-      "in-person sales"
-    ],
-    "cost": "Low startup cost (a 4-row automatic mini-donut machine currently listed around $550-600, before freight, taxes, or import costs)",
-    "found": "Business Dash",
-    "what": "Producing and selling mini donuts in person at high-foot-traffic venues (fairs, malls, markets, tourist areas), sized to realistic daily sales volume rather than the machine's rated output.",
-    "pitch": "A 4-row automatic machine is advertised at 1,750-1,800 mini donuts per hour, but a small kiosk selling 30 dozen (360 donuts) a day at $6-12/dozen is only around $240 in gross sales for the day \u2014 customers, not the machine, are the real bottleneck. The presenter likes this format specifically for venues where the smell of fresh donuts does part of the marketing on its own.",
-    "best": "Someone selling in person at a genuinely high-traffic venue, who proves they can sell a few hundred units a day before worrying about the machine's much larger rated capacity.",
-    "truth": "The machine's advertised hourly output (1,800/hour) is a marketing number, not a demand number \u2014 the presenter's advice is to prove you can sell 360 a day before caring whether the machine can theoretically make 1,800.",
-    "url": "https://www.youtube.com/watch?v=YfEmQw4RQ4U",
-    "video_title": "16 Food-Making Machines to Start a Business With | Low Investment | Small Space",
-    "published": "2026-10-02",
-    "situation_tags": null,
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noai"
-    ]
-  },
-  {
-    "id": "epoxy-garage-flooring-installation",
-    "name": "Epoxy garage flooring installation service",
-    "title": "Epoxy Garage Floors",
-    "category": "Local & professional services",
-    "tags": [
-      "epoxy flooring",
-      "garage renovation",
-      "home improvement",
-      "visual portfolio marketing"
-    ],
-    "cost": "Low to moderate startup cost (epoxy materials and application tools; practice runs recommended before charging clients)",
-    "found": "David Explains Money",
-    "what": "Apply epoxy resin coatings to garage concrete floors (and later patios, basements, and small commercial spaces) for homeowners converting garages into functional living spaces like home gyms, workshops, or game rooms, mastering one specific installation technique well and building a portfolio of before-and-after photos, since the business sells primarily through visual references and word of mouth.",
-    "pitch": "The presenter frames the appeal as strong margins (materials cost relatively little compared to the per-square-foot installed price) combined with fast job completion (one to two days per job), and specifically recommends practicing on your own garage or a family member's before charging real clients, since the application technique has a short learning curve but any mistakes remain visibly permanent on the floor.",
-    "best": "Someone willing to practice the technique thoroughly before taking paying clients, and comfortable building a portfolio-driven, word-of-mouth marketing approach rather than relying on advertising.",
-    "truth": "The advice to practice on a low-stakes floor first is genuinely important given the presenter's own warning that mistakes are permanent and immediately visible, which could otherwise damage a new business's local reputation quickly. The margin and speed advantages described are real, but building a reputation strong enough to expand beyond garages into commercial spaces will take time and a demonstrated track record.",
-    "url": "https://youtu.be/xA6oBoVyQ9I",
-    "video_title": "10 BORING BUSINESSES That Quietly Make Money",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-08-07",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -6115,40 +5673,6 @@
     ]
   },
   {
-    "id": "taskrabbit-local-task-work",
-    "name": "TaskRabbit local task and handyman work",
-    "title": "TaskRabbit Handyman Work",
-    "category": "Local & professional services",
-    "tags": [
-      "TaskRabbit",
-      "gig work",
-      "handyman tasks",
-      "furniture assembly",
-      "errands"
-    ],
-    "cost": "Very low startup cost (basic tools; a vehicle helps)",
-    "found": "Diamond Chanel",
-    "what": "Sign up on TaskRabbit and complete local tasks for pay \u2014 cleaning, furniture assembly, running errands, and small hands-on jobs \u2014 building income through volume and repeat client requests rather than any single specialty.",
-    "pitch": "One presenter describes making close to $4,800 in a month working roughly 95 hours over about 2.5 weeks doing a mix of cleaning, furniture building, and errands, plus tips, after one task (hauling buckets and materials from Home Depot) alone earned $200 and generated a wave of inbound interest.",
-    "best": "Someone physically able to do varied manual tasks, comfortable working in strangers' homes, and willing to build a reputation through consistent, reliable task completion.",
-    "truth": "This is a genuine, accessible way to earn money quickly with minimal setup, and the presenter's hourly-equivalent rate (roughly $50/hour across the month described) is attractive for gig work. Income is directly tied to hours worked and physical effort, so it doesn't scale into passive income the way some other ideas on this list might.",
-    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
-    "video_title": "12 Boring Side Hustles You Can Run From Your Phone (BETTER Than Uber & Doordash)",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-08-10",
-    "filters": [
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "jc-50-second-cities-microsite-rollout-cloudflare-api",
     "name": "One trade in 50 \"second cities\": bulk microsite rollout with Cloudflare and AI call answering",
     "title": "Trade Microsites in 50 Cities",
@@ -6458,33 +5982,6 @@
       "outside",
       "nocamera",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "portable-restroom-rental-business",
-    "name": "Running a portable restroom rental business for construction sites and events",
-    "title": "Portable Restroom Rentals",
-    "category": "Local & professional services",
-    "tags": [
-      "portable restroom rental",
-      "equipment rental",
-      "construction site services",
-      "boring business"
-    ],
-    "cost": "Moderate to high (purchasing multiple portable restroom units)",
-    "found": "David Explains Money",
-    "what": "Buy portable restroom units and rent them to construction sites, events, and fairs on a per-event or per-month basis, cleaning them on a scheduled route and collecting payment each rental cycle rather than selling anything outright.",
-    "pitch": "The presenter cites the global portable restroom rental market at $20.71 billion, projected to reach $34.86 billion by 2030 per Grand View Research, framing the business's unattractiveness as precisely what keeps competition low.",
-    "best": "Someone with capital to invest in multiple units and willing to manage a scheduled servicing/cleaning route.",
-    "truth": "Portable restroom rental is a real, established equipment-rental business model with genuine recurring demand from construction and events, and the cited market-size figures come from a named third-party research source. No specific per-unit or per-operator revenue example is given in this segment.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "video_title": "20 BORING BUSINESSES That Make Money While You Sleep",
-    "published": "2026-06-30",
-    "filters": [
-      "older",
-      "outside",
-      "nocamera",
       "noai"
     ]
   },
@@ -6877,35 +6374,6 @@
     ]
   },
   {
-    "id": "private-atm-network-business",
-    "name": "Building a private ATM network placed in cash-heavy businesses",
-    "title": "Private ATM Network",
-    "category": "Local & professional services",
-    "tags": [
-      "ATM network",
-      "location-based passive income",
-      "cash businesses",
-      "boring business"
-    ],
-    "cost": "Moderate to high (cost of ATM machines plus cash float to keep them stocked)",
-    "found": "David Explains Money",
-    "what": "Buy ATM machines and place them in businesses with heavy cash traffic (bars, laundromats, markets), earning a per-withdrawal fee; the operator's job is simply keeping each machine stocked with cash, and the business pairs naturally with an existing vending machine at the same location since the same owner will often accept both.",
-    "pitch": "The presenter says each well-placed machine can generate $1,000-3,000/month in net profit, framing the business as solving an 'invisible problem' (people needing cash on hand at cash-only or tip-heavy venues).",
-    "best": "Someone with capital to purchase ATM hardware and float cash, and comfortable with the regulatory/compliance side of operating cash machines.",
-    "truth": "Independent ATM ownership and placement is a real, established business model with genuine per-transaction fee income, and pairing it with vending-machine locations is sound operational logic. No specific verified case study or regulatory detail (which varies significantly by state/country) is given in this segment.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "video_title": "20 BORING BUSINESSES That Make Money While You Sleep",
-    "published": "2026-06-30",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "paid-focus-groups-user-testing",
     "name": "Paid online focus groups and user testing",
     "title": "Paid Focus Groups and User Testing",
@@ -7224,40 +6692,6 @@
     ]
   },
   {
-    "id": "storage-tote-peer-to-peer-rental",
-    "name": "Peer-to-peer storage tote rental service",
-    "title": "Storage Tote Rental",
-    "category": "Local & professional services",
-    "tags": [
-      "storage rental",
-      "moving supplies",
-      "Facebook Marketplace",
-      "local service",
-      "low inventory"
-    ],
-    "cost": "Very low startup cost (roughly $100 for an initial batch of totes, expandable as demand grows)",
-    "found": "Austin Zaback",
-    "what": "Rent out 27-gallon plastic storage totes to local customers who need extra storage during a move, listed on Facebook Marketplace, with each renter signing a rental agreement and card on file, rather than requiring an upfront purchase of a full inventory before getting a first customer.",
-    "pitch": "Zaback profiles Chelsea Wade, who reportedly didn't buy a single tote until she had her first paying customer, then scaled to over 140 totes at roughly $5/tote (about $100 per 20 totes rented). He frames this as an almost zero-risk business model, citing a fragmented storage-rental market (independent operators control about 73% of it, no dominant national player) and Americans spending roughly $40 billion/year on storage.",
-    "best": "Someone wanting a very low-risk way to test a local rental business idea before committing capital, comfortable managing customer agreements and tracking physical inventory locally.",
-    "truth": "The \"prove demand before buying inventory\" approach is a genuinely useful, low-risk way to validate this kind of business, and the underlying mechanic is simple. That said, per-unit margins are thin ($5/tote), so meaningful income requires real scale (dozens to hundreds of totes) and consistent local demand, which will vary a lot by area \u2014 this isn't described as a business that replaces a full-time income on its own without significant growth.",
-    "url": "https://youtu.be/xUCD1BXvhjU",
-    "video_title": "5 Side Hustles Making People RICH in 2026 (Low Competition!)",
-    "situation_tags": [
-      "Local travel required",
-      "Needs inventory storage"
-    ],
-    "published": "2026-08-13",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noai"
-    ]
-  },
-  {
     "id": "eco-bricks-plastic-waste-furniture",
     "name": "Eco-brick furniture and community-build business using packed plastic waste",
     "title": "Eco-Brick Furniture",
@@ -7349,40 +6783,6 @@
       "nocamera",
       "noinventory",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "field-inspection-contract-work",
-    "name": "Field inspection contract work",
-    "title": "Field Inspection Contract Work",
-    "category": "Local & professional services",
-    "tags": [
-      "field inspections",
-      "property inspection",
-      "gig work",
-      "insurance inspections"
-    ],
-    "cost": "Very low startup cost (a smartphone and a car)",
-    "found": "Diamond Chanel",
-    "what": "Work as a contract field inspector for companies that need someone local to visit a property or business, take photographs (of a vehicle, building exterior, or specific condition), and submit them, typically for insurance, compliance, or verification purposes.",
-    "pitch": "One presenter describes earning $75 for a roughly 20-minute inspection (a short drive plus photographing two company vehicles), working with a company called Metro Inspections. That specific company is no longer accepting new inspectors, but the presenter notes other similar inspection companies are actively hiring.",
-    "best": "Someone with a reliable car and smartphone who wants flexible, quick-turnaround local gig work that doesn't require any specialized skill or equipment beyond basic photography and following instructions precisely.",
-    "truth": "This is a genuinely low-barrier gig with fast per-job payouts, though per-job pay ($75 for 20 minutes in the example given) means meaningful income requires taking on a steady volume of jobs, and availability of inspection companies actively recruiting will vary by location and over time.",
-    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
-    "video_title": "12 Boring Side Hustles You Can Run From Your Phone (BETTER Than Uber & Doordash)",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-08-10",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -7493,35 +6893,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "vending-machine-route-tilbury",
-    "name": "Building a vending machine route",
-    "title": "Vending Machine Route",
-    "category": "Local & professional services",
-    "tags": [
-      "vending",
-      "route based",
-      "recurring revenue",
-      "passive income",
-      "local business"
-    ],
-    "cost": "Low to moderate startup cost (used machines can be bought cheaply, or financed)",
-    "found": "Mark Tilbury",
-    "what": "Place and maintain vending machines in local businesses (offices, warehouses, workshops), splitting a percentage of revenue with the location owner in exchange for the convenience of on-site food or drinks with no effort on their part.",
-    "pitch": "Tilbury's illustrative example is a young operator who approached a workshop with an old, unprofitable coffee machine and offered to install three new machines at no cost to the business owner, handling all maintenance and restocking himself, in exchange for a 15% cut of revenue. That operator scaled to machines across the state, all generating passive income once installed. Used vending machines are widely available cheaply, and can be financed and paid off from the route's own profits.",
-    "best": "Someone comfortable with the upfront legwork of finding good locations and negotiating placement deals, who's willing to handle restocking and maintenance (or eventually hire someone to) rather than someone looking for something entirely hands-off from day one.",
-    "truth": "The industry-level figure cited (Selecta reporting over $1 billion in 2021 sales, up 3% year over year) is a real, checkable industry data point distinct from the personal anecdote about the young operator, which is presented as a story Tilbury witnessed rather than a verified case study with real numbers attached. The core advice, that success depends on finding the right locations and the right product mix for each one, is genuinely the hard part of this business, not a minor detail.",
-    "url": "https://www.youtube.com/watch?v=sDXdGEEwxm4&list=PLCYkcWYQhQnALvqWM1wfKUZH0Pa-4P-8o&index=54",
-    "video_title": "Smart Passive Income Ideas to Make $500/Day (Start Today)",
-    "published": "2022-06-02",
-    "filters": [
-      "older",
-      "outside",
-      "nocamera",
-      "noinventory",
-      "noai"
     ]
   },
   {
@@ -7699,40 +7070,6 @@
     ]
   },
   {
-    "id": "mobile-coffee-cart-business",
-    "name": "Mobile coffee cart business",
-    "title": "Mobile Coffee Cart",
-    "category": "Local & professional services",
-    "tags": [
-      "mobile coffee cart",
-      "food business",
-      "espresso",
-      "no storefront",
-      "events"
-    ],
-    "cost": "Low to moderate startup cost (a basic mobile cart and espresso setup, a couple thousand dollars to get fully equipped per the presenter)",
-    "found": "Austin Zaback",
-    "what": "Operate a mobile espresso/coffee cart at events, office parks, or high-foot-traffic locations, with no fixed storefront lease, selling coffee and espresso drinks directly to walk-up customers.",
-    "pitch": "Zaback cites the founder of Crema Avenue, who reportedly sells about 550 coffees over a 10-hour day (~$4,400 revenue), netting around $3,000 profit after ingredient and labor costs, and frames the market opportunity around the mobile coffee cart market's projected growth from $1.8 billion to $3.8 billion. He contrasts the cart's low startup cost against the roughly $200,000+ typically needed to open a traditional coffee shop.",
-    "best": "Someone comfortable with hands-on food service work and willing to secure event bookings or high-traffic locations, who wants a lower-capital entry into the coffee business than a storefront requires.",
-    "truth": "The cost comparison to a traditional coffee shop is fair, and the low-overhead structure (no lease, no fixed location) is a real advantage. What the numbers don't show is the effort behind securing consistently good locations or event bookings, permitting/health requirements (which vary significantly by city and aren't addressed in the video), and that a 550-coffee, $3,000-profit day likely represents an already-established cart, not a first week of business.",
-    "url": "https://youtu.be/xUCD1BXvhjU",
-    "video_title": "5 Side Hustles Making People RICH in 2026 (Low Competition!)",
-    "situation_tags": [
-      "Local travel required",
-      "Weekend/event-based schedule",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-08-13",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noai"
-    ]
-  },
-  {
     "id": "photo-puzzle-making-machine-business",
     "name": "Custom photo jigsaw puzzle business",
     "title": "Custom Photo Puzzles",
@@ -7759,36 +7096,6 @@
       "health",
       "outside",
       "nosales",
-      "nocamera",
-      "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "nail-manufacturing-local-supply-business",
-    "name": "Nail manufacturing business built on local supply reliability",
-    "title": "Nail Manufacturing",
-    "category": "Physical & print products",
-    "tags": [
-      "nail making machine",
-      "construction supply",
-      "local manufacturing",
-      "B2B supply"
-    ],
-    "cost": "Moderate startup cost (a small setup runs around $2,500-8,000 depending on speed and nail size range)",
-    "found": "Business Dash",
-    "what": "Manufacturing nails from steel wire using a small nail-making machine and supplying them locally to pallet makers, hardware stores, fence builders, and contractors, positioned on reliable fast supply rather than the cheapest price.",
-    "pitch": "Framing crews, roofers, pallet makers, fence builders, and even small furniture and repair shops all buy nails in bulk repeatedly. The presenter is explicit that trying to beat large factories on the cheapest nail is a losing game \u2014 the winning angle is being the reliable local supplier a hardware store or contractor can count on for specific sizes, packaged professionally, without a two-week wait. A small setup runs $2,500-8,000.",
-    "best": "Someone who can supply specific nail sizes consistently and package them professionally for local buyers who value availability and speed over the absolute lowest price.",
-    "truth": "This only works as a reliability/availability business, not a price-competition business \u2014 a contractor who chooses a local supplier over a cheaper distant one is paying for not having to wait, not for the cheapest possible nail.",
-    "url": "https://www.youtube.com/watch?v=7KZCcBM55YI",
-    "video_title": "9 Products Every Contractor Burns Through \u2014 And the People Getting Paid to Make Them Locally",
-    "published": "2026-10-02",
-    "situation_tags": null,
-    "filters": [
-      "older",
-      "parent",
-      "outside",
       "nocamera",
       "novisits",
       "noai"
@@ -7827,36 +7134,6 @@
       "nocamera",
       "noinventory",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "recurring-cleaning-service-crew-scaling",
-    "name": "Scaling a residential/commercial cleaning business from solo operator to a multi-person crew",
-    "title": "Growing a Cleaning Business",
-    "category": "Local & professional services",
-    "tags": [
-      "cleaning service",
-      "recurring clients",
-      "crew scaling",
-      "boring business"
-    ],
-    "cost": "Low to start (basic cleaning supplies; scales with crew hiring)",
-    "found": "David Explains Money",
-    "what": "Build a residential or commercial cleaning business around recurring weekly clients rather than one-off jobs, starting solo (five recurring weekly clients can generate $5,000-8,000/month) and scaling to a four-person crew ($25,000-40,000/month with 35-50% margins), retaining existing clients rather than constantly chasing new ones.",
-    "pitch": "The presenter argues most cleaning businesses fail not from poor cleaning quality but from failing to retain recurring clients, citing the global cleaning services market's growth from $415.93 billion (2024) to a projected $619.98 billion (2030) per Grand View Research.",
-    "best": "Someone willing to do or manage physical cleaning work and focused on client retention over constant new-client acquisition.",
-    "truth": "Recurring residential/commercial cleaning is a well-established, real business with genuine scalability through crew hiring, and the retention-over-acquisition framing reflects sound, widely-cited small-service-business economics. Revenue figures are illustrative ranges based on client count and pricing, not a single verified case.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "video_title": "20 BORING BUSINESSES That Make Money While You Sleep",
-    "published": "2026-06-30",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -8207,37 +7484,6 @@
     ]
   },
   {
-    "id": "garage-bin-shelving-custom-wood",
-    "name": "Building and selling custom wood shelving sized for garage storage totes",
-    "title": "Garage Tote Shelving",
-    "category": "Physical & print products",
-    "tags": [
-      "garage organization",
-      "custom woodworking",
-      "Facebook Marketplace",
-      "storage solutions"
-    ],
-    "cost": "Very low (a chop saw and basic hand tools most people already own; materials only purchased after a deposit is placed)",
-    "found": "Austin Zaback",
-    "what": "Build custom wood shelving units sized specifically to hold large plastic storage totes in a garage, sourced from bulk 2x4s (Home Depot) and cheap overseas wheels, then sell direct to homeowners via organic Facebook Marketplace and Instagram posts with no paid advertising.",
-    "pitch": "The presenter cites Alex Hanson, who built shelving for himself, posted it on Facebook Marketplace, and grew to 20+ shelves a month and a 50,000-follower Instagram entirely organically, eventually quitting his full-time job. A standard 4ft x 5ft shelf costs about $200 in materials and sells for $770, a $570 profit per unit for a few hours of work.",
-    "best": "Someone with basic woodworking/chop-saw skills and access to a garage or workshop space to build in, comfortable posting and fulfilling orders through Facebook Marketplace and Instagram.",
-    "truth": "Garage organization is a genuinely growing home-storage category, and the described build/pricing economics are plausible for a real handmade-goods business. The single example's numbers (20+ shelves/month, $570 margin per shelf) are one presenter-cited case, not an industry average, and success still depends on local demand and the seller's own marketing hustle despite the 'organic, no ads' framing.",
-    "url": "https://www.youtube.com/watch?v=akllDPkT07I",
-    "video_title": "Side Hustles That Are Making People $100K+/Year (Low Competition)",
-    "published": "2026-07-09",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "novisits",
-      "noai"
-    ]
-  },
-  {
     "id": "handmade-candle-holders-multi-medium",
     "name": "Handmade candle holder business across concrete, wood, metal, or glass",
     "title": "Handmade Candle Holders",
@@ -8263,36 +7509,6 @@
       "parent",
       "outside",
       "nosales",
-      "nocamera",
-      "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "rebar-tie-wire-coil-supply-business",
-    "name": "Rebar tie wire coil supply business for concrete contractors",
-    "title": "Rebar Tie Wire Supply",
-    "category": "Physical & print products",
-    "tags": [
-      "rebar tie wire machine",
-      "construction supply",
-      "concrete contractors",
-      "consumable products"
-    ],
-    "cost": "Moderate startup cost (a small setup typically runs $2,000-6,000)",
-    "found": "Business Dash",
-    "what": "Producing coils of rebar tie wire \u2014 the wire concrete crews use to tie steel rebar together before pouring \u2014 for sale to concrete contractors, rebar fabricators, and building material suppliers.",
-    "pitch": "Tie wire is a true consumable: once concrete is poured it's buried inside the structure forever, so every new slab, column, foundation, driveway, or commercial floor needs more. The presenter frames the opportunity as simple \u2014 sell directly to the people who pour concrete every week (concrete contractors, rebar yards, job-site supply companies) \u2014 with success coming from availability, coil quality, fair pricing, and repeat orders rather than marketing. A small setup runs $2,000-6,000.",
-    "best": "Someone focused on consistent availability and coil quality rather than marketing, since this product sells on reliability to repeat industrial buyers, not branding.",
-    "truth": "Unglamorous, invisible consumables like this don't need to go viral to sell \u2014 construction crews need a steady supply regardless of how boring the product looks, which is exactly why the presenter highlights it.",
-    "url": "https://www.youtube.com/watch?v=7KZCcBM55YI",
-    "video_title": "9 Products Every Contractor Burns Through \u2014 And the People Getting Paid to Make Them Locally",
-    "published": "2026-10-02",
-    "situation_tags": null,
-    "filters": [
-      "older",
-      "parent",
-      "outside",
       "nocamera",
       "novisits",
       "noai"
@@ -8366,37 +7582,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "self-storage-facility-rental",
-    "name": "Renting out self-storage units, including to small e-commerce sellers using them as informal warehouses",
-    "title": "Self-Storage Unit Rentals",
-    "category": "Local & professional services",
-    "tags": [
-      "self-storage",
-      "passive rental income",
-      "e-commerce warehousing",
-      "boring business"
-    ],
-    "cost": "High (acquiring or developing a storage facility)",
-    "found": "David Explains Money",
-    "what": "Rent out self-storage units to households (whose homes are shrinking while their possessions accumulate) and increasingly to small e-commerce sellers using units as makeshift inventory warehouses instead of paying for full commercial space.",
-    "pitch": "The presenter cites the US self-storage market at over $45 billion with 50,000+ facilities, and household usage climbing from 11.1% (2022) to 13.4% (2024) per the Self Storage Association, highlighting small e-commerce sellers as the fastest-growing customer segment.",
-    "best": "Someone with substantial capital for facility acquisition or development; a higher-barrier, more capital-intensive business than most others on this list.",
-    "truth": "Self-storage is a real, well-documented, growing real-estate-adjacent business with cited industry association data, and the e-commerce-warehousing usage trend is a genuine, observable shift in how units get used. This requires significant capital and real-estate expertise not detailed in this segment.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "video_title": "20 BORING BUSINESSES That Make Money While You Sleep",
-    "published": "2026-06-30",
-    "filters": [
-      "older",
-      "parent",
-      "health",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
     ]
   },
   {
@@ -8609,34 +7794,6 @@
     ]
   },
   {
-    "id": "woven-clothing-label-manufacturing",
-    "name": "Manufacturing woven clothing labels for small clothing brands that can't meet big suppliers' minimum order requirements",
-    "title": "Woven Clothing Labels",
-    "category": "Physical & print products",
-    "tags": [
-      "clothing label manufacturing",
-      "small brand supply chain",
-      "recurring B2B orders"
-    ],
-    "cost": "Moderate to high ($3,600 for the machine)",
-    "found": "SUCCESSFUL ENTREPRENEUR",
-    "what": "Buy a narrow fabric loom (weaves logos, not just text, using 16 frames; also makes ribbons and trim) and produce woven clothing labels for small/emerging clothing brands, who typically hit a wall trying to source labels: big suppliers require minimum orders of 10,000+ units, imported, with 6-week lead times, which doesn't work for a small brand's first run.",
-    "pitch": "The presenter argues labels are legally required on garments (size, fabric, washing instructions) so no clothing brand can sell without them, and frames the real business as recurring: a brand releases a new collection every few months and needs new labels every single time, making you 'part of how that brand exists' rather than a one-time vendor.",
-    "best": "Someone willing to serve small/emerging clothing brands specifically, since large brands already have established label suppliers.",
-    "truth": "Woven label requirements and the minimum-order gap for small clothing brands are real, well-documented pain points in the apparel supply chain. No specific revenue figures given; pricing and margin framing are the presenter's general claims.",
-    "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ",
-    "video_title": "14 MACHINES You Can IMPORT from China That PAY BIG (ZERO Experience Needed)",
-    "filters": [
-      "older",
-      "parent",
-      "health",
-      "outside",
-      "nocamera",
-      "novisits",
-      "noai"
-    ]
-  },
-  {
     "id": "ai-wedding-invitation-templates-etsy",
     "name": "AI-designed editable wedding invitation templates sold on Etsy",
     "title": "Editable Wedding Invitation Templates",
@@ -8743,36 +7900,6 @@
     ]
   },
   {
-    "id": "foam-party-cannon-rental-business",
-    "name": "Running a mobile foam-party rental business with a professional foam cannon",
-    "title": "Foam Party Rentals",
-    "category": "Local & professional services",
-    "tags": [
-      "party rental business",
-      "foam cannon",
-      "event services",
-      "seasonal side hustle",
-      "low overhead"
-    ],
-    "cost": "Low (a foam cannon setup runs about $1,500; needs only a standard electrical outlet and water source nearby)",
-    "found": "Austin Zaback",
-    "what": "Buy a professional foam cannon setup, book backyard party events, and turn a yard into a bubble party for a couple of hours per booking using just a hose hookup and an electrical outlet; scale by running multiple cannon setups across simultaneous events.",
-    "pitch": "The presenter cites Tim Carstensen, an elementary PE teacher with no business background who turned a foam cannon into a $150,000 side hustle in one year, working roughly 4 months out of the year around his teaching job and scaling from one cannon to nine simultaneous setups. Package pricing sits around $450-$550 for a 2-hour party, so the machine can pay for itself after the first weekend of bookings.",
-    "best": "Someone with weekends/summers available for event work, comfortable transporting and setting up equipment at different locations, in a market that doesn't already have this service established.",
-    "truth": "The low equipment/licensing barrier and event-based pricing described are plausible and match how novelty party-rental businesses typically operate. The $150,000/year figure is one presenter-cited example, and the video's own advice to keep backup equipment (after a mid-event cannon failure) signals a real operational risk to plan for; demand and pricing will vary heavily by local market and season.",
-    "url": "https://www.youtube.com/watch?v=akllDPkT07I",
-    "video_title": "Side Hustles That Are Making People $100K+/Year (Low Competition)",
-    "published": "2026-07-09",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "ai-workflow-consultant-local-business",
     "name": "AI workflow consultant for local businesses",
     "title": "AI Workflow Consultant",
@@ -8840,69 +7967,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "portable-laminator-on-demand-service",
-    "name": "On-demand laminating service and laminated product business",
-    "title": "Laminating Service",
-    "category": "Local & professional services",
-    "tags": [
-      "portable laminator",
-      "on-demand service",
-      "school/office market",
-      "passive templates",
-      "low startup cost"
-    ],
-    "cost": "Very low startup cost (a portable laminator, assorted pouches, a trimmer, and a clean work surface)",
-    "found": "Business Cortex",
-    "what": "Offer on-demand lamination for certificates, menus, kids' art, classroom materials, and signage (pickup/drop-off for teachers, same-day service for small businesses, mobile service at parent events), plus sell your own laminated products like chore charts, meal planners, reusable worksheets, luggage tags, and dry-erase kids' placemats.",
-    "pitch": "Market through school groups, libraries, parent forums, and local cafes with simple per-sheet pricing and volume discounts, and treat designed template packs (chore charts, planners) as a form of ongoing, semi-passive income once created, since the design work is done once but can be laminated and sold repeatedly.",
-    "best": "Someone looking for a very low-cost, flexible service business with a fast turnaround, comfortable doing both on-location service work and designing reusable product templates.",
-    "truth": "This is a genuinely low-barrier, low-risk business to test given the minimal equipment cost, and splitting revenue between a service (lamination) and a product (pre-designed laminated goods) is a sound way to diversify. Per-job margins are inherently small, so volume and repeat institutional clients (schools, offices) matter more than any single job.",
-    "url": "https://www.youtube.com/watch?v=_4f_Eu8Vj_s",
-    "video_title": "20 Work From Home Business Ideas To Quit Your Job",
-    "published": "2025-09-12",
-    "filters": [
-      "older",
-      "parent",
-      "health",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
-    "id": "caulk-sealant-filling-private-label-business",
-    "name": "Caulk and sealant filling business with private-label potential",
-    "title": "Caulk and Sealant Filling",
-    "category": "Physical & print products",
-    "tags": [
-      "caulk filling machine",
-      "sealant production",
-      "private label manufacturing",
-      "hardware store supplier"
-    ],
-    "cost": "Moderate startup cost (a small filling setup typically runs $4,000-10,000)",
-    "found": "Business Dash",
-    "what": "Filling caulk, silicone, construction adhesive, and sealant into cartridges for sale to hardware stores, contractors, and renovation companies, including private-label production for a hardware chain's or distributor's own branded product.",
-    "pitch": "Sealant shows up in nearly every bathroom, kitchen, window, door, roof, and repair job, and a filled, labeled cartridge looks immediately sellable to hardware stores, tile shops, plumbers, window installers, and maintenance businesses. The presenter highlights private label as the bigger hidden opportunity \u2014 a local hardware chain, contractor, or distributor wanting its own branded sealant or repair product. A small filling setup runs $4,000-10,000.",
-    "best": "Someone who can guarantee consistent formula performance, since a sealant that cracks, leaks, shrinks, or dries poorly destroys customer trust immediately no matter how good the label looks.",
-    "truth": "Packaging and private-label branding earn a buyer's attention once, but a sealant that performs badly kills repeat business fast \u2014 the underlying formula, not the branding, is what actually keeps a customer.",
-    "url": "https://www.youtube.com/watch?v=7KZCcBM55YI",
-    "video_title": "9 Products Every Contractor Burns Through \u2014 And the People Getting Paid to Make Them Locally",
-    "published": "2026-10-02",
-    "situation_tags": null,
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "novisits",
-      "noai"
     ]
   },
   {
@@ -9213,34 +8277,6 @@
       "lowcost",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "recurring-shoe-cleaning-pickup-service",
-    "name": "Running a recurring monthly shoe-cleaning pickup-and-delivery service using an industrial washing machine",
-    "title": "Shoe-Cleaning Pickup Service",
-    "category": "Local & professional services",
-    "tags": [
-      "shoe cleaning service",
-      "pickup and delivery",
-      "recurring subscription service",
-      "industrial cleaning machine"
-    ],
-    "cost": "Low ($680 for the machine, one of the cheapest on the list)",
-    "found": "SUCCESSFUL ENTREPRENEUR",
-    "what": "Buy an industrial shoe washing machine (six brushes, hot air drying, UV/ozone sterilization, 8 pairs/hour) and instead of opening a walk-in shop, offer a monthly subscription pickup service: once a month, collect a family's shoes from their home, clean and disinfect them, and return them within a few days, removing the hassle of the customer having to remember, carry, and drop off shoes themselves.",
-    "pitch": "The presenter argues the obvious walk-in-shop model misses the real opportunity: people don't mind paying, they hate the hassle, so a recurring pickup subscription converts a one-time sale into a recurring payment that doesn't require re-convincing the customer every time.",
-    "best": "Someone comfortable running a local pickup/delivery logistics operation rather than a storefront.",
-    "truth": "Industrial shoe cleaning machines and pickup-subscription service models are real, and the hassle-vs-cost distinction is sound consumer-service reasoning. No specific revenue figures given.",
-    "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ",
-    "video_title": "14 MACHINES You Can IMPORT from China That PAY BIG (ZERO Experience Needed)",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
     ]
   },
   {
@@ -9614,38 +8650,6 @@
     ]
   },
   {
-    "id": "grass-fed-beef-arbitrage-no-land",
-    "name": "Grass-fed beef arbitrage without owning any land",
-    "title": "Grass-Fed Beef Arbitrage",
-    "category": "Local & professional services",
-    "tags": [
-      "grass-fed beef",
-      "livestock arbitrage",
-      "direct-to-consumer meat",
-      "no land required"
-    ],
-    "cost": "Moderate startup cost (buying young cattle from a rancher; costs scale with how many head you buy)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Buy young cattle (calves at around 500-600 lbs) directly from a rancher at market price, arrange to have them custom-finished and slaughtered once they reach optimal size instead of selling them at the standard weight, then package and sell the finished grass-fed beef directly to consumers \u2014 all without owning or leasing any land yourself.",
-    "pitch": "Koerner describes the rancher he bought his own property from as making consistent money simply letting calves graze until they reach market weight, then selling roughly 15 at a time at auction for about $1,400 each. His proposed arbitrage: buy calves at that same price, brand them as your own, but instead of selling them early at the standard auction weight, pay to have them finished and slaughtered at optimal size, then sell the packaged beef directly to consumers (he suggests shipping nationally through an e-commerce operation) \u2014 capturing the price difference between a live auction calf and finished, packaged, direct-to-consumer beef.",
-    "best": "Someone who can build a relationship with a working rancher (to buy calves and arrange grazing/finishing) and a slaughterhouse (booking dates months in advance, since they get busy), and who has or can build a direct-to-consumer sales channel for the finished product.",
-    "truth": "The core arbitrage logic is sound and doesn't require owning land, which is a genuine barrier-lowering insight most beef-business content skips past. That said, the presenter is explicit this is his own not-yet-executed plan (\"a ways off\") rather than a proven case study, and the real complexity \u2014 coordinating a rancher relationship, slaughterhouse scheduling, meat packaging/labeling regulations, and building distribution \u2014 is meaningfully harder than the simple unit-economics pitch suggests.",
-    "url": "https://youtu.be/HOosrT6vj_Y",
-    "video_title": "I Did Something Insane. Here Are the Businesses I Found in It",
-    "situation_tags": [
-      "Requires travel to source or inspect goods",
-      "Requires hiring or managing others"
-    ],
-    "published": "2026-08-27",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "noai"
-    ]
-  },
-  {
     "id": "seo-content-site-long-sales-cycle-niche",
     "name": "SEO content site targeting a niche's long research-and-comparison sales cycle",
     "title": "SEO Site for Long Buying Cycles",
@@ -9715,35 +8719,6 @@
       "lowcost",
       "nocamera",
       "noinventory"
-    ]
-  },
-  {
-    "id": "small-parts-light-manufacturing",
-    "name": "Light manufacturing of small custom parts that large factories consider too small to bother with",
-    "title": "Small Custom Parts Manufacturing",
-    "category": "Physical & print products",
-    "tags": [
-      "light manufacturing",
-      "custom parts",
-      "B2B supply",
-      "boring business"
-    ],
-    "cost": "High (manufacturing equipment and setup costs)",
-    "found": "David Explains Money",
-    "what": "Manufacture small custom parts (plastic components, connectors, specialized fasteners) for specific industries, targeting orders too small for large factories to bother fulfilling, custom runs of a particular size or specification that only one client needs, which large manufacturers won't stop their production lines to accommodate.",
-    "pitch": "The presenter argues manufacturers focused on custom small parts for specific industries can generate revenues in the millions annually precisely because nobody dreams of manufacturing screws, so almost nobody competes for these unglamorous, technically-specific orders.",
-    "best": "Someone with manufacturing capital, equipment, and industry relationships to identify which specific small-parts niches have underserved demand.",
-    "truth": "Light manufacturing of small custom components for niche industrial clients is a real, established B2B business model, and the observation that large factories ignore small custom orders is a genuine dynamic in manufacturing. This requires significant capital, equipment, and technical/industry expertise not detailed in this segment, making it one of the higher-barrier items on this list.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "video_title": "20 BORING BUSINESSES That Make Money While You Sleep",
-    "published": "2026-06-30",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "novisits",
-      "noai"
     ]
   },
   {
@@ -9840,35 +8815,6 @@
       "nosales",
       "noinventory",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "commercial-pressure-washing-per-sqft-pricing",
-    "name": "Commercial-focused pressure washing priced per square foot instead of per residential job",
-    "title": "Commercial Pressure Washing",
-    "category": "Local & professional services",
-    "tags": [
-      "pressure washing",
-      "commercial exteriors",
-      "soft washing",
-      "per-square-foot pricing",
-      "before/after marketing"
-    ],
-    "cost": "Low to moderate startup cost (roughly $3,000 for a commercial-grade pressure washer, hoses, and extension wand)",
-    "found": "HIDDEN WEALTH",
-    "what": "Rather than competing on $100-200 residential driveway jobs, target commercial exteriors, parking garages, and roofs, pricing by square footage (roughly $0.25-0.50/sq ft) so a single commercial job can produce $1,500 or more in half a day, using proper soft-washing chemicals and low-pressure technique (rather than blasting everything at full pressure) to avoid property damage, and marketing with before/after photos and review requests after every job.",
-    "pitch": "The illustrative account describes a construction worker with 25 years of trade experience picking up the skill from a friend, investing about $3,000 in equipment, and immediately out-earning his prior day rate \u2014 but also describes a costly early mistake: using full water pressure without understanding proper chemical application blew out a seal and flooded a client's unit, an expensive lesson that led to properly learning soft-wash technique before taking on more commercial work.",
-    "best": "Someone willing to learn proper chemical/pressure technique before taking commercial jobs (the margin for error is real and costly), and interested in targeting business and property clients rather than only residential driveways.",
-    "truth": "This reads as an illustrative/composite story rather than a verified individual, so treat the specific dollar figures as representative rather than audited. The commercial-versus-residential pricing distinction and the soft-washing safety lesson are genuine, checkable facts about the pressure washing trade independent of the narrative; property damage from improper technique is a real and documented risk in this industry, not just a dramatic plot point.",
-    "url": "https://www.youtube.com/watch?v=mdyoHBq2Yis",
-    "video_title": "6 Ugly Businesses Making Ordinary People Millionaires (Zero Competition)",
-    "published": "2026-08-19",
-    "filters": [
-      "older",
-      "outside",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -10048,35 +8994,6 @@
     ]
   },
   {
-    "id": "digital-nail-printer-mini-machine-business",
-    "name": "Digital nail art printer service",
-    "title": "Digital Nail Art Printing",
-    "category": "Physical & print products",
-    "tags": [
-      "mini machine",
-      "personalization",
-      "beginner friendly",
-      "events"
-    ],
-    "cost": "$200-500 for the machine",
-    "found": "Mini machine business YouTube creator",
-    "what": "A portable printer that prints a custom nail design (a photo, logo, or pattern) directly onto a client's fingernail in about 30 seconds, connected and controlled entirely from a phone, requiring no artistic skill or manicure experience.",
-    "pitch": "A custom nail design at a salon typically runs $30-60, and this machine lets you offer a comparable service charging $15-40 per nail with only cents of ink and adhesive as cost, using a setup light enough (under half a kilo) to carry to a fair, birthday party, or quincea\u00f1era and set up a nail station anywhere with just a portable charger.",
-    "best": "Someone looking for a very low-skill, event-based side income who's comfortable working in-person at parties, fairs, or pop-up events rather than a fixed location.",
-    "truth": "The specific cost and price figures are consistent with what's publicly listed for this kind of device on Amazon and Alibaba, a reasonable, checkable range rather than an invented number. No specific named operator or case study backs the daily-client estimates given, so treat the income math as illustrative rather than a demonstrated result.",
-    "url": "https://www.youtube.com/watch?v=xQ12WUnQid4",
-    "video_title": "15 CHEAP MINI MACHINES to MAKE MONEY from HOME Profitable Business",
-    "published": "2026-04-21",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "youtube-scriptwriting-for-agency-founders",
     "name": "AI-assisted YouTube scriptwriting service for agency founders",
     "title": "YouTube Scriptwriting for Founders",
@@ -10111,33 +9028,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "motorcycle-helmet-cleaning-vending-machine",
-    "name": "Placing coin-operated motorcycle helmet cleaning vending machines at motorcycle-traffic locations",
-    "title": "Helmet Cleaning Vending Machines",
-    "category": "Local & professional services",
-    "tags": [
-      "helmet cleaning vending machine",
-      "cloud-controlled vending",
-      "motorcycle dealership placement"
-    ],
-    "cost": "Moderate ($1,691 for the machine)",
-    "found": "SUCCESSFUL ENTREPRENEUR",
-    "what": "Place a coin-slot vending machine that cleans, UV/ozone-disinfects, heats (40-60\u00b0C), and defogs motorcycle helmet visors, at locations with existing motorcycle foot traffic: dealerships, motorcycle parking lots, car washes, repair shops; the machine is cloud-controlled and remotely monitored so you can track sales and service needs across multiple locations without being physically present.",
-    "pitch": "The presenter argues helmets are almost never washed (can't go in a washing machine, easy to damage by hand) despite being worn sweaty for hours daily, and frames the customer base as permanently growing since every new motorcycle sold means one more helmet that will eventually need cleaning.",
-    "best": "Someone comfortable managing multiple remote vending locations rather than a single physical storefront.",
-    "truth": "Coin-operated, cloud-monitored vending equipment for niche cleaning needs is a real, established small-business model. No specific revenue figures given.",
-    "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ",
-    "video_title": "14 MACHINES You Can IMPORT from China That PAY BIG (ZERO Experience Needed)",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
     ]
   },
   {
@@ -10388,34 +9278,6 @@
     ]
   },
   {
-    "id": "mobile-car-detailing-recurring-subscription-business",
-    "name": "Building a six-figure mobile car detailing business, from a basic $800 setup to recurring subscription clients at luxury car storage facilities",
-    "title": "Six-Figure Mobile Car Detailing",
-    "category": "Local & professional services",
-    "tags": [
-      "mobile car detailing",
-      "recurring subscription model",
-      "word-of-mouth growth",
-      "luxury car storage facility clients"
-    ],
-    "cost": "Low to moderate ($800 for a basic starter setup; $5,000+ for professional-grade equipment and a van build-out)",
-    "found": "Austin Zaback",
-    "what": "Start a mobile detailing business that travels to customers rather than requiring a fixed shop location, using a self-contained van with its own water and power supply (an EcoFlow battery system charging while driving is one specific setup shown). Begin with a basic equipment kit (towels, chemicals, a pressure washer, battery-powered blowers for drying) starting around $800, or invest more upfront ($5,000+) in professional-grade products that last longer. Grow client volume primarily through word-of-mouth and visible before/after results rather than paid ads; deliberately target a specific low-competition, high-density client cluster, such as a luxury car storage/condo facility, by leaving business cards at the location after a single job and letting satisfied clients refer others within that same community. Offer both first-come-first-served one-off bookings and a recurring subscription option (weekly, bi-weekly, or monthly) billed automatically.",
-    "pitch": "The presenter interviews a real, named mobile detailer on location at a luxury car storage facility where he now services about 40% of the building's roughly 200+ car-storage units; the business owner reports scaling from working out of his wife's Subaru to a fully-built-out van doing about 50 vehicles a week, becoming profitable within the first month, running a 75-80% profit margin, and acquiring his first client at that specific facility simply by leaving a business card after one job.",
-    "best": "Someone comfortable with hands-on physical work and willing to reinvest early profits into better equipment, interested in finding a dense cluster of similar high-value clients rather than scattered one-off customers.",
-    "truth": "This is a real, named business owner interviewed on location with specific, concrete figures rather than a vague success story, and the facility-based referral strategy described is a genuinely specific, replicable tactic. No claims are made about the interviewer's own results, since this is someone else's business being profiled; startup costs and time to profitability will vary by location and market.",
-    "url": "https://www.youtube.com/watch?v=ovkSOnWX0AY",
-    "video_title": "How to Build a 6 Figure Mobile Detailing Business (Full Breakdown)",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "ai-content-creation-service-higgsfield-createugc",
     "name": "AI content creation as a service using Claude and Higgsfield or Create UGC",
     "title": "AI Content Creation Service",
@@ -10582,72 +9444,6 @@
       "nocamera",
       "novisits",
       "noai"
-    ]
-  },
-  {
-    "id": "wire-mesh-welding-production-business",
-    "name": "Wire mesh welding production business serving multiple industries",
-    "title": "Wire Mesh Welding",
-    "category": "Physical & print products",
-    "tags": [
-      "wire mesh machine",
-      "metal fabrication",
-      "multi-market manufacturing",
-      "industrial supply"
-    ],
-    "cost": "Moderate-high startup cost (a small setup typically runs $5,000-15,000)",
-    "found": "Business Dash",
-    "what": "Welding steel wire into mesh panels or rolls \u2014 used in concrete reinforcement, fencing, farm cage panels, garden panels, and industrial racks \u2014 sold across several different buyer types by adjusting wire thickness, spacing, and size.",
-    "pitch": "The same mesh product family can serve farmers (animal cage panels), contractors (concrete reinforcement mesh), landscapers (garden panels), fencing companies (rolls), and hardware stores (smaller sheets), letting one setup serve multiple markets without changing the core business. A small setup runs $5,000-15,000.",
-    "best": "Someone with the capital for the higher equipment cost and the discipline for genuine weld-quality control, since this produces a structural product.",
-    "truth": "This is a more industrial, less forgiving machine than most others in this category \u2014 weak welds create a genuinely weak and potentially unsafe product, so quality control is a real liability concern, not just a customer-satisfaction one.",
-    "url": "https://www.youtube.com/watch?v=7KZCcBM55YI",
-    "video_title": "9 Products Every Contractor Burns Through \u2014 And the People Getting Paid to Make Them Locally",
-    "published": "2026-10-02",
-    "situation_tags": null,
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "restaurant-specials-board-ads-agency-upsell",
-    "name": "Free restaurant specials-board advertising, used as a wedge to upsell local businesses into an AI/digital agency",
-    "title": "Specials-Board Ads for Restaurants",
-    "category": "Marketing & content",
-    "tags": [
-      "local advertising",
-      "restaurant marketing",
-      "lead generation",
-      "AI implementation agency",
-      "upsell funnel"
-    ],
-    "cost": "Very low startup cost (about $350-400 per board, covered by ad sales before the board is even printed)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "Place a free dry-erase specials board (used for daily specials and announcements) inside high-foot-traffic local businesses like restaurants and coffee shops, sell 6 ad slots on the board's border to other local businesses for $600/year each, then use the relationship with those advertisers (mostly home services \u2014 realtors, contractors, insurance agents, lawyers) as a warm lead into a separate, higher-ticket AI implementation and digital marketing agency (websites, Google review/reputation management, AI voice receptionists).",
-    "pitch": "The guests, a married couple who started this a year and a half ago alongside an existing digital agency, are earning about $10,000-15,000/month combined from both sides of the business after 6 months. The board itself costs about $350-400 to produce (which is covered before printing, since you only print once all 6 ad spots are sold) and generates about $3,200-4,600 profit per placement per year at roughly 85% margin; separately, roughly 20-30 of the businesses that bought ad space have converted into digital agency clients averaging about $7,500/year each, projected around $200,000-225,000 in annual revenue from that side alone \u2014 with 60% of that from brand reputation management, 30% from websites/hosting, and 10% from higher-ticket AI services like voice receptionists and automated appointment booking.",
-    "best": "Someone comfortable with in-person and DM-based local sales (cold outreach to find host locations and advertisers) who also wants to build or already runs a digital marketing/AI implementation service to upsell into.",
-    "truth": "This is one of the more genuinely novel local business mechanics in this database \u2014 a low-cost physical product used deliberately as a lead-generation wedge into a much higher-margin service business, rather than as the primary profit center itself. The presenters are candid that finding the first advertiser took 10-15 cold outreach messages, and that asking business owners broad questions (\"what problems are you having?\") doesn't work as well as specific ones (\"do employees show up late?\") \u2014 a real, transferable sales lesson. The digital-agency upsell side requires an existing or newly-built service offering, which is a nontrivial second business, not just a matter of selling one ad board.",
-    "url": "https://youtu.be/McQucrnkSt0",
-    "video_title": "The Simplest $10K+/M Business You've Never Heard Of",
-    "situation_tags": [
-      "Local travel required",
-      "Phone/sales-based",
-      "Requires hiring or managing others"
-    ],
-    "published": "2026-08-21",
-    "filters": [
-      "older",
-      "parent",
-      "health",
-      "outside",
-      "lowcost",
-      "nocamera",
-      "noinventory"
     ]
   },
   {
@@ -10990,42 +9786,6 @@
     ]
   },
   {
-    "id": "small-engine-repair-shop",
-    "name": "Small engine repair shop",
-    "title": "Small Engine Repair",
-    "category": "Local & professional services",
-    "tags": [
-      "skilled trade",
-      "repair",
-      "local business",
-      "recurring revenue"
-    ],
-    "cost": "Moderate startup cost (tools, shop space)",
-    "found": "Johnny & Sergio",
-    "what": "Repair small engines, lawnmowers, generators, chainsaws, pressure washers, and line striping machines, for local landscaping crews, contractors, and homeowners, positioning yourself as the reliable shop with fast turnaround rather than a hobbyist who fixes engines occasionally.",
-    "pitch": "The presenters argue this is a skilled trade that almost nobody under 50 is actively pursuing, even though every contractor with small engine equipment eventually needs it fixed and there's no national chain to call. The real opportunity, they say, isn't that nobody fixes engines, it's that almost nobody does it as a real, reliable business with an actual shop and same-day callbacks.",
-    "best": "Someone younger who's willing to learn a genuine skilled trade and is comfortable with a business that gets noticeably slower in winter, since demand is seasonal for outdoor equipment.",
-    "truth": "The presenters are upfront that this is one of the weaker \"build a real business\" plays on their list precisely because the labor takes real time to learn and the seasonality is a real constraint. It's framed as a good cash-flow trade, not an easy path to a scalable company.",
-    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
-    "video_title": "9 One-Person Businesses With More Demand Than Competition",
-    "situation_tags": [
-      "Needs a dedicated workspace",
-      "Requires equipment/vehicle investment",
-      "Local travel required"
-    ],
-    "published": "2026-08-14",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "novisits",
-      "noai"
-    ]
-  },
-  {
     "id": "tiktok-shop-kdp-book-demand-engine",
     "name": "Using TikTok Shop short-form video to create demand for self-published books before they're found on Amazon search",
     "title": "TikTok Shop Book Marketing",
@@ -11266,33 +10026,6 @@
     ]
   },
   {
-    "id": "self-service-key-duplication-machine-placement",
-    "name": "Placing self-service key duplication machines in high-foot-traffic locations for impulse purchases",
-    "title": "Key Duplication Kiosks",
-    "category": "Local & professional services",
-    "tags": [
-      "key duplication vending",
-      "impulse purchase placement",
-      "self-service machine"
-    ],
-    "cost": "High ($9,500 for the machine)",
-    "found": "SUCCESSFUL ENTREPRENEUR",
-    "what": "Buy a self-service key duplication machine (scans, cuts, and duplicates a key in under 2 minutes, no locksmith needed) and place it at a high-foot-traffic location \u2014 a supermarket entrance, shopping mall, or residential building lobby \u2014 since the business depends entirely on location, not the equipment itself: the same machine on a quiet street sells nothing.",
-    "pitch": "The presenter frames key duplication as a pure impulse purchase (nobody plans a trip for it, they remember when they see the machine) with very high margins since a blank key costs pennies, and notes a single 100-apartment building represents 100 families who will eventually need a copy right where the machine already sits.",
-    "best": "Someone with capital for the equipment and access to (or able to negotiate) a genuinely high-traffic placement location, since placement is explicitly described as the entire business.",
-    "truth": "Self-service key duplication kiosks are a real, established retail fixture in many countries, and the placement-dependent economics described match how these businesses actually work. No specific revenue figures given.",
-    "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ",
-    "video_title": "14 MACHINES You Can IMPORT from China That PAY BIG (ZERO Experience Needed)",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "ai-english-practice-youtube-channel",
     "name": "AI-generated English-practice YouTube channels",
     "title": "AI English-Practice YouTube Channels",
@@ -11425,33 +10158,6 @@
       "nosales",
       "nocamera",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "tree-swing-installation-social-referral-service",
-    "name": "Offering tree swing installation as a add-on service, growing through local Facebook community page endorsements",
-    "title": "Tree Swing Installation",
-    "category": "Local & professional services",
-    "tags": [
-      "tree swing installation",
-      "local Facebook marketing",
-      "niche installation add-on service"
-    ],
-    "cost": "Low (materials for the swing itself run roughly $500-700 per job, often paid by the customer)",
-    "found": "Tim Richard",
-    "what": "Offer tree swing installation, either as a standalone service or as an add-on to an existing tree-care/climbing business, and grow it by asking happy customers to post a photo and endorsement on their local Facebook community page (which the presenter says spreads unusually well for this specific service); also consider partnering directly with online tree-swing retailers who need a referral network of local installers for the swings they sell.",
-    "pitch": "The presenter cites a real tree-climbing company that has done over 500 tree swing installations (worth $250,000+ at the low end of the $500-700 price range) as a side offering to their main business, with a waitlist of over 50 people despite it not being their primary focus.",
-    "best": "Someone with (or able to build a relationship with) tree-climbing/arborist skills, comfortable using local Facebook groups for word-of-mouth marketing.",
-    "truth": "This is a real, verifiable company (Piedmont Tree Climbing) with the installation volume and waitlist as described. The Facebook-endorsement growth mechanic and swing-retailer partnership idea are the presenter's own suggested strategies, not independently demonstrated results.",
-    "url": "https://www.youtube.com/watch?v=iWmTuDAHl7Q",
-    "video_title": "This SINGLE Service Makes Him $700k/Year",
-    "filters": [
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -11905,36 +10611,6 @@
     ]
   },
   {
-    "id": "pvc-fitting-injection-molding-niche-business",
-    "name": "PVC pipe fitting molding business built around one chosen niche",
-    "title": "PVC Pipe Fitting Molding",
-    "category": "Physical & print products",
-    "tags": [
-      "injection molding",
-      "PVC fittings",
-      "plumbing supply",
-      "niche manufacturing"
-    ],
-    "cost": "Moderate-high startup cost (a small injection-molding setup typically runs $5,000-15,000, plus separate mold costs per shape and size)",
-    "found": "Business Dash",
-    "what": "Injection-molding PVC pipe fittings (elbows, tees, couplings, irrigation parts, pool fittings) for one chosen niche \u2014 irrigation, pool repair, drainage connectors, hard-to-find adapters, or private-label fittings for a regional supplier \u2014 rather than trying to cover the full range of plumbing fittings.",
-    "pitch": "Plumbers, farmers, and contractors constantly need fitting replacements, and hardware stores stock them because customers need them regularly. The presenter is explicit that every shape and size needs its own mold, so trying to become a general plumbing-fittings brand from day one adds cost fast \u2014 the smarter approach is picking one specific niche. A small setup runs $5,000-15,000 plus molds.",
-    "best": "Someone willing to specialize narrowly in one niche rather than attempting to become a general-purpose plumbing-fittings supplier immediately.",
-    "truth": "Accuracy is unforgiving here \u2014 a wrong-sized or weak fitting simply fails and the customer leaves \u2014 but a reliable niche supplier becomes close to indispensable, since a stalled job over one missing small part creates real urgency for the buyer.",
-    "url": "https://www.youtube.com/watch?v=7KZCcBM55YI",
-    "video_title": "9 Products Every Contractor Burns Through \u2014 And the People Getting Paid to Make Them Locally",
-    "published": "2026-10-02",
-    "situation_tags": null,
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "novisits",
-      "noai"
-    ]
-  },
-  {
     "id": "upwork-ai-faked-competency-retainer-scaling",
     "name": "Landing Upwork retainer clients in a skill you don't have, using AI to fake and then actually deliver the competency",
     "title": "Upwork Retainers With AI",
@@ -12033,34 +10709,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "ev-charging-smart-home-electrician-specialty",
-    "name": "Specializing as an electrician in EV charging station and smart home installation for premium rates",
-    "title": "EV Charger and Smart Home Electrician",
-    "category": "Local & professional services",
-    "tags": [
-      "electrician specialization",
-      "EV charging installation",
-      "smart home wiring",
-      "boring business"
-    ],
-    "cost": "Moderate (existing electrician licensing plus specialized training/certification)",
-    "found": "David Explains Money",
-    "what": "Take the existing electrician trade and specialize specifically in EV charging station installation and smart home systems, an emerging niche within an established profession, charging premium rates (over $250/hour cited) compared to traditional electrical work, positioning early in a growing local market before more electricians specialize in it.",
-    "pitch": "The presenter frames this as the same underlying trade commanding dramatically higher rates purely through specialization timing, arguing that whoever specializes in EV charging installation first in a given area will capture premium pricing as EV adoption and home charger installation continues to grow.",
-    "best": "Someone already licensed as an electrician (or willing to become one) who wants to specialize rather than remain a generalist.",
-    "truth": "Electrician specialization commanding premium rates is a real, well-documented pattern in skilled trades generally, and EV charging/smart home installation is a genuinely growing, real market need as EV adoption increases. This requires an existing electrical license (a real, non-trivial barrier not detailed here), and the specific $250/hour figure is a cited rate, not a guaranteed outcome.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "video_title": "20 BORING BUSINESSES That Make Money While You Sleep",
-    "published": "2026-06-30",
-    "filters": [
-      "older",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
     ]
   },
   {
@@ -12271,34 +10919,6 @@
     ]
   },
   {
-    "id": "mini-dumper-tight-access-hauling",
-    "name": "Offering self-loading mini dumper hauling for tight residential construction sites",
-    "title": "Mini Dumper Hauling",
-    "category": "Local & professional services",
-    "tags": [
-      "construction equipment rental",
-      "mini dumper",
-      "residential site access",
-      "specialized hauling"
-    ],
-    "cost": "Low ($1,300-3,200 for the machine)",
-    "found": "HIDDEN WEALTH",
-    "what": "Operate a self-loading mini dumper (front loader shovel plus hydraulic dump bed on tracks or tight-turning wheels) to move dirt and gravel through narrow residential side yards, small gates, and steep slopes that full-size dump trucks and wheelbarrow crews can't handle efficiently.",
-    "pitch": "Renting the machine with yourself as operator pulls $250-450/day, pitched to pool installation crews, drainage contractors, and landscaping teams doing retaining walls, since one mini dumper replaces roughly three manual laborers and cuts job time significantly.",
-    "best": "Someone comfortable operating small construction equipment and willing to market directly to residential contractors doing tight-access jobs.",
-    "truth": "This is a real, niche piece of specialized construction equipment addressing a genuine access problem; the day-rate figures are presented as general industry pricing, not a verified personal case study.",
-    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM",
-    "video_title": "10 Construction Machines That Can Make You Serious Money (No Experience Needed)",
-    "published": "2026-08-24",
-    "filters": [
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "ai-chatbots",
     "name": "AI chatbots for support and sales",
     "title": "AI Chatbots for Support and Sales",
@@ -12365,35 +10985,6 @@
     ]
   },
   {
-    "id": "commercial-backflow-testing",
-    "name": "Running a legally-mandated commercial backflow valve testing service",
-    "title": "Backflow Valve Testing",
-    "category": "Local & professional services",
-    "tags": [
-      "backflow testing",
-      "water utility compliance",
-      "recurring legal inspection",
-      "certification-based service"
-    ],
-    "cost": "Very low (certification costs a few hundred dollars and takes days)",
-    "found": "Jack Harrison Explains",
-    "what": "Get certified as a backflow tester and test the backflow prevention valves that restaurants, hospitals, and office buildings with sprinkler systems are legally required to have inspected once a year in nearly every state, or the water utility can shut the property's water off entirely; each test takes under an hour.",
-    "pitch": "The presenter charges $75-400 per device, with a mid-size commercial building often having 3-4 devices on site, framing this as selling the only thing standing between a property owner and the water company shutting their building off, meaning customers don't haggle.",
-    "best": "Someone willing to get a quick, inexpensive certification and comfortable managing a recurring annual testing schedule across commercial properties.",
-    "truth": "Backflow testing requirements are real, codified legal obligations in most states, and the described low-cost, low-barrier certification path is accurate to how this trade actually works. No specific personal case study or revenue figure is given beyond per-device pricing.",
-    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
-    "video_title": "These 15 Businesses Are Automated, Boring, and Almost Impossible to Fail",
-    "published": "2026-07-23",
-    "filters": [
-      "older",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "jc-seven-leased-microsites-site-bundles-contractors",
     "name": "Leasing ranked microsites and site bundles to contractors (seven sites, $10K/month goal)",
     "title": "Leasing Microsite Bundles",
@@ -12427,38 +11018,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "fire-extinguisher-inspection-route",
-    "name": "Fire extinguisher testing and inspection route",
-    "title": "Fire Extinguisher Inspection Route",
-    "category": "Local & professional services",
-    "tags": [
-      "service business",
-      "recurring revenue",
-      "certification needed",
-      "route based"
-    ],
-    "cost": "Low to moderate startup cost",
-    "found": "Johnny & Sergio",
-    "what": "Inspect and tag fire extinguishers for offices, restaurants, warehouses, and apartment buildings on the legally required annual inspection schedule, building up a recurring route of accounts over time.",
-    "pitch": "Every commercial building is legally required to get its extinguishers inspected on a set schedule, and fire marshals actually check for the tag, which means the law itself does the sales pitch for you. Once you're inspecting a building's extinguishers, switching to a new inspector means a customer has to re-explain their whole building to someone new, which the presenters say makes accounts unusually sticky once you land them.",
-    "best": "Someone comfortable with slower, longer commercial sales cycles who's willing to build up a large route of low-ticket accounts over time rather than looking for one big score.",
-    "truth": "The presenters are honest that this sits mid-list specifically because it isn't high-ticket per visit, so building meaningful income requires a genuinely large route and patience with commercial sales cycles. They note it's a fragmented market with no dominant national brand, a real and checkable structural fact about the industry.",
-    "url": "https://www.youtube.com/watch?v=edG3nhx3U0k",
-    "video_title": "9 One-Person Businesses With More Demand Than Competition",
-    "situation_tags": [
-      "Local travel required",
-      "Requires a license or certification"
-    ],
-    "published": "2026-08-14",
-    "filters": [
-      "older",
-      "outside",
-      "nocamera",
-      "noinventory",
-      "noai"
     ]
   },
   {
@@ -12761,33 +11320,6 @@
       "lowcost",
       "noinventory",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "concrete-nail-gun-rental-business",
-    "name": "Buying concrete nail guns to rent out to contractors by the day, rather than using them yourself",
-    "title": "Concrete Nail Gun Rentals",
-    "category": "Local & professional services",
-    "tags": [
-      "concrete nail gun rental",
-      "construction tool rental",
-      "contractor equipment"
-    ],
-    "cost": "Very low ($230 per tool)",
-    "found": "SUCCESSFUL ENTREPRENEUR",
-    "what": "Buy a cordless concrete nail gun (drives 60-90 nails/minute directly into concrete or steel, up to 950 shots per charge) and rent it out by the day to small contractors who need it for a short job but don't want to buy their own; run several tools rotating between different job sites simultaneously.",
-    "pitch": "The presenter frames the real business not as using the tool yourself (faster fastening on your own jobs) but as renting it out: a $230 tool renting daily pays for itself within weeks, then keeps generating income for years since it doesn't wear out quickly.",
-    "best": "Someone with capital for a handful of tools and willing to manage a rental/pickup logistics operation with contractors.",
-    "truth": "Concrete nail guns are real, standard construction tools, and tool rental to contractors is a genuine, established small-business model. No specific revenue figures given.",
-    "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ",
-    "video_title": "14 MACHINES You Can IMPORT from China That PAY BIG (ZERO Experience Needed)",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -13557,35 +12089,6 @@
     ]
   },
   {
-    "id": "mop-broom-handle-b2b-supplier",
-    "name": "Manufacturing wooden mop and broom handles as a pure B2B supplier to other manufacturers, with no retail marketing required",
-    "title": "Wooden Mop and Broom Handles",
-    "category": "Physical & print products",
-    "tags": [
-      "mop handle manufacturing",
-      "B2B supply chain",
-      "timber offcuts",
-      "no retail marketing needed"
-    ],
-    "cost": "Low (timber offcuts and low-grade wood work as raw material, keeping material cost down)",
-    "found": "Business Cortex",
-    "what": "Buy a machine that processes raw timber into finished wooden mop and broom handles (cutting, shaping, sanding, and threading them), then supply other broom and mop manufacturers, cleaning product companies, and hardware wholesalers directly, who need handles by the thousand and reorder on a schedule. Because you're selling business-to-business rather than to consumers, there's no retail marketing, packaging design, or brand building required at all.",
-    "pitch": "The presenter highlights that almost nobody produces these handles locally despite every broom and mop manufacturer needing a steady supply, framing the appeal specifically as predictable B2B volume income without any of the consumer-facing sales work most small manufacturing businesses require.",
-    "best": "Someone who prefers pure production and B2B relationship management over any consumer-facing sales, marketing, or branding work.",
-    "truth": "Mop and broom handle manufacturing from timber offcuts is a real, established small-manufacturing niche, and B2B supply relationships with other manufacturers are a genuine, verifiable business structure. No specific personal revenue figures are given.",
-    "url": "https://www.youtube.com/watch?v=KQV5sM1n_Y0",
-    "video_title": "54 Machines That Quietly Make Money While Everyone Ignores Them",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "lowcost",
-      "nocamera",
-      "novisits",
-      "noai"
-    ]
-  },
-  {
     "id": "rope-cordage-manufacturing-business",
     "name": "Rope and cordage manufacturing business serving multiple buyer types",
     "title": "Rope and Cordage Manufacturing",
@@ -13746,64 +12249,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "commercial-kitchen-plumbing-specialty",
-    "name": "Specializing as a plumber in commercial kitchen maintenance for restaurants",
-    "title": "Commercial Kitchen Plumbing",
-    "category": "Local & professional services",
-    "tags": [
-      "plumbing specialization",
-      "commercial kitchen maintenance",
-      "restaurant services",
-      "boring business"
-    ],
-    "cost": "Moderate (existing plumbing licensing required)",
-    "found": "David Explains Money",
-    "what": "Take the existing plumbing trade and specialize exclusively in commercial kitchen maintenance for restaurants, combining regular maintenance contracts with emergency service, positioning as the go-to specialist for an urgent-need niche (restaurants can't wait days for a kitchen pipe repair) rather than remaining a general residential/commercial plumber.",
-    "pitch": "The presenter cites a plumber in Perth who built a seven-figure business by focusing exclusively on commercial kitchen maintenance, arguing that becoming irreplaceable to one specific urgent-need client type lets you stop competing on price entirely.",
-    "best": "Someone already licensed as a plumber (or willing to become one) who wants to niche down into restaurant-specific commercial work rather than general plumbing.",
-    "truth": "Niche specialization within an established trade, particularly around urgent-need clients like restaurants, is a real, sound business strategy reflected across many trade businesses, and combining maintenance contracts with emergency service is standard practice for building recurring trade-business revenue. Plumbing licensing is a real, non-trivial barrier not detailed here, and the seven-figure example is one presenter-cited case.",
-    "url": "https://www.youtube.com/watch?v=oA0Pk1J9_mw",
-    "video_title": "20 BORING BUSINESSES That Make Money While You Sleep",
-    "published": "2026-06-30",
-    "filters": [
-      "older",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
-    "id": "atm-business",
-    "name": "ATM placement business",
-    "title": "ATM Placement",
-    "category": "Local & professional services",
-    "tags": [
-      "physical business",
-      "needs US presence",
-      "passive income"
-    ],
-    "cost": "About $2,000 or more per machine",
-    "found": "David Heacock",
-    "what": "Buy and place ATM machines in local businesses like nail salons or convenience stores, earning a fee on every transaction, and scale by adding more machines over time.",
-    "pitch": "A real example is cited of someone turning a $2,100 first machine into an $8 million a year company over time.",
-    "best": "Someone based in the U.S. who's comfortable with local relationship-building and doesn't mind managing physical equipment across multiple sites.",
-    "truth": "This relies on a single case study, which may not be typical, and it requires physically placing and maintaining machines in person, so it isn't a remote or location-independent business.",
-    "url": "https://www.youtube.com/watch?v=EnSJN9zl-yA",
-    "video_title": "100% REMOTE Boring Businesses (That Almost Never Fail)",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-06-19",
-    "filters": [
-      "older",
-      "nocamera",
-      "noinventory",
-      "noai"
     ]
   },
   {
@@ -14046,34 +12491,6 @@
     ]
   },
   {
-    "id": "mini-hammer-crusher-debris-recycling",
-    "name": "On-site crushing of construction debris into resellable gravel with a mini hammer crusher",
-    "title": "Construction Debris Crushing",
-    "category": "Local & professional services",
-    "tags": [
-      "construction debris",
-      "mini hammer crusher",
-      "aggregate resale",
-      "waste-to-value"
-    ],
-    "cost": "Low to moderate ($1,000-2,000 depending on motor size)",
-    "found": "HIDDEN WEALTH",
-    "what": "Bring a mini hammer crusher to a job site to crush broken concrete, brick, and tile into reusable gravel on the spot (shrinking the trash pile by up to 60%), charging contractors to eliminate their dumpster/dump fees, then separately package and sell the crushed aggregate to landscapers or foundation crews as gravel fill \u2014 getting paid on both ends of the same material.",
-    "pitch": "Charges $500-1,000/day for the crushing service, targeting demolition/remodeling crews, hardscaping crews needing cheap base gravel, and eco-conscious builders trying to divert waste from landfills.",
-    "best": "Someone with capital for the crusher and a vehicle to transport it between job sites, comfortable with a physical, on-site service.",
-    "truth": "On-site debris crushing and aggregate resale is a real, double-sided-revenue business model (getting paid to remove waste, then getting paid again to sell the processed output). Day-rate and margin figures are general industry framing.",
-    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM",
-    "video_title": "10 Construction Machines That Can Make You Serious Money (No Experience Needed)",
-    "published": "2026-08-24",
-    "filters": [
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "ai-ugc-content",
     "name": "AI-assisted UGC content for brands",
     "title": "AI-Assisted UGC for Brands",
@@ -14134,32 +12551,6 @@
       "nocamera",
       "noinventory",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "floor-mat-uniform-exchange-route",
-    "name": "Running a floor mat and work uniform exchange route for offices and restaurants",
-    "title": "Floor Mat and Uniform Route",
-    "category": "Local & professional services",
-    "tags": [
-      "floor mat rental",
-      "uniform rental route",
-      "recurring B2B route business"
-    ],
-    "cost": "Moderate (vehicle and initial mat/uniform inventory)",
-    "found": "Jack Harrison Explains",
-    "what": "Run a route where a driver visits offices and restaurants every two weeks, swapping dirty floor mats and work uniforms for clean ones, billed as a recurring B2B service contract.",
-    "pitch": "The presenter cites Cintas, a $9.6 billion company built on exactly this simple exchange model, controlling nearly a third of a $20+ billion industry, framing it as proof that a genuinely boring, repeatable route business can scale enormously without any unique invention.",
-    "best": "Someone comfortable with a driving/logistics route business and building recurring B2B service contracts.",
-    "truth": "Cintas is a real, massive, publicly-known company validating this exact business model at scale. No specific small-operator case study or figures are given for someone starting from scratch in this niche.",
-    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
-    "video_title": "These 15 Businesses Are Automated, Boring, and Almost Impossible to Fail",
-    "published": "2026-07-23",
-    "filters": [
-      "older",
-      "outside",
-      "nocamera",
       "noai"
     ]
   },
@@ -14609,34 +13000,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "artisan-incense-stick-production",
-    "name": "Manufacturing branded, artisan-positioned incense sticks for the growing wellness/home-fragrance market",
-    "title": "Artisan Incense Sticks",
-    "category": "Physical & print products",
-    "tags": [
-      "incense stick manufacturing",
-      "artisan wellness product",
-      "home fragrance"
-    ],
-    "cost": "Moderate to high ($2,986 for the machine)",
-    "found": "SUCCESSFUL ENTREPRENEUR",
-    "what": "Buy a fully automatic incense stick making machine (produces sticks 2-8mm thick) and produce branded, premium-positioned incense (designer packaging, named scents) rather than competing with cheap generic street-stand incense, selling directly to buyers via a small artisan brand identity, particularly scents tied to regional/local plants that can't be easily copied by a mass producer elsewhere.",
-    "pitch": "The presenter cites the global incense market as worth several billion dollars and growing around 7% a year alongside the wellness/home-fragrance trend, arguing a premium box of 20-30 sticks sells for $15-30 while costing pennies per stick to produce, because the buyer is paying for a scent with a story, not raw material.",
-    "best": "Someone willing to build a small brand identity around distinctive, regionally-sourced scents rather than competing on price with generic incense.",
-    "truth": "Incense stick manufacturing machines are real, and the cited market size/growth figures reflect genuine, current wellness-industry trends (though not independently sourced within the video itself). No personal revenue case study is given.",
-    "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ",
-    "video_title": "14 MACHINES You Can IMPORT from China That PAY BIG (ZERO Experience Needed)",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nosales",
-      "nocamera",
-      "novisits",
-      "noai"
     ]
   },
   {
@@ -15328,34 +13691,6 @@
     ]
   },
   {
-    "id": "trash-can-curbside-rolling-subscription-service",
-    "name": "Running a subscription service that rolls customers' trash cans to the curb and back on collection day",
-    "title": "Trash Can Valet Service",
-    "category": "Local & professional services",
-    "tags": [
-      "trash can rolling service",
-      "curbside subscription",
-      "elderly and rental property niche"
-    ],
-    "cost": "Very low (no special equipment; a reliable vehicle)",
-    "found": "Austin Zaback",
-    "what": "Offer a subscription service (roughly $45/month per property) that rolls a customer's trash and recycling bins from their garage or backyard out to the curb before collection day, then brings them back afterward. Target elderly residents who can't manage heavy bins, owners of vacant second homes wanting the property to look lived-in, and Airbnb/short-term rental properties where someone has to manage bins between guest turnovers. Build density with 20-25 properties in a tight radius to start a route.",
-    "pitch": "The presenter cites a real company, Can Monkey, that started from a single neighbor's observation about uncollected curbside bins and now has over 6,000 active subscriptions across 25 states and 500+ cities, generating over $250,000/month in recurring revenue with a churn rate under 1%.",
-    "best": "Someone wanting a genuinely zero-equipment business needing only customers, a route, and a car, targeting the specific niches (elderly, vacant homes, short-term rentals) that most need it.",
-    "truth": "This is a real, named, verifiable company operating at the described scale. The presenter's framing of the market as still wide open is his own assessment, not independently verified for any specific local market.",
-    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
-    "video_title": "8 Service Businesses You Can Start Under $1,000 (No Experience Needed)",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "claude-project-dropshipping-skill-system",
     "name": "Claude Project skill system for end-to-end dropshipping store building",
     "title": "Claude Skills for Dropshipping Stores",
@@ -15597,35 +13932,6 @@
     ]
   },
   {
-    "id": "gold-melting-furnace-jewelry-scrap-metal-service",
-    "name": "Running a precious metal melting service for jewelers and scrap buyers, where the customer supplies the metal so material cost is near zero",
-    "title": "Precious Metal Melting Service",
-    "category": "Local & professional services",
-    "tags": [
-      "gold melting furnace",
-      "jewelry casting service",
-      "scrap metal refining",
-      "near-zero material cost"
-    ],
-    "cost": "Moderate (a high-frequency induction furnace; almost no ongoing material cost since customers supply their own metal)",
-    "found": "Business Cortex",
-    "what": "Buy a high-frequency induction furnace that melts 1-2kg of precious metal (gold, silver, copper, brass) quickly using electromagnetic heating rather than an open flame, then offer melting services to jewelers needing metal melted for repairs or remakes, and to scrap metal buyers needing to consolidate recovered metal. In most cases the customer brings their own metal to be melted, meaning the business has almost no input material cost of its own.",
-    "pitch": "The presenter frames the near-zero material cost as the core appeal of this specific machine compared to almost everything else on the list, since you're being paid a service fee to process the customer's own asset rather than needing to buy raw material and hope to sell a finished product.",
-    "best": "Someone comfortable operating precision equipment and building relationships with local jewelers and scrap metal buyers as repeat service clients.",
-    "truth": "Induction melting furnaces and precious-metal refining/casting services are real, established equipment and business types. No specific personal revenue figures are given.",
-    "url": "https://www.youtube.com/watch?v=KQV5sM1n_Y0",
-    "video_title": "54 Machines That Quietly Make Money While Everyone Ignores Them",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "noinventory",
-      "novisits",
-      "noai"
-    ]
-  },
-  {
     "id": "compact-paper-bag-logo-printing-small-batch",
     "name": "Small-batch logo printing on paper bags for local businesses",
     "title": "Logo-Printed Paper Bags",
@@ -15656,38 +13962,6 @@
       "parent",
       "outside",
       "nocamera",
-      "noai"
-    ]
-  },
-  {
-    "id": "wall-printer-mural-service",
-    "name": "Wall printer mural service for businesses",
-    "title": "Wall Mural Printing Service",
-    "category": "Physical & print products",
-    "tags": [
-      "printing",
-      "equipment needed",
-      "high margin"
-    ],
-    "cost": "$4,000 to $16,000 for equipment",
-    "found": "Chris Koerner",
-    "what": "Own a mobile large-format printer that prints murals and graphics directly onto walls for businesses like restaurants and offices.",
-    "pitch": "The margins here are unusually high, roughly $8 in ink materials for an $800 job, and the presenter frames this as a still-early, undereducated market where few competitors have caught on yet.",
-    "best": "Someone with a print or design background who's comfortable investing in equipment and doing on-site work for local business clients.",
-    "truth": "The cost and margin figures given are specific and checkable, which is a good sign. This does require physically operating the printer on-site at each client's location, so it isn't a fully remote business.",
-    "url": "https://www.youtube.com/watch?v=SUYBggpA3ZU",
-    "video_title": "5 Simple business Ideas Even Your Mother Can Start (and make $120/hr)",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment",
-      "Needs a truck or cargo vehicle"
-    ],
-    "published": "2026-04-01",
-    "filters": [
-      "older",
-      "outside",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -16232,36 +14506,6 @@
     ]
   },
   {
-    "id": "hopper-gun-textured-wall-finishing",
-    "name": "Offering decorative textured wall finishing with a hopper gun spray tool",
-    "title": "Textured Wall Finishing",
-    "category": "Local & professional services",
-    "tags": [
-      "hopper gun",
-      "textured wall finishing",
-      "interior remodeling service",
-      "low startup cost trade"
-    ],
-    "cost": "Very low (under $500 total for a hopper gun ($50-200) plus an air compressor)",
-    "found": "HIDDEN WEALTH",
-    "what": "Use a pneumatic hopper gun (fed by a standard air compressor) to spray specialty plaster, microcement, or textured drywall mud onto walls/ceilings in an even layer, producing finishes like orange peel, knockdown texture, or modern accent walls, billed as custom design work rather than basic labor.",
-    "pitch": "Skilled operators bill $300-500 per textured room and can complete 2-3 rooms in a day, targeting homeowners doing remodels, interior designers, boutique hotels, and general contractors looking to subcontract specialty wall finishing.",
-    "best": "Someone willing to practice the spray technique to a professional finish quality, with the lowest capital barrier on this list.",
-    "truth": "Hopper-gun textured wall finishing is a real, established specialty trade service with genuinely low startup cost. Pricing figures are general industry framing rather than a verified personal case study.",
-    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM",
-    "video_title": "10 Construction Machines That Can Make You Serious Money (No Experience Needed)",
-    "published": "2026-08-24",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "etsy-google-sheets-templates-claude-recreation",
     "name": "Recreating proven best-selling Etsy Google Sheets templates using Claude",
     "title": "Recreated Etsy Google Sheets Templates",
@@ -16359,34 +14603,6 @@
       "nosales",
       "noinventory",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "self-serve-dog-wash-stations",
-    "name": "Operating self-serve dog wash stations that customers pay to use themselves",
-    "title": "Self-Serve Dog Wash",
-    "category": "Local & professional services",
-    "tags": [
-      "self-serve dog wash",
-      "pet care business",
-      "automated retail unit"
-    ],
-    "cost": "Moderate (cost of a self-serve wash unit)",
-    "found": "Jack Harrison Explains",
-    "what": "Install a self-serve dog wash unit (like a Tubby-style machine) in a decent retail location where customers pay $15-25 to wash their own dog rather than dealing with the mess of washing at home; the machine handles the transaction itself, with the operator visiting weekly to restock soap and collect revenue.",
-    "pitch": "The presenter cites a per-wash cost to the owner of about $1.50 in water/electricity/shampoo against a $15-25 customer price, and says a well-placed unit washing 15-30 dogs/day can generate roughly $110,000-220,000/year in revenue.",
-    "best": "Someone able to secure a good retail location and willing to do weekly restocking/collection visits.",
-    "truth": "Self-serve dog wash units are a real, established small-business category with genuinely strong per-transaction margins given the low marginal cost. Revenue figures are general framing rather than a single verified case study.",
-    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
-    "video_title": "These 15 Businesses Are Automated, Boring, and Almost Impossible to Fail",
-    "published": "2026-07-23",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -16937,34 +15153,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "recycled-plastic-filament-extrusion",
-    "name": "Producing 3D printer filament from recycled or waste plastic and selling it to schools, universities, and prototyping shops",
-    "title": "Recycled 3D Printer Filament",
-    "category": "Physical & print products",
-    "tags": [
-      "3D printer filament",
-      "recycled plastic",
-      "filament extruder",
-      "B2B education/prototyping supply"
-    ],
-    "cost": "Moderate to high ($2,000 for the extruder)",
-    "found": "SUCCESSFUL ENTREPRENEUR",
-    "what": "Buy a compact filament extruder (processes 8 plastic types including PET, ABS, PLA-adjacent materials, melting pellets or shredded plastic into standard-thickness 3D printer filament) and produce filament, ideally from recycled plastic like discarded water/soda bottles (often available for free), selling by the case to schools with labs, universities with workshops, prototyping companies, and design shops that print daily and need a recurring filament supply.",
-    "pitch": "The presenter notes 3D printer owners constantly complain about how fast and expensive filament runs out, framing the business as raw-material arbitrage (cheap or free waste plastic in, a per-kilogram product out) with a genuine sustainability marketing angle in recycled filament.",
-    "best": "Someone with access to waste plastic sourcing and willing to build recurring B2B relationships with schools/prototyping shops.",
-    "truth": "Filament extrusion from recycled plastic is a real, existing small-manufacturing niche, and the described B2B customer base (schools, prototyping shops) is a genuine recurring-demand market. No specific revenue figures given.",
-    "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ",
-    "video_title": "14 MACHINES You Can IMPORT from China That PAY BIG (ZERO Experience Needed)",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "novisits",
-      "noai"
     ]
   },
   {
@@ -17819,39 +16007,6 @@
     ]
   },
   {
-    "id": "wedding-officiant-business",
-    "name": "Wedding officiant business",
-    "title": "Wedding Officiant",
-    "category": "Local & professional services",
-    "tags": [
-      "events",
-      "local business",
-      "license needed",
-      "weekend work"
-    ],
-    "cost": "Low to moderate startup cost",
-    "found": "Amber Gist",
-    "what": "Working as a paid wedding officiant, booking and performing wedding ceremonies for couples, and reinvesting early revenue into better equipment (a professional backdrop stand, drapes and decorations for photo backdrops, and a collapsible equipment wagon) to make the on-site experience feel more polished as the client base grows.",
-    "pitch": "The creator set herself a concrete validation goal, book and officiate 25 married couples and see if she still enjoyed the work, before investing further, and documents that she passed that bar and is now formalizing her systems and buying real equipment rather than treating it as a one-off side gig.",
-    "best": "Someone comfortable with public speaking and being the center of attention at events, who doesn't mind weekend and evening work built around other people's schedules, and who is willing to start small and low-cost before investing in equipment.",
-    "truth": "This is a behind-the-scenes, equipment-unboxing style video, not a how-to guide, so it doesn't cover how to get licensed or ordained to legally perform marriages in your area, how ceremonies are priced, or how clients are actually found, all real open questions for anyone considering this. What it does show is a real, currently-operating practitioner with a specific, self-set traction goal (25 couples) she says she's already reached, a genuine, if narrow, validation signal that this can work as an actual local service business.",
-    "url": "https://youtu.be/sKFWVQldrIQ",
-    "video_title": "Don't mind if I DO \u2764\ufe0f #buildinginpublic",
-    "situation_tags": [
-      "Local travel required",
-      "Weekend/event-based schedule",
-      "Requires equipment/vehicle investment",
-      "Requires a license or certification"
-    ],
-    "published": "2026-08-13",
-    "filters": [
-      "older",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "ai-appointment-setter-and-internal-knowledge-rag-systems",
     "name": "Two specific, high-ticket AI systems sold to home service businesses: an AI appointment-setter with lead reactivation, and an internal company-knowledge RAG system",
     "title": "Two AI Systems for Home Services",
@@ -17986,31 +16141,6 @@
       "outside",
       "nocamera",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "junk-removal-relationship-driven-cash-business",
-    "name": "Running a junk removal business built on relationships with real estate agents, property managers, and contractors for steady referral volume",
-    "title": "Junk Removal Business",
-    "category": "Local & professional services",
-    "tags": [
-      "junk removal",
-      "cash-on-completion business",
-      "property manager relationships"
-    ],
-    "cost": "Low (a truck; if you already have one, startup cost is minimal)",
-    "found": "Austin Zaback",
-    "what": "Offer junk removal priced by volume, quoted on the spot when you arrive, with payment collected immediately after loading (no invoicing or receivables). Build the real growth engine through relationships with real estate agents, property managers, and contractors who have a constant stream of properties needing clearouts, particularly benefiting from the roughly 40-50% annual US apartment turnover rate creating steady between-tenant clearing work. Scale by adding a second truck and employee once busy enough, then repeating.",
-    "pitch": "The presenter cites the US waste collection industry projected to surpass $90 billion by 2030, with junk removal as one of the fastest-growing segments valued at over $10 billion, and notes a single vehicle can realistically generate about $500/day at $250-300 per standard load.",
-    "best": "Someone who already has or can access a truck, comfortable building B2B referral relationships with property managers and real estate agents rather than relying only on individual homeowner jobs.",
-    "truth": "The cited industry size figures are plausible, commonly-referenced market data. No specific personal revenue case study is given for this particular business, unlike several others in the same source video.",
-    "url": "https://www.youtube.com/watch?v=i4vPwiX7G1c",
-    "video_title": "8 Service Businesses You Can Start Under $1,000 (No Experience Needed)",
-    "filters": [
-      "outside",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -18436,32 +16566,6 @@
     ]
   },
   {
-    "id": "bone-saw-meat-portioning-service",
-    "name": "Buying whole meat cuts cheaply and using a commercial bone saw to portion them for restaurants, hunters, and farmers",
-    "title": "Meat Portioning Service",
-    "category": "Local & professional services",
-    "tags": [
-      "bone saw machine",
-      "meat portioning service",
-      "butchery business"
-    ],
-    "cost": "Moderate (a commercial-grade bone saw)",
-    "found": "Business Cortex",
-    "what": "Buy a commercial saw designed to cut through frozen meat and bone cleanly and safely, producing uniform portions that hand tools can't reliably deliver, then run a butchery or portioning service: buy whole carcasses or large cuts (far cheaper per kilo than pre-portioned meat), portion them precisely, and supply restaurants with exact cuts, sell portioned packs directly, or process meat for hunters and farmers who need it prepared.",
-    "pitch": "The presenter frames the core margin as the price gap between buying meat in bulk/whole form versus pre-portioned, with the saw itself being what makes capturing that gap at real volume possible rather than impractically slow by hand.",
-    "best": "Someone comfortable with hands-on food processing work and willing to build relationships with restaurants, hunters, or farmers as regular customers.",
-    "truth": "Commercial bone saws and meat portioning services are real, established equipment and business types. No specific personal revenue figures are given.",
-    "url": "https://www.youtube.com/watch?v=KQV5sM1n_Y0",
-    "video_title": "54 Machines That Quietly Make Money While Everyone Ignores Them",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "noai"
-    ]
-  },
-  {
     "id": "pvc-3d-logo-patch-keychain-small-batch",
     "name": "Custom 3D PVC logo patches and keychains made with a dispensing machine",
     "title": "3D PVC Patches and Keychains",
@@ -18769,69 +16873,6 @@
       "older",
       "nocamera",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "local-courier-medical-legal-delivery-contracts",
-    "name": "Running a same-day local courier service focused on recurring monthly contracts with medical and legal offices",
-    "title": "Medical and Legal Courier Service",
-    "category": "Local & professional services",
-    "tags": [
-      "local courier service",
-      "same-day delivery",
-      "medical/legal document delivery",
-      "recurring B2B contracts"
-    ],
-    "cost": "Very low (a single vehicle, your own; practically no inventory)",
-    "found": "David Explains Money",
-    "what": "Start a local courier service filling the gap big shipping companies leave for urgent, same-day, same-city deliveries: pharmacies, law firms, and dental clinics regularly need documents or small packages moved quickly and confidentially. Rather than competing for individual one-off delivery requests, land monthly contracts with two or three businesses needing recurring deliveries, prioritizing the medical and legal sectors specifically since confidentiality and punctuality matter more to them than price, allowing higher rates than generic courier work. Organize routes by grouping deliveries by area and time window rather than treating each request in isolation.",
-    "pitch": "The presenter frames a handful of well-organized monthly contracts (three or four) as enough to cover vehicle and fuel costs before any additional delivery becomes pure profit, positioning the medical/legal niche specifically as the differentiator that lets a courier charge more than a generic delivery service.",
-    "best": "Someone with a reliable vehicle willing to prioritize building 2-3 recurring monthly business contracts over chasing scattered one-off delivery requests.",
-    "truth": "Local courier services for medical and legal documents are a real, established niche business type, and the described gap (large shippers being slow/expensive for urgent local same-day delivery) is a genuine market dynamic. No specific personal revenue figures are given for this particular business.",
-    "url": "https://www.youtube.com/watch?v=xA6oBoVyQ9I",
-    "video_title": "10 BORING BUSINESSES That Quietly Make Money",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
-    "id": "window-cleaning-lean-start-scale-systems",
-    "name": "Window cleaning business started lean and scaled through owner-built systems",
-    "title": "Window Cleaning Business",
-    "category": "Local & professional services",
-    "tags": [
-      "window cleaning",
-      "service business",
-      "lean startup",
-      "systems building",
-      "scaling"
-    ],
-    "cost": "Very low startup cost (a squeegee, bucket, and soap to start)",
-    "found": "David Heacock",
-    "what": "Start a window cleaning business with minimal equipment, personally doing the cleaning work in the early stages to learn the business's actual pain points firsthand, then use that hands-on experience to build the systems and processes needed to scale the business well beyond a one-person operation.",
-    "pitch": "Heacock cites a business owner, John, who started with just a squeegee, bucket, and soap cleaning windows for a single bank, and now runs a window cleaning business doing $10 million in annual revenue at a 40% net margin, or about $4 million a year in profit. Heacock frames doing the labor yourself early on as valuable specifically because it teaches you the business's real pain points before you try to build systems to solve them at scale.",
-    "best": "Someone willing to do the physical labor themselves in the early stages of the business, viewing that hands-on period as market research for building scalable systems later rather than something to avoid.",
-    "truth": "The lean-start-then-systematize approach is sound, practical business advice that applies well beyond window cleaning specifically. The $10 million/40% margin outcome represents a mature, fully-scaled operation with a large team, not a starting point \u2014 the presenter is clear that the real lesson is in the sequencing (labor first, systems second), not in window cleaning being a special path to that scale.",
-    "url": "https://youtu.be/vdXlkMW2nqc",
-    "video_title": "6 BORING Businesses that Always Make Millionaires (90% success rate)",
-    "situation_tags": [
-      "Local travel required",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2025-06-13",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -19314,33 +17355,6 @@
     ]
   },
   {
-    "id": "mortar-spray-machine-stucco-plastering",
-    "name": "Offering fast mortar/stucco spraying for new home exteriors with a mini mortar spray machine",
-    "title": "Mortar and Stucco Spraying",
-    "category": "Local & professional services",
-    "tags": [
-      "mortar spraying",
-      "stucco application",
-      "new construction subcontracting"
-    ],
-    "cost": "Low to moderate ($600-2,000)",
-    "found": "HIDDEN WEALTH",
-    "what": "Use a continuous-feed mortar/stucco spray pump to apply an even coat of plaster or stucco across an entire exterior wall dramatically faster than a manual trowel crew, subcontracting to general contractors on new suburban home builds.",
-    "pitch": "Charges $4-8 per square meter of wall coverage; a standard new home with 400-600 square meters of exterior wall at $6/meter works out to $2,400-3,600 gross for a job completed in about 2 days, appealing to contractors given how hard skilled manual plaster crews are to find.",
-    "best": "Someone willing to learn the spray technique and market directly to general contractors building new housing subdivisions.",
-    "truth": "Mortar/stucco spray application is a real, established time-saving trade technique addressing genuine skilled-labor scarcity. The per-job math shown is a straightforward calculation from stated rates, not a claimed personal result.",
-    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM",
-    "video_title": "10 Construction Machines That Can Make You Serious Money (No Experience Needed)",
-    "published": "2026-08-24",
-    "filters": [
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "five-etsy-trend-print-on-demand-niches-live-research",
     "name": "Five specific, currently-trending Etsy niches identified by studying young, fast-growing listings directly on Etsy itself, most fulfilled via print-on-demand",
     "title": "5 Trending Etsy Niches",
@@ -19436,34 +17450,6 @@
       "nocamera",
       "noinventory",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "reverse-vending-recycling-kiosk-jackharrison",
-    "name": "Operating reverse vending recycling kiosks in states with bottle deposit laws",
-    "title": "Reverse Vending Recycling Kiosks",
-    "category": "Local & professional services",
-    "tags": [
-      "reverse vending machine",
-      "bottle deposit law",
-      "recycling kiosk",
-      "state-dependent business"
-    ],
-    "cost": "Moderate (cost of the reverse vending machine)",
-    "found": "Jack Harrison Explains",
-    "what": "Place a reverse vending machine outside a supermarket in a state with a bottle deposit law; customers feed in empty bottles and cans and get money back, while the machine owner earns from container deposit fees, on-screen advertising space, and recycling partnerships.",
-    "pitch": "Earns $300-1,000+/month per unit in a busy location, but the presenter is explicit this business only exists in states with a bottle deposit law on the books \u2014 if your state doesn't have one, the model simply doesn't exist there, so checking your state's law is the entire filter before pursuing this.",
-    "best": "Someone located in one of the states with an active bottle deposit law, willing to secure good supermarket foot-traffic placement.",
-    "truth": "Reverse vending machines and state bottle deposit laws are real and accurately described, and the presenter's upfront geographic caveat (unlike many similar videos) adds credibility. Revenue figures are general framing, not a personal case study.",
-    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
-    "video_title": "These 15 Businesses Are Automated, Boring, and Almost Impossible to Fail",
-    "published": "2026-07-23",
-    "filters": [
-      "older",
-      "nosales",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -20484,34 +18470,6 @@
       "lowcost",
       "nocamera",
       "noinventory",
-      "noai"
-    ]
-  },
-  {
-    "id": "mesh-produce-bag-manufacturing",
-    "name": "Manufacturing mesh produce bags for agricultural harvesters and the growing reusable-bag consumer market",
-    "title": "Mesh Produce Bags",
-    "category": "Physical & print products",
-    "tags": [
-      "mesh bag manufacturing",
-      "agricultural packaging",
-      "reusable bag market",
-      "plastic bag ban opportunity"
-    ],
-    "cost": "High ($5,600 for the machine)",
-    "found": "SUCCESSFUL ENTREPRENEUR",
-    "what": "Buy a fully automatic mesh bag machine (cuts and sews simultaneously, 50 bags/minute, multi-color printing capable, produces 35-90cm wide bags) and sell into two markets: agricultural harvesters (onions, citrus, potatoes) who buy by the thousands every season since they can't sell their harvest without bags, and the growing reusable-bag consumer market driven by plastic bag bans, where a bag printed with a store's logo sells for considerably more than a plain one.",
-    "pitch": "The presenter points out that produce in a supermarket is almost never loose \u2014 it's in mesh bags someone had to manufacture and sell to that store \u2014 framing the buyer as the business that packages the produce, not the shopper who takes it home, and noting agricultural buyers aren't optional customers since they literally can't sell their harvest without the bags.",
-    "best": "Someone willing to serve both agricultural bulk buyers and retail-facing branded bag customers with the same equipment.",
-    "truth": "Mesh bag manufacturing is a real, established agricultural packaging process, and the plastic-bag-ban-driven reusable bag trend is a genuine, current market shift. No specific revenue figures given.",
-    "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ",
-    "video_title": "14 MACHINES You Can IMPORT from China That PAY BIG (ZERO Experience Needed)",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "novisits",
       "noai"
     ]
   },
@@ -22531,41 +20489,6 @@
     ]
   },
   {
-    "id": "wedding-officiant-business-with-photo-op-upsells",
-    "name": "Wedding officiant business with photo-op prop and backdrop upsells",
-    "title": "Wedding Officiant With Photo Props",
-    "category": "Local & professional services",
-    "tags": [
-      "wedding officiant",
-      "event services",
-      "photo backdrop",
-      "add-on upsells"
-    ],
-    "cost": "Low to moderate startup cost (a photo backdrop, stand, and portable equipment cart; costs not disclosed by the presenter)",
-    "found": "Amber Gist",
-    "what": "Officiate weddings as a paid service, then increase revenue per event by offering optional add-ons like a photo backdrop and props that couples can add to their ceremony package, using a collapsible cart to transport supplies between events.",
-    "pitch": "Gist documents building this business \"in public,\" describing hitting a personal milestone of 25 officiated weddings before deciding to invest further, and is in the process of upgrading her equipment (a heavy-duty photo backdrop stand, drapes, and a collapsible supply wagon) to make the experience feel more elevated for couples and support the add-on photo-op package.",
-    "best": "Someone comfortable speaking in public and being the center of attention at events, interested in the wedding/events industry, who's willing to build the business gradually and reinvest in equipment as bookings grow.",
-    "truth": "This video is genuinely thin on business specifics \u2014 there's no pricing, revenue, or client-acquisition detail here, just an equipment update. The wedding officiant role itself is a real and accessible local service (usually just requiring a state officiant registration or ordination, which varies by location), and add-on photo props are a sensible way to raise the average sale per event, but anyone considering this should look elsewhere for the actual pricing and marketing playbook, since this particular video doesn't provide it.",
-    "url": "https://youtu.be/Ik-kBVXgcuw",
-    "video_title": "I'm Building a Wedding Officiant Business... Here's What I Bought Next",
-    "situation_tags": [
-      "Local travel required",
-      "Weekend/event-based schedule",
-      "Requires a license or certification",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-08-13",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "high-ticket-ai-agency-outsourced-developers-rp1i",
     "name": "High-ticket AI systems agency for one niche, with builds outsourced to developers",
     "title": "High-Ticket AI Systems Agency",
@@ -23393,63 +21316,6 @@
     ]
   },
   {
-    "id": "car-flipping-marketplace-app-negotiation",
-    "name": "Flipping used cars found via automated underpriced-listing alerts, with in-person inspection and negotiation",
-    "title": "Used Car Flipping",
-    "category": "E-commerce",
-    "tags": [
-      "car flipping",
-      "Facebook Marketplace",
-      "vehicle negotiation",
-      "automated deal alerts",
-      "resale"
-    ],
-    "cost": "Moderate (capital to purchase vehicles outright, plus a paid deal-alert app subscription and repair costs)",
-    "found": "Buddy's DIY",
-    "what": "Use an app that continuously scans Facebook Marketplace, OfferUp, and Craigslist for underpriced vehicles (filtered by AI valuation and profit-margin estimates) and alerts you instantly so you can message sellers before other flippers, then inspect the vehicle in person (exterior condition, interior wear, an OBD scan, a test drive) to catch issues not disclosed in the listing, negotiate the price down using those findings plus a 'walk away' tactic, repair/detail the vehicle yourself, and resell it for a profit.",
-    "pitch": "The presenter walks through one complete flip start to finish: a 2012 Ford F-150 bought for $6,500 (negotiated down from a $7,900 asking price using inspection findings), repaired and detailed for a total investment of $7,405, then sold for $11,250, a $3,845 profit over about 19.75 hours of labor, roughly $194/hour.",
-    "best": "Someone comfortable with basic vehicle inspection, minor bodywork/detailing, and in-person price negotiation, with enough capital to buy vehicles outright before reselling.",
-    "truth": "Car flipping via underpriced Marketplace listings is a well-established, real side business, and the specific numbers shown are unusually transparent and internally consistent, lending credibility to this particular example. The described automated-alert app is a paid tool the presenter promotes, and results depend heavily on local market conditions, available capital, and genuine mechanical/negotiation skill that takes time to develop.",
-    "url": "https://www.youtube.com/watch?v=dGzgEiWJ9hk",
-    "video_title": "How To Flip Cars | FULL PROCESS [20]",
-    "published": "2026-06-20",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nocamera",
-      "noai"
-    ]
-  },
-  {
-    "id": "cardboard-shredder-free-material-triple-market",
-    "name": "Shredding free waste cardboard into packing material, animal bedding, and garden mulch, sold across three separate markets",
-    "title": "Shredded Cardboard Products",
-    "category": "Local & professional services",
-    "tags": [
-      "cardboard shredder",
-      "free raw material",
-      "eco-friendly packaging",
-      "animal bedding"
-    ],
-    "cost": "Low (a heavy-duty cardboard shredder; raw material is free)",
-    "found": "Business Cortex",
-    "what": "Buy a heavy-duty crusher/shredder that turns waste cardboard boxes into cushioning material, then collect free cardboard from shops, offices, and warehouses who are glad to have it hauled away rather than pay for disposal, and sell the shredded output across three separate markets simultaneously: eco-friendly packing material to e-commerce sellers, animal bedding to farms and pet stores, and mulch to gardeners.",
-    "pitch": "The presenter highlights that the raw material costs genuinely nothing (businesses pay to get rid of cardboard, not the other way around), framing the three-market sales approach as what makes the margins exceptional compared to most other small-manufacturing ideas on the list.",
-    "best": "Someone with storage space and willing to build relationships with businesses generating cardboard waste plus buyers across three different end markets.",
-    "truth": "Cardboard shredding for resale across packing, bedding, and mulch markets is a real, established small-recycling business model. No specific personal revenue figures are given.",
-    "url": "https://www.youtube.com/watch?v=KQV5sM1n_Y0",
-    "video_title": "54 Machines That Quietly Make Money While Everyone Ignores Them",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "lowcost",
-      "nocamera",
-      "noai"
-    ]
-  },
-  {
     "id": "vacuum-forming-custom-signs-short-run-parts",
     "name": "Vacuum forming shop for custom 3D signs and short-run plastic parts",
     "title": "Vacuum Forming Shop",
@@ -23515,39 +21381,6 @@
     ]
   },
   {
-    "id": "tote-rental-business",
-    "name": "Moving tote rental business",
-    "title": "Moving Tote Rental",
-    "category": "Local & professional services",
-    "tags": [
-      "physical business",
-      "needs US presence",
-      "low startup cost"
-    ],
-    "cost": "About $1,000 to start",
-    "found": "Chris Koerner",
-    "what": "Buy durable plastic moving totes and rent them out to people moving house, often through partnerships with real estate agents, as an alternative to cardboard boxes.",
-    "pitch": "A named, real operator is cited making a modest but steady few thousand dollars a month, with totes paying for themselves after just a few rentals.",
-    "best": "Someone comfortable building local referral relationships, particularly with real estate agents, who can consistently send business your way.",
-    "truth": "The numbers given are modest and specific rather than hyped, which makes them more believable. This requires local, in-person drop-off and pickup logistics, so it isn't location-independent.",
-    "url": "https://www.youtube.com/watch?v=SUYBggpA3ZU",
-    "video_title": "5 Simple business Ideas Even Your Mother Can Start (and make $120/hr)",
-    "situation_tags": [
-      "Local travel required",
-      "Needs a truck or cargo vehicle",
-      "Needs inventory storage"
-    ],
-    "published": "2026-04-01",
-    "filters": [
-      "older",
-      "parent",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noai"
-    ]
-  },
-  {
     "id": "paid-ai-business-audits-chris-koerner",
     "name": "Paid AI business audits for people in your existing network",
     "title": "Paid AI Business Audits",
@@ -23580,110 +21413,6 @@
       "nocamera",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "kids-woodworking-shop-classes-homeschool-quor",
-    "name": "Kids' woodworking and shop-skills classes for homeschool families",
-    "title": "Kids' Woodworking Classes",
-    "category": "Local & professional services",
-    "tags": [
-      "kids woodworking classes",
-      "homeschool",
-      "shop class",
-      "weekend side hustle",
-      "teaching kids"
-    ],
-    "cost": "Low startup cost (about $300-$450 in hand tools for six work stations; power tools for older kids cost about $4,100)",
-    "found": "Chris Koerner on The Koerner Office Podcast",
-    "what": "You teach small groups of children basic woodworking with hand saws, screws, glue and later small power tools, building simple projects like wooden robots, flags, bird feeders and cornhole boards. The guest, Mike Herod, started with a plain Facebook post, ran two free classes for social proof, then charged $75 per hour per child for ages 7-9 and $50 for older kids, with deposits collected upfront. He grew into father-son events, spring-break and summer camps ($300-$500 per child) and a $30,000 contract with a homeschool co-op for two hours every Friday, and in Florida he is paid through the state's Step Up scholarship program. Classes can run in a garage, a backyard or park, or as a mobile setup brought to groups.",
-    "pitch": "Mike says materials on a $750 class cost him about $150, starter tools pay for themselves in one class, and homeschool and moms' groups spread the word quickly because few places teach kids to use tools. He estimates someone keeping a day job could clear about $4,000 a month working two weekends a month.",
-    "best": "Handy parents or retirees comfortable around tools who enjoy teaching children and have local homeschool or parent networks. You need a patient manner and a strict approach to safety.",
-    "truth": "The numbers come from one operator's account in an interview, not verified records; his $50,600 for March-July came from classes held in his commercial trade-school space, and most of his other work was mobile, travelling up to 45 minutes. It can be run from your own garage, but parents told him a proper space felt safer, so expect pressure to rent one as you grow. Liability is the big risk: he uses eye protection, waivers, screws instead of nails and business insurance (about $95 a month). State scholarship vendor programs like Florida's are local, and the podcast host sells a paid community.",
-    "url": "https://www.youtube.com/watch?v=qUORStgkuzc",
-    "video_title": "The Most Overlooked $1K/Hour Business Anyone Can Start",
-    "situation_tags": [
-      "Local travel required",
-      "Weekend/event-based schedule",
-      "Requires equipment/vehicle investment"
-    ],
-    "published": "2026-09-25",
-    "filters": [
-      "older",
-      "outside",
-      "nosales",
-      "nocamera",
-      "noai"
-    ]
-  },
-  {
-    "id": "estate-sale-company",
-    "name": "Estate sale company",
-    "title": "Estate Sale Company",
-    "category": "Local & professional services",
-    "tags": [
-      "service business",
-      "very low startup cost",
-      "local business",
-      "estate liquidation"
-    ],
-    "cost": "Very low startup cost",
-    "found": "Chris Koerner on The Koerner Office Podcast (guest: Braden)",
-    "what": "You contract with homeowners, or their families, to liquidate the entire contents of a house, pricing and selling everything from furniture to collectibles over a weekend sale, then taking a percentage of what sells. Most estate sales happen because a house is about to go on the market and the family needs the contents cleared out fast.",
-    "pitch": "Braden started with almost no money, just tape, a price gun, and folding tables, and says he made about $6,000 profit in his very first week. The company keeps a cut of total sales (Braden mentioned passing 60% of proceeds back to the client, keeping the rest), and pricing is typically a tiered discount over a three-day sale: full price day one, 20-25% off day two, half off day three. He also cited an outside estimate of $124 trillion in wealth transfer expected in the US over the next 20 years as baby boomers age, a big part of it tied to real estate and home contents changing hands.",
-    "best": "Someone comfortable with sales, organizing, and pricing hundreds of small items, who doesn't mind physical, on-site weekend work and can build relationships with real estate agents for referrals.",
-    "truth": "This is one of the more detailed, credible accounts in the database. Braden shares real numbers as his business grew: roughly $10,000-15,000 per weekend sale early on, scaling to a 32,000-square-foot warehouse doing about $25,000 a week within the first year, and grossing $30,000-40,000 a month by the time he stepped back from day-to-day work. He also mentions the not-so-great side of the industry, some competitors didn't price items fairly or ran all-cash operations that looked shady, which is useful context for what separates a good operator from a bad one. Worth noting this is a single market's experience (a smaller Arkansas metro with 5-10 estate sales a week and light competition at the time); a saturated, larger city could look different. There's also a franchise route (Braden mentioned $50,000-75,000 buy-ins from companies like Caring Transitions) if someone wants instant brand recognition instead of building from zero.",
-    "url": "https://www.youtube.com/watch?v=E9baszgY3J8",
-    "video_title": "Make Money Selling Stuff People Want Gone",
-    "situation_tags": [
-      "Local travel required",
-      "Weekend/event-based schedule",
-      "Needs inventory storage",
-      "Requires hiring or managing others"
-    ],
-    "published": "2026-08-09",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
-    "id": "semi-trailer-subleasing-to-owner-operator-truckers",
-    "name": "Subleasing semi-trailers to owner-operator truckers, run from a phone",
-    "title": "Semi-Trailer Subleasing",
-    "category": "Local & professional services",
-    "tags": [
-      "trucking",
-      "trailer rental",
-      "equipment leasing",
-      "facebook marketplace",
-      "recurring revenue"
-    ],
-    "cost": "Moderate startup cost (about $4,000 a year for insurance; trailers leased net-30 with no deposit)",
-    "found": "Chris Koerner on The Koerner Office Podcast (guest: Eli)",
-    "what": "You lease 53-foot semi-trailers (dry vans and flatbeds) from a large leasing company and sublease them to truck owners who can't get approved directly, often new companies or drivers with weak credit. The guest paid about $350 a month per trailer on net-30 terms and charged drivers about $180 a week plus a $750 deposit and a three-month minimum, so he collected before his own bill was due. He found renters through simple photo posts on Facebook Marketplace, later nationwide Facebook ads, and handled contracts, billing and insurance from his phone with two remote assistants.",
-    "pitch": "The guest says he started with one trailer for his uncle in 2019, had about 10 rented within two months, and grew to 300 trailers bringing in about $250,000 a month with $40,000-50,000 profit, while living in Colombia. He credits weekly billing, net-30 supplier terms and cheap Facebook ads (about $5,000 a month for 25 new clients) for being cash-flow positive from day one.",
-    "best": "Someone comfortable with contracts, insurance and collections who can handle risk and wants a remote, recurring-revenue business in a US industry.",
-    "truth": "This is an equipment rental business, so the work is remote but the assets are real trailers on the road: the guest lost 10-15 of 300 trailers that never came back, at $15,000-25,000 each, and says GPS tracking, careful contracts and being named as additional insured were hard lessons. His figures are self-reported and his supplier terms (no deposit, no credit check) may not be easy to get today. It depends on the US trucking market and US insurance and leasing companies. The guest says he sells no course; the host's show promotes HighLevel as a sponsor.",
-    "url": "https://www.youtube.com/watch?v=PuogTln9CZw",
-    "video_title": "The Most Profitable Business You Can Run From a Phone",
-    "situation_tags": [
-      "Phone/sales-based",
-      "Requires hiring or managing others"
-    ],
-    "published": "2026-10-08",
-    "filters": [
-      "older",
-      "parent",
-      "health",
-      "nocamera",
-      "noinventory",
-      "novisits",
-      "noai"
     ]
   },
   {
@@ -24164,93 +21893,6 @@
       "nocamera",
       "noinventory",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "mobile-home-buy-repair-rent-or-flip",
-    "name": "Buying used mobile homes cheaply, making cosmetic repairs, then renting or reselling them at a markup within established mobile home parks",
-    "title": "Mobile Home Flipping",
-    "category": "Local & professional services",
-    "tags": [
-      "mobile home flipping",
-      "mobile home rental",
-      "cosmetic property repair",
-      "housing affordability niche"
-    ],
-    "cost": "Moderate to high (requires more upfront capital than the other ideas in this source video; starting within established parks lowers the initial investment versus buying land)",
-    "found": "David Explains Money",
-    "what": "Buy used mobile homes at a low price, often needing only minor repairs, fix them up with simple cosmetic upgrades (paint, flooring, kitchen updates) that significantly increase value without requiring a full remodel, then either rent them out for steady monthly income or resell them for a lump-sum profit. Start within already-established mobile home parks, where the land is rented separately and the initial investment is much lower, rather than buying your own land right away, which the presenter recommends only once you have real experience and capital.",
-    "pitch": "The presenter frames this as the highest income-ceiling idea on his list specifically because it combines two income streams (rental or resale) and ties it to a real, current trend of mobile homes becoming a more sought-after housing option as traditional home prices keep rising, though he's explicit it requires more patience and upfront capital than the other ideas and isn't the recommended starting point for someone with zero capital or repair experience.",
-    "best": "Someone with basic home repair experience or capital already built up from another venture, willing to start small within existing mobile home parks rather than buying land immediately.",
-    "truth": "Buying, repairing, and renting or reselling used mobile homes is a real, established real estate niche, and rising traditional home prices driving interest in mobile homes is a genuine, observable market trend. No specific personal revenue figures are given, and the presenter is explicit this carries more risk/capital requirement than the rest of his list.",
-    "url": "https://www.youtube.com/watch?v=xA6oBoVyQ9I",
-    "video_title": "10 BORING BUSINESSES That Quietly Make Money",
-    "filters": [
-      "older",
-      "outside",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
-    "id": "electrician-subcontractor-to-remodeling-contractors",
-    "name": "Building an electrical (or trade) business as a trusted subcontractor to remodeling general contractors, rather than chasing homeowners directly",
-    "title": "Trade Subcontracting for Remodelers",
-    "category": "Local & professional services",
-    "tags": [
-      "electrician business",
-      "GC subcontracting",
-      "trade business",
-      "B2B relationship sales",
-      "permit data prospecting"
-    ],
-    "cost": "Low (licensing costs assumed for the trade; primary investment is time spent prospecting and building relationships)",
-    "found": "David Heacock",
-    "what": "Instead of marketing directly to homeowners, build a trade business around becoming the trusted subcontractor for general contractors doing remodels: research and shortlist reputable local contractors, reach out directly (cold calls preferred over email) to the right decision-maker, prove yourself on a test job, and grow a repeat-client base of contractors who send consistent work; to scale beyond personal capacity, build a systematic list of target contractors (e.g. by researching who's pulling relevant permits in your area, or using B2B contact tools like Apollo or ZoomInfo) rather than randomly prospecting day to day.",
-    "pitch": "The presenter (running a business-coaching show) interviews an electrician who quit a stable $83K-100K/year job to start his own electrical business 18 months prior with no client base, diagnosing his current bottleneck (he personally does all the sales, capping how much work he can take on) and mapping out a systematic prospecting process to scale beyond solo capacity.",
-    "best": "Someone with an existing trade license/skill willing to build relationships with general contractors as a primary client base rather than marketing to end consumers.",
-    "truth": "Subcontracting to general contractors as a primary client-acquisition channel is a real, established strategy in the trades, since a single trusted GC relationship can generate far more repeat volume than one-off homeowner jobs, and permit-data prospecting is a real, used tactic. This episode is a real-time coaching conversation rather than a finished, proven system, so the scaling tactics discussed are proposed next steps, not yet demonstrated results.",
-    "url": "https://www.youtube.com/watch?v=JDnhpF4OfPU",
-    "video_title": "Copy This Strategy, You'll Never Be Broke Again (99% Success Rate)",
-    "published": "2026-09-08",
-    "filters": [
-      "older",
-      "lowcost",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
-    "id": "cleaning-business-owner-not-cleaner",
-    "name": "Starting a residential cleaning business as the owner/manager, hiring cleaners rather than cleaning yourself",
-    "title": "Owner-Run Cleaning Business",
-    "category": "Local & professional services",
-    "tags": [
-      "cleaning business",
-      "hiring cleaners",
-      "local business registration",
-      "Craigslist client acquisition"
-    ],
-    "cost": "Low to moderate (business registration/EIN, cleaning supplies, Canva for flyers/logo)",
-    "found": "Diamond Chanel",
-    "what": "Start a cleaning business positioned around ownership, not personal labor: create a logo and flyers, register the business (the cited example used SunBiz and applied for an EIN), buy initial supplies, market door-to-door and on Craigslist/social media to land the first clients, then hire cleaners to actually perform the work while the owner focuses on sales, client relationships, and quality control.",
-    "pitch": "The cited operator explicitly frames the mindset shift as the key: 'cleaners clean, owners build,' arguing that staying personally busy cleaning caps growth, while building a team with consistent training and quality checks is what lets the business scale past one person's physical capacity.",
-    "best": "Someone comfortable with sales, hiring, and managing a small team rather than personally wanting to clean, willing to do the unglamorous local marketing legwork (door-to-door, flyers, Craigslist) to land the first clients.",
-    "truth": "A cleaning business built around hiring and managing rather than personally performing labor is a real, standard small-business scaling structure, and the specific startup steps (business registration, EIN, local marketing, then hiring) reflect a genuine, ordinary path many service businesses follow. No specific revenue figures are given in this segment; rated 3/5 for ease and 2/5 for speed to first dollar since building a client base and hiring reliable staff takes real time.",
-    "url": "https://www.youtube.com/watch?v=Lk3PeK1OJQg",
-    "video_title": "12 Boring Side Hustles You Can Run From Your Phone (BETTER Than Uber & Doordash)",
-    "published": "2026-08-10",
-    "filters": [
-      "older",
-      "parent",
-      "health",
-      "outside",
-      "lowcost",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -24979,35 +22621,6 @@
     ]
   },
   {
-    "id": "senior-grocery-shopping-service-jotform-booking-system",
-    "name": "Running a senior grocery shopping and delivery service built on a structured booking form handling substitutions, authorization, and payment in one system",
-    "title": "Senior Grocery Delivery",
-    "category": "Local & professional services",
-    "tags": [
-      "senior grocery shopping service",
-      "Jotform booking system",
-      "non-medical errand service",
-      "AI form builder"
-    ],
-    "cost": "Very low (a Jotform account; an AI-assisted form-builder tool to generate the booking system)",
-    "found": "Giganomic Era",
-    "what": "Offer a senior grocery shopping and delivery service: the client sends a grocery list, you shop, communicate substitutions, then deliver. Build a structured online booking form (via Jotform, generated with an AI form-builder tool from a provided prompt) collecting: customer/delivery details, preferred store and scheduling; a categorized grocery list (produce, meat/seafood, dairy, pantry, frozen, household) with a photo-upload option so the shopper can see exactly what's wanted; a pre-set substitution preference (contact first, choose closest replacement, or skip) decided before shopping begins; an integrated payment gateway collecting the service fee separately from the grocery bill; and a terms-of-service plus signed client authorization page confirming shopping/substitution instructions and budget before any shopping happens. Price as a flat minimum ($35-40) or hourly ($30-40/hour). Market to adult children of seniors living elsewhere, 55+ communities, healthcare agencies, and senior centers, positioning it as trustworthy local assistance, not generic delivery.",
-    "pitch": "The presenter builds and demonstrates the entire booking system live on screen, framing the specific documentation details (pre-decided substitution handling, a signed authorization before shopping starts) as what separates a real, professional service from someone simply saying 'I grocery shop for seniors'; he targets adult children living far from an aging parent as the ideal customer, since they want someone trustworthy and consistent, not another delivery app.",
-    "best": "Someone with a reliable vehicle and phone comfortable with detail-oriented, repeat client-service work, willing to prospect through senior-focused organizations.",
-    "truth": "Jotform and AI-assisted form-building tools are real and technically accurate as demonstrated, and the specific system components (categorized list, photo uploads, pre-set substitution handling, signed authorization) are genuinely thoughtful, practical details. No independently verified revenue figures are given; the video promotes the presenter's own paid membership where the ready-built form is provided, and a comment-to-enter giveaway, though the underlying concept is independently buildable.",
-    "url": "https://www.youtube.com/watch?v=kRUi4cudsss",
-    "video_title": "If You Can Grocery Shop, You Can Start This $40/Hour Senior Service",
-    "filters": [
-      "older",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
-      "noai"
-    ]
-  },
-  {
     "id": "notion-template-niche-gumroad-pinterest",
     "name": "Building a niche-specific Notion template with Notion AI and selling it on Gumroad, driven by Pinterest traffic",
     "title": "Notion Templates on Gumroad",
@@ -25206,35 +22819,6 @@
       "nocamera",
       "noinventory",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "guillotine-shear-stone-cutting-service",
-    "name": "Offering precision brick and paver cutting with a manual guillotine shear for hardscape crews",
-    "title": "Brick and Paver Cutting",
-    "category": "Local & professional services",
-    "tags": [
-      "stone cutting service",
-      "hardscaping",
-      "manual guillotine shear",
-      "no power tool trade"
-    ],
-    "cost": "Very low ($300-500 for the tool)",
-    "found": "HIDDEN WEALTH",
-    "what": "Use a manual guillotine-style stone shear (no gas, batteries, or power cords \u2014 pure mechanical lever pressure) to cut bricks, pavers, and stone blocks cleanly for hardscape crews, avoiding the dust, noise, and diamond-blade cost of a gas cutoff saw.",
-    "pitch": "Charges around $100/hour or $100-150/day as a specialty add-on line item, targeting hardscape contractors building outdoor kitchens/patios, commercial landscaping crews laying paver walkways, and custom home builders doing high-end stone work.",
-    "best": "Someone wanting the lowest-capital, lowest-maintenance entry on this list, comfortable doing physical lever-operated cutting work.",
-    "truth": "Manual guillotine stone shears are a real, established hardscaping tool, and the clean-cut value proposition (versus a messy gas saw) is a genuine trade advantage. Pricing figures are general industry framing.",
-    "url": "https://www.youtube.com/watch?v=FZsZDyi1dSM",
-    "video_title": "10 Construction Machines That Can Make You Serious Money (No Experience Needed)",
-    "published": "2026-08-24",
-    "filters": [
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -25538,36 +23122,6 @@
       "nocamera",
       "noinventory",
       "novisits",
-      "noai"
-    ]
-  },
-  {
-    "id": "apartment-valet-trash-service",
-    "name": "Running a valet trash collection service for apartment complexes",
-    "title": "Apartment Valet Trash",
-    "category": "Local & professional services",
-    "tags": [
-      "valet trash service",
-      "apartment complex amenity",
-      "B2B service contract"
-    ],
-    "cost": "Very low (insurance and hiring part-time workers; no storefront or inventory)",
-    "found": "Jack Harrison Explains",
-    "what": "Sign a B2B contract with an apartment complex property manager to collect residents' trash bags left outside their doors each evening and wheel them to the dumpster, hiring part-time workers (often college students earning around $20/hour for a 2-hour evening shift) to do the actual collection while you hold the contract.",
-    "pitch": "Properties pay the service $8-15 per unit per month and then charge residents $20-35 for it as an amenity; the presenter cites a real listing of an owner-operator running this across roughly 1,400 units generating $15,000/month on two long-term assignable contracts, with a startup checklist of just a phone call, insurance, and two reliable workers.",
-    "best": "Someone comfortable pitching property managers on B2B service contracts and managing part-time hourly workers, without needing to do the physical collection themselves.",
-    "truth": "Valet trash service for apartment complexes is a real, established amenity business model with genuine 3-5 year B2B contracts common in the industry. The cited 1,400-unit example is one real listing, not independently audited, but the low-barrier startup description is consistent with how this business is typically entered.",
-    "url": "https://www.youtube.com/watch?v=yg3Z6GiWUA4",
-    "video_title": "These 15 Businesses Are Automated, Boring, and Almost Impossible to Fail",
-    "published": "2026-07-23",
-    "filters": [
-      "older",
-      "parent",
-      "health",
-      "outside",
-      "lowcost",
-      "nocamera",
-      "noinventory",
       "noai"
     ]
   },
@@ -27224,34 +24778,6 @@
     ]
   },
   {
-    "id": "bulky-item-return-reselling-sharetown",
-    "name": "Reselling returned bulky items (mattresses, furniture) via Sharetown",
-    "title": "Returned Furniture Reselling",
-    "category": "E-commerce",
-    "tags": [
-      "reselling",
-      "returns",
-      "no upfront inventory",
-      "very low startup cost"
-    ],
-    "cost": "Very low startup cost (no inventory cost upfront; requires a truck or cargo vehicle and storage space)",
-    "found": "Matt and Hannah Lee, via Sharetown (Side Hustle Nation)",
-    "what": "Sign up as a local rep with Sharetown, a platform that connects direct-to-consumer brands, mostly mattress-in-a-box companies, with people willing to pick up items a customer returned during a risk-free trial period, then resell those items locally. The brand can't cost-effectively take the item back into its own supply chain, so instead of it going to a landfill, a Sharetown rep picks it up and resells it, paying Sharetown only after the item actually sells.",
-    "pitch": "The underlying opportunity exists because of a real, structural logistics problem: direct-to-consumer mattress brands offer generous trial periods (commonly 100 nights) to remove the risk of buying sight-unseen, which drives real return volume, Consumer Reports is cited as finding roughly 7% of bed-in-a-box mattresses get returned, about three times the return rate of a brick-and-mortar retailer like Mattress Firm. A featured example, Matt and Hannah Lee, have run this as a full-time income for eight years, flipping 40-60 items a month and averaging $200-250 profit per item. Because there's no upfront inventory cost, the financial risk of a slow-moving item is much lower than typical reselling or liquidation-pallet businesses.",
-    "best": "Someone with a truck or cargo van and real storage space (a garage or similar) who's comfortable with genuinely physical work (lifting and transporting mattresses and furniture) and wants a low-financial-risk reselling model.",
-    "truth": "Sharetown's own reported figures (via a separate independent review) put the average rep's monthly income around $2,000 from about nine sales, with top-performing reps reaching up to $8,000 a month, a wide range that suggests results vary a great deal by local market and effort. The Lees' eight-year, full-time result is a real, named case study, but it represents an experienced high end, not a typical starting outcome. This is genuinely lower-risk than most reselling models since there's no upfront purchase, but it requires real physical capacity (a vehicle and storage) that a purely online reselling business wouldn't.",
-    "url": "https://www.sidehustlenation.com/return-reselling-side-hustle/",
-    "video_title": "$200/Flip: Inside the Return Reselling Side Hustle (Side Hustle Nation)",
-    "filters": [
-      "parent",
-      "outside",
-      "lowcost",
-      "nosales",
-      "nocamera",
-      "noai"
-    ]
-  },
-  {
     "id": "print-on-demand-decode-flip-design-method",
     "name": "A 'find, decode, flip' method for creating original best-selling T-shirt designs by reverse-engineering why proven designs sell, rather than copying them",
     "title": "Original Best-Selling T-Shirt Designs",
@@ -28525,31 +26051,6 @@
       "lowcost",
       "noinventory",
       "novisits"
-    ]
-  },
-  {
-    "id": "automated-wall-plastering-service-or-rental",
-    "name": "Offering automated wall plastering as a service or rental, with the construction site supplying all materials",
-    "title": "Automated Wall Plastering",
-    "category": "Local & professional services",
-    "tags": [
-      "automated wall plastering",
-      "zero-inventory service business",
-      "construction equipment rental"
-    ],
-    "cost": "Moderate to high ($2,800 for the machine)",
-    "found": "SUCCESSFUL ENTREPRENEUR",
-    "what": "Buy a self-moving wall plastering/rendering machine (extends up to 5m high, spreads cement plaster 3-30mm thick, covers 1,000 square meters in 8 hours versus weeks by hand) and run it as either a direct service (show up, plaster the walls, charge per square meter) or a rental (contractors who need it for a few days rent rather than buy); uniquely on this list, the construction site supplies all the cement and sand, so you never buy raw material, hold inventory, or need warehouse space.",
-    "pitch": "The presenter saved this for last specifically because of the zero-raw-material structure \u2014 every other machine on the list requires buying some input (foil, plastic, thread, plants), while this one only requires your time and the machine, charging for speed itself rather than a produced good.",
-    "best": "Someone comfortable operating construction equipment directly, or managing a rental rotation across multiple job sites.",
-    "truth": "Automated plastering/rendering machines are real, current construction equipment, and the described service-vs-rental dual model matches how specialized construction equipment businesses typically operate. No specific revenue figures given; the productivity comparison (1,000 sqm/8hrs vs. weeks by hand) is the presenter's claim, not independently verified.",
-    "url": "https://www.youtube.com/watch?v=FHEqo_s0xrQ",
-    "video_title": "14 MACHINES You Can IMPORT from China That PAY BIG (ZERO Experience Needed)",
-    "filters": [
-      "outside",
-      "nocamera",
-      "noinventory",
-      "noai"
     ]
   },
   {
