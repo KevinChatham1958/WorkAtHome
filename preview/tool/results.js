@@ -207,8 +207,18 @@ $('apply').addEventListener('click', () => {
 });
 // Height of the locked top row, so the count bar and filters line up just below it.
 function setHeaderHeight() { document.documentElement.style.setProperty('--hdr', document.querySelector('.results-head').offsetHeight + 'px'); }
+// The filter column is only as tall as the screen space below where it currently sits,
+// so its last boxes can always be scrolled into view (at the top of the page it sits lower).
+function fitFilters() {
+  const f = $('filters');
+  if (window.innerWidth <= 860) { f.style.removeProperty('--fmax'); return; }
+  const top = Math.max(f.getBoundingClientRect().top, 0);
+  f.style.setProperty('--fmax', Math.max(window.innerHeight - top - 12, 240) + 'px');
+}
 setHeaderHeight();
-window.addEventListener('resize', setHeaderHeight);
+fitFilters();
+window.addEventListener('resize', () => { setHeaderHeight(); fitFilters(); });
+window.addEventListener('scroll', fitFilters, { passive: true });
 // A soft shadow under the count bar once it sticks to the top.
 window.addEventListener('scroll', () => {
   const s = document.querySelector('.sticky-top');

@@ -140,7 +140,7 @@ h1, h2, h3 { font-family: Outfit, system-ui, sans-serif; color: var(--navy); mar
   /* The top row (logo, search, Saved, About) stays locked at the top; the count bar and filters sit just below it. */
   .results-head { position: sticky; top: 0; z-index: 10; box-shadow: 0 1px 0 var(--line); }
   .results-page .sticky-top { top: var(--hdr, 70px); }
-  .filters { position: sticky; top: calc(var(--hdr, 70px) + 12px); max-height: calc(100vh - var(--hdr, 70px) - 24px); overflow-y: auto; overscroll-behavior: contain; padding-right: 4px; scrollbar-width: thin; }
+  .filters { position: sticky; top: calc(var(--hdr, 70px) + 12px); max-height: var(--fmax, calc(100vh - var(--hdr, 70px) - 24px)); overflow-y: auto; padding-right: 4px; scrollbar-width: thin; }
 }
 .fbox { background: #FFFFFF; border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
 .fbox h2 { font-size: 18px; margin-bottom: 2px; }
