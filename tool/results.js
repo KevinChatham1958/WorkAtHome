@@ -1,4 +1,4 @@
-// Results page for the redesign preview (/preview/tool/).
+// The gig browser (/tool/): gigs first, filters in a column on the left.
 //
 // Gigs show first; filters sit in a column on the left (a "Filters" button on phones).
 // - Type of gig: tick one or more categories (none ticked = all).
@@ -26,6 +26,10 @@ let ALL = [], SHUFFLED = [], pageIds = new Set(), LAST_N = 0;
 const st = { cats: new Set(), chips: new Set(), q: '', sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set(), pin: null, kind: '' };
 let saved = new Set(loadSaved());
 const $ = id => document.getElementById(id);
+
+// ---------- Analytics (Google Analytics 4 events, same names as the old tool) ----------
+function track(eventName, params) { try { if (typeof window.gtag === 'function') window.gtag('event', eventName, params || {}); } catch (e) {} }
+function ideaParams(i) { return { idea_id: i.id, idea_name: toTitleCase(i.name || ''), creator: i.found || '', idea_category: i.category || '' }; }
 
 function loadSaved() { try { return JSON.parse(localStorage.getItem(SAVED_KEY) || '[]'); } catch (e) { return []; } }
 function persistSaved() { try { localStorage.setItem(SAVED_KEY, JSON.stringify([...saved])); } catch (e) {} }
@@ -76,6 +80,24 @@ function results() {
 }
 function byDate(a, b) { const da = a.published || '', db = b.published || ''; if (!da && !db) return 0; if (!da) return 1; if (!db) return -1; return st.sort === 'oldest' ? da.localeCompare(db) : db.localeCompare(da); }
 
+// ---------- Download saved gigs as a text file ----------
+function gigText(i) {
+  return `${toTitleCase(i.name)}\n${i.category} | ${i.cost}\nSource: ${i.found}${i.video_title ? ` · "${i.video_title}"` : ''} — ${i.url}\n\nWhat It Is\n${i.what}\n\nThe Pitch\n${i.pitch}\n\nBest For\n${i.best}\n\nOur Opinion\n${i.truth}\n`;
+}
+function downloadSaved() {
+  const list = ALL.filter(i => saved.has(i.id));
+  if (!list.length) return;
+  track('download_saved', { saved_count: list.length });
+  const body = list.map(gigText).join('\n' + '-'.repeat(40) + '\n\n');
+  const header = `Side Hustle Intel — Saved Gigs\nExported ${new Date().toLocaleString()}\n\n${'='.repeat(40)}\n\n`;
+  const url = URL.createObjectURL(new Blob([header + body], { type: 'text/plain;charset=utf-8' }));
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `side-hustle-intel-saved-gigs-${new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19)}.txt`;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
 // ---------- Rendering ----------
 function fmtDate(d) { if (!d) return ''; const dt = new Date(d + 'T00:00:00Z'); return isNaN(dt) ? '' : dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }); }
 function oneLine(t) { const s = String(t || '').trim(); const m = s.match(/^.+?[.!?](?=\s|$)/); return m ? m[0] : s; }
@@ -107,7 +129,7 @@ function gigHtml(i) {
       <div><h4>Best for</h4><p>${esc(i.best)}</p></div>
       <div><h4>Our opinion</h4><p>${esc(i.truth)}</p></div>
       <div class="foot">
-        <a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.video_title || 'Watch the source video')} ↗</a>
+        <a class="source-link" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.video_title || 'Watch the source video')} ↗</a>
         <button type="button" class="small-btn" data-act="copy">Copy this gig</button>
         ${pageIds.has(i.id) ? `<a href="/ideas/${encodeURIComponent(i.id)}/">Open on its own page →</a>` : ''}
       </div>
@@ -148,7 +170,10 @@ function render() {
   $('apply').textContent = n ? `Show ${n.toLocaleString()} gig${n === 1 ? '' : 's'}` : 'No gigs match';
 
   const act = [];
-  if (st.savedOnly) act.push(`<button type="button" class="chip-x" data-x="saved">Saved only ×</button>`);
+  if (st.savedOnly) {
+    act.push(`<button type="button" class="chip-x" data-x="saved">Saved only ×</button>`);
+    if (saved.size) act.push(`<button type="button" class="small-btn" data-x="download">Download my saved gigs</button>`);
+  }
   if (st.q.trim()) act.push(`<button type="button" class="chip-x" data-x="q">“${esc(st.q.trim())}” ×</button>`);
   if (kindActive()) act.push(`<button type="button" class="chip-x" data-x="kind">${esc(KINDS[st.kind].name)} gigs ×</button>`);
   else st.cats.forEach(c => act.push(`<button type="button" class="chip-x" data-x="cat" data-v="${esc(c)}">${esc(CAT_BY_NAME[c].name)} ×</button>`));
@@ -184,10 +209,13 @@ $('filters').addEventListener('change', e => {
   if (t.dataset.cat) { t.checked ? st.cats.add(t.dataset.cat) : st.cats.delete(t.dataset.cat); st.kind = ''; }
   if (t.dataset.chip) t.checked ? st.chips.add(t.dataset.chip) : st.chips.delete(t.dataset.chip);
   changed();
+  if (t.checked && t.dataset.cat) track('filter_category', { idea_category: t.dataset.cat, gigs_found: results().length });
+  if (t.checked && t.dataset.chip) track('filter_chip', { chip: SIT_LABEL[t.dataset.chip], chips_on: st.chips.size, gigs_found: results().length });
 });
 $('active').addEventListener('click', e => {
   const b = e.target.closest('[data-x]'); if (!b) return;
   const x = b.dataset.x;
+  if (x === 'download') { downloadSaved(); return; }
   if (x === 'saved') st.savedOnly = false;
   if (x === 'q') { st.q = ''; $('q').value = ''; }
   if (x === 'cat') { st.cats.delete(b.dataset.v); st.kind = ''; }
@@ -196,7 +224,11 @@ $('active').addEventListener('click', e => {
   if (x === 'all') { st.savedOnly = false; st.q = ''; $('q').value = ''; st.cats.clear(); st.chips.clear(); st.kind = ''; }
   changed();
 });
-$('search-form').addEventListener('submit', e => { e.preventDefault(); st.q = $('q').value; changed(); $('q').blur(); });
+$('search-form').addEventListener('submit', e => {
+  e.preventDefault(); st.q = $('q').value; st.savedOnly = false; changed(); $('q').blur();
+  const q = st.q.trim().toLowerCase();
+  if (q) { const n = results().length; track('search', { search_term: q, results_found: n ? 'yes' : 'no', match_count: n }); }
+});
 $('sort').addEventListener('change', e => { st.sort = e.target.value; changed(); });
 $('more').addEventListener('click', () => { st.shown += PAGE; render(); });
 // Load the next 30 automatically as the visitor nears the bottom of the list (like the live tool).
@@ -245,14 +277,21 @@ $('filters-toggle').addEventListener('click', () => {
   $('filters-toggle').textContent = open ? 'Hide filters' : 'Filters';
 });
 $('list').addEventListener('click', e => {
-  const b = e.target.closest('[data-act]'); if (!b) return;
+  const b = e.target.closest('[data-act]');
+  if (!b) {
+    const link = e.target.closest('.source-link');
+    if (link) { const i = ALL.find(x => x.id === link.closest('.gig').dataset.id); if (i) track('source_click', Object.assign(ideaParams(i), { link_url: i.url })); }
+    return;
+  }
   const id = b.closest('.gig').dataset.id;
+  const idea = ALL.find(x => x.id === id);
   const act = b.dataset.act;
-  if (act === 'toggle') { st.open.has(id) ? st.open.delete(id) : st.open.add(id); render(); }
-  if (act === 'save') { saved.has(id) ? saved.delete(id) : saved.add(id); persistSaved(); render(); }
+  if (act === 'toggle') { const opening = !st.open.has(id); opening ? st.open.add(id) : st.open.delete(id); render(); if (opening) track('view_idea', ideaParams(idea)); }
+  if (act === 'save') { if (saved.has(id)) saved.delete(id); else { saved.add(id); track('save_idea', ideaParams(idea)); } persistSaved(); render(); }
   if (act === 'copy') {
     const i = ALL.find(x => x.id === id);
-    const text = `${toTitleCase(i.name)}\n${i.category} | ${i.cost}\nSource: ${i.found} — ${i.url}\n\nWhat It Is\n${i.what}\n\nThe Pitch\n${i.pitch}\n\nBest For\n${i.best}\n\nOur Opinion\n${i.truth}\n`;
+    const text = gigText(i);
+    track('copy_idea', ideaParams(i));
     navigator.clipboard && navigator.clipboard.writeText(text).then(() => { b.textContent = 'Copied ✓'; setTimeout(() => { b.textContent = 'Copy this gig'; }, 1800); });
   }
 });
@@ -269,6 +308,7 @@ function applyParams() {
   (p.get('f') || '').split(',').forEach(f => { if (SIT_LABEL[f.trim()]) st.chips.add(f.trim()); });
   const q = (p.get('q') || '').trim(); if (q) { st.q = q; $('q').value = q; }
   const open = p.get('open'); if (open && ALL.some(i => i.id === open)) { st.open.add(open); st.pin = open; }
+  if (q || open || st.cats.size || st.chips.size) track('link_landing', { search_term: q, idea_id: open || '', idea_category: [...st.cats].join(','), chips: [...st.chips].join(',') });
 }
 
 loadIdeas().then(data => {

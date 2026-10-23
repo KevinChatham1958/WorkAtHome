@@ -1,5 +1,4 @@
-/* Preview of the redesigned site (homepage, Gig Finder, results page).
-   Shared by /preview/, /preview/finder/ and /preview/tool/. */
+/* Site styles for the homepage (/) and the gig browser (/tool/). */
 :root {
   --ink: #17303F;
   --navy: #0F3D57;
@@ -23,8 +22,6 @@ h1, h2, h3 { font-family: Outfit, system-ui, sans-serif; color: var(--navy); mar
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
-/* Preview ribbon */
-.preview-ribbon { background: #FDE68A; color: #3F2D00; text-align: center; font-size: 14px; font-weight: 600; padding: 6px 12px; }
 
 /* Header */
 .site-header { border-bottom: 1px solid var(--line); background: #FFFFFF; }

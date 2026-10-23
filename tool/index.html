@@ -10,112 +10,81 @@
   gtag('config', 'G-DP5LDLD5VR');
 </script>
 <meta charset="UTF-8">
-<base href="/">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Search Work-at-Home Gigs — Side Hustle Intel</title>
+<title>Browse Work-at-Home Gigs — Side Hustle Intel</title>
 <link rel="canonical" href="https://sidehustleintel.org/tool/">
-<meta name="description" content="A free, searchable database of work-from-home business ideas sourced from creator videos.">
+<meta name="description" content="A free, searchable database of work-from-home business ideas from YouTube creators, each explained in plain English with our opinion.">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="home.css?v=20261012c">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/site.css?v=20261022">
 </head>
-<body>
+<body class="results-page">
 
-<!-- The home page has its own stylesheet and script (home.css, home.js).
-     styles.css and app.js are left in place because review.html and the
-     static idea/category/creator pages still use them. -->
-
-<header class="site-header">
+<header class="site-header results-head">
   <div class="wrap">
-    <a href="/"><img class="logo" src="assets/logo-horizontal-white.png" alt="SideHustleIntel.org"></a>
-    <div class="header-actions">
-      <a class="hdr-link" href="about.html">About</a>
-    </div>
+    <a href="/"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel" width="1782" height="169"></a>
+    <form class="search" id="search-form" role="search">
+      <label for="q" class="sr">Search gigs</label>
+      <input id="q" type="search" placeholder="Search a skill, idea or creator" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+    <nav class="nav" aria-label="Main">
+      <a href="#" class="nav-saved" id="saved-link">♥ Saved (<span id="saved-n">0</span>)</a>
+      <a href="/about.html">About</a>
+    </nav>
   </div>
 </header>
 
-<section class="intro">
-  <div class="wrap">
-    <h1 class="tool-title">The Work-at-Home Gig Finder</h1>
-    <p class="tool-sub">Currently <strong id="total-n">860 gigs</strong> from YouTube's top creators, explained in plain English.<br>Use this tool to narrow them down.</p>
-  </div>
-</section>
-
-<section class="doors" aria-label="Find gigs">
-  <div class="wrap doors-grid">
-    <div class="door finder">
-      <h2 class="door-title">Not sure where to start?</h2>
-      <p class="door-help">Tap whatever fits. Each tap narrows the list.</p>
-      <div class="chip-box">
-        <div class="chips" id="chips-me" role="group" aria-label="About me"></div>
-        <div class="chips" id="chips-want" role="group" aria-label="What I want"></div>
+<div class="results-body">
+  <div class="wrap layout">
+    <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Filters</button>
+    <aside class="filters" id="filters" aria-label="Filters">
+      <div class="fbox">
+        <h2>Type of gig you like</h2>
+        <p class="fhint">Tick any that interest you.</p>
+        <div id="cat-boxes"></div>
       </div>
-    </div>
-    <div class="door-or" aria-hidden="true"><span>OR</span></div>
-    <div class="door door-search">
-      <h2 class="door-title">Know what you're after?</h2>
-      <p class="door-help">Search a skill, an idea or a creator.</p>
-      <form class="search" id="search-form" role="search">
-        <div class="search-field">
-          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-          <input id="q" type="search" placeholder="Type here…" autocomplete="off" aria-label="Search gigs">
-          <button type="button" id="q-clear" aria-label="Clear search" hidden>×</button>
+      <div class="fbox">
+        <h2>Your situation</h2>
+        <p class="fhint">Tick any that fit you. Each one narrows the list.</p>
+        <div id="sit-boxes"></div>
+      </div>
+      <button type="button" class="btn btn-sm apply" id="apply">Show gigs</button>
+    </aside>
+
+    <main class="main">
+      <div class="sticky-top">
+      <div class="main-top">
+        <div>
+          <h1 id="heading">Work-at-home gigs</h1>
+          <p id="count" aria-live="polite">Loading gigs…</p>
         </div>
-        <button id="q-go" type="submit">Search</button>
-      </form>
-      <div class="try"><span>Try:</span>
-        <button type="button" data-try="pet care">pet care</button>
-        <button type="button" data-try="Etsy">Etsy</button>
-        <button type="button" data-try="bookkeeping">bookkeeping</button>
-        <button type="button" data-try="Mark Tilbury">Mark Tilbury</button>
+        <label class="sort">Sort by
+          <select id="sort">
+            <option value="shuffle">Shuffle</option>
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+          </select>
+        </label>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="searchbar" aria-label="Results">
-  <div class="wrap">
-    <div class="tally-bar">
-      <p class="found" id="found" aria-live="polite">Loading gigs…</p>
-      <div class="picks" id="picks" hidden></div>
-      <div class="saved-row" id="saved-row" hidden>
-        <span class="saved-n"><span class="heart" aria-hidden="true">♥</span> <span id="saved-n">0</span> saved</span>
-        <button type="button" class="saved-link" id="s-view">Show saved</button>
-        <button type="button" class="saved-link" id="s-download">Download</button>
-        <button type="button" class="saved-link" id="s-clear">Deselect all</button>
-        <span class="saved-confirm" id="s-confirm" hidden>Deselect all? <button type="button" class="saved-link danger" id="s-yes">Yes</button> <button type="button" class="saved-link" id="s-no">No</button></span>
+      <div class="active" id="active"></div>
       </div>
-      <button type="button" class="jump" id="jump">See them ↓</button>
-    </div>
+      <div id="list" style="display:flex;flex-direction:column;gap:14px"></div>
+      <div class="empty" id="empty" hidden></div>
+      <button type="button" class="btn btn-sm show-more" id="more" hidden>Show more gigs</button>
+      <div id="more-zone" aria-hidden="true" style="height:1px"></div>
+    </main>
   </div>
-</section>
-
-<main class="wrap">
-  <div class="results-line">
-    <div class="count" id="count" aria-live="polite"></div>
-    <label class="sort" for="sort">Sort by
-      <select id="sort"><option value="shuffle">Shuffle</option><option value="newest">Newest</option><option value="oldest">Oldest</option></select>
-    </label>
-  </div>
-  <p id="same-producer-note" class="same-producer-note" hidden></p>
-  <div class="list" id="list"></div>
-  <p class="empty" id="empty" hidden></p>
-  <div class="more" id="more" hidden><button type="button" id="more-btn">Show more gigs</button></div>
-</main>
+</div>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <p>Side Hustle Intel — every idea here is sourced from a real creator video, linked in the Source section of each entry.</p>
-    <p class="footer-cats">Browse by category: <a href="category/ai-automation/">AI &amp; automation</a> <a href="category/local-professional-services/">Local &amp; professional services</a> <a href="category/e-commerce/">E-commerce</a> <a href="category/marketing-content/">Marketing &amp; content</a> <a href="category/physical-print-products/">Physical &amp; print products</a> <a href="category/digital-subscription-products/">Digital &amp; subscription products</a> <a href="category/content-personal-brand/">Content &amp; personal brand</a></p>
-  </div>
+  <div class="wrap">© 2026 SideHustleIntel.org · <a href="/about.html">About</a> · Creator names are shown for reference only and imply no endorsement.</div>
 </footer>
 
-<button type="button" class="pill" id="pill" hidden></button>
-<div class="toast" id="toast" role="status" hidden></div>
-
-<script src="home.js?v=20261022a"></script>
+<script src="/site.js?v=20261022"></script>
+<script src="/tool/results.js?v=20261022"></script>
 </body>
 </html>

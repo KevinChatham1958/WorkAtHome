@@ -1,4 +1,4 @@
-// Shared data for the redesign preview (/preview/, /preview/finder/, /preview/tool/).
+// Shared data for the homepage (/) and the gig browser (/tool/).
 
 // The 7 database categories, with the friendlier names shown to visitors.
 // slug matches the /category/<slug>/ pages and the tool's ?cat= links.
@@ -14,8 +14,8 @@ const CATS = [
 const CAT_BY_SLUG = Object.fromEntries(CATS.map(c => [c.slug, c]));
 const CAT_BY_NAME = Object.fromEntries(CATS.map(c => [c.cat, c]));
 
-// Gig Finder question 1 groups. AI & automation sits in all three for now,
-// until those 74 gigs are sorted into product, service or audience.
+// Groups for ?kind= links (products / services / audience). AI & automation sits in
+// all three until those gigs are sorted into product, service or audience.
 const KINDS = {
   products: { name: 'Product', cats: ['digital-subscription-products', 'physical-print-products', 'e-commerce', 'ai-automation'] },
   services: { name: 'Service', cats: ['local-professional-services', 'marketing-content', 'ai-automation'] },
