@@ -41,6 +41,8 @@ function toTitleCase(str) {
     return lower.charAt(0).toUpperCase() + lower.slice(1);
   }).join(' ');
 }
+// Short headline (2-6 words) shown on cards; older entries fall back to the full name.
+function shortTitle(i) { return i.title || toTitleCase(i.name); }
 function hasTag(i, t) { return (i.filters || []).includes(t); }
 function avatarHtml(name, cls) {
   return `<img class="${cls}" src="/assets/avatars/avatar-${esc(slugify(name))}.jpg" alt="" loading="lazy" onerror="this.outerHTML='<span class=&quot;${cls}&quot; aria-hidden=&quot;true&quot;>${esc(initials(name))}</span>'">`;

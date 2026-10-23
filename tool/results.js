@@ -29,7 +29,7 @@ const $ = id => document.getElementById(id);
 
 // ---------- Analytics (Google Analytics 4 events, same names as the old tool) ----------
 function track(eventName, params) { try { if (typeof window.gtag === 'function') window.gtag('event', eventName, params || {}); } catch (e) {} }
-function ideaParams(i) { return { idea_id: i.id, idea_name: toTitleCase(i.name || ''), creator: i.found || '', idea_category: i.category || '' }; }
+function ideaParams(i) { return { idea_id: i.id, idea_name: shortTitle(i), creator: i.found || '', idea_category: i.category || '' }; }
 
 function loadSaved() { try { return JSON.parse(localStorage.getItem(SAVED_KEY) || '[]'); } catch (e) { return []; } }
 function persistSaved() { try { localStorage.setItem(SAVED_KEY, JSON.stringify([...saved])); } catch (e) {} }
@@ -46,7 +46,7 @@ function prefixLen(a, b) { const n = Math.min(a.length, b.length); let i = 0; wh
 function wordMatches(word, tok) { if (tok === word || stem(tok) === stem(word)) return true; if (tok.length >= 3 && word.length >= 3 && (tok.startsWith(word) || word.startsWith(tok))) return true; const s = Math.min(word.length, tok.length); return s >= 5 && prefixLen(word, tok) >= Math.ceil(s * 0.75); }
 function fieldHas(toks, w) { return toks.some(t => wordMatches(w, t)); }
 function scoreIdea(i, words) {
-  const name = tokenize(i.name), cat = tokenize(i.category), src = tokenize(i.found || '');
+  const name = tokenize((i.title || '') + ' ' + i.name), cat = tokenize(i.category), src = tokenize(i.found || '');
   const tags = [...(i.tags || []), ...(i.situation_tags || []), ...(i.search_terms || [])].flatMap(tokenize);
   const body = tokenize([i.what, i.pitch, i.best, i.truth].join(' '));
   let s = 0;
@@ -82,7 +82,7 @@ function byDate(a, b) { const da = a.published || '', db = b.published || ''; if
 
 // ---------- Download saved gigs as a text file ----------
 function gigText(i) {
-  return `${toTitleCase(i.name)}\n${i.category} | ${i.cost}\nSource: ${i.found}${i.video_title ? ` · "${i.video_title}"` : ''} — ${i.url}\n\nWhat It Is\n${i.what}\n\nThe Pitch\n${i.pitch}\n\nBest For\n${i.best}\n\nOur Opinion\n${i.truth}\n`;
+  return `${shortTitle(i)}\n${sentenceCase(i.name)}\n${i.category} | ${i.cost}\nSource: ${i.found}${i.video_title ? ` · "${i.video_title}"` : ''} — ${i.url}\n\nWhat It Is\n${i.what}\n\nThe Pitch\n${i.pitch}\n\nBest For\n${i.best}\n\nOur Opinion\n${i.truth}\n`;
 }
 function downloadSaved() {
   const list = ALL.filter(i => saved.has(i.id));
@@ -100,6 +100,10 @@ function downloadSaved() {
 
 // ---------- Rendering ----------
 function fmtDate(d) { if (!d) return ''; const dt = new Date(d + 'T00:00:00Z'); return isNaN(dt) ? '' : dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }); }
+function sentenceCase(s) { s = String(s || '').trim(); return s.charAt(0).toUpperCase() + s.slice(1); }
+// Line under the short title: the full name, unless it's already short (then it would just
+// repeat the title), in which case the first sentence of "What it is".
+function subLine(i) { return i.name.split(/\s+/).length > 6 ? sentenceCase(i.name) : oneLine(i.what); }
 function oneLine(t) { const s = String(t || '').trim(); const m = s.match(/^.+?[.!?](?=\s|$)/); return m ? m[0] : s; }
 
 function gigHtml(i) {
@@ -113,8 +117,8 @@ function gigHtml(i) {
     <div class="gig-top">
       ${avatarHtml(i.found, 'av')}
       <div class="gig-body" data-act="toggle" role="button" tabindex="0" aria-expanded="${isOpen}">
-        <h3>${esc(toTitleCase(i.name))}</h3>
-        ${isOpen ? '' : `<p class="one">${esc(oneLine(i.what))}</p>`}
+        <h3>${esc(shortTitle(i))}</h3>
+        <p class="one">${esc(subLine(i))}</p>
         <p class="meta">${esc(friendly)} · ${esc(shortCost(i.cost))} · ${esc(i.found)}${date ? ' · ' + esc(date) : ''}</p>
         ${labels.length ? `<div class="labels">${labels.map(l => `<span class="label">${l}</span>`).join('')}</div>` : ''}
       </div>

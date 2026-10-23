@@ -69,6 +69,16 @@ def title_case(s):
     return ' '.join(out)
 
 
+def short_title(x):
+    """The gig's short headline (2-6 words); falls back to the full name."""
+    return x.get('title') or title_case(x['name'])
+
+
+def sentence(s):
+    s = (s or '').strip()
+    return s[:1].upper() + s[1:]
+
+
 def slugify(name):
     """Same as slugifyProducer() in app.js."""
     s = re.sub(r'[^a-z0-9]+', '-', (name or '').lower())
@@ -396,7 +406,8 @@ def breadcrumb_schema(parts):
 # ---------- idea page ----------
 
 def idea_page(idea, site, ctx):
-    t = title_case(idea['name'])
+    t = title_case(idea['name'])          # full name: page title and search snippets
+    short = short_title(idea)             # short headline shown on the page
     url = f"{SITE}/ideas/{idea['id']}/"
     desc = trim(idea['what'], 155)
     date_txt = fmt_date(idea.get('published'))
@@ -423,7 +434,7 @@ def idea_page(idea, site, ctx):
     ]
 
     rel_items = ''.join(
-        f'<li><a href="{ctx.idea(x)}">{esc(title_case(x["name"]))}</a>'
+        f'<li><a href="{ctx.idea(x)}">{esc(short_title(x))}</a>'
         f'<small>{esc(x["found"])} &middot; {esc(x["cost"])}</small></li>' for x in rel)
     rel_block = ''
     if rel:
@@ -434,7 +445,7 @@ def idea_page(idea, site, ctx):
     creator_block = ''
     if others:
         items = ''.join(
-            f'<li><a href="{ctx.idea(x)}">{esc(title_case(x["name"]))}</a>'
+            f'<li><a href="{ctx.idea(x)}">{esc(short_title(x))}</a>'
             f'<small>{esc(x["category"])}</small></li>' for x in others[:5])
         creator_block = f"""<h2>More from {esc(idea['found'])}</h2>
     <ul class="link-list">{items}</ul>"""
@@ -460,7 +471,8 @@ def idea_page(idea, site, ctx):
     <div class="idea-head">
       {avatar}
       <div class="card-title-text">
-        <h1>{esc(t)}</h1>
+        <h1>{esc(short)}</h1>
+        {f'<p class="idea-dek" style="margin:4px 0 8px;font-size:1.05rem;line-height:1.45;color:#3C5260">{esc(sentence(idea["name"]))}</p>' if len(idea['name'].split()) > 6 else ''}
         <p class="card-meta">{esc(idea['category'])} &middot; {esc(idea['cost'])}</p>
         <p class="card-date">{f'Originally published {esc(date_txt)} &mdash; ' if date_txt else ''}{creator_name}</p>
       </div>
@@ -511,7 +523,7 @@ def idea_page(idea, site, ctx):
 
 def list_item(x, ctx, show):
     meta = x['found'] if show == 'creator' else x['category']
-    return (f'<li><a href="{ctx.idea(x)}">{esc(title_case(x["name"]))}</a>'
+    return (f'<li><a href="{ctx.idea(x)}">{esc(short_title(x))}</a>'
             f'<small>{esc(meta)} &middot; {esc(x["cost"])}</small>'
             f'<p>{esc(trim(x["what"], 180))}</p></li>')
 
