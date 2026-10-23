@@ -205,10 +205,15 @@ $('apply').addEventListener('click', () => {
   $('filters-toggle').textContent = 'Filters';
   document.querySelector('.main').scrollIntoView({ behavior: 'smooth', block: 'start' });
 });
+// Height of the locked top row, so the count bar and filters line up just below it.
+function setHeaderHeight() { document.documentElement.style.setProperty('--hdr', document.querySelector('.results-head').offsetHeight + 'px'); }
+setHeaderHeight();
+window.addEventListener('resize', setHeaderHeight);
 // A soft shadow under the count bar once it sticks to the top.
 window.addEventListener('scroll', () => {
   const s = document.querySelector('.sticky-top');
-  s.classList.toggle('stuck', s.getBoundingClientRect().top <= 0 && window.scrollY > 120);
+  const hdr = window.innerWidth > 860 ? document.querySelector('.results-head').offsetHeight : 0;
+  s.classList.toggle('stuck', s.getBoundingClientRect().top <= hdr + 1 && window.scrollY > 120);
 }, { passive: true });
 $('filters-toggle').addEventListener('click', () => {
   const open = $('filters').classList.toggle('open');
