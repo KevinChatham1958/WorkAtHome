@@ -19,7 +19,7 @@
     <a href="/preview/"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel" width="1782" height="169"></a>
     <nav class="nav" aria-label="Main">
       <a href="/about.html">About</a>
-      <a class="btn btn-sm" href="/preview/finder/">Gig Finder</a>
+      <a class="btn btn-sm" href="/preview/tool/">Browse gigs</a>
     </nav>
   </div>
 </header>
@@ -33,8 +33,8 @@
           <h1>WORK-AT-HOME gigs that fit your life, <span>without watching 100s of YouTube videos.</span></h1>
           <p class="lede">Every gig explained in plain English with our opinion.</p>
           <div class="cta">
-            <a class="btn" href="/preview/finder/">Start the Gig Finder →</a>
-            <span class="btn-note">Answer 2 quick questions, then browse the gigs that fit you.</span>
+            <a class="btn" href="/preview/tool/">Browse the gigs →</a>
+            <span class="btn-note">1000+ gigs. Tick what fits you to narrow the list.</span>
           </div>
         </div>
         <div class="hero-photo">
@@ -58,7 +58,7 @@
       <h2 class="section-title">A look inside: <span>1000+ gigs explained</span></h2>
       <h3 class="section-sub">Example gigs</h3>
       <div class="sample-box" id="samples"></div>
-      <div class="center cta-stack"><a class="btn" href="/preview/finder/">Start the Gig Finder →</a><span class="btn-note">Answer 2 quick questions, then browse the gigs that fit you.</span></div>
+      <div class="center cta-stack"><a class="btn" href="/preview/tool/">Browse the gigs →</a><span class="btn-note">1000+ gigs. Tick what fits you to narrow the list.</span></div>
     </div>
   </section>
 
@@ -86,8 +86,8 @@
   <section class="closer">
     <div class="wrap">
       <h2>We've watched the videos. Now find your gig.</h2>
-      <a class="btn" href="/preview/finder/">Start the Gig Finder →</a>
-            <span class="btn-note">Answer 2 quick questions, then browse the gigs that fit you.</span>
+      <a class="btn" href="/preview/tool/">Browse the gigs →</a>
+            <span class="btn-note">1000+ gigs. Tick what fits you to narrow the list.</span>
     </div>
   </section>
 </main>
@@ -99,9 +99,9 @@
 <script src="/preview/shared.js?v=4"></script>
 <script>
 const HOME_HIDE = new Set(['e-commerce', 'content-personal-brand']); // not shown as homepage tiles
-// Category tiles: each one opens the Gig Finder with question 1 already answered.
+// Category tiles: each one opens the gigs with that type already ticked.
 document.getElementById('tiles').innerHTML = CATS.filter(c => !HOME_HIDE.has(c.slug)).map(c =>
-  `<a class="tile" href="/preview/finder/?cat=${c.slug}"><span class="ph" aria-hidden="true">graphic</span><span><b>${esc(c.name)}</b><small>${esc(c.sub)}</small></span></a>`
+  `<a class="tile" href="/preview/tool/?cat=${c.slug}"><span class="ph" aria-hidden="true">graphic</span><span><b>${esc(c.name)}</b><small>${esc(c.sub)}</small></span></a>`
 ).join('') + `<a class="tile" href="/preview/tool/"><span class="ph" aria-hidden="true">graphic</span><span><b>Explore all gigs</b><small>New gigs added weekly</small></span></a>`;
 
 const FEATURED = ['Adam Enfroy', 'Patrick Dang', 'Mark Tilbury', 'Chris Koerner', 'Jesse Cunningham'];
