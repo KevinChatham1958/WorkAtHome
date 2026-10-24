@@ -6735,6 +6735,41 @@
     ]
   },
   {
+    "id": "ai-animated-explainer-reels-dm-automation",
+    "name": "AI-animated stick-figure explainer reels, auto-posted with comment-to-DM automation",
+    "title": "AI Animated Explainer Reels",
+    "category": "Content & personal brand",
+    "tags": [
+      "faceless content",
+      "animated explainers",
+      "instagram reels",
+      "dm automation"
+    ],
+    "cost": "Very low startup cost (a few dollars of video-generation credits per reel plus Claude and a paid Blotato plan)",
+    "found": "Sabrina Ramonov \ud83c\udf44",
+    "what": "You come up with a short explainer topic yourself, then have Claude (Cowork or Claude Code) connected to a video-generation service (fal.ai) design a recurring cartoon character, generate key frames, animate the clips, add a voiceover and stitch the reel, with you approving each stage. Claude then posts it to Instagram through Blotato and sets up an automation that DMs your link to anyone who comments a keyword.",
+    "pitch": "The video opens with a stick-figure animation channel said to make over $20,000 a month, and the guest (Mark of Automate with Mark) says AI can now produce that style of content end to end for about $3-4 per reel. The comment-keyword DM sends viewers to your offer or longer content, building followers along the way.",
+    "best": "Someone who likes explaining a topic simply and wants to grow a faceless channel that points to their own product or content.",
+    "truth": "The workflow is shown working, but the $20,000-a-month figure belongs to an established channel that wasn't built this way, and no earnings are shown for the AI version. Setup involves API keys and connector settings that trip people up, and AI clips can need fixes. Blotato is Sabrina Ramonov's own app, so the channel has a stake in recommending it.",
+    "url": "https://www.youtube.com/watch?v=hpLTLTAk-6w",
+    "video_title": "How to Build $20K/Month Faceless Channel (Without Higgsfield)",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-10-17",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits"
+    ]
+  },
+  {
     "id": "true-crime-story-collections-books-audiobooks",
     "name": "True crime story collections published as books and audiobooks",
     "title": "True Crime Story Books",
@@ -8811,6 +8846,41 @@
     ]
   },
   {
+    "id": "ai-seo-aeo-website-audit-monthly-retainer",
+    "name": "AI-run SEO and AI-search (AEO) website audits sold to local businesses, with a monthly retainer",
+    "title": "AI Website Audit Service",
+    "category": "Marketing & content",
+    "tags": [
+      "seo audit",
+      "aeo",
+      "claude chrome extension",
+      "local business"
+    ],
+    "cost": "Near-zero cost (Claude with the Chrome extension, or ChatGPT's)",
+    "found": "Alicia Lyttle",
+    "what": "You open a business's website (a local salon, for example) and run a detailed prompt through the Claude Chrome extension that has it crawl the site and produce a client-ready report on search engine optimization, visibility in AI answers like ChatGPT and Claude, and conversion problems, ranked by revenue impact. You send part of the report as a teaser, then sell the fixes and a monthly re-audit and maintenance plan.",
+    "pitch": "The creator says clients will pay for the report and then ask you to fix or rebuild the site, and suggests $500-2,000 a month for maintenance with small businesses and $1,500-5,000 with larger ones. She notes search is changing so fast that monthly audits are an easy sell.",
+    "best": "Someone who understands websites and online marketing basics and can explain recommendations to business owners.",
+    "truth": "AI can produce an impressive-looking audit quickly, but recommendations still need checking, and businesses judge you on results. The retainer prices are the creator's suggestions, not shown outcomes. Sending unsolicited audits works best when they're accurate and specific. The creator sells AI training programs and workshops and collected emails for the prompts.",
+    "url": "https://www.youtube.com/watch?v=2eB7p2i_1qY",
+    "video_title": "The Ultimate AI Side Hustle: Get Started In 24 Hours",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ],
+    "published": "2026-10-07",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nocamera",
+      "noinventory",
+      "novisits"
+    ]
+  },
+  {
     "id": "ai-voice-appointment-setter-lead-reactivation",
     "name": "AI voice appointment-setting and lead-reactivation agent for home service businesses",
     "title": "AI Voice Appointment Setter",
@@ -10695,6 +10765,41 @@
       "noinventory",
       "novisits",
       "noai"
+    ]
+  },
+  {
+    "id": "ai-agent-local-service-matchmaking-agency",
+    "name": "Local service matchmaking agency run by an AI agent that mines Facebook groups",
+    "title": "AI-Agent Matchmaking Agency",
+    "category": "Local & professional services",
+    "tags": [
+      "matchmaking",
+      "ai agents",
+      "facebook groups",
+      "referral fee"
+    ],
+    "cost": "Near-zero cost (a personal AI agent plan, from free to about $100-200 a month)",
+    "found": "Greg Isenberg",
+    "what": "You pick one service and one city (night nurses in Montreal, nannies, cleaners, plumbers) and have a personal AI agent such as Meta's Muse search public Facebook groups, Marketplace and Instagram for providers, rank them by quality signals and build a clean list. When a family or business needs someone, you match them and charge a success fee; the agent can also draft messages and, with a phone add-on, call and text.",
+    "pitch": "The creator says agencies already charge thousands to find providers by trawling Facebook groups by hand, and an agent cuts that cost so much you can charge less and still earn big margins. He argues the cleaned list becomes an asset you own, and that the business can grow into your own group, niche Instagram page and eventually software.",
+    "best": "Someone organized and good at judging people who wants to run a referral service from home in a specific local niche.",
+    "truth": "This is the creator's idea and a live demo, not a proven business; he didn't run one. Matching people for childcare or home care carries real responsibility: you'll need proper vetting, background checks and possibly agency licensing where you operate. Scraping groups and messaging members at scale can break platform rules. The episode is sponsored by Brex.",
+    "url": "https://www.youtube.com/watch?v=tpZOU1ugODQ",
+    "video_title": "Meta Muse Will Create 1,000 Millionaires",
+    "situation_tags": [
+      "Home office, client-facing",
+      "Phone/sales-based"
+    ],
+    "published": "2026-10-19",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nocamera",
+      "noinventory",
+      "novisits"
     ]
   },
   {
@@ -19453,6 +19558,41 @@
     ]
   },
   {
+    "id": "ai-built-niche-tool-low-ticket-skill-funnel",
+    "name": "AI-built niche tool sold through a $17 AI skill, a monthly subscription and a high-ticket upsell",
+    "title": "AI Tool With a Low-Ticket Funnel",
+    "category": "Digital & subscription products",
+    "tags": [
+      "micro saas",
+      "base44",
+      "sales funnel",
+      "ai skills"
+    ],
+    "cost": "Low startup cost (Claude or ChatGPT plus a Base44 plan, under about $100 a month; optional ad budget)",
+    "found": "Travis Stephenson",
+    "what": "You pick an outcome people want (more social reach, better Facebook ads, a faster HYROX race time), have AI research how experts get that result, and build it as a step-by-step tool in Base44. You then turn the same workflow into a standalone AI skill sold for about $17, offer the tool itself as a subscription, and invite buyers to a higher-priced done-for-you service.",
+    "pitch": "The creator says his ad-writing tool reached about $1,227 in monthly recurring revenue in under two weeks from a handful of posts on his personal Facebook page, with no ad spend. He says 20-30% of $17 buyers go on to buy the tool, which lets paid ads pay for themselves.",
+    "best": "Someone who knows what a specific audience struggles with and is willing to promote a small product consistently.",
+    "truth": "The revenue shown is real but small and came partly from an existing audience of about 15,000 creators. The conversion rates are the creator's own figures. Software you build inside a proprietary builder depends on that platform. The creator earns from Base44 sign-ups and offers his '50 Sales Sprint' program free in exchange for joining through his link.",
+    "url": "https://www.youtube.com/watch?v=kSCLS74w76Q",
+    "video_title": "This AI System Made Me $1,220 in 7 days... Here's How",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "published": "2026-10-20",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits"
+    ]
+  },
+  {
     "id": "print-on-demand-tshirts",
     "name": "Print-on-demand t-shirt business",
     "title": "Print-on-Demand T-Shirts",
@@ -23276,6 +23416,40 @@
       "noinventory",
       "novisits",
       "noai"
+    ]
+  },
+  {
+    "id": "federal-contracting-consultant-small-businesses",
+    "name": "Government contracting consultant who helps small businesses find and win federal contracts",
+    "title": "Federal Contracting Consultant",
+    "category": "Local & professional services",
+    "tags": [
+      "government contracts",
+      "consulting",
+      "sam.gov",
+      "proposal writing"
+    ],
+    "cost": "Near-zero cost (free government databases; training optional)",
+    "found": "GovClose | DoD Contract Academy",
+    "what": "You learn how federal buying works, using USASpending.gov to see what agencies buy and from whom, and SAM.gov to find solicitations and earlier 'sources sought' notices, then help existing businesses position for and respond to those opportunities as a consultant or freelancer. The video walks through this using laundry and dry-cleaning contracts as the example.",
+    "pitch": "The host, a former military acquisitions officer, says that if you don't already run a business that sells to the government, consulting for companies that do is faster to revenue than bidding yourself. He says responding to sources-sought notices early lets businesses shape requirements before the formal solicitation.",
+    "best": "Someone detail-oriented who enjoys rules and paperwork, ideally with procurement, government or proposal-writing experience.",
+    "truth": "The host is candid that government contracting is the longest, hardest sales process in the US and that he can't promise wins. Consulting income figures aren't given, and clients will expect real expertise in regulations. The channel sells a paid government contracting program (GovClose). The laundry services themselves are on-site work and aren't part of this gig.",
+    "url": "https://www.youtube.com/watch?v=nkeswSR54gs",
+    "video_title": "The $1M Business NOBODY Knows About (but anyone can start)",
+    "situation_tags": [
+      "Home office, client-facing"
+    ],
+    "published": "2026-10-22",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nocamera",
+      "noinventory",
+      "novisits"
     ]
   },
   {
@@ -28264,6 +28438,41 @@
       "noinventory",
       "novisits",
       "noai"
+    ]
+  },
+  {
+    "id": "build-ai-tools-for-creators-revenue-share",
+    "name": "Turning an established creator's know-how into an AI tool and partnering on sales",
+    "title": "AI Tools for Creators (Partnership)",
+    "category": "AI & automation",
+    "tags": [
+      "creator partnerships",
+      "ai tools",
+      "base44",
+      "revenue share"
+    ],
+    "cost": "Near-zero cost (AI tools and an app-builder plan)",
+    "found": "Travis Stephenson",
+    "what": "You find a creator with an engaged audience but nothing software-based to sell (his example is an account about improving marriages), map the steps they teach into a workflow, build that workflow into a simple AI tool, and partner with them to sell it to their followers.",
+    "pitch": "The creator says this is one of the two fastest ways he would make $500-1,000 in a month, because the creator already has the trust and audience and the tool can be built in a few hours with AI.",
+    "best": "Someone comfortable building with AI app builders and pitching creators on a partnership.",
+    "truth": "Partnering removes the hardest part, finding customers, but you need a clear written agreement on revenue split, ownership and support before building. Creators get many pitches, and results depend entirely on their audience's willingness to pay. The creator earns from Base44 sign-ups and promotes his own training program.",
+    "url": "https://www.youtube.com/watch?v=kSCLS74w76Q",
+    "video_title": "This AI System Made Me $1,220 in 7 days... Here's How",
+    "situation_tags": [
+      "Strictly in-home",
+      "Phone/sales-based"
+    ],
+    "published": "2026-10-20",
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nocamera",
+      "noinventory",
+      "novisits"
     ]
   },
   {
