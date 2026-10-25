@@ -21,7 +21,7 @@
 <link rel="canonical" href="https://sidehustleintel.org/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Work-at-Home Gigs That Fit Your Life — Without Watching 100s of YouTube Videos">
-<meta property="og:description" content="1000+ work-at-home gigs from hundreds of YouTube creators, explained in plain English with our opinion. Free, no sign-up.">
+<meta property="og:description" content="850+ work-at-home gigs from hundreds of YouTube creators, explained in plain English with our opinion. Free, no sign-up.">
 <meta property="og:url" content="https://sidehustleintel.org/">
 <meta property="og:image" content="https://sidehustleintel.org/assets/hero-home.webp">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
@@ -29,7 +29,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261022">
+<link rel="stylesheet" href="/site.css?v=20261025b">
 </head>
 <body>
 
@@ -38,7 +38,7 @@
     <a href="/"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel" width="1782" height="169"></a>
     <nav class="nav" aria-label="Main">
       <a href="/about.html">About</a>
-      <a class="btn btn-sm" href="/tool/">Browse gigs</a>
+      <a class="btn btn-sm" href="/tool/" data-cta="header">Find Gigs</a>
     </nav>
   </div>
 </header>
@@ -49,16 +49,16 @@
     <div class="wrap">
       <div class="hero-panel">
         <div class="hero-copy">
-          <h1>WORK-AT-HOME gigs that fit your life, <span>without watching 100s of YouTube videos.</span></h1>
-          <p class="lede">Every gig explained in plain English with our opinion.</p>
+          <p class="hero-kicker">HUGE Searchable Database</p>
+          <h1>WORK-AT-HOME GIGS <span>Skip the hours of YouTube videos.</span></h1>
+          <p class="lede"><strong>We watch the experts for you.</strong><br>All gigs summarized, categorized and sourced.</p>
           <div class="cta">
-            <a class="btn" href="/tool/">Browse the gigs →</a>
-            <span class="btn-note">1000+ gigs. Tick what fits you to narrow the list.</span>
+            <a class="btn btn-click" href="/tool/" data-cta="hero"><img src="/assets/click-hand-white.png" alt="" width="34" height="34">Click Here &bull; Find the Best Gigs For You!</a>
           </div>
         </div>
         <div class="hero-photo">
           <img src="/assets/hero-home.webp" alt="A man working on a laptop and taking notes at his home office desk" width="1400" height="933">
-          <div class="badge badge-1"><b>1000+</b><span>gigs explained</span></div>
+          <div class="badge badge-1"><b>850+</b><span>gigs explained</span></div>
           <div class="badge badge-2"><b>Hundreds</b><span>of YouTube creators</span></div>
         </div>
       </div>
@@ -74,10 +74,10 @@
   <!-- 3 · Sample gigs with tabs -->
   <section class="section">
     <div class="wrap">
-      <h2 class="section-title">A look inside: <span>1000+ gigs explained</span></h2>
+      <h2 class="section-title">A look inside: <span>850+ gigs explained</span></h2>
       <h3 class="section-sub">Example gigs</h3>
       <div class="sample-box" id="samples"></div>
-      <div class="center cta-stack"><a class="btn" href="/tool/">Browse the gigs →</a><span class="btn-note">1000+ gigs. Tick what fits you to narrow the list.</span></div>
+      <div class="center cta-stack"><a class="btn btn-click" href="/tool/" data-cta="middle"><img src="/assets/click-hand-white.png" alt="" width="34" height="34">Click Here &bull; Find the Best Gigs For You!</a><span class="btn-note">850+ gigs. Tick a few boxes about you to see your matches.</span></div>
     </div>
   </section>
 
@@ -96,7 +96,7 @@
   <!-- 8 · Category tiles -->
   <section class="section">
     <div class="wrap">
-      <h2 class="section-title">Featuring <span>1000+ gigs</span> from <span>hundreds of YouTube creators</span></h2>
+      <h2 class="section-title">Featuring <span>850+ gigs</span> from <span>hundreds of YouTube creators</span></h2>
       <div class="tiles" id="tiles"></div>
     </div>
   </section>
@@ -105,8 +105,8 @@
   <section class="closer">
     <div class="wrap">
       <h2>We've watched the videos. Now find your gig.</h2>
-      <a class="btn" href="/tool/">Browse the gigs →</a>
-            <span class="btn-note">1000+ gigs. Tick what fits you to narrow the list.</span>
+      <a class="btn btn-click" href="/tool/" data-cta="bottom"><img src="/assets/click-hand-white.png" alt="" width="34" height="34">Click Here &bull; Find the Best Gigs For You!</a>
+      <span class="btn-note">850+ gigs. Tick a few boxes about you to see your matches.</span>
     </div>
   </section>
 </main>
@@ -117,6 +117,8 @@
 
 <script src="/site.js?v=20261022b"></script>
 <script>
+// Count clicks on the main buttons (Google Analytics event cta_click, with which button).
+document.querySelectorAll('[data-cta]').forEach(a => a.addEventListener('click', () => { try { gtag('event', 'cta_click', { cta: a.dataset.cta }); } catch (e) {} }));
 const HOME_HIDE = new Set(['e-commerce', 'content-personal-brand']); // not shown as homepage tiles
 const TILE_ICON = { 'local-professional-services': 'services', 'digital-subscription-products': 'digital', 'marketing-content': 'marketing', 'physical-print-products': 'make', 'ai-automation': 'ai' };
 // Category tiles: each one opens the gigs with that type already ticked.
