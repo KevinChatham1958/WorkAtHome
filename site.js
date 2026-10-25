@@ -26,7 +26,7 @@ const SAVED_KEY = 'shi_saved_gigs'; // same key as the live tool, so saved gigs 
 
 function esc(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 function slugify(name) { return (name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60); }
-function initials(name) { return (name || '?').split(/\s+/).map(w => w[0]).join('').slice(0, 2).toUpperCase(); }
+function initials(name) { return (name || '?').split(/[^A-Za-z0-9]+/).filter(Boolean).map(w => w[0]).join('').slice(0, 2).toUpperCase(); }
 function shortCost(c) { return String(c || '').split(' (')[0]; }
 function shortCreator(f) { return String(f || '').split(' on ')[0]; }
 function toTitleCase(str) {
