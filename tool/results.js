@@ -82,7 +82,7 @@ function byDate(a, b) { const da = a.published || '', db = b.published || ''; if
 
 // ---------- Download saved gigs as a text file ----------
 function gigText(i) {
-  return `${shortTitle(i)}\n${sentenceCase(i.name)}\n${i.category} | ${i.cost}\nSource: ${i.found}${i.video_title ? ` · "${i.video_title}"` : ''} — ${i.url}\n\nWhat It Is\n${i.what}\n\nThe Pitch\n${i.pitch}\n\nBest For\n${i.best}\n\nOur Opinion\n${i.truth}\n`;
+  return `${shortTitle(i)}\n${sentenceCase(i.name)}\n${i.category} | ${i.cost}\nSource: ${i.found}${i.video_title ? ` · "${i.video_title}"` : ''} — ${i.url}\n\nWhat It Is\n${i.what}\n\nThe Pitch\n${i.pitch}\n\nBest For\n${i.best}\n\nThe Truth (as we see it)\n${i.truth}\n`;
 }
 function downloadSaved() {
   const list = ALL.filter(i => saved.has(i.id));
@@ -131,7 +131,7 @@ function gigHtml(i) {
       <div><h4>What it is</h4><p>${esc(i.what)}</p></div>
       <div><h4>The pitch</h4><p>${esc(i.pitch)}</p></div>
       <div><h4>Best for</h4><p>${esc(i.best)}</p></div>
-      <div><h4>Our opinion</h4><p>${esc(i.truth)}</p></div>
+      <div class="truth"><h4>The Truth <span>(as we see it)</span></h4><p>${esc(i.truth)}</p></div>
       <div class="foot">
         <a class="source-link" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.video_title || 'Watch the source video')} ↗</a>
         <button type="button" class="small-btn" data-act="copy">Copy this gig</button>
@@ -168,7 +168,7 @@ function render() {
   const n = list.length;
   $('heading').textContent = heading();
   const prev = $('count').dataset.n;
-  $('count').innerHTML = `<strong>${n.toLocaleString()} gig${n === 1 ? '' : 's'}</strong> · tap any gig for the full details and our opinion`;
+  $('count').innerHTML = `<strong>${n.toLocaleString()} gig${n === 1 ? '' : 's'}</strong> · tap any gig for the full write-up`;
   $('count').dataset.n = n;
   if (prev !== undefined && String(prev) !== String(n)) { const c = $('count'); c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); setTimeout(() => c.classList.remove('flash'), 50); }
   $('apply').textContent = n ? `Show ${n.toLocaleString()} gig${n === 1 ? '' : 's'}` : 'No gigs match';

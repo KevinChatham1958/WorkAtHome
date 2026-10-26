@@ -17,11 +17,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Side Hustle Intel — Find Work-at-Home Gigs That Fit Your Life</title>
-<meta name="description" content="Work-at-home gigs from hundreds of YouTube creators, each explained in plain English with our opinion and a link to the source video. Free, no sign-up.">
+<meta name="description" content="Work-at-home gigs from hundreds of YouTube creators, each explained in plain English, with the truth as we see it and a link to the source video. Free, no sign-up.">
 <link rel="canonical" href="https://sidehustleintel.org/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Work-at-Home Gigs That Fit Your Life — Without Watching 100s of YouTube Videos">
-<meta property="og:description" content="850+ work-at-home gigs from hundreds of YouTube creators, explained in plain English with our opinion. Free, no sign-up.">
+<meta property="og:description" content="850+ work-at-home gigs from hundreds of YouTube creators, explained in plain English, with the truth as we see it. Free, no sign-up.">
 <meta property="og:url" content="https://sidehustleintel.org/">
 <meta property="og:image" content="https://sidehustleintel.org/assets/hero-home.webp">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
@@ -29,7 +29,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261025c">
+<link rel="stylesheet" href="/site.css?v=20261025d">
 </head>
 <body>
 
@@ -88,7 +88,7 @@
       <div class="reasons">
         <div class="reason"><div><h3>No more sitting through the same ideas</h3><p>Skim a gig in seconds instead of watching another video that repeats what you've already heard.</p></div></div>
         <div class="reason"><div><h3>Never lose a good idea again</h3><p>Save the gigs you like and find them anytime, with a link back to the original video.</p></div></div>
-        <div class="reason"><div><h3>Our opinion on every gig</h3><p>In plain English, including when the creator sells a course.</p></div></div>
+        <div class="reason"><div><h3>The truth on every gig</h3><p>As we see it, backed by facts, including when the creator sells a course.</p></div></div>
       </div>
     </div>
   </section>
@@ -156,12 +156,13 @@ function pickSamples(list, test, n) {
 function firstSentence(t) { const x = String(t || '').trim(); const m = x.match(/^.+?[.!?](?=\s|$)/); return m ? m[0] : x; }
 function showTab(name) {
   const tagFor = { newest: 'New', lowcost: 'Low startup cost', services: 'Service', products: 'Product' }[name];
+  const sec = (label, text, cls) => `<span class="s-sec${cls ? ' ' + cls : ''}"><span class="s-lab">${label}</span><span class="s-txt">${esc(text)}</span></span>`;
   document.getElementById('samples').innerHTML = (SAMPLES[name] || []).map(i => {
     const who = shortCreator(i.found);
     return `<a class="sample" href="/tool/?open=${encodeURIComponent(i.id)}">
       <span class="s-head">${avatarHtml(who, 's-av')}<span><span class="tag">${tagFor}</span><span class="t">${esc(shortTitle(i))}</span></span></span>
-      <span class="s-what">${esc(firstSentence(i.what))}</span>
       <span class="pills"><span class="pill-s">From ${esc(who)}</span><span class="pill-s">${esc(shortCost(i.cost))}</span></span>
+      ${sec('What it is', i.what)}${sec('The pitch', i.pitch)}${sec('Best for', i.best)}${sec('The Truth <em>(as we see it)</em>', i.truth, 's-truth')}
       <span class="s-more">See the full write-up &rarr;</span>
     </a>`;
   }).join('');
@@ -174,7 +175,7 @@ loadIdeas().then(data => {
   const svc = new Set(['Local & professional services', 'Marketing & content']);
   const prod = new Set(['Digital & subscription products', 'Physical & print products', 'E-commerce']);
   SAMPLES = {
-    newest: pickSamples(newest, () => true, 6),
+    newest: pickSamples(newest, () => true, 3),
     lowcost: pickSamples(newest, i => hasTag(i, 'lowcost') && /^(near|very)/i.test(i.cost || ''), 6),
     services: pickSamples(newest, i => svc.has(i.category), 6),
     products: pickSamples(newest, i => prod.has(i.category), 6)
