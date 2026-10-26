@@ -498,10 +498,10 @@ def idea_page(idea, site, ctx):
         <p class="card-text">{esc(idea['pitch'])}</p>
       </div>
       <div class="card-section">
-        <div class="card-section-label">Best For</div>
+        <div class="card-section-label">Who It's Best For</div>
         <p class="card-text">{esc(idea['best'])}</p>
       </div>
-      <div class="card-section truth-box">
+      <div class="card-section">
         <div class="card-section-label">The Truth (as we see it)</div>
         <p class="card-text">{esc(idea['truth'])}</p>
       </div>

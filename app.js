@@ -649,7 +649,7 @@ function buildCard(idea) {
       </div>
 
       <div class="card-section">
-        <div class="card-section-label">Best For</div>
+        <div class="card-section-label">Who It's Best For</div>
         <p class="card-text">${escapeHtml(idea.best)}</p>
       </div>
 
@@ -718,7 +718,7 @@ function buildCard(idea) {
 }
 
 function formatGigText(idea) {
-  return `${toTitleCase(idea.name)}\n${idea.category} | ${idea.cost}\nSource: ${idea.found}${idea.video_title ? ` · "${idea.video_title}"` : ''} — ${idea.url}${videoIdeaCount(idea) > 1 ? ` (one of ${videoIdeaCount(idea)} ideas in this video)` : ''}\n\nWhat It Is\n${idea.what}\n\nThe Pitch\n${idea.pitch}\n\nBest For\n${idea.best}\n\nThe Truth (as we see it)\n${idea.truth}\n`;
+  return `${toTitleCase(idea.name)}\n${idea.category} | ${idea.cost}\nSource: ${idea.found}${idea.video_title ? ` · "${idea.video_title}"` : ''} — ${idea.url}${videoIdeaCount(idea) > 1 ? ` (one of ${videoIdeaCount(idea)} ideas in this video)` : ''}\n\nWhat It Is\n${idea.what}\n\nThe Pitch\n${idea.pitch}\n\nWho It's Best For\n${idea.best}\n\nThe Truth (as we see it)\n${idea.truth}\n`;
 }
 
 function downloadSavedGigs() {

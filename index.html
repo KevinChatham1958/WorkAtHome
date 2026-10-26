@@ -29,7 +29,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261025d">
+<link rel="stylesheet" href="/site.css?v=20261025e">
 </head>
 <body>
 
@@ -162,7 +162,7 @@ function showTab(name) {
     return `<a class="sample" href="/tool/?open=${encodeURIComponent(i.id)}">
       <span class="s-head">${avatarHtml(who, 's-av')}<span><span class="tag">${tagFor}</span><span class="t">${esc(shortTitle(i))}</span></span></span>
       <span class="pills"><span class="pill-s">From ${esc(who)}</span><span class="pill-s">${esc(shortCost(i.cost))}</span></span>
-      ${sec('What it is', i.what)}${sec('The pitch', i.pitch)}${sec('Best for', i.best)}${sec('The Truth <em>(as we see it)</em>', i.truth, 's-truth')}
+      ${sec('What it is', i.what)}${sec('The pitch', i.pitch)}${sec('Who it&rsquo;s best for', i.best)}${sec('The Truth <em>(as we see it)</em>', i.truth)}
       <span class="s-more">See the full write-up &rarr;</span>
     </a>`;
   }).join('');

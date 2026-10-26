@@ -82,7 +82,7 @@ function byDate(a, b) { const da = a.published || '', db = b.published || ''; if
 
 // ---------- Download saved gigs as a text file ----------
 function gigText(i) {
-  return `${shortTitle(i)}\n${sentenceCase(i.name)}\n${i.category} | ${i.cost}\nSource: ${i.found}${i.video_title ? ` · "${i.video_title}"` : ''} — ${i.url}\n\nWhat It Is\n${i.what}\n\nThe Pitch\n${i.pitch}\n\nBest For\n${i.best}\n\nThe Truth (as we see it)\n${i.truth}\n`;
+  return `${shortTitle(i)}\n${sentenceCase(i.name)}\n${i.category} | ${i.cost}\nSource: ${i.found}${i.video_title ? ` · "${i.video_title}"` : ''} — ${i.url}\n\nWhat It Is\n${i.what}\n\nThe Pitch\n${i.pitch}\n\nWho It's Best For\n${i.best}\n\nThe Truth (as we see it)\n${i.truth}\n`;
 }
 function downloadSaved() {
   const list = ALL.filter(i => saved.has(i.id));
@@ -130,11 +130,11 @@ function gigHtml(i) {
     ${isOpen ? `<div class="details">
       <div><h4>What it is</h4><p>${esc(i.what)}</p></div>
       <div><h4>The pitch</h4><p>${esc(i.pitch)}</p></div>
-      <div><h4>Best for</h4><p>${esc(i.best)}</p></div>
-      <div class="truth"><h4>The Truth <span>(as we see it)</span></h4><p>${esc(i.truth)}</p></div>
+      <div><h4>Who it's best for</h4><p>${esc(i.best)}</p></div>
+      <div><h4>The Truth (as we see it)</h4><p>${esc(i.truth)}</p></div>
       <div class="foot">
         <a class="source-link" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.video_title || 'Watch the source video')} ↗</a>
-        <button type="button" class="small-btn" data-act="copy">Copy this gig</button>
+        <button type="button" class="small-btn" data-act="copy">Copy this entire gig</button>
         ${pageIds.has(i.id) ? `<a href="/ideas/${encodeURIComponent(i.id)}/">Open on its own page →</a>` : ''}
       </div>
     </div>` : ''}
@@ -322,7 +322,7 @@ $('list').addEventListener('click', e => {
     const i = ALL.find(x => x.id === id);
     const text = gigText(i);
     track('copy_idea', ideaParams(i));
-    navigator.clipboard && navigator.clipboard.writeText(text).then(() => { b.textContent = 'Copied ✓'; setTimeout(() => { b.textContent = 'Copy this gig'; }, 1800); });
+    navigator.clipboard && navigator.clipboard.writeText(text).then(() => { b.textContent = 'Copied ✓'; setTimeout(() => { b.textContent = 'Copy this entire gig'; }, 1800); });
   }
 });
 $('list').addEventListener('keydown', e => {

@@ -90,12 +90,8 @@ a.creator:hover { color: var(--accent); }
 .s-av { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: #DCE8EE; color: var(--navy); font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
 .s-sec { display: flex; flex-direction: column; gap: 3px; border-top: 1px solid var(--line); padding-top: 10px; }
 .s-lab { font-family: Outfit, system-ui, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--navy); }
-.s-lab em { font-style: normal; font-weight: 600; text-transform: none; letter-spacing: 0; }
+.s-lab em { font-style: normal; text-transform: none; letter-spacing: 0; }
 .s-txt { font-size: 15px; line-height: 1.45; color: var(--body); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-.s-truth { background: var(--accent-tint); border-top: none; border-left: 4px solid var(--accent); border-radius: 6px; padding: 10px 12px; }
-.s-truth .s-lab { color: var(--accent-dark); }
-.details .truth { background: var(--accent-tint); border-left: 4px solid var(--accent); border-radius: 6px; padding: 10px 14px; }
-.details .truth h4 span { font-weight: 500; color: var(--accent-dark); }
 .s-more { margin-top: auto; font-size: 15px; font-weight: 600; color: var(--accent); }
 .pill-s { font-size: 13px; font-weight: 600; background: var(--tint2); color: var(--body); border-radius: 999px; padding: 4px 10px; }
 .center { display: flex; justify-content: center; margin-top: 28px; }
