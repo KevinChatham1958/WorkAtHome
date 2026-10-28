@@ -230,7 +230,6 @@
     "published": "2026-09-05",
     "filters": [
       "older",
-      "parent",
       "outside",
       "nocamera",
       "noinventory",
@@ -366,7 +365,6 @@
     "published": "2026-06-24",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -504,7 +502,6 @@
     "published": "2026-06-15",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -708,7 +705,6 @@
     "published": "2026-07-31",
     "filters": [
       "older",
-      "parent",
       "outside",
       "nosales",
       "nocamera",
@@ -743,7 +739,6 @@
     "published": "2026-09-05",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nocamera",
@@ -772,7 +767,6 @@
     "published": "2026-07-31",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -912,7 +906,6 @@
     "published": "2026-09-05",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nocamera",
@@ -1107,7 +1100,6 @@
     "published": "2026-07-31",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -1139,7 +1131,6 @@
     "published": "2026-09-08",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -1176,7 +1167,6 @@
     "published": "2024-02-19",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -1242,7 +1232,6 @@
     "published": "2026-09-05",
     "filters": [
       "older",
-      "parent",
       "outside",
       "lowcost",
       "nosales",
@@ -1274,7 +1263,6 @@
     "published": "2026-07-31",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -1306,7 +1294,6 @@
     "published": "2026-09-08",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -1537,7 +1524,6 @@
     "published": "2025-07-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -1568,7 +1554,6 @@
     "published": "2026-06-03",
     "filters": [
       "older",
-      "parent",
       "outside",
       "nocamera",
       "novisits",
@@ -1603,7 +1588,6 @@
     "published": "2026-09-05",
     "filters": [
       "older",
-      "parent",
       "outside",
       "lowcost",
       "nocamera",
@@ -1633,7 +1617,6 @@
     "published": "2026-07-31",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -1665,7 +1648,6 @@
     "published": "2026-09-08",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -1834,7 +1816,6 @@
     "published": "2026-07-31",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -2007,7 +1988,6 @@
     "published": "2026-09-05",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nosales",
@@ -2037,7 +2017,6 @@
     "published": "2026-07-31",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -2210,7 +2189,6 @@
     "published": "2025-09-12",
     "filters": [
       "older",
-      "parent",
       "outside",
       "lowcost",
       "nocamera",
@@ -2239,7 +2217,6 @@
     "published": "2026-07-31",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -2276,7 +2253,6 @@
     "published": "2026-09-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -2376,7 +2352,6 @@
     "published": "2026-06-03",
     "filters": [
       "older",
-      "parent",
       "outside",
       "nocamera",
       "noai"
@@ -2405,7 +2380,6 @@
     "published": "2025-09-12",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -2545,7 +2519,6 @@
     "published": "2026-07-15",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -2680,7 +2653,6 @@
     "published": "2026-09-14",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -2755,7 +2727,6 @@
     "published": "2026-09-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -2792,7 +2763,6 @@
     "published": "2026-09-16",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -2828,7 +2798,6 @@
     "published": "2026-02-05",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -2859,7 +2828,6 @@
     "published": "2026-06-03",
     "filters": [
       "older",
-      "parent",
       "outside",
       "nocamera",
       "noai"
@@ -2923,7 +2891,6 @@
     "published": "2026-09-14",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -3239,7 +3206,6 @@
     "published": "2026-09-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -3409,7 +3375,6 @@
     "published": "2026-09-14",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -3482,7 +3447,6 @@
     "published": "2026-09-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -3554,7 +3518,6 @@
     "published": "2026-02-05",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -3725,7 +3688,6 @@
     "published": "2026-09-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -3763,7 +3725,6 @@
     "published": "2026-09-15",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -3861,7 +3822,6 @@
     "published": "2025-09-12",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -3898,7 +3858,6 @@
     "published": "2026-09-14",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -4103,7 +4062,6 @@
     "published": "2025-09-12",
     "filters": [
       "older",
-      "parent",
       "outside",
       "nosales",
       "nocamera",
@@ -4137,7 +4095,6 @@
     "published": "2026-09-14",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -4249,7 +4206,6 @@
     "published": "2026-09-23",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -4286,7 +4242,6 @@
     "published": "2026-09-07",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -4318,7 +4273,6 @@
     "situation_tags": null,
     "filters": [
       "older",
-      "parent",
       "outside",
       "nocamera",
       "noai"
@@ -4454,7 +4408,6 @@
     "published": "2026-09-16",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -4492,7 +4445,6 @@
     "published": "2026-09-23",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -4631,7 +4583,6 @@
     "published": "2026-09-14",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -4740,7 +4691,6 @@
     "published": "2026-09-23",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -4776,7 +4726,6 @@
     "published": "2026-10-05",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -4808,7 +4757,6 @@
     "situation_tags": null,
     "filters": [
       "older",
-      "parent",
       "outside",
       "lowcost",
       "nosales",
@@ -4985,7 +4933,6 @@
     "published": "2026-09-24",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -5021,7 +4968,6 @@
     "published": "2026-10-05",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -5054,7 +5000,6 @@
     "situation_tags": null,
     "filters": [
       "older",
-      "parent",
       "outside",
       "nocamera",
       "novisits",
@@ -5231,7 +5176,6 @@
     "published": "2026-09-04",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -5334,7 +5278,6 @@
     "situation_tags": null,
     "filters": [
       "older",
-      "parent",
       "outside",
       "nocamera",
       "novisits",
@@ -5400,7 +5343,6 @@
     "published": "2026-04-06",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -5509,7 +5451,6 @@
     "published": "2026-09-02",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nocamera",
@@ -5611,7 +5552,6 @@
     "situation_tags": null,
     "filters": [
       "older",
-      "parent",
       "outside",
       "lowcost",
       "nocamera",
@@ -5676,7 +5616,6 @@
     "published": "2026-04-06",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -5785,7 +5724,6 @@
     "published": "2026-08-31",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -5957,7 +5895,6 @@
     "situation_tags": null,
     "filters": [
       "older",
-      "parent",
       "outside",
       "lowcost",
       "nocamera",
@@ -5987,7 +5924,6 @@
     "published": "2025-09-12",
     "filters": [
       "older",
-      "parent",
       "outside",
       "nosales",
       "nocamera",
@@ -6021,7 +5957,6 @@
     "published": "2026-04-20",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -6130,7 +6065,6 @@
     "published": "2026-09-08",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -6340,7 +6274,6 @@
     "situation_tags": null,
     "filters": [
       "older",
-      "parent",
       "outside",
       "lowcost",
       "nosales",
@@ -6407,7 +6340,6 @@
     "published": "2026-04-22",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -6623,7 +6555,6 @@
     "published": "2026-10-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -6757,7 +6688,6 @@
     "video_title": "54 Machines That Quietly Make Money While Everyone Ignores Them",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -6794,7 +6724,6 @@
     "published": "2026-04-27",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -6903,7 +6832,6 @@
     "published": "2026-08-18",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -7007,7 +6935,6 @@
     "published": "2026-10-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -7041,7 +6968,6 @@
     "published": "2026-08-10",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -7180,7 +7106,6 @@
     "situation_tags": null,
     "filters": [
       "older",
-      "parent",
       "outside",
       "lowcost",
       "nocamera",
@@ -7249,7 +7174,6 @@
     "published": "2026-05-12",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -7358,7 +7282,6 @@
     "published": "2026-10-06",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -7525,7 +7448,6 @@
     "published": "2026-01-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -7873,7 +7795,6 @@
     "published": "2026-08-26",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -7905,7 +7826,6 @@
     "published": "2025-12-19",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -7972,7 +7892,6 @@
     "published": "2026-07-10",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -8183,7 +8102,6 @@
     "published": "2026-08-12",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -8249,7 +8167,6 @@
     "published": "2026-09-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -8389,7 +8306,6 @@
     "published": "2026-10-17",
     "filters": [
       "older",
-      "parent",
       "outside",
       "nosales",
       "nocamera",
@@ -8532,7 +8448,6 @@
     "published": "2026-09-07",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -8774,7 +8689,6 @@
     "published": "2026-08-13",
     "filters": [
       "older",
-      "parent",
       "outside",
       "lowcost",
       "nosales",
@@ -8846,7 +8760,6 @@
     "published": "2026-08-12",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -8988,7 +8901,6 @@
     "published": "2026-08-16",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -9024,7 +8936,6 @@
     "published": "2026-08-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -9058,7 +8969,6 @@
     "published": "2026-08-07",
     "filters": [
       "older",
-      "parent",
       "outside",
       "lowcost",
       "nocamera",
@@ -9195,7 +9105,6 @@
     "published": "2026-10-07",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -9263,7 +9172,6 @@
     "situation_tags": null,
     "filters": [
       "older",
-      "parent",
       "outside",
       "lowcost",
       "nocamera",
@@ -9334,7 +9242,6 @@
     "published": "2026-06-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -9443,7 +9350,6 @@
     "published": "2026-09-01",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -9543,7 +9449,6 @@
     "published": "2026-08-14",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nocamera",
@@ -9607,7 +9512,6 @@
     "published": "2026-02-12",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -9642,7 +9546,6 @@
     "published": "2026-04-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -9748,7 +9651,6 @@
     "published": "2026-08-12",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -9892,7 +9794,6 @@
     "published": "2026-08-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -9928,7 +9829,6 @@
     "published": "2026-08-26",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -9995,7 +9895,6 @@
     "published": "2026-07-30",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -10060,7 +9959,6 @@
     "video_title": "This SINGLE Service Makes Him $700k/Year",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -10163,7 +10061,6 @@
     "published": "2026-09-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -10297,7 +10194,6 @@
     "published": "2026-09-04",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -10605,7 +10501,6 @@
     "published": "2026-08-24",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -10733,7 +10628,6 @@
     "published": "2026-07-18",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -10804,7 +10698,6 @@
     "published": "2026-04-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -10876,7 +10769,6 @@
     "published": "2026-10-07",
     "filters": [
       "older",
-      "parent",
       "lowcost",
       "nosales",
       "nocamera"
@@ -11054,7 +10946,6 @@
     "published": "2026-08-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -11157,7 +11048,6 @@
     "published": "2026-07-30",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -11218,7 +11108,6 @@
     "video_title": "This SINGLE Service Makes Him $700k/Year",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -11254,7 +11143,6 @@
     "published": "2026-08-26",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -11321,7 +11209,6 @@
     "published": "2026-09-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -11702,7 +11589,6 @@
     "published": "2026-09-01",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -11773,7 +11659,6 @@
     "published": "2026-10-19",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -11946,7 +11831,6 @@
     "published": "2025-04-01",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -12085,7 +11969,6 @@
     "published": "2026-07-22",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -12193,7 +12076,6 @@
     "published": "2026-08-12",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -12225,7 +12107,6 @@
     "published": "2025-12-19",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -12390,7 +12271,6 @@
     "published": "2026-04-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -12492,7 +12372,6 @@
     "published": "2026-08-12",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -12629,7 +12508,6 @@
     "published": "2026-06-27",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -12666,7 +12544,6 @@
     "published": "2026-09-16",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -12796,7 +12673,6 @@
     "video_title": "This SINGLE Service Makes Him $700k/Year",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -12832,7 +12708,6 @@
     "published": "2026-08-26",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -12898,7 +12773,6 @@
     "published": "2026-09-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -12928,7 +12802,6 @@
     "published": "2026-08-23",
     "filters": [
       "older",
-      "parent",
       "health",
       "lowcost",
       "nosales",
@@ -13592,7 +13465,6 @@
     "published": "2026-08-16",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nocamera",
@@ -13661,7 +13533,6 @@
     "published": "2026-06-19",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -13732,7 +13603,6 @@
     "published": "2026-08-17",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -13767,7 +13637,6 @@
     "published": "2026-08-14",
     "filters": [
       "older",
-      "parent",
       "health",
       "lowcost",
       "nocamera",
@@ -14051,7 +13920,6 @@
     "published": "2026-07-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -14162,7 +14030,6 @@
     "published": "2026-07-27",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nocamera",
@@ -14323,7 +14190,6 @@
     "published": "2026-09-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -14358,7 +14224,6 @@
     "published": "2026-04-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -14590,7 +14455,6 @@
     "video_title": "How I Built a 50k/mo AI Agency at 20 (copy me)",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -14626,7 +14490,6 @@
     "published": "2026-09-16",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -14757,7 +14620,6 @@
     "video_title": "This SINGLE Service Makes Him $700k/Year",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -14892,7 +14754,6 @@
     "published": "2026-08-23",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -15231,7 +15092,6 @@
     "published": "2026-09-01",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -15298,7 +15158,6 @@
     "published": "2026-09-10",
     "filters": [
       "older",
-      "parent",
       "outside",
       "lowcost",
       "nosales",
@@ -15434,7 +15293,6 @@
     "published": "2026-09-02",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -15540,7 +15398,6 @@
     "published": "2026-08-27",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nocamera",
@@ -15610,7 +15467,6 @@
     "published": "2026-06-19",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -15678,7 +15534,6 @@
     "published": "2026-09-07",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -15715,7 +15570,6 @@
     "published": "2026-08-14",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -15886,7 +15740,6 @@
     "published": "2026-08-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nocamera",
@@ -15919,7 +15772,6 @@
     "published": "2026-04-09",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -16027,7 +15879,6 @@
     "published": "2026-08-27",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -16060,7 +15911,6 @@
     "published": "2026-08-17",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -16167,7 +16017,6 @@
     "published": "2026-08-13",
     "filters": [
       "older",
-      "parent",
       "health",
       "lowcost",
       "nocamera",
@@ -16329,7 +16178,6 @@
     "video_title": "20 Remote Jobs You Can Start This Month With No Experience",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -16395,7 +16243,6 @@
     "published": "2026-05-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -16572,7 +16419,6 @@
     "published": "2026-10-17",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nosales",
@@ -16844,7 +16690,6 @@
     "published": "2026-07-18",
     "filters": [
       "older",
-      "parent",
       "health",
       "lowcost",
       "nosales",
@@ -16880,7 +16725,6 @@
     "published": "2026-09-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -16915,7 +16759,6 @@
     "published": "2026-04-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -16977,7 +16820,6 @@
     "published": "2026-10-07",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -17148,7 +16990,6 @@
     "video_title": "2 Boring AI Systems That Sell For $8000+ Right Now (With PROOF)",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -17312,7 +17153,6 @@
     "video_title": "This SINGLE Service Makes Him $700k/Year",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -17414,7 +17254,6 @@
     "published": "2026-09-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -17853,7 +17692,6 @@
     "published": "2026-09-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "nocamera",
       "noinventory"
@@ -18225,7 +18063,6 @@
     "video_title": "Build It Once, Sell It 100 Times: The AI Business Model",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -18260,7 +18097,6 @@
     "published": "2026-08-14",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -18431,7 +18267,6 @@
     "published": "2026-08-26",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nocamera",
@@ -18539,7 +18374,6 @@
     "published": "2026-07-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -18571,7 +18405,6 @@
     "published": "2026-09-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -18711,7 +18544,6 @@
     "published": "2026-08-12",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -18871,7 +18703,6 @@
     "video_title": "Where to Find AI Freelancing Jobs",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -18937,7 +18768,6 @@
     "published": "2026-05-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -19171,7 +19001,6 @@
     "published": "2026-08-24",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -19245,7 +19074,6 @@
     "published": "2026-07-30",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -19386,6 +19214,7 @@
     "published": "2024-08-01",
     "filters": [
       "older",
+      "parent",
       "nocamera",
       "novisits",
       "noai"
@@ -19802,7 +19631,6 @@
     "published": "2026-08-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -19967,7 +19795,6 @@
     "published": "2026-08-13",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -20035,7 +19862,6 @@
     "published": "2026-07-07",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -20201,7 +20027,6 @@
     "video_title": "The Biggest AI Opportunities Are Hiding in Boring Businesses",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -20273,7 +20098,6 @@
     "published": "2026-07-29",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -20346,7 +20170,6 @@
     "published": "2026-10-05",
     "filters": [
       "older",
-      "parent",
       "lowcost",
       "noinventory"
     ]
@@ -20662,7 +20485,6 @@
     "published": "2026-06-08",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nocamera",
@@ -20876,7 +20698,6 @@
     "published": "2026-08-04",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -20911,7 +20732,6 @@
     "published": "2026-07-25",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -20979,7 +20799,6 @@
     "published": "2026-10-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -21010,7 +20829,6 @@
     "published": "2026-07-18",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -21048,7 +20866,6 @@
     "published": "2026-09-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -21154,7 +20971,6 @@
     "published": "2026-10-07",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -21189,7 +21005,6 @@
     "published": "2026-08-23",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -21332,7 +21147,6 @@
     "published": "2026-10-05",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -21368,7 +21182,6 @@
     "published": "2026-09-16",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -21397,7 +21210,6 @@
     "video_title": "10 BORING BUSINESSES That Quietly Make Money",
     "filters": [
       "older",
-      "parent",
       "health",
       "lowcost",
       "nocamera",
@@ -21596,7 +21408,6 @@
     "published": "2026-09-13",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -21980,7 +21791,6 @@
     "published": "2026-09-01",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -22050,7 +21860,6 @@
     "published": "2026-09-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -22296,7 +22105,6 @@
     "published": "2026-09-09",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nocamera",
@@ -22434,7 +22242,6 @@
     "published": "2026-08-28",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nocamera",
@@ -22465,7 +22272,6 @@
     "published": "2026-08-27",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -22640,7 +22446,6 @@
     "published": "2026-09-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -22676,7 +22481,6 @@
     "published": "2026-09-07",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -22749,7 +22553,6 @@
     "published": "2026-07-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -22785,7 +22588,6 @@
     "published": "2026-10-01",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nocamera",
@@ -22919,7 +22721,6 @@
     "video_title": "I Set Up A Client's Entire AI System In 60 Seconds (LIVE Demo)",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -23086,7 +22887,6 @@
     "published": "2026-09-24",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -23154,7 +22954,6 @@
     "video_title": "This ONE AI Agent Makes me $96,000/Month: Ultimate Build & Sell Guide",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -23426,7 +23225,6 @@
     "published": "2026-09-30",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "noinventory",
@@ -23456,7 +23254,6 @@
     "published": "2026-09-12",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -23828,7 +23625,6 @@
     "published": "2026-09-03",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nosales",
@@ -23996,7 +23792,6 @@
     "published": "2026-08-29",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -24166,7 +23961,6 @@
     "published": "2026-08-10",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -24229,7 +24023,6 @@
     "video_title": "STOP Cold Selling to Local Businesses! Do This Instead...",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -24300,7 +24093,6 @@
     "published": "2026-06-30",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -24472,7 +24264,6 @@
     "published": "2026-09-27",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -24764,7 +24555,6 @@
     "published": "2026-09-15",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -24864,7 +24654,6 @@
     "published": "2026-06-16",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -24960,7 +24749,6 @@
     "published": "2026-06-18",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -24991,7 +24779,6 @@
     "published": "2026-07-31",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -25055,7 +24842,6 @@
     "published": "2026-07-09",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -25267,7 +25053,6 @@
     ],
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -25505,7 +25290,6 @@
     "published": "2026-09-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -25636,7 +25420,6 @@
     "published": "2026-05-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -25671,7 +25454,6 @@
     "published": "2026-08-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -25737,7 +25519,6 @@
     "published": "2026-10-08",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -25773,7 +25554,6 @@
     "published": "2026-05-05",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -25846,7 +25626,6 @@
     "published": "2026-08-31",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -25980,7 +25759,6 @@
     "published": "2026-07-15",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -26475,7 +26253,6 @@
     "published": "2026-08-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -26510,7 +26287,6 @@
     "published": "2026-10-22",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -26546,7 +26322,6 @@
     "published": "2026-07-20",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -26612,7 +26387,6 @@
     "published": "2026-08-19",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "nosales",
@@ -26712,7 +26486,6 @@
     "published": "2026-09-06",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -26743,7 +26516,6 @@
     "published": "2026-08-12",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -26811,7 +26583,6 @@
     "published": "2026-09-02",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -26877,7 +26648,6 @@
     "published": "2026-09-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -27211,7 +26981,6 @@
     "published": "2026-06-14",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -27243,7 +27012,6 @@
     "published": "2026-07-16",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -27280,7 +27048,6 @@
     "published": "2026-09-05",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -27346,7 +27113,6 @@
     "published": "2026-09-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "lowcost",
       "nosales",
@@ -27448,7 +27214,6 @@
     "published": "2026-07-10",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -27513,7 +27278,6 @@
     "published": "2026-06-15",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -27754,7 +27518,6 @@
     "published": "2026-08-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -27894,7 +27657,6 @@
     "published": "2025-12-03",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -27925,7 +27687,6 @@
     "published": "2026-08-17",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -28103,7 +27864,6 @@
     "published": "2026-08-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -28137,7 +27897,6 @@
     "published": "2026-02-14",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -28169,7 +27928,6 @@
     "published": "2026-09-07",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -28299,7 +28057,6 @@
     "published": "2026-08-27",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -28333,7 +28090,6 @@
     "published": "2026-08-03",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -28365,7 +28121,6 @@
     "published": "2026-02-10",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -28433,7 +28188,6 @@
     "published": "2026-08-06",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -28534,7 +28288,6 @@
     "published": "2026-08-08",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -28566,7 +28319,6 @@
     "published": "2026-06-20",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -28732,7 +28484,6 @@
     "published": "2026-09-25",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -28763,7 +28514,6 @@
     "published": "2026-09-11",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -28832,7 +28582,6 @@
     "published": "2026-08-16",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -28962,7 +28711,6 @@
     "published": "2026-08-20",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -29031,7 +28779,6 @@
     "video_title": "Work From Home Jobs for 50+ - No Age Limits, Real Money",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -29069,7 +28816,6 @@
     "published": "2026-10-09",
     "filters": [
       "older",
-      "parent",
       "lowcost",
       "nosales",
       "nocamera",
@@ -29138,7 +28884,6 @@
     "published": "2026-09-01",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -29273,7 +29018,6 @@
     "published": "2026-08-17",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -29307,7 +29051,6 @@
     "published": "2026-08-03",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -29374,7 +29117,6 @@
     "video_title": "How I Sell ONE GoHighLevel Website Offer for $297/Month (Beginner Friendly)",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -29438,7 +29180,6 @@
     "video_title": "Work From Home Jobs You Don't Want to Miss! | Remote Jobs",
     "filters": [
       "older",
-      "parent",
       "health",
       "lowcost",
       "nosales",
@@ -29573,7 +29314,6 @@
     "video_title": "He Got Laid Off... Now He Makes $250K/Year Reselling",
     "filters": [
       "older",
-      "parent",
       "outside",
       "lowcost",
       "nosales",
@@ -29672,7 +29412,6 @@
     "published": "2026-08-20",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -29708,7 +29447,6 @@
     "published": "2026-04-29",
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "lowcost",
@@ -29743,7 +29481,6 @@
     "published": "2026-06-21",
     "filters": [
       "older",
-      "parent",
       "health",
       "lowcost",
       "nocamera",
@@ -29987,7 +29724,6 @@
     ],
     "filters": [
       "older",
-      "parent",
       "health",
       "outside",
       "noinventory",
