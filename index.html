@@ -29,7 +29,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261025e">
+<link rel="stylesheet" href="/site.css?v=20261029a">
 </head>
 <body>
 
@@ -109,13 +109,30 @@
       <span class="btn-note">850+ gigs. Tick a few boxes about you to see your matches.</span>
     </div>
   </section>
+  <!-- 10 · Weekly email signup -->
+  <section class="signup-band">
+    <div class="wrap">
+      <form class="signup" action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="home">
+        <h2 class="signup-head">&#128236; New gigs in your inbox every Saturday</h2>
+        <p>One short email a week with the gigs we added, most-watched first. Free, and you can unsubscribe anytime. <a href="/privacy/">Privacy</a></p>
+        <div class="signup-row"><label class="sr" for="email-home">Your email address</label><input id="email-home" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required><button type="submit">Send me the weekly gigs</button></div>
+      </form>
+    </div>
+  </section>
 </main>
 
 <footer class="site-footer">
-  <div class="wrap">© 2026 SideHustleIntel.org · <a href="/about.html">About</a> · Creator names are shown for reference only and imply no endorsement.</div>
+  <div class="wrap">© 2026 SideHustleIntel.org · <a href="/about.html">About</a> · <a href="/privacy/">Privacy</a> · Creator names are shown for reference only and imply no endorsement.</div>
 </footer>
 
 <script src="/site.js?v=20261025c"></script>
+<script>
+// Weekly email signup: count submits in Google Analytics (event email_signup, with which form).
+document.querySelectorAll('form.signup').forEach(f => f.addEventListener('submit', () => {
+  try { if (typeof gtag === 'function') gtag('event', 'email_signup', { form: f.dataset.src, transport_type: 'beacon' }); } catch (e) {}
+}));
+</script>
+
 <script>
 // Count clicks on the main buttons (Google Analytics event cta_click, with which button).
 document.querySelectorAll('[data-cta]').forEach(a => a.addEventListener('click', () => { try { gtag('event', 'cta_click', { cta: a.dataset.cta }); } catch (e) {} }));

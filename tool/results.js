@@ -275,28 +275,6 @@ if ('IntersectionObserver' in window) {
 }
 function hasMore() { return LAST_N > st.shown; }
 $('saved-link').addEventListener('click', e => { e.preventDefault(); st.savedOnly = !st.savedOnly; changed(); window.scrollTo(0, 0); });
-// ---------- Alerts interest test (Oct 25, 2026) ----------
-// No email is collected. The button only measures interest: each click sends an
-// "alert_interest" event to Google Analytics with the visitor's current choices,
-// then shows a thank-you note. One count per browser.
-const ALERT_KEY = 'shi_alert_interest';
-const ALERT_THANKS = 'Thanks for your interest. We\u2019re considering adding this feature.';
-function alertThanks() { $('alert-ask').innerHTML = `<span class="alert-thanks">${ALERT_THANKS}</span>`; }
-(function () {
-  let done = false; try { done = !!localStorage.getItem(ALERT_KEY); } catch (e) {}
-  if (done) { alertThanks(); return; }
-  $('alert-btn').addEventListener('click', () => {
-    track('alert_interest', {
-      categories: [...st.cats].join(', ') || '(none)',
-      chips: [...st.chips].map(c => SIT_LABEL[c]).join(', ') || '(none)',
-      search_term: st.q.trim() || '(none)',
-      gigs_found: results().length
-    });
-    try { localStorage.setItem(ALERT_KEY, new Date().toISOString().slice(0, 10)); } catch (e) {}
-    alertThanks();
-  });
-})();
-
 $('apply').addEventListener('click', () => {
   $('filters').classList.remove('open');
   $('filters-toggle').setAttribute('aria-expanded', 'false');
