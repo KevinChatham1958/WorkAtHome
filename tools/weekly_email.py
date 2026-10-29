@@ -79,23 +79,22 @@ LABEL = 'font-size:12px;font-weight:bold;letter-spacing:1px;text-transform:upper
 
 
 def gig_html(n, i, pages, views):
-    """One gig as its own boxed card, numbered IDEA #1, #2, #3 (tables, for email clients)."""
+    """One gig as its own card: an IDEA #n tag, title, then three short complete pieces
+    (what it is, best for, honest take) and a button to the full write-up."""
     v = views.get(video_key(i.get('url')), -1)
     meta = f"From <strong>{html.escape(i['found'])}</strong>'s YouTube video" + (f" &middot; {fmt_views(v)}" if v >= 0 else '')
     link = link_for(i, pages)
     return f"""<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 22px;border:2px solid #E3EAEE;border-radius:12px;background:#FFFFFF">
-<tr><td style="padding:0">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
-    <td style="background:#0F3D57;border-radius:10px 10px 0 0;padding:10px 20px;{FONT};font-size:15px;font-weight:bold;letter-spacing:2px;color:#FFFFFF">IDEA #{n}</td>
-  </tr></table>
-</td></tr>
-<tr><td style="padding:16px 20px 20px;{FONT}">
+<tr><td style="padding:18px 20px 20px;{FONT}">
+  <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 0 10px"><tr><td style="background:#FFF4ED;border:1.5px solid #F6D3BF;border-radius:999px;padding:4px 12px;{FONT};font-size:12px;font-weight:bold;letter-spacing:1.5px;color:#C2410C">IDEA #{n}</td></tr></table>
   <a href="{link}" style="font-size:22px;line-height:1.25;font-weight:bold;color:#0F3D57;text-decoration:none">{html.escape(i.get("title") or i["name"])}</a>
   <p style="font-size:13px;color:#6b7280;margin:4px 0 16px">{meta}</p>
   <p style="{LABEL}">What it is</p>
-  <p style="font-size:16px;line-height:1.5;color:#16202e;margin:0 0 16px">{html.escape(sentences(i.get("what"), 2))}</p>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="background:#FFF4ED;border-left:4px solid #C2410C;padding:10px 14px;{FONT}">
-    <p style="{LABEL}">Our honest take</p>
+  <p style="font-size:16px;line-height:1.5;color:#16202e;margin:0 0 14px">{html.escape(sentences(i.get("what"), 2))}</p>
+  <p style="{LABEL}">Best for</p>
+  <p style="font-size:16px;line-height:1.5;color:#16202e;margin:0 0 14px">{html.escape(sentences(i.get("best"), 1))}</p>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="background:#F4F8FA;border-left:4px solid #0F3D57;padding:10px 14px;{FONT}">
+    <p style="{LABEL};color:#0F3D57">My honest take</p>
     <p style="font-size:15px;line-height:1.5;color:#3C5260;margin:0">{html.escape(sentences(i.get("truth"), 1))}</p>
   </td></tr></table>
   <table role="presentation" cellpadding="0" cellspacing="0" style="margin-top:16px"><tr><td style="background:#C2410C;border-radius:8px">
@@ -117,11 +116,10 @@ CATS = [  # (category in ideas.json, friendly name, /category/ slug)
     ('E-commerce', 'Online stores', 'e-commerce'),
 ]
 # Opening paragraph for each theme (after "Hi there,"). {when} = "this week" / "this month".
-INTRO_VIEWS = ("Every week we read through new work-from-home ideas from YouTube creators and add the real ones "
-               "to Side Hustle Intel. Here are the three new gigs whose videos people have watched the most. "
-               "Popular isn't the same as good, so each comes with our honest take.")
+INTRO_VIEWS = ("This week: the three new gigs whose videos people have watched the most. "
+               "Popular isn't the same as good, so each one comes with my honest take.")
 INTRO_CAT = ("This week's theme is <strong>{name}</strong>: {sub}. Here are the three new ones {when} "
-             "whose videos people have watched the most, with our honest take on each.")
+             "whose videos people have watched the most, each with my honest take.")
 CAT_SUB = {
     'local-professional-services': 'services you sell to clients and do from home, like bookkeeping, dispatching or virtual assistance',
     'digital-subscription-products': 'things you make once and sell many times, like printables, templates and e-books',
@@ -236,12 +234,10 @@ def build(days):
 <tr><td align="center" style="padding:6px 0 14px">
   <a href="{SITE}/"><img src="{SITE}/assets/logo-horizontal.png" width="260" alt="Side Hustle Intel" style="display:block;width:260px;max-width:80%;height:auto;border:0"></a>
 </td></tr>
-<tr><td style="background:#EEF4F7;border-radius:10px;padding:12px 16px;font-size:14px;line-height:1.5;color:#3C5260">
-  <strong>Why you're getting this:</strong> you signed up for our weekly email at <a href="{SITE}/" style="color:#0F3D57">sidehustleintel.org</a>, the free, searchable database of work-from-home gigs from YouTube creators. Each gig is explained in plain English, with our honest opinion. Not for you? The unsubscribe link is at the bottom.
-</td></tr>
-<tr><td style="padding:22px 4px 6px">
-  <p style="font-size:16px;line-height:1.5;margin:0 0 12px">Hi there,</p>
-  <p style="font-size:16px;line-height:1.5;margin:0">{intro}</p>
+<tr><td style="padding:12px 4px 6px">
+  <p style="font-size:16px;line-height:1.55;margin:0 0 12px">Hi, it's Kevin from <a href="{SITE}/" style="color:#0F3D57;font-weight:bold">SideHustleIntel.org</a>, the free database of work-from-home gigs you signed up for. Every Saturday I pick three of the newest gigs around a theme.</p>
+  <p style="font-size:16px;line-height:1.55;margin:0 0 10px">{intro}</p>
+  <p style="font-size:13px;color:#6b7280;margin:0">(Not for you anymore? <a href="{{{{ unsubscribe_url }}}}" style="color:#6b7280">Unsubscribe here</a>.)</p>
 </td></tr>
 <tr><td style="padding:18px 0 14px">
   <p style="{LABEL}">This week's theme</p>
@@ -250,10 +246,10 @@ def build(days):
 <tr><td>{cards}</td></tr>
 <tr><td align="center" style="padding:4px 0 22px">
   <a href="{more_link}" style="font-size:16px;font-weight:bold;color:#0F3D57">{more_text} &rarr;</a>
-  <p style="font-size:14px;color:#6b7280;margin:8px 0 0">We added {n} gig{'s' if n != 1 else ''} this week. There are now {total:,} in the free database.</p>
+  <p style="font-size:14px;color:#6b7280;margin:8px 0 0">{n} gig{'s were' if n != 1 else ' was'} added this week. There are now {total:,} in the free database.</p>
 </td></tr>
 <tr><td style="border-top:1px solid #E3EAEE;padding:18px 4px 0">{SIGNOFF}
-  <p style="font-size:13px;color:#6b7280;line-height:1.5">Side Hustle Intel is free and independent: we don't sell courses, and creators don't pay to be included.</p>
+  <p style="font-size:13px;color:#6b7280;line-height:1.5">You're getting this because you signed up for the weekly email at <a href="{SITE}/" style="color:#6b7280">SideHustleIntel.org</a>. Side Hustle Intel is free and independent: I don't sell courses, and creators don't pay to be included. <a href="{{{{ unsubscribe_url }}}}" style="color:#6b7280">Unsubscribe</a></p>
 </td></tr>
 </table></td></tr></table>"""
     return subject, preview, body, n
@@ -268,7 +264,7 @@ def main():
         return
     subject, preview, body, n = built
     if mode == 'preview':
-        open(os.path.join(ROOT, 'weekly-email-preview.html'), 'w').write(f'<h3>{html.escape(subject)}</h3><p><i>{html.escape(preview)}</i></p>{body}')
+        open(os.path.join(ROOT, 'weekly-email-preview.html'), 'w').write(f'<h3>{html.escape(subject)}</h3><p><i>{html.escape(preview)}</i></p>' + body.replace('{{ unsubscribe_url }}', '#'))
         print(subject)
         return
     key = os.environ.get('KIT_API_KEY')
