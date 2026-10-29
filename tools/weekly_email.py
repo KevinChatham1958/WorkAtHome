@@ -1,4 +1,4 @@
-"""Build the weekly "new gigs" email and hand it to Kit (kit.com).
+"""Build the weekly email (3 gigs on a rotating theme) and hand it to Kit (kit.com).
 
 Runs in GitHub Actions (.github/workflows/weekly-email.yml) with the secret
 KIT_API_KEY. Gigs "added this week" are the ids in ideas.json now that were
@@ -30,7 +30,7 @@ def fail(msg):
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://sidehustleintel.org'
 API = 'https://api.kit.com/v4/broadcasts'
-MAX_REST = 25  # longest "Also new" list; a bigger week links to the rest
+PICKS = 3  # gigs per email
 
 
 def video_key(url):
@@ -69,14 +69,67 @@ def link_for(i, pages):
     return f"{SITE}/tool/?open={i['id']}"
 
 
+def sentences(t, n):
+    parts = re.findall(r'.+?[.!?](?=\s|$)', (t or '').strip())
+    return ' '.join(parts[:n]) if parts else (t or '').strip()
+
+
 def gig_html(i, pages, views):
     v = views.get(video_key(i.get('url')), -1)
     meta = f"{html.escape(i['found'])}" + (f" · {fmt_views(v)} on YouTube" if v >= 0 else '')
-    return (f'<tr><td style="padding:12px 0;border-bottom:1px solid #e3e6ea">'
-            f'<a href="{link_for(i, pages)}" style="font-size:17px;font-weight:bold;color:#1f3a5f;text-decoration:none">'
+    return (f'<div style="padding:16px 0;border-bottom:1px solid #e3e6ea">'
+            f'<a href="{link_for(i, pages)}" style="font-size:19px;font-weight:bold;color:#0F3D57;text-decoration:none">'
             f'{html.escape(i.get("title") or i["name"])}</a>'
-            f'<div style="font-size:15px;color:#16202e;margin:4px 0">{html.escape(first_sentence(i.get("what")))}</div>'
-            f'<div style="font-size:13px;color:#6b7280">{meta}</div></td></tr>')
+            f'<div style="font-size:13px;color:#6b7280;margin:2px 0 8px">{meta}</div>'
+            f'<div style="font-size:16px;color:#16202e;margin:0 0 8px">{html.escape(sentences(i.get("what"), 2))}</div>'
+            f'<div style="font-size:15px;color:#3C5260;margin:0 0 8px"><strong>Our opinion:</strong> {html.escape(sentences(i.get("truth"), 1))}</div>'
+            f'<a href="{link_for(i, pages)}" style="font-size:15px;color:#C2410C;font-weight:bold">Read the full write-up &rarr;</a></div>')
+
+
+# Themes rotate week by week: most watched overall, then a category, then a
+# situation (the site's filter boxes), then most watched again with the next
+# category, and so on. THEME env (views / cat:<slug> / sit:<code>) forces one.
+CATS = [  # (category in ideas.json, friendly name, /category/ slug)
+    ('Local & professional services', 'Services from home', 'local-professional-services'),
+    ('Digital & subscription products', 'Digital products', 'digital-subscription-products'),
+    ('Marketing & content', 'Marketing for businesses', 'marketing-content'),
+    ('Physical & print products', 'Things you make', 'physical-print-products'),
+    ('Content & personal brand', 'YouTube & blogging', 'content-personal-brand'),
+    ('AI & automation', 'AI & automation', 'ai-automation'),
+    ('E-commerce', 'Online stores', 'e-commerce'),
+]
+SITS = [  # (filter code, phrase finishing "3 new gigs ...")
+    ('parent', 'that fit around kids'),
+    ('nocamera', 'you can do without ever appearing on camera'),
+    ('lowcost', 'you can start for about $100 or less'),
+    ('older', 'that suit people 50+ or retired'),
+    ('nosales', 'with no cold calling or sales pitches'),
+    ('noinventory', 'with no inventory or shipping'),
+]
+
+
+def pick_theme(week):
+    forced = os.environ.get('THEME', '').strip()
+    if forced:
+        return forced
+    kind, rnd = week % 3, week // 3
+    if kind == 0:
+        return 'views'
+    if kind == 1:
+        return 'cat:' + CATS[rnd % len(CATS)][2]
+    return 'sit:' + SITS[rnd % len(SITS)][0]
+
+
+def top3(pool, views):
+    """Most-viewed first, one gig per video."""
+    out, seen = [], set()
+    for i in sorted(pool, key=lambda i: views.get(video_key(i.get('url')), -1), reverse=True):
+        k = video_key(i.get('url')) or i['id']
+        if k not in seen:
+            out.append(i); seen.add(k)
+        if len(out) == PICKS:
+            break
+    return out
 
 
 def build(days):
@@ -85,6 +138,10 @@ def build(days):
     if not before:
         fail('Could not read ideas.json from git history (checkout needs full history).')
     new = [i for i in ideas if i['id'] not in before]
+    if not new:
+        return None
+    month_ids = {i['id'] for i in old_ideas(30)}
+    month = [i for i in ideas if i['id'] not in month_ids] if month_ids else new
     try:
         views = json.load(open(os.path.join(ROOT, 'views.json'))).get('views', {})
     except FileNotFoundError:
@@ -93,33 +150,46 @@ def build(days):
         pages = set(json.load(open(os.path.join(ROOT, 'page-index.json'))).get('ideas', []))
     except FileNotFoundError:
         pages = set()
-    if not new:
-        return None
-    vw = lambda i: views.get(video_key(i.get('url')), -1)
-    new.sort(key=vw, reverse=True)
-    # Most watched: one gig per video, so a "10 ideas" video can't fill the list.
-    top, seen = [], set()
-    for i in new:
-        k = video_key(i.get('url')) or i['id']
-        if k not in seen and len(top) < 5:
-            top.append(i); seen.add(k)
-    rest = [i for i in new if i not in top]
-    more = max(0, len(rest) - MAX_REST)
-    rest = sorted(rest[:MAX_REST], key=lambda i: (i['category'], (i.get('title') or i['name']).lower()))
+
+    theme = pick_theme(datetime.date.today().isocalendar()[1])
+    picks, when = [], 'this week'
+    if theme.startswith('cat:'):
+        cat = next((c for c in CATS if c[2] == theme[4:]), None)
+        if cat:
+            for pool, w in ((new, 'this week'), (month, 'this month')):
+                picks = top3([i for i in pool if i['category'] == cat[0]], views)
+                when = w
+                if len(picks) >= 2:
+                    break
+            heading = f'The most-watched new {cat[1]} gigs {when}'
+            subject = f'{cat[1]}: the most-watched new gigs {when}'
+            more_link, more_text = f'{SITE}/category/{cat[2]}/', f'See every {cat[1]} gig'
+    elif theme.startswith('sit:'):
+        sit = next((x for x in SITS if x[0] == theme[4:]), None)
+        if sit:
+            for pool, w in ((new, 'this week'), (month, 'this month')):
+                picks = top3([i for i in pool if sit[0] in (i.get('filters') or [])], views)
+                when = w
+                if len(picks) >= 2:
+                    break
+            heading = f'{len(picks)} new gigs {sit[1]}'
+            subject = f'{len(picks)} new work-from-home gigs {sit[1]}'
+            more_link, more_text = f'{SITE}/tool/?f={sit[0]}', 'See them all in the gig browser'
+    if len(picks) < 2:  # theme 'views', or a theme with too few gigs
+        picks, when = top3(new, views), 'this week'
+        heading = f'The {len(picks)} most-watched new gigs this week'
+        subject = f'The {len(picks)} most-watched new work-from-home gigs this week'
+        more_link, more_text = f'{SITE}/tool/', 'Browse every gig'
     n, total = len(new), len(ideas)
-    subject = f"{n} new work-from-home gig{'s' if n != 1 else ''} this week"
-    preview = f"Most watched: {top[0].get('title') or top[0]['name']} ({top[0]['found']})"
-    rows_top = ''.join(gig_html(i, pages, views) for i in top)
-    rows_rest = ''.join(gig_html(i, pages, views) for i in rest)
+    preview = ' · '.join((i.get('title') or i['name']) for i in picks)
+    cards = ''.join(gig_html(i, pages, views) for i in picks)
     body = f'''<div style="font-family:Arial,Helvetica,sans-serif;max-width:600px;margin:0 auto;color:#16202e">
-<p style="font-size:16px">This week we added <strong>{n}</strong> work-from-home gig{'s' if n != 1 else ''} to Side Hustle Intel, taken from YouTube creators' videos. Each one is explained in plain English, with our honest opinion and a link to the source video. There are now {total:,} in the database.</p>
-<h2 style="font-size:20px;color:#1f3a5f;margin:24px 0 4px">Most watched this week</h2>
-<p style="font-size:13px;color:#6b7280;margin:0">Ranked by the source video's YouTube views. Popular isn't the same as good; read our opinion on each.</p>
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0">{rows_top}</table>
-{f'<h2 style="font-size:20px;color:#1f3a5f;margin:28px 0 4px">Also new</h2><table role="presentation" width="100%" cellpadding="0" cellspacing="0">{rows_rest}</table>' if rest else ''}
-{f'<p style="font-size:15px">...and {more} more new this week, all in the gig browser (sort by Newest first).</p>' if more else ''}
-<p style="font-size:16px;margin-top:28px"><a href="{SITE}/tool/" style="color:#1f3a5f;font-weight:bold">Browse all {total:,} gigs &rarr;</a></p>
-<p style="font-size:13px;color:#6b7280">You're getting this because you signed up for weekly gig updates at sidehustleintel.org. Side Hustle Intel is free and independent: we don't sell courses and creators don't pay to be included.</p>
+<h1 style="font-size:23px;color:#0F3D57;margin:0 0 6px">{html.escape(heading)}</h1>
+<p style="font-size:14px;color:#6b7280;margin:0 0 4px">Picked by the source video's YouTube views. Popular isn't the same as good, so each comes with our honest opinion.</p>
+{cards}
+<p style="font-size:16px;margin:22px 0 6px"><a href="{more_link}" style="color:#0F3D57;font-weight:bold">{more_text} &rarr;</a></p>
+<p style="font-size:15px;color:#3C5260;margin:0 0 20px">We added {n} gig{'s' if n != 1 else ''} this week; there are now {total:,} in the free database at <a href="{SITE}/" style="color:#3C5260">sidehustleintel.org</a>.</p>
+<p style="font-size:13px;color:#6b7280">You're getting this because you signed up for the weekly email at sidehustleintel.org. Side Hustle Intel is free and independent: we don't sell courses, and creators don't pay to be included.</p>
 </div>'''
     return subject, preview, body, n
 
