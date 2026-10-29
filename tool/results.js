@@ -23,6 +23,8 @@ const SIT_LABEL = Object.fromEntries(SITUATIONS.map(s => [s.id, s.label]));
 const PAGE = 30;
 
 let ALL = [], SHUFFLED = [], pageIds = new Set(), LAST_N = 0;
+// YouTube view counts by video ID, from /views.json (refreshed weekly by a GitHub Action).
+let VIEWS = {}, VIEWS_DATE = '';
 const st = { cats: new Set(), chips: new Set(), q: '', sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set(), pin: null, kind: '' };
 let saved = new Set(loadSaved());
 const $ = id => document.getElementById(id);
@@ -71,12 +73,31 @@ function results() {
     let scored = list.map(i => ({ i, s: scoreIdea(i, words) })).filter(x => x.s > 0);
     const creatorHits = scored.filter(x => x.s >= 1000);
     if (creatorHits.length) scored = creatorHits;
-    if (st.sort === 'shuffle') scored.sort((a, b) => b.s - a.s);
+    if (st.sort === 'shuffle' || st.sort === 'views') scored.sort((a, b) => b.s - a.s);
     else scored.sort((a, b) => byDate(a.i, b.i));
     list = scored.map(x => x.i);
-  } else if (st.sort !== 'shuffle') list = list.slice().sort(byDate);
+    if (st.sort === 'views') list = byViews(list);
+  } else if (st.sort === 'views') list = byViews(list);
+  else if (st.sort !== 'shuffle') list = list.slice().sort(byDate);
   if (st.pin) { const k = list.findIndex(i => i.id === st.pin); if (k > 0) list = [list[k], ...list.slice(0, k), ...list.slice(k + 1)]; }
   return list;
+}
+// "Most viewed": highest view count first. One video can give several gigs (a
+// "10 ideas" video gives up to 10), so they'd all share its count and fill the
+// top of the list together. To spread them out, a video's 2nd gig ranks as if it
+// had 1/2 the views, its 3rd 1/3, and so on. Gigs without a count go last.
+function videoId(url) { const m = String(url || '').match(/(?:[?&]v=|youtu\.be\/|\/shorts\/)([A-Za-z0-9_-]{11})/); return m ? m[1] : ''; }
+function viewsOf(i) { const v = VIEWS[videoId(i.url)]; return typeof v === 'number' ? v : -1; }
+function byViews(list) {
+  const seen = {};
+  return list.map(i => { const id = videoId(i.url), k = (seen[id] = (seen[id] || 0) + 1), v = viewsOf(i); return { i, r: v < 0 ? -1 : v / k }; })
+    .sort((a, b) => b.r - a.r).map(x => x.i);
+}
+function fmtViews(n) {
+  if (n < 0) return '';
+  const t = n >= 1e6 ? (n / 1e6).toFixed(n >= 1e7 ? 0 : 1).replace(/\.0$/, '') + 'M'
+    : n >= 1e3 ? (n / 1e3).toFixed(n >= 1e4 ? 0 : 1).replace(/\.0$/, '') + 'K' : String(n);
+  return t + ' views';
 }
 function byDate(a, b) { const da = a.published || '', db = b.published || ''; if (!da && !db) return 0; if (!da) return 1; if (!db) return -1; return st.sort === 'oldest' ? da.localeCompare(db) : db.localeCompare(da); }
 
@@ -112,6 +133,7 @@ function gigHtml(i) {
   if (!hasTag(i, 'nocamera')) labels.push('On camera');
   if (!hasTag(i, 'nosales')) labels.push('Sales or cold calling');
   const date = fmtDate(i.published);
+  const views = fmtViews(viewsOf(i));
   const friendly = (CAT_BY_NAME[i.category] || {}).name || i.category;
   return `<article class="gig" data-id="${esc(i.id)}">
     <div class="gig-top">
@@ -119,7 +141,7 @@ function gigHtml(i) {
       <div class="gig-body" data-act="toggle" role="button" tabindex="0" aria-expanded="${isOpen}">
         <h3>${esc(shortTitle(i))}</h3>
         <p class="one">${esc(subLine(i))}</p>
-        <p class="meta">${esc(friendly)} · ${esc(shortCost(i.cost))} · ${esc(i.found)}${date ? ' · ' + esc(date) : ''}</p>
+        <p class="meta">${esc(friendly)} · ${esc(shortCost(i.cost))} · ${esc(i.found)}${date ? ' · ' + esc(date) : ''}${views ? ` · <span title="YouTube views of the source video${VIEWS_DATE ? ', as of ' + esc(fmtDate(VIEWS_DATE)) : ''}">${esc(views)}</span>` : ''}</p>
         ${labels.length ? `<div class="labels">${labels.map(l => `<span class="label">${l}</span>`).join('')}</div>` : ''}
       </div>
       <div class="gig-actions">
@@ -347,5 +369,7 @@ loadIdeas().then(data => {
   applyParams();
   render();
 }).catch(() => { $('count').textContent = "Couldn't load the gigs. Try refreshing."; });
+
+fetch('/views.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : {}).then(d => { VIEWS = d.views || {}; VIEWS_DATE = d.updated || ''; if (ALL.length) render(); }).catch(() => {});
 
 fetch('/page-index.json').then(r => r.ok ? r.json() : { ideas: [] }).then(d => { pageIds = new Set(d.ideas || []); if (ALL.length) render(); }).catch(() => {});
