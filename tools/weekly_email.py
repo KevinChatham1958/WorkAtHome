@@ -98,6 +98,33 @@ CATS = [  # (category in ideas.json, friendly name, /category/ slug)
     ('AI & automation', 'AI & automation', 'ai-automation'),
     ('E-commerce', 'Online stores', 'e-commerce'),
 ]
+# Opening paragraph for each theme (after "Hi there,"). {when} = "this week" / "this month".
+INTRO_VIEWS = ("Every week we read through new work-from-home ideas from YouTube creators and add the real ones "
+               "to Side Hustle Intel. Here are the three new gigs whose videos people have watched the most. "
+               "Popular isn't the same as good, so each comes with our honest take.")
+INTRO_CAT = ("This week's theme is <strong>{name}</strong>: {sub}. Here are the three new ones {when} "
+             "whose videos people have watched the most, with our honest take on each.")
+CAT_SUB = {
+    'local-professional-services': 'services you sell to clients and do from home, like bookkeeping, dispatching or virtual assistance',
+    'digital-subscription-products': 'things you make once and sell many times, like printables, templates and e-books',
+    'marketing-content': 'helping businesses with social media, ads and websites',
+    'physical-print-products': 'things you make or design, from crafts to print-on-demand and books',
+    'content-personal-brand': 'building an audience with a YouTube channel, a blog or social media',
+    'ai-automation': 'using AI tools to build products or offer services',
+    'e-commerce': 'selling online through Etsy, Amazon, Shopify and similar stores',
+}
+SIT_INTRO = {
+    'parent': "If you're home with kids, you need work you can do in short stretches and put down whenever they need you. These three new gigs fit that, and they're the ones whose videos people have watched the most {when}.",
+    'nocamera': "Plenty of people like the idea of earning online but would rather not be on camera. None of these three needs you to show your face. They're the most-watched new ones {when}.",
+    'lowcost': "Not everyone has money to put into a new idea. These three can be started for about $100 or less, beyond a computer and internet. They're the most-watched new ones {when}.",
+    'older': "These three suit people who are 50+ or retired: no heavy lifting or on-site labor, and room to use the experience you already have. They're the most-watched new ones {when}.",
+    'nosales': "If cold calling and pitching strangers isn't for you, these three are worth a look: none of them depends on selling by phone or chasing clients. They're the most-watched new ones {when}.",
+    'noinventory': "No boxes in the garage: none of these three needs you to buy, store or ship products. They're the most-watched new ones {when}.",
+}
+SIGNOFF = ("<p style=\"font-size:16px;margin:24px 0 4px\">Thanks for reading,</p>"
+           "<p style=\"font-size:16px;margin:0 0 16px\">Kevin<br><span style=\"color:#6b7280\">Side Hustle Intel</span></p>"
+           "<p style=\"font-size:15px;color:#3C5260\">P.S. Hit reply and tell me what kind of gigs you'd like to see more of. I read every reply.</p>")
+
 SITS = [  # (filter code, phrase finishing "3 new gigs ...")
     ('parent', 'that fit around kids'),
     ('nocamera', 'you can do without ever appearing on camera'),
@@ -162,6 +189,7 @@ def build(days):
                 if len(picks) >= 2:
                     break
             heading = f'The most-watched new {cat[1]} gigs {when}'
+            intro = INTRO_CAT.format(name=html.escape(cat[1]), sub=CAT_SUB[cat[2]], when=when)
             subject = f'{cat[1]}: the most-watched new gigs {when}'
             more_link, more_text = f'{SITE}/category/{cat[2]}/', f'See every {cat[1]} gig'
     elif theme.startswith('sit:'):
@@ -173,22 +201,26 @@ def build(days):
                 if len(picks) >= 2:
                     break
             heading = f'{len(picks)} new gigs {sit[1]}'
+            intro = SIT_INTRO[sit[0]].format(when=when)
             subject = f'{len(picks)} new work-from-home gigs {sit[1]}'
             more_link, more_text = f'{SITE}/tool/?f={sit[0]}', 'See them all in the gig browser'
     if len(picks) < 2:  # theme 'views', or a theme with too few gigs
         picks, when = top3(new, views), 'this week'
         heading = f'The {len(picks)} most-watched new gigs this week'
+        intro = INTRO_VIEWS
         subject = f'The {len(picks)} most-watched new work-from-home gigs this week'
         more_link, more_text = f'{SITE}/tool/', 'Browse every gig'
     n, total = len(new), len(ideas)
-    preview = ' · '.join((i.get('title') or i['name']) for i in picks)
+    preview = re.sub(r'<[^>]+>', '', intro).split('. ')[0][:140]
     cards = ''.join(gig_html(i, pages, views) for i in picks)
     body = f'''<div style="font-family:Arial,Helvetica,sans-serif;max-width:600px;margin:0 auto;color:#16202e">
-<h1 style="font-size:23px;color:#0F3D57;margin:0 0 6px">{html.escape(heading)}</h1>
-<p style="font-size:14px;color:#6b7280;margin:0 0 4px">Picked by the source video's YouTube views. Popular isn't the same as good, so each comes with our honest opinion.</p>
+<p style="font-size:16px;margin:0 0 12px">Hi there,</p>
+<p style="font-size:16px;margin:0 0 18px">{intro}</p>
+<h1 style="font-size:22px;color:#0F3D57;margin:0 0 2px">{html.escape(heading)}</h1>
 {cards}
 <p style="font-size:16px;margin:22px 0 6px"><a href="{more_link}" style="color:#0F3D57;font-weight:bold">{more_text} &rarr;</a></p>
-<p style="font-size:15px;color:#3C5260;margin:0 0 20px">We added {n} gig{'s' if n != 1 else ''} this week; there are now {total:,} in the free database at <a href="{SITE}/" style="color:#3C5260">sidehustleintel.org</a>.</p>
+<p style="font-size:15px;color:#3C5260;margin:0 0 20px">We added {n} gig{'s' if n != 1 else ''} this week; there are now {total:,} in the free database at <a href="{SITE}/" style="color:#3C5260">sidehustleintel.org</a>, each with the same plain-English write-up and honest opinion.</p>
+{SIGNOFF}
 <p style="font-size:13px;color:#6b7280">You're getting this because you signed up for the weekly email at sidehustleintel.org. Side Hustle Intel is free and independent: we don't sell courses, and creators don't pay to be included.</p>
 </div>'''
     return subject, preview, body, n
