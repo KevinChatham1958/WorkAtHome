@@ -74,16 +74,34 @@ def sentences(t, n):
     return ' '.join(parts[:n]) if parts else (t or '').strip()
 
 
-def gig_html(i, pages, views):
+FONT = 'font-family:Arial,Helvetica,sans-serif'
+LABEL = 'font-size:12px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:#C2410C;margin:0 0 4px'
+
+
+def gig_html(n, i, pages, views):
+    """One gig as its own boxed card, numbered IDEA #1, #2, #3 (tables, for email clients)."""
     v = views.get(video_key(i.get('url')), -1)
-    meta = f"{html.escape(i['found'])}" + (f" · {fmt_views(v)} on YouTube" if v >= 0 else '')
-    return (f'<div style="padding:16px 0;border-bottom:1px solid #e3e6ea">'
-            f'<a href="{link_for(i, pages)}" style="font-size:19px;font-weight:bold;color:#0F3D57;text-decoration:none">'
-            f'{html.escape(i.get("title") or i["name"])}</a>'
-            f'<div style="font-size:13px;color:#6b7280;margin:2px 0 8px">{meta}</div>'
-            f'<div style="font-size:16px;color:#16202e;margin:0 0 8px">{html.escape(sentences(i.get("what"), 2))}</div>'
-            f'<div style="font-size:15px;color:#3C5260;margin:0 0 8px"><strong>Our opinion:</strong> {html.escape(sentences(i.get("truth"), 1))}</div>'
-            f'<a href="{link_for(i, pages)}" style="font-size:15px;color:#C2410C;font-weight:bold">Read the full write-up &rarr;</a></div>')
+    meta = f"From <strong>{html.escape(i['found'])}</strong>'s YouTube video" + (f" &middot; {fmt_views(v)}" if v >= 0 else '')
+    link = link_for(i, pages)
+    return f"""<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 22px;border:2px solid #E3EAEE;border-radius:12px;background:#FFFFFF">
+<tr><td style="padding:0">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+    <td style="background:#0F3D57;border-radius:10px 10px 0 0;padding:10px 20px;{FONT};font-size:15px;font-weight:bold;letter-spacing:2px;color:#FFFFFF">IDEA #{n}</td>
+  </tr></table>
+</td></tr>
+<tr><td style="padding:16px 20px 20px;{FONT}">
+  <a href="{link}" style="font-size:22px;line-height:1.25;font-weight:bold;color:#0F3D57;text-decoration:none">{html.escape(i.get("title") or i["name"])}</a>
+  <p style="font-size:13px;color:#6b7280;margin:4px 0 16px">{meta}</p>
+  <p style="{LABEL}">What it is</p>
+  <p style="font-size:16px;line-height:1.5;color:#16202e;margin:0 0 16px">{html.escape(sentences(i.get("what"), 2))}</p>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="background:#FFF4ED;border-left:4px solid #C2410C;padding:10px 14px;{FONT}">
+    <p style="{LABEL}">Our honest take</p>
+    <p style="font-size:15px;line-height:1.5;color:#3C5260;margin:0">{html.escape(sentences(i.get("truth"), 1))}</p>
+  </td></tr></table>
+  <table role="presentation" cellpadding="0" cellspacing="0" style="margin-top:16px"><tr><td style="background:#C2410C;border-radius:8px">
+    <a href="{link}" style="display:inline-block;padding:11px 20px;{FONT};font-size:15px;font-weight:bold;color:#FFFFFF;text-decoration:none">Read the full write-up &rarr;</a>
+  </td></tr></table>
+</td></tr></table>"""
 
 
 # Themes rotate week by week: most watched overall, then a category, then a
@@ -212,17 +230,32 @@ def build(days):
         more_link, more_text = f'{SITE}/tool/', 'Browse every gig'
     n, total = len(new), len(ideas)
     preview = re.sub(r'<[^>]+>', '', intro).split('. ')[0][:140]
-    cards = ''.join(gig_html(i, pages, views) for i in picks)
-    body = f'''<div style="font-family:Arial,Helvetica,sans-serif;max-width:600px;margin:0 auto;color:#16202e">
-<p style="font-size:16px;margin:0 0 12px">Hi there,</p>
-<p style="font-size:16px;margin:0 0 18px">{intro}</p>
-<h1 style="font-size:22px;color:#0F3D57;margin:0 0 2px">{html.escape(heading)}</h1>
-{cards}
-<p style="font-size:16px;margin:22px 0 6px"><a href="{more_link}" style="color:#0F3D57;font-weight:bold">{more_text} &rarr;</a></p>
-<p style="font-size:15px;color:#3C5260;margin:0 0 20px">We added {n} gig{'s' if n != 1 else ''} this week; there are now {total:,} in the free database at <a href="{SITE}/" style="color:#3C5260">sidehustleintel.org</a>, each with the same plain-English write-up and honest opinion.</p>
-{SIGNOFF}
-<p style="font-size:13px;color:#6b7280">You're getting this because you signed up for the weekly email at sidehustleintel.org. Side Hustle Intel is free and independent: we don't sell courses, and creators don't pay to be included.</p>
-</div>'''
+    cards = ''.join(gig_html(k + 1, i, pages, views) for k, i in enumerate(picks))
+    body = f"""<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F4F8FA"><tr><td align="center" style="padding:20px 12px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;{FONT};color:#16202e">
+<tr><td align="center" style="padding:6px 0 14px">
+  <a href="{SITE}/"><img src="{SITE}/assets/logo-horizontal.png" width="260" alt="Side Hustle Intel" style="display:block;width:260px;max-width:80%;height:auto;border:0"></a>
+</td></tr>
+<tr><td style="background:#EEF4F7;border-radius:10px;padding:12px 16px;font-size:14px;line-height:1.5;color:#3C5260">
+  <strong>Why you're getting this:</strong> you signed up for our weekly email at <a href="{SITE}/" style="color:#0F3D57">sidehustleintel.org</a>, the free, searchable database of work-from-home gigs from YouTube creators. Each gig is explained in plain English, with our honest opinion. Not for you? The unsubscribe link is at the bottom.
+</td></tr>
+<tr><td style="padding:22px 4px 6px">
+  <p style="font-size:16px;line-height:1.5;margin:0 0 12px">Hi there,</p>
+  <p style="font-size:16px;line-height:1.5;margin:0">{intro}</p>
+</td></tr>
+<tr><td style="padding:18px 0 14px">
+  <p style="{LABEL}">This week's theme</p>
+  <h1 style="font-size:24px;line-height:1.25;color:#0F3D57;margin:0">{html.escape(heading)}</h1>
+</td></tr>
+<tr><td>{cards}</td></tr>
+<tr><td align="center" style="padding:4px 0 22px">
+  <a href="{more_link}" style="font-size:16px;font-weight:bold;color:#0F3D57">{more_text} &rarr;</a>
+  <p style="font-size:14px;color:#6b7280;margin:8px 0 0">We added {n} gig{'s' if n != 1 else ''} this week. There are now {total:,} in the free database.</p>
+</td></tr>
+<tr><td style="border-top:1px solid #E3EAEE;padding:18px 4px 0">{SIGNOFF}
+  <p style="font-size:13px;color:#6b7280;line-height:1.5">Side Hustle Intel is free and independent: we don't sell courses, and creators don't pay to be included.</p>
+</td></tr>
+</table></td></tr></table>"""
     return subject, preview, body, n
 
 
