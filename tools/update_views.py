@@ -62,6 +62,15 @@ def main():
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(out, f, separators=(',', ':'))
         f.write('\n')
+    # Keep one snapshot per week so week-over-week gains can be shown later.
+    hist = os.path.join(ROOT, 'data', 'views-history')
+    os.makedirs(hist, exist_ok=True)
+    y, w, _ = datetime.date.today().isocalendar()
+    snap = os.path.join(hist, f'{y}-W{w:02d}.json')
+    if not os.path.exists(snap):
+        with open(snap, 'w', encoding='utf-8') as f:
+            json.dump(out, f, separators=(',', ':'))
+            f.write('\n')
     print(f'{len(ids)} videos, {len(views)} with counts, '
           f'{len(missing)} not returned by YouTube (deleted/private){": " + ", ".join(missing) if missing else ""}')
 

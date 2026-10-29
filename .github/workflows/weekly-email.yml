@@ -1,0 +1,35 @@
+name: Weekly new-gigs email
+
+# Builds the weekly "N new work-from-home gigs" email from the gigs added in
+# the past 7 days and hands it to Kit (secret KIT_API_KEY).
+# MODE "draft" leaves it in Kit > Broadcasts for Kevin to check and send;
+# "send" schedules it to all subscribers 10 minutes later.
+# Runs Saturdays 9:17 am Buenos Aires time, and on demand (Actions tab).
+
+on:
+  schedule:
+    - cron: '17 12 * * 6'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'draft (Kevin sends it from Kit) or send (goes out automatically)'
+        default: 'draft'
+        type: choice
+        options: [draft, send]
+
+permissions:
+  contents: read
+
+jobs:
+  email:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build the email and send it to Kit
+        env:
+          KIT_API_KEY: ${{ secrets.KIT_API_KEY }}
+          # Scheduled runs use this default until Kevin approves automatic sending.
+          MODE: ${{ inputs.mode || 'draft' }}
+        run: python3 tools/weekly_email.py
