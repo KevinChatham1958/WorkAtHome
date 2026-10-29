@@ -18,7 +18,14 @@ import os
 import re
 import subprocess
 import sys
+import urllib.error
 import urllib.request
+
+
+def fail(msg):
+    # ::error:: shows up as an annotation on the GitHub run, readable without the log.
+    print('::error::' + msg.replace('\n', ' '))
+    sys.exit(1)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://sidehustleintel.org'
@@ -76,7 +83,7 @@ def build(days):
     ideas = json.load(open(os.path.join(ROOT, 'ideas.json'), encoding='utf-8'))
     before = {i['id'] for i in old_ideas(days)}
     if not before:
-        sys.exit('Could not read ideas.json from git history (checkout needs full history).')
+        fail('Could not read ideas.json from git history (checkout needs full history).')
     new = [i for i in ideas if i['id'] not in before]
     try:
         views = json.load(open(os.path.join(ROOT, 'views.json'))).get('views', {})
@@ -131,7 +138,7 @@ def main():
         return
     key = os.environ.get('KIT_API_KEY')
     if not key:
-        sys.exit('KIT_API_KEY is not set')
+        fail('KIT_API_KEY is not set')
     now = datetime.datetime.now(datetime.timezone.utc)
     payload = {
         'subject': subject,
@@ -149,9 +156,9 @@ def main():
         with urllib.request.urlopen(req, timeout=30) as r:
             res = json.load(r)
     except urllib.error.HTTPError as e:
-        sys.exit(f'Kit refused the broadcast: HTTP {e.code} {e.read().decode()[:500]}')
+        fail(f'Kit refused the broadcast: HTTP {e.code} {e.read().decode()[:500]}')
     b = res.get('broadcast', res)
-    print(f"Kit broadcast {b.get('id')} created ({mode}): {subject}")
+    print(f"::notice::Kit broadcast {b.get('id')} created ({mode}): {subject}")
 
 
 if __name__ == '__main__':
