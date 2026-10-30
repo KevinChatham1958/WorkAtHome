@@ -155,9 +155,9 @@ function gigHtml(i) {
       <div><h4>Who it's best for</h4><p>${esc(i.best)}</p></div>
       <div><h4>The Truth (as we see it)</h4><p>${esc(i.truth)}</p></div>
       <div class="foot">
-        <a class="source-link" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.video_title || 'Watch the source video')} ↗</a>
+        <p class="source-line"><span class="source-label">Watch the source video:</span> <a class="source-link" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.video_title || 'Watch on YouTube')} ↗</a></p>
         <button type="button" class="small-btn" data-act="copy">Copy this entire gig</button>
-        ${pageIds.has(i.id) ? `<a href="/ideas/${encodeURIComponent(i.id)}/">Open on its own page →</a>` : ''}
+        ${pageIds.has(i.id) ? `<a href="/ideas/${encodeURIComponent(i.id)}/">Open this gig on its own page →</a>` : ''}
       </div>
     </div>` : ''}
   </article>`;

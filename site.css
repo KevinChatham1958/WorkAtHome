@@ -276,3 +276,9 @@ a.creator:hover { color: var(--accent); }
 #list > .gig + .gig::before { content: ""; position: absolute; top: -15px; left: 89px; width: 120px; height: 3px; border-radius: 2px; background: var(--navy); opacity: .55; }
 .details h4 { font-size: 18px; }
 @media (max-width: 760px) { #list > .gig + .gig::before { left: 17px; } }
+
+/* Oct 30, 2026 (Kevin): the source video and page links look clickable (blue, underlined) and say what they are. */
+.details .foot .source-line { flex-basis: 100%; margin: 0; font-size: 16px; }
+.details .foot .source-label { font-weight: 600; color: var(--navy); }
+.details .foot a { color: #1A56DB; text-decoration: underline; }
+.details .foot a:hover { color: #1240A8; }
