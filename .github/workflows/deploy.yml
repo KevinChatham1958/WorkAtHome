@@ -6,6 +6,12 @@ on:
       - main
   workflow_dispatch:
 
+# Deploys queue one after another; two at once (a gig publish plus the view-count
+# refresh that follows it) made cPanel fail one of them on Oct 30, 2026.
+concurrency:
+  group: deploy-cpanel
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
