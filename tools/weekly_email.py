@@ -114,11 +114,12 @@ CATS = [  # (category in ideas.json, friendly name, /category/ slug)
     ('AI & automation', 'AI & automation', 'ai-automation'),
     ('E-commerce', 'Online stores', 'e-commerce'),
 ]
-# Opening paragraph for each theme (after "Hi there,"). {when} = "this week" / "this month".
-INTRO_VIEWS = ("This week: the three new gigs whose videos people have watched the most. "
-               "Popular isn't the same as good, so each one comes with my honest take.")
-INTRO_CAT = ("This week's theme is <strong>{name}</strong>: {sub}. Here are the three new ones {when} "
-             "whose videos people have watched the most, each with my honest take.")
+# The theme paragraph under "This week's theme": a bold lead phrase, then why
+# these three. {when} = "this week" / "this month".
+INTRO_VIEWS = ("<strong>What people are watching.</strong> These three are the new gigs whose YouTube videos "
+               "were watched the most {when}. Popular isn't the same as good, so each comes with my honest take.")
+INTRO_CAT = ("<strong>{name}.</strong> This week is about {sub}. These three are YouTube's most-watched "
+             "new {name} gigs {when}.")
 CAT_SUB = {
     'local-professional-services': 'services you sell to clients and do from home, like bookkeeping, dispatching or virtual assistance',
     'digital-subscription-products': 'things you make once and sell many times, like printables, templates and e-books',
@@ -129,12 +130,12 @@ CAT_SUB = {
     'e-commerce': 'selling online through Etsy, Amazon, Shopify and similar stores',
 }
 SIT_INTRO = {
-    'parent': "If you're home with kids, you need work you can do in short stretches and put down whenever they need you. These three new gigs fit that, and they're the ones whose videos people have watched the most {when}.",
-    'nocamera': "Plenty of people like the idea of earning online but would rather not be on camera. None of these three needs you to show your face. They're the most-watched new ones {when}.",
-    'lowcost': "Not everyone has money to put into a new idea. These three can be started for about $100 or less, beyond a computer and internet. They're the most-watched new ones {when}.",
-    'older': "These three suit people who are 50+ or retired: no heavy lifting or on-site labor, and room to use the experience you already have. They're the most-watched new ones {when}.",
-    'nosales': "If cold calling and pitching strangers isn't for you, these three are worth a look: none of them depends on selling by phone or chasing clients. They're the most-watched new ones {when}.",
-    'noinventory': "No boxes in the garage: none of these three needs you to buy, store or ship products. They're the most-watched new ones {when}.",
+    'parent': "<strong>Work that fits around kids.</strong> If you're home with kids, you need work you can do in short stretches and put down whenever they need you. These three gigs fit that. They're YouTube's most-watched new gigs of this kind {when}.",
+    'nocamera': "<strong>No camera needed.</strong> Plenty of people like the idea of earning online but would rather not be on camera. None of these three gigs needs you to show your face. They're YouTube's most-watched camera-free gigs {when}.",
+    'lowcost': "<strong>Starting gigs on the cheap.</strong> Not everyone has money to put into a new idea. These three gigs can be started for about $100 or less (beyond a computer and internet costs). They're YouTube's most-watched low-cost gigs {when}.",
+    'older': "<strong>Good fits for 50+ and retired.</strong> These three gigs need no heavy lifting or on-site labor, and leave room to use the experience you already have. They're YouTube's most-watched gigs of this kind {when}.",
+    'nosales': "<strong>No selling required.</strong> If cold calling and pitching strangers isn't for you, these three are worth a look: none of them depends on selling by phone or chasing clients. They're YouTube's most-watched gigs of this kind {when}.",
+    'noinventory': "<strong>Nothing to store or ship.</strong> No boxes in the garage: none of these three gigs needs you to buy, store or ship products. They're YouTube's most-watched gigs of this kind {when}.",
 }
 SIGNOFF = ("<p style=\"font-size:16px;margin:24px 0 4px\">Thanks for reading,</p>"
            "<p style=\"font-size:16px;margin:0 0 10px\">Kevin<br><span style=\"color:#6b7280\">Side Hustle Intel</span></p>"
@@ -223,7 +224,7 @@ def build(days):
     if len(picks) < 2:  # theme 'views', or a theme with too few gigs
         picks, when = top3(new, views), 'this week'
         heading = f'The {len(picks)} most-watched new gigs this week'
-        intro = INTRO_VIEWS
+        intro = INTRO_VIEWS.format(when='this week')
         subject = f'The {len(picks)} most-watched new work-from-home gigs this week'
         more_link, more_text = f'{SITE}/tool/', 'Browse every gig'
     n, total = len(new), len(ideas)
@@ -255,13 +256,12 @@ def build(days):
     body = f"""<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#FFFFFF"><tr><td align="center" style="padding:8px 12px 20px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;{FONT};color:#16202e">
 <tr><td style="padding:4px 4px 6px">
-  <p style="font-size:16px;line-height:1.55;margin:0 0 12px">Hi, it's Kevin from <a href="{SITE}/" style="color:#0F3D57;font-weight:bold">SideHustleIntel.org</a>, the free database of work-from-home gigs you signed up for. Every Saturday I pick three of the newest gigs around a theme.</p>
-  <p style="font-size:16px;line-height:1.55;margin:0 0 10px">{intro}</p>
-  <p style="font-size:13px;color:#6b7280;margin:0">(Not for you anymore? <a href="{{{{ unsubscribe_url }}}}" style="color:#6b7280">Unsubscribe here</a>.)</p>
+  <p style="font-size:16px;line-height:1.55;margin:0">Hi, it's Kevin from <a href="{SITE}/" style="color:#0F3D57;font-weight:bold">SideHustleIntel.org</a>, the free database of work-from-home gigs you signed up for. Every Saturday, I pick three of the newest gigs around a theme, and I link to {len(also) if also else ALSO} more new gigs from the database below them.</p>
 </td></tr>
-<tr><td style="padding:18px 0 14px">
+<tr><td style="padding:22px 0 14px">
   <p style="{LABEL}">This week's theme</p>
-  <h1 style="font-size:24px;line-height:1.25;color:#0F3D57;margin:0">{html.escape(heading)}</h1>
+  <h1 style="font-size:24px;line-height:1.25;color:#0F3D57;margin:0 0 10px">{html.escape(heading)}</h1>
+  <p style="font-size:16px;line-height:1.55;margin:0">{intro}</p>
 </td></tr>
 <tr><td>{cards}</td></tr>
 {also_html}
@@ -270,7 +270,8 @@ def build(days):
   <p style="font-size:14px;color:#6b7280;margin:8px 0 0">{n} gig{'s were' if n != 1 else ' was'} added this week. There are now {total:,} in the free database.</p>
 </td></tr>
 <tr><td style="border-top:1px solid #E3EAEE;padding:18px 4px 0">{SIGNOFF}
-  <p style="font-size:13px;color:#6b7280;line-height:1.5">You're getting this because you signed up for the weekly email at <a href="{SITE}/" style="color:#6b7280">SideHustleIntel.org</a>. Side Hustle Intel is free and independent: I don't sell courses, and creators don't pay to be included. <a href="{{{{ unsubscribe_url }}}}" style="color:#6b7280">Unsubscribe</a></p>
+  <p style="font-size:13px;color:#6b7280;line-height:1.5">You're getting this because you signed up for the weekly email at <a href="{SITE}/" style="color:#6b7280">SideHustleIntel.org</a>. Side Hustle Intel is free and independent: I don't sell courses, and creators don't pay to be included.</p>
+  <p style="font-size:14px;color:#6b7280;margin:0">(Not for you anymore? <a href="{{{{ unsubscribe_url }}}}" style="color:#6b7280">Unsubscribe here</a>.)</p>
 </td></tr>
 </table></td></tr></table>"""
     return subject, preview, body, n
