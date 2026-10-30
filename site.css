@@ -268,3 +268,11 @@ a.creator:hover { color: var(--accent); }
 .msg-page h1 { font-size: 30px; margin-bottom: 12px; }
 .msg-page p, .msg-page li { font-size: 17px; color: var(--body); }
 .msg-page h2 { font-size: 20px; margin: 26px 0 6px; }
+
+/* Oct 30, 2026 (Kevin): a short semi-bold rule between gigs, lined up with the
+   left edge of the gig text, the same length everywhere. */
+#list { gap: 26px !important; }
+#list > .gig + .gig { position: relative; }
+#list > .gig + .gig::before { content: ""; position: absolute; top: -15px; left: 89px; width: 120px; height: 3px; border-radius: 2px; background: var(--navy); opacity: .55; }
+.details h4 { font-size: 18px; }
+@media (max-width: 760px) { #list > .gig + .gig::before { left: 17px; } }

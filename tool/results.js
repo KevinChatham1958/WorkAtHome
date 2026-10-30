@@ -9,7 +9,7 @@
 
 const SITUATIONS = [
   { id: 'older', label: '50+ or retired' },
-  { id: 'parent', label: 'Stay-at-home parent' },
+  { id: 'parent', label: 'Stay-at-home mom' },
   { id: 'health', label: 'Health limits' },
   { id: 'outside', label: 'Outside the US' },
   { id: 'lowcost', label: 'Low startup cost' },

@@ -30,7 +30,8 @@ def fail(msg):
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://sidehustleintel.org'
 API = 'https://api.kit.com/v4/broadcasts'
-PICKS = 3  # gigs per email
+PICKS = 3  # featured gigs per email (full cards)
+ALSO = 5   # more new gigs listed briefly under "Also new this week"
 
 
 def video_key(url):
@@ -229,6 +230,29 @@ def build(days):
     n, total = len(new), len(ideas)
     preview = re.sub(r'<[^>]+>', '', intro).split('. ')[0][:140]
     cards = ''.join(gig_html(k + 1, i, pages, views) for k, i in enumerate(picks))
+    # "Also new this week": the week's next most-watched gigs, any theme, one per
+    # creator, never from the featured gigs' creators. Title + one descriptive line + creator.
+    seen = {video_key(i.get('url')) or i['id'] for i in picks}
+    creators = {i['found'] for i in picks}
+    also = []
+    for i in sorted(new, key=lambda i: views.get(video_key(i.get('url')), -1), reverse=True):
+        k = video_key(i.get('url')) or i['id']
+        if k not in seen and i['found'] not in creators:
+            also.append(i); seen.add(k); creators.add(i['found'])
+        if len(also) == ALSO:
+            break
+    def line(i):
+        nm = (i.get('name') or '').strip()
+        d = nm[:1].upper() + nm[1:] if len(nm.split()) > 6 else sentences(i.get('what'), 1)
+        return d
+    also_rows = ''.join(
+        f'<tr><td style="padding:10px 0;border-bottom:1px solid #E3EAEE;{FONT}">'
+        f'<a href="{link_for(i, pages)}" style="font-size:17px;font-weight:bold;color:#0F3D57;text-decoration:none">{html.escape(i.get("title") or i["name"])}</a>'
+        f'<div style="font-size:14px;line-height:1.45;color:#3C5260;margin-top:2px">{html.escape(line(i))} &middot; <span style="color:#6b7280">{html.escape(i["found"])}</span></div></td></tr>'
+        for i in also)
+    also_html = (f'<tr><td style="padding:6px 0 18px"><p style="{LABEL};font-size:13px">Also new this week</p>'
+                 f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">{also_rows}</table></td></tr>') if also else ''
+
     body = f"""<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F4F8FA"><tr><td align="center" style="padding:20px 12px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;{FONT};color:#16202e">
 <tr><td align="center" style="padding:6px 0 14px">
@@ -244,6 +268,7 @@ def build(days):
   <h1 style="font-size:24px;line-height:1.25;color:#0F3D57;margin:0">{html.escape(heading)}</h1>
 </td></tr>
 <tr><td>{cards}</td></tr>
+{also_html}
 <tr><td align="center" style="padding:4px 0 22px">
   <a href="{more_link}" style="font-size:16px;font-weight:bold;color:#0F3D57">{more_text} &rarr;</a>
   <p style="font-size:14px;color:#6b7280;margin:8px 0 0">{n} gig{'s were' if n != 1 else ' was'} added this week. There are now {total:,} in the free database.</p>

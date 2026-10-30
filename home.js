@@ -12,7 +12,7 @@
 // icon = an SVG path drawn on a 24x24 grid (line icons; a diagonal stroke means "no").
 const ABOUT = [
   { id: 'older', label: '50+ or retired', icon: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 7v5l3 2' },
-  { id: 'parent', label: 'Stay-at-home parent', icon: 'M3 11l9-7 9 7M5 10v10h14V10M10 20v-6h4v6' },
+  { id: 'parent', label: 'Stay-at-home mom', icon: 'M3 11l9-7 9 7M5 10v10h14V10M10 20v-6h4v6' },
   { id: 'health', label: 'Health limits', icon: 'M12 20s-7-4.4-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.6-9 9-9 9z' },
   { id: 'outside', label: 'Outside the US', icon: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18' }
 ];

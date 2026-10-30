@@ -45,6 +45,7 @@ function toTitleCase(str) {
 function shortTitle(i) { return i.title || toTitleCase(i.name); }
 function hasTag(i, t) { return (i.filters || []).includes(t); }
 function avatarHtml(name, cls) {
-  return `<img class="${cls}" src="/assets/avatars/avatar-${esc(slugify(name))}.jpg" alt="" loading="lazy" onerror="this.outerHTML='<span class=&quot;${cls}&quot; aria-hidden=&quot;true&quot;>${esc(initials(name))}</span>'">`;
+  // Creators without a saved photo get a neutral head-and-shoulders silhouette (Oct 30, 2026; was initials).
+  return `<img class="${cls}" src="/assets/avatars/avatar-${esc(slugify(name))}.jpg" alt="" loading="lazy" onerror="this.onerror=null;this.src='/assets/avatars/silhouette.svg'">`;
 }
 function loadIdeas() { return fetch('/ideas.json').then(r => r.json()); }
