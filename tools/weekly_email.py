@@ -94,13 +94,11 @@ def gig_html(n, i, pages, views):
   <p style="font-size:16px;line-height:1.5;color:#16202e;margin:0 0 14px">{html.escape(sentences(i.get("what"), 2))}</p>
   <p style="{LABEL}">Best for</p>
   <p style="font-size:16px;line-height:1.5;color:#16202e;margin:0 0 14px">{html.escape(sentences(i.get("best"), 1))}</p>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="background:#F4F8FA;border-left:4px solid #0F3D57;padding:10px 14px;{FONT}">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="background:#F4F8FA;border-radius:8px;padding:10px 14px;{FONT}">
     <p style="{LABEL};color:#0F3D57">My honest take</p>
     <p style="font-size:15px;line-height:1.5;color:#3C5260;margin:0">{html.escape(sentences(i.get("truth"), 1))}</p>
   </td></tr></table>
-  <table role="presentation" cellpadding="0" cellspacing="0" style="margin-top:16px"><tr><td style="background:#C2410C;border-radius:8px">
-    <a href="{link}" style="display:inline-block;padding:11px 20px;{FONT};font-size:15px;font-weight:bold;color:#FFFFFF;text-decoration:none">Read the full write-up &rarr;</a>
-  </td></tr></table>
+  <p style="margin:14px 0 0;font-size:16px"><a href="{link}" style="color:#1A56DB;text-decoration:underline">Read the full write-up &rarr;</a></p>
 </td></tr></table>"""
 
 
@@ -139,7 +137,8 @@ SIT_INTRO = {
     'noinventory': "No boxes in the garage: none of these three needs you to buy, store or ship products. They're the most-watched new ones {when}.",
 }
 SIGNOFF = ("<p style=\"font-size:16px;margin:24px 0 4px\">Thanks for reading,</p>"
-           "<p style=\"font-size:16px;margin:0 0 16px\">Kevin<br><span style=\"color:#6b7280\">Side Hustle Intel</span></p>"
+           "<p style=\"font-size:16px;margin:0 0 10px\">Kevin<br><span style=\"color:#6b7280\">Side Hustle Intel</span></p>"
+           "<p style=\"margin:0 0 16px\"><a href=\"https://sidehustleintel.org/\"><img src=\"https://sidehustleintel.org/assets/logo-horizontal.png\" width=\"170\" alt=\"Side Hustle Intel\" style=\"display:block;width:170px;height:auto;border:0\"></a></p>"
            "<p style=\"font-size:15px;color:#3C5260\">P.S. Hit reply and tell me what kind of gigs you'd like to see more of. I read every reply.</p>")
 
 SITS = [  # (filter code, phrase finishing "3 new gigs ...")
@@ -253,12 +252,9 @@ def build(days):
     also_html = (f'<tr><td style="padding:6px 0 18px"><p style="{LABEL};font-size:13px">Also new this week</p>'
                  f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">{also_rows}</table></td></tr>') if also else ''
 
-    body = f"""<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F4F8FA"><tr><td align="center" style="padding:20px 12px">
+    body = f"""<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#FFFFFF"><tr><td align="center" style="padding:8px 12px 20px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;{FONT};color:#16202e">
-<tr><td align="center" style="padding:6px 0 14px">
-  <a href="{SITE}/"><img src="{SITE}/assets/logo-horizontal.png" width="260" alt="Side Hustle Intel" style="display:block;width:260px;max-width:80%;height:auto;border:0"></a>
-</td></tr>
-<tr><td style="padding:12px 4px 6px">
+<tr><td style="padding:4px 4px 6px">
   <p style="font-size:16px;line-height:1.55;margin:0 0 12px">Hi, it's Kevin from <a href="{SITE}/" style="color:#0F3D57;font-weight:bold">SideHustleIntel.org</a>, the free database of work-from-home gigs you signed up for. Every Saturday I pick three of the newest gigs around a theme.</p>
   <p style="font-size:16px;line-height:1.55;margin:0 0 10px">{intro}</p>
   <p style="font-size:13px;color:#6b7280;margin:0">(Not for you anymore? <a href="{{{{ unsubscribe_url }}}}" style="color:#6b7280">Unsubscribe here</a>.)</p>
@@ -289,7 +285,7 @@ def main():
         return
     subject, preview, body, n = built
     if mode == 'preview':
-        open(os.path.join(ROOT, 'weekly-email-preview.html'), 'w').write(f'<h3>{html.escape(subject)}</h3><p><i>{html.escape(preview)}</i></p>' + body.replace('{{ unsubscribe_url }}', '#'))
+        open(os.path.join(ROOT, 'weekly-email-preview.html'), 'w').write(body.replace('{{ unsubscribe_url }}', '#'))
         print(subject)
         return
     key = os.environ.get('KIT_API_KEY')
