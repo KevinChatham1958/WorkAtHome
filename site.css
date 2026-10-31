@@ -282,3 +282,6 @@ a.creator:hover { color: var(--accent); }
 .details .foot .source-label { font-weight: 600; color: var(--navy); }
 .details .foot a { color: #1A56DB; text-decoration: underline; }
 .details .foot a:hover { color: #1240A8; }
+/* Oct 30, 2026: "Clear search" / "Clear all" link inside the count line. */
+.count-clear { font: inherit; font-weight: 600; color: #1A56DB; background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
+.count-clear:hover { color: #1240A8; }

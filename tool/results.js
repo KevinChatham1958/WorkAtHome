@@ -190,7 +190,12 @@ function render() {
   const n = list.length;
   $('heading').textContent = heading();
   const prev = $('count').dataset.n;
-  $('count').innerHTML = `<strong>${n.toLocaleString()} gig${n === 1 ? '' : 's'}</strong> · tap any gig for the full write-up`;
+  // Oct 30, 2026 (Kevin): make an active search or filter impossible to miss, with a one-click way out.
+  const gigsTxt = `<strong>${n.toLocaleString()} gig${n === 1 ? '' : 's'}</strong>`;
+  const narrowed = st.cats.size || st.chips.size || st.savedOnly;
+  if (st.q.trim()) $('count').innerHTML = `Showing ${gigsTxt} for “${esc(st.q.trim())}”${narrowed ? ' with your filters' : ''} (of ${ALL.length.toLocaleString()}) · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
+  else if (narrowed) $('count').innerHTML = `Showing ${gigsTxt} that match your choices (of ${ALL.length.toLocaleString()}) · <button type="button" class="count-clear" data-clear="all">Clear all</button>`;
+  else $('count').innerHTML = `${gigsTxt} · tap any gig for the full write-up`;
   $('count').dataset.n = n;
   if (prev !== undefined && String(prev) !== String(n)) { const c = $('count'); c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); setTimeout(() => c.classList.remove('flash'), 50); }
   $('apply').textContent = n ? `Show ${n.toLocaleString()} gig${n === 1 ? '' : 's'}` : 'No gigs match';
@@ -238,6 +243,13 @@ $('filters').addEventListener('change', e => {
   if (t.checked && t.dataset.cat) track('filter_category', { idea_category: t.dataset.cat, gigs_found: results().length });
   if (t.checked && t.dataset.chip) track('filter_chip', { chip: SIT_LABEL[t.dataset.chip], chips_on: st.chips.size, gigs_found: results().length });
 });
+$('count').addEventListener('click', e => {
+  const b = e.target.closest('[data-clear]'); if (!b) return;
+  if (b.dataset.clear === 'q') { st.q = ''; $('q').value = ''; }
+  else { st.savedOnly = false; st.q = ''; $('q').value = ''; st.cats.clear(); st.chips.clear(); st.kind = ''; syncBoxesSafe(); }
+  changed();
+});
+function syncBoxesSafe() { try { renderFilters(); } catch (e) {} }
 $('active').addEventListener('click', e => {
   const b = e.target.closest('[data-x]'); if (!b) return;
   const x = b.dataset.x;
