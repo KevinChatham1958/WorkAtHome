@@ -311,6 +311,26 @@ class Ctx:
         return '/' + rel
 
 
+# Weekly email signup shown above the footer of every built page (idea, category and
+# creator pages), added Oct 31, 2026 so search visitors landing on a gig page can sign up.
+# Posts straight to Kit form 10117206 (Production Process §17); inline styles because these
+# pages use the older styles.css.
+SIGNUP_HTML = """<section style="max-width:804px;margin:0 auto 48px;padding:0 16px">
+  <form action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="gig-page" class="shi-signup"
+        style="background:#FFF4ED;border:1.5px solid #F6D3BF;border-radius:12px;padding:18px 20px;font-family:Inter,system-ui,sans-serif">
+    <p style="margin:0 0 4px;font-size:19px;font-weight:600;color:#0F3D57">&#128236; New gigs in your inbox every Saturday</p>
+    <p style="margin:0 0 12px;font-size:15px;color:#3C5260">One short email a week: three of the newest work-from-home gigs, each with our honest take. Free, and you can unsubscribe anytime. <a href="/privacy/" style="color:#3C5260">Privacy</a></p>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <label for="shi-email" style="position:absolute;left:-9999px">Your email address</label>
+      <input id="shi-email" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required
+             style="flex:1 1 220px;min-width:0;font:inherit;font-size:16px;padding:10px 12px;border:1.5px solid #E3EAEE;border-radius:8px;background:#fff;color:#0F3D57">
+      <button type="submit" style="font:inherit;font-size:16px;font-weight:600;background:#C2410C;color:#fff;border:0;border-radius:8px;padding:10px 18px;cursor:pointer">Send me the weekly gigs</button>
+    </div>
+  </form>
+</section>
+<script>document.querySelectorAll('form.shi-signup').forEach(f=>f.addEventListener('submit',()=>{try{if(typeof gtag==='function')gtag('event','email_signup',{form:f.dataset.src,transport_type:'beacon'})}catch(e){}}));</script>"""
+
+
 def footer_html(ctx):
     cats = ' '.join(f'<a href="{ctx.cat(c)}">{esc(c)}</a>' for c in CATEGORY_ORDER)
     return f"""<footer class="site-footer">
@@ -372,6 +392,8 @@ def shell(ctx, site, *, title, desc, canonical, og_type, schema, main, extra_scr
 </header>
 
 {main}
+
+{SIGNUP_HTML}
 
 {footer_html(ctx)}
 {extra_script}
