@@ -319,7 +319,7 @@ SIGNUP_HTML = """<section style="max-width:804px;margin:0 auto 48px;padding:0 16
   <form action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="gig-page" class="shi-signup"
         style="background:#FFF4ED;border:1.5px solid #F6D3BF;border-radius:12px;padding:18px 20px;font-family:Inter,system-ui,sans-serif">
     <p style="margin:0 0 4px;font-size:19px;font-weight:600;color:#0F3D57">&#128236; New gigs in your inbox every Saturday</p>
-    <p style="margin:0 0 12px;font-size:15px;color:#3C5260">One short email a week: three of the newest work-from-home gigs, each with our honest take. Free, and you can unsubscribe anytime. <a href="/privacy/" style="color:#3C5260">Privacy</a></p>
+    <p style="margin:0 0 12px;font-size:15px;color:#3C5260">One short email a week: three of the newest work-from-home gigs, each with our honest take. <strong>Free bonus:</strong> our directory of 220+ side-hustle YouTube creators and their videos. Unsubscribe anytime. <a href="/privacy/" style="color:#3C5260">Privacy</a></p>
     <div style="display:flex;gap:8px;flex-wrap:wrap">
       <label for="shi-email" style="position:absolute;left:-9999px">Your email address</label>
       <input id="shi-email" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required

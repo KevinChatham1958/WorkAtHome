@@ -270,6 +270,7 @@ def build(days):
   <p style="font-size:14px;color:#6b7280;margin:8px 0 0">{n} gig{'s were' if n != 1 else ' was'} added this week. There are now {total:,} in the free database.</p>
 </td></tr>
 <tr><td style="border-top:1px solid #E3EAEE;padding:18px 4px 0">{SIGNOFF}
+  <p style="font-size:15px;color:#3C5260;line-height:1.5;margin:0 0 14px"><strong>Your subscriber bonus:</strong> the <a href="{SITE}/creator-directory/" style="color:#1A56DB">Creator Directory</a>, every creator in our database plus their videos from the last two years, searchable by subject.</p>
   <p style="font-size:13px;color:#6b7280;line-height:1.5">You're getting this because you signed up for the weekly email at <a href="{SITE}/" style="color:#6b7280">SideHustleIntel.org</a>. Side Hustle Intel is free and independent: I don't sell courses, and creators don't pay to be included.</p>
   <p style="font-size:14px;color:#6b7280;margin:0">(Not for you anymore? <a href="{{{{ unsubscribe_url }}}}" style="color:#6b7280">Unsubscribe here</a>.)</p>
 </td></tr>
