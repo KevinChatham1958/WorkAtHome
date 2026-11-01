@@ -1,4 +1,4 @@
-"""Build the weekly email (3 gigs on a rotating theme) and hand it to Kit (kit.com).
+"""Build the weekly email (Gig of the Week in full, then 7 more new gigs by name) and hand it to Kit (kit.com).
 
 Runs in GitHub Actions (.github/workflows/weekly-email.yml) with the secret
 KIT_API_KEY. Gigs "added this week" are the ids in ideas.json now that were
@@ -30,8 +30,7 @@ def fail(msg):
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://sidehustleintel.org'
 API = 'https://api.kit.com/v4/broadcasts'
-PICKS = 3  # featured gigs per email (full cards)
-ALSO = 5   # more new gigs listed briefly under "Also new this week"
+MORE = 7  # new gigs listed by name under the Gig of the Week
 
 
 def video_key(url):
@@ -58,121 +57,56 @@ def fmt_views(n):
     return s + ' views'
 
 
-def first_sentence(t):
-    t = (t or '').strip()
-    m = re.match(r'^.+?[.!?](?=\s|$)', t)
-    return m.group(0) if m else t
-
-
 def link_for(i, pages):
     if i['id'] in pages:
         return f"{SITE}/ideas/{i['id']}/"
     return f"{SITE}/tool/?open={i['id']}"
 
 
-def sentences(t, n):
-    parts = re.findall(r'.+?[.!?](?=\s|$)', (t or '').strip())
-    return ' '.join(parts[:n]) if parts else (t or '').strip()
-
-
 FONT = 'font-family:Arial,Helvetica,sans-serif'
 LABEL = 'font-size:12px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:#C2410C;margin:0 0 4px'
+SECTION = 'font-size:13px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:#0F3D57;margin:18px 0 6px;padding-top:10px;border-top:1px solid #E3EAEE'
+TEXT = 'font-size:16px;line-height:1.55;color:#16202e;margin:0'
 
 
-def gig_html(n, i, pages, views):
-    """One gig as its own card: an IDEA #n tag, title, then three short complete pieces
-    (what it is, best for, honest take) and a button to the full write-up."""
+def paras(t):
+    """Full text, keeping any paragraph breaks."""
+    return ''.join(f'<p style="{TEXT};margin:0 0 10px">{html.escape(x.strip())}</p>'
+                   for x in re.split(r'\n\s*\n', (t or '').strip()) if x.strip())
+
+
+def gig_of_week_html(i, pages, views):
+    """The Gig of the Week, shown in full with the same four sections as the site."""
     v = views.get(video_key(i.get('url')), -1)
     meta = f"From <strong>{html.escape(i['found'])}</strong>'s YouTube video" + (f" &middot; {fmt_views(v)}" if v >= 0 else '')
     link = link_for(i, pages)
+    sections = ''.join(f'<p style="{SECTION}">{label}</p>{paras(i.get(key))}'
+                       for label, key in (('What It Is', 'what'), ('The Pitch', 'pitch'),
+                                          ("Who It's Best For", 'best'), ('The Truth (as we see it)', 'truth')))
     return f"""<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:0 0 22px;border:2px solid #E3EAEE;border-radius:12px;background:#FFFFFF">
 <tr><td style="padding:18px 20px 20px;{FONT}">
-  <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 0 10px"><tr><td style="background:#FFF4ED;border:1.5px solid #F6D3BF;border-radius:999px;padding:4px 12px;{FONT};font-size:12px;font-weight:bold;letter-spacing:1.5px;color:#C2410C">IDEA #{n}</td></tr></table>
-  <a href="{link}" style="font-size:22px;line-height:1.25;font-weight:bold;color:#0F3D57;text-decoration:none">{html.escape(i.get("title") or i["name"])}</a>
-  <p style="font-size:13px;color:#6b7280;margin:4px 0 16px">{meta}</p>
-  <p style="{LABEL}">What it is</p>
-  <p style="font-size:16px;line-height:1.5;color:#16202e;margin:0 0 14px">{html.escape(sentences(i.get("what"), 2))}</p>
-  <p style="{LABEL}">Best for</p>
-  <p style="font-size:16px;line-height:1.5;color:#16202e;margin:0 0 14px">{html.escape(sentences(i.get("best"), 1))}</p>
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td style="background:#F4F8FA;border-radius:8px;padding:10px 14px;{FONT}">
-    <p style="{LABEL};color:#0F3D57">My honest take</p>
-    <p style="font-size:15px;line-height:1.5;color:#3C5260;margin:0">{html.escape(sentences(i.get("truth"), 1))}</p>
-  </td></tr></table>
-  <p style="margin:14px 0 0;font-size:16px"><a href="{link}" style="color:#1A56DB;text-decoration:underline">Read the full write-up &rarr;</a></p>
+  <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 0 10px"><tr><td style="background:#FFF4ED;border:1.5px solid #F6D3BF;border-radius:999px;padding:4px 12px;{FONT};font-size:12px;font-weight:bold;letter-spacing:1.5px;color:#C2410C">GIG OF THE WEEK</td></tr></table>
+  <a href="{link}" style="font-size:24px;line-height:1.25;font-weight:bold;color:#0F3D57;text-decoration:none">{html.escape(i.get("title") or i["name"])}</a>
+  <p style="font-size:13px;color:#6b7280;margin:4px 0 4px">{html.escape(i.get('category', ''))} &middot; {html.escape(i.get('cost', ''))}</p>
+  <p style="font-size:13px;color:#6b7280;margin:0 0 6px">{meta}</p>
+  {sections}
+  <p style="margin:14px 0 0;font-size:16px"><a href="{link}" style="color:#1A56DB;text-decoration:underline">See it in the database &rarr;</a></p>
 </td></tr></table>"""
 
 
-# Themes rotate week by week: most watched overall, then a category, then a
-# situation (the site's filter boxes), then most watched again with the next
-# category, and so on. THEME env (views / cat:<slug> / sit:<code>) forces one.
-CATS = [  # (category in ideas.json, friendly name, /category/ slug)
-    ('Local & professional services', 'Services from home', 'local-professional-services'),
-    ('Digital & subscription products', 'Digital products', 'digital-subscription-products'),
-    ('Marketing & content', 'Marketing for businesses', 'marketing-content'),
-    ('Physical & print products', 'Things you make', 'physical-print-products'),
-    ('Content & personal brand', 'YouTube & blogging', 'content-personal-brand'),
-    ('AI & automation', 'AI & automation', 'ai-automation'),
-    ('E-commerce', 'Online stores', 'e-commerce'),
-]
-# The theme paragraph under "This week's theme": a bold lead phrase, then why
-# these three. {when} = "this week" / "this month".
-INTRO_VIEWS = ("<strong>What people are watching.</strong> These three are the new gigs whose YouTube videos "
-               "were watched the most {when}. Popular isn't the same as good, so each comes with my honest take.")
-INTRO_CAT = ("<strong>{name}.</strong> This week is about {sub}. These three are YouTube's most-watched "
-             "new {name} gigs {when}.")
-CAT_SUB = {
-    'local-professional-services': 'services you sell to clients and do from home, like bookkeeping, dispatching or virtual assistance',
-    'digital-subscription-products': 'things you make once and sell many times, like printables, templates and e-books',
-    'marketing-content': 'helping businesses with social media, ads and websites',
-    'physical-print-products': 'things you make or design, from crafts to print-on-demand and books',
-    'content-personal-brand': 'building an audience with a YouTube channel, a blog or social media',
-    'ai-automation': 'using AI tools to build products or offer services',
-    'e-commerce': 'selling online through Etsy, Amazon, Shopify and similar stores',
-}
-SIT_INTRO = {
-    'parent': "<strong>Work that fits around kids.</strong> If you're home with kids, you need work you can do in short stretches and put down whenever they need you. These three gigs fit that. They're YouTube's most-watched new gigs of this kind {when}.",
-    'nocamera': "<strong>No camera needed.</strong> Plenty of people like the idea of earning online but would rather not be on camera. None of these three gigs needs you to show your face. They're YouTube's most-watched camera-free gigs {when}.",
-    'lowcost': "<strong>Starting gigs on the cheap.</strong> Not everyone has money to put into a new idea. These three gigs can be started for about $100 or less (beyond a computer and internet costs). They're YouTube's most-watched low-cost gigs {when}.",
-    'older': "<strong>Good fits for 50+ and retired.</strong> These three gigs need no heavy lifting or on-site labor, and leave room to use the experience you already have. They're YouTube's most-watched gigs of this kind {when}.",
-    'nosales': "<strong>No selling required.</strong> If cold calling and pitching strangers isn't for you, these three are worth a look: none of them depends on selling by phone or chasing clients. They're YouTube's most-watched gigs of this kind {when}.",
-    'noinventory': "<strong>Nothing to store or ship.</strong> No boxes in the garage: none of these three gigs needs you to buy, store or ship products. They're YouTube's most-watched gigs of this kind {when}.",
-}
 SIGNOFF = ("<p style=\"font-size:16px;margin:24px 0 4px\">Thanks for reading,</p>"
            "<p style=\"font-size:16px;margin:0 0 10px\">Kevin<br><span style=\"color:#6b7280\">Side Hustle Intel</span></p>"
            "<p style=\"margin:0 0 16px\"><a href=\"https://sidehustleintel.org/\"><img src=\"https://sidehustleintel.org/assets/logo-horizontal.png\" width=\"170\" alt=\"Side Hustle Intel\" style=\"display:block;width:170px;height:auto;border:0\"></a></p>"
            "<p style=\"font-size:15px;color:#3C5260\">P.S. Hit reply and tell me what kind of gigs you'd like to see more of. I read every reply.</p>")
 
-SITS = [  # (filter code, phrase finishing "3 new gigs ...")
-    ('parent', 'that fit around kids'),
-    ('nocamera', 'you can do without ever appearing on camera'),
-    ('lowcost', 'you can start for about $100 or less'),
-    ('older', 'that suit people 50+ or retired'),
-    ('nosales', 'with no cold calling or sales pitches'),
-    ('noinventory', 'with no inventory or shipping'),
-]
 
-
-def pick_theme(week):
-    forced = os.environ.get('THEME', '').strip()
-    if forced:
-        return forced
-    kind, rnd = week % 3, week // 3
-    if kind == 0:
-        return 'views'
-    if kind == 1:
-        return 'cat:' + CATS[rnd % len(CATS)][2]
-    return 'sit:' + SITS[rnd % len(SITS)][0]
-
-
-def top3(pool, views):
+def by_views(pool, views):
     """Most-viewed first, one gig per video."""
     out, seen = [], set()
     for i in sorted(pool, key=lambda i: views.get(video_key(i.get('url')), -1), reverse=True):
         k = video_key(i.get('url')) or i['id']
         if k not in seen:
             out.append(i); seen.add(k)
-        if len(out) == PICKS:
-            break
     return out
 
 
@@ -184,8 +118,6 @@ def build(days):
     new = [i for i in ideas if i['id'] not in before]
     if not new:
         return None
-    month_ids = {i['id'] for i in old_ideas(30)}
-    month = [i for i in ideas if i['id'] not in month_ids] if month_ids else new
     try:
         views = json.load(open(os.path.join(ROOT, 'views.json'))).get('views', {})
     except FileNotFoundError:
@@ -195,78 +127,51 @@ def build(days):
     except FileNotFoundError:
         pages = set()
 
-    theme = pick_theme(datetime.date.today().isocalendar()[1])
-    picks, when = [], 'this week'
-    if theme.startswith('cat:'):
-        cat = next((c for c in CATS if c[2] == theme[4:]), None)
-        if cat:
-            for pool, w in ((new, 'this week'), (month, 'this month')):
-                picks = top3([i for i in pool if i['category'] == cat[0]], views)
-                when = w
-                if len(picks) >= 2:
-                    break
-            heading = f'The most-watched new {cat[1]} gigs {when}'
-            intro = INTRO_CAT.format(name=html.escape(cat[1]), sub=CAT_SUB[cat[2]], when=when)
-            subject = f'{cat[1]}: the most-watched new gigs {when}'
-            more_link, more_text = f'{SITE}/category/{cat[2]}/', f'See every {cat[1]} gig'
-    elif theme.startswith('sit:'):
-        sit = next((x for x in SITS if x[0] == theme[4:]), None)
-        if sit:
-            for pool, w in ((new, 'this week'), (month, 'this month')):
-                picks = top3([i for i in pool if sit[0] in (i.get('filters') or [])], views)
-                when = w
-                if len(picks) >= 2:
-                    break
-            heading = f'{len(picks)} new gigs {sit[1]}'
-            intro = SIT_INTRO[sit[0]].format(when=when)
-            subject = f'{len(picks)} new work-from-home gigs {sit[1]}'
-            more_link, more_text = f'{SITE}/tool/?f={sit[0]}', 'See them all in the gig browser'
-    if len(picks) < 2:  # theme 'views', or a theme with too few gigs
-        picks, when = top3(new, views), 'this week'
-        heading = f'The {len(picks)} most-watched new gigs this week'
-        intro = INTRO_VIEWS.format(when='this week')
-        subject = f'The {len(picks)} most-watched new work-from-home gigs this week'
-        more_link, more_text = f'{SITE}/tool/', 'Browse every gig'
-    n, total = len(new), len(ideas)
-    preview = re.sub(r'<[^>]+>', '', intro).split('. ')[0][:140]
-    cards = ''.join(gig_html(k + 1, i, pages, views) for k, i in enumerate(picks))
-    # "Also new this week": the week's next most-watched gigs, any theme, one per
-    # creator, never from the featured gigs' creators. Title + one descriptive line + creator.
-    seen = {video_key(i.get('url')) or i['id'] for i in picks}
-    creators = {i['found'] for i in picks}
-    also = []
-    for i in sorted(new, key=lambda i: views.get(video_key(i.get('url')), -1), reverse=True):
-        k = video_key(i.get('url')) or i['id']
-        if k not in seen and i['found'] not in creators:
-            also.append(i); seen.add(k); creators.add(i['found'])
-        if len(also) == ALSO:
+    # Gig of the Week: the week's most-watched new gig (Kevin can swap it in the Kit draft).
+    # The other 7: the next most-watched new gigs, one per video, creators varied where possible.
+    ranked = by_views(new, views)
+    gotw = ranked[0]
+    rest = ranked[1:]
+    more, creators = [], {gotw['found']}
+    for i in rest:                      # first pass: a different creator each
+        if i['found'] not in creators:
+            more.append(i); creators.add(i['found'])
+        if len(more) == MORE:
             break
-    def line(i):
-        nm = (i.get('name') or '').strip()
-        d = nm[:1].upper() + nm[1:] if len(nm.split()) > 6 else sentences(i.get('what'), 1)
-        return d
-    also_rows = ''.join(
-        f'<tr><td style="padding:10px 0;border-bottom:1px solid #E3EAEE;{FONT}">'
-        f'<a href="{link_for(i, pages)}" style="font-size:17px;font-weight:bold;color:#0F3D57;text-decoration:none">{html.escape(i.get("title") or i["name"])}</a>'
-        f'<div style="font-size:14px;line-height:1.45;color:#3C5260;margin-top:2px">{html.escape(line(i))} &middot; <span style="color:#6b7280">{html.escape(i["found"])}</span></div></td></tr>'
-        for i in also)
-    also_html = (f'<tr><td style="padding:6px 0 18px"><p style="{LABEL};font-size:13px">Also new this week</p>'
-                 f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">{also_rows}</table></td></tr>') if also else ''
+    for i in rest:                      # top up if the week had few creators
+        if len(more) == MORE:
+            break
+        if i not in more:
+            more.append(i)
+    if len(more) < MORE:                # top up from the week's other gigs (same video)
+        for i in sorted(new, key=lambda i: views.get(video_key(i.get('url')), -1), reverse=True):
+            if len(more) == MORE:
+                break
+            if i is not gotw and i not in more:
+                more.append(i)
+
+    n, total = len(new), len(ideas)
+    title = gotw.get('title') or gotw['name']
+    subject = f'Gig of the Week: {title}'
+    preview = f'Plus {len(more)} more of the newest work-from-home gigs.' if more else 'This week\'s newest work-from-home gig.'
+    card = gig_of_week_html(gotw, pages, views)
+    more_rows = ''.join(
+        f'<tr><td style="padding:9px 0;border-bottom:1px solid #E3EAEE;{FONT}">'
+        f'<a href="{link_for(i, pages)}" style="font-size:17px;font-weight:bold;color:#0F3D57;text-decoration:none">{html.escape(i.get("title") or i["name"])}</a></td></tr>'
+        for i in more)
+    more_html = (f'<tr><td style="padding:6px 0 18px"><p style="{LABEL};font-size:13px">{len(more)} more new gigs</p>'
+                 f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">{more_rows}</table></td></tr>') if more else ''
+    count_line = f"the Gig of the Week, then {len(more)} more of the newest gigs from the database" if more else "the Gig of the Week"
 
     body = f"""<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#FFFFFF"><tr><td align="center" style="padding:8px 12px 20px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;{FONT};color:#16202e">
-<tr><td style="padding:4px 4px 6px">
-  <p style="font-size:16px;line-height:1.55;margin:0">Hi, it's Kevin from <a href="{SITE}/" style="color:#0F3D57;font-weight:bold">SideHustleIntel.org</a>, the free database of work-from-home gigs you signed up for. Every Saturday, I pick three of the newest gigs around a theme, and I link to {len(also) if also else ALSO} more new gigs from the database below them.</p>
+<tr><td style="padding:4px 4px 18px">
+  <p style="font-size:16px;line-height:1.55;margin:0">Hi, it's Kevin from <a href="{SITE}/" style="color:#0F3D57;font-weight:bold">SideHustleIntel.org</a>, the free database of work-from-home gigs you signed up for. Every Saturday I send {count_line}.</p>
 </td></tr>
-<tr><td style="padding:22px 0 14px">
-  <p style="{LABEL}">This week's theme</p>
-  <h1 style="font-size:24px;line-height:1.25;color:#0F3D57;margin:0 0 10px">{html.escape(heading)}</h1>
-  <p style="font-size:16px;line-height:1.55;margin:0">{intro}</p>
-</td></tr>
-<tr><td>{cards}</td></tr>
-{also_html}
+<tr><td>{card}</td></tr>
+{more_html}
 <tr><td align="center" style="padding:4px 0 22px">
-  <a href="{more_link}" style="font-size:16px;font-weight:bold;color:#0F3D57">{more_text} &rarr;</a>
+  <a href="{SITE}/tool/" style="font-size:16px;font-weight:bold;color:#0F3D57">Browse every gig &rarr;</a>
   <p style="font-size:14px;color:#6b7280;margin:8px 0 0">{n} gig{'s were' if n != 1 else ' was'} added this week. There are now {total:,} in the free database.</p>
 </td></tr>
 <tr><td style="border-top:1px solid #E3EAEE;padding:18px 4px 0">{SIGNOFF}
