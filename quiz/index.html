@@ -117,7 +117,14 @@ const QUESTIONS = [
            { label: 'I live outside the US', v: 'outside' }] }
 ];
 // Optional ?from=reddit (facebook, youtube, email...) on quiz links shows in Google Analytics which channel brought the visitor.
-const FROM = (() => { try { return (new URLSearchParams(location.search).get('from') || '').slice(0, 30); } catch (e) { return ''; } })();
+// Short links /quiz/r/, /quiz/f/, /quiz/y/ forward here with ?from=; the address bar is then
+// tidied back to /quiz/ and the source kept for this visit.
+const FROM = (() => {
+  let f = '';
+  try { f = (new URLSearchParams(location.search).get('from') || '').slice(0, 30); } catch (e) {}
+  try { if (f) { sessionStorage.setItem('shi_quiz_from', f); history.replaceState(null, '', location.pathname); } else f = sessionStorage.getItem('shi_quiz_from') || ''; } catch (e) {}
+  return f;
+})();
 function track(name, p) { p = Object.assign({ from: FROM }, p || {}); try { if (typeof gtag === 'function') gtag('event', name, p || {}); } catch (e) {} }
 
 const blocks = QUESTIONS.map((Q, n) => `
