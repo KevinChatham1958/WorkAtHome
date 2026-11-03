@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261030c">
+<link rel="stylesheet" href="/site.css?v=20261103a">
 </head>
 <body class="results-page">
 
@@ -39,6 +39,7 @@
 </header>
 
 <div class="results-body">
+  <p class="wrap quiz-nudge" id="quiz-nudge">New here? <a href="/quiz/" data-cta="tool-nudge">Take the 60-second quiz</a> and we'll tick the right boxes for you.</p>
   <div class="wrap layout">
     <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Filters</button>
     <aside class="filters" id="filters" aria-label="Filters">
@@ -91,8 +92,10 @@
 </footer>
 
 <script src="/site.js?v=20261030a"></script>
-<script src="/tool/results.js?v=20261030c"></script>
+<script src="/tool/results.js?v=20261103a"></script>
 <script>
+// Quiz nudge: hidden for visitors who arrive with filters already set (for example from the quiz).
+if (/[?&](cat|f|kind|q|open)=/.test(location.search)) { const n = document.getElementById('quiz-nudge'); if (n) n.hidden = true; }
 // Weekly email signup: count submits in Google Analytics (event email_signup, with which form).
 document.querySelectorAll('form.signup').forEach(f => f.addEventListener('submit', () => {
   try { if (typeof gtag === 'function') gtag('event', 'email_signup', { form: f.dataset.src, transport_type: 'beacon' }); } catch (e) {}

@@ -28,7 +28,7 @@ h1, h2, h3 { font-family: Outfit, system-ui, sans-serif; color: var(--navy); mar
 .site-header .wrap { display: flex; flex-wrap: wrap; gap: 14px 24px; align-items: center; justify-content: space-between; padding-top: 14px; padding-bottom: 14px; }
 .logo { height: 30px; width: auto; display: block; }
 .nav { display: flex; gap: 22px; align-items: center; }
-.nav a { text-decoration: none; font-size: 16px; font-weight: 500; color: var(--ink); }
+.nav a { text-decoration: none; font-size: 16px; font-weight: 500; color: var(--ink); white-space: nowrap; }
 .nav a.nav-saved { font-weight: 600; }
 .nav a.btn { color: #FFFFFF; font-weight: 600; }
 
@@ -97,7 +97,11 @@ a.creator:hover { color: var(--accent); }
 .center { display: flex; justify-content: center; margin-top: 28px; }
 .cta-stack { flex-direction: column; align-items: center; gap: 10px; }
 .btn-note { font-size: 15px; color: var(--muted); }
+.btn-note a { color: var(--accent-dark); font-weight: 600; }
 .closer .btn-note { color: #CFE0E8; }
+.closer .btn-note a { color: #FFFFFF; }
+.hero-quiz { font-size: 18px; font-weight: 600; color: var(--accent-dark); }
+.hero-quiz:hover { color: var(--accent); }
 
 .reasons-wrap { background: var(--tint); }
 .reasons { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 32px; }
@@ -149,6 +153,8 @@ a.creator:hover { color: var(--accent); }
 .search button { font: inherit; font-size: 16px; font-weight: 600; background: var(--navy); color: #FFFFFF; border: none; border-radius: 0 8px 8px 0; padding: 0 20px; cursor: pointer; }
 .results-body { background: var(--tint); min-height: 80vh; padding: 24px 0 60px; }
 .layout { display: flex; gap: 28px; align-items: flex-start; }
+.quiz-nudge { margin: 0 auto 16px; font-size: 17px; color: var(--body); }
+.quiz-nudge a { font-weight: 600; color: var(--accent-dark); }
 .filters { width: 290px; flex-shrink: 0; display: flex; flex-direction: column; gap: 18px; }
 /* Desktop: the filter column stays on screen and scrolls on its own, separately from the gigs. */
 @media (min-width: 861px) {

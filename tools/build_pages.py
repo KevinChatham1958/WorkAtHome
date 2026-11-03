@@ -315,7 +315,9 @@ class Ctx:
 # creator pages), added Oct 31, 2026 so search visitors landing on a gig page can sign up.
 # Posts straight to Kit form 10117206 (Production Process §17); inline styles because these
 # pages use the older styles.css.
+# Quiz invitation (Nov 3, 2026): search visitors reading one gig are the quiz's best audience.
 SIGNUP_HTML = """<section style="max-width:804px;margin:0 auto 48px;padding:0 16px">
+  <p style="margin:0 0 18px;font-family:Inter,system-ui,sans-serif;font-size:18px;color:#0F3D57"><strong>Want more gigs that fit you?</strong> <a href="/quiz/?from=gig-page" style="color:#9A3412;font-weight:600">Take the 60-second quiz &rarr;</a></p>
   <form action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="gig-page" class="shi-signup"
         style="background:#FFF4ED;border:1.5px solid #F6D3BF;border-radius:12px;padding:18px 20px;font-family:Inter,system-ui,sans-serif">
     <p style="margin:0 0 4px;font-size:19px;font-weight:600;color:#0F3D57">&#128236; New gigs in your inbox every Saturday</p>
@@ -734,7 +736,7 @@ def creator_page(name, site, ctx):
 # ---------- sitemap, robots, homepage index ----------
 
 def sitemap(site):
-    urls = [SITE + '/', SITE + '/tool/', SITE + '/about.html']
+    urls = [SITE + '/', SITE + '/tool/', SITE + '/quiz/', SITE + '/about.html']
     urls += [f"{SITE}/category/{slugify(c)}/" for c in CATEGORY_ORDER]
     urls += [f"{SITE}/creator/{slugify(c)}/" for c in site.creators]
     urls += [f"{SITE}/ideas/{x['id']}/" for x in site.pages]

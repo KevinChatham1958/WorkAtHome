@@ -5,7 +5,7 @@
 // - Your situation: every ticked box narrows the list (same tags as the live tool).
 // - Search: only gigs matching the words show, best match first.
 // Links can preset everything: ?kind=products|services|audience, ?cat=slug[,slug],
-// ?f=lowcost,nocamera, ?q=words, ?open=<gig id>.
+// ?f=lowcost,nocamera, ?q=words, ?open=<gig id>, ?sort=newest.
 
 const SITUATIONS = [
   { id: 'older', label: '50+ or retired' },
@@ -350,6 +350,8 @@ function applyParams() {
   (p.get('f') || '').split(',').forEach(f => { if (SIT_LABEL[f.trim()]) st.chips.add(f.trim()); });
   const q = (p.get('q') || '').trim(); if (q) { st.q = q; $('q').value = q; }
   const open = p.get('open'); if (open && ALL.some(i => i.id === open)) { st.open.add(open); st.pin = open; }
+  // ?sort=newest|oldest|views (the quiz's saved link uses newest, for the Saturday email's "new matches" button)
+  const so = p.get('sort'); if (['newest', 'oldest', 'views', 'shuffle'].includes(so)) { st.sort = so; $('sort').value = so; }
   if (q || open || st.cats.size || st.chips.size) track('link_landing', { search_term: q, idea_id: open || '', idea_category: [...st.cats].join(','), chips: [...st.chips].join(',') });
 }
 

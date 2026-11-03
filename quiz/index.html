@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DP5LDLD5VR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-DP5LDLD5VR');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work-at-Home Gig Quiz — Side Hustle Intel</title>
+<link rel="canonical" href="https://sidehustleintel.org/quiz/">
+<meta name="description" content="Answer 7 quick questions and see the work-at-home gigs that fit you, from 1,000+ gigs pulled from YouTube creators. Free, no sign-up.">
+<meta property="og:title" content="Which work-at-home gigs fit you? Take the 60-second quiz">
+<meta property="og:description" content="7 quick questions. See your matches from 1,000+ work-at-home gigs, each explained in plain English. Free, no sign-up.">
+<meta property="og:image" content="https://sidehustleintel.org/assets/hero-home.webp">
+<meta property="og:url" content="https://sidehustleintel.org/quiz/">
+<meta property="og:type" content="website">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/site.css?v=20261103a">
+<style>
+.quiz-page { background: var(--tint); }
+.quiz-main { padding: 28px 16px 48px; }
+.quiz-card { max-width: 720px; margin: 0 auto; background: #FFFFFF; border: 1px solid var(--line); border-radius: 16px; padding: 32px 28px; box-shadow: 0 8px 28px rgba(15,61,87,0.07); }
+.quiz-card h1 { font-size: 34px; line-height: 1.15; margin: 0 0 12px; text-wrap: balance; }
+.quiz-lead { font-size: 19px; color: var(--body); margin: 0 0 8px; line-height: 1.45; }
+.qblock { border: none; margin: 0; padding: 0; margin-top: 34px; }
+.qblock legend { padding: 0; font-family: Outfit, system-ui, sans-serif; font-weight: 600; color: var(--navy); font-size: 22px; line-height: 1.25; display: flex; gap: 10px; }
+.qnum { color: var(--accent); }
+.quiz-hint { font-size: 15px; color: var(--muted); margin: 6px 0 0; }
+.qopts { display: grid; gap: 2px; margin-top: 10px; }
+.qopt { position: relative; display: flex; align-items: flex-start; gap: 12px; padding: 7px 8px; margin: 0 -8px; border-radius: 8px; font-size: 17px; font-weight: 600; color: var(--navy); cursor: pointer; line-height: 1.35; }
+.qopt:hover { background: var(--tint); }
+.qopt input { position: absolute; opacity: 0; pointer-events: none; }
+.qopt .box { flex-shrink: 0; width: 22px; height: 22px; margin-top: 0; border: 2px solid var(--field); border-radius: 6px; display: grid; place-items: center; font-size: 14px; color: #FFFFFF; }
+.qopt input[type=radio] + .box { border-radius: 50%; }
+.qopt input:checked + .box { background: var(--accent); border-color: var(--accent); }
+.qopt input:checked + .box::after { content: '✓'; }
+
+.qopt:has(input:focus-visible) { outline: 3px solid var(--accent); outline-offset: 2px; }
+.qopt small { font-weight: 400; font-size: 15px; color: var(--muted); }
+.qopt small::before { content: "\00a0\00b7\00a0"; }
+.quiz-email { margin-top: 30px; background: var(--accent-tint); border: 1.5px solid #F6D3BF; border-radius: 12px; padding: 18px; }
+.quiz-email h2 { font-size: 20px; margin: 0 0 4px; }
+.quiz-email p { margin: 0 0 12px; color: var(--body); font-size: 15px; }
+.quiz-email p a { color: var(--body); }
+.quiz-email input { width: 100%; font: inherit; font-size: 17px; padding: 12px 14px; border: 1.5px solid var(--field); border-radius: 8px; background: #FFFFFF; color: var(--navy); }
+.quiz-email input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.quiz-submit { margin-top: 22px; display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.quiz-small { font-size: 15px; color: var(--muted); margin: 0; }
+@media (max-width: 560px) {
+  .quiz-card { padding: 24px 18px; }
+  .quiz-card h1 { font-size: 28px; }
+  .qblock legend { font-size: 20px; }
+  .quiz-submit .btn { width: 100%; justify-content: center; }
+}
+</style>
+</head>
+<body class="quiz-page">
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="/"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel" width="1782" height="169"></a>
+    <nav class="nav" aria-label="Main">
+      <a href="/about.html">About</a>
+      <a class="btn btn-sm" href="/tool/" data-cta="quiz-header">Find Gigs</a>
+    </nav>
+  </div>
+</header>
+
+<main class="quiz-main">
+  <div class="quiz-card" id="card"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">© 2026 SideHustleIntel.org · <a href="/about.html">About</a> · <a href="/privacy/">Privacy</a> · Creator names are shown for reference only and imply no endorsement.</div>
+</footer>
+
+<script src="/site.js?v=20261030a"></script>
+<script>
+// Work-at-Home Gig Quiz (/quiz/), all on one page (Kevin, Nov 3 2026: no counts or results
+// until the visitor submits). Each answer just sets one of the gig browser's existing filters
+// ("Type of gig you like" = ?cat=, "Your situation" = ?f=); submitting opens /tool/ with those
+// filters ticked. No separate matching logic.
+// Optional email: if given, the visitor is added to the weekly email (Kit form 10117206) and
+// their matches link is saved in the Kit custom field "quiz_link", so the Saturday email can
+// include a personal "Your new matches" button. To change wording, edit QUESTIONS below.
+const TOOL = window.QUIZ_TOOL_URL || '/tool/';
+const KIT_FORM = 'https://app.kit.com/forms/10117206/subscriptions';
+const QUESTIONS = [
+  { key: 'cats', multi: true,
+    q: 'What kind of work sounds good to you?',
+    hint: 'Pick any that appeal to you. Not sure? Leave them all blank.',
+    opts: CATS.map(c => ({ label: c.name, sub: c.sub, v: c.slug })) },
+  { key: 'cost', q: 'How much could you spend to get started?',
+    opts: [{ label: 'Very little, about $200 or less', v: 'lowcost' }, { label: 'I can spend more if the gig is worth it', v: '' }] },
+  { key: 'camera', q: 'How do you feel about being on camera?',
+    opts: [{ label: "I'd rather stay off camera", v: 'nocamera' }, { label: 'Being on camera is fine with me', v: '' }] },
+  { key: 'sales', q: 'Would you be OK selling to strangers, like cold calls or cold messages?',
+    opts: [{ label: "No, I'd rather not", v: 'nosales' }, { label: 'Yes, I can do that', v: '' }] },
+  { key: 'inventory', q: 'Would you mind keeping products at home and shipping them out?',
+    opts: [{ label: "I'd rather not handle products or shipping", v: 'noinventory' }, { label: "That's fine with me", v: '' }] },
+  { key: 'ai', q: 'Are you comfortable using AI tools like ChatGPT?',
+    opts: [{ label: "Yes, or I'm willing to learn", v: '' }, { label: "I'd rather not use AI", v: 'noai' }] },
+  { key: 'life', multi: true, q: 'Do any of these describe you?',
+    hint: 'Pick any that fit, or none.',
+    opts: [{ label: '50+ or retired', v: 'older' },
+           { label: 'Stay-at-home mom', sub: 'Work in short, pausable sessions around the kids', v: 'parent' },
+           { label: 'Health limits', v: 'health' },
+           { label: 'I live outside the US', v: 'outside' }] }
+];
+// Optional ?from=reddit (facebook, youtube, email...) on quiz links shows in Google Analytics which channel brought the visitor.
+const FROM = (() => { try { return (new URLSearchParams(location.search).get('from') || '').slice(0, 30); } catch (e) { return ''; } })();
+function track(name, p) { p = Object.assign({ from: FROM }, p || {}); try { if (typeof gtag === 'function') gtag('event', name, p || {}); } catch (e) {} }
+
+const blocks = QUESTIONS.map((Q, n) => `
+  <fieldset class="qblock">
+    <legend><span class="qnum">${n + 1}.</span><span>${esc(Q.q)}</span></legend>
+    ${Q.hint ? `<p class="quiz-hint">${esc(Q.hint)}</p>` : ''}
+    <div class="qopts">${Q.opts.map((o, i) => `
+      <label class="qopt"><input type="${Q.multi ? 'checkbox' : 'radio'}" name="${Q.key}" value="${esc(o.v)}" id="${Q.key}-${i}"><span class="box" aria-hidden="true"></span>
+        <span>${esc(o.label)}${o.sub ? `<small>${esc(o.sub)}</small>` : ''}</span></label>`).join('')}
+    </div>
+  </fieldset>`).join('');
+
+document.getElementById('card').innerHTML = `
+  <h1>Which work-at-home gigs fit you?</h1>
+  <p class="quiz-lead">Answer ${QUESTIONS.length} quick questions and we'll show you the gigs that match, from our database of 1,000+ ideas pulled from YouTube creators. Each one is explained in plain English, with our honest take. Free, no sign-up.</p>
+  <form id="quiz" novalidate>
+    ${blocks}
+    <div class="quiz-email">
+      <h2>&#128236; Get new gigs that match your answers</h2>
+      <p>Every Saturday we'll email you a link to the newest gigs that fit your answers, plus our Gig of the Week. <strong>Free bonus:</strong> our directory of 220+ side-hustle YouTube creators. Optional. Unsubscribe anytime. <a href="/privacy/">Privacy</a></p>
+      <label class="sr" for="quiz-email">Your email address (optional)</label>
+      <input id="quiz-email" type="email" name="email" placeholder="Your email address (optional)" autocomplete="email">
+    </div>
+    <div class="quiz-submit">
+      <button type="submit" class="btn btn-click" id="go"><img src="/assets/click-hand-white.png" alt="" width="34" height="34">Show my matching gigs</button>
+      <p class="quiz-small">Skip any question you like. You can change your filters on the next page.</p>
+    </div>
+  </form>`;
+
+const form = document.getElementById('quiz');
+let started = false;
+form.addEventListener('change', () => { if (!started) { started = true; track('quiz_start'); } });
+
+// The link saved in Kit opens the matches newest first, for the Saturday email's button.
+function resultsUrl(abs, newest) {
+  const cats = [], f = [];
+  QUESTIONS.forEach(Q => form.querySelectorAll(`input[name="${Q.key}"]:checked`).forEach(el => {
+    if (!el.value) return;
+    (Q.key === 'cats' ? cats : f).push(el.value);
+  }));
+  const p = [];
+  if (cats.length) p.push('cat=' + cats.join(','));
+  if (f.length) p.push('f=' + f.join(','));
+  if (newest) p.push('sort=newest');
+  const base = abs ? 'https://sidehustleintel.org/tool/' : TOOL;
+  return base + (p.length ? '?' + p.join('&') : '');
+}
+
+form.addEventListener('submit', async e => {
+  e.preventDefault();
+  const url = resultsUrl(false);
+  const emailEl = document.getElementById('quiz-email');
+  const email = emailEl.value.trim();
+  if (email && !emailEl.checkValidity()) { emailEl.focus(); emailEl.setCustomValidity(''); emailEl.reportValidity(); return; }
+  track('quiz_complete', { link: url, with_email: !!email });
+  if (email && !window.QUIZ_PREVIEW) {
+    const btn = document.getElementById('go'); btn.disabled = true;
+    const body = new URLSearchParams({ email_address: email, 'fields[quiz_link]': resultsUrl(true, true) });
+    // no-cors: Kit gets the signup either way; we just don't wait to read its reply.
+    try { await fetch(KIT_FORM, { method: 'POST', body, mode: 'no-cors' }); track('email_signup', { form: 'quiz', from: FROM }); } catch (err) {}
+  }
+  location.href = url;
+});
+</script>
+</body>
+</html>
