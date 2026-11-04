@@ -17,11 +17,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Side Hustle Intel — Find Work-at-Home Gigs That Fit Your Life</title>
-<meta name="description" content="Work-at-home gigs from hundreds of YouTube creators, each explained in plain English, with the truth as we see it and a link to the source video. Free, no sign-up.">
+<meta name="description" content="A free, searchable database of 1,000+ work-at-home gigs, each a short plain-English summary of an idea from a YouTube creator's video, with the truth as we see it and a link to the original video.">
 <link rel="canonical" href="https://sidehustleintel.org/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Work-at-Home Gigs That Fit Your Life — Without Watching 100s of YouTube Videos">
-<meta property="og:description" content="1,000+ work-at-home gigs from hundreds of YouTube creators, explained in plain English, with the truth as we see it. Free, no sign-up.">
+<meta property="og:title" content="1,000+ Work-at-Home Ideas. Without Watching 1,000+ Videos.">
+<meta property="og:description" content="A free, searchable database of work-at-home gigs summarized from YouTube creators' videos, explained in plain English, with the truth as we see it. No sign-up.">
 <meta property="og:url" content="https://sidehustleintel.org/">
 <meta property="og:image" content="https://sidehustleintel.org/assets/hero-home.webp">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
@@ -29,102 +29,138 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261103a">
+<link rel="stylesheet" href="/site.css?v=20261104a">
 </head>
-<body>
+<body class="home">
 
-<header class="site-header">
+<!-- Homepage redesign, Nov 4 2026 (Kevin's "Homepage Redesign Implementation Brief").
+     Section order: header, hero, search preview, two paths, a look inside, how it works,
+     why, newsletter, footer. -->
+
+<header class="site-header home-header">
   <div class="wrap">
-    <a href="/"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel" width="1782" height="169"></a>
-    <nav class="nav" aria-label="Main">
-      <a href="/about.html">About</a>
+    <a href="/" class="home-logo"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel home" width="1782" height="169"></a>
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="home-nav">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      Menu
+    </button>
+    <nav class="nav home-nav" id="home-nav" aria-label="Main">
+      <a href="/tool/" data-cta="header">Find Gigs</a>
       <a href="/quiz/" data-cta="header-quiz">Take the Quiz</a>
-      <a class="btn btn-sm" href="/tool/" data-cta="header">Find Gigs</a>
+      <a href="/about.html">About</a>
     </nav>
   </div>
 </header>
 
 <main>
-  <!-- 1 · Hero -->
-  <section class="hero">
+  <!-- Hero -->
+  <section class="h-hero">
     <div class="wrap">
-      <div class="hero-panel">
-        <div class="hero-copy">
-          <p class="hero-kicker">HUGE Searchable Database</p>
-          <h1>WORK-AT-HOME GIGS <span>Skip the hours of YouTube videos.</span></h1>
-          <p class="lede"><strong>We watch the experts for you.</strong><br>All gigs summarized, categorized and sourced.</p>
-          <div class="cta">
-            <a class="btn btn-click" href="/tool/" data-cta="hero"><img src="/assets/click-hand-white.png" alt="" width="34" height="34">CLICK HERE to Search Our Gig Finder</a>
-            <a class="hero-quiz" href="/quiz/" data-cta="hero-quiz">New here? Take the 60-second quiz &rarr;</a>
-          </div>
-        </div>
-        <div class="hero-photo">
-          <img src="/assets/hero-home.webp" alt="A man working on a laptop and taking notes at his home office desk" width="1400" height="933">
-          <div class="badge badge-1"><b>1,000+</b><span>gigs explained</span></div>
-          <div class="badge badge-2"><b>Hundreds</b><span>of YouTube creators</span></div>
-        </div>
+      <p class="h-kicker">Free searchable database &middot; 1,000+ gigs</p>
+      <h1>Find Work-at-Home Gigs That Fit Your Life</h1>
+      <p class="h-lede">Stop spending hours searching YouTube. Discover, compare and evaluate work-at-home opportunities in one searchable database.</p>
+      <p class="h-support">More than 1,000 short summaries of gigs discussed by work-at-home creators on YouTube. Understand the idea, then watch the original video.</p>
+      <div class="h-actions">
+        <a class="btn" href="/tool/" data-cta="hero">Explore the Gig Database</a>
+        <span class="h-or">Not sure where to start? <a class="btn btn-outline" href="/quiz/" data-cta="hero-quiz">Take the Quiz</a></span>
       </div>
     </div>
   </section>
 
-  <!-- 2 · Creators -->
-  <section class="wrap creators" aria-label="Creators covered">
-    <h2>Ideas from hundreds of work-at-home creators on YouTube</h2>
-    <div class="creator-row" id="creator-row"></div>
-  </section>
-
-  <!-- 3 · Sample gigs with tabs -->
-  <section class="section">
-    <div class="wrap">
-      <h2 class="section-title">A look inside: <span>1,000+ gigs explained</span></h2>
-      <h3 class="section-sub">Example gigs</h3>
-      <div class="sample-box" id="samples"></div>
-      <div class="center cta-stack"><a class="btn btn-click" href="/tool/" data-cta="middle"><img src="/assets/click-hand-white.png" alt="" width="34" height="34">CLICK HERE to Search Our Gig Finder</a><span class="btn-note">1,000+ gigs. Not sure where to start? <a href="/quiz/" data-cta="note-quiz">Take the 60-second quiz</a>.</span></div>
+  <!-- Search preview: a real search that opens the Gig Finder with the results -->
+  <section class="wrap h-search-wrap" aria-labelledby="search-h">
+    <div class="h-search">
+      <h2 id="search-h">Explore the database</h2>
+      <form class="h-search-form" action="/tool/" method="get" role="search" id="home-search">
+        <label for="home-q" class="sr">Search gigs</label>
+        <input id="home-q" name="q" type="search" placeholder="Search a skill, idea or creator" autocomplete="off">
+        <button type="submit">Search</button>
+      </form>
+      <p class="h-popular"><span>Popular:</span>
+        <a href="/tool/?f=lowcost" data-cta="pop-lowcost">Low startup cost</a>
+        <a href="/tool/?f=older" data-cta="pop-older">50+ or retired</a>
+        <a href="/tool/?f=parent" data-cta="pop-parent">Stay-at-home mom</a>
+        <a href="/tool/?f=nocamera" data-cta="pop-nocamera">Stay off camera</a>
+        <a href="/tool/?cat=ai-automation" data-cta="pop-ai">AI &amp; automation</a>
+        <a href="/tool/?cat=digital-subscription-products" data-cta="pop-digital">Digital products</a>
+      </p>
     </div>
   </section>
 
-  <!-- 4 · Not just another list -->
-  <section class="section reasons-wrap">
-    <div class="wrap">
-      <h2 class="section-title">Stop re-watching. Start finding.</h2>
-      <div class="reasons">
-        <div class="reason"><div><h3>No more sitting through the same ideas</h3><p>Skim a gig in seconds instead of watching another video that repeats what you've already heard.</p></div></div>
-        <div class="reason"><div><h3>Never lose a good idea again</h3><p>Save the gigs you like and find them anytime, with a link back to the original video.</p></div></div>
-        <div class="reason"><div><h3>The truth on every gig</h3><p>As we see it, backed by facts, including when the creator sells a course.</p></div></div>
+  <!-- Two ways to get started -->
+  <section class="wrap h-section h-paths" aria-labelledby="paths-h">
+    <h2 id="paths-h" class="h-title">Two ways to get started</h2>
+    <div class="h-path-grid">
+      <div class="h-path">
+        <svg class="h-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+        <h3>I know what I&rsquo;m looking for</h3>
+        <p>Search by keyword, or narrow the list by type of gig and your situation.</p>
+        <a class="btn" href="/tool/" data-cta="path-browse">Browse Gigs</a>
+      </div>
+      <div class="h-path">
+        <svg class="h-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg>
+        <h3>I need some direction</h3>
+        <p>Answer a few quick questions and we&rsquo;ll open the database with the gigs that fit you.</p>
+        <a class="btn btn-navy" href="/quiz/" data-cta="path-quiz">Take the Quiz</a>
       </div>
     </div>
   </section>
 
-  <!-- 8 · Category tiles -->
-  <section class="section">
+  <!-- A look inside: three real, recent gigs from different categories -->
+  <section class="h-section h-inside" aria-labelledby="inside-h">
     <div class="wrap">
-      <h2 class="section-title">Featuring <span>1,000+ gigs</span> from <span>hundreds of YouTube creators</span></h2>
-      <div class="tiles" id="tiles"></div>
+      <h2 id="inside-h" class="h-title">A look inside the database</h2>
+      <p class="h-sub">Three of the newest gigs. Each one is a short summary of an idea from a creator&rsquo;s YouTube video.</p>
+      <div class="h-cards" id="samples"><p class="h-loading">Loading example gigs&hellip;</p></div>
+      <div class="h-center"><a class="btn" href="/tool/" data-cta="bottom">See All 1,000+ Gigs</a></div>
     </div>
   </section>
 
-  <!-- 9 · Closing band -->
-  <section class="closer">
-    <div class="wrap">
-      <h2>We've watched the videos. Now find your gig.</h2>
-      <a class="btn btn-click" href="/tool/" data-cta="bottom"><img src="/assets/click-hand-white.png" alt="" width="34" height="34">CLICK HERE to Search Our Gig Finder</a>
-      <span class="btn-note">1,000+ gigs. Not sure where to start? <a href="/quiz/" data-cta="note-quiz">Take the 60-second quiz</a>.</span>
-    </div>
+  <!-- How it works -->
+  <section class="wrap h-section" aria-labelledby="how-h">
+    <h2 id="how-h" class="h-title">How Side Hustle Intel works</h2>
+    <ol class="h-steps">
+      <li><span class="h-num" aria-hidden="true">1</span><h3>We research</h3><p>We follow work-at-home creators on YouTube and review their videos.</p></li>
+      <li><span class="h-num" aria-hidden="true">2</span><h3>We condense</h3><p>Each idea becomes a short, plain-English summary: what it is, the pitch, who it&rsquo;s best for, and the truth as we see it.</p></li>
+      <li><span class="h-num" aria-hidden="true">3</span><h3>You discover</h3><p>Search and compare gigs, save the ones you like, and watch the original video when you want more detail.</p></li>
+    </ol>
   </section>
-  <!-- 10 · Weekly email signup -->
+
+  <!-- Why -->
+  <section class="wrap h-section h-why" aria-labelledby="why-h">
+    <h2 id="why-h" class="h-title">Why Side Hustle Intel?</h2>
+    <ul class="h-checks">
+      <li>Spend less time searching and watching videos</li>
+      <li>Understand an idea before you invest time in it</li>
+      <li>Search by keyword, type of gig and your situation</li>
+      <li>Go straight to the original video when you want more</li>
+    </ul>
+  </section>
+
+  <!-- Weekly email signup (Kit form 10117206, unchanged) -->
   <section class="signup-band">
     <div class="wrap">
       <form class="signup" action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="home">
-        <h2 class="signup-head">&#128236; New gigs in your inbox every Saturday</h2>
+        <h2 class="signup-head">New gigs in your inbox every Saturday</h2>
         <p>One short email a week: the Gig of the Week plus 7 more of the newest gigs. <strong>Free bonus:</strong> our directory of 220+ side-hustle YouTube creators and their videos. Unsubscribe anytime. <a href="/privacy/">Privacy</a></p>
-        <div class="signup-row"><label class="sr" for="email-home">Your email address</label><input id="email-home" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required><button type="submit">Send me the weekly gigs</button></div>
+        <div class="signup-row"><label class="sr" for="email-home">Your email address</label><input id="email-home" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required><button type="submit">Subscribe Free</button></div>
       </form>
     </div>
   </section>
 </main>
 
-<footer class="site-footer">
-  <div class="wrap">© 2026 SideHustleIntel.org · <a href="/about.html">About</a> · <a href="/privacy/">Privacy</a> · Creator names are shown for reference only and imply no endorsement.</div>
+<footer class="site-footer h-footer">
+  <div class="wrap">
+    <nav class="h-foot-links" aria-label="Footer">
+      <a href="/tool/">Find Gigs</a>
+      <a href="/quiz/">Quiz</a>
+      <a href="/about.html">About</a>
+      <a href="mailto:kevin@sidehustleintel.org">Contact</a>
+      <a href="/privacy/">Privacy</a>
+    </nav>
+    <p class="h-foot-cats" id="foot-cats"></p>
+    <p>© 2026 SideHustleIntel.org · Each gig is a summary of an idea from a creator&rsquo;s YouTube video. Creator names are shown for reference only and imply no endorsement. No income is promised or guaranteed.</p>
+  </div>
 </footer>
 
 <script src="/site.js?v=20261030a"></script>
@@ -133,73 +169,57 @@
 document.querySelectorAll('form.signup').forEach(f => f.addEventListener('submit', () => {
   try { if (typeof gtag === 'function') gtag('event', 'email_signup', { form: f.dataset.src, transport_type: 'beacon' }); } catch (e) {}
 }));
-</script>
 
-<script>
-// Count clicks on the main buttons (Google Analytics event cta_click, with which button).
-document.querySelectorAll('[data-cta]').forEach(a => a.addEventListener('click', () => { try { gtag('event', 'cta_click', { cta: a.dataset.cta }); } catch (e) {} }));
-const HOME_HIDE = new Set(['e-commerce', 'content-personal-brand']); // not shown as homepage tiles
-const TILE_ICON = { 'local-professional-services': 'services', 'digital-subscription-products': 'digital', 'marketing-content': 'marketing', 'physical-print-products': 'make', 'ai-automation': 'ai' };
-// Category tiles: each one opens the gigs with that type already ticked.
-document.getElementById('tiles').innerHTML = CATS.filter(c => !HOME_HIDE.has(c.slug)).map(c =>
-  `<a class="tile" href="/tool/?cat=${c.slug}"><img class="tile-icon" src="/assets/tiles/tile-${TILE_ICON[c.slug]}.webp" alt="" width="240" height="240"><span><b>${esc(c.name)}</b><small>${esc(c.sub)}</small></span></a>`
-).join('') + `<a class="tile" href="/tool/"><img class="tile-icon" src="/assets/tiles/tile-explore.webp" alt="" width="240" height="240"><span><b>Explore all gigs</b><small>New gigs added weekly</small></span></a>`;
+// Count clicks on the homepage buttons and links (Google Analytics event cta_click, with which one).
+document.addEventListener('click', e => {
+  const a = e.target.closest('[data-cta]');
+  if (a) { try { gtag('event', 'cta_click', { cta: a.dataset.cta }); } catch (err) {} }
+});
+// The homepage search box opens the Gig Finder with the words typed (/tool/?q=...).
+document.getElementById('home-search').addEventListener('submit', e => {
+  const q = document.getElementById('home-q').value.trim();
+  if (!q) { e.preventDefault(); location.href = '/tool/'; return; }
+  try { gtag('event', 'cta_click', { cta: 'home-search', transport_type: 'beacon' }); } catch (err) {}
+});
 
-// Creators row: 5 creators chosen at random each day (same five for everyone that day),
-// from creators with at least 5 gigs and a photo. Each name opens their gigs in the Gig Finder.
-const MIN_GIGS = 5, SHOW_CREATORS = 5;
-function daySeed() { const d = new Date(); const t = `${d.getUTCFullYear()}${d.getUTCMonth()}${d.getUTCDate()}`; let h = 0; for (let k = 0; k < t.length; k++) h = (h * 31 + t.charCodeAt(k)) | 0; return h; }
-function seededShuffle(arr, seed) { let a = seed | 0; const r = () => { a = (a + 0x6D2B79F5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; const c = arr.slice(); for (let k = c.length - 1; k > 0; k--) { const j = Math.floor(r() * (k + 1)); [c[k], c[j]] = [c[j], c[k]]; } return c; }
-function hasPhoto(name) { return new Promise(ok => { const im = new Image(); im.onload = () => ok(true); im.onerror = () => ok(false); im.src = `/assets/avatars/avatar-${slugify(name)}.jpg`; }); }
-async function showCreators(data) {
-  const n = {};
-  data.forEach(i => { const c = shortCreator(i.found); if (c && !/[()|]|unnamed|creator/i.test(c)) n[c] = (n[c] || 0) + 1; });
-  const pool = seededShuffle(Object.keys(n).filter(c => n[c] >= MIN_GIGS).sort(), daySeed());
-  const pick = [];
-  for (const c of pool) { if (pick.length >= SHOW_CREATORS) break; if (await hasPhoto(c)) pick.push(c); }
-  document.getElementById('creator-row').innerHTML = pick.map(c =>
-    `<a class="creator" href="/tool/?q=${encodeURIComponent(c)}">${avatarHtml(c, 'ini')}${esc(c)}</a>`).join('') +
-    `<a class="creator" href="/tool/"><span class="ini" aria-hidden="true">+</span>hundreds more</a>`;
-}
-let SAMPLES = {};
+// Phone menu: the Menu button shows and hides the three links.
+const menuBtn = document.getElementById('menu-btn'), homeNav = document.getElementById('home-nav');
+menuBtn.addEventListener('click', () => {
+  const open = menuBtn.getAttribute('aria-expanded') !== 'true';
+  menuBtn.setAttribute('aria-expanded', String(open));
+  homeNav.classList.toggle('open', open);
+});
 
-function pickSamples(list, test, n) {
-  const out = [], seen = new Set();
-  for (const i of list) {
+// Footer: links to the 7 category pages (/category/<slug>/), which Google indexes.
+document.getElementById('foot-cats').innerHTML = 'Browse by type: ' +
+  CATS.map(c => `<a href="/category/${c.slug}/">${esc(c.name)}</a>`).join(' · ');
+
+// "A look inside": the 3 newest gigs, each from a different category and a different creator.
+function firstSentence(t) { const x = String(t || '').trim(); const m = x.match(/^.+?[.!?](?=\s|$)/); return m ? m[0] : x; }
+function pickInside(data, n) {
+  const newest = data.slice().sort((a, b) => (b.published || '').localeCompare(a.published || ''));
+  const out = [], cats = new Set(), who = new Set();
+  for (const i of newest) {
     if (out.length >= n) break;
-    const who = shortCreator(i.found);
-    if (test(i) && !seen.has(who)) { seen.add(who); out.push(i); }
+    const c = shortCreator(i.found);
+    if (!i.what || cats.has(i.category) || who.has(c)) continue;
+    cats.add(i.category); who.add(c); out.push(i);
   }
   return out;
 }
-function firstSentence(t) { const x = String(t || '').trim(); const m = x.match(/^.+?[.!?](?=\s|$)/); return m ? m[0] : x; }
-function showTab(name) {
-  const tagFor = { newest: 'New', lowcost: 'Low startup cost', services: 'Service', products: 'Product' }[name];
-  const sec = (label, text, cls) => `<span class="s-sec${cls ? ' ' + cls : ''}"><span class="s-lab">${label}</span><span class="s-txt">${esc(text)}</span></span>`;
-  document.getElementById('samples').innerHTML = (SAMPLES[name] || []).map(i => {
-    const who = shortCreator(i.found);
-    return `<a class="sample" href="/tool/?open=${encodeURIComponent(i.id)}">
-      <span class="s-head">${avatarHtml(who, 's-av')}<span><span class="tag">${tagFor}</span><span class="t">${esc(shortTitle(i))}</span></span></span>
-      <span class="pills"><span class="pill-s">From ${esc(who)}</span><span class="pill-s">${esc(shortCost(i.cost))}</span></span>
-      ${sec('What it is', i.what)}${sec('The pitch', i.pitch)}${sec('Who it&rsquo;s best for', i.best)}${sec('The Truth <em>(as we see it)</em>', i.truth)}
-      <span class="s-more">See the full write-up &rarr;</span>
+loadIdeas().then(data => {
+  document.getElementById('samples').innerHTML = pickInside(data, 3).map(i => {
+    const c = shortCreator(i.found), cat = CAT_BY_NAME[i.category];
+    return `<a class="h-card" href="/tool/?open=${encodeURIComponent(i.id)}" data-cta="inside-gig">
+      <span class="h-cat">${esc(cat ? cat.name : i.category)}</span>
+      <span class="h-card-t">${esc(shortTitle(i))}</span>
+      <span class="h-card-x">${esc(firstSentence(i.what))}</span>
+      <span class="h-src">${avatarHtml(c, 'h-av')}<span>From a YouTube video by <b>${esc(c)}</b></span></span>
+      <span class="h-more">Read the summary &rarr;</span>
     </a>`;
   }).join('');
-}
-
-loadIdeas().then(data => {
-  showCreators(data);
-
-  const newest = data.slice().sort((a, b) => (b.published || '').localeCompare(a.published || ''));
-  const svc = new Set(['Local & professional services', 'Marketing & content']);
-  const prod = new Set(['Digital & subscription products', 'Physical & print products', 'E-commerce']);
-  SAMPLES = {
-    newest: pickSamples(newest, () => true, 3),
-    lowcost: pickSamples(newest, i => hasTag(i, 'lowcost') && /^(near|very)/i.test(i.cost || ''), 6),
-    services: pickSamples(newest, i => svc.has(i.category), 6),
-    products: pickSamples(newest, i => prod.has(i.category), 6)
-  };
-  showTab('newest');
+}).catch(() => {
+  document.getElementById('samples').innerHTML = '<p class="h-loading">Example gigs couldn&rsquo;t load. <a href="/tool/">Open the Gig Finder</a> to see them all.</p>';
 });
 </script>
 </body>
