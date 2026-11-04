@@ -32,8 +32,8 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261104c">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/site.css?v=20261104d">
 </head>
 <body class="home">
 
@@ -77,15 +77,6 @@
           <span class="btn btn-navy">Take the Quiz</span>
         </a>
       </div>
-    </div>
-  </section>
-
-  <!-- A look inside: three real, recent gigs from different categories -->
-  <section class="h-section h-inside" aria-labelledby="inside-h">
-    <div class="wrap">
-      <h2 id="inside-h" class="h-title">A look inside the database</h2>
-      <p class="h-sub">Three of the newest gigs. Each one is a short summary of an idea from a creator&rsquo;s YouTube video.</p>
-      <div class="h-cards" id="samples"><p class="h-loading">Loading example gigs&hellip;</p></div>
     </div>
   </section>
 
@@ -171,33 +162,6 @@ menuBtn.addEventListener('click', () => {
 document.getElementById('foot-cats').innerHTML = 'Browse by type: ' +
   CATS.map(c => `<a href="/category/${c.slug}/">${esc(c.name)}</a>`).join(' · ');
 
-// "A look inside": the 3 newest gigs, each from a different category and a different creator.
-function firstSentence(t) { const x = String(t || '').trim(); const m = x.match(/^.+?[.!?](?=\s|$)/); return m ? m[0] : x; }
-function pickInside(data, n) {
-  const newest = data.slice().sort((a, b) => (b.published || '').localeCompare(a.published || ''));
-  const out = [], cats = new Set(), who = new Set();
-  for (const i of newest) {
-    if (out.length >= n) break;
-    const c = shortCreator(i.found);
-    if (!i.what || cats.has(i.category) || who.has(c)) continue;
-    cats.add(i.category); who.add(c); out.push(i);
-  }
-  return out;
-}
-loadIdeas().then(data => {
-  document.getElementById('samples').innerHTML = pickInside(data, 3).map(i => {
-    const c = shortCreator(i.found), cat = CAT_BY_NAME[i.category];
-    return `<a class="h-card" href="/tool/?open=${encodeURIComponent(i.id)}" data-cta="inside-gig">
-      <span class="h-cat">${esc(cat ? cat.name : i.category)}</span>
-      <span class="h-card-t">${esc(shortTitle(i))}</span>
-      <span class="h-card-x">${esc(firstSentence(i.what))}</span>
-      <span class="h-src">${avatarHtml(c, 'h-av')}<span>From a YouTube video by <b>${esc(c)}</b></span></span>
-      <span class="h-more">Read the summary &rarr;</span>
-    </a>`;
-  }).join('');
-}).catch(() => {
-  document.getElementById('samples').innerHTML = '<p class="h-loading">Example gigs couldn&rsquo;t load. <a href="/tool/">Open the Gig Finder</a> to see them all.</p>';
-});
 </script>
 </body>
 </html>

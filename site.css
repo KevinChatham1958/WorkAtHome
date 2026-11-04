@@ -513,3 +513,16 @@ a.creator:hover { color: var(--accent); }
 }
 @media (max-width: 760px) { .home .h-hero h1 { font-size: 7.3vw; } .home .h-choice-t { font-size: 27px; } }
 @media (max-width: 760px) { .home .h-choice-t { font-size: 6.2vw; } .home .h-kicker { font-size: 12.5px; letter-spacing: 0.05em; } }
+
+/* Kevin, Nov 4 2026 (night): bigger label; headline bolder and as wide as the two boxes. */
+.home .h-kicker { font-size: 20px; letter-spacing: 0.07em; margin-bottom: 18px; }
+.home .h-hero h1 { font-size: 84px; font-weight: 800; line-height: 1.02; letter-spacing: -0.015em; }
+.home .h-lede { margin-top: 22px; }
+@media (max-width: 1100px) { .home .h-hero h1 { font-size: 7.6vw; } }
+@media (max-width: 760px) {
+  .home .h-kicker { font-size: 3.6vw; letter-spacing: 0.04em; }
+  .home .h-hero h1 { font-size: 8.2vw; }
+}
+.home .h-hero h1 { font-size: 91px; }
+@media (max-width: 1100px) { .home .h-hero h1 { font-size: 7.6vw; } }
+@media (max-width: 760px) { .home .h-hero h1 { font-size: 7.7vw; } }
