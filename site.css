@@ -452,3 +452,64 @@ a.creator:hover { color: var(--accent); }
 .home .h-inside { margin-top: 0; }
 /* Gig Finder: message for visitors arriving from the quiz (Nov 4 2026, "Visitor Flows" doc). */
 .quiz-nudge.from-quiz { background: #FFFFFF; border: 1.5px solid var(--line); border-left: 5px solid var(--accent); border-radius: 10px; padding: 12px 16px; }
+
+/* Homepage, Kevin's second review (Nov 4 2026, evening): headline dominates the hero;
+   bold centered choice cards with a full border and no icons; sections below match. */
+.home .h-hero h1 { font-size: 64px; line-height: 1.05; max-width: none; letter-spacing: -0.01em; }
+.home .h-lede { margin-top: 20px; font-size: 22px; color: var(--body); }
+.home .h-choose { margin: 44px 0 20px; font-size: 32px; font-weight: 700; color: var(--navy); }
+.home .h-choices { max-width: 980px; gap: 28px; }
+.home .h-choice { align-items: stretch; text-align: center; gap: 12px; padding: 26px 28px; border: 3px solid var(--accent); border-radius: 16px; }
+.home .h-choice-quiz { border-color: var(--navy); }
+.home .h-choice:hover { border-color: var(--accent-dark); }
+.home .h-choice-quiz:hover { border-color: #0B2F44; }
+.home .h-choice-t { font-size: 32px; font-weight: 700; line-height: 1.15; }
+.home .h-choice-x { font-size: 19px; line-height: 1.45; margin-bottom: 6px; }
+.home .h-choice .btn { font-size: 19px; font-weight: 700; }
+
+.home .h-title { font-size: 40px; font-weight: 700; }
+.home .h-sub { font-size: 19px; }
+.home .h-card { border: 2px solid var(--line); text-align: center; align-items: center; padding: 24px 22px; }
+.home .h-card:hover { border-color: var(--accent); }
+.home .h-cat { align-self: center; font-size: 14px; }
+.home .h-card-t { font-size: 23px; font-weight: 700; }
+.home .h-card-x { font-size: 17px; }
+.home .h-src { justify-content: center; width: 100%; font-size: 15px; }
+.home .h-more { font-size: 16px; }
+.home .h-steps li { align-items: center; text-align: center; }
+.home .h-num { width: 52px; height: 52px; font-size: 23px; }
+.home .h-steps h3 { font-size: 25px; font-weight: 700; }
+.home .h-steps p { font-size: 18px; }
+.home .h-checks { max-width: 900px; }
+.home .h-checks li { font-size: 20px; padding-left: 38px; }
+.home .h-checks li::before { width: 26px; height: 26px; top: 1px; background-size: 17px; }
+.home .h-closer h2 { font-size: 40px; font-weight: 700; }
+.home .h-closer .btn { font-size: 19px; font-weight: 700; }
+
+@media (max-width: 760px) {
+  .home .h-hero h1 { font-size: 7.3vw; }
+  .home .h-lede { font-size: 18px; }
+  .home .h-choose { font-size: 24px; margin-top: 30px; }
+  .home .h-choice { padding: 20px 18px; }
+  .home .h-choice-t { font-size: 26px; }
+  .home .h-choice-x { font-size: 17px; }
+  .home .h-title { font-size: 28px; }
+  .home .h-card-t { font-size: 21px; }
+  .home .h-steps h3 { font-size: 22px; }
+  .home .h-checks li { font-size: 18px; }
+  .home .h-closer h2 { font-size: 28px; }
+}
+.home .h-choice-t { font-size: 35px; }
+.home .h-src { flex-direction: column; gap: 6px; text-align: center; }
+@media (max-width: 760px) { .home .h-choice-t { font-size: 27px; } }
+.home .h-choices { max-width: 1040px; }
+.home .h-choice-t { font-size: 34px; }
+@media (max-width: 960px) { .home .h-choice-t { font-size: 28px; } }
+@media (max-width: 760px) { .home .h-choice-t { font-size: 27px; } }
+@media (max-width: 960px) {
+  .home .h-hero h1 { font-size: 6.4vw; }
+  .home .h-choices { grid-template-columns: 1fr; max-width: 560px; }
+  .home .h-choice-t { font-size: 30px; }
+}
+@media (max-width: 760px) { .home .h-hero h1 { font-size: 7.3vw; } .home .h-choice-t { font-size: 27px; } }
+@media (max-width: 760px) { .home .h-choice-t { font-size: 6.2vw; } .home .h-kicker { font-size: 12.5px; letter-spacing: 0.05em; } }
