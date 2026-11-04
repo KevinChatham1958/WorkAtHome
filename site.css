@@ -417,3 +417,38 @@ a.creator:hover { color: var(--accent); }
   .h-checks li { font-size: 17px; }
   .home .signup-band { padding: 52px 0 36px; }
 }
+
+/* Homepage, revised Nov 4 2026 (Kevin): centered hero; the two choice cards are the hero. */
+.h-hero { text-align: center; padding: 60px 0 72px; }
+.h-hero h1, .h-lede { margin-left: auto; margin-right: auto; }
+.h-lede { max-width: 700px; }
+.h-choose { margin: 40px 0 18px; font-size: 20px; font-weight: 600; color: var(--ink); }
+.h-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; max-width: 920px; margin: 0 auto; text-align: left; }
+.h-choice { text-decoration: none; color: var(--ink); background: #FFFFFF; border: 2px solid var(--line); border-top: 6px solid var(--accent); border-radius: 16px; padding: 30px 30px 28px; display: flex; flex-direction: column; align-items: flex-start; gap: 12px; box-shadow: 0 8px 24px rgba(15,61,87,0.08); transition: transform .12s, box-shadow .12s, border-color .12s; }
+.h-choice-quiz { border-top-color: var(--navy); }
+.h-choice-quiz .h-icon { background: var(--tint2); stroke: var(--navy); }
+.h-choice:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(15,61,87,0.14); border-color: var(--field); color: var(--ink); }
+.h-choice:hover .btn { background: var(--accent-dark); }
+.h-choice-quiz:hover .btn { background: #0B2F44; }
+.h-choice-t { font-family: Outfit, system-ui, sans-serif; font-size: 26px; font-weight: 600; line-height: 1.2; color: var(--navy); }
+.h-choice-x { font-size: 17px; line-height: 1.5; color: var(--body); flex-grow: 1; margin-bottom: 8px; }
+.h-choice .btn { width: 100%; }
+.h-closer { margin-top: 72px; background: var(--navy); text-align: center; padding: 56px 0; }
+.h-closer h2 { color: #FFFFFF; font-size: 32px; }
+.h-closer-btns { margin-top: 24px; display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
+.btn-ghost { background: transparent; border: 2px solid #FFFFFF; padding: 13px 26px !important; }
+.btn-ghost:hover, .btn-ghost:focus-visible { background: #FFFFFF; color: var(--navy); }
+.home .signup-band { padding-top: 56px; }
+@media (max-width: 760px) {
+  .h-hero { padding: 32px 0 44px; }
+  .h-choose { margin-top: 28px; font-size: 18px; }
+  .h-choices { grid-template-columns: 1fr; gap: 16px; }
+  .h-choice { padding: 22px 20px; }
+  .h-choice-t { font-size: 22px; }
+  .h-closer { margin-top: 52px; padding: 44px 0; }
+  .h-closer h2 { font-size: 26px; }
+  .h-closer-btns { flex-direction: column; }
+}
+.home .h-inside { margin-top: 0; }
+/* Gig Finder: message for visitors arriving from the quiz (Nov 4 2026, "Visitor Flows" doc). */
+.quiz-nudge.from-quiz { background: #FFFFFF; border: 1.5px solid var(--line); border-left: 5px solid var(--accent); border-radius: 10px; padding: 12px 16px; }

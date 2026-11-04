@@ -186,6 +186,7 @@ form.addEventListener('submit', async e => {
     // no-cors: Kit gets the signup either way; we just don't wait to read its reply.
     try { await fetch(KIT_FORM, { method: 'POST', body, mode: 'no-cors' }); track('email_signup', { form: 'quiz', from: FROM }); } catch (err) {}
   }
+  try { sessionStorage.setItem('shi_quiz_done', '1'); } catch (err) {}
   location.href = url;
 });
 </script>

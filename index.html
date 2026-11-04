@@ -29,13 +29,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261104a">
+<link rel="stylesheet" href="/site.css?v=20261104b">
 </head>
 <body class="home">
 
 <!-- Homepage redesign, Nov 4 2026 (Kevin's "Homepage Redesign Implementation Brief").
-     Section order: header, hero, search preview, two paths, a look inside, how it works,
-     why, newsletter, footer. -->
+     Revised the same day after Kevin's review: centered hero whose two choice cards ARE the
+     two paths; search box removed (search lives in the Gig Finder). See "Visitor Flows" doc.
+-->
 
 <header class="site-header home-header">
   <div class="wrap">
@@ -53,55 +54,26 @@
 </header>
 
 <main>
-  <!-- Hero -->
+  <!-- Hero: the two paths ARE the hero (see "Visitor Flows" project doc) -->
   <section class="h-hero">
     <div class="wrap">
       <p class="h-kicker">Free searchable database &middot; 1,000+ gigs</p>
       <h1>Find Work-at-Home Gigs That Fit Your Life</h1>
-      <p class="h-lede">Stop spending hours searching YouTube. Discover, compare and evaluate work-at-home opportunities in one searchable database.</p>
-      <p class="h-support">More than 1,000 short summaries of gigs discussed by work-at-home creators on YouTube. Understand the idea, then watch the original video.</p>
-      <div class="h-actions">
-        <a class="btn" href="/tool/" data-cta="hero">Explore the Gig Database</a>
-        <span class="h-or">Not sure where to start? <a class="btn btn-outline" href="/quiz/" data-cta="hero-quiz">Take the Quiz</a></span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Search preview: a real search that opens the Gig Finder with the results -->
-  <section class="wrap h-search-wrap" aria-labelledby="search-h">
-    <div class="h-search">
-      <h2 id="search-h">Explore the database</h2>
-      <form class="h-search-form" action="/tool/" method="get" role="search" id="home-search">
-        <label for="home-q" class="sr">Search gigs</label>
-        <input id="home-q" name="q" type="search" placeholder="Search a skill, idea or creator" autocomplete="off">
-        <button type="submit">Search</button>
-      </form>
-      <p class="h-popular"><span>Popular:</span>
-        <a href="/tool/?f=lowcost" data-cta="pop-lowcost">Low startup cost</a>
-        <a href="/tool/?f=older" data-cta="pop-older">50+ or retired</a>
-        <a href="/tool/?f=parent" data-cta="pop-parent">Stay-at-home mom</a>
-        <a href="/tool/?f=nocamera" data-cta="pop-nocamera">Stay off camera</a>
-        <a href="/tool/?cat=ai-automation" data-cta="pop-ai">AI &amp; automation</a>
-        <a href="/tool/?cat=digital-subscription-products" data-cta="pop-digital">Digital products</a>
-      </p>
-    </div>
-  </section>
-
-  <!-- Two ways to get started -->
-  <section class="wrap h-section h-paths" aria-labelledby="paths-h">
-    <h2 id="paths-h" class="h-title">Two ways to get started</h2>
-    <div class="h-path-grid">
-      <div class="h-path">
-        <svg class="h-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
-        <h3>I know what I&rsquo;m looking for</h3>
-        <p>Search by keyword, or narrow the list by type of gig and your situation.</p>
-        <a class="btn" href="/tool/" data-cta="path-browse">Browse Gigs</a>
-      </div>
-      <div class="h-path">
-        <svg class="h-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg>
-        <h3>I need some direction</h3>
-        <p>Answer a few quick questions and we&rsquo;ll open the database with the gigs that fit you.</p>
-        <a class="btn btn-navy" href="/quiz/" data-cta="path-quiz">Take the Quiz</a>
+      <p class="h-lede">Skip the hours of YouTube. We turn work-at-home creators&rsquo; videos into short, plain-English summaries you can search, compare and save.</p>
+      <h2 class="h-choose">How would you like to start?</h2>
+      <div class="h-choices">
+        <a class="h-choice h-choice-db" href="/tool/" data-cta="hero">
+          <svg class="h-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+          <span class="h-choice-t">Browse the database</span>
+          <span class="h-choice-x">I know what I&rsquo;m looking for. Let me search by keyword, or filter by type of gig and my situation.</span>
+          <span class="btn">Explore the Gig Database</span>
+        </a>
+        <a class="h-choice h-choice-quiz" href="/quiz/" data-cta="hero-quiz">
+          <svg class="h-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg>
+          <span class="h-choice-t">Take the 60-second quiz</span>
+          <span class="h-choice-x">I need some direction. Ask me a few quick questions and show me the gigs that fit.</span>
+          <span class="btn btn-navy">Take the Quiz</span>
+        </a>
       </div>
     </div>
   </section>
@@ -112,7 +84,6 @@
       <h2 id="inside-h" class="h-title">A look inside the database</h2>
       <p class="h-sub">Three of the newest gigs. Each one is a short summary of an idea from a creator&rsquo;s YouTube video.</p>
       <div class="h-cards" id="samples"><p class="h-loading">Loading example gigs&hellip;</p></div>
-      <div class="h-center"><a class="btn" href="/tool/" data-cta="bottom">See All 1,000+ Gigs</a></div>
     </div>
   </section>
 
@@ -135,6 +106,17 @@
       <li>Search by keyword, type of gig and your situation</li>
       <li>Go straight to the original video when you want more</li>
     </ul>
+  </section>
+
+  <!-- Closing band: the same two choices, once more -->
+  <section class="h-closer">
+    <div class="wrap">
+      <h2>Ready to find your gig?</h2>
+      <div class="h-closer-btns">
+        <a class="btn" href="/tool/" data-cta="bottom">Explore the Gig Database</a>
+        <a class="btn btn-ghost" href="/quiz/" data-cta="bottom-quiz">Take the Quiz</a>
+      </div>
+    </div>
   </section>
 
   <!-- Weekly email signup (Kit form 10117206, unchanged) -->
@@ -175,13 +157,6 @@ document.addEventListener('click', e => {
   const a = e.target.closest('[data-cta]');
   if (a) { try { gtag('event', 'cta_click', { cta: a.dataset.cta }); } catch (err) {} }
 });
-// The homepage search box opens the Gig Finder with the words typed (/tool/?q=...).
-document.getElementById('home-search').addEventListener('submit', e => {
-  const q = document.getElementById('home-q').value.trim();
-  if (!q) { e.preventDefault(); location.href = '/tool/'; return; }
-  try { gtag('event', 'cta_click', { cta: 'home-search', transport_type: 'beacon' }); } catch (err) {}
-});
-
 // Phone menu: the Menu button shows and hides the three links.
 const menuBtn = document.getElementById('menu-btn'), homeNav = document.getElementById('home-nav');
 menuBtn.addEventListener('click', () => {

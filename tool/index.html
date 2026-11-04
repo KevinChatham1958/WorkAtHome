@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261103a">
+<link rel="stylesheet" href="/site.css?v=20261104b">
 </head>
 <body class="results-page">
 
@@ -96,6 +96,15 @@
 <script>
 // Quiz nudge: hidden for visitors who arrive with filters already set (for example from the quiz).
 if (/[?&](cat|f|kind|q|open)=/.test(location.search)) { const n = document.getElementById('quiz-nudge'); if (n) n.hidden = true; }
+// Visitors arriving from the quiz (it sets shi_quiz_done just before sending them here) see a short
+// explanation instead, since many never saw the homepage. Shown once per quiz submission.
+try {
+  if (sessionStorage.getItem('shi_quiz_done') && /[?&](cat|f)=/.test(location.search)) {
+    sessionStorage.removeItem('shi_quiz_done');
+    const n = document.getElementById('quiz-nudge');
+    if (n) { n.hidden = false; n.classList.add('from-quiz'); n.innerHTML = '<strong>These gigs match your quiz answers.</strong> Tap any gig to read the full write-up. Change your choices with the filters, or <a href="/quiz/" data-cta="tool-retake">retake the quiz</a>.'; }
+  }
+} catch (e) {}
 // Weekly email signup: count submits in Google Analytics (event email_signup, with which form).
 document.querySelectorAll('form.signup').forEach(f => f.addEventListener('submit', () => {
   try { if (typeof gtag === 'function') gtag('event', 'email_signup', { form: f.dataset.src, transport_type: 'beacon' }); } catch (e) {}
