@@ -36,7 +36,7 @@ import shutil
 
 SITE = "https://sidehustleintel.org"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE_CSS_VERSION = "20261105d"   # site.css (shared with the homepage, Gig Finder and quiz)
+SITE_CSS_VERSION = "20261105e"   # site.css (shared with the homepage, Gig Finder and quiz)
 PAGE_CSS_VERSION = "5"
 # Friendly category names shown to visitors (same as CATS in site.js). The data and the
 # /category/<slug>/ addresses keep the internal names.
@@ -466,6 +466,7 @@ def shell(ctx, site, *, title, desc, canonical, og_type, schema, main, extra_scr
       Menu
     </button>
     <nav class="nav home-nav" id="home-nav" aria-label="Main">
+      <a href="{b}/" data-cta="page-header-home">Home</a>
       <a href="{b}/tool/" data-cta="page-header">Browse Database</a>
       <a href="{b}/quiz/" data-cta="page-header-quiz">Take the Quiz</a>
       <a href="{b}/subscribe/" data-cta="page-header-subscribe">Subscribe</a>
