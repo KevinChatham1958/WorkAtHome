@@ -62,9 +62,19 @@ def main():
     with open(OUT, 'w', encoding='utf-8') as f:
         json.dump(out, f, separators=(',', ':'))
         f.write('\n')
-    # Keep one snapshot per week so week-over-week gains can be shown later.
+    # Keep one snapshot per week, for at most 30 days. YouTube's API rules (Developer
+    # Policies III.E.4) forbid storing view counts longer than 30 days and building new
+    # metrics from them (III.E.4.h), so no "views gained this week" feature (Kevin, Nov 5 2026).
     hist = os.path.join(ROOT, 'data', 'views-history')
     os.makedirs(hist, exist_ok=True)
+    cutoff = datetime.date.today() - datetime.timedelta(days=30)
+    for name in os.listdir(hist):
+        try:
+            yy, ww = name[:-5].split('-W')
+            if datetime.date.fromisocalendar(int(yy), int(ww), 7) < cutoff:
+                os.remove(os.path.join(hist, name))
+        except (ValueError, OSError):
+            pass
     y, w, _ = datetime.date.today().isocalendar()
     snap = os.path.join(hist, f'{y}-W{w:02d}.json')
     if not os.path.exists(snap):
