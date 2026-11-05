@@ -198,7 +198,7 @@ function gigHtml(i) {
       <div><h4>What it is</h4><p>${esc(i.what)}</p></div>
       <div><h4>The pitch</h4><p>${esc(i.pitch)}</p></div>
       <div><h4>Who it's best for</h4><p>${esc(i.best)}</p></div>
-      <div><h4>The Truth (as we see it)</h4><p>${esc(i.truth)}</p><p class="truth-note">Our assessment, based on the video and what&rsquo;s typical across similar videos. We don&rsquo;t independently verify income claims or prices.</p></div>
+      <div class="truth-box"><h4>The Truth (as we see it)</h4><p>${esc(i.truth)}</p><p class="truth-note">Our assessment, based on the video and what&rsquo;s typical across similar videos. We don&rsquo;t independently verify income claims or prices.</p></div>
       <div class="foot">
         <p class="source-line"><span class="source-label">${/youtu/.test(i.url || '') ? 'Watch the source video on YouTube:' : 'Watch the source video:'}</span> <a class="source-link" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.video_title || 'Watch on YouTube')} ↗</a></p>
         <button type="button" class="small-btn" data-act="copy">Copy this entire gig</button>
