@@ -39,6 +39,7 @@ OVERRIDES = {
     "simple-2x4-furniture-local-marketplace-sales": "$100–$500",
     "multi-site-seo-content-network-ad-revenue": "$100–$500",     # $7k/month is the presenter's 20-site portfolio
     "ai-coded-niche-hobby-software-subscription-collector-community": "$500–$2,000",   # ~$500 in build credits per app
+    "free-reviews-local-seo-agency-upsell": "$500–$2,000",   # $297/month GoHighLevel plus per-client tool fees
     "ai-agent-local-service-matchmaking-agency": "Under $100",    # agent plans start free
     "simple-printable-planner-gumroad-pinterest-wril": "Under $100",    # free listing; the $100 plan was the creator's choice
 }
@@ -59,7 +60,10 @@ def from_dollars(text):
     """Best estimate of the starting cost from $ figures, or None."""
     first = under = None
     for m in _AMT.finditer(text):
-        ctx = text[max(0, m.start() - 45):m.end() + 45]
+        # judge each amount by its own clause (between ; , ( ) and similar breaks), nearby words only
+        a = max(text.rfind(c, 0, m.start()) for c in ';,()—') + 1
+        ends = [i for i in (text.find(c, m.end()) for c in ';,()—') if i != -1]
+        ctx = text[max(a, m.start() - 40):min(min(ends) if ends else len(text), m.end() + 50)]
         if _SKIP.search(ctx):
             continue
         low = _num(m.group(1), m.group(2))
@@ -121,3 +125,8 @@ def set_levels(ideas, keep_existing=True):
         elif not want and 'lowcost' in f:
             f.remove('lowcost'); g['filters'] = f; n += 1
     return n
+
+
+def is_estimate(gig):
+    """True when the cost text gives no dollar figures, so the level is our own estimate."""
+    return from_dollars(str(gig.get('cost') or '')) is None and gig.get('id') not in OVERRIDES

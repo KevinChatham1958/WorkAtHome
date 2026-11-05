@@ -595,7 +595,7 @@
       "novisits",
       "noai"
     ],
-    "cost_level": "Over $2,000"
+    "cost_level": "$500\u2013$2,000"
   },
   {
     "id": "custom-foam-insert-fabrication",
@@ -26553,13 +26553,12 @@
       "parent",
       "health",
       "outside",
-      "lowcost",
       "nosales",
       "nocamera",
       "noinventory",
       "novisits"
     ],
-    "cost_level": "Under $100"
+    "cost_level": "$100\u2013$500"
   },
   {
     "id": "etsy-print-on-demand-full-tutorial",
@@ -32963,7 +32962,7 @@
       "noinventory",
       "novisits"
     ],
-    "cost_level": "$500\u2013$2,000"
+    "cost_level": "Over $2,000"
   },
   {
     "id": "ai-avatar-affiliate-marketing-amazon-review-mining",

@@ -26,6 +26,7 @@
 .gig-date a { color: var(--body); font-weight: 600; }
 .gig-cost { margin: 6px 0 0; font-size: 15px; color: var(--muted); }
 .gig-cost strong { color: var(--body); font-weight: 600; }
+.gig-cost .est { font-style: italic; }
 .share-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 22px 0 0; }
 .pbtn { display: inline-flex; align-items: center; gap: 7px; font: inherit; font-size: 15px; font-weight: 600; padding: 9px 16px; border-radius: 8px; border: 1.5px solid var(--navy); background: #FFFFFF; color: var(--navy); text-decoration: none; cursor: pointer; }
 .pbtn:hover, .pbtn:focus-visible { background: var(--navy); color: #FFFFFF; }

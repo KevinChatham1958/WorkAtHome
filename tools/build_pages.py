@@ -37,7 +37,7 @@ import shutil
 SITE = "https://sidehustleintel.org"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_CSS_VERSION = "20261105g"   # site.css (shared with the homepage, Gig Finder and quiz)
-PAGE_CSS_VERSION = "20261105h"
+PAGE_CSS_VERSION = "20261105i"
 # Friendly category names shown to visitors (same as CATS in site.js). The data and the
 # /category/<slug>/ addresses keep the internal names.
 FRIENDLY = {
@@ -116,6 +116,13 @@ def fmt_date(d):
     except (TypeError, ValueError):
         return None
     return dt.strftime('%b ') + str(dt.day) + dt.strftime(', %Y')
+
+
+def cost_is_estimate(x):
+    import sys
+    sys.path.insert(0, os.path.join(ROOT, 'tools'))
+    from cost_levels import is_estimate
+    return is_estimate(x)
 
 
 def cost_short(x):
@@ -269,6 +276,7 @@ PAGE_CSS = """
 .gig-date a { color: var(--body); font-weight: 600; }
 .gig-cost { margin: 6px 0 0; font-size: 15px; color: var(--muted); }
 .gig-cost strong { color: var(--body); font-weight: 600; }
+.gig-cost .est { font-style: italic; }
 .share-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 22px 0 0; }
 .pbtn { display: inline-flex; align-items: center; gap: 7px; font: inherit; font-size: 15px; font-weight: 600; padding: 9px 16px; border-radius: 8px; border: 1.5px solid var(--navy); background: #FFFFFF; color: var(--navy); text-decoration: none; cursor: pointer; }
 .pbtn:hover, .pbtn:focus-visible { background: var(--navy); color: #FFFFFF; }
@@ -611,7 +619,7 @@ def idea_page(idea, site, ctx):
       <li class="jump"><a href="#the-truth" data-cta="page-jump-truth">Jump to The Truth &darr;</a></li>
     </ul>
     <p class="gig-date">{f'Video published {esc(date_txt)} by ' if date_txt else 'From '}{creator_name}</p>
-    <p class="gig-cost"><strong>Startup cost:</strong> {esc(idea['cost'])}</p>
+    <p class="gig-cost"><strong>Startup cost:</strong> {esc(idea['cost'])}{' <span class="est">(our estimate; the video doesn&rsquo;t give figures)</span>' if cost_is_estimate(idea) else ''}</p>
 
     <div class="share-actions">
       <button type="button" class="pbtn" id="copy-link-btn" data-url="{url}">Copy link to this gig</button>
