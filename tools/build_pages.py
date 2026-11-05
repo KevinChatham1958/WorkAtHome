@@ -443,9 +443,9 @@ def shell(ctx, site, *, title, desc, canonical, og_type, schema, main, extra_scr
         head_start = ('<!DOCTYPE html>\n<html lang="en">\n<head>\n'
                       '<meta charset="UTF-8">\n'
                       '<meta name="viewport" content="width=device-width, initial-scale=1.0">\n')
-        analytics = ('<script async src="https://www.googletagmanager.com/gtag/js?id=G-DP5LDLD5VR"></script>\n'
+        analytics = ('<script async src="https://www.googletagmanager.com/gtag/js?id=G-XP9MDRLCHP"></script>\n'
                      "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
-                     "gtag('js',new Date());gtag('config','G-DP5LDLD5VR');</script>\n")
+                     "gtag('js',new Date());gtag('config','G-XP9MDRLCHP');</script>\n")
     logo = ctx.img('assets/logo-horizontal.png', 'image/png')
     b = ctx.base
     doc = f"""{head_start}{analytics}<title>{esc(title)} — Side Hustle Intel</title>
