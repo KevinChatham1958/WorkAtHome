@@ -41,42 +41,87 @@ function mulberry32(seed) { return function () { seed |= 0; seed = (seed + 0x6D2
 function dailySeed() { const d = new Date(); const s = `${d.getUTCFullYear()}${d.getUTCMonth()}${d.getUTCDate()}`; let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0; return h; }
 function shuffleWithSeed(arr, seed) { const r = mulberry32(seed), c = arr.slice(); for (let i = c.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [c[i], c[j]] = [c[j], c[i]]; } return c; }
 
-// ---------- Search scoring (same as the live tool) ----------
+// ---------- Search (rebuilt Nov 5, 2026 after the CRO review) ----------
+// Every meaningful word must appear somewhere in the gig (falls back to "any word" only
+// when that finds nothing). Filler words are ignored. Whole words and stems match; a
+// search word of 4+ letters also matches longer words starting with it ("edit" → "editing"),
+// but never the other way ("bookkeeping" does not match "book"). Gigs whose title or name
+// contain the words rank first.
+const STOP = new Set(['a','an','the','and','or','to','for','on','in','of','with','no','my','i','me','from','at','by','is','it','as','be','you','your','how','what','that','this','do','can','gig','gigs','idea','ideas','side','hustle','hustles','job','jobs','work','home','online','make','money']);
 function tokenize(s) { return (s || '').toLowerCase().split(/[^a-z0-9]+/).filter(Boolean); }
 function stem(w) { if (w.length > 4 && w.endsWith('ies')) return w.slice(0, -3) + 'y'; if (w.length > 4 && w.endsWith('es')) return w.slice(0, -2); if (w.length > 3 && w.endsWith('s') && !w.endsWith('ss')) return w.slice(0, -1); return w; }
 function prefixLen(a, b) { const n = Math.min(a.length, b.length); let i = 0; while (i < n && a[i] === b[i]) i++; return i; }
-function wordMatches(word, tok) { if (tok === word || stem(tok) === stem(word)) return true; if (tok.length >= 3 && word.length >= 3 && (tok.startsWith(word) || word.startsWith(tok))) return true; const s = Math.min(word.length, tok.length); return s >= 5 && prefixLen(word, tok) >= Math.ceil(s * 0.75); }
+function wordMatches(word, tok) {
+  if (tok === word || stem(tok) === stem(word)) return true;
+  if (word.length >= 4 && tok.startsWith(word)) return true;
+  // Word-family endings ("retired" ~ "retirees", "bookkeeping" ~ "bookkeeper"), never short roots.
+  const p = prefixLen(word, tok);
+  return p >= 6 && p >= 0.8 * Math.min(word.length, tok.length);
+}
+// Budget searches ("no money", "free", "cheap", "low budget"...) mean gigs that cost little to start.
+const BUDGET_Q = /^(?:(?:no|low|little|zero|without|small|tiny|minimal|cheap)\s+(?:money|cost|costs|budget|investment|capital|startup|start ?up)|free|cheap|\$0|no investment needed|with no money)$/;
+const BUDGET_COST = /^(?:free|\$0|zero|none|no |near[- ]zero|very low|minimal|almost nothing)/i;
 function fieldHas(toks, w) { return toks.some(t => wordMatches(w, t)); }
-function scoreIdea(i, words) {
-  const name = tokenize((i.title || '') + ' ' + i.name), cat = tokenize(i.category), src = tokenize(i.found || '');
-  const tags = [...(i.tags || []), ...(i.situation_tags || []), ...(i.search_terms || [])].flatMap(tokenize);
-  const body = tokenize([i.what, i.pitch, i.best, i.truth].join(' '));
-  let s = 0;
-  words.forEach(w => { if (fieldHas(name, w)) s += 4; if (fieldHas(tags, w)) s += 3; if (fieldHas(cat, w) || fieldHas(src, w)) s += 2; if (fieldHas(body, w)) s += 1; });
-  const q = words.flatMap(tokenize);
-  if (src.length && q.length && q.every(t => src.includes(t)) && (q.length >= 2 || src.every(t => q.includes(t)))) s += 1000;
+function queryWords(q) {
+  const all = tokenize(q);
+  const kept = all.filter(w => !STOP.has(w));
+  return kept.length ? kept : all; // a search made only of filler words still searches them
+}
+function fields(i) {
+  if (!i._f) i._f = {
+    title: tokenize(i.title || ''), name: tokenize(i.name), cat: tokenize(i.category + ' ' + ((CAT_BY_NAME[i.category] || {}).name || '')),
+    src: tokenize(i.found || ''), tags: [...(i.tags || []), ...(i.situation_tags || []), ...(i.search_terms || [])].flatMap(tokenize),
+    body: tokenize([i.what, i.pitch, i.best, i.truth].join(' ')),
+    text: ((i.title || '') + ' ' + i.name).toLowerCase()
+  };
+  return i._f;
+}
+function scoreIdea(i, words, phrase, needAll) {
+  const f = fields(i);
+  let s = 0, hits = 0;
+  words.forEach(w => {
+    let h = 0;
+    if (fieldHas(f.title, w)) h += 10;
+    if (fieldHas(f.name, w)) h += 6;
+    if (fieldHas(f.tags, w)) h += 4;
+    if (fieldHas(f.cat, w) || fieldHas(f.src, w)) h += 3;
+    if (fieldHas(f.body, w)) h += 1;
+    if (h) hits++;
+    s += h;
+  });
+  if (needAll && hits < words.length) return 0;
+  if (phrase && words.length > 1 && f.text.includes(phrase)) s += 40;
+  else if (phrase && words.length > 1 && [i.what, i.pitch, i.best].join(' ').toLowerCase().includes(phrase)) s += 15;
+  // Searching a creator's name shows that creator's gigs.
+  if (f.src.length && words.length && words.every(t => f.src.includes(t)) && (words.length >= 2 || f.src.every(t => words.includes(t)))) s += 1000;
   return s;
 }
 
 // ---------- Filtering ----------
 function baseFiltered(skipCats) {
   let list = SHUFFLED;
-  if (st.savedOnly) list = list.filter(i => saved.has(i.id));
+  // Saved view shows every saved gig, whatever filters or search are on (Nov 5, 2026 fix).
+  if (st.savedOnly) return list.filter(i => saved.has(i.id));
   if (!skipCats && st.cats.size) list = list.filter(i => st.cats.has(i.category));
   if (st.chips.size) { const need = [...st.chips]; list = list.filter(i => need.every(c => hasTag(i, c))); }
   return list;
 }
 function results() {
   let list = baseFiltered(false);
-  const words = st.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const q = st.savedOnly ? '' : st.q.trim().toLowerCase();
+  st.loose = false; st.budget = BUDGET_Q.test(q);
+  if (st.budget) return list.filter(i => BUDGET_COST.test(String(i.cost || '').trim()));
+  const words = queryWords(q);
   if (words.length) {
-    let scored = list.map(i => ({ i, s: scoreIdea(i, words) })).filter(x => x.s > 0);
+    const phrase = words.join(' ');
+    let scored = list.map(i => ({ i, s: scoreIdea(i, words, phrase, true) })).filter(x => x.s > 0);
+    if (!scored.length && words.length > 1) { scored = list.map(i => ({ i, s: scoreIdea(i, words, phrase, false) })).filter(x => x.s > 0); st.loose = scored.length > 0; }
     const creatorHits = scored.filter(x => x.s >= 1000);
     if (creatorHits.length) scored = creatorHits;
-    if (st.sort === 'shuffle' || st.sort === 'views') scored.sort((a, b) => b.s - a.s);
-    else scored.sort((a, b) => byDate(a.i, b.i));
+    // Best match first whatever the sort; the sort only breaks ties.
+    const tie = st.sort === 'views' ? (a, b) => viewsOf(b.i) - viewsOf(a.i) : (st.sort === 'newest' || st.sort === 'oldest') ? (a, b) => byDate(a.i, b.i) : () => 0;
+    scored.sort((a, b) => (b.s - a.s) || tie(a, b));
     list = scored.map(x => x.i);
-    if (st.sort === 'views') list = byViews(list);
   } else if (st.sort === 'views') list = byViews(list);
   else if (st.sort !== 'shuffle') list = list.slice().sort(byDate);
   if (st.pin) { const k = list.findIndex(i => i.id === st.pin); if (k > 0) list = [list[k], ...list.slice(0, k), ...list.slice(k + 1)]; }
@@ -180,6 +225,7 @@ function kindActive() {
 }
 function heading() {
   if (st.savedOnly) return 'Your saved gigs';
+  if (st.q.trim()) return `Gigs matching “${st.q.trim()}”`;
   if (st.cats.size === 1) return CAT_BY_NAME[[...st.cats][0]].name + ' gigs';
   if (kindActive()) return KINDS[st.kind].name + ' gigs';
   return 'Work-at-home gigs';
@@ -192,9 +238,12 @@ function render() {
   const prev = $('count').dataset.n;
   // Oct 30, 2026 (Kevin): make an active search or filter impossible to miss, with a one-click way out.
   const gigsTxt = `<strong>${n.toLocaleString()} gig${n === 1 ? '' : 's'}</strong>`;
-  const narrowed = st.cats.size || st.chips.size || st.savedOnly;
-  if (st.q.trim()) $('count').innerHTML = `Showing ${gigsTxt} for “${esc(st.q.trim())}”${narrowed ? ' with your filters' : ''} (of ${ALL.length.toLocaleString()}) · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
-  else if (narrowed) $('count').innerHTML = `Showing ${gigsTxt} that match your choices (of ${ALL.length.toLocaleString()}) · <button type="button" class="count-clear" data-clear="all">Clear all</button>`;
+  const narrowed = st.cats.size || st.chips.size;
+  if (st.savedOnly) $('count').innerHTML = `${gigsTxt} saved · <button type="button" class="count-clear" data-clear="saved">Back to all gigs</button>`;
+  else if (st.q.trim() && st.budget) $('count').innerHTML = `Showing ${gigsTxt} that cost little or nothing to start${narrowed ? ', with your filters' : ''} · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
+  else if (st.q.trim() && st.loose) $('count').innerHTML = `No gig mentions every word of “${esc(st.q.trim())}”. Showing ${gigsTxt} that match some of them · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
+  else if (st.q.trim()) $('count').innerHTML = `Showing ${gigsTxt} for “${esc(st.q.trim())}”${narrowed ? ' with your filters' : ''} (of ${ALL.length.toLocaleString()}) · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
+  else if (narrowed) $('count').innerHTML = `Showing ${gigsTxt} that ${n === 1 ? 'matches' : 'match'} your choices (of ${ALL.length.toLocaleString()}) · <button type="button" class="count-clear" data-clear="all">Clear all</button>`;
   else $('count').innerHTML = `${gigsTxt} · tap any gig for the full write-up`;
   $('count').dataset.n = n;
   if (prev !== undefined && String(prev) !== String(n)) { const c = $('count'); c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); setTimeout(() => c.classList.remove('flash'), 50); }
@@ -209,12 +258,17 @@ function render() {
   if (kindActive()) act.push(`<button type="button" class="chip-x" data-x="kind">${esc(KINDS[st.kind].name)} gigs ×</button>`);
   else st.cats.forEach(c => act.push(`<button type="button" class="chip-x" data-x="cat" data-v="${esc(c)}">${esc(CAT_BY_NAME[c].name)} ×</button>`));
   st.chips.forEach(c => act.push(`<button type="button" class="chip-x" data-x="chip" data-v="${c}">${esc(SIT_LABEL[c])} ×</button>`));
-  if (act.length > 1) act.push(`<button type="button" class="clear" data-x="all">Clear all</button>`);
+  // "Clear all" here only when the count line above doesn't already offer it.
+  if (act.length > 1 && st.q.trim() && !st.savedOnly) act.push(`<button type="button" class="clear" data-x="all">Clear all</button>`);
   $('active').innerHTML = act.join('');
 
+  if (SIGNUP && SIGNUP.parentNode === $('list')) SIGNUP.remove();
   $('list').innerHTML = list.slice(0, st.shown).map(gigHtml).join('');
   $('empty').hidden = n > 0;
-  $('empty').textContent = st.savedOnly ? 'No saved gigs yet. Tap the heart on any gig to save it.' : 'No gigs match all of these choices. Try removing one.';
+  $('empty').innerHTML = st.savedOnly ? 'No saved gigs yet. Tap the heart on any gig to save it.'
+    : (st.q.trim() && !st.cats.size && !st.chips.size) ? `No gigs mention “${esc(st.q.trim())}”. Try a broader word like “writing”, “Etsy” or “assistant”, or <a href="/quiz/">take the quiz</a>.`
+    : 'No gigs match all of these choices. Try removing one.';
+  placeSignup(n);
   LAST_N = n;
   $('more').hidden = AUTO || n <= st.shown;
   $('saved-n').textContent = saved.size;
@@ -232,6 +286,16 @@ function syncUrl() {
   try { history.replaceState(null, '', location.pathname + (s ? '?' + s : '')); } catch (e) {}
 }
 
+// The weekly-email box sits after the 5th gig (Nov 5, 2026: before, it pushed every gig
+// below the first screen on phones). With fewer gigs it goes after the last one.
+const SIGNUP = document.querySelector('form.signup[data-src="tool"]');
+function placeSignup(n) {
+  if (!SIGNUP) return;
+  const cards = $('list').querySelectorAll(':scope > .gig');
+  SIGNUP.hidden = st.savedOnly || n === 0;
+  if (cards.length >= 5) cards[4].after(SIGNUP); else $('list').appendChild(SIGNUP);
+}
+
 function changed() { st.pin = null; st.shown = PAGE; render(); }
 
 // ---------- Events ----------
@@ -246,6 +310,7 @@ $('filters').addEventListener('change', e => {
 $('count').addEventListener('click', e => {
   const b = e.target.closest('[data-clear]'); if (!b) return;
   if (b.dataset.clear === 'q') { st.q = ''; $('q').value = ''; }
+  else if (b.dataset.clear === 'saved') st.savedOnly = false;
   else { st.savedOnly = false; st.q = ''; $('q').value = ''; st.cats.clear(); st.chips.clear(); st.kind = ''; syncBoxesSafe(); }
   changed();
 });

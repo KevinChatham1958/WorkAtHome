@@ -27,7 +27,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261105e">
+<link rel="stylesheet" href="/site.css?v=20261105g">
 <style>
 .quiz-page { background: var(--tint); }
 .quiz-main { padding: 28px 16px 48px; }
@@ -90,8 +90,19 @@
   <div class="quiz-card" id="card"></div>
 </main>
 
-<footer class="site-footer">
-  <div class="wrap">© 2026 SideHustleIntel.org · <a href="/about.html">About</a> · <a href="/privacy/">Privacy</a> · Creator names are shown for reference only and imply no endorsement.</div>
+<footer class="site-footer h-footer">
+  <div class="wrap">
+    <nav class="h-foot-links" aria-label="Footer">
+      <a href="/tool/">Browse Database</a>
+      <a href="/quiz/">Take the Quiz</a>
+      <a href="/subscribe/">Subscribe</a>
+      <a href="/about.html">About</a>
+      <a href="mailto:website@sidehustleintel.org">Contact</a>
+      <a href="/privacy/">Privacy</a>
+    </nav>
+    <p class="h-foot-cats">Browse by type: <a href="/category/local-professional-services/">Services from home</a> · <a href="/category/digital-subscription-products/">Digital products</a> · <a href="/category/marketing-content/">Marketing for businesses</a> · <a href="/category/physical-print-products/">Things you make</a> · <a href="/category/content-personal-brand/">YouTube &amp; blogging</a> · <a href="/category/ai-automation/">AI &amp; automation</a> · <a href="/category/e-commerce/">Online stores</a></p>
+    <p>© 2026 SideHustleIntel.org · Each gig is a summary of an idea from a creator&rsquo;s YouTube video. Creator names are shown for reference only and imply no endorsement. No income is promised or guaranteed.</p>
+  </div>
 </footer>
 
 <script src="/site.js?v=20261030a"></script>
@@ -190,7 +201,7 @@ form.addEventListener('submit', async e => {
   const emailEl = document.getElementById('quiz-email');
   const email = emailEl.value.trim();
   if (email && !emailEl.checkValidity()) { emailEl.focus(); emailEl.setCustomValidity(''); emailEl.reportValidity(); return; }
-  track('quiz_complete', { link: url, with_email: !!email });
+  track('quiz_complete', { link: url, with_email: !!email, transport_type: 'beacon' });
   if (email && !window.QUIZ_PREVIEW) {
     const btn = document.getElementById('go'); btn.disabled = true;
     const body = new URLSearchParams({ email_address: email, 'fields[quiz_link]': resultsUrl(true, true) });

@@ -36,8 +36,8 @@ import shutil
 
 SITE = "https://sidehustleintel.org"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE_CSS_VERSION = "20261105e"   # site.css (shared with the homepage, Gig Finder and quiz)
-PAGE_CSS_VERSION = "5"
+SITE_CSS_VERSION = "20261105g"   # site.css (shared with the homepage, Gig Finder and quiz)
+PAGE_CSS_VERSION = "6"
 # Friendly category names shown to visitors (same as CATS in site.js). The data and the
 # /category/<slug>/ addresses keep the internal names.
 FRIENDLY = {
@@ -190,6 +190,11 @@ class Site:
         self.creator_set = set(self.creators)
         # Ideas per source video (counted across ALL ideas, released or not),
         # so list-style videos can say "One of N ideas covered in this video".
+        # Page titles shared by two gigs get the creator's name added (Nov 5, 2026: one duplicate).
+        tc = {}
+        for x in self.pages:
+            k = title_case(x['name']).lower(); tc[k] = tc.get(k, 0) + 1
+        self.dup_titles = {k for k, n in tc.items() if n > 1}
         self.video_counts = {}
         for x in ideas:
             k = video_key(x.get('url'))
@@ -233,6 +238,13 @@ PAGE_CSS = """
 /* Gig, category and creator pages (built by tools/build_pages.py).
    Since Nov 5, 2026 these use the main site look: site.css (header, menu, footer,
    colors, fonts) plus the styles below. No more styles.css on these pages. */
+.site-strip { margin: -10px 0 22px; font-size: 15px; line-height: 1.5; color: var(--body); background: var(--tint); border: 1px solid var(--line); border-radius: 10px; padding: 9px 14px; }
+.site-strip a { color: #1A56DB; font-weight: 600; white-space: nowrap; }
+.gig-meta li.jump { background: #FFFFFF; border: 1.5px solid var(--navy); padding: 4px 11px; }
+.gig-meta li.jump a { color: var(--navy); }
+#the-truth { scroll-margin-top: 90px; }
+.after-truth { margin: 26px 0 0; font-size: 17px; color: var(--body); background: var(--accent-tint); border-radius: 10px; padding: 12px 16px; }
+.after-truth a { color: var(--accent-dark); font-weight: 700; }
 .page { max-width: 860px; margin: 0 auto; padding: 28px 24px 56px; }
 .crumbs { font-size: 15px; color: var(--muted); margin: 0 0 22px; }
 .crumbs a { color: #0F4C68; text-decoration: none; font-weight: 600; }
@@ -378,7 +390,7 @@ class Ctx:
 def bottom_html(ctx):
     return f"""<section class="signup-wrap">
     <div class="cta-pair">
-      <a class="cta-card" href="{ctx.base}/tool/" data-cta="page-browse"><b>Browse the Database</b><span>Search by keyword, filter by gig type, or search by Presenter.</span><em>Explore the Gig Database</em></a>
+      <a class="cta-card" href="{ctx.base}/tool/" data-cta="page-browse"><b>Browse the Database</b><span>Search by keyword, filter by gig type, or search by creator.</span><em>Explore the Gig Database</em></a>
       <a class="cta-card quiz" href="{ctx.base}/quiz/?from=gig-page" data-cta="page-quiz"><b>Take the 60-Second Quiz</b><span>Checkmark your preferences and we&rsquo;ll find your gigs for you.</span><em>Find My Gigs</em></a>
     </div>
   </section>
@@ -386,7 +398,7 @@ def bottom_html(ctx):
     <form class="signup shi-signup" action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="gig-page">
       <p class="signup-kicker">Free Newsletter</p>
       <h2 class="signup-head">New gigs in your inbox every week</h2>
-      <p>One short email a week: the Gig of the Week, with our honest take, plus 7 more of the newest work-from-home gigs. Unsubscribe anytime. <a href="{ctx.base}/privacy/">Privacy</a></p>
+      <p>One short email a week: the Gig of the Week, with our honest take, plus 7 more of the newest work-at-home gigs. Unsubscribe anytime. <a href="{ctx.base}/privacy/">Privacy</a></p>
       <div class="signup-row"><label class="sr" for="shi-email">Your email address</label><input id="shi-email" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required><button type="submit">Subscribe Free</button></div>
     </form>
   </section>"""
@@ -514,6 +526,8 @@ def breadcrumb_schema(parts):
 
 def idea_page(idea, site, ctx):
     t = title_case(idea['name'])          # full name: page title and search snippets
+    if t.lower() in site.dup_titles:
+        t = f"{t} ({idea['found']})"
     short = short_title(idea)             # short headline shown on the page
     url = f"{SITE}/ideas/{idea['id']}/"
     desc = trim(idea['what'], 155)
@@ -573,6 +587,7 @@ def idea_page(idea, site, ctx):
     dek = (f'<p class="gig-dek">{esc(sentence(idea["name"]))}</p>' if len(idea['name'].split()) > 6 else '')
     main = f"""<main class="idea-page">
   {crumbs(ctx, (cat_name(idea['category']), ctx.cat(idea['category'])))}
+  <p class="site-strip">Side Hustle Intel sums up work-at-home ideas from YouTube videos and tells you the truth about each one. Over 1,000 gigs, free. <a href="{ctx.base}/about.html">How it works</a></p>
 
   <article>
     <div class="gig-head">
@@ -585,6 +600,7 @@ def idea_page(idea, site, ctx):
     <ul class="gig-meta">
       <li class="cat"><a href="{ctx.cat(idea['category'])}">{esc(cat_name(idea['category']))}</a></li>
       <li>{esc(idea['cost'].split(' (')[0])}</li>
+      <li class="jump"><a href="#the-truth" data-cta="page-jump-truth">Jump to The Truth &darr;</a></li>
     </ul>
     <p class="gig-date">{f'Video published {esc(date_txt)} by ' if date_txt else 'From '}{creator_name}</p>
 
@@ -601,7 +617,8 @@ def idea_page(idea, site, ctx):
     <section class="gig-sec"><h2>What It Is</h2><p>{esc(idea['what'])}</p></section>
     <section class="gig-sec"><h2>The Pitch</h2><p>{esc(idea['pitch'])}</p></section>
     <section class="gig-sec"><h2>Who It&rsquo;s Best For</h2><p>{esc(idea['best'])}</p></section>
-    <section class="gig-sec"><h2>The Truth <span style="font-weight:600">(as we see it)</span></h2><p>{esc(idea['truth'])}</p></section>
+    <section class="gig-sec" id="the-truth"><h2>The Truth <span style="font-weight:600">(as we see it)</span></h2><p>{esc(idea['truth'])}</p></section>
+    <p class="after-truth">Not sure this one&rsquo;s for you? <a href="{ctx.base}/quiz/?from=gig-page" data-cta="page-after-truth-quiz">Take the 60-second quiz</a> and we&rsquo;ll find gigs that fit you.</p>
   </article>
 
   <section class="more">
@@ -703,9 +720,11 @@ def featured_creator_page(name, site, ctx):
         has = f"{name} has one video in Side Hustle Intel"
     else:
         has = f"{name} has {nv} of {his} {vid_w} in Side Hustle Intel"
-    top = [cat_name(c) if c.startswith("AI") else cat_name(c)[0].lower() + cat_name(c)[1:] for c, _ in cat_list[:2]]
+    def mid(n):  # "Digital products" -> "digital products"; keeps "AI", "YouTube"
+        return n if n[1:2].isupper() or n.startswith("AI") or n.startswith("YouTube") else n[0].lower() + n[1:]
+    top = [mid(cat_name(c)) for c, _ in cat_list[:2]]
     focus = (", mostly in " + " and ".join(top)) if top else ''
-    bio = (f"{has}. {'It covers' if nv == 1 else 'Together they cover'} {n} different work-from-home {idea_w}{focus}. "
+    bio = (f"{has}. {'It covers' if nv == 1 else 'Together they cover'} {n} different work-at-home {idea_w}{focus}. "
            f"We pull out each gig on its own and write it up in plain language: what the gig is, how {short} "
            f"pitches it, who it suits, and our honest take. Every entry links back to the video it came from, "
            f"so you can always hear it from {short} directly.")
@@ -863,6 +882,17 @@ def main():
     ap.add_argument('--preview-creator', nargs=2, metavar=('NAME', 'OUT'))
     a = ap.parse_args()
     ideas = json.load(open(os.path.join(ROOT, 'ideas.json')))
+    # Clean creator names first (tools/creator_names.py), so a gig added with an old-style
+    # name ("X (guest: Y)", "Name | tagline", ALL CAPS, Koerner variants) is fixed for good.
+    if not (a.preview_idea or a.preview_category or a.preview_creator):
+        import sys
+        sys.path.insert(0, os.path.join(ROOT, 'tools'))
+        from creator_names import clean_ideas
+        renamed = clean_ideas(ideas)
+        if renamed:
+            with open(os.path.join(ROOT, 'ideas.json'), 'w', encoding='utf-8') as f:
+                f.write(json.dumps(ideas, indent=2, ensure_ascii=True) + '\n')
+            print('Creator names cleaned:', '; '.join(f'{k} -> {v}' for k, v in renamed.items()))
     release = json.load(open(os.path.join(ROOT, 'pages-release.json')))
     site = Site(ideas, release)
     ctx = Ctx(preview=True)

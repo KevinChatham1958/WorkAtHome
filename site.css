@@ -589,3 +589,39 @@ a.creator:hover { color: var(--accent); }
 .results-head .toolbar { border-bottom: 0; }
 .results-head .toolbar .wrap { padding-top: 6px; padding-bottom: 6px; }
 .results-head .toolbar .search input { padding-top: 8px; padding-bottom: 8px; }
+
+/* Nov 5 2026 (CRO fixes): on phones the active-filter chips stay on one line (swipe for more),
+   so the first gigs show sooner; the email box inside the gig list gets breathing room. */
+@media (max-width: 760px) {
+  .active { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 4px; scrollbar-width: none; }
+  .active::-webkit-scrollbar { display: none; }
+  .active > * { flex-shrink: 0; }
+}
+#list > form.signup { margin: 6px 0; }
+
+/* Nov 5 2026: homepage "See what you get" featured gig (one real write-up). */
+.feat-wrap.h-section, .feat-wrap { padding-top: 72px; }
+.feat { max-width: 860px; margin: 28px auto 0; background: #FFFFFF; border: 2px solid var(--line); border-radius: 16px; padding: 28px 32px; box-shadow: 0 8px 24px rgba(15,61,87,0.07); }
+.feat-head { display: flex; gap: 18px; align-items: center; }
+.feat-av { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: #DCE8EE; }
+.feat-label { margin: 0 0 2px; font-family: Outfit, system-ui, sans-serif; font-size: 14px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.feat h3 { font-size: 30px; font-weight: 800; line-height: 1.15; }
+.feat-meta { margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 8px; font-size: 14px; font-weight: 600; }
+.feat-meta span { background: var(--tint2); color: var(--navy); border-radius: 999px; padding: 4px 11px; }
+.feat-sec { margin-top: 22px; }
+.feat-sec h4 { margin: 0 0 6px; font-family: Outfit, system-ui, sans-serif; font-size: 20px; font-weight: 700; color: var(--navy); }
+.feat-sec h4 span { font-weight: 600; }
+.feat-sec p { margin: 0; font-size: 17px; line-height: 1.6; color: var(--body); }
+.feat-truth { background: var(--accent-tint); border-radius: 12px; padding: 16px 18px; }
+.feat-links { margin: 24px 0 0; display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: center; }
+.feat-links .btn { font-size: 17px; font-weight: 700; padding: 13px 24px; }
+.feat-links a:not(.btn) { color: #1A56DB; font-weight: 600; }
+@media (max-width: 760px) {
+  .feat-wrap { padding-top: 48px; }
+  .feat { padding: 20px 18px; }
+  .feat-head { align-items: flex-start; gap: 12px; }
+  .feat-av { width: 52px; height: 52px; }
+  .feat h3 { font-size: 23px; }
+  .feat-sec p { font-size: 16px; }
+  .feat-links .btn { width: 100%; }
+}

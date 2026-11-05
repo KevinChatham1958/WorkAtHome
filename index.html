@@ -33,7 +33,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261105e">
+<link rel="stylesheet" href="/site.css?v=20261105g">
 </head>
 <body class="home">
 
@@ -66,12 +66,12 @@
     <div class="wrap">
       <p class="h-kicker">Free searchable database &middot; 1,000+ gigs</p>
       <h1>Find Work-at-Home Gigs <br class="h-br">That Fit Your Life</h1>
-      <p class="h-lede">Work-at-home ideas from YouTube, summarized in plain English.</p>
+      <p class="h-lede">We watch the work-at-home YouTube videos so you don&rsquo;t have to.</p>
       <h2 class="h-choose">Choose how you&rsquo;d like to start</h2>
       <div class="h-choices">
         <a class="h-choice h-choice-db" href="/tool/" data-cta="hero">
           <span class="h-choice-t">Browse the Database</span>
-          <span class="h-choice-x">Free access to over 1,000 Work-at-Home gigs. Search by keyword, filter by gig type, or search by Presenter.</span>
+          <span class="h-choice-x">Free access to over 1,000 Work-at-Home gigs. Search by keyword, filter by gig type, or search by creator.</span>
           <span class="btn">Explore the Gig Database</span>
         </a>
         <a class="h-choice h-choice-quiz" href="/quiz/" data-cta="hero-quiz">
@@ -83,11 +83,19 @@
     </div>
   </section>
 
+  <!-- Featured gig: one real write-up, so visitors see the product (CRO review, Nov 5 2026).
+       Picked automatically: the most-watched gig from videos of the last 30 days. -->
+  <section class="wrap feat-wrap" id="featured" hidden aria-labelledby="feat-h">
+    <h2 id="feat-h" class="h-title">See what you get</h2>
+    <p class="h-sub">A real gig from the database, as every gig is written up.</p>
+    <article class="feat" id="feat-card"></article>
+  </section>
+
   <!-- How it works -->
   <section class="wrap h-section" aria-labelledby="how-h">
     <h2 id="how-h" class="h-title">How Side Hustle Intel Works</h2>
     <ol class="h-steps">
-      <li><span class="h-num" aria-hidden="true">1</span><h3>We Research</h3><p>We follow hundreds of Work-at-Home Creators on YouTube and review their videos. And we give you their video URL.</p></li>
+      <li><span class="h-num" aria-hidden="true">1</span><h3>We Research</h3><p>We follow hundreds of work-at-home creators on YouTube, review their videos, and link you straight to the original video.</p></li>
       <li><span class="h-num" aria-hidden="true">2</span><h3>We Summarize</h3><p>Each idea becomes a short, plain-English summary. We tell you what it is, who it&rsquo;s for, and the truth as we see it.</p></li>
       <li><span class="h-num" aria-hidden="true">3</span><h3>You Discover</h3><p>Search and compare gigs, save the ones you like, and watch the original video when you want more detail.</p></li>
     </ol>
@@ -144,6 +152,38 @@
 </footer>
 
 <script src="/site.js?v=20261030a"></script>
+<script>
+// Featured gig on the homepage: the most-watched gig from videos published in the
+// 30 days before the newest one (fallback: the newest gig). Shows What It Is and The Truth.
+Promise.all([loadIdeas(), fetch('/views.json').then(r => r.ok ? r.json() : {}).catch(() => ({})), fetch('/page-index.json').then(r => r.ok ? r.json() : {}).catch(() => ({}))])
+.then(([data, v, pi]) => {
+  const views = (v && v.views) || {}, pages = new Set((pi && pi.ideas) || []);
+  const vid = u => { const m = String(u || '').match(/(?:[?&]v=|youtu\.be\/|\/shorts\/)([A-Za-z0-9_-]{11})/); return m ? m[1] : ''; };
+  const ok = data.filter(i => i.truth && i.what && pages.has(i.id) && i.published);
+  if (!ok.length) return;
+  const newest = ok.reduce((m, i) => i.published > m ? i.published : m, '');
+  const cut = new Date(new Date(newest + 'T00:00:00Z') - 30 * 864e5).toISOString().slice(0, 10);
+  const recent = ok.filter(i => i.published >= cut);
+  const ranked = (recent.length ? recent : ok).slice().sort((a, b) => (views[vid(b.url)] || 0) - (views[vid(a.url)] || 0));
+  // Prefer a creator with a real photo (checks the top 8 in order).
+  const hasPhoto = n => new Promise(res => { const im = new Image(); im.onload = () => res(true); im.onerror = () => res(false); im.src = `/assets/avatars/avatar-${slugify(n)}.jpg`; });
+  return (async () => { for (const i of ranked.slice(0, 8)) if (await hasPhoto(shortCreator(i.found))) return i; return ranked[0]; })();
+}).then(pick => {
+  if (!pick) return;
+  const cat = (CAT_BY_NAME[pick.category] || {}).name || pick.category;
+  const who = shortCreator(pick.found);
+  document.getElementById('feat-card').innerHTML = `
+    <div class="feat-head">${avatarHtml(who, 'feat-av')}<div>
+      <p class="feat-label">Featured gig</p>
+      <h3>${esc(shortTitle(pick))}</h3>
+      <p class="feat-meta"><span>${esc(cat)}</span><span>${esc(shortCost(pick.cost))}</span><span>From a YouTube video by ${esc(who)}</span></p>
+    </div></div>
+    <div class="feat-sec"><h4>What It Is</h4><p>${esc(pick.what)}</p></div>
+    <div class="feat-sec feat-truth"><h4>The Truth <span>(as we see it)</span></h4><p>${esc(pick.truth)}</p></div>
+    <p class="feat-links"><a class="btn" href="/ideas/${encodeURIComponent(pick.id)}/" data-cta="home-featured">Read the full write-up</a><a href="${esc(pick.url)}" target="_blank" rel="noopener" data-cta="home-featured-video">Watch the source video on YouTube &#8599;</a></p>`;
+  document.getElementById('featured').hidden = false;
+}).catch(() => {});
+</script>
 <script>
 // Weekly email signup: count submits in Google Analytics (event email_signup, with which form).
 document.querySelectorAll('form.signup').forEach(f => f.addEventListener('submit', () => {

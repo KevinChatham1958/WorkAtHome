@@ -153,7 +153,7 @@ def build(days):
     n, total = len(new), len(ideas)
     title = gotw.get('title') or gotw['name']
     subject = f'Gig of the Week: {title}'
-    preview = f'Plus {len(more)} more of the newest work-from-home gigs.' if more else 'This week\'s newest work-from-home gig.'
+    preview = f'Plus {len(more)} more of the newest work-at-home gigs.' if more else 'This week\'s newest work-at-home gig.'
     card = gig_of_week_html(gotw, pages, views)
     more_rows = ''.join(
         f'<tr><td style="padding:9px 0;border-bottom:1px solid #E3EAEE;{FONT}">'
@@ -181,7 +181,7 @@ def build(days):
     body = f"""<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#FFFFFF"><tr><td align="center" style="padding:8px 12px 20px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;{FONT};color:#16202e">
 <tr><td style="padding:4px 4px 18px">
-  <p style="font-size:16px;line-height:1.55;margin:0">Hi, it's Kevin from <a href="{SITE}/" style="color:#0F3D57;font-weight:bold">SideHustleIntel.org</a>, the free database of work-from-home gigs you signed up for. Every Saturday I send {count_line}.</p>
+  <p style="font-size:16px;line-height:1.55;margin:0">Hi, it's Kevin from <a href="{SITE}/" style="color:#0F3D57;font-weight:bold">SideHustleIntel.org</a>, the free database of work-at-home gigs you signed up for. Every Saturday I send {count_line}.</p>
 </td></tr>
 <tr><td>{card}</td></tr>
 {more_html}
