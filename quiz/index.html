@@ -144,7 +144,7 @@ const QUESTIONS = [
 const FROM = (() => {
   let f = '';
   try { f = (new URLSearchParams(location.search).get('from') || '').slice(0, 30); } catch (e) {}
-  try { if (f) { sessionStorage.setItem('shi_quiz_from', f); history.replaceState(null, '', location.pathname); } else f = sessionStorage.getItem('shi_quiz_from') || ''; } catch (e) {}
+  try { if (f) { sessionStorage.setItem('shi_quiz_from', f); if (!/[?&]utm_/.test(location.search)) history.replaceState(null, '', location.pathname); } else f = sessionStorage.getItem('shi_quiz_from') || ''; } catch (e) {}
   return f;
 })();
 function track(name, p) { p = Object.assign({ from: FROM }, p || {}); try { if (typeof gtag === 'function') gtag('event', name, p || {}); } catch (e) {} }
