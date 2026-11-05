@@ -11,255 +11,178 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About — Side Hustle Intel (mockup v2)</title>
+<title>About Side Hustle Intel — Independent Work-at-Home Gig Database</title>
+<meta name="description" content="Side Hustle Intel is a free, independent, searchable database of over 1,000 work-at-home gigs, each summarized in plain English from a YouTube creator's video, with the truth as we see it.">
+<link rel="canonical" href="https://sidehustleintel.org/about.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="About Side Hustle Intel">
+<meta property="og:description" content="A free, independent, searchable database of over 1,000 work-at-home gigs from YouTube creators, explained in plain English, with the truth as we see it.">
+<meta property="og:url" content="https://sidehustleintel.org/about.html">
+<meta property="og:image" content="https://sidehustleintel.org/assets/og-share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/site.css?v=20261105c">
 <style>
-  :root {
-    --bg: #f7f8fa;
-    --bg-card: #ffffff;
-    --border: #e2e4e8;
-    --border-strong: #c7ccd3;
-    --text-primary: #16202e;
-    --text-muted: #5b6472;
-    --text-faint: #87909c;
-    --accent: #1f3a5f;
-    --red: #d32f2f;
-    --link: #1d4ed8;
-    --font-display: 'Space Grotesk', sans-serif;
-    --font-body: 'Inter', sans-serif;
-  }
-  * { box-sizing: border-box; }
-  body { margin:0; background:var(--bg); color:var(--text-primary); font-family:var(--font-body); line-height:1.5; }
-  a { color: inherit; }
-
-  .site-header { background:var(--bg-card); border-bottom:1px solid var(--border); padding:16px 24px; }
-  .header-inner { max-width:760px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; gap:16px; }
-  .wordmark-logo { display:block; height:auto; width:min(30%,200px); }
-  .site-nav { display:flex; gap:20px; }
-  .site-nav a { text-decoration:none; color:var(--text-primary); font-weight:600; font-family:var(--font-display); font-size:0.95rem; }
-  .site-nav a.active { color:var(--accent); }
-
-  .about-main { max-width:640px; margin:0 auto; padding:0 24px 48px; }
-
-  /* HERO */
-  .hero-banner { text-align:center; padding:24px 0 4px; }
-  .hero-banner img { width:100%; max-width:380px; height:auto; }
-  .hero-tagline {
-    font-family: var(--font-display);
-    font-weight: 600;
-    font-size: clamp(1rem, 2.6vw, 1.2rem);
-    color: var(--text-muted);
-    text-align: center;
-    margin: 2px 0 22px;
-  }
-
-  /* Section 1 - the problem (fragments) */
-  .frag-block { margin-bottom: 22px; }
-  .frag-block p {
-    font-family: var(--font-display);
-    font-weight: 600;
-    font-size: clamp(1.05rem, 2.6vw, 1.25rem);
-    line-height: 1.15;
-    margin: 0;
-    color: var(--text-primary);
-  }
-  .frag-block p.emph { color: var(--red); }
-
-  /* Section 2 - Our Database */
-  .db-section {
-    margin: 24px 0;
-    padding: 20px 22px;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-  }
-  .db-heading {
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    margin: 0 0 10px;
-  }
-  .db-heading img { width: 22px; height: 22px; flex-shrink: 0; }
-  .db-heading h2 {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: 1.1rem;
-    margin: 0;
-    color: var(--accent);
-  }
-  .db-list { margin: 0; padding: 0; list-style: none; }
-  .db-list li {
-    font-family: var(--font-display);
-    font-weight: 500;
-    font-size: 0.95rem;
-    padding: 5px 0;
-    border-top: 1px solid var(--border);
-    line-height: 1.15;
-  }
-  .db-list li:first-child { border-top: none; padding-top: 0; }
-
-  /* Section 3 - invitation / community */
-  .invite-section { margin: 28px 0 24px; }
-  .invite-graphic { text-align: center; margin-bottom: 4px; }
-  .invite-graphic img { width: 100%; max-width: 280px; height: auto; opacity: 0.9; }
-  .invite-heading {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: clamp(1.1rem, 2.8vw, 1.35rem);
-    color: var(--accent);
-    text-align: center;
-    margin: 4px 0 12px;
-  }
-  .invite-body p {
-    font-family: var(--font-body);
-    font-size: 0.95rem;
-    color: var(--text-primary);
-    text-align: center;
-    max-width: 56ch;
-    margin: 0 auto 4px;
-    line-height: 1.2;
-  }
-  .invite-questions {
-    max-width: 48ch;
-    margin: 14px auto 0;
-    padding: 14px 18px;
-    background: var(--bg-card);
-    border-left: 3px solid var(--red);
-    border-radius: 4px;
-  }
-  .invite-questions p {
-    font-family: var(--font-display);
-    font-weight: 500;
-    font-size: 0.92rem;
-    line-height: 1.15;
-    margin: 0 0 4px;
-    color: var(--text-primary);
-    text-align: left;
-  }
-  .invite-questions p:last-child { margin-bottom: 0; }
-
-  /* Feedback form */
-  .feedback-form {
-    max-width: 480px;
-    margin: 18px auto 0;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    background: var(--bg-card);
-    padding: 20px;
-  }
-  .form-field { margin-bottom: 14px; }
-  .form-field:last-of-type { margin-bottom: 0; }
-  .form-field label { display:block; font-size:0.9rem; font-weight:600; color:var(--text-primary); margin-bottom:6px; }
-  .form-field input[type="text"], .form-field input[type="email"], .form-field textarea {
-    width:100%; font-family:var(--font-body); font-size:0.95rem; color:var(--text-primary);
-    border:1px solid var(--border-strong); border-radius:5px; padding:10px 12px; background:#fff;
-  }
-  .form-field textarea { resize:vertical; min-height:72px; }
-  .submit-btn {
-    font-family: var(--font-display); font-weight:600; font-size:0.95rem; color:#fff;
-    background: var(--red); border:none; border-radius:5px; padding:12px 22px; cursor:pointer;
-  }
-  .contact-line { font-size:0.88rem; color:var(--text-muted); margin-top:10px; text-align:center; }
-  .contact-line a { color: var(--link); text-decoration: underline; }
-
-  .site-footer { border-top:1px solid var(--border); padding:20px 24px; text-align:center; }
-  .footer-inner { color:var(--text-faint); font-size:0.85rem; max-width:600px; margin:0 auto; }
-
-  @media (max-width: 600px) {
-    .about-main { padding: 0 18px 60px; }
-    .db-section { padding: 24px 18px; }
-  }
+/* About page (rebuilt Nov 5, 2026 in the homepage style). */
+.about { max-width: 860px; margin: 0 auto; padding: 0 24px; }
+.about-hero { background: var(--tint2); padding: 64px 0 56px; text-align: center; }
+.about-hero h1 { font-size: 56px; font-weight: 800; line-height: 1.08; letter-spacing: -0.01em; }
+.about-hero .about p { margin: 18px auto 0; max-width: 700px; font-size: 21px; line-height: 1.5; color: var(--body); }
+.about section { padding: 52px 0 0; }
+.about h2 { font-size: 32px; font-weight: 700; margin: 0 0 14px; }
+.about p { font-size: 18px; line-height: 1.65; color: var(--body); margin: 0 0 14px; }
+.about-steps { list-style: none; margin: 22px 0 0; padding: 0; display: grid; gap: 16px; }
+.about-steps li { display: grid; grid-template-columns: 52px 1fr; gap: 16px; align-items: start; }
+.about-steps .n { width: 44px; height: 44px; border-radius: 50%; background: var(--navy); color: #FFFFFF; font-family: Outfit, system-ui, sans-serif; font-size: 20px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+.about-steps h3 { font-size: 21px; font-weight: 700; margin: 6px 0 4px; }
+.about-steps p { margin: 0; font-size: 17px; }
+.four { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 18px 0 0; }
+.four div { background: #FFFFFF; border: 1.5px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+.four b { display: block; font-family: Outfit, system-ui, sans-serif; font-size: 18px; color: var(--navy); margin-bottom: 4px; }
+.four span { font-size: 16px; line-height: 1.5; color: var(--body); }
+.about .h-checks { margin: 18px 0 0; max-width: none; grid-template-columns: 1fr; gap: 14px; }
+.about .h-checks li { font-size: 18px; }
+.about .h-checks li b { color: var(--navy); }
+.about-cta { display: flex; flex-wrap: wrap; gap: 14px; margin: 26px 0 0; }
+.about-cta .btn { font-size: 18px; padding: 15px 26px; font-weight: 700; }
+.about-contact { font-size: 17px; color: var(--body); }
+.about-contact a { color: #1A56DB; font-weight: 600; }
+.about-band { margin-top: 60px; background: var(--accent-tint); padding: 56px 0; }
+.about-band .signup { max-width: 820px; margin: 0 auto; background: #FFFFFF; border: 2px solid #F6D3BF; border-radius: 16px; padding: 34px 40px; text-align: center; }
+.about-band .signup-kicker { font-size: 18px; color: var(--accent); }
+.about-band .signup-head { font-size: 34px; font-weight: 700; margin-bottom: 10px; }
+.about-band .signup p { font-size: 19px; line-height: 1.5; margin-bottom: 20px; }
+.about-band .signup-row { max-width: 640px; margin: 0 auto; }
+.about-band .signup-row input { font-size: 18px; padding: 16px 18px; border: 2px solid #8FA5B2; border-radius: 10px; }
+.about-band .signup-row button { font-size: 19px; font-weight: 700; padding: 16px 28px; }
+@media (max-width: 760px) {
+  .about { padding: 0 16px; }
+  .about-hero { padding: 40px 0 36px; }
+  .about-hero h1 { font-size: 36px; }
+  .about-hero .about p { font-size: 18px; }
+  .about section { padding-top: 40px; }
+  .about h2 { font-size: 26px; }
+  .about p { font-size: 17px; }
+  .four { grid-template-columns: 1fr; }
+  .about-cta .btn { width: 100%; }
+  .about-band { padding: 40px 0; }
+  .about-band .signup { padding: 24px 18px; }
+  .about-band .signup-head { font-size: 26px; }
+  .about-band .signup p { font-size: 17px; }
+  .about-band .signup-row button { width: 100%; }
+}
 </style>
 </head>
-<body>
+<body class="about-page">
 
-<header class="site-header">
-  <div class="header-inner">
-    <img src="https://raw.githubusercontent.com/KevinChatham1958/WorkAtHome/main/assets/logo-horizontal.png" alt="Side Hustle Intel" class="wordmark-logo">
-    <nav class="site-nav">
-      <a href="/tool/">Browse</a>
-      <a href="#" class="active">About</a>
+<header class="site-header home-header">
+  <div class="wrap">
+    <a href="/" class="home-logo"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel home" width="1782" height="169"></a>
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="home-nav">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      Menu
+    </button>
+    <nav class="nav home-nav" id="home-nav" aria-label="Main">
+      <a href="/tool/" data-cta="about-header">Browse Database</a>
+      <a href="/quiz/" data-cta="about-header-quiz">Take the Quiz</a>
+      <a href="/subscribe/" data-cta="about-header-subscribe">Subscribe</a>
+      <a href="/about.html" aria-current="page">About</a>
     </nav>
   </div>
 </header>
 
-<main class="about-main">
-
-  <!-- HERO -->
-  <div class="hero-banner">
-    <img src="assets/about-hero-lockup.jpg" alt="Side Hustle Intel">
-  </div>
-  <p class="hero-tagline">The Searchable Work-at-Home Database</p>
-
-  <!-- SECTION 1: The problem -->
-  <div class="frag-block">
-    <p>Work-at-home industry is huge and exploding. Millions of people searching. Thousands of videos. Hundreds of experts.</p>
-    <p style="margin-top: 14px;">Some gigs are great. <span class="emph">Some are a waste of time.</span></p>
-    <p style="margin-top: 6px;">We are taming the beast. Making sense of it all — one searchable database.</p>
-    <p style="margin-top: 6px;">Hundreds of new gigs added weekly.</p>
-  </div>
-
-  <!-- SECTION 2: Our Database -->
-  <div class="db-section">
-    <div class="db-heading">
-      <img src="assets/about-mag-glass.png" alt="">
-      <h2>Our Database</h2>
+<main>
+  <section class="about-hero">
+    <div class="about">
+      <h1>About Side Hustle Intel</h1>
+      <p>A free, independent, searchable database of over 1,000 work-at-home gigs, each one summarized in plain English from a YouTube creator&rsquo;s video.</p>
     </div>
-    <ul class="db-list">
-      <li>- Hundreds of gig listings today — our target is thousands.</li>
-      <li>- Search by category, expert name, or keyword.</li>
-      <li>- One-button click saves your search results.</li>
-      <li>- One-button click copies the current gig to your clipboard.</li>
-      <li>- We always include the link (URL) to the original source.</li>
-      <li>- We don't just repeat the hype — we comment on each gig.</li>
-    </ul>
-  </div>
+  </section>
 
-  <!-- SECTION 3: Invitation / Community -->
-  <div class="invite-section">
-    <div class="invite-graphic">
-      <img src="assets/about-group-people.png" alt="Join our community">
-    </div>
-    <p class="invite-heading">Help Us Build This</p>
-    <div class="invite-body">
-      <p>This is a work-in-progress. Our goal: thousands of gigs, easy to use.</p>
-      <p>We need your input — think of yourself as a beta tester.</p>
-    </div>
+  <div class="about">
+    <section>
+      <h2>Why it exists</h2>
+      <p>YouTube is full of work-at-home ideas. Some are solid. Many are recycled, overhyped, or a lead-in to a paid course. Finding the good ones means sitting through hours of video, and the actual idea is often buried in the middle of a long sales pitch.</p>
+      <p>Side Hustle Intel does that watching for you. We pull each idea out, explain it in a few short paragraphs, tell you plainly what we think of it, and point you to the original video so you can judge for yourself.</p>
+    </section>
 
-    <div class="invite-questions">
-      <p>Did we miss something?</p>
-      <p>Should we add a WAH expert?</p>
-      <p>Should we include more information? Or different categories?</p>
-    </div>
-
-    <form class="feedback-form" action="https://formspree.io/f/xppzrpln" method="POST">
-      <input type="hidden" name="_subject" value="Side Hustle Intel — About page feedback">
-      <div class="form-field">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
+    <section>
+      <h2>How it works</h2>
+      <ol class="about-steps">
+        <li><span class="n" aria-hidden="true">1</span><div><h3>We follow the creators</h3><p>We track more than 220 work-at-home and side-hustle creators on YouTube and review their videos as they come out.</p></div></li>
+        <li><span class="n" aria-hidden="true">2</span><div><h3>We summarize every gig the same way</h3><p>Each gig gets the same four parts, so you can compare them at a glance:</p></div></li>
+      </ol>
+      <div class="four">
+        <div><b>What It Is</b><span>The gig in plain terms: what you would actually do and who pays you.</span></div>
+        <div><b>The Pitch</b><span>How the creator presents it, including the claims they make.</span></div>
+        <div><b>Who It&rsquo;s Best For</b><span>The skills, budget and situation the gig suits.</span></div>
+        <div><b>The Truth <span style="font-weight:600">(as we see it)</span></b><span>Our frank take: what holds up, what&rsquo;s missing, and whether the creator sells a course or tool.</span></div>
       </div>
-      <div class="form-field">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
+      <ol class="about-steps" start="3">
+        <li><span class="n" aria-hidden="true">3</span><div><h3>You search, filter and decide</h3><p>Search by keyword or creator, filter by type of gig and your situation (50+ or retired, stay-at-home parent, low startup cost and more), save the gigs you like, and watch the original video whenever you want the full story.</p></div></li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>What we stand for</h2>
+      <ul class="h-checks">
+        <li><b>Free to use.</b> No account, no paywall.</li>
+        <li><b>Independent.</b> We don&rsquo;t sell courses, and creators don&rsquo;t pay to be included.</li>
+        <li><b>Honest, not hyped.</b> The Truth on every gig is our informed opinion, based on what the video says and shows. It is not a guarantee, and no income is promised.</li>
+        <li><b>Always sourced.</b> Every gig links to the video it came from, so you can hear it from the creator directly.</li>
+        <li><b>Growing every week.</b> New gigs are added weekly as creators publish new videos.</li>
+      </ul>
+      <div class="about-cta">
+        <a class="btn" href="/tool/" data-cta="about-browse">Explore the Gig Database</a>
+        <a class="btn btn-navy" href="/quiz/" data-cta="about-quiz">Take the 60-Second Quiz</a>
       </div>
-      <div class="form-field">
-        <label for="comment">Comment</label>
-        <textarea id="comment" name="comment" required></textarea>
-      </div>
-      <button type="submit" class="submit-btn">Send</button>
-    </form>
-    <p class="contact-line">Or email <a href="mailto:kevin@sidehustleintel.org">kevin@sidehustleintel.org</a></p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p class="about-contact">Questions, corrections, or a creator we should be following? Email <a href="mailto:kevin@sidehustleintel.org">kevin@sidehustleintel.org</a>.</p>
+    </section>
   </div>
 
+  <section class="about-band">
+    <div class="about">
+      <form class="signup" action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="about">
+        <p class="signup-kicker">Free Newsletter</p>
+        <h2 class="signup-head">New gigs in your inbox every week</h2>
+        <p>One short email a week: the Gig of the Week plus 7 more of the newest gigs. Unsubscribe anytime. <a href="/privacy/">Privacy</a></p>
+        <div class="signup-row"><label class="sr" for="email-about">Your email address</label><input id="email-about" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required><button type="submit">Subscribe Free</button></div>
+      </form>
+    </div>
+  </section>
 </main>
 
-<footer class="site-footer">
-  <div class="footer-inner">
-    <span>Side Hustle Intel — every idea here is sourced from a real creator video, linked at the bottom of each entry.</span>
+<footer class="site-footer h-footer">
+  <div class="wrap">
+    <nav class="h-foot-links" aria-label="Footer">
+      <a href="/tool/">Browse Database</a>
+      <a href="/quiz/">Take the Quiz</a>
+      <a href="/subscribe/">Subscribe</a>
+      <a href="/about.html">About</a>
+      <a href="mailto:kevin@sidehustleintel.org">Contact</a>
+      <a href="/privacy/">Privacy</a>
+    </nav>
+    <p>© 2026 SideHustleIntel.org · Each gig is a summary of an idea from a creator&rsquo;s YouTube video. Creator names are shown for reference only and imply no endorsement. No income is promised or guaranteed.</p>
   </div>
 </footer>
 
+<script>
+document.querySelectorAll('form.signup').forEach(f => f.addEventListener('submit', () => {
+  try { if (typeof gtag === 'function') gtag('event', 'email_signup', { form: f.dataset.src, transport_type: 'beacon' }); } catch (e) {}
+}));
+document.addEventListener('click', e => { const a = e.target.closest('[data-cta]'); if (a) { try { gtag('event', 'cta_click', { cta: a.dataset.cta }); } catch (err) {} } });
+const menuBtn = document.getElementById('menu-btn'), homeNav = document.getElementById('home-nav');
+menuBtn.addEventListener('click', () => { const o = menuBtn.getAttribute('aria-expanded') !== 'true'; menuBtn.setAttribute('aria-expanded', String(o)); homeNav.classList.toggle('open', o); });
+</script>
 </body>
 </html>
