@@ -6,6 +6,7 @@
 .gig-meta li.jump { background: #FFFFFF; border: 1.5px solid var(--navy); padding: 4px 11px; }
 .gig-meta li.jump a { color: var(--navy); }
 #the-truth { scroll-margin-top: 90px; }
+.truth-note { margin: 10px 0 0; font-size: 14px; font-style: italic; color: var(--muted); }
 .after-truth { margin: 26px 0 0; font-size: 17px; color: var(--body); background: var(--accent-tint); border-radius: 10px; padding: 12px 16px; }
 .after-truth a { color: var(--accent-dark); font-weight: 700; }
 .page { max-width: 860px; margin: 0 auto; padding: 28px 24px 56px; }

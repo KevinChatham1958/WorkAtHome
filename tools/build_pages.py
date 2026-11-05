@@ -36,8 +36,8 @@ import shutil
 
 SITE = "https://sidehustleintel.org"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE_CSS_VERSION = "20261105g"   # site.css (shared with the homepage, Gig Finder and quiz)
-PAGE_CSS_VERSION = "20261105i"
+SITE_CSS_VERSION = "20261105j"   # site.css (shared with the homepage, Gig Finder and quiz)
+PAGE_CSS_VERSION = "20261105j"
 # Friendly category names shown to visitors (same as CATS in site.js). The data and the
 # /category/<slug>/ addresses keep the internal names.
 FRIENDLY = {
@@ -256,6 +256,7 @@ PAGE_CSS = """
 .gig-meta li.jump { background: #FFFFFF; border: 1.5px solid var(--navy); padding: 4px 11px; }
 .gig-meta li.jump a { color: var(--navy); }
 #the-truth { scroll-margin-top: 90px; }
+.truth-note { margin: 10px 0 0; font-size: 14px; font-style: italic; color: var(--muted); }
 .after-truth { margin: 26px 0 0; font-size: 17px; color: var(--body); background: var(--accent-tint); border-radius: 10px; padding: 12px 16px; }
 .after-truth a { color: var(--accent-dark); font-weight: 700; }
 .page { max-width: 860px; margin: 0 auto; padding: 28px 24px 56px; }
@@ -634,7 +635,7 @@ def idea_page(idea, site, ctx):
     <section class="gig-sec"><h2>What It Is</h2><p>{esc(idea['what'])}</p></section>
     <section class="gig-sec"><h2>The Pitch</h2><p>{esc(idea['pitch'])}</p></section>
     <section class="gig-sec"><h2>Who It&rsquo;s Best For</h2><p>{esc(idea['best'])}</p></section>
-    <section class="gig-sec" id="the-truth"><h2>The Truth <span style="font-weight:600">(as we see it)</span></h2><p>{esc(idea['truth'])}</p></section>
+    <section class="gig-sec" id="the-truth"><h2>The Truth <span style="font-weight:600">(as we see it)</span></h2><p>{esc(idea['truth'])}</p><p class="truth-note">Our assessment, based on the video and what&rsquo;s typical across similar videos. We don&rsquo;t independently verify income claims or prices.</p></section>
     <p class="after-truth">Not sure this one&rsquo;s for you? <a href="{ctx.base}/quiz/?from=gig-page" data-cta="page-after-truth-quiz">Take the 60-second quiz</a> and we&rsquo;ll find gigs that fit you.</p>
   </article>
 

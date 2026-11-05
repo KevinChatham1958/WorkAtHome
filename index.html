@@ -33,7 +33,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261105g">
+<link rel="stylesheet" href="/site.css?v=20261105j">
 </head>
 <body class="home">
 
@@ -179,7 +179,7 @@ Promise.all([loadIdeas(), fetch('/views.json').then(r => r.ok ? r.json() : {}).c
       <p class="feat-meta"><span>${esc(cat)}</span><span>${esc(costLabel(pick))}</span><span>From a YouTube video by ${esc(who)}</span></p>
     </div></div>
     <div class="feat-sec"><h4>What It Is</h4><p>${esc(pick.what)}</p></div>
-    <div class="feat-sec feat-truth"><h4>The Truth <span>(as we see it)</span></h4><p>${esc(pick.truth)}</p></div>
+    <div class="feat-sec feat-truth"><h4>The Truth <span>(as we see it)</span></h4><p>${esc(pick.truth)}</p><p class="truth-note">Our assessment, based on the video and what&rsquo;s typical across similar videos. We don&rsquo;t independently verify income claims or prices.</p></div>
     <p class="feat-links"><a class="btn" href="/ideas/${encodeURIComponent(pick.id)}/" data-cta="home-featured">Read the full write-up</a><a href="${esc(pick.url)}" target="_blank" rel="noopener" data-cta="home-featured-video">Watch the source video on YouTube &#8599;</a></p>`;
   document.getElementById('featured').hidden = false;
 }).catch(() => {});
