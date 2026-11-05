@@ -526,3 +526,6 @@ a.creator:hover { color: var(--accent); }
 .home .h-hero h1 { font-size: 91px; }
 @media (max-width: 1100px) { .home .h-hero h1 { font-size: 7.6vw; } }
 @media (max-width: 760px) { .home .h-hero h1 { font-size: 7.7vw; } }
+/* Nov 4 2026 (Kevin): quiz card renamed "Take the 60-Second Shortcut" (longer), so card titles fit one line. */
+.home .h-choice-t { font-size: 31px; white-space: nowrap; }
+@media (max-width: 760px) { .home .h-choice-t { font-size: 5.6vw; } }
