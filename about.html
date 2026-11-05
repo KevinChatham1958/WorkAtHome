@@ -27,7 +27,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261105c">
+<link rel="stylesheet" href="/site.css?v=20261105d">
 <style>
 /* About page (rebuilt Nov 5, 2026 in the homepage style). */
 .about { max-width: 860px; margin: 0 auto; padding: 0 24px; }
@@ -89,13 +89,14 @@
       Menu
     </button>
     <nav class="nav home-nav" id="home-nav" aria-label="Main">
-      <a href="/tool/" data-cta="about-header">Browse Database</a>
-      <a href="/quiz/" data-cta="about-header-quiz">Take the Quiz</a>
-      <a href="/subscribe/" data-cta="about-header-subscribe">Subscribe</a>
-      <a href="/about.html" aria-current="page">About</a>
+      <a href="/tool/" data-cta="header">Browse Database</a>
+      <a href="/quiz/" data-cta="header-quiz">Take the Quiz</a>
+      <a href="/subscribe/" data-cta="header-subscribe">Subscribe</a>
+      <span class="nav-current" aria-current="page">About</span>
     </nav>
   </div>
 </header>
+<script>(function(){var b=document.getElementById('menu-btn'),n=document.getElementById('home-nav');b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(o));n.classList.toggle('open',o);});})();</script>
 
 <main>
   <section class="about-hero">
@@ -146,7 +147,7 @@
 
     <section>
       <h2>Contact</h2>
-      <p class="about-contact">Questions, corrections, or a creator we should be following? Email <a href="mailto:kevin@sidehustleintel.org">kevin@sidehustleintel.org</a>.</p>
+      <p class="about-contact">Questions, corrections, or a creator we should be following? Email <a href="mailto:website@sidehustleintel.org">website@sidehustleintel.org</a>.</p>
     </section>
   </div>
 
@@ -169,7 +170,7 @@
       <a href="/quiz/">Take the Quiz</a>
       <a href="/subscribe/">Subscribe</a>
       <a href="/about.html">About</a>
-      <a href="mailto:kevin@sidehustleintel.org">Contact</a>
+      <a href="mailto:website@sidehustleintel.org">Contact</a>
       <a href="/privacy/">Privacy</a>
     </nav>
     <p>© 2026 SideHustleIntel.org · Each gig is a summary of an idea from a creator&rsquo;s YouTube video. Creator names are shown for reference only and imply no endorsement. No income is promised or guaranteed.</p>
@@ -181,8 +182,6 @@ document.querySelectorAll('form.signup').forEach(f => f.addEventListener('submit
   try { if (typeof gtag === 'function') gtag('event', 'email_signup', { form: f.dataset.src, transport_type: 'beacon' }); } catch (e) {}
 }));
 document.addEventListener('click', e => { const a = e.target.closest('[data-cta]'); if (a) { try { gtag('event', 'cta_click', { cta: a.dataset.cta }); } catch (err) {} } });
-const menuBtn = document.getElementById('menu-btn'), homeNav = document.getElementById('home-nav');
-menuBtn.addEventListener('click', () => { const o = menuBtn.getAttribute('aria-expanded') !== 'true'; menuBtn.setAttribute('aria-expanded', String(o)); homeNav.classList.toggle('open', o); });
 </script>
 </body>
 </html>

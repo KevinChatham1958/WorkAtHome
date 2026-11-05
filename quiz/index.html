@@ -27,7 +27,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261103a">
+<link rel="stylesheet" href="/site.css?v=20261105d">
 <style>
 .quiz-page { background: var(--tint); }
 .quiz-main { padding: 28px 16px 48px; }
@@ -68,15 +68,22 @@
 </head>
 <body class="quiz-page">
 
-<header class="site-header">
+<header class="site-header home-header">
   <div class="wrap">
-    <a href="/"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel" width="1782" height="169"></a>
-    <nav class="nav" aria-label="Main">
-      <a href="/about.html">About</a>
-      <a class="btn btn-sm" href="/tool/" data-cta="quiz-header">Find Gigs</a>
+    <a href="/" class="home-logo"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel home" width="1782" height="169"></a>
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="home-nav">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      Menu
+    </button>
+    <nav class="nav home-nav" id="home-nav" aria-label="Main">
+      <a href="/tool/" data-cta="header">Browse Database</a>
+      <span class="nav-current" aria-current="page">Take the Quiz</span>
+      <a href="/subscribe/" data-cta="header-subscribe">Subscribe</a>
+      <a href="/about.html" data-cta="header-about">About</a>
     </nav>
   </div>
 </header>
+<script>(function(){var b=document.getElementById('menu-btn'),n=document.getElementById('home-nav');b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(o));n.classList.toggle('open',o);});})();</script>
 
 <main class="quiz-main">
   <div class="quiz-card" id="card"></div>

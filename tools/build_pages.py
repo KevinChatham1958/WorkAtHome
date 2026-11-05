@@ -36,7 +36,7 @@ import shutil
 
 SITE = "https://sidehustleintel.org"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE_CSS_VERSION = "20261105b"   # site.css (shared with the homepage, Gig Finder and quiz)
+SITE_CSS_VERSION = "20261105d"   # site.css (shared with the homepage, Gig Finder and quiz)
 PAGE_CSS_VERSION = "5"
 # Friendly category names shown to visitors (same as CATS in site.js). The data and the
 # /category/<slug>/ addresses keep the internal names.
@@ -409,7 +409,7 @@ def footer_html(ctx):
       <a href="{ctx.base}/quiz/">Take the Quiz</a>
       <a href="{ctx.base}/subscribe/">Subscribe</a>
       <a href="{ctx.base}/about.html">About</a>
-      <a href="mailto:kevin@sidehustleintel.org">Contact</a>
+      <a href="mailto:website@sidehustleintel.org">Contact</a>
       <a href="{ctx.base}/privacy/">Privacy</a>
     </nav>
     <p class="h-foot-cats">Browse by type: {cats}</p>

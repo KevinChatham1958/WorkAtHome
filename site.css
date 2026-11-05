@@ -561,3 +561,14 @@ a.creator:hover { color: var(--accent); }
   .home-nav.open { display: flex; }
   .home-nav a { padding: 14px 0; border-bottom: 1px solid var(--line); }
 }
+
+/* Nov 5 2026 (Kevin): the same top menu on every page. The page you're on stays in
+   the menu but is grey and not a link. */
+.home-nav .nav-current { font-size: 17px; font-weight: 600; color: #8FA0AA; padding: 6px 0; border-bottom: 2px solid transparent; cursor: default; white-space: nowrap; }
+@media (max-width: 900px) { .home-nav .nav-current { padding: 14px 0; border-bottom: 1px solid var(--line); } }
+/* Gig Finder: search box and Saved sit in a bar under the menu (pinned on computers). */
+.toolbar { background: #FFFFFF; border-bottom: 1px solid var(--line); }
+.toolbar .wrap { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; justify-content: space-between; padding-top: 12px; padding-bottom: 12px; }
+.toolbar .search { flex: 1 1 360px; max-width: 760px; }
+.toolbar .nav-saved { font-size: 17px; font-weight: 600; color: var(--navy); text-decoration: none; white-space: nowrap; }
+.toolbar .nav-saved:hover { color: var(--accent-dark); }

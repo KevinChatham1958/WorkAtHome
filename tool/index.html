@@ -19,24 +19,36 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261104b">
+<link rel="stylesheet" href="/site.css?v=20261105d">
 </head>
 <body class="results-page">
 
-<header class="site-header results-head">
+<header class="site-header home-header">
   <div class="wrap">
-    <a href="/"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel" width="1782" height="169"></a>
+    <a href="/" class="home-logo"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel home" width="1782" height="169"></a>
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="home-nav">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      Menu
+    </button>
+    <nav class="nav home-nav" id="home-nav" aria-label="Main">
+      <span class="nav-current" aria-current="page">Browse Database</span>
+      <a href="/quiz/" data-cta="header-quiz">Take the Quiz</a>
+      <a href="/subscribe/" data-cta="header-subscribe">Subscribe</a>
+      <a href="/about.html" data-cta="header-about">About</a>
+    </nav>
+  </div>
+</header>
+<script>(function(){var b=document.getElementById('menu-btn'),n=document.getElementById('home-nav');b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(o));n.classList.toggle('open',o);});})();</script>
+<div class="results-head toolbar">
+  <div class="wrap">
     <form class="search" id="search-form" role="search">
       <label for="q" class="sr">Search gigs</label>
       <input id="q" type="search" placeholder="Search a skill, idea or creator" autocomplete="off">
       <button type="submit">Search</button>
     </form>
-    <nav class="nav" aria-label="Main">
-      <a href="#" class="nav-saved" id="saved-link">♥ Saved (<span id="saved-n">0</span>)</a>
-      <a href="/about.html">About</a>
-    </nav>
+    <a href="#" class="nav-saved" id="saved-link">&hearts; Saved (<span id="saved-n">0</span>)</a>
   </div>
-</header>
+</div>
 
 <div class="results-body">
   <p class="wrap quiz-nudge" id="quiz-nudge">New here? <a href="/quiz/" data-cta="tool-nudge">Take the 60-second quiz</a> and we'll tick the right boxes for you.</p>
