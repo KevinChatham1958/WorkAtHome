@@ -37,7 +37,7 @@ import shutil
 SITE = "https://sidehustleintel.org"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_CSS_VERSION = "20261105g"   # site.css (shared with the homepage, Gig Finder and quiz)
-PAGE_CSS_VERSION = "6"
+PAGE_CSS_VERSION = "20261105h"
 # Friendly category names shown to visitors (same as CATS in site.js). The data and the
 # /category/<slug>/ addresses keep the internal names.
 FRIENDLY = {
