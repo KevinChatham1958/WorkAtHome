@@ -36,8 +36,33 @@ import shutil
 
 SITE = "https://sidehustleintel.org"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STYLE_VERSION = "20261003a"
-PAGE_CSS_VERSION = "4"
+SITE_CSS_VERSION = "20261105b"   # site.css (shared with the homepage, Gig Finder and quiz)
+PAGE_CSS_VERSION = "5"
+# Friendly category names shown to visitors (same as CATS in site.js). The data and the
+# /category/<slug>/ addresses keep the internal names.
+FRIENDLY = {
+    "Local & professional services": "Services from home",
+    "Digital & subscription products": "Digital products",
+    "Marketing & content": "Marketing for businesses",
+    "Physical & print products": "Things you make",
+    "Content & personal brand": "YouTube & blogging",
+    "AI & automation": "AI & automation",
+    "E-commerce": "Online stores",
+}
+# Display order for category links (same as the homepage footer).
+DISPLAY_ORDER = ["Local & professional services", "Digital & subscription products",
+                 "Marketing & content", "Physical & print products", "Content & personal brand",
+                 "AI & automation", "E-commerce"]
+
+
+def cat_name(c):
+    return FRIENDLY.get(c, c)
+
+
+def rounded(n):
+    """Rounded-down count for visible text ("1,000+"), so pages don't go stale."""
+    step = 100 if n >= 1000 else 50
+    return f"{(n // step) * step:,}+"
 CATEGORY_ORDER = [
     "AI & automation", "Local & professional services", "E-commerce",
     "Marketing & content", "Physical & print products",
@@ -196,71 +221,98 @@ class Site:
 # ---------- shared page shell ----------
 
 PAGE_CSS = """
-.idea-page { max-width: 820px; margin: 0 auto; padding: 20px 24px 64px; }
-.crumbs { font-size: 0.85rem; color: var(--text-muted); margin: 0 0 18px; }
-.crumbs a { color: var(--link); text-decoration: none; }
+/* Gig, category and creator pages (built by tools/build_pages.py).
+   Since Nov 5, 2026 these use the main site look: site.css (header, menu, footer,
+   colors, fonts) plus the styles below. No more styles.css on these pages. */
+.page { max-width: 860px; margin: 0 auto; padding: 28px 24px 56px; }
+.crumbs { font-size: 15px; color: var(--muted); margin: 0 0 22px; }
+.crumbs a { color: #0F4C68; text-decoration: none; font-weight: 600; }
 .crumbs a:hover { text-decoration: underline; }
-.crumbs span[aria-hidden] { margin: 0 6px; color: var(--text-faint); }
-.idea-head { display: flex; gap: 16px; align-items: center; border-top: 3px solid var(--text-primary); padding-top: 18px; }
-.idea-head h1, .list-head h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(1.35rem, 3.4vw, 1.75rem); line-height: 1.2; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
-.idea-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 6px; }
-.btn { display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-body); font-weight: 600; font-size: 0.88rem; padding: 9px 16px; border-radius: 8px; border: 1.5px solid var(--accent); background: var(--bg-card); color: var(--accent); text-decoration: none; cursor: pointer; }
-.btn:hover { background: var(--accent-bg); }
-.btn-primary { background: var(--accent); color: #fff; }
-.btn-primary:hover { background: var(--accent-dim); }
-.idea-body { margin-top: 14px; }
-.idea-body .card-section { margin-top: 14px; padding-top: 10px; }
-.idea-body .card-text { font-size: 1rem; line-height: 1.6; max-width: 68ch; }
-.truth-box { background: var(--accent-bg); border-left: 4px solid var(--accent); border-top: none !important; padding: 12px 16px !important; margin-top: 18px !important; }
-.more { margin-top: 40px; border-top: 5px double var(--text-primary); padding-top: 14px; }
-.more h2, .list-page h2 { font-family: var(--font-display); font-size: 0.95rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; margin: 0 0 10px; }
-.link-list { list-style: none; margin: 0 0 28px; padding: 0; }
-.link-list li { border-bottom: 1px solid var(--border); padding: 10px 0; }
-.link-list li a { color: var(--text-primary); text-decoration: none; font-weight: 600; }
-.link-list li a:hover { color: var(--link); text-decoration: underline; }
-.link-list li small { display: block; color: var(--text-faint); font-size: 0.8rem; margin-top: 2px; }
-.link-list li p { margin: 4px 0 0; color: var(--text-muted); font-size: 0.92rem; line-height: 1.5; max-width: 68ch; }
-.see-all { color: var(--link); font-weight: 600; text-decoration: none; font-size: 0.9rem; }
+.crumbs span[aria-hidden] { margin: 0 8px; color: var(--field); }
+.gig-head { display: flex; gap: 20px; align-items: center; }
+.gig-av { width: 88px; height: 88px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: #DCE8EE; }
+.gig-head h1, .list-head h1 { font-size: 40px; font-weight: 800; line-height: 1.1; letter-spacing: -0.01em; text-wrap: balance; }
+.gig-dek { margin: 8px 0 0; font-size: 19px; line-height: 1.45; color: var(--body); }
+.gig-meta { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 0; padding: 0; list-style: none; }
+.gig-meta li { font-size: 14px; font-weight: 600; background: var(--tint2); color: var(--navy); border-radius: 999px; padding: 5px 12px; }
+.gig-meta li.cat { background: var(--accent-tint); color: var(--accent-dark); }
+.gig-meta a { color: inherit; text-decoration: none; }
+.gig-meta a:hover { text-decoration: underline; }
+.gig-date { margin: 10px 0 0; font-size: 15px; color: var(--muted); }
+.gig-date a { color: var(--body); font-weight: 600; }
+.share-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 22px 0 0; }
+.pbtn { display: inline-flex; align-items: center; gap: 7px; font: inherit; font-size: 15px; font-weight: 600; padding: 9px 16px; border-radius: 8px; border: 1.5px solid var(--navy); background: #FFFFFF; color: var(--navy); text-decoration: none; cursor: pointer; }
+.pbtn:hover, .pbtn:focus-visible { background: var(--navy); color: #FFFFFF; }
+.copied { font-size: 15px; font-weight: 600; color: #15803D; }
+.source-box { margin: 26px 0 0; background: var(--tint); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; }
+.source-box .lab { font-family: Outfit, system-ui, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
+.source-box p { margin: 0; font-size: 17px; line-height: 1.5; color: var(--ink); }
+.source-box a { color: #1A56DB; font-weight: 600; }
+.source-box .note { margin-top: 4px; font-size: 14px; color: var(--muted); font-style: italic; }
+.gig-sec { margin: 30px 0 0; }
+.gig-sec h2 { font-size: 22px; font-weight: 700; color: var(--navy); margin: 0 0 8px; }
+.gig-sec p { margin: 0; font-size: 18px; line-height: 1.65; color: var(--body); max-width: 68ch; }
+.more { margin-top: 52px; padding-top: 32px; border-top: 2px solid var(--line); }
+.more h2, .list-page h2 { font-size: 24px; font-weight: 700; margin: 0 0 12px; }
+.link-list { list-style: none; margin: 0 0 14px; padding: 0; }
+.link-list li { border-bottom: 1px solid var(--line); padding: 12px 0; }
+.link-list li a { font-family: Outfit, system-ui, sans-serif; font-size: 18px; font-weight: 600; color: var(--navy); text-decoration: none; }
+.link-list li a:hover { color: var(--accent-dark); text-decoration: underline; }
+.link-list li small { display: block; color: var(--muted); font-size: 14px; margin-top: 3px; }
+.link-list li p { margin: 5px 0 0; color: var(--body); font-size: 16px; line-height: 1.5; max-width: 68ch; }
+.see-all { display: inline-block; margin: 0 0 34px; color: var(--accent-dark); font-weight: 700; text-decoration: none; font-size: 16px; }
 .see-all:hover { text-decoration: underline; }
-.browse-all { text-align: center; margin: 12px 0 0; padding: 22px 16px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; }
-.browse-all p { margin: 0 0 12px; color: var(--text-muted); }
-.list-head { display: flex; gap: 16px; align-items: center; border-top: 3px solid var(--text-primary); padding-top: 18px; }
-.list-intro { font-size: 1rem; line-height: 1.6; max-width: 68ch; margin: 14px 0 6px; }
-.list-count { color: var(--text-faint); font-size: 0.85rem; margin: 0 0 22px; }
+.cta-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 18px 0 0; }
+.cta-card { text-decoration: none; color: var(--ink); background: #FFFFFF; border: 2.5px solid var(--accent); border-radius: 14px; padding: 22px; display: flex; flex-direction: column; gap: 8px; text-align: center; }
+.cta-card.quiz { border-color: var(--navy); }
+.cta-card b { font-family: Outfit, system-ui, sans-serif; font-size: 22px; font-weight: 700; color: var(--navy); }
+.cta-card span { font-size: 16px; line-height: 1.45; color: var(--body); flex-grow: 1; }
+.cta-card em { font-style: normal; margin-top: 6px; display: block; background: var(--accent); color: #FFFFFF; font-weight: 700; font-size: 17px; border-radius: 8px; padding: 12px 16px; }
+.cta-card.quiz em { background: var(--navy); }
+.cta-card:hover { box-shadow: 0 10px 26px rgba(15,61,87,0.14); color: var(--ink); }
+.list-head { display: flex; gap: 18px; align-items: center; }
+.list-intro { font-size: 18px; line-height: 1.6; color: var(--body); max-width: 68ch; margin: 16px 0 6px; }
+.list-count { color: var(--muted); font-size: 15px; margin: 0 0 22px; }
 .cat-nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 28px; padding: 0; list-style: none; }
-.cat-nav a { display: inline-block; font-size: 0.82rem; padding: 5px 11px; border: 1px solid var(--border-strong); border-radius: 999px; text-decoration: none; color: var(--text-muted); background: var(--bg-card); }
-.cat-nav a:hover, .cat-nav a[aria-current] { border-color: var(--accent); color: var(--accent); }
-.site-bar { background: #0d0d0d; }
-.site-bar-inner { max-width: 1200px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
-.site-bar img { height: 30px; width: auto; display: block; }
-.site-bar nav { display: flex; gap: 10px; flex-wrap: wrap; }
-.copied { font-size: 0.85rem; color: var(--cat-digital); align-self: center; }
-.footer-cats { margin-top: 10px; font-size: 0.8rem; line-height: 1.9; }
-.footer-cats a { color: var(--text-muted); text-decoration: none; margin: 0 6px; white-space: nowrap; }
-.footer-cats a:hover { text-decoration: underline; }
+.cat-nav a { display: inline-block; font-size: 15px; font-weight: 600; padding: 6px 14px; border: 1.5px solid var(--line); border-radius: 999px; text-decoration: none; color: var(--navy); background: #FFFFFF; }
+.cat-nav a:hover, .cat-nav a[aria-current] { border-color: var(--accent); color: var(--accent-dark); background: var(--accent-tint); }
 .fc-stats { display: flex; flex-wrap: wrap; gap: 12px; margin: 18px 0 8px; }
-.fc-stats div { flex: 1 1 140px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
-.fc-stats strong { display: block; font-family: var(--font-display); font-size: 2rem; line-height: 1; color: var(--text-primary); }
-.fc-stats span { display: block; margin-top: 4px; color: var(--text-muted); font-size: 0.88rem; }
+.fc-stats div { flex: 1 1 140px; background: #FFFFFF; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+.fc-stats strong { display: block; font-family: Outfit, system-ui, sans-serif; font-size: 34px; font-weight: 800; line-height: 1; color: var(--navy); }
+.fc-stats span { display: block; margin-top: 4px; color: var(--muted); font-size: 15px; }
 .fc-cta { margin: 18px 0 30px; }
-.btn-big { font-size: 1rem; padding: 12px 22px; }
+.fc-cta .btn { font-size: 18px; padding: 14px 24px; }
 .fc-cats { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 0 0 28px; padding: 0; }
-.fc-cats li { font-size: 0.88rem; padding: 5px 12px; border: 1px solid var(--border-strong); border-radius: 999px; background: var(--bg-card); }
-.fc-cats a { color: var(--text-primary); text-decoration: none; }
-.fc-cats a:hover { color: var(--link); text-decoration: underline; }
-.fc-cats span { color: var(--text-muted); font-weight: 600; margin-left: 4px; }
-.fc-about { background: var(--bg-card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 4px 0 8px; }
+.fc-cats li { font-size: 15px; padding: 6px 13px; border: 1.5px solid var(--line); border-radius: 999px; background: #FFFFFF; }
+.fc-cats a { color: var(--navy); font-weight: 600; text-decoration: none; }
+.fc-cats a:hover { text-decoration: underline; }
+.fc-cats span { color: var(--muted); font-weight: 600; margin-left: 4px; }
+.fc-about { background: var(--tint); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; margin: 6px 0 10px; }
 .fc-about h2 { margin: 0 0 6px !important; }
-.fc-facts { margin: 0; color: var(--text-muted); font-size: 0.92rem; }
-.fc-facts a { color: var(--link); font-weight: 600; text-decoration: none; }
-.fc-facts a:hover { text-decoration: underline; }
+.fc-facts { margin: 0; color: var(--body); font-size: 16px; }
+.fc-facts a { color: #1A56DB; font-weight: 600; }
 .fc-quote { margin: 12px 0 0; padding: 2px 0 2px 14px; border-left: 3px solid var(--accent); }
-.fc-quote p { margin: 0; font-size: 1rem; line-height: 1.55; font-style: italic; color: var(--text-primary); }
-.fc-quote cite { display: block; margin-top: 4px; font-size: 0.82rem; font-style: normal; color: var(--text-faint); }
-.fc-asof { margin: 10px 0 0; font-size: 0.78rem; color: var(--text-faint); }
-.fc-note { color: var(--text-muted); font-size: 0.9rem; margin: -4px 0 6px; }
-.featured-creator h2 { margin-top: 8px; }
-@media (max-width: 560px) { .idea-page { padding: 16px 16px 48px; } .site-bar-inner { padding: 12px 16px; } }
+.fc-quote p { margin: 0; font-size: 17px; line-height: 1.55; font-style: italic; color: var(--ink); }
+.fc-quote cite { display: block; margin-top: 4px; font-size: 14px; font-style: normal; color: var(--muted); }
+.fc-asof { margin: 10px 0 0; font-size: 13px; color: var(--muted); }
+.fc-note { color: var(--muted); font-size: 15px; margin: -4px 0 6px; }
+.page .signup-wrap { margin: 48px 0 0; }
+.page .signup { background: var(--accent-tint); border: 2px solid #F6D3BF; border-radius: 14px; padding: 22px 24px; margin: 0; }
+.page .signup-kicker { margin: 0 0 4px; }
+.page .signup .signup-head { font-size: 24px; font-weight: 700; }
+.page .signup p { font-size: 16px; }
+.page .signup-row input { border: 2px solid #8FA5B2; border-radius: 10px; padding: 12px 14px; }
+.page .signup-row button { padding: 12px 20px; font-weight: 700; }
+@media (max-width: 760px) {
+  .page { padding: 20px 16px 44px; }
+  .gig-head { align-items: flex-start; gap: 14px; }
+  .gig-av { width: 64px; height: 64px; }
+  .gig-head h1, .list-head h1 { font-size: 30px; }
+  .gig-dek { font-size: 17px; }
+  .gig-sec p { font-size: 17px; }
+  .cta-pair { grid-template-columns: 1fr; }
+  .page .signup-row button { width: 100%; }
+}
 """
 
 COPY_SCRIPT = """<script>
@@ -311,51 +363,61 @@ class Ctx:
         return '/' + rel
 
 
-# Weekly email signup shown above the footer of every built page (idea, category and
-# creator pages), added Oct 31, 2026 so search visitors landing on a gig page can sign up.
-# Posts straight to Kit form 10117206 (Production Process §17); inline styles because these
-# pages use the older styles.css.
-# Quiz invitation (Nov 3, 2026): search visitors reading one gig are the quiz's best audience.
-SIGNUP_HTML = """<section style="max-width:804px;margin:0 auto 48px;padding:0 16px">
-  <p style="margin:0 0 18px;font-family:Inter,system-ui,sans-serif;font-size:18px;color:#0F3D57"><strong>Want more gigs that fit you?</strong> <a href="/quiz/?from=gig-page" style="color:#9A3412;font-weight:600">Take the 60-second quiz &rarr;</a></p>
-  <form action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="gig-page" class="shi-signup"
-        style="background:#FFF4ED;border:1.5px solid #F6D3BF;border-radius:12px;padding:18px 20px;font-family:Inter,system-ui,sans-serif">
-    <p style="margin:0 0 4px;font-size:19px;font-weight:600;color:#0F3D57">&#128236; New gigs in your inbox every week</p>
-    <p style="margin:0 0 12px;font-size:15px;color:#3C5260">One short email a week: the Gig of the Week, with our honest take, plus 7 more of the newest work-from-home gigs. Unsubscribe anytime. <a href="/privacy/" style="color:#3C5260">Privacy</a></p>
-    <div style="display:flex;gap:8px;flex-wrap:wrap">
-      <label for="shi-email" style="position:absolute;left:-9999px">Your email address</label>
-      <input id="shi-email" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required
-             style="flex:1 1 220px;min-width:0;font:inherit;font-size:16px;padding:10px 12px;border:1.5px solid #E3EAEE;border-radius:8px;background:#fff;color:#0F3D57">
-      <button type="submit" style="font:inherit;font-size:16px;font-weight:600;background:#C2410C;color:#fff;border:0;border-radius:8px;padding:10px 18px;cursor:pointer">Send me the weekly gigs</button>
+# Bottom of every built page (idea, category and creator pages): the two paths (Gig Finder,
+# quiz) and the weekly email signup (Kit form 10117206, Production Process §17). Matches the
+# homepage since Nov 5, 2026.
+def bottom_html(ctx):
+    return f"""<section class="signup-wrap">
+    <div class="cta-pair">
+      <a class="cta-card" href="{ctx.base}/tool/" data-cta="page-browse"><b>Browse the Database</b><span>Search by keyword, filter by gig type, or search by Presenter.</span><em>Explore the Gig Database</em></a>
+      <a class="cta-card quiz" href="{ctx.base}/quiz/?from=gig-page" data-cta="page-quiz"><b>Take the 60-Second Quiz</b><span>Checkmark your preferences and we&rsquo;ll find your gigs for you.</span><em>Find My Gigs</em></a>
     </div>
-  </form>
-</section>
-<script>document.querySelectorAll('form.shi-signup').forEach(f=>f.addEventListener('submit',()=>{try{if(typeof gtag==='function')gtag('event','email_signup',{form:f.dataset.src,transport_type:'beacon'})}catch(e){}}));</script>"""
+  </section>
+  <section class="signup-wrap">
+    <form class="signup shi-signup" action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="gig-page">
+      <p class="signup-kicker">Free Newsletter</p>
+      <h2 class="signup-head">New gigs in your inbox every week</h2>
+      <p>One short email a week: the Gig of the Week, with our honest take, plus 7 more of the newest work-from-home gigs. Unsubscribe anytime. <a href="{ctx.base}/privacy/">Privacy</a></p>
+      <div class="signup-row"><label class="sr" for="shi-email">Your email address</label><input id="shi-email" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required><button type="submit">Subscribe Free</button></div>
+    </form>
+  </section>"""
+
+
+PAGE_SCRIPT = """<script>
+document.querySelectorAll('form.shi-signup').forEach(f => f.addEventListener('submit', () => { try { if (typeof gtag === 'function') gtag('event', 'email_signup', { form: f.dataset.src, transport_type: 'beacon' }); } catch (e) {} }));
+document.addEventListener('click', e => { const a = e.target.closest('[data-cta]'); if (a) { try { gtag('event', 'cta_click', { cta: a.dataset.cta }); } catch (err) {} } });
+(function () { const b = document.getElementById('menu-btn'), n = document.getElementById('home-nav'); if (!b) return;
+  b.addEventListener('click', () => { const o = b.getAttribute('aria-expanded') !== 'true'; b.setAttribute('aria-expanded', String(o)); n.classList.toggle('open', o); }); })();
+</script>"""
 
 
 def footer_html(ctx):
-    cats = ' '.join(f'<a href="{ctx.cat(c)}">{esc(c)}</a>' for c in CATEGORY_ORDER)
-    return f"""<footer class="site-footer">
-  <div class="footer-inner">
-    <span>Side Hustle Intel — every idea here is sourced from a real creator video, linked in the Source section of each entry.</span>
-    <div class="footer-cats">Browse by category: {cats}</div>
+    cats = ' · '.join(f'<a href="{ctx.cat(c)}">{esc(cat_name(c))}</a>' for c in DISPLAY_ORDER)
+    return f"""<footer class="site-footer h-footer">
+  <div class="wrap">
+    <nav class="h-foot-links" aria-label="Footer">
+      <a href="{ctx.base}/tool/">Browse Database</a>
+      <a href="{ctx.base}/quiz/">Take the Quiz</a>
+      <a href="{ctx.base}/subscribe/">Subscribe</a>
+      <a href="{ctx.base}/about.html">About</a>
+      <a href="mailto:kevin@sidehustleintel.org">Contact</a>
+      <a href="{ctx.base}/privacy/">Privacy</a>
+    </nav>
+    <p class="h-foot-cats">Browse by type: {cats}</p>
+    <p>© 2026 SideHustleIntel.org · Each gig is a summary of an idea from a creator&rsquo;s YouTube video, linked in its Source box. Creator names are shown for reference only and imply no endorsement. No income is promised or guaranteed.</p>
   </div>
 </footer>"""
 
 
 def shell(ctx, site, *, title, desc, canonical, og_type, schema, main, extra_script=''):
     if ctx.preview:
-        with open(os.path.join(ROOT, 'styles.css')) as f:
+        with open(os.path.join(ROOT, 'site.css')) as f:
             site_css = f.read()
-        css = (f"<style>{site_css}\n{PAGE_CSS}\nbody{{background:var(--bg)}}\n"
-               ".preview-note{background:#fff7d6;border-bottom:1px solid #e8d48a;color:#5c4a00;"
-               "font-size:0.85rem;padding:8px 16px;text-align:center}</style>")
-        head_start = ''
+        css = f"<style>{site_css}\n{PAGE_CSS}</style>"
+        head_start = '<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="UTF-8">\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
         analytics = ''
-        note = ('<div class="preview-note">Preview of one page. Links to other new pages will work '
-                'once the pages are published on sidehustleintel.org.</div>')
     else:
-        css = (f'<link rel="stylesheet" href="/styles.css?v={STYLE_VERSION}">\n'
+        css = (f'<link rel="stylesheet" href="/site.css?v={SITE_CSS_VERSION}">\n'
                f'<link rel="stylesheet" href="/idea-page.css?v={PAGE_CSS_VERSION}">')
         head_start = ('<!DOCTYPE html>\n<html lang="en">\n<head>\n'
                       '<meta charset="UTF-8">\n'
@@ -363,8 +425,8 @@ def shell(ctx, site, *, title, desc, canonical, og_type, schema, main, extra_scr
         analytics = ('<script async src="https://www.googletagmanager.com/gtag/js?id=G-DP5LDLD5VR"></script>\n'
                      "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
                      "gtag('js',new Date());gtag('config','G-DP5LDLD5VR');</script>\n")
-        note = ''
-    logo = ctx.img('assets/logo-horizontal-white.png', 'image/png')
+    logo = ctx.img('assets/logo-horizontal.png', 'image/png')
+    b = ctx.base
     doc = f"""{head_start}{analytics}<title>{esc(title)} — Side Hustle Intel</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{canonical}">
@@ -373,42 +435,53 @@ def shell(ctx, site, *, title, desc, canonical, og_type, schema, main, extra_scr
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{canonical}">
-<meta property="og:image" content="{SITE}/assets/logo.png">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{SITE}/assets/og-share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 {css}
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
-{'' if ctx.preview else '</head>' + chr(10) + '<body>'}
-{note}
-<header class="site-bar">
-  <div class="site-bar-inner">
-    <a href="{ctx.home()}"><img src="{logo}" alt="SideHustleIntel.org"></a>
-    <nav>
-      <a class="about-link" href="{ctx.home()}tool/">Search all {site.total()} ideas</a>
-      <a class="about-link" href="{ctx.base}/about.html">About Us</a>
+</head>
+<body class="gig-site">
+
+<header class="site-header home-header">
+  <div class="wrap">
+    <a href="{ctx.home()}" class="home-logo"><img class="logo" src="{logo}" alt="Side Hustle Intel home" width="1782" height="169"></a>
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="home-nav">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      Menu
+    </button>
+    <nav class="nav home-nav" id="home-nav" aria-label="Main">
+      <a href="{b}/tool/" data-cta="page-header">Browse Database</a>
+      <a href="{b}/quiz/" data-cta="page-header-quiz">Take the Quiz</a>
+      <a href="{b}/subscribe/" data-cta="page-header-subscribe">Subscribe</a>
+      <a href="{b}/about.html">About</a>
     </nav>
   </div>
 </header>
 
+<div class="page">
 {main}
-
-{SIGNUP_HTML}
+{bottom_html(ctx)}
+</div>
 
 {footer_html(ctx)}
+{PAGE_SCRIPT}
 {extra_script}
-{'' if ctx.preview else '</body>' + chr(10) + '</html>'}
+</body>
+</html>
 """
     return doc
 
 
-def browse_all_box(ctx, site, text='Search, filter and save from every idea in the database.'):
-    return f"""<div class="browse-all">
-      <p>{esc(text)}</p>
-      <a class="btn btn-primary" href="{ctx.home()}">Browse all {site.total()} work-at-home ideas</a>
-    </div>"""
+def browse_all_box(ctx, site, text=''):
+    """Replaced on Nov 5, 2026 by the two-path cards at the bottom of every page."""
+    return ''
 
 
 def crumbs(ctx, *parts):
@@ -438,45 +511,44 @@ def idea_page(idea, site, ctx):
     others = [x for x in site.by_creator(idea['found']) if x['id'] != idea['id']]
     rel = site.related(idea)
     av = avatar_file(idea['found'])
-    avatar = (f'<img class="card-avatar" src="{ctx.img(av, "image/jpeg")}" alt="{esc(idea["found"])}">'
-              if av else '')
+    avatar = (f'<img class="gig-av" src="{ctx.img(av, "image/jpeg")}" alt="{esc(idea["found"])}">'
+              if av else f'<img class="gig-av" src="{ctx.img("assets/avatars/silhouette.svg", "image/svg+xml")}" alt="">')
 
     schema = [
         {
             "@context": "https://schema.org", "@type": "Article",
             "headline": t, "description": desc, "url": url,
             "datePublished": idea.get('published'),
-            "articleSection": idea['category'],
+            "articleSection": cat_name(idea['category']),
             "keywords": ', '.join(idea.get('tags', [])),
             "isBasedOn": {"@type": "VideoObject", "url": idea['url'],
                           "creator": {"@type": "Person", "name": idea['found']}},
             "publisher": {"@type": "Organization", "name": "Side Hustle Intel", "url": SITE + "/"},
         },
         breadcrumb_schema([("Home", SITE + "/"),
-                           (idea['category'], f"{SITE}/category/{slugify(idea['category'])}/"),
+                           (cat_name(idea['category']), f"{SITE}/category/{slugify(idea['category'])}/"),
                            (t, url)]),
     ]
 
     rel_items = ''.join(
         f'<li><a href="{ctx.idea(x)}">{esc(short_title(x))}</a>'
-        f'<small>{esc(x["found"])} &middot; {esc(x["cost"])}</small></li>' for x in rel)
+        f'<small>{esc(x["found"])} &middot; {esc(x["cost"].split(" (")[0])}</small></li>' for x in rel)
     rel_block = ''
     if rel:
-        rel_block = f"""<h2>More in {esc(idea['category'])}</h2>
+        rel_block = f"""<h2>More in {esc(cat_name(idea['category']))}</h2>
     <ul class="link-list">{rel_items}</ul>
-    <p><a class="see-all" href="{ctx.cat(idea['category'])}">All {esc(idea['category'])} ideas &rarr;</a></p>
-    <br>"""
+    <a class="see-all" href="{ctx.cat(idea['category'])}">All {esc(cat_name(idea['category']))} gigs &rarr;</a>"""
     creator_block = ''
     if others:
         items = ''.join(
             f'<li><a href="{ctx.idea(x)}">{esc(short_title(x))}</a>'
-            f'<small>{esc(x["category"])}</small></li>' for x in others[:5])
+            f'<small>{esc(cat_name(x["category"]))}</small></li>' for x in others[:5])
         creator_block = f"""<h2>More from {esc(idea['found'])}</h2>
     <ul class="link-list">{items}</ul>"""
     has_cp = idea['found'] in site.creator_set
-    creator_link = (f'<p><a class="see-all" href="{ctx.creator(idea["found"])}">'
-                    f'All ideas from {esc(idea["found"])} &rarr;</a></p><br>') if has_cp else ''
-    creator_name = (f'<a href="{ctx.creator(idea["found"])}" style="color:inherit">{esc(idea["found"])}</a>'
+    creator_link = (f'<a class="see-all" href="{ctx.creator(idea["found"])}">'
+                    f'All gigs from {esc(idea["found"])} &rarr;</a>') if has_cp else ''
+    creator_name = (f'<a href="{ctx.creator(idea["found"])}">{esc(idea["found"])}</a>'
                     if has_cp else esc(idea['found']))
 
     if idea.get('video_title'):
@@ -484,59 +556,48 @@ def idea_page(idea, site, ctx):
     else:
         source_label = 'Watch the video' if 'youtu' in (idea.get('url') or '') else 'View the source'
     n_in_video = site.video_count(idea)
-    source_note = (f'\n        <p class="source-note">One of {n_in_video} ideas covered in this video</p>'
+    source_note = (f'<p class="note">One of {n_in_video} gigs covered in this video</p>'
                    if n_in_video > 1 else '')
 
     fb = 'https://www.facebook.com/sharer/sharer.php?u=' + url
+    dek = (f'<p class="gig-dek">{esc(sentence(idea["name"]))}</p>' if len(idea['name'].split()) > 6 else '')
     main = f"""<main class="idea-page">
-  {crumbs(ctx, (idea['category'], ctx.cat(idea['category'])))}
+  {crumbs(ctx, (cat_name(idea['category']), ctx.cat(idea['category'])))}
 
   <article>
-    <div class="idea-head">
+    <div class="gig-head">
       {avatar}
-      <div class="card-title-text">
+      <div>
         <h1>{esc(short)}</h1>
-        {f'<p class="idea-dek" style="margin:4px 0 8px;font-size:1.05rem;line-height:1.45;color:#3C5260">{esc(sentence(idea["name"]))}</p>' if len(idea['name'].split()) > 6 else ''}
-        <p class="card-meta">{esc(idea['category'])} &middot; {esc(idea['cost'])}</p>
-        <p class="card-date">{f'Originally published {esc(date_txt)} &mdash; ' if date_txt else ''}{creator_name}</p>
+        {dek}
       </div>
     </div>
+    <ul class="gig-meta">
+      <li class="cat"><a href="{ctx.cat(idea['category'])}">{esc(cat_name(idea['category']))}</a></li>
+      <li>{esc(idea['cost'].split(' (')[0])}</li>
+    </ul>
+    <p class="gig-date">{f'Video published {esc(date_txt)} by ' if date_txt else 'From '}{creator_name}</p>
 
-    <div class="idea-actions">
-      <button type="button" class="btn" id="copy-link-btn" data-url="{url}">Copy link to this idea</button>
-      <a class="btn" href="{esc(fb)}" target="_blank" rel="noopener">Share on Facebook</a>
+    <div class="share-actions">
+      <button type="button" class="pbtn" id="copy-link-btn" data-url="{url}">Copy link to this gig</button>
+      <a class="pbtn" href="{esc(fb)}" target="_blank" rel="noopener">Share on Facebook</a>
       <span class="copied" id="copied-msg" hidden>Link copied</span>
     </div>
 
-    <div class="idea-body">
-      <div class="card-section">
-        <div class="card-section-label">Source</div>
-        <p class="card-text">{esc(idea['found'])} &middot; <a class="source-link" href="{esc(idea['url'])}" target="_blank" rel="noopener">{source_label}&nbsp;&#8599;</a></p>{source_note}
-      </div>
-      <div class="card-section">
-        <div class="card-section-label">What It Is</div>
-        <p class="card-text">{esc(idea['what'])}</p>
-      </div>
-      <div class="card-section">
-        <div class="card-section-label">The Pitch</div>
-        <p class="card-text">{esc(idea['pitch'])}</p>
-      </div>
-      <div class="card-section">
-        <div class="card-section-label">Who It's Best For</div>
-        <p class="card-text">{esc(idea['best'])}</p>
-      </div>
-      <div class="card-section">
-        <div class="card-section-label">The Truth (as we see it)</div>
-        <p class="card-text">{esc(idea['truth'])}</p>
-      </div>
+    <div class="source-box">
+      <p class="lab">Source video</p>
+      <p>{esc(idea['found'])} &middot; <a href="{esc(idea['url'])}" target="_blank" rel="noopener" data-cta="page-source">{source_label}&nbsp;&#8599;</a></p>{source_note}
     </div>
+    <section class="gig-sec"><h2>What It Is</h2><p>{esc(idea['what'])}</p></section>
+    <section class="gig-sec"><h2>The Pitch</h2><p>{esc(idea['pitch'])}</p></section>
+    <section class="gig-sec"><h2>Who It&rsquo;s Best For</h2><p>{esc(idea['best'])}</p></section>
+    <section class="gig-sec"><h2>The Truth <span style="font-weight:600">(as we see it)</span></h2><p>{esc(idea['truth'])}</p></section>
   </article>
 
   <section class="more">
     {rel_block}
     {creator_block}
     {creator_link}
-    {browse_all_box(ctx, site)}
   </section>
 </main>"""
     return shell(ctx, site, title=t, desc=desc, canonical=url, og_type='article',
@@ -546,9 +607,9 @@ def idea_page(idea, site, ctx):
 # ---------- list items used on category and creator pages ----------
 
 def list_item(x, ctx, show):
-    meta = x['found'] if show == 'creator' else x['category']
+    meta = x['found'] if show == 'creator' else cat_name(x['category'])
     return (f'<li><a href="{ctx.idea(x)}">{esc(short_title(x))}</a>'
-            f'<small>{esc(meta)} &middot; {esc(x["cost"])}</small>'
+            f'<small>{esc(meta)} &middot; {esc(x["cost"].split(" (")[0])}</small>'
             f'<p>{esc(trim(x["what"], 180))}</p></li>')
 
 
@@ -573,22 +634,22 @@ def category_page(cat, site, ctx):
     total_in_cat = len(site.in_category(cat, released_only=False))
     url = f"{SITE}/category/{slugify(cat)}/"
     intro = site.intros.get(cat, '')
-    title = f"{cat} work-at-home ideas"
+    title = f"{cat_name(cat)}: work-at-home gigs"
     desc = trim(intro, 155)
     current = ' aria-current="page"'
     nav = ''.join(
-        f'<li><a href="{ctx.cat(c)}"{current if c == cat else ""}>{esc(c)}</a></li>'
-        for c in CATEGORY_ORDER)
+        f'<li><a href="{ctx.cat(c)}"{current if c == cat else ""}>{esc(cat_name(c))}</a></li>'
+        for c in DISPLAY_ORDER)
     if len(items) < total_in_cat:
-        count = (f"{len(items)} of the {total_in_cat} ideas in this category have their own page so far. "
-                 f"The full database has all of them.")
+        count = (f"{len(items)} of the {total_in_cat} gigs of this type have their own page so far. "
+                 f"The Gig Finder has all of them.")
     else:
-        count = f"{len(items)} ideas, newest first."
+        count = f"{len(items)} gigs, newest first."
     schema = [item_list_schema(items, title, url),
-              breadcrumb_schema([("Home", SITE + "/"), (cat, url)])]
+              breadcrumb_schema([("Home", SITE + "/"), (cat_name(cat), url)])]
     main = f"""<main class="idea-page list-page">
-  {crumbs(ctx, (cat, None))}
-  <div class="list-head"><h1>{esc(cat)}</h1></div>
+  {crumbs(ctx, (cat_name(cat), None))}
+  <div class="list-head"><h1>{esc(cat_name(cat))}</h1></div>
   <p class="list-intro">{esc(intro)}</p>
   <p class="list-count">{esc(count)}</p>
   <ul class="cat-nav" aria-label="Categories">{nav}</ul>
@@ -618,9 +679,9 @@ def featured_creator_page(name, site, ctx):
     for x in items:
         cats[x['category']] = cats.get(x['category'], 0) + 1
     cat_list = sorted(cats.items(), key=lambda kv: (-kv[1], kv[0]))
-    idea_w = 'idea' if n == 1 else 'ideas'
+    idea_w = 'gig' if n == 1 else 'gigs'
     vid_w = 'video' if nv == 1 else 'videos'
-    title = f"Work-at-home ideas from {name}"
+    title = f"Work-at-home gigs from {name}"
     prof = site.profiles.get(name, {})
     short = prof.get('short') or name
     cv = prof.get('channel_videos')
@@ -632,10 +693,10 @@ def featured_creator_page(name, site, ctx):
         has = f"{name} has one video in Side Hustle Intel"
     else:
         has = f"{name} has {nv} of {his} {vid_w} in Side Hustle Intel"
-    top = [c if c.startswith("AI") else c[0].lower() + c[1:] for c, _ in cat_list[:2]]
+    top = [cat_name(c) if c.startswith("AI") else cat_name(c)[0].lower() + cat_name(c)[1:] for c, _ in cat_list[:2]]
     focus = (", mostly in " + " and ".join(top)) if top else ''
     bio = (f"{has}. {'It covers' if nv == 1 else 'Together they cover'} {n} different work-from-home {idea_w}{focus}. "
-           f"We pull out each idea on its own and write it up in plain language: what the gig is, how {short} "
+           f"We pull out each gig on its own and write it up in plain language: what the gig is, how {short} "
            f"pitches it, who it suits, and our honest take. Every entry links back to the video it came from, "
            f"so you can always hear it from {short} directly.")
     intro = bio
@@ -654,7 +715,7 @@ def featured_creator_page(name, site, ctx):
                  f'<p class="fc-facts">{" &middot; ".join(facts)}{link}</p>{quote}'
                  f'<p class="fc-asof">Channel figures as of {esc(fmt_date(prof["checked"]))}.</p></div>' if prof.get('checked') else '</div>')
     av = avatar_file(name)
-    avatar = f'<img class="card-avatar" src="{ctx.img(av, "image/jpeg")}" alt="{esc(name)}">' if av else ''
+    avatar = f'<img class="gig-av" src="{ctx.img(av, "image/jpeg")}" alt="{esc(name)}">' if av else ''
     tool_all = ctx.tool(name)
 
     def idea_href(x):
@@ -663,13 +724,13 @@ def featured_creator_page(name, site, ctx):
     def vid_li(v):
         label = esc(v['title']) if v['title'] else ('Watch the video' if 'youtu' in v['url'] else 'View the source')
         meta = ' &middot; '.join(p for p in [esc(fmt_date(v['date'])) if v['date'] else '',
-                                             f"{v['n']} {'idea' if v['n'] == 1 else 'ideas'}"] if p)
+                                             f"{v['n']} {'gig' if v['n'] == 1 else 'gigs'}"] if p)
         return (f'<li><a href="{esc(v["url"])}" target="_blank" rel="noopener">{label}&nbsp;&#8599;</a>'
                 f'<small>{meta}</small></li>')
 
     def idea_li(x):
         return (f'<li><a href="{idea_href(x)}">{esc(title_case(x["name"]))}</a>'
-                f'<small>{esc(x["category"])} &middot; {esc(x["cost"])}</small>'
+                f'<small>{esc(cat_name(x["category"]))} &middot; {esc(x["cost"].split(" (")[0])}</small>'
                 f'<p>{esc(trim(x["what"], 180))}</p></li>')
 
     stats = (f'<div class="fc-stats">'
@@ -677,7 +738,7 @@ def featured_creator_page(name, site, ctx):
              f'<div><strong>{nv}</strong><span>{vid_w} covered</span></div>'
              f'<div><strong>{len(cats)}</strong><span>{"category" if len(cats) == 1 else "categories"}</span></div>'
              f'</div>')
-    cat_html = ''.join(f'<li><a href="{ctx.cat(c)}">{esc(c)}</a> <span>{k}</span></li>' for c, k in cat_list)
+    cat_html = ''.join(f'<li><a href="{ctx.cat(c)}">{esc(cat_name(c))}</a> <span>{k}</span></li>' for c, k in cat_list)
     schema = [{
         "@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": url,
         "mainEntity": {"@type": "ItemList", "numberOfItems": n, "itemListElement": [
@@ -691,11 +752,11 @@ def featured_creator_page(name, site, ctx):
   <p class="list-intro">{esc(intro)}</p>
   {stats}
   {about}
-  <p class="fc-cta"><a class="btn btn-primary btn-big" href="{tool_all}">See all {n} in the searchable tool &rarr;</a></p>
-  <h2>Where these ideas fall</h2>
+  <p class="fc-cta"><a class="btn" href="{tool_all}">See all {n} in the Gig Finder &rarr;</a></p>
+  <h2>Types of gigs</h2>
   <ul class="fc-cats">{cat_html}</ul>
   <h2>Videos featured ({nv})</h2>
-  <p class="fc-note">Every idea on Side Hustle Intel links viewers to the video it came from.</p>
+  <p class="fc-note">Every gig on Side Hustle Intel links viewers to the video it came from.</p>
   <ul class="link-list fc-videos">{''.join(vid_li(v) for v in vids)}</ul>
   <h2>All {n} {idea_w}</h2>
   <ul class="link-list">{''.join(idea_li(x) for x in items)}</ul>
@@ -711,12 +772,12 @@ def creator_page(name, site, ctx):
     items = by_date_desc(site.by_creator(name))
     url = f"{SITE}/creator/{slugify(name)}/"
     n = len(items)
-    noun = 'idea' if n == 1 else 'ideas'
-    intro = (f"{n} work-at-home {noun} from {name}'s videos. Each entry sums up the idea as the "
+    noun = 'gig' if n == 1 else 'gigs'
+    intro = (f"{n} work-at-home {noun} from {name}'s videos. Each entry sums up the gig as the "
              f"video presents it and adds our own assessment in The Truth, with a link to the original video.")
-    title = f"Work-at-home ideas from {name}"
+    title = f"Work-at-home gigs from {name}"
     av = avatar_file(name)
-    avatar = f'<img class="card-avatar" src="{ctx.img(av, "image/jpeg")}" alt="{esc(name)}">' if av else ''
+    avatar = f'<img class="gig-av" src="{ctx.img(av, "image/jpeg")}" alt="{esc(name)}">' if av else ''
     schema = [item_list_schema(items, title, url),
               breadcrumb_schema([("Home", SITE + "/"), (name, url)])]
     videos = sorted({x['url'] for x in items})
