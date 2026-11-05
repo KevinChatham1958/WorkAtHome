@@ -545,3 +545,10 @@ a.creator:hover { color: var(--accent); }
   .home .signup-band .signup p { font-size: 17px; }
   .home .signup-band .signup-row button { width: 100%; }
 }
+
+/* Nov 5 2026 (Kevin): "Free Newsletter" label; clear box around the email field. */
+.signup-kicker { margin: 0 0 6px; font-family: Outfit, system-ui, sans-serif; font-size: 16px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.home .signup-band .signup p.signup-kicker { font-size: 18px; margin: 0 0 6px; }
+.home .signup-band .signup-row input { border: 2px solid #8FA5B2; border-radius: 10px; background: #FFFFFF; }
+.home .signup-band .signup-row input:focus { border-color: var(--navy); outline: 3px solid #F59E0B; outline-offset: 1px; }
+.home .signup-band .signup p.signup-kicker { color: var(--accent); }
