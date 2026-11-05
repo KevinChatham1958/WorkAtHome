@@ -1,5 +1,12 @@
 ---
+# cPanel copies the repo into the live site folder. Copying never removes files, so:
+#  - the generated folders (ideas/, category/, creator/) are cleared first and copied fresh,
+#    so pages of deleted gigs and creators disappear from the live site (Nov 5, 2026);
+#  - files deleted from the repo on purpose are removed by name below.
+# ${DEPLOYPATH:?} stops the command if DEPLOYPATH is ever empty.
 deployment:
   tasks:
     - export DEPLOYPATH=/home/solajveu/sidehustleintel.org/
+    - /bin/rm -rf "${DEPLOYPATH:?}ideas" "${DEPLOYPATH:?}category" "${DEPLOYPATH:?}creator"
+    - /bin/rm -f "${DEPLOYPATH:?}full-preview-mockup.html" "${DEPLOYPATH:?}full-preview-mockup-FINAL.html" "${DEPLOYPATH:?}full-preview-mockup-FINAL_1.html" "${DEPLOYPATH:?}side-hustle-intel-proof-v2.html" "${DEPLOYPATH:?}side-hustle-intel-proof-v3.html" "${DEPLOYPATH:?}side-hustle-intel-proof-v4.html" "${DEPLOYPATH:?}controls-row-fixed.png" "${DEPLOYPATH:?}header-fixed-wide.png"
     - /bin/cp -R * $DEPLOYPATH
