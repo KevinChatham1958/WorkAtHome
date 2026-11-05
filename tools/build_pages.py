@@ -463,8 +463,8 @@ def shell(ctx, site, *, title, desc, canonical, og_type, schema, main, extra_scr
         analytics = ('<script async src="https://www.googletagmanager.com/gtag/js?id=G-XP9MDRLCHP"></script>\n'
                      "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
                      "gtag('js',new Date());gtag('config','G-XP9MDRLCHP');</script>\n"
-                     # Microsoft Clarity: visit recordings and heatmaps (project 41xbsy6dsf, Nov 5, 2026)
-                     '<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","41xbsy6dsf");</script>\n')
+                     # Microsoft Clarity: visit recordings and heatmaps (project z928e0q6vl, Nov 5, 2026)
+                     '<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","z928e0q6vl");</script>\n')
     logo = ctx.img('assets/logo-horizontal.png', 'image/png')
     b = ctx.base
     doc = f"""{head_start}{analytics}<title>{esc(title)} — Side Hustle Intel</title>
