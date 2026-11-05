@@ -105,7 +105,7 @@
   </div>
 </footer>
 
-<script src="/site.js?v=20261030a"></script>
+<script src="/site.js?v=20261105h"></script>
 <script>
 // Work-at-Home Gig Quiz (/quiz/), all on one page (Kevin, Nov 3 2026: no counts or results
 // until the visitor submits). Each answer just sets one of the gig browser's existing filters
@@ -122,7 +122,7 @@ const QUESTIONS = [
     hint: 'Pick any that appeal to you. Not sure? Leave them all blank.',
     opts: CATS.map(c => ({ label: c.name, sub: c.sub, v: c.slug })) },
   { key: 'cost', q: 'How much could you spend to get started?',
-    opts: [{ label: 'Very little, about $200 or less', v: 'lowcost' }, { label: 'I can spend more if the gig is worth it', v: '' }] },
+    opts: [{ label: 'Very little, under $100', v: 'lowcost' }, { label: 'I can spend more if the gig is worth it', v: '' }] },
   { key: 'camera', q: 'How do you feel about being on camera?',
     opts: [{ label: "I'd rather stay off camera", v: 'nocamera' }, { label: 'Being on camera is fine with me', v: '' }] },
   { key: 'sales', q: 'Would you be OK selling to strangers, like cold calls or cold messages?',

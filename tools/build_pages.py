@@ -118,6 +118,12 @@ def fmt_date(d):
     return dt.strftime('%b ') + str(dt.day) + dt.strftime(', %Y')
 
 
+def cost_short(x):
+    """Card/headline cost: the 4-level band (tools/cost_levels.py), e.g. "Under $100 to start"."""
+    lv = x.get('cost_level')
+    return f"{lv} to start" if lv else x['cost'].split(' (')[0]
+
+
 def esc(s):
     return html.escape(s or '', quote=True)
 
@@ -261,6 +267,8 @@ PAGE_CSS = """
 .gig-meta a:hover { text-decoration: underline; }
 .gig-date { margin: 10px 0 0; font-size: 15px; color: var(--muted); }
 .gig-date a { color: var(--body); font-weight: 600; }
+.gig-cost { margin: 6px 0 0; font-size: 15px; color: var(--muted); }
+.gig-cost strong { color: var(--body); font-weight: 600; }
 .share-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 22px 0 0; }
 .pbtn { display: inline-flex; align-items: center; gap: 7px; font: inherit; font-size: 15px; font-weight: 600; padding: 9px 16px; border-radius: 8px; border: 1.5px solid var(--navy); background: #FFFFFF; color: var(--navy); text-decoration: none; cursor: pointer; }
 .pbtn:hover, .pbtn:focus-visible { background: var(--navy); color: #FFFFFF; }
@@ -556,7 +564,7 @@ def idea_page(idea, site, ctx):
 
     rel_items = ''.join(
         f'<li><a href="{ctx.idea(x)}">{esc(short_title(x))}</a>'
-        f'<small>{esc(x["found"])} &middot; {esc(x["cost"].split(" (")[0])}</small></li>' for x in rel)
+        f'<small>{esc(x["found"])} &middot; {esc(cost_short(x))}</small></li>' for x in rel)
     rel_block = ''
     if rel:
         rel_block = f"""<h2>More in {esc(cat_name(idea['category']))}</h2>
@@ -599,10 +607,11 @@ def idea_page(idea, site, ctx):
     </div>
     <ul class="gig-meta">
       <li class="cat"><a href="{ctx.cat(idea['category'])}">{esc(cat_name(idea['category']))}</a></li>
-      <li>{esc(idea['cost'].split(' (')[0])}</li>
+      <li class="cost">{esc(cost_short(idea))}</li>
       <li class="jump"><a href="#the-truth" data-cta="page-jump-truth">Jump to The Truth &darr;</a></li>
     </ul>
     <p class="gig-date">{f'Video published {esc(date_txt)} by ' if date_txt else 'From '}{creator_name}</p>
+    <p class="gig-cost"><strong>Startup cost:</strong> {esc(idea['cost'])}</p>
 
     <div class="share-actions">
       <button type="button" class="pbtn" id="copy-link-btn" data-url="{url}">Copy link to this gig</button>
@@ -636,7 +645,7 @@ def idea_page(idea, site, ctx):
 def list_item(x, ctx, show):
     meta = x['found'] if show == 'creator' else cat_name(x['category'])
     return (f'<li><a href="{ctx.idea(x)}">{esc(short_title(x))}</a>'
-            f'<small>{esc(meta)} &middot; {esc(x["cost"].split(" (")[0])}</small>'
+            f'<small>{esc(meta)} &middot; {esc(cost_short(x))}</small>'
             f'<p>{esc(trim(x["what"], 180))}</p></li>')
 
 
@@ -759,7 +768,7 @@ def featured_creator_page(name, site, ctx):
 
     def idea_li(x):
         return (f'<li><a href="{idea_href(x)}">{esc(title_case(x["name"]))}</a>'
-                f'<small>{esc(cat_name(x["category"]))} &middot; {esc(x["cost"].split(" (")[0])}</small>'
+                f'<small>{esc(cat_name(x["category"]))} &middot; {esc(cost_short(x))}</small>'
                 f'<p>{esc(trim(x["what"], 180))}</p></li>')
 
     stats = (f'<div class="fc-stats">'
@@ -888,11 +897,17 @@ def main():
         import sys
         sys.path.insert(0, os.path.join(ROOT, 'tools'))
         from creator_names import clean_ideas
+        from cost_levels import set_levels
         renamed = clean_ideas(ideas)
-        if renamed:
+        # Every gig gets a cost_level (tools/cost_levels.py); the low-cost filter follows it.
+        leveled = set_levels(ideas)
+        if renamed or leveled:
             with open(os.path.join(ROOT, 'ideas.json'), 'w', encoding='utf-8') as f:
                 f.write(json.dumps(ideas, indent=2, ensure_ascii=True) + '\n')
+        if renamed:
             print('Creator names cleaned:', '; '.join(f'{k} -> {v}' for k, v in renamed.items()))
+        if leveled:
+            print('Cost levels set/updated:', leveled)
     release = json.load(open(os.path.join(ROOT, 'pages-release.json')))
     site = Site(ideas, release)
     ctx = Ctx(preview=True)

@@ -12,7 +12,7 @@ const SITUATIONS = [
   { id: 'parent', label: 'Stay-at-home mom' },
   { id: 'health', label: 'Health limits' },
   { id: 'outside', label: 'Outside the US' },
-  { id: 'lowcost', label: 'Low startup cost' },
+  { id: 'lowcost', label: 'Under $100 to start' },
   { id: 'nosales', label: 'No sales or cold calling' },
   { id: 'nocamera', label: 'Stay off camera' },
   { id: 'noinventory', label: 'No inventory or shipping' },
@@ -110,7 +110,7 @@ function results() {
   let list = baseFiltered(false);
   const q = st.savedOnly ? '' : st.q.trim().toLowerCase();
   st.loose = false; st.budget = BUDGET_Q.test(q);
-  if (st.budget) return list.filter(i => BUDGET_COST.test(String(i.cost || '').trim()));
+  if (st.budget) return list.filter(i => i.cost_level ? i.cost_level === 'Under $100' : BUDGET_COST.test(String(i.cost || '').trim()));
   const words = queryWords(q);
   if (words.length) {
     const phrase = words.join(' ');
@@ -186,7 +186,7 @@ function gigHtml(i) {
       <div class="gig-body" data-act="toggle" role="button" tabindex="0" aria-expanded="${isOpen}">
         <h3>${esc(shortTitle(i))}</h3>
         <p class="one">${esc(subLine(i))}</p>
-        <p class="meta">${esc(friendly)} · ${esc(shortCost(i.cost))} · ${esc(i.found)}${date ? ' · ' + esc(date) : ''}${views ? ` · <span title="YouTube views of the source video${VIEWS_DATE ? ', as of ' + esc(fmtDate(VIEWS_DATE)) : ''}">${esc(views)}</span>` : ''}</p>
+        <p class="meta">${esc(friendly)} · ${esc(costLabel(i))} · ${esc(i.found)}${date ? ' · ' + esc(date) : ''}${views ? ` · <span title="YouTube views of the source video${VIEWS_DATE ? ', as of ' + esc(fmtDate(VIEWS_DATE)) : ''}">${esc(views)}</span>` : ''}</p>
         ${labels.length ? `<div class="labels">${labels.map(l => `<span class="label">${l}</span>`).join('')}</div>` : ''}
       </div>
       <div class="gig-actions">
@@ -240,7 +240,7 @@ function render() {
   const gigsTxt = `<strong>${n.toLocaleString()} gig${n === 1 ? '' : 's'}</strong>`;
   const narrowed = st.cats.size || st.chips.size;
   if (st.savedOnly) $('count').innerHTML = `${gigsTxt} saved · <button type="button" class="count-clear" data-clear="saved">Back to all gigs</button>`;
-  else if (st.q.trim() && st.budget) $('count').innerHTML = `Showing ${gigsTxt} that cost little or nothing to start${narrowed ? ', with your filters' : ''} · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
+  else if (st.q.trim() && st.budget) $('count').innerHTML = `Showing ${gigsTxt} that cost under $100 to start${narrowed ? ', with your filters' : ''} · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
   else if (st.q.trim() && st.loose) $('count').innerHTML = `No gig mentions every word of “${esc(st.q.trim())}”. Showing ${gigsTxt} that match some of them · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
   else if (st.q.trim()) $('count').innerHTML = `Showing ${gigsTxt} for “${esc(st.q.trim())}”${narrowed ? ' with your filters' : ''} (of ${ALL.length.toLocaleString()}) · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
   else if (narrowed) $('count').innerHTML = `Showing ${gigsTxt} that ${n === 1 ? 'matches' : 'match'} your choices (of ${ALL.length.toLocaleString()}) · <button type="button" class="count-clear" data-clear="all">Clear all</button>`;

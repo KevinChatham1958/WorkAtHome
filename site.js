@@ -28,6 +28,8 @@ function esc(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;
 function slugify(name) { return (name || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60); }
 function initials(name) { return (name || '?').split(/[^A-Za-z0-9]+/).filter(Boolean).map(w => w[0]).join('').slice(0, 2).toUpperCase(); }
 function shortCost(c) { return String(c || '').split(' (')[0]; }
+// Card cost: the 4-level band set by tools/cost_levels.py ("Under $100 to start"), else the old label.
+function costLabel(i) { return i && i.cost_level ? i.cost_level + ' to start' : shortCost(i && i.cost); }
 function shortCreator(f) { return String(f || '').split(' on ')[0]; }
 function toTitleCase(str) {
   const minor = new Set(['a','an','the','and','but','or','nor','for','so','yet','at','by','in','of','on','to','up','as','is','it','vs']);

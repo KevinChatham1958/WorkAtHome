@@ -151,7 +151,7 @@
   </div>
 </footer>
 
-<script src="/site.js?v=20261030a"></script>
+<script src="/site.js?v=20261105h"></script>
 <script>
 // Featured gig on the homepage: the most-watched gig from videos published in the
 // 30 days before the newest one (fallback: the newest gig). Shows What It Is and The Truth.
@@ -176,7 +176,7 @@ Promise.all([loadIdeas(), fetch('/views.json').then(r => r.ok ? r.json() : {}).c
     <div class="feat-head">${avatarHtml(who, 'feat-av')}<div>
       <p class="feat-label">Featured gig</p>
       <h3>${esc(shortTitle(pick))}</h3>
-      <p class="feat-meta"><span>${esc(cat)}</span><span>${esc(shortCost(pick.cost))}</span><span>From a YouTube video by ${esc(who)}</span></p>
+      <p class="feat-meta"><span>${esc(cat)}</span><span>${esc(costLabel(pick))}</span><span>From a YouTube video by ${esc(who)}</span></p>
     </div></div>
     <div class="feat-sec"><h4>What It Is</h4><p>${esc(pick.what)}</p></div>
     <div class="feat-sec feat-truth"><h4>The Truth <span>(as we see it)</span></h4><p>${esc(pick.truth)}</p></div>
