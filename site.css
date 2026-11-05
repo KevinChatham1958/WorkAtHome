@@ -529,3 +529,19 @@ a.creator:hover { color: var(--accent); }
 /* Nov 4 2026 (Kevin): quiz card renamed "Take the 60-Second Shortcut" (longer), so card titles fit one line. */
 .home .h-choice-t { font-size: 31px; white-space: nowrap; }
 @media (max-width: 760px) { .home .h-choice-t { font-size: 5.6vw; } }
+
+/* Nov 4 2026 (Kevin): bigger weekly-email signup on the homepage. */
+.home .signup-band { background: var(--accent-tint); padding: 64px 0; }
+.home .signup-band .signup { max-width: 820px; background: #FFFFFF; border: 2px solid #F6D3BF; border-radius: 16px; padding: 36px 40px; text-align: center; box-shadow: 0 8px 24px rgba(194,65,12,0.08); }
+.home .signup-band .signup-head { font-size: 34px; font-weight: 700; margin-bottom: 10px; }
+.home .signup-band .signup p { font-size: 19px; line-height: 1.5; margin-bottom: 22px; }
+.home .signup-band .signup-row { max-width: 640px; margin: 0 auto; gap: 10px; }
+.home .signup-band .signup-row input { font-size: 18px; padding: 16px 18px; border-width: 2px; }
+.home .signup-band .signup-row button { font-size: 19px; font-weight: 700; padding: 16px 28px; }
+@media (max-width: 760px) {
+  .home .signup-band { padding: 44px 0; }
+  .home .signup-band .signup { padding: 26px 20px; }
+  .home .signup-band .signup-head { font-size: 26px; }
+  .home .signup-band .signup p { font-size: 17px; }
+  .home .signup-band .signup-row button { width: 100%; }
+}
