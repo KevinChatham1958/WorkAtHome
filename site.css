@@ -582,3 +582,10 @@ a.creator:hover { color: var(--accent); }
   .home-nav a { padding: 14px 0; border-bottom: 1px solid var(--line); }
   .home-nav .nav-current { padding: 14px 0; border-bottom: 1px solid var(--line); }
 }
+
+/* Nov 5 2026 (Kevin): on the Gig Finder the top menu stays locked with the search bar
+   (both inside .results-head, which is pinned on computers), and the search bar is slimmer. */
+.results-head .home-header { border-bottom: 1px solid var(--line); }
+.results-head .toolbar { border-bottom: 0; }
+.results-head .toolbar .wrap { padding-top: 6px; padding-bottom: 6px; }
+.results-head .toolbar .search input { padding-top: 8px; padding-bottom: 8px; }
