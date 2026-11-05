@@ -180,7 +180,7 @@ function gigHtml(i) {
   const date = fmtDate(i.published);
   const views = fmtViews(viewsOf(i));
   const friendly = (CAT_BY_NAME[i.category] || {}).name || i.category;
-  return `<article class="gig" data-id="${esc(i.id)}">
+  return `<article class="gig${isOpen ? ' is-open' : ''}" data-id="${esc(i.id)}">
     <div class="gig-top">
       ${avatarHtml(i.found, 'av')}
       <div class="gig-body" data-act="toggle" role="button" tabindex="0" aria-expanded="${isOpen}">

@@ -35,7 +35,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261105k">
+<link rel="stylesheet" href="/site.css?v=20261105m">
 </head>
 <body class="home">
 
@@ -89,7 +89,7 @@
        Picked automatically: the most-watched gig from videos of the last 30 days. -->
   <section class="wrap feat-wrap" id="featured" hidden aria-labelledby="feat-h">
     <h2 id="feat-h" class="h-title">See what you get</h2>
-    <p class="h-sub">A real gig from the database, as every gig is written up.</p>
+    <p class="h-sub">Here's what one entry looks like. Every gig is written up the same way.</p>
     <article class="feat" id="feat-card"></article>
   </section>
 
@@ -176,7 +176,7 @@ Promise.all([loadIdeas(), fetch('/views.json').then(r => r.ok ? r.json() : {}).c
   const who = shortCreator(pick.found);
   document.getElementById('feat-card').innerHTML = `
     <div class="feat-head">${avatarHtml(who, 'feat-av')}<div>
-      <p class="feat-label">Featured gig</p>
+      <p class="feat-label">Example from the database</p>
       <h3>${esc(shortTitle(pick))}</h3>
       <p class="feat-meta"><span>${esc(cat)}</span><span>${esc(costLabel(pick))}</span><span>From a YouTube video by ${esc(who)}</span></p>
     </div></div>

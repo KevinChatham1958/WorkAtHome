@@ -36,8 +36,8 @@ import shutil
 
 SITE = "https://sidehustleintel.org"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE_CSS_VERSION = "20261105k"   # site.css (shared with the homepage, Gig Finder and quiz)
-PAGE_CSS_VERSION = "20261105k"
+SITE_CSS_VERSION = "20261105m"   # site.css (shared with the homepage, Gig Finder and quiz)
+PAGE_CSS_VERSION = "20261105m"
 # Friendly category names shown to visitors (same as CATS in site.js). The data and the
 # /category/<slug>/ addresses keep the internal names.
 FRIENDLY = {
@@ -255,7 +255,7 @@ PAGE_CSS = """
 .site-strip a { color: #1A56DB; font-weight: 600; white-space: nowrap; }
 .gig-meta li.jump { background: #FFFFFF; border: 1.5px solid var(--navy); padding: 4px 11px; }
 .gig-meta li.jump a { color: var(--navy); }
-#the-truth { scroll-margin-top: 90px; background: var(--accent-tint); border: 1px solid #F3C3A5; border-left: 5px solid var(--accent); border-radius: 12px; padding: 18px 20px 16px; }
+#the-truth { scroll-margin-top: 90px; background: #FCE9DC; border: 1px solid #F3C3A5; border-left: 5px solid var(--accent); border-radius: 12px; padding: 18px 20px 16px; }
 #the-truth h2 { color: var(--accent-dark); }
 .truth-note { margin: 10px 0 0; font-size: 14px; font-style: italic; color: var(--muted); }
 .after-truth { margin: 26px 0 0; font-size: 17px; color: var(--body); background: var(--accent-tint); border-radius: 10px; padding: 12px 16px; }

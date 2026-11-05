@@ -629,6 +629,27 @@ a.creator:hover { color: var(--accent); }
 /* Nov 5: assessment note under The Truth (Gig Finder details, homepage featured gig) */
 .truth-note { margin: 10px 0 0 !important; font-size: 14px !important; font-style: italic; color: var(--muted); }
 
-/* Nov 5: The Truth in a tinted box everywhere (Kevin chose Option A) */
-.truth-box, .feat-truth { background: var(--accent-tint); border: 1px solid #F3C3A5; border-left: 5px solid var(--accent); border-radius: 12px; padding: 16px 18px 14px; }
+/* Nov 5: The Truth in a tinted box everywhere (Kevin chose Option A; peach deepened from #FFF4ED so it shows on all screens) */
+.truth-box, .feat-truth { background: #FCE9DC; border: 1px solid #F3C3A5; border-left: 5px solid var(--accent); border-radius: 12px; padding: 16px 18px 14px; }
 .truth-box h4, .feat-truth h4 { color: var(--accent-dark) !important; }
+
+/* Nov 5: an opened gig in the Gig Finder gets a navy frame and blue-grey shading so it's clear where it starts and ends */
+.gig.is-open { background: #EAF2F7; border: 2px solid var(--navy); box-shadow: 0 10px 28px rgba(15,61,87,0.18); }
+.gig.is-open .details { border-top-color: #BFD2DE; }
+#list > .gig.is-open + .gig { margin-top: 10px; }
+/* Nov 5: on phones only the search bar stays pinned; the heading/sort block scrolls away */
+@media (max-width: 900px) { .sticky-top { position: static; margin-top: 0; } }
+
+/* Nov 5: homepage sample gig framed as an example (smaller card on a tinted panel) */
+#featured { background: #EAF2F6; border-radius: 28px; padding: 56px 24px 60px !important; margin-top: 64px; }
+#featured .feat { max-width: 680px; padding: 22px 24px; box-shadow: 0 10px 30px rgba(15,61,87,0.12); }
+#featured .feat-av { width: 56px; height: 56px; }
+#featured .feat h3 { font-size: 24px; }
+#featured .feat-meta { font-size: 13px; }
+#featured .feat-sec { margin-top: 16px; }
+#featured .feat-sec h4 { font-size: 17px; }
+#featured .feat-sec p { font-size: 15.5px; line-height: 1.55; }
+#featured .feat-sec:not(.feat-truth) p { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+#featured .feat-links .btn { font-size: 16px; padding: 11px 20px; }
+#featured .truth-note { font-size: 13px !important; }
+@media (max-width: 760px) { #featured { border-radius: 0; margin-left: -16px; margin-right: -16px; padding: 40px 16px 44px !important; } #featured .feat { padding: 18px 16px; } #featured .feat h3 { font-size: 20px; } #featured .feat-sec p { font-size: 15px; } }
