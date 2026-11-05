@@ -155,6 +155,15 @@ def video_key(url):
 
 class Site:
     def __init__(self, ideas, release):
+        # Same creator written two ways ("Sabrina Ramonov" / "Sabrina Ramonov 🍄",
+        # "Tiger Insight" / "Tiger Insight™") would make two pages at one address and stop
+        # the build, leaving new gigs without pages (Nov 5, 2026). Use the most common
+        # spelling for every gig of that creator (pages only; ideas.json is not changed).
+        spellings = {}
+        for x in ideas:
+            spellings.setdefault(slugify(x['found']), []).append(x['found'])
+        best = {s: max(set(v), key=lambda n: (v.count(n), -len(n))) for s, v in spellings.items()}
+        ideas = [dict(x, found=best[slugify(x['found'])]) for x in ideas]
         self.all = ideas
         if release.get('release_all'):
             self.pages = list(ideas)
