@@ -43,5 +43,27 @@
     "country": "United States",
     "quote": "I help entrepreneurs and business owners grow their revenue online through AI-powered systems.",
     "checked": "2026-10-07"
+  },
+  "Meg Heckman": {
+    "short": "Meg",
+    "possessive": "her",
+    "channel_url": "https://www.youtube.com/channel/UC0d-JbubL4XZmw4hdcGeXRw",
+    "subscribers": "91.5K",
+    "channel_videos": 466,
+    "joined_year": 2011,
+    "country": "United States",
+    "quote": "I started this channel to make real ecommerce education accessible: no paywalls, no fluff, no holding back.",
+    "checked": "2026-11-06"
+  },
+  "JASCOgoods": {
+    "short": "Jason",
+    "possessive": "his",
+    "channel_url": "https://www.youtube.com/channel/UCh39IWu1XUSScEOuXCJ3J1A",
+    "subscribers": "112K",
+    "channel_videos": 170,
+    "joined_year": 2020,
+    "country": "United States",
+    "quote": "I share simple woodworking builds, real-world mistakes, and how I fix them along the way.",
+    "checked": "2026-11-06"
   }
 }

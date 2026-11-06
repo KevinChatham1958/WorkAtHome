@@ -249,6 +249,44 @@
     "cost_level": "Under $100"
   },
   {
+    "id": "long-game-pod-tshirt-brand-mh",
+    "name": "A one-niche print-on-demand t-shirt brand run on a fixed loss budget and a six-to-twelve-month runway",
+    "title": "Long-Game Print-on-Demand Brand",
+    "category": "E-commerce",
+    "tags": [
+      "print on demand",
+      "shopify",
+      "facebook ads",
+      "t-shirt brand",
+      "long-term brand"
+    ],
+    "cost": "Moderate (she suggests setting aside $2,000 to $10,000 you can afford to lose for the store, samples and ads)",
+    "found": "Meg Heckman",
+    "what": "You build a t-shirt brand on Shopify around one niche and treat the first six to twelve months as a learning period. Before spending anything you write down a timeline in months and a sum you are prepared to lose outright (hers was $10,000; she says $2,000 to $5,000 is common). You then stay in the same niche, put most of your effort into the designs, and run small Facebook ad tests (many of her students start at $12.50 a day, Thursday to Sunday), changing one thing at a time based on what the numbers show.",
+    "pitch": "The creator says she has coached thousands of beginners and that the ones still running profitable stores all shared five habits: patience, a pre-set investment, sticking with the basics, a focus on designs, and following the data. She notes the average new seller takes about four months to get a first sale, as she did, and argues a strong design will sell even with a weak ad.",
+    "best": "Patient people who can set aside money they can afford to lose and want a work-at-home e-commerce brand rather than quick cash.",
+    "truth": "This is one of the more honest pitches in the space: she says plainly that print-on-demand is not free to start, that a first sale can take months, and that you may lose the money you put in. The video is mostly about attitude rather than step-by-step instructions, and her results are her own and unverified. She repeatedly pushes her free 'Million Dollar Brand Blueprint', an email signup that funnels viewers toward her and her husband's paid WeScale course and community; she also refers to 'following the course' her members take.",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits",
+      "noai"
+    ],
+    "url": "https://www.youtube.com/watch?v=xcDaJuVgfOI",
+    "video_title": "If You\u2019re About To Start Print On Demand, You Need To Watch This Video",
+    "published": "2026-10-27",
+    "cost_level": "Over $2,000"
+  },
+  {
     "id": "rigid-gift-box-manufacturing",
     "name": "Rigid gift box manufacturing for small businesses",
     "title": "Rigid Gift Box Manufacturing",
@@ -2457,6 +2495,44 @@
     "cost_level": "Under $100"
   },
   {
+    "id": "tusk-tenon-knockdown-bookshelf-jg",
+    "name": "Building a no-hardware, take-apart leaning bookshelf held together by wedged tusk tenon joints",
+    "title": "Knock-Down Tusk Tenon Bookshelf",
+    "category": "Physical & print products",
+    "tags": [
+      "woodworking",
+      "bookshelf",
+      "furniture",
+      "joinery",
+      "flat-pack",
+      "Etsy"
+    ],
+    "cost": "Low to moderate startup cost (jigsaw, Forstner bits, chisels and mallet, table saw for trimming, stain and polyurethane; 1x12 pine boards)",
+    "what": "You build a four-shelf leaning bookshelf from 1x12 pine in a home workshop and sell it as a piece that needs no screws, nails or glue. The two 40-inch sides are cut at 5 degrees, each shelf gets 3-by-3-inch corners cut away to leave a tab (tenon), and the tabs pass through slots in the sides and lock in place with wedge-shaped wooden keys. The creator drills out the slots and key holes with a 3/4-inch Forstner bit, squares them with a chisel, fills knots with black CA glue, stains it dark walnut and uses a water-based polyurethane that cures in about three days so the parts don't stick together. He shares a free cut sheet in the video.",
+    "pitch": "The creator calls this a best-selling piece of furniture and thinks the visible wedged joints are what sell it. Because it comes apart with no hardware, it can be shipped flat and the buyer can put it together without tools.",
+    "best": "An intermediate woodworker who is comfortable with chisels and angled cuts, or someone with a CNC machine who could cut the parts in batches.",
+    "truth": "The creator's own verdict is that this is not worth it for him: it took him many hours, he made several costly mistakes with the 5-degree angles and blown-out holes, and he says he would make little or no money building it by hand. He thinks it only makes sense if you have a CNC machine to batch the parts. He calls it a best seller but shows no listings, prices or sales numbers, and construction-grade 1x12s vary in width and warp, so expect waste and refitting. Shipping a 40-inch shelf, even flat, will be costly.",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "nosales",
+      "nocamera",
+      "novisits",
+      "noai"
+    ],
+    "found": "JASCOgoods",
+    "url": "https://www.youtube.com/watch?v=qXq4faF7PQA",
+    "video_title": "Why I'm Rethinking What I Build to Sell",
+    "published": "2026-10-17",
+    "cost_level": "$100\u2013$500"
+  },
+  {
     "id": "local-seo-microsite-rank-rent-ai-blueprint",
     "name": "Local SEO microsite / rank-and-rent network using an AI coding blueprint",
     "title": "Local SEO Rank-and-Rent Sites",
@@ -3269,6 +3345,43 @@
       "noai"
     ],
     "cost_level": "Under $100"
+  },
+  {
+    "id": "three-column-100-design-pod-launch-mh",
+    "name": "Launching a print-on-demand tee store with 100 designs planned on a three-column, niche-section spreadsheet",
+    "title": "Three-Column T-Shirt Design Plan",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "t-shirt design",
+      "design planning",
+      "niche research",
+      "shopify"
+    ],
+    "cost": "Low startup cost (a spreadsheet, optional AI design tool, store fees; ads are an ongoing cost)",
+    "found": "Meg Heckman",
+    "what": "Before launching a t-shirt store, you plan 100 designs on one spreadsheet. The columns split them evenly into text-only, text with graphic, and graphic-only (33 each, plus one). The rows are sub-topics of your niche found by browsing existing shops and reading the Reddit threads and Facebook groups where your customers talk; for her history brand these were humor, battlefield and serious tribute designs, split by era. Each box becomes a simple brief ('11 funny text designs for history people') that you fill with ChatGPT or your own design work. After launch the sheet becomes a scoreboard: columns and rows that get clicks in ads get more designs, and dead ones are cut.",
+    "pitch": "The creator says that in six years and over 5,000 designs across four brands, only one to three of every 100 designs catches customers' attention, so launching broad is how you find them. She says her history brand started at an even split and data moved it to about 80% text-with-graphic, 15% text and 5% graphic, with dark sarcastic humor winning. She says she planned each launch in an hour or two, and that she was a pediatric nurse, not a designer, when she started.",
+    "best": "Non-designers starting a work-at-home t-shirt store who want an organized way to plan a full first catalog.",
+    "truth": "The spreadsheet method is a sensible, practical way to plan a varied catalog and test it, and it does not depend on any particular tool. Planning 100 designs is quick; actually making them takes far longer, and you still need paid ads to learn which ones work. Her design and sales figures are her own and unverified. She repeatedly pushes her free 'Million Dollar Brand Blueprint', an email signup that funnels viewers toward her and her husband's paid WeScale course and community, and the spreadsheet itself is offered only through that signup.",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits"
+    ],
+    "url": "https://www.youtube.com/watch?v=nn6T4QvE2Fg",
+    "video_title": "How To Easily Create 100 T-Shirt Designs (My Exact Process)",
+    "published": "2026-10-20",
+    "cost_level": "$100\u2013$500"
   },
   {
     "id": "website-landlord-rank-and-rent-kyle",
@@ -4126,6 +4239,43 @@
       "novisits"
     ],
     "cost_level": "Under $100"
+  },
+  {
+    "id": "toilet-paper-shelf-wipes-cubby-jg",
+    "name": "Making a wall-mounted toilet paper holder shelf with a hidden cubby for flushable wipes",
+    "title": "Toilet Paper Shelf with Wipes Cubby",
+    "category": "Physical & print products",
+    "tags": [
+      "woodworking",
+      "bathroom decor",
+      "toilet paper holder",
+      "small project",
+      "Etsy"
+    ],
+    "cost": "Low to moderate startup cost (miter saw, pocket hole jig, drill, Forstner and brad-point bits, sander; scrap pine, a dowel, glue and stain)",
+    "what": "You build a small wall-mounted bathroom shelf from pine scraps: a top shelf for a phone or other items, a side box that hides a pack of flushable wet wipes, and a dowel arm with a small upturned tip that holds a toilet paper roll. The creator joins the parts with pocket holes, glue and exposed 3/8-inch dowels sanded flush, adds a 1x2 strip on the back for screwing into the wall, and finishes it with stain and a rub-on polyurethane. He shares a free cut list.",
+    "pitch": "The creator says it is his own improved version of a best-selling toilet paper shelf. His selling point is the wipes cubby: he says more and more people use flushable wipes and have nowhere to put them, so a holder that stores them should sell better than the plain version.",
+    "best": "A beginner to intermediate woodworker with basic power tools who wants a cheap, quick bathroom product to sell online or at local markets.",
+    "truth": "The demand claim is the creator's guess; the video shows no listings, prices or sales for this design or the original best seller. Materials cost very little, but you need a drill, saws and a sander, and you pack and ship every order. Small bathroom shelves are a crowded category, so photos and finish quality will matter. The video is mostly a build tutorial with a lot of joking, so you will have to work out pricing yourself.",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "nosales",
+      "nocamera",
+      "novisits",
+      "noai"
+    ],
+    "found": "JASCOgoods",
+    "url": "https://www.youtube.com/watch?v=3I_ABmZNa50",
+    "video_title": "Small Woodworking Furniture that Everyone Needs!!!",
+    "published": "2026-08-28",
+    "cost_level": "$100\u2013$500"
   },
   {
     "id": "website-landlord-flat-fee-free-trial-lead-rental",
@@ -5403,6 +5553,44 @@
       "novisits"
     ],
     "cost_level": "Under $100"
+  },
+  {
+    "id": "broad-niche-pod-store-six-traits-mh",
+    "name": "A broad single-niche print-on-demand shop built around six traits she found in successful stores, from varied designs to flat-rate shipping",
+    "title": "Broad-Niche Print-on-Demand Shop",
+    "category": "E-commerce",
+    "tags": [
+      "print on demand",
+      "shopify",
+      "store conversion",
+      "niche selection",
+      "flat rate shipping"
+    ],
+    "cost": "Low startup cost (Shopify plan, domain, samples; Facebook ads are the main ongoing cost)",
+    "found": "Meg Heckman",
+    "what": "You pick one broad niche with roughly 20 to 50 million people (her example is golf, at about 29 to 48 million players) and keep it broad rather than narrowing to something like 'golf and beer'. You research what sells on Etsy, Amazon, Reddit and Facebook groups instead of relying on your own taste, and stock designs that look genuinely different from each other (funny, clean typography, a Bigfoot carrying a golf bag). On the store side you keep one clear offer that matches the ad, design for phones first, use one black, red or green button color throughout, and replace your print provider's per-item shipping with a flat rate of about $4.87 and free shipping over $75.",
+    "pitch": "The creator says she has reviewed hundreds of beginner stores and the profitable ones, often run by people with jobs and families, all had these six things in common. She says varied designs bring cheaper clicks (her target for a new brand is 50 to 75 cents a link click), that over 80% of her traffic comes from phones, and that one of her brands gets over half its sales from eight designs out of thousands.",
+    "best": "People with a day job who want a part-time work-at-home store and a checklist for spotting what is holding theirs back.",
+    "truth": "The store advice here is concrete and widely accepted: matching the landing page to the ad, designing for phones and avoiding shipping surprises at checkout are standard good practice in online retail. Her claim that black, red or green buttons convert better is presented as research but is not backed up. The figures are her own and unverified, and the plan still depends on paying for Facebook ads. She repeatedly pushes her free 'Million Dollar Brand Blueprint', an email signup that funnels viewers toward her and her husband's paid WeScale course and community.",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits",
+      "noai"
+    ],
+    "url": "https://www.youtube.com/watch?v=L04LNBTNUCE",
+    "video_title": "I Reviewed 100+ Print On Demand Stores, Here\u2019s What Actually Works",
+    "published": "2026-10-13",
+    "cost_level": "$100\u2013$500"
   },
   {
     "id": "ai-local-marketing-agency-start-local",
@@ -7065,6 +7253,43 @@
       "novisits"
     ],
     "cost_level": "Under $100"
+  },
+  {
+    "id": "flip-up-arm-toilet-paper-holder-jg",
+    "name": "Making a wall-mounted toilet paper holder with a top shelf and hinged wooden arms that flip up to change the roll",
+    "title": "Flip-Up Toilet Paper Holder Shelf",
+    "category": "Physical & print products",
+    "tags": [
+      "woodworking",
+      "bathroom decor",
+      "toilet paper holder",
+      "Etsy",
+      "small project"
+    ],
+    "cost": "Low to moderate startup cost (jigsaw or bandsaw, table saw or circular saw, drill, router with a keyhole bit, sander; 1x5 or 1x6 pine and finish nails)",
+    "what": "You cut a 12-inch piece of 1x5 or 1x6 pine with a rectangular opening, then fit two small square wooden arms into the corners on finish-nail pins so they act as hinges. The arms swing up to slip a toilet paper roll on and drop back into place, and the top of the piece doubles as a small shelf for a phone or lotion. The creator rounds the arms so they pivot, glues on a front strip to hold the pins in, routes keyhole slots on the back so it hangs flush, and finishes it with stain and paste wax so the arms move freely.",
+    "pitch": "The creator says the idea came from solving his own problem, a tiny bathroom with nowhere to set things down, and that it also happens to be a best seller. He presents it as an easy product that most woodworkers could make from a single board.",
+    "best": "A hobby woodworker with basic saws and a drill who wants a simple, low-material product with a fun moving part to show in listing videos.",
+    "truth": "The creator calls it a best seller but shows no listings, prices or sales numbers in this video. His own build went badly: the arms sagged until he switched to thicker brass nails, he ruined and remade pieces, and his quick 15-minute prototype came out better than the careful version. The pivot can loosen in soft pine over time, so expect some returns or complaints unless you add a support ledge as he suggests. You pack and ship each order yourself.",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "nosales",
+      "nocamera",
+      "novisits",
+      "noai"
+    ],
+    "found": "JASCOgoods",
+    "url": "https://www.youtube.com/watch?v=3BmIARbgHJI",
+    "video_title": "I Found a Best Seller That Solved My Own Problem",
+    "published": "2026-08-20",
+    "cost_level": "$100\u2013$500"
   },
   {
     "id": "ai-agent-local-service-matchmaking-agency",
@@ -9149,6 +9374,44 @@
     "cost_level": "$500\u2013$2,000"
   },
   {
+    "id": "seven-step-shopify-tee-launch-mh",
+    "name": "A seven-step playbook for launching a Shopify t-shirt brand and chasing 100 sales in the first month with weekend catalog ads",
+    "title": "Seven-Step Shopify Tee Launch",
+    "category": "E-commerce",
+    "tags": [
+      "print on demand",
+      "shopify",
+      "facebook catalog ads",
+      "printify",
+      "gildan 64000"
+    ],
+    "cost": "Low startup cost (Shopify, AI subscription; about $50 per weekend in ad testing)",
+    "found": "Meg Heckman",
+    "what": "You follow seven steps in order: pick a niche you belong to; write a one-paragraph brand 'why' with Claude and spend one to two hours researching bestseller patterns; make 100 designs (5 to 10 minutes each with ChatGPT); build a fast, mobile-friendly Shopify store with a flat shipping rate and free shipping over $75; upload all designs to the Gildan 64000 shirt in six to eight colors at $29.99, about 20 uploads a day; then test ten flat-lay mockups at $5 to $6 per ad set before running a catalog ad of the whole store at $12.50 a day, Thursday to Sunday. After that, every week you add 25 new designs by Wednesday, run the weekend ads, and spend 30 minutes on Monday reviewing which designs got cheap clicks.",
+    "pitch": "The creator says her first store made only 52 sales in four months, her next hit 100 sales in nine days, and her current brand reached 100 sales in six days and over 200,000 sales in three years. She says 5 to 10% of designs become winners, so 100 designs gives you real chances, and that testing the whole catalog at once finds them in one or two weekends instead of months.",
+    "best": "Organized beginners who want an exact, week-by-week routine for a work-at-home t-shirt brand and are comfortable using AI for designs.",
+    "truth": "This is the most detailed playbook in her channel, with specific prices, budgets and target numbers you can actually follow, and the weekly routine is realistic about the ongoing work. Reaching 100 sales in a month is her own unverified result from a seller with years of experience; a first-timer should expect slower progress, and the ad testing costs money whether or not anything sells. She repeatedly pushes her free 'Million Dollar Brand Blueprint', an email signup that funnels viewers toward her and her husband's paid WeScale course and community; the 'brand builder GPT' she uses is offered through that signup, and the 'Build My POD' Shopify setup tool she recommends is her own team's product.",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits",
+      "lowcost"
+    ],
+    "url": "https://www.youtube.com/watch?v=6qWlxOwC4tI",
+    "video_title": "How To Get Your First 100 Sales in 30 Days (Full Playbook)",
+    "published": "2026-10-06",
+    "cost_level": "Under $100"
+  },
+  {
     "id": "30-day-personal-brand-launch-copy-proven-hooks",
     "name": "30-day personal brand launch system built on copying proven video hooks before creating original content",
     "title": "30-Day Personal Brand Launch",
@@ -10233,6 +10496,44 @@
       "novisits"
     ],
     "cost_level": "Under $100"
+  },
+  {
+    "id": "knockdown-laptop-keyboard-stand-jg",
+    "name": "Making a two-piece wooden laptop stand with keyboard storage that comes apart to carry, timed for back-to-school sales",
+    "title": "Take-Apart Laptop and Keyboard Stand",
+    "category": "Physical & print products",
+    "tags": [
+      "woodworking",
+      "laptop stand",
+      "back to school",
+      "desk accessories",
+      "seasonal",
+      "Etsy"
+    ],
+    "cost": "Low to moderate startup cost (bandsaw or jigsaw, table saw or circular saw, Forstner bits, sanders; 1x8 pine and a dowel)",
+    "what": "You cut two identical side pieces from 1x8 pine using a paper template stuck on with repositionable glue, drill a hole in each for a 12-inch, 7/8-inch dowel, and the sides plus dowel become a stand that holds a laptop on top and a keyboard underneath. Flipped on end, it holds a closed laptop upright against the wall, and it comes apart to pack in a backpack. The creator ties it to back-to-school season and shows Etsy best-sellers of similar laptop stands at about $45, $39 and $75, each marked as in 20-plus shopping carts.",
+    "pitch": "The creator's main lesson is to watch the calendar: plan seasonal products like back-to-school items before the season arrives. He says almost anyone could use a laptop stand, not just students, and suggests plywood and a router or CNC once you settle on a design.",
+    "best": "A woodworker with a bandsaw or jigsaw who wants a seasonal desk product and is willing to plan listings a month or two ahead.",
+    "truth": "The prices shown are other sellers' Etsy listings, and the 'in 20-plus carts' badge does not show actual sales; the creator says plainly he is not selling this himself and copied the idea to inspire viewers. His version is a first prototype, and he suggests plywood would be stronger than pine. He also shows a board grabbing his table saw blade during this build, a real kickback hazard. Laptop stands are a crowded category with cheap mass-made competition, so design and photos will matter, and you ship every order yourself.",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "nosales",
+      "nocamera",
+      "novisits",
+      "noai"
+    ],
+    "found": "JASCOgoods",
+    "url": "https://www.youtube.com/watch?v=XKTQaOstzpw",
+    "video_title": "You Should've Built These Easy Woodworking Projects Last Month",
+    "published": "2026-07-31",
+    "cost_level": "$100\u2013$500"
   },
   {
     "id": "heat-press-institutional-apparel-printing",
@@ -11471,6 +11772,45 @@
     "cost_level": "$500\u2013$2,000"
   },
   {
+    "id": "printify-fulfilled-shopify-tee-brand-mh",
+    "name": "A Shopify t-shirt brand fulfilled through Printify, chosen after scoring Printify, Printful and Gelato on cost, speed, quality and support",
+    "title": "Printify-Fulfilled Shopify Tee Brand",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "printify",
+      "printful",
+      "gelato",
+      "fulfillment"
+    ],
+    "cost": "Low startup cost (free provider plans; you pay about $10 per shirt plus about $5 shipping only when an order comes in)",
+    "found": "Meg Heckman",
+    "what": "You run a t-shirt brand on Shopify and let a print-on-demand company print and ship each order, so you hold no stock. The creator compares the three big providers on the same Gildan 64000 shirt: base cost on free plans is about $9.59 (Gelato), $9.63 (Printful) and $10.10 (Printify); US standard shipping is about $4.95 to $4.99, with a $3.99 economy option at Printify. She picks Printify for a single Shopify brand, using either 'Printify Choice' (it routes each order to a top-rated nearby printer) or a printer you choose from its weekly-updated scores. She advises skipping the paid plans ($24.99 to $39 a month) until sales are steady, and telling customers up front that shirts are made to order.",
+    "pitch": "The creator says that after six years and trying all three, Printify scored 55 out of 60 against 51 each for Printful and Gelato, mainly on faster production (an average of 1.3 days on that shirt) and support that reprints or refunds faulty orders. She says Printful has the most consistent quality and Gelato may ship faster outside the US.",
+    "best": "Anyone setting up a work-at-home t-shirt store who wants to understand per-shirt costs and choose a printing partner without testing all three.",
+    "truth": "The side-by-side prices and the warning that 'up to 33% off' plans actually saved 11 to 20% on this shirt are genuinely useful, and her scoring is openly based on her own experience, including a bad Gelato episode from 2022. Prices change, so check current rates. With roughly $15 in shirt and shipping costs against a $29.99 price, ad costs decide whether you make money. She does not say whether she has any business relationship with Printify. She repeatedly pushes her free 'Million Dollar Brand Blueprint', an email signup that funnels viewers toward her and her husband's paid WeScale course and community.",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits",
+      "noai",
+      "lowcost"
+    ],
+    "url": "https://www.youtube.com/watch?v=jAs2NhFLS7I",
+    "video_title": "Reviewing Every Print On Demand Supplier (Use This One)",
+    "published": "2026-09-29",
+    "cost_level": "Under $100"
+  },
+  {
     "id": "niche-affiliate-content-websites",
     "name": "Building niche-specific affiliate websites that answer search questions and link to Amazon products via Amazon Associates",
     "title": "Amazon Affiliate Niche Websites",
@@ -12146,6 +12486,44 @@
       "novisits"
     ],
     "cost_level": "Under $100"
+  },
+  {
+    "id": "barn-style-wood-harvest-basket-jg",
+    "name": "Building a barn-shaped wooden harvest basket with wire-mesh windows to sell on Etsy and at local markets",
+    "title": "Barn-Style Wood Harvest Basket",
+    "category": "Physical & print products",
+    "tags": [
+      "woodworking",
+      "harvest basket",
+      "farmhouse decor",
+      "Etsy",
+      "craft fairs",
+      "customization"
+    ],
+    "cost": "Low to moderate startup cost (miter saw, table saw, jigsaw, drill, brad or pin nailer, sander; 1x10 and 1x2 pine, wire mesh, a dowel and stain; a laser cutter is optional)",
+    "what": "You build a 20-inch wooden basket whose two end panels are cut into a barn shape from 1x10 pine, joined by 1x2 rails with strips of hardware-cloth mesh set into grooves as windows, slatted bottom boards and a dowel handle. The creator stains the barn ends barn red, cuts a small loft window with a jigsaw, adds roof trim, and makes decorative barn doors from thin plywood on his laser cutter, though he says a marker or pencil works too. On Etsy he shows that the best-selling harvest baskets are customized ones, with one listing at $67 for the small size and $92.50 for the large size he built.",
+    "pitch": "The creator says he found an Etsy best seller without much competition and was surprised that such a niche item sells so well at a high profit. He thinks it would also do well at local markets, and that adding your own customization is the way to get a best seller.",
+    "best": "A woodworker with basic shop tools who likes rustic farmhouse decor and wants a product to sell both online and at craft fairs or farmers markets.",
+    "truth": "The prices are other sellers' listings, not the creator's sales, and 'low competition' is his impression, not something he measures. The build has a lot of parts, angles and glue-ups, and he made several layout mistakes on his prototype. A 20-inch basket is bulky to ship. The decorative doors he shows came from a laser cutter, which most people don't own, though he offers simpler options. You make, pack and ship each one yourself.",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "nosales",
+      "nocamera",
+      "novisits",
+      "noai"
+    ],
+    "found": "JASCOgoods",
+    "url": "https://www.youtube.com/watch?v=SitJawzQmF0",
+    "video_title": "I Found Another Etsy Woodworking Best Seller... So I Built It",
+    "published": "2026-07-02",
+    "cost_level": "$100\u2013$500"
   },
   {
     "id": "paid-ai-workshop-lead-magnet-custom-builds",
@@ -14045,6 +14423,44 @@
     "cost_level": "Under $100"
   },
   {
+    "id": "metrics-first-pod-brand-relaunch-mh",
+    "name": "Relaunching a failed print-on-demand store as a niche brand that launches fast and fixes its numbers in a set order",
+    "title": "Metrics-First T-Shirt Brand Relaunch",
+    "category": "E-commerce",
+    "tags": [
+      "print on demand",
+      "shopify",
+      "ad metrics",
+      "conversion rate",
+      "store relaunch"
+    ],
+    "cost": "Low startup cost (Shopify, designs, samples; Facebook ads are the main ongoing cost)",
+    "found": "Meg Heckman",
+    "what": "You build a Shopify t-shirt store around a niche of 20 to 50 million people that lasts all year (her summer-lovers store dropped off in September), research it through Etsy, Amazon, Reddit and Facebook groups, and launch within weeks instead of months. Once ads are running you set your own taste aside and fix the numbers one at a time, in order: first cost per link click in Facebook Ads Manager, then add-to-cart, checkout and conversion rate (aiming for 3 to 4%), then average order value through a free-shipping threshold or bundles. After that you keep adding new designs and ads, because sales fade without them.",
+    "pitch": "The creator says her first store, a mix of designs she personally liked, took four months to build and made 52 sales, about $1,800, and no profit. She says her second store, launched the next month with these lessons, did over $400,000 in sales in three months, and that her current brand is on track for over $5 million this year.",
+    "best": "Someone whose first online store stalled and who wants a clear order for diagnosing what went wrong.",
+    "truth": "Her account of the first store's failure (no niche, no research, months of polishing, trying stickers and tumblers instead of admitting the designs were wrong) is a useful, candid warning. The step-by-step order for checking ad and store numbers is sound. The jump from $1,800 to $400,000 is her own unverified claim, and she had help from her husband, who already understood the numbers; her line that 'profitability is a choice' understates how many stores never become profitable. She repeatedly pushes her free 'Million Dollar Brand Blueprint', an email signup that funnels viewers toward her and her husband's paid WeScale course and community.",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits",
+      "noai"
+    ],
+    "url": "https://www.youtube.com/watch?v=pv3nTvpq6G0",
+    "video_title": "Brutally Honest Advice for Anyone Starting Print On Demand",
+    "published": "2026-09-22",
+    "cost_level": "$100\u2013$500"
+  },
+  {
     "id": "custom-safety-sign-production-business",
     "name": "Custom safety sign production business for local B2B accounts",
     "title": "Custom Safety Signs",
@@ -15890,6 +16306,45 @@
     "cost_level": "Under $100"
   },
   {
+    "id": "spinning-wood-yarn-holder-jg",
+    "name": "Making simple spinning wooden yarn-ball holders for knitters and crocheters, timed for Mother's Day",
+    "title": "Spinning Wooden Yarn Holder",
+    "category": "Physical & print products",
+    "tags": [
+      "woodworking",
+      "knitting",
+      "crochet",
+      "yarn holder",
+      "Mother's Day",
+      "trend products"
+    ],
+    "cost": "Low startup cost if you own basic tools (jigsaw, drill, Forstner bit, sander; 2x6 and 1x6 scraps, a 5/8-inch dowel, optional small lazy Susan bearings)",
+    "what": "You make a yarn holder from two blocks of scrap wood: a square 2x6 base with holes drilled in the corners to store knitting needles, and a round, octagon or double-circle top on a 6.5-inch dowel spike that holds a ball of yarn. The top spins either on a small lazy Susan bearing (the creator bought a 10-pack for $15.99, about $1.60 each) recessed with a router, or on a no-hardware version where the dowel turns in a waxed hole. He finishes them with water-based stain and polyurethane or just paste wax, and shows similar listings online.",
+    "pitch": "The creator's point is that the best way to make money from woodworking is to follow hobby trends outside woodworking: bread knives sold when sourdough was popular, book holders when reading took off. He says knitting is trending now and the buyers want something ridiculously simple, which makes this a good Mother's Day product.",
+    "best": "A beginner woodworker with a jigsaw and drill who wants a cheap, fast-to-make product aimed at knitters and crocheters.",
+    "truth": "The trend claim is the creator's opinion; he shows some listings but no prices or sales figures. The product is very simple, which also means anyone can copy it, so expect price competition. He admits he doesn't know knitting, so check with real knitters which features they want. He also mentions a Patreon he runs (a paid membership), though the video doesn't sell anything through it. You make and ship each order yourself.",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "nosales",
+      "nocamera",
+      "novisits",
+      "noai",
+      "lowcost"
+    ],
+    "found": "JASCOgoods",
+    "url": "https://www.youtube.com/watch?v=pAAHfDycbR4",
+    "video_title": "Woodworkers Are Making Money From THIS Trending Hobby",
+    "published": "2026-05-09",
+    "cost_level": "Under $100"
+  },
+  {
     "id": "amazon-kdp-nonfiction-niche-topic-validation-claude",
     "name": "Finding and validating a specific, non-saturated non-fiction book topic on Amazon before writing it with Claude",
     "title": "Validating a Nonfiction Book Topic",
@@ -16566,6 +17021,44 @@
       "noai"
     ],
     "cost_level": "$500\u2013$2,000"
+  },
+  {
+    "id": "identity-niche-3d-test-tee-brand-mh",
+    "name": "A graphic tee brand built on a niche that passes her '3D test' of devotion, demand and depth, aimed at how people describe themselves",
+    "title": "Identity-Niche Graphic Tee Brand",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "niche selection",
+      "graphic tees",
+      "customer identity",
+      "brand building"
+    ],
+    "cost": "Low startup cost (niche research is free; store fees, designs and ads come later)",
+    "found": "Meg Heckman",
+    "what": "Before building a print-on-demand t-shirt brand, you test your niche against three questions. Devotion: will you still care six months and 500 designs in? Demand: are there 20 million or more people who would actually wear it, shown by other sellers already making sales? Depth: can you name a specific person and list 50 insider design ideas without repeating yourself? The niche should be an identity people use for themselves ('sarcastic', 'history buff') rather than a store-shelf topic like 'funny shirts' or 'dog stuff'. Seasonal themes and trends go on top of a niche, not in place of one. You then launch broad within that identity and let ad clicks show which sub-group buys.",
+    "pitch": "The creator says this framework is what separated her failed first store from four brands that each passed seven figures in their first year. She says niches with only two of the three qualities can still make sales but hit a ceiling, and that her history brand's real buyers turned out to be 'sarcastic history lovers', which she only learned after launching.",
+    "best": "People choosing between niche ideas for a work-at-home t-shirt brand who want a quick, honest way to judge them.",
+    "truth": "The 'person, not topic' idea is a sharp, practical test, and her point that an empty niche usually means no demand is a good corrective to common advice. It is a framework for one decision, not a full business plan, and you still need designs, a store and paid ads. The 20-million figure is her rule of thumb, and her seven-figure claims are her own and unverified. She repeatedly pushes her free 'Million Dollar Brand Blueprint', an email signup that funnels viewers toward her and her husband's paid WeScale course and community, which she also says the top performers 'inside of We Scale' follow.",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits",
+      "noai"
+    ],
+    "url": "https://www.youtube.com/watch?v=Sr0Y9CxKRGw",
+    "video_title": "How to Find a Disgustingly Profitable Niche",
+    "published": "2026-09-01",
+    "cost_level": "$100\u2013$500"
   },
   {
     "id": "claude-team-training-for-businesses",
@@ -18400,6 +18893,44 @@
     "cost_level": "$500\u2013$2,000"
   },
   {
+    "id": "corbel-coat-rack-shelf-hooks-jg",
+    "name": "Building a wall-mounted entryway shelf with corbels and metal coat hooks to sell on Etsy",
+    "title": "Entryway Coat Rack Shelf",
+    "category": "Physical & print products",
+    "tags": [
+      "woodworking",
+      "coat rack",
+      "entryway shelf",
+      "farmhouse decor",
+      "Etsy",
+      "Alibaba"
+    ],
+    "cost": "Low to moderate startup cost (saw, jigsaw, drill, dowel jig, router with keyhole bit, sander; 1x8, 1x4 and 1x10 pine, dowels, stain, polyurethane and hooks)",
+    "what": "You build a 36-inch shelf from a 1x8 top, two jigsaw-cut corbels and a 1x4 backboard, joined with 3/8-inch dowels, with keyhole slots spaced 16 inches apart so it hangs on wall studs, and five hooks screwed into the backboard. The creator compares hooks from Amazon: wood pegs at $0.43, cast iron at $1.90, horseshoes at $2.80 and railroad spikes at $5.60 each, and notes similar hooks cost about $0.35 each on Alibaba with a 500-piece minimum, roughly $175. On Etsy he shows similar racks at $57 for five pegs, $78 for 36 inches, $140-$219 with fancier hooks, and up to $340. He points to one seller with 1.7K sales in two years and a five-month-old shop with 208 sales of rustic coat racks and shelves.",
+    "pitch": "The creator calls it a high-profit, low-cost build that is selling well right now. He says nicer metal hooks let you charge more than sellers using wood pegs, and that buying hooks in bulk cuts your cost per piece. He also points out that good listings, with a hanging video, color choices and size options, help explain why some sellers get steady orders.",
+    "best": "A woodworker with basic power tools who can make repeatable pieces and wants a home-decor product with several price tiers.",
+    "truth": "The sales counts and prices are other Etsy sellers' public figures, not the creator's own results, and the shop totals don't tell you how much of each shop's sales are coat racks. Construction lumber at big box stores is often warped or cracked, as he shows, so plan for waste or better boards. Water-based stain gave him blotchy results on a large piece. A 36-inch shelf costs real money to ship, so decide whether you charge shipping or build it into the price. A 500-hook bulk order is only worth it once you are selling steadily.",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "nosales",
+      "nocamera",
+      "novisits",
+      "noai"
+    ],
+    "found": "JASCOgoods",
+    "url": "https://www.youtube.com/watch?v=uMc8vapjBDM",
+    "video_title": "I Studied Etsy Best Sellers\u2026 Then Built This",
+    "published": "2026-04-27",
+    "cost_level": "$100\u2013$500"
+  },
+  {
     "id": "google-search-ads-pdf-products",
     "name": "Google Search Ads for narrow, problem-specific PDF products",
     "title": "Google Ads for PDF Products",
@@ -20002,6 +20533,44 @@
     "cost_level": "Under $100"
   },
   {
+    "id": "shoestring-shopify-tshirt-brand-mh",
+    "name": "Launching a Shopify t-shirt brand for about $230 using free app tiers and a $12.50-a-day weekend ad budget",
+    "title": "Shoestring Shopify T-Shirt Brand",
+    "category": "E-commerce",
+    "tags": [
+      "print on demand",
+      "low budget",
+      "shopify",
+      "free tools",
+      "facebook ads"
+    ],
+    "cost": "About $30 in software plus $200 a month in ad testing (roughly $630 for a three-month attempt)",
+    "found": "Meg Heckman",
+    "what": "You prepare a whole t-shirt brand before paying for anything: niche research and brand writing in free Claude, designs in free ChatGPT, cleanup in free Canva, all saved on Google Drive. Only then do you start Shopify's promotion ($1 a month for three months, then $39), buy a domain (about $15 a year), and connect free Printify for printing and shipping. She suggests paying $9.99 for one month of Hextom Bulk Product Edit to update 100 products in an afternoon, using Shopify's free swatches, and the free tiers of Loox for reviews and Klaviyo for email. Ads run Thursday to Sunday at $12.50 a day, about $200 a month, with the aim of reaching break-even before Shopify's full price starts.",
+    "pitch": "The creator, whose brand she says did $4.98 million in the past 12 months, says she started as a nurse on a tight budget. She argues your budget is really money, time and effort, and that using free tools trades dollars for days: free ChatGPT may stretch 100 designs from a week or two to a month or more. She totals the cheapest version at about $230 to launch and test for a month and about $630 for a real three-month try.",
+    "best": "Budget-conscious beginners willing to trade extra hours for lower costs while building a work-at-home e-commerce brand.",
+    "truth": "This is a refreshingly specific and honest breakdown: she rejects the '$0 to start' claim and shows exactly where free plans cost you time instead. Prices and promotions change, so check them yourself, and the $200 a month in ads is spent whether or not you make sales. Her revenue figure is her own and unverified. She recommends 'Build My POD', a Shopify setup tool built by her own team, and she repeatedly pushes her free 'Million Dollar Brand Blueprint', an email signup that funnels viewers toward her and her husband's paid WeScale course and community.",
+    "situation_tags": [
+      "Strictly in-home",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits",
+      "lowcost"
+    ],
+    "url": "https://www.youtube.com/watch?v=SAXuoU2OulI",
+    "video_title": "The Smartest Way to Start POD With Almost No Money",
+    "published": "2026-08-22",
+    "cost_level": "Under $100"
+  },
+  {
     "id": "ai-conversion-focused-website-rebuild-one-action",
     "name": "Conversion-focused website rebuild built around one specific action, not a template",
     "title": "Conversion-Focused Website Rebuilds",
@@ -21327,6 +21896,45 @@
     "cost_level": "Under $100"
   },
   {
+    "id": "layered-easter-empty-tomb-decor-jg",
+    "name": "Making layered wooden Easter empty-tomb decorations with a cross and a backlit cave opening",
+    "title": "Layered Easter Empty Tomb Decor",
+    "category": "Physical & print products",
+    "tags": [
+      "woodworking",
+      "Easter decor",
+      "Christian decor",
+      "seasonal",
+      "scrap wood",
+      "handmade"
+    ],
+    "cost": "Low startup cost if you own basic tools (jigsaw, large Forstner bit, belt or orbital sander, pin nailer; 1x8 and 1x6 scraps, stain, a small LED light)",
+    "what": "You cut three freehand hill shapes from 1x8 and 1x6 scraps, stack them, drill a cave opening through the front layers with a large Forstner bit, and add a wooden boulder for the stone and a distressed cross cut from a 1x3. The creator shapes everything on a belt sander, uses water-based stains so it can be finished in one day, and backlights the opening with a small LED or battery tea light behind vellum paper and a printed Jesus silhouette. The layers are glued and pin-nailed together. He says no tape measure is needed.",
+    "pitch": "The creator presents it as a popular build that you can make your own with a personal twist, made from scrap wood in a day. He suggests variations such as a sliding stone that opens on Easter morning to show 'He is risen.'",
+    "best": "A woodworker or crafter with a jigsaw and sander who wants a quick seasonal product for Easter shoppers, church groups or Christian gift buyers.",
+    "truth": "The video is a build tutorial and gives no prices, listings or sales numbers, so whether these sell is untested here. Demand is concentrated in the weeks before Easter, so you need to list early and expect slow months otherwise. Each piece is freehand, which suits a handmade look but makes matching batches harder. He warns never to use a real candle inside because the wood could catch fire. You pack and ship every order yourself.",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "nosales",
+      "nocamera",
+      "novisits",
+      "noai",
+      "lowcost"
+    ],
+    "found": "JASCOgoods",
+    "url": "https://www.youtube.com/watch?v=WBJM1eMAiS0",
+    "video_title": "This Simple Wood Build Has a Hidden Effect",
+    "published": "2026-04-02",
+    "cost_level": "Under $100"
+  },
+  {
     "id": "high-commission-digital-product-affiliate-calls",
     "name": "Selling other people's high-ticket digital products for commission through DMs and 15-minute calls",
     "title": "Digital Product Arbitrage",
@@ -21680,6 +22288,42 @@
       "novisits"
     ],
     "cost_level": "Under $100"
+  },
+  {
+    "id": "shopify-pod-store-conversion-teardown-mh2",
+    "name": "Shopify print-on-demand t-shirt store tuned with a live-teardown checklist for conversions, shipping and catalog ads",
+    "title": "Conversion-Tuned Shopify T-Shirt Store",
+    "category": "E-commerce",
+    "tags": [
+      "print on demand",
+      "shopify store",
+      "conversion rate",
+      "catalog ads",
+      "q4 planning"
+    ],
+    "cost": "Moderate startup cost (Shopify plan and samples, plus a suggested $25 a day for Facebook and Instagram catalog ads)",
+    "found": "Meg Heckman",
+    "what": "You run a Shopify store selling mostly t-shirts printed and shipped by Printify, and tune it the way Meg and her partner Chris do while reviewing viewers' stores live. Their fixes: put every design in one collection, remove the email pop-up bar that blocks mobile screens, keep the add-to-cart button above the fold, vary shirt colors on the collection page, and set shipping to about $4.87 under $75 with free shipping at $75 and up. Build the first 100 designs in planned batches (for example 15-30 each of typography, graphic, and typography plus graphic, across humor, inside jokes and other angles). Run a catalog ad at about $25 a day, judge each design's own cost per click (aim under $1, ideally 50-75 cents), cut losers, and raise the budget 15-20% every two to three days once return on ad spend passes 2.0.",
+    "pitch": "They share their own brand's figures: $322,000 in sales one third quarter and $814,000 the next, with 77% of holiday-season sales coming from designs made months earlier and the top design selling 6,000 units at $29.99. They argue Q4 runs from early November to mid-December, that sending more email in that season lowered unsubscribes, and that a plain 'new designs added' email from the owner works best.",
+    "best": "Patient, detail-minded people who like tweaking a store and reading ad numbers, and can fund several weeks of ad testing.",
+    "truth": "This is one of the more concrete free walkthroughs of running a print-on-demand store, with specific settings and numbers rather than hype. The sales figures are their own and unverified, and the livestream itself notes they come from a single brand. Ad testing costs real money before any profit, and the cost-per-click targets they quote are hard to hit with a small catalog. The stream promotes her free YouTube course, a free Skool community (cohort calls are also mentioned) and Build My POD, a free Shopify theme her team built.",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits"
+    ],
+    "url": "https://www.youtube.com/watch?v=k6hN4PxYmLQ",
+    "video_title": "Building POD Stores Live in Real Time",
+    "published": "2026-08-23",
+    "cost_level": "$500\u2013$2,000"
   },
   {
     "id": "ai-dropshipping-store-zendrop-smplsocial",
@@ -23211,6 +23855,44 @@
     "cost_level": "Under $100"
   },
   {
+    "id": "cedar-picket-birdhouse-planters-jg",
+    "name": "Building outdoor planters from cheap cedar fence pickets, including a birdhouse-backed planter box and a heart wall planter",
+    "title": "Cedar Picket Birdhouse Planters",
+    "category": "Physical & print products",
+    "tags": [
+      "woodworking",
+      "planters",
+      "fence pickets",
+      "garden decor",
+      "spring",
+      "handmade"
+    ],
+    "cost": "Low to moderate startup cost (miter saw, table saw or circular saw, jigsaw or bandsaw, drill, brad nailer; cedar fence pickets, exterior glue and screws)",
+    "what": "You build planters from cedar fence pickets, one of the cheapest woods at the hardware store. The main design is a box planter with notched 2x2 legs and a back made of three pickets cut to 16, 17 and 20 inches with pointed tops, scored lines for texture, small roofs and drilled holes so they look like birdhouses behind the plants. The second is a 21-inch wall-hanging planter with a heart cut out of the top third and a raised slotted bottom with drain holes, which can sit on the ground or hang like a wall sconce. The creator uses waterproof Titebond III glue and suggests galvanized or stainless nails for outdoor use.",
+    "pitch": "The creator says it is 'picket season' and these are planter designs he hasn't seen anyone else building, which matters because most simple designs are already everywhere. Fence pickets are cheap, so materials cost little, and the video title frames them as a way to make money.",
+    "best": "A woodworker with basic power tools who wants low-cost spring and summer products for garden lovers, local markets or online.",
+    "truth": "The video gives no prices, listings or sales numbers, so the money-making claim is untested here, and 'nobody else is building this' is the creator's impression. Pickets are rough and often warped, and outdoor pieces need exterior glue and rust-proof fasteners to hold up. He couldn't make his original mountain-backed idea work and changed plans mid-build. Planters are bulky to ship, so local sales may suit them better. Demand is seasonal.",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "nosales",
+      "nocamera",
+      "novisits",
+      "noai"
+    ],
+    "found": "JASCOgoods",
+    "url": "https://www.youtube.com/watch?v=0iDRxdTe9JU",
+    "video_title": "Make Money with Cheap Picket Fence Builds | Easy DIY Woodworking",
+    "published": "2026-03-21",
+    "cost_level": "$100\u2013$500"
+  },
+  {
     "id": "ai-appointment-setter-and-internal-knowledge-rag-systems",
     "name": "Two specific, high-ticket AI systems sold to home service businesses: an AI appointment-setter with lead reactivation, and an internal company-knowledge RAG system",
     "title": "Two AI Systems for Home Services",
@@ -24678,6 +25360,44 @@
     "cost_level": "Under $100"
   },
   {
+    "id": "pod-tshirt-blank-matched-to-audience-mh2",
+    "name": "Print-on-demand t-shirt brand that picks its shirt blank by audience to protect margins and cut returns",
+    "title": "Audience-Matched POD T-Shirt Blanks",
+    "category": "Physical & print products",
+    "tags": [
+      "print on demand",
+      "t-shirt blanks",
+      "comfort colors",
+      "bella canvas",
+      "returns"
+    ],
+    "cost": "Low startup cost (store fees and a few sample shirts; ads extra)",
+    "found": "Meg Heckman",
+    "what": "You sell printed t-shirts through a print-on-demand supplier and choose the blank shirt to fit who is buying. Meg compares four common blanks with all-in costs (one print plus $4.75 shipping) and starting prices her community uses: Gildan 5000 (thick, boxy, about $12 in, $29.99 out, good for older buyers who equate thick with quality), Gildan 64000 (softer, about $12.66, the safe pick when testing a new niche), Bella+Canvas 3001 (softest, best for fine detail, slim fit suited to women's niches, about $13.79, $31.99) and Comfort Colors 1717 (heavy, garment-dyed vintage look, about $15.47, $34.95). To cut returns, list real measurements, show the shirt on real people, tell buyers to size up where it runs slim, and give wash instructions.",
+    "pitch": "She says she has sold only graphic tees for six years and that profit per shirt varies by only about $2 across all four blanks (roughly $17-$19.50), so the real decision is fit and feel for your audience. She calls it the most reversible choice in the business, since you can swap blanks later without customers noticing.",
+    "best": "New print-on-demand sellers stuck choosing a product, and anyone who wants to cut returns by matching the shirt to the buyer.",
+    "truth": "This is practical, specific product advice that saves new sellers money on samples, and the cost breakdowns are useful starting points. Supplier prices and shipping change, so check current costs before setting prices, and the profit figures leave out ad spend, which is usually the biggest expense. The price points come from sellers in her community. She promotes a free 'blueprint' that collects your email, and refers to her Skool community.",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "lowcost",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits",
+      "noai"
+    ],
+    "url": "https://www.youtube.com/watch?v=DluQKX0gZHw",
+    "video_title": "I\u2019ve Tested Every T-Shirt, These Are The Best",
+    "published": "2026-08-01",
+    "cost_level": "Under $100"
+  },
+  {
     "id": "ai-database-reactivation-local-business-recurring-offer",
     "name": "Selling AI-automated 'database reactivation' to local businesses, re-engaging their own past customers instead of chasing new leads",
     "title": "Database Reactivation for Local Businesses",
@@ -25603,6 +26323,43 @@
       "novisits"
     ],
     "cost_level": "Under $100"
+  },
+  {
+    "id": "over-stove-wood-shelf-pull-bar-jg",
+    "name": "Building the viral wooden over-the-stove shelf with a cabinet-pull rail to sell on Etsy",
+    "title": "Over-Stove Shelf with Pull Bar",
+    "category": "Physical & print products",
+    "tags": [
+      "woodworking",
+      "stove shelf",
+      "kitchen decor",
+      "viral products",
+      "Etsy"
+    ],
+    "cost": "Low to moderate startup cost (miter saw, table saw, router or dado setup, chisel, drill, sander; 1x6 pine, a metal cabinet pull, oil-based polyurethane)",
+    "what": "You build a 30-inch shelf that sits on the back of a stovetop: a 1x6 top set in quarter-inch dados in two legs, notched at the back to clear the stove's backsplash, with a metal cabinet pull (about $25) screwed on the front as a towel or utensil rail. The creator finishes it with oil-based polyurethane to resist heat, steam and grease, and adds a small bracket so it can't tip forward. He shows similar Etsy listings at about $24.99 (with $72.21 shipping), $40, $57-$74 for a best seller in 20 carts, and $75.",
+    "pitch": "The creator built this to test whether a project that went viral, with videos of 2 million views, actually sells. Viewers of those videos kept asking where to buy one, which suggests there are buyers.",
+    "best": "A woodworker with basic tools who wants a simple kitchen product and is willing to deal with custom sizing for each buyer.",
+    "truth": "The creator's own conclusion is that the viral shelf doesn't sell as well as the views suggest, and he names real problems: it sits over a stove, so it could be a fire hazard and a liability you would need to look into, and every kitchen's backsplash is different, so fit is a headache. The prices shown are other sellers' listings. The metal pull is the costliest part. He ends up recommending a different product from the same video instead.",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "nosales",
+      "nocamera",
+      "novisits",
+      "noai"
+    ],
+    "found": "JASCOgoods",
+    "url": "https://www.youtube.com/watch?v=D-5MzrZ1kio",
+    "video_title": "I Built a Viral Woodworking Project to See If It Sells",
+    "published": "2026-02-28",
+    "cost_level": "$100\u2013$500"
   },
   {
     "id": "ai-automated-dropshipping-store-ad-cloning-profit-tracking",
@@ -27705,6 +28462,42 @@
     "cost_level": "Under $100"
   },
   {
+    "id": "zero-follower-cult-apparel-brand-mh2",
+    "name": "Niche apparel brand built from zero followers through seven small trust-building habits in ads, email and weekly drops",
+    "title": "Zero-Follower Cult Apparel Brand",
+    "category": "E-commerce",
+    "tags": [
+      "apparel brand",
+      "email marketing",
+      "customer loyalty",
+      "print on demand",
+      "niche branding"
+    ],
+    "cost": "Moderate startup cost (store and email tools are cheap, but the method relies on paid ads to reach strangers)",
+    "found": "Meg Heckman",
+    "what": "You run a niche t-shirt brand, using Meg's Sloth Hiking Club (shirts for slow, casual hikers) as the model, and earn trust through seven habits. Only release designs a customer might tattoo, meaning ones that finish the sentence 'my customer is the person who...'. Reply to every comment on your ads in the brand's voice (AI can help draft replies). Make the welcome email a short, friendly note that delivers the promised discount and asks one question. Write emails about the customer's life (like the drive home after a hike) with little or no product. Ask subscribers for shirt ideas and send a free shirt when one gets made. Feature customer photos. Release new designs on the same day every week without fail.",
+    "pitch": "She says Sloth Hiking Club launched in January 2025 with no audience and has done over $1.7 million in sales in 18 months, with 84,000 customers and 250-plus designs. Its number-three bestseller came from a subscriber's emailed joke. She cites studies on trust and welcome-email open rates (84%) to argue none of these habits need a following, and most cost nothing.",
+    "best": "Writers and people with a sense of humor who know a hobby community well and enjoy talking with customers.",
+    "truth": "The habits are sensible, low-cost customer-relationship practices that any small brand can adopt, and she admits the brand made no profit for its first two months. The sales and customer figures are her own and unverified, and the brand was built by partners who had already run large stores and paid for ads, so 'zero followers' does not mean zero ad budget. The statistics she quotes come from outside studies she names but doesn't link. She promotes her free 12-hour YouTube course and mentions her Skool community.",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits"
+    ],
+    "url": "https://www.youtube.com/watch?v=gSkDBLWLfM8",
+    "video_title": "How to Build a Cult like E-commerce Brand with Zero Followers",
+    "published": "2026-07-18",
+    "cost_level": "$500\u2013$2,000"
+  },
+  {
     "id": "ai-concierge-website-agent-free-trial-pricing",
     "name": "AI concierge for small-business websites, priced by the value of the leads it captures",
     "title": "AI Website Concierge Service",
@@ -28838,6 +29631,43 @@
     "cost_level": "Under $100"
   },
   {
+    "id": "dowel-front-wall-spice-rack-jg",
+    "name": "Making a simple wall-hung wooden spice rack with a dowel rail to sell on Etsy",
+    "title": "Wall-Hung Dowel Spice Rack",
+    "category": "Physical & print products",
+    "tags": [
+      "woodworking",
+      "spice rack",
+      "kitchen organization",
+      "Etsy",
+      "small project"
+    ],
+    "cost": "Low to moderate startup cost (table saw or circular saw, miter saw, drill with stop collar, pin nailer, sander; 1x8 pine, a 3/8-inch dowel, oil-based polyurethane)",
+    "what": "You build a 24-inch open box spice rack from a 1x8 ripped to 4 inches, with 4-by-4-inch ends and a 3/8-inch dowel (about 70 cents) set 2 inches up across the front to keep jars from falling out. It hangs on the wall with keyhole slots, and you can make it longer or deeper for canned goods in a pantry. The creator shows a best-selling Etsy version in 14 carts, selling for $40-plus at 12 inches and about $100 at 24 inches, from a shop with 248 sales over a year and a half.",
+    "pitch": "The creator says this best seller fills the same need as the viral over-stove shelf without its problems: no expensive metal pull, no fire or fit concerns, and it hangs anywhere. He calls the roughly $100 price for a 24-inch rack a really good profit for what it is.",
+    "best": "A beginner to intermediate woodworker with basic tools who wants a cheap, repeatable kitchen product.",
+    "truth": "The prices, cart counts and the 248-sale shop are another seller's public numbers; the creator says he doesn't know how many of this item they sell. Materials are cheap, but your time, Etsy fees and shipping come out of the price. He is clear that you need research and marketing, not just a build and a listing, to make sales. You pack and ship every order yourself.",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "nosales",
+      "nocamera",
+      "novisits",
+      "noai"
+    ],
+    "found": "JASCOgoods",
+    "url": "https://www.youtube.com/watch?v=D-5MzrZ1kio",
+    "video_title": "I Built a Viral Woodworking Project to See If It Sells",
+    "published": "2026-02-28",
+    "cost_level": "$100\u2013$500"
+  },
+  {
     "id": "weekly-pet-waste-scooping-route-johnny-sergio",
     "name": "Weekly residential pet waste removal route",
     "title": "Dog Poop Scooping Service",
@@ -29627,6 +30457,42 @@
       "novisits"
     ],
     "cost_level": "Under $100"
+  },
+  {
+    "id": "one-product-many-designs-tshirt-brand-mh2",
+    "name": "T-shirt-only online brand that sticks to one product, niche, audience and platform and goes wide on designs",
+    "title": "Rule-of-One T-Shirt Brand",
+    "category": "E-commerce",
+    "tags": [
+      "print on demand",
+      "t-shirt brand",
+      "niche focus",
+      "design volume",
+      "shopify"
+    ],
+    "cost": "Moderate startup cost (store fees plus ongoing ad spend to test designs)",
+    "found": "Meg Heckman",
+    "what": "Meg's 'rule of one': sell one product (t-shirts), to one niche and audience, on one platform, and ignore mugs, hoodies, totes and other add-ons. Put the variety into designs instead, publishing as many quality designs as you can on that single product, because a few winners usually carry the store. The idea is that design skill builds up when you stay on one product, so in time you can judge a design before it goes live.",
+    "pitch": "She says her brand did over $2.8 million in sales and $400,000 in net profit in 90 days selling only t-shirts, and that 19 of its 1,900-plus live designs drove more than half of those sales. She uses Steve Jobs cutting Apple to four products in 1997 as the model and compares the approach to digging one deep hole for gold instead of five shallow ones.",
+    "best": "People who tend to spread themselves thin and do better committing to one thing and repeating it.",
+    "truth": "Focus is sound advice for beginners, and her point that a few designs carry most sales is common among print-on-demand sellers. Her revenue and profit numbers are her own and unverified, and getting to 1,900 designs took a team, ad budget and several years. 'Going wide' on designs still means paying to test them, which she doesn't cover here. The video promotes her free 12-hour YouTube course.",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits"
+    ],
+    "url": "https://www.youtube.com/watch?v=Z5kiXXSptXA",
+    "video_title": "Ecommerce Was Hard Until I Understood This Simple Rule",
+    "published": "2026-07-11",
+    "cost_level": "$500\u2013$2,000"
   },
   {
     "id": "amazon-wholesale-small-brand-value-pitch-exclusive-deal",
@@ -31651,6 +32517,45 @@
     "cost_level": "Under $100"
   },
   {
+    "id": "personalized-valentine-heart-sign-jg",
+    "name": "Making personalized wooden heart signs with names or initials for Valentine's Day and anniversaries",
+    "title": "Personalized Valentine Heart Sign",
+    "category": "Physical & print products",
+    "tags": [
+      "woodworking",
+      "Valentine's Day",
+      "personalized gifts",
+      "scrap wood",
+      "seasonal",
+      "laser cutting"
+    ],
+    "cost": "Low startup cost if you own basic tools (jigsaw, spindle sanding drum, router optional, sander; 1x8 pine scraps, stain, small hooks, wood or vinyl letters or a laser cutter)",
+    "what": "You cut a hanging heart and a matching heart-shaped frame from 1x8 pine using printed paper templates stuck on with repositionable glue, mount the frame on a routed base, and hang the inner heart from small hooks so it sits inside the frame. Then you personalize it with names or initials. The creator cuts letters on his laser cutter, but says you can buy wooden letters at Walmart or Michaels or use vinyl. He says similar pieces sell online for about $20-$25 and estimates about eight from one 8-foot 1x8, or around $160 per board. He offers the heart templates and cut sheet as free downloads.",
+    "pitch": "The creator says you can make it in a few hours from scrap wood, and that personalizing it is how you get the most money for it. It fits Valentine's Day, Mother's Day and anniversaries, so the same design can sell several times a year.",
+    "best": "A beginner woodworker or crafter with a jigsaw who wants a low-cost seasonal gift product, especially one with a personalization option.",
+    "truth": "The $20-$25 price is the creator's rough observation of similar pieces, not his own sales, and $160 per board is revenue before your time, finishes, letters, Etsy fees and shipping. Personalized orders mean handling custom names and spelling mistakes, and sales cluster before holidays. Pine stains blotchy, as he shows, so test finishes first. The video also includes what appears to be a short sponsor message for a supply store.",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "nosales",
+      "nocamera",
+      "novisits",
+      "noai",
+      "lowcost"
+    ],
+    "found": "JASCOgoods",
+    "url": "https://www.youtube.com/watch?v=DWMldx05vUM",
+    "video_title": "This Tip Will Get You More Money For Your Projects!",
+    "published": "2026-02-14",
+    "cost_level": "Under $100"
+  },
+  {
     "id": "claude-vidiq-faceless-facts-shorts-viblo",
     "name": "Faceless 'interesting facts' YouTube Shorts channel (Claude + vidIQ research, Viblo editing)",
     "title": "Faceless Facts YouTube Shorts",
@@ -33088,6 +33993,42 @@
     "cost_level": "Under $100"
   },
   {
+    "id": "pod-fulfilled-ecommerce-brand-funnel-mh2",
+    "name": "Apparel brand that treats print-on-demand as just fulfillment and builds the ad-to-email sales funnel around it",
+    "title": "Brand-First Apparel Store Funnel",
+    "category": "E-commerce",
+    "tags": [
+      "ecommerce brand",
+      "print on demand",
+      "sales funnel",
+      "retargeting",
+      "email list"
+    ],
+    "cost": "Moderate startup cost (Facebook and Instagram ads, store and email tools)",
+    "found": "Meg Heckman",
+    "what": "You build an online apparel brand where print-on-demand only handles printing and shipping after the sale, and you do the selling. Using her Sloth Hiking Club brand as the example, Meg lays out the chain: Facebook and Instagram ads bring visitors; the home page quickly explains the brand, with clear, same-colored buttons and fast loading; a discount pop-up collects emails; the product page answers sizing and fit questions; then cart and checkout. After the order, emails about new designs and sales, plus retargeting ads to visitors who didn't buy, bring customers back.",
+    "pitch": "She argues print-on-demand earned a 'scam' reputation because people were sold fulfillment (no inventory, no shipping) as if it were the whole business, uploaded designs, and waited for sales that never came. She says the money is made by everything before the order: the customer you pick, the brand angle, traffic, the website and follow-up.",
+    "best": "People drawn to print-on-demand who are ready to learn ads, store design and email marketing, not just upload designs.",
+    "truth": "This is an honest correction to 'passive income' print-on-demand pitches: she plainly says you need traffic, samples, content and usually ads, which cost money. She shows the funnel but not costs or results, so it is a map rather than a plan. The video promotes her free 12-hour YouTube course.",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits"
+    ],
+    "url": "https://www.youtube.com/watch?v=_Ws9OGzWgjw",
+    "video_title": "Everyone Thinks Print On Demand Is A Scam (They're Wrong)",
+    "published": "2026-07-04",
+    "cost_level": "$500\u2013$2,000"
+  },
+  {
     "id": "organic-ai-branded-dropshipping-shopify",
     "name": "Organic-first branded dropshipping with AI product videos, then scaling with ads",
     "title": "Organic AI Dropshipping Store",
@@ -34053,6 +34994,44 @@
     "video_title": "AI Is Creating Millionaires FAST! How to Build Business w/ AI Agents (No Coding) | Inside The Vault",
     "published": "2026-10-15",
     "cost_level": "Under $100"
+  },
+  {
+    "id": "wall-mounted-folding-bench-jg",
+    "name": "Building a wall-mounted folding bench (or fold-down laundry shelf) from wooden slats on a threaded rod",
+    "title": "Wall-Mounted Folding Slat Bench",
+    "category": "Physical & print products",
+    "tags": [
+      "woodworking",
+      "folding bench",
+      "space saving",
+      "laundry room",
+      "entryway",
+      "Etsy"
+    ],
+    "cost": "Low to moderate startup cost (miter saw, drill with a drill guide or press, plug cutter or dowels, clamps, sander; 1x3 pine, 1/4-inch threaded rod, screws, paste wax)",
+    "what": "You build a bench that hangs on the wall and folds flat: 13 slats of 1x3 pine (seven at 12 inches and six at 10.5 inches) strung on a 1/4-inch threaded rod, with a front rail, back boards that lock it at 90 degrees, and a hinged leg that swings down to support it. The creator drills the rod holes with a homemade drill guide, spaces the slats with playing cards so they don't bind, plugs the screw holes with dowels, finishes it with paste wax and hangs it into studs about 18 inches up. Without the leg it works as a fold-down shelf for folding laundry. He shows similar Etsy benches at about $101-$189 and a seller in Turkey with 1.9K sales in a year and a half selling simple pieces like this for around $120.",
+    "pitch": "The creator calls it high profit and one of the coolest builds on his channel, useful in small entryways for putting on shoes or on stairs. He uses the Etsy sellers to argue that people really do make money selling woodwork, though he says it's 'tool money,' not riches.",
+    "best": "An intermediate woodworker with patience for precise, repeated drilling who wants a higher-priced space-saving furniture piece.",
+    "truth": "The creator says outright that he built it wrong: 1x3s in that orientation are too weak, he is afraid to sit on it, and he isn't confident the leg hinge will last, so he recommends 2x2 stock. Anything people sit on carries real injury and liability risk, so test your design hard before selling it. The prices and the 1.9K sales are other sellers' public numbers. The video names and links a drill guide in the description; it doesn't say whether these are affiliate links. A bench is heavy to ship.",
+    "situation_tags": [
+      "Needs a dedicated workspace",
+      "Requires equipment/vehicle investment",
+      "E-commerce / fulfillment"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "outside",
+      "nosales",
+      "nocamera",
+      "novisits",
+      "noai"
+    ],
+    "found": "JASCOgoods",
+    "url": "https://www.youtube.com/watch?v=KHtW2pu9sCk",
+    "video_title": "I Wasted 2 Weeks Building This (Learn From My Mistake)",
+    "published": "2026-01-28",
+    "cost_level": "$100\u2013$500"
   },
   {
     "id": "real-estate-agent-google-youtube-ads-appointment-agency",
@@ -35776,6 +36755,42 @@
       "noai"
     ],
     "cost_level": "Under $100"
+  },
+  {
+    "id": "weekly-design-ad-testing-loop-pod-mh2",
+    "name": "Print-on-demand t-shirt brand run on a weekly loop of research, many designs, ad tests, daily data reviews and iteration",
+    "title": "High-Volume Design and Ad Testing",
+    "category": "E-commerce",
+    "tags": [
+      "print on demand",
+      "facebook ads",
+      "ad testing",
+      "t-shirt designs",
+      "iteration"
+    ],
+    "cost": "Moderate to high ongoing cost (paid ads are how every design gets tested)",
+    "found": "Meg Heckman",
+    "what": "You run a t-shirt brand on a weekly loop Meg calls four non-negotiables. First, research the customer (where they shop, the phrases they use, what they're proud of or fear) and turn it into designs at a fixed daily pace; her baseline was seven designs a day, matching what she saw top stores doing. Second, put designs into paid ads, since each ad tests whether a design stops the scroll. Third, review ad results daily, cutting flops fast and watching for multiple sales or strong return on ad spend. Fourth, ask why a winner worked (phrase, niche angle, emotion, style, color, audience) and make the next batch from that answer.",
+    "pitch": "She says her brand went from $1.85 million in sales in 2025 to $3.37 million so far in 2026 by doing the same things at higher volume, now testing 150 to 200 new ads a week with AI speeding up design. Her view is that the market, not your taste, decides which designs win.",
+    "best": "Disciplined people who can keep a steady weekly routine and handle many designs failing without getting discouraged.",
+    "truth": "The loop is a clear, honest description of how ad-driven print-on-demand works, with no promise of passive income. The sales figures are her own and unverified (the video title claims $550K a month), and her current pace of 150-200 ads a week is a team-sized operation with a large ad budget, not a beginner's starting point. Beginners should expect to spend on ads before finding a winner. The video promotes her free 12-hour YouTube course.",
+    "situation_tags": [
+      "Strictly in-home"
+    ],
+    "filters": [
+      "older",
+      "parent",
+      "health",
+      "outside",
+      "nosales",
+      "nocamera",
+      "noinventory",
+      "novisits"
+    ],
+    "url": "https://www.youtube.com/watch?v=2RCk5pQHAt4",
+    "video_title": "The Annoyingly Simple Reason My T-Shirt Brand Makes $550K/Month",
+    "published": "2026-06-27",
+    "cost_level": "Over $2,000"
   },
   {
     "id": "claude-code-functional-business-websites",
