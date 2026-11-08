@@ -4,11 +4,11 @@
     "short": "Adam",
     "channel_url": "https://www.youtube.com/channel/UCWqKcFb7h9cNEdCxB5A5BgQ",
     "subscribers": "243K",
-    "channel_videos": 67,
+    "channel_videos": 69,
     "joined_year": 2006,
     "country": "United States",
     "quote": "I created this channel to combat all of the “guru” clickbait on YouTube that promises too much, delivers too little, and makes you feel bad by comparison.",
-    "checked": "2026-10-07",
+    "checked": "2026-11-08",
     "possessive": "his"
   },
   "Patrick Dang": {
@@ -26,23 +26,23 @@
     "short": "Sean",
     "possessive": "his",
     "channel_url": "https://www.youtube.com/channel/UC6ITJIW6jgrrP5irR7WoHrw",
-    "subscribers": "513K",
-    "channel_videos": 768,
+    "subscribers": "520K",
+    "channel_videos": 781,
     "joined_year": 2011,
     "country": "United States",
     "quote": "I believe in building simple digital businesses that give you financial, time, and emotional freedom.",
-    "checked": "2026-10-07"
+    "checked": "2026-11-08"
   },
   "Jesse Cunningham": {
     "short": "Jesse",
     "possessive": "his",
     "channel_url": "https://www.youtube.com/channel/UC_DfvBDqCexXZ_xtEDKHVBA",
-    "subscribers": "119K",
-    "channel_videos": 145,
+    "subscribers": "121K",
+    "channel_videos": 152,
     "joined_year": 2022,
     "country": "United States",
     "quote": "I help entrepreneurs and business owners grow their revenue online through AI-powered systems.",
-    "checked": "2026-10-07"
+    "checked": "2026-11-08"
   },
   "Meg Heckman": {
     "short": "Meg",
@@ -65,5 +65,49 @@
     "country": "United States",
     "quote": "I share simple woodworking builds, real-world mistakes, and how I fix them along the way.",
     "checked": "2026-11-06"
+  },
+  "Luna Vega": {
+    "short": "Luna",
+    "possessive": "her",
+    "channel_url": "https://www.youtube.com/channel/UCV3-kGFJHeFnh6RP9fFPoRg",
+    "subscribers": "66.7K",
+    "channel_videos": 1121,
+    "joined_year": 2014,
+    "country": "United States",
+    "quote": "I help experts, professionals, and digital entrepreneurs turn what they already know into sellable AI tools",
+    "checked": "2026-11-08"
+  },
+  "Diamond Chanel": {
+    "short": "Diamond",
+    "possessive": "her",
+    "channel_url": "https://www.youtube.com/channel/UCkNgn6JfHAQ1CptJcgjTdvA",
+    "subscribers": "235K",
+    "channel_videos": 202,
+    "joined_year": 2020,
+    "country": "United States",
+    "quote": "we break down realistic ways to make extra income — without hype, without fluff, and without scams.",
+    "checked": "2026-11-08"
+  },
+  "Make Money with Stacy La": {
+    "short": "Stacy",
+    "possessive": "her",
+    "channel_url": "https://www.youtube.com/channel/UCIcoDIrQQxBbZqnPzO1zDFQ",
+    "subscribers": "265K",
+    "channel_videos": 80,
+    "joined_year": 2020,
+    "country": "Canada",
+    "quote": "I'm an entrepreneur & content creator who loves starting & growing online businesses using AI & simple automations.",
+    "checked": "2026-11-08"
+  },
+  "The Calum Johnson Show": {
+    "short": "Calum",
+    "possessive": "his",
+    "channel_url": "https://www.youtube.com/channel/UCuvjQYKukKjVyhSVxQibgOw",
+    "subscribers": "339K",
+    "channel_videos": 496,
+    "joined_year": 2013,
+    "country": "United States",
+    "quote": "Curious questions from a curious mind with the most remarkable people on the planet.",
+    "checked": "2026-11-08"
   }
 }
