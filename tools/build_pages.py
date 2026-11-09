@@ -208,6 +208,10 @@ class Site:
         for x in self.pages:
             k = title_case(x['name']).lower(); tc[k] = tc.get(k, 0) + 1
         self.dup_titles = {k for k, n in tc.items() if n > 1}
+        sc = {}
+        for x in self.pages:
+            k = short_title(x).lower(); sc[k] = sc.get(k, 0) + 1
+        self.dup_short = {k for k, n in sc.items() if n > 1}
         self.video_counts = {}
         for x in ideas:
             k = video_key(x.get('url'))
@@ -545,12 +549,15 @@ def breadcrumb_schema(parts):
 # ---------- idea page ----------
 
 def idea_page(idea, site, ctx):
-    t = title_case(idea['name'])          # full name: page title and search snippets
-    if t.lower() in site.dup_titles:
-        t = f"{t} ({idea['found']})"
     short = short_title(idea)             # short headline shown on the page
+    # Search title (Kevin approved Nov 9, 2026: matches "is X worth it / legit" searches).
+    # The creator's name is added when two gigs share a short headline.
+    head = f"{short} ({idea['found']})" if short.lower() in site.dup_short else short
+    t = f"{head}: Is It Worth It? The Honest Take"
     url = f"{SITE}/ideas/{idea['id']}/"
-    desc = trim(idea['what'], 155)
+    # Search description: our Truth first, then the cost level.
+    tail = f" ({cost_short(idea)})"
+    desc = trim('The truth, as we see it: ' + idea['truth'], 155 - len(tail)) + tail
     date_txt = fmt_date(idea.get('published'))
     others = [x for x in site.by_creator(idea['found']) if x['id'] != idea['id']]
     rel = site.related(idea)
@@ -682,7 +689,7 @@ def category_page(cat, site, ctx):
     total_in_cat = len(site.in_category(cat, released_only=False))
     url = f"{SITE}/category/{slugify(cat)}/"
     intro = site.intros.get(cat, '')
-    title = f"{cat_name(cat)}: work-at-home gigs"
+    title = f"{title_case(cat_name(cat))} Work-at-Home Gigs, With the Real Catch"
     desc = trim(intro, 155)
     current = ' aria-current="page"'
     nav = ''.join(
@@ -729,7 +736,7 @@ def featured_creator_page(name, site, ctx):
     cat_list = sorted(cats.items(), key=lambda kv: (-kv[1], kv[0]))
     idea_w = 'gig' if n == 1 else 'gigs'
     vid_w = 'video' if nv == 1 else 'videos'
-    title = f"Work-at-home gigs from {name}"
+    title = creator_title(name, n)
     prof = site.profiles.get(name, {})
     short = prof.get('short') or name
     cv = prof.get('channel_videos')
@@ -816,6 +823,13 @@ def featured_creator_page(name, site, ctx):
                  og_type='profile', schema=schema, main=main)
 
 
+def creator_title(name, n):
+    """Search title for creator pages (Kevin approved Nov 9, 2026); neutral wording,
+    since creators we email will see it."""
+    poss = name + ("'" if name.endswith('s') else "'s")
+    return f"{poss} Side Hustle Ideas: {n} Honest Write-up{'' if n == 1 else 's'}"
+
+
 def creator_page(name, site, ctx):
     if name in site.featured:
         return featured_creator_page(name, site, ctx)
@@ -825,7 +839,7 @@ def creator_page(name, site, ctx):
     noun = 'gig' if n == 1 else 'gigs'
     intro = (f"{n} work-at-home {noun} from {name}'s videos. Each entry sums up the gig as the "
              f"video presents it and adds our own assessment in The Truth, with a link to the original video.")
-    title = f"Work-at-home gigs from {name}"
+    title = creator_title(name, n)
     av = avatar_file(name)
     avatar = f'<img class="gig-av" src="{ctx.img(av, "image/jpeg")}" alt="{esc(name)}">' if av else ''
     schema = [item_list_schema(items, title, url),
@@ -865,6 +879,39 @@ Sitemap: {SITE}/sitemap.xml
 """
 
 
+# Old addresses that Google still shows (Search Console, Nov 9, 2026), forwarded to the
+# page that replaced them. Add a line here whenever a creator page is renamed.
+REDIRECTS = {
+    'creator/mark-tilbury-and-iman-gadzhi-covered-independently-by-both': '/creator/mark-tilbury/',
+    'creator/chris-koerner-on-the-koerner-office-podcast': '/creator/chris-koerner/',
+    'creator/chris-koerner-on-the-koerner-office-podcast-guest-eli': '/creator/chris-koerner/',
+}
+
+
+def redirect_page(target):
+    t = esc(target)
+    return (f'<!DOCTYPE html>\n<html lang="en"><head><meta charset="UTF-8">\n'
+            f'<title>Moved — Side Hustle Intel</title>\n<meta name="robots" content="noindex">\n'
+            f'<link rel="canonical" href="{SITE}{t}">\n'
+            f'<meta http-equiv="refresh" content="0; url={t}">\n'
+            f'<script>location.replace({json.dumps(target)});</script>\n'
+            f'</head><body><p>This page has moved: <a href="{t}">continue</a>.</p></body></html>\n')
+
+
+def not_found_page(site, ctx):
+    """Shown for any address that doesn't exist (gigs removed from the database, old links)."""
+    main = f"""<main class="idea-page list-page">
+  <div class="list-head"><h1>That page isn&rsquo;t here anymore</h1></div>
+  <p class="list-intro">The gig or page you were looking for has been removed or moved. Gigs leave the database when the work turns out not to be doable from home.</p>
+  <p class="list-intro">The database still has {rounded(site.total())} work-at-home gigs, each with our honest take.</p>
+  <p class="fc-cta"><a class="btn" href="/tool/" data-cta="404-browse">Browse the database &rarr;</a></p>
+  <p class="list-intro">Or <a href="/quiz/" data-cta="404-quiz">take the 60-second quiz</a> to find gigs that fit you.</p>
+</main>"""
+    return shell(ctx, site, title="Page Not Found", desc="This page has moved or been removed. Browse the Side Hustle Intel database of work-at-home gigs.",
+                 canonical=SITE + '/', og_type='website', schema=[], main=main).replace(
+                 '<link rel="canonical"', '<meta name="robots" content="noindex">\n<link rel="canonical"', 1)
+
+
 def write(path, text):
     full = os.path.join(ROOT, path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
@@ -887,6 +934,10 @@ def build_all(site):
             raise SystemExit(f'Two creators share the address /creator/{s}/: {slugs[s]!r} and {name!r}')
         slugs[s] = name
         write(f"creator/{s}/index.html", creator_page(name, site, ctx))
+    for old, new in REDIRECTS.items():
+        if not os.path.exists(os.path.join(ROOT, old)):
+            write(f"{old}/index.html", redirect_page(new))
+    write('404.html', not_found_page(site, ctx))
     sm, n_urls = sitemap(site)
     write('sitemap.xml', sm)
     write('robots.txt', ROBOTS)
