@@ -3,9 +3,11 @@
 // Gigs show first; filters sit in a column on the left (a "Filters" button on phones).
 // - Type of gig: tick one or more categories (none ticked = all).
 // - Your situation: every ticked box narrows the list (same tags as the live tool).
-// - Search: only gigs matching the words show, best match first.
+// - Popular topics: one-tap topic buttons; they add to the Type of gig choices.
+// - Search: only gigs matching the words show, best match first. The search box stands
+//   alone: searching clears the filters, and ticking a filter clears the search.
 // Links can preset everything: ?kind=products|services|audience, ?cat=slug[,slug],
-// ?f=lowcost,nocamera, ?q=words, ?open=<gig id>, ?sort=newest.
+// ?topic=thrift[,etsy], ?f=lowcost,nocamera, ?q=words, ?open=<gig id>, ?sort=newest.
 
 const SITUATIONS = [
   { id: 'older', label: '50+ or retired' },
@@ -20,12 +22,40 @@ const SITUATIONS = [
   { id: 'noai', label: 'No AI needed' }
 ];
 const SIT_LABEL = Object.fromEntries(SITUATIONS.map(s => [s.id, s.label]));
+
+// Popular topics (Nov 9, 2026, Kevin): one-tap buttons for the topics creators cover most.
+// A gig belongs to a topic when its short title, full name or tags match `re` (thrift uses
+// title + tags only) and don't match `not` (unless they match `keep`). This keeps software
+// "reseller" gigs out of Thrift & flipping, for example. New gigs are sorted in automatically.
+// To add a topic: add a line here; ?topic=<id> links work straight away.
+const TOPICS = [
+  { id: 'thrift', label: 'Thrift & flipping', tagsOnly: true,
+    re: /thrift|goodwill|garage[- ]sale|yard[- ]sale|flea market|estate sale|liquidation|pallet|retail arbitrage|reselling|resale|resell|flipping|used (?:book|media|phone|parts|goods|electronics)|ebay|poshmark|depop|mercari|vinted|whatnot|secondhand|second-hand|sports card|sell stuff|declutter/,
+    not: /saas|software|receptionist|voice agent|white[- ]label|domain|brand deal|affiliate|freelance|ppc|digital product|cleaning|ai video|private label|wholesale|authorization|blank apparel|food resale|upcycl|print on demand|woodworking/,
+    keep: /used book|used media|book flipping|liquidation/ },
+  { id: 'etsy', label: 'Etsy & crafts', re: /etsy|handmade|crochet|knit|candle|jewelry|sewing|woodwork|resin|\bcrafts?\b|crafting|upcycl|soap/ },
+  { id: 'kdp', label: 'Amazon KDP', re: /\bkdp\b|kindle|low[- ]content|coloring book|activity book|puzzle book|self[- ]publish|amazon book|children'?s book|kids'? book|journal publishing|publishing on amazon/, not: /book funnel|lead magnet/ },
+  { id: 'pod', label: 'Print-on-demand', re: /print[- ]on[- ]demand|\bpod\b|printify|printful|merch by amazon|redbubble|teespring|spreadshirt|t-?shirt|custom mug|tote bag|apparel design/, not: /\bkdp\b|kindle|coloring book|low[- ]content|blank apparel/ },
+  { id: 'faceless', label: 'Faceless YouTube', re: /faceless (?:youtube|channel|video)|youtube automation|cash cow|faceless.*youtube|youtube.*faceless/ },
+  { id: 'affiliate', label: 'Affiliate marketing', re: /affiliate/ },
+  { id: 'coaching', label: 'Coaching & courses', re: /coach|online course|course creat|udemy|cohort|teach(?:ing)? online|membership|skool/ },
+  { id: 'dropship', label: 'Dropshipping', re: /dropship|drop[- ]ship/ }
+];
+const TOPIC_BY_ID = Object.fromEntries(TOPICS.map(t => [t.id, t]));
+function inTopic(i, id) {
+  if (!i._t) {
+    const full = [i.title, i.name, (i.tags || []).join(' | ')].join(' | ').toLowerCase();
+    const short = [i.title, (i.tags || []).join(' | ')].join(' | ').toLowerCase();
+    i._t = new Set(TOPICS.filter(t => { const x = t.tagsOnly ? short : full; return t.re.test(x) && (!t.not || !t.not.test(x) || (t.keep && t.keep.test(x))); }).map(t => t.id));
+  }
+  return i._t.has(id);
+}
 const PAGE = 30;
 
 let ALL = [], SHUFFLED = [], pageIds = new Set(), LAST_N = 0;
 // YouTube view counts by video ID, from /views.json (refreshed weekly by a GitHub Action).
 let VIEWS = {}, VIEWS_DATE = '';
-const st = { cats: new Set(), chips: new Set(), q: '', sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set(), pin: null, kind: '' };
+const st = { cats: new Set(), topics: new Set(), chips: new Set(), q: '', sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set(), pin: null, kind: '' };
 let saved = new Set(loadSaved());
 const $ = id => document.getElementById(id);
 
@@ -102,7 +132,8 @@ function baseFiltered(skipCats) {
   let list = SHUFFLED;
   // Saved view shows every saved gig, whatever filters or search are on (Nov 5, 2026 fix).
   if (st.savedOnly) return list.filter(i => saved.has(i.id));
-  if (!skipCats && st.cats.size) list = list.filter(i => st.cats.has(i.category));
+  // Popular topics and Type of gig add together ("what interests you?"); Your situation narrows.
+  if (!skipCats && (st.cats.size || st.topics.size)) { const tp = [...st.topics]; list = list.filter(i => st.cats.has(i.category) || tp.some(t => inTopic(i, t))); }
   if (st.chips.size) { const need = [...st.chips]; list = list.filter(i => need.every(c => hasTag(i, c))); }
   return list;
 }
@@ -210,6 +241,10 @@ function gigHtml(i) {
 
 function renderFilters() {
   const base = baseFiltered(true);
+  $('topic-btns').innerHTML = TOPICS.map(t => {
+    const n = base.filter(i => inTopic(i, t.id)).length;
+    return `<button type="button" class="topic-btn" data-topic="${t.id}" aria-pressed="${st.topics.has(t.id)}">${esc(t.label)}<span class="n">${n}</span></button>`;
+  }).join('');
   $('cat-boxes').innerHTML = CATS.map(c => {
     const n = base.filter(i => i.category === c.cat).length;
     return `<label><input type="checkbox" data-cat="${esc(c.cat)}" ${st.cats.has(c.cat) ? 'checked' : ''}>${esc(c.name)}<span class="n">${n}</span></label>`;
@@ -226,6 +261,8 @@ function kindActive() {
 function heading() {
   if (st.savedOnly) return 'Your saved gigs';
   if (st.q.trim()) return `Gigs matching “${st.q.trim()}”`;
+  if (st.topics.size === 1 && !st.cats.size) return TOPIC_BY_ID[[...st.topics][0]].label + ' gigs';
+  if (st.topics.size) return 'Work-at-home gigs';
   if (st.cats.size === 1) return CAT_BY_NAME[[...st.cats][0]].name + ' gigs';
   if (kindActive()) return KINDS[st.kind].name + ' gigs';
   return 'Work-at-home gigs';
@@ -238,7 +275,7 @@ function render() {
   const prev = $('count').dataset.n;
   // Oct 30, 2026 (Kevin): make an active search or filter impossible to miss, with a one-click way out.
   const gigsTxt = `<strong>${n.toLocaleString()} gig${n === 1 ? '' : 's'}</strong>`;
-  const narrowed = st.cats.size || st.chips.size;
+  const narrowed = st.cats.size || st.topics.size || st.chips.size;
   if (st.savedOnly) $('count').innerHTML = `${gigsTxt} saved · <button type="button" class="count-clear" data-clear="saved">Back to all gigs</button>`;
   else if (st.q.trim() && st.budget) $('count').innerHTML = `Showing ${gigsTxt} that cost under $100 to start${narrowed ? ', with your filters' : ''} · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
   else if (st.q.trim() && st.loose) $('count').innerHTML = `No gig mentions every word of “${esc(st.q.trim())}”. Showing ${gigsTxt} that match some of them · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
@@ -255,6 +292,7 @@ function render() {
     if (saved.size) act.push(`<button type="button" class="small-btn" data-x="download">Download my saved gigs</button>`);
   }
   if (st.q.trim()) act.push(`<button type="button" class="chip-x" data-x="q">“${esc(st.q.trim())}” ×</button>`);
+  st.topics.forEach(t => act.push(`<button type="button" class="chip-x" data-x="topic" data-v="${t}">${esc(TOPIC_BY_ID[t].label)} ×</button>`));
   if (kindActive()) act.push(`<button type="button" class="chip-x" data-x="kind">${esc(KINDS[st.kind].name)} gigs ×</button>`);
   else st.cats.forEach(c => act.push(`<button type="button" class="chip-x" data-x="cat" data-v="${esc(c)}">${esc(CAT_BY_NAME[c].name)} ×</button>`));
   st.chips.forEach(c => act.push(`<button type="button" class="chip-x" data-x="chip" data-v="${c}">${esc(SIT_LABEL[c])} ×</button>`));
@@ -266,7 +304,7 @@ function render() {
   $('list').innerHTML = list.slice(0, st.shown).map(gigHtml).join('');
   $('empty').hidden = n > 0;
   $('empty').innerHTML = st.savedOnly ? 'No saved gigs yet. Tap the heart on any gig to save it.'
-    : (st.q.trim() && !st.cats.size && !st.chips.size) ? `No gigs mention “${esc(st.q.trim())}”. Try a broader word like “writing”, “Etsy” or “assistant”, or <a href="/quiz/">take the quiz</a>.`
+    : st.q.trim() ? `No gigs mention “${esc(st.q.trim())}”. Try a broader word like “writing”, “Etsy” or “assistant”, or <a href="/quiz/">take the quiz</a>.`
     : 'No gigs match all of these choices. Try removing one.';
   placeSignup(n);
   LAST_N = n;
@@ -280,6 +318,7 @@ function syncUrl() {
   const p = new URLSearchParams();
   if (kindActive()) p.set('kind', st.kind);
   else if (st.cats.size) p.set('cat', [...st.cats].map(c => CAT_BY_NAME[c].slug).join(','));
+  if (st.topics.size) p.set('topic', [...st.topics].join(','));
   if (st.chips.size) p.set('f', [...st.chips].join(','));
   if (st.q.trim()) p.set('q', st.q.trim());
   const s = p.toString();
@@ -299,8 +338,20 @@ function placeSignup(n) {
 function changed() { st.pin = null; st.shown = PAGE; render(); }
 
 // ---------- Events ----------
+// Nov 9, 2026 (Kevin): the search box stands alone. Ticking any filter clears the search,
+// and running a search clears every filter, so the two never quietly narrow each other.
+function clearSearch() { st.q = ''; $('q').value = ''; }
+function clearBoxes() { st.cats.clear(); st.topics.clear(); st.chips.clear(); st.kind = ''; }
+$('filters').addEventListener('click', e => {
+  const b = e.target.closest('[data-topic]'); if (!b) return;
+  const id = b.dataset.topic, on = !st.topics.has(id);
+  on ? st.topics.add(id) : st.topics.delete(id);
+  st.savedOnly = false; clearSearch(); changed();
+  if (on) track('filter_topic', { topic: TOPIC_BY_ID[id].label, gigs_found: results().length });
+});
 $('filters').addEventListener('change', e => {
   const t = e.target;
+  st.savedOnly = false; clearSearch();
   if (t.dataset.cat) { t.checked ? st.cats.add(t.dataset.cat) : st.cats.delete(t.dataset.cat); st.kind = ''; }
   if (t.dataset.chip) t.checked ? st.chips.add(t.dataset.chip) : st.chips.delete(t.dataset.chip);
   changed();
@@ -311,7 +362,7 @@ $('count').addEventListener('click', e => {
   const b = e.target.closest('[data-clear]'); if (!b) return;
   if (b.dataset.clear === 'q') { st.q = ''; $('q').value = ''; }
   else if (b.dataset.clear === 'saved') st.savedOnly = false;
-  else { st.savedOnly = false; st.q = ''; $('q').value = ''; st.cats.clear(); st.chips.clear(); st.kind = ''; syncBoxesSafe(); }
+  else { st.savedOnly = false; clearSearch(); clearBoxes(); syncBoxesSafe(); }
   changed();
 });
 function syncBoxesSafe() { try { renderFilters(); } catch (e) {} }
@@ -323,12 +374,15 @@ $('active').addEventListener('click', e => {
   if (x === 'q') { st.q = ''; $('q').value = ''; }
   if (x === 'cat') { st.cats.delete(b.dataset.v); st.kind = ''; }
   if (x === 'chip') st.chips.delete(b.dataset.v);
+  if (x === 'topic') st.topics.delete(b.dataset.v);
   if (x === 'kind') { st.cats.clear(); st.kind = ''; }
-  if (x === 'all') { st.savedOnly = false; st.q = ''; $('q').value = ''; st.cats.clear(); st.chips.clear(); st.kind = ''; }
+  if (x === 'all') { st.savedOnly = false; clearSearch(); clearBoxes(); }
   changed();
 });
 $('search-form').addEventListener('submit', e => {
-  e.preventDefault(); st.q = $('q').value; st.savedOnly = false; changed(); $('q').blur();
+  e.preventDefault(); st.q = $('q').value; st.savedOnly = false;
+  if (st.q.trim()) clearBoxes();
+  changed(); $('q').blur();
   const q = st.q.trim().toLowerCase();
   if (q) { const n = results().length; track('search', { search_term: q, results_found: n ? 'yes' : 'no', match_count: n }); }
 });
@@ -413,11 +467,13 @@ function applyParams() {
   if (KINDS[kind]) { st.kind = kind; KINDS[kind].cats.forEach(s => st.cats.add(CAT_BY_SLUG[s].cat)); }
   (p.get('cat') || '').toLowerCase().split(',').forEach(s => { if (CAT_BY_SLUG[s.trim()]) st.cats.add(CAT_BY_SLUG[s.trim()].cat); });
   (p.get('f') || '').split(',').forEach(f => { if (SIT_LABEL[f.trim()]) st.chips.add(f.trim()); });
-  const q = (p.get('q') || '').trim(); if (q) { st.q = q; $('q').value = q; }
+  (p.get('topic') || '').toLowerCase().split(',').forEach(t => { if (TOPIC_BY_ID[t.trim()]) st.topics.add(t.trim()); });
+  // A search link wins over any filters in the same link (the search box stands alone).
+  const q = (p.get('q') || '').trim(); if (q) { clearBoxes(); st.q = q; $('q').value = q; }
   const open = p.get('open'); if (open && ALL.some(i => i.id === open)) { st.open.add(open); st.pin = open; }
   // ?sort=newest|oldest|views (the quiz's saved link uses newest, for the Saturday email's "new matches" button)
   const so = p.get('sort'); if (['newest', 'oldest', 'views', 'shuffle'].includes(so)) { st.sort = so; $('sort').value = so; }
-  if (q || open || st.cats.size || st.chips.size) track('link_landing', { search_term: q, idea_id: open || '', idea_category: [...st.cats].join(','), chips: [...st.chips].join(',') });
+  if (q || open || st.cats.size || st.topics.size || st.chips.size) track('link_landing', { search_term: q, idea_id: open || '', idea_category: [...st.cats].join(','), topics: [...st.topics].join(','), chips: [...st.chips].join(',') });
 }
 
 loadIdeas().then(data => {

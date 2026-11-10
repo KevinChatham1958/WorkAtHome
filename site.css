@@ -167,6 +167,12 @@ a.creator:hover { color: var(--accent); }
 .fbox h2 { font-size: 18px; margin-bottom: 2px; }
 .fhint { margin: 0 0 8px; font-size: 14px; color: var(--muted); }
 .apply { display: none; }
+/* Popular topics (Nov 9, 2026): one-tap topic buttons at the top of the filter column. */
+.topic-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.topic-btn { font: inherit; font-size: 15px; font-weight: 600; color: var(--navy); background: #FFFFFF; border: 1.5px solid var(--field); border-radius: 999px; padding: 6px 12px; cursor: pointer; line-height: 1.25; }
+.topic-btn:hover, .topic-btn:focus-visible { border-color: var(--accent); color: var(--accent-dark); }
+.topic-btn[aria-pressed="true"] { background: var(--accent-tint); color: var(--accent-dark); border-color: var(--accent); }
+.topic-btn .n { font-weight: 400; color: var(--muted); font-size: 13px; margin-left: 4px; }
 .sticky-top { position: sticky; top: 0; z-index: 5; background: var(--tint); padding: 12px 0; margin-top: -12px; display: flex; flex-direction: column; gap: 12px; border-bottom: 1px solid transparent; }
 .sticky-top.stuck { border-bottom-color: var(--line); box-shadow: 0 6px 10px -8px rgba(15,61,87,0.25); }
 #count strong { border-radius: 6px; padding: 1px 4px; margin: 0 -4px; transition: background .6s; }

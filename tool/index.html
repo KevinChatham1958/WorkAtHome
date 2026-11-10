@@ -21,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261105m">
+<link rel="stylesheet" href="/site.css?v=20261109t">
 </head>
 <body class="results-page">
 
@@ -60,6 +60,11 @@
   <div class="wrap layout">
     <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Filters</button>
     <aside class="filters" id="filters" aria-label="Filters">
+      <div class="fbox">
+        <h2>Popular topics</h2>
+        <p class="fhint">Tap any that interest you.</p>
+        <div class="topic-btns" id="topic-btns"></div>
+      </div>
       <div class="fbox">
         <h2>Type of gig you like</h2>
         <p class="fhint">Tick any that interest you.</p>
@@ -121,10 +126,10 @@
 </footer>
 
 <script src="/site.js?v=20261105h"></script>
-<script src="/tool/results.js?v=20261105m"></script>
+<script src="/tool/results.js?v=20261109t"></script>
 <script>
 // Quiz nudge: hidden for visitors who arrive with filters already set (for example from the quiz).
-if (/[?&](cat|f|kind|q|open)=/.test(location.search)) { const n = document.getElementById('quiz-nudge'); if (n) n.hidden = true; }
+if (/[?&](cat|topic|f|kind|q|open)=/.test(location.search)) { const n = document.getElementById('quiz-nudge'); if (n) n.hidden = true; }
 // Visitors arriving from the quiz (it sets shi_quiz_done just before sending them here) see a short
 // explanation instead, since many never saw the homepage. Shown once per quiz submission.
 try {
