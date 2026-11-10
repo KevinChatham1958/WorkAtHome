@@ -3,7 +3,7 @@
 // Gigs show first; filters sit in a column on the left (a "Filters" button on phones).
 // - Type of gig: tick one or more categories (none ticked = all).
 // - Your situation: every ticked box narrows the list (same tags as the live tool).
-// - Popular topics: one-tap topic buttons; they add to the Type of gig choices.
+// - Popular topics: one-tap topic buttons, one at a time; they add to the Type of gig choices.
 // - Search: only gigs matching the words show, best match first. The search box stands
 //   alone: searching clears the filters, and ticking a filter clears the search.
 // Links can preset everything: ?kind=products|services|audience, ?cat=slug[,slug],
@@ -345,7 +345,8 @@ function clearBoxes() { st.cats.clear(); st.topics.clear(); st.chips.clear(); st
 $('filters').addEventListener('click', e => {
   const b = e.target.closest('[data-topic]'); if (!b) return;
   const id = b.dataset.topic, on = !st.topics.has(id);
-  on ? st.topics.add(id) : st.topics.delete(id);
+  // One topic at a time (Kevin, Nov 10): picking a new topic replaces the current one.
+  st.topics.clear(); if (on) st.topics.add(id);
   st.savedOnly = false; clearSearch(); changed();
   if (on) track('filter_topic', { topic: TOPIC_BY_ID[id].label, gigs_found: results().length });
 });
@@ -467,7 +468,7 @@ function applyParams() {
   if (KINDS[kind]) { st.kind = kind; KINDS[kind].cats.forEach(s => st.cats.add(CAT_BY_SLUG[s].cat)); }
   (p.get('cat') || '').toLowerCase().split(',').forEach(s => { if (CAT_BY_SLUG[s.trim()]) st.cats.add(CAT_BY_SLUG[s.trim()].cat); });
   (p.get('f') || '').split(',').forEach(f => { if (SIT_LABEL[f.trim()]) st.chips.add(f.trim()); });
-  (p.get('topic') || '').toLowerCase().split(',').forEach(t => { if (TOPIC_BY_ID[t.trim()]) st.topics.add(t.trim()); });
+  { const t = (p.get('topic') || '').toLowerCase().split(',').map(x => x.trim()).find(x => TOPIC_BY_ID[x]); if (t) st.topics.add(t); }
   // A search link wins over any filters in the same link (the search box stands alone).
   const q = (p.get('q') || '').trim(); if (q) { clearBoxes(); st.q = q; $('q').value = q; }
   const open = p.get('open'); if (open && ALL.some(i => i.id === open)) { st.open.add(open); st.pin = open; }
