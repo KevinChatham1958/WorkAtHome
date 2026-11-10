@@ -660,3 +660,12 @@ a.creator:hover { color: var(--accent); }
 #featured .truth-note { font-size: 13px !important; }
 @media (max-width: 760px) { #featured { border-radius: 0; margin-left: -16px; margin-right: -16px; padding: 40px 16px 44px !important; } #featured .feat { padding: 18px 16px; } #featured .feat h3 { font-size: 20px; } #featured .feat-sec p { font-size: 15px; } }
 .fhint-sub { margin-top: 10px; }
+/* Phones (Nov 10, 2026): "What interests you?" buttons as one swipeable row above the gigs. */
+.m-topics { display: none; }
+@media (max-width: 860px) {
+  .main { min-width: 0; max-width: 100%; }
+  .m-topics { max-width: 100%; display: flex; flex-wrap: nowrap; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; padding: 2px 0 10px; margin-bottom: 6px; scrollbar-width: none; }
+  .m-topics::-webkit-scrollbar { display: none; }
+  .m-topics .topic-btn { flex: 0 0 auto; white-space: nowrap; font-size: 14px; padding: 5px 11px; }
+  .fbox-interest { display: none; }
+}

@@ -250,6 +250,8 @@ function renderFilters() {
     const n = base.filter(i => i.category === c.cat).length;
     return `<button type="button" class="topic-btn" data-cat="${esc(c.cat)}" aria-pressed="${st.cats.has(c.cat)}">${esc(c.name)}<span class="n">${n}</span></button>`;
   }).join('');
+  // Phones: the same buttons as one swipeable row above the gigs (the filter column is folded away).
+  $('m-topics').innerHTML = $('topic-btns').innerHTML + $('cat-boxes').innerHTML;
   $('sit-boxes').innerHTML = SITUATIONS.map(s =>
     `<label><input type="checkbox" data-chip="${s.id}" ${st.chips.has(s.id) ? 'checked' : ''}>${esc(s.label)}</label>`).join('');
 }
@@ -345,7 +347,7 @@ function clearSearch() { st.q = ''; $('q').value = ''; }
 function clearBoxes() { st.cats.clear(); st.topics.clear(); st.chips.clear(); st.kind = ''; }
 // "What interests you?" (Kevin, Nov 10): topics and types are one section, one choice at a time.
 // Picking any button replaces the current topic or type; tapping it again turns it off.
-$('filters').addEventListener('click', e => {
+function onInterestClick(e) {
   const b = e.target.closest('button[data-topic], button[data-cat]'); if (!b) return;
   const id = b.dataset.topic, cat = b.dataset.cat;
   const on = id ? !st.topics.has(id) : !(st.cats.size === 1 && st.cats.has(cat) && !st.kind);
@@ -354,7 +356,9 @@ $('filters').addEventListener('click', e => {
   st.savedOnly = false; clearSearch(); changed();
   if (on && id) track('filter_topic', { topic: TOPIC_BY_ID[id].label, gigs_found: results().length });
   if (on && cat) track('filter_category', { idea_category: cat, gigs_found: results().length });
-});
+}
+$('filters').addEventListener('click', onInterestClick);
+$('m-topics').addEventListener('click', onInterestClick);
 $('filters').addEventListener('change', e => {
   const t = e.target;
   st.savedOnly = false; clearSearch();
@@ -413,7 +417,7 @@ $('saved-link').addEventListener('click', e => { e.preventDefault(); st.savedOnl
 $('apply').addEventListener('click', () => {
   $('filters').classList.remove('open');
   $('filters-toggle').setAttribute('aria-expanded', 'false');
-  $('filters-toggle').textContent = 'Filters';
+  $('filters-toggle').textContent = 'Your situation & more filters';
   document.querySelector('.main').scrollIntoView({ behavior: 'smooth', block: 'start' });
 });
 // Height of the locked top row, so the count bar and filters line up just below it.
@@ -439,7 +443,7 @@ window.addEventListener('scroll', () => {
 $('filters-toggle').addEventListener('click', () => {
   const open = $('filters').classList.toggle('open');
   $('filters-toggle').setAttribute('aria-expanded', String(open));
-  $('filters-toggle').textContent = open ? 'Hide filters' : 'Filters';
+  $('filters-toggle').textContent = open ? 'Hide filters' : 'Your situation & more filters';
 });
 $('list').addEventListener('click', e => {
   const b = e.target.closest('[data-act]');

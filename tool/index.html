@@ -21,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261110c">
+<link rel="stylesheet" href="/site.css?v=20261110d">
 </head>
 <body class="results-page">
 
@@ -58,9 +58,9 @@
 <div class="results-body">
   <p class="wrap quiz-nudge" id="quiz-nudge">New here? <a href="/quiz/" data-cta="tool-nudge">Take the 60-second quiz</a> and we'll tick the right boxes for you.</p>
   <div class="wrap layout">
-    <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Filters</button>
+    <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Your situation &amp; more filters</button>
     <aside class="filters" id="filters" aria-label="Filters">
-      <div class="fbox">
+      <div class="fbox fbox-interest">
         <h2>What interests you?</h2>
         <p class="fhint">Tap one. Popular topics:</p>
         <div class="topic-btns" id="topic-btns"></div>
@@ -76,6 +76,7 @@
     </aside>
 
     <main class="main">
+      <div class="m-topics" id="m-topics" aria-label="What interests you?"></div>
       <div class="sticky-top">
       <div class="main-top">
         <div>
@@ -123,7 +124,7 @@
 </footer>
 
 <script src="/site.js?v=20261105h"></script>
-<script src="/tool/results.js?v=20261110b"></script>
+<script src="/tool/results.js?v=20261110d"></script>
 <script>
 // Quiz nudge: hidden for visitors who arrive with filters already set (for example from the quiz).
 if (/[?&](cat|topic|f|kind|q|open)=/.test(location.search)) { const n = document.getElementById('quiz-nudge'); if (n) n.hidden = true; }
