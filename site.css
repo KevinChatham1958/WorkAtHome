@@ -669,3 +669,5 @@ a.creator:hover { color: var(--accent); }
   .m-topics .topic-btn { flex: 0 0 auto; white-space: nowrap; font-size: 14px; padding: 5px 11px; }
   .fbox-interest { display: none; }
 }
+/* Quiz retired Nov 10, 2026: single start card on the homepage and built pages. */
+.h-choices.h-choices-one { grid-template-columns: 1fr; max-width: 560px; margin-top: 30px; }

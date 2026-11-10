@@ -166,18 +166,8 @@ def build(days):
     # Personal matches (Nov 3, 2026, Production Process §17): quiz-takers who gave their email have
     # their filtered gig-browser link (newest first) saved in the Kit custom field "quiz_link".
     # Kit's Liquid shows them a personal button; everyone else gets an invitation to take the quiz.
-    QUIZ_BLOCK = (
-        '{% if subscriber.quiz_link and subscriber.quiz_link != "" %}'
-        '<tr><td align="center" style="padding:6px 0 20px">'
-        '<a href="{{ subscriber.quiz_link }}" style="display:inline-block;background:#C2410C;color:#FFFFFF;'
-        'font-size:17px;font-weight:bold;text-decoration:none;padding:13px 24px;border-radius:8px">'
-        'See this week&#39;s new gigs that match your quiz answers &rarr;</a></td></tr>'
-        '{% else %}'
-        '<tr><td align="center" style="padding:6px 0 20px">'
-        f'<p style="font-size:15px;color:#3C5260;margin:0">Want your own list? <a href="{SITE}/quiz/?from=email" '
-        'style="color:#9A3412;font-weight:bold">Take the 60-second quiz</a> and every email will include a link to the new gigs that fit you.</p>'
-        '</td></tr>'
-        '{% endif %}')
+    # The quiz was retired Nov 10, 2026 (Kevin); its personal-matches button and invitation were removed.
+    QUIZ_BLOCK = ''
     body = f"""<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#FFFFFF"><tr><td align="center" style="padding:8px 12px 20px">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;{FONT};color:#16202e">
 <tr><td style="padding:4px 4px 18px">

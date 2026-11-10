@@ -52,6 +52,7 @@
 .see-all { display: inline-block; margin: 0 0 34px; color: var(--accent-dark); font-weight: 700; text-decoration: none; font-size: 16px; }
 .see-all:hover { text-decoration: underline; }
 .cta-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 18px 0 0; }
+.cta-pair.cta-one { grid-template-columns: 1fr; max-width: 520px; margin-left: auto; margin-right: auto; }
 .cta-card { text-decoration: none; color: var(--ink); background: #FFFFFF; border: 2.5px solid var(--accent); border-radius: 14px; padding: 22px; display: flex; flex-direction: column; gap: 8px; text-align: center; }
 .cta-card.quiz { border-color: var(--navy); }
 .cta-card b { font-family: Outfit, system-ui, sans-serif; font-size: 22px; font-weight: 700; color: var(--navy); }
