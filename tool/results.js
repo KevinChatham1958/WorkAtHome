@@ -1,7 +1,8 @@
 // The gig browser (/tool/): gigs first, filters in a column on the left.
 //
 // Gigs show first; filters sit in a column on the left (a "Filters" button on phones).
-// - Type of gig: tick one or more categories (none ticked = all).
+// - What interests you?: popular topics plus the 7 types, one choice at a time (none = all).
+//   Homepage ?kind= links can still preset a group of types.
 // - Your situation: every ticked box narrows the list (same tags as the live tool).
 // - Popular topics: one-tap topic buttons, one at a time; they add to the Type of gig choices.
 // - Search: only gigs matching the words show, best match first. The search box stands
@@ -247,7 +248,7 @@ function renderFilters() {
   }).join('');
   $('cat-boxes').innerHTML = CATS.map(c => {
     const n = base.filter(i => i.category === c.cat).length;
-    return `<label><input type="checkbox" data-cat="${esc(c.cat)}" ${st.cats.has(c.cat) ? 'checked' : ''}>${esc(c.name)}<span class="n">${n}</span></label>`;
+    return `<button type="button" class="topic-btn" data-cat="${esc(c.cat)}" aria-pressed="${st.cats.has(c.cat)}">${esc(c.name)}<span class="n">${n}</span></button>`;
   }).join('');
   $('sit-boxes').innerHTML = SITUATIONS.map(s =>
     `<label><input type="checkbox" data-chip="${s.id}" ${st.chips.has(s.id) ? 'checked' : ''}>${esc(s.label)}</label>`).join('');
@@ -342,21 +343,23 @@ function changed() { st.pin = null; st.shown = PAGE; render(); }
 // and running a search clears every filter, so the two never quietly narrow each other.
 function clearSearch() { st.q = ''; $('q').value = ''; }
 function clearBoxes() { st.cats.clear(); st.topics.clear(); st.chips.clear(); st.kind = ''; }
+// "What interests you?" (Kevin, Nov 10): topics and types are one section, one choice at a time.
+// Picking any button replaces the current topic or type; tapping it again turns it off.
 $('filters').addEventListener('click', e => {
-  const b = e.target.closest('[data-topic]'); if (!b) return;
-  const id = b.dataset.topic, on = !st.topics.has(id);
-  // One topic at a time (Kevin, Nov 10): picking a new topic replaces the current one.
-  st.topics.clear(); if (on) st.topics.add(id);
+  const b = e.target.closest('button[data-topic], button[data-cat]'); if (!b) return;
+  const id = b.dataset.topic, cat = b.dataset.cat;
+  const on = id ? !st.topics.has(id) : !(st.cats.size === 1 && st.cats.has(cat) && !st.kind);
+  st.topics.clear(); st.cats.clear(); st.kind = '';
+  if (on) id ? st.topics.add(id) : st.cats.add(cat);
   st.savedOnly = false; clearSearch(); changed();
-  if (on) track('filter_topic', { topic: TOPIC_BY_ID[id].label, gigs_found: results().length });
+  if (on && id) track('filter_topic', { topic: TOPIC_BY_ID[id].label, gigs_found: results().length });
+  if (on && cat) track('filter_category', { idea_category: cat, gigs_found: results().length });
 });
 $('filters').addEventListener('change', e => {
   const t = e.target;
   st.savedOnly = false; clearSearch();
-  if (t.dataset.cat) { t.checked ? st.cats.add(t.dataset.cat) : st.cats.delete(t.dataset.cat); st.kind = ''; }
   if (t.dataset.chip) t.checked ? st.chips.add(t.dataset.chip) : st.chips.delete(t.dataset.chip);
   changed();
-  if (t.checked && t.dataset.cat) track('filter_category', { idea_category: t.dataset.cat, gigs_found: results().length });
   if (t.checked && t.dataset.chip) track('filter_chip', { chip: SIT_LABEL[t.dataset.chip], chips_on: st.chips.size, gigs_found: results().length });
 });
 $('count').addEventListener('click', e => {

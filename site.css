@@ -155,7 +155,7 @@ a.creator:hover { color: var(--accent); }
 .layout { display: flex; gap: 28px; align-items: flex-start; }
 .quiz-nudge { margin: 0 auto 16px; font-size: 17px; color: var(--body); }
 .quiz-nudge a { font-weight: 600; color: var(--accent-dark); }
-.filters { width: 290px; flex-shrink: 0; display: flex; flex-direction: column; gap: 18px; }
+.filters { width: 320px; flex-shrink: 0; display: flex; flex-direction: column; gap: 18px; }
 /* Desktop: the filter column stays on screen and scrolls on its own, separately from the gigs. */
 @media (min-width: 861px) {
   /* The top row (logo, search, Saved, About) stays locked at the top; the count bar and filters sit just below it. */
@@ -163,16 +163,16 @@ a.creator:hover { color: var(--accent); }
   .results-page .sticky-top { top: var(--hdr, 70px); }
   .filters { position: sticky; top: calc(var(--hdr, 70px) + 12px); max-height: var(--fmax, calc(100vh - var(--hdr, 70px) - 24px)); overflow-y: auto; padding-right: 4px; scrollbar-width: thin; }
 }
-.fbox { background: #FFFFFF; border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+.fbox { background: #FFFFFF; border: 1px solid var(--line); border-radius: 12px; padding: 16px 16px; }
 .fbox h2 { font-size: 18px; margin-bottom: 2px; }
 .fhint { margin: 0 0 8px; font-size: 14px; color: var(--muted); }
 .apply { display: none; }
 /* Popular topics (Nov 9, 2026): one-tap topic buttons at the top of the filter column. */
-.topic-btns { display: flex; flex-wrap: wrap; gap: 8px; }
-.topic-btn { font: inherit; font-size: 15px; font-weight: 600; color: var(--navy); background: #FFFFFF; border: 1.5px solid var(--field); border-radius: 999px; padding: 6px 12px; cursor: pointer; line-height: 1.25; }
+.topic-btns { display: flex; flex-wrap: wrap; gap: 6px 5px; }
+.topic-btn { font: inherit; font-size: 13.5px; font-weight: 600; color: var(--navy); background: #FFFFFF; border: 1.5px solid var(--field); border-radius: 999px; padding: 3px 9px; cursor: pointer; line-height: 1.25; }
 .topic-btn:hover, .topic-btn:focus-visible { border-color: var(--accent); color: var(--accent-dark); }
 .topic-btn[aria-pressed="true"] { background: var(--accent-tint); color: var(--accent-dark); border-color: var(--accent); }
-.topic-btn .n { font-weight: 400; color: var(--muted); font-size: 13px; margin-left: 4px; }
+.topic-btn .n { font-weight: 400; color: var(--muted); font-size: 12px; margin-left: 3px; }
 .sticky-top { position: sticky; top: 0; z-index: 5; background: var(--tint); padding: 12px 0; margin-top: -12px; display: flex; flex-direction: column; gap: 12px; border-bottom: 1px solid transparent; }
 .sticky-top.stuck { border-bottom-color: var(--line); box-shadow: 0 6px 10px -8px rgba(15,61,87,0.25); }
 #count strong { border-radius: 6px; padding: 1px 4px; margin: 0 -4px; transition: background .6s; }
@@ -659,3 +659,4 @@ a.creator:hover { color: var(--accent); }
 #featured .feat-links .btn { font-size: 16px; padding: 11px 20px; }
 #featured .truth-note { font-size: 13px !important; }
 @media (max-width: 760px) { #featured { border-radius: 0; margin-left: -16px; margin-right: -16px; padding: 40px 16px 44px !important; } #featured .feat { padding: 18px 16px; } #featured .feat h3 { font-size: 20px; } #featured .feat-sec p { font-size: 15px; } }
+.fhint-sub { margin-top: 10px; }
