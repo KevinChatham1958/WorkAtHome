@@ -1,10 +1,10 @@
 // The gig browser (/tool/): gigs first, filters in a column on the left.
 //
 // Gigs show first; filters sit in a column on the left (a "Filters" button on phones).
-// - What interests you?: popular topics plus the 7 types, one choice at a time (none = all).
+// - What interests you?: popular topics plus the 7 types, any number at once, added together (none = all).
 //   Homepage ?kind= links can still preset a group of types.
 // - Your situation: every ticked box narrows the list (same tags as the live tool).
-// - Popular topics: one-tap topic buttons, one at a time; they add to the Type of gig choices.
+// - Popular topics: one-tap topic buttons, several at once; they add to the Type of gig choices.
 // - Search: only gigs matching the words show, best match first. The search box stands
 //   alone: searching clears the filters, and ticking a filter clears the search.
 // Links can preset everything: ?kind=products|services|audience, ?cat=slug[,slug],
@@ -251,7 +251,9 @@ function renderFilters() {
     return `<button type="button" class="topic-btn" data-cat="${esc(c.cat)}" aria-pressed="${st.cats.has(c.cat)}">${esc(c.name)}<span class="n">${n}</span></button>`;
   }).join('');
   // Phones: the same buttons as one swipeable row above the gigs (the filter column is folded away).
-  $('m-topics').innerHTML = $('topic-btns').innerHTML + $('cat-boxes').innerHTML;
+  const anySel = st.topics.size || st.cats.size || st.chips.size;
+  $('clear-sel').disabled = !anySel;
+  $('m-topics').innerHTML = (anySel ? '<button type="button" class="clear-sel clear-sel-m" data-clearsel="1">Clear all</button>' : '') + $('topic-btns').innerHTML + $('cat-boxes').innerHTML;
   $('sit-boxes').innerHTML = SITUATIONS.map(s =>
     `<label><input type="checkbox" data-chip="${s.id}" ${st.chips.has(s.id) ? 'checked' : ''}>${esc(s.label)}</label>`).join('');
 }
@@ -345,16 +347,20 @@ function changed() { st.pin = null; st.shown = PAGE; render(); }
 // and running a search clears every filter, so the two never quietly narrow each other.
 function clearSearch() { st.q = ''; $('q').value = ''; }
 function clearBoxes() { st.cats.clear(); st.topics.clear(); st.chips.clear(); st.kind = ''; }
-// "What interests you?" (Kevin, Nov 10): topics and types are one section, one choice at a time.
-// Picking any button replaces the current topic or type; tapping it again turns it off.
+// "What interests you?" (Kevin, Nov 12, 2026; replaces the Nov 10 one-at-a-time rule):
+// any number of topics and types can be on at once; they add together (a gig shows if it
+// matches any of them), and "Your situation" still narrows. Tapping a button again turns it off.
+// "Clear all selections" turns off every topic, type and situation tick.
 function onInterestClick(e) {
+  if (e.target.closest('[data-clearsel]')) { st.savedOnly = false; clearBoxes(); changed(); track('filter_clear_all', {}); return; }
   const b = e.target.closest('button[data-topic], button[data-cat]'); if (!b) return;
   const id = b.dataset.topic, cat = b.dataset.cat;
-  const on = id ? !st.topics.has(id) : !(st.cats.size === 1 && st.cats.has(cat) && !st.kind);
-  st.topics.clear(); st.cats.clear(); st.kind = '';
-  if (on) id ? st.topics.add(id) : st.cats.add(cat);
+  let on;
+  if (id) { on = !st.topics.has(id); on ? st.topics.add(id) : st.topics.delete(id); }
+  else { on = !st.cats.has(cat); on ? st.cats.add(cat) : st.cats.delete(cat); }
+  st.kind = '';
   st.savedOnly = false; clearSearch(); changed();
-  if (on && id) track('filter_topic', { topic: TOPIC_BY_ID[id].label, gigs_found: results().length });
+  if (on && id) track('filter_topic', { topic: TOPIC_BY_ID[id].label, topics_on: st.topics.size, gigs_found: results().length });
   if (on && cat) track('filter_category', { idea_category: cat, gigs_found: results().length });
 }
 $('filters').addEventListener('click', onInterestClick);
@@ -475,7 +481,7 @@ function applyParams() {
   if (KINDS[kind]) { st.kind = kind; KINDS[kind].cats.forEach(s => st.cats.add(CAT_BY_SLUG[s].cat)); }
   (p.get('cat') || '').toLowerCase().split(',').forEach(s => { if (CAT_BY_SLUG[s.trim()]) st.cats.add(CAT_BY_SLUG[s.trim()].cat); });
   (p.get('f') || '').split(',').forEach(f => { if (SIT_LABEL[f.trim()]) st.chips.add(f.trim()); });
-  { const t = (p.get('topic') || '').toLowerCase().split(',').map(x => x.trim()).find(x => TOPIC_BY_ID[x]); if (t) st.topics.add(t); }
+  (p.get('topic') || '').toLowerCase().split(',').map(x => x.trim()).forEach(x => { if (TOPIC_BY_ID[x]) st.topics.add(x); });
   // A search link wins over any filters in the same link (the search box stands alone).
   const q = (p.get('q') || '').trim(); if (q) { clearBoxes(); st.q = q; $('q').value = q; }
   const open = p.get('open'); if (open && ALL.some(i => i.id === open)) { st.open.add(open); st.pin = open; }
