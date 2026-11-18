@@ -504,4 +504,4 @@ loadIdeas().then(data => {
 
 fetch('/views.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : {}).then(d => { VIEWS = d.views || {}; VIEWS_DATE = d.updated || ''; if (ALL.length) render(); }).catch(() => {});
 
-fetch('/page-index.json').then(r => r.ok ? r.json() : { ideas: [] }).then(d => { pageIds = new Set(d.ideas || []); creatorSlugs = new Set(d.creators || []); if (ALL.length) render(); }).catch(() => {});
+fetch('/page-index.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : { ideas: [] }).then(d => { pageIds = new Set(d.ideas || []); creatorSlugs = new Set(d.creators || []); if (ALL.length) render(); }).catch(() => {});
