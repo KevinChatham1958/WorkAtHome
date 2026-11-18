@@ -57,6 +57,7 @@ let ALL = [], SHUFFLED = [], pageIds = new Set(), LAST_N = 0;
 // Creators who have their own page on the site (/creator/<slug>/), from page-index.json. Nov 18, 2026:
 // the red creator name on each card links there; creators without a page stay plain red text.
 let creatorSlugs = new Set();
+let mSitOpen = false; // phones: is the "Your situation" box open?
 // YouTube view counts by video ID, from /views.json (refreshed weekly by a GitHub Action).
 let VIEWS = {}, VIEWS_DATE = '';
 const st = { cats: new Set(), topics: new Set(), chips: new Set(), q: '', sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set(), pin: null, kind: '' };
@@ -264,6 +265,13 @@ function renderFilters() {
     + `<button type="button" class="clear-sel" data-clearsel="1"${anySel ? '' : ' disabled'}>Clear all selections</button>`;
   $('sit-boxes').innerHTML = SITUATIONS.map(s =>
     `<label><input type="checkbox" data-chip="${s.id}" ${st.chips.has(s.id) ? 'checked' : ''}>${esc(s.label)}</label>`).join('');
+  // Phones (Nov 18, 2026): "Your situation" as a box under "What interests you?" that opens in place
+  // (replaces the "Your situation & more filters" / "Hide filters" button). Ticks apply at once.
+  const nTick = st.chips.size;
+  $('m-sit').innerHTML = `<button type="button" class="m-sit-head" data-msit="toggle" aria-expanded="${mSitOpen}">`
+    + `<span>Your situation${nTick ? ` <span class="m-sit-n">(${nTick} ticked)</span>` : ''}</span><span class="m-sit-arrow" aria-hidden="true">${mSitOpen ? '▴' : '▾'}</span></button>`
+    + `<p class="fhint">Optional: narrow the list to fit your life.</p>`
+    + (mSitOpen ? `<div class="m-sit-boxes">${$('sit-boxes').innerHTML}</div><button type="button" class="btn btn-sm m-sit-done" data-msit="done">Show ${results().length.toLocaleString()} gigs</button>` : '');
 }
 
 function kindActive() {
@@ -373,6 +381,18 @@ function onInterestClick(e) {
 }
 $('filters').addEventListener('click', onInterestClick);
 $('m-topics').addEventListener('click', onInterestClick);
+$('m-sit').addEventListener('click', e => {
+  const b = e.target.closest('[data-msit]'); if (!b) return;
+  if (b.dataset.msit === 'toggle') { mSitOpen = !mSitOpen; renderFilters(); }
+  else { mSitOpen = false; renderFilters(); document.querySelector('.sticky-top').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+});
+$('m-sit').addEventListener('change', e => {
+  const t = e.target; if (!t.dataset.chip) return;
+  st.savedOnly = false; clearSearch();
+  t.checked ? st.chips.add(t.dataset.chip) : st.chips.delete(t.dataset.chip);
+  changed();
+  if (t.checked) track('filter_chip', { chip: SIT_LABEL[t.dataset.chip], chips_on: st.chips.size, gigs_found: results().length });
+});
 $('filters').addEventListener('change', e => {
   const t = e.target;
   st.savedOnly = false; clearSearch();

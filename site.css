@@ -676,12 +676,23 @@ a.m-who:hover, a.m-who:focus-visible { text-decoration: underline; color: #B0000
 .fhint-sub { margin-top: 10px; }
 /* Phones (Nov 18, 2026): the full "What interests you?" box (title + all buttons, wrapped) above the gigs.
    Replaced the Nov 10 swipeable row, which hid most buttons off-screen with no hint. */
-.m-topics { display: none; }
+.m-topics, .m-sit { display: none; }
 @media (max-width: 860px) {
   .main { min-width: 0; max-width: 100%; }
   .m-topics { display: block; max-width: 100%; margin-bottom: 4px; }
   .m-topics h2 { font-size: 18px; margin-bottom: 2px; }
   .m-topics .topic-btn { font-size: 14px; padding: 5px 11px; }
+  /* "Your situation" opens in place under the interests box; the old toggle button and folded column are retired on phones. */
+  .filters-toggle, .filters, .filters.open { display: none; }
+  .m-sit { display: block; margin-bottom: 4px; }
+  .m-sit-head { display: flex; width: 100%; justify-content: space-between; align-items: center; gap: 10px; font: inherit; font-family: Outfit, system-ui, sans-serif; font-size: 18px; font-weight: 600; color: var(--navy); background: none; border: 0; padding: 0; margin: 0 0 2px; cursor: pointer; text-align: left; }
+  .m-sit-n { font-size: 15px; color: var(--accent-dark); }
+  .m-sit-arrow { font-size: 18px; line-height: 1; border: 1.5px solid var(--navy); border-radius: 6px; padding: 4px 9px; }
+  .m-sit .fhint { margin-bottom: 0; }
+  .m-sit-boxes { margin-top: 8px; }
+  .m-sit-boxes label { display: flex; align-items: center; gap: 10px; font-size: 16px; padding: 7px 0; cursor: pointer; }
+  .m-sit-boxes input[type=checkbox] { accent-color: var(--accent); width: 18px; height: 18px; margin: 0; flex-shrink: 0; }
+  .m-sit-done { display: block; width: 100%; margin-top: 10px; }
   .fbox-interest { display: none; }
 }
 /* Quiz retired Nov 10, 2026: single start card on the homepage and built pages. */
