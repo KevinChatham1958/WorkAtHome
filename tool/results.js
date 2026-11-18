@@ -253,10 +253,15 @@ function renderFilters() {
     const n = base.filter(i => i.category === c.cat).length;
     return `<button type="button" class="topic-btn" data-cat="${esc(c.cat)}" aria-pressed="${st.cats.has(c.cat)}">${esc(c.name)}<span class="n">${n}</span></button>`;
   }).join('');
-  // Phones: the same buttons as one swipeable row above the gigs (the filter column is folded away).
+  // Phones (Nov 18, 2026, replaces the Nov 10 swipe row): the whole "What interests you?" box,
+  // title and all 14 buttons wrapped, above the gigs (the filter column is folded away on phones).
   const anySel = st.topics.size || st.cats.size || st.chips.size;
   $('clear-sel').disabled = !anySel;
-  $('m-topics').innerHTML = (anySel ? '<button type="button" class="clear-sel clear-sel-m" data-clearsel="1">Clear all</button>' : '') + $('topic-btns').innerHTML + $('cat-boxes').innerHTML;
+  $('m-topics').innerHTML = '<h2>What interests you?</h2><p class="fhint">Tap as many as you like. Popular topics:</p>'
+    + '<div class="topic-btns">' + $('topic-btns').innerHTML + '</div>'
+    + '<p class="fhint fhint-sub">Or browse by type:</p>'
+    + '<div class="topic-btns">' + $('cat-boxes').innerHTML + '</div>'
+    + `<button type="button" class="clear-sel" data-clearsel="1"${anySel ? '' : ' disabled'}>Clear all selections</button>`;
   $('sit-boxes').innerHTML = SITUATIONS.map(s =>
     `<label><input type="checkbox" data-chip="${s.id}" ${st.chips.has(s.id) ? 'checked' : ''}>${esc(s.label)}</label>`).join('');
 }
@@ -426,7 +431,7 @@ $('saved-link').addEventListener('click', e => { e.preventDefault(); st.savedOnl
 $('apply').addEventListener('click', () => {
   $('filters').classList.remove('open');
   $('filters-toggle').setAttribute('aria-expanded', 'false');
-  $('filters-toggle').textContent = 'Your situation & more filters';
+  $('filters-toggle').textContent = 'Your situation';
   document.querySelector('.main').scrollIntoView({ behavior: 'smooth', block: 'start' });
 });
 // Height of the locked top row, so the count bar and filters line up just below it.
@@ -452,7 +457,7 @@ window.addEventListener('scroll', () => {
 $('filters-toggle').addEventListener('click', () => {
   const open = $('filters').classList.toggle('open');
   $('filters-toggle').setAttribute('aria-expanded', String(open));
-  $('filters-toggle').textContent = open ? 'Hide filters' : 'Your situation & more filters';
+  $('filters-toggle').textContent = open ? 'Hide filters' : 'Your situation';
 });
 $('list').addEventListener('click', e => {
   const cl = e.target.closest('a.m-who');
