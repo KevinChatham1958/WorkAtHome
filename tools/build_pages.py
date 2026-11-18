@@ -5,7 +5,7 @@ What it makes (all generated; never edit these by hand):
   category/<slug>/index.html      one page per category
   creator/<slug>/index.html       one page per creator with a released idea
   sitemap.xml, robots.txt         the page list for search engines
-  page-index.json                 tells the homepage which ideas have a page
+  page-index.json                 tells the homepage which ideas (and creators) have a page
   idea-page.css                   styles for the pages above
 
 Which ideas get pages is set in pages-release.json:
@@ -940,7 +940,7 @@ def build_all(site):
     write('sitemap.xml', sm)
     write('robots.txt', ROBOTS)
     write('idea-page.css', PAGE_CSS.lstrip())
-    write('page-index.json', json.dumps({"ideas": sorted(site.page_ids)}, separators=(',', ':')) + '\n')
+    write('page-index.json', json.dumps({"ideas": sorted(site.page_ids), "creators": sorted(slugify(c) for c in site.creators)}, separators=(',', ':')) + '\n')
     print(f"Built {len(site.pages)} idea pages, {len(CATEGORY_ORDER)} category pages, "
           f"{len(site.creators)} creator pages; sitemap lists {n_urls} addresses.")
 

@@ -54,6 +54,9 @@ function inTopic(i, id) {
 const PAGE = 30;
 
 let ALL = [], SHUFFLED = [], pageIds = new Set(), LAST_N = 0;
+// Creators who have their own page on the site (/creator/<slug>/), from page-index.json. Nov 18, 2026:
+// the red creator name on each card links there; creators without a page stay plain red text.
+let creatorSlugs = new Set();
 // YouTube view counts by video ID, from /views.json (refreshed weekly by a GitHub Action).
 let VIEWS = {}, VIEWS_DATE = '';
 const st = { cats: new Set(), topics: new Set(), chips: new Set(), q: '', sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set(), pin: null, kind: '' };
@@ -218,7 +221,7 @@ function gigHtml(i) {
       <div class="gig-body" data-act="toggle" role="button" tabindex="0" aria-expanded="${isOpen}">
         <h3>${esc(shortTitle(i))}</h3>
         <p class="one">${esc(subLine(i))}</p>
-        <p class="meta"><span class="m-cat">${esc(friendly)}</span> · ${esc(costLabel(i))} · <span class="m-who">${esc(i.found)}</span>${date ? ' · ' + esc(date) : ''}${views ? ` · <span title="YouTube views of the source video${VIEWS_DATE ? ', as of ' + esc(fmtDate(VIEWS_DATE)) : ''}">${esc(views)}</span>` : ''}</p>
+        <p class="meta"><span class="m-cat">${esc(friendly)}</span> · ${esc(costLabel(i))} · ${creatorSlugs.has(slugify(i.found)) ? `<a class="m-who" href="/creator/${slugify(i.found)}/" target="_blank" rel="noopener" title="All gigs from ${esc(i.found)}">${esc(i.found)}</a>` : `<span class="m-who">${esc(i.found)}</span>`}${date ? ' · ' + esc(date) : ''}${views ? ` · <span title="YouTube views of the source video${VIEWS_DATE ? ', as of ' + esc(fmtDate(VIEWS_DATE)) : ''}">${esc(views)}</span>` : ''}</p>
         ${labels.length ? `<div class="labels">${labels.map(l => `<span class="label">${l}</span>`).join('')}</div>` : ''}
       </div>
       <div class="gig-actions">
@@ -452,6 +455,8 @@ $('filters-toggle').addEventListener('click', () => {
   $('filters-toggle').textContent = open ? 'Hide filters' : 'Your situation & more filters';
 });
 $('list').addEventListener('click', e => {
+  const cl = e.target.closest('a.m-who');
+  if (cl) { const i = ALL.find(x => x.id === cl.closest('.gig').dataset.id); if (i) track('creator_click', ideaParams(i)); return; }
   const b = e.target.closest('[data-act]');
   if (!b) {
     const link = e.target.closest('.source-link');
@@ -499,4 +504,4 @@ loadIdeas().then(data => {
 
 fetch('/views.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : {}).then(d => { VIEWS = d.views || {}; VIEWS_DATE = d.updated || ''; if (ALL.length) render(); }).catch(() => {});
 
-fetch('/page-index.json').then(r => r.ok ? r.json() : { ideas: [] }).then(d => { pageIds = new Set(d.ideas || []); if (ALL.length) render(); }).catch(() => {});
+fetch('/page-index.json').then(r => r.ok ? r.json() : { ideas: [] }).then(d => { pageIds = new Set(d.ideas || []); creatorSlugs = new Set(d.creators || []); if (ALL.length) render(); }).catch(() => {});
