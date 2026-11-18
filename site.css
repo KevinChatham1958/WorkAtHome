@@ -185,13 +185,19 @@ a.creator:hover { color: var(--accent); }
 .helper b { font-family: Outfit, system-ui, sans-serif; font-size: 17px; }
 .helper span { font-size: 15px; color: #CFE0E8; }
 .main { flex-grow: 1; min-width: 0; display: flex; flex-direction: column; gap: 14px; }
-.main-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 12px 16px; }
-.main-top h1 { font-size: 30px; }
+/* Database title (Nov 18, 2026): a dominant black bar, uppercase white letters, spanning the gig cards'
+   text column (from the creator photo's left edge to where the card text ends, just short of the
+   heart/Details buttons). Count line is centred underneath; Sort sits above the heart/Details column. */
+.main-top { display: grid; grid-template-columns: minmax(0, 1fr) 128px; gap: 6px 18px; align-items: end; padding: 0 23px; }
+.main-top > div:first-child { grid-column: 1; text-align: center; }
+.main-top h1 { font-family: Outfit, system-ui, sans-serif; font-size: 34px; line-height: 1.15; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: #FFFFFF; background: #000000; border-radius: 8px; padding: 14px 18px; }
+.main-top .sort { grid-column: 2; grid-row: 1; flex-direction: column; align-items: stretch; gap: 4px; font-size: 14px; align-self: start; }
+.main-top .sort select { width: 100%; }
 .alert-ask { margin: 0 0 14px; font-size: 15px; }
 .alert-ask button { font: inherit; font-weight: 600; color: var(--navy); background: var(--tint); border: 1.5px solid var(--line); border-radius: 999px; padding: 8px 16px; cursor: pointer; text-align: left; }
 .alert-ask button:hover, .alert-ask button:focus-visible { border-color: var(--accent); color: var(--accent-dark); }
 .alert-thanks { display: inline-block; color: var(--body); background: var(--accent-tint); border-radius: 8px; padding: 8px 14px; }
-.main-top p { margin: 4px 0 0; font-size: 17px; color: var(--body); }
+.main-top p { margin: 10px 0 0; font-size: 17px; font-weight: 400; color: var(--body); }
 .sort { display: flex; gap: 8px; align-items: center; font-size: 15px; color: var(--muted); }
 .sort select { font: inherit; font-size: 15px; padding: 8px 10px; border: 1.5px solid var(--field); border-radius: 8px; background: #FFFFFF; color: var(--ink); }
 .active { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
@@ -256,7 +262,10 @@ a.creator:hover { color: var(--accent); }
   .opt b { font-size: 19px; }
   .opt .txt { display: flex; flex-direction: column; gap: 4px; }
   .done h1 { font-size: 30px; }
-  .main-top h1 { font-size: 24px; }
+  .main-top { grid-template-columns: minmax(0, 1fr); padding: 0; }
+  .main-top h1 { font-size: 24px; padding: 12px 14px; }
+  .main-top .sort { grid-column: 1; grid-row: auto; flex-direction: row; align-items: center; justify-content: flex-end; align-self: auto; }
+  .main-top .sort select { width: auto; }
   .gig { padding: 16px; }
   .gig-top { flex-wrap: wrap; gap: 12px; }
   .av { width: 40px; height: 40px; }
