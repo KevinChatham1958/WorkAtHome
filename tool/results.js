@@ -218,7 +218,7 @@ function gigHtml(i) {
       <div class="gig-body" data-act="toggle" role="button" tabindex="0" aria-expanded="${isOpen}">
         <h3>${esc(shortTitle(i))}</h3>
         <p class="one">${esc(subLine(i))}</p>
-        <p class="meta">${esc(friendly)} · ${esc(costLabel(i))} · ${esc(i.found)}${date ? ' · ' + esc(date) : ''}${views ? ` · <span title="YouTube views of the source video${VIEWS_DATE ? ', as of ' + esc(fmtDate(VIEWS_DATE)) : ''}">${esc(views)}</span>` : ''}</p>
+        <p class="meta"><span class="m-cat">${esc(friendly)}</span> · ${esc(costLabel(i))} · <span class="m-who">${esc(i.found)}</span>${date ? ' · ' + esc(date) : ''}${views ? ` · <span title="YouTube views of the source video${VIEWS_DATE ? ', as of ' + esc(fmtDate(VIEWS_DATE)) : ''}">${esc(views)}</span>` : ''}</p>
         ${labels.length ? `<div class="labels">${labels.map(l => `<span class="label">${l}</span>`).join('')}</div>` : ''}
       </div>
       <div class="gig-actions">
