@@ -188,6 +188,20 @@ def build(days):
     return subject, preview, body, n
 
 
+def write_sample(subject, body):
+    """Public copy of this week's email for the Subscribe and "You're confirmed" pages
+    (newsletter/latest.html, shown there in a frame). The subscriber-only footer is left out."""
+    b = re.sub(r'<p style="font-size:13px;color:#6b7280;line-height:1.5">You\'re getting this.*?Unsubscribe here</a>.\)</p>', '', body, flags=re.S)
+    b = b.replace('{{ unsubscribe_url }}', '#')
+    d = os.path.join(ROOT, 'newsletter')
+    os.makedirs(d, exist_ok=True)
+    doc = ('<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">'
+           '<meta name="viewport" content="width=device-width, initial-scale=1.0">'
+           '<meta name="robots" content="noindex"><base target="_top">'
+           f'<title>{html.escape(subject)}</title></head><body style="margin:0;background:#fff">{b}</body></html>')
+    open(os.path.join(d, 'latest.html'), 'w').write(doc)
+
+
 def main():
     mode = os.environ.get('MODE', 'draft')
     days = int(os.environ.get('DAYS', '7'))
@@ -196,6 +210,7 @@ def main():
         print('No new gigs this week; no email.')
         return
     subject, preview, body, n = built
+    write_sample(subject, body)
     if mode == 'preview':
         open(os.path.join(ROOT, 'weekly-email-preview.html'), 'w').write(body.replace('{{ unsubscribe_url }}', '#'))
         print(subject)

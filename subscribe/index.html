@@ -28,26 +28,14 @@
 </head>
 <body>
 
-<header class="site-header home-header">
-  <div class="wrap">
-    <a href="/" class="home-logo" style="visibility:hidden"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel home" width="1782" height="169"></a>
-    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="home-nav">
-      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
-      Menu
-    </button>
-    <nav class="nav home-nav" id="home-nav" aria-label="Main">
-      <a href="/" data-cta="header">Browse Database</a>
-      <span class="nav-current" aria-current="page">Subscribe</span>
-      <a href="/about.html" data-cta="header-about">About</a>
-    </nav>
-  </div>
-</header>
-<script>(function(){var b=document.getElementById('menu-btn'),n=document.getElementById('home-nav');b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(o));n.classList.toggle('open',o);});})();</script>
-
 <main class="sub-page">
-  <img class="sub-logo" src="/assets/logo.png" alt="Side Hustle Intel" width="949" height="454">
+  <a href="/" aria-label="Side Hustle Intel home"><img class="sub-logo" src="/assets/logo.png" alt="Side Hustle Intel" width="949" height="454"></a>
   <h1>8 Work-At-Home Gigs in <br>Your Inbox Every Week</h1>
   <p class="sub-lede">Get a weekly roundup of the newest work-at-home opportunities, selected from YouTube videos and added to our searchable database.</p>
+  <form class="signup sub-form" action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="subscribe-page">
+    <div class="signup-row"><label class="sr" for="email-subscribe">Your email address</label><input id="email-subscribe" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required><button type="submit">SEND ME THE GIGS</button></div>
+  </form>
+  <p class="sub-promise">One email a week. No sales pitches. Unsubscribe anytime.</p>
   <h2 class="sub-what">Here's what you'll get each week:</h2>
   <div class="sub-cards">
     <div class="sub-card">
@@ -60,51 +48,55 @@
     </div>
   </div>
   <p class="sub-plain">Every gig explained in plain English, with our honest take.</p>
-  <form class="signup sub-form" action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="subscribe-page">
-    <div class="signup-row"><label class="sr" for="email-subscribe">Your email address</label><input id="email-subscribe" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required><button type="submit">SEND ME THE GIGS</button></div>
-  </form>
-  <p class="sub-promise">One short email. No sales pitches. Unsubscribe anytime.</p>
-  <p class="sub-privacy"><a href="/privacy/">Privacy policy</a></p>
+  <section class="nl-sample" aria-labelledby="nl-h">
+    <h2 id="nl-h">Here's this week's email</h2>
+    <p class="nl-note">The Gig of the Week in full, then 7 more new gigs. A new one arrives every week.</p>
+    <div class="nl-frame" id="nl-frame"><iframe src="/newsletter/latest.html" title="This week's Side Hustle Intel email" loading="lazy" scrolling="no"></iframe></div>
+  </section>
+  <p class="sub-foot"><a href="/">Or browse the database first →</a></p>
+  <p class="sub-privacy"><a href="/privacy/">Privacy policy</a> · <a href="mailto:website@sidehustleintel.org">Contact</a> · No income is promised or guaranteed.</p>
 </main>
 <style>
 .sub-page { max-width: 680px; margin: 0 auto; padding: 40px 20px 56px; text-align: center; }
-.sub-logo { width: 220px; height: auto; margin: 0 auto 22px; display: block; }
+.sub-logo { width: 200px; height: auto; margin: 0 auto 22px; display: block; }
 .sub-page h1 { font-size: 40px; line-height: 1.15; font-weight: 700; margin: 0 0 16px; }
-.sub-lede { font-size: 19px; line-height: 1.55; margin: 0 auto 34px; max-width: 580px; }
+.sub-lede { font-size: 19px; line-height: 1.55; margin: 0 auto 24px; max-width: 580px; }
+.sub-form { background: var(--accent-tint); border: 2px solid #F6D3BF; border-radius: 14px; padding: 22px; margin: 0 0 12px; }
+.sub-form .signup-row input { font-size: 17px; padding: 13px 14px; }
+.sub-form .signup-row button { font-size: 17px; font-weight: 700; letter-spacing: 0.04em; padding: 13px 22px; }
+.sub-promise { font-size: 16px; color: var(--ink); margin: 0 0 40px; }
 .sub-what { font-size: 22px; margin: 0 0 16px; color: var(--ink); }
 .sub-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 0 0 22px; }
 .sub-card { background: #FFFFFF; border: 1.5px solid var(--line); border-top: 4px solid var(--accent); border-radius: 12px; padding: 20px 20px 18px; }
 .sub-label { font-family: Outfit, system-ui, sans-serif; font-size: 17px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin: 0 0 8px; }
 .sub-card p:last-child { margin: 0; font-size: 17px; line-height: 1.5; }
-.sub-plain { font-size: 18px; font-weight: 600; color: var(--navy); margin: 0 0 22px; }
-.sub-form { background: var(--accent-tint); border: 2px solid #F6D3BF; border-radius: 14px; padding: 22px; margin: 0 0 12px; }
-.sub-form .signup-row input { font-size: 17px; padding: 13px 14px; }
-.sub-form .signup-row button { font-size: 17px; font-weight: 700; letter-spacing: 0.04em; padding: 13px 22px; }
-.sub-promise { font-size: 16px; color: var(--ink); margin: 0 0 6px; }
-.sub-privacy { font-size: 14px; margin: 0; }
+.sub-plain { font-size: 18px; font-weight: 600; color: var(--navy); margin: 0; }
+.sub-foot { font-size: 17px; font-weight: 600; margin: 36px 0 10px; }
+.sub-foot a { color: var(--accent-dark); }
+.sub-privacy { font-size: 14px; margin: 0; color: var(--muted, #6b7280); }
 .sub-privacy a { color: var(--muted, #6b7280); }
+.nl-sample { margin: 34px 0 0; text-align: left; }
+.nl-sample h2 { font-size: 20px; text-align: center; margin: 0 0 4px; color: var(--ink); }
+.nl-sample .nl-note { text-align: center; font-size: 15px; color: var(--muted, #6b7280); margin: 0 0 14px; }
+.nl-frame { position: relative; overflow: hidden; border: 1.5px solid var(--line); border-radius: 12px; background: #fff; }
+.nl-frame iframe { display: block; width: 100%; border: 0; height: 1400px; }
 @media (max-width: 600px) {
-  .sub-page { padding-top: 28px; }
+  .sub-page { padding-top: 24px; }
+  .sub-logo { width: 160px; margin-bottom: 16px; }
   .sub-page h1 { font-size: 30px; }
   .sub-page h1 br { display: none; }
   .sub-cards { grid-template-columns: 1fr; }
+  .sub-form { padding: 16px; }
   .sub-form .signup-row button { width: 100%; }
 }
 </style>
-
-<footer class="site-footer h-footer">
-  <div class="wrap">
-    <nav class="h-foot-links" aria-label="Footer">
-      <a href="/">Browse Database</a>
-      <a href="/subscribe/">Subscribe</a>
-      <a href="/about.html">About</a>
-      <a href="mailto:website@sidehustleintel.org">Contact</a>
-      <a href="/privacy/">Privacy</a>
-    </nav>
-    <p class="h-foot-cats">Browse by type: <a href="/category/local-professional-services/">Services from home</a> · <a href="/category/digital-subscription-products/">Digital products</a> · <a href="/category/marketing-content/">Marketing for businesses</a> · <a href="/category/physical-print-products/">Things you make</a> · <a href="/category/content-personal-brand/">YouTube &amp; blogging</a> · <a href="/category/ai-automation/">AI &amp; automation</a> · <a href="/category/e-commerce/">Online stores</a></p>
-    <p>© 2026 SideHustleIntel.org · Each gig is a summary of an idea from a creator&rsquo;s YouTube video. Creator names are shown for reference only and imply no endorsement. No income is promised or guaranteed.</p>
-  </div>
-</footer>
+<script>
+// Sample of the latest weekly email (newsletter/latest.html, rebuilt every Saturday).
+(function(){var w=document.getElementById('nl-frame'),f=w&&w.querySelector('iframe');if(!f)return;
+function fit(){try{var d=f.contentWindow.document;if(d.readyState==='loading'||!d.body)return;f.style.height=d.body.scrollHeight+'px';}catch(e){}}
+f.addEventListener('load',fit);window.addEventListener('resize',fit);
+var n=0,t=setInterval(function(){fit();if(++n>40)clearInterval(t);},250);})();
+</script>
 <script>
 // Weekly email signup: count submits in Google Analytics (event email_signup, form "subscribe-page").
 // utm_source etc. on links to this page show which forum each visitor came from.

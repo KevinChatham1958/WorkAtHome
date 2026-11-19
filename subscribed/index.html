@@ -52,7 +52,26 @@
     <p>Your first weekly email arrives within the next week: the Gig of the Week, explained in full, plus 7 more of the newest work-at-home gigs. Every email has an unsubscribe link at the bottom.</p>
   </div>
   <p><a class="btn" href="/">Browse the gigs now</a></p>
+  <section class="nl-sample" aria-labelledby="nl-h">
+    <h2 id="nl-h">Here's this week's email</h2>
+    <p class="nl-note">The Gig of the Week in full, then 7 more new gigs. A new one arrives every week.</p>
+    <div class="nl-frame" id="nl-frame"><iframe src="/newsletter/latest.html" title="This week's Side Hustle Intel email" loading="lazy" scrolling="no"></iframe></div>
+  </section>
 </main>
+<style>
+.nl-sample { margin: 34px 0 0; text-align: left; }
+.nl-sample h2 { font-size: 20px; text-align: center; margin: 0 0 4px; color: var(--ink); }
+.nl-sample .nl-note { text-align: center; font-size: 15px; color: var(--muted, #6b7280); margin: 0 0 14px; }
+.nl-frame { position: relative; overflow: hidden; border: 1.5px solid var(--line); border-radius: 12px; background: #fff; }
+.nl-frame iframe { display: block; width: 100%; border: 0; height: 1400px; }
+</style>
+<script>
+// Sample of the latest weekly email (newsletter/latest.html, rebuilt every Saturday).
+(function(){var w=document.getElementById('nl-frame'),f=w&&w.querySelector('iframe');if(!f)return;
+function fit(){try{var d=f.contentWindow.document;if(d.readyState==='loading'||!d.body)return;f.style.height=d.body.scrollHeight+'px';}catch(e){}}
+f.addEventListener('load',fit);window.addEventListener('resize',fit);
+var n=0,t=setInterval(function(){fit();if(++n>40)clearInterval(t);},250);})();
+</script>
 
 <footer class="site-footer h-footer">
   <div class="wrap">

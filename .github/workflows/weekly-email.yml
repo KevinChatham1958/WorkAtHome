@@ -18,7 +18,8 @@ on:
         options: [draft, send]
 
 permissions:
-  contents: read
+  contents: write
+  actions: write
 
 jobs:
   email:
@@ -33,3 +34,21 @@ jobs:
           # Scheduled runs use this default until Kevin approves automatic sending.
           MODE: ${{ inputs.mode || 'draft' }}
         run: python3 tools/weekly_email.py
+      # A public copy of this week's email (newsletter/latest.html) is shown on the Subscribe
+      # and "You're confirmed" pages. Commit it and deploy, like the view-count job.
+      - name: Publish the sample on the site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add newsletter/latest.html
+          if git diff --cached --quiet; then
+            echo "Sample unchanged"; exit 0
+          fi
+          git config user.name "weekly-email-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Update newsletter sample (latest weekly email)"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            sleep 5
+          done
+          gh workflow run deploy.yml --ref main
