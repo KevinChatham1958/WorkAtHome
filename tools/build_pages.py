@@ -437,12 +437,12 @@ class Ctx:
         return f"{self.base}/creator/{slugify(name)}/"
 
     def tool(self, query, open_id=None):
-        """Link into the search tool (/tool/) with a search already run
+        """Link into the gig browser (the home page, / — was /tool/ until Nov 19, 2026) with a search already run
         (and optionally one gig opened and placed first)."""
         q = f"?q={quote(query)}"
         if open_id:
             q += f"&open={quote(open_id)}"
-        return f"{self.base}/tool/{q}"
+        return f"{self.base}/{q}"
 
     def img(self, rel, mime):
         if self.preview:
@@ -456,7 +456,7 @@ class Ctx:
 def bottom_html(ctx):
     return f"""<section class="signup-wrap">
     <div class="cta-pair cta-one">
-      <a class="cta-card" href="{ctx.base}/tool/" data-cta="page-browse"><b>Browse the Database</b><span>Search by keyword, filter by gig type, or search by creator.</span><em>Explore the Gig Database</em></a>
+      <a class="cta-card" href="{ctx.base}/" data-cta="page-browse"><b>Browse the Database</b><span>Search by keyword, filter by gig type, or search by creator.</span><em>Explore the Gig Database</em></a>
     </div>
   </section>
   <section class="signup-wrap">
@@ -482,7 +482,7 @@ def footer_html(ctx):
     return f"""<footer class="site-footer h-footer">
   <div class="wrap">
     <nav class="h-foot-links" aria-label="Footer">
-      <a href="{ctx.base}/tool/">Browse Database</a>
+      <a href="{ctx.base}/">Browse Database</a>
       <a href="{ctx.base}/subscribe/">Subscribe</a>
       <a href="{ctx.base}/about.html">About</a>
       <a href="mailto:website@sidehustleintel.org">Contact</a>
@@ -544,8 +544,7 @@ def shell(ctx, site, *, title, desc, canonical, og_type, schema, main, extra_scr
       Menu
     </button>
     <nav class="nav home-nav" id="home-nav" aria-label="Main">
-      <a href="{b}/" data-cta="page-header-home">Home</a>
-      <a href="{b}/tool/" data-cta="page-header">Browse Database</a>
+      <a href="{b}/" data-cta="page-header">Browse Database</a>
       <a href="{b}/subscribe/" data-cta="page-header-subscribe">Subscribe</a>
       <a href="{b}/about.html">About</a>
     </nav>
@@ -690,7 +689,7 @@ def idea_page(idea, site, ctx):
     <section class="gig-sec"><h2>The Pitch</h2><p>{esc(idea['pitch'])}</p></section>
     <section class="gig-sec"><h2>Who It&rsquo;s Best For</h2><p>{esc(idea['best'])}</p></section>
     <section class="gig-sec" id="the-truth"><h2>The Truth <span style="font-weight:600">(as we see it)</span></h2><p>{esc(idea['truth'])}</p><p class="truth-note">Our assessment, based on the video and what&rsquo;s typical across similar videos. We don&rsquo;t independently verify income claims or prices.</p></section>{viewers_html}
-    <p class="after-truth">Not sure this one&rsquo;s for you? <a href="{ctx.base}/tool/" data-cta="page-after-truth-browse">Browse more gigs</a> by topic or by what fits your life.</p>
+    <p class="after-truth">Not sure this one&rsquo;s for you? <a href="{ctx.base}/" data-cta="page-after-truth-browse">Browse more gigs</a> by topic or by what fits your life.</p>
   </article>
 
   <section class="more">
@@ -905,7 +904,7 @@ def creator_page(name, site, ctx):
 # ---------- sitemap, robots, homepage index ----------
 
 def sitemap(site):
-    urls = [SITE + '/', SITE + '/tool/', SITE + '/about.html']
+    urls = [SITE + '/', SITE + '/about.html']
     urls += [f"{SITE}/category/{slugify(c)}/" for c in CATEGORY_ORDER]
     urls += [f"{SITE}/creator/{slugify(c)}/" for c in site.creators]
     urls += [f"{SITE}/ideas/{x['id']}/" for x in site.pages]
@@ -948,8 +947,8 @@ def not_found_page(site, ctx):
   <div class="list-head"><h1>That page isn&rsquo;t here anymore</h1></div>
   <p class="list-intro">The gig or page you were looking for has been removed or moved. Gigs leave the database when the work turns out not to be doable from home.</p>
   <p class="list-intro">The database still has {rounded(site.total())} work-at-home gigs, each with our honest take.</p>
-  <p class="fc-cta"><a class="btn" href="/tool/" data-cta="404-browse">Browse the database &rarr;</a></p>
-  <p class="list-intro">Or <a href="/tool/" data-cta="404-browse">browse all the gigs</a> to find ones that fit you.</p>
+  <p class="fc-cta"><a class="btn" href="/" data-cta="404-browse">Browse the database &rarr;</a></p>
+  <p class="list-intro">Or <a href="/" data-cta="404-browse">browse all the gigs</a> to find ones that fit you.</p>
 </main>"""
     return shell(ctx, site, title="Page Not Found", desc="This page has moved or been removed. Browse the Side Hustle Intel database of work-at-home gigs.",
                  canonical=SITE + '/', og_type='website', schema=[], main=main).replace(

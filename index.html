@@ -37,15 +37,14 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261110e">
+<link rel="stylesheet" href="/site.css?v=20261119b">
 </head>
-<body class="home">
+<!-- Nov 19, 2026 (Kevin): the gig database is the home page. It was at /tool/ (that address now forwards here,
+     keeping any ?topic= / ?q= / ?open=). The old marketing home page (Nov 4 redesign) is in git history;
+     its "How it works" steps moved to the About page. -->
+<body class="results-page home-db">
 
-<!-- Homepage redesign, Nov 4 2026 (Kevin's "Homepage Redesign Implementation Brief").
-     Revised the same day after Kevin's review: centered hero whose two choice cards ARE the
-     two paths; search box removed (search lives in the Gig Finder). See "Visitor Flows" doc.
--->
-
+<div class="results-head">
 <header class="site-header home-header">
   <div class="wrap">
     <a href="/" class="home-logo"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel home" width="1782" height="169"></a>
@@ -54,147 +53,102 @@
       Menu
     </button>
     <nav class="nav home-nav" id="home-nav" aria-label="Main">
-      <span class="nav-current" aria-current="page">Home</span>
-      <a href="/tool/" data-cta="header">Browse Database</a>
+      <span class="nav-current" aria-current="page">Browse Database</span>
       <a href="/subscribe/" data-cta="header-subscribe">Subscribe</a>
       <a href="/about.html" data-cta="header-about">About</a>
     </nav>
   </div>
 </header>
 <script>(function(){var b=document.getElementById('menu-btn'),n=document.getElementById('home-nav');b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(o));n.classList.toggle('open',o);});})();</script>
+<div class="toolbar">
+  <div class="wrap">
+    <p class="site-tagline">Honest, plain-English write-ups of work-at-home ideas from YouTube creators. No hype, no income promises.</p>
+    <form class="search" id="search-form" role="search">
+      <label for="q" class="sr">Search gigs</label>
+      <input id="q" type="search" placeholder="Search a skill, idea or creator" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+    <a href="#" class="nav-saved" id="saved-link">&hearts; Saved (<span id="saved-n">0</span>)</a>
+  </div>
+</div>
+</div>
 
-<main>
-  <!-- Hero: the two paths ARE the hero (see "Visitor Flows" project doc) -->
-  <section class="h-hero">
-    <div class="wrap">
-      <p class="h-kicker">Free searchable database &middot; 1,000+ gigs</p>
-      <h1>Find Work-at-Home Gigs <br class="h-br">That Fit Your Life</h1>
-      <p class="h-lede">We watch the work-at-home YouTube videos so you don&rsquo;t have to.</p>
-      <div class="h-choices h-choices-one">
-        <a class="h-choice h-choice-db" href="/tool/" data-cta="hero">
-          <span class="h-choice-t">Browse the Database</span>
-          <span class="h-choice-x">Free access to over 1,000 Work-at-Home gigs. Search by keyword, filter by gig type, or search by creator.</span>
-          <span class="btn">Explore the Gig Database</span>
-        </a>
+<div class="results-body">
+  <div class="wrap layout">
+    <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Your situation</button>
+    <aside class="filters" id="filters" aria-label="Filters">
+      <div class="fbox fbox-interest">
+        <h2>What interests you?</h2>
+        <p class="fhint">Tap as many as you like. Popular topics:</p>
+        <div class="topic-btns" id="topic-btns"></div>
+        <p class="fhint fhint-sub">Or browse by type:</p>
+        <div class="topic-btns" id="cat-boxes"></div>
+        <button type="button" class="clear-sel" id="clear-sel" data-clearsel="1" disabled>Clear all selections</button>
       </div>
-    </div>
-  </section>
-
-  <!-- Featured gig: one real write-up, so visitors see the product (CRO review, Nov 5 2026).
-       Picked automatically: the most-watched gig from videos of the last 30 days. -->
-  <section class="wrap feat-wrap" id="featured" hidden aria-labelledby="feat-h">
-    <h2 id="feat-h" class="h-title">See what you get</h2>
-    <p class="h-sub">Here's what one entry looks like. Every gig is written up the same way.</p>
-    <article class="feat" id="feat-card"></article>
-  </section>
-
-  <!-- How it works -->
-  <section class="wrap h-section" aria-labelledby="how-h">
-    <h2 id="how-h" class="h-title">How Side Hustle Intel Works</h2>
-    <ol class="h-steps">
-      <li><span class="h-num" aria-hidden="true">1</span><h3>We Research</h3><p>We follow hundreds of work-at-home creators on YouTube, review their videos, and link you straight to the original video.</p></li>
-      <li><span class="h-num" aria-hidden="true">2</span><h3>We Summarize</h3><p>Each idea becomes a short, plain-English summary. We tell you what it is, who it&rsquo;s for, and the truth as we see it.</p></li>
-      <li><span class="h-num" aria-hidden="true">3</span><h3>You Discover</h3><p>Search and compare gigs, save the ones you like, and watch the original video when you want more detail.</p></li>
-    </ol>
-  </section>
-
-  <!-- Why -->
-  <section class="wrap h-section h-why" aria-labelledby="why-h">
-    <h2 id="why-h" class="h-title">Why Side Hustle Intel?</h2>
-    <ul class="h-checks">
-      <li>Spend less time searching and watching videos</li>
-      <li>Understand an idea before you invest time in it</li>
-      <li>Search by keyword, type of gig and your situation</li>
-      <li>Go straight to the original video when you want more</li>
-    </ul>
-  </section>
-
-  <!-- Closing band: the same two choices, once more -->
-  <section class="h-closer">
-    <div class="wrap">
-      <h2>Ready to find your Work-at-Home Gig?</h2>
-      <div class="h-closer-btns">
-        <a class="btn" href="/tool/" data-cta="bottom">Explore the Gig Database</a>
+      <div class="fbox">
+        <h2>Your situation</h2>
+        <p class="fhint">Tick any that fit you. Each one narrows the list.</p>
+        <div id="sit-boxes"></div>
       </div>
-    </div>
-  </section>
+      <button type="button" class="btn btn-sm apply" id="apply">Show gigs</button>
+    </aside>
 
-  <!-- Weekly email signup (Kit form 10117206, unchanged) -->
-  <section class="signup-band">
-    <div class="wrap">
-      <form class="signup" action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="home">
+    <main class="main">
+      <div class="m-topics fbox" id="m-topics"></div>
+      <div class="m-sit fbox" id="m-sit"></div>
+      <div class="sticky-top">
+      <div class="main-top">
+        <div>
+          <h1 id="heading">Work-at-home gigs</h1>
+          <p id="count" aria-live="polite">Loading gigs…</p>
+        </div>
+        <label class="sort">Sort by
+          <select id="sort">
+            <option value="shuffle">Shuffle</option>
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+            <option value="views">Most YouTube views</option>
+          </select>
+        </label>
+      </div>
+      <div class="active" id="active"></div>
+      </div>
+      <form class="signup" action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="tool">
         <p class="signup-kicker">Free Newsletter</p>
-        <h2 class="signup-head">New gigs in your inbox every week</h2>
+        <p class="signup-head">New gigs in your inbox every week</p>
         <p>One short email a week: the Gig of the Week plus 7 more of the newest gigs. Unsubscribe anytime. <a href="/privacy/">Privacy</a></p>
-        <div class="signup-row"><label class="sr" for="email-home">Your email address</label><input id="email-home" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required><button type="submit">Subscribe Free</button></div>
+        <div class="signup-row"><label class="sr" for="email-tool">Your email address</label><input id="email-tool" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required><button type="submit">Subscribe Free</button></div>
       </form>
-    </div>
-  </section>
-</main>
+      <div id="list" style="display:flex;flex-direction:column;gap:14px"></div>
+      <div class="empty" id="empty" hidden></div>
+      <button type="button" class="btn btn-sm show-more" id="more" hidden>Show more gigs</button>
+      <div id="more-zone" aria-hidden="true" style="height:1px"></div>
+    </main>
+  </div>
+</div>
 
 <footer class="site-footer h-footer">
   <div class="wrap">
     <nav class="h-foot-links" aria-label="Footer">
-      <a href="/tool/">Browse Database</a>
+      <a href="/">Browse Database</a>
       <a href="/subscribe/">Subscribe</a>
       <a href="/about.html">About</a>
       <a href="mailto:website@sidehustleintel.org">Contact</a>
       <a href="/privacy/">Privacy</a>
     </nav>
-    <p class="h-foot-cats" id="foot-cats"></p>
+    <p class="h-foot-cats">Browse by type: <a href="/category/local-professional-services/">Services from home</a> · <a href="/category/digital-subscription-products/">Digital products</a> · <a href="/category/marketing-content/">Marketing for businesses</a> · <a href="/category/physical-print-products/">Things you make</a> · <a href="/category/content-personal-brand/">YouTube &amp; blogging</a> · <a href="/category/ai-automation/">AI &amp; automation</a> · <a href="/category/e-commerce/">Online stores</a></p>
     <p>© 2026 SideHustleIntel.org · Each gig is a summary of an idea from a creator&rsquo;s YouTube video. Creator names are shown for reference only and imply no endorsement. No income is promised or guaranteed.</p>
   </div>
 </footer>
 
 <script src="/site.js?v=20261105h"></script>
-<script>
-// Featured gig on the homepage: the most-watched gig from videos published in the
-// 30 days before the newest one (fallback: the newest gig). Shows What It Is and The Truth.
-Promise.all([loadIdeas(), fetch('/views.json').then(r => r.ok ? r.json() : {}).catch(() => ({})), fetch('/page-index.json').then(r => r.ok ? r.json() : {}).catch(() => ({}))])
-.then(([data, v, pi]) => {
-  const views = (v && v.views) || {}, pages = new Set((pi && pi.ideas) || []);
-  const vid = u => { const m = String(u || '').match(/(?:[?&]v=|youtu\.be\/|\/shorts\/)([A-Za-z0-9_-]{11})/); return m ? m[1] : ''; };
-  const ok = data.filter(i => i.truth && i.what && pages.has(i.id) && i.published);
-  if (!ok.length) return;
-  const newest = ok.reduce((m, i) => i.published > m ? i.published : m, '');
-  const cut = new Date(new Date(newest + 'T00:00:00Z') - 30 * 864e5).toISOString().slice(0, 10);
-  const recent = ok.filter(i => i.published >= cut);
-  const ranked = (recent.length ? recent : ok).slice().sort((a, b) => (views[vid(b.url)] || 0) - (views[vid(a.url)] || 0));
-  // Prefer a creator with a real photo (checks the top 8 in order).
-  const hasPhoto = n => new Promise(res => { const im = new Image(); im.onload = () => res(true); im.onerror = () => res(false); im.src = `/assets/avatars/avatar-${slugify(n)}.jpg`; });
-  return (async () => { for (const i of ranked.slice(0, 8)) if (await hasPhoto(shortCreator(i.found))) return i; return ranked[0]; })();
-}).then(pick => {
-  if (!pick) return;
-  const cat = (CAT_BY_NAME[pick.category] || {}).name || pick.category;
-  const who = shortCreator(pick.found);
-  document.getElementById('feat-card').innerHTML = `
-    <div class="feat-head">${avatarHtml(who, 'feat-av')}<div>
-      <p class="feat-label">Example from the database</p>
-      <h3>${esc(shortTitle(pick))}</h3>
-      <p class="feat-meta"><span>${esc(cat)}</span><span>${esc(costLabel(pick))}</span><span>From a YouTube video by ${esc(who)}</span></p>
-    </div></div>
-    <div class="feat-sec"><h4>What It Is</h4><p>${esc(pick.what)}</p></div>
-    <div class="feat-sec feat-truth"><h4>The Truth <span>(as we see it)</span></h4><p>${esc(pick.truth)}</p><p class="truth-note">Our assessment, based on the video and what&rsquo;s typical across similar videos. We don&rsquo;t independently verify income claims or prices.</p></div>
-    <p class="feat-links"><a class="btn" href="/ideas/${encodeURIComponent(pick.id)}/" data-cta="home-featured">Read the full write-up</a><a href="${esc(pick.url)}" target="_blank" rel="noopener" data-cta="home-featured-video">Watch the source video on YouTube &#8599;</a></p>`;
-  document.getElementById('featured').hidden = false;
-}).catch(() => {});
-</script>
+<script src="/tool/results.js?v=20261119a"></script>
 <script>
 // Weekly email signup: count submits in Google Analytics (event email_signup, with which form).
 document.querySelectorAll('form.signup').forEach(f => f.addEventListener('submit', () => {
   try { if (typeof gtag === 'function') gtag('event', 'email_signup', { form: f.dataset.src, transport_type: 'beacon' }); } catch (e) {}
 }));
-
-// Count clicks on the homepage buttons and links (Google Analytics event cta_click, with which one).
-document.addEventListener('click', e => {
-  const a = e.target.closest('[data-cta]');
-  if (a) { try { gtag('event', 'cta_click', { cta: a.dataset.cta }); } catch (err) {} }
-});
-
-// Footer: links to the 7 category pages (/category/<slug>/), which Google indexes.
-document.getElementById('foot-cats').innerHTML = 'Browse by type: ' +
-  CATS.map(c => `<a href="/category/${c.slug}/">${esc(c.name)}</a>`).join(' · ');
-
 </script>
+
 </body>
 </html>

@@ -60,7 +60,7 @@ def fmt_views(n):
 def link_for(i, pages):
     if i['id'] in pages:
         return f"{SITE}/ideas/{i['id']}/"
-    return f"{SITE}/tool/?open={i['id']}"
+    return f"{SITE}/?open={i['id']}"
 
 
 FONT = 'font-family:Arial,Helvetica,sans-serif'
@@ -177,7 +177,7 @@ def build(days):
 {more_html}
 {QUIZ_BLOCK}
 <tr><td align="center" style="padding:4px 0 22px">
-  <a href="{SITE}/tool/" style="font-size:16px;font-weight:bold;color:#0F3D57">Browse every gig &rarr;</a>
+  <a href="{SITE}/" style="font-size:16px;font-weight:bold;color:#0F3D57">Browse every gig &rarr;</a>
   <p style="font-size:14px;color:#6b7280;margin:8px 0 0">{n} gig{'s were' if n != 1 else ' was'} added this week. There are now {total:,} in the free database.</p>
 </td></tr>
 <tr><td style="border-top:1px solid #E3EAEE;padding:18px 4px 0">{SIGNOFF}
