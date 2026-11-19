@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+  // Old links (outreach emails, shared gig links) used /?q=... and /?open=...
+  // to open the search tool. The tool lives at /tool/, so send them there.
+  if (/[?&](q|open)=/.test(location.search)) location.replace('/tool/' + location.search);
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XP9MDRLCHP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XP9MDRLCHP', { page_location: location.href }); // full address saved now, so the tidy-up below can't lose the utm_ tags
+  // Nov 6: once Analytics has recorded where the visit came from, remove the utm_ tags from the address bar so shared links stay clean.
+  if (/[?&]utm_/.test(location.search)) setTimeout(function () { try { var u = new URL(location.href); [...u.searchParams.keys()].filter(function (k) { return k.indexOf('utm_') === 0 || k === 'fbclid'; }).forEach(function (k) { u.searchParams.delete(k); }); history.replaceState(null, '', u.pathname + (u.search || '') + u.hash); } catch (e) {} }, 1500);
+</script>
+<!-- Microsoft Clarity (visit recordings/heatmaps, project z928e0q6vl) -->
+<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","z928e0q6vl");</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex"><!-- PREVIEW ONLY: remove when this becomes the home page -->
+<title>Side Hustle Intel — Find Work-at-Home Gigs That Fit Your Life</title>
+<meta name="description" content="A free, searchable database of 1,000+ work-at-home gigs, each a short plain-English summary of an idea from a YouTube creator's video, with the truth as we see it and a link to the original video.">
+<link rel="canonical" href="https://sidehustleintel.org/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="1,000+ Work-at-Home Ideas. Without Watching 1,000+ Videos.">
+<meta property="og:description" content="A free, searchable database of work-at-home gigs summarized from YouTube creators' videos, explained in plain English, with the truth as we see it. No sign-up.">
+<meta property="og:url" content="https://sidehustleintel.org/">
+<meta property="og:image" content="https://sidehustleintel.org/assets/og-share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Side Hustle Intel Gig Finder: search box, filters and work-at-home gig summaries">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/site.css?v=20261119a">
+</head>
+<body class="results-page home-db">
+
+<div class="results-head">
+<header class="site-header home-header">
+  <div class="wrap">
+    <a href="/" class="home-logo"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel home" width="1782" height="169"></a>
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="home-nav">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      Menu
+    </button>
+    <nav class="nav home-nav" id="home-nav" aria-label="Main">
+      <span class="nav-current" aria-current="page">Browse Database</span>
+      <a href="/subscribe/" data-cta="header-subscribe">Subscribe</a>
+      <a href="/about.html" data-cta="header-about">About</a>
+    </nav>
+  </div>
+</header>
+<script>(function(){var b=document.getElementById('menu-btn'),n=document.getElementById('home-nav');b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(o));n.classList.toggle('open',o);});})();</script>
+<div class="toolbar">
+  <div class="wrap">
+    <form class="search" id="search-form" role="search">
+      <label for="q" class="sr">Search gigs</label>
+      <input id="q" type="search" placeholder="Search a skill, idea or creator" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+    <a href="#" class="nav-saved" id="saved-link">&hearts; Saved (<span id="saved-n">0</span>)</a>
+  </div>
+</div>
+</div>
+
+<div class="results-body">
+  <div class="wrap layout">
+    <button type="button" class="filters-toggle" id="filters-toggle" aria-expanded="false" aria-controls="filters">Your situation</button>
+    <aside class="filters" id="filters" aria-label="Filters">
+      <div class="fbox fbox-interest">
+        <h2>What interests you?</h2>
+        <p class="fhint">Tap as many as you like. Popular topics:</p>
+        <div class="topic-btns" id="topic-btns"></div>
+        <p class="fhint fhint-sub">Or browse by type:</p>
+        <div class="topic-btns" id="cat-boxes"></div>
+        <button type="button" class="clear-sel" id="clear-sel" data-clearsel="1" disabled>Clear all selections</button>
+      </div>
+      <div class="fbox">
+        <h2>Your situation</h2>
+        <p class="fhint">Tick any that fit you. Each one narrows the list.</p>
+        <div id="sit-boxes"></div>
+      </div>
+      <button type="button" class="btn btn-sm apply" id="apply">Show gigs</button>
+    </aside>
+
+    <main class="main">
+      <div class="m-topics fbox" id="m-topics"></div>
+      <div class="m-sit fbox" id="m-sit"></div>
+      <div class="sticky-top">
+      <div class="main-top">
+        <div>
+          <h1 id="heading">Work-at-home gigs</h1>
+          <p id="count" aria-live="polite">Loading gigs…</p>
+          <p class="tagline">Honest, plain-English write-ups of work-at-home ideas from YouTube creators. No hype, no income promises.</p>
+        </div>
+        <label class="sort">Sort by
+          <select id="sort">
+            <option value="shuffle">Shuffle</option>
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+            <option value="views">Most YouTube views</option>
+          </select>
+        </label>
+      </div>
+      <div class="active" id="active"></div>
+      </div>
+      <form class="signup" action="https://app.kit.com/forms/10117206/subscriptions" method="post" data-src="tool">
+        <p class="signup-kicker">Free Newsletter</p>
+        <p class="signup-head">New gigs in your inbox every week</p>
+        <p>One short email a week: the Gig of the Week plus 7 more of the newest gigs. Unsubscribe anytime. <a href="/privacy/">Privacy</a></p>
+        <div class="signup-row"><label class="sr" for="email-tool">Your email address</label><input id="email-tool" type="email" name="email_address" placeholder="Your email address" autocomplete="email" required><button type="submit">Subscribe Free</button></div>
+      </form>
+      <div id="list" style="display:flex;flex-direction:column;gap:14px"></div>
+      <div class="empty" id="empty" hidden></div>
+      <button type="button" class="btn btn-sm show-more" id="more" hidden>Show more gigs</button>
+      <div id="more-zone" aria-hidden="true" style="height:1px"></div>
+    </main>
+  </div>
+</div>
+
+<footer class="site-footer h-footer">
+  <div class="wrap">
+    <nav class="h-foot-links" aria-label="Footer">
+      <a href="/">Browse Database</a>
+      <a href="/subscribe/">Subscribe</a>
+      <a href="/about.html">About</a>
+      <a href="mailto:website@sidehustleintel.org">Contact</a>
+      <a href="/privacy/">Privacy</a>
+    </nav>
+    <p class="h-foot-cats">Browse by type: <a href="/category/local-professional-services/">Services from home</a> · <a href="/category/digital-subscription-products/">Digital products</a> · <a href="/category/marketing-content/">Marketing for businesses</a> · <a href="/category/physical-print-products/">Things you make</a> · <a href="/category/content-personal-brand/">YouTube &amp; blogging</a> · <a href="/category/ai-automation/">AI &amp; automation</a> · <a href="/category/e-commerce/">Online stores</a></p>
+    <p>© 2026 SideHustleIntel.org · Each gig is a summary of an idea from a creator&rsquo;s YouTube video. Creator names are shown for reference only and imply no endorsement. No income is promised or guaranteed.</p>
+  </div>
+</footer>
+
+<script src="/site.js?v=20261105h"></script>
+<script src="/tool/results.js?v=20261119v"></script>
+<script>
+// Weekly email signup: count submits in Google Analytics (event email_signup, with which form).
+document.querySelectorAll('form.signup').forEach(f => f.addEventListener('submit', () => {
+  try { if (typeof gtag === 'function') gtag('event', 'email_signup', { form: f.dataset.src, transport_type: 'beacon' }); } catch (e) {}
+}));
+</script>
+
+</body>
+</html>
