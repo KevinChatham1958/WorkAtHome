@@ -17,8 +17,8 @@ What it does:
     single flag: is it the video's own creator? No usernames are kept.
 
 Output: a working file (default /tmp/comments-batch.json). The workflow puts it on
-the short-lived branch "comments-work"; the Viewer comments run deletes that branch
-when it is done. Comments are never kept in main (YouTube API rules: see
+the branch "comments-work", which holds only the latest batch (each run replaces it;
+it can be deleted any time from the repo's Branches page). Comments are never kept in main (YouTube API rules: see
 claude/YouTube API Rules.md in the Project).
 
 Quota: about 30 units for the video check plus 1 unit per video read, of the free
