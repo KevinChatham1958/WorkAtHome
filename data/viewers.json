@@ -1,4 +1,243 @@
 {
-  "about": "What Viewers Say: our summaries of the YouTube comments under each source video, keyed by video ID. status: summarized | few | off. date: year-month the comments were read. gigs: optional gig-specific lines (list videos) that replace text for that gig. Written by the weekly 'Viewer comments' run; see Production Process doc. No usernames, quotes or counts (YouTube API rules).",
-  "videos": {}
+ "about": "What Viewers Say: our summaries of the YouTube comments under each source video, keyed by video ID. status: summarized | few | off. date: year-month the comments were read. gigs: optional gig-specific lines (list videos) that replace text for that gig. Written by the weekly 'Viewer comments' run; see Production Process doc. No usernames, quotes or counts (YouTube API rules).",
+ "videos": {
+  "-pp851qDmOY": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Most comments are entries for the creator's cash giveaway, many plainly AI-written, so they say little about whether this works. Several viewers say it teaches for free what a much pricier course charges for; no one reports sales from it yet."
+  },
+  "-qReeg7imGc": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Almost entirely thanks and encouragement, many from teenagers. There's no practical feedback on the tools themselves."
+  },
+  "0oE5olm5hhw": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Mostly fans. Viewers point out that much of the video is about a sponsored print-on-demand setup despite the Marketplace-flips title, and ask how much of the T-shirt sales came from paid ads."
+  },
+  "5rOIS7GHD5Y": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Viewers agree with the core advice to do real work first and show proof of it before trying to build a following, and some appreciate the point about sticking to one ideal customer. Otherwise it's mostly praise and a book plug; no one reports results yet."
+  },
+  "5rhHm6WWOIs": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "This comment section is mostly jokes and spam. The most-liked serious comments warn readers not to buy books recommended in the comments, which are bot plugs. A few viewers point out that these steps need business registration and tax records in some countries, and others say the real money is in making videos about making money."
+  },
+  "6KB9h-FcD8Q": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Almost all motivation and well-wishes, plus spam promoting a comment-marketing tool. One viewer remarks on how skillfully the video advertises the creator's own program; there's no feedback from people who tried these ideas."
+  },
+  "6zb99U-_43M": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "This comment section is crowded with fake wealth stories and book and trading promotions. Real viewers' most-liked points are skeptical: that the surest money is in making videos about making money, that the video felt like an extended ad for the creator's own program, and that several of these are closer to full-time jobs than side hustles."
+  },
+  "7ITff1fIbSc": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Comments mostly agree with the video's message of steady daily posting, and several creators share how slowly their own channels grew at first before picking up. There's little pushback; one viewer jokes that the whole method is to post constantly and wait years."
+  },
+  "8Rf0xna31xg": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Mostly thanks and \"wish me luck\" replies from people starting channels. The practical catches: the video tool it relies on isn't free for the voice and video generation, and one viewer notes the video never shows whether the example channel actually got views."
+  },
+  "Ar2DXQorEm4": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Viewers, including one who says they've been a full-time YouTuber for years, rate the advice highly, and several say it's so dense they slowed the video down. The takeaway they repeat is to research what the audience wants before making anything. There's little pushback, though one viewer feels it encourages copying proven formats rather than original work."
+  },
+  "DZoeGR_tatA": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Mostly encouragement and relatable posts about feeling overwhelmed by AI side-hustle content, plus entries for a laptop giveaway and some book spam. A few viewers appreciated that the video lists downsides for each model; there's little feedback from anyone who has tried them."
+  },
+  "EnSJN9zl-yA": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "The most-liked comment sums the video up as: get a decade of experience first, then sell it as consulting. Others say the message boils down to there being no shortcut. Several note it takes nearly 10 minutes to get going.",
+   "gigs": {
+    "bookkeeping-payroll-services": "The most-liked comment sums the video up as: get a decade of experience first, then sell it as consulting. On bookkeeping specifically, one viewer with a bookkeeping degree and QuickBooks certification says she's struggled to find paid work, a reminder that the skill alone doesn't bring clients."
+   }
+  },
+  "IPnafDDgj6o": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Important: in a later update pinned under the video, the creator himself says Facebook banned him because of this video and the revenue he describes is gone. Before that, viewers largely praised it as a clear, practical walkthrough, and several stressed that adding real commentary to borrowed clips is what keeps it within the rules."
+  },
+  "JrFZ_ky7AzE": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Most comments are replies confirming the viewer watched to the end (the video asks for them), so there's little real feedback. A few useful notes: one viewer made a first $5 sale after years of trying, another suggests reading bestsellers' 2- and 3-star reviews to find what buyers feel is missing, and one found Claude's cover designs and fonts dated."
+  },
+  "Jvkt5UhmxHw": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Mostly encouragement and thanks. The practical comments come from video editors, who say finding clients who will trust a newcomer, especially from another country, is much harder than the video makes it sound.",
+   "gigs": {
+    "tiktok-shorts-editor-pitch-follower-growth-package": "Working video editors in the comments say the basics are easy to learn but polished animations take time, and landing a first client without past work is the hard part. One recommends offering a free sample edit to get started."
+   }
+  },
+  "KMWx15H0SFs": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Comments are almost all thanks and encouragement, many from students. Practical feedback is thin: a well-liked complaint is that the video says what to do but not how, and several viewers say they still don't know where to start."
+  },
+  "LXb87J672u8": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Much of this section is crypto and investment spam, so read it with care. Real viewers are mostly encouraged: one says they started an agency after watching and signed a small first client, while others say lack of time (one is a parent caring for a disabled child) or not owning a computer holds them back."
+  },
+  "LlhTEttKcwQ": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "The creator's own pinned note says every sale in this experiment was refunded and the accounts shut down afterward, so the results weren't kept. Viewers who tried it report the same pattern: AI characters can pull views, but followers and sales come slowly, and one says it only started working once they fixed each clip by hand. Many others are uneasy about people paying fake personas."
+  },
+  "LmYqfmXlWAQ": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Practical and encouraging. One viewer says he's sold these for years, a handful a month at around $80 with most of that as profit, and another who tracked hundreds of Facebook Marketplace sales says each sale takes a fair amount of messaging with several buyers. Others warn that finding straight, untwisted boards at big-box stores is the hard part, and that lumber costs far more outside the US."
+  },
+  "PzQNzuSOvFQ": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Viewers overwhelmingly praise how candid the guest is, including that he pays himself an ordinary salary rather than millions. There's little practical discussion of the wholesale business itself."
+  },
+  "UX7mYSNj16Q": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "The most-liked comment notes that the hard part is getting people to buy them. Several viewers doubt the stated material cost, saying a single board this size costs about that much at big-box stores, and that the build time looks optimistic. One who sells through consignment shops warns booth rent can run hundreds a month with waiting lists, and another says they wouldn't pay much more than $20 for a set."
+  },
+  "V_t51u1tBJc": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Viewers share practical Shorts lessons: post often, treat the first videos as practice, hook people in the first seconds. Several warn that \"ranking\" compilations built from other people's clips sit in a gray zone under YouTube's reused-content and copyright rules and may not be monetized unless heavily edited, and some dismiss the format as AI filler."
+  },
+  "WPTAr14wmco": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Viewers find this unusually sober next to typical AI money videos, and the point that AI doesn't create demand by itself resonates. It's mostly praise and thanks; no one reports trying the bookkeeping niche."
+  },
+  "WVT2FCjhDDY": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Mostly thanks and encouragement among small creators. The useful warnings: a well-liked comment calls any title promising a set monthly income clickbait, and one viewer says YouTube has stopped monetizing stick-figure images stitched together with voiceover and music."
+  },
+  "ZIUYmkpHgP8": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "On price, a well-liked comment says these go for only about $8–20 on local Facebook Marketplace and that value depends heavily on your area, while another viewer saw one at a fair for $100. The rest are woodworkers swapping finishing tips (a sponge for stenciling, homemade Mod Podge) and enjoying the creator's humor."
+  },
+  "_67MWD7XW9Q": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "The most-liked comments complain that the video takes about 19 minutes to get to the point and could have been far shorter. Beyond that, it's mostly one-line replies saying they're in (the video appears to ask for them), plus a few skeptics who say people making real money wouldn't share how on YouTube."
+  },
+  "_yjr90DxNro": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Hobby woodworkers trade build tips, such as cutting the slot without a router table and drilling small blocks more safely. One viewer who says they've sold thousands of small craft items suggests making larger versions that sell for more. No one pushes back on how fast these sell."
+  },
+  "aHUB5HH-BRk": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Viewers mostly found it practical and liked the warning not to overspend on ads before testing designs. Skeptics note that it doubles as a long promotion for the print company whose warehouse it was filmed in, and one reminds beginners that returns, lost packages and wrong orders still land on the seller."
+  },
+  "arNIvR7AXVE": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "A friendly, practical crowd of hobby woodworkers. One young viewer says he builds and sells these racks a few hours a week, though orders come in irregularly; others share build tips, like making jigs so you don't have to measure every piece and cutting the long pieces first to save lumber. There's no pushback on the profit claims."
+  },
+  "c8qqXyyw6r0": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "The most-liked serious point is that her success didn't start with AI: it rests on many years in sales, a severance package and a lot of study and certifications. Others add that AI won't make anyone rich on its own; the real work is figuring out what you're good at and selling it. Overall, viewers found it inspiring."
+  },
+  "iHIRNkPFrd4": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Experienced woodworkers mostly agree with the video's sober take: when almost anyone can make something cheaply, there's little market, and craft work takes long hours per piece. Several say selling only ever subsidized their hobby, and that treating a hobby as a business can drain the fun out of it. One adds that finding straight lumber at the store eats real time."
+  },
+  "kEV86fy-Rvc": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Viewers appreciate that the video openly shows the goal wasn't met, with much of the inventory still unsold at the end. Practical notes: buying from liquidation marketplaces usually needs a state resale certificate and a registered business, and bulky items need real storage space. Several remark that the steadier money seems to be in selling plans and courses about it."
+  },
+  "kYPAlvnRiiI": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Mostly encouragement among people starting faceless channels. Viewers' main requests are to see a brand-new channel built and tracked from zero, and to know the total monthly cost of the paid tools used; one found the point about quality AI Shorts earning more per view useful."
+  },
+  "l0Vqm0ZIySc": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Viewers joke that the real business here is selling the AI setup, not what the AI earned, and several note that the guest seems far more technical than he claims (servers, Docker), so this is less beginner-friendly than it sounds. One thanks the host for being clear about the risks of the agent software used. Some book spam."
+  },
+  "mwYsapR6cYk": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Dominated by spam plugging books, investing and trading. The few real reactions say the video turns into a sales pitch for the website it promotes, despite saying it wouldn't."
+  },
+  "nIk3DedjxJM": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Viewers find the framework clear and many say they took notes, but a well-liked complaint is that they still don't know what business to start after watching. Another reminds readers that every idea still takes effort, time and money."
+  },
+  "nQOGK72IHx8": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "The most-liked comment says building the site is now the easy part; getting it to rank in search and draw traffic is the hard part. A viewer who runs ad-supported sites says the video skips recent Google ad-program changes and quality requirements, others call it a long ad for the site builder it promotes, and several warn that a video like this spawns a flood of copycat sites."
+  },
+  "oA0Pk1J9_mw": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Mostly general agreement with the video's point that dull businesses with recurring revenue beat flashy ideas, much of it written in a generic, possibly automated style, plus a book plug. No viewers report actually running any of the businesses listed."
+  },
+  "sDXdGEEwxm4": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Mostly praise for the creator, plus a well-liked reaction that $500 a month would be plenty, never mind $500 a day. One viewer pushes back that ideas sold as passive income, such as vending machines, take far more work and selling than suggested."
+  },
+  "srDpvEnGQg4": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Almost entirely small creators cheering each other on and posting their view milestones, so it reads more like a support thread than feedback. One viewer says a similar approach earned them a modest income this year, mostly from a single video that took off."
+  },
+  "vOBKA8n15vg": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Most comments are viewers answering the video's prompt to pick a method (the faceless YouTube option is the clear favorite), along with laptop-giveaway entries, sign-ups for the creator's AI challenge and some book spam. There's no feedback yet from anyone who has made money with these."
+  },
+  "xQ12WUnQid4": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Viewers with hands-on experience say the costs are understated: supply prices look like bulk overseas prices, and import fees, tariffs and shipping can double what the machines cost. Others note hidden running costs like inks, sheets and screens, and that finding designs to sell takes its own research.",
+   "gigs": {
+    "desktop-laser-engraver-personalized-gifts": "A laser engraving business owner warns that the fumes from desktop engravers are hazardous and need proper ventilation, and that cheap diode lasers work slowly and can be a fire risk with wood. Others say machine prices can double once import fees and shipping are added.",
+    "rock-tumbler-polished-stone-jewelry": "A viewer notes that tumbling rocks takes far longer than the video suggests, since stones go through several grits over weeks before they're polished. Others say supply prices look like bulk overseas prices, and that import fees and shipping can double machine costs."
+   }
+  },
+  "xTigixXmBMQ": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Experienced resellers push back hard on the numbers: the most-liked comments call the monthly figures misleading and point out that the video's own math implies an unrealistic price per item. Sellers say eBay fees can take a big cut before promotions and shipping, margins have shrunk, and bulk \"mystery\" lots are usually other sellers' leftovers. Smaller sellers report steady but modest weekly earnings from Marketplace and eBay."
+  },
+  "xfOT2elC2Ok": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Many of the top comments are spam (fake success stories, book plugs, posts pushing other tools), so read this section with care. Real viewers' most-liked point is that every popular video like this brings in more competitors and makes the method harder, and several note the creator likely earned more from the video and its sponsored links than from the store. Others say an AI-built store still needs real marketing skill, clear product details and trust-building to sell."
+  },
+  "ytAW1_g2IfI": {
+   "status": "summarized",
+   "date": "2026-11",
+   "text": "Mostly thanks and jokes. The useful comments push back on the idea that this is effortless: AI makes building easier but brings far more competition, several of these still need a real skill underneath, and viewers ask how to find the first customers, which the video doesn't cover.",
+   "gigs": {
+    "ai-landing-pages-websites": "Mostly thanks and jokes. On this idea, one viewer notes that building a simple website is the easy part; keeping it running and getting it seen is the hard part. Others add that AI brings far more competition, and ask how to find the first customers, which the video doesn't cover."
+   }
+  }
+ }
 }
