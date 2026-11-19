@@ -325,7 +325,7 @@ function render() {
   else if (st.q.trim() && st.loose) $('count').innerHTML = `No gig mentions every word of “${esc(st.q.trim())}”. Showing ${gigsTxt} that match some of them · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
   else if (st.q.trim()) $('count').innerHTML = `Showing ${gigsTxt} for “${esc(st.q.trim())}”${narrowed ? ' with your filters' : ''} (of ${ALL.length.toLocaleString()}) · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
   else if (narrowed) $('count').innerHTML = `Showing ${gigsTxt} that ${n === 1 ? 'matches' : 'match'} your choices (of ${ALL.length.toLocaleString()}) · <button type="button" class="count-clear" data-clear="all">Clear all</button>`;
-  else $('count').innerHTML = `Currently listing ${gigsTxt} · tap any gig for the full write-up`;
+  else $('count').innerHTML = `Currently Listing ${gigsTxt} · tap any gig for the full write-up`;
   $('count').dataset.n = n;
   if (prev !== undefined && String(prev) !== String(n)) { const c = $('count'); c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); setTimeout(() => c.classList.remove('flash'), 50); }
   $('apply').textContent = n ? `Show ${n.toLocaleString()} gig${n === 1 ? '' : 's'}` : 'No gigs match';
