@@ -24,12 +24,18 @@
 <link rel="stylesheet" href="/site.css?v=20261105m">
 <style>
   .dir { max-width: 1040px; margin: 0 auto; padding: 32px 20px 64px; }
-  .dir h1 { font-size: 34px; margin-bottom: 8px; }
-  .dir .lead { font-size: 17px; color: var(--body); max-width: 760px; margin: 0 0 6px; }
-  .dir .small { font-size: 14px; color: var(--muted); margin: 0 0 22px; }
+  /* Nov 18-19, 2026 (Kevin): everything above the list stays locked at the top while the list scrolls;
+     tighter spacing; big bold centred title; the intro paragraph removed. */
+  .dir-lock { position: sticky; top: 0; z-index: 20; background: #FFFFFF; box-shadow: 0 6px 10px -8px rgba(15,61,87,0.25); }
+  .dir.dir-top { padding: 12px 20px 0; }
+  .dir.dir-body { padding-top: 14px; }
+  .dir h1 { font-size: 44px; font-weight: 700; text-align: center; line-height: 1.1; margin: 0 0 2px; }
+  .dir .small { font-size: 14px; color: var(--muted); margin: 0 0 6px; text-align: center; }
+  .dir-top .tools { margin-bottom: 6px; }
+  .dir-top .found { margin: 0; padding-bottom: 8px; }
   .dtab { box-shadow: none; }
-  .tabs { display: flex; gap: 8px; border-bottom: 2px solid var(--line); margin-bottom: 18px; }
-  .dtab { font: inherit; font-size: 17px; font-weight: 600; color: var(--muted); background: none; border: 0; border-bottom: 3px solid transparent; margin-bottom: -2px; padding: 10px 14px; cursor: pointer; }
+  .tabs { display: flex; gap: 8px; border-bottom: 2px solid var(--line); margin-bottom: 10px; }
+  .dtab { font: inherit; font-size: 17px; font-weight: 600; color: var(--muted); background: none; border: 0; border-bottom: 3px solid transparent; margin-bottom: -2px; padding: 6px 14px; cursor: pointer; }
   .dtab[aria-selected="true"] { color: var(--navy); border-bottom-color: var(--accent); }
   .tools { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin-bottom: 14px; }
   .tools input[type=search] { flex: 1 1 280px; font: inherit; font-size: 16px; padding: 10px 12px; border: 1.5px solid var(--line); border-radius: 8px; background: #fff; color: var(--navy); }
@@ -58,7 +64,7 @@
   .more { display: block; margin: 16px auto 0; }
   .note { font-size: 13px; color: var(--muted); margin-top: 28px; }
   @media (max-width: 640px) {
-    .dir h1 { font-size: 27px; }
+    .dir h1 { font-size: 32px; }
     .crow { grid-template-columns: 44px 1fr; }
     .crow img { width: 44px; height: 44px; }
     .stats { grid-column: 1 / -1; text-align: left; white-space: normal; }
@@ -67,6 +73,7 @@
 </head>
 <body>
 
+<div class="dir-lock">
 <header class="site-header home-header">
   <div class="wrap">
     <a href="/" class="home-logo"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel home" width="1782" height="169"></a>
@@ -84,17 +91,15 @@
 </header>
 <script>(function(){var b=document.getElementById('menu-btn'),n=document.getElementById('home-nav');b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(o));n.classList.toggle('open',o);});})();</script>
 
-<main class="dir">
+<div class="dir dir-top">
   <h1>Creator Directory</h1>
-  <p class="lead">A bonus for weekly-email subscribers: every YouTube creator whose videos are in Side Hustle Intel, with their channel facts, plus every video they've posted in the last two years, searchable by subject. Videos we've written up are highlighted, with links to our honest take.</p>
   <p class="small" id="updated">Loading…</p>
 
   <div class="tabs" role="tablist">
     <button class="dtab" role="tab" id="tab-c" aria-selected="true">Creators</button>
     <button class="dtab" role="tab" id="tab-v" aria-selected="false">Search their videos</button>
   </div>
-
-  <section id="pane-c">
+  <div id="top-c">
     <div class="tools">
       <input type="search" id="cq" placeholder="Find a creator by name or topic" aria-label="Find a creator">
       <label>Sort by
@@ -108,10 +113,8 @@
       </label>
     </div>
     <p class="found" id="cfound"></p>
-    <div id="clist"></div>
-  </section>
-
-  <section id="pane-v" hidden>
+  </div>
+  <div id="top-v" hidden>
     <div class="tools">
       <input type="search" id="vq" placeholder="Search video titles, e.g. Etsy, bookkeeping, faceless" aria-label="Search video titles">
       <select id="vcreator" aria-label="Creator"><option value="">All creators</option></select>
@@ -122,6 +125,17 @@
       <label><input type="checkbox" id="vours"> Only videos we've written up</label>
     </div>
     <p class="found" id="vfound">Loading videos…</p>
+  </div>
+</div>
+</div>
+
+<main class="dir dir-body">
+
+  <section id="pane-c">
+    <div id="clist"></div>
+  </section>
+
+  <section id="pane-v" hidden>
     <div id="vlist"></div>
     <button type="button" class="btn btn-sm more" id="vmore" hidden>Show more videos</button>
   </section>
@@ -161,6 +175,8 @@
     const v = tab === 'v';
     $('tab-c').setAttribute('aria-selected', !v); $('tab-v').setAttribute('aria-selected', v);
     $('pane-c').hidden = v; $('pane-v').hidden = !v;
+    $('top-c').hidden = v; $('top-v').hidden = !v;
+    window.scrollTo(0, 0);
     if (v) loadVideos();
   }
   $('tab-c').onclick = () => show('c');
