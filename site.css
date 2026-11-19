@@ -198,8 +198,10 @@ a.creator:hover { color: var(--accent); }
 .alert-ask button:hover, .alert-ask button:focus-visible { border-color: var(--accent); color: var(--accent-dark); }
 .alert-thanks { display: inline-block; color: var(--body); background: var(--accent-tint); border-radius: 8px; padding: 8px 14px; }
 .main-top p { margin: 10px 0 0; font-size: 17px; font-weight: 400; color: var(--body); }
-/* Database as the home page (Nov 19, 2026): one line saying who we are, under the count. */
-.main-top p.tagline { margin: 4px 0 0; font-size: 15px; color: var(--muted); }
+/* Database as the home page (Nov 19, 2026, Kevin): one line saying who we are, under the logo, above the search box. */
+.toolbar .site-tagline { flex: 1 1 100%; margin: 0 0 -4px; font-size: 16px; font-weight: 600; line-height: 1.35; color: var(--navy); }
+.results-head .site-header:has(+ script + .toolbar .site-tagline) { border-bottom: 0; }
+@media (max-width: 760px) { .toolbar .site-tagline { font-size: 14px; } }
 .sort { display: flex; gap: 8px; align-items: center; font-size: 15px; color: var(--muted); }
 .sort select { font: inherit; font-size: 15px; padding: 8px 10px; border: 1.5px solid var(--field); border-radius: 8px; background: #FFFFFF; color: var(--ink); }
 .active { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
