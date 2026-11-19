@@ -36,6 +36,8 @@ import shutil
 
 SITE = "https://sidehustleintel.org"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+VIEWERS_WAIT_DAYS = 21   # comments are summarized once a video is 3 weeks old (Kevin, Nov 19, 2026)
+VIEWERS_NEW_TEXT = "This video is still new. We\u2019ll summarize the comments once it\u2019s been out a few weeks."
 SITE_CSS_VERSION = "20261105m"   # site.css (shared with the homepage, Gig Finder and quiz)
 PAGE_CSS_VERSION = "20261105m"
 # Friendly category names shown to visitors (same as CATS in site.js). The data and the
@@ -116,6 +118,15 @@ def fmt_date(d):
     except (TypeError, ValueError):
         return None
     return dt.strftime('%b ') + str(dt.day) + dt.strftime(', %Y')
+
+
+def fmt_month(d):
+    """'2026-11' (or a full date) -> 'November 2026'."""
+    try:
+        dt = datetime.date.fromisoformat((d or '')[:7] + '-01')
+    except ValueError:
+        return None
+    return dt.strftime('%B %Y')
 
 
 def cost_is_estimate(x):
@@ -212,10 +223,42 @@ class Site:
         for x in self.pages:
             k = short_title(x).lower(); sc[k] = sc.get(k, 0) + 1
         self.dup_short = {k for k, n in sc.items() if n > 1}
+        # Viewer-comment summaries by video ID ("What Viewers Say"; see viewers_section()).
+        vf = os.path.join(ROOT, 'data', 'viewers.json')
+        self.viewers = json.load(open(vf, encoding='utf-8')).get('videos', {}) if os.path.exists(vf) else {}
         self.video_counts = {}
         for x in ideas:
             k = video_key(x.get('url'))
             self.video_counts[k] = self.video_counts.get(k, 0) + 1
+
+    def viewers_section(self, idea, today=None):
+        """(text, note) for the "What Viewers Say" section, or None to leave it out.
+        Mirrors viewersFor() in tool/results.js. Kevin, Nov 19, 2026:
+          summarized -> our 2-3 sentence summary (a gig-specific line wins over the video's)
+          few / off  -> a fixed fallback line
+          no entry   -> the "still new" line if the video is under VIEWERS_WAIT_DAYS old;
+                        older gigs still in the backlog show nothing until summarized"""
+        v = self.viewers.get(video_key(idea.get('url')))
+        if v:
+            month = fmt_month(v.get('date'))
+            note = f'Our summary of the viewer comments under the source video, as of {month}.' if month else ''
+            st = v.get('status')
+            if st == 'summarized':
+                text = (v.get('gigs') or {}).get(idea['id']) or v.get('text')
+                if text:
+                    return text, note
+            elif st == 'few':
+                return 'Too few viewer comments to summarize.', ''
+            elif st == 'off':
+                return 'Comments are turned off on this video.', ''
+            return None
+        try:
+            age = ((today or datetime.date.today()) - datetime.date.fromisoformat(idea.get('published') or '')).days
+        except ValueError:
+            return None
+        if age < VIEWERS_WAIT_DAYS:
+            return VIEWERS_NEW_TEXT, ''
+        return None
 
     def video_count(self, idea):
         return self.video_counts.get(video_key(idea.get('url')), 1)
@@ -608,6 +651,9 @@ def idea_page(idea, site, ctx):
     source_note = (f'<p class="note">One of {n_in_video} gigs covered in this video</p>'
                    if n_in_video > 1 else '')
 
+    vw = site.viewers_section(idea)
+    viewers_html = (f'\n    <section class="gig-sec" id="what-viewers-say"><h2>What Viewers Say</h2><p>{esc(vw[0])}</p>'
+                    + (f'<p class="truth-note">{esc(vw[1])}</p>' if vw[1] else '') + '</section>') if vw else ''
     fb = 'https://www.facebook.com/sharer/sharer.php?u=' + url
     dek = (f'<p class="gig-dek">{esc(sentence(idea["name"]))}</p>' if len(idea['name'].split()) > 6 else '')
     main = f"""<main class="idea-page">
@@ -643,7 +689,7 @@ def idea_page(idea, site, ctx):
     <section class="gig-sec"><h2>What It Is</h2><p>{esc(idea['what'])}</p></section>
     <section class="gig-sec"><h2>The Pitch</h2><p>{esc(idea['pitch'])}</p></section>
     <section class="gig-sec"><h2>Who It&rsquo;s Best For</h2><p>{esc(idea['best'])}</p></section>
-    <section class="gig-sec" id="the-truth"><h2>The Truth <span style="font-weight:600">(as we see it)</span></h2><p>{esc(idea['truth'])}</p><p class="truth-note">Our assessment, based on the video and what&rsquo;s typical across similar videos. We don&rsquo;t independently verify income claims or prices.</p></section>
+    <section class="gig-sec" id="the-truth"><h2>The Truth <span style="font-weight:600">(as we see it)</span></h2><p>{esc(idea['truth'])}</p><p class="truth-note">Our assessment, based on the video and what&rsquo;s typical across similar videos. We don&rsquo;t independently verify income claims or prices.</p></section>{viewers_html}
     <p class="after-truth">Not sure this one&rsquo;s for you? <a href="{ctx.base}/tool/" data-cta="page-after-truth-browse">Browse more gigs</a> by topic or by what fits your life.</p>
   </article>
 

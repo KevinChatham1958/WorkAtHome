@@ -1,0 +1,4 @@
+{
+  "about": "What Viewers Say: our summaries of the YouTube comments under each source video, keyed by video ID. status: summarized | few | off. date: year-month the comments were read. gigs: optional gig-specific lines (list videos) that replace text for that gig. Written by the weekly 'Viewer comments' run; see Production Process doc. No usernames, quotes or counts (YouTube API rules).",
+  "videos": {}
+}

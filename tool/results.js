@@ -60,6 +60,28 @@ let creatorSlugs = new Set();
 let mSitOpen = false; // phones: is the "Your situation" box open?
 // YouTube view counts by video ID, from /views.json (refreshed weekly by a GitHub Action).
 let VIEWS = {}, VIEWS_DATE = '';
+// "What Viewers Say" summaries by video ID, from /data/viewers.json (weekly "Viewer comments" run).
+let VIEWERS = {};
+const VIEWERS_WAIT_DAYS = 21;
+// Mirrors Site.viewers_section() in tools/build_pages.py: returns [text, note] or null (section left out).
+function viewersFor(i) {
+  const v = VIEWERS[videoId(i.url)];
+  if (v) {
+    if (v.status === 'summarized') {
+      const text = (v.gigs && v.gigs[i.id]) || v.text;
+      if (!text) return null;
+      const dt = v.date ? new Date(v.date.slice(0, 7) + '-01T00:00:00Z') : null;
+      const month = dt && !isNaN(dt) ? dt.toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' }) : '';
+      return [text, month ? `Our summary of the viewer comments under the source video, as of ${month}.` : ''];
+    }
+    if (v.status === 'few') return ['Too few viewer comments to summarize.', ''];
+    if (v.status === 'off') return ['Comments are turned off on this video.', ''];
+    return null;
+  }
+  const pub = i.published ? new Date(i.published + 'T00:00:00Z') : null;
+  if (!pub || isNaN(pub)) return null;
+  return (Date.now() - pub) / 86400000 < VIEWERS_WAIT_DAYS ? ['This video is still new. We\u2019ll summarize the comments once it\u2019s been out a few weeks.', ''] : null;
+}
 const st = { cats: new Set(), topics: new Set(), chips: new Set(), q: '', sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set(), pin: null, kind: '' };
 let saved = new Set(loadSaved());
 const $ = id => document.getElementById(id);
@@ -184,7 +206,7 @@ function byDate(a, b) { const da = a.published || '', db = b.published || ''; if
 
 // ---------- Download saved gigs as a text file ----------
 function gigText(i) {
-  return `${shortTitle(i)}\n${sentenceCase(i.name)}\n${i.category} | ${i.cost}\nSource: ${i.found}${i.video_title ? ` · "${i.video_title}"` : ''} — ${i.url}\n\nWhat It Is\n${i.what}\n\nThe Pitch\n${i.pitch}\n\nWho It's Best For\n${i.best}\n\nThe Truth (as we see it)\n${i.truth}\n`;
+  return `${shortTitle(i)}\n${sentenceCase(i.name)}\n${i.category} | ${i.cost}\nSource: ${i.found}${i.video_title ? ` · "${i.video_title}"` : ''} — ${i.url}\n\nWhat It Is\n${i.what}\n\nThe Pitch\n${i.pitch}\n\nWho It's Best For\n${i.best}\n\nThe Truth (as we see it)\n${i.truth}\n${(w => w ? `\nWhat Viewers Say\n${w[0]}\n${w[1] ? w[1] + '\n' : ''}` : '')(viewersFor(i))}`;
 }
 function downloadSaved() {
   const list = ALL.filter(i => saved.has(i.id));
@@ -235,6 +257,7 @@ function gigHtml(i) {
       <div><h4>The pitch</h4><p>${esc(i.pitch)}</p></div>
       <div><h4>Who it's best for</h4><p>${esc(i.best)}</p></div>
       <div class="truth-box"><h4>The Truth (as we see it)</h4><p>${esc(i.truth)}</p><p class="truth-note">Our assessment, based on the video and what&rsquo;s typical across similar videos. We don&rsquo;t independently verify income claims or prices.</p></div>
+      ${(w => w ? `<div class="viewers"><h4>What viewers say</h4><p>${esc(w[0])}</p>${w[1] ? `<p class="truth-note">${esc(w[1])}</p>` : ''}</div>` : '')(viewersFor(i))}
       <div class="foot">
         <p class="source-line"><span class="source-label">${/youtu/.test(i.url || '') ? 'Watch the source video on YouTube:' : 'Watch the source video:'}</span> <a class="source-link" href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.video_title || 'Watch on YouTube')} ↗</a></p>
         <button type="button" class="small-btn" data-act="copy">Copy this entire gig</button>
@@ -527,6 +550,7 @@ loadIdeas().then(data => {
   render();
 }).catch(() => { $('count').textContent = "Couldn't load the gigs. Try refreshing."; });
 
+fetch('/data/viewers.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : {}).then(d => { VIEWERS = d.videos || {}; if (ALL.length) render(); }).catch(() => {});
 fetch('/views.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : {}).then(d => { VIEWS = d.views || {}; VIEWS_DATE = d.updated || ''; if (ALL.length) render(); }).catch(() => {});
 
 fetch('/page-index.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : { ideas: [] }).then(d => { pageIds = new Set(d.ideas || []); creatorSlugs = new Set(d.creators || []); if (ALL.length) render(); }).catch(() => {});

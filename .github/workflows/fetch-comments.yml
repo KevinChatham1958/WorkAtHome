@@ -1,0 +1,51 @@
+name: Fetch viewer comments
+
+# Gathers top YouTube comments for the "What Viewers Say" section (tools/fetch_comments.py)
+# and puts them on the short-lived branch "comments-work" as comments-batch.json.
+# Started by the weekly "Viewer comments" run (or by hand from the Actions tab).
+# That run writes the summaries into data/viewers.json on main and then deletes the
+# branch, so raw comments are never kept in main. Uses the YOUTUBE_API_KEY secret;
+# costs about 30 units plus 1 per video of YouTube's free 10,000 daily units.
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'How many videos to read (most-viewed first)'
+        default: '40'
+      videos:
+        description: 'Optional: exact video IDs, comma-separated (overrides limit)'
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-comments
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Read comments from YouTube
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          LIMIT: ${{ github.event.inputs.limit }}
+          VIDEOS: ${{ github.event.inputs.videos }}
+        run: python3 tools/fetch_comments.py --limit "${LIMIT:-40}" --videos "${VIDEOS}" --out /tmp/comments-batch.json
+
+      - name: Put the batch on the comments-work branch
+        run: |
+          cd "$(mktemp -d)"
+          git init -q -b comments-work
+          cp /tmp/comments-batch.json .
+          git config user.name "comments-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add comments-batch.json
+          git commit -q -m "Comments batch $(date -u +%F) (working file; deleted after use)"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" comments-work
