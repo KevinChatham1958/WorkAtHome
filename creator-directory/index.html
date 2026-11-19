@@ -64,7 +64,22 @@
   .more { display: block; margin: 16px auto 0; }
   .note { font-size: 13px; color: var(--muted); margin-top: 28px; }
   @media (max-width: 640px) {
-    .dir h1 { font-size: 32px; }
+    .dir h1 { font-size: 30px; }
+    /* Phones: keep the locked top compact so most of the screen is the list. */
+    .dir.dir-top { padding: 8px 14px 0; }
+    .dir .small { font-size: 12px; margin-bottom: 4px; }
+    .tabs { margin-bottom: 8px; }
+    .dtab { font-size: 16px; padding: 5px 10px; }
+    .tools { gap: 6px; margin-bottom: 6px; }
+    .tools input[type=search] { flex: 1 1 100%; font-size: 16px; padding: 8px 10px; }
+    #top-c .tools { flex-wrap: nowrap; }
+    #top-c .tools input[type=search] { flex: 1 1 auto; min-width: 0; }
+    .sortby { display: none; }
+    .tools select { font-size: 14px; padding: 7px 6px; }
+    #top-v .tools select { flex: 1 1 40%; min-width: 0; }
+    .tools label { font-size: 14px; }
+    .found { font-size: 13px; }
+    .dir-top .found { padding-bottom: 6px; }
     .crow { grid-template-columns: 44px 1fr; }
     .crow img { width: 44px; height: 44px; }
     .stats { grid-column: 1 / -1; text-align: left; white-space: normal; }
@@ -102,8 +117,8 @@
   <div id="top-c">
     <div class="tools">
       <input type="search" id="cq" placeholder="Find a creator by name or topic" aria-label="Find a creator">
-      <label>Sort by
-        <select id="csort">
+      <label><span class="sortby">Sort by</span>
+        <select id="csort" aria-label="Sort creators">
           <option value="subs">Most subscribers</option>
           <option value="gigs">Most gigs in our database</option>
           <option value="views">Most total views</option>
