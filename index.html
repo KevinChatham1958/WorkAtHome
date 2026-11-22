@@ -32,7 +32,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/site.css?v=20261119b">
+<link rel="stylesheet" href="/site.css?v=20261122a">
 </head>
 <!-- Nov 19, 2026 (Kevin): the gig database is the home page. It was at /tool/ (that address now forwards here,
      keeping any ?topic= / ?q= / ?open=). The old marketing home page (Nov 4 redesign) is in git history;
@@ -63,7 +63,7 @@
       <input id="q" type="search" placeholder="Search a skill, idea or creator" autocomplete="off">
       <button type="submit">Search</button>
     </form>
-    <a href="#" class="nav-saved" id="saved-link">&hearts; Saved (<span id="saved-n">0</span>)</a>
+    <span class="saved-wrap"><a href="#" class="nav-saved" id="saved-link">&hearts; Saved (<span id="saved-n">0</span>)</a><button type="button" class="saved-clear" id="saved-clear" hidden>Clear all</button></span>
   </div>
 </div>
 </div>
@@ -137,7 +137,7 @@
 </footer>
 
 <script src="/site.js?v=20261105h"></script>
-<script src="/tool/results.js?v=20261119a"></script>
+<script src="/tool/results.js?v=20261122a"></script>
 <script>
 // Weekly email signup: count submits in Google Analytics (event email_signup, with which form).
 document.querySelectorAll('form.signup').forEach(f => f.addEventListener('submit', () => {

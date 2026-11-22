@@ -334,6 +334,7 @@ function render() {
   if (st.savedOnly) {
     act.push(`<button type="button" class="chip-x" data-x="saved">Saved only ×</button>`);
     if (saved.size) act.push(`<button type="button" class="small-btn" data-x="download">Download my saved gigs</button>`);
+    if (saved.size) act.push(`<button type="button" class="small-btn" data-x="clearsaved">Clear all saved</button>`);
   }
   if (st.q.trim()) act.push(`<button type="button" class="chip-x" data-x="q">“${esc(st.q.trim())}” ×</button>`);
   st.topics.forEach(t => act.push(`<button type="button" class="chip-x" data-x="topic" data-v="${t}">${esc(TOPIC_BY_ID[t].label)} ×</button>`));
@@ -354,6 +355,7 @@ function render() {
   LAST_N = n;
   $('more').hidden = AUTO || n <= st.shown;
   $('saved-n').textContent = saved.size;
+  syncSavedClear();
   renderFilters();
   syncUrl();
 }
@@ -435,6 +437,7 @@ $('active').addEventListener('click', e => {
   const b = e.target.closest('[data-x]'); if (!b) return;
   const x = b.dataset.x;
   if (x === 'download') { downloadSaved(); return; }
+  if (x === 'clearsaved') { askClearSaved(b); return; }
   if (x === 'saved') st.savedOnly = false;
   if (x === 'q') { st.q = ''; $('q').value = ''; }
   if (x === 'cat') { st.cats.delete(b.dataset.v); st.kind = ''; }
@@ -470,6 +473,28 @@ if ('IntersectionObserver' in window) {
   io.observe($('more-zone'));
 }
 function hasMore() { return LAST_N > st.shown; }
+// ---------- Clear all saved gigs (Kevin, Nov 22, 2026) ----------
+// Two taps: the first turns the button into "Clear all N?" for 4 seconds; the second clears.
+function syncSavedClear() {
+  const b = $('saved-clear'); if (!b) return;
+  b.hidden = saved.size === 0;
+  if (!b.classList.contains('armed')) b.textContent = 'Clear all';
+}
+function askClearSaved(btn) {
+  if (!saved.size) return;
+  if (btn.classList.contains('armed')) {
+    const n = saved.size;
+    saved.clear(); persistSaved(); track('clear_saved', { saved_count: n });
+    btn.classList.remove('armed'); clearTimeout(askClearSaved.t);
+    st.savedOnly = false; changed();
+    return;
+  }
+  const label = btn.textContent;
+  btn.classList.add('armed'); btn.textContent = `Clear all ${saved.size}?`;
+  clearTimeout(askClearSaved.t);
+  askClearSaved.t = setTimeout(() => { btn.classList.remove('armed'); btn.textContent = label; }, 4000);
+}
+$('saved-clear').addEventListener('click', e => askClearSaved(e.currentTarget));
 $('saved-link').addEventListener('click', e => { e.preventDefault(); st.savedOnly = !st.savedOnly; changed(); window.scrollTo(0, 0); });
 $('apply').addEventListener('click', () => {
   $('filters').classList.remove('open');

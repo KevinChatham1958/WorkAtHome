@@ -596,6 +596,11 @@ a.m-who:hover, a.m-who:focus-visible { text-decoration: underline; color: #B0000
 .toolbar .search { flex: 1 1 360px; max-width: 760px; }
 .toolbar .nav-saved { font-size: 17px; font-weight: 600; color: var(--navy); text-decoration: none; white-space: nowrap; }
 .toolbar .nav-saved:hover { color: var(--accent-dark); }
+/* Nov 22 2026: "Clear all" next to Saved, two taps (the first asks "Clear all N?") so one stray tap can't wipe a list. */
+.saved-wrap { display: inline-flex; align-items: center; gap: 10px; white-space: nowrap; }
+.saved-clear { font: inherit; font-size: 14px; font-weight: 600; color: #1A56DB; background: none; border: 0; padding: 4px 2px; text-decoration: underline; cursor: pointer; }
+.saved-clear:hover { color: #1240A8; }
+.saved-clear.armed { color: #B42318; }
 
 /* Nov 5 2026: five menu links (Home added), so the Menu button takes over below 960px. */
 @media (max-width: 960px) {
