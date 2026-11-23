@@ -547,6 +547,7 @@ def shell(ctx, site, *, title, desc, canonical, og_type, schema, main, extra_scr
       <a href="{b}/" data-cta="page-header">Browse Database</a>
       <a href="{b}/subscribe/" data-cta="page-header-subscribe">Subscribe</a>
       <a href="{b}/about.html">About</a>
+      <a href="{b}/comments/" data-cta="page-header-comments">Comments</a>
     </nav>
   </div>
 </header>
@@ -904,7 +905,7 @@ def creator_page(name, site, ctx):
 # ---------- sitemap, robots, homepage index ----------
 
 def sitemap(site):
-    urls = [SITE + '/', SITE + '/about.html']
+    urls = [SITE + '/', SITE + '/about.html', SITE + '/comments/']
     urls += [f"{SITE}/category/{slugify(c)}/" for c in CATEGORY_ORDER]
     urls += [f"{SITE}/creator/{slugify(c)}/" for c in site.creators]
     urls += [f"{SITE}/ideas/{x['id']}/" for x in site.pages]

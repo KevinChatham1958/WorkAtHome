@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XP9MDRLCHP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XP9MDRLCHP');
+</script>
+<!-- Microsoft Clarity (visit recordings/heatmaps, project z928e0q6vl) -->
+<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","z928e0q6vl");</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comments — Side Hustle Intel</title>
+<meta name="description" content="Send Side Hustle Intel a comment, a correction, or a video or creator you'd like us to cover.">
+<link rel="canonical" href="https://sidehustleintel.org/comments/">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/site.css?v=20261105m">
+<style>
+.cm-form { margin-top: 24px; display: grid; gap: 18px; }
+.cm-form label { display: block; font-weight: 600; color: var(--ink); margin-bottom: 6px; font-size: 16px; }
+.cm-form .cm-opt { font-weight: 400; color: var(--muted); }
+.cm-form input, .cm-form select, .cm-form textarea { width: 100%; font: inherit; font-size: 17px; padding: 11px 12px; border: 1px solid var(--field); border-radius: 8px; background: #fff; color: var(--ink); }
+.cm-form textarea { min-height: 170px; resize: vertical; }
+.cm-form input:focus, .cm-form select:focus, .cm-form textarea:focus { outline: 2px solid var(--navy); outline-offset: 1px; }
+.cm-form button { justify-self: start; font: inherit; font-weight: 700; font-size: 17px; padding: 12px 26px; border: 0; border-radius: 8px; background: var(--navy); color: #fff; cursor: pointer; }
+.cm-form button:disabled { opacity: .6; cursor: default; }
+.cm-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.cm-note { font-size: 15px !important; color: var(--muted) !important; }
+.cm-msg { padding: 14px 16px; border-radius: 8px; font-size: 17px; }
+.cm-ok { background: #ECFDF3; border: 1px solid #A6E9C0; color: #14532D; }
+.cm-err { background: var(--accent-tint); border: 1px solid #F5C9A9; color: var(--accent-dark); }
+</style>
+</head>
+<body>
+
+<header class="site-header home-header">
+  <div class="wrap">
+    <a href="/" class="home-logo"><img class="logo" src="/assets/logo-horizontal.png" alt="Side Hustle Intel home" width="1782" height="169"></a>
+    <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="home-nav">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+      Menu
+    </button>
+    <nav class="nav home-nav" id="home-nav" aria-label="Main">
+      <a href="/" data-cta="header">Browse Database</a>
+      <a href="/subscribe/" data-cta="header-subscribe">Subscribe</a>
+      <a href="/about.html" data-cta="header-about">About</a>
+      <span class="nav-current" aria-current="page">Comments</span>
+    </nav>
+  </div>
+</header>
+<script>(function(){var b=document.getElementById('menu-btn'),n=document.getElementById('home-nav');b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(o));n.classList.toggle('open',o);});})();</script>
+
+<main class="msg-page">
+  <h1>Comments</h1>
+  <p>Tell us what you think. Spotted a mistake in a gig? Know a YouTube video or creator we should cover? Tried one of these gigs and want to tell us how it went? We read every message.</p>
+  <div id="cm-done" class="cm-msg cm-ok" hidden>Thanks, your comment was sent. If you left your email address and asked a question, we'll reply.</div>
+  <form class="cm-form" id="cm-form" action="/comments/send.php" method="post">
+    <div>
+      <label for="cm-topic">What's it about?</label>
+      <select id="cm-topic" name="topic">
+        <option>General comment</option>
+        <option>Correction to a gig</option>
+        <option>Suggest a video or creator</option>
+        <option>My experience with a gig</option>
+        <option>Problem with the website</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div>
+      <label for="cm-message">Your comment</label>
+      <textarea id="cm-message" name="message" required minlength="5" maxlength="5000"></textarea>
+    </div>
+    <div>
+      <label for="cm-name">Your name <span class="cm-opt">(optional)</span></label>
+      <input id="cm-name" name="name" type="text" maxlength="100" autocomplete="name">
+    </div>
+    <div>
+      <label for="cm-email">Your email <span class="cm-opt">(optional, only if you'd like a reply)</span></label>
+      <input id="cm-email" name="email" type="email" maxlength="200" autocomplete="email">
+    </div>
+    <div class="cm-hp" aria-hidden="true"><label for="cm-website">Leave this empty</label><input id="cm-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+    <input type="hidden" name="t" id="cm-t" value="">
+    <div id="cm-err" class="cm-msg cm-err" hidden></div>
+    <button type="submit" id="cm-send">Send comment</button>
+    <p class="cm-note">Your comment comes to us privately. It isn't posted on the site, and we don't add you to any mailing list. See our <a href="/privacy/">privacy policy</a>.</p>
+  </form>
+</main>
+
+<footer class="site-footer h-footer">
+  <div class="wrap">
+    <nav class="h-foot-links" aria-label="Footer">
+      <a href="/">Browse Database</a>
+      <a href="/subscribe/">Subscribe</a>
+      <a href="/about.html">About</a>
+      <a href="mailto:website@sidehustleintel.org">Contact</a>
+      <a href="/privacy/">Privacy</a>
+    </nav>
+    <p class="h-foot-cats">Browse by type: <a href="/category/local-professional-services/">Services from home</a> · <a href="/category/digital-subscription-products/">Digital products</a> · <a href="/category/marketing-content/">Marketing for businesses</a> · <a href="/category/physical-print-products/">Things you make</a> · <a href="/category/content-personal-brand/">YouTube &amp; blogging</a> · <a href="/category/ai-automation/">AI &amp; automation</a> · <a href="/category/e-commerce/">Online stores</a></p>
+    <p>© 2026 SideHustleIntel.org · Each gig is a summary of an idea from a creator&rsquo;s YouTube video. Creator names are shown for reference only and imply no endorsement. No income is promised or guaranteed.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var f=document.getElementById('cm-form'), t=document.getElementById('cm-t'), err=document.getElementById('cm-err'), btn=document.getElementById('cm-send'), done=document.getElementById('cm-done');
+  t.value=String(Date.now());
+  if (/[?&]sent=1/.test(location.search)) { f.hidden=true; done.hidden=false; }
+  var topic=(location.search.match(/[?&]topic=([^&]+)/)||[])[1];
+  if (topic) { var s=document.getElementById('cm-topic'); var v=decodeURIComponent(topic.replace(/\+/g,' ')); for (var i=0;i<s.options.length;i++) if (s.options[i].text.toLowerCase()===v.toLowerCase()) s.selectedIndex=i; }
+  f.addEventListener('submit', function(e){
+    if (!window.fetch || !window.FormData) return;
+    e.preventDefault(); err.hidden=true; btn.disabled=true; btn.textContent='Sending…';
+    fetch(f.action,{method:'POST',body:new FormData(f),headers:{'Accept':'application/json'}})
+      .then(function(r){return r.json();})
+      .then(function(j){
+        if (j && j.ok) { f.hidden=true; done.hidden=false; window.scrollTo(0,0); try{gtag('event','comment_sent',{topic:document.getElementById('cm-topic').value});}catch(x){} }
+        else { throw new Error(j && j.error || 'x'); }
+      })
+      .catch(function(x){
+        var m=(x && x.message && x.message!=='x' && x.message.indexOf('JSON')<0) ? x.message : 'Sorry, something went wrong.';
+        err.innerHTML=m+' You can also email us at <a href="mailto:website@sidehustleintel.org">website@sidehustleintel.org</a>.';
+        err.hidden=false; btn.disabled=false; btn.textContent='Send comment';
+      });
+  });
+})();
+document.addEventListener('click', function(e){ var a=e.target.closest('[data-cta]'); if (a) { try { gtag('event','cta_click',{cta:a.dataset.cta}); } catch(err){} } });
+</script>
+</body>
+</html>
