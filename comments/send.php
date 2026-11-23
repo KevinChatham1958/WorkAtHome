@@ -32,6 +32,7 @@ $topic   = preg_replace('/[\r\n]+/', ' ', $clean('topic', 60));
 $message = $clean('message', 5000);
 $name    = preg_replace('/[\r\n]+/', ' ', $clean('name', 100));
 $email   = preg_replace('/[\r\n]+/', '', $clean('email', 200));
+$suggest = preg_replace('/[\r\n]+/', ' ', $clean('suggest', 300));
 $trap    = $clean('website', 200);
 $t       = (int)$clean('t', 20);
 
@@ -41,19 +42,20 @@ if ($trap !== '') reply(true);
 if ($t > 0 && (microtime(true) * 1000 - $t) < 3000) reply(true);
 if (preg_match_all('#https?://#i', $message) > 3) reply(true);
 
-if (mb_strlen($message) < 5) reply(false, 'Please write a comment first.');
+if (mb_strlen($message) < 2 && $suggest === '') reply(false, 'Please write a comment first.');
 if ($email !== '' && !filter_var($email, FILTER_VALIDATE_EMAIL)) reply(false, 'That email address doesn\'t look right.');
 if ($topic === '') $topic = 'General comment';
 
 $when = gmdate('Y-m-d H:i') . ' UTC';
 $body = "Topic: $topic\nName: " . ($name !== '' ? $name : '(not given)') .
         "\nEmail: " . ($email !== '' ? $email : '(not given)') .
-        "\nSent: $when\n\n$message\n";
+        "\nSent: $when\n" .
+        ($suggest !== '' ? "Suggested video or creator: $suggest\n" : '') . "\n$message\n";
 
 // Backup log outside the public folder.
 $log = dirname(__DIR__, 2) . '/sidehustle-comments.log';
 @file_put_contents($log, json_encode(array('when' => $when, 'topic' => $topic, 'name' => $name,
-    'email' => $email, 'message' => $message), JSON_UNESCAPED_UNICODE) . "\n", FILE_APPEND | LOCK_EX);
+    'email' => $email, 'suggest' => $suggest, 'message' => $message), JSON_UNESCAPED_UNICODE) . "\n", FILE_APPEND | LOCK_EX);
 
 $to = 'website@sidehustleintel.org';
 $subject = '=?UTF-8?B?' . base64_encode('Site comment: ' . $topic) . '?=';

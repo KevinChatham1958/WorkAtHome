@@ -66,16 +66,20 @@
       <label for="cm-topic">What's it about?</label>
       <select id="cm-topic" name="topic">
         <option>General comment</option>
-        <option>Correction to a gig</option>
         <option>Suggest a video or creator</option>
+        <option>Correction to a gig</option>
         <option>My experience with a gig</option>
         <option>Problem with the website</option>
         <option>Other</option>
       </select>
     </div>
+    <div id="cm-sug-box">
+      <label for="cm-suggest">YouTube video link or creator name</label>
+      <input id="cm-suggest" name="suggest" type="text" maxlength="300" placeholder="e.g. https://www.youtube.com/watch?v=… or a channel name">
+    </div>
     <div>
-      <label for="cm-message">Your comment</label>
-      <textarea id="cm-message" name="message" required minlength="5" maxlength="5000"></textarea>
+      <label for="cm-message" id="cm-msg-label">Your comment</label>
+      <textarea id="cm-message" name="message" required minlength="2" maxlength="5000"></textarea>
     </div>
     <div>
       <label for="cm-name">Your name <span class="cm-opt">(optional)</span></label>
@@ -111,9 +115,13 @@
 (function(){
   var f=document.getElementById('cm-form'), t=document.getElementById('cm-t'), err=document.getElementById('cm-err'), btn=document.getElementById('cm-send'), done=document.getElementById('cm-done');
   t.value=String(Date.now());
+  var sel=document.getElementById('cm-topic'), sug=document.getElementById('cm-sug-box');
+  var msg=document.getElementById('cm-message'), ml=document.getElementById('cm-msg-label');
+  function showSug(){ var on = sel.value==='Suggest a video or creator'; sug.hidden=!on; msg.required=!on; document.getElementById('cm-suggest').required=on; ml.innerHTML = on ? 'Why should we cover it? <span class="cm-opt">(optional)</span>' : 'Your comment'; }
   if (/[?&]sent=1/.test(location.search)) { f.hidden=true; done.hidden=false; }
   var topic=(location.search.match(/[?&]topic=([^&]+)/)||[])[1];
   if (topic) { var s=document.getElementById('cm-topic'); var v=decodeURIComponent(topic.replace(/\+/g,' ')); for (var i=0;i<s.options.length;i++) if (s.options[i].text.toLowerCase()===v.toLowerCase()) s.selectedIndex=i; }
+  showSug(); sel.addEventListener('change', showSug);
   f.addEventListener('submit', function(e){
     if (!window.fetch || !window.FormData) return;
     e.preventDefault(); err.hidden=true; btn.disabled=true; btn.textContent='Sending…';
