@@ -547,7 +547,7 @@ def shell(ctx, site, *, title, desc, canonical, og_type, schema, main, extra_scr
       <a href="{b}/" data-cta="page-header">Browse Database</a>
       <a href="{b}/subscribe/" data-cta="page-header-subscribe">Subscribe</a>
       <a href="{b}/about.html">About</a>
-      <a href="{b}/comments/" data-cta="page-header-comments">Comments</a>
+      <a href="{b}/comments/" data-cta="page-header-comments">Comments/Suggestions</a>
     </nav>
   </div>
 </header>
