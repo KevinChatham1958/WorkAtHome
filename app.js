@@ -118,7 +118,7 @@ function shuffleWithSeed(arr, seed) {
 
 // ---------- Load data ----------
 
-fetch('ideas.json')
+fetch('ideas.json', { cache: 'no-cache' })
   .then(r => r.json())
   .then(data => {
     ALL_IDEAS = data;
@@ -133,7 +133,7 @@ fetch('ideas.json')
     console.error(err);
   });
 
-fetch('page-index.json')
+fetch('page-index.json', { cache: 'no-cache' })
   .then(r => (r.ok ? r.json() : { ideas: [] }))
   .then(data => {
     pageIds = new Set(data.ideas || []);

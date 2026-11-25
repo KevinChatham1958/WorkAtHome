@@ -50,4 +50,5 @@ function avatarHtml(name, cls) {
   // Creators without a saved photo get a neutral head-and-shoulders silhouette (Oct 30, 2026; was initials).
   return `<img class="${cls}" src="/assets/avatars/avatar-${esc(slugify(name))}.jpg" alt="" loading="lazy" onerror="this.onerror=null;this.src='/assets/avatars/silhouette.svg'">`;
 }
-function loadIdeas() { return fetch('/ideas.json').then(r => r.json()); }
+// cache: 'no-cache' makes the browser check for a newer gig list on every visit (Nov 25, 2026).
+function loadIdeas() { return fetch('/ideas.json', { cache: 'no-cache' }).then(r => r.json()); }
