@@ -82,7 +82,7 @@ function viewersFor(i) {
   if (!pub || isNaN(pub)) return null;
   return (Date.now() - pub) / 86400000 < VIEWERS_WAIT_DAYS ? ['This video is still new. We\u2019ll summarize the comments once it\u2019s been out a few weeks.', ''] : null;
 }
-const st = { cats: new Set(), topics: new Set(), chips: new Set(), q: '', sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set(), pin: null, kind: '' };
+const st = { cats: new Set(), topics: new Set(), chips: new Set(), q: '', sort: 'shuffle', savedOnly: false, shown: PAGE, open: new Set(), pin: null, kind: '', fixes: [] };
 let saved = new Set(loadSaved());
 const $ = id => document.getElementById(id);
 
@@ -108,8 +108,12 @@ const STOP = new Set(['a','an','the','and','or','to','for','on','in','of','with'
 function tokenize(s) { return (s || '').toLowerCase().split(/[^a-z0-9]+/).filter(Boolean); }
 function stem(w) { if (w.length > 4 && w.endsWith('ies')) return w.slice(0, -3) + 'y'; if (w.length > 4 && w.endsWith('es')) return w.slice(0, -2); if (w.length > 3 && w.endsWith('s') && !w.endsWith('ss')) return w.slice(0, -1); return w; }
 function prefixLen(a, b) { const n = Math.min(a.length, b.length); let i = 0; while (i < n && a[i] === b[i]) i++; return i; }
+// Word families whose spellings drift too far for the rules below (Nov 25, 2026: "resale" ~ "reselling").
+const FAMILY = {};
+[['resale','resales','resell','resells','reseller','resellers','reselling','resold']].forEach(g => g.forEach(w => { FAMILY[w] = g[0]; }));
 function wordMatches(word, tok) {
   if (tok === word || stem(tok) === stem(word)) return true;
+  if (FAMILY[word] && FAMILY[word] === FAMILY[tok]) return true;
   if (word.length >= 4 && tok.startsWith(word)) return true;
   // Word-family endings ("retired" ~ "retirees", "bookkeeping" ~ "bookkeeper"), never short roots.
   const p = prefixLen(word, tok);
@@ -124,6 +128,72 @@ function queryWords(q) {
   const kept = all.filter(w => !STOP.has(w));
   return kept.length ? kept : all; // a search made only of filler words still searches them
 }
+// ---------- Spelling forgiveness (Nov 25, 2026, after Kevin searched "Cosco") ----------
+// A search word that isn't a real word in the database (filters ignored; a word, its plural, or
+// the start of a longer word all count as real) is swapped for the closest real word: one letter
+// off for words up to 7 letters, two for longer ones, same first letter. Ties go to the word used
+// in more gigs. Words under 4 letters and numbers are left alone.
+// The count line then says "Showing results for “costco” · no gigs mention “cosco”".
+let VOCAB = null; // word -> number of gigs it appears in
+function vocab() {
+  if (VOCAB) return VOCAB;
+  VOCAB = new Map();
+  ALL.forEach(i => { const f = fields(i); new Set([...f.title, ...f.name, ...f.cat, ...f.src, ...f.tags, ...f.body]).forEach(t => VOCAB.set(t, (VOCAB.get(t) || 0) + 1)); });
+  return VOCAB;
+}
+function editDist(a, b, max) {
+  // Damerau-Levenshtein (adjacent swaps count as one edit); stops early once past max.
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  const d = [];
+  for (let i = 0; i <= a.length; i++) { d[i] = [i]; }
+  for (let j = 1; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++) {
+    let rowMin = Infinity;
+    for (let j = 1; j <= b.length; j++) {
+      const c = a[i - 1] === b[j - 1] ? 0 : 1;
+      let v = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + c);
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) v = Math.min(v, d[i - 2][j - 2] + 1);
+      d[i][j] = v; if (v < rowMin) rowMin = v;
+    }
+    if (rowMin > max) return max + 1;
+  }
+  return d[a.length][b.length];
+}
+function knownWord(w, V) {
+  if (V.has(w)) return true;
+  const sw = stem(w);
+  for (const t of V.keys()) if (stem(t) === sw || t.startsWith(w) || (FAMILY[w] && FAMILY[w] === FAMILY[t])) return true;
+  return false;
+}
+const FIX_CACHE = new Map();
+function fixWord(w) {
+  if (FIX_CACHE.has(w)) return FIX_CACHE.get(w);
+  let out = w;
+  const V = vocab();
+  if (w.length >= 4 && !/\d/.test(w) && !knownWord(w, V)) {
+    const max = w.length <= 7 ? 1 : 2;
+    let best = null, bd = max + 1, bn = 0;
+    V.forEach((n, t) => {
+      if (t.length < 3 || t[0] !== w[0] || /\d/.test(t)) return;
+      const dd = editDist(w, t, max);
+      if (dd < bd || (dd === bd && n > bn)) { best = t; bd = dd; bn = n; }
+    });
+    if (best && bd <= max) out = best;
+  }
+  FIX_CACHE.set(w, out);
+  return out;
+}
+function correctWords(words) {
+  const fixes = [];
+  const out = words.map(w => { const f = fixWord(w); if (f !== w) fixes.push([w, f]); return f; });
+  return { words: out, fixes };
+}
+function fixedQuery() {
+  let s = st.q.trim();
+  st.fixes.forEach(([from, to]) => { s = s.replace(new RegExp('\\b' + from + '\\b', 'gi'), m => m[0] === m[0].toUpperCase() ? to[0].toUpperCase() + to.slice(1) : to); });
+  return s;
+}
+
 function fields(i) {
   if (!i._f) i._f = {
     title: tokenize(i.title || ''), name: tokenize(i.name), cat: tokenize(i.category + ' ' + ((CAT_BY_NAME[i.category] || {}).name || '')),
@@ -167,9 +237,10 @@ function baseFiltered(skipCats) {
 function results() {
   let list = baseFiltered(false);
   const q = st.savedOnly ? '' : st.q.trim().toLowerCase();
-  st.loose = false; st.budget = BUDGET_Q.test(q);
+  st.loose = false; st.fixes = []; st.budget = BUDGET_Q.test(q);
   if (st.budget) return list.filter(i => i.cost_level ? i.cost_level === 'Under $100' : BUDGET_COST.test(String(i.cost || '').trim()));
-  const words = queryWords(q);
+  let words = queryWords(q);
+  if (words.length) { const c = correctWords(words); words = c.words; st.fixes = c.fixes; }
   if (words.length) {
     const phrase = words.join(' ');
     let scored = list.map(i => ({ i, s: scoreIdea(i, words, phrase, true) })).filter(x => x.s > 0);
@@ -304,7 +375,7 @@ function kindActive() {
 }
 function heading() {
   if (st.savedOnly) return 'Your saved gigs';
-  if (st.q.trim()) return `Gigs matching “${st.q.trim()}”`;
+  if (st.q.trim()) return `Gigs matching “${st.fixes.length ? fixedQuery() : st.q.trim()}”`;
   if (st.topics.size === 1 && !st.cats.size) return TOPIC_BY_ID[[...st.topics][0]].label + ' gigs';
   if (st.topics.size) return 'Work-at-home gigs';
   if (st.cats.size === 1) return CAT_BY_NAME[[...st.cats][0]].name + ' gigs';
@@ -322,6 +393,7 @@ function render() {
   const narrowed = st.cats.size || st.topics.size || st.chips.size;
   if (st.savedOnly) $('count').innerHTML = `${gigsTxt} saved · <button type="button" class="count-clear" data-clear="saved">Back to all gigs</button>`;
   else if (st.q.trim() && st.budget) $('count').innerHTML = `Showing ${gigsTxt} that cost under $100 to start${narrowed ? ', with your filters' : ''} · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
+  else if (st.q.trim() && st.fixes.length && n) $('count').innerHTML = `<strong>Showing results for “${esc(fixedQuery())}”</strong> · no gigs mention ${st.fixes.map(f => `“${esc(f[0])}”`).join(' or ')} · ${gigsTxt}${narrowed ? ' with your filters' : ''} · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
   else if (st.q.trim() && st.loose) $('count').innerHTML = `No gig mentions every word of “${esc(st.q.trim())}”. Showing ${gigsTxt} that match some of them · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
   else if (st.q.trim()) $('count').innerHTML = `Showing ${gigsTxt} for “${esc(st.q.trim())}”${narrowed ? ' with your filters' : ''} (of ${ALL.length.toLocaleString()}) · <button type="button" class="count-clear" data-clear="q">Clear search</button>`;
   else if (narrowed) $('count').innerHTML = `Showing ${gigsTxt} that ${n === 1 ? 'matches' : 'match'} your choices (of ${ALL.length.toLocaleString()}) · <button type="button" class="count-clear" data-clear="all">Clear all</button>`;
@@ -452,7 +524,7 @@ $('search-form').addEventListener('submit', e => {
   if (st.q.trim()) clearBoxes();
   changed(); $('q').blur();
   const q = st.q.trim().toLowerCase();
-  if (q) { const n = results().length; track('search', { search_term: q, results_found: n ? 'yes' : 'no', match_count: n }); }
+  if (q) { const n = results().length; track('search', { search_term: q, results_found: n ? 'yes' : 'no', match_count: n, corrected_to: st.fixes.length ? fixedQuery().toLowerCase() : '' }); }
 });
 // Emptying the search box clears the search right away (no Enter needed), so a refresh doesn't bring it back.
 $('q').addEventListener('input', () => {
